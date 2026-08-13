@@ -1,0 +1,4 @@
+interface:
+  display_name: "Palo Alto Technical Answer"
+  short_description: "Fast, concise answers from verified official documentation"
+  default_prompt: "Answer my Palo Alto or KOI technical question concisely using only verified local official documentation, with scope, freshness, and citations."

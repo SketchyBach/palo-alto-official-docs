@@ -1,0 +1,259 @@
+---
+url: https://docs.paloaltonetworks.com/common-services/identity-and-access-access-management/manage-identity-and-access/delete-users
+fetched_at: 2026-08-12T14:06:15Z
+source: idira-and-identity
+---
+
+# Remove User Access Through Common Services Clear
+
+Remove User Access Through Common Services 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Common Services: Identity and Access 
+
+ : 
+ Remove User Access Through Common Services 
+
+ Updated on 
+
+ Thu May 07 22:18:11 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Get Started with Common Services: Identity & Access 
+
+ Manage Identity and Access 
+
+ About Identity and Access 
+
+ Add Access 
+
+ Remove Access 
+
+ About Roles and Permissions 
+
+ Assign a Role 
+
+ Assign a Batch of Predefined Roles 
+
+ Add a Custom Role 
+
+ Modify a Custom Role 
+
+ Clone a Role 
+
+ Add a Service Account 
+
+ Update a Service Account 
+
+ Remove a Service Account 
+
+ Manage Third Party Identity Provider Integrations 
+
+ Add an Identity Federation 
+
+ Manually Configure a SAML Identity Provider 
+
+ Upload SAML Identity Provider Metadata 
+
+ Get the URL of a SAML Identity Provider 
+
+ Clone SAML Identity Provider Configuration 
+
+ Add or Delete an Identity Federation Owner 
+
+ Configure Palo Alto Networks as a Service Provider 
+
+ Delete an Identity Federation 
+
+ Map a Tenant for Authorization 
+
+ Update Tenant Mapping for Authorization 
+
+ Configure Custom SAML Role Mapping 
+
+ PAN Resource Name Mapping Properties 
+
+ Configure Third-Party Identity Provider Integration with Microsoft Entra ID 
+
+ Configure Entra ID SAML Integration for Authentication Only 
+
+ Configure Entra ID SAML Integration for Authentication and Authorization 
+
+ SCIM 
+
+ Sailpoint 
+
+ OCI 
+
+ Manage Single Tenant Transition to Multitenant 
+
+ Release Updates 
+
+ Updated on 
+
+ Thu May 07 22:18:11 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Common Services 
+
+ Common Services: Identity and Access 
+
+ Manage Identity and Access Through Common Services 
+
+ Remove User Access Through Common Services 
+
+ Download PDF 
+
+ Common Services: Identity and Access 
+
+ Remove User Access Through Common Services 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Get Started with Common Services: Identity & Access 
+
+ Manage Identity and Access 
+
+ About Identity and Access 
+
+ Add Access 
+
+ Remove Access 
+
+ About Roles and Permissions 
+
+ Assign a Role 
+
+ Assign a Batch of Predefined Roles 
+
+ Add a Custom Role 
+
+ Modify a Custom Role 
+
+ Clone a Role 
+
+ Add a Service Account 
+
+ Update a Service Account 
+
+ Remove a Service Account 
+
+ Manage Third Party Identity Provider Integrations 
+
+ Add an Identity Federation 
+
+ Manually Configure a SAML Identity Provider 
+
+ Upload SAML Identity Provider Metadata 
+
+ Get the URL of a SAML Identity Provider 
+
+ Clone SAML Identity Provider Configuration 
+
+ Add or Delete an Identity Federation Owner 
+
+ Configure Palo Alto Networks as a Service Provider 
+
+ Delete an Identity Federation 
+
+ Map a Tenant for Authorization 
+
+ Update Tenant Mapping for Authorization 
+
+ Configure Custom SAML Role Mapping 
+
+ PAN Resource Name Mapping Properties 
+
+ Configure Third-Party Identity Provider Integration with Microsoft Entra ID 
+
+ Configure Entra ID SAML Integration for Authentication Only 
+
+ Configure Entra ID SAML Integration for Authentication and Authorization 
+
+ SCIM 
+
+ Sailpoint 
+
+ OCI 
+
+ Manage Single Tenant Transition to Multitenant 
+
+ Release Updates 
+
+ Remove User Access Through Common Services 
+
+ Learn how to remove user access. 
+
+ Common Services enables you to remove
+user access from the platform, as well as from the tenants that
+you created. 
+
+ Hover over the email address in the Identity column, to
+ see any reasons why a user's access cannot be removed: 
+
+ If the tenant has only one user, that user’s access cannot be removed from
+ the tenant. 
+
+ If you integrate with a third party
+ IDP for your enterprise, you cannot remove user access directly
+ from the tenant. You need to remove the access from the third party
+ portal. 
+
+ If the user's access is inherited from a parent tenant, the access can only
+ be removed at the parent level. 
+
+ Use one of the various ways to access 
+ Common Services Identity & Access . 
+
+ Select Identity & Access/Access Management . Only one
+ way is shown here. 
+
+ Select the tenant where you want to remove user access. 
+
+ Select one or more users whose access you want to remove. 
+
+ Select Remove . 
+
+ When prompted, Remove the user’s
+access from the selected tenant. 
+
+ Previous 
+
+ Add Access 
+
+ Next 
+
+ About Roles and Permissions 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

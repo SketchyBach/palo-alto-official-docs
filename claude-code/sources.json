@@ -1,0 +1,12 @@
+{
+  "policy": {"allowed_domains": ["cortex-docs.paloaltonetworks.com", "docs.paloaltonetworks.com"], "language": "en", "user_agent": "PaloAltoOfficialDocsLocal/1.0", "request_delay_seconds": 0.35, "stale_after_days": 14},
+  "local_sources": [
+    {"name": "koi-official-export", "domain": "docs.koi.ai", "manifest": "data/koi-official/manifest.json", "stale_after_days": 30}
+  ],
+  "sources": [
+    {"name": "cortex-platform", "priority": 1, "seed_urls": ["https://cortex-docs.paloaltonetworks.com/"], "include_prefixes": ["https://cortex-docs.paloaltonetworks.com/"]},
+    {"name": "strata-and-sase", "priority": 2, "seed_urls": ["https://docs.paloaltonetworks.com/sase", "https://docs.paloaltonetworks.com/network-security"], "include_prefixes": ["https://docs.paloaltonetworks.com/sase", "https://docs.paloaltonetworks.com/network-security"]},
+    {"name": "ai-security", "priority": 2, "seed_urls": ["https://docs.paloaltonetworks.com/ai-access-security"], "include_prefixes": ["https://docs.paloaltonetworks.com/ai-access-security"]},
+    {"name": "idira-and-identity", "priority": 2, "seed_urls": ["https://docs.paloaltonetworks.com/identity", "https://docs.paloaltonetworks.com/common-services/identity-and-access-access-management"], "include_prefixes": ["https://docs.paloaltonetworks.com/identity", "https://docs.paloaltonetworks.com/common-services/identity-and-access-access-management"]}
+  ]
+}

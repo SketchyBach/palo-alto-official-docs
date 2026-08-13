@@ -1,0 +1,4 @@
+interface:
+  display_name: "Palo Alto Integration Guide"
+  short_description: "Verified step-by-step Palo Alto and KOI integrations"
+  default_prompt: "Build a verified step-by-step integration guide from the local official corpus, including prerequisites, exact configuration, validation, cautions, and rollback."

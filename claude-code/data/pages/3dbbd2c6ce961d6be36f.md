@@ -1,0 +1,259 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/data-security-documentation
+fetched_at: 2026-08-12T14:01:22Z
+source: cortex-platform
+---
+
+# What is Cortex Data Security? | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+What is Cortex Data Security? | Cortex Documentation Portal 
+
+ ⌘ Ctrl k 
+
+ Blog Support 
+ More 
+
+ Home 
+
+ Products 
+
+ Guides 
+
+ Release Notes 
+
+ API 
+
+ Reference 
+
+ AI Assistant 
+
+ Good morning 
+ I'm here to help you with the docs. 
+
+ What is this page about? What should I read next? Can you give an example? 
+
+ ⌘ Ctrl i 
+
+ AI Based on your context 
+ Send 
+
+ Get started with Cortex Data Security 
+
+ What is Cortex Data Security? 
+
+ Key features 
+
+ Supported web browsers 
+
+ Use the interface 
+
+ Understand Cortex Data Security Licenses 
+
+ Data Security 
+
+ Cortex Data Security terminology 
+
+ Data Security Posture Management 
+
+ Data Detection and Response 
+
+ AI Security Posture Management 
+
+ Data Access Governance 
+
+ Supported assets in Cortex Data Security 
+
+ Data Classification 
+
+ Agentic AI & Cortex Agentic Assistant 
+
+ About Agentic AI & the Cortex Agentic Assistant 
+
+ Agentic Assistant use cases 
+
+ Agentic Assistant security 
+
+ Data security agent 
+
+ Onboard and configure 
+
+ Plan and prepare 
+
+ Deployment checklist 
+
+ CSP onboarding 
+
+ DBaaS onboarding 
+
+ On premise onboarding 
+
+ Post-onboarding 
+
+ Data management 
+
+ Broker VM 
+
+ Dataset management 
+
+ Manage compute units 
+
+ Cortex Data Security Data Sources and Connectors 
+
+ What are Cortex Data Security data sources and connectors? 
+
+ Complete data source and connector catalog 
+
+ Vendor-specific data sources and connectors 
+
+ Connectors 
+
+ Standard data sources 
+
+ Cloud service provider (CSP) onboarding 
+
+ Generic on-premise data collectors 
+
+ Cloud Posture and Runtime Security data sources 
+
+ Administration and troubleshooting 
+
+ Inventory & Monitoring 
+
+ Asset management 
+
+ Dashboards and reports 
+
+ Issue Management 
+
+ Cases and issues 
+
+ Investigation and response 
+
+ How to report a false positive in Cortex Data Classification 
+
+ Advanced tools 
+
+ Rules and policies 
+
+ XQL query language 
+
+ Graph search 
+
+ On this page 
+
+ For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Data Security 
+
+ Cortex Data Security Documentation 
+
+ Get started with Cortex Data Security 
+
+ What is Cortex Data Security? 
+
+ Cortex Data Security is the unified data security solution from Palo Alto Networks for protecting sensitive data wherever it lives across your organization. It covers cloud storage, SaaS applications, on-premises file shares and databases, database-as-a-service (DBaaS) environments, code repositories, and AI pipelines. The platform discovers, classifies, and protects your data from a single console, replacing the fragmented set of point tools that organizations have traditionally needed to cover each environment. 
+
+ The platform brings together Data Security Posture Management (DSPM) and Data Detection and Response (DDR) on a single, shared data layer. Because all of these capabilities draw on the same classification engine and the same policy model, you define data security policies once and the platform applies them consistently across posture assessment and detection, pairing them with AI-powered investigation and automated remediation. 
+
+ Capabilities 
+
+ The platform combines its primary pillars on the same unified data layer: 
+
+ Data Security Posture Management (DSPM): Discovers data assets, classifies their contents, and assesses configuration and access risk for data at rest across every environment. 
+
+ AI Security Posture Management (AI-SPM): Maps your AI pipelines (training data, models, model endpoints, and agents) as classifiable assets and assesses their risk against standards such as the EU AI Act. 
+
+ Data Access Governance (DAG): Analyzes identities and entitlements to calculate effective permissions and help you rightsize access to sensitive data. It enables you to enforce least privilege across humans, service accounts, and AI agents. 
+
+ Data Detection and Response (DDR): Detects and responds to data threats in real time, using behavioral baselines for every human and non-human identity, with full classification context attached to each alert to accelerate triage and reduce false positives. 
+
+ For a detailed breakdown of what each of these delivers, see Key features . 
+
+ Architecture overview 
+
+ The platform is organized as a set of layers built on a shared data foundation: 
+
+ Shared data foundation: Automated discovery and cataloging, AI-powered data classification, and a uniform governance and policy engine sit beneath everything else. Because all modules draw on the same classification results and the same policy definitions, the platform can correlate across domains, joining data, identities, and activity to detect composite risks that a single-domain tool would miss. 
+
+ Functional modules: DSPM, AI-SPM, DAG and DDR operate on top of the shared foundation rather than as standalone products stitched together. 
+
+ Agentic operations: Cortex AgentiX and Cortex XSOAR provide AI-driven investigation, prioritization, and automated remediation across the platform. 
+
+ Data reaches the platform through connectors matched to each source type. Cloud accounts onboard through the cloud service provider (CSP) onboarding wizard, where you choose a scan mode: 
+
+ Cloud Scan (recommended): Palo Alto Networks performs scanning in its own managed environment. 
+
+ Outpost Scan: Scanning runs on infrastructure you host, for data-residency or compliance requirements. 
+
+ For a comparison of the two scan modes and guidance on when to choose Outpost Scan, see Outpost fundamentals and planning . 
+
+ On-premises sources connect through a Broker VM , and SaaS and DBaaS environments through direct API integrations. 
+
+ Data inventory 
+
+ As the platform discovers and classifies your assets, it builds a uniform inventory across every environment so you can see where your data lives, what it contains, and how exposed it is from a single place. The data inventory is the starting point for posture assessment, access governance, and investigation. For the full reference on the assets the platform tracks and how to work with them, see Data inventory . 
+
+ Command Center 
+
+ The Cortex Data Security Command Center is the central hub for information on the data ecosystem within your organization. It provides a comprehensive, interactive overview of your data security posture: every data asset discovered, the sensitive data that matters most, and the open issues, policy violations, and identities that need your attention. It's designed to help you quickly access relevant information and determine the next steps to take for effective data governance. 
+
+ The following image shows the Cortex Data Security Command Center: 
+
+ For more information, see Cortex Data Security Command Center . 
+
+ Benefits 
+
+ Cortex Data Security enables you to: 
+
+ Discover and visualize all your data assets across cloud, SaaS, on-premises, DBaaS, code, and AI workloads, so you understand where sensitive data is, how it is used, and how it moves across the organization. 
+
+ Apply a single, harmonized policy across the platform, eliminating policy drift and closing the coverage gaps that come from managing per-channel tools separately. 
+
+ Reduce your data attack surface by identifying and eliminating data threat vectors early in the kill chain, such as shadow data, over-privileged access, and compliance violations. 
+
+ Detect and respond to data threats in real time with full classification context, reducing Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR) through AI and automation. 
+
+ Enable safe AI adoption by mapping AI pipelines, governing the data that powers them, and rightsizing access for human, machine, and agent identities. 
+
+ Reduce cost and improve data hygiene by detecting unused, duplicated, orphaned, and stale assets such as shadow backups and empty storage. 
+
+ Next Key features 
+
+ Last updated 9 days ago 
+
+ Was this helpful? 
+
+ ‍ 
+
+ Trust Center 
+
+ ‍ 
+
+ Privacy 
+
+ ‍ 
+
+ Terms of Use 
+
+ ‍ 
+
+ Legal 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved. 
+
+ Capabilities 
+
+ Architecture overview 
+
+ Data inventory 
+
+ Command Center 
+
+ Benefits 
+
+ Was this helpful?

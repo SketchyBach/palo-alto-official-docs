@@ -1,0 +1,35 @@
+<!-- KOI source: https://docs.koi.ai/api-reference/reference/audit-logs.md -->
+
+> For the complete documentation index, see [llms.txt](https://docs.koi.ai/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.koi.ai/api-reference/reference/audit-logs.md).
+
+# Audit Logs
+
+## List audit logs
+
+> Retrieves a paginated list of audit logs
+
+```json
+{"openapi":"3.0.0","info":{"title":"KOI API","version":"1.1"},"servers":[{"url":"https://api.prod.koi.security","description":"Production"}],"security":[{"bearerAuth":[]}],"components":{"securitySchemes":{"bearerAuth":{"scheme":"bearer","bearerFormat":"JWT","type":"http"}},"schemas":{"V2ListAuditLogsResponseDto":{"type":"object","properties":{"items":{"description":"Array of audit log items","type":"array","items":{"$ref":"#/components/schemas/V2AuditLogItem"}},"total_count":{"type":"number","description":"The total number of audit log items"}},"required":["items","total_count"]},"V2AuditLogItem":{"type":"object","properties":{"action":{"type":"string","description":"The action performed","enum":["created","updated","deleted","enabled","disabled","installed","uninstalled","archived","unarchived","blocked","email_sent","webhook_sent","notification_failed","remediation_dismissed","remediation_executed","remediation_failed","remediation_opened","remediation_pending","force_remediation_requested","allowlist_items_added","blocklist_items_added"]},"category":{"type":"string","description":"The category of the audit log event (user, system, endpoint)"},"created_at":{"type":"string","description":"The timestamp when the audit log was created"},"endpoint":{"type":"string","description":"The device/endpoint where the event occurred"},"hostname":{"type":"string","description":"The hostname/endpoint where the event occurred"},"id":{"type":"string","description":"Stable unique identifier of the audit log event. Use it to deduplicate and track ingestion progress (timestamps alone are not unique)."},"item_version":{"type":"string","description":"The item version associated with the event"},"marketplace":{"type":"string","description":"The marketplace associated with the event"},"message":{"type":"string","description":"The message describing the audit log event"},"object_id":{"type":"string","description":"The ID of the affected object"},"object_name":{"type":"string","description":"The name of the affected object"},"object_type":{"type":"string","description":"The type of the affected object"},"platform":{"type":"string","description":"The platform associated with the event"},"reason":{"type":"string","description":"The reason for the action"},"triggered_by":{"type":"string","description":"The user who triggered the action"},"type":{"type":"string","description":"The type of audit log (e.g., remediation, policies, etc.)","enum":["approval_requests","devices","endpoints","extensions","firewall","guardrails","notifications","policies","remediation","requests","settings","vetting"]}},"required":["id","created_at","message"]}}},"paths":{"/api/external/v2/audit-logs":{"get":{"description":"Retrieves a paginated list of audit logs","operationId":"auditlog_list-audit-logs","parameters":[{"name":"actions","required":false,"in":"query","description":"Filter audit logs by action(s)","schema":{"type":"array","items":{"type":"string","enum":["created","updated","deleted","enabled","disabled","installed","uninstalled","archived","unarchived","blocked","email_sent","webhook_sent","notification_failed","remediation_dismissed","remediation_executed","remediation_failed","remediation_opened","remediation_pending","force_remediation_requested","allowlist_items_added","blocklist_items_added"]}}},{"name":"categories","required":false,"in":"query","description":"Filter audit logs by category (user, system, endpoint)","schema":{"type":"array","items":{"type":"array"}}},{"name":"created_at_gte","required":false,"in":"query","description":"Creation timestamp greater than or equal to (inclusive) for filtering audit logs (ISO 8601)","schema":{"format":"date-time","type":"string"}},{"name":"created_at_lte","required":false,"in":"query","description":"Creation timestamp less than or equal to (inclusive) for filtering audit logs (ISO 8601)","schema":{"format":"date-time","type":"string"}},{"name":"object_types","required":false,"in":"query","description":"Filter audit logs by object type (policy, item, device, guardrail, notification)","schema":{"type":"array","items":{"type":"array"}}},{"name":"page","required":false,"in":"query","description":"Page number for pagination","schema":{"minimum":1,"default":1,"type":"number"}},{"name":"page_size","required":false,"in":"query","description":"Number of results per page","schema":{"maximum":500,"default":100,"type":"number"}},{"name":"sort_direction","required":false,"in":"query","description":"Sort direction","schema":{"type":"string","enum":["asc","desc"]}},{"name":"types","required":false,"in":"query","description":"Filter audit logs by type(s). Can be a single type or an array of types","schema":{"type":"array","items":{"type":"string","enum":["approval_requests","devices","endpoints","extensions","firewall","guardrails","notifications","policies","remediation","requests","settings","vetting"]}}}],"responses":{"200":{"description":"Successfully retrieved audit logs","content":{"application/json":{"schema":{"$ref":"#/components/schemas/V2ListAuditLogsResponseDto"}}}},"400":{"description":"Invalid query parameters"},"401":{"description":"Unauthorized","content":{"application/json":{"schema":{"type":"object","properties":{"message":{"type":"string"}}}}}}},"summary":"List audit logs","tags":["Audit Logs"]}}}}
+```
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
+
+```
+GET https://docs.koi.ai/api-reference/reference/audit-logs.md?ask=<question>&goal=<endgoal>
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

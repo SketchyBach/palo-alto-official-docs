@@ -1,0 +1,301 @@
+# KOI Documentation Index
+
+Generated: 2026-07-22T13:41:11+00:00
+
+Use the source URL recorded for each page when validating an answer.
+
+## api-reference
+
+- [Get Started with Koi API](https://docs.koi.ai/api-reference/readme.md) | Local: `docs/api-reference/readme.md`
+- [Overview and evolution](https://docs.koi.ai/api-reference/readme/overview-and-evolution.md) | Local: `docs/api-reference/readme/overview-and-evolution.md`
+- [Agent Activity](https://docs.koi.ai/api-reference/reference/agent-activity.md) | Local: `docs/api-reference/reference/agent-activity.md`
+- [Agents Runtime Policies](https://docs.koi.ai/api-reference/reference/agents-runtime-policies.md) | Local: `docs/api-reference/reference/agents-runtime-policies.md`
+- [Alerts](https://docs.koi.ai/api-reference/reference/alerts.md) | Local: `docs/api-reference/reference/alerts.md`
+- [Approval Requests](https://docs.koi.ai/api-reference/reference/approval-requests.md) | Local: `docs/api-reference/reference/approval-requests.md`
+- [Audit Logs](https://docs.koi.ai/api-reference/reference/audit-logs.md) | Local: `docs/api-reference/reference/audit-logs.md`
+- [Devices](https://docs.koi.ai/api-reference/reference/devices.md) | Local: `docs/api-reference/reference/devices.md`
+- [Findings](https://docs.koi.ai/api-reference/reference/findings.md) | Local: `docs/api-reference/reference/findings.md`
+- [Groups](https://docs.koi.ai/api-reference/reference/groups.md) | Local: `docs/api-reference/reference/groups.md`
+- [Inventory](https://docs.koi.ai/api-reference/reference/inventory.md) | Local: `docs/api-reference/reference/inventory.md`
+- [Koidex](https://docs.koi.ai/api-reference/reference/koidex.md) | Local: `docs/api-reference/reference/koidex.md`
+- [Policies](https://docs.koi.ai/api-reference/reference/policies.md) | Local: `docs/api-reference/reference/policies.md`
+- [Private Items](https://docs.koi.ai/api-reference/reference/private-items.md) | Local: `docs/api-reference/reference/private-items.md`
+- [Remediations](https://docs.koi.ai/api-reference/reference/remediations.md) | Local: `docs/api-reference/reference/remediations.md`
+- [Reports](https://docs.koi.ai/api-reference/reference/reports.md) | Local: `docs/api-reference/reference/reports.md`
+- [Users](https://docs.koi.ai/api-reference/reference/users.md) | Local: `docs/api-reference/reference/users.md`
+## get-started
+
+- [Be Successful with Koi](https://docs.koi.ai/get-started/be-successful-with-koi.md) | Local: `docs/get-started/be-successful-with-koi.md`
+- [Frequently asked questions](https://docs.koi.ai/get-started/frequently-asked-questions.md) | Local: `docs/get-started/frequently-asked-questions.md`
+- [Capabilities coverage](https://docs.koi.ai/get-started/platform-coverage.md) | Local: `docs/get-started/platform-coverage.md`
+- [What’s new in Koi](https://docs.koi.ai/get-started/whats-new-in-koi.md) | Local: `docs/get-started/whats-new-in-koi.md`
+## guardrails
+
+- [Agent Credential Access Restriction](https://docs.koi.ai/guardrails/agent-credential-access-restriction.md) | Local: `docs/guardrails/agent-credential-access-restriction.md`
+- [Agent Destructive Command Restriction](https://docs.koi.ai/guardrails/agent-destructive-command-restriction.md) | Local: `docs/guardrails/agent-destructive-command-restriction.md`
+- [Block Execution from Risky Paths (Preview)](https://docs.koi.ai/guardrails/block-execution-from-risky-paths-preview.md) | Local: `docs/guardrails/block-execution-from-risky-paths-preview.md`
+- [Delisted monitoring](https://docs.koi.ai/guardrails/copy-of-auto-remediate-delisted.md) | Local: `docs/guardrails/copy-of-auto-remediate-delisted.md`
+- [Delayed Access](https://docs.koi.ai/guardrails/delayed-access.md) | Local: `docs/guardrails/delayed-access.md`
+- [Malware Protection](https://docs.koi.ai/guardrails/malware-protection.md) | Local: `docs/guardrails/malware-protection.md`
+- [MCP Registry Enforcement](https://docs.koi.ai/guardrails/mcp-registry-enforcement.md) | Local: `docs/guardrails/mcp-registry-enforcement.md`
+- [Overview](https://docs.koi.ai/guardrails/overview.md) | Local: `docs/guardrails/overview.md`
+- [Scan-First Protection](https://docs.koi.ai/guardrails/scan-first-protection.md) | Local: `docs/guardrails/scan-first-protection.md`
+- [Sideloading Monitoring](https://docs.koi.ai/guardrails/sideloading-visibility.md) | Local: `docs/guardrails/sideloading-visibility.md`
+- [Version Update Cooldown](https://docs.koi.ai/guardrails/version-update-cooldown.md) | Local: `docs/guardrails/version-update-cooldown.md`
+## guides
+
+- [Agentic runtime control](https://docs.koi.ai/guides/agentic-runtime-control.md) | Local: `docs/guides/agentic-runtime-control.md`
+- [Agent Activity (Preview)](https://docs.koi.ai/guides/agentic-runtime-control/agent-activity.md) | Local: `docs/guides/agentic-runtime-control/agent-activity.md`
+- [Dev Container Integration Guide](https://docs.koi.ai/guides/agentic-runtime-control/agent-activity/dev-container-integration-guide.md) | Local: `docs/guides/agentic-runtime-control/agent-activity/dev-container-integration-guide.md`
+- [Agent Enforcement Custom Policies](https://docs.koi.ai/guides/agentic-runtime-control/agent-enforcement-custom-policies.md) | Local: `docs/guides/agentic-runtime-control/agent-enforcement-custom-policies.md`
+- [Runtime Agent Activity (AIDR)](https://docs.koi.ai/guides/agentic-runtime-control/runtime-agent-activity.md) | Local: `docs/guides/agentic-runtime-control/runtime-agent-activity.md`
+- [AI Agent Personal Account Usage](https://docs.koi.ai/guides/agentic-runtime-control/runtime-agent-activity/ai-agent-personal-account-usage.md) | Local: `docs/guides/agentic-runtime-control/runtime-agent-activity/ai-agent-personal-account-usage.md`
+- [Dev Container Integration Guide](https://docs.koi.ai/guides/agentic-runtime-control/runtime-agent-activity/dev-container-integration-guide.md) | Local: `docs/guides/agentic-runtime-control/runtime-agent-activity/dev-container-integration-guide.md`
+- [Setup & Deployment](https://docs.koi.ai/guides/agentic-runtime-control/setup-and-deployment.md) | Local: `docs/guides/agentic-runtime-control/setup-and-deployment.md`
+- [End user experience settings](https://docs.koi.ai/guides/end-user-experience-settings.md) | Local: `docs/guides/end-user-experience-settings.md`
+- [End-user notifications](https://docs.koi.ai/guides/end-user-notifications.md) | Local: `docs/guides/end-user-notifications.md`
+- [Endpoint lifecycle management (Preview)](https://docs.koi.ai/guides/endpoint-removal-and-soft-delete.md) | Local: `docs/guides/endpoint-removal-and-soft-delete.md`
+- [Governance best practices](https://docs.koi.ai/guides/governance-best-practices.md) | Local: `docs/guides/governance-best-practices.md`
+- [Allowlist mode best practices](https://docs.koi.ai/guides/governance-best-practices/allowlist-mode-best-practices.md) | Local: `docs/guides/governance-best-practices/allowlist-mode-best-practices.md`
+- [Blocklist mode best practices](https://docs.koi.ai/guides/governance-best-practices/blocklist-mode-best-practices.md) | Local: `docs/guides/governance-best-practices/blocklist-mode-best-practices.md`
+- [Code package prevention](https://docs.koi.ai/guides/governance-best-practices/code-package-prevention.md) | Local: `docs/guides/governance-best-practices/code-package-prevention.md`
+- [Policies creation](https://docs.koi.ai/guides/governance-best-practices/create-policy.md) | Local: `docs/guides/governance-best-practices/create-policy.md`
+- [Policy Library](https://docs.koi.ai/guides/governance-best-practices/policy-library.md) | Local: `docs/guides/governance-best-practices/policy-library.md`
+- [Item identifiers per marketplace](https://docs.koi.ai/guides/item-identifiers-per-marketplace.md) | Local: `docs/guides/item-identifiers-per-marketplace.md`
+- [Protect AI tools with Koi](https://docs.koi.ai/guides/protect-ai-tools-with-koi.md) | Local: `docs/guides/protect-ai-tools-with-koi.md`
+- [Agent Activity (Preview)](https://docs.koi.ai/guides/protect-ai-tools-with-koi/agent-activity.md) | Local: `docs/guides/protect-ai-tools-with-koi/agent-activity.md`
+- [Dev Container Integration Guide](https://docs.koi.ai/guides/protect-ai-tools-with-koi/agent-activity/dev-container-integration-guide.md) | Local: `docs/guides/protect-ai-tools-with-koi/agent-activity/dev-container-integration-guide.md`
+- [Agent Enforcement (Preview)](https://docs.koi.ai/guides/protect-ai-tools-with-koi/agent-enforcement.md) | Local: `docs/guides/protect-ai-tools-with-koi/agent-enforcement.md`
+- [Agentic AI Governance Layers](https://docs.koi.ai/guides/protect-ai-tools-with-koi/agentic-ai-governance-layers.md) | Local: `docs/guides/protect-ai-tools-with-koi/agentic-ai-governance-layers.md`
+- [MCP Servers - Governance](https://docs.koi.ai/guides/protect-ai-tools-with-koi/mcp-governance.md) | Local: `docs/guides/protect-ai-tools-with-koi/mcp-governance.md`
+- [MCP Servers - Discovery](https://docs.koi.ai/guides/protect-ai-tools-with-koi/mcp-servers-discovery.md) | Local: `docs/guides/protect-ai-tools-with-koi/mcp-servers-discovery.md`
+- [Plugins - Discovery (Preview)](https://docs.koi.ai/guides/protect-ai-tools-with-koi/plugins-discovery.md) | Local: `docs/guides/protect-ai-tools-with-koi/plugins-discovery.md`
+- [Protect applications with Koi](https://docs.koi.ai/guides/protect-applications-with-koi.md) | Local: `docs/guides/protect-applications-with-koi.md`
+- [Binaries Discovery](https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery.md) | Local: `docs/guides/protect-applications-with-koi/binaries-discovery.md`
+- [Binaries Inventory (Preview)](https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery/binaries-inventory-preview.md) | Local: `docs/guides/protect-applications-with-koi/binaries-discovery/binaries-inventory-preview.md`
+- [Binary executions (Preview)](https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery/binary-executions-preview.md) | Local: `docs/guides/protect-applications-with-koi/binaries-discovery/binary-executions-preview.md`
+- [Binaries - Governance (Preview)](https://docs.koi.ai/guides/protect-applications-with-koi/binaries-governance-preview.md) | Local: `docs/guides/protect-applications-with-koi/binaries-governance-preview.md`
+- [Applications - Discovery](https://docs.koi.ai/guides/protect-applications-with-koi/software-inventory-preview.md) | Local: `docs/guides/protect-applications-with-koi/software-inventory-preview.md`
+- [Protect code packages with Koi](https://docs.koi.ai/guides/protect-code-packages-with-koi.md) | Local: `docs/guides/protect-code-packages-with-koi.md`
+- [Code Packages - Governance](https://docs.koi.ai/guides/protect-code-packages-with-koi/code-package-prevention.md) | Local: `docs/guides/protect-code-packages-with-koi/code-package-prevention.md`
+- [Code Packages - Discovery](https://docs.koi.ai/guides/protect-code-packages-with-koi/code-packages-discovery.md) | Local: `docs/guides/protect-code-packages-with-koi/code-packages-discovery.md`
+- [Code Packages - Remediation (Preview)](https://docs.koi.ai/guides/protect-code-packages-with-koi/code-packages-remediation.md) | Local: `docs/guides/protect-code-packages-with-koi/code-packages-remediation.md`
+- [Protect the agentic endpoint with Koi](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi.md) | Local: `docs/guides/protect-the-agentic-endpoint-with-koi.md`
+- [AI Agents Discovery](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/ai-agents-discovery.md) | Local: `docs/guides/protect-the-agentic-endpoint-with-koi/ai-agents-discovery.md`
+- [Git Repository Discovery](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/git-repository-discovery.md) | Local: `docs/guides/protect-the-agentic-endpoint-with-koi/git-repository-discovery.md`
+- [MCP Servers - Governance](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/mcp-governance.md) | Local: `docs/guides/protect-the-agentic-endpoint-with-koi/mcp-governance.md`
+- [Claude Connectors - Governance](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/mcp-governance/claude-connectors-governance.md) | Local: `docs/guides/protect-the-agentic-endpoint-with-koi/mcp-governance/claude-connectors-governance.md`
+- [MCP Servers - Discovery](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/mcp-servers-discovery.md) | Local: `docs/guides/protect-the-agentic-endpoint-with-koi/mcp-servers-discovery.md`
+- [Plugins Protection](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/plugins-discovery.md) | Local: `docs/guides/protect-the-agentic-endpoint-with-koi/plugins-discovery.md`
+- [Skills - Discovery (Preview)](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/skills-discovery.md) | Local: `docs/guides/protect-the-agentic-endpoint-with-koi/skills-discovery.md`
+- [The Agentic Endpoint AI Components](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/the-agentic-endpoint-ai-components.md) | Local: `docs/guides/protect-the-agentic-endpoint-with-koi/the-agentic-endpoint-ai-components.md`
+- [Remediation in Koi](https://docs.koi.ai/guides/remediation-in-koi.md) | Local: `docs/guides/remediation-in-koi.md`
+- [Reporting](https://docs.koi.ai/guides/reporting.md) | Local: `docs/guides/reporting.md`
+- [Request approval workflow](https://docs.koi.ai/guides/request-approval-workflow.md) | Local: `docs/guides/request-approval-workflow.md`
+- [Publish (Private Extensions)](https://docs.koi.ai/guides/universal-publish-private-extensions.md) | Local: `docs/guides/universal-publish-private-extensions.md`
+- [Using the API](https://docs.koi.ai/guides/using-the-api.md) | Local: `docs/guides/using-the-api.md`
+## integration-guides
+
+- [Code Packages](https://docs.koi.ai/integration-guides/code-packages.md) | Local: `docs/integration-guides/code-packages.md`
+- [Proxy Approach](https://docs.koi.ai/integration-guides/code-packages/proxy-approach.md) | Local: `docs/integration-guides/code-packages/proxy-approach.md`
+- [NPM](https://docs.koi.ai/integration-guides/code-packages/proxy-approach/npm.md) | Local: `docs/integration-guides/code-packages/proxy-approach/npm.md`
+- [Python](https://docs.koi.ai/integration-guides/code-packages/proxy-approach/python.md) | Local: `docs/integration-guides/code-packages/proxy-approach/python.md`
+- [Registry Approach](https://docs.koi.ai/integration-guides/code-packages/registry-approach.md) | Local: `docs/integration-guides/code-packages/registry-approach.md`
+- [Deploying Registry Configuration](https://docs.koi.ai/integration-guides/code-packages/registry-approach/deploying-registry-configuration.md) | Local: `docs/integration-guides/code-packages/registry-approach/deploying-registry-configuration.md`
+- [WSL Setup](https://docs.koi.ai/integration-guides/code-packages/registry-approach/deploying-registry-configuration/wsl-setup.md) | Local: `docs/integration-guides/code-packages/registry-approach/deploying-registry-configuration/wsl-setup.md`
+- [NPM](https://docs.koi.ai/integration-guides/code-packages/registry-approach/npm.md) | Local: `docs/integration-guides/code-packages/registry-approach/npm.md`
+- [Python](https://docs.koi.ai/integration-guides/code-packages/registry-approach/python.md) | Local: `docs/integration-guides/code-packages/registry-approach/python.md`
+- [Upstream Integration Guide (Post POV)](https://docs.koi.ai/integration-guides/code-packages/upstream-integration-guide-post-pov.md) | Local: `docs/integration-guides/code-packages/upstream-integration-guide-post-pov.md`
+- [JFrog Artifactory (Post POV)](https://docs.koi.ai/integration-guides/code-packages/upstream-integration-guide-post-pov/jfrog-artifactory.md) | Local: `docs/integration-guides/code-packages/upstream-integration-guide-post-pov/jfrog-artifactory.md`
+- [Deployment Notes](https://docs.koi.ai/integration-guides/deployment-notes.md) | Local: `docs/integration-guides/deployment-notes.md`
+- [EDR](https://docs.koi.ai/integration-guides/edr.md) | Local: `docs/integration-guides/edr.md`
+- [CrowdStrike RTR Guide](https://docs.koi.ai/integration-guides/edr/crowdstrike-rtr-guide.md) | Local: `docs/integration-guides/edr/crowdstrike-rtr-guide.md`
+- [Add a CrowdStrike Exclusion (Windows)](https://docs.koi.ai/integration-guides/edr/crowdstrike-rtr-guide/add-a-crowdstrike-exclusion-windows.md) | Local: `docs/integration-guides/edr/crowdstrike-rtr-guide/add-a-crowdstrike-exclusion-windows.md`
+- [SentinelOne Guide](https://docs.koi.ai/integration-guides/edr/sentinelone-guide.md) | Local: `docs/integration-guides/edr/sentinelone-guide.md`
+- [Endpoint integration](https://docs.koi.ai/integration-guides/endpoint-integration.md) | Local: `docs/integration-guides/endpoint-integration.md`
+- [Capabilities per OS](https://docs.koi.ai/integration-guides/endpoint-integration/capabilities-per-os.md) | Local: `docs/integration-guides/endpoint-integration/capabilities-per-os.md`
+- [Common Q & A](https://docs.koi.ai/integration-guides/endpoint-integration/common-q-and-a.md) | Local: `docs/integration-guides/endpoint-integration/common-q-and-a.md`
+- [Deploy Koi to your endpoints](https://docs.koi.ai/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints.md) | Local: `docs/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints.md`
+- [Koi Launch Daemon](https://docs.koi.ai/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/koi-launch-daemon.md) | Local: `docs/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/koi-launch-daemon.md`
+- [Koi Windows Service](https://docs.koi.ai/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/koi-windows-agent.md) | Local: `docs/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/koi-windows-agent.md`
+- [Auto-Update Vs. Manual modes](https://docs.koi.ai/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/managed-vs-manual-modes.md) | Local: `docs/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/managed-vs-manual-modes.md`
+- [Script package](https://docs.koi.ai/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/script-package.md) | Local: `docs/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/script-package.md`
+- [Old overview](https://docs.koi.ai/integration-guides/endpoint-integration/old-overview.md) | Local: `docs/integration-guides/endpoint-integration/old-overview.md`
+- [Santa integration](https://docs.koi.ai/integration-guides/endpoint-integration/santa-integration.md) | Local: `docs/integration-guides/endpoint-integration/santa-integration.md`
+- [Santa onboarding for Jamf](https://docs.koi.ai/integration-guides/endpoint-integration/santa-integration/santa-onboarding-for-jamf.md) | Local: `docs/integration-guides/endpoint-integration/santa-integration/santa-onboarding-for-jamf.md`
+- [Santa onboarding for Kandji](https://docs.koi.ai/integration-guides/endpoint-integration/santa-integration/santa-onboarding-for-kandji.md) | Local: `docs/integration-guides/endpoint-integration/santa-integration/santa-onboarding-for-kandji.md`
+- [Uninstall Koi](https://docs.koi.ai/integration-guides/endpoint-integration/uninstall-koi.md) | Local: `docs/integration-guides/endpoint-integration/uninstall-koi.md`
+- [Overview](https://docs.koi.ai/integration-guides/integration-overview.md) | Local: `docs/integration-guides/integration-overview.md`
+- [MDM](https://docs.koi.ai/integration-guides/mdm.md) | Local: `docs/integration-guides/mdm.md`
+- [FleetDM Guide](https://docs.koi.ai/integration-guides/mdm/fleetdm-guide.md) | Local: `docs/integration-guides/mdm/fleetdm-guide.md`
+- [Hexnode Guide](https://docs.koi.ai/integration-guides/mdm/hexnode-guide.md) | Local: `docs/integration-guides/mdm/hexnode-guide.md`
+- [Intune Guide](https://docs.koi.ai/integration-guides/mdm/intune-guide.md) | Local: `docs/integration-guides/mdm/intune-guide.md`
+- [Intune - Deploy certificate](https://docs.koi.ai/integration-guides/mdm/intune-guide/deploy-certificate.md) | Local: `docs/integration-guides/mdm/intune-guide/deploy-certificate.md`
+- [Jamf Guide](https://docs.koi.ai/integration-guides/mdm/jamf-guide.md) | Local: `docs/integration-guides/mdm/jamf-guide.md`
+- [Salt Guide](https://docs.koi.ai/integration-guides/mdm/salt.md) | Local: `docs/integration-guides/mdm/salt.md`
+- [SCCM Guide](https://docs.koi.ai/integration-guides/mdm/sccm-guide.md) | Local: `docs/integration-guides/mdm/sccm-guide.md`
+- [Workspace ONE Guide](https://docs.koi.ai/integration-guides/mdm/workspace-one-guide.md) | Local: `docs/integration-guides/mdm/workspace-one-guide.md`
+- [Network](https://docs.koi.ai/integration-guides/network.md) | Local: `docs/integration-guides/network.md`
+- [Establish Route](https://docs.koi.ai/integration-guides/network/establish-route.md) | Local: `docs/integration-guides/network/establish-route.md`
+- [BlueCoat Guide](https://docs.koi.ai/integration-guides/network/establish-route/bluecoat-guide.md) | Local: `docs/integration-guides/network/establish-route/bluecoat-guide.md`
+- [Cloudflare Guide](https://docs.koi.ai/integration-guides/network/establish-route/cloudflare-guide.md) | Local: `docs/integration-guides/network/establish-route/cloudflare-guide.md`
+- [PAC File Integration](https://docs.koi.ai/integration-guides/network/establish-route/pac-file-integration.md) | Local: `docs/integration-guides/network/establish-route/pac-file-integration.md`
+- [Deploy PAC File manually](https://docs.koi.ai/integration-guides/network/establish-route/pac-file-integration/deploy-pac-file-manually.md) | Local: `docs/integration-guides/network/establish-route/pac-file-integration/deploy-pac-file-manually.md`
+- [Firewall Exclusions for PAC File](https://docs.koi.ai/integration-guides/network/establish-route/pac-file-integration/firewall-exclusions-for-pac-file.md) | Local: `docs/integration-guides/network/establish-route/pac-file-integration/firewall-exclusions-for-pac-file.md`
+- [GlobalProtect & Pac Guide](https://docs.koi.ai/integration-guides/network/establish-route/pac-file-integration/globalprotect-and-pac-guide.md) | Local: `docs/integration-guides/network/establish-route/pac-file-integration/globalprotect-and-pac-guide.md`
+- [Prisma Access Guide](https://docs.koi.ai/integration-guides/network/establish-route/prisma-access-guide.md) | Local: `docs/integration-guides/network/establish-route/prisma-access-guide.md`
+- [Cisco Umbrella Guide](https://docs.koi.ai/integration-guides/network/establish-route/umbrella-guide.md) | Local: `docs/integration-guides/network/establish-route/umbrella-guide.md`
+- [Zscaler Guide](https://docs.koi.ai/integration-guides/network/establish-route/zscaler-guide.md) | Local: `docs/integration-guides/network/establish-route/zscaler-guide.md`
+- [Establishing Trust](https://docs.koi.ai/integration-guides/network/establishing-trust.md) | Local: `docs/integration-guides/network/establishing-trust.md`
+- [Deploy Certificate Manually](https://docs.koi.ai/integration-guides/network/establishing-trust/deploy-certificate-manually.md) | Local: `docs/integration-guides/network/establishing-trust/deploy-certificate-manually.md`
+- [Generating CA](https://docs.koi.ai/integration-guides/network/establishing-trust/generating-ca.md) | Local: `docs/integration-guides/network/establishing-trust/generating-ca.md`
+- [Marketplace domains](https://docs.koi.ai/integration-guides/network/establishing-trust/marketplace-domains.md) | Local: `docs/integration-guides/network/establishing-trust/marketplace-domains.md`
+- [Notifications: Splunk integration](https://docs.koi.ai/integration-guides/notifications-splunk-integration.md) | Local: `docs/integration-guides/notifications-splunk-integration.md`
+- [Remote Development Environments](https://docs.koi.ai/integration-guides/remote-development-environments.md) | Local: `docs/integration-guides/remote-development-environments.md`
+- [Coder](https://docs.koi.ai/integration-guides/remote-development-environments/coder.md) | Local: `docs/integration-guides/remote-development-environments/coder.md`
+- [Deploying Koi on Coder workspaces](https://docs.koi.ai/integration-guides/remote-development-environments/coder/deploying-koi-on-coder-workspaces.md) | Local: `docs/integration-guides/remote-development-environments/coder/deploying-koi-on-coder-workspaces.md`
+- [Single Sign On](https://docs.koi.ai/integration-guides/single-sign-on.md) | Local: `docs/integration-guides/single-sign-on.md`
+- [Slack integration](https://docs.koi.ai/integration-guides/slack-integration.md) | Local: `docs/integration-guides/slack-integration.md`
+## policies-and-supply-chain-gateway
+
+- [Policies](https://docs.koi.ai/policies-and-supply-chain-gateway/policies.md) | Local: `docs/policies-and-supply-chain-gateway/policies.md`
+## product-security-and-legal
+
+- [Data Processing Addendum (DPA)](https://docs.koi.ai/product-security-and-legal/data-processing-agreement-dpa.md) | Local: `docs/product-security-and-legal/data-processing-agreement-dpa.md`
+- [Monitoring Controls in Koi](https://docs.koi.ai/product-security-and-legal/monitoring-controls-in-extensiontotal.md) | Local: `docs/product-security-and-legal/monitoring-controls-in-extensiontotal.md`
+- [Overview](https://docs.koi.ai/product-security-and-legal/product-security-overview.md) | Local: `docs/product-security-and-legal/product-security-overview.md`
+- [Proxy Data Flow & Security](https://docs.koi.ai/product-security-and-legal/proxy-data-flow-security.md) | Local: `docs/product-security-and-legal/proxy-data-flow-security.md`
+- [Agent Runtime Protection: Data Flow & Security](https://docs.koi.ai/product-security-and-legal/runtime-protection-data-flow-security.md) | Local: `docs/product-security-and-legal/runtime-protection-data-flow-security.md`
+## risk-and-threat-intelligence
+
+- [Findings](https://docs.koi.ai/risk-and-threat-intelligence/findings.md) | Local: `docs/risk-and-threat-intelligence/findings.md`
+- [Marketplace Signals](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1.md`
+- [Brand New Marketplace Item](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/brand-new-extension.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/brand-new-extension.md`
+- [Deprecated Marketplace Item](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/deprecated-extension.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/deprecated-extension.md`
+- [Insecure Installation Process](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/insecure-installation-process.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/insecure-installation-process.md`
+- [Installation Velocity Anomaly](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/installation-velocity-anomaly.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/installation-velocity-anomaly.md`
+- [Low Install Count](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/low-install-count.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/low-install-count.md`
+- [Manipulated User Reviews](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/manipulated-user-reviews-1.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/manipulated-user-reviews-1.md`
+- [Manipulated User Reviews](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/manipulated-user-reviews.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/manipulated-user-reviews.md`
+- [Missing Description](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/missing-description.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/missing-description.md`
+- [Removed from Marketplace](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/removed-from-marketplace.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/removed-from-marketplace.md`
+- [Unmaintained Item](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/unmaintained-extension.md) | Local: `docs/risk-and-threat-intelligence/findings/index-1/unmaintained-extension.md`
+- [Publisher & Ownership Trust](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2.md`
+- [Communication With Expired Domain](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/communication-with-expired-domain.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/communication-with-expired-domain.md`
+- [GitHub Copycat](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/github-copycat.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/github-copycat.md`
+- [Impersonating an Item](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/impersonating-an-item.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/impersonating-an-item.md`
+- [Impersonating Low Confidence](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/impersonating-low-confidence.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/impersonating-low-confidence.md`
+- [Individual Publisher](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/individual-publisher.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/individual-publisher.md`
+- [Listed for Sale](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/listed-for-sale.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/listed-for-sale.md`
+- [Newly Registered Domain Communication](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/newly-registered-domain-communication.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/newly-registered-domain-communication.md`
+- [Newly Registered Publisher Domain](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/newly-registered-publisher-domain.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/newly-registered-publisher-domain.md`
+- [Publisher Email in Compromised List](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/publisher-email-in-compromised-list.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/publisher-email-in-compromised-list.md`
+- [Publisher Has Only One Item](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/publisher-has-only-one-item.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/publisher-has-only-one-item.md`
+- [Publisher Low Install Count](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/publisher-low-install-count.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/publisher-low-install-count.md`
+- [Repo Doesn’t Exist](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/repo-doesnt-exist.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/repo-doesnt-exist.md`
+- [Unpopular GitHub Repository](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/unpopular-github-repository.md) | Local: `docs/risk-and-threat-intelligence/findings/index-2/unpopular-github-repository.md`
+- [Exploitation & Vulnerabilities](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3.md`
+- [Contains Vulnerability (CVSS Critical)](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/contains-vulnerability-cvss-critical.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/contains-vulnerability-cvss-critical.md`
+- [Contains Vulnerability (CVSS High)](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/contains-vulnerability-cvss-high.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/contains-vulnerability-cvss-high.md`
+- [Exposes Network Port](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/exposes-network-port.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/exposes-network-port.md`
+- [No Integrity Validation](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/no-integrity-validation.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/no-integrity-validation.md`
+- [OSSF High Impact Check Failure](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/ossf-high-impact-check-failure.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/ossf-high-impact-check-failure.md`
+- [OSSF Low Repo Score](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/ossf-low-repo-score.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/ossf-low-repo-score.md`
+- [Unauthenticated MCP Server](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/unauthenticated-mcp-server.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/unauthenticated-mcp-server.md`
+- [Unrestricted Network Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/unrestricted-network-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/unrestricted-network-access.md`
+- [Verified Hardcoded Secret](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/verified-hardcoded-secret.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/verified-hardcoded-secret.md`
+- [Vulnerable to Prompt Injection](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/vulnerable-to-prompt-injection.md) | Local: `docs/risk-and-threat-intelligence/findings/index-3/vulnerable-to-prompt-injection.md`
+- [Data Exposure & Privacy](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4.md`
+- [Access Sensitive Resources](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/access-sensitive-resources.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/access-sensitive-resources.md`
+- [Accessing Sensitive Files](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/accessing-sensitive-files.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/accessing-sensitive-files.md`
+- [Clipboard Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/clipboard-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/clipboard-access.md`
+- [Collection of Authentication Information](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-authentication-information.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/collection-of-authentication-information.md`
+- [Collection of Financial and Payment Information](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-financial-and-payment-information.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/collection-of-financial-and-payment-information.md`
+- [Collection of Health Information](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-health-information.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/collection-of-health-information.md`
+- [Collection of Location Data](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-location-data.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/collection-of-location-data.md`
+- [Collection of Personal Communications](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-personal-communications.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/collection-of-personal-communications.md`
+- [Collection of Personally Identifiable Information](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-personally-identifiable-information.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/collection-of-personally-identifiable-information.md`
+- [Collection of User Activity](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-user-activity-1.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/collection-of-user-activity-1.md`
+- [Collection of Web History](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-web-history.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/collection-of-web-history.md`
+- [Collection of Website Content](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-website-content.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/collection-of-website-content.md`
+- [Data Exfiltration](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/data-exfiltration.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/data-exfiltration.md`
+- [Data Export Capability](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/data-export-capability.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/data-export-capability.md`
+- [Elevated Privileges](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/elevated-privileges.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/elevated-privileges.md`
+- [Foreign Data Access Risk](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/foreign-data-access-risk.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/foreign-data-access-risk.md`
+- [Broad Host Permissions](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/sensitive-permissions.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/sensitive-permissions.md`
+- [Undisclosed Privacy Data Collection](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/undisclosed-privacy-data-collection.md) | Local: `docs/risk-and-threat-intelligence/findings/index-4/undisclosed-privacy-data-collection.md`
+- [Execution & Behavior](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5.md`
+- [Access MCP Configuration](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/access-mcp-configuration.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/access-mcp-configuration.md`
+- [Arbitrary Code Execution](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/arbitrary-code-execution.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/arbitrary-code-execution.md`
+- [Audio Capture Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/audio-input-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/audio-input-access.md`
+- [Bypasses Network Control](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/bypasses-network-control.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/bypasses-network-control.md`
+- [Certificate Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/certificate-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/certificate-read-access.md`
+- [Certificate Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/certificate-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/certificate-write-access.md`
+- [Clipboard Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/clipboard-read-access-1.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/clipboard-read-access-1.md`
+- [Audio Capture Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/clipboard-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/clipboard-read-access.md`
+- [Clipboard Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/clipboard-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/clipboard-write-access.md`
+- [Contains Binary Executable](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/contains-binary-executable.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/contains-binary-executable.md`
+- [Device Attributes Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/device-attributes-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/device-attributes-read-access.md`
+- [Dynamic Code Execution](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/dynamic-code-execution.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/dynamic-code-execution.md`
+- [Dynamic Network Destination](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/dynamic-network-destination.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/dynamic-network-destination.md`
+- [File Creation](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/file-creation.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/file-creation.md`
+- [Filesystem Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/filesystem-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/filesystem-read-access.md`
+- [Filesystem Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/filesystem-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/filesystem-write-access.md`
+- [Geolocation Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/geolocation-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/geolocation-read-access.md`
+- [Hardcoded Code Execution](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/hardcoded-code-execution.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/hardcoded-code-execution.md`
+- [Has Auto Execution Script](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/has-auto-execution-script.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/has-auto-execution-script.md`
+- [Idle Time Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/idle-time-read-access-copy.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/idle-time-read-access-copy.md`
+- [Idle Time Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/idle-time-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/idle-time-read-access.md`
+- [Intercepts Network Traffic](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/intercepts-network-traffic.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/intercepts-network-traffic.md`
+- [Keyboard Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/keyboard-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/keyboard-read-access.md`
+- [Keyboard Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/keyboard-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/keyboard-write-access.md`
+- [LLM Derived Code Execution](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/llm-derived-code-execution.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/llm-derived-code-execution.md`
+- [Low Level Network Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/low-level-network-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/low-level-network-read-access.md`
+- [Low Level Network Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/low-level-network-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/low-level-network-write-access.md`
+- [Memory Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/memory-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/memory-read-access.md`
+- [Memory Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/memory-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/memory-write-access.md`
+- [Code Execution Permissions](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/moderate-access-permissions.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/moderate-access-permissions.md`
+- [Network Interception Permissions](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/network-interception-permissions.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/network-interception-permissions.md`
+- [Network Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/network-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/network-read-access.md`
+- [Network Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/network-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/network-write-access.md`
+- [Notifications Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/notifications-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/notifications-read-access.md`
+- [Notifications Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/notifications-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/notifications-write-access.md`
+- [PowerShell Command Execution](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/powershell-command-execution.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/powershell-command-execution.md`
+- [Printer Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/printer-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/printer-read-access.md`
+- [Printer Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/printer-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/printer-write-access.md`
+- [Process Execution](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/process-execution.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/process-execution.md`
+- [Registry Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/registry-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/registry-read-access.md`
+- [Registry Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/registry-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/registry-write-access.md`
+- [Serial Port Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/serial-port-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/serial-port-read-access.md`
+- [Serial Port Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/serial-port-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/serial-port-write-access.md`
+- [Shell Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/shell-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/shell-read-access.md`
+- [Shell Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/shell-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/shell-write-access.md`
+- [Snippet Running Code](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/snippet-running-code.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/snippet-running-code.md`
+- [Theme Running Code](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/theme-running-code.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/theme-running-code.md`
+- [Uses AI](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/uses-ai.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/uses-ai.md`
+- [Video Capture Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/video-capture-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/video-capture-read-access.md`
+- [Video Capture Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/video-capture-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/video-capture-write-access.md`
+- [Windows Manager Read Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/windows-manager-read-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/windows-manager-read-access.md`
+- [Windows Manager Write Access](https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/windows-manager-write-access.md) | Local: `docs/risk-and-threat-intelligence/findings/index-5/windows-manager-write-access.md`
+- [Malicious Behavior](https://docs.koi.ai/risk-and-threat-intelligence/findings/index.md) | Local: `docs/risk-and-threat-intelligence/findings/index.md`
+- [Contains Unsafe File](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/contains-unsafe-file.md) | Local: `docs/risk-and-threat-intelligence/findings/index/contains-unsafe-file.md`
+- [Dynamic Tool Description](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/dynamic-tool-description.md) | Local: `docs/risk-and-threat-intelligence/findings/index/dynamic-tool-description.md`
+- [Exfils Cloud and Remote Access Secrets](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/exfils-cloud-and-remote-access-secrets.md) | Local: `docs/risk-and-threat-intelligence/findings/index/exfils-cloud-and-remote-access-secrets.md`
+- [Exfils Cookie Data](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/exfils-cookie-data.md) | Local: `docs/risk-and-threat-intelligence/findings/index/exfils-cookie-data.md`
+- [Flagged by Community](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/flagged-by-community.md) | Local: `docs/risk-and-threat-intelligence/findings/index/flagged-by-community.md`
+- [Fraudulent Behavior Detected](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/fraudulent-behavior-detected.md) | Local: `docs/risk-and-threat-intelligence/findings/index/fraudulent-behavior-detected.md`
+- [Highly Obfuscated Code](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/highly-obfuscated-code.md) | Local: `docs/risk-and-threat-intelligence/findings/index/highly-obfuscated-code.md`
+- [Malicious Activity Detected](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/malicious-activity-detected.md) | Local: `docs/risk-and-threat-intelligence/findings/index/malicious-activity-detected.md`
+- [Malicious Dependency](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/malicious-dependency.md) | Local: `docs/risk-and-threat-intelligence/findings/index/malicious-dependency.md`
+- [Malicious item by threat signal](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/malicious-item-by-threat-signal.md) | Local: `docs/risk-and-threat-intelligence/findings/index/malicious-item-by-threat-signal.md`
+- [Obfuscated code](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/obfuscated-code.md) | Local: `docs/risk-and-threat-intelligence/findings/index/obfuscated-code.md`
+- [Overrides Core Functions](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/overrides-core-functions.md) | Local: `docs/risk-and-threat-intelligence/findings/index/overrides-core-functions.md`
+- [Performs IP Fingerprinting](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/performs-ip-fingerprinting.md) | Local: `docs/risk-and-threat-intelligence/findings/index/performs-ip-fingerprinting.md`
+- [Ransomware Behavior Detected](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/ransomware-behavior-detected.md) | Local: `docs/risk-and-threat-intelligence/findings/index/ransomware-behavior-detected.md`
+- [Suspicious Webhook Communication](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/suspicious-webhook-communication.md) | Local: `docs/risk-and-threat-intelligence/findings/index/suspicious-webhook-communication.md`
+- [Tool Description Mismatch](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/tool-description-mismatch.md) | Local: `docs/risk-and-threat-intelligence/findings/index/tool-description-mismatch.md`
+- [Tool Poisoning](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/tool-poisoning.md) | Local: `docs/risk-and-threat-intelligence/findings/index/tool-poisoning.md`
+- [Tool Shadowing](https://docs.koi.ai/risk-and-threat-intelligence/findings/index/tool-shadowing.md) | Local: `docs/risk-and-threat-intelligence/findings/index/tool-shadowing.md`
+- [Risk Data](https://docs.koi.ai/risk-and-threat-intelligence/risk-data.md) | Local: `docs/risk-and-threat-intelligence/risk-data.md`
+- [Risk level at Koi](https://docs.koi.ai/risk-and-threat-intelligence/risk-level-at-koi.md) | Local: `docs/risk-and-threat-intelligence/risk-level-at-koi.md`
+- [Wings - Koi’s Risk Engine](https://docs.koi.ai/risk-and-threat-intelligence/wings-kois-risk-engine.md) | Local: `docs/risk-and-threat-intelligence/wings-kois-risk-engine.md`

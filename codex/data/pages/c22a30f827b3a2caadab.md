@@ -1,0 +1,175 @@
+---
+url: https://docs.paloaltonetworks.com/identity/new-features/by-date/cloud-identity-engine/april-2025
+fetched_at: 2026-08-12T14:06:36Z
+source: idira-and-identity
+---
+
+# New Features - Cloud Identity Engine - April 2025 Clear Clear Clear
+
+New Features - Cloud Identity Engine - April 2025 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Identity Docs 
+
+ Activation & Onboarding 
+
+ Cloud Identity Engine 
+
+ Help 
+
+ Release Notes 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ Identity 
+
+ New Features - Cloud Identity Engine - April 2025 
+
+ Support for South Africa Region 
+
+ Release Date: April 2025 
+ | 
+ Last Updated: May 2026 
+
+ The Cloud Identity Engine now supports access in the South Africa (ZA) region for customers who must store the data that the Cloud Identity Engine synchronizes from their directories in that region to ensure compliance with their local data regulation requirements. 
+
+ To maintain compatibility, your Cloud Identity Engine region must be the same as the region you configure in any associated Palo Alto Networks® apps or other app integrations. 
+
+ If you're using a Cloud Identity agent, refer to Configure the Cloud Identity Agent to learn how to configure the agent to communicate within a specific region. If you use the Cloud Identity Engine for user authentication, refer to Configure the Cloud Identity Engine in an Authentication Profile to learn which regional endpoints you need to allow in your network security policy. 
+
+ For more information on how the Cloud Identity Engine manages the data you allow it to access, including transfer, retention, and security, refer to the Cloud Identity Engine Solution Brief or the Cloud Identity Engine Privacy Datasheet . 
+
+ Cloud Identity Engine
+
+ April 2025
+
+ Activation and Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Panorama 
+
+ Service Provider 
+
+ VM-Series 
+
+ Plugins 
+
+ SASE 
+
+ Prisma Access 
+
+ Prisma SASE Multitenant Platform 
+
+ Prisma Access Monitoring & Visibility 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Remote Browser Isolation 
+
+ Prisma Access Agent 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Resources 
+
+ All Products A - Z 
+
+ All Release Notes 
+
+ Compatibility Matrix 
+
+ Experts Corner 
+
+ Network Security Platform 
+
+ Security Policy 
+
+ Decryption 
+
+ Device-ID 
+
+ IPSec VPN 
+
+ Quality of Service 
+
+ Quantum Security 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.
