@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-access-security/new-features/by-date/ai-access-security/november-2024
-fetched_at: 2026-08-12T14:05:25Z
+fetched_at: 2026-08-13T14:00:50Z
 source: ai-security
 ---
 

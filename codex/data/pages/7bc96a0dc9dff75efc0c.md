@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-access-security/activation-and-onboarding/convert-an-ai-access-security-evaluation-license-to-a-production-license
-fetched_at: 2026-08-12T14:05:42Z
+fetched_at: 2026-08-13T14:01:09Z
 source: ai-security
 ---
 

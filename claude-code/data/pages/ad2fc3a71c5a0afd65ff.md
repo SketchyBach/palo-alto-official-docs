@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-access-security/activation-and-onboarding/ai-access-security-licenses
-fetched_at: 2026-08-12T14:05:29Z
+fetched_at: 2026-08-13T14:00:53Z
 source: ai-security
 ---
 
@@ -32,7 +32,7 @@ AI Access Security Licenses
 
  Updated on 
 
- Jul 24, 2026 
+ Fri Jul 24 12:38:02 PDT 2026 
 
  Focus 
 
@@ -58,7 +58,7 @@ AI Access Security Licenses
 
  Updated on 
 
- Jul 24, 2026 
+ Fri Jul 24 12:38:02 PDT 2026 
 
  Focus 
 

@@ -4,6 +4,10 @@ from pathlib import Path
 from urllib.parse import urlparse
 root=Path(__file__).resolve().parents[1]; c=sqlite3.connect(root/"data/index.sqlite3")
 rows=c.execute("SELECT url,source,local_path,body,error FROM pages").fetchall(); allowed={"cortex-docs.paloaltonetworks.com","docs.paloaltonetworks.com","docs.koi.ai"}
+try:
+ allowed.update(json.loads((root/"sources.json").read_text(encoding="utf-8"))["policy"]["allowed_domains"])
+except (OSError, KeyError, json.JSONDecodeError):
+ pass
 report={
  "records":len(rows), "body_records":sum(bool(r[3]) for r in rows), "fts_records":c.execute("SELECT count(*) FROM pages_fts").fetchone()[0],
  "duplicate_urls":c.execute("SELECT count(*) FROM (SELECT url FROM pages GROUP BY url HAVING count(*)>1)").fetchone()[0],

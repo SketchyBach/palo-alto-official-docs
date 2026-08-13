@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Incrementally crawl allowlisted official Palo Alto documentation into SQLite."""
+"""Incrementally crawl allowlisted official Palo Alto and Idira documentation into SQLite."""
 from __future__ import annotations
 import argparse, hashlib, html, json, re, sqlite3, time
 from html.parser import HTMLParser

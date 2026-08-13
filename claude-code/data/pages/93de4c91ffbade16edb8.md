@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-access-security/activation-and-onboarding/activate-the-ai-access-security-license/activate-the-ai-access-security-license-for-existing-users
-fetched_at: 2026-08-12T14:05:37Z
+fetched_at: 2026-08-13T14:01:02Z
 source: ai-security
 ---
 

@@ -20,4 +20,4 @@ python scripts/status.py
 python scripts/search.py "Cortex XDR broker VM" --mode answer --json
 ```
 
-Only allowlisted official Palo Alto Networks material and SHA-256-verified KOI records are authoritative. Private field-support correspondence is intentionally excluded from this repository.
+Only allowlisted official Palo Alto Networks material, the official Idira portal at `docs.cyberark.com`, and SHA-256-verified KOI records are authoritative. Private field-support correspondence is intentionally excluded from this repository.
