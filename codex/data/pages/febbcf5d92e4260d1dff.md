@@ -1,0 +1,424 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/10-2/device/device-server-profiles-netflow
+fetched_at: 2026-08-13T16:43:15Z
+source: palo-alto-main
+---
+
+# Device > Server Profiles > NetFlow Clear
+
+Device > Server Profiles > NetFlow 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Device > Server Profiles > NetFlow 
+
+ Updated on 
+
+ Thu Jun 25 17:37:48 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 17:37:48 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Device 
+
+ Device > Server Profiles > NetFlow 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Next-Generation Firewall 
+
+ Device > Server Profiles > NetFlow 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Device > Server Profiles > HTTP 
+
+ Next 
+
+ Device > Server Profiles > RADIUS 
+
+ Device > Server Profiles > NetFlow 
+
+ Palo Alto Networks firewalls can export statistics about
+the IP traffic on their interfaces as NetFlow fields to a NetFlow
+collector. The NetFlow collector is a server you use to analyze
+network traffic for security, administration, accounting and troubleshooting.
+All Palo Alto Networks firewalls support NetFlow Version 9. The
+firewalls support only unidirectional NetFlow, not bidirectional.
+The firewalls perform NetFlow processing on all IP packets on the
+interfaces and do not support sampled NetFlow. You can export NetFlow
+records for Layer 3, Layer 2, virtual wire, tap, VLAN, loopback,
+and tunnel interfaces. For aggregate Ethernet interfaces, you can
+export records for the aggregate group but not for individual interfaces within
+the group. The firewalls support standard and enterprise (PAN-OS
+specific) NetFlow templates, which NetFlow collectors use to decipher
+the NetFlow fields. The firewalls select a template based on the
+type of exported data: IPv4 or IPv6 traffic, with or without NAT,
+and with standard or enterprise-specific fields. 
+
+ To configure NetFlow exports , Add a
+NetFlow server profile to specify which NetFlow servers will receive
+the exported data and to specify export parameters. After you assign
+the profile to an interface (see Network
+> Interfaces ), the firewall exports NetFlow data for all
+traffic on that interface to the specified servers. 
+
+ Netflow Settings 
+
+ Description 
+
+ Name 
+
+ Enter a name for the Netflow server profile
+(up to 31 characters). The name is case-sensitive and must be unique.
+Use only letters, numbers, spaces, hyphens, and underscores. 
+
+ Template Refresh Rate 
+
+ The firewall periodically refreshes NetFlow
+templates to re-evaluate which one to use (in case the type of exported
+data changes) and to apply any changes to the fields in the selected template.
+Specify the rate at which the firewall refreshes NetFlow templates
+in Minutes (range is 1 to 3,600; default
+is 30) and Packets (exported records—range
+is 1 to 600; default is 20), according to the requirements of your
+NetFlow collector. The firewall refreshes the template after either
+threshold is passed. The required refresh rate depends on the NetFlow
+collector. If you add multiple NetFlow collectors to the server
+profile, use the value of the collector with the fastest refresh
+rate. 
+
+ Active Timeout 
+
+ Specify the frequency (in minutes) at which
+the firewall exports data records for each session (range is 1 to
+60; default is 5). Set the frequency based on how often you want
+the NetFlow collector to update traffic statistics. 
+
+ PAN-OS Field Types 
+
+ Export PAN-OS specific fields for App-ID
+and the User-ID service in Netflow records. 
+
+ Servers 
+
+ Name 
+
+ Specify a name to identify the server (up
+to 31 characters). The name is case-sensitive and must be unique.
+Use only letters, numbers, spaces, hyphens, and underscores. 
+
+ Server 
+
+ Specify the hostname or IP address of the
+server. You can add a maximum of two servers per profile. 
+
+ Port 
+
+ Specify the port number for server access
+(default is 2055). 
+
+ Previous 
+
+ Device > Server Profiles > HTTP 
+
+ Next 
+
+ Device > Server Profiles > RADIUS 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ PAN-OS 
+
+ 10.2 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

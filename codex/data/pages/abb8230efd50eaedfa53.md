@@ -1,0 +1,352 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/11-2/globalprotect/objects-globalprotect-hip-objects/hip-objects-data-loss-prevention-tab
+fetched_at: 2026-08-13T16:47:41Z
+source: palo-alto-main
+---
+
+# HIP Objects Data Loss Prevention Tab Clear
+
+HIP Objects Data Loss Prevention Tab 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ HIP Objects Data Loss Prevention Tab 
+
+ Updated on 
+
+ Thu Jun 25 17:41:47 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 17:41:47 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ GlobalProtect 
+
+ Objects > GlobalProtect > HIP Objects 
+
+ HIP Objects Data Loss Prevention Tab 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ HIP Objects Data Loss Prevention Tab 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ HIP Objects Disk Encryption Tab 
+
+ Next 
+
+ HIP Objects Certificate Tab 
+
+ HIP Objects Data Loss Prevention Tab 
+
+ Objects GlobalProtect HIP Objects <hip-object> Data
+Loss Prevention 
+
+ Select the Data Loss Prevention tab to
+configure HIP matching that is based on whether the GlobalProtect endpoints
+are running data loss prevention software. 
+
+ HIP Object Data Loss
+Prevention Settings 
+
+ Select Data Loss Prevention to
+enable matching on the data loss prevention (DLP) status on the
+host ( Windows hosts only ) and then define additional matching
+criteria for the match as follows: 
+
+ Is Installed —Match
+on whether DLP software is installed on the host. 
+
+ Is Enabled —Match on whether DLP software
+is enabled on the host. If the Is Installed selection
+is cleared, this field is automatically set to none and
+is disabled for editing. 
+
+ Vendor and Product —Define specific
+DLP software vendors and/or products to look for on the host to
+determine a match. Click Add and then choose
+a Vendor from the drop-down. Optionally,
+click Add to choose a specific Product .
+Click OK to save the settings. 
+
+ Exclude Vendor —Select this option
+to match hosts that do not have software from the specified vendor. 
+
+ Previous 
+
+ HIP Objects Disk Encryption Tab 
+
+ Next 
+
+ HIP Objects Certificate Tab 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ 11.2 
+
+ Help 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

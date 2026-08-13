@@ -1,0 +1,261 @@
+---
+url: https://docs.paloaltonetworks.com/cloud-ngfw/azure/cloud-ngfw-for-azure/logging/enable-activity-logging-on-cloud-ngfw-for-azure
+fetched_at: 2026-08-13T15:31:12Z
+source: palo-alto-main
+---
+
+# View Activity Logs Natively in Azure Clear
+
+View Activity Logs Natively in Azure 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ View Activity Logs Natively in Azure 
+
+ Updated on 
+
+ Mon Jun 29 22:22:17 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Cloud NGFW for Azure Docs 
+
+ Getting Started 
+
+ Deployment 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Mon Jun 29 22:22:17 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Cloud NGFW for Azure Administration 
+
+ Monitor Cloud NGFW for Azure Resources 
+
+ View Activity Logs Natively in Azure 
+
+ Download PDF 
+
+ Cloud NGFW for Azure 
+
+ View Activity Logs Natively in Azure 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Cloud NGFW for Azure Docs 
+
+ Getting Started 
+
+ Deployment 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Cloud NGFW for Azure Decryption Log Fields 
+
+ Next 
+
+ Configure Logging 
+
+ View Activity Logs Natively in Azure 
+
+ Learn how to enable activity logging on your Cloud NGFW for Azure
+ resource. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Cloud NGFW for Azure 
+
+ Cloud NGFW subscription 
+
+ Palo Alto Networks Customer Support Portal account 
+
+ Azure Marketplace subscription 
+
+ Track administrator activity on Cloud NGFW for Azure to achieve
+ real-time reporting of activity across your deployment. If you have reason to
+ believe that an administrator account is compromised, the activity log provides you
+ with a full history of where an administrator navigated throughout the Cloud NGFW
+ tenant and what configuration changes they made so you can analyze in detail and
+ respond to all actions taken by the compromised account. 
+
+ A log is an automatically generated, time-stamped file that provides an audit trail
+ for system events on the firewall or network traffic events that the firewall
+ monitors. Log entries contain artifacts, which are properties, activities, or
+ behaviors associated with the logged event, such as the application type or the IP
+ address of an attacker. Each log type records information for a separate event type.
+ For example, the firewall generates a Threat log to record traffic that matches a
+ spyware, vulnerability, or malware signature or a DoS attack that matches the
+ thresholds configured for a port scan or host sweep activity on the firewall. 
+
+ The Cloud NGFW can send traffic, threat, and decryption logs to an Azure Log
+ Analytics Workspace that you will create in the Azure portal. The Log Analytics
+ Workspace is associated with a workspace ID, primary Key, and a secondary key, which
+ is retrieved through the logging API by the control plane. 
+
+ Previous 
+
+ Cloud NGFW for Azure Decryption Log Fields 
+
+ Next 
+
+ Configure Logging 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Public Cloud 
+
+ Administration 
+
+ Cloud NGFW for Azure 
+
+ Microsoft Azure 
+
+ Cloud 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

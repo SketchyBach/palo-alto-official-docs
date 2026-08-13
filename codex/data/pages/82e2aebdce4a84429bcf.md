@@ -1,0 +1,375 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-2/device/device-setup-hsm/hsm-authentication
+fetched_at: 2026-08-13T16:51:33Z
+source: palo-alto-main
+---
+
+# HSM Authentication Clear
+
+HSM Authentication 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ HSM Authentication 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ PAN-OS Web Interface Help 
+
+ Device 
+
+ Device > Setup > HSM 
+
+ HSM Authentication 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ HSM Authentication 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Hardware Security Module Provider Settings 
+
+ Next 
+
+ Hardware Security Operations 
+
+ HSM Authentication 
+
+ Select Setup Hardware Security Module and configure the following
+ settings to authenticate the firewall to Entrust nShield and Thales Luna Network
+ HSMs. 
+
+ HSM Module
+ Authentication 
+
+ Server Name 
+
+ Select an HSM server name from the drop-down, then
+ select if you want to authenticate and establish trust using
+ automatic or manually generated certificates. 
+
+ Automatic 
+
+ Manual 
+ If you select
+ Manual , you need to import and
+ install the HSM server manually generated certificate.
+ Export the HSM client certificate to install on the HSM
+ server. 
+
+ Administrator Password 
+
+ Enter the administrator password of the HSM to
+ authenticate the firewall to the HSM. 
+
+ Select Set Up HSM Connectivity Account and configure the following
+ settings to authenticate the firewall to the Thales CipherTrust Manager HSM. Select
+ Set Up HSM Crypto User Account to authenticate the Crypto
+ User for the HSM. 
+
+ HSM Module Authentication 
+
+ Server Name 
+
+ Select an HSM server name from the drop-down. This name should match
+ the name entered when you selected the HSM provider for the
+ firewall. 
+
+ Import certificates 
+
+ Select the certificates to import for authentication. 
+
+ HSM Server CA Certificate 
+
+ HSM Client Certificate 
+
+ HSM Client Private Key 
+
+ HSM Account 
+
+ Username 
+
+ Enter the username for the HSM account. 
+
+ Password 
+
+ Enter the password for the HSM account. 
+
+ Previous 
+
+ Hardware Security Module Provider Settings 
+
+ Next 
+
+ Hardware Security Operations 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 12.2 
+
+ PAN-OS 
+
+ Help 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

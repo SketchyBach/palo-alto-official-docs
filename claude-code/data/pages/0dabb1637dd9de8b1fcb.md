@@ -1,0 +1,390 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/app-id/streamlined-app-id-policy-rules/create-custom-application-tags
+fetched_at: 2026-08-13T16:58:49Z
+source: palo-alto-main
+---
+
+# Streamlined App-ID Policy Rules Clear
+
+Streamlined App-ID Policy Rules 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Streamlined App-ID Policy Rules 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ App-ID 
+
+ Streamlined App-ID Policy Rules 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Streamlined App-ID Policy Rules 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ App-ID Overview 
+
+ Next 
+
+ App-ID and HTTP/2 Inspection 
+
+ Streamlined App-ID Policy Rules 
+
+ Policy rules for App-IDs using new content delivered
+tags. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access 
+
+ Next-Generation Firewall 
+
+ This is a core Network Security feature for NGFWs and Prisma Access;
+ no prerequisites needed. 
+
+ Safely enable a broad set of applications with common
+attributes using a single policy rule (for example, give your users
+broad access to web-based applications or safely enable all enterprise
+VoIP applications). Palo Alto Networks takes on the task of researching
+applications with common attributes and delivers this through tags
+in dynamic content updates. This: 
+
+ Minimizes errors and saves time. 
+
+ Helps you to create policies that automatically update to handle
+newly released applications. 
+
+ Simplifies the transition toward an App-ID based rule set using Policy Optimizer . 
+
+ Your firewall can then use your tag-based application filter
+to dynamically enforce new and updated App-IDs without requiring
+you to review or update policy rules whenever new applications are
+added. If you choose to exclude applications from a specific tag,
+new content updates honor those exclusions. You can also use your
+own tags to define applications types based on your policy requirements. 
+
+ Create an Application Filter Using Tags 
+
+ Create an application filter 
+ using one or more tags. 
+
+ If you select more than one tag, applications must match both tags to be
+ included in the filter. 
+
+ ( Optional ) Exclude tags from your filter by selecting the check
+ box in the Exclude column. 
+
+ Create a security policy rule 
+ and Add your new application filter on the
+ Application tab. 
+
+ Commit your changes. 
+
+ Create an Application Filter Based on Custom Tags 
+
+ Create a custom tag and apply
+ to App-IDs. 
+
+ ( Optional ) Remove tags from an application. 
+
+ Filter or search for applications, then select the specific
+ applications to remove tags. 
+
+ Edit Tags and select the tags to
+ remove. 
+
+ Click OK . 
+
+ Create an application filter 
+ using one or more tags. 
+
+ If you select more than one tag, applications must match both tags to be
+ included in the filter. 
+
+ Create a security policy rule 
+ and Add your new application filter on the
+ Application tab. 
+
+ Commit your changes. 
+
+ Previous 
+
+ App-ID Overview 
+
+ Next 
+
+ App-ID and HTTP/2 Inspection 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

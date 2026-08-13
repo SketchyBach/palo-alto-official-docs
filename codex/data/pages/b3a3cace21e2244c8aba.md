@@ -1,0 +1,358 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/administration/authentication/authentication-types/kerberos
+fetched_at: 2026-08-13T16:39:30Z
+source: palo-alto-main
+---
+
+# Kerberos Clear
+
+Kerberos 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Kerberos 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Authentication 
+
+ Authentication Types 
+
+ Kerberos 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Kerberos 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ SAML 
+
+ Next 
+
+ TACACS+ 
+
+ Kerberos 
+
+ Kerberos is an authentication protocol that enables
+a secure exchange of information between parties over an insecure
+network using unique keys (called tickets) to identify the parties.
+The firewall and Panorama support two types of Kerberos authentication
+for administrators and end users: 
+
+ Kerberos server authentication —A Kerberos server
+profile enables users to natively authenticate to an Active Directory
+domain controller or a Kerberos V5-compliant authentication server.
+This authentication method is interactive, requiring users to enter
+usernames and passwords. For the configuration steps, see Configure
+Kerberos Server Authentication . 
+
+ Kerberos single sign-on (SSO) —A network that supports
+Kerberos V5 SSO prompts a user to log in only for initial access
+to the network (such as logging in to Microsoft Windows). After
+this initial login, the user can access any browser-based service
+in the network (such as the firewall web interface) without having
+to log in again until the SSO session expires. (Your Kerberos administrator
+sets the duration of SSO sessions.) If you enable both Kerberos
+SSO and another external authentication service (such as a TACACS+
+server), the firewall first tries SSO and, only if that fails, falls
+back to the external service for authentication. To support Kerberos
+SSO, your network requires: 
+
+ A Kerberos infrastructure,
+including a key distribution center (KDC) with an authentication
+server (AS) and ticket-granting service (TGS). 
+
+ A Kerberos account for the firewall or Panorama that will
+authenticate users. An account is required to create a Kerberos
+keytab, which is a file that contains the principal name and hashed
+password of the firewall or Panorama. The SSO process requires the keytab. 
+
+ For
+the configuration steps, see Configure
+Kerberos Single Sign-On . 
+
+ Kerberos SSO is available
+only for services and applications that are internal to your Kerberos
+environment. To enable SSO for external services and applications,
+use SAML . 
+
+ Previous 
+
+ SAML 
+
+ Next 
+
+ TACACS+ 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

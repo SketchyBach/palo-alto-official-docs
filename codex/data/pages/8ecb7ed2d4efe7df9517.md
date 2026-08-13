@@ -1,0 +1,351 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/netflow-monitoring
+fetched_at: 2026-08-13T17:09:25Z
+source: palo-alto-main
+---
+
+# NetFlow Monitoring Clear
+
+NetFlow Monitoring 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ NetFlow Monitoring 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Monitoring 
+
+ NetFlow Monitoring 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ NetFlow Monitoring 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Forward Logs to an HTTP/S Destination 
+
+ Next 
+
+ Configure NetFlow Exports 
+
+ NetFlow Monitoring 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ Prisma Access 
+
+ One of these licenses for Strata Cloud Manager managed NGFWs: 
+
+ Strata Cloud Manager Essentials 
+
+ Strata Cloud Manager Pro 
+
+ Other licenses needed: 
+
+ Prisma Access 
+
+ NetFlow is an industry-standard protocol that the firewall
+can use to export statistics about the IP traffic ingressing its
+interfaces. The firewall exports the statistics as NetFlow fields
+to a NetFlow collector. The NetFlow collector is a server you use
+to analyze network traffic for security, administration, accounting
+and troubleshooting. All Palo Alto Networks firewalls support NetFlow
+Version 9. The firewalls support only unidirectional NetFlow, not
+bidirectional. The firewalls perform NetFlow processing on all IP
+packets on the interfaces and do not support sampled NetFlow. You
+can export NetFlow records for Layer 3, Layer 2, virtual wire, tap,
+VLAN, loopback, and tunnel interfaces. For aggregate Ethernet sub-interfaces,
+you can export records for the individual sub-interfaces that data
+flows through within the group. To identify firewall interfaces
+in a NetFlow collector, see Firewall Interface Identifiers in SNMP Managers and NetFlow Collectors . The firewalls
+support standard and enterprise (PAN-OS specific) NetFlow Templates , which NetFlow
+collectors use to decipher the NetFlow fields. 
+
+ Configure
+ NetFlow Exports 
+
+ NetFlow Templates 
+
+ Previous 
+
+ Forward Logs to an HTTP/S Destination 
+
+ Next 
+
+ Configure NetFlow Exports 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

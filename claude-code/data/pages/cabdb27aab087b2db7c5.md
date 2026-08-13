@@ -1,0 +1,282 @@
+---
+url: https://docs.paloaltonetworks.com/plugins/vm-series-and-panorama-plugins-release-notes/panorama-plugin-for-sd-wan/sd-wan-plugin-300
+fetched_at: 2026-08-13T17:20:18Z
+source: palo-alto-main
+---
+
+# Panorama Plugin for SD-WAN 3.0  Clear
+
+Panorama Plugin for SD-WAN 3.0 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Panorama Plugin for SD-WAN 3.0 
+
+ Updated on 
+
+ Thu Jul 30 23:22:25 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jul 30 23:22:25 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ SD-WAN 
+
+ Panorama Plugin for SD-WAN 
+
+ Panorama Plugin for SD-WAN 3.0 
+
+ Download PDF 
+
+ SD-WAN 
+
+ Panorama Plugin for SD-WAN 3.0 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Known Issues in SD-WAN Plugin 3.1 
+
+ Next 
+
+ Features Introduced in SD-WAN Plugin 3.0 
+
+ Panorama Plugin for SD-WAN 3.0 
+
+ Features introduced in SD-WAN Plugin 3.0. 
+
+ The following topic describes new features and known issues in SD-WAN Plugin 3.0. 
+
+ Features Introduced in SD-WAN Plugin 3.0 
+
+ Changes to Default Behavior in SD-WAN Plugin 3.0.8 
+
+ Known Issues in SD-WAN Plugin 3.0 
+
+ Refer upgrade and downgrade paths for SD-WAN plugin 
+ before upgrading/downgrading your currently installed SD-WAN plugin version. After the
+ upgrade, you must conduct some important checks before
+ committing the changes to Panorama 
+
+ Previous 
+
+ Known Issues in SD-WAN Plugin 3.1 
+
+ Next 
+
+ Features Introduced in SD-WAN Plugin 3.0 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ IoT Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Release Notes 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Plugins 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

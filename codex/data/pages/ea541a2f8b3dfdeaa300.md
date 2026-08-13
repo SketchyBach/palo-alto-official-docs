@@ -1,0 +1,270 @@
+---
+url: https://docs.paloaltonetworks.com/network-security/security-policy/administration/objects/external-dynamic-lists/retrieve-an-external-dynamic-list-from-the-web-server
+fetched_at: 2026-08-13T16:38:30Z
+source: palo-alto-main
+---
+
+# Retrieve an External Dynamic List from the Web Server Clear
+
+Retrieve an External Dynamic List from the Web Server 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Retrieve an External Dynamic List from the Web Server 
+
+ Updated on 
+
+ Aug 5, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Updated on 
+
+ Aug 5, 2026 
+
+ Focus 
+
+ Home 
+
+ Network Security 
+
+ Network Security: Security Policy 
+
+ Policy Objects 
+
+ Policy Object: External Dynamic Lists 
+
+ Retrieve an External Dynamic List from the Web Server 
+
+ Download PDF 
+
+ Network Security 
+
+ Retrieve an External Dynamic List from the Web Server 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Previous 
+
+ Configure your Environment to Access an External Dynamic List from the EDL Hosting Service 
+
+ Next 
+
+ View External Dynamic List Entries 
+
+ Retrieve an External Dynamic List from the Web Server 
+
+ Retrieve an external dynamic list from a web server to view its entries and be sure
+ that your configuration always has the latest information. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ NGFW (PAN-OS & Panorama Managed) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Check for any license or role requirements for the products you're using. 
+
+ You can retrieve an external dynamic list from the web server to view its entries and
+ be sure that your configuration always has the latest information without requiring
+ manual updates. It's a good idea to look at your external dynamic list (EDL) entries
+ to assess the information present in these lists. Viewing external dynamic list
+ entries gives you insights into the threat intelligence being used for security
+ policy enforcement, and helps you maintain an up to date and robust security
+ posture. 
+
+ When you Configure Your Environment to Access an External Dynamic List , you can configure the firewall to retrieve the
+ list from the web server on an hourly (default) five minute, daily, weekly, or
+ monthly basis. If you have added or deleted IP addresses from the list and need to
+ trigger an immediate refresh, use the following process to fetch the updated
+ list. 
+
+ To retrieve the list on demand, select Objects External Dynamic Lists . 
+
+ Select the list that you want to refresh, and click Import
+Now . The job to import the list is queued. 
+
+ To view the status of the job in the Task Manager, see Manage and Monitor Administrative
+ Tasks . 
+
+ ( Optional ) After the firewall retrieves the list, View
+ External Dynamic List Entries . 
+
+ Previous 
+
+ Configure your Environment to Access an External Dynamic List from the EDL Hosting Service 
+
+ Next 
+
+ View External Dynamic List Entries 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Security Policy 
+
+ Prisma Access 
+
+ Panorama 
+
+ Security Policy 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

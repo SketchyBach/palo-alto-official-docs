@@ -1,0 +1,466 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-access-agent/user-guide/set-up-ldap-authentication-for-prisma-access-agent-panorama
+fetched_at: 2026-08-13T17:22:57Z
+source: palo-alto-main
+---
+
+# Set Up LDAP Authentication for Prisma Access Agent (Panorama Managed Deployments) Clear
+
+Set Up LDAP Authentication for Prisma Access Agent (Panorama Managed Deployments) 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Set Up LDAP Authentication for Prisma Access Agent (Panorama Managed Deployments) 
+
+ Updated on 
+
+ Wed Jul 01 22:45:41 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Wed Jul 01 22:45:41 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access Agent 
+
+ Prisma Access Agent User Guide 
+
+ Set Up LDAP Authentication for Prisma Access Agent (Panorama Managed Deployments) 
+
+ Download PDF 
+
+ Prisma Access Agent 
+
+ Set Up LDAP Authentication for Prisma Access Agent (Panorama Managed Deployments) 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Set Up LDAP Authentication for Prisma Access Agent (Panorama Managed Deployments) 
+
+ Configure LDAP/LDAPS authentication for Prisma Access Agent to enable seamless
+ authentication using existing directory services and GlobalProtect Portal
+ infrastructure. 
+
+ ( Prisma Access Agent 25.6.1 ) Before you begin, ensure that you're using a
+ Prisma Access tenant with GlobalProtect configured. If you already configured
+ GlobalProtect to use LDAP authentication, you can skip steps 1 -
+ 3 . 
+
+ Create an LDAP server profile that defines the connection to your directory
+ server. (Skip this step if you have an existing LDAP server profile.) 
+
+ When you use LDAP to connect to Active Directory (AD), you must create a
+ separate LDAP server profile for every Active Directory (AD) domain. 
+
+ From Panorama, select Device Server Profiles LDAP , and then Add an LDAP server
+ profile. 
+
+ Enter a Profile Name , such as
+ ldap-server-profile . 
+
+ If this profile is for a firewall with multiple virtual systems
+ capability, select a virtual system or Shared as
+ the Location where the profile is
+ available. 
+
+ Click Add in the Server
+ List area, and then enter the necessary information for
+ connecting to the authentication server, including the server
+ Name , IP address or FQDN of the
+ LDAP Server , and
+ Port . 
+
+ Enter the Base DN for the LDAP directory. 
+
+ To identify the Base DN of your directory, open the Active
+ Directory Domains and Trusts Microsoft Management
+ Console snap-in and use the name of the top-level domain. 
+
+ Enter the Bind DN and
+ Password to enable the authentication service
+ to authenticate the gateway. The Bind DN account must have permission to
+ read the LDAP directory. 
+
+ ( Optional ) If you want the endpoint to use SSL or TLS for a
+ more secure connection with the directory server, enable the option to
+ Require SSL/TLS secured connection . The
+ protocol that the endpoint uses depends on the server port: 
+
+ 389 (default)—TLS (Specifically, the device uses the StartTLS operation , which upgrades
+ the initial plaintext connection to TLS). 
+
+ 636—SSL. 
+
+ Any other port—The device first attempts to use TLS. If the
+ directory server does not support TLS, the device falls back to
+ SSL. 
+
+ ( Optional ) For additional security, enable to the option to
+ Verify Server Certificate for SSL sessions so
+ that the endpoint verifies the certificate that the directory server
+ presents for SSL/TLS connections. To enable verification, you must also
+ enable the option to Require SSL/TLS secured
+ connection . For verification to succeed, the certificate
+ must meet one of the following conditions: 
+
+ It's in the list of device certificates: Device Certificate Management Certificates Device Certificates. If necessary, import the certificate into the
+ device. 
+
+ The certificate signer is in the list of trusted certificate
+ authorities: Device Certificate Management Certificates Default Trusted Certificate
+ Authorities . 
+
+ Click OK so save your LDAP server profile. 
+
+ Create an authentication profile for LDAP. (Skip this step if you already have
+ an authentication profile for LDAP.) 
+
+ The authentication profile specifies the server profile that the Portal or
+ gateways use when they authenticate users. On a portal or gateway, you can
+ assign one or more authentication profiles to one or more client
+ authentication profiles. For descriptions of how an authentication profile
+ within a client authentication profile supports granular user
+ authentication, see Configure a GlobalProtect Gateway 
+ and Set Up Access to the GlobalProtect
+ Portal . 
+
+ From Panorama, select Device Authentication Profile , and then Add a new profile. 
+
+ Enter a Name for the authentication profile,
+ such as ldap-auth-profile . 
+
+ In the Authentication tab, select Type LDAP . 
+
+ Select the LDAP Server Profile that you created
+ in step 1 . 
+
+ In the Advanced tab, Add 
+ an Allow List to select the users and user groups
+ that are allowed to authenticate with this profile. The
+ all option allows every user to authenticate
+ with this profile. By default, the list has no entries, which means no
+ users can authenticate. 
+
+ Click OK to save your authentication
+ profile. 
+
+ Attach the LDAP authentication profile to the GlobalProtect Portal. 
+
+ From Panorama, select Network GlobalProtect Portals . 
+
+ Select a GlobalProtect Portal or add a portal . 
+
+ Select the Authentication tab. 
+
+ In the Client Authentication section, select the
+ check box corresponding to the Authentication
+ Profile that you created in step 2 . 
+
+ Click OK to save the GlobalProtect Portal
+ configuration and Commit the configuration. 
+
+ Make sure to position the LDAP authentication profile at the top
+ of the Client Authentication table, so that the GlobalProtect
+ Portal will prompt the user for their LDAP credentials. To
+ reposition the profile, select the check box corresponding to
+ the profile and select Move Up until the
+ profile is at the top of the list. 
+
+ Configure Prisma Access Agent to use the GlobalProtect Portal for
+ authentication. 
+
+ Navigate to the Prisma Access Agent Setup page. 
+
+ For Panorama Managed
+Prisma Access deployments: 
+ From the Cloud Services plugin in Panorama, select Panorama Cloud Services Prisma Access Agent Launch Prisma Access Agent . 
+
+ Select Configuration Prisma Access Agent Settings . 
+
+ For Panorama Managed NGFW deployments: 
+ Log in to Strata Cloud
+ Manager as the administrator. 
+
+ Select Configuration Prisma Access Agent Settings . 
+
+ Select the Prisma Access Agent tab and
+ Add User Authentication . 
+
+ Select Authentication Method GlobalProtect Portal . 
+
+ After you select Portal Authentication , the
+ other authentication fields will no longer appear since
+ authentication will be handled by the GlobalProtect Portal. 
+
+ Enter the Portal FQDN for the GlobalProtect
+ Portal. For example: 
+
+ You can find the Portal FQDN in the GlobalProtect Portal
+ configuration in Panorama ( Network GlobalProtect Portals <portal name> ). 
+
+ Save your user authentication settings. 
+
+ ( Optional ) Enable the Save user credentials 
+ option in the Prisma Access Agent settings to provide seamless authentication
+ across device states like sleep-wake cycles, network changes, and system
+ restarts without repeatedly prompting the user for credentials. 
+
+ Select Configuration Prisma Access Agent Settings Prisma Access Agent . 
+
+ Click Add Agent Settings or select an existing
+ agent setting that you want to modify. 
+
+ Configure the agent settings as needed and
+ select Save user credentials . 
+
+ Create or Update your
+ user authentication settings. 
+
+ Push the Prisma Access Agent Configuration . 
+
+ Configure the GlobalProtect Portal to generate cookies for authentication
+ override and use the cookie for gateway authentication. 
+
+ Enable cookie generation on the GlobalProtect Portal. 
+
+ Navigate to Network GlobalProtect Portals 
+
+ Open the Portal Profile . 
+
+ Click the Agent and click
+ Agent Config . 
+
+ Enable Generate cookie for authentication
+ override . 
+
+ This option configures the Portal to generate encrypted,
+ endpoint-specific cookies after the user first authenticates
+ with the Portal. 
+
+ Set the Cookie Lifetime per your
+ requirement (default is 24 hours). 
+
+ Select Certificate to Encrypt/Decrypt
+ Cookie . 
+
+ Enable cookie acceptance in the GlobalProtect gateway. 
+
+ Navigate to Network GlobalProtect Gateways . 
+
+ Open the Gateway Profile . 
+
+ Click the Agent tab. 
+
+ Click Client Settings and open
+ Client Config . 
+
+ Click the Authentication Override tab
+ and enable Accept cookie for authentication
+ override . 
+
+ Set the Cookie Lifetime per your
+ requirement (default is 24 hours). 
+
+ This value can be the same as or different from the Portal's
+ cookie lifetime. 
+
+ Select Certificate to Encrypt/Decrypt
+ Cookie . 
+
+ This certificate needs to be the
+ same one that was selected in the GlobalProtect
+ Portal. 
+
+ Commit these changes. 
+
+ This will enable the GlobalProtect Portal to generate encrypted,
+ endpoint-specific cookies, which the GlobalProtect gateway can then
+ use for authentication override, reducing the frequency with which
+ users are prompted for credentials. 
+
+ Configure the authentication override cookie lifetime in the global agent settings . 
+
+ Select Configuration Prisma Access Agent Settings Prisma Access Agent . 
+
+ Edit the Global Agent Settings . 
+
+ In Certificate to Encrypt/Decrypt Cookie , select
+ the same certificate that is used across the GlobalProtect Portal and
+ GlobalProtect gateway . 
+
+ Configure the Cookie Lifetime to specifies the
+ duration for which the cookie is valid. 
+
+ Save your settings. 
+
+ Push the Prisma Access Agent Configuration . 
+
+ Verify the configuration. 
+
+ Test authentication from a client device running Prisma Access Agent . 
+
+ With this configuration, Prisma Access Agent will use the
+ GlobalProtect Portal for LDAP authentication instead of the Cloud
+ Identity Engine (CIE). When a user attempts to connect, the agent
+ will prompt for credentials if needed, authenticate with the LDAP
+ server via the GlobalProtect Portal, and upon successful
+ authentication, receive a session token to secure internet and
+ private application traffic. 
+
+ When the user clicks Connect on the Prisma Access Agent app, the agent will prompt them to enter their
+ credentials: 
+
+ If the user already entered their LDAP credentials on macOS or the
+ Windows login screen, the agent won’t prompt them to enter their
+ credentials again in the Prisma Access Agent app (provided that the
+ credentials are already saved). 
+
+ Run the pacli epm status command. The
+ Authentication Type should be GP
+ Portal Auth . 
+
+ Check the logs in the Log Viewer for successful authentication
+ events. 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Prisma Access Agent 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ Prisma Access 
+
+ Panorama 
+
+ Strata Cloud Manager 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

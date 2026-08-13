@@ -1,0 +1,416 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-1/network/network-network-profiles/network-network-profiles-zone-protection/reconnaissance-protection
+fetched_at: 2026-08-13T16:50:12Z
+source: palo-alto-main
+---
+
+# Reconnaissance Protection Clear
+
+Reconnaissance Protection 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Reconnaissance Protection 
+
+ Updated on 
+
+ Thu Jun 25 18:50:04 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 18:50:04 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Network 
+
+ Network > Network Profiles 
+
+ Network > Network Profiles > Zone Protection 
+
+ Reconnaissance Protection 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Reconnaissance Protection 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Flood Protection 
+
+ Next 
+
+ Packet Based Attack Protection 
+
+ Reconnaissance Protection 
+
+ Network > Network Profiles
+> Zone Protection > Reconnaissance Protection 
+
+ The following settings define reconnaissance protection: 
+
+ Zone Protection Profile Settings—Reconnaissance Protection 
+
+ Configured In 
+
+ Description 
+
+ TCP Port Scan 
+
+ Network Network Profiles Zone Protection Reconnaissance Protection 
+
+ Enable configures protection against TCP port scans. 
+
+ UDP Port Scan 
+
+ Enable configures protection against UDP port scans. 
+
+ Host Sweep 
+
+ Enable configures protection against host sweeps. 
+
+ IP Protocol
+ Scan Enable configures protection against IP
+ protocol scans. 
+
+ Action 
+
+ Action that the system will take in response
+to the corresponding reconnaissance attempt: 
+
+ Allow —Permits port scan, host sweep , or IP protocol
+ scan reconnaissance. 
+
+ ( Default ) Alert —Generates an alert for each port scan, host
+ sweep , or IP
+ protocol scan that meets the specified threshold
+ within the specified time interval. 
+
+ Block —Drops all subsequent packets
+from the source to the destination for the remainder of the specified
+time interval. 
+
+ Block IP —Drops all subsequent packets
+for the specified Duration , in seconds (range
+is 1-3,600). Track By determines whether
+to block source or source-and-destination traffic. For example, block
+attempts above the threshold number per interval that are from a
+single source (more stringent), or block attempts that have a source
+and destination pair (less stringent). 
+
+ Block all reconnaissance scans except your internal vulnerability
+ testing scans. 
+
+ Interval (sec) 
+
+ Time interval, in seconds, for TCP or UDP port scan and IP protocol scan detection (range is 2-65,535; default
+ is 2). 
+
+ Time
+interval, in seconds, for host sweep detection (range is 2-65,535;
+default is 10). 
+
+ Threshold (events) 
+
+ Number of detected port scan, host sweep , or IP
+ protocol scan events within the specified time interval
+ that triggers the specified action (range is 2-65,535; default is
+ 100). 
+
+ Use the default
+event threshold to log a few packets for analysis before blocking
+reconnaissance attempts. 
+
+ Source Address Exclusion 
+
+ IP addresses that you want to exclude from reconnaissance
+protection. The list supports a maximum of 20 IP addresses or Netmask
+address objects. 
+
+ Name —Enter
+a descriptive name for the address to exclude. 
+
+ Address Type —Select IPv4 or IPv6 from
+the drop-down. 
+
+ Address —Select an address or address
+object from the drop-down or enter one manually. 
+
+ Exclude only IP addresses for trusted internal
+groups that perform vulnerability testing. 
+
+ Previous 
+
+ Flood Protection 
+
+ Next 
+
+ Packet Based Attack Protection 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ 12.1 
+
+ Help 
+
+ Web Interface 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

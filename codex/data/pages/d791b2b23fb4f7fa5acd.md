@@ -1,0 +1,409 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/10-2/globalprotect/objects-globalprotect-hip-objects/hip-objects-patch-management-tab
+fetched_at: 2026-08-13T16:43:36Z
+source: palo-alto-main
+---
+
+# HIP Objects Patch Management Tab Clear
+
+HIP Objects Patch Management Tab 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ HIP Objects Patch Management Tab 
+
+ Updated on 
+
+ Thu Jun 25 17:37:48 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 17:37:48 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ GlobalProtect 
+
+ Objects > GlobalProtect > HIP Objects 
+
+ HIP Objects Patch Management Tab 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Next-Generation Firewall 
+
+ HIP Objects Patch Management Tab 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ HIP Objects Mobile Device Tab 
+
+ Next 
+
+ HIP Objects Firewall Tab 
+
+ HIP Objects Patch Management Tab 
+
+ Objects GlobalProtect HIP Objects <hip-object> Patch
+Management 
+
+ Select the Patch Management tab to enable
+HIP matching on the patch status of the GlobalProtect endpoints. 
+
+ HIP Object Patch
+Management Settings 
+
+ Description 
+
+ Patch Management 
+
+ Select this option to enable matching on
+the patch management status of the host and enable the Criteria and Vendor tabs. 
+
+ Criteria tab 
+
+ Specify the following settings: 
+
+ Is
+Installed —Match on whether patch management software
+is installed on the host. 
+
+ Is Enabled —Match on whether patch
+management software is enabled on the host. If the Is
+Installed selection is cleared, this field is automatically
+set to none and is disabled for editing. 
+
+ Severity —Select from the list of logical
+operators for matching on whether the host has missing patches of
+the specified severity value. 
+
+ Use the following mappings between
+the GlobalProtect severity values and the OPSWAT severity ratings
+to understand what each value means: 
+
+ 0 —Low 
+
+ 1 —Moderate 
+
+ 2 —Important 
+
+ 3 —Critical 
+
+ Check —Match on whether the endpoint
+has missing patches. 
+
+ Patches —Match on whether the host
+has specific patches. Click Add and enter
+the KB article IDs for the specific patches to check for. For example,
+enter 3128031 to check for the Update for
+Microsoft Office 2010 (KB3128031) 32-Bit Edition. 
+
+ Vendor tab 
+
+ Define specific vendors of patch management
+software and products to look for on the endpoint to determine a
+match. Click Add and then choose a Vendor from
+the drop-down. Optionally, click Add to choose a specific Product .
+Click OK to save the settings. 
+
+ Previous 
+
+ HIP Objects Mobile Device Tab 
+
+ Next 
+
+ HIP Objects Firewall Tab 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ PAN-OS 
+
+ 10.2 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

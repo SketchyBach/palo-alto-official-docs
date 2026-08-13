@@ -1,0 +1,191 @@
+---
+url: https://docs.paloaltonetworks.com/strata-logging-service/new-features/by-date/strata-logging-service/october-2024#4da93ded65af6c9ea14f0c4e361f1cd3
+fetched_at: 2026-08-13T17:40:49Z
+source: palo-alto-main
+---
+
+# New Features - Strata Logging Service - October 2024 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+New Features - Strata Logging Service - October 2024 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Logging Service Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Release Notes 
+
+ Log Reference 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ Strata Logging Service 
+
+ New Features - Strata Logging Service - October 2024 
+
+ Centralized Device Associations for Strata Logging Service 
+
+ Release Date: October 2024 
+ | 
+ Last Updated: May 2026 
+
+ Previously, managing devices across different management interfaces introduced inconsistency during device onboarding. Now, you can use centralized Device Associations management to streamline this workflow and gain a unified view of all onboarded devices. This feature allows you to quickly add firewall and Panorama® devices to a tenant service group (TSGs) and automatically associate them with Strata Logging Service . The centralized Device Associations management view ensures a more efficient and consistent onboarding experience, regardless of whether you onboard a device from the Strata Logging Service standalone app or from Strata Cloud Manager . This approach provides a consistent experience of onboarding devices across various Palo Alto Networks products. 
+
+ Strata Logging Service
+
+ October 2024
+
+ Common Services
+
+ October 2024
+
+ Strata Logging Service
+
+ October 2024
+
+ Multitenant Reports 
+
+ Release Date: October 2024 
+ | 
+ Last Updated: May 2026 
+
+ A new multitenant reporting capability offers managed security service providers (MSSPs) or distributed enterprises more comprehensive reporting capabilities that address the need for comprehensive data visualization across multiple tenants. You can now generate, email, and manage executive summary and supplemental reports that you customize to include information about specific tenants and geographic locations. These reports provide a comprehensive view of service performance, incident responses, and threats. For example, a supplemental Network Activity (Top Tenants) report identifies the top tenants with risky apps, URLs, and unblocked threats. Additionally, the ability to tailor reports to a specific customer enhances your service offerings. 
+
+ Depending on your role, you’ll have the ability to share reports through email, view historical reports, and manage access to reports. 
+
+ Strata Logging Service
+
+ October 2024
+
+ Strata Cloud Manager
+
+ Management
+
+ October 2024
+
+ Saudi Arabia Strata Logging Service Region Support 
+
+ Release Date: October 2024 
+ | 
+ Last Updated: May 2026 
+
+ Prisma Access supports the Saudi Arabia Strata Logging Service location. 
+
+ Strata Logging Service
+
+ October 2024
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Identity and Access Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

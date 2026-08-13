@@ -1,0 +1,436 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/authentication/troubleshoot-authentication-issues
+fetched_at: 2026-08-13T17:04:17Z
+source: palo-alto-main
+---
+
+# Troubleshoot Authentication Issues Clear
+
+Troubleshoot Authentication Issues 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Troubleshoot Authentication Issues 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Authentication 
+
+ Troubleshoot Authentication Issues 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Troubleshoot Authentication Issues 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configure Authentication Policy 
+
+ Next 
+
+ Certificate Management 
+
+ Troubleshoot Authentication Issues 
+
+ When users fail to authenticate to a Palo Alto Networks
+firewall or Panorama, or the Authentication process
+takes longer than expected, analyzing authentication-related information
+can help you determine whether the failure or delay resulted from: 
+
+ User behavior —For example, users are locked out after
+entering the wrong credentials or a high volume of users are simultaneously
+attempting access. 
+
+ System or network issues —For example, an authentication
+server is inaccessible. 
+
+ Configuration issues —For example, the Allow List of
+an authentication profile doesn’t have all the users it should have. 
+
+ The following CLI commands display information that can help
+you troubleshoot these issues: 
+
+ Task 
+
+ Command 
+
+ Display the number of locked user accounts
+associated with the authentication profile ( auth-profile ), authentication
+sequence ( is-seq ), or virtual system ( vsys ). 
+
+ To unlock users, use the following operational
+command: 
+
+ > request
+authentication [unlock-admin | unlock-user] 
+
+ PA-220> show authentication locked-users 
+   { 
+   vsys <value> | 
+   auth-profile <value> | 
+   is-seq 
+      {yes | no} 
+      {auth-profile | vsys} <value> 
+   } 
+
+ Use the debug authentication command
+to troubleshoot authentication events. 
+
+ Use the show options
+to display authentication request statistics and the current debugging level: 
+
+ show displays the current debugging level
+for the authentication service (authd). 
+
+ show-active-requests displays the
+number of active checks for authentication requests, allow lists,
+locked user accounts, and Multi-Factor
+Authentication (MFA) requests. 
+
+ show-pending-requests displays the
+number of pending checks for authentication requests, allow lists,
+locked user accounts, and MFA requests. 
+
+ connection-show displays authentication
+request and response statistics for all authentication servers or
+for a specific protocol type. 
+
+ Use the connection-debug options
+to enable or disable authentication debugging: 
+
+ Use
+the on option to enable or the off option to
+disable debugging for authd. 
+
+ Use the connection-debug-on option
+to enable or the connection-debug-off option
+to disable debugging for all authentication servers or for a specific
+protocol type. 
+
+ PA-220> debug authentication 
+   { 
+   on {debug | dump | error | info | warn} | 
+   show | 
+   show-active-requests | 
+   show-pending-requests |     
+   connection-show | 
+      { 
+      connection-id | 
+      protocol-type 
+         { 
+         Kerberos connection-id <value> | 
+         LDAP connection-id <value> | 
+         RADIUS connection-id <value> | 
+         TACACS+ connection-id <value> | 
+         } 
+   connection-debug-on | 
+      { 
+      connection-id | 
+      debug-prefix | 
+      protocol-type 
+         { 
+         Kerberos connection-id <value> | 
+         LDAP connection-id <value> | 
+         RADIUS connection-id <value> | 
+         TACACS+ connection-id <value> | 
+         } 
+   connection-debug-off | 
+      { 
+      connection-id | 
+      protocol-type 
+         { 
+         Kerberos connection-id <value> | 
+         LDAP connection-id <value> | 
+         RADIUS connection-id <value> | 
+         TACACS+ connection-id <value> | 
+         } 
+   connection-debug-on 
+   } 
+
+ Test the connection and validity
+of the certificate profile . 
+ PA-220> test authentication authentication-profile auth-profile username <username> password <password> 
+
+ Troubleshoot a specific authentication using
+the Authentication ID displayed in Monitor Logs Authentication . 
+ PA-220> grep <Authentication ID> 
+
+ Previous 
+
+ Configure Authentication Policy 
+
+ Next 
+
+ Certificate Management 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

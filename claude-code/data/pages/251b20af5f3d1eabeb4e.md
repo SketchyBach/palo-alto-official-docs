@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/advanced-threat-prevention/administration/saas-agent-security-support-table
-fetched_at: 2026-08-13T14:30:08Z
+fetched_at: 2026-08-13T15:14:33Z
 source: palo-alto-main
 ---
 

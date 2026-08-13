@@ -1,0 +1,360 @@
+---
+url: https://docs.paloaltonetworks.com/identity/cloud-identity-engine/identify-users-and-devices-with-cie/manage-your-directories/manage-your-okta-directory
+fetched_at: 2026-08-13T16:35:57Z
+source: palo-alto-main
+---
+
+# Manage Your Okta Directory Clear
+
+Manage Your Okta Directory 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Manage Your Okta Directory 
+
+ Updated on 
+
+ Thu Jun 11 15:30:49 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Identity Docs 
+
+ Activation & Onboarding 
+
+ Cloud Identity Engine 
+
+ Help 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 11 15:30:49 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Identity 
+
+ Identify Users and Devices with Cloud Identity Engine 
+
+ Manage Your Directories 
+
+ Manage Your Okta Directory 
+
+ Download PDF 
+
+ Identity 
+
+ Manage Your Okta Directory 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Identity Docs 
+
+ Activation & Onboarding 
+
+ Cloud Identity Engine 
+
+ Help 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Manage Your Azure Directory 
+
+ Next 
+
+ Manage Your Google Directory 
+
+ Manage Your Okta Directory 
+
+ Learn about managing your Okta directory for CIE. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ Prisma Access 
+
+ The Cloud Identity Engine service is free; however, the
+ enforcement points utilizing directory data may require specific
+ licenses. Click here for more
+ information. 
+
+ Managing your Okta directory involves maintaining the secure connection established
+ via the Okta Integration Network to ensure continuous user attribute
+ synchronization. If your deployment utilizes the Auth Code Flow, you must
+ reconnect the directory every 90 days to refresh authentication tokens
+ and prevent synchronization failures. Alternatively, reconfiguration to the Client
+ Credential Flow allows you to use a service account, which eliminates the need for
+ frequent re-authentication and is recommended for long-term stability. 
+
+ You can also edit your configuration to enable advanced features, such as forwarding
+ authentication logs to the Strata Logging Service or collecting enterprise
+ application data for broader visibility. To permanently remove the directory,
+ you must first delete the Cloud Identity Engine integration from the Okta Admin
+ Dashboard to revoke privileges, and then remove the directory from the Cloud
+ Identity Engine tenant. 
+
+ Reconnect 
+
+ Remove 
+
+ Reconnect Okta Directory 
+
+ If there’s a connection loss between the Cloud Identity Engine and your Okta Directory,
+ follow these steps to reconnect your directory. 
+
+ If the connection between your Okta directory and the Cloud Identity Engine isn’t active or if
+ you want to make changes to your Okta directory configuration, you can reconnect
+ your Okta directory to the Cloud Identity Engine. 
+
+ Log in to the hub and select the Cloud Identity Engine tenant that contains the
+ Okta directory you want to reconnect. 
+
+ Select Directories . 
+
+ Select Actions Reconnect for the directory
+you want to reconnect. 
+
+ Select whether you want to make any changes to your configuration. 
+
+ If you want to use a service account to log in to the Okta directory,
+ select the Client Credential Flow . For more
+ information, refer to Deploy Client Credential Flow for Okta . 
+
+ If you want the Cloud Identity Engine to Collect enterprise
+ applications data so that it is included when you View Directory Data , select the checkbox. If you don't use enterprise
+ application data in your security policy or you don't want to collect
+ the data, deselect the checkbox. 
+
+ If you want the Cloud Identity Engine to Collect
+ authentication logs and forward to Strata Logging
+ Service , select the checkbox. If you don't want to
+ forward logs or you don't use Strata Logging Service ,
+ deselect the checkbox. 
+
+ ( Auth Code Flow only ) Sign in with Okta using
+ your Okta administrator credentials and grant permissions for the Cloud Identity
+ Engine to access the directory information. 
+
+ (Client credential flow only) Enter the Client
+ ID and Client Secret (or click
+ Restore to restore the current client secret). 
+
+ You cannot change the Domain .
+ If you need to change the domain, you must create a new Okta
+ directory configuration in the Cloud Identity Engine. 
+
+ Click Test Connection to confirm the Cloud Identity
+ Engine can access your Okta directory. 
+
+ ( Optional ) Customize Directory Name if you want
+ to change the name that the Cloud Identity Engine displays for this directory in
+ your tenant. 
+
+ You can use up to 15 lowercase alphanumeric
+ characters (including hyphens, periods, and underscores) for the directory
+ name in the Cloud Identity Engine. You don't need to change the name of the
+ directory itself, only the name of the directory in the Cloud Identity
+ Engine app. If your directory name contains more than 15 characters, you
+ must change the directory name to contain a maximum of 15 characters.
+
+ Submit your configuration. 
+
+ Remove Okta Directory 
+
+ If you no longer need to sync your Okta Directory, learn
+how to remove it from the Cloud Identity Engine. 
+
+ If you no longer need to sync your Okta Directory
+with the Cloud Identity Engine, you can remove it from the Cloud
+Identity Engine. 
+
+ Remove the Cloud Identity Engine integration from Okta. 
+
+ Log in to the Okta Admin Dashboard. 
+
+ Select Applications Applications . 
+
+ Select the Cloud Identity Engine integration you want
+to remove. 
+
+ Select Inactive Delete . 
+
+ Click Delete Application to
+confirm that you want to remove the Cloud Identity Engine integration
+from Okta. 
+
+ Remove the Okta Directory from the Cloud Identity Engine app. 
+
+ In the Cloud Identity Engine app, select Directories . 
+
+ Select Actions Remove . 
+
+ Click Yes to confirm removal
+of the directory. 
+
+ Previous 
+
+ Manage Your Azure Directory 
+
+ Next 
+
+ Manage Your Google Directory 
+
+ On This Page 
+
+ Activation and Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Panorama 
+
+ Service Provider 
+
+ VM-Series 
+
+ Plugins 
+
+ SASE 
+
+ Prisma Access 
+
+ Prisma SASE Multitenant Platform 
+
+ Prisma Access Monitoring & Visibility 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Remote Browser Isolation 
+
+ Prisma Access Agent 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Resources 
+
+ All Products A - Z 
+
+ All Release Notes 
+
+ Compatibility Matrix 
+
+ Experts Corner 
+
+ Network Security Platform 
+
+ Security Policy 
+
+ Decryption 
+
+ Device-ID 
+
+ IPSec VPN 
+
+ Quality of Service 
+
+ Quantum Security 
+
+ Cloud Identity Engine 
+
+ Network Security 
+
+ Identity & Access 
+
+ Cloud Identity Engine 
+
+ Cloud-Delivered Security Services 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

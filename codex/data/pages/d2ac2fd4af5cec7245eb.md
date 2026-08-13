@@ -1,0 +1,986 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/administration/monitoring/use-syslog-for-monitoring/system-log-reference/high-system-log-messages
+fetched_at: 2026-08-13T16:40:22Z
+source: palo-alto-main
+---
+
+# High System Log Messages Clear
+
+High System Log Messages 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ High System Log Messages 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Monitoring 
+
+ Use Syslog for Monitoring 
+
+ Syslog Severity Reference 
+
+ High System Log Messages 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ High System Log Messages 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Medium System Log Messages 
+
+ Next 
+
+ Critical System Log Messages 
+
+ High System Log Messages 
+
+ E-Log 
+
+ Log Tags: 
+
+ auth 
+
+ bfd 
+
+ clusterd 
+
+ dhcp 
+
+ dns-security 
+
+ dynamic-updates 
+
+ fips 
+
+ general 
+
+ globalprotect 
+
+ hw 
+
+ iot 
+
+ ipv6nd 
+
+ lldp 
+
+ port 
+
+ resctrl 
+
+ routing 
+
+ tls 
+
+ url-filtering 
+
+ userid 
+
+ wildfire 
+
+ auth 
+
+ Event ID Message 
+
+ saml-certificate-error The certificate of SAML IdP entity Id "<name>" is
+not configured, but it is asked to validate it in IdP server profile
+"<name>" 
+
+ saml-certificate-error Failed to get cert config on vsys <id> 
+
+ saml-certificate-error Failed to find cert for <name> in vsys <id> 
+
+ saml-certificate-error Failed to validate the signature in IdP certificate "<name>"
+of entity Id "<name>" 
+
+ saml-certificate-error can't build CredentialResolver for public key "<key>"
+of IdP entity id "<name>" in server profile "<profile>" 
+
+ saml-certificate-error can't tranform one line buffer for the public
+key "<key>" of IdP entity id "<id>" in server profile "<profile>" 
+
+ saml-certificate-error User "<name>" is extracted from SAML SSO response
+from IdP "<name>", which doesn't have a certificate configured
+in server profile "<profile>" of auth profile "<profile>" 
+
+ saml-certificate-error Request signing certificate (object name: <name>)
+in SAML auth profile "<name>" has expired 
+
+ saml-certificate-error The certificate (object name: <name>) of SAML
+IdP entity Id "<name>" in IdP server profile "<name>" has
+expired 
+
+ saml-certificate-error IdP "<name>" doesn't have a certificate,
+while incoming SAML message has signature without X509Certificate 
+
+ saml-certificate-error SAML Assertion IdP certificate "<name>"
+(used in server profile "<name>") <reason> 
+
+ saml-certificate-error SAML no certificate profile is configured to check
+the revoke status of IdP cert "<name>" (in server profile "<name>") 
+
+ saml-certificate-error No IdP certificate is configured for IdP "<id>", no
+x509certificate in the incoming message, can't verify signature 
+
+ saml-certificate-error SAML <type> failure for user '<name>'
+- IdP "<id>" certificate "<name>" for server profile "<name>"
+has expired 
+
+ saml-certificate-error SAML <type> from IdP "<name>" (auth profile "<name>")
+is signed by unknown signer "<name>" and has been rejected 
+
+ saml-certificate-error SAML <type> failure - Request signing certificate
+"<name>" for SAML auth profile "<name>" has expired 
+
+ saml-certificate-error SAML simple sign the SAML message failed (signing
+certificate object: "<name>") 
+
+ saml-certificate-error SAML sign the SAML message failed (signing certificate
+object: "<name>") 
+
+ saml-certificate-error Failure while validating the signature of SAML message
+received from the IdP "<id>", because the certificate in the
+SAML Message doesn't match the IDP certificate configured on the
+IdP Server Profile "<profile>". (SP: "<type>"), (Client IP:
+<ip>), (vsys: <id>), (authd id: <id>), (user: <name>) 
+
+ saml-message-parse-error SAML Assertion from '<name>' is malformed 
+
+ saml-message-parse-error Failed to convert SAML message payload into xml
+tree 
+
+ saml-message-parse-error SAML Assertion: InResponseToID "<id>" != OriginalReqID
+"<id>" 
+
+ saml-message-parse-error SAML message from IdP "<name>" has no Assertion 
+
+ saml-message-parse-error SAML SSO response from "<name>" has no usernameattribute
+and saml:Subject NameID field 
+
+ saml-message-parse-error username: entered "<name>" != returned "<name>"
+from IdP "<name>" -> reject SAML auth due to security concerns 
+
+ saml-message-parse-error SAML SLO request message from '<name>' is malformed 
+
+ saml-message-parse-error SAML message is not of V2.0 
+
+ saml-message-parse-error SAML message has no IssueInstant 
+
+ saml-message-parse-error SAML message from IdP "<id>" has no Issuer node 
+
+ saml-message-parse-error SAML message from IdP "<id>" has empty Issuer
+node value 
+
+ saml-message-parse-error SAML IdP entityID: parsed "<id>" != configured
+"<id>" 
+
+ saml-message-parse-error SAML SLO request message has no signature, but
+validate-idp-certificate is enabled 
+
+ saml-message-parse-error SAML message has no NameID 
+
+ saml-message-parse-error SAML message has no SessionIndex 
+
+ saml-message-parse-error SAML SLO response message from '<name>'
+is malformed 
+
+ saml-message-parse-error SAML SLO: InResponseToID "<name>" != OriginalReqID
+"<id>" 
+
+ saml-message-parse-error SAML SLO response status: received "<name>" != "urn:oasis:names:tc:SAML:2.0:status:Success" 
+
+ saml-message-parse-error SAML SLO message has no Status 
+
+ saml-message-parse-error SAML message is not of Version 2.0 
+
+ saml-message-parse-error SAML message from IdP "<name>" has no NameID 
+
+ saml-message-parse-error SAML message from IdP "<name>" SSO: InResponseToID
+"<id>" != OriginalReqID "<id>" 
+
+ saml-message-parse-error SAML message from IdP "<name>" has no Subject 
+
+ saml-message-parse-error SAML message from IdP "<name>"(server profile
+"<name>") was created in the future (not_before "<time>" -
+max_clock_skew <num> > now <time>) 
+
+ saml-message-parse-error SAML message from IdP "<name>" (server profile
+"<name>") was expired already (not_on_or_after "<time>" +
+max_clock_skew <num> <= now <time>) 
+
+ saml-message-parse-error SAML message from IdP "<name>" has no Conditions 
+
+ saml-message-parse-error SAML message from IdP "<name>" has no AuthnInstant 
+
+ saml-message-parse-error SAML message from IdP "<name>" has no SessionIndex 
+
+ saml-message-parse-error SAML message from IdP "<name>" has no AuthnStatement 
+
+ saml-message-parse-error SAML message from IdP "<name>": Error to extract
+AttributeStatement 
+
+ saml-message-parse-error Failed to verify signature against certificate
+of IdP "<name>" 
+
+ saml-message-parse-error For user "<name>", SAML message has no Signature
+from IdP "<name>", whose certificate "<name>" is configured
+in server profile "<name>" of auth profile "<name>" 
+
+ saml-message-parse-error SAML signature in message from IdP "<name>"
+can't be validated 
+
+ cas-message (profile id:<id>)<message> 
+
+ general Device cert is not available, to enable the
+cloud auth profile "<name>" on vsys "<name>" 
+
+ cas-token-invalidated Failed to validate CAS token from client '<name>'
+from '<url>' with auth_session_id '<id>' and username '<name>' 
+
+ cas-certificate-warning Expired CAS certificate '<name>' in region '<name>' 
+
+ cas-certificate-warning Expired device certificate '<name>' 
+
+ cas-certificate-warning CAS certificate '<name>' in region '<name>' will
+expire in <num> day[s] 
+
+ cas-certificate-warning Device certificate '<name>' will expire
+in <num> day[s] 
+
+ saml-certificate-warning SAML Assertion: signature is validated against IdP
+certificate (subject '<name>') for user '<name>' 
+
+ saml-certificate-warning Certificate '<name>' of IdP server profile '<name>'
+in SAML authentication profile '<name>' is expired 
+
+ saml-certificate-warning Request signing certificate '<name>' in
+SAML authentication profile '<name>' is expired 
+
+ saml-certificate-warning Certificate '<name>' of IdP server profile '<name>'
+in SAML authentication profile '<name>' will expire in <num>
+day 
+
+ saml-certificate-warning Request signing certificate '<name>' in
+SAML authentication profile '<name>' will expire in %d day%s 
+
+ cas-certificate-error Device certificate "<name>" was expired
+for <num> seconds 
+
+ bfd 
+
+ Event ID Message 
+
+ admin-down BFD administrative down for BFD session <name>
+to neighbor <name> on interface <name>. Protocol: <proto> 
+
+ expired-time BFD control detection time expired for BFD session
+<name> to neighbor <name> on interface <name>. Protocol:
+<name> 
+
+ neighbor-down BFD neighbor signaled session down for BFD session
+<name> to neighbor <name> on interface <name>. Protocol:
+<name> 
+
+ session-state-change BFD state changed to <name> for BFD session <name>
+to neighbor <name> on interface <name>. Protocol: <name> 
+
+ admin-down BFD administrative down for BFD session <name>
+to neighbor <name> on interface <name>. Protocol: <name> 
+
+ admin-down BFD administrative down for BFD session <name>
+to neighbor <name> on interface <name>. Protocol: <name> 
+
+ admin-down BFD administrative down for BFD session <name>
+to neighbor <name> on interface <name>. Protocol: <name> 
+
+ clusterd 
+
+ Event ID Message 
+
+ cluster-daemon-cfg-giveup Cluster daemon is unable to get last cfg from cfgagent.
+Out of retries. 
+
+ cluster-other-ip-incompatible Peer node IP is not compatible with current cluster
+interface IP 
+
+ dhcp 
+
+ Event ID Message 
+
+ if-update-fail DHCP <desc>: interface <name>, dhcp server: <name> 
+
+ if-update-fail DHCP <name>: interface <name>, ip <ip> netmask
+<mask> dhcp server: <name> 
+
+ dns-security 
+
+ Event ID Message 
+
+ PAN_ELOG_EVENT_DNSSEC_DNS_CLOUD_CONNECTION_NOHOST DNS Security cloud service DNS resolution failed. 
+
+ PAN_ELOG_EVENT_DNSSEC_DNS_CLOUD_CONNECTION_NOROUTE DNS Security cloud service network connectivity
+failed. 
+
+ PAN_ELOG_EVENT_DNSSEC_DNS_CLOUD_CONNECTION_REFUSED DNS Security cloud service connection refused. 
+
+ PAN_ELOG_EVENT_DNSSEC_DNS_CLOUD_DOWN DNS Security cloud service unavailable. 
+
+ dynamic-updates 
+
+ Event ID Message 
+
+ palo-alto-networks-message <message> 
+
+ fips 
+
+ Event ID Message 
+
+ fips-zeroization File zeroization error: <error> 
+
+ fips-zeroization Ram zeroization error 
+
+ general 
+
+ Event ID Message 
+
+ general Error setting CURLOPT_WRITEDATA with fd = <id>
+(code: <id>; msg: <msg>) 
+
+ general Error retrieving CRL from "<name>" (code: <id>;
+msg: <msg>) (curl timeout setting: <num> sec) 
+
+ general Error loading CRL from "<name>" 
+
+ general 
+
+ general Failed to parse CRL <name> (reason: <reason>) 
+
+ general Request made to the server "<url>" returned with
+HTTP response code : <id> 
+
+ general Request made to the server "<url>" returned with
+HTTP response code : <id> 
+
+ general Machine Learning engine for <name> stopped, please
+update your content 
+
+ general MLAV cloud error, all machine Learning engines stopped 
+
+ bootstrap-failure Failed to process registration from bootstrapped
+device <name>, since vm-auth-key not found in request. 
+
+ bootstrap-failure Failed to process registration from bootstrapped
+device <name>, since vm-auth-key <name> is invalid. 
+
+ tac-login TAC debug access failed for <name> from <ip> 
+
+ globalprotect 
+
+ Event ID Message 
+
+ globalprotectgateway-invalid-license GlobalProtect Subscription License has expired. Please
+activate the license by logging into Customer Support Portal to
+continue using GlobalProtect features. 
+
+ hw 
+
+ Event ID Message 
+
+ bootstrap-license-failure Failed to install license using authcode <id> 
+
+ slot-unsupported Slot <id> (<model>) will not be utilized
+when the Session Distribution Policy is set to ingress-slot. The
+session distribution policy must be set to some value other than ingress-slot. 
+
+ bootstrap-license-failure Failed to install license key for file <name> 
+
+ bootstrap-license-failure Failed to install license using authcode <name> 
+
+ bootstrap-content-failure Invalid iot image. Failed to get major version, minor
+version, and digest for file <name> 
+
+ bootstrap-content-failure Invalid image. Failed to get major version, minor
+version, and digest for file <name> 
+
+ bootstrap-content-failure Invalid image. Failed to get major version, minor
+version, and digest for file <name> 
+
+ bootstrap-content-failure Invalid image. Failed to get major version, minor
+version, and digest for file <name> 
+
+ bootstrap-content-failure Failed to schedule content install job for
+file <name> 
+
+ bootstrap-content-failure Content cannot be installed. <error> 
+
+ iot 
+
+ Event ID Message 
+
+ ha-queue-full HA queue is full 
+
+ ipv6nd 
+
+ Event ID Message 
+
+ inconsistent-ra-message-received An inconsistent router advertisement was received
+from address <ip> on interface <name>. 
+
+ lldp 
+
+ Event ID Message 
+
+ tooManyNeighbors timer cleared TooManyNeighbors error cleared for <xx>:<xx>:<xx>:<xx>:<xx>:<xx>
+on interface <index> 
+
+ tx error Receive error for <xx>:<xx>:<xx>:<xx>:<xx>:<xx>
+on interface <index> for TLV <index> 
+
+ rx error Receive error for <xx>:<xx>:<xx>:<xx>:<xx>:<xx>
+on interface <index> for TLV <index> 
+
+ too many neighbors Max MIB size reached: LLDP neighbor addition failed
+for <xx>:<xx>:<xx>:<xx>:<xx>:<xx> on interface
+<index> 
+
+ port 
+
+ Event ID Message 
+
+ link-change Port MGT: Down <type> 
+
+ resctrl 
+
+ Event ID Message 
+
+ mem-limit-exceeded Memory lmt exceeds. cgroup_name <name> memsw_limit_in_bytes
+<num> memsw_usage_in_bytes <num> 
+
+ routing 
+
+ Event ID Message 
+
+ routed-BGP-peer-left-established BGP peer session left established state. peer name:
+<name>, peer IP: <ip>. 
+
+ routed-BGP-peer-restarted Initiated graceful-restart with a BGP peer.
+peer name: <name>, peer IP: <ip>. 
+
+ routed-BGP-peer-prefix-exceeded BGP peer advertised more than maximum allowed
+prefixes. peer name: <name>, peer IP: <ip>. 
+
+ route-table-capacity Route table capacity reached. 
+
+ routed-BGP-peer-left-established BGP peer session left established state. 
+
+ routed-OSPF-neighbor-down OSPF adjacency with neighbor has gone down. 
+
+ routed-RIP-peer-del RIP peer disappeared. 
+
+ tls 
+
+ Event ID Message 
+
+ tls-X509-validation-failed <name> Server certificate validation failed. Dest
+Addr: <address>, Reason: <reason> 
+
+ tls-X509-validation-failed <name> server certificate authentication
+failed 
+
+ url-filtering 
+
+ Event ID Message 
+
+ url-download-failure PAN-DB cloud list loading failed (ERROR:<error>). 
+
+ url-download-failure Failed to download the cloud list from the master
+cloud. 
+
+ url-cloud-connection-failure URL cloud list is empty. "Cannot initiate cloud connection. 
+
+ url-cloud-connection-failure Could not open file /opt/pancfg/opt/pan/content/pan/urlcloud_list.txt.
+errno=<error>. 
+
+ url-cloud-connection-failure Failed to send update request to the cloud 
+
+ url-cloud-connection-failure Cloud is not ready Free <num> requests without
+processing. 
+
+ url-cloud-connection-failure Cloud is not ready, There was no update from the
+cloud in the last <num> minutes. 
+
+ url-cloud-connection-failure CLOUD CONNECTION: cloud not OK 
+
+ update-version-failure Failed to update DP, update version <name>. 
+
+ update-version-failure Failed to update version <version>. 
+
+ update-version-failure Failed to update version <version>. 
+
+ update-version-failure Failed to update version <version>. 
+
+ update-version-failure Failed to update version <version>. 
+
+ seed-out-of-sync PAN-DB sw <version> is not compatible with the
+cloud sw <version> Upgrade sw is required!!! 
+
+ url-cloud-connection-failure Failed to create the Cloud Connection Agent. 
+
+ userid 
+
+ Event ID Message 
+
+ connect-agent-failure User-ID Agent peer's certificate RSA public
+key size is less than 2048 bits 
+
+ connect-agent-failure User-ID Agent X509_verify_cert returned error <id>,
+error = '<error>' 
+
+ connect-agent-failure User-ID Agent server cert revoked/invalid 
+
+ connect-agent-failure User-ID Agent cert name validation failed 
+
+ connect-agent-failure Redistribution Agent <name>(vsys<id>): <status>
+details: close connection to agent 
+
+ user-group-count User Group count of <num> exceeds threshold of
+<num> 
+
+ connect-vm-info-source-failure vm-info-source <name>(vsys<id>): failed
+to connected to <host>, status <message> 
+
+ connect-agent-failure <agent> <name>(vsys<id>): <status> details:
+<details> 
+
+ HA-queue-full HA queue is full 
+
+ HA-queue-full CFG HA queue is full 
+
+ connect-agent-failure User-ID Agent peer's certificate RSA public
+key size is less than 2048 bits 
+
+ connect-agent-failure User-ID Agent X509_verify_cert returned error <num>
+error = '<error>' 
+
+ connect-agent-failure User-ID Agent cert name validation failed 
+
+ connect-agent-failure User-ID Agent server cert revoked/invalid 
+
+ connect-agent-failure User-ID Agent peer's certificate RSA public
+key size is less than 2048 bits 
+
+ connect-agent-failure User-ID Agent X509_verify_cert returned error <num>
+error = '<error>' 
+
+ connect-agent-failure User-ID Agent cert name validation failed 
+
+ connect-agent-failure User-ID Agent server cert revoked/invalid 
+
+ connect-agent-failure User-ID Agent server cert revoked/invalid 
+
+ connect-agent-failure User-ID Agent peer's certificate RSA public
+key size is less than 2048 bits 
+
+ connect-agent-failure User-ID Agent X509_verify_cert returned error <num>,
+error = '<error>' 
+
+ connect-agent-failure User-ID Agent cert name validation failed 
+
+ connect-server-monitor-failure User-ID server monitor <name>(vsys<id>) <status> 
+
+ connect-server-monitor User-ID WinRM server monitor <name>(vsys<id>):
+certificate RSA public key size is less than 2048 bits 
+
+ connect-server-monitor User-ID WinRM X509_verify_cert returned error
+<num> error = '<error>' 
+
+ connect-server-monitor User-ID WinRM cert name validation failed 
+
+ connect-server-monitor User-ID WinRM server cert revoked/invalid 
+
+ connect-server-monitor-failure Server monitor <name>(vsys<id>): connection
+failed, <error> 
+
+ connect-vm-info-source-failure vm-info-source <name>(vsys<id>): failed
+to connected to <host>, status <status> 
+
+ connect-vm-info-source-failure vm-info-source <name>(vsys<id>): failed
+to connected to <host>, status <status> 
+
+ connect-vm-info-source-failure vm-info-source <name>(vsys<id>): failed
+to connected to GCE, status <status> 
+
+ connect-vm-info-source-failure vm-info-source <name>(vsys<id>): failed
+to connected to <host>, status <status> 
+
+ wildfire 
+
+ Event ID Message 
+
+ wildfire-auth-failed WildFire failed to retrieve verdict.Authentication or
+Client Certificate failure. 
+
+ wildfire-auth-failed WildFire failed to send query.Authentication
+or Client Certificate failure. 
+
+ wildfire-disabled-by-cloud WildFire failed to send query.Client Certificate has
+expired or is not yet valid. 
+
+ wildfire-auth-failed WildFire failed to send query."Authentication
+or Client Certificate failure. 
+
+ wildfire-invalid-cloud-info WildFire <name> channel registration received invalid
+cloud info. Details in varrcvr.log. 
+
+ wildfire-no-license WildFire <name> channel registration failed due
+to invalid WildFire license. 
+
+ wildfire-wrong-cloud-type WildFire registration failed. Cloud type <type> (<name>)
+is not allowed for <name> channel. 
+
+ wildfire-auth-failed WildFire registration failed.Authentication
+or Client Certificate failure. 
+
+ wildfire-auth-failed WildFire registration failed.Mismatched Serial number
+in certificate and payload. 
+
+ wildfire-no-policy WildFire <name> channel disabled. "Invalid <name>
+Cloud server configuration '<name>'. 
+
+ Slog 
+
+ GRPC status DEADLINE_EXCEEDED
+in intelligent offload 
+
+ Inserted 100G QSFP28 module "(Vendor '<name>';Part '<name>';id '<id>')
+is not supported on 40G (port <num>) of PA-5220. 
+
+ No valid dataplane ports found at startup. 
+
+ Failed to install SSL Inbound Certificate(s) in Data Plane. 
+
+ Memory error detected. 
+
+ <name>Drive error detected. 
+
+ Not enough space to load content to SHM 
+
+ device-server HA queue is full 
+
+ GlobalProtect data file version <version> failed to install
+version 
+
+ Number of hints on disk has exceeded <num> due to log forward
+failures. 
+
+ Created CSR Cert '<name>' 
+
+ Delete Cert '<name>' 
+
+ Created CA Cert '<name>' 
+
+ Signed Cert '<name>' for device '<name>' 
+
+ Signed Renewal Cert '<name>' for device '<name>' 
+
+ SC3 Device certificate state has been reset! 
+
+ Attempted to fix partition <name>. If any problems are encounted,
+it is advisable to update this partition 
+
+ Daily packet capture limit (directory <name> limit <num>)
+has been reached. 
+
+ Unable to get instance/domains for region 
+
+ Unable to get attributes for region:%s instance:%s 
+
+ Unable to get all regions 
+
+ dsc HA state is changed from %d to %d 
+
+ DPI: EAL message format is changed to Json[prev: %d] 
+
+ DPI: EAL message format is changed to protobuf[prev: %d] 
+
+ Previous 
+
+ Medium System Log Messages 
+
+ Next 
+
+ Critical System Log Messages 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

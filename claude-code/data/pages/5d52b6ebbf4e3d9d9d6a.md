@@ -1,0 +1,207 @@
+---
+url: https://docs.paloaltonetworks.com/saas-agent-security/activation-and-onboarding/activate-casb-x-first-time-single-tenant
+fetched_at: 2026-08-13T17:32:29Z
+source: palo-alto-main
+---
+
+# Activate CASB-X For a Single Customer Support Portal Account
+        Tenant Clear
+
+Activate CASB-X For a Single Customer Support Portal Account
+ Tenant 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Activate CASB-X For a Single Customer Support Portal Account
+ Tenant 
+
+ Updated on 
+
+ May 15, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SaaS Agent Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ May 15, 2026 
+
+ Focus 
+
+ Home 
+
+ SaaS Agent Security 
+
+ Activate CASB-X For a Single Customer Support Portal Account
+ Tenant 
+
+ Download PDF 
+
+ SaaS Agent Security 
+
+ Activate CASB-X For a Single Customer Support Portal Account
+ Tenant 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SaaS Agent Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Release Notes 
+
+ New Features 
+
+ Activate CASB-X For a Single Customer Support Portal Account
+ Tenant 
+
+ Activate the Next-Generation
+CASB for Prisma Access and NGFW (CASB-X) license for the first time for a single
+ tenant Customer Support Portal (CSP) account with a single tenant. 
+
+ Associate Prisma Access or NGFW with your CSP account. 
+
+ You must have at least one Prisma Access tenant or NGFW 
+ associated with your CSP account to successfully activate the CASB-X license. 
+
+ Activate a Prisma Access 
+
+ Register your NGFW 
+
+ Allocate the product to the Recipient of your choice. 
+
+ The name provided matches your CSP account for convenience. You can use
+ the name provided or change it. 
+
+ Select a Region where you want to deploy your product.
+
+ The web interface shows if you have Prisma Access and NGFW available in this tenant where you can apply CASB-X . 
+
+ Agree to the terms and conditions , and Activate . 
+
+ A single default tenant is autocreated behind the scenes, and the product is
+ activated in the tenant. 
+
+ This tenant, and any others created by this CSP account, have the
+ Superuser role created by default. 
+
+ CASB-X activation is now complete for Prisma Access . To apply CASB-X on NGFW, you must go to the Device
+ Association tab to select the devices and apply the CASB-X 
+ license: 
+
+ Device Associations 
+
+ Next Generation CASB-X 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

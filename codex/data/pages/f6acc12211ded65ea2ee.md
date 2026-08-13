@@ -1,0 +1,119 @@
+---
+url: https://docs.paloaltonetworks.com/autonomous-dem/new-features/by-date/autonomous-dem/february-2026#063b8293c5e37f65c6fbb78b50fae5b1
+fetched_at: 2026-08-13T15:29:56Z
+source: palo-alto-main
+---
+
+# New Features - Autonomous DEM - February 2026 Clear Clear Clear Clear
+
+New Features - Autonomous DEM - February 2026 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Autonomous DEM Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ AI-Powered ADEM 
+
+ Autonomous DEM for China 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ Autonomous DEM 
+
+ New Features - Autonomous DEM - February 2026 
+
+ Canary Upgrade of Autonomous DEM Agents 
+
+ Release Date: February 2026 
+ | 
+ Last Updated: May 2026 
+
+ Autonomous DEM gives you the option to try out new agent versions on a limited subset of endpoints before enabling them for all users. By using the Autonomous DEM Agent Canary upgrade , you can test and validate new agent versions on a controlled subset of endpoints before a broader rollout. This feature provides granular control over deployment strategy and eliminates forced updates that might disrupt your entire organization. You can designate specific Canary groups to identify bugs or performance regressions in a low-impact environment before a broader rollout. 
+
+ This approach ensures you address anomalies before they reach the general user base to ensure a stable ecosystem. Furthermore, this feature streamlines deployment by automating parts of the canary process, reducing manual effort for IT teams and speeding up update cycles. You can also gain real-time visibility into the upgrade status of agents within Canary groups to monitor phased rollouts effectively. 
+
+ Autonomous DEM
+
+ Core
+
+ February 2026
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

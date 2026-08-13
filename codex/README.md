@@ -15,9 +15,12 @@ The portable Claude Code version is in `palo-alto-docs-claude-code/`. Open that 
 Python 3.10 or newer is required. No third-party packages are needed.
 
 ```text
+python scripts/rebuild_index.py
 python scripts/audit.py
 python scripts/status.py
 python scripts/search.py "Cortex XDR broker VM" --mode answer --json
 ```
+
+The generated SQLite index is intentionally not stored in Git because the complete corpus index exceeds GitHub's per-file limit. Run `rebuild_index.py` once after cloning.
 
 Only allowlisted official Palo Alto Networks material, the official Idira portal at `docs.cyberark.com`, and SHA-256-verified KOI records are authoritative. Private field-support correspondence is intentionally excluded from this repository.

@@ -1,0 +1,441 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/administration/app-id/cloud-based-app-id-service/add-apps-directly-to-a-rule-with-policy-optimizer
+fetched_at: 2026-08-13T16:39:21Z
+source: palo-alto-main
+---
+
+# Add Apps Directly to a Rule with Policy Optimizer Clear
+
+Add Apps Directly to a Rule with Policy Optimizer 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Add Apps Directly to a Rule with Policy Optimizer 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ App-ID 
+
+ App-ID Cloud Engine 
+
+ Add Apps Directly to a Rule with Policy Optimizer 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Add Apps Directly to a Rule with Policy Optimizer 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Add Apps to an Application Group with Policy Optimizer 
+
+ Next 
+
+ Replace an RMA Firewall (ACE) 
+
+ Add Apps Directly to a Rule with Policy Optimizer 
+
+ Add App-ID Cloud Engine (ACE) applications to Security
+policy rule. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access 
+
+ Next-Generation Firewall 
+
+ SaaS Security Inline license (for NGFW) 
+
+ Prisma Access license (ACE is a core feature) 
+
+ You can add App-ID Cloud Engine (ACE) App-IDs
+directly to a rule with Policy Optimizer . However,
+consider using Application Filters to
+automate adding ACE App-IDs to Security policy as they arrive at
+the firewall instead of adding them manually. 
+
+ ACE provides
+App-IDs for applications that were previously identified as ssl
+or web-browsing. 
+
+ Go to Policies Security and then select Policy Optimizer New App Viewer . 
+
+ If the firewall or Panorama has downloaded ACE App-IDs,
+a number displays next to New App Viewer in
+the left navigation window. The screen displays the Security policy
+rules that match downloaded cloud App-IDs. 
+
+ Click the number in Apps Seen for
+a Security policy rule to view the cloud-delivered applications
+that matched the rule in the Applications & Usage dialog. 
+
+ Select the applications that you want to add to an existing
+or cloned Security policy rule. 
+
+ You can sort and filter the applications
+in Apps Seen by subcategory, risk, amount
+of traffic seen over the last 30 days, or when the application was
+first or last seen. 
+
+ Select Applications from Create
+Cloned Rule or Add to Existing Rule ,
+depending on how you want to handle the applications. 
+
+ The
+maximum number of applications you can clone using Create
+Cloned Rule is 1,000 applications. If there are more
+than 1,000 applications that you want to move to a different rule,
+use Add to Existing Rule instead. If you
+want to move the applications to a new rule, simply create the rule
+first ( Policies Security )
+and then use Policy Optimizer to add them to that rule. 
+
+ Add the selected applications to a cloned rule or to
+an existing rule. 
+
+ Create Cloned Rule : 
+
+ Type
+the Name (the name for the cloned rule, which
+will appear in the Security policy rulebase immediately above the
+original rule). The cloned rule has the same action (allow or deny)
+as the original rule. 
+
+ Select whether to Add container app (default) or
+only to Add specific apps seen . 
+
+ When
+you add the container app, you also add all of the functional apps
+in that container, including functional apps that have not yet been
+seen on the firewall. For example, if you add the “facebook” container
+app, that also adds facebook-base, facebook-chat, facebook-posting,
+etc., and also any future applications added to the container. The
+container and its functional apps are subject to the Security policy
+rule that you are cloning. Selecting the container app essentially
+future-proofs and automates security for the container’s apps so
+that you don’t have to manually add new apps in that container to
+your Security policy. 
+
+ Adding only the specific apps seen
+means that only the applications that you selected are added to
+the cloned rule. If new applications in the same container app arrive
+at the firewall, the cloned rule doesn’t control them and you have
+to manually decide how to handle the new apps. 
+
+ In some cases, the applications that you want to add to a
+rule require (depend on) other applications to function. In those
+cases, the Create Cloned Rule dialog box
+includes Dependent Applications , where you
+can select whether to add those applications to the cloned rule.
+Add the dependent applications to the rule to ensure that the selected applications
+function properly. 
+
+ Click OK to add the applications to
+the cloned rule. 
+
+ Commit the changes. 
+
+ Add
+Apps to Existing Rule : 
+
+ Select the Name of
+the existing rule to which you want to add the selected applications. 
+
+ As with cloning the rule to add applications, you can choose
+whether to Add container app or Add
+specific apps seen . Adding the container app adds all
+the functional apps in the container and any future apps added to
+that container. Adding only the specific apps only adds the specific
+selected apps. 
+
+ As with cloning the rule, in some cases, the applications
+that you want to add to a rule require (depend on) other applications
+to function. In those cases, the Add Apps to Existing
+Rule dialog box includes Dependent Applications ,
+where you can select whether to add those applications to the cloned
+rule. Add the dependent applications to the rule to ensure that
+the selected applications function properly. 
+
+ Click OK to add the applications to
+the existing rule. 
+
+ Commit the changes. 
+
+ Previous 
+
+ Add Apps to an Application Group with Policy Optimizer 
+
+ Next 
+
+ Replace an RMA Firewall (ACE) 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

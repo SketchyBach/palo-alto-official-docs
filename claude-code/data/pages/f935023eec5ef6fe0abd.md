@@ -1,7 +1,7 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-access-security/new-features/by-date/ai-access-security/november-2024
-fetched_at: 2026-08-13T14:00:50Z
-source: ai-security
+fetched_at: 2026-08-13T15:22:59Z
+source: palo-alto-main
 ---
 
 # New Features - AI Access Security - November 2024 Clear Clear Clear

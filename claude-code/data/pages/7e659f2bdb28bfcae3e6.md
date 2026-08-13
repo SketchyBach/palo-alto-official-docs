@@ -1,0 +1,374 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-1/objects/objects-security-profiles-url-filtering
+fetched_at: 2026-08-13T16:50:36Z
+source: palo-alto-main
+---
+
+# Objects > Security Profiles > URL Filtering Clear
+
+Objects > Security Profiles > URL Filtering 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Objects > Security Profiles > URL Filtering 
+
+ Updated on 
+
+ Thu Jun 25 18:50:04 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 18:50:04 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Objects 
+
+ Objects > Security Profiles > URL Filtering 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Objects > Security Profiles > URL Filtering 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Objects > Security Profiles > Vulnerability Protection 
+
+ Next 
+
+ URL Filtering General Settings 
+
+ Objects > Security Profiles > URL Filtering 
+
+ You can use URL filtering profiles to not only control
+ access to web content, but also to control how users interact with web content. 
+
+ What are you looking
+for? 
+
+ See: 
+
+ Control access to websites based on URL
+category. 
+
+ URL
+Filtering Categories 
+
+ Detect corporate credential submissions,
+and then decide the URL categories to which users can submit credentials. 
+
+ User
+Credential Detection 
+
+ URL
+Filtering Categories 
+
+ Block search results if the end user is
+not using the strictest safe search settings. 
+
+ URL
+Filtering Settings 
+
+ Enable logging of HTTP headers. 
+
+ URL
+Filtering Settings 
+
+ Control access to websites using custom
+HTTP Headers. 
+
+ HTTP
+Header Insertion 
+
+ Enable cloud and local inline categorization
+to analyze web pages in real-time for malicious content. 
+
+ Inline Categorization 
+
+ Looking for more? 
+
+ Learn more about how to configure URL Filtering . 
+
+ Use URL categories to prevent credential
+ phishing . 
+
+ To create custom URL categories, select Objects
+> Custom Objects > URL Category . 
+
+ To import a list of URLs that you want to enforce, select Objects > External Dynamic Lists . 
+
+ Previous 
+
+ Objects > Security Profiles > Vulnerability Protection 
+
+ Next 
+
+ URL Filtering General Settings 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ 12.1 
+
+ Help 
+
+ Web Interface 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

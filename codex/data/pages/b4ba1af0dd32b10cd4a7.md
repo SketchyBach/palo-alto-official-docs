@@ -1,0 +1,462 @@
+---
+url: https://docs.paloaltonetworks.com/sd-wan/administration/enable-sd-wan-without-auto-vpn/manage-sd-wan-link-failovers/monitor-saas-applications-using-sd-wan/configure-hub-failover-from-branch-same-saas-application-destination
+fetched_at: 2026-08-13T17:35:16Z
+source: palo-alto-main
+---
+
+# Configure Hub Failover from Branch to Same SaaS Application Destination Clear
+
+Configure Hub Failover from Branch to Same SaaS Application Destination 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Configure Hub Failover from Branch to Same SaaS Application Destination 
+
+ Updated on 
+
+ Thu Jul 30 22:19:20 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jul 30 22:19:20 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ SD-WAN 
+
+ Enable SD-WAN without Auto VPN 
+
+ Manage SD-WAN Link Failovers 
+
+ Monitor SaaS Applications Using SD-WAN 
+
+ Configure Hub Failover from Branch to Same SaaS Application Destination 
+
+ Download PDF 
+
+ SD-WAN 
+
+ Configure Hub Failover from Branch to Same SaaS Application Destination 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Monitor SaaS Application at Branch using SD-WAN 
+
+ Next 
+
+ Configure Hub Failover from Branch to Different SaaS Application Destination 
+
+ Configure Hub Failover from Branch to Same SaaS Application Destination 
+
+ Configure the SaaS application to failover to a hub firewall
+in the event if there are no healthy Direct Internet Access (DIA)
+links from the branch firewall. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ Advanced SD-WAN for NGFW 
+
+ If your organization is leveraging a SaaS
+application at a branch firewall location but the branch firewall
+has no healthy DIA links to swap to, you can configure the hub firewall
+as a failover alternative to maintain a healthy connection to your
+SaaS application. 
+
+ If the SaaS application DIA link health
+metric thresholds are exceeded and the branch firewall has no healthy
+DIA links available, the link is swapped to the next hub firewall
+for all new sessions. The existing session on the degraded DIA link
+is not swapped over to the hub firewall. 
+
+ For example, say
+your branch and hub firewalls are located in the same region and access
+a SaaS application using the same destination IP. You can configure
+the hub firewall to act as a failover in the event there are no
+healthy DIA links from the branch firewall to the SaaS application
+by configuring an identically named SaaS Quality profile on both
+the branch and hub firewalls to automatically failover to the hub
+firewall if no healthy DIA links are available from the branch firewall.
+This allows you to maintain a health path for your SaaS application
+and maintain accurate end-to-end SaaS application monitoring data
+without congesting your network bandwidth. 
+
+ Set up your SD-WAN deployment. 
+
+ Install the SD-WAN
+ plugin . 
+
+ Set up Panorama and firewalls for
+ SD-WAN . 
+
+ Add SD-WAN Devices to
+ Panorama . 
+
+ ( High availability configurations only ) Configure SD-WAN devices in HA
+ mode . 
+
+ Plan your topology for
+ SD-WAN with Auto VPN . 
+
+ Define a link tag to group the SaaS
+ application DIA links. 
+
+ Create multiple Link Tags for your DIA links in order to apply different SD-WAN monitoring settings for each SaaS application DIA link
+ based on the link type. 
+
+ Additionally, you can create a single Link Tag for multiple DIA links to
+ group the links into a single link bundle. 
+
+ Configure an SD-WAN interface profile to
+ define the characteristics of your ISP connection and specify the speed of the
+ DIA link, how frequently the branch firewall monitors the link, and select the
+ Link Tag to specify to which link the SD-WAN Interface profile
+ applies. 
+ If you created multiple Link Tags, you must configure an SD-WAN 
+ Interface profile for each Link Tag. 
+
+ If you created a link bundle by assigning multiple DIA links to a single Link
+ Tag, specifying that link tag applies the SD-WAN Interface
+ profile settings to all DIA links in the bundle. 
+
+ Configure a physical Ethernet interface 
+ for each SaaS application DIA link. 
+
+ All physical Ethernet interfaces for DIA links must be Layer3. 
+
+ Configure a virtual SD-WAN
+ interface that groups all physical Ethernet interfaces for the SaaS
+ application DIA links into a single interface group. 
+
+ The firewall virtual router uses this virtual SD-WAN interface
+ to route SD-WAN traffic to a DIA location. The SD-WAN path health and Traffic Distribution profiles in the
+ SD-WAN policy rule then determine which path to use and
+ the order in which to consider new paths if a path health deteriorates. 
+
+ Create identically named SaaS quality profiles for both
+the hub and branch firewalls. 
+
+ Two identically named SaaS Quality profiles must be configured
+on the hub and branch firewalls to successfully leverage the hub
+firewall as an alternative failover. The easiest way to accomplish
+this is to create a single SaaS Quality profile in the Shared device group.
+Alternatively, you can create two SaaS Quality profiles with identical
+names in different device groups and push them to your hub and branch
+firewalls. 
+
+ Select Objects SD-WAN Link Management SaaS Quality
+Profile , and from the Device Group drop-down
+select Shared . 
+
+ Add a
+new SaaS Quality profile. 
+
+ Enter a descriptive Name for
+the SaaS Quality profile. 
+
+ Enable (check) Shared to make
+the SaaS Quality profile shared across all device groups. 
+
+ This is required to make the SaaS Quality profile available
+to all device groups your branch and hub firewalls belong to. 
+
+ Enable (check) Disable override to
+disable overriding the SaaS Quality profile configuration on the
+local firewall. 
+
+ Configure the SaaS Monitoring Mode using one of the
+following methods. 
+
+ Configure the Static IP address for the SaaS application. 
+
+ Create a SaaS Quality profile per SaaS
+application. If a SaaS application has multiple IP addresses, configure
+a SaaS Quality profile with the multiple static IP addresses for
+that SaaS application. 
+
+ Select IP Address/Object Static IP Address and Add an
+IP address. 
+
+ Enter the IP address of the SaaS application or select a
+configured address object . 
+
+ Enter the Probe Interval by which
+the branch firewall probes the SaaS application path for health
+information. 
+
+ Click OK to save your configuration
+changes. 
+
+ Configure the fully qualified domain name (FQDN) for the
+SaaS application. 
+
+ Configure a FQDN address object for the
+SaaS application. 
+
+ Select IP Address/Object FQDN and Add the
+FQDN. 
+
+ Select the FQDN address object for
+the SaaS application. 
+
+ Enter the Probe Interval by which
+the branch firewall probes the SaaS application path for health
+information. 
+
+ Click OK to save your configuration
+changes. 
+
+ Configure the URL for the SaaS application. 
+
+ URL
+monitoring is only supported for traffic over ports 80, 443, 8080,
+8081, and 143. 
+
+ Select HTTP/HTTPS . 
+
+ Enter the Monitored URL of the SaaS
+application. 
+
+ Enter the Probe Interval by which
+the branch firewall probes the SaaS application path for health
+information. 
+
+ Click OK to save your configuration
+changes. 
+
+ Create a traffic distribution profile to
+ specify the order the branch firewall swaps from DIA links to VPN links to the
+ hub firewall in the event of link health degradation. 
+
+ Configure an SD-WAN policy
+ rule to specify the SaaS application and link health metrics, and
+ determine how the firewall selects the preferred link for the critical SaaS
+ application traffic. 
+
+ In the Application tab, add the SaaS application
+ you are monitoring to the SD-WAN policy rule to ensure
+ the SaaS monitoring settings are applied only to the desired SaaS
+ application. 
+
+ Previous 
+
+ Monitor SaaS Application at Branch using SD-WAN 
+
+ Next 
+
+ Configure Hub Failover from Branch to Different SaaS Application Destination 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ IoT Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ SD-WAN 
+
+ English 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,337 @@
+---
+url: https://docs.paloaltonetworks.com/network-security/decryption/administration/troubleshooting-decryption/investigate-decryption-failures
+fetched_at: 2026-08-13T16:38:12Z
+source: palo-alto-main
+---
+
+# Investigate Reasons for Decryption Failure Clear
+
+Investigate Reasons for Decryption Failure 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Investigate Reasons for Decryption Failure 
+
+ Updated on 
+
+ Mar 13, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Updated on 
+
+ Mar 13, 2026 
+
+ Focus 
+
+ Home 
+
+ Network Security 
+
+ Troubleshoot Decryption 
+
+ Investigate Reasons for Decryption Failure 
+
+ Download PDF 
+
+ Network Security 
+
+ Investigate Reasons for Decryption Failure 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Previous 
+
+ Troubleshoot Decryption 
+
+ Next 
+
+ Identify Weak Protocols and Cipher Suites 
+
+ Investigate Reasons for Decryption Failure 
+
+ Identify decryption failures and why they happened and drill down into the exact
+ failure reasons so you can address issues. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ All NGFW deployments, including those funded
+ by software NGFW
+ credits 
+
+ All Prisma Access deployments 
+
+ No separate license required for decryption when using NGFWs or
+ Prisma Access . 
+
+ Note: The features and capabilities available to you in
+ Strata Cloud Manager depend on your active license(s) . 
+
+ The most common reasons for decryption failures are TLS protocol errors,
+ cipher version errors (client and server version mismatches and client and
+ Decryption profile version mismatches), and certificate errors. To investigate decryption errors , start with the
+ Application Command Center (ACC) to identify failures and then go to the Decryption
+ logs to drill down into details. 
+
+ For additional information about these errors and possible remediation, see Decryption Log Errors, Error Indexes, and
+ Bitmasks . 
+
+ Strata Cloud Manager 
+
+ PAN-OS & Panorama 
+
+ Investigate Decryption Failures ( Strata Cloud Manager ) 
+
+ Select Log
+ Viewer , and then select
+ Firewall/Decryption to drill down into the decryption
+ logs. 
+
+ Use the query Error Index = 'Certificate' to view all
+ decryption sessions that experienced certificate errors. 
+
+ The Error column shows the reason for the certificate
+ error. To filter for all decryption sessions that had the same error, click
+ the error message to add it to the query and then execute the query. For
+ example, to find all errors based on receiving a fatal alert from the
+ client, clicking the error produces the query (Error Index =
+ Certificate) AND (Error Message = ‘Received fatal alert
+ CertificateUnknown from client’) . 
+
+ To filter for the certificate errors that a specific host received, add that
+ SNI to the query instead of adding error message text. For example, to find
+ all certificate errors for expired.badssl.com, use the query
+ (Error Index = 'Certificate') AND (Server Name Indication =
+ ‘expired.badssl.com’) . 
+
+ The Error column shows the specific reason for each
+ certificate error associated with expired.badssl.com. 
+
+ Once you know the reason for the certificate issue that caused the decryption
+ failure, you can address it. For example, if the certificate chain is
+ incomplete, you can repair the incomplete
+ certificate chain . If a certificate is expired , you can notify the site
+ administrator or create a policy-based exception if you need
+ to access the site. 
+
+ Investigate Decryption Failures ( PAN-OS ) 
+
+ Begin your investigation at ACC SSL Activity and look at the Decryption Failure Reasons widget. 
+
+ In this example, we investigate certificate errors. You can use the same
+ process to investigate version and protocol errors. 
+
+ Click the green bar next to Certificate to see which
+ hosts (SNIs) experienced certificate errors and see a list of hosts that
+ experienced the largest number of certificate errors. 
+
+ Go to Monitor Logs Decryption to drill down into the logs. 
+
+ Use the query (err_index eq Certificate) to filter the
+ Decryption logs to view all Decryption sessions that experienced certificate
+ errors. 
+
+ The Error column shows the reason for the certificate
+ error. To filter for all Decryption sessions that had the same error, click
+ the error message to add it to the query and then execute the query. For
+ example, to find all errors based on receiving a fatal alert from the
+ client, clicking the error produces the query (err_index eq
+ Certificate) and (error eq ‘Received fatal alert CertificateUnknown from
+ client’) : 
+
+ To filter for the certificate errors that a specific host received, add that
+ SNI to the query instead of adding error message text. For example, to find
+ all certificate errors for expired.badssl.comm use the query
+ (err_index eq Certificate) and (sni eq
+ ‘expired.badssl.com’) : 
+
+ The Error column shows the specific reason for each
+ certificate error associated with expired.badssl.com. 
+
+ Once you know the reason for the certificate issue that caused the decryption
+ failure, you can address it. For example, if the certificate chain is
+ incomplete, you can repair the certificate
+ chain . If a certificate is expired , you can notify the site
+ administrator or create a policy-based exception if you need
+ to access the site. 
+
+ Previous 
+
+ Troubleshoot Decryption 
+
+ Next 
+
+ Identify Weak Protocols and Cipher Suites 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Decryption 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Decryption 
+
+ English 
+
+ Strata Cloud Manager 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

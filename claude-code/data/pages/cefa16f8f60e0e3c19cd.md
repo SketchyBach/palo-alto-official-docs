@@ -1,0 +1,215 @@
+---
+url: https://docs.paloaltonetworks.com/strata-cloud-manager/new-features/by-date/strata-cloud-manager/january-2025#5f64fa2824776432d477e49cd6ad86e6
+fetched_at: 2026-08-13T17:38:34Z
+source: palo-alto-main
+---
+
+# New Features - Strata Cloud Manager - January 2025 Clear Clear Clear Clear Clear Clear Clear
+
+New Features - Strata Cloud Manager - January 2025 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Cloud Manager Docs 
+
+ Activation & Onboarding 
+
+ Subscription & Tenant Management 
+
+ Getting Started 
+
+ AIOps 
+
+ Release Notes 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ Strata Cloud Manager 
+
+ New Features - Strata Cloud Manager - January 2025 
+
+ Logviewer Copilot Summary 
+
+ Release Date: January 2025 
+ | 
+ Last Updated: May 2026 
+
+ When analyzing network logs, the sheer volume of data makes it difficult to quickly identify patterns and derive meaningful insights. The Logviewer Copilot Summary feature solves this problem by automatically analyzing your filtered log data and presenting a comprehensive, high-level summary of the most important findings . Instead of manually examining thousands or even millions of tabular records, you can now get instant intelligence about your network traffic, threats, or other log data through AI-powered analysis. 
+
+ You can use this feature whenever you need to understand the broader patterns in your log data. For example, after applying filters to traffic logs, the Copilot Summary can immediately show you the number of unique source and destination IPs, distinct users, session counts by application type, encrypted vs. decrypted traffic statistics, and session end reasons—all without you having to export and analyze the data yourself. This provides a quick overview that helps you understand the scope and nature of the network activity represented in your filtered logs. 
+
+ The feature integrates seamlessly with your workflow—simply apply your desired filters in Logviewer, and the Copilot Summary appears as an option in the AI Assist workflows panel. When you select it, the system processes up to 10,000 records from your filtered dataset to generate meaningful insights. Beyond just providing stats, the summary can highlight anomalies, such as unusual application usage patterns or potential security concerns, giving you immediate visibility into what matters most in your log data. 
+
+ You'll find this feature particularly valuable for security investigations, troubleshooting network issues, understanding user behavior, and generating quick reports on network activity. By automatically surfacing the most relevant information and patterns in your log data, the Copilot Summary helps you make faster, better-informed decisions about your network security and performance. 
+
+ Strata Cloud Manager
+
+ Strata Copilot
+
+ January 2025
+
+ NGFW Alerts in January 2025 
+
+ Release Date: January 2025 
+ | 
+ Last Updated: June 2026 
+
+ Here are the NGFW alerts introduced in January 2025: 
+
+ BGP Peering Issue Due to Error Subcode = Administrative Reset (4) 
+
+ BGP peering issue due to Error subcode = Bad Peer AS (2) 
+
+ BGP Peering Issue Due to Error Subcode = Administrative Shutdown (2) 
+
+ BGP-peer dropping due to missing keepalives 
+
+ BGP peering issue due to Error subcode = Peer De-configured (3) 
+
+ BGP peering issue due to Error subcode = Connection Rejected (5) 
+
+ Unofficial URL for WildFire | Advanced WildFire 
+
+ Unofficial URL for Application Database 
+
+ Unofficial URL for Cloud Services 
+
+ Unofficial URL for PAN-DB URL Filtering | Advanced URL Filtering 
+
+ Advanced Routing Engine: NGFW Sent BGP Routes Beyond the Capacity of Its Peer 
+
+ NGFW received BGP Routes beyond the configured max Prefixes 
+
+ Hot-Plug event detected 
+
+ Slow Panorama Performance - Long Execution of show config candidate operation 
+
+ Duplicate IP address detected on an interface 
+
+ GRE tunnel is down - recursive routing 
+
+ Inter Log Collector Disconnection 
+
+ Panorama/Log Collector Disconnected from Collector Group 
+
+ Logrcvr Out-of-Memory - LFC Memory Retention Due to Kernel Failure 
+
+ Logrcvr Out-of-Memory - LFC Log Loss Recovery Mechanism 
+
+ Slow Panorama Performance - Long Execution of Push Scope Operation 
+
+ Slow Panorama Performance - Long Execution of Save, Load, or Revert config operation 
+
+ Strata Cloud Manager
+
+ AIOPs
+
+ January 2025
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

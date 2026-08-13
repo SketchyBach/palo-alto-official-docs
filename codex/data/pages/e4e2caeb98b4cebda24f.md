@@ -1,0 +1,484 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/subscriptions/what-happens-when-licenses-expire
+fetched_at: 2026-08-13T17:01:33Z
+source: palo-alto-main
+---
+
+# What Happens When Licenses Expire? Clear
+
+What Happens When Licenses Expire? 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ What Happens When Licenses Expire? 
+
+ Updated on 
+
+ Tue Mar 24 19:20:23 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Tue Mar 24 19:20:23 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ NGFW Compatible Subscriptions 
+
+ What Happens When Licenses Expire? 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ What Happens When Licenses Expire? 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Activate Subscription Licenses 
+
+ Next 
+
+ Enhanced Application Logs for Palo Alto Networks Cloud Services 
+
+ What Happens When Licenses Expire? 
+
+ Learn about what happens to your NGFW when your subscriptions and licenses
+ expire. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ Palo Alto Networks subscriptions provide the NGFW with added
+ functionality and/or access to a Palo Alto Networks cloud-delivered service. When a
+ license is within 30 days of expiration, a warning message displays in the system log
+ daily until the subscription is renewed or expires. Upon license expiration, some
+ subscriptions continue to function in a limited capacity, and others stop operating
+ completely. Here you can find out what happens when each subscription expires. 
+
+ The precise moment of license expiry is at the beginning of the following day at
+ 12:00 AM (GMT). For example, if your license is scheduled to end on 1/20 you will
+ have functionality for the remainder of that day. At the start of the new day on
+ 1/21 at 12:00 AM (GMT), the license will expire. All license-related functions
+ operate on Greenwich Mean Time (GMT), regardless of the configured time zone on the
+ NGFW. 
+
+ ( Panorama license ) If the support license expires, Panorama can still manage
+ NGFWs and collect logs, but software and content updates will be unavailable. The
+ software and content versions on Panorama must be the same as or later than the
+ versions on the managed NGFWs, or else errors will occur. For details, see Panorama, Log Collector, Firewall, and WildFire
+ Version Compatibility . 
+
+ Subscription Expiry Behavior 
+
+ Advanced Threat Prevention / Threat Prevention 
+
+ Alerts appear in the System Log indicating that the license has
+ expired. 
+
+ You can still: 
+
+ Use signatures that were installed at the time the license
+ expired, unless you install a new Applications-only content update either
+ manually or as part of an automatic schedule. If you do, the
+ update will delete your existing threat signatures and you will
+ no longer receive protection against them. 
+
+ Use and modify Custom App-ID™ and threat signatures. 
+
+ You can no longer: 
+
+ Install new signatures. 
+
+ Roll signatures back to previous versions. 
+
+ Detect and prevent unknown threats using real-time, ML-based
+ detection engines provided by Advanced Threat Prevention. 
+
+ DNS Security 
+
+ You can still: 
+
+ Use local DNS signatures if you have an active Threat Prevention
+ license. 
+
+ You can no longer: 
+
+ Get new DNS signatures. 
+
+ Advanced URL Filtering / URL Filtering 
+
+ You can still: 
+
+ Enforce policy using custom URL categories. 
+
+ You can no longer: 
+
+ Get updates to cached PAN-DB categories. 
+
+ Connect to the PAN-DB URL filtering database. 
+
+ Get PAN-DB URL categories. 
+
+ Analyze URL requests in real-time using advanced URL
+ filtering. 
+
+ WildFire 
+
+ You can still: 
+
+ Forward PEs for analysis. 
+
+ Get signature updates every 24-48 hours if you have an active
+ Threat Prevention subscription. 
+
+ You can no longer: 
+
+ Get five-minute updates through the WildFire public and private
+ clouds. 
+
+ Forward advanced file types such as APKs, Flash files, PDFs,
+ Microsoft Office files, Java Applets, Java files (.jar and
+ .class), and HTTP/HTTPS email links contained in SMTP and POP3
+ email messages. 
+
+ Use the WildFire API . 
+
+ Use the WildFire appliance to host a WildFire private cloud 
+ or a WildFire hybrid cloud .
+
+ AutoFocus 
+
+ You can still: 
+
+ Use an external dynamic list with AutoFocus data for a grace
+ period of three months. 
+
+ You can no longer: 
+
+ Access the AutoFocus portal. 
+
+ View the AutoFocus Intelligence Summary for Monitor log or ACC
+ artifacts. 
+
+ Strata Logging Service 
+
+ You can still: 
+
+ Access the stored data for a 30-day grace period provided for
+ license renewal, after which the data is deleted. 
+
+ You can no longer: 
+
+ Ingest data to Strata Logging Service during 30 day grace
+ period. 
+
+ Forward logs to Strata Logging Service during 30-day
+ grace period. 
+
+ GlobalProtect 
+
+ You can still: 
+
+ Use the app for endpoints running Windows and macOS. 
+
+ Configure single or multiple internal/external gateways . 
+
+ You can no longer: 
+
+ Access the Linux OS app and mobile app for iOS, Android, Chrome
+ OS, and Windows 10 UWP. 
+
+ Use IPv6 for external gateways. 
+
+ Run HIP checks. 
+
+ Use Clientless VPN . 
+
+ Enforce split tunneling based on destination domain, client
+ process, and video streaming application. 
+
+ VM-Series See the VM-Series Deployment
+ Guide . 
+
+ Support 
+
+ You can no longer: 
+
+ Receive software updates. 
+
+ Download VM images. 
+
+ Benefit from technical support. 
+
+ Previous 
+
+ Activate Subscription Licenses 
+
+ Next 
+
+ Enhanced Application Logs for Palo Alto Networks Cloud Services 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 11.1 & Later 
+
+ PAN-OS 
+
+ Getting Started 
+
+ Panorama 
+
+ Strata Cloud Manager 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

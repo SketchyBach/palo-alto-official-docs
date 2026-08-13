@@ -1,0 +1,339 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-2/monitor/monitor-iot-devices
+fetched_at: 2026-08-13T16:51:55Z
+source: palo-alto-main
+---
+
+# Monitor > IoT Devices Clear
+
+Monitor > IoT Devices 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Monitor > IoT Devices 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ PAN-OS Web Interface Help 
+
+ Monitor 
+
+ Monitor > IoT Devices 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Monitor > IoT Devices 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Botnet Configuration Settings 
+
+ Next 
+
+ IoT Devices > Summary 
+
+ Monitor > IoT Devices 
+
+ Gain visibility into the devices on your network through IoT Security. 
+
+ Where Can I Use This? What Do I Need? 
+
+ PAN-OS 
+
+ ( Firewall ) IoT Security subscription 
+
+ ( Panorama ) Enable IoT Device Context Cloud Service on Panorama Setup 
+
+ The IoT Devices section provides visibility into the devices on your network through the
+ AI and machine-learning capabilities of IoT
+ Security . The next-generation firewall must be subscribed to IoT Security
+ services for data to appear on these pages. 
+
+ IoT Devices > Summary 
+
+ IoT Devices > Asset Inventory 
+
+ After upgrading Panorama to PAN-OS 11.1, you must enable the IoT device context cloud
+ service to see the IoT Devices Summary and IoT Devices Asset Inventory pages. Select Panorama Setup and click the Edit icon in the PAN-OS Edge
+ Service Settings section. In the PAN-OS Edge Service Settings panel that appears,
+ Enable IoT Device Context Cloud Service and then click
+ OK . If you don't enable it, Panorama won't display these
+ pages. 
+
+ Previous 
+
+ Botnet Configuration Settings 
+
+ Next 
+
+ IoT Devices > Summary 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 12.2 
+
+ PAN-OS 
+
+ Help 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

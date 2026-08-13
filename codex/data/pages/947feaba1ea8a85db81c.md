@@ -1,0 +1,218 @@
+---
+url: https://docs.paloaltonetworks.com/hardware/pa-3200-hardware-reference/before-you-begin/tamper-proof-statement
+fetched_at: 2026-08-13T16:34:29Z
+source: palo-alto-main
+---
+
+# Tamper Proof Statement Clear
+
+Tamper Proof Statement 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ PA-3200 Series Next-Gen Firewall Hardware Reference 
+
+ : 
+ Tamper Proof Statement 
+
+ Updated on 
+
+ Tue Oct 10 13:55:24 PDT 2023 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Product Safety Warnings 
+
+ PA-3200 Series Firewall Overview 
+
+ PA-3200 Series Front Panel 
+
+ PA-3200 Series Back Panel 
+
+ Install the PA-3200 Series Firewall in an Equipment Rack 
+
+ Install the PA-3200 Series Firewall Using the Rack-Mount Brackets 
+
+ Install the PA-3200 Series Firewall Using the Four-Post Rack Kit 
+
+ Connect Power to a PA-3200 Series Firewall 
+
+ Connect AC Power to a PA-3200 Series Firewall 
+
+ Connect DC Power to a PA-3200 Series Firewall 
+
+ Service the PA-3200 Series Firewall 
+
+ Interpret the PA-3200 Series Status LEDs 
+
+ Replace a PA-3200 Series Fan Tray 
+
+ Replace a PA-3200 Series Power Supply 
+
+ Replace a PA-3200 Series AC Power Supply 
+
+ Replace a PA-3200 Series DC Power Supply 
+
+ Replace a PA-3200 Series Drive 
+
+ PA-3200 Series Firewall Specifications 
+
+ PA-3200 Series Physical Specifications 
+
+ PA-3200 Series Electrical Specifications 
+
+ PA-3200 Series Environmental Specifications 
+
+ PA-3200 Series Miscellaneous Specifications 
+
+ PA-3200 Series Firewall Hardware Compliance Statements 
+
+ PA-3200 Series Firewall Compliance Statements 
+
+ Updated on 
+
+ Tue Oct 10 13:55:24 PDT 2023 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-3200 Series Next-Gen Firewall Hardware Reference 
+
+ Before You Begin 
+
+ Tamper Proof Statement 
+
+ Download PDF 
+
+ PA-3200 Series Next-Gen Firewall Hardware Reference 
+
+ Tamper Proof Statement 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Product Safety Warnings 
+
+ PA-3200 Series Firewall Overview 
+
+ PA-3200 Series Front Panel 
+
+ PA-3200 Series Back Panel 
+
+ Install the PA-3200 Series Firewall in an Equipment Rack 
+
+ Install the PA-3200 Series Firewall Using the Rack-Mount Brackets 
+
+ Install the PA-3200 Series Firewall Using the Four-Post Rack Kit 
+
+ Connect Power to a PA-3200 Series Firewall 
+
+ Connect AC Power to a PA-3200 Series Firewall 
+
+ Connect DC Power to a PA-3200 Series Firewall 
+
+ Service the PA-3200 Series Firewall 
+
+ Interpret the PA-3200 Series Status LEDs 
+
+ Replace a PA-3200 Series Fan Tray 
+
+ Replace a PA-3200 Series Power Supply 
+
+ Replace a PA-3200 Series AC Power Supply 
+
+ Replace a PA-3200 Series DC Power Supply 
+
+ Replace a PA-3200 Series Drive 
+
+ PA-3200 Series Firewall Specifications 
+
+ PA-3200 Series Physical Specifications 
+
+ PA-3200 Series Electrical Specifications 
+
+ PA-3200 Series Environmental Specifications 
+
+ PA-3200 Series Miscellaneous Specifications 
+
+ PA-3200 Series Firewall Hardware Compliance Statements 
+
+ PA-3200 Series Firewall Compliance Statements 
+
+ Tamper Proof Statement 
+
+ Learn how to check if your new firewall was tampered
+with during shipping. 
+
+ To ensure
+that products purchased from Palo Alto Networks were not tampered
+with during shipping, verify the following upon receipt of each
+product: 
+
+ The tracking number provided to you electronically when
+ordering the product matches the tracking number that is physically
+labeled on the box or crate. 
+
+ The integrity of the tamper-proof tape used to seal the box
+or crate is not compromised. 
+
+ The integrity of the warranty label on the firewall or appliance
+is not compromised. 
+
+ ( PA-7000 Series firewalls only )
+PA-7000 Series firewalls are modular systems and therefore do not
+include a warranty label on the firewall. 
+
+ Previous 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances 
+
+ Next 
+
+ Third-Party Component Support 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

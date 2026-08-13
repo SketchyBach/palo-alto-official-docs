@@ -1,0 +1,616 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-networking-admin/session-settings-and-timeouts/configure-session-settings
+fetched_at: 2026-08-13T17:03:02Z
+source: palo-alto-main
+---
+
+# Configure Session Timeouts Clear
+
+Configure Session Timeouts 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Configure Session Timeouts 
+
+ Updated on 
+
+ Tue Aug 04 17:04:37 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Tue Aug 04 17:04:37 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Session Settings and Timeouts 
+
+ Configure Session Timeouts 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Configure Session Timeouts 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Control Specific ICMP or ICMPv6 Types and Codes 
+
+ Next 
+
+ Configure Session Settings 
+
+ Configure Session Timeouts 
+
+ Specify TCP timeouts, UDP timeouts, ICMP timeouts, ARP cache timeout, or
+ miscellaneous timeouts. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ One of these licenses when using Strata Cloud Manager: 
+
+ Strata Cloud Manager Essentials 
+
+ Strata Cloud Manager Pro 
+
+ A session timeout defines the duration of time for which PAN-OS maintains a session
+ on the firewall after inactivity in the session. By default, when the session
+ timeout for the protocol expires, PAN-OS closes the session. You can define a number
+ of timeouts for TCP, UDP, and ICMP sessions in particular. The Default timeout
+ applies to any other type of session. The timeouts are global, meaning they apply to
+ all of the sessions of that type on the firewall. 
+
+ You can also configure a global ARP cache timeout setting, which controls how long
+ the firewall keeps ARP entries (IP address-to-hardware addresses mappings) in its
+ cache. 
+
+ In addition to the global settings, you can define timeouts for an individual
+ application in the Objects Applications tab. The firewall applies application timeouts to an application that
+ is in established state. When configured, timeouts for an application override the
+ global TCP or UDP session timeouts. 
+
+ If you change the TCP or UDP timers at the application level, these timers for
+ predefined applications and shared custom applications will be implemented
+ across all virtual systems. If you need an application’s timers to be different
+ for a virtual system, you must create a custom application, assign it unique
+ timers, and then assign the custom application to a unique virtual system. 
+
+ Perform the following task if you need to change default values of the global session
+ timeout settings for TCP, UDP, ICMP, Captive Portal authentication, or other types
+ of sessions. All values are in seconds. 
+
+ The defaults are optimal values. However, you can modify these according to your
+ network needs. Setting a value too low could cause sensitivity to minor network
+ delays and could result in a failure to establish connections with the firewall.
+ Setting a value too high could delay failure detection. 
+
+ PAN-OS & Panorama 
+
+ Strata Cloud Manager 
+
+ Configure Session Timeouts (PAN-OS) 
+
+ Procedure for configuring session timeouts in PAN-OS and Panorama. 
+
+ Access the session timeouts. 
+
+ Select Device Setup Session and edit the Session Timeouts. 
+
+ ( Optional ) Change miscellaneous timeouts. 
+
+ Default —Maximum length of time that a non-TCP/UDP
+ or non-ICMP session can be open without a response (range is 1 to
+ 15,999,999; default is 30). 
+
+ Discard Default —Maximum length of time that a
+ non-TCP/UDP session remains open after PAN-OS denies a session based on
+ security policies configured on the firewall (range is 1 to 15,999,999;
+ default is 60). 
+
+ Scan —Maximum length of time that any session
+ remains open after it is considered inactive; an application is regarded
+ as inactive when it exceeds the application trickling threshold defined
+ for the application (range is 5 to 30; default is 10). 
+
+ Authentication Portal —Authentication session
+ timeout for the Captive Portal web form. To access the requested
+ content, the user must enter the authentication credentials in this form
+ and be successfully authenticated (range is 1 to 15,999,999; default is
+ 30). 
+
+ To define other Authentication Portal timeouts, such as the idle timer
+ and the expiration time before the user must be re-authenticated, select Device User Identification Authentication Portal Settings . See Configure Authentication
+ Portal . 
+
+ ( Optional ) Change TCP timeouts. 
+
+ Discard TCP —Maximum length of time that a TCP
+ session remains open after it is denied based on a security policy
+ configured on the firewall. Range is 1 to 15,999,999; default is
+ 90. 
+
+ TCP —Maximum length of time that a TCP session
+ remains open without a response, after a TCP session is in the
+ Established state (after the handshake is complete and/or data is being
+ transmitted). Range is 1 to 15,999,999; default is 3,600. 
+
+ TCP Handshake —Maximum length of time permitted
+ between receiving the SYN-ACK and the subsequent ACK to fully establish
+ the session. Range is 1 to 60; default is 10. 
+
+ TCP init —Maximum length of time permitted between
+ receiving the SYN and SYN-ACK prior to starting the TCP handshake timer.
+ Range is 1 to 60; default is 5. 
+
+ TCP Half Closed —Maximum length of time between
+ receiving the first FIN and receiving the second FIN or a RST. Range
+ is 1 to 604,800; default is 120. 
+
+ TCP Time Wait —Maximum length of time after
+ receiving the second FIN or a RST. Range is 1 to 600; default is
+ 15. 
+
+ Unverified RST —Maximum length of time after
+ receiving a RST that cannot be verified (the RST is within the TCP
+ window but has an unexpected sequence number, or the RST is from an
+ asymmetric path). Range is 1 to 600; default is 30. 
+
+ See also the Scan timeout in the section
+ (Optional) Change Miscellaneous Timeouts
+ above. 
+
+ ( Optional ) Change UDP timeouts. 
+
+ Discard UDP —Maximum length of time that a UDP
+ session remains open after it is denied based on a security policy
+ configured on the firewall. Range is 1 to 15,999,999; default is
+ 60. 
+
+ UDP —Maximum length of time that a UDP session
+ remains open without a UDP response. Range is 1 to 15,999,999; default
+ is 30. 
+
+ See also the Scan timeout in the section
+ (Optional) Change Miscellaneous Timeouts
+ above. 
+
+ ( Optional ) Change ICMP timeouts. 
+
+ ICMP —Maximum length of time that an ICMP session
+ can be open without an ICMP response. Range is 1 to 15,999,999; default
+ is 6. 
+
+ See also the Discard Default and
+ Scan timeout in the section
+ (Optional) Change Miscellaneous Timeouts
+ above. 
+
+ Click OK and Commit . 
+
+ ( Optional ) Change the ARP cache timeout. 
+
+ Access the CLI and specify how many seconds the firewall keeps ARP
+ entries in its cache. Use the operational command set system
+ setting arp-cache-timeout < value >, where the
+ range is 60 to 65,535; default is 1,800. 
+
+ If you decrease the timeout and existing entries in the cache have a
+ TTL greater than the new timeout, the firewall removes those entries
+ and refreshes the ARP cache. If you increase the timeout and
+ existing entries have a TTL less than the new timeout, they expire
+ according to the TTL and the firewall caches new entires with the
+ larger timeout value. 
+
+ View the ARP cache timeout setting with the operational CLI command
+ show system setting arp-cache-timeout . 
+
+ Configure Session Timeouts (SCM) 
+
+ Procedure for configuring session timeouts in Strata Cloud Manager. 
+
+ Log in to Strata Cloud Manager . 
+
+ Select Manage Configuration NGFW and Prisma Access Device Settings Device Setup Session 
+ Configuration NGFW and Prisma Access Device Settings Device Setup Session and select the Configuration Scope where you want to configure the
+ session timeout settings. 
+
+ You can select a folder or firewall from your Folders 
+ or select Snippets to configure the session timeout
+ settings in a snippet. 
+
+ Configure the miscellaneous timeout settings. 
+
+ Default (sec) —Maximum length of time that a
+ TCP session remains open after it’s denied based on a Security
+ policy configured on the firewall. 
+
+ Range is 1 to
+ 15,999,999 ; default is
+ 90 . 
+
+ Discard Default (sec) —Maximum length of time
+ that a non-TCP/UDP session remains open after the firewall denies a
+ session based on configured Security policies. 
+
+ Range is 1 to
+ 15,999,999 ; default is
+ 60 . 
+
+ Scan (sec) —Maximum length of time that any
+ session remains open after it’s considered inactive; an application
+ is regarded as inactive when it exceeds the application trickling
+ threshold defined for the application 
+
+ Range is 5 to 30 ;
+ default is 10 . 
+
+ Captive Portal (sec) —Authentication session
+ timeout for the Authentication Portal web form. To access the
+ requested content, the user must enter the authentication
+ credentials in this form and be successfully authenticated 
+
+ Range is 1 to
+ 15,999,999 ; default is
+ 30 . 
+
+ Configure the TCP timeout settings. 
+
+ Discard TCP (sec) —Maximum length of time that
+ a TCP session remains open after it’s denied based on a Security
+ policy configured on the firewall. 
+
+ Range is 1 to
+ 15,999,999 ; default is
+ 90 . 
+
+ TCP (sec) —Maximum length of time that a TCP
+ session remains open without a response, after a TCP session is in
+ the Established state (after the handshake is complete, while data
+ is being transmitted, or both). 
+
+ Range is 1 to
+ 15,999,999 ; default is
+ 3,600 . 
+
+ TCP Handshake (sec) —Maximum length of time
+ permitted between receiving the SYN-ACK and the subsequent ACK to
+ fully establish the session. 
+
+ Range is 1 to 60 ;
+ default is 10 . 
+
+ TCP Init (sec) —Maximum length of time
+ permitted between receiving the SYN and SYN-ACK before starting the
+ TCP handshake timer. 
+
+ Range is 1 to 60 ;
+ default is 5 . 
+
+ TCP Half Closed (sec) —Maximum length of time
+ between receiving the first FIN and receiving the second FIN or an
+ RST. 
+
+ Range is 1 to 604,800 ;
+ default is 120 . 
+
+ TCP Time Wait (sec) —Maximum length of time
+ after receiving the second FIN or an RST. 
+
+ Range is 1 to 600 ;
+ default is 15 . 
+
+ Unverified RST —Maximum length of time after
+ receiving an RST that can’t be verified (the RST is within the TCP
+ window but has an unexpected sequence number, or the RST is from an
+ asymmetric path). 
+
+ Range is 1 to 600 ;
+ default is 30 . 
+
+ Configure the UDP timeout settings. 
+
+ Discard UDP (sec) —Maximum length of time that
+ a UDP session remains open after it’s denied based on a Security
+ policy configured on the firewall. 
+
+ Range is 1 to
+ 15,999,999 ; default is
+ 60 . 
+
+ UDP (sec) —Maximum length of time that a UDP
+ session remains open without a UDP response. 
+
+ Range is 1 to
+ 15,999,999 ; default is
+ 30 . 
+
+ Configure the ICMP timeout settings. 
+
+ ICMP (sec) —Maximum length of time that an ICMP
+ session can be open without an ICMP response. 
+
+ Range is 1 to
+ 15,999,999 ; default is
+ 6 . 
+
+ Save . 
+
+ ( Optional ) Configure the remaining firewall session settings. 
+
+ Configure Session Settings 
+
+ Configure VPN Session Settings 
+
+ Push Config to push your configuration changes. 
+
+ Previous 
+
+ Control Specific ICMP or ICMPv6 Types and Codes 
+
+ Next 
+
+ Configure Session Settings 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Networking 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,463 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-quick-configs/advanced-lsvpn-configuration-with-dynamic-routing
+fetched_at: 2026-08-13T17:00:19Z
+source: palo-alto-main
+---
+
+# Use Case: Advanced LSVPN Configuration with Dynamic Routing Clear
+
+Use Case: Advanced LSVPN Configuration with Dynamic Routing 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Use Case: Advanced LSVPN Configuration with Dynamic Routing 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Large Scale VPN (LSVPN) 
+
+ Configure
+the GlobalProtect Portal for LSVPN 
+
+ Use Case: Advanced LSVPN Configuration with Dynamic Routing 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Use Case: Advanced LSVPN Configuration with Dynamic Routing 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Use Case: Basic LSVPN Configuration with Static Routing 
+
+ Next 
+
+ Prepare the Satellite to Join the LSVPN 
+
+ Use Case: Advanced LSVPN Configuration with Dynamic Routing 
+
+ Configuration workflow for implementing dynamic routing using OSPF across gateways
+ and satellites to simplify route maintenance and network topology updates. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ No separate license required for LSVPN when using NGFWs 
+
+ In larger LSVPN deployments with multiple
+gateways and many satellites, investing a little more time in the
+initial configuration to set up dynamic routing will simplify the
+maintenance of gateway configurations because access routes will
+update dynamically. The following example configuration shows how
+to extend the basic LSVPN configuration to configure OSPF as the
+dynamic routing protocol. 
+
+ Setting up an LSVPN to use OSPF
+for dynamic routing requires the following additional steps on the
+gateways and the satellites: 
+
+ Manual assignment of
+IP addresses to tunnel interfaces on all gateways and satellites. 
+
+ Configuration of OSPF point-to-multipoint (P2MP) on the virtual
+router on all gateways and satellites. In addition, as part of the
+OSPF configuration on each gateway, you must manually define the
+tunnel IP address of each satellite as an OSPF neighbor. Similarly,
+on each satellite, you must manually define the tunnel IP address
+of each gateway as an OSPF neighbor. 
+
+ Although dynamic
+routing requires additional setup during the initial configuration
+of the LSVPN, it reduces the maintenance tasks associated with keeping
+routes up to date as topology changes occur on your network. 
+
+ The
+following figure shows an LSVPN dynamic routing configuration. This
+example shows how to configure OSPF as the dynamic routing protocol
+for the VPN. 
+
+ For
+a basic setup of a LSVPN, follow the steps in Basic
+LSVPN Configuration with Static Routing . You can then complete
+the steps in the following workflow to extend the configuration
+to use dynamic routing rather than static routing. 
+
+ Add an IP address to the tunnel interface configuration
+on each gateway and each satellite. 
+
+ Complete the following steps on each gateway and each satellite: 
+
+ Select Network Interfaces Tunnel and
+select the tunnel configuration you created for the LSVPN to open
+the Tunnel Interface dialog. 
+
+ If you haven’t yet created the tunnel interface, see step 2 in Create Interfaces
+ and Zones for the LSVPN . 
+
+ On the IPv4 tab, click Add and
+then enter an IP address and subnet mask. For example, to add an
+IP address for the gateway tunnel interface you would enter 2.2.2.100/24. 
+
+ Click OK to save the configuration. 
+
+ Configure the dynamic routing protocol on the gateway. 
+
+ To configure OSPF on the gateway: 
+
+ Select Network Virtual Routers and select
+the virtual router associated with your VPN interfaces. 
+
+ On the Areas tab, click
+ Add to create the backbone area, or, if it’s
+ already configured, click on the area ID to edit it. 
+
+ If you’re creating a new area, enter an Area ID 
+ on the Type tab. 
+
+ On the Interface tab, click Add and
+select the tunnel Interface you created for
+the LSVPN. 
+
+ Select p2mp as the Link
+Type . 
+
+ Click Add in the Neighbors
+section and enter the IP address of the tunnel interface of each satellite,
+for example 2.2.2.111. 
+
+ Click OK twice to save the
+virtual router configuration and then Commit the
+changes on the gateway. 
+
+ Repeat this step each time you add a new satellite
+to the LSVPN. 
+
+ Configure the dynamic routing protocol on the satellite. 
+
+ To configure OSPF on the satellite: 
+
+ Select Network Virtual Routers and select
+the virtual router associated with your VPN interfaces. 
+
+ On the Areas tab, click
+ Add to create the backbone area, or, if it’s
+ already configured, click on the area ID to edit it. 
+
+ If you’re creating a new area, enter an Area ID 
+ on the Type tab. 
+
+ On the Interface tab, click Add and
+select the tunnel Interface you created for
+the LSVPN. 
+
+ Select p2mp as the Link
+Type . 
+
+ Click Add in the Neighbors
+section and enter the IP address of the tunnel interface of each GlobalProtect
+gateway, for example 2.2.2.100. 
+
+ Click OK twice to save the
+virtual router configuration and then Commit the
+changes on the gateway. 
+
+ Repeat this step each time you add a new gateway. 
+
+ Verify that the gateways and satellites are able to form
+router adjacencies. 
+
+ On each satellite and each gateway, confirm that peer adjacencies have formed and that routing
+ table entries have been created for the peers (that is, the satellites
+ have routes to the gateways and the gateways have routes to the
+ satellites). Select Network Virtual Router and click the More Runtime Stats 
+ link for the virtual router you’re using for the LSVPN. On the Routing
+ tab, verify that the LSVPN peer has a route. 
+
+ On the OSPF Interface tab,
+verify that the Type is p2mp . 
+
+ On the OSPF Neighbor tab,
+verify that the firewalls hosting your gateways have established
+router adjacencies with the firewalls hosting your satellites and
+vice versa. Also verify that the Status is Full ,
+indicating that full adjacencies have been established. 
+
+ Previous 
+
+ Use Case: Basic LSVPN Configuration with Static Routing 
+
+ Next 
+
+ Prepare the Satellite to Join the LSVPN 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,391 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/10-2/policies/policies-sd-wan/sd-wan-target-tab
+fetched_at: 2026-08-13T16:44:53Z
+source: palo-alto-main
+---
+
+# SD-WAN Target Tab Clear
+
+SD-WAN Target Tab 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ SD-WAN Target Tab 
+
+ Updated on 
+
+ Thu Jun 25 17:37:48 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 17:37:48 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Policies 
+
+ Policies > SD-WAN 
+
+ SD-WAN Target Tab 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Next-Generation Firewall 
+
+ SD-WAN Target Tab 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ SD-WAN Path Selection Tab 
+
+ Next 
+
+ Objects 
+
+ SD-WAN Target Tab 
+
+ Target tab in the SD-WAN policy rule configuration window. 
+
+ Policies SD-WAN Target 
+
+ Select the Target tab to
+select the managed devices to push the SD-WAN policy rules to. This
+tab is supported only on the Panorama management server. 
+
+ Field 
+
+ Description 
+
+ Any (target all devices) 
+
+ Enable (check) to push the SD-WAN policy
+rule to all devices by the Panorama management server. 
+
+ Devices 
+
+ Select one or more devices to which to push
+the SD-WAN policy rule. You can filter devices based on device state,
+platform, device group, templates, tags, or HA status. 
+
+ Tags 
+
+ Specify the tag for the policy. 
+
+ A
+policy tag is a keyword or phrase that allows you to sort or filter policies.
+This is useful when you have defined many policies and want to view
+those that are tagged with a particular keyword. For example, you
+may want to tag certain rules with specific words like Decrypt and
+No-decrypt, or use the name of a specific data center for policies
+associated with that location. 
+
+ You can also add tags to the
+default rules. 
+
+ Target to all but these specified devices
+and tags 
+
+ Enable (check) to target and push the policy
+rule to all devices except for the selected Devices and Tags . 
+
+ Previous 
+
+ SD-WAN Path Selection Tab 
+
+ Next 
+
+ Objects 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ PAN-OS 
+
+ 10.2 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

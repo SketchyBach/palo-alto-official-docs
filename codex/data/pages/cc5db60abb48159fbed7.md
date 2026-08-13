@@ -1,0 +1,480 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/administration/firewall-administration/manage-firewall-administrators/configure-administrative-accounts-and-authentication/configure-local-or-external-authentication-for-firewall-administrators
+fetched_at: 2026-08-13T16:39:52Z
+source: palo-alto-main
+---
+
+# Configure Local or External Authentication for Firewall Administrators Clear
+
+Configure Local or External Authentication for Firewall Administrators 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Configure Local or External Authentication for Firewall Administrators 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Firewall Administration 
+
+ Manage Firewall Administrators 
+
+ Configure Administrative Accounts and Authentication 
+
+ Configure Local or External Authentication for Firewall Administrators 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Configure Local or External Authentication for Firewall Administrators 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configure a Firewall Administrator Account 
+
+ Next 
+
+ Configure Certificate-Based Administrator Authentication to the Web Interface 
+
+ Configure Local or External Authentication for Firewall Administrators 
+
+ Configure local user accounts or external authentication servers (LDAP, RADIUS, SAML,
+ etc.) for PAN-OS firewall administrator access and role-based permissions. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ No prerequisites needed 
+
+ You can use Local
+Authentication and External
+Authentication Services to authenticate administrators who
+access the firewall. These authentication methods prompt administrators
+to respond to one or more authentication challenges, such as a login
+page for entering a username and password. 
+
+ If you use
+an external service to manage both authentication and authorization
+(role and access domain assignments), see: 
+
+ Configure
+SAML Authentication 
+
+ Configure
+TACACS+ Authentication 
+
+ Configure
+RADIUS Authentication 
+
+ To authenticate administrators
+without a challenge-response mechanism, you can Configure
+Certificate-Based Administrator Authentication to the Web Interface and Configure
+SSH Key-Based Administrator Authentication to the CLI . 
+
+ ( External authentication only ) Enable
+the firewall to connect to an external server for authenticating
+administrators. 
+
+ Configure a server profile: 
+
+ Add
+a RADIUS server profile. 
+
+ If the firewall integrates
+with a Multi-Factor
+Authentication (MFA) service through RADIUS, you must add
+a RADIUS server profile. In this case, the MFA service provides
+all the authentication factors (challenges). If the firewall integrates
+with an MFA service through a vendor API, you can still use a RADIUS server
+profile for the first factor but MFA server profiles are required
+for additional factors. 
+
+ Add
+an MFA server profile. 
+
+ Add
+a TACACS+ server profile. 
+
+ Add
+a SAML IdP server profile. You cannot combine Kerberos single
+sign-on (SSO) with SAML SSO;
+you can use only one type of SSO service. 
+
+ Add
+a Kerberos server profile. 
+
+ Add
+an LDAP server profile. 
+
+ ( Local database authentication only ) Configure
+a user database that is local to the firewall. 
+
+ Add
+the user account to the local database. 
+
+ ( Optional ) Add
+the user group to the local database. 
+
+ ( Local
+authentication only ) Define password complexity and expiration
+settings. 
+
+ These settings help protect the firewall against unauthorized
+access by making it harder for attackers to guess passwords. 
+
+ Define global password complexity and expiration
+settings for all local administrators. The settings don’t apply
+to local database accounts for which you specified a password hash
+instead of a password (see Local
+Authentication ). 
+
+ Select Device Setup Management and
+edit the Minimum Password Complexity settings. 
+
+ Select Enabled . 
+
+ Define the password settings and click OK . 
+
+ Define
+a Password Profile. 
+
+ You assign the profile to administrator accounts for which
+you want to override the global password expiration settings. The profiles
+are available only to accounts that are not associated with a local
+database (see Local
+Authentication ). 
+
+ Select Device Password Profiles and Add a
+profile. 
+
+ Enter a Name to identify the profile. 
+
+ Define the password expiration settings and click OK . 
+
+ ( Kerberos SSO only ) Create
+a Kerberos keytab. 
+
+ A keytab is a file that contains Kerberos account information
+for the firewall. To support Kerberos SSO, your network must have
+a Kerberos infrastructure. 
+
+ Configure an authentication profile. 
+
+ If your administrative accounts are
+stored across multiple types of servers, you can create an authentication
+profile for each type and add all the profiles to an authentication
+sequence. 
+
+ Configure
+an Authentication Profile and Sequence . In the authentication
+profile, specify the Type of authentication
+service and related settings: 
+
+ External service —Select
+the Type of external service and select the Server
+Profile you created for it. 
+
+ Local database authentication —Set the Type to Local
+Database . 
+
+ Local authentication without a database —Set the Type to None . 
+
+ Kerberos SSO —Specify the Kerberos Realm and Import the Kerberos
+Keytab . 
+
+ Assign the authentication profile or sequence to an administrator
+account. 
+
+ Configure
+a Firewall Administrator Account . 
+
+ Assign the Authentication Profile or
+sequence that you configured. 
+
+ ( Local database authentication only ) Specify the Name of
+the user account you added to the local database. 
+
+ Commit your changes. 
+
+ ( Optional ) Test
+Authentication Server Connectivity to verify that the firewall
+can use the authentication profile to authenticate administrators. 
+
+ Previous 
+
+ Configure a Firewall Administrator Account 
+
+ Next 
+
+ Configure Certificate-Based Administrator Authentication to the Web Interface 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

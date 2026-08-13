@@ -1,0 +1,366 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/zone-protection-and-dos-protection/zone-defense/take-baseline-cps-measurements-for-setting-flood-thresholds/cps-measurements-to-take
+fetched_at: 2026-08-13T17:05:37Z
+source: palo-alto-main
+---
+
+# Baseline CPS Measurements for Setting Flood Thresholds Clear
+
+Baseline CPS Measurements for Setting Flood Thresholds 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Baseline CPS Measurements for Setting Flood Thresholds 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Zone Protection and DoS Protection 
+
+ Zone Defense 
+
+ Baseline CPS Measurements for Setting Flood Thresholds 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Baseline CPS Measurements for Setting Flood Thresholds 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Firewall Placement for DoS Protection 
+
+ Next 
+
+ How to Measure CPS 
+
+ Baseline CPS Measurements for Setting Flood Thresholds 
+
+ Taking baseline measurements of average and peak CPS
+for each zone helps define reasonable thresholds to prevent floods
+without unnecessarily throttling traffic. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ No prerequisites needed 
+
+ Flood protection thresholds determine
+the number of new connections-per-second (CPS) to allow for a zone
+(Zone Protection profile), for a group of devices in a zone (aggregate
+DoS Protection policy), or for individual devices in a zone (classified DoS
+Protection policy), when to throttle new connections to begin mitigating
+a potential flood attack, and when to drop all new connections.
+The default Zone Protection profile and DoS Protection profile flood
+protection thresholds aren’t appropriate for most networks because
+each network is unique. You need to understand the aggregate normal
+and peak CPS for each zone to set effective Zone Protection profile
+thresholds, and for the individual critical systems you want to
+defend to set effective DoS Protection profile thresholds that don’t
+inadvertently set thresholds too high and allow flood attacks or
+set thresholds too low and throttle traffic. 
+
+ Measure
+ average and peak CPS traffic over the course of at least five business days
+ or until you’re confident that the measurements reflect the network’s typical traffic
+ patterns; the longer measurement period, the more accurate the measurements. Take into
+ account special events, quarterly events, and annual events that may spike the number of
+ CPS you need to support. You may need to adjust Zone Protection profiles and schedule
+ adjusted DoS Protection policy rules to accommodate these types of events if your
+ firewalls have the capacity to handle extra traffic. Take the following baseline
+ measurements: 
+
+ For Zone Protection profiles, measure the average and peak CPS ingressing each
+ zone. 
+
+ For aggregate DoS Protection profiles, measure the combined average and peak CPS
+ for each group of devices you want to protect. 
+
+ For classified DoS Protection profiles, measure the average and peak CPS of the
+ individual devices you want to protect. 
+
+ Also understand the capacity of your firewalls and how other resource-consuming features
+ such as decryption affect the number of connections each firewall can control. As a
+ general rule, the closer a firewall is to the perimeter, the greater its capacity needs
+ to be because it handles more traffic. The datasheet for each firewall model includes
+ the total new sessions per second (CPS) the firewall supports and the Firewall Comparison Tool enables you to compare the CPS (and
+ other metrics) of different firewall models. 
+
+ Previous 
+
+ Firewall Placement for DoS Protection 
+
+ Next 
+
+ How to Measure CPS 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

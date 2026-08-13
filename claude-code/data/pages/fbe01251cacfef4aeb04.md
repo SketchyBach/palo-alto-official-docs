@@ -1,0 +1,484 @@
+---
+url: https://docs.paloaltonetworks.com/service-providers/11-0/mobile-network-infrastructure-getting-started/4g-equipment-id-subscriber-id-security/configure-4g-equipment-id-security
+fetched_at: 2026-08-13T17:36:33Z
+source: palo-alto-main
+---
+
+# Configure 4G Equipment ID Security Clear
+
+Configure 4G Equipment ID Security 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Mobile Network Infrastructure Getting Started 
+
+ : 
+ Configure 4G Equipment ID Security 
+
+ Updated on 
+
+ Thu Jun 12 15:37:18 PDT 2025 
+
+ Focus 
+
+ Download PDF 
+
+ End-of-Life (EoL)
+
+ Filter
+
+ Version 
+
+ 11.0 (EoL) 
+
+ 11.1 & Later 
+
+ 11.0 (EoL) 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ 10.0 (EoL) 
+
+ Expand all | Collapse all 
+
+ Stream Control Transmission Protocol (SCTP) 
+
+ SCTP Introduction 
+
+ SCTP Association 
+
+ SCTP Multihoming 
+
+ SCTP Packets and Chunks 
+
+ SCTP Use Cases 
+
+ SCTP Security Measures on the Firewall 
+
+ Configure SCTP Security 
+
+ Configure SCTP INIT Flood Protection 
+
+ Monitor SCTP Security 
+
+ SCTP Event Types 
+
+ Manage SCTP from Panorama 
+
+ GPRS Tunneling Protocol (GTP) 
+
+ GTP Overview 
+
+ GTP Deployments 
+
+ RAN Security 
+
+ Roaming Security 
+
+ Non-3GPP Access Security 
+
+ CIoT Security 
+
+ Configure GTP Stateful Inspection 
+
+ Mobile Network Protection Profile 
+
+ Monitor GTP Traffic 
+
+ View GTP Logs 
+
+ GTP Information on the ACC 
+
+ Generate Mobile Network Reports 
+
+ GTP Event Types and Severity 
+
+ GTP Event Codes 
+
+ GTP Cause Values in Logs 
+
+ GTP Message Type 
+
+ Get a Packet Capture of a GTP Event 
+
+ Disable Tunnel Acceleration 
+
+ 5G-Ready K2 Next-Generation Firewalls 
+
+ Express Mode and Secure Mode 
+
+ Restore Express Mode 
+
+ Upgrade Line Cards to K2 Secure Mode 
+
+ 5G Security 
+
+ 5G Network Slice Security 
+
+ 5G Equipment ID and Subscriber ID Security 
+
+ Configure 5G Network Slice Security 
+
+ Configure 5G Equipment ID Security 
+
+ Configure 5G Subscriber ID Security 
+
+ 5G Multi-access Edge Computing Security 
+
+ Configure 5G Multi-access Edge Computing Security 
+
+ PFCP Event Types 
+
+ 4G Equipment ID and Subscriber ID Security 
+
+ 4G Equipment ID Security 
+
+ 4G Subscriber ID Security 
+
+ Configure 4G Equipment ID Security 
+
+ Configure 4G Subscriber ID Security 
+
+ Intelligent Security and User Equipment Correlation with IP Addresses 
+
+ Configure Intelligent Security using PFCP for User Equipment to IP Address Correlation 
+
+ Configure Intelligent Security Using RADIUS for User Equipment to IP Address Correlation 
+
+ Updated on 
+
+ Thu Jun 12 15:37:18 PDT 2025 
+
+ Focus 
+
+ Home 
+
+ Service Providers 
+
+ Mobile Network Infrastructure Getting Started 
+
+ 4G Equipment ID and Subscriber ID Security 
+
+ Configure 4G Equipment ID Security 
+
+ Download PDF 
+
+ Mobile Network Infrastructure Getting Started 
+
+ Configure 4G Equipment ID Security 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 11.0 (EoL) 
+
+ 11.1 & Later 
+
+ 11.0 (EoL) 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ 10.0 (EoL) 
+
+ Expand all | Collapse all 
+
+ Stream Control Transmission Protocol (SCTP) 
+
+ SCTP Introduction 
+
+ SCTP Association 
+
+ SCTP Multihoming 
+
+ SCTP Packets and Chunks 
+
+ SCTP Use Cases 
+
+ SCTP Security Measures on the Firewall 
+
+ Configure SCTP Security 
+
+ Configure SCTP INIT Flood Protection 
+
+ Monitor SCTP Security 
+
+ SCTP Event Types 
+
+ Manage SCTP from Panorama 
+
+ GPRS Tunneling Protocol (GTP) 
+
+ GTP Overview 
+
+ GTP Deployments 
+
+ RAN Security 
+
+ Roaming Security 
+
+ Non-3GPP Access Security 
+
+ CIoT Security 
+
+ Configure GTP Stateful Inspection 
+
+ Mobile Network Protection Profile 
+
+ Monitor GTP Traffic 
+
+ View GTP Logs 
+
+ GTP Information on the ACC 
+
+ Generate Mobile Network Reports 
+
+ GTP Event Types and Severity 
+
+ GTP Event Codes 
+
+ GTP Cause Values in Logs 
+
+ GTP Message Type 
+
+ Get a Packet Capture of a GTP Event 
+
+ Disable Tunnel Acceleration 
+
+ 5G-Ready K2 Next-Generation Firewalls 
+
+ Express Mode and Secure Mode 
+
+ Restore Express Mode 
+
+ Upgrade Line Cards to K2 Secure Mode 
+
+ 5G Security 
+
+ 5G Network Slice Security 
+
+ 5G Equipment ID and Subscriber ID Security 
+
+ Configure 5G Network Slice Security 
+
+ Configure 5G Equipment ID Security 
+
+ Configure 5G Subscriber ID Security 
+
+ 5G Multi-access Edge Computing Security 
+
+ Configure 5G Multi-access Edge Computing Security 
+
+ PFCP Event Types 
+
+ 4G Equipment ID and Subscriber ID Security 
+
+ 4G Equipment ID Security 
+
+ 4G Subscriber ID Security 
+
+ Configure 4G Equipment ID Security 
+
+ Configure 4G Subscriber ID Security 
+
+ Intelligent Security and User Equipment Correlation with IP Addresses 
+
+ Configure Intelligent Security using PFCP for User Equipment to IP Address Correlation 
+
+ Configure Intelligent Security Using RADIUS for User Equipment to IP Address Correlation 
+
+ End-of-Life (EoL)
+
+ Configure 4G Equipment ID Security 
+
+ Configure 4G equipment ID security. 
+
+ Configure network security based on the equipment
+identity of any device or equipment that is trying to access your
+4G network. 
+
+ Before you begin configuring 4G Equipment ID Security , gather
+the IP addresses of the following devices in your topology so that
+you can use them as source and destination addresses in Security
+policy rules controlling traffic to and from these devices: 
+
+ eNodeB
+(eNB) 
+
+ Mobility Management Entity (MME) 
+
+ Serving Gateway (SGW) 
+
+ Packet Gateway (PGW) 
+
+ Enable GTP Security. 
+
+ Select Device Setup Management General Settings . Select GTP
+Security . 
+
+ Click OK . 
+
+ Commit the change. 
+
+ Select Device Setup Operations and Reboot
+Device . 
+
+ Enable inspection of 4G GTPv2-C control packets and content
+inspection of GTP-U packets; create a Mobile Network Protection
+profile. 
+
+ Select Objects Security Profiles Mobile Network
+Protection . 
+
+ Add a profile by Name ,
+for example, 4G Mobile security. 
+
+ Enter a Description . 
+
+ On the GTP Inspection tab,
+select GTP-C . 
+
+ Enable GTPv2-C Stateful Inspection to
+enable inspection of GTPv2 control packets. 
+
+ Select GTP-U and enable GTP-U
+Content Inspection to correlate context from 4G GTPv2-C
+control packets (Subscriber IDs and Equipment IDs) to IP user traffic
+inside a GTP-U tunnel. 
+
+ Select Filtering Options and RAT
+Filtering ; for example, you can allow UTRAN , GERAN , HSPA
+EVOLUTION , EUTRAN , EUTRAN-NB-IOT ,
+and LTE-M and block other RATs. 
+
+ ( Optional ) Select Other Log Settings and Log
+User Location . 
+
+ ( Optional ) To troubleshoot, select Other
+Log Settings and select GTPv2-C Allowed Messages for Tunnel
+Management , Path Management ,
+and Others . You can also enable GTP-U Allowed
+Messages for Tunnel Management , Path
+Management , and G-PDU . 
+
+ Click OK . 
+
+ Create address objects for the IP addresses assigned
+to the network elements in your topology, such as in deployment
+option 1: the MME on the S11 interface, the eNB on the S1-U interface, and
+the SGW on the S1-U and S11 interface; or deployment option 2: the
+SGW on the S5/S8 interface and PGW on the S5/S8 interface. 
+
+ ( Optional ) Create an External Dynamic List (EDL)
+of Type Equipment Identity List ; the Source of
+the list provides access to a server that provides identifiers of
+devices connected to the 4G network, for which you want to allow
+traffic. 
+
+ Create a Security policy rule that applies your Mobile
+Network Protection profile to application traffic. 
+
+ Select Policies Security and Add a
+Security policy rule by Name . 
+
+ Select Source tab and Add a Source
+Zone or select Any . 
+
+ For Source Address , Add the
+address objects for the 4G network elements that you want to allow. 
+
+ For Destination , Add the Destination
+Address address objects for the 4G network elements
+that you want to allow. 
+
+ Add the Applications to
+allow, such gtp-u for user plane and gtpv2-c for
+control plane traffic. 
+
+ On the Actions tab, select
+the Action , such as Allow . 
+
+ Select the Mobile Network Protection profile
+you created. 
+
+ Select Log Settings, such as Log at Session
+Start and Log at Session End . 
+
+ Click OK . 
+
+ Create another Security policy rule based on Equipment
+ID. 
+
+ Select Policies Security and Add a
+Security policy rule by Name , for example,
+Equipment ID Security. 
+
+ Select Source tab and Add a Source
+Zone or select Any . 
+
+ Add one or more Source
+Equipment IDs in any of the following formats (if you
+configured an EDL, specify that EDL in this step): 
+
+ IMEI (15 to 16 digits) 
+
+ IMEI prefix of eight digits for Type Allocation Code (TAC) 
+
+ External dynamic list (EDL)
+that specifies IMEIs 
+
+ ( Optional ) You can add Source
+Subscriber identities to this Security policy rule to
+make the rule more restrictive. 
+
+ Specify Destination Zone , Destination
+Address , and Destination Device as Any . 
+
+ Add the Applications to
+allow, for example, ssh , ssl , radmin ,
+and telnet . 
+
+ On the Actions tab, select
+the Action , such as Allow . 
+
+ Select profiles you want to apply, such as Antivirus , Vulnerability
+Protection , and Anti-Spyware . 
+
+ Select Log Settings, such as Log at Session
+Start and Log at Session End . 
+
+ Click OK . 
+
+ Commit . 
+
+ Previous 
+
+ 4G Subscriber ID Security 
+
+ Next 
+
+ Configure 4G Subscriber ID Security 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

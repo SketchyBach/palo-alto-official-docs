@@ -1,0 +1,1008 @@
+---
+url: https://docs.paloaltonetworks.com/sd-wan/release-notes/panorama-plugin-for-sd-wan/sd-wan-plugin-320/known-issues-in-sd-wan-plugin-320
+fetched_at: 2026-08-13T17:36:02Z
+source: palo-alto-main
+---
+
+# Known Issues in SD-WAN Plugin 3.2 Clear
+
+Known Issues in SD-WAN Plugin 3.2 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Known Issues in SD-WAN Plugin 3.2 
+
+ Updated on 
+
+ Thu Jul 30 23:22:25 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jul 30 23:22:25 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ SD-WAN 
+
+ Panorama Plugin for SD-WAN 
+
+ Panorama Plugin for SD-WAN 3.2 
+
+ Known Issues in SD-WAN Plugin 3.2 
+
+ Download PDF 
+
+ SD-WAN 
+
+ Known Issues in SD-WAN Plugin 3.2 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Changes to Default Behavior in SD-WAN Plugin 3.2.2 
+
+ Next 
+
+ Panorama Plugin for SD-WAN 3.1 
+
+ Known Issues in SD-WAN Plugin 3.2 
+
+ Known issues in SD-WAN 3.2. 
+
+ The following list includes all known issues that impact an SD-WAN 3.2
+ release. This list includes both outstanding issues and issues that are addressed, as
+ well as known issues that apply more generally or that are not identified by a specific
+ issue ID. Refer to PAN-OS Release Notes for additional known
+ issues affecting SD-WAN Plugin 3.2. 
+
+ PAN-283028 
+
+ Description of PAN-283028. 
+
+ Commit and push from Panorama to the firewall fails with the following error if the same
+ AS format isn’t present on the Panorama and the firewall: 
+
+ BGP is invalid. AS number does not fit in 2 byte AS format 
+
+ That is, both the hub and branch firewall must have the same AS format in hub-and-spoke
+ topology. In full mesh topology, all the firewalls must have the same AS format. 
+
+ PAN-280467 
+
+ Description of PAN-280467. 
+
+ When multiple VPN clusters with post-quantum pre-shared key ( PQ PPK ) share a hub firewall, SD-WAN tunnel
+ functionality is impacted as follows: 
+ the SD-WAN tunnels become nonfunctional from the second PQ PPK cluster onwards.
+ However, the first VPN cluster with the shared hub firewall will work fine. 
+
+ the shared hub firewall cannot simultaneously support some clusters with PQ PPK
+ enabled and others using standard PSK authentication. That is, all VPN clusters
+ connected to a shared hub firewall must either use PSK or use PQ PPK. 
+
+ PAN-248211 
+
+ Description of PAN-248211. 
+
+ If you have enabled the advanced routing feature on the
+ Panorama, then the Panorama throws a commit failure after downgrading from PAN-OS 11.1.3
+ to PAN-OS 10.1.13 or the earlier 10.1 releases. 
+
+ PAN-236767 
+
+ Description of PAN-236767. 
+
+ The web interface won't throw any warning or error if it encounters a failure in
+ importing a certificate. Check the syslog and configd log files for more
+ information. 
+
+ Ensure the following before importing a certificate: 
+ Certificate must be .PKCS12 format. 
+
+ When you bulk import the certificates, the size of the archive(.tar) file should
+ be less than 10MB. 
+
+ PAN-220919 
+
+ Description of PAN-220919. 
+
+ Auto VPN creates a virtual SD-WAN interface named sdwan.901 for direct internet access
+ (DIA) and creates a virtual SD-WAN interface named sdwan.9xx for VPN tunnels. When you
+ enable Auto VPN, the SD-WAN plugin creates the SD-WAN interfaces automatically. Hence,
+ it's not necessary for you to create SD-WAN interfaces manually. The SaaS quality
+ profile works only with one DIA interface that is sdwan.901. 
+
+ Auto VPN also creates its own default route that uses the sdwan.901 interface as its
+ egress interface and uses a low metric of 5, so that the sdwan.901 interface is
+ preferred over the default route you created. 
+
+ There might be scenarios where you want to create an SD-WAN interface manually (other
+ than what the SD-WAN plugin creates automatically) like the following: 
+
+ Configuring SD-WAN direct internet access (DIA) links only and no VPN connections
+ between the hub and branch locations 
+
+ (Not recommended) Deploying SD-WAN manually between SD-WAN sites without Panorama
+ management server 
+
+ In such cases, you must configure the manually created SD-WAN interface outside of the
+ SDWAN.9xx range containing a route with a metric higher than the default value. 
+
+ PAN-215897 
+
+ Description of PAN-215897. 
+
+ In a Panorama high availability (HA) deployment, the SD-WAN interface goes down and all
+ the tunnel interfaces disappear from the Network IPSec Tunnels tab when you push the configuration changes from the secondary
+ Panorama. 
+
+ Workaround : If you have set up a HA pair in Panorama, don't push the configuration
+ from the secondary Panorama when the primary Panorama is active. Always push the
+ configuration changes from the primary Panorama when it's active. 
+
+ PLUG-22748 
+
+ Description of PLUG-22748. 
+
+ Fixed an issue where adding an upstream NAT IP address to a new subinterface in an
+ aggregate group caused the system to duplicate the NAT IP across both subinterfaces. 
+
+ This issue is addressed in SD-WAN plugin 3.4.2 , 3.2.4-h2 and 3.3.4-h1. 
+
+ PLUG-22581 
+
+ Description of PLUG-22581. 
+
+ Fixed an issue where a Panorama plugin upgrade failed because Panorama is in FIPS-CC
+ mode. Run
+
+ > debug plugins sd_wan export-mongo-collections deletepass 
+
+ > debug plugins sd_wan export-mongo-collections export 
+
+ for troubleshooting. 
+
+ This issue is addressed in SD-WAN plugin 3.3.4, 3.3.4-h1 , 3.4.2 and
+ 3.2.4-h2 . 
+
+ PLUG-21987 
+
+ Description of PLUG-21987. 
+
+ In Panorama, jitter related information is not visible on the Link
+ Characteristics tab due to a scrolling issue when you select a specific
+ application. 
+
+ Workaround : View the Jitter data by selecting the link directly in the
+ Link Performance table. 
+
+ PLUG-21776 
+
+ Description of PLUG-21776. 
+
+ During an SD-WAN plugin upgrade followed by an auto-commit, if the branch or hub
+ firewall gets disconnected, the firewall may fail to transfer the necessary files, such
+ as and cluster-gen.py . This leads to an incomplete upgrade of the
+ firew ipaddress.py all. 
+
+ Workaround : To resolve this issue, access the firewall CLI and enter the command
+
+ set sdb cfg.sdwan.push-autogen=None 
+
+ to
+ reset the autogen parameter. If this step fails, you must manually transfer the
+ cluster-gen.py and ipaddress.py files from
+ Panorama to the /opt/pancfg/mgmt/transforms/ directory on the
+ firewall using secure copy command. 
+
+ PLUG-21660 
+
+ Description of PLUG-21660. 
+
+ ( HA Deployments only ) When you remove one of the peers of an SD-WAN HA device
+ from a VPN cluster, a commit error occurs because the plugin requires both HA peers to
+ be present in the cluster. The commit error persists, but now includes a more
+ informative error message to help identify the serial number that needs to be
+ updated. 
+
+ This issue is addressed in SD-WAN plugin 3.2.4-h1 ,
+ 3.3.3-h2 and
+ 3.4.1 . 
+
+ PLUG-21260 
+
+ Description of PLUG-21260 
+
+ The SD-WAN monitoring fails when MongoDB does not get updated at scheduled intervals
+ resulting in an empty monitoring database. 
+
+ This issue is addressed in SD-WAN plugin 3.2.4-h1 . 
+
+ When Panorama is running SD-WAN plugin version 3.2.2 or later (including 3.3.x and 3.4.x)
+ and managing firewalls with a PAN-OS version earlier than 11.1.5, SD-WAN monitoring will
+ be impacted due to a compatibility limitation. 
+
+ Workaround : Upgrade the firewalls to PAN-OS 11.1.5 or above. 
+
+ PLUG-20938 
+
+ Description of PLUG-20938. 
+
+ Prisma® Access virtual interfaces (VIFs) are excluded from SD-WAN DIA VIF configuration
+ when DIA is activated on the SD-WAN hub. 
+
+ PLUG-20905 
+
+ Description of PLUG-20905. 
+
+ ( HA Deployments Only ) You can now perform local commits on Panorama for HA pairs
+ where both peers are active, even if they are disconnected, and these devices are part
+ of an SD-WAN VPN cluster. Previously, the SD-WAN plugin blocked local commits for such
+ HA and connectivity combinations. 
+
+ This issue is addressed in SD-WAN plugin 3.0.9 and 3.2.4-h1 . 
+
+ After this fix, you can now perform local commits on active/active HA pairs
+ simultaneously. Also, you can commit on Panorama locally regardless of connectivity
+ status between HA pair members. 
+
+ Panorama blocks commits only when both HA peers are connected and an actual configuration
+ error exists. If one device is offline, Panorama proceeds with the commit and shows only
+ a warning instead of blocking it. 
+
+ When you perform a commit all is performed while one device
+ while one of the HA pair is disconnected, the changes are not automatically
+ synchronized to the disconnected device HA pair. It is the administrator's
+ responsibility to You must manually push the latest configuration to the
+ disconnected device once it is back online and in the correct state
+ (active/passive). This ensures full synchronisation synchronization and a stable HA
+ pair. 
+
+ PLUG-20408 
+
+ Description of PLUG-20408. 
+
+ Branch SD-WAN interfaces can’t automatically switch over when using dedicated tunnels to Panorama. 
+
+ PLUG-20269 
+
+ Description of PLUG-20269. 
+
+ Existing sessions continue to display outdated egress interface details for dedicated Panorama tunnels after DIA failover
+ happens. 
+
+ PLUG-20267 
+
+ Description of PLUG-20267. 
+
+ Your local commit on Panorama will fail when an invalid HA pair is present in your SD-WAN
+ cluster, as the SD-WAN plugin does not support active/active HA configurations within
+ VPN clusters. 
+
+ This issue is addressed in SD-WAN plugin 3.2.4 
+ , 3.0.9 and 3.3.3-h2 . 
+
+ PLUG-20071 
+
+ Description of PLUG-20071. 
+
+ Redundant 4-byte ASN entries were created in the hub configuration when connected to
+ multiple branches with the 4-byte ASN feature enabled. 
+
+ This issue is addressed in SD-WAN plugin 3.3.3-h2 , 3.4.1 ,3.3.4 and 3.2.4-h1 . 
+
+ PLUG-19495 
+
+ Description of PLUG-19495. 
+
+ The commit all operation in Panorama fails when a branch or hub firewall is added to an
+ existing SD-WAN cluster. 
+
+ This issue is addressed in SD-WAN plugin 3.2.3-h2, 3.2.4, 3.3.3 , and 3.4.0 . 
+
+ PLUG-19165 
+
+ Description of PLUG-19165. 
+
+ All the hub and branch firewalls in the SD-WAN cluster must show the same HA status for
+ the active and passive Panorama. SD-WAN plugin displays the following error when the
+ firewalls of the SD-WAN cluster shows different HA
+ status: 
+ The active Panorama's MongoDB -is not synchronized with the passive Panorama. Please get them in-sync
+
+ This issue is addressed in SD-WAN plugin 2.2.7-h5, 3.2.3-h1 , and 3.3.3 . 
+
+ After installing the SD-WAN plugin 3.2.3-h1 , 2.2.7-h5, 
+ or 3.3.3 version, follow these
+ steps: 
+ Perform a minor change on active Panorama followed by a commit or commit force
+ from active Panorama CLI. 
+
+ Execute debug plugins sd_wan mongo-db sync-db-to-peer 
+ from the active Panorama CLI. 
+
+ After running this
+ command, if the CLI displays the following message (that the MongoDB
+ synchronization is still in progress), then you must restart the configd on
+ active Panorama using debug software restart process
+ configd and again synchronize the MongoDB using
+ debug plugins sd_wan mongo-db sync-db-to-peer 
+ from the active Panorama.
+
+ MongoDB collection sync is in-progress. Please sync the collections after sometime. 
+
+ Execute the synchronization job or request high-availability
+ sync-to-remote running-config from the active Panorama CLI.
+
+ PLUG-19159 
+
+ Description of PLUG-19159. 
+
+ After installing SD-WAN plugin 2.2.7 version, the SD-WAN Devices 
+ page ( Panorama SD-WAN Devices ) does not load intermittently. 
+
+ This issue is addressed in SD-WAN plugin 2.2.7-h5 , 3.2.4 , 3.3.3-h2 , and 3.4.0 . 
+
+ PLUG-18897 
+
+ Description of PLUG-18897. 
+
+ In HA deployment, the firewalls should be connected to both the active Panorama and
+ passive Panorama. If a firewall is not connected to any of the Panoramas, the mongo
+ database goes out of synchronization. 
+
+ Workaround : Remove the disconnected firewall (along with the HA peers) from the
+ SD-WAN cluster of both active and passive Panorama. Remove the firewall only from the
+ VPN cluster and do not remove the firewall from Panorama. After removal, commit and
+ synchronize the HA peers in the VPN cluster. 
+
+ PLUG-18873 
+
+ Description of PLUG-18873. 
+
+ In Panorama, when you configure User-ID in the zone and push the configuration to the hub
+ firewall, the configuration does not get enabled in the firewall. 
+
+ This issue is addressed in SD-WAN plugin 3.2.3 , 3.2.4 , 3.4.0 , 3.0.9 and 3.3.4 . 
+
+ PLUG-18222 
+
+ Description of PLUG-18222. 
+
+ Panorama does not support downgrading from SD-WAN plugin version 3.2.3 to a version that
+ does not support post-quantum pre-shared key ( PQ PPK ). That is, you won't be able to
+ downgrade to an SD-WAN plugin version that does not support PQ PPK. 
+
+ Workaround : Disable PQ PPK ( Panorama SD-WAN VPN Clusters ) and then downgrade the SD-WAN plugin. 
+
+ PLUG-17571 
+
+ Description of PLUG-17571. 
+
+ In an SD-WAN cluster, when the hub and branch firewalls (connecting to that hub) does not
+ have a matching private link types, the plugin won't be able to generate the zone
+ information. The SD-WAN plugin displays a warning message when no zone is associated
+ with an interface. 
+
+ This issue is addressed in SD-WAN plugin 3.2.4 , 3.4.0 , and 3.0.9 . 
+
+ PLUG-17418 
+
+ Description of PLUG-17418. 
+
+ The SD-WAN plugin does not support the 4-byte ASN number. 
+
+ This issue is addressed in SD-WAN plugin 3.2.2-h1 and 3.0.9 . After the fix, the SD-WAN plugin generates the configuration
+ with the 4-byte ASN number (when the AS format for the template is not
+ configured). 
+
+ PLUG-16912 
+
+ Description of PLUG-16912. 
+
+ If you enable BGP routing ( Panorama SD-WAN Devices ) while adding a new SD-WAN firewall, you must either Enable
+ IPv4 BGP support or Enable IPv6 BGP support .
+ Else, the Commit All operation will result in a failure. 
+
+ This issue is addressed in SD-WAN plugin 3.2.2-h1. 
+
+ PLUG-16507 
+
+ Description of PLUG-16507. 
+
+ ( HA deployments only ) You may observe SD-WAN tunnel flapping and changes to the
+ SD-WAN interfaces when you perform a commit operation after any of the following: 
+
+ HA failover 
+
+ PAN-OS upgrade or downgrade 
+
+ Reboot the HA pair 
+
+ This issue is addressed in SD-WAN plugin 3.3.2,
+ 3.3.1 , 3.2.2, 
+ 3.0.8 
+ , and 2.2.7 . 
+
+ PLUG-16141 
+
+ Description of PLUG-16141. 
+
+ The SD-WAN log files are overwritten and the critical events does not get captured in the
+ system logs that cause difficulty in debugging the SD-WAN plugin-related issues. 
+
+ This issue is addressed in SD-WAN plugin 2.2.7, 3.0.8
+ , 3.2.2 , and 3.3.2 . After the fix, the following
+ critical events are added to the system logs. 
+ PSK creation or PSK change for a VPN cluster 
+
+ Tunnel name, IP address creation, or IP address change 
+
+ PLUG-16048 
+
+ Description of PLUG-16048. 
+
+ ( HA deployments only ) Passive Panorama makes changes to the SD-WAN plugin
+ database cache entries. 
+
+ This issue is addressed in SD-WAN plugin 2.2.7, 3.0.8
+ , 3.2.2 , and 3.3.2 . 
+
+ PLUG-16017 
+
+ Description of PLUG-16017. 
+
+ When you attempt to delete an existing VPN cluster that contains the autogenerated BGP
+ security rules for an SD-WAN device, the commit all operation fails on the SD-WAN device
+ in the VPN cluster. 
+
+ Workaround : Delete the BGP Security policy and perform a commit and push
+ operation. After the commit, delete the VPN cluster. 
+
+ PLUG-15956 
+
+ Description of PLUG-15956. 
+
+ The commit all operation fails when you enable an advanced routing feature on the SD-WAN
+ branch device with BGP secrets and Prisma cluster configuration. 
+
+ PLUG-15823 
+
+ Description of PLUG-15823. 
+
+ ( Full mesh topology only ) The SD-WAN devices neither go out-of-sync nor show up
+ in the commit scope when a new hub device gets added to the full mesh VPN cluster. 
+
+ This issue is addressed in SD-WAN plugin 2.2.7,
+ 3.0.7-h2 , 3.0.8 , 3.2.2 ,
+ 3.3.1 , and 3.3.2 . 
+
+ PLUG-15761 
+
+ Description of PLUG-15761. 
+
+ In some cases, after HA failover followed by a commit and commit push from the Panorama
+ will result in the tunnel going down. It's because a new tunnel IP address gets
+ generated for the firewall after a HA failover. 
+
+ Workaround : After committing the configuration changes to Panorama, perform a
+ commit and push on the all the SD-WAN devices in the SD-WAN VPN cluster even if the
+ templates are in synchronization with the Panorama management server. 
+
+ This issue is addressed in SD-WAN plugin 2.2.7, 3.0.8, 3.2.2, 3.3.1 , and 3.3.2 . 
+
+ PLUG-15732 
+
+ Description of PLUG-15732 
+
+ The exported CSV files from SD-WAN devices won't have the Upstream
+ NAT configurations. Hence, when you import the same CSV file, the
+ Upstream NAT configurations would be missing. 
+
+ This issue is addressed in SD-WAN plugin
+ 3.3.1. 
+
+ PLUG-15594 
+
+ Description of PLUG-15594. 
+
+ When new certificates are created using an old root certificate (generated before the
+ upgrade) and linked to the SD-WAN device, the commit fails with the following error: 
+
+ Failed to create sdwan cluster meta file: There is no ca certificate for certificate. 
+
+ Workaround : First create the new root certificate and then create the new
+ certificate signed by the new root certificate and link to SD-WAN devices. 
+
+ PLUG-15525 
+
+ Description of PLUG-15525. 
+
+ It's not possible to revert to any of the earlier pre-shared keys except the current
+ pre-shared key. 
+
+ This issue is addressed in SD-WAN plugin 2.2.7, 3.0.8
+ , 3.2.2 , and 3.3.2 . After the fix, you can revert
+ to any of the earlier pre-shared keys (if it's available). 
+
+ PLUG-15415 
+
+ Description of PLUG-15415. 
+
+ ( HA deployments only ) The HA synchronization failure occurs on the passive
+ Panorama when you either upgrade or downgrade the HA Panorama. The issue is caused due
+ to HA failover between the active and passive SD-WAN devices. 
+
+ This issue is addressed in SD-WAN plugin 2.2.7, 3.0.8, 
+ , 3.2.2 , 3.3.1 , and 3.3.2 . 
+
+ PLUG-15323 
+
+ Description of PLUG-15323 
+
+ The SD-WAN allows you to choose any device group irrespective of the device type (branch
+ or hub) selected while adding the BGP Security policy. For example, even though you
+ select the device type as branch, you will be able to choose the hub device group in
+ addition to the branch device group while adding the BGP policy. 
+
+ This issue is addressed in SD-WAN plugin
+ 3.3.1. 
+
+ PLUG-15276 
+
+ Description of PLUG-15276 
+
+ ( Full mesh topology only ) In the SD-WAN VPN cluster, an SD-WAN branch cannot
+ create a VPN tunnel with another SD-WAN branch firewall if the branch firewall is
+ configured behind the NAT device. 
+
+ This issue is addressed in SD-WAN plugin 3.0.7-h2,
+ 3.1.3 , 3.2.1 , 3.3.0 ,
+ and 3.3.1 . 
+
+ PLUG-15258 
+
+ Description of PLUG-15258 
+
+ The SD-WAN monitoring report generation takes more time than expected. 
+
+ This issue is addressed in SD-WAN plugin 3.2.1 and 3.3.1 . 
+
+ PLUG-14986 
+
+ Description of PLUG-14986. 
+
+ ( HA deployments only ) The SD-WAN tunnel becomes inactive for some duration when
+ the passive firewall is either suspended or rebooted during the HA upgrade process. 
+
+ This issue is addressed in SD-WAN plugin 3.1.3 and
+ 3.2.1 . 
+
+ PLUG-14953 
+
+ Description of PLUG-14953. 
+
+ ( HA deployments only ) After an HA failover, the Link Performance summary
+ displays the previous active device (device that was active before the failover) as the
+ hostname instead of the current active device. 
+
+ PLUG-14580 
+
+ Description of PLUG-14580. 
+
+ ( HA deployments only ) During HA synchronization, the SD-WAN database cache
+ synchronizes back from passive Panorama to active Panorama. 
+
+ This issue is addressed in SD-WAN plugin 3.0.7 and
+ 3.2.1 . After this fix, the SD-WAN database cache synchronization from
+ passive Panorama to active Panorama is disabled. 
+
+ PLUG-14559 
+
+ Description of PLUG-14559. 
+
+ A commit failure occurs when you attempt to rename the vsys to a name other than vsys1
+ for a multi-vsys firewall with private link type (in an SD-WAN Interface
+ Profile ). 
+
+ This issue is addressed in SD-WAN plugin 3.0.7 ,
+ 3.1.3 
+ , 3.2.1 
+ , and 3.3.0 . 
+
+ PLUG-14499 
+
+ Description of PLUG-14499 
+
+ ( Panorama HA deployments only ) The firewalls managed by HA active and passive
+ Panorama would go out of synchronization when you make any changes to an active Panorama
+ SD-WAN configuration (such as modifying the VPN cluster name). After this, even when
+ the SD-WAN configuration changes are pushed from active Panorama to the firewalls, the
+ firewalls remains out of synchronization on passive Panorama. This issue does not occur
+ when changing a non-SD-WAN related configuration. 
+
+ Workaround : In a Panorama HA deployment, if you make any changes to an existing
+ SD-WAN configuration: 
+
+ Commit the SD-WAN configuration changes on an active Panorama (where the HA
+ synchronization happens on the passive Panorama automatically) 
+
+ Trigger manual synchronization from active Panorama to passive Panorama by executing
+ the following CLI command: 
+ request high-availability sync-to-remote
+ running-config 
+
+ Push to the firewalls from active Panorama 
+
+ This issue is addressed in SD-WAN plugin 3.0.7, 3.1.3 
+ , and 3.2.1 . However, it is required to
+ follow the workaround when you wish to modify the active Panorama SD-WAN
+ configuration. 
+
+ PLUG-14413 
+
+ Description of PLUG-14413. 
+
+ ( HA Deployments only ) If the HA environment is not configured correctly or when
+ either of HA pair is not present, then no proper commit failure is displayed for
+ troubleshooting. 
+
+ This issue is addressed in SD-WAN
+ plugin 2.2.7, 3.0.8 , 3.2.2 ,
+ and 3.3.2 . After the fix, the improved failure message helps in identifying
+ the missing HA device in the HA deployment. 
+
+ PLUG-14402 
+
+ Description of PLUG-14402 
+
+ The return merchandise authentication (RMA) process won't be successful if you delete the
+ replacement firewall without removing it from the SD-WAN plugin first. 
+
+ This issue is addressed in SD-WAN plugin 2.2.6 ,
+ 3.0.7 , 3.2.1 , and 3.3.0 . Follow the instructions to replace an SD-WAN
+ device. 
+
+ PLUG-13536 
+
+ Description of PLUG-13536. 
+
+ When you disable Remove Private AS option
+ (' remove-private-as ') and attempt to push the configuration
+ from SD-WAN plugin to the branch firewalls, the changes to the Remove Private
+ AS option ( SD-WAN Devices Branch BGP IPV4 BGP ) does not take effect and remains enabled on the branch firewalls. This
+ issue is seen after upgrading the Panorama management server to 11.0.2 release. 
+
+ This issue is addressed in SD-WAN plugin 3.1.3 ,
+ 3.2.1 , and 3.3.0 . 
+
+ PLUG-13100 
+
+ Description of PLUG-13100 
+
+ On Prisma Access Onboarding tab, the aggregated interfaces don't
+ get listed in the Interface drop-down. 
+
+ This issue is addressed in SD-WAN plugin 3.0.5 ,
+ 3.1.3 , 3.2.1 , and 3.3.0 . 
+
+ PLUG-12241 
+
+ Description of PLUG-12241 
+
+ You won't be able to push the configuration changes (like VPN cluster name) of an already
+ configured VPN cluster to the Panorama management server. 
+
+ This issue is addressed in SD-WAN plugin 3.1.3 ,
+ 3.2.1 , and 3.3.0 . 
+
+ PLUG-12224 
+
+ Description of PLUG-12224. 
+
+ For an SD-WAN tunnel between a hub and a branch, the hub/branch tunnel interface should
+ have the same IP address on the HA active and passive firewalls, but the hub/branch has
+ different IP addresses on the HA active and passive firewalls. 
+
+ This issue is addressed in SD-WAN plugin 2.2.4, 2.2.7,
+ 3.0.4, 3.0.8, 3.1.0-h6
+ , 3.2.2 , and 3.3.2 . Tunnel ID changes will take
+ effect from SD-WAN plugin 2.2.4. If you are running SD-WAN plugin 2.2.2 and upgrade
+ to 2.2.4, you must regenerate the cluster configuration and push to devices to see
+ those changes. 
+
+ PLUG-12156 
+
+ Description of PLUG-12156 
+
+ On the Hub-Spoke VPN cluster type, if you make any changes to an
+ existing cluster member configuration or add a new device to the cluster, the push gets
+ enabled for all the VPN cluster members. 
+
+ This issue is addressed in SD-WAN plugin 2.2.6 ,
+ 3.0.7-h2 , 3.2.1 
+ , and 3.3.0 . 
+
+ PLUG-11277 
+
+ Description of PLUG-11277 
+
+ In an SD-WAN hub-and-spoke topology, where Prisma Access compute nodes (CNs) are
+ configured as a hub connecting to the PAN-OS firewalls, the session gets established on
+ only one compute node when ECMP is disabled. When more than one compute nodes are
+ connected to the PAN-OS firewalls, routes get added from one of the compute nodes only.
+ Even though the branch firewalls learn the routes through BGP from both the Prisma
+ Access compute nodes, the branch installs only one of the BGP routes based on the BGP
+ route selection criteria. Therefore, when a traffic passes from the other compute node,
+ the session does not get established. 
+
+ This issue is addressed in SD-WAN plugin 2.2.6, 3.0.7 , 3.1.3 , and 3.2.1 . 
+
+ PLUG-11223 
+
+ Description of PLUG-11223. 
+
+ In a high availability (HA) deployment, the SD-WAN tunnel will go down due to a key ID
+ mismatch when the following events occur in sequence: 
+ An HA failover 
+
+ The SD-WAN plugin cache removes the current HA pair relation from the database
+ when debug plugins sd_wan drop-config-cache all command
+ is executed 
+
+ A commit and push fails on either the hub or a branch active node 
+
+ In certain scenarios, replacing one of the HA devices during the RMA process can cause
+ the SD-WAN tunnel to go down due to a key ID mismatch. For more details, refer to Replace an SD-WAN Device . 
+
+ Workaround : Resolve the Key ID mismatch by ensuring that the Peer
+ Identification of the hub firewall matches with the Local
+ Identification of the branch firewall and the Local
+ Identification of the hub firewall matches with the Peer
+ Identification of the branch firewall. 
+
+ Log in to the hub or a branch firewall where the SD-WAN tunnel is down due to Key ID
+ mismatch and select Network Network Profiles IKE Gateways . 
+
+ Select the IKE gateway of the hub firewall and click Override 
+ at the bottom of the screen. 
+
+ Copy the Local Identification value from the hub firewall to
+ the Peer Identification value in the branch firewall. 
+
+ Copy the Peer Identification value from the hub firewall to
+ the Local Identification value in the branch firewall. 
+
+ Click OK and Commit your changes. 
+
+ This issue is addressed in SD-WAN plugin 2.2.5 ,
+ 2.2.7 , 3.0.8 , 3.1.3 
+ , 3.2.1 ,
+ 3.2.2 
+ , 3.3.0 ,
+ and 3.3.2 . 
+
+ After this fix, the key ID may
+ change after the Panorama commit. Therefore, you must ensure to commit and push to
+ all the devices in the VPN cluster or clusters. 
+
+ Previous 
+
+ Changes to Default Behavior in SD-WAN Plugin 3.2.2 
+
+ Next 
+
+ Panorama Plugin for SD-WAN 3.1 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ IoT Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Release Notes 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Plugins 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

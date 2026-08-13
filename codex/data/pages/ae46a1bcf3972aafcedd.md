@@ -1,0 +1,243 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-access-agent/user-guide/configure-ipv6-sinkhole-for-prisma-access-agent
+fetched_at: 2026-08-13T17:22:38Z
+source: palo-alto-main
+---
+
+# Configure IPv6 Sinkhole for Prisma Access Agent Clear
+
+Configure IPv6 Sinkhole for Prisma Access Agent 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Configure IPv6 Sinkhole for Prisma Access Agent 
+
+ Updated on 
+
+ Wed Jul 01 22:45:41 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Wed Jul 01 22:45:41 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access Agent 
+
+ Prisma Access Agent User Guide 
+
+ Configure IPv6 Sinkhole for Prisma Access Agent 
+
+ Download PDF 
+
+ Prisma Access Agent 
+
+ Configure IPv6 Sinkhole for Prisma Access Agent 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Configure IPv6 Sinkhole for Prisma Access Agent 
+
+ Learn how to configure the IPv6 sinkhole feature for Prisma Access Agent to enhance
+ security by tunneling and blocking IPv6 traffic. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Check the prerequisites for the deployment you're
+ using 
+
+ Minimum required Prisma Access Agent version: 25.3.0.43 
+
+ Supported operating systems: macOS and Windows 
+
+ Contact your Palo Alto Networks account representative to activate the Prisma Access Agent feature 
+
+ In a dual-stack endpoint that can process both IPv4 and IPv6 traffic, the Prisma Access Agent sends mobile user IPv4 traffic through the tunnel to Prisma Access for
+ protection.
+
+ To reduce the attack surface for IPv6-based threats, you can configure Prisma Access Agent to sinkhole IPv6 traffic. Because endpoints can automatically fall back to an
+ IPv4 address, sinkholing IPv6 traffic enables a secure and uninterrupted user
+ experience for mobile user traffic to the internet. 
+
+ You can configure Prisma Access Agent so that it sinkholes all mobile user IPv6
+ traffic by tunneling and blocking IPv6 traffic. When you enable this functionality,
+ Prisma Access Agent assigns an IPv6 address to the connecting endpoint in addition
+ to an IPv4 address; then, it routes the IPv6 traffic to Prisma Access and discards
+ it using a built-in security policy. 
+
+ While certain edge cases like IPv6 localhost, LAN, link-local, and DHCPv6 are not
+ routed to the gateway, the IPv6 sinkhole feature significantly enhances your ability
+ to manage and secure IPv6 traffic within your Prisma Access environment. 
+
+ Prisma Access Agent for Linux does not use gateway-side IPv6 sinkholing.
+ Instead, the agent selectively blocks tunnel-routed IPv6 traffic on the
+ endpoint to trigger IPv4 fallback in modern applications. See IPv6 Traffic Handling for
+ Prisma Access Agent on Linux for details. 
+
+ To sinkhole all mobile user IPv6 traffic in Prisma Access Agent deployments, complete
+ the following steps: 
+
+ In Strata Cloud Manager, select Configuration NGFW and Prisma Access Configuration Scope Access Agent Setup Infrastructure . 
+
+ Edit the infrastructure settings. 
+
+ If you're on a coexistence tenant (with the GlobalProtect™ app), select Filter By Prisma Access Agent to show only the settings that are related to Prisma Access Agent . 
+
+ Select Force IPv6 Sinkhole . 
+
+ Default : Deselected 
+
+ Prisma Access uses fc00:0:0:0:0:0:0:0/64 as the sinkhole address. 
+
+ Save your infrastructure settings and push the configuration . 
+
+ Verify that IPv6 traffic has been sinkholed by running the following PACli command on an endpoint: 
+
+ pacli tunnel 
+
+ For example, on the Windows agent, the output will look similar to the
+ following: 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Prisma Access Agent 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ Prisma Access 
+
+ Panorama 
+
+ Strata Cloud Manager 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

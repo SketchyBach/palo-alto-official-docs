@@ -1,0 +1,371 @@
+---
+url: https://docs.paloaltonetworks.com/service-providers/10-1/mobile-network-infrastructure-getting-started/5g-ready-k2-next-generation-firewalls/express-mode-secure-mode
+fetched_at: 2026-08-13T17:36:07Z
+source: palo-alto-main
+---
+
+# Express Mode and Secure Mode Clear
+
+Express Mode and Secure Mode 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Mobile Network Infrastructure Getting Started 
+
+ : 
+ Express Mode and Secure Mode 
+
+ Updated on 
+
+ Wed May 06 15:01:43 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ End-of-Life (EoL)
+
+ Filter
+
+ Version 
+
+ 10.1 (EoL) 
+
+ 11.1 & Later 
+
+ 11.0 (EoL) 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Stream Control Transmission Protocol (SCTP) 
+
+ SCTP Introduction 
+
+ SCTP Association 
+
+ SCTP Multihoming 
+
+ SCTP Packets and Chunks 
+
+ SCTP Use Cases 
+
+ SCTP Security Measures on the Firewall 
+
+ Configure SCTP Security 
+
+ Configure SCTP INIT Flood Protection 
+
+ Monitor SCTP Security 
+
+ SCTP Event Types 
+
+ Manage SCTP from Panorama 
+
+ GPRS Tunneling Protocol (GTP) 
+
+ GTP Overview 
+
+ GTP Deployments 
+
+ RAN Security 
+
+ Roaming Security 
+
+ Non-3GPP Access Security 
+
+ CIoT Security 
+
+ Configure GTP Stateful Inspection 
+
+ Mobile Network Protection Profile 
+
+ Monitor GTP Traffic 
+
+ View GTP Logs 
+
+ GTP Information on the ACC 
+
+ Generate Mobile Network Reports 
+
+ GTP Event Types and Severity 
+
+ GTP Event Codes 
+
+ GTP Cause Values in Logs 
+
+ GTP Message Type 
+
+ Get a Packet Capture of a GTP Event 
+
+ Disable Tunnel Acceleration 
+
+ 5G-Ready K2 Next-Generation Firewalls 
+
+ Express Mode and Secure Mode 
+
+ Restore Express Mode 
+
+ Upgrade Line Cards to K2 Secure Mode 
+
+ 5G Security 
+
+ 5G Network Slice Security 
+
+ 5G Equipment ID and Subscriber ID Security 
+
+ Configure 5G Network Slice Security 
+
+ Configure 5G Equipment ID Security 
+
+ Configure 5G Subscriber ID Security 
+
+ 5G Multi-access Edge Computing Security 
+
+ Configure 5G Multi-access Edge Computing Security 
+
+ PFCP Event Types 
+
+ 4G Equipment ID and Subscriber ID Security 
+
+ 4G Equipment ID Security 
+
+ 4G Subscriber ID Security 
+
+ Configure 4G Equipment ID Security 
+
+ Configure 4G Subscriber ID Security 
+
+ Updated on 
+
+ Wed May 06 15:01:43 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Service Providers 
+
+ Mobile Network Infrastructure Getting Started 
+
+ 5G-Ready K2 Next-Generation Firewalls 
+
+ Express Mode and Secure Mode 
+
+ Download PDF 
+
+ Mobile Network Infrastructure Getting Started 
+
+ Express Mode and Secure Mode 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 10.1 (EoL) 
+
+ 11.1 & Later 
+
+ 11.0 (EoL) 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Stream Control Transmission Protocol (SCTP) 
+
+ SCTP Introduction 
+
+ SCTP Association 
+
+ SCTP Multihoming 
+
+ SCTP Packets and Chunks 
+
+ SCTP Use Cases 
+
+ SCTP Security Measures on the Firewall 
+
+ Configure SCTP Security 
+
+ Configure SCTP INIT Flood Protection 
+
+ Monitor SCTP Security 
+
+ SCTP Event Types 
+
+ Manage SCTP from Panorama 
+
+ GPRS Tunneling Protocol (GTP) 
+
+ GTP Overview 
+
+ GTP Deployments 
+
+ RAN Security 
+
+ Roaming Security 
+
+ Non-3GPP Access Security 
+
+ CIoT Security 
+
+ Configure GTP Stateful Inspection 
+
+ Mobile Network Protection Profile 
+
+ Monitor GTP Traffic 
+
+ View GTP Logs 
+
+ GTP Information on the ACC 
+
+ Generate Mobile Network Reports 
+
+ GTP Event Types and Severity 
+
+ GTP Event Codes 
+
+ GTP Cause Values in Logs 
+
+ GTP Message Type 
+
+ Get a Packet Capture of a GTP Event 
+
+ Disable Tunnel Acceleration 
+
+ 5G-Ready K2 Next-Generation Firewalls 
+
+ Express Mode and Secure Mode 
+
+ Restore Express Mode 
+
+ Upgrade Line Cards to K2 Secure Mode 
+
+ 5G Security 
+
+ 5G Network Slice Security 
+
+ 5G Equipment ID and Subscriber ID Security 
+
+ Configure 5G Network Slice Security 
+
+ Configure 5G Equipment ID Security 
+
+ Configure 5G Subscriber ID Security 
+
+ 5G Multi-access Edge Computing Security 
+
+ Configure 5G Multi-access Edge Computing Security 
+
+ PFCP Event Types 
+
+ 4G Equipment ID and Subscriber ID Security 
+
+ 4G Equipment ID Security 
+
+ 4G Subscriber ID Security 
+
+ Configure 4G Equipment ID Security 
+
+ Configure 4G Subscriber ID Security 
+
+ End-of-Life (EoL)
+
+ Express Mode and Secure Mode 
+
+ Palo Alto Networks firewall models with a K2-designated
+SKU are for service providers and support express mode (prioritizing
+highest throughput) and secure mode (providing full security functionality). 
+
+ The Palo Alto Networks ® family of 5G-ready next-generation
+firewalls is available in physical and virtual form factors: 
+
+ PA-5220, PA-5250, and PA-5260 firewalls are 5G-ready. 
+
+ All VM-Series firewalls are 5G-ready. 
+
+ PA-5280 firewall and PA-7000 Series firewalls (that have a PA-7000-100G-NPC
+and PA-7050-SMC-B or PA-7080-SMC-B card and PA-7000-LFC-A card)
+are available several ways: 
+ Those with regular SKUs and those
+with K2 secure mode SKUs (which function in secure mode )
+are 5G-ready. They provide security with full Layer 7 application,
+user, threat, and content visibility and enforcement. Support is
+also available for EDL. 
+
+ Those with K2 express mode SKUs function in express mode .
+They are optimized for the highest throughput configuration, for
+when you decide that basic port- and protocol-based security controls on
+your firewall are sufficient. No Layer 7 application, user, threat,
+or content visibility or enforcement is available in this mode.
+You can, however, deploy Security policy based on source and destination
+IP address, FQDN, or geo-IP; service (port); source user; and source
+and destination zone; and you can use IP-only external dynamic lists
+(EDLs). Traffic logs indicate all applications simply as express-mode .
+There are no logs for threat, URL filtering, WildFire ® submission,
+data filtering, tunnel inspection, GTP or SCTP. 
+
+ If you
+purchase a firewall in express mode and later decide you want full Layer
+7 application, user, threat, and content visibility and enforcement, purchase
+a secure mode upgrade to seamlessly transition to the 5G-ready next-generation
+firewall capabilities. For example: 
+
+ To upgrade a PA-5280
+firewall from express mode to secure mode, purchase a PAN-PA-5280-SEC-K2-UPG
+upgrade license. 
+
+ To upgrade a PA-7000 Series (PA-7050 or PA-7080) firewall from express
+mode to secure mode, purchase an upgrade license for each Network
+Processing Card (NPC) on the firewall that was purchased as an Express
+Mode NPC. (NPCs purchased as Secure Mode need not be upgraded.)
+For example, a PA-7080 firewall with six Express Mode NPCs and two
+Secure Mode NPCs would require six PAN-PA-7000-100G-SEC-K2-UPG upgrade
+licenses. All NPCs in the firewall must have been either purchased
+as Secure Mode NPCs or upgraded to Secure Mode before the chassis
+is configured in Secure Mode. 
+
+ If you accidentally change
+a firewall from express mode to secure mode, you can Restore Express Mode . 
+
+ Previous 
+
+ 5G-Ready K2 Next-Generation Firewalls 
+
+ Next 
+
+ Restore Express Mode 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

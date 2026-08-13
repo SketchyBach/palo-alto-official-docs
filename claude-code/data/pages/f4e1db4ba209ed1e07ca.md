@@ -1,0 +1,268 @@
+---
+url: https://docs.paloaltonetworks.com/enterprise-dlp/reference/predefined-data-pattern-keywords/driverlicense-lithuania
+fetched_at: 2026-08-13T15:32:29Z
+source: palo-alto-main
+---
+
+# Driver License - Lithuania Clear
+
+Driver License - Lithuania 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Driver License - Lithuania 
+
+ Updated on 
+
+ Fri Jun 06 09:22:25 PDT 2025 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Enterprise DLP Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features by OS Version 
+
+ New Features by Month 
+
+ Updated on 
+
+ Fri Jun 06 09:22:25 PDT 2025 
+
+ Focus 
+
+ Home 
+
+ Enterprise DLP 
+
+ Predefined Data Pattern Keywords 
+
+ Driver License - Lithuania 
+
+ Download PDF 
+
+ Enterprise DLP 
+
+ Driver License - Lithuania 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Enterprise DLP Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features by OS Version 
+
+ New Features by Month 
+
+ Previous 
+
+ Driver License - Liechtenstein 
+
+ Next 
+
+ Driver License - Luxembourg 
+
+ Driver License - Lithuania 
+
+ These are the proximity keywords for the predefined Driver License - Lithuania data pattern. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Panorama or Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama or Strata Cloud Manager) 
+
+ Enterprise Data Loss Prevention (E-DLP) license 
+
+ Review the Supported
+ Platforms for details on the required license
+ for each enforcement point. 
+
+ Or any of the following licenses that include the Enterprise DLP license 
+
+ Prisma Access CASB license 
+
+ Next-Generation
+CASB for Prisma Access and NGFW (CASB-X) license 
+
+ Data Security license 
+
+ Augmented With ML? 
+
+ Yes 
+
+ Translation 
+
+ Lithuanian 
+
+ Keywords 
+
+ vairuotojo pažymėjimo numeris 
+
+ vairuotojo pažymėjimo numeriai 
+
+ vairuotojo teisės 
+
+ vairuotojo pažymėjimas 
+
+ Previous 
+
+ Driver License - Liechtenstein 
+
+ Next 
+
+ Driver License - Luxembourg 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ SaaS Security 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Reference 
+
+ Cloud-Delivered Security Services 
+
+ Data Filtering 
+
+ Enterprise DLP 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

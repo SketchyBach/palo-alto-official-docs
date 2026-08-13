@@ -1,0 +1,376 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-route-based-redundancy
+fetched_at: 2026-08-13T17:04:44Z
+source: palo-alto-main
+---
+
+# Use Case: Configure Active/Active HA with Route-Based Redundancy Clear
+
+Use Case: Configure Active/Active HA with Route-Based Redundancy 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Use Case: Configure Active/Active HA with Route-Based Redundancy 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ High Availability 
+
+ Set
+Up Active/Active HA 
+
+ Use Case: Configure Active/Active HA with Route-Based Redundancy 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Use Case: Configure Active/Active HA with Route-Based Redundancy 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configure Active/Active HA 
+
+ Next 
+
+ Use Case: Configure Active/Active HA with Floating IP Addresses 
+
+ Use Case: Configure Active/Active HA with Route-Based Redundancy 
+
+ Learn how to configure active/active HA with route-based redundancy. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Strata Cloud Manager) 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ For Strata Cloud Manager managed NGFWs: 
+
+ Strata Cloud Manager Pro 
+
+ Route-based redundancy enables you to implement high availability
+ configurations using dynamic routing protocols instead of traditional floating IP
+ addresses. When you deploy this approach, each device in your HA pair maintains its
+ own unique IP address on the Layer 3 network and uses protocols like OSPF or BGP to
+ advertise routes and manage traffic distribution. You can leverage this method to
+ create active-active deployments where both devices simultaneously process traffic,
+ providing automatic load distribution and seamless failover capabilities when device
+ or link failures occur. 
+
+ Consider implementing route-based redundancy when you need scalable high
+ availability solutions that can adapt to complex network topologies without the
+ limitations of shared IP addressing schemes. This approach becomes particularly
+ valuable when you require load sharing capabilities to improve network performance
+ and resource utilization across your HA pair. You will find route-based redundancy
+ especially beneficial in environments where asymmetric routing is acceptable or
+ desired, as traffic can enter through one device and exit through another without
+ disrupting operations. 
+
+ You might choose route-based redundancy over other active/active HA methods
+ when you want to eliminate single points of failure associated with floating IP
+ addresses and when your network infrastructure already supports dynamic routing
+ protocols. While this method requires more sophisticated configuration and
+ troubleshooting skills compared to simpler HA setups, you gain the advantage of
+ automatic traffic rerouting and improved network resilience. 
+
+ The following Layer 3 topology illustrates two PA-7050 firewalls in an active/active HA
+ environment that use Route-Based Redundancy . The firewalls belong to an OSPF
+ area. When a link or firewall fails, OSPF handles the redundancy by redirecting
+ traffic to the functioning firewall. 
+
+ Configure Active/Active HA . 
+
+ Perform Step 1 through Step 15 . 
+
+ Configure OSPF. 
+
+ See OSPF . 
+
+ Define HA failover conditions. 
+
+ Define HA Failover Conditions . 
+
+ Commit the configuration. 
+
+ Configure the peer firewall in the same way, except in Step 5 , if you selected Device ID
+ 0 for the first firewall, select Device ID
+ 1 for the peer firewall. 
+
+ Previous 
+
+ Configure Active/Active HA 
+
+ Next 
+
+ Use Case: Configure Active/Active HA with Floating IP Addresses 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

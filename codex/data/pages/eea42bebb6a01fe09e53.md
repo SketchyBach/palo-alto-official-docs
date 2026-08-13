@@ -1,0 +1,327 @@
+---
+url: https://docs.paloaltonetworks.com/fedramp/autonomous-dem/set-up-an-adem-application-test
+fetched_at: 2026-08-13T16:32:39Z
+source: palo-alto-main
+---
+
+# Set up an Autonomous DEM Application Test Clear
+
+Set up an Autonomous DEM Application Test 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Set up an Autonomous DEM Application Test 
+
+ Updated on 
+
+ Wed Sep 04 15:52:49 PDT 2024 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ FedRAMP Docs 
+
+ Reference 
+
+ Autonomous DEM 
+
+ Updated on 
+
+ Wed Sep 04 15:52:49 PDT 2024 
+
+ Focus 
+
+ Home 
+
+ FedRAMP 
+
+ Set up an Autonomous DEM Application Test 
+
+ Download PDF 
+
+ FedRAMP 
+
+ Set up an Autonomous DEM Application Test 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ FedRAMP Docs 
+
+ Reference 
+
+ Autonomous DEM 
+
+ Previous 
+
+ ADEM Settings - License Details 
+
+ Next 
+
+ Manage Autonomous DEM 
+
+ Set up an Autonomous DEM Application Test 
+
+ Learn how to start running Autonomous DEM synthetic testing
+on your Prisma Access endpoints so that you can collect digital
+experience metrics to help you isolate and resolve performance issues. 
+
+ After you’ve surveyed the applications
+running on your network and determined which applications
+you want to monitor, you can create an app tests and
+decide whether you want to run the test only for Mobile Users or
+only for Remote Sites or for both. 
+
+ When creating synthetic
+tests, you have the option to enable the test on an individual Mobile
+User or on a Mobile User group or both. You can enable tests only
+on existing groups that are used in security policies. The tests
+that you enable on a user group will run on all devices that belong
+to every single user in that group. You cannot select only certain
+devices on which to run the test. If a user is removed from a user
+group, the tests will automatically stop running on the user’s devices.
+When new users are added to a group, the tests will automatically
+be run on the new user’s device(s). Keep in mind that it may take
+up to 6 hours to automatically update users that are added/removed
+from groups. The test results can be filtered by individual Mobile
+Users or Mobile User groups (only groups currently in test configuration).
+You must create at least one application test in order for data
+to be displayed on the Summary page and the Mobile
+Users page. 
+
+ As you create app tests, keep in mind
+that although you can create app tests targeted to multiple users
+or remote sites, the number of tests is based on the number of app tests
+each individual user runs (for example, if you an app test for Slack
+and target it to 1000 users, this would count against your license
+as 1000 tests). Each remote site based on your device has its own
+capacity. 
+
+ In order to run synthetic tests—to SaaS applications
+or applications in your data center through Prisma Access, Secure
+Fabric, via split tunneling, or direct access - you must have security
+policy rules that allow the synthetic test traffic over ICMP, TCP,
+HTTPS, and optionally HTTP (depending on how you configure your
+app tests). 
+
+ To create an app test: 
+
+ From the Prisma Access app on the hub, select Autonomous DEM Applications . 
+
+ To enable the tests for a Mobile User group, 
+
+ Click Add
+new App Test . 
+
+ Click the Applications Tests tab. 
+
+ Under Source , select Custom from
+the Mobile Users dropdown. 
+
+ Click in the Search Mobile Users and Groups text
+box. 
+
+ Select the check box(es) for one or more users and/or user group(s)
+on which you want to enable the test. 
+
+ Follow the instructions from step 3 onwards
+below. 
+
+ Click Add new App Test or, click
+an app name to view the Health link that corresponds to a specific
+application in the application list. 
+
+ Name the new app
+test. 
+
+ You have the option to run application tests only for Mobile Users or only for
+ Remote Sites or for both. 
+
+ Mobile Users: Define the Source Users that you want to run
+ this app test. By default, all licensed ADEM users are assigned to
+ run the test. If you want to limit this app test to specific users,
+ click Mobile Users under
+ Source and select
+ Custom and click in the Search
+ Mobile Users and Groups text box, then select the
+ users and/or groups you want to run the test. 
+
+ Remote Networks: Select the remote site. By default, all remote
+ site licenses are selected. You can also choose to run the tests on all
+ remote sites or only particular remote sites. Define Advanced Options as
+ needed. By default ADEM sets the Network Test Options and Web Test
+ Options based on the applications you selected. However, you can
+ customize these options if needed in your environment. 
+
+ Identify the application you want to test as the Target .
+If you selected an application from the applications list, the application
+name is automatically populated. Otherwise, begin typing the Application
+name to see a list of applications from which to select. If you
+don’t see the application you want to create a test for, you can
+create a custom application in your Prisma Access environment using
+Panorama or the Cloud Management App. Once you have created the
+custom application and successfully committed, you will see your
+app under the Applications dropdown menu
+on the New App Test page in ADEM. 
+
+ To edit an app test, click Applications Application Tests tab and click
+on the application test name that you want to edit. On the Edit
+App Test page, click Add/Edit Target under
+the Target section and add the domain URL
+or the IP address for the target and click Save .
+The test starts running. 
+
+ Be sure
+to configure each test with one unique application for which you
+provide one domain name. 
+
+ After you create the tests, you can view a summary of
+all the tests created in the Applications Application Test tab. 
+
+ The tests get a priority assigned to them in the order
+that they were created. For example, the first test you create gets
+a priority order 1. The next test you create gets priority order
+2 and so on. The tests are pushed to the mobile users and remote
+site according to the priority they are assigned. If the remote
+site devices have available capacity for the test, the test will
+be enabled. Otherwise, the remote site gets moved to the Excluded
+Remote Sites for the test. 
+
+ Even though the tests
+are assigned to both Mobile Users and Remote Sites, the priority
+in which the tests are pushed to the device is important particularly
+to the remote sites, since each device in a remote site is capable
+of running a different number of tests depending on the device size.
+So, if you have created a test, for example Test A which has a priority
+of 8, and attached it to multiple remote sites all of which can
+run Test A, if one of those sites, for example San Jose, has reached
+its limit on how many tests it can run, Test A will not be pushed
+to the site. That remote site (San Jose) will get moved under the Excluded
+Remote Sites column. But if you absolutely must run
+the Test A, you can change the priority of Test A from 8 to a higher
+location in the table, for example to the top of the list by clicking
+on the dots to the left of the check box and dragging and dropping
+it to the top of the list. Alternatively, you can select its check
+box and click the up arrow at the bottom of the page. You will see
+its priority change only after you click Save .
+Now Test A will get a higher priority and will be pushed to the
+San Jose remote site before the remaining tests that follow Test
+A in the table. This would mean though that the San Jose remote
+site will now be excluded in the configuration push from some other
+lower priority test (lower priority compared to Test A) that is
+pushed to it. 
+
+ For a list of devices and the maximum number
+of tests they are capable of running, refer to the table in Get Started for
+Remote Networks . 
+
+ Select
+the check box to the left of the test to Delete , Enable ,
+or Disable a test. Once you disable a test,
+that test will not be executed any more until you enable it again. 
+
+ The next time the selected users and remote sites connect
+to Prisma Access they will receive the new app test settings and
+begin running the tests. After the app tests start running, the
+ADEM service collects sample data from all assigned users every
+five minutes. 
+
+ Previous 
+
+ ADEM Settings - License Details 
+
+ Next 
+
+ Manage Autonomous DEM 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Remote Networks 
+
+ Mobile Users 
+
+ Autonomous DEM 
+
+ SASE 
+
+ Prisma SASE 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

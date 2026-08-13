@@ -1,0 +1,315 @@
+---
+url: https://docs.paloaltonetworks.com/openconfig/1-3/openconfig-admin/openconfig-models/high-availabilty/high-availability-behavior
+fetched_at: 2026-08-13T16:57:24Z
+source: palo-alto-main
+---
+
+# High Availability Behavior Clear
+
+High Availability Behavior 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ PAN-OS OpenConfig Administrator’s Guide 
+
+ : 
+ High Availability Behavior 
+
+ Updated on 
+
+ Tue Feb 11 16:28:28 PST 2025 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Version 
+
+ 1.3 
+
+ 1.3 
+
+ 1.2 
+
+ 1.1 
+
+ Expand all | Collapse all 
+
+ Getting Started 
+
+ About PAN-OS OpenConfig Support 
+
+ PAN-OS OpenConfig Model Support 
+
+ Install the OpenConfig Plugin 
+
+ PAN-OS OpenConfig Wildcard Support 
+
+ PAN-OS OpenConfig Bundling Support 
+
+ OpenConfig Models 
+
+ BGP 
+
+ BGP Behavior 
+
+ Manage BGP Routes 
+
+ Firewall Zones 
+
+ Firewall Zones Behavior 
+
+ Manage Firewall Zones 
+
+ High Availabilty 
+
+ High Availability Behavior 
+
+ Manage High Availability 
+
+ Interfaces 
+
+ Interfaces Behavior 
+
+ Manage Interfaces 
+
+ LACP 
+
+ LACP Behavior 
+
+ Manage LACP 
+
+ LLDP 
+
+ LLDP Behavior 
+
+ Manage LLDP 
+
+ Local Routes 
+
+ Local Routes Behavior 
+
+ Manage Local Routes 
+
+ Network Instances 
+
+ Network Instances Behavior 
+
+ Manage Network Instances 
+
+ OSPF Version 2 
+
+ OSPF Version 2 Behavior 
+
+ Manage OSPF Version 2 
+
+ Platform 
+
+ Platform Behavior 
+
+ Manage Platform 
+
+ Routing Policy 
+
+ Routing Policy Behavior 
+
+ Manage Routing Policies 
+
+ System 
+
+ System Behavior 
+
+ Manage System 
+
+ VLAN 
+
+ VLAN Behavior 
+
+ Manage VLANs 
+
+ Telemetry Streaming 
+
+ OpenConfig Telemetry on PAN-OS 
+
+ Updated on 
+
+ Tue Feb 11 16:28:28 PST 2025 
+
+ Focus 
+
+ Home 
+
+ OpenConfig 
+
+ PAN-OS OpenConfig Administrator’s Guide 
+
+ OpenConfig Models 
+
+ High Availabilty 
+
+ High Availability Behavior 
+
+ Download PDF 
+
+ PAN-OS OpenConfig Administrator’s Guide 
+
+ High Availability Behavior 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 1.3 
+
+ 1.3 
+
+ 1.2 
+
+ 1.1 
+
+ Expand all | Collapse all 
+
+ Getting Started 
+
+ About PAN-OS OpenConfig Support 
+
+ PAN-OS OpenConfig Model Support 
+
+ Install the OpenConfig Plugin 
+
+ PAN-OS OpenConfig Wildcard Support 
+
+ PAN-OS OpenConfig Bundling Support 
+
+ OpenConfig Models 
+
+ BGP 
+
+ BGP Behavior 
+
+ Manage BGP Routes 
+
+ Firewall Zones 
+
+ Firewall Zones Behavior 
+
+ Manage Firewall Zones 
+
+ High Availabilty 
+
+ High Availability Behavior 
+
+ Manage High Availability 
+
+ Interfaces 
+
+ Interfaces Behavior 
+
+ Manage Interfaces 
+
+ LACP 
+
+ LACP Behavior 
+
+ Manage LACP 
+
+ LLDP 
+
+ LLDP Behavior 
+
+ Manage LLDP 
+
+ Local Routes 
+
+ Local Routes Behavior 
+
+ Manage Local Routes 
+
+ Network Instances 
+
+ Network Instances Behavior 
+
+ Manage Network Instances 
+
+ OSPF Version 2 
+
+ OSPF Version 2 Behavior 
+
+ Manage OSPF Version 2 
+
+ Platform 
+
+ Platform Behavior 
+
+ Manage Platform 
+
+ Routing Policy 
+
+ Routing Policy Behavior 
+
+ Manage Routing Policies 
+
+ System 
+
+ System Behavior 
+
+ Manage System 
+
+ VLAN 
+
+ VLAN Behavior 
+
+ Manage VLANs 
+
+ Telemetry Streaming 
+
+ OpenConfig Telemetry on PAN-OS 
+
+ High Availability Behavior 
+
+ PAN-OS specific behavior for the openconfig-hagroups
+model. 
+
+ Review the deviation file before
+using the openconfig-hagroups model to familiarize yourself with
+supported paths. 
+
+ When using the openconfig-hagroups model: 
+
+ Only active-passive mode is supported. 
+
+ Preemptive Hold Time is defined in milliseconds. 
+
+ LinkMonitorEnable is enabled by default. 
+
+ ApPassingLinkState is set to auto by default. 
+
+ Previous 
+
+ High Availabilty 
+
+ Next 
+
+ Manage High Availability 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

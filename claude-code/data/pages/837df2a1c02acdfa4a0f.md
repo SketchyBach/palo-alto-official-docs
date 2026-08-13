@@ -1,0 +1,505 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-networking-admin/bgp/configure-a-bgp-peer-with-mp-bgp-for-ipv4-or-ipv6-unicast
+fetched_at: 2026-08-13T17:02:33Z
+source: palo-alto-main
+---
+
+# Configure a BGP Peer with MP-BGP for IPv4 or IPv6 Unicast Clear
+
+Configure a BGP Peer with MP-BGP for IPv4 or IPv6 Unicast 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Configure a BGP Peer with MP-BGP for IPv4 or IPv6 Unicast 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ BGP 
+
+ Configure a BGP Peer with MP-BGP for IPv4 or IPv6 Unicast 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Configure a BGP Peer with MP-BGP for IPv4 or IPv6 Unicast 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configure BGP 
+
+ Next 
+
+ Configure a BGP Peer with MP-BGP for IPv4 Multicast 
+
+ Configure a BGP Peer with MP-BGP for IPv4 or IPv6 Unicast 
+
+ Configure a BGP peer to use multiprotocol BGP so the peer can carry IPv6 unicast
+ routes or perform peering over IPv6 addresses. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ After you Configure BGP , configure a BGP peer with MP-BGP for IPv4 or IPv6
+ unicast for either of the following reasons: 
+
+ To have your BGP peer carry
+IPv6 unicast routes, configure MP-BGP with the Address Family Type
+of IPv6 and Subsequent Address Family of Unicast so
+that the peer can send BGP updates that include IPv6 unicast routes.
+BGP peering (Local Address and Peer Address) can still both be IPv4
+addresses, or they can both be IPv6 addresses. 
+
+ To perform BGP peering over IPv6 addresses ( Local
+Address and Peer Address use
+IPv6 addresses). 
+
+ The following task shows how to
+enable a BGP peer with MP-BGP so it can carry IPv6 unicast routes,
+and so it can peer using IPv6 addresses. 
+
+ The task also shows
+how to view the unicast or multicast route tables, and how to view
+the forwarding table, the BGP local RIB, and BGP RIB Out (routes
+sent to neighbors) to see routes from the unicast or multicast route
+table or a specific address family (IPv4 or IPv6). 
+
+ Enable MP-BGP Extensions for a peer. 
+
+ Configure the following so that a BGP peer can carry IPv4
+or IPv6 unicast routes in Updates packets and the firewall can use
+IPv4 or IPv6 addresses to communicate with its peer. 
+
+ Select Network Virtual Routers and select
+the virtual router you are configuring. 
+
+ Select BGP . 
+
+ Select Peer Group and select
+a peer group. 
+
+ Select a BGP peer (router). 
+
+ Select Addressing . 
+
+ Select Enable MP-BGP Extensions for
+the peer. 
+
+ For Address Family Type , select IPv4 or IPv6 .
+For example, select IPv6. 
+
+ For Subsequent Address Family , Unicast is
+selected. If you chose IPv4 for the Address
+Family, you can select Multicast also. 
+
+ For Local Address , select an Interface and
+optionally select an IP address, for example,
+2001:DB8:55::/32 
+
+ For Peer Address , enter the
+peer’s IP address, using the same address
+family (IPv4 or IPv6) as the Local Address, for example, 2001:DB8:58::/32. 
+
+ Select Advanced . 
+
+ ( Optional ) Enable Sender Side Loop
+ Detection . When you enable Sender Side Loop Detection,
+ the firewall will check the AS_PATH attribute of a route in the BGP RIB
+ before it sends the route in an update, to ensure that the peer AS
+ number isn't in the AS_PATH list. The firewall doesn't advertise the
+ route if the peer AS number is in the AS_PATH list. Usually, the
+ receiver detects loops, but this optimization feature has the sender
+ perform the loop detection. Disable this feature to have the receiver
+ perform loop detection. 
+
+ Click OK . 
+
+ ( Optional ) Create a static route and install
+it in the unicast route table because you want the route to be used
+only for unicast purposes. 
+
+ Select Network Virtual Routers and select
+the virtual router you are configuring. 
+
+ Select Static Routes , select IPv4 or IPv6 ,
+and Add a route. 
+
+ Enter a Name for the static
+route. 
+
+ Enter the IPv4 or IPv6 Destination prefix
+and netmask, depending on whether you chose IPv4 or IPv6. 
+
+ Select the egress Interface . 
+
+ Select the Next Hop as IPv6
+Address (or IP Address if you chose
+IPv4) and enter the address of the next hop to which you want to
+direct unicast traffic for this static route. 
+
+ Enter an Admin Distance . 
+
+ Enter a Metric . 
+
+ For Route Table , select Unicast . 
+
+ Click OK . 
+
+ Commit the configuration. 
+
+ Click Commit . 
+
+ View the unicast or multicast route table. 
+
+ Select Network Virtual Routers . 
+
+ In the row for the virtual router, click More
+Runtime Stats . 
+
+ Select Routing Route Table . 
+
+ For Route Table , select Unicast or Multicast to
+display only those routes. 
+
+ For Display Address Family ,
+select IPv4 Only , IPv6 Only , or IPv4
+and IPv6 to display only routes for that address family. 
+
+ Selecting Multicast with IPv6
+Only is not supported. 
+
+ View the Forwarding Table. 
+
+ Select Network Virtual Routers . 
+
+ In the row for the virtual router, click More
+Runtime Stats . 
+
+ Select Routing Forwarding Table . 
+
+ For Display Address Family ,
+select IPv4 Only , IPv6 Only , or IPv4
+and IPv6 to display only routes for that address family. 
+
+ View the BGP RIB tables. 
+
+ View the BGP Local RIB, which shows the
+BGP routes that the firewall uses to route BGP packets. 
+
+ Select Network Virtual Routers . 
+
+ In the row for the virtual router, click More
+Runtime Stats . 
+
+ Select BGP Local
+RIB . 
+
+ For Route Table , select Unicast or Multicast to
+display only those routes. 
+
+ For Display Address Family , select IPv4
+Only , IPv6 Only , or IPv4
+and IPv6 to display only routes for that address family. 
+
+ Selecting Multicast with IPv6
+Only is not supported. 
+
+ View the BGP RIB Out table, which shows the routes
+that the firewall sends to BGP neighbors. 
+
+ Select Network Virtual Routers . 
+
+ In the row for the virtual router, click More
+Runtime Stats . 
+
+ Select BGP RIB
+Out . 
+
+ For Route Table , select Unicast or Multicast to
+display only those routes. 
+
+ For Display Address Family , select IPv4
+Only , IPv6 Only , or IPv4
+and IPv6 to display only routes for that address family. 
+
+ Selecting Multicast with IPv6
+Only is not supported. 
+
+ Previous 
+
+ Configure BGP 
+
+ Next 
+
+ Configure a BGP Peer with MP-BGP for IPv4 Multicast 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Networking 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,354 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/10-1/panorama-web-interface/panorama-templates
+fetched_at: 2026-08-13T16:42:41Z
+source: palo-alto-main
+---
+
+# Panorama > Templates Clear
+
+Panorama > Templates 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Panorama > Templates 
+
+ Updated on 
+
+ Mon Jan 12 14:16:08 PST 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Jan 12 14:16:08 PST 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Panorama Web Interface 
+
+ Panorama > Templates 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Panorama > Templates 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Detailed Device Health on Panorama 
+
+ Next 
+
+ Templates 
+
+ Panorama > Templates 
+
+ Through the Device and Network tabs,
+you can deploy a common base configuration to multiple firewalls
+that require similar settings using a template or a template stack
+(a combination of templates). When managing firewall configurations
+with Panorama, you use a combination of device groups (to manage
+shared policies and objects) and templates (to manage shared device
+and network settings). 
+
+ In addition to the settings available from the dialogs for creating Templates or Template
+Stacks , Panorama Templates displays
+the following columns: 
+
+ Type —Identifies the listed entries as templates
+or template stacks. 
+
+ Stack —Lists the templates assigned to a template stack. 
+
+ What do you want
+to do? 
+
+ See: 
+
+ Add, clone, edit, or delete a template 
+
+ Templates 
+
+ Add, edit, or delete a template stack 
+
+ Template
+Stacks 
+
+ Looking for more? 
+
+ Templates and Template Stacks 
+
+ Manage Templates and Template Stacks 
+
+ Previous 
+
+ Detailed Device Health on Panorama 
+
+ Next 
+
+ Templates 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 10.1 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

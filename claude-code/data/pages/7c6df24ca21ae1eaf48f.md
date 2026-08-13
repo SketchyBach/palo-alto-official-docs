@@ -1,0 +1,536 @@
+---
+url: https://docs.paloaltonetworks.com/globalprotect/user-guide/6-0/globalprotect-app-for-mac/download-and-install-the-globalprotect-app-for-mac
+fetched_at: 2026-08-13T16:33:20Z
+source: palo-alto-main
+---
+
+# Download and Install the GlobalProtect App for macOS Clear
+
+Download and Install the GlobalProtect App for macOS 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Download and Install the GlobalProtect App for macOS 
+
+ Updated on 
+
+ Nov 7, 2025 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 한국어 (Korean) 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ GlobalProtect Docs 
+
+ Getting Started 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ User Guide 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ New Features 
+
+ Updated on 
+
+ Nov 7, 2025 
+
+ Focus 
+
+ Home 
+
+ GlobalProtect 
+
+ GlobalProtect App for macOS 
+
+ Download and Install the GlobalProtect App for macOS 
+
+ Download PDF 
+
+ English 
+
+ 한국어 (Korean) 
+
+ GlobalProtect 
+
+ Download and Install the GlobalProtect App for macOS 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ GlobalProtect Docs 
+
+ Getting Started 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ User Guide 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ New Features 
+
+ Previous 
+
+ GlobalProtect App for macOS 
+
+ Next 
+
+ Use the GlobalProtect App for macOS 
+
+ Download and Install the GlobalProtect App for macOS 
+
+ Where Can I Use This? What Do I Need? 
+
+ macOS endpoints only 
+
+ GlobalProtect app version 6.0 or later 
+
+ Before connecting to the GlobalProtect network,
+you must download and install the GlobalProtect app on your macOS
+endpoint. To ensure that you get the right app for your organization’s
+GlobalProtect or Prisma Access deployment, you must download the
+app directly from a GlobalProtect portal within your organization.
+For this reason, there is no direct GP app download link available
+on the Palo Alto Networks site. 
+
+ Before you can download and
+install the GlobalProtect app, you must obtain the IP address or
+FQDN of the GlobalProtect portal from your administrator. In addition,
+your administrator should verify which username and password you
+can use to connect to the portal and gateways. This is typically
+the same username and password that you use to connect to your corporate
+network. 
+
+ When you install the GlobalProtect app for the first time on a macOS device running macOS
+ Catalina 10.15.4, macOS Big Sur 11, or later or upgrade to GlobalProtect app 5.1.4,
+ you must enable the system extensions that are used for
+ specific GlobalProtect features. If your administrator has configured split tunnel
+ on the GlobalProtect gateway based on the
+ destination domain name and application process name or enforced GlobalProtect
+ connections for network access on the GlobalProtect portal (see GlobalProtect App Customization ), the
+ System Extension Blocked notification message displays on the
+ GlobalProtect app during the installation. The message prompts users to enable and
+ allow the system extensions in macOS that are blocked from loading to use the split
+ tunnel and Enforce GlobalProtect for Network Access features. 
+
+ Follow these guidelines
+when you use system extensions: 
+
+ Only users with administrator
+privileges can enable the system extensions on the GlobalProtect
+app for macOS endpoints. 
+
+ Due to the security enhancement on macOS Catalina 10.15 and
+macOS Big Sur 11 to ensure that your data is protected while using
+third-party applications, GlobalProtect must request your permission
+before attempting access to files and folders stored in your Documents,
+Desktop, and Downloads folders and network drives. If your administrator
+has enabled HIP checks, new permission pop-ups appear on your macOS
+endpoint when GlobalProtect requests access to certain files and
+folder stored in your file system. 
+
+ The GlobalProtect app 5.1.4 running on macOS Catalina 10.15.4,
+macOS Big Sur 11, or later does not use kernel extensions and will
+use system extensions. 
+
+ The GlobalProtect app 5.1.4 running on macOS Catalina 10.15.4,
+macOS Big Sur 11, or later will not use the kernel extensions ( com.paloaltonetworks.kext.pangpd )
+and instead will use any of the available utun interfaces provided
+by macOS as the virtual adapter. 
+
+ If you are upgrading from an earlier release to the GlobalProtect
+app 5.1.4 running on macOS Catalina 10.15.4, macOS Big Sur 11, or
+later, kernel extensions are no longer needed. After the upgrade,
+the System Extension Blocked notification message displays
+on the GlobalProtect app, prompting users to enable and allow the
+system extensions in macOS that was blocked from loading. By default,
+the app will not install system extensions and the same default
+settings are applied. 
+
+ After you gather the
+required information, use the following steps to download and install
+the app: 
+
+ Log in to the GlobalProtect portal. 
+
+ Launch a web browser and go to the following
+URL: 
+
+ https://<portal IP address or FQDN> 
+
+ Example: http://gp.acme.com 
+
+ On the portal login page, enter your Name (username)
+and Password and then click LOG IN .
+In most instances, you can use the same username and password that
+you use to connect to your corporate network. 
+
+ Navigate to the app download page. 
+
+ In most instances, the app download pages appears immediately
+after you log in to the portal. Use this page to download the latest
+app software package. 
+
+ If your
+system administrator has enabled GlobalProtect Clientless VPN access,
+the applications page opens after you log in to the portal (instead
+of the app download page). Select GlobalProtect Agent to
+open the download page. 
+
+ Download the app. 
+
+ Click Download Mac 32/64 bit
+GlobalProtect agent . 
+
+ When prompted, Run the software. 
+
+ When prompted again, Run the
+GlobalProtect Installer. 
+
+ Complete the GlobalProtect app setup using the GlobalProtect
+Installer. 
+
+ From the GlobalProtect Installer, click Continue . 
+
+ On the Destination Select screen,
+select the installation folder for the GlobalProtect app, and then
+click Continue . 
+
+ On the Installation Type screen,
+select the GlobalProtect installation package
+check box. 
+
+ If your system administrator has configured the split tunnel
+on the gateway or enforced GlobalProtect connections for network
+access on the portal, select the GlobalProtect System
+extensions check box (disabled by default). 
+
+ Click Continue . 
+
+ Click Install to confirm that
+you want to install GlobalProtect. 
+
+ When prompted, enter your User Name and Password ,
+and then click Install Software to begin
+the installation. 
+
+ After installation is complete, Close the
+installer. 
+
+ If your administrator has configured the portal to
+install the Autonomous DEM (ADEM) endpoint agent during the GlobalProtect
+app installation for the first time, select OK in
+the following pop-up pop-up prompt so that it will not appear again: 
+
+ If you enabled the GlobalProtect System
+Extensions , select Open Security Preferences to
+enable the system extensions in macOS that was blocked from loading
+from the following System Extension Blocked notification: 
+
+ If your administrator has suppressed this
+ notification by using the supported mobile device
+ management system (MDM) such as Workspace ONE, you can automatically
+ load the system extensions without
+ receiving this notification. 
+
+ On the Security & Privacy dialog,
+click the padlock icon to make changes, and
+then select App Store and identified developers in
+the Allow apps downloaded from area. Click Allow . 
+
+ Previous 
+
+ GlobalProtect App for macOS 
+
+ Next 
+
+ Use the GlobalProtect App for macOS 
+
+ On This Page 
+
+ Activation and Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Panorama 
+
+ Service Provider 
+
+ VM-Series 
+
+ Plugins 
+
+ SASE 
+
+ Prisma Access 
+
+ Prisma SASE Multitenant Platform 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring & Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ AI Access Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ IPSec VPN 
+
+ Security Policy 
+
+ Quantum Security 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Remote Browser Isolation 
+
+ Prisma Access Agent 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ FedRAMP 
+
+ Prisma SASE for FedRAMP 
+
+ Autonomous DEM for FedRAMP 
+
+ Hardware Reference 
+
+ ION 1000 
+
+ ION 1200 
+
+ ION 1200-S 
+
+ ION 2000 
+
+ ION 3000 
+
+ ION 3200 
+
+ ION 5200 
+
+ ION 7000 
+
+ ION 9000 
+
+ ION 9200 
+
+ Hardware Quick Start Guides 
+
+ ION 1200 
+
+ ION 1200 4G 
+
+ ION 1200 5G 
+
+ ION 1200-S 
+
+ ION 1200-S 4G 
+
+ ION 1200-S 5G 
+
+ ION 3200 
+
+ ION 5200 
+
+ ION 9200 
+
+ Virtual ION Deployment 
+
+ Virtual ION on AWS 
+
+ Virtual ION on Azure 
+
+ Virtual ION on GCP 
+
+ Virtual ION on KVM for NFV 
+
+ Virtual ION on OCI 
+
+ Virtual ION on VMware 
+
+ 3rd Party Integrations 
+
+ AWS Cloud-WAN Integration (GRE Connect) 
+
+ AWS Cloud-WAN Integration (Tunnel-less Connect) 
+
+ Checkpoint Integration 
+
+ LiveAction Integration 
+
+ Netskope Integration 
+
+ Symantec Web Security Services Integration 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ User Guide 
+
+ GlobalProtect App User Guide 
+
+ English 
+
+ SASE 
+
+ GlobalProtect App 
+
+ GlobalProtect User Guide 
+
+ 6.0 
+
+ GlobalProtect 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

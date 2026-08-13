@@ -1,0 +1,377 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/11-2/device/device-high-availability/cluster-config
+fetched_at: 2026-08-13T16:47:14Z
+source: palo-alto-main
+---
+
+# Cluster Config Clear
+
+Cluster Config 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Cluster Config 
+
+ Updated on 
+
+ Thu Jun 25 17:41:47 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 17:41:47 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Device 
+
+ Device > High Availability 
+
+ Cluster Config 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Cluster Config 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ HA Active/Active Config 
+
+ Next 
+
+ Device > Log Forwarding Card 
+
+ Cluster Config 
+
+ Add members of an HA cluster. 
+
+ Device > High Availability > Cluster Config 
+
+ Add members to an HA cluster by selecting Device High Availability Cluster Config . 
+
+ Cluster Config 
+
+ Description 
+
+ Add 
+
+ Add a cluster member.
+You must add the local firewall and if you are using HA pairs, you
+must add both HA peers of the pair as cluster members. 
+
+ ( Supported
+firewalls ) Device Serial Number —Enter
+the unique serial number of the cluster member. 
+
+ ( Panorama ) Device —Select a device
+from the dropdown and enter a Device Name . 
+
+ HA4 IP Address —Enter the IP address of the
+HA4 link for the cluster member. 
+
+ HA4 Backup IP Address —Enter the IP address
+of the backup HA4 link for the cluster member. 
+
+ Session Synchronization —Select to enable
+session synchronization with this cluster member. 
+
+ Description —Enter helpful description. 
+
+ Delete 
+
+ Select one or more cluster members and Delete them
+from the cluster. 
+
+ Enable 
+
+ ( Supported firewalls ) You can determine
+whether or not a cluster member synchronizes sessions with other
+members. By default, all members are allowed to synchronize sessions.
+If you disable synchronization for one or more members, select Enable to re-enable
+synchronization for one or more members. 
+
+ Disable 
+
+ ( Supported firewalls ) Select one
+or more members and Disable synchronization
+with other members. 
+
+ Refresh 
+
+ ( Panorama ) Select Refresh to refresh
+the list of HA devices in the HA cluster. 
+
+ Previous 
+
+ HA Active/Active Config 
+
+ Next 
+
+ Device > Log Forwarding Card 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ 11.2 
+
+ Help 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

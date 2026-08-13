@@ -1,0 +1,330 @@
+---
+url: https://docs.paloaltonetworks.com/cloud-ngfw/azure/cloud-ngfw-for-azure/logging/view-the-logs
+fetched_at: 2026-08-13T15:34:17Z
+source: palo-alto-main
+---
+
+# View Traffic and Threat Logs Natively in Azure  Clear
+
+View Traffic and Threat Logs Natively in Azure 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ View Traffic and Threat Logs Natively in Azure 
+
+ Updated on 
+
+ Mon Jun 29 22:22:17 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Cloud NGFW for Azure Docs 
+
+ Getting Started 
+
+ Deployment 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Mon Jun 29 22:22:17 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Cloud NGFW for Azure Administration 
+
+ Monitor Cloud NGFW for Azure Resources 
+
+ View Traffic and Threat Logs Natively in Azure 
+
+ Download PDF 
+
+ Cloud NGFW for Azure 
+
+ View Traffic and Threat Logs Natively in Azure 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Cloud NGFW for Azure Docs 
+
+ Getting Started 
+
+ Deployment 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ View Cloud NGFW for Azure Metrics Natively in Azure 
+
+ Next 
+
+ Enable Log Settings 
+
+ View Traffic and Threat Logs Natively in Azure 
+
+ Learn how to configure logging on your Cloud NGFW for Azure resource. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Cloud NGFW for Azure 
+
+ Cloud NGFW subscription 
+
+ Palo Alto Networks Customer Support Portal account 
+
+ Azure Marketplace subscription 
+
+ A log is an automatically generated, time-stamped file that provides an audit trail for
+ system events on the firewall or network traffic events that the firewall monitors. Log
+ entries contain artifacts, which are properties, activities, or behaviors associated
+ with the logged event, such as the application type or the IP address of an attacker.
+ Each log type records information for a separate event type. For example, the firewall
+ generates a Threat log to record traffic that matches a spyware, vulnerability, or
+ malware signature or a DoS attack that matches the thresholds configured for a port scan
+ or host sweep activity on the firewall. 
+
+ The Cloud NGFW can send traffic, threat, and decryption logs to an Azure Log Analytics
+ Workspace that you will create in the Azure portal. The Log Analytics Workspace is
+ associated with a workspace ID, primary Key, and a secondary key, which is retrieved
+ through the logging API by the control plane. 
+
+ The Log Analytics workspace is currently not supported in the Belgium
+ Central region. Attempting to create or use a Log Analytics workspace in
+ this region will result in a deployment error (400 Bad Request). Use an
+ alternative supported region for log analysis or monitor logs natively through
+ other supported destinations until Microsoft provides compatibility for this
+ region. 
+
+ Log Types 
+
+ Cloud NGFW can capture and save three types of logs. 
+
+ Traffic —Traffic logs display an entry for the start and end of each
+ session. See Cloud NGFW for Azure Traffic
+ Log Fields for more information. 
+
+ Threat —Threat logs display entries when traffic matches one of the
+ Security Profiles attached to a security rule on the firewall. Each entry
+ includes the following information: date and time; type of threat (such as
+ malware or spyware); threat description or URL (Name column); alarm action
+ (such as allow or block); and severity level. 
+
+ See Cloud NGFW for Azure Threat Log
+ Fields for more information. 
+
+ Severity Description 
+
+ Critical 
+
+ Serious threats, such as those that affect default
+ installations of widely deployed software, result in
+ root compromise of servers, and the exploit code is
+ widely available to attackers. The attacker usually does
+ not need any special authentication credentials or
+ knowledge about the individual victims and the target
+ does not need to be manipulated into performing any
+ special functions. 
+
+ High 
+
+ Threats that have the ability to become critical but have
+ mitigating factors; for example, they may be difficult
+ to exploit, don’t result in elevated privileges, or
+ don’t have a large victim pool. 
+
+ Medium 
+
+ Minor threats in which impact is minimized, such as DoS
+ attacks that don’t compromise the target or exploits
+ that require an attacker to reside on the same LAN as
+ the victim, affect only nonstandard configurations or
+ obscure applications, or provide very limited
+ access. 
+
+ Low 
+
+ Warning-level threats that have very little impact on an
+ organization's infrastructure. They usually require
+ local or physical system access and may often result in
+ victim privacy or DoS issues and information
+ leakage. 
+
+ Informational 
+
+ Suspicious events that don’t pose an immediate threat,
+ but that are reported to call attention to deeper
+ problems that could possibly exist. URL Filtering log
+ entries are logged as Informational. Log entries with
+ any verdict and an action set to block are logged as
+ Informational. 
+
+ Decryption —decryption logs display entries for unsuccessful TLS
+ handshakes by default and can display entries for successful TLS handshakes
+ if you enable them in the decryption policy. If you enable entries for
+ successful handshakes, ensure that you have the system resources (log space)
+ for the logs. See Cloud NGFW for Azure Decryption Log
+ Fields for more information. 
+
+ Previous 
+
+ View Cloud NGFW for Azure Metrics Natively in Azure 
+
+ Next 
+
+ Enable Log Settings 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Public Cloud 
+
+ Administration 
+
+ Cloud NGFW for Azure 
+
+ Microsoft Azure 
+
+ Cloud 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

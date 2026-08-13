@@ -1,0 +1,664 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-upgrade/upgrade-pan-os/upgrade-the-firewall-pan-os/determine-the-upgrade-path
+fetched_at: 2026-08-13T17:07:32Z
+source: palo-alto-main
+---
+
+# Determine the Upgrade Path to PAN-OS 10.2 Clear
+
+Determine the Upgrade Path to PAN-OS 10.2 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ PAN-OS Upgrade Guide 
+
+ : 
+ Determine the Upgrade Path to PAN-OS 10.2 
+
+ Updated on 
+
+ Feb 10, 2025 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Version 
+
+ 10.2 
+
+ 11.1 & Later 
+
+ 11.0 (EoL) 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Software and Content Updates 
+
+ PAN-OS Software Updates 
+
+ Dynamic Content Updates 
+
+ Install Content Updates 
+
+ Applications and Threats Content Updates 
+
+ Deploy Applications and Threats Content Updates 
+
+ Tips for Content Updates 
+
+ Best Practices for Applications and Threats Content Updates 
+
+ Best Practices for Content Updates—Mission-Critical 
+
+ Best Practices for Content Updates—Security-First 
+
+ Content Delivery Network Infrastructure 
+
+ Upgrade Panorama 
+
+ Install Content Updates and Software Upgrades for Panorama 
+
+ Upgrade Panorama with an Internet Connection 
+
+ Upgrade Panorama Without an Internet Connection 
+
+ Install Content Updates Automatically for Panorama without an Internet Connection 
+
+ Upgrade Panorama in an HA Configuration 
+
+ Install a PAN-OS Software Patch 
+
+ Install 
+
+ Revert 
+
+ Migrate Panorama Logs to the New Log Format 
+
+ Upgrade Panorama for Increased Device Management Capacity 
+
+ Upgrade Panorama and Managed Devices in FIPS-CC Mode 
+
+ Downgrade from Panorama 10.2 
+
+ Troubleshoot Your Panorama Upgrade 
+
+ Deploy Upgrades to Firewalls, Log Collectors, and WildFire Appliances Using Panorama 
+
+ What Updates Can Panorama Push to Other Devices? 
+
+ Schedule a Content Update Using Panorama 
+
+ Panorama, Log Collector, Firewall, and WildFire Version Compatibility 
+
+ Upgrade Log Collectors When Panorama Is Internet-Connected 
+
+ Upgrade Log Collectors When Panorama Is Not Internet-Connected 
+
+ Upgrade a WildFire Cluster from Panorama with an Internet Connection 
+
+ Upgrade a WildFire Cluster from Panorama without an Internet Connection 
+
+ Upgrade Firewalls When Panorama Is Internet-Connected 
+
+ Upgrade Firewalls When Panorama Is Not Internet-Connected 
+
+ Upgrade a ZTP Firewall 
+
+ Install a PAN-OS Software Patch 
+
+ Install 
+
+ Revert 
+
+ Revert Content Updates from Panorama 
+
+ Upgrade PAN-OS 
+
+ PAN-OS Upgrade Checklist 
+
+ Upgrade/Downgrade Considerations 
+
+ Upgrade the Firewall to PAN-OS 10.2 
+
+ Determine the Upgrade Path to PAN-OS 10.2 
+
+ Upgrade Firewalls Using Panorama 
+
+ Upgrade a Standalone Firewall 
+
+ Upgrade an HA Firewall Pair 
+
+ Upgrade the Firewall to PAN-OS 10.2 from Panorama 
+
+ Upgrade Firewalls When Panorama Is Internet-Connected 
+
+ Upgrade Firewalls When Panorama Is Not Internet-Connected 
+
+ Upgrade a ZTP Firewall 
+
+ Install a PAN-OS Software Patch 
+
+ Install 
+
+ Revert 
+
+ Downgrade PAN-OS 
+
+ Downgrade a Firewall to a Previous Maintenance Release 
+
+ Downgrade a Firewall to a Previous Feature Release 
+
+ Downgrade a Windows Agent 
+
+ Troubleshoot Your PAN-OS Upgrade 
+
+ Upgrade the VM-Series Firewall 
+
+ Upgrade the VM-Series PAN-OS Software (Standalone) 
+
+ Upgrade the VM-Series PAN-OS Software (HA Pair) 
+
+ Upgrade the VM-Series PAN-OS Software Using Panorama 
+
+ Upgrade the PAN-OS Software Version (VM-Series for NSX) 
+
+ Upgrade the VM-Series for NSX During a Maintenance Window 
+
+ Upgrade the VM-Series for NSX Without Disrupting Traffic 
+
+ Upgrade the VM-Series Model 
+
+ Upgrade the VM-Series Model in an HA Pair 
+
+ Downgrade a VM-Series Firewall to a Previous Release 
+
+ Upgrade Panorama Plugins 
+
+ Panorama Plugins Upgrade/Downgrade Considerations 
+
+ Upgrade a Panorama Plugin 
+
+ Upgrade the Enterprise DLP Plugin 
+
+ Upgrade the Panorama Interconnect Plugin 
+
+ Install/Upgrade SD-WAN Plugin with Compatible PAN-OS Release 
+
+ Upgrade and Downgrade Paths for SD-WAN Plugin 
+
+ Install the SD-WAN Plugin 
+
+ Upgrade Panorama High Availability Pair (Active/Passive) Leveraging SD-WAN Plugin 
+
+ Upgrade Standalone Panorama Leveraging SD-WAN Plugin 
+
+ Changes to Note After Upgrade 
+
+ CLI Commands for Upgrade 
+
+ Use CLI Commands for Upgrade Tasks 
+
+ APIs for Upgrade 
+
+ Use the API for Upgrade Tasks 
+
+ Updated on 
+
+ Feb 10, 2025 
+
+ Focus 
+
+ Home 
+
+ PAN-OS 
+
+ PAN-OS Upgrade Guide 
+
+ Upgrade PAN-OS 
+
+ Upgrade the Firewall to PAN-OS 10.2 
+
+ Determine the Upgrade Path to PAN-OS 10.2 
+
+ Download PDF 
+
+ PAN-OS Upgrade Guide 
+
+ Determine the Upgrade Path to PAN-OS 10.2 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 10.2 
+
+ 11.1 & Later 
+
+ 11.0 (EoL) 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Software and Content Updates 
+
+ PAN-OS Software Updates 
+
+ Dynamic Content Updates 
+
+ Install Content Updates 
+
+ Applications and Threats Content Updates 
+
+ Deploy Applications and Threats Content Updates 
+
+ Tips for Content Updates 
+
+ Best Practices for Applications and Threats Content Updates 
+
+ Best Practices for Content Updates—Mission-Critical 
+
+ Best Practices for Content Updates—Security-First 
+
+ Content Delivery Network Infrastructure 
+
+ Upgrade Panorama 
+
+ Install Content Updates and Software Upgrades for Panorama 
+
+ Upgrade Panorama with an Internet Connection 
+
+ Upgrade Panorama Without an Internet Connection 
+
+ Install Content Updates Automatically for Panorama without an Internet Connection 
+
+ Upgrade Panorama in an HA Configuration 
+
+ Install a PAN-OS Software Patch 
+
+ Install 
+
+ Revert 
+
+ Migrate Panorama Logs to the New Log Format 
+
+ Upgrade Panorama for Increased Device Management Capacity 
+
+ Upgrade Panorama and Managed Devices in FIPS-CC Mode 
+
+ Downgrade from Panorama 10.2 
+
+ Troubleshoot Your Panorama Upgrade 
+
+ Deploy Upgrades to Firewalls, Log Collectors, and WildFire Appliances Using Panorama 
+
+ What Updates Can Panorama Push to Other Devices? 
+
+ Schedule a Content Update Using Panorama 
+
+ Panorama, Log Collector, Firewall, and WildFire Version Compatibility 
+
+ Upgrade Log Collectors When Panorama Is Internet-Connected 
+
+ Upgrade Log Collectors When Panorama Is Not Internet-Connected 
+
+ Upgrade a WildFire Cluster from Panorama with an Internet Connection 
+
+ Upgrade a WildFire Cluster from Panorama without an Internet Connection 
+
+ Upgrade Firewalls When Panorama Is Internet-Connected 
+
+ Upgrade Firewalls When Panorama Is Not Internet-Connected 
+
+ Upgrade a ZTP Firewall 
+
+ Install a PAN-OS Software Patch 
+
+ Install 
+
+ Revert 
+
+ Revert Content Updates from Panorama 
+
+ Upgrade PAN-OS 
+
+ PAN-OS Upgrade Checklist 
+
+ Upgrade/Downgrade Considerations 
+
+ Upgrade the Firewall to PAN-OS 10.2 
+
+ Determine the Upgrade Path to PAN-OS 10.2 
+
+ Upgrade Firewalls Using Panorama 
+
+ Upgrade a Standalone Firewall 
+
+ Upgrade an HA Firewall Pair 
+
+ Upgrade the Firewall to PAN-OS 10.2 from Panorama 
+
+ Upgrade Firewalls When Panorama Is Internet-Connected 
+
+ Upgrade Firewalls When Panorama Is Not Internet-Connected 
+
+ Upgrade a ZTP Firewall 
+
+ Install a PAN-OS Software Patch 
+
+ Install 
+
+ Revert 
+
+ Downgrade PAN-OS 
+
+ Downgrade a Firewall to a Previous Maintenance Release 
+
+ Downgrade a Firewall to a Previous Feature Release 
+
+ Downgrade a Windows Agent 
+
+ Troubleshoot Your PAN-OS Upgrade 
+
+ Upgrade the VM-Series Firewall 
+
+ Upgrade the VM-Series PAN-OS Software (Standalone) 
+
+ Upgrade the VM-Series PAN-OS Software (HA Pair) 
+
+ Upgrade the VM-Series PAN-OS Software Using Panorama 
+
+ Upgrade the PAN-OS Software Version (VM-Series for NSX) 
+
+ Upgrade the VM-Series for NSX During a Maintenance Window 
+
+ Upgrade the VM-Series for NSX Without Disrupting Traffic 
+
+ Upgrade the VM-Series Model 
+
+ Upgrade the VM-Series Model in an HA Pair 
+
+ Downgrade a VM-Series Firewall to a Previous Release 
+
+ Upgrade Panorama Plugins 
+
+ Panorama Plugins Upgrade/Downgrade Considerations 
+
+ Upgrade a Panorama Plugin 
+
+ Upgrade the Enterprise DLP Plugin 
+
+ Upgrade the Panorama Interconnect Plugin 
+
+ Install/Upgrade SD-WAN Plugin with Compatible PAN-OS Release 
+
+ Upgrade and Downgrade Paths for SD-WAN Plugin 
+
+ Install the SD-WAN Plugin 
+
+ Upgrade Panorama High Availability Pair (Active/Passive) Leveraging SD-WAN Plugin 
+
+ Upgrade Standalone Panorama Leveraging SD-WAN Plugin 
+
+ Changes to Note After Upgrade 
+
+ CLI Commands for Upgrade 
+
+ Use CLI Commands for Upgrade Tasks 
+
+ APIs for Upgrade 
+
+ Use the API for Upgrade Tasks 
+
+ Determine the Upgrade Path to PAN-OS 10.2 
+
+ Upgrade path planning for PAN-OS 10.2. 
+
+ The upgrade path includes installing the latest maintenance release in each release version
+ before you download the base image for the next feature release version. To minimize
+ downtime for your users, perform upgrades during non-business hours. 
+
+ For
+manual upgrades, Palo Alto Networks recommends installing and upgrading
+from the latest maintenance release for each PAN-OS release along your
+upgrade path. Do not install the PAN-OS base image for a feature
+release unless it is the target release you want to upgrade to. 
+
+ Determine
+the upgrade path as follows: 
+
+ Identify
+which version is currently installed. 
+
+ From Panorama, select Panorama Managed Devices and check the
+Software Version on the firewalls you plan to upgrade. 
+
+ From the firewall, select Device Software and check which version
+has a check mark in the Currently Installed column. 
+
+ ( PAN-OS 10.2.10 and later 10.2 releases ) View the preferred
+ releases. 
+
+ From Panorama, click Panorama Software , and disable (clear) the Base
+ Releases checkbox. 
+
+ From firewall, click Device Software , and disable (clear) the Base
+ Releases checkbox. 
+
+ Identify the upgrade path: 
+
+ Review the known issues and changes
+to default behavior in the Release Notes and Upgrade/Downgrade Considerations for each release
+through which you pass as part of your upgrade path. 
+
+ Installed PAN-OS Version Recommended Upgrade Path to PAN-OS 10.2 
+
+ 10.1.x 
+
+ If you are already
+running a PAN-OS 10.1 release, download and install the latest preferred PAN-OS 10.1 maintenance
+release and reboot. 
+
+ Proceed to Upgrade the Firewall to PAN-OS 10.2 . 
+
+ If
+you are planning to upgrade to PAN-OS 11.0, you can now use the Skip Software Version Upgrade feature
+to upgrade directly to PAN-OS 11.0 from
+PAN-OS 10.1 or later releases. 
+
+ 10.0.x 
+
+ Download and install
+the latest preferred PAN-OS 10.0
+maintenance release and reboot. 
+
+ Download PAN-OS 10.1.0 
+
+ Download and install the latest preferred PAN-OS 10.1
+maintenance release and reboot. 
+
+ Proceed to Upgrade the Firewall to PAN-OS 10.2 . 
+
+ 9.1.x 
+
+ Download and install
+the latest preferred PAN-OS 9.1 maintenance
+release and reboot. 
+
+ Download PAN-OS 10.0.0 . 
+
+ Download and install the latest preferred PAN-OS 10.0
+maintenance release and reboot. 
+
+ Download PAN-OS 10.1.0 
+
+ Download and install the latest preferred PAN-OS 10.1
+maintenance release and reboot. 
+
+ Proceed to Upgrade the Firewall to PAN-OS 10.2 . 
+
+ 9.0.x 
+
+ Download and install
+the latest preferred PAN-OS 9.0 maintenance
+release and reboot. 
+
+ Review the upgrade/downgrade considerations before
+upgrading any Log Collectors to the latest PAN-OS 9.0 maintenance release. 
+
+ Download PAN-OS 9.1.0 . 
+
+ Download and install the latest preferred PAN-OS 9.1 maintenance
+release and reboot. 
+
+ Download PAN-OS 10.0.0 . 
+
+ Download and install the latest preferred PAN-OS 10.0
+maintenance release and reboot. 
+
+ Download PAN-OS 10.1.0 
+
+ Download and install the latest preferred PAN-OS 10.1
+maintenance release and reboot. 
+
+ Proceed to Upgrade the Firewall to PAN-OS 10.2 . 
+
+ 8.1.x 
+
+ Download and install
+the latest preferred PAN-OS 8.1 maintenance
+release and reboot. 
+
+ Download PAN-OS 9.0.0 
+
+ Download and install the latest preferred PAN-OS 9.0 maintenance
+release and reboot. 
+
+ Review the upgrade/downgrade considerations before
+upgrading any Log Collectors to the latest PAN-OS 9.0 maintenance release. 
+
+ Download PAN-OS 9.1.0 . 
+
+ Download and install the latest preferred PAN-OS 9.1 maintenance
+release and reboot. 
+
+ Download PAN-OS 10.0.0 . 
+
+ Download and install the latest preferred PAN-OS 10.0
+maintenance release and reboot. 
+
+ Download PAN-OS 10.1.0 
+
+ Download and install the latest preferred PAN-OS 10.1
+maintenance release and reboot. 
+
+ Proceed to Upgrade the Firewall to PAN-OS 10.2 . 
+
+ 8.0.x 
+ Download and install PAN-OS
+8.0.20 and reboot. 
+
+ Download PAN-OS 8.1.0 . 
+
+ Download and install the latest preferred PAN-OS 8.1 maintenance
+release and reboot. 
+
+ Download PAN-OS 9.0.0 
+
+ Download and install the latest preferred PAN-OS 9.0 maintenance
+release and reboot. 
+
+ Review the upgrade/downgrade considerations before
+upgrading any Log Collectors to the latest PAN-OS 9.0 maintenance release. 
+
+ Download PAN-OS 9.1.0 . 
+
+ Download and install the latest preferred PAN-OS 9.1 maintenance
+release and reboot. 
+
+ Download PAN-OS 10.0.0 . 
+
+ Download and install the latest preferred PAN-OS 10.0
+maintenance release and reboot. 
+
+ Download PAN-OS 10.1.0 
+
+ Download and install the latest preferred PAN-OS 10.1
+maintenance release and reboot. 
+
+ Proceed to Upgrade the Firewall to PAN-OS 10.2 . 
+
+ 7.1.x 
+ Download and install the PAN-OS 7.1.26
+maintenance release and reboot. 
+
+ Download PAN-OS 8.0.0 . 
+
+ Download and install PAN-OS 8.0.20. 
+
+ Download PAN-OS 8.1.0 . 
+
+ Download and install the latest preferred PAN-OS 8.1 maintenance
+release and reboot. 
+
+ Download PAN-OS 9.0.0 
+
+ Download and install the latest preferred PAN-OS 9.0 maintenance
+release and reboot. 
+
+ Review the upgrade/downgrade considerations before
+upgrading any Log Collectors to the latest PAN-OS 9.0 maintenance release. 
+
+ Download PAN-OS 9.1.0 . 
+
+ Download and install the latest preferred PAN-OS 9.1 maintenance
+release and reboot. 
+
+ Download PAN-OS 10.0.0 . 
+
+ Download and install the latest preferred PAN-OS 10.0
+maintenance release and reboot. 
+
+ Download PAN-OS 10.1.0 
+
+ Download and install the latest preferred PAN-OS 10.1
+maintenance release and reboot. 
+
+ Proceed to Upgrade the Firewall to PAN-OS 10.2 . 
+
+ Previous 
+
+ Upgrade the Firewall to PAN-OS 10.2 
+
+ Next 
+
+ Upgrade Firewalls Using Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

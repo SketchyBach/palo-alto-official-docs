@@ -1,0 +1,470 @@
+---
+url: https://docs.paloaltonetworks.com/globalprotect/user-guide/6-0/globalprotect-app-for-windows/report-an-issue-from-the-globalprotect-app-for-windows
+fetched_at: 2026-08-13T16:33:21Z
+source: palo-alto-main
+---
+
+# Report an Issue From the GlobalProtect App for Windows Clear
+
+Report an Issue From the GlobalProtect App for Windows 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Report an Issue From the GlobalProtect App for Windows 
+
+ Updated on 
+
+ Nov 7, 2025 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 한국어 (Korean) 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ GlobalProtect Docs 
+
+ Getting Started 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ User Guide 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ New Features 
+
+ Updated on 
+
+ Nov 7, 2025 
+
+ Focus 
+
+ Home 
+
+ GlobalProtect 
+
+ GlobalProtect App for Windows 
+
+ Report an Issue From the GlobalProtect App for Windows 
+
+ Download PDF 
+
+ English 
+
+ 한국어 (Korean) 
+
+ GlobalProtect 
+
+ Report an Issue From the GlobalProtect App for Windows 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ GlobalProtect Docs 
+
+ Getting Started 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ User Guide 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ New Features 
+
+ Previous 
+
+ Use the GlobalProtect App for Windows 
+
+ Next 
+
+ Disconnect the GlobalProtect App for Windows 
+
+ Report an Issue From the GlobalProtect App for Windows 
+
+ Where Can I Use This? What Do I Need? 
+
+ Windows endpoints only 
+
+ GlobalProtect app version 6.0 or later 
+
+ When you experience unusual behavior such as poor network performance or a connection is not
+ established with the portal and gateway, you can report an issue directly to Strata
+ Logging Service to which your administrator can access. You no longer need to
+ manually collect and send the GlobalProtect app logs through email or to store them
+ on a cloud drive. 
+
+ To display
+the Report an Issue option on the GlobalProtect
+app, your administrator must enable the GlobalProtect app
+log collection for troubleshooting on the GlobalProtect portal. 
+
+ Connect to the GlobalProtect portal or gateway. 
+
+ Launch the GlobalProtect app by clicking
+the system tray icon. The status panel opens. 
+
+ ( Optional ) If you are logging in to the GlobalProtect
+app for the first time, enter the FQDN or IP address of the GlobalProtect
+portal, and then click Connect . 
+
+ ( Optional ) If multiple portals are saved
+on your app, select a portal from the Portal drop-down.
+By default, the most recently connected portal is pre-selected from
+the Portal drop-down. 
+
+ ( Optional ) By default, you are automatically
+connected to the Best Available gateway,
+based on the configuration that the administrator defines and the
+response times of the available gateways. To connect to a different
+gateway, click the gateway drop-down. 
+
+ Open the GlobalProtect app. 
+
+ Click the GlobalProtect system tray icon to launch the
+app interface. 
+
+ Report an issue from the GlobalProtect app from your
+endpoint. 
+
+ After you launch the app, click the hamburger menu on the
+status panel to report an issue to your administrator. 
+
+ Select Report an Issue . 
+
+ Enable the GlobalProtect app to run diagnostic tests and to include
+ diagnostic logs. Both diagnostic and troubleshooting logs are collected
+ and sent to Strata Logging Service as a compact troubleshooting
+ report. 
+
+ After the diagnostic tests are successfully completed, the
+ GlobalProtect debug log files are uploaded to Strata Logging Service
+ from your endpoint. 
+
+ If you do not enable the app to run diagnostic tests and to
+ include diagnostic logs, only troubleshooting logs are collected
+ and sent to Strata Logging Service as a compact troubleshooting
+ report. The GlobalProtect app checks for the report files
+ (pan_gp.trb.log or pan_gp_trbl.log) that are automatically
+ generated in .json format. A
+ notification message appears if no issues were found in the
+ troubleshooting logs. Click Retry to
+ check if the pan_gp.trb*.log files exist. 
+
+ Select the Run Diagnostic Tests and Include
+Diagnostic Logs check box. 
+
+ Click Continue to allow the app to create a
+ troubleshooting log and to send the report to your administrator’s
+ Strata Logging Service instance. 
+
+ The results of the end-to-end diagnostic tests are stored in the
+ pan_gp_diag.log file in .json format
+ and sent to your administrator’s Strata Logging Service instance
+ along with the pan_gp.trb*.log files. The GlobalProtect app can run
+ diagnostic tests with a tunnel or without a tunnel. For example, you
+ might want to enter your GlobalProtect login credentials prior to
+ the app connecting and running diagnostic tests through the
+ tunnel. 
+
+ A message pops-up, confirming that the app is running diagnostic
+ tests only if you selected the Run Diagnostic Tests and
+ Include Diagnostic Logs check box. 
+
+ Click Close to confirm that the app successfully
+ sent the report to Strata Logging Service. This confirmation message
+ displays the date and time when the report was processed and sent. 
+
+ Previous 
+
+ Use the GlobalProtect App for Windows 
+
+ Next 
+
+ Disconnect the GlobalProtect App for Windows 
+
+ On This Page 
+
+ Activation and Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Panorama 
+
+ Service Provider 
+
+ VM-Series 
+
+ Plugins 
+
+ SASE 
+
+ Prisma Access 
+
+ Prisma SASE Multitenant Platform 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring & Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ AI Access Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ IPSec VPN 
+
+ Security Policy 
+
+ Quantum Security 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Remote Browser Isolation 
+
+ Prisma Access Agent 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ FedRAMP 
+
+ Prisma SASE for FedRAMP 
+
+ Autonomous DEM for FedRAMP 
+
+ Hardware Reference 
+
+ ION 1000 
+
+ ION 1200 
+
+ ION 1200-S 
+
+ ION 2000 
+
+ ION 3000 
+
+ ION 3200 
+
+ ION 5200 
+
+ ION 7000 
+
+ ION 9000 
+
+ ION 9200 
+
+ Hardware Quick Start Guides 
+
+ ION 1200 
+
+ ION 1200 4G 
+
+ ION 1200 5G 
+
+ ION 1200-S 
+
+ ION 1200-S 4G 
+
+ ION 1200-S 5G 
+
+ ION 3200 
+
+ ION 5200 
+
+ ION 9200 
+
+ Virtual ION Deployment 
+
+ Virtual ION on AWS 
+
+ Virtual ION on Azure 
+
+ Virtual ION on GCP 
+
+ Virtual ION on KVM for NFV 
+
+ Virtual ION on OCI 
+
+ Virtual ION on VMware 
+
+ 3rd Party Integrations 
+
+ AWS Cloud-WAN Integration (GRE Connect) 
+
+ AWS Cloud-WAN Integration (Tunnel-less Connect) 
+
+ Checkpoint Integration 
+
+ LiveAction Integration 
+
+ Netskope Integration 
+
+ Symantec Web Security Services Integration 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ User Guide 
+
+ GlobalProtect App User Guide 
+
+ English 
+
+ SASE 
+
+ GlobalProtect App 
+
+ GlobalProtect User Guide 
+
+ 6.0 
+
+ GlobalProtect 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,367 @@
+---
+url: https://docs.paloaltonetworks.com/network-security/decryption/administration/troubleshooting-decryption/troubleshoot-unsupported-cipher-suites
+fetched_at: 2026-08-13T16:38:13Z
+source: palo-alto-main
+---
+
+# Troubleshoot Unsupported Cipher Suites Clear
+
+Troubleshoot Unsupported Cipher Suites 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Troubleshoot Unsupported Cipher Suites 
+
+ Updated on 
+
+ Fri Mar 13 14:52:24 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Updated on 
+
+ Fri Mar 13 14:52:24 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Network Security 
+
+ Troubleshoot Decryption 
+
+ Troubleshoot Unsupported Cipher Suites 
+
+ Download PDF 
+
+ Network Security 
+
+ Troubleshoot Unsupported Cipher Suites 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Previous 
+
+ Troubleshoot Version Errors 
+
+ Next 
+
+ Identify Untrusted CA Certificates 
+
+ Troubleshoot Unsupported Cipher Suites 
+
+ Identify and fix version errors or unsupported cipher suites so you can decide
+ whether to allow the traffic by excluding it from decryption. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama) 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ For Prisma Access (Managed by Panorama) : 
+
+ A Prisma Access
+ license 
+
+ Cloud Services
+ plugin for Panorama 
+
+ If you're using a NGFW (Managed by PAN-OS or Panorama) ,
+ no other requirements. 
+
+ Cipher errors are unsupported cipher errors where at least one of the following is
+ true: 
+
+ The client tries to negotiate a cipher that the NGFW supports but that the
+ Decryption profile applied to the traffic doesn’t support. 
+
+ The client tries to negotiate a cipher that the NGFW does not support. 
+
+ ( Rare ) SSL Inbound Inspection is enabled and the server’s
+ capabilities don’t match the Decryption profile settings. 
+
+ The error message includes the supported client cipher bitmask value and the
+ supported Decryption profile cipher bitmask value. You can use bitmask
+ values to identify the cipher the client tried to use and the cipher values
+ that the Decryption profile supports. 
+
+ Key Steps for Converting Bitmask Values and Turning Them Into Something
+ Useful 
+
+ Filter the Decryption logs for cipher errors using a query. 
+
+ Plug the bitmask value into the appropriate CLI command to identify the
+ cipher that caused the error. 
+
+ Use the cipher information to update the Decryption policy rule or Decryption
+ profile if you want to allow access to the site in question. 
+
+ Identify cipher errors in the Decryption logs. 
+
+ Select Monitor Logs Decryption . 
+
+ Filter the Decryption logs using the query (err_index eq
+ Cipher) . The highlighted values are bitmask values. For
+ example, let’s examine a cipher error with the
+ Error message Unsupported
+ cipher. Supported client cipher bitmask: 0x80000000. Support decrypt
+ profile cipher bitmask 0x60f79980. 
+
+ Log in to the CLI to look up the
+ bitmask values. 
+
+ admin@vm1> debug dataplane show ssl-decrypt bitmask-cipher 0x80000000 
+
+ CHACHA_PLY1305_SHA256 
+
+ This output shows that client tried to negotiate a cipher that the NGFW
+ supports (if the bitmask is all zeros
+ ( 0x0000000 , then the client tried to
+ negotiate a cipher that the NGFW doesn’t support): 
+
+ admin@vm1> debug dataplane show ssl-decrypt bitmask-cipher 0x80000000 
+ TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 
+ TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 
+ TLS_RSA_WITH_AES_256_CBC_SHA256 
+ TLS_RSA_WITH_AES_128_CBC_SHA256 
+ TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 
+ TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 
+ TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA 
+ TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA 
+ TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA 
+ TLS_RSA_WITH_AES_256_CBC_SHA 
+ TLS_RSA_WITH_AES_128_CBC_SHA 
+ TLS_DHE_RSA_WITH_AES_256_CBC_SHA 
+ TLS13_WITH_AES_256_GCM_SHA384 
+ TLS13_WITH_AES_128_GCM_SHA256 
+
+ This output shows that the Decryption profile that controls the traffic
+ supports many ciphers, but does not support the cipher the client is trying
+ to use. 
+
+ To fix this issue so that the NGFW allows and decrypts the traffic, you need
+ to add support for the missing cipher to the Decryption profile. 
+
+ Identify the decryption policy rule and profile that controls the session
+ traffic. 
+
+ Check the Policy Name for a decryption log entry
+ (or click the magnifying glass 
+
+ to see the information in the General section of the Detailed Log
+ View). 
+
+ Select the policy rule
+ ( Objects Policies Decryption ),
+ and open the rule. Then, on the Options tab, go
+ to the Options and find the value under
+ Decryption Profile . 
+
+ Select Objects Decryption Decryption Profile , and select the appropriate Decryption profile. 
+
+ Update the Key Exchange Algorithms ,
+ Encryption Algorithms , and
+ Authentication Algorithms fields as
+ needed. 
+
+ Click OK to save the profile. 
+
+ Select the CHACHA20-POLY1305 encryption
+ algorithm option (the Max Version setting of
+ Max means that the profile already
+ supports TLSv1.3 and the Authentication
+ Algorithm setting already includes SHA256, so only
+ the Encryption Algorithm support was
+ missing). 
+
+ If the NGFW does not support a cipher suite and you need to allow
+ the traffic for business purposes, create a decryption policy
+ rule and profile that applies only to that traffic. In the
+ Decryption profile, disable the Block sessions with
+ unsupported cipher suites option. 
+
+ Commit the configuration. 
+ After you commit the configuration, the Decryption profile supports the
+ missing cipher and the decryption sessions for the traffic succeed. 
+
+ Previous 
+
+ Troubleshoot Version Errors 
+
+ Next 
+
+ Identify Untrusted CA Certificates 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Decryption 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Decryption 
+
+ English 
+
+ Strata Cloud Manager 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,376 @@
+---
+url: https://docs.paloaltonetworks.com/sd-wan/help/2-1/panorama-sd-wan-plugin/sd-wan-reports
+fetched_at: 2026-08-13T17:35:34Z
+source: palo-alto-main
+---
+
+# SD-WAN Reports Clear
+
+SD-WAN Reports 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ SD-WAN Reports 
+
+ Updated on 
+
+ Fri Jun 13 01:09:15 PDT 2025 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Fri Jun 13 01:09:15 PDT 2025 
+
+ Focus 
+
+ Home 
+
+ SD-WAN 
+
+ Panorama SD-WAN Plugin Help 
+
+ Panorama SD-WAN Plugin 
+
+ SD-WAN Reports 
+
+ Download PDF 
+
+ SD-WAN 
+
+ SD-WAN Reports 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Application and Link Characteristics 
+
+ Next 
+
+ SD-WAN App Performance Run Now Report 
+
+ SD-WAN Reports 
+
+ Generate reports of SD-WAN path health metrics over a
+configurable period of time. 
+
+ Panorama SD-WAN Reports 
+
+ Generate a report for application or link performance
+for the top applications or links that experienced the highest frequency
+of health degradation in the specified period of time for auditing
+purposes. After you configure a report, Run Now to
+view the report. 
+
+ After you successfully configure your SD-WAN report, view the
+generated report to better understand the app or link traffic health
+data. 
+
+ SD-WAN App Performance Run Now Report 
+
+ SD-WAN Link Performance Run Now Report 
+
+ Field 
+
+ Description 
+
+ Name 
+
+ Enter a Name that
+identifies the purpose of the report. 
+
+ Report Type 
+
+ Select the Type of
+report to run: 
+
+ App Performance —Generate
+a report detailing the health metrics for all application traffic
+in the SD-WAN. 
+
+ Link Performance —Generate a report
+detailing the health metrics for traffic across all links in the
+SD-WAN. 
+
+ Cluster 
+
+ Select the Cluster for
+which to generate a report (default is all ). 
+
+ Site 
+
+ Select the Site for
+which to generate a report (default is all ). 
+
+ If
+you use the default ( all ) for the cluster,
+then you must generate a report for all sites attributed to that
+cluster. If you select a specific cluster, then you can select a
+specific site for which to generate a report. 
+
+ Application ( App Performance Report
+Type only ) 
+
+ Select an Application for
+which to generate a report (default is all ). 
+
+ If
+you use the default ( all ) for the site, then
+you must generate a report for all applications associated to the
+site. If you select a specific site, then you can select a specific
+application for which to generate a report. 
+
+ Link Tag ( Link Performance Report Type only ) 
+
+ Select a Link Tag for
+which to generate a report (default is all ). 
+
+ If
+you use the default ( all ) for the site, then
+you must generate a report for all link tags created under that
+site. If you select a specific site, then you can select a specific
+link tag for which to generate a report. 
+
+ Link Type ( Link Performance Report Type only ) 
+
+ Select a Link Type for
+which to generate a report (default is all ). 
+
+ If
+you use the default ( all ) for the link tag,
+then you must generate a report for all link types created under
+that link tag. If you select a specific link tag, then you can select
+a specific link type for which to generate a report. 
+
+ Top N 
+
+ Specify the number of applications or links
+to include in the report. You can specify the top 5 , 10 , 25 , 50 , 100 , 250 , 500 ,
+or 1000 performing applications or links
+(default is 5 ). 
+
+ Time Period 
+
+ Set the Time Period for
+which to run the report. Default is None ,
+which generates a report using all of the app and link performance
+data. 
+
+ Previous 
+
+ Application and Link Characteristics 
+
+ Next 
+
+ SD-WAN App Performance Run Now Report 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ IoT Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Plugins 
+
+ 2.1 
+
+ Help 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

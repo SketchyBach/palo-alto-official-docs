@@ -1,0 +1,1399 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/firewall-administration/reference-web-interface-administrator-access/web-interface-access-privileges/provide-granular-access-to-the-device-tab
+fetched_at: 2026-08-13T17:04:34Z
+source: palo-alto-main
+---
+
+# Provide Granular Access to the Device Tab Clear
+
+Provide Granular Access to the Device Tab 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Provide Granular Access to the Device Tab 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Firewall Administration 
+
+ Reference: Web Interface Administrator Access 
+
+ Web Interface Access Privileges 
+
+ Provide Granular Access to the Device Tab 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Provide Granular Access to the Device Tab 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Provide Granular Access to the Network Tab 
+
+ Next 
+
+ Define User Privacy Settings in the Admin Role Profile 
+
+ Provide Granular Access to the Device Tab 
+
+ Configure granular administrator access privileges for Device tab functions in PAN-OS
+ firewall web interface to control user permissions. 
+
+ To define granular access privileges for the Device tab,
+when creating or editing an admin role profile ( Device Admin Roles ),
+scroll down to the Device node on the WebUI tab. 
+
+ Access Level 
+
+ Description 
+
+ Enable 
+
+ Read Only 
+
+ Disable 
+
+ Setup 
+
+ Controls access to the Setup node.
+If you disable this privilege, the administrator will not see the Setup node
+or have access to firewall-wide setup configuration information,
+such as Management, Operations, Service, Content-ID, WildFire or
+Session setup information. 
+
+ If the privilege state is set to read-only,
+you can view the current configuration but cannot make any changes. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Management 
+
+ Controls access to the Management node.
+If you disable this privilege, the administrator will not be able
+to configure settings such as the hostname, domain, timezone, authentication,
+logging and reporting, Panorama connections, banner, message, and password complexity settings, and more. 
+
+ If
+the privilege state is set to read-only, you can view the current configuration
+but cannot make any changes. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Operations 
+
+ Controls access to the Operations and Telemetry
+and Threat Intelligence nodes. If you disable this privilege,
+the administrator cannot: 
+
+ Load firewall configurations. 
+
+ Save or revert the firewall configuration. 
+
+ This
+privilege applies only to the Device Operations options. The Save and Commit privileges control
+whether the administrator can save or revert configurations through
+the Config Save and Config Revert options. 
+
+ Create custom logos. 
+
+ Configure SNMP monitoring of firewall settings. 
+
+ Configure the Statistics Service feature. 
+
+ Configure Telemetry and Threat Intelligence settings. 
+
+ Only
+administrators with the predefined Superuser role can export or import
+firewall configurations and shut down the firewall. 
+
+ Only administrators
+with the predefined Superuser or Device Administrator role can reboot
+the firewall or restart the dataplane. 
+
+ Administrators with
+a role that allows access only to specific virtual systems cannot
+load, save, or revert firewall configurations through the Device Operations options. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Services 
+
+ Controls access to the Services node.
+If you disable this privilege, the administrator will not be able
+to configure services for DNS servers, an update server, proxy server,
+or NTP servers, or set up service routes. 
+
+ If the privilege
+state is set to read-only, you can view the current configuration
+but cannot make any changes. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Content-ID 
+
+ Controls access to the Content-ID node. If
+you disable this privilege, the administrator will not be able to
+configure URL filtering or Content-ID. 
+
+ If the privilege state
+is set to read-only, you can view the current configuration but
+cannot make any changes. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ WildFire 
+
+ Controls access to the WildFire node.
+If you disable this privilege, the administrator will not be able
+to configure WildFire settings. 
+
+ If the privilege state is
+set to read-only, you can view the current configuration but cannot
+make any changes. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Session 
+
+ Controls access to the Session node.
+If you disable this privilege, the administrator will not be able
+to configure session settings or timeouts for TCP, UDP or ICMP, or
+configure decryption or VPN session settings. 
+
+ If the privilege
+state is set to read-only, you can view the current configuration
+but cannot make any changes. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ HSM 
+
+ Controls access to the HSM node.
+If you disable this privilege, the administrator will not be able
+to configure a Hardware Security Module. 
+
+ If the privilege
+state is set to read-only, you can view the current configuration
+but cannot make any changes. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ High Availability 
+
+ Controls access to the High Availability node.
+If you disable this privilege, the administrator will not see the High
+Availability node or have access to firewall-wide high availability
+configuration information such as General setup information or Link
+and Path Monitoring. 
+
+ If you set this privilege to read-only, the
+administrator can view High Availability configuration information
+for the firewall but is not allowed to perform any configuration
+procedures. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Config Audit 
+
+ Controls access to the Config
+Audit node. If you disable this privilege, the administrator
+will not see the Config Audit node or have
+access to any firewall-wide configuration information. 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Administrators 
+
+ Controls access to the Administrators node.
+This function can only be allowed for read-only access. 
+
+ If
+you disable this privilege, the administrator will not see the Administrators node
+or have access to information about their own administrator account. 
+
+ If
+you set this privilege to read-only, the administrator can view
+the configuration information for their own administrator account.
+They will not see any information about other administrator accounts
+configured on the firewall. 
+
+ No 
+
+ Yes 
+
+ Yes 
+
+ Admin Roles 
+
+ Controls access to the Admin
+Roles node. This function can only be allowed for read-only
+access. 
+
+ If you disable this privilege, the administrator will
+not see the Admin Roles node or have access
+to any firewall-wide information concerning Admin Role profiles configuration. 
+
+ If
+you set this privilege to read-only, you can view the configuration
+information for all administrator roles configured on the firewall. 
+
+ No 
+
+ Yes 
+
+ Yes 
+
+ Authentication Profile 
+
+ Controls access to the Authentication Profile node.
+If you disable this privilege, the administrator will not see the Authentication Profile node
+or be able to create or edit authentication profiles that specify
+RADIUS, TACACS+, LDAP, Kerberos, SAML, multi-factor authentication
+(MFA), or local database authentication settings. PAN-OS uses authentication
+profiles to authenticate firewall administrators and Authentication
+Portal or GlobalProtect end users. 
+
+ If you set this privilege
+to read-only, the administrator can view the Authentication Profile information
+but cannot create or edit authentication profiles. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Authentication Sequence 
+
+ Controls access to the Authentication Sequence node.
+If you disable this privilege, the administrator will not see the Authentication Sequence node
+or be able to create or edit an authentication sequence. 
+
+ If
+you set this privilege to read-only, the administrator can view
+the Authentication Profile information but
+cannot create or edit an authentication sequence. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Virtual Systems 
+
+ Controls access to the Virtual
+Systems node. If you disable this privilege, the administrator
+will not see or be able to configure virtual systems. 
+
+ If the
+privilege state is set to read-only, you can view the currently configured
+virtual systems but cannot add or edit a configuration. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Shared Gateways 
+
+ Controls access to the Shared Gateways node.
+Shared gateways allow virtual systems to share a common interface
+for external communications. 
+
+ If you disable this privilege,
+the administrator will not see or be able to configure shared gateways. 
+
+ If
+the privilege state is set to read-only, you can view the currently configured
+shared gateways but cannot add or edit a configuration. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ User Identification 
+
+ Controls access to the User Identification node.
+If you disable this privilege, the administrator will not see the User Identification node
+or have access to firewall-wide User Identification configuration
+information, such as User Mapping, Connection Security, User-ID Agents,
+Terminal Server Agents, Group Mappings Settings, or Authentication
+Portal Settings. 
+
+ If you set this privilege to read-only, the
+administrator can view configuration information for the firewall
+but is not allowed to perform any configuration procedures. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ VM Information Source 
+
+ Controls access to the VM Information Source node
+that allows you to configure the firewall/Windows User-ID agent
+to collect VM inventory automatically. If you disable this privilege,
+the administrator will not see the VM Information Source node. 
+
+ If
+you set this privilege to read-only, the administrator can view
+the VM information sources configured but cannot add, edit, or delete
+any sources. 
+
+ This privilege is not available to Device
+Group and Template administrators. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Certificate Management 
+
+ Sets the default state to enable or disable
+for all of the Certificate settings described below. 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Certificates 
+
+ Controls access to the Certificates node.
+If you disable this privilege, the administrator will not see the Certificates node or
+be able to configure or access information regarding Device Certificates
+or Default Trusted Certificate Authorities. 
+
+ If you set this
+privilege to read-only, the administrator can view Certificate configuration
+information for the firewall but is not allowed to perform any configuration
+procedures. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Certificate Profile 
+
+ Controls access to the Certificate Profile node.
+If you disable this privilege, the administrator will not see the Certificate Profile node
+or be able to create certificate profiles. 
+
+ If you set this
+privilege to read-only, the administrator can view Certificate Profiles
+that are currently configured for the firewall but is not allowed
+to create or edit a certificate profile. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ OCSP Responder 
+
+ Controls access to the OCSP Responder node.
+If you disable this privilege, the administrator will not see the OCSP
+Responder node or be able to define a server that will be
+used to verify the revocation status of certificates issues by the
+firewall. 
+
+ If you set this privilege to read-only, the administrator
+can view the OCSP Responder configuration
+for the firewall but is not allowed to create or edit an OCSP responder
+configuration. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ SSL/TLS Service Profile 
+
+ Controls access to the SSL/TLS
+Service Profile node. 
+
+ If you disable this privilege,
+the administrator will not see the node or configure a profile that
+specifies a certificate and a protocol version or range of versions
+for firewall services that use SSL/TLS. 
+
+ If you set this privilege
+to read-only, the administrator can view existing SSL/TLS Service
+profiles but cannot create or edit them. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ SCEP 
+
+ Controls access to the SCEP node.
+If you disable this privilege, the administrator will not see the
+node or be able to define a profile that specifies simple certificate enrollment
+protocol (SCEP) settings for issuing unique device certificates. 
+
+ If
+you set this privilege to read-only, the administrator can view
+existing SCEP profiles but cannot create or edit them. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ SSL Decryption Exclusion 
+
+ Controls access to the SSL Decryption Exclusion node.
+If you disable this privilege, the administrator will not see the
+node or be able to add custom exclusions. 
+
+ If you set this
+privilege to read-only, the administrator can view existing SSL decryption
+exceptions but cannot create or edit them. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ SSH Service Profile 
+
+ Controls access to the SSH Service Profile node.
+If you disable this privilege, the administrator will be unable
+to see the node or configure a profile to specify parameters for
+SSH connections to your Palo Alto Networks management and high availability
+(HA) appliances. 
+
+ If you set this privilege to read-only, the
+administrator can view existing SSH service profiles but cannot
+edit or create them. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Response Pages 
+
+ Controls access to the Response
+Pages node. If you disable this privilege, the administrator
+will not see the Response Page node or be
+able to define a custom HTML message that is downloaded and displayed instead
+of a requested web page or file. 
+
+ If you set this privilege
+to read-only, the administrator can view the Response
+Page configuration for the firewall but is not allowed
+to create or edit a response page configuration. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Log Settings 
+
+ Sets the default state to enable or disable
+for all of the Log settings described below. 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ System 
+
+ Controls access to the Log Settings System node. If you disable
+this privilege, the administrator cannot see the Log Settings System node or
+specify which System logs the firewall forwards to Panorama or external
+services (such as a syslog server). 
+
+ If you set this privilege
+to read-only, the administrator can view the Log Settings System settings for the firewall
+but cannot add, edit, or delete the settings. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Configuration 
+
+ Controls access to the Log Settings Configuration node. If you
+disable this privilege, the administrator cannot see the Log Settings Configuration node
+or specify which Configuration logs the firewall forwards to Panorama
+or external services (such as a syslog server). 
+
+ If you set
+this privilege to read-only, the administrator can view the Log Settings Configuration settings
+for the firewall but cannot add, edit, or delete the settings. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ User-ID 
+
+ Controls access to the Log Settings User-ID node. If you disable
+this privilege, the administrator cannot see the Log Settings User-ID node or
+specify which User-ID logs the firewall forwards to Panorama or
+external services (such as a syslog server). 
+
+ If you set this
+privilege to read-only, the administrator can view the Log Settings User-ID settings
+for the firewall but cannot add, edit, or delete the settings. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ HIP Match 
+
+ Controls access to the Log Settings HIP Match node. If you disable
+this privilege, the administrator cannot see the Log Settings HIP Match node or
+specify which Host Information Profile (HIP) match logs the firewall
+forwards to Panorama or external services (such as a syslog server).
+HIP match logs provide information on Security policy rules that apply
+to GlobalProtect endpoints. 
+
+ If you set this privilege to read-only, the
+administrator can view the Log Settings HIP settings for the firewall
+but cannot add, edit, or delete the settings. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ GlobalProtect 
+
+ Controls access to the Log Settings GlobalProtect node. If you
+disable this privilege, the administrator cannot see the Log Settings GlobalProtect node
+or specify which GlobalProtect logs the firewall forwards to Panorama
+or external services (such as a syslog server). 
+
+ If you set
+this privilege to read-only, the administrator can view the Log Settings GlobalProtect settings
+for the firewall but cannot add, edit, or delete the settings. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Correlation 
+
+ Controls access to the Log Settings Correlation node. If you disable
+this privilege, the administrator cannot see the Log Settings Correlation node
+or add, delete, or modify correlation log forwarding settings or
+tag source or destination IP addresses. 
+
+ If you set this privilege
+to read-only, the administrator can view the Log Settings Correlation settings for the
+firewall but cannot add, edit, or delete the settings. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Alarm Settings 
+
+ Controls access to the Log Settings Alarm Settings node. If you
+disable this privilege, the administrator cannot see the Log Settings Alarm Settings node
+or configure notifications that the firewall generates when a Security
+policy rule (or group of rules) is hit repeatedly within a configurable
+time period. 
+
+ If you set this privilege to read-only, the administrator
+can view the Log Settings Alarm Settings for the firewall
+but cannot edit the settings. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Manage Logs 
+
+ Controls access to the Log Settings Manage Logs node. If you disable
+this privilege, the administrator cannot see the Log Settings Manage Logs node
+or clear the indicated logs. 
+
+ If you set this privilege to
+read-only, the administrator can view the Log Settings Manage Logs information but
+cannot clear any of the logs. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Server Profiles 
+
+ Sets the default state to enable or disable
+for all of the Server Profiles settings described below. 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ SNMP Trap 
+
+ Controls access to the Server Profiles SNMP Trap node. If you disable
+this privilege, the administrator will not see the Server Profiles SNMP Trap node
+or be able to specify one or more SNMP trap destinations to be used
+for system log entries. 
+
+ If you set this privilege to read-only, the
+administrator can view the Server Profiles SNMP Trap Logs information
+but cannot specify SNMP trap destinations. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Syslog 
+
+ Controls access to the Server Profiles Syslog node. If you disable
+this privilege, the administrator will not see the Server Profiles Syslog node or
+be able to specify one or more syslog servers. 
+
+ If you set
+this privilege to read-only, the administrator can view the Server Profiles Syslog information
+but cannot specify syslog servers. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Email 
+
+ Controls access to the Server Profiles Email node. If you disable
+this privilege, the administrator will not see the Server Profiles Email node
+or be able to configure an email profile that can be used to enable
+email notification for system and configuration log entries. 
+
+ If
+you set this privilege to read-only, the administrator can view
+the Server Profiles Email information
+but cannot configure an email server profile. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ HTTP 
+
+ Controls access to the Server Profiles HTTP node. If you disable this
+privilege, the administrator will not see the Server Profiles HTTP node or be able to configure
+an HTTP server profile that can be used to enable log forwarding to
+HTTP destinations any log entries. 
+
+ If you set this privilege
+to read-only, the administrator can view the Server Profiles HTTP information but cannot
+configure an HTTP server profile. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Netflow 
+
+ Controls access to the Server Profiles Netflow node. If you disable
+this privilege, the administrator will not see the Server Profiles Netflow node or
+be able to define a NetFlow server profile, which specifies the
+frequency of the export along with the NetFlow servers that will
+receive the exported data. 
+
+ If you set this privilege to read-only, the
+administrator can view the Server Profiles Netflow information but cannot
+define a Netflow profile. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ RADIUS 
+
+ Controls access to the Server Profiles RADIUS node. If you disable
+this privilege, the administrator will not see the Server Profiles RADIUS node or
+be able to configure settings for the RADIUS servers that are identified
+in authentication profiles. 
+
+ If you set this privilege to read-only, the
+administrator can view the Server Profiles RADIUS information but cannot
+configure settings for the RADIUS servers. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ SCP 
+
+ Controls access to the Server Profiles SCP node. 
+
+ If you disable this privilege, the administrator will not see the
+ node or configure settings for SCP servers. 
+
+ If you set this privilege to read-only, the administrator can view
+ existing SCP server profiles but cannot add or edit them. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ TACACS+ 
+
+ Controls access to the Server Profiles TACACS+ node. 
+
+ If you
+disable this privilege, the administrator will not see the node
+or configure settings for the TACACS+ servers that authentication
+profiles reference. 
+
+ If you set this privilege to read-only, the
+administrator can view existing TACACS+ server profiles but cannot
+add or edit them. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ LDAP 
+
+ Controls access to the Server Profiles LDAP node. If you disable this
+privilege, the administrator will not see the Server Profiles LDAP node or be able to configure
+settings for the LDAP servers to use for authentication by way of authentication
+profiles. 
+
+ If you set this privilege to read-only, the administrator
+can view the Server Profiles LDAP information but cannot
+configure settings for the LDAP servers. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Kerberos 
+
+ Controls access to the Server Profiles Kerberos node. If you disable
+this privilege, the administrator will not see the Server Profiles Kerberos node
+or configure a Kerberos server that allows users to authenticate
+natively to a domain controller. 
+
+ If you set this privilege
+to read-only, the administrator can view the Server Profiles Kerberos information but cannot
+configure settings for Kerberos servers. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ SAML Identity Provider 
+
+ Controls access to the Server Profiles SAML Identity Provider node.
+If you disable this privilege, the administrator cannot see the
+node or configure SAML identity provider (IdP) server profiles. 
+
+ If
+you set this privilege to read-only, the administrator can view
+the Server Profiles SAML Identity Provider information
+but cannot configure SAML IdP server profiles. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Multi Factor Authentication 
+
+ Controls access to the Server Profiles Multi Factor Authentication node.
+If you disable this privilege, the administrator cannot see the node
+or configure multi-factor authentication (MFA) server profiles. 
+
+ If
+you set this privilege to read-only, the administrator can view
+the Server Profiles SAML Identity Provider information
+but cannot configure MFA server profiles. 
+
+ Local User Database 
+
+ Sets the default state to enable or disable
+for all of the Local User Database settings described below. 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Users 
+
+ Controls access to the Local
+User Database Users node. If
+you disable this privilege, the administrator will not see the Local User Database Users node or
+set up a local database on the firewall to store authentication
+information for remote access users, firewall administrators, and Authentication
+Portal users. 
+
+ If you set this privilege to read-only, the
+administrator can view the Local User Database Users information but cannot
+set up a local database on the firewall to store authentication
+information. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ User Groups 
+
+ Controls access to the Local
+User Database Users node. If
+you disable this privilege, the administrator will not see the Local User Database Users node or
+be able to add user group information to the local database. 
+
+ If
+you set this privilege to read-only, the administrator can view
+the Local User Database Users information
+but cannot add user group information to the local database. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Access Domain 
+
+ Controls access to the Access
+Domain node. If you disable this privilege, the administrator
+will not see the Access Domain node or be
+able to create or edit an access domain. 
+
+ If you set this privilege
+to read-only, the administrator can view the Access Domain information
+but cannot create or edit an access domain. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Scheduled Log Export 
+
+ Controls access to the Scheduled
+Log Export node. If you disable this privilege, the
+administrator will not see the Scheduled Log Export node
+or be able schedule exports of logs and save them to a File Transfer
+Protocol (FTP) server in CSV format or use Secure Copy (SCP) to securely
+transfer data between the firewall and a remote host. 
+
+ If you
+set this privilege to read-only, the administrator can view the Scheduled
+Log Export Profile information but cannot schedule the
+export of logs. 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Software 
+
+ Controls access to the Software node.
+If you disable this privilege, the administrator will not see the Software node
+or view the latest versions of the PAN-OS software available from
+Palo Alto Networks, read the release notes for each version, and
+select a release to download and install. 
+
+ If you set this
+privilege to read-only, the administrator can view the Software information
+but cannot download or install software. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ GlobalProtect Client 
+
+ Controls access to the GlobalProtect Client node.
+If you disable this privilege, the administrator will not see the GlobalProtect Client node
+or view available GlobalProtect releases, download the code or activate
+the GlobalProtect app. 
+
+ If you set this privilege to read-only, the
+administrator can view the available GlobalProtect Client releases
+but cannot download or install the app software. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Dynamic Updates 
+
+ Controls access to the Dynamic Updates node.
+If you disable this privilege, the administrator will not see the Dynamic Updates node
+or be able to view the latest updates, read the release notes for
+each update, or select an update to upload and install. 
+
+ If
+you set this privilege to read-only, the administrator can view
+the available Dynamic Updates releases, read
+the release notes but cannot upload or install the software. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Licenses 
+
+ Controls access to the Licenses node.
+If you disable this privilege, the administrator will not see the Licenses node
+or be able to view the licenses installed or activate licenses. 
+
+ If
+you set this privilege to read-only, the administrator can view
+the installed Licenses , but cannot perform
+license management functions. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Support 
+
+ Controls access to the Support node.
+If you disable this privilege, the administrator cannot see the Support node, activate
+support, or access production and security alerts from Palo Alto Networks. 
+
+ If
+you set this privilege to read-only, the administrator can see the Support node
+and access production and security alerts but cannot activate support. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Master Key and Diagnostics 
+
+ Controls access to the Master
+Key and Diagnostics node. If you disable this privilege,
+the administrator will not see the Master Key and Diagnostics node
+or be able to specify a master key to encrypt private keys on the
+firewall. 
+
+ If you set this privilege to read-only, the administrator
+can view the Master Key and Diagnostics node
+and view information about master keys that have been specified
+but cannot add or edit a new master key configuration. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Policy Recommendation 
+
+ Controls access to IoT and SaaS policy
+rule recommendations. If you disable these privileges, the administrator
+can’t see the Policy Recommendation IoT node, the Policy Recommendation SaaS node,
+or both, depending on which privileges you disable. 
+
+ If you
+set these privileges to read-only, the administrator can view the nodes
+but cannot import policy rules or edit information. 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Previous 
+
+ Provide Granular Access to the Network Tab 
+
+ Next 
+
+ Define User Privacy Settings in the Admin Role Profile 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,255 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/monitor-dashboards-and-reports/create-dashboards
+fetched_at: 2026-08-13T15:15:42Z
+source: cortex-platform
+---
+
+# Create dashboards | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+Create dashboards | Cortex Documentation Portal 
+
+ ⌘ Ctrl k 
+
+ Blog Support 
+ More 
+
+ Home 
+
+ Products 
+
+ Guides 
+
+ Release Notes 
+
+ API 
+
+ Reference 
+
+ AI Assistant 
+
+ Good afternoon 
+ I'm here to help you with the docs. 
+
+ What is this page about? What should I read next? Can you give an example? 
+
+ ⌘ Ctrl i 
+
+ AI Based on your context 
+ Send 
+
+ Learn about Cortex XSIAM 
+
+ Navigate the Cortex XSIAM docs 
+
+ Get started with Cortex XSIAM 
+
+ Agentic AI in Cortex XSIAM 
+
+ Cortex XSIAM product licenses 
+
+ In-product support ticket creation 
+
+ Supported web browsers 
+
+ Use the interface 
+
+ Manage API keys 
+
+ Onboard Cortex XSIAM 
+
+ How to onboard Cortex XSIAM 
+
+ Plan and prepare 
+
+ Deployment steps 
+
+ Post-deployment 
+
+ Configure Cortex XSIAM 
+
+ Learn how to configure Cortex XSIAM 
+
+ Data management 
+
+ Cortex XSIAM Data Sources and Connectors 
+
+ Marketplace 
+
+ Configure the Cortex Agentic Assistant 
+
+ Cortex MCP server 
+
+ Automations 
+
+ Engines 
+
+ Remote repository management 
+
+ Customize cases and issues 
+
+ XQL query management 
+
+ Multi-Tenant 
+
+ Managed Services configuration in Cortex 
+
+ Protect your endpoints 
+
+ Endpoint security 
+
+ Endpoint DLP 
+
+ Detect, Investigate, and respond to threats 
+
+ Monitor dashboards and reports 
+
+ Overview of dashboards and reports 
+
+ Access and visibility for dashboards and reports 
+
+ Manage dashboards and reports 
+
+ Create dashboards 
+
+ Create a dashboard 
+
+ Create reports 
+
+ Advanced configuration 
+
+ Dashboard reference 
+
+ Investigation and response 
+
+ Agentic Assistant chat 
+
+ Asset management 
+
+ Threat management 
+
+ Attack surface management 
+
+ Vulnerability management 
+
+ Exposure management 
+
+ Cortex Advanced Email Security 
+
+ Identity Threat Detection and Response (ITDR) 
+
+ Cloud Security 
+
+ Monitor and track compliance adherence 
+
+ Cloud security rules and policies 
+
+ Cortex Cloud Data Classification 
+
+ Cortex Data Security 
+
+ Cloud Identity Security 
+
+ Network exposure detection 
+
+ Cortex Cloud SaaS Security 
+
+ Cortex Cloud AI Security 
+
+ Serverless function posture security 
+
+ Cortex Cloud Application Security 
+
+ Cloud workload policies and rules 
+
+ Base image rules 
+
+ Web and API Security (WAAS) 
+
+ Serverless function runtime security 
+
+ Reference and developer docs 
+
+ Cortex XSIAM XQL 
+
+ Graph Search 
+
+ Cortex CLI 
+
+ Role-Based Access Control 
+
+ API documentation 
+
+ Reference 
+
+ Migrating to a new Broker VM image 
+
+ Learn more about migrating to the latest broker VM image 
+
+ Standalone Broker VM 
+
+ Broker VM high availability cluster node 
+
+ On this page 
+
+ For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSIAM 
+
+ Cortex XSIAM Documentation 
+
+ Detect, Investigate, and respond to threats 
+
+ Monitor dashboards and reports 
+
+ Create dashboards 
+
+ You can create fully customized dashboards—start from a blank canvas or choose an existing template. 
+
+ Dashboard core elements 
+
+ You can use the following elements to build your dashboards: 
+
+ Widgets: The modular building blocks of a dashboard. Drag widgets on to your blank canvas to start building your dashboard. Choose from predefined system widgets or create custom widgets that analyze specific datasets using XQL, Scripts, or by using AI. 
+
+ Static elements: Headers, titles, and free text blocks that can help you structure your dashboard. 
+
+ Templates: Pre-configured layouts designed for specific use cases (such as SOC overviews or threat hunting) to help you deploy functional dashboards instantly 
+
+ Filters: Global filters that allow dashboard users to adjust the dashboard's scope by selecting predefined or dynamic values. 
+
+ Note: Global filters are available for dashboards that include custom XQL widgets with defined parameters. For more information, see Create XQL widgets . 
+
+ Drilldowns: Interactive elements that allow dashboard users to dive deeper into data. Clicking data points can trigger contextual changes, run an XQL search, or link to external URLs, other dashboards, and reports. 
+
+ Note: Drilldowns are available for dashboards that include custom XQL widgets. For more information, see Create XQL widgets . 
+
+ Previous Deleted content Next Create a dashboard 
+
+ Last updated 21 days ago 
+
+ Was this helpful? 
+
+ ‍ 
+
+ Trust Center 
+
+ ‍ 
+
+ Privacy 
+
+ ‍ 
+
+ Terms of Use 
+
+ ‍ 
+
+ Legal 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved. 
+
+ Was this helpful?

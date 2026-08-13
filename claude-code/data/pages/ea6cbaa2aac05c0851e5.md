@@ -1,0 +1,241 @@
+---
+url: https://docs.paloaltonetworks.com/saas-security/new-features/by-date/saas-security/july-2025#3defb20084b3ca42bb4740598e3ada3e
+fetched_at: 2026-08-13T17:33:44Z
+source: palo-alto-main
+---
+
+# New Features - SaaS Security - July 2025 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+New Features - SaaS Security - July 2025 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SaaS Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Data Security 
+
+ SaaS Security Inline 
+
+ SSPM 
+
+ Behavior Threats 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ SaaS Security 
+
+ New Features - SaaS Security - July 2025 
+
+ Admin and End User Notification with Slack Enterprise 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ Data Security enables administrators like you to notify end users when assets are deleted or quarantined, providing a low-touch mechanism for training users on organizational policy rule compliance. 
+
+ The enhanced Slack notification system enabled you to configure both automated admin and end user notifications that work with your existing data security policy rules. When policy rules are triggered, administrators can receive automatic Slack alerts in designated private channels, while end users whose assets are affected receive direct notifications through the Slack bot. Both notification types support fully customizable messaging, enabling organizations to tailor communications to their specific compliance requirements. 
+
+ For Slack Enterprise customers, we have also introduced manual end user notifications that provide on-demand communication capabilities for specific deleted or quarantined assets. These manual notifications offer the flexibility to override the default workflow settings when needed, with the ability to configure different messages for deletion and quarantine actions. This gives you granular control over user communications while maintaining the efficiency of automated processes. 
+
+ Note: 
+
+ The Proactive Training option has been deprecated. 
+
+ Notification via Slack is supported for all apps. However, ensure that you have onboarded the Slack Enterprise or Slack Pro and Business app so that Data Security can send notifications through Slack. 
+
+ SaaS Security
+
+ SaaS Security API
+
+ July 2025
+
+ Monitor App Health in Data Security 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ The Data Security App Health feature enhances the existing capabilities to include comprehensive monitoring of the status of your SaaS apps. This feature is available for the Office 365 , Google Drive , Slack Enterprise , Microsoft teams , and Microsoft Exchange apps. The following are the key app health monitoring enhancements: 
+
+ The status of core services like DLP, WildFire, Policy Engine, and URL Analysis are provided separately at the top of the applications page. If these core services are down, you can configure admin alerts directly in the web interface or configure them in the Settings page. 
+
+ The Real-time Health Dashboard enables you to monitor app status with clear visual indicators showing operational status as Healthy (green), Warning (amber), and Critical (red). 
+
+ Description of the status indicators. 
+
+ Number of assets ingested. 
+
+ Number of assets scanned. 
+
+ Processing Time Metrics: Track P95 end-to-end processing time across predefined time buckets. 
+
+ Rate limits hit. 
+
+ Number of incidents generated. 
+
+ Number of incidents remediated. 
+
+ Users Info. 
+
+ Note: The health status showing the above three statuses are applicable only for the five apps mentioned above. For other apps, it shows only whether it is Scanning , Scanning Off or Not Connected . Also, the status descriptions are applicable only for the five apps mentioned above. For other apps, there are no status descriptions. 
+
+ SaaS Security
+
+ SaaS Security API
+
+ July 2025
+
+ Salesforce V2 App in Data Security 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ Data Security supports the Salesforce V2 app with a comprehensive overhaul to address key customer concerns and enhance overall performance, reliability, and usability. The key improvements are: 
+
+ Query Optimization 
+
+ Efficient Resource Management: Redesigned queries to significantly reduce resource consumption 
+
+ Dynamic Query Updates: Implemented smart date tracking to eliminate redundant data retrieval 
+
+ Improved Rate Limit Management: Optimized API usage to maximize data processing capabilities 
+
+ Enhanced App Behavior 
+
+ Clear Scan Segmentation: Distinct separation between backward and forward scanning operations 
+
+ Containerization: Introduced containerized architecture for improved troubleshooting and maintenance 
+
+ Expanded Object Support 
+
+ Selective scanning of tables (configurable) 
+
+ Support to scan contents in the custom tables 
+
+ Scanning only once a day for better API limit management 
+
+ Advanced API Management 
+
+ Configurable Rate Limits: Customizable API limits 
+
+ Adaptive Rate Limiting: Dynamic adjustment based on license types and provision to view a seven day history of API usage. 
+
+ Ensures critical real-time scans: Ensures that forward data is prioritized over historical (backward) data. 
+
+ Intelligent Content Prioritization: Files are higher priority compared to Chatter. 
+
+ Benefits 
+
+ Improved reliability for enterprise environments 
+
+ Reduced system resource requirements 
+
+ Enhanced control over scanning operations and API handling 
+
+ Better support for custom Salesforce implementations 
+
+ Increased visibility into app performance 
+
+ Upgrade Instructions 
+
+ Contact your account representative or SaaS Security Tech Support for migration assistance to this version of the Salesforce App. 
+
+ SaaS Security
+
+ SaaS Security API
+
+ July 2025
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Firewalls 
+
+ PAN-OS 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ Prisma Access Monitoring and Visibility 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

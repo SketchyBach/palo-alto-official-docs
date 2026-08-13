@@ -1,0 +1,179 @@
+---
+url: https://docs.paloaltonetworks.com/hardware/ion-1000-hardware-reference/before-you-begin
+fetched_at: 2026-08-13T16:33:43Z
+source: palo-alto-main
+---
+
+# Before You Begin Clear
+
+Before You Begin 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ ION 1000 Hardware Reference 
+
+ : 
+ Before You Begin 
+
+ Updated on 
+
+ Thu Jun 06 05:09:11 PDT 2024 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 中文 (Chinese Simplified) 
+
+ Русский (Russian) 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Product Safety Warnings 
+
+ ION 1000 Overview 
+
+ ION 1000 
+
+ ION 1000 Ports 
+
+ ION 1000 Front Panel with LEDs 
+
+ ION 1000 Specifications 
+
+ ION 1000 Compliance Statement 
+
+ ION 1000 Installation Kit Components 
+
+ Power on the ION 1000 
+
+ Install the ION 1000 
+
+ Rack Mount the ION 1000 
+
+ Wall Mount the ION 1000 
+
+ Install the ION 1000 by Replacing an Existing Router 
+
+ Install the ION 1000 With an Existing Router 
+
+ Install the ION 1000 in Control Mode 
+
+ Updated on 
+
+ Thu Jun 06 05:09:11 PDT 2024 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ ION 1000 Hardware Reference 
+
+ Before You Begin 
+
+ Download PDF 
+
+ English 
+
+ 中文 (Chinese Simplified) 
+
+ Русский (Russian) 
+
+ ION 1000 Hardware Reference 
+
+ Before You Begin 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Product Safety Warnings 
+
+ ION 1000 Overview 
+
+ ION 1000 
+
+ ION 1000 Ports 
+
+ ION 1000 Front Panel with LEDs 
+
+ ION 1000 Specifications 
+
+ ION 1000 Compliance Statement 
+
+ ION 1000 Installation Kit Components 
+
+ Power on the ION 1000 
+
+ Install the ION 1000 
+
+ Rack Mount the ION 1000 
+
+ Wall Mount the ION 1000 
+
+ Install the ION 1000 by Replacing an Existing Router 
+
+ Install the ION 1000 With an Existing Router 
+
+ Install the ION 1000 in Control Mode 
+
+ Before You Begin 
+
+ Learn how to check if your new appliance was tampered
+with during shipping, learn about third-party component support,
+and read the product safety warnings before installing the appliance. 
+
+ Read the
+following topics before you install or service a Palo Alto Networks®
+next-generation firewall or appliance. The following topics apply
+to all Palo Alto Networks firewalls and appliances except where noted. 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Product Safety Warnings 
+
+ Previous 
+
+ Next 
+
+ Tamper Proof Statement 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

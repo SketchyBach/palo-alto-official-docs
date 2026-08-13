@@ -10,6 +10,8 @@ Both versions include an official-only searchable SQLite index. Private field-su
 Run the integrity audit from either directory with Python 3.10 or newer:
 
 ```text
+python scripts/rebuild_index.py
 python scripts/audit.py
 ```
 
+The complete generated SQLite index is larger than GitHub's per-file limit, so it is rebuilt locally from the committed official page files after cloning.

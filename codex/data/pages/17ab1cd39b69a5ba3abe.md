@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/advanced-threat-prevention/custom-signatures-reference/custom-signature-contexts/string-contexts/dhcp-rsp-ciaddr
-fetched_at: 2026-08-13T14:31:12Z
+fetched_at: 2026-08-13T15:15:06Z
 source: palo-alto-main
 ---
 

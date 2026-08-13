@@ -1,0 +1,252 @@
+---
+url: https://docs.paloaltonetworks.com/advanced-threat-prevention/custom-signatures-reference/custom-signature-contexts/string-contexts/ssh-rsp-banner
+fetched_at: 2026-08-13T15:16:31Z
+source: palo-alto-main
+---
+
+# ssh-rsp-banner Clear
+
+ssh-rsp-banner 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ ssh-rsp-banner 
+
+ Updated on 
+
+ Wed Jun 10 20:25:53 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Advanced Threat Prevention 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Custom Application IDs and Threat Signatures 
+
+ Reference 
+
+ Release Notes 
+
+ Updated on 
+
+ Wed Jun 10 20:25:53 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Advanced Threat Prevention Powered by Precision AI® 
+
+ Custom Signature Contexts 
+
+ String Contexts 
+
+ ssh-rsp-banner 
+
+ Download PDF 
+
+ Advanced Threat Prevention Powered by Precision AI® 
+
+ ssh-rsp-banner 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Advanced Threat Prevention 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Custom Application IDs and Threat Signatures 
+
+ Reference 
+
+ Release Notes 
+
+ Previous 
+
+ ssh-req-banner 
+
+ Next 
+
+ ssl-req-certificate 
+
+ ssh-rsp-banner 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama or Strata Cloud Manager) 
+
+ NGFW (Managed by Panorama or Strata Cloud Manager) 
+
+ VM-Series 
+
+ CN-Series 
+
+ Advanced Threat Prevention (for enhanced feature
+ support) or Threat Prevention License 
+
+ SSH banner of the server, not including comments. 
+
+ Additional Details 
+
+ None 
+
+ Context Capture 
+
+ This
+context provides the text highlighted in yellow. 
+
+ Previous 
+
+ ssh-req-banner 
+
+ Next 
+
+ ssl-req-certificate 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Reference 
+
+ Custom Signatures 
+
+ Advanced Threat Prevention 
+
+ Threat Prevention 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

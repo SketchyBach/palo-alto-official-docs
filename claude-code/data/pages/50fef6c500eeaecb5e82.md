@@ -1,0 +1,211 @@
+---
+url: https://docs.paloaltonetworks.com/identity/new-features/by-date/cloud-identity-engine/february-2025#47984e8946778160221473a73e7c6f5b
+fetched_at: 2026-08-13T16:36:06Z
+source: palo-alto-main
+---
+
+# New Features - Cloud Identity Engine - February 2025 Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+New Features - Cloud Identity Engine - February 2025 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Identity Docs 
+
+ Activation & Onboarding 
+
+ Cloud Identity Engine 
+
+ Help 
+
+ Release Notes 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ Identity 
+
+ New Features - Cloud Identity Engine - February 2025 
+
+ CIE Directory 
+
+ Release Date: February 2025 
+ | 
+ Last Updated: May 2026 
+
+ You can now configure a local user directory for the Cloud Identity Engine by configuring a CIE Directory. You can quickly set up a directory, add users, and even generate passwords for those users. 
+
+ The CIE Directory allows you to quickly set up a user directory for demonstration purposes, proof of value, and create users on an as-needed basis, or add users without configuring an identity provider (IdP). 
+
+ By providing a new method to add users in the Cloud Identity Engine, the CIE Directory allows even more deployment possibilities and faster startup time. 
+
+ Cloud Identity Engine
+
+ February 2025
+
+ CSV Group Filter Upload for Azure Active Directory 
+
+ Release Date: February 2025 
+ | 
+ Last Updated: May 2026 
+
+ If you use Azure AD Graph API Filtering and filter which groups the Cloud Identity Engine® collects during a sync, you can now upload a comma-separated value (.CSV) file to more easily specify which groups you want to filter. 
+
+ This saves significant amounts of time and prevents manual mistakes when entering information, freeing up your admins to work on other more critical tasks for your network. 
+
+ Cloud Identity Engine
+
+ February 2025
+
+ IP-Tag Cloud Connection Region Selection for Google Cloud 
+
+ Release Date: February 2025 
+ | 
+ Last Updated: May 2026 
+
+ If you are configuring an IP-Tag Cloud Connection for Google Cloud, you can now select the region you want to use when you test the connection. 
+
+ Cloud Identity Engine
+
+ February 2025
+
+ JWT Encryption Algorithm for OIDC 
+
+ Release Date: February 2025 
+ | 
+ Last Updated: May 2026 
+
+ If you use OIDC for authentication, you can now select which encryption algorithm you want to use for the JSON web token (JWT). The encryption algorithm encrypts the data as it traverses the network as a best practice. By default, the Cloud Identity Engine uses the RS256 algorithm but you can select from a number of different options. 
+
+ Cloud Identity Engine
+
+ February 2025
+
+ Activation and Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Panorama 
+
+ Service Provider 
+
+ VM-Series 
+
+ Plugins 
+
+ SASE 
+
+ Prisma Access 
+
+ Prisma SASE Multitenant Platform 
+
+ Prisma Access Monitoring & Visibility 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Remote Browser Isolation 
+
+ Prisma Access Agent 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Resources 
+
+ All Products A - Z 
+
+ All Release Notes 
+
+ Compatibility Matrix 
+
+ Experts Corner 
+
+ Network Security Platform 
+
+ Security Policy 
+
+ Decryption 
+
+ Device-ID 
+
+ IPSec VPN 
+
+ Quality of Service 
+
+ Quantum Security 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

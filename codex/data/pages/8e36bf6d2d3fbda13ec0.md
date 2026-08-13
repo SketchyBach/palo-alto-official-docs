@@ -1,0 +1,380 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-2/device/device-setup-services/configure-services-for-global-and-virtual-systems
+fetched_at: 2026-08-13T16:51:34Z
+source: palo-alto-main
+---
+
+# Configure Services for Global and Virtual Systems Clear
+
+Configure Services for Global and Virtual Systems 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Configure Services for Global and Virtual Systems 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ PAN-OS Web Interface Help 
+
+ Device 
+
+ Device > Setup > Services 
+
+ Configure Services for Global and Virtual Systems 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Configure Services for Global and Virtual Systems 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Device > Setup > Services 
+
+ Next 
+
+ Global Services Settings 
+
+ Configure Services for Global and Virtual Systems 
+
+ On a firewall where multiple virtual systems are enabled,
+select Services to display the Global and Virtual
+Systems tabs where you set services that the firewall
+or its virtual systems, respectively, use to operate efficiently.
+(If the firewall is a single virtual system or if multiple virtual
+systems are disabled, the Virtual Systems tab
+is not shown.) 
+
+ Select Global to set services for the
+whole firewall. These settings are also used as the default values
+for virtual systems that do not have a customized setting for a
+service. 
+
+ Edit Services to define the destination
+IP addresses of DNS servers, the Update Server, and the Proxy Server.
+Use the dedicated NTP tab to configure Network
+Time Protocol settings. See Table 12 for field descriptions
+of the available Services options. 
+
+ In Service Features , click Service
+Route Configuration to specify how the firewall will
+communicate with other servers/devices for services such as DNS,
+email, LDAP, RADIUS, syslog, and many more. There are two ways to
+configure global service routes: 
+
+ The Use
+Management Interface for all option will force all firewall
+service communications with external servers through the management
+interface (MGT). If you select this option, you must configure the
+MGT interface to allow communications between the firewall and the
+servers/devices that provide services. To configure the MGT interface,
+select Device
+> Setup > Management and edit the settings. 
+
+ The Customize option allows you granular
+control over service communication by configuring a specific source
+interface and IP address that the service will use as the destination
+interface and destination IP address in its response. (For example,
+you could configure a specific source IP/ interface for all email
+communication between the firewall and an email server, and use
+a different source IP/interface for Palo Alto Networks Services.)
+Select the one or more services you want to customize to have the
+same settings and click Set Selected Service Routes .
+The services are listed in Table 13, which indicates whether
+a service can be configured for the Global firewall
+or Virtual Systems , and whether the service
+supports an IPv4 and/or IPv6 source address. 
+
+ The Destination tab is another Global
+service route feature that you can customize. This tab appears in
+the Service Route Configuration window and is described in Destination
+Service Route . 
+
+ Use the Virtual Systems tab to specify
+service routes for a single virtual system. Select a Location (virtual
+system) and click Service Route Configuration .
+Select Inherit Global Service Route Configuration or Customize service routes for a virtual system . If
+you choose to customize settings, select IPv4 or IPv6 .
+Select the one or more services you want to customize to have the
+same settings and click Set Selected Service Routes .
+See Table 13 for services that can be customized. 
+
+ To control and redirect DNS queries between shared and specific
+virtual systems, you can use a DNS proxy and a DNS Server profile . 
+
+ Previous 
+
+ Device > Setup > Services 
+
+ Next 
+
+ Global Services Settings 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 12.2 
+
+ PAN-OS 
+
+ Help 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

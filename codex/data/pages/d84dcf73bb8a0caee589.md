@@ -1,0 +1,396 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/monitoring/snmp-monitoring-and-traps
+fetched_at: 2026-08-13T17:00:21Z
+source: palo-alto-main
+---
+
+# SNMP
+Monitoring and Traps Clear
+
+SNMP
+Monitoring and Traps 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ SNMP
+Monitoring and Traps 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Monitoring 
+
+ SNMP
+Monitoring and Traps 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ SNMP
+Monitoring and Traps 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Critical System Log Messages 
+
+ Next 
+
+ Use an SNMP Manager to Explore MIBs and Objects 
+
+ SNMP
+Monitoring and Traps 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ Support license 
+
+ ( Panorama ) Device management license 
+
+ You can use an SNMP manager to monitor event-driven alerts and operational statistics for
+ the firewall, Panorama, or WF-500 appliance and for the traffic they process. The
+ statistics and traps can help you identify resource limitations, system changes or
+ failures, and malware attacks. You configure alerts by forwarding log data as traps, and
+ enable the delivery of statistics in response to GET messages (requests) from your SNMP
+ manager. Each trap and statistic has an object identifier (OID). Related OIDs are
+ organized hierarchically within the Management Information Bases (MIBs) that you load
+ into the SNMP manager to enable monitoring. 
+
+ When an event triggers SNMP trap generation (for example, an interface goes down),
+ the firewall, Panorama virtual appliance, M-Series appliance, and WF-500 appliance
+ respond by updating the corresponding SNMP object (for example, the interfaces MIB)
+ instead of waiting for the periodic update of all objects that occurs every ten
+ seconds. This ensures that your SNMP manager displays the latest information when
+ polling an object to confirm an event. 
+
+ The firewall, Panorama, and WF-500 appliance support SNMP Version 2c and Version 3.
+ Decide which to use based on the version that other devices in your network support and
+ on your network security requirements. SNMPv3 is more secure and enables more granular
+ access control for system statistics than SNMPv2c. The following table summarizes the
+ security features of each version. You select the version and configure the security
+ features when you Monitor Statistics Using
+ SNMP and Forward Traps to an SNMP Manager . 
+
+ SNMPVersion 
+
+ Authentication 
+
+ Message Privacy 
+
+ MessageIntegrity 
+
+ MIB Access Granularity 
+
+ SNMPv2c 
+
+ Community string 
+
+ No (cleartext) 
+
+ No 
+
+ SNMP community access for all MIBs on a device 
+
+ SNMPv3 
+
+ EngineID, username, and authentication password (SHA hashing for the
+ password) 
+
+ Privacy password for AES (128, 192, or 256) encryption of SNMP
+ messages 
+
+ Yes 
+
+ User access based on views that include or exclude specific OIDs 
+
+ Figure 1 illustrates a deployment in which firewalls forward
+ traps to an SNMP manager while also forwarding logs to Log Collectors. Alternatively,
+ you could configure the Log Collectors to forward the firewall traps to the SNMP
+ manager. For details on these deployments, refer to Log Forwarding Options in Centralized Logging and
+ Reporting . In all deployments, the SNMP manager gets statistics directly from
+ the firewall, Panorama, or WF-500 appliance. In this example, a single SNMP manager
+ collects both traps and statistics, though you can use separate managers for these
+ functions if that better suits your network. 
+ SNMP Implementation 
+
+ The following topics describe how Palo Alto Networks firewalls, Panorama, and WF-500 appliances
+ implement SNMP, and the procedures to configure SNMP monitoring and trap delivery. 
+
+ Previous 
+
+ Critical System Log Messages 
+
+ Next 
+
+ Use an SNMP Manager to Explore MIBs and Objects 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

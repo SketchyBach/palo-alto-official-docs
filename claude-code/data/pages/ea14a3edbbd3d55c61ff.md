@@ -1,0 +1,163 @@
+---
+url: https://docs.paloaltonetworks.com/iot/new-features/by-date/device-security/june-2026#36d569c9d9c2a6c3f7929d8aad08ab17
+fetched_at: 2026-08-13T16:37:44Z
+source: palo-alto-main
+---
+
+# New Features - Device Security - June 2026 Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+New Features - Device Security - June 2026 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Device Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Enterprise Administration 
+
+ Integrations 
+
+ Release Notes 
+
+ Best Practice 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ Device Security 
+
+ New Features - Device Security - June 2026 
+
+ Action Center for Device Security 
+
+ Release Date: June 2026 
+ | 
+ Last Updated: July 2026 
+
+ You can now automate routine response work in Device Security with Action Center, so you no longer have to manually triage every alert , tag new devices one at a time, or pivot between consoles to contain a compromised endpoint. 
+
+ Action Center lets you build reusable action sets that combine a scope — which devices or alerts to act on — with a trigger and one or more actions. Triggers can run on a schedule or fire on events such as a new alert, a new device, a new vulnerability, or a device attribute change. From a single workflow, you can add or remove custom tags on matching devices, raise a security alert, or contain an endpoint through your existing third-party endpoint protection integrations. You can also define a fallback action that runs if the primary action fails. 
+
+ You activate, deactivate, or delete action sets as your response playbook evolves, which gives your security team a consistent way to enforce policy across your Device Security environment without writing custom scripts or standing up separate automation tooling. 
+
+ Device Security
+
+ June 2026
+
+ Cross-Domain Queries for Device Security 
+
+ Release Date: June 2026 
+ | 
+ Last Updated: July 2026 
+
+ You can filter alerts and vulnerabilities in Device Security by device attributes directly from the query builder . You no longer have to manually correlate between lists of filtered alerts or vulnerabilities and lists of filtered assets when you want to focus on specific segments, vendors, or device types that are affected by certains alerts or vulnerabilities. 
+
+ On pages with a fully supported query builder, when you set Alert or Vulnerability as your primary query domain, you can now set a secondary domain. The page that opens depends on the primary domain you select. Device returns results on the Assets Inventory. Alert takes you to the Alerts page. Vulnerability takes you to the Vulnerabilities page. 
+
+ Cross-domain queries give you a focused list of findings that match the device context relevant to your investigation. For example, you can return critical alerts on devices in a specific OT zone, or vulnerabilities on devices from a particular vendor. You no longer have to pivot between the device inventory and the alert and vulnerability pages to assemble the same view. The Query Builder supports Alert and Vulnerability cross-domain queries throughout Device Security . 
+
+ Device Security
+
+ June 2026
+
+ Device Security Integration with Trend Micro Vision One 
+
+ Release Date: June 2026 
+ | 
+ Last Updated: July 2026 
+
+ Device Security supports integrating with Trend Micro Vision One so you can correlate endpoint telemetry from Trend Micro with the devices that Device Security discovers on your network. Use the integration to automatically reconcile endpoint coverage and vulnerability status between solutions. 
+
+ When you connect Trend Micro Vision One, Device Security ingests device details, including operating system, agent and EDR sensor status, endpoint group, and isolation state. The integration also ingests open vulnerabilities, filtered by a configurable CVSS score range, so you can focus on the severity levels that matter to you. New devices that Device Security learns through Trend Micro are added as entries in your asset inventory, and existing devices are enriched with the additional context. 
+
+ When you need to respond to a threat, you can isolate or restore a Trend Micro-managed endpoint from Device Security through Action Center. Device Security sends the action to Trend Micro on your behalf and reports the resulting isolation status, so your team can investigate, contain, and recover affected devices without switching tools. 
+
+ Device Security
+
+ June 2026
+
+ Utilization Dashboard Enhancements for Device Security 
+
+ Release Date: June 2026 
+ | 
+ Last Updated: July 2026 
+
+ The Device Security Medical Utilization dashboard now includes per-device utilization percentages, fleet-level insights, and a usage-intensity heatmap, so you can make procurement, asset reallocation, and capacity planning decisions for your medical imaging and infusion devices from one place. 
+
+ In the Used devices table, a new Utilization column scores each device against an operating hours baseline and time interval you pick. A new Utilization Insights widget summarizes the fleet with average utilization, the count of devices in use, and breakdowns for underutilized, optimal, and overutilized equipment. Each breakdown is clickable, so you can jump to the matching device list to investigate further. 
+
+ A new Utilization by Hours heatmap shows usage intensity across the week and across the day for the current selection. You can see, at a glance, when your imaging suites and infusion pumps are busy and when they sit idle, which helps you balance schedules, plan maintenance windows, and identify equipment that can be redeployed or replaced. 
+
+ Device Security
+
+ June 2026
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

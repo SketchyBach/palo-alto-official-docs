@@ -1,0 +1,373 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-1/network/network-interfaces/decrypt-mirror-interface
+fetched_at: 2026-08-13T16:50:01Z
+source: palo-alto-main
+---
+
+# Decrypt Mirror Interface Clear
+
+Decrypt Mirror Interface 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Decrypt Mirror Interface 
+
+ Updated on 
+
+ Thu Jun 25 18:50:04 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 18:50:04 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Network 
+
+ Network > Interfaces 
+
+ Decrypt Mirror Interface 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Decrypt Mirror Interface 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Log Card Subinterface 
+
+ Next 
+
+ Aggregate Ethernet (AE) Interface Group 
+
+ Decrypt Mirror Interface 
+
+ Network > Interfaces > Ethernet 
+
+ To use the Decryption Port Mirror feature, you must select the Decrypt
+Mirror interface type. This feature enables creating
+a copy of decrypted traffic from a firewall and sending it to a
+traffic collection tool that can receive raw packet captures—such
+as NetWitness or Solera—for archiving and analysis. Organizations that
+require comprehensive data capture for forensic and historical purposes
+or data leak prevention (DLP) functionality require this feature.
+To enable the feature, you must acquire and install the free license. 
+
+ Decryption port mirroring is not available on the VM-Series
+for public cloud platforms (AWS, Azure, Google Cloud Platform),
+VMware NSX, and Citrix SDX. 
+
+ To configure a decrypt mirror interface, click the name of an
+Interface (ethernet1/1, for example) that is not configured and
+specify the following information. 
+
+ Decrypt Mirror Interface Settings 
+
+ Description 
+
+ Interface Name 
+
+ The interface name is predefined and you
+cannot change it. 
+
+ Comment 
+
+ Enter an optional description for the interface. 
+
+ Interface Type 
+
+ Select Decrypt Mirror . 
+
+ Link Speed 
+
+ Select the interface speed in Mbps ( 10 , 100 ,
+or 1000 ), or select auto to
+have the firewall automatically determine the speed. 
+
+ Link Duplex 
+
+ Select whether the interface transmission
+mode is full-duplex ( full ), half-duplex ( half ),
+or negotiated automatically ( auto ). 
+
+ Link State 
+
+ Select whether the interface status is enabled
+( up ), disabled ( down ), or
+determined automatically ( auto ). 
+
+ Previous 
+
+ Log Card Subinterface 
+
+ Next 
+
+ Aggregate Ethernet (AE) Interface Group 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ 12.1 
+
+ Help 
+
+ Web Interface 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

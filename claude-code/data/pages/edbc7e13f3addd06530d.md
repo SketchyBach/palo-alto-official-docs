@@ -1,0 +1,361 @@
+---
+url: https://docs.paloaltonetworks.com/vm-series/deployment/private-cloud
+fetched_at: 2026-08-13T17:41:16Z
+source: palo-alto-main
+---
+
+# VM-Series Firewall on an ESXi Server Clear
+
+VM-Series Firewall on an ESXi Server 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ VM-Series Firewall on an ESXi Server 
+
+ Updated on 
+
+ Fri Jun 19 07:13:50 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ VM-Series Firewall Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Upgrade 
+
+ Deployment 
+
+ Select a Document 
+
+ Public Cloud 
+
+ Private Cloud 
+
+ Updated on 
+
+ Fri Jun 19 07:13:50 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ VM-Series 
+
+ VM-Series Firewall on an ESXi Server 
+
+ Download PDF 
+
+ VM-Series 
+
+ VM-Series Firewall on an ESXi Server 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ VM-Series Firewall Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Upgrade 
+
+ Deployment 
+
+ Select a Document 
+
+ Public Cloud 
+
+ Private Cloud 
+
+ Previous 
+
+ Upgrade the PAN-OS Software Version for VM-Series NSX 
+
+ Next 
+
+ Install a VM-Series Firewall on VMware vSphere Hypervisor (ESXi) 
+
+ VM-Series Firewall on an ESXi Server 
+
+ Learn how to secure your ESXi deployment using the VM-Series firewall. In order to
+ deploy a VM-Series firewall you must be familiar with VMware and vSphere, including vSphere
+ networking, ESXi host setup and configuration, and virtual machine guest
+ deployment. 
+
+ Where Can I Use This? What Do I Need? 
+
+ ESXi Server 
+
+ VM-Series Firewall License (BYOL) 
+
+ Panorama 
+
+ VM-Series plugin 
+
+ Panorama plugin for ESXi 
+
+ The VM-Series s firewall is distributed in the Open Virtualization Alliance (OVA)
+ format, which is a standard method of packaging and deploying virtual machines. You can
+ install this solution on any x86 device that is capable of running VMware ESXi. 
+
+ To deploy a VM-Series firewall you must be familiar with VMware and vSphere, including vSphere
+ networking, ESXi host setup and configuration, and virtual machine guest deployment. 
+
+ If you want to automate the process of deploying a VM-Series
+firewall, you can create a gold standard template with the optimal
+configuration and policies, then use the vSphere API and the PAN-OS
+XML API to rapidly deploy new VM-Series firewalls in your network. 
+
+ You can deploy one or more instances of the VM-Series firewall on the ESXi
+ server. Where you place the VM-Series firewall on the network depends on
+ your topology. Choose from the following options (for environments that are not using
+ VMware NSX): 
+
+ One VM-Series firewall per ESXi host —Every VM server on the ESXi host
+ passes through the firewall before exiting the host for the physical network. VM
+ servers attach to the firewall via virtual standard switches. The guest servers
+ have no other network connectivity, therefore the firewall has visibility and
+ control over all traffic leaving the ESXi host. One variation of this use case
+ is to also require all traffic to flow through the firewall, including server to
+ server (east-west) traffic on the same ESXi host. 
+
+ One VM-Series firewall per virtual network —Deploy a VM-Series firewall for
+ every virtual network. If you have designed your network such that one or more
+ ESXi hosts has a group of virtual machines that belong to the internal network,
+ a group that belongs to the external network, and a group that belongs to the
+ DMZ, you can deploy a VM-Series firewall to safeguard the servers in each group.
+ If a group or virtual network does not share a virtual switch or port group with
+ any other virtual network, it is isolated from all other virtual networks within
+ or across one or more hosts. Because there is no other physical or virtual path
+ to any other network, the servers on each virtual network must use the firewall
+ to talk to any other network. The firewall has visibility and control over all
+ traffic leaving the virtual (standard or distributed) switch attached to each
+ virtual network. 
+
+ Hybrid environment —Both physical and virtual hosts are used. The VM-Series
+ firewall can replace a physical firewall appliance in a traditional aggregation
+ location. A hybrid environment achieves the benefits of a common server platform
+ for all devices, and unlinks hardware and software upgrade dependencies. 
+
+ Continue with VM-Series on ESXi System Requirements and
+ Limitations and Install a VM-Series firewall on VMware vSphere Hypervisor (ESXi) . 
+
+ VM-Series on ESXi System Requirements and Limitations 
+
+ You can create and deploy multiple instances of the VM-Series firewall on an ESXi
+ server. Because each instance of the firewall requires a minimum resource
+ allocation—number of CPUs, memory and disk space—on the ESXi server, make sure to
+ conform to the specifications below to ensure optimal performance. 
+
+ The VM-Series firewall has the following requirements: 
+
+ The host CPU must be an x86-based Intel or AMD CPU with virtualization
+ extension. 
+
+ See the Compatibility Matrix for supported
+ versions of ESXi. The support for the vmx version is based on the OVA that you
+ use to deploy the VM-Series firewall, and you cannot modify this version.
+ Upgrading or downgrading the VM-Series software version does not change the vmx
+ version that was enabled at launch. 
+
+ See VM-Series System Requirements for
+ the minimum hardware requirements for your VM-Series model. 
+
+ Minimum of two network interfaces (vNICs). One is a dedicated vNIC for the
+ management interface and one is for the data interface. You can then add up
+ to eight more vNICs for data traffic. For additional interfaces, use VLAN
+ Guest Tagging (VGT) on the ESXi server or configure subinterfaces on the
+ firewall. 
+
+ Hypervisor assigned MAC addresses are enabled by default. vSphere assigns a
+ unique vNIC MAC address to each dataplane interface of the VM-Series
+ firewall. If you disable hypervisor assigned MAC addresses, the VM-Series
+ firewall assigns each interface a MAC address from its own pool. Because
+ this causes the MAC addresses on each interface to differ, you must enable
+ promiscuous mode on the port group of the virtual switch to which the
+ firewall’s dataplane interfaces are attached; this allows the firewall to
+ receive frames (see Provision the
+ VM-Series Firewall on an ESXi Server ). If neither promiscuous
+ mode nor hypervisor assigned MAC address is enabled, the firewall does not
+ receive any traffic. This is because vSphere does not forward frames to a
+ virtual machine when the frame’s destination MAC address and the vNIC MAC
+ address do not match. 
+
+ Data Plane Development Kit (DPDK) is enabled by default on VM-Series
+ firewalls on ESXi. For more information about DPDK, see Enable DPDK on ESXi . 
+
+ To achieve the best performance out of the VM-Series firewall, you can make
+ the following adjustments to the host before deploying the VM-Series
+ firewall. See Performance Tuning of the VM-Series for ESXi for more information. 
+
+ Enable DPDK . DPDK allows the host to process packets faster by
+ bypassing the Linux kernel. Instead, interactions with the NIC are
+ performed using drivers and the DPDK libraries. 
+
+ Enable SR-IOV . Single Root I/O Virtualization (SR-IOV) allows
+ a single PCIe physical device under a single root port to appear to
+ be multiple separate physical devices to the hypervisor or
+ guest. 
+
+ Do not configure a vSwitch on the physical port on which you enable
+ SR-IOV. To communicate with the host or other virtual machines on
+ the network, the VM-Series firewall must have exclusive access to
+ the physical port and associated virtual functions (VFs) on that
+ interface. 
+
+ Enable multi-queue support for NICs . Multi-queue allows
+ network performance to scale with the number of vCPUs and allows for
+ parallel packet processing by creating multiple TX and RX
+ queues. 
+
+ VM-Series on ESXi System Limitations 
+
+ The VM-Series firewall functionality is very similar to the Palo Alto
+ Networks hardware firewalls, but with the following limitations: 
+
+ Do not use the VMware snapshots functionality on the VM-Series on ESXi.
+ Snapshots can impact performance and result in intermittent and inconsistent
+ packet loss.See the VMware best practice recommendation for using snapshots . 
+
+ If you need configuration backups, use Panorama , or from the firewall,
+ use Export named configuration snapshot (Device > Set
+ up > Operations). Using Export named configuration
+ snapshot exports the firewall’s active configuration
+ ( running-config.xml ) and allows you to save it to
+ any network location. 
+
+ Dedicated CPU cores are recommended. 
+
+ High Availability (HA) Link Monitoring is not supported on VM-Series
+ firewalls on ESXi. Use Path Monitoring to verify connectivity to a target IP
+ address or to the next hop IP address. 
+
+ Up to 10 total ports can be configured; this is a VMware limitation. One port
+ is used for management traffic and up to 9 can be used for data traffic. 
+
+ Only the vmxnet3 driver is supported. 
+
+ Virtual systems are not supported. 
+
+ vMotion of the VM-Series firewall is supported on vSphere 6.5, 6.7, and 7.0
+ if the ESXi hosts have homogeneous CPU configuration. PAN-OS 9.1.6 and later
+ is required to Use vMotion to Move the VM-Series Firewall Between Hosts installed on vSphere 6.5 or
+ 6.7. 
+
+ Forged transmit and promiscuous mode must be enabled on the ESXi vSwitch port
+ groups connected to Layer 2 and vwire interfaces on the VM-Series
+ firewall. 
+
+ To use PCI devices with the VM-Series firewall on ESXi, memory mapped I/O
+ (MMIO) must be below 4GB. You can disable MMIO above 4GB in your server’s
+ BIOS. This is an ESXi limitation. 
+
+ When using ESXi 7.0, interfaces do not come up when attaching VFs to virtual
+ machines with PCI device pass-through. 
+
+ Previous 
+
+ Upgrade the PAN-OS Software Version for VM-Series NSX 
+
+ Next 
+
+ Install a VM-Series Firewall on VMware vSphere Hypervisor (ESXi) 
+
+ On This Page 
+
+ Activation and Onboarding 
+
+ Strata Cloud Manager 
+
+ Next-Generation Firewalls 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ VM-Series 
+
+ Plugins 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ AI Access Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ IPSec VPN 
+
+ Security Policy 
+
+ Quantum Security 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Resources 
+
+ All Release Notes 
+
+ Compatibility Matrix 
+
+ Experts Corner 
+
+ VM-Series 
+
+ Deployment 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

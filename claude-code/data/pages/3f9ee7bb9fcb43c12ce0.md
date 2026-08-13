@@ -1,0 +1,366 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/11-1/device/device-setup-session/decryption-settings-ssl-decryption-settings
+fetched_at: 2026-08-13T16:45:23Z
+source: palo-alto-main
+---
+
+# Decryption Settings: SSL Decryption Settings Clear
+
+Decryption Settings: SSL Decryption Settings 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Decryption Settings: SSL Decryption Settings 
+
+ Updated on 
+
+ Thu Jun 25 17:39:35 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 17:39:35 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Device 
+
+ Device > Setup > Session 
+
+ Decryption Settings: SSL Decryption Settings 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Next-Generation Firewall 
+
+ Decryption Settings: SSL Decryption Settings 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Decryption Settings: Forward Proxy Server Certificate Settings 
+
+ Next 
+
+ VPN Session Settings 
+
+ Decryption Settings: SSL Decryption Settings 
+
+ Select SSL Decryption Settings to enable inspection of SSL/TLS handshakes when
+ users navigate to websites over a decrypted HTTPS connection. The Content and Threat
+ Detection (CTD) engine on the firewall will evaluate the contents of the handshake
+ against Security policy rules, which enables the firewall to enforce the rules as early
+ in the session as possible. You must have a URL Filtering subscription, configure either
+ SSL Forward Proxy or SSL Inbound Inspection , and block specific URL
+ categories in your Security policy rules to use this feature. 
+
+ URL Filtering response pages do not display for sites that are blocked during
+ SSL/TLS handshake inspection. After detecting traffic from blocked categories,
+ the firewall resets the HTTPS connection, ending the handshake and preventing
+ user notification by response page. Instead, the browser displays a standard
+ connection error message. 
+
+ SSL Decryption Settings Description 
+
+ Send handshake messages to CTD for inspection Select to enable CTD to inspect SSL/TLS handshakes
+during decrypted web sessions. 
+
+ Previous 
+
+ Decryption Settings: Forward Proxy Server Certificate Settings 
+
+ Next 
+
+ VPN Session Settings 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ PAN-OS 
+
+ 11.1 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,576 @@
+---
+url: https://docs.paloaltonetworks.com/openconfig/1-3/openconfig-admin/telemetry-streaming/openconfig-telemetry-on-pan-os
+fetched_at: 2026-08-13T16:57:40Z
+source: palo-alto-main
+---
+
+# OpenConfig Telemetry on PAN-OS Clear
+
+OpenConfig Telemetry on PAN-OS 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ PAN-OS OpenConfig Administrator’s Guide 
+
+ : 
+ OpenConfig Telemetry on PAN-OS 
+
+ Updated on 
+
+ Tue Feb 11 16:28:28 PST 2025 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Version 
+
+ 1.3 
+
+ 1.3 
+
+ 1.2 
+
+ 1.1 
+
+ 1.0 
+
+ Expand all | Collapse all 
+
+ Getting Started 
+
+ About PAN-OS OpenConfig Support 
+
+ PAN-OS OpenConfig Model Support 
+
+ Install the OpenConfig Plugin 
+
+ PAN-OS OpenConfig Wildcard Support 
+
+ PAN-OS OpenConfig Bundling Support 
+
+ OpenConfig Models 
+
+ BGP 
+
+ BGP Behavior 
+
+ Manage BGP Routes 
+
+ Firewall Zones 
+
+ Firewall Zones Behavior 
+
+ Manage Firewall Zones 
+
+ High Availabilty 
+
+ High Availability Behavior 
+
+ Manage High Availability 
+
+ Interfaces 
+
+ Interfaces Behavior 
+
+ Manage Interfaces 
+
+ LACP 
+
+ LACP Behavior 
+
+ Manage LACP 
+
+ LLDP 
+
+ LLDP Behavior 
+
+ Manage LLDP 
+
+ Local Routes 
+
+ Local Routes Behavior 
+
+ Manage Local Routes 
+
+ Network Instances 
+
+ Network Instances Behavior 
+
+ Manage Network Instances 
+
+ OSPF Version 2 
+
+ OSPF Version 2 Behavior 
+
+ Manage OSPF Version 2 
+
+ Platform 
+
+ Platform Behavior 
+
+ Manage Platform 
+
+ Routing Policy 
+
+ Routing Policy Behavior 
+
+ Manage Routing Policies 
+
+ System 
+
+ System Behavior 
+
+ Manage System 
+
+ VLAN 
+
+ VLAN Behavior 
+
+ Manage VLANs 
+
+ Telemetry Streaming 
+
+ OpenConfig Telemetry on PAN-OS 
+
+ Updated on 
+
+ Tue Feb 11 16:28:28 PST 2025 
+
+ Focus 
+
+ Home 
+
+ OpenConfig 
+
+ PAN-OS OpenConfig Administrator’s Guide 
+
+ Telemetry Streaming 
+
+ OpenConfig Telemetry on PAN-OS 
+
+ Download PDF 
+
+ PAN-OS OpenConfig Administrator’s Guide 
+
+ OpenConfig Telemetry on PAN-OS 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 1.3 
+
+ 1.3 
+
+ 1.2 
+
+ 1.1 
+
+ 1.0 
+
+ Expand all | Collapse all 
+
+ Getting Started 
+
+ About PAN-OS OpenConfig Support 
+
+ PAN-OS OpenConfig Model Support 
+
+ Install the OpenConfig Plugin 
+
+ PAN-OS OpenConfig Wildcard Support 
+
+ PAN-OS OpenConfig Bundling Support 
+
+ OpenConfig Models 
+
+ BGP 
+
+ BGP Behavior 
+
+ Manage BGP Routes 
+
+ Firewall Zones 
+
+ Firewall Zones Behavior 
+
+ Manage Firewall Zones 
+
+ High Availabilty 
+
+ High Availability Behavior 
+
+ Manage High Availability 
+
+ Interfaces 
+
+ Interfaces Behavior 
+
+ Manage Interfaces 
+
+ LACP 
+
+ LACP Behavior 
+
+ Manage LACP 
+
+ LLDP 
+
+ LLDP Behavior 
+
+ Manage LLDP 
+
+ Local Routes 
+
+ Local Routes Behavior 
+
+ Manage Local Routes 
+
+ Network Instances 
+
+ Network Instances Behavior 
+
+ Manage Network Instances 
+
+ OSPF Version 2 
+
+ OSPF Version 2 Behavior 
+
+ Manage OSPF Version 2 
+
+ Platform 
+
+ Platform Behavior 
+
+ Manage Platform 
+
+ Routing Policy 
+
+ Routing Policy Behavior 
+
+ Manage Routing Policies 
+
+ System 
+
+ System Behavior 
+
+ Manage System 
+
+ VLAN 
+
+ VLAN Behavior 
+
+ Manage VLANs 
+
+ Telemetry Streaming 
+
+ OpenConfig Telemetry on PAN-OS 
+
+ OpenConfig Telemetry on PAN-OS 
+
+ Basics of Telemetry using the OpenConfig plugin on PAN-OS. 
+
+ The PAN-OS OpenConfig plugin supports telemetry streaming with the gNMI
+ Subscribe request. The Subscribe request support the following modes: 
+
+ Once. 
+
+ Poll. 
+
+ Stream. 
+
+ The streaming mode supports 3 different subtypes. 
+
+ On-Change 
+
+ Target Defined 
+
+ Sample 
+
+ The time difference in the examples displays how you can expect each of the subscription
+ types to react to your requests. 
+
+ See the PAN-OS OpenConfig Bundling Support topic for more information about configurability with the subscribe
+ request. 
+
+ Protobuf Formatted Subscribe Requests 
+
+ The protobuf formatted request supported for Subscribe requests can be used by
+ specifying the encoding as PROTO and the format as
+ PROTOJSON . 
+
+ The following request and output shows an example: 
+
+ gnmic -u username -p password --tls-ca $CA-CERT --tls-cert $CIENT_CERT --tls-key $ CIENT_KEY sub --encoding proto --timeout 120s --path "/interfaces/interface[name=ethernet1/2]/state" --mode once --format protojson 
+
+ The example response shows a protobuf specified response: 
+
+{
+ "update": {
+ "timestamp": "1678474283000000000",
+ "update": [
+ {
+ "path": {
+ "elem": [
+ {
+ "name": "interfaces"
+ },
+ {
+ "name": "interface",
+ "key": {
+ "name": "ethernet1/2"
+ }
+ },
+ {
+ "name": "state"
+ },
+ {
+ "name": "counters"
+ },
+ {
+ "name": "last-clear"
+ }
+ ]
+ },
+ "val": {
+ "uintVal": "0"
+ }
+ }
+ ]
+ }
+}
+
+ Once 
+
+ Similar to a Get request, a Once subscription returns a
+ singular response. The request creates a single channel to submit and receive the
+ relevant updates then closes the RPC channel. 
+
+ PAN-OS OpenConfig Model
+ Support shows which models currently support telemetry streaming. 
+
+ gnmic -u username -p password --tls-ca $CA-CERT --tls-cert $CIENT_CERT --tls-key $ CIENT_KEY -a 10.1.1.1:9339 sub --path "/interfaces/interface[name=*]"/state/oper-status --mode once -e JSON_IETF
+
+ An example response shows a one-time snapshot of the interface using
+ the Once type of subscribe request: 
+
+{
+ "source": "10.1.1.1:9339",
+ "subscription-name": "default",
+ "time": "1969-12-31T16:00:01.614649807-08:00",
+ "timestamp": 1614649807,
+ "updates": [
+ {
+ "Path": "interfaces/interface[name=ethernet1/1]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "UP"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/2]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/3]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ }
+ ]
+}
+
+ Poll 
+
+ Poll methods create a long-lived RPC connection that can
+ subscribe to a number of paths. Once you send a poll message. The response returns
+ the data requested. While the connection is still alive, the client can send
+ periodic poll requests to retrieve relevant
+ data. 
+
+ gnmic -u username -p password --tls-ca $CA-CERT --tls-cert $CIENT_CERT --tls-key $ CIENT_KEY -a 10.1.1.1:9339 sub --path "/interfaces/interface[name=*]"/state/oper-status --mode poll -e JSON_IETF
+
+ The response shows two responses in a non-standard interval time
+ setting based on when the empty poll message is sent. 
+
+{
+ "time": "1969-12-31T16:00:01.614648989-08:00",
+ "timestamp": 1614648989,
+ "updates": [
+ {
+ "Path": "interfaces/interface[name=ethernet1/1]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "UP"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/2]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/3]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ }
+ ]
+}
+
+ Both of these responses above and below happen
+ using the same request. The response also includes a received sync response
+ 'true' from '10.1.1.1:9339' to acknowledge the subscription is still
+ alive. 
+
+{
+ "time": "1969-12-31T16:00:01.614649617-08:00",
+ "timestamp": 1614649617,
+ "updates": [
+ {
+ "Path": "interfaces/interface[name=ethernet1/3]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/1]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/2]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ }
+ ]
+}
+
+ Stream 
+
+ The streaming subtypes provide a continuous flow of
+ telemetry data based on the specified subtype. Review each of the sections for the
+ subtypes to familiarize yourself with the various streaming types. 
+
+ Sample and Target Defined 
+
+ The Sample method must include the
+ --sample-interval along with the interval in seconds.
+ Alternatively, you can use --target_defined . The lowest accepted
+ interval is 5 seconds.
+
+ gnmic -u username -p password --tls-ca $CA-CERT --tls-cert $CIENT_CERT --tls-key $ CIENT_KEY -a 10.1.1.1:9339 sub --path "/interfaces/interface[name=*]"/state/oper-status --mode stream --stream-mode sample --sample-interval 10s -e JSON_IETF
+
+ The responses: 
+
+{
+ "source": "10.1.1.1:9339",
+ "subscription-name": "default",
+ "time": "1969-12-31T16:00:01.6146501-08:00",
+ "timestamp": 1614650100,
+ "updates": [
+ {
+ "Path": "interfaces/interface[name=ethernet1/1]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ }
+ ]
+}
+{
+ "source": "10.1.1.1:9339",
+ "subscription-name": "default",
+ "time": "1969-12-31T16:00:01.61465011-08:00",
+ "timestamp": 1614650110,
+ "updates": [
+ {
+ "Path": "interfaces/interface[name=ethernet1/1]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ }
+ ]
+}
+{
+ "source": "10.1.1.1:9339",
+ "subscription-name": "default",
+ "time": "1969-12-31T16:00:01.61465012-08:00",
+ "timestamp": 1614650120,
+ "updates": [
+ {
+ "Path": "interfaces/interface[name=ethernet1/1]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "UP"
+ }
+ }
+ ]
+}
+
+ On Change 
+
+ On change updates are only sent upon the update of data
+ for a specified
+ path. 
+
+ gnmic -u username -p password --tls-ca $CA-CERT --tls-cert $CIENT_CERT --tls-key $ CIENT_KEY -a 10.1.1.1:9339 sub --path "/interfaces/interface[name=*]"/state/description --mode stream --stream-mode on_change -e JSON_IETF
+
+ The firewall responds when the oper-status changes to down:
+
+ {
+ "source": "10.1.1.1:9339",
+ "subscription-name": "default",
+ "timestamp": 1614650238,
+ "time": "1969-12-31T16:00:01.614650238-08:00",
+ "updates": [
+ {
+ "Path": "interfaces/interface[name=ethernet1/1]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "UP"
+ }
+ }
+ ]
+ }
+ {
+ "source": "10.1.1.1:9339",
+ "subscription-name": "default",
+ "timestamp": 1614650294,
+ "time": "1969-12-31T16:00:01.614650294-08:00",
+ "updates": [
+ {
+ "Path": "interfaces/interface[name=ethernet1/1]/state/oper-status",
+ "values": {
+ "interfaces/interface/state/oper-status": "DOWN"
+ }
+ }
+ ]
+ }
+
+ Previous 
+
+ Telemetry Streaming 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

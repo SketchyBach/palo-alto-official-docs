@@ -1,0 +1,456 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/administration/app-id/saas-policy-recommendation/import-saas-policy-recommendation
+fetched_at: 2026-08-13T16:39:25Z
+source: palo-alto-main
+---
+
+# Import SaaS Policy Recommendation Clear
+
+Import SaaS Policy Recommendation 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Import SaaS Policy Recommendation 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ App-ID 
+
+ SaaS App-ID Policy Recommendation 
+
+ Import SaaS Policy Recommendation 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Import SaaS Policy Recommendation 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ SaaS App-ID Policy Recommendation 
+
+ Next 
+
+ Import Updated SaaS Policy Recommendation 
+
+ Import SaaS Policy Recommendation 
+
+ SaaS Security admins can push policy rule recommendations to NGFWs, enabling imported
+ rules for better visibility and control of applications in the recommended
+ policies. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access 
+
+ Next-Generation Firewall 
+
+ This is a core Network Security feature for NGFWs and Prisma
+ Access; no prerequisites needed. 
+
+ When a SaaS Security administrator pushes
+Security policy rule recommendations to a PAN-OS firewall, the PAN-OS
+firewall administrator can import those rules on the firewall to
+gain visibility into and control of the applications in the policy
+recommendation. 
+
+ See the SaaS Security Administrator’s Guide for
+the SaaS administrator’s policy recommendation and push procedures.
+This procedure shows PAN-OS administrators how to import policy
+recommendations. 
+
+ If the SaaS Security administrator
+pushes Security profiles with the policy recommendation and those
+profiles don’t exist on the firewall, the firewall import fails.
+If the profiles already exist on the firewall, the import succeeds. 
+
+ Device Policy
+Recommendation SaaS on
+the firewall and Panorama Policy Recommendation SaaS on
+Panorama show all of the SaaS policy recommendations pushed from
+the SaaS administrator. Push policy recommendations from Panorama
+to managed firewalls. 
+
+ Refresh ( 
+
+ ) Device Policy Recommendation SaaS (or Panorama Policy Recommendation SaaS )
+to ensure that the SaaS policy recommendations are up-to-date. 
+
+ Any time you push policy recommendations from Panorama
+to managed firewalls, refresh ( 
+
+ ) the page on the
+firewalls to ensure that the recommendations are up-to-date. 
+
+ Newly pushed policy recommendations appear at the top of
+the screen. Active Recommendations shows
+the value active and New Updates
+Available shows the value Yes . 
+
+ Select a new policy recommendation. 
+
+ You import one policy recommendation at a time. The Applications column
+shows an Application Group for each policy recommendation. Click
+the name of the group to see the applications in that group. 
+
+ The Device column
+shows the source device that the SaaS administrator configured for
+the rule. The term “SaaS” precedes the source device. The source
+device can be: 
+
+ MCD—Managed Compliant Device 
+
+ MNCD—Managed Non-compliant Device 
+
+ UMCD—Unmanaged Compliant Device 
+
+ UMNCD—Unmanaged Non-compliant Device 
+
+ For
+example, SaaS - MCD indicates a managed,
+compliant source device. 
+
+ Import Policy Rule . 
+
+ In the Import Policy Rule dialog: 
+
+ Name —Name the imported rule using
+a name that describes the rule’s intent. 
+
+ If you specify
+a rule name that already exists in the Security policy rulebase,
+the imported rule overwrites the existing rule. 
+
+ After Rule —Select the rule after which
+to place the imported SaaS rule. Think about the firewall’s rulebase
+and how the new rule may affect existing rules. If you do not select
+a rule ( No Rule Selection ), then the rule
+is placed at the top of the Security policy rulebase. In some cases,
+that’s not where you want to place the rule. For example, you may
+want some particular block rules to always be at the top of the rulebase,
+such as blocking QUIC protocol. Be aware of the intent of the imported
+rule and be careful not to shadow existing rules. 
+
+ The Description comes
+from the description entered when the SaaS administrator created
+the rule. You can change it or leave it as-is. 
+
+ The import
+process automatically creates an Application Group for the applications
+in the policy recommendation. The name of the Application Group
+is derived from the Name that the SaaS Security administrator gave
+to the rule. The firewall also automatically creates any HIP profiles and
+tags that the SaaS administrator applied to the rule. 
+
+ Click OK to import the rule and
+add it to the Security policy rulebase in the position selected
+in After Rule . 
+
+ When you see the status message “You’ve successfully
+updated your Security policy rules”, click OK . 
+
+ The Location column now shows the
+rule’s location (vsys) on the firewall, which corresponds to the
+vsys to which the SaaS administrator pushed the rule. 
+
+ Confirm that the imported policy rule is in the Security
+policy rulebase ( Security Policies ) at the specified
+location and that the firewall created the associated objects. 
+
+ For example, check the Security policy rule for: 
+
+ The
+rule’s Source Device is populated and shows
+the source device for the rule on the Source tab. 
+
+ The Application Group populates the rule’s Application tab. 
+
+ Associated profiles are attached to the rule ( Actions tab). 
+
+ Also
+check that: 
+
+ Objects Applications Group shows the
+imported Application Group. 
+
+ Objects GlobalProtect HIP Objects and Objects GlobalProtect HIP Profiles show the HIP information
+pushed from the SaaS Security administrator with the rule. 
+
+ Previous 
+
+ SaaS App-ID Policy Recommendation 
+
+ Next 
+
+ Import Updated SaaS Policy Recommendation 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

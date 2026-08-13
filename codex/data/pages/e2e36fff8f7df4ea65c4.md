@@ -1,0 +1,455 @@
+---
+url: https://docs.paloaltonetworks.com/best-practices/10-2/data-center-best-practices/data-center-best-practice-security-policy/how-do-i-deploy-a-data-center-best-practice-security-policy
+fetched_at: 2026-08-13T15:30:17Z
+source: palo-alto-main
+---
+
+# How Do I Deploy a Data Center Best Practice Security Policy? Clear
+
+How Do I Deploy a Data Center Best Practice Security Policy? 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Data Center Best Practice Security Policy 
+
+ : 
+ How Do I Deploy a Data Center Best Practice Security Policy? 
+
+ Updated on 
+
+ Dec 12, 2023 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Filter
+
+ Version 
+
+ 10.2 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Data Center Security Policy Best Practices Checklist 
+
+ Plan Your Data Center Best Practice Deployment 
+
+ Deploy Data Center Best Practices 
+
+ Global Data Center Objects, Policies, and Actions 
+
+ User Data Center Traffic Policies 
+
+ Internet-to-Data-Center Traffic Policies 
+
+ Data-Center-to-Internet Traffic Policies 
+
+ Intra-Data-Center Traffic Policies 
+
+ Data Center Security Policy Rulebase Order 
+
+ Follow Post-Deployment Data Center Best Practices 
+
+ Data Center Best Practice Security Policy 
+
+ What Is a Data Center Best Practice Security Policy? 
+
+ Why Do I Need a Data Center Best Practice Security Policy? 
+
+ Data Center Best Practice Methodology 
+
+ How Do I Deploy a Data Center Best Practice Security Policy? 
+
+ How to Assess Your Data Center 
+
+ How to Decrypt Data Center Traffic 
+
+ Create the Data Center Best Practice Decryption Profiles 
+
+ Exclude Unsuitable Traffic from Data Center Decryption 
+
+ Create a Data Center Segmentation Strategy 
+
+ How to Segment the Data Center 
+
+ How to Segment Data Center Applications 
+
+ How to Create Data Center Best Practice Security Profiles 
+
+ Create the Data Center Best Practice Antivirus Profile 
+
+ Create the Data Center Best Practice Anti-Spyware Profile 
+
+ Create the Data Center Best Practice Vulnerability Protection Profile 
+
+ Create the Data Center Best Practice File Blocking Profile 
+
+ Create the Data Center Best Practice WildFire Analysis Profile 
+
+ Use Cortex XDR Agent to Protect Data Center Endpoints 
+
+ Create Data Center Traffic Block Rules 
+
+ Define the Initial User-to-Data-Center Traffic Security Policy 
+
+ User-to-Data-Center Traffic Security Approaches 
+
+ Create User-to-Data-Center Application Allow Rules 
+
+ Create User-to-Data-Center Authentication Policy Rules 
+
+ Create User-to-Data-Center Decryption Policy Rules 
+
+ Define the Initial Internet-to-Data-Center Traffic Security Policy 
+
+ Internet-to-Data-Center Traffic Security Approach 
+
+ Create Internet-to-Data-Center Application Allow Rules 
+
+ Create Internet-to-Data-Center Decryption Policy Rules 
+
+ Create Internet-to-Data-Center DoS Protection Policy Rules 
+
+ Define the Initial Data-Center-to-Internet Traffic Security Policy 
+
+ Data-Center-to-Internet Traffic Security Approaches 
+
+ Create Data-Center-to-Internet Application Allow Rules 
+
+ Create Data-Center-to-Internet Decryption Policy Rules 
+
+ Define the Initial Intra-Data-Center Traffic Security Policy 
+
+ Intra-Data-Center Traffic Security Approach 
+
+ Create Intra-Data-Center Application Allow Rules 
+
+ Create Intra-Data-Center Decryption Policy Rules 
+
+ Order the Data Center Security Policy Rulebase 
+
+ Log and Monitor Data Center Traffic 
+
+ What Data Center Traffic to Log and Monitor 
+
+ Monitor Data Center Block Rules and Tune the Rulebase 
+
+ Log Intra Data Center Traffic That Matches the Intrazone Allow Rule 
+
+ Log Data Center Traffic That Matches No Interzone Rules 
+
+ Maintain the Data Center Best Practice Rulebase 
+
+ Use Palo Alto Networks Assessment and Review Tools 
+
+ Updated on 
+
+ Dec 12, 2023 
+
+ Focus 
+
+ Home 
+
+ Best Practices 
+
+ Data Center Best Practice Security Policy 
+
+ Data Center Best Practice Security Policy 
+
+ How Do I Deploy a Data Center Best Practice Security Policy? 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Data Center Best Practice Security Policy 
+
+ How Do I Deploy a Data Center Best Practice Security Policy? 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 10.2 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Data Center Security Policy Best Practices Checklist 
+
+ Plan Your Data Center Best Practice Deployment 
+
+ Deploy Data Center Best Practices 
+
+ Global Data Center Objects, Policies, and Actions 
+
+ User Data Center Traffic Policies 
+
+ Internet-to-Data-Center Traffic Policies 
+
+ Data-Center-to-Internet Traffic Policies 
+
+ Intra-Data-Center Traffic Policies 
+
+ Data Center Security Policy Rulebase Order 
+
+ Follow Post-Deployment Data Center Best Practices 
+
+ Data Center Best Practice Security Policy 
+
+ What Is a Data Center Best Practice Security Policy? 
+
+ Why Do I Need a Data Center Best Practice Security Policy? 
+
+ Data Center Best Practice Methodology 
+
+ How Do I Deploy a Data Center Best Practice Security Policy? 
+
+ How to Assess Your Data Center 
+
+ How to Decrypt Data Center Traffic 
+
+ Create the Data Center Best Practice Decryption Profiles 
+
+ Exclude Unsuitable Traffic from Data Center Decryption 
+
+ Create a Data Center Segmentation Strategy 
+
+ How to Segment the Data Center 
+
+ How to Segment Data Center Applications 
+
+ How to Create Data Center Best Practice Security Profiles 
+
+ Create the Data Center Best Practice Antivirus Profile 
+
+ Create the Data Center Best Practice Anti-Spyware Profile 
+
+ Create the Data Center Best Practice Vulnerability Protection Profile 
+
+ Create the Data Center Best Practice File Blocking Profile 
+
+ Create the Data Center Best Practice WildFire Analysis Profile 
+
+ Use Cortex XDR Agent to Protect Data Center Endpoints 
+
+ Create Data Center Traffic Block Rules 
+
+ Define the Initial User-to-Data-Center Traffic Security Policy 
+
+ User-to-Data-Center Traffic Security Approaches 
+
+ Create User-to-Data-Center Application Allow Rules 
+
+ Create User-to-Data-Center Authentication Policy Rules 
+
+ Create User-to-Data-Center Decryption Policy Rules 
+
+ Define the Initial Internet-to-Data-Center Traffic Security Policy 
+
+ Internet-to-Data-Center Traffic Security Approach 
+
+ Create Internet-to-Data-Center Application Allow Rules 
+
+ Create Internet-to-Data-Center Decryption Policy Rules 
+
+ Create Internet-to-Data-Center DoS Protection Policy Rules 
+
+ Define the Initial Data-Center-to-Internet Traffic Security Policy 
+
+ Data-Center-to-Internet Traffic Security Approaches 
+
+ Create Data-Center-to-Internet Application Allow Rules 
+
+ Create Data-Center-to-Internet Decryption Policy Rules 
+
+ Define the Initial Intra-Data-Center Traffic Security Policy 
+
+ Intra-Data-Center Traffic Security Approach 
+
+ Create Intra-Data-Center Application Allow Rules 
+
+ Create Intra-Data-Center Decryption Policy Rules 
+
+ Order the Data Center Security Policy Rulebase 
+
+ Log and Monitor Data Center Traffic 
+
+ What Data Center Traffic to Log and Monitor 
+
+ Monitor Data Center Block Rules and Tune the Rulebase 
+
+ Log Intra Data Center Traffic That Matches the Intrazone Allow Rule 
+
+ Log Data Center Traffic That Matches No Interzone Rules 
+
+ Maintain the Data Center Best Practice Rulebase 
+
+ Use Palo Alto Networks Assessment and Review Tools 
+
+ How Do I Deploy a Data Center Best Practice Security Policy? 
+
+ Learn how to create and implement a best practice data
+center security policy that protects your most valuable assets. 
+
+ The workflow for implementing a data center best practice
+security policy is to learn about your data center network, its
+assets, and the firewall’s threat prevention capabilities, and then
+create initial security policy rules based on that information,
+protecting your most valuable assets first. 
+
+ How
+to Assess Your Data Center —Identify and prioritize the assets
+to protect, the biggest threats to those assets, and the applications
+and users sanctioned for access. 
+
+ How
+to Decrypt Data Center Traffic —You can’t protect your network
+against threats you can’t see. Encrypted traffic is a common method
+for attackers to deliver threats. 
+
+ Create
+a Data Center Segmentation Strategy —Segmenting your data
+center prevents an adversary who gains a foothold in the data center
+from moving laterally to other areas. 
+
+ How
+to Create Data Center Best Practice Security Profiles —Legitimate
+applications can deliver command and control malware, common vulnerabilities
+and exposures (CVEs), drive-by downloads of malicious content, phishing
+attacks, and APTs. Best practice Security Profiles protect allowed
+traffic from known and unknown threats for all four data center
+traffic flows. 
+
+ Use
+Cortex XDR Agent to Protect Data Center Endpoints —Firewalls
+protect against threats that traverse the network. But threats that
+execute on an endpoint don’t cross the network, so they don’t traverse a
+firewall. Install Cortex XDR Agent on every endpoint to protect
+against threats on the endpoints themselves. 
+
+ Create
+Data Center Traffic Block Rules —Block known malicious IP
+addresses, applications that attackers commonly exploit, applications
+designed to evade or bypass security, and applications that you don’t
+need for business purposes in the data center. 
+
+ Define
+the Initial User-to-Data-Center Traffic Security Policy —Unauthorized
+access poses a huge risk to the valuable information inside the
+data center. Because employees and other users on the internal corporate
+network are often trusted, security precautions may be lax. The
+user population and the data center may even be on one flat network.
+Tightly control who can access the data center, the assets different
+user groups can access, and the level of access different user groups
+have to applications. 
+
+ Define
+the Initial Internet-to-Data-Center Traffic Security Policy —Protect
+data center servers from malicious internet traffic. Exploiting
+server-side vulnerabilities opens the data center to attack and
+puts partners at risk because a compromised data center server could
+serve exploits to third-party clients. 
+
+ Define
+the Initial Data-Center-to-Internet Traffic Security Policy —Command-and-control
+malware hiding on an infected internet-connected server can use
+legitimate applications to download more malware. Prevent applications
+from using non-standard ports, permit transfers of only the file
+types that each application should legitimately use, and block URL
+categories for malware, phishing, proxy anonymizer, peer-to-peer,
+and other potentially malicious URL categories. 
+
+ Define
+the Initial Intra-Data-Center Traffic Security Policy (East-West
+Traffic)—Threats from within the data center are often overlooked
+because no user traffic originates there and within the data center is
+considered as trusted. However, if an attacker compromises a data
+center server, communication between servers and VMs can spread
+malware. The best practice Security policy prevents attackers from
+moving laterally through the data center and compromising more systems
+or exfiltrating data. 
+
+ Log
+and Monitor Data Center Traffic — Logging and monitoring allowed
+and blocked traffic provides information at all stages of the transition
+to and maintenance of your data center best practice security policy.
+It reveals the applications, users, and traffic patterns on your
+network, including those you may not have known were there. This
+information helps you investigate potential security issues. 
+
+ Maintain
+the Data Center Best Practice Rulebase —Continually monitor
+your application allow list so that you can adapt your rules to
+accommodate new sanctioned applications and determine how new or modified
+App-IDs impact your policy. 
+
+ Order
+the Data Center Security Policy Rulebase summarizes the Security
+policy rulebase. 
+
+ Previous 
+
+ Data Center Best Practice Methodology 
+
+ Next 
+
+ How to Assess Your Data Center 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

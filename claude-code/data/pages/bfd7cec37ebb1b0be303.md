@@ -1,0 +1,299 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-sd-wan/new-features/by-date/prisma-sd-wan/september-2025#0cea42253a48f6797d710251f3ccf528
+fetched_at: 2026-08-13T17:31:16Z
+source: palo-alto-main
+---
+
+# New Features - Prisma SD-WAN - September 2025 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+New Features - Prisma SD-WAN - September 2025 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ CloudBlades 
+
+ Select a Document 
+
+ CloudBlade Integrations 
+
+ CloudBlades Integration with Prisma Access 
+
+ Deployment 
+
+ Incidents & Alerts 
+
+ Reference 
+
+ Release Notes 
+
+ Select a Document 
+
+ ION 6.8 
+
+ ION 6.6 
+
+ ION 6.5 
+
+ ION 6.4 
+
+ ION 6.3 
+
+ ION 6.1 
+
+ ION 5.6 
+
+ Prisma SD-WAN Controller 
+
+ Prisma SD-WAN On-Premises Controller 
+
+ Prisma SD-WAN CloudBlades 
+
+ Prisma Access CloudBlade Cloud Managed 
+
+ Prisma Access CloudBlade Panorama Managed 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ Prisma SD-WAN 
+
+ New Features - Prisma SD-WAN - September 2025 
+
+ IPv6 for BGP Support 
+
+ Release Date: September 2025 
+ | 
+ Last Updated: May 2026 
+
+ To configure dynamic routing using Border Gateway Protocol ( BGP ) for your branch or data center, use the following guidelines. This BGP capability allows your ION devices to integrate seamlessly with existing network routing infrastructure. 
+
+ To peer with a BGP router via the private WAN interface, enable L3 Direct Private WAN Forwarding. You must enable L3 Direct Private WAN Forwarding and L3 LAN Forwarding to use dynamic LAN routing. 
+
+ The configuration you use on a branch ION device is identical to the data center's configuration, with the exception of prefix advertisement in a branch and additional core and edge peers in a data center. You can now use IPv6 for BGP with Prisma SD-WAN (available in software version 5.5 and later). 
+
+ Prisma SD-WAN
+
+ ION Device
+
+ September 2025
+
+ Prisma SD-WAN
+
+ Core
+
+ September 2025
+
+ VRF- Support for Standard VPN, NTP, Syslog, and SNMP 
+
+ Release Date: September 2025 
+ | 
+ Last Updated: May 2026 
+
+ Prisma SD-WAN now supports Standard VPNs for existing Virtual Routing and Forwarding tables (VRFs) tables. This new feature enables robust network segmentation by quickly associating a Standard VPN with any VRF, such as the Guest VRF. 
+
+ Implement traffic steering in two ways: 
+
+ For specific traffic : To redirect traffic from a specific VRF to the Standard VPN, simply configure path policies. 
+
+ For all VRF traffic : When all user traffic across multiple VRFs must utilize the Standard VPN, first, configure a route leak to ensure basic L3 reachability. Once reachability is established, apply path policies for more granular traffic engineering and Quality of Service (QoS) control. 
+
+ Prisma SD-WAN
+
+ Core
+
+ September 2025
+
+ Prisma SD-WAN
+
+ September 2025
+
+ Virtual Routing Forwarding for WAN Segmentation 
+
+ Release Date: September 2025 
+ | 
+ Last Updated: May 2026 
+
+ Prisma SD-WAN supports Virtual Routing and Forwarding ( VRF ) to provide secure WAN segmentation of application traffic. This capability is valuable when you need to isolate traffic for different business units or customers who share the same WAN infrastructure. 
+
+ To configure segmentation, you must first define WAN Segments in global VRF profiles. 
+
+ You then bind these VRF profiles to sites and configure interfaces with the appropriate VRF. When traffic enters the interface, it only considers destinations that have the same VRF locally or across the fabric. If the traffic is destined to go across the fabric, the Prisma SD-WAN device automatically encapsulates the traffic with a unique VRF-specific identifier. When the traffic reaches the remote ION, it egresses onto the configured VRF. 
+
+ Prisma SD-WAN
+
+ Core
+
+ September 2025
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ FedRAMP 
+
+ Prisma SASE for FedRAMP 
+
+ Hardware Reference 
+
+ ION 1000 
+
+ ION 1200 
+
+ ION 1200-S 
+
+ ION 2000 
+
+ ION 3000 
+
+ ION 3200 and ION 3200H 
+
+ ION 5200 
+
+ ION 7000 
+
+ ION 9000 
+
+ ION 9200 
+
+ Hardware Quick Start Guides 
+
+ ION 1200 
+
+ ION 1200 4G 
+
+ ION 1200 5G 
+
+ ION 1200-S 
+
+ ION 1200-S 4G 
+
+ ION 1200-S 5G 
+
+ ION 3200 
+
+ ION 3200H 
+
+ ION 3200H 5G 
+
+ ION 5200 
+
+ ION 9200 
+
+ Virtual ION Deployment 
+
+ Virtual ION on AWS 
+
+ Virtual ION on Azure 
+
+ Virtual ION on GCP 
+
+ Virtual ION on Alibaba Cloud 
+
+ Virtual ION on KVM for NFV 
+
+ Virtual ION on OCI 
+
+ Virtual ION on VMware 
+
+ Virtual ION on Megaport Virtual Edge 
+
+ Virtual ION on Dell PowerEdge 
+
+ Prisma SD-WAN Integration 
+
+ AWS Cloud-WAN Integration (GRE Connect) 
+
+ AWS Cloud-WAN Integration (Tunnel-less Connect) 
+
+ Checkpoint Integration 
+
+ LiveAction Integration 
+
+ Netskope Integration 
+
+ Symantec Web Security Services Integration 
+
+ Prisma SD-WAN Experts Corner 
+
+ Network Policy 
+
+ QoS Whitepaper 
+
+ Security Architecture Whitepaper 
+
+ External Antennas for ION-C Series 
+
+ Dynamic Path Selection 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Resources 
+
+ All Products A - Z 
+
+ Compatibility Matrix 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

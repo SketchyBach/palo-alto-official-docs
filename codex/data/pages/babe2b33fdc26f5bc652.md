@@ -1,0 +1,256 @@
+---
+url: https://docs.paloaltonetworks.com/vm-series/deployment/private-cloud/set-up-the-vm-series-firewall-on-nsx/deploy-the-vm-series-firewall-on-nsx-t-east-west/install-the-panorama-plugin-for-vmware-nsx-t-ew
+fetched_at: 2026-08-13T17:41:33Z
+source: palo-alto-main
+---
+
+# Install the Panorama Plugin for VMware NSX Clear
+
+Install the Panorama Plugin for VMware NSX 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Install the Panorama Plugin for VMware NSX 
+
+ Updated on 
+
+ Fri Jun 19 07:13:50 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ VM-Series Firewall Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Upgrade 
+
+ Deployment 
+
+ Select a Document 
+
+ Public Cloud 
+
+ Private Cloud 
+
+ Updated on 
+
+ Fri Jun 19 07:13:50 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ VM-Series 
+
+ VM-Series Firewall on VMware NSX-T 
+
+ Deploy the VM-Series Using the Operations-Centric Workflow 
+
+ Install the Panorama Plugin for VMware NSX 
+
+ Download PDF 
+
+ VM-Series 
+
+ Install the Panorama Plugin for VMware NSX 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ VM-Series Firewall Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Upgrade 
+
+ Deployment 
+
+ Select a Document 
+
+ Public Cloud 
+
+ Private Cloud 
+
+ Previous 
+
+ Deploy the VM-Series Using the Operations-Centric Workflow 
+
+ Next 
+
+ Enable Communication Between NSX-T Manager and Panorama 
+
+ Install the Panorama Plugin for VMware NSX 
+
+ This section describes the key parameters and procedure for installing the Panorama
+ plugin for VMware NSX. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ VMware NSX 
+
+ VM-Series Firewall License (BYOL) 
+
+ Panorama 
+
+ VM-Series plugin 
+
+ Panorama plugin for NSX 
+
+ Download and install the Panorama plugin for VMware NSX. See the Compatibility Matrix before installing or
+ upgrading your plugin. 
+
+ If you have a Panorama HA configuration, repeat this installation process on each Panorama peer.
+ When installing the plugin on Panorama HA peers, install the plugin on the passive
+ peer before the active peer. After installing the plugin on the passive peer, it
+ will transition to a nonfunctional state. Installing the plugin on the active peer
+ returns the passive peer to a functional state. 
+
+ If you have a standalone Panorama or two Panorama appliances installed in an HA pair with
+ multiple plugins installed, plugins might not receive updated IP-tag information if
+ one or more of the plugins is not configured. This occurs because Panorama won’t
+ forward IP-tag information to unconfigured plugins. Additionally, this issue can
+ occur if one or more of the Panorama plugins is not in the Registered or Success
+ state (positive state differs on each plugin). Ensure that your plugins are in the
+ positive state before continuing or executing the commands described below. 
+
+ If
+you encounter this issue, there are two workarounds: 
+
+ Uninstall the unconfigured plugin or plugins. It is recommended that you don’t install a plugin
+ that you don’t plan to configure right away 
+
+ You can use the following commands to work around this issue. Execute the following command
+ for each unconfigured plugin on each Panorama instance to prevent Panorama
+ from waiting to send updates. If you don’t, your firewalls may lose some
+ IP-tag information. 
+ request plugins dau plugin-name
+ <plugin-name> unblock-device-push yes 
+ You can cancel this
+ command by executing: 
+ request plugins dau plugin-name
+ <plugin-name> unblock-device-push no 
+
+ The
+commands described are not persistent across reboots and must be
+used again for any subsequent reboots. For Panorama in HA pair,
+the commands must be executed on each Panorama. 
+
+ Select Panorama Plugins . 
+
+ Select Check Now to retrieve a
+list of available updates. 
+
+ Select Download in the Action
+column to download the plugin. 
+
+ Select the version of the plugin and click Install in
+the Action column to install the plugin. Panorama will alert you
+when the installation is complete. 
+
+ Previous 
+
+ Deploy the VM-Series Using the Operations-Centric Workflow 
+
+ Next 
+
+ Enable Communication Between NSX-T Manager and Panorama 
+
+ On This Page 
+
+ Activation and Onboarding 
+
+ Strata Cloud Manager 
+
+ Next-Generation Firewalls 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ VM-Series 
+
+ Plugins 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ AI Access Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ IPSec VPN 
+
+ Security Policy 
+
+ Quantum Security 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Resources 
+
+ All Release Notes 
+
+ Compatibility Matrix 
+
+ Experts Corner 
+
+ Network Security 
+
+ Deployment 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

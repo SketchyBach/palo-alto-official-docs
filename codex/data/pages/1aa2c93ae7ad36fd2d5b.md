@@ -1,0 +1,437 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/zone-protection-and-dos-protection/configure-zone-protection-to-increase-network-security/configure-ethernet-sgt-protection
+fetched_at: 2026-08-13T17:05:33Z
+source: palo-alto-main
+---
+
+# Configure Ethernet SGT Protection Clear
+
+Configure Ethernet SGT Protection 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Configure Ethernet SGT Protection 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Zone Protection and DoS Protection 
+
+ Zone Defense 
+
+ Zone Protection Profiles 
+
+ Configure Ethernet SGT Protection 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Configure Ethernet SGT Protection 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Use Case: Non-IP Protocol Protection Within a Security Zone on Layer 2 Interfaces 
+
+ Next 
+
+ Packet Buffer Protection 
+
+ Configure Ethernet SGT Protection 
+
+ In a Cisco TrustSec network, employ Zone Protection based on dropping packets that
+ contain specific security group tags (SGTs) in the 802.1Q header. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ One of these licenses when using Strata Cloud Manager 
+
+ Strata Cloud Manager Essentials 
+
+ Strata Cloud Manager Pro 
+
+ Use the following task to configure an Ethernet SGT Protection profile. 
+
+ PAN-OS & Panorama 
+
+ Strata Cloud Manager 
+
+ Configure Ethernet SGT Protection (PAN-OS) 
+
+ Procedure for configuring an Ethernet SGT protection profile in PAN-OS and
+ Panorama. 
+
+ Create a Zone Protection profile to provide Ethernet SGT Protection. 
+
+ Select Network Network Profiles Zone Protection . 
+
+ Add a Zone Protection profile by
+ Name . 
+
+ Select Ethernet SGT Protection . 
+
+ Add a Layer 2 SGT Exclude
+ List by name. 
+
+ Enter one or more Tag values for the list; range
+ is 0 to 65,535. You can enter individual entries that are a contiguous
+ range of tag values (for example, 100-500). You can add up to 100
+ (individual or range) tag entries in an Exclude List. 
+
+ Enable the Layer 2 SGT Exclude List. You can
+ disable the list at any time. 
+
+ Click OK . 
+
+ Apply the Zone Protection profile to the security zone to which the Layer 2,
+ virtual wire, or tap interfaces belong. 
+
+ Select Network Zones . 
+
+ Add a zone. 
+
+ Enter the Name of the zone. 
+
+ For Location , select the virtual system where
+ the zone applies. 
+
+ For Type , select Layer2 ,
+ Virtual Wire , or Tap .
+
+ Add an Interface that
+ belongs to the zone. 
+
+ For Zone Protection Profile , select the profile
+ you created. 
+
+ Click OK . 
+
+ Commit . 
+
+ View the global counter of packets that the firewall dropped as a result of all
+ Zone Protection profiles that employ Ethernet SGT Protection. 
+
+ Access the CLI . 
+
+ > show counter global name
+ pan_flow_dos_l2_sec_tag_drop 
+
+ Configure Ethernet SGT Protection (SCM) 
+
+ Procedure for configuring an Ethernet SGT protection profile in Strata Cloud
+ Manager. 
+
+ Log in to Strata Cloud Manager . 
+
+ Select Manage Configuration NGFW and Prisma Access Security Services DoS Protection Configuration NGFW and Prisma Access Security Services DoS Protection and select the Configuration Scope where you want to create the
+ Zone Protection profile. 
+
+ You can select a folder or firewall from your Folders 
+ or select Snippets to configure the Zone Protection
+ profile in a snippet. 
+
+ Navigate to the Zone Protection Profiles and
+ Add Profile . 
+
+ Enter a descriptive Name . 
+
+ ( Optional ) Enter a Description . 
+
+ Select Ethernet SGT . 
+
+ Add a Layer 2 SGT Exclude List by name. 
+
+ Enter one or more Tag values for the list. 
+
+ Range is 0 to 65,535 . You can
+ enter individual entries that are a contiguous range of tag values (for
+ example, 100 - 500 ). You can add
+ up to 100 (individual or range) tag entries in an Exclude List. 
+
+ Enable the Layer 2 SGT Exclude List. 
+
+ Layer 2 SGT Exclude Lists are enabled by default when added. 
+
+ You can modify an existing Zone Protection profile to disable a specific
+ Layer 2 SGT Exclude List from enforcement. 
+
+ Save . 
+
+ Previous 
+
+ Use Case: Non-IP Protocol Protection Within a Security Zone on Layer 2 Interfaces 
+
+ Next 
+
+ Packet Buffer Protection 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

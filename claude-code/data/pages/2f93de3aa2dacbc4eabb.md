@@ -1,0 +1,349 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-networking-admin/session-settings-and-timeouts/tcp/tcp-split-handshake-drop
+fetched_at: 2026-08-13T17:06:26Z
+source: palo-alto-main
+---
+
+# Unverified
+RST Timer Clear
+
+Unverified
+RST Timer 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Unverified
+RST Timer 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Session Settings and Timeouts 
+
+ TCP 
+
+ Unverified
+RST Timer 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Unverified
+RST Timer 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ TCP Half Closed and TCP Time Wait Timers 
+
+ Next 
+
+ TCP Split Handshake Drop 
+
+ Unverified
+RST Timer 
+
+ Understand the Unverified Reset timer and the possible outcomes of a Reset (RST)
+ packet. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ If the firewall receives a Reset (RST) packet that cannot
+be verified (because it has an unexpected sequence number within
+the TCP window or it is from an asymmetric path), the Unverified
+RST timer controls the aging out of the session. It defaults to 30
+seconds; the range is 1-600 seconds. The Unverified RST timer provides
+an additional security measure, explained in the second bullet below. 
+
+ A RST packet will have one of three possible outcomes: 
+
+ A RST packet that falls outside the TCP window is dropped. 
+
+ A RST packet that falls inside the TCP window but does not
+have the exact expected sequence number is unverified and subject
+to the Unverified RST timer setting. This behavior helps prevent
+denial of service (DoS) attacks where the attack tries to disrupt
+existing sessions by sending random RST packets to the firewall. 
+
+ A RST packet that falls within the TCP window and has the
+exact expected sequence number is subject to the TCP Time Wait timer
+setting. 
+
+ Previous 
+
+ TCP Half Closed and TCP Time Wait Timers 
+
+ Next 
+
+ TCP Split Handshake Drop 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Networking 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

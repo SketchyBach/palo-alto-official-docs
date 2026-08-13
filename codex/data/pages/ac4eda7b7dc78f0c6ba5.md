@@ -1,0 +1,393 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-1/web-interface-basics/features-and-benefits
+fetched_at: 2026-08-13T16:51:13Z
+source: palo-alto-main
+---
+
+# Features and Benefits Clear
+
+Features and Benefits 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Features and Benefits 
+
+ Updated on 
+
+ Thu Jun 25 18:50:04 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jun 25 18:50:04 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Web Interface Basics 
+
+ Features and Benefits 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Features and Benefits 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Firewall Overview 
+
+ Next 
+
+ Last Login Time and Failed Login Attempts 
+
+ Features and Benefits 
+
+ The Palo Alto Networks next-generation firewalls provide
+granular control over the traffic allowed to access your network.
+The primary features and benefits include: 
+
+ Application-based policy enforcement (App-ID ™ ) —Access
+control according to application type is far more effective when
+application identification is based on more than just protocol and
+port number. The App-ID service can block high risk applications,
+as well as high risk behavior, such as file-sharing, and traffic
+encrypted with the Secure Sockets Layer (SSL) protocol can be decrypted
+and inspected. 
+
+ User identification (User-ID™) —The User-ID feature
+allows administrators to configure and enforce firewall policies
+based on users and user groups instead of or in addition to network
+zones and addresses. The firewall can communicate with many directory
+servers, such as Microsoft Active Directory, eDirectory, SunOne,
+OpenLDAP, and most other LDAP-based directory servers to provide
+user and group information to the firewall. You can then use this
+information for secure application enablement that can be defined
+per user or group. For example, the administrator could allow one
+organization to use a web-based application but not allow any other
+organizations in the company to use that same application. You can
+also configure granular control of certain components of an application
+based on users and groups (see User
+Identification ). 
+
+ Threat prevention —Threat prevention services that
+protect the network from viruses, worms, spyware, and other malicious
+traffic can be varied by application and traffic source (see Objects
+> Security Profiles ). 
+
+ URL filtering —Outbound connections can be filtered
+to prevent access to inappropriate web sites (see Objects
+> Security Profiles > URL Filtering ). 
+
+ Traffic visibility —Extensive reports, logs, and notification
+mechanisms provide detailed visibility into network application
+traffic and security events. The Application Command Center (ACC)
+in the web interface identifies the applications with the most traffic
+and the highest security risk (see Monitor ). 
+
+ Networking versatility and speed —The Palo Alto Networks
+firewall can augment or replace your existing firewall and can be
+installed transparently in any network or configured to support
+a switched or routed environment. Multigigabit speeds and a single-pass
+architecture provide these services to you with little or no impact
+on network latency. 
+
+ GlobalProtect —The GlobalProtect™ software provides
+security for client systems, such as laptops that are used in the
+field, by allowing easy and secure login from anywhere in the world. 
+
+ Fail-safe operation —High availability (HA) support
+provides automatic failover in the event of any hardware or software
+disruption (see Device
+> Virtual Systems ). 
+
+ Malware analysis and reporting —The WildFire™ cloud-based
+analysis service provides detailed analysis and reporting on malware
+that passes through the firewall. Integration with the AutoFocus™
+threat intelligence service allows you to assess the risk associated
+with your network traffic at organization, industry, and global
+levels. 
+
+ VM-Series firewall —A VM-Series firewall provides a
+virtual instance of PAN-OS® positioned for use in a virtualized
+data center environment and is ideal for your private, public, and
+hybrid cloud computing environments. 
+
+ Management and Panorama —You can manage each firewall
+through an intuitive web interface or through a command-line interface
+(CLI) or you can centrally manage all firewalls through the Panorama™
+centralized management system, which has a web interface very similar
+to the web interface on Palo Alto Networks firewalls. 
+
+ Previous 
+
+ Firewall Overview 
+
+ Next 
+
+ Last Login Time and Failed Login Attempts 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ 12.1 
+
+ Help 
+
+ Web Interface 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

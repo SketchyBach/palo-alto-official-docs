@@ -1,0 +1,494 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/zone-protection-and-dos-protection/zone-defense/packet-buffer-protection
+fetched_at: 2026-08-13T17:05:37Z
+source: palo-alto-main
+---
+
+# Packet Buffer Protection Clear
+
+Packet Buffer Protection 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Packet Buffer Protection 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Zone Protection and DoS Protection 
+
+ Zone Defense 
+
+ Packet Buffer Protection 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Packet Buffer Protection 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configure Ethernet SGT Protection 
+
+ Next 
+
+ Configure Packet Buffer Protection 
+
+ Packet Buffer Protection 
+
+ Protect the firewall’s packet buffers from single-session
+DoS attacks that attempt to take down the firewall. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ No prerequisites needed 
+
+ Packet Buffer Protection defends your firewall and network
+from single session DoS attacks that can overwhelm the firewall’s
+packet buffer and cause legitimate traffic to drop. Although you
+don’t configure Packet Buffer Protection in a Zone Protection profile
+or in a DoS Protection profile or policy rule, Packet Buffer Protection
+defends ingress zones. While zone and DoS protection apply to new
+sessions (connections) and are granular, Packet Buffer Protection
+applies to existing sessions and is global. 
+
+ You Configure Packet Buffer Protection globally to
+protect the entire firewall and you also enable Packet Buffer Protection
+on each zone to protect zones: 
+
+ Global Packet Buffer Protection —The firewall monitors
+sessions from all zones (regardless of whether Packet Buffer Protection
+is enabled in a zone) and how those sessions utilize the packet
+buffer. You must configure Packet Buffer Protection globally ( Device Setup Session
+Settings ) to protect the firewall and
+to enable it on individual zones. When packet buffer consumption
+reaches the configured Activate percentage,
+the firewall used Random Early Drop (RED) to drop packets from the
+offending sessions (the firewall doesn’t drop complete sessions
+at the global level). 
+
+ Per-Zone Packet Buffer Protection —Enable Packet Buffer
+Protection on each zone ( Network Zones ) to layer in a second
+level of protection. When packet buffer consumption crosses the Activate threshold
+and global protection begins to apply RED to session traffic, that
+starts the Block Hold Time timer. The Block
+Hold Time is the amount of time in seconds that the
+offending session can continue before the firewall blocks the entire
+session. The offending session remains blocked until the Block
+Duration time expires. 
+
+ You must enable Packet
+Buffer Protection globally in order for it to be active in zones. 
+
+ There are two types of packet buffer protection: 
+
+ Packet Buffer Protection Based on Buffer Utilization 
+
+ Packet Buffer Protection Based on Latency 
+
+ Packet Buffer
+Protection Based on Buffer Utilization 
+
+ Packet Buffer Protection based on buffer utilization is enabled by default. Take baseline
+ measurements of firewall packet buffer utilization over a period of time until
+ you’re comfortable that you understand typical usage. Take measurements for at least
+ one business week; however, a longer measurement period provides a better baseline.
+ To see packet buffer utilization for a specified period of time, use the operational
+ CLI command:
+
+ admin1138@thxvm1>show running resource-monitor [day | hour | minute | second | week] 
+ The
+ CLI command provides a snapshot of buffer utilization for the specified period of
+ time, but is neither automated nor continuous. To automate continuous packet buffer
+ utilization measurements so you can monitor changes in behavior and anomalous
+ events, use a script. 
+
+ If baseline measurements
+consistently show abnormally high packet buffer utilization, then
+the firewall’s capacity may be undersized for typical traffic loads.
+In this case, consider resizing the firewall deployment. Otherwise,
+you need to tune the Packet Buffer Protection thresholds carefully
+to prevent impacted buffers from overflowing (and to prevent dropping
+legitimate traffic). When firewall sizing is correct for the deployment,
+only an attack should cause a large spike in buffer usage. 
+
+ Overrunning
+the firewall packet buffer negatively impacts the firewall’s packet
+forwarding capabilities. When the buffers are full, no packets can
+enter the firewall on any interface, not just the interface that
+experienced the attack. 
+
+ The best practices for setting
+the thresholds are: 
+
+ Alert and Activate —Start
+with the default threshold values, monitor packet buffer utilization, and
+adjust the thresholds as necessary. The Alert threshold
+defaults to 50%; when packet buffer utilization exceeds the threshold for
+more than 10 seconds, the firewall creates an alert entry in the
+System log every minute. The Activate threshold
+defaults to 80%; when the threshold is reached, the firewall begins
+to mitigate the most abusive sessions. If the firewall is sized
+correctly, buffer utilization should be well below 50%. 
+
+ Block Hold Time —When packet buffer
+utilization triggers the Activate threshold,
+the Block Hold Time sets the amount of time
+the offending session can continue before the firewall blocks the
+session. During the Block Hold Time , the
+firewall continues to apply RED to the packets of offending sessions.
+Start with the default Block Hold Time threshold
+value (60 seconds), monitor packet buffer utilization, and adjust
+the threshold as necessary. If the packet buffer utilization percentage
+falls below the Activate threshold before
+the Block Hold Time expires, the timer resets
+and doesn’t start until the Activate threshold
+is crossed again. Increasing the Block Hold Time imposes
+a greater penalty on offending sessions and reducing it imposes
+a lesser penalty on offending sessions. 
+
+ Block Duration —When the Block
+Hold Time expires, the firewall blocks the offending
+session for the period of time defined by the Block Duration .
+Start with the default threshold value (3600 seconds), monitor packet
+buffer utilization, and adjust the threshold as necessary. When
+you enable Packet Buffer Protection on a zone, Block
+Duration affects every session from the IP address even
+if only one session from an IP address overutilizes the packet buffer.
+If you believe that blocking an IP address for one hour (3600 seconds)
+is too great a penalty, reduce the Block Duration to
+an acceptable value. 
+
+ In addition to monitoring the
+buffer utilization of individual sessions, Packet Buffer Protection
+can also block an IP address if certain criteria are met. While
+the firewall monitors the packet buffers, if it detects a source
+IP address rapidly creating sessions that would not individually
+be seen as an attack, it blocks that IP address for the configured Block
+Duration . 
+
+ Network Address Translation (NAT) (an
+external source that has translated its internet-bound traffic using
+source NAT) can give the appearance of greater packet buffer utilization
+because of IP address translation activity. If this occurs, adjust
+the thresholds in a way that penalizes individual sessions but doesn’t
+penalize the underlying IP addresses (so other sessions from the
+same IP address aren’t affected). To do this, reduce the Block
+Hold Time so the firewall blocks individual sessions
+that overutilize the buffers faster, and reduce the Block
+Duration so that the underlying IP address is not unduly
+penalized. 
+
+ Packet Buffer
+Protection Based on Latency 
+
+ You can trigger packet buffer protection based on packet
+ latency caused by dataplane packet buffering, which indicates congestion
+ on the firewall. Such packet buffer protection mitigates head-of-line blocking by
+ alerting you to the congestion and performing random early drop (RED) on packets.
+ Packet buffer protection based on latency can trigger the protection before
+ latency-sensitive protocols or applications are affected. 
+
+ For PAN-OS 11.2.4 and earlier versions, you must choose
+ between enabling packet buffer protection based on buffer utilization (default) or
+ packet buffer protection based on latency. In PAN-OS 11.2.5 and later versions, you
+ can have both enabled and configured simultaneously. 
+
+ If your traffic includes protocols
+or applications that are latency-sensitive, then packet buffer protection
+based on latency will be more helpful than packet buffer protection
+based on buffer utilization. 
+
+ Packet buffer protection based
+on latency includes setting a Latency Alert threshold
+(in milliseconds), above which the firewall starts generating an
+Alert log event. The Latency Activate threshold
+indicates when the firewall activates RED on incoming packets and starts
+generating an Activate log. The Latency Max Tolerate threshold
+indicates when the firewall uses with RED with almost 100% drop
+probability. 
+
+ The Block Hold Time and Block
+Duration settings function for packet buffer protection
+based on latency in the same way they do for packet buffer protection
+based on utilization. 
+
+ Previous 
+
+ Configure Ethernet SGT Protection 
+
+ Next 
+
+ Configure Packet Buffer Protection 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

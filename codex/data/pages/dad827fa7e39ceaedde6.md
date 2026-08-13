@@ -1,0 +1,570 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-networking-admin/session-settings-and-timeouts/session-distribution-policies-overview/change-session-distribution-policy
+fetched_at: 2026-08-13T17:03:03Z
+source: palo-alto-main
+---
+
+# Change the Session Distribution Policy
+and View Statistics Clear
+
+Change the Session Distribution Policy
+and View Statistics 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Change the Session Distribution Policy
+and View Statistics 
+
+ Updated on 
+
+ Tue Aug 04 17:04:37 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Tue Aug 04 17:04:37 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Session Settings and Timeouts 
+
+ Change the Session Distribution Policy
+and View Statistics 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Change the Session Distribution Policy
+and View Statistics 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configure VPN Session Settings 
+
+ Next 
+
+ Prevent TCP Split Handshake Session Establishment 
+
+ Change the Session Distribution Policy
+and View Statistics 
+
+ Understand, view, and change how some firewalls distribute security processing
+ (App-ID, Content-ID, URL filtering, SSL decryption, and IPSec) among dataplane processors
+ (DPs). 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ Session distribution policy rules define how PA-5200 Series firewalls, PA-5450
+ firewall, PA-7000 Series firewalls and PA-7500
+ Series firewalls distribute security processing (App-ID, Content-ID, URL
+ filtering, SSL decryption, and IPSec) among dataplane processors (DPs) on the
+ firewall. Each policy rule is specifically designed for a certain type of network
+ environment and firewall configuration to ensure that the firewall distributes
+ sessions with maximum efficiency. For example, the Hash session distribution policy
+ rule is best fit for environments that use large-scale source NAT. 
+
+ Changing the session distribution policy doesn't alter how
+ sessions are distributed across dataplane processing cards (DPCs) that are
+ statically mapped to a networking card (NC). When multiple DPCs are mapped to an NC,
+ the default Random policy applies for session allocation to a
+ DPC. 
+
+ A session distribution policy is, however, required to
+ evenly distribute sessions across each of the two dataplanes available on each
+ installed DPC. The Session-load policy is always recommended
+ for the PA-5450 firewall. 
+
+ The number of DPs on a firewall varies based on the firewall model: 
+
+ Firewall Model 
+
+ Dataplane Processor(s) 
+
+ PA-7500 Series Depends on the number of installed Data
+ Processing Cards (DPC). Each DPC has six dataplane processors. 
+
+ When PA-7500 Series firewalls are nodes in
+ an NGFW cluster, the nodes must use the same type of session
+ distribution policy (fixed, hash, ingress-slot, random,
+ round-robin, session-load, or symmetric-hash). 
+
+ PA-7000 Series 
+
+ Depends on the number of installed Network Processing Cards
+ (NPCs). Each NPC has multiple dataplane processors (DPs) and you
+ can install multiple NPCs in the firewall. 
+
+ PA-5220 firewall 
+
+ 1 
+
+ The PA-5220 firewall has only one DP so sessions distribution
+ policies don’t have an effect. Leave the policy set to the
+ default (round-robin). 
+
+ PA-5250 firewall 
+
+ 2 
+
+ PA-5260 and PA-5280 firewalls 
+
+ 3 
+
+ PA-5450 firewall 
+
+ Depends on the number of installed Data Processing Cards
+ (DPCs). 
+
+ The following table provides information about Session Distribution policies to help
+ you decide which policy best fits your environment and firewall configuration. 
+
+ Session Distribution Policy 
+
+ Description 
+
+ Fixed 
+
+ Enables you to specify the dataplane processor (DP) that the
+ firewall will use for security processing. 
+
+ Use this policy for debugging purposes. 
+
+ Hash 
+
+ The firewall distributes sessions based on a hash of the source
+ address or destination address. Hash-based distribution improves
+ the efficiency of NAT address resource management and reduces
+ latency for NAT session setup by avoiding potential IP address
+ or port conflicts. 
+
+ Use this policy in environments that use large-scale source NAT
+ with dynamic IP translation or Dynamic IP and Port translation
+ or both. When using dynamic IP translation, select the
+ source address option. When using
+ Dynamic IP and Port translation, select the
+ destination address option. 
+
+ Ingress-slot ( default on PA-7000 Series firewalls ) 
+
+ ( PA-7000 Series firewalls only ) New sessions are
+ assigned to a DP on the same NPC on which the first packet of
+ the session arrived. The selection of the DP is based on the
+ session-load algorithm but, in this case, sessions are limited
+ to the DPs on the ingress NPC. 
+
+ Depending on the traffic and network topology, this policy
+ generally decreases the odds that traffic will need to traverse
+ the switch fabric. 
+
+ Use this policy to reduce latency if both ingress and egress are
+ on the same NPC. If the firewall has a mix of NPCs (PA-7000 20G
+ and PA-7000 20GXM for example), this policy can isolate the
+ increased capacity to the corresponding NPCs and help to isolate
+ the impact of NPC failures. 
+
+ Random 
+
+ The firewall randomly selects a DP for session processing. 
+
+ Round-robin ( default on PA-5200 Series firewalls ) 
+
+ The firewall selects the dataplane processor based on a
+ round-robin algorithm between active dataplanes so that input,
+ output, and security processing functions are shared among all
+ dataplanes. 
+
+ Use this policy in low to medium demand environments where a
+ simple and predictable load-balancing algorithm will
+ suffice. 
+
+ In high demand environments, we recommend that you use the
+ session-load algorithm. 
+
+ Session-load 
+
+ This policy is similar to the round-robin policy but uses a
+ weight-based algorithm to determine how to distribute sessions
+ to achieve balance among the DPs. Because of the variability in
+ the lifetime of a session, the DPs may not always experience an
+ equal load. For example, if the firewall has three DPs and DP0
+ is at 25% of capacity, DP1 is at 25%, and DP2 is at 50%, new
+ session assignment will be weighted towards the DP with the
+ lower capacities. This helps improve load balancing over
+ time. 
+
+ Use this policy in environments where sessions are distributed
+ across multiple NPC slots, such as in an interslot aggregate
+ interface group or environments with asymmetric forwarding. You
+ can also use this policy or the ingress-slot policy if the
+ firewall has a combination of NPCs with different session
+ capacities (such as a combination of PA-7000 20G and PA-7000
+ 20GXM NPCs). 
+
+ Use
+ Session-load policy for the PA-5450
+ firewall. 
+
+ Symmetric-hash 
+
+ ( PA-5200 Series and PA-7000 Series firewalls running PAN-OS
+ 8.0 or later ) The firewall selects the DP by a hash of
+ sorted source and destination IP addresses. This policy provides
+ the same results for server-to-client (s2c) and client-to-server
+ (c2s) traffic (assuming the firewall does not use NAT). 
+
+ Use this policy in high-demand IPSec or GTP deployments. 
+
+ With these protocols, each direction is treated as a
+ unidirectional flow where the flow tuples can’t be derived from
+ each other. This policy improves performance and reduces latency
+ by ensuring that both directions are assigned to the same DP,
+ which removes the need for inter-DP communication. 
+
+ The following table describes how to view and change the active Session Distribution policies and
+ describes how to view session statistics for each dataplane processor (DP) in the
+ firewall. 
+
+ Task 
+
+ Command 
+
+ Show the active session distribution policy. 
+
+ Use the show session distribution policy command
+to view the active session distribution policy. 
+
+ The following
+output is from a PA-7080 firewall with four NPCs installed in slots
+2, 10, 11, and 12 with the ingress-slot distribution policy enabled: 
+
+ > show session distribution policy 
+
+ Ownership Distribution Policy: ingress-slot 
+
+ Flow Enabled Line Cards: [2, 10, 11, 12]Packet Processing Enabled Line Cards: [2, 10, 11, 12] 
+
+ Change the active session distribution policy. 
+
+ Use the set session distribution-policy <policy> command
+to change the active session distribution policy. 
+
+ For example,
+to select the session-load policy, enter the following command: 
+
+ > set session distribution-policy session-load 
+
+ When PA-7500
+ Series firewalls are nodes in an NGFW cluster, the nodes must
+ use the same type of session distribution policy (fixed, hash,
+ ingress-slot, random, round-robin, session-load, or
+ symmetric-hash). 
+
+ View session distribution statistics. 
+
+ Use the show session distribution statistics command
+to view the dataplane processors (DPs) on the firewall and the number
+of sessions on each active DP. 
+
+ The following output is from
+a PA-7080 firewall: 
+
+ > show session distribution statistics 
+DP     Active    Dispatched Dispatched/sec
+------------------------------------------
+s1dp0    78698    7829818   1473
+s1dp1    78775    7831384   1535
+s3dp0    7796     736639    1488
+s3dp1    7707     737026    1442 
+
+ The DP
+Active column lists each dataplane on the installed NPCs.
+The first two characters indicate the slot number and the last three
+characters indicate the dataplane number. For example, s1dp0 indicates
+dataplane 0 on the NPC in slot 1 and s1dp1 indicates dataplane 1
+on the NPC in slot1. 
+
+ The Dispatched column shows
+the total number of sessions that the dataplane processed since
+the last time the firewall rebooted. 
+
+ The Dispatched/sec column
+indicates the dispatch rate. If you add the numbers in the Dispatched column, the
+total equals the number of active sessions on the firewall. You can
+also view the total number of active sessions by running the show session info CLI command. 
+
+ The
+PA-5200 Series firewall output will look similar, except that the
+number of DPs depends on the model and there is only one NPC slot
+(s1). 
+
+ Previous 
+
+ Configure VPN Session Settings 
+
+ Next 
+
+ Prevent TCP Split Handshake Session Establishment 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Networking 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

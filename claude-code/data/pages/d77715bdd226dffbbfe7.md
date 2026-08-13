@@ -1,0 +1,374 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/certificate-management/obtain-certificates/create-a-self-signed-root-ca-certificate
+fetched_at: 2026-08-13T17:04:21Z
+source: palo-alto-main
+---
+
+# Create a Self-Signed Root CA Certificate Clear
+
+Create a Self-Signed Root CA Certificate 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Create a Self-Signed Root CA Certificate 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Certificate Management 
+
+ Obtain and Import Certificates 
+
+ Create a Self-Signed Root CA Certificate 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Create a Self-Signed Root CA Certificate 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Obtain and Import Certificates 
+
+ Next 
+
+ Generate a Certificate 
+
+ Create a Self-Signed Root CA Certificate 
+
+ Generating a self-signed root CA certificate on an NGFW enables the firewall to act
+ as its own CA and automatically issue certificates for SSL/TLS decryption and other
+ applications. 
+
+ A self-signed root certificate authority (CA)
+certificate is the top-most certificate in a certificate chain.
+A firewall can use this certificate to automatically issue certificates
+for other uses. For example, the firewall issues certificates for
+SSL/TLS decryption and for satellites in a GlobalProtect large-scale
+VPN. 
+
+ When establishing a secure connection with the firewall,
+the remote client must trust the root CA that issued the certificate.
+Otherwise, the client browser will display a warning that the certificate
+is invalid and might (depending on security settings) block the
+connection. To prevent this, after generating the self-signed root
+CA certificate, import it into the client systems. 
+
+ On a Palo Alto Networks firewall or Panorama,
+you can generate self-signed certificates only if they are CA certificates. 
+
+ Select Device Certificate Management Certificates , then Device Certificates ( PAN-OS 11.2 and
+ earlier ) or
+ Custom Certificates ( PAN-OS 12.1.0 and
+ later ) . 
+
+ If the firewall has more than one virtual system (vsys),
+select a Location (vsys or Shared )
+for the certificate. 
+
+ Click Generate . 
+
+ Enter a Certificate Name , such
+as GlobalProtect_CA . The name is case-sensitive
+and can have up to 63 characters on the firewall or up to 31 characters
+on Panorama. It must be unique and use only letters, numbers, hyphens,
+and underscores. 
+
+ In the Common Name field, enter
+the FQDN (recommended) or IP address of the interface where you
+will configure the service that will use this certificate. 
+
+ If the firewall has more than one vsys and you want the
+certificate to be available to every vsys, select the Shared check
+box. 
+
+ Leave the Signed By field blank
+to designate the certificate as self-signed. 
+
+ ( Required ) Select the Certificate
+Authority check box. 
+
+ Leave the OCSP Responder field
+blank; revocation status verification doesn’t apply to root CA certificates. 
+
+ Click Generate and Commit . 
+
+ Previous 
+
+ Obtain and Import Certificates 
+
+ Next 
+
+ Generate a Certificate 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ Certificate Management 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

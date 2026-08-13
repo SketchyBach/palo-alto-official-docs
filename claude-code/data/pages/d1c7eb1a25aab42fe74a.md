@@ -1,0 +1,381 @@
+---
+url: https://docs.paloaltonetworks.com/service-providers/11-1/mobile-network-infrastructure-getting-started/gtp/gtp-basics
+fetched_at: 2026-08-13T17:36:51Z
+source: palo-alto-main
+---
+
+# GTP Overview Clear
+
+GTP Overview 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Mobile Network Infrastructure Getting Started 
+
+ : 
+ GTP Overview 
+
+ Updated on 
+
+ Oct 31, 2025 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Version 
+
+ 11.1 & Later 
+
+ 11.1 & Later 
+
+ 11.0 (EoL) 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Stream Control Transmission Protocol (SCTP) 
+
+ SCTP Introduction 
+
+ SCTP Association 
+
+ SCTP Multihoming 
+
+ SCTP Packets and Chunks 
+
+ SCTP Use Cases 
+
+ SCTP Security Measures on the Firewall 
+
+ Configure SCTP Security 
+
+ Configure SCTP INIT Flood Protection 
+
+ Monitor SCTP Security 
+
+ SCTP Event Types 
+
+ Manage SCTP from Panorama 
+
+ GPRS Tunneling Protocol (GTP) 
+
+ GTP Overview 
+
+ GTP Deployments 
+
+ RAN Security 
+
+ Roaming Security 
+
+ Non-3GPP Access Security 
+
+ CIoT Security 
+
+ Configure GTP Stateful Inspection 
+
+ Mobile Network Protection Profile 
+
+ Monitor GTP Traffic 
+
+ View GTP Logs 
+
+ GTP Information on the ACC 
+
+ Generate Mobile Network Reports 
+
+ GTP Event Types and Severity 
+
+ GTP Event Codes 
+
+ GTP Cause Values in Logs 
+
+ GTP Message Type 
+
+ Get a Packet Capture of a GTP Event 
+
+ Disable Tunnel Acceleration 
+
+ 5G-Ready K2 Next-Generation Firewalls 
+
+ Express Mode and Secure Mode 
+
+ Restore Express Mode 
+
+ Upgrade Line Cards to K2 Secure Mode 
+
+ 5G Security 
+
+ 5G Network Slice Security 
+
+ 5G Equipment ID and Subscriber ID Security 
+
+ Configure 5G Network Slice Security 
+
+ Configure 5G Equipment ID Security 
+
+ Configure 5G Subscriber ID Security 
+
+ 5G Multi-access Edge Computing Security 
+
+ Configure 5G Multi-access Edge Computing Security 
+
+ PFCP Event Types 
+
+ 4G Equipment ID and Subscriber ID Security 
+
+ 4G Equipment ID Security 
+
+ 4G Subscriber ID Security 
+
+ Configure 4G Equipment ID Security 
+
+ Configure 4G Subscriber ID Security 
+
+ Intelligent Security and User Equipment Correlation with IP Addresses 
+
+ Intelligent Security and the UEIP Database 
+
+ Intelligent Security with PFCP for User Equipment to IP Address Correlation 
+
+ Configure Intelligent Security using PFCP for User Equipment to IP Address Correlation 
+
+ Configure Intelligent Security Using RADIUS for User Equipment to IP Address Correlation 
+
+ Configure Intelligent Security Using GTP for User Equipment to IP Address Correlation 
+
+ Updated on 
+
+ Oct 31, 2025 
+
+ Focus 
+
+ Home 
+
+ Service Providers 
+
+ Mobile Network Infrastructure Getting Started 
+
+ GPRS Tunneling Protocol (GTP) 
+
+ GTP Overview 
+
+ Download PDF 
+
+ Mobile Network Infrastructure Getting Started 
+
+ GTP Overview 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 11.1 & Later 
+
+ 11.1 & Later 
+
+ 11.0 (EoL) 
+
+ 10.2 
+
+ 10.1 (EoL) 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Stream Control Transmission Protocol (SCTP) 
+
+ SCTP Introduction 
+
+ SCTP Association 
+
+ SCTP Multihoming 
+
+ SCTP Packets and Chunks 
+
+ SCTP Use Cases 
+
+ SCTP Security Measures on the Firewall 
+
+ Configure SCTP Security 
+
+ Configure SCTP INIT Flood Protection 
+
+ Monitor SCTP Security 
+
+ SCTP Event Types 
+
+ Manage SCTP from Panorama 
+
+ GPRS Tunneling Protocol (GTP) 
+
+ GTP Overview 
+
+ GTP Deployments 
+
+ RAN Security 
+
+ Roaming Security 
+
+ Non-3GPP Access Security 
+
+ CIoT Security 
+
+ Configure GTP Stateful Inspection 
+
+ Mobile Network Protection Profile 
+
+ Monitor GTP Traffic 
+
+ View GTP Logs 
+
+ GTP Information on the ACC 
+
+ Generate Mobile Network Reports 
+
+ GTP Event Types and Severity 
+
+ GTP Event Codes 
+
+ GTP Cause Values in Logs 
+
+ GTP Message Type 
+
+ Get a Packet Capture of a GTP Event 
+
+ Disable Tunnel Acceleration 
+
+ 5G-Ready K2 Next-Generation Firewalls 
+
+ Express Mode and Secure Mode 
+
+ Restore Express Mode 
+
+ Upgrade Line Cards to K2 Secure Mode 
+
+ 5G Security 
+
+ 5G Network Slice Security 
+
+ 5G Equipment ID and Subscriber ID Security 
+
+ Configure 5G Network Slice Security 
+
+ Configure 5G Equipment ID Security 
+
+ Configure 5G Subscriber ID Security 
+
+ 5G Multi-access Edge Computing Security 
+
+ Configure 5G Multi-access Edge Computing Security 
+
+ PFCP Event Types 
+
+ 4G Equipment ID and Subscriber ID Security 
+
+ 4G Equipment ID Security 
+
+ 4G Subscriber ID Security 
+
+ Configure 4G Equipment ID Security 
+
+ Configure 4G Subscriber ID Security 
+
+ Intelligent Security and User Equipment Correlation with IP Addresses 
+
+ Intelligent Security and the UEIP Database 
+
+ Intelligent Security with PFCP for User Equipment to IP Address Correlation 
+
+ Configure Intelligent Security using PFCP for User Equipment to IP Address Correlation 
+
+ Configure Intelligent Security Using RADIUS for User Equipment to IP Address Correlation 
+
+ Configure Intelligent Security Using GTP for User Equipment to IP Address Correlation 
+
+ GTP Overview 
+
+ GTP uses GTPv1-C, GTPv2-C and GTP-U on different types
+of interfaces. 
+
+ GTP comprises control plane (GTP-C), user plane (GTP-U),
+and charging (GTP' derived from GTP-C) traffic transferred on UDP/IP.
+View the PAN-OS releases by model that
+support GTP and the 3GPP Technical Standards that
+GTPv1-C, GTPv2-C, and GTP-U support. 
+
+ Enabling GTP security on Palo Alto Networks ® firewalls
+allows you to protect the mobile core network infrastructure from
+malformed GTP packets, denial of service attacks, and out-of-state
+GTP messages, and also allows you to protect mobile subscribers
+from spoofed IP packets and overbilling attacks. 
+
+ The firewall does not currently support GTP Security on S3
+and S4 interfaces. 
+
+ GTPv1-C is defined in 3GPP TS 29.060. It is used on a Gn interface,
+that is, the interface between GPRS support nodes (GSNs) within
+a public land mobile network (PLMN), and also across a Gp interface
+between GSNs in different PLMNs. It is also used for roaming and
+inter access mobility between Gn/Gp SGSNs and mobility management
+entities (MMEs). GTPv1-C carries various types of control plane
+signaling messages. The registered port number for GTPv1-C is 2123. 
+
+ GTPv2-C is defined in 3GPP TS 29.274. It is used on various EPC
+(Evolved Packet Core) signaling interfaces, such as S5, S8, and
+S11. GTPv2-C carries various types of control plane signaling messages.
+The registered port number for GTPv2-C is 2123. 
+
+ GTP-U is defined in 3GPP TS 29.281. It encapsulates and routes user plane traffic across multiple
+ user plane interfaces such as S1, S5, S8, and N3 (for 5G). GTP-U messages are either
+ user plane or signaling messages. The registered port number for GTP-U is 2152. 
+
+ NAT is not supported for GTP tunnel IP addresses with GTP stateful
+inspection. 
+
+ Tunnel acceleration provides hardware offloading to reduce the time it takes to perform flow
+ lookups and allows the tunnel traffic to be distributed more efficiently based on the
+ inner traffic. You can Disable Tunnel Acceleration for ease of troubleshooting. 
+
+ Continue to GTP Deployments and Configure
+GTP Stateful Inspection . 
+
+ Previous 
+
+ GPRS Tunneling Protocol (GTP) 
+
+ Next 
+
+ GTP Deployments 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

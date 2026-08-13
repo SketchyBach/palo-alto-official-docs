@@ -1,0 +1,408 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/ha-concepts/session-setup
+fetched_at: 2026-08-13T17:04:42Z
+source: palo-alto-main
+---
+
+# Session Setup Clear
+
+Session Setup 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Session Setup 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ High Availability 
+
+ Session Setup 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Session Setup 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Session Owner 
+
+ Next 
+
+ Set Up Active/Passive HA 
+
+ Session Setup 
+
+ Learn which firewall in a pair performs the L2 to L4 processing to create a new
+ session. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Strata Cloud Manager) 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ For Strata Cloud Manager managed NGFWs: 
+
+ Strata Cloud Manager Pro 
+
+ The session setup firewall performs the Layer 2 through
+Layer 4 processing necessary to set up a new session. The session
+setup firewall also performs NAT using the NAT pool of the session
+owner. You determine the session setup firewall in an active/active
+configuration by selecting one of the following session setup load
+sharing options. 
+
+ Session Setup Option 
+
+ Description 
+
+ IP Modulo 
+
+ The firewall distributes the session setup
+load based on parity of the source IP address. This is a deterministic
+method of sharing the session setup. 
+
+ IP Hash 
+
+ The firewall uses a hash of the source and
+destination IP addresses to distribute session setup responsibilities. 
+
+ Primary Device 
+
+ The active-primary firewall always sets
+up the session; only one firewall performs all session setup responsibilities. 
+
+ First Packet 
+
+ The firewall that receives the first packet
+of a session performs session setup. 
+
+ If you want to load-share the session
+owner and session setup responsibilities, set session owner to First
+Packet and session setup to IP modulo. These are the recommended settings. 
+
+ If you want to do troubleshooting or capture logs or pcaps,
+or if you want an active/active HA pair to function like an active/passive
+HA pair, set both the session owner and session setup to Primary
+device so that the active-primary device performs all traffic processing.
+See Use
+Case: Configure Active/Active HA with Floating IP Address Bound
+to Active-Primary Firewall . 
+
+ The firewall uses the HA3 link to send packets to its peer for
+session setup if necessary. The following figure and text describe
+the path of a packet that firewall FW1 receives for a new session.
+The red dotted lines indicate FW1 forwarding the packet to FW2 and
+FW2 forwarding the packet back to FW1 over the HA3 link. 
+
+ The end host sends a packet
+to FW1. 
+
+ FW1 examines the contents of the packet to match it to an
+existing session. If there is no session match, FW1 determines that
+it has received the first packet for a new session and therefore becomes
+the session owner (assuming Session Owner Selection is
+set to First Packet ). 
+
+ FW1 uses the configured session setup load-sharing option
+to identify the session setup firewall. In this example, FW2 is
+configured to perform session setup. 
+
+ FW1 uses the HA3 link to send the first packet to FW2. 
+
+ FW2 sets up the session and returns the packet to FW1 for
+Layer 7 processing, if any. 
+
+ FW1 then forwards the packet out the egress interface to
+the destination. 
+
+ The following figure and text describe the path of a packet that
+matches an existing session: 
+
+ The end host sends a packet
+to FW1. 
+
+ FW1 examines the contents of the packet to match it to an
+existing session. If the session matches an existing session, FW1
+processes the packet and sends the packet out the egress interface
+to the destination. 
+
+ Previous 
+
+ Session Owner 
+
+ Next 
+
+ Set Up Active/Passive HA 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,394 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-2/user-identification/device-user-identification-user-mapping/include-or-exclude-subnetworks-for-user-mapping
+fetched_at: 2026-08-13T16:53:12Z
+source: palo-alto-main
+---
+
+# Include or Exclude Subnetworks for User Mapping Clear
+
+Include or Exclude Subnetworks for User Mapping 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Include or Exclude Subnetworks for User Mapping 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ PAN-OS Web Interface Help 
+
+ User Identification 
+
+ Device > User Identification > User Mapping 
+
+ Include or Exclude Subnetworks for User Mapping 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Include or Exclude Subnetworks for User Mapping 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Manage Access to Monitored Servers 
+
+ Next 
+
+ Device > User Identification > Connection Security 
+
+ Include or Exclude Subnetworks for User Mapping 
+
+ Device > User Identification
+> User Mapping 
+
+ Use the Include/Exclude Networks list to define the subnetworks
+that the User-ID agent will include or exclude when performing IP
+address-to-username mapping (discovery). By default, if you don’t
+add any subnetworks to the list, the User-ID agent performs discovery
+for user identification sources in all subnetworks except when using WMI
+probing for client systems that have public IPv4 addresses. (Public
+IPv4 addresses are those outside the scope of RFC 1918 and RFC 3927 ). 
+
+ To enable WMI probing for public IPv4 addresses, you must add
+their subnetworks to the list and set their Discovery option
+to Include . If you configure the firewall to redistribute user mappinginformation 
+
+ to other firewalls,
+the discovery limits you specify in the list will apply to the redistributed
+information. 
+
+ Use the include and exclude lists to
+define the subnets in which the firewall performs user mapping. 
+
+ You can perform the following tasks on the Include/Exclude Networks
+list: 
+
+ Task 
+
+ Description 
+
+ Add 
+
+ To limit discovery to a specific subnetwork, Add a subnetwork
+profile and complete the following fields: 
+
+ Name —Enter
+a name to identify the subnetwork. 
+
+ Enabled —Select this option to enable inclusion
+or exclusion of the subnetwork for server monitoring. 
+
+ Discovery —Select whether the User-ID agent
+will Include or Exclude the
+subnetwork. 
+
+ Network Address —Enter the IP address range
+of the subnetwork. 
+
+ The User-ID agent applies an
+implicit exclude all rule to the list. For example, if you add subnetwork
+10.0.0.0/8 with the Include option, the User-ID
+agent excludes all other subnetworks even if you don’t add them
+to the list. Add entries with the Exclude option
+only if you want the User-ID agent to exclude a subset of the subnetworks
+you explicitly included. For example, if you add 10.0.0.0/8 with
+the Include option and add 10.2.50.0/22 with
+the Exclude option, the User-ID agent will
+perform discovery on all the subnetworks of 10.0.0.0/8 except 10.2.50.0/22,
+and will exclude all subnetworks outside of 10.0.0.0/8. If you add Exclude profiles
+without adding any Include profiles, the
+User-ID agent excludes all subnetworks, not just the ones you added. 
+
+ Delete 
+
+ To remove a subnetwork from the list, select
+and Delete it. 
+
+ Tip : To remove
+a subnetwork from the Include/Exclude Networks list without deleting
+its configuration, edit the subnetwork profile and clear Enabled . 
+
+ Custom Include/Exclude Network 
+
+ By default, the User-ID agent evaluates
+the subnetworks in the order you add them, from top-first to bottom-last.
+To change the evaluation order, click Custom Include/Exclude
+Network Sequence . You can then Add , Delete , Move
+Up , or Move Down the subnetworks
+to create a custom evaluation order. 
+
+ Previous 
+
+ Manage Access to Monitored Servers 
+
+ Next 
+
+ Device > User Identification > Connection Security 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 12.2 
+
+ PAN-OS 
+
+ Help 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

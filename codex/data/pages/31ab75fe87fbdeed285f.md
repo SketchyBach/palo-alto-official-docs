@@ -1,0 +1,368 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-networking-admin/dhcp/dhcp-addressing/dhcp-leases
+fetched_at: 2026-08-13T17:02:39Z
+source: palo-alto-main
+---
+
+# DHCP Leases Clear
+
+DHCP Leases 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ DHCP Leases 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ DHCP 
+
+ DHCP Leases 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ DHCP Leases 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ DHCP Address Allocation Methods 
+
+ Next 
+
+ DHCP Options 
+
+ DHCP Leases 
+
+ Dynamic DHCP address allocation involves the DHCP server assigning an IP address to a
+ client for a maximum period of time, known as a lease. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ A lease is defined as the time period for which a DHCP
+server allocates a network address to a client. The lease might
+be extended (renewed) upon subsequent requests. If the client no
+longer needs the address, it can release the address back to the
+server before the lease is up. The server is then free to assign
+that address to a different client if it has run out of unassigned
+addresses. 
+
+ The lease period configured for a DHCP server applies to all
+of the addresses that a single DHCP server (interface) dynamically
+assigns to its clients. That is, all of that interface’s addresses
+assigned dynamically are of Unlimited duration
+or have the same Timeout value. A different
+DHCP server configured on the firewall may have a different lease
+term for its clients. A Reserved Address is
+a static address allocation and is not subject to the lease terms. 
+
+ Per the DHCP standard, RFC 2131 , a DHCP client
+does not wait for its lease to expire, because it risks getting
+a new address assigned to it. Instead, when a DHCP client reaches
+the halfway point of its lease period, it attempts to extend its
+lease so that it retains the same IP address. Thus, the lease duration
+is like a sliding window. 
+
+ Typically if an IP address was assigned to a device, the device
+was subsequently taken off the network and its lease was not extended,
+the DHCP server will let that lease run out. Because the client
+is gone from the network and no longer needs the address, the lease
+duration in the server is reached and the lease is in “Expired”
+state. 
+
+ The firewall has a hold timer that prevents the expired IP address
+from being reassigned immediately. This behavior temporarily reserves
+the address for the device in case it comes back onto the network.
+But if the address pool runs out of addresses, the server re-allocates
+this expired address before the hold timer expires. Expired addresses
+are cleared automatically as the systems needs more addresses or
+when the hold timer releases them. 
+
+ In the CLI, use the show dhcp server lease operational
+command to view lease information about the allocated IP addresses.
+If you don’t want to wait for expired leases to be released automatically,
+you can use the clear dhcp lease interface <interface> expired-only command
+to clear expired leases, making those addresses available in the
+pool again. You can use the clear dhcp lease interface <interface> ip <ip_address> command
+to release a particular IP address. Use the clear dhcp lease interface <interface> mac <mac_address> command
+to release a particular MAC address. 
+
+ Previous 
+
+ DHCP Address Allocation Methods 
+
+ Next 
+
+ DHCP Options 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Networking 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

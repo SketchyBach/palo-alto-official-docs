@@ -1,0 +1,1173 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/high-availability/set-up-activepassive-ha/configure-activepassive-ha
+fetched_at: 2026-08-13T17:00:16Z
+source: palo-alto-main
+---
+
+# Configure Active/Passive HA Clear
+
+Configure Active/Passive HA 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Configure Active/Passive HA 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ High Availability 
+
+ Set
+Up Active/Passive HA 
+
+ Configure Active/Passive HA 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Configure Active/Passive HA 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configuration Guidelines for Active/Passive HA 
+
+ Next 
+
+ Define HA Failover Conditions 
+
+ Configure Active/Passive HA 
+
+ Learn how to configure active/passive HA pair of firewalls and HA. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ For Strata Cloud Manager managed NGFWs: 
+
+ Strata Cloud Manager Pro 
+
+ The following procedure shows how to configure a pair of firewalls in an
+ active/passive deployment as depicted in the following example topology. 
+
+ Active/Passive High Availability (HA) provides firewall redundancy by maintaining two
+ firewalls in a primary-secondary relationship, where one firewall actively processes
+ traffic while the other remains in standby mode, ready to assume control if the
+ primary firewall fails. In an Active/Passive HA deployment, the active firewall
+ handles all network traffic and maintains the runtime state, while the passive
+ firewall continuously synchronizes its configuration and session information with
+ the active unit. When a failover event occurs—whether due to hardware failure,
+ software issues, or network connectivity problems—the passive firewall seamlessly
+ transitions to the active role, ensuring minimal service disruption and maintaining
+ network security policies. This configuration is ideal for environments that require
+ high availability but do not need the increased throughput that Active/Active HA
+ provides, making it a cost-effective solution for ensuring business continuity while
+ maintaining a single point of traffic processing. 
+
+ HA Active/Passive Support for PA-7500 and PA-5500 Series Firewalls 
+
+ High Availability active/passive mode, which
+ provides firewall redundancy and failover capabilities, is supported on PA-7500
+ series firewalls beginning with PAN-OS 12.1.5 and on
+ PA-5500 series firewalls beginning with PAN-OS 12.1.7 . 
+
+ The firewalls support only HA active/passive mode;
+ HA active/active mode is not supported. HA active/passive includes comprehensive
+ network integration features such as LACP, link monitoring, and session
+ synchronization functionality. LACP is supported on both Layer 2 and Layer 3
+ aggregate interfaces, including LACP pre-negotiation capabilities that enable the
+ passive device to establish link aggregation readiness and reduce failover times.
+ Link and path monitoring is supported for network health assessments. HA
+ active/passive also maintains full runtime synchronization of session state between
+ active and passive devices, ensuring that active sessions can continue uninterrupted
+ during failover events and that the standby device maintains current awareness of
+ all network connections and their associated state information. 
+
+ On PA-7500 and PA-5500
+ series firewalls, HA active/passive uses dedicated High-Speed Chassis
+ Interconnect (HSCI) interfaces for all HA communications and maintains session state
+ synchronization between the active and passive devices. 
+ HA1 Control Link : Carries heartbeat messages, configuration
+ synchronization, and state information between HA peers. 
+
+ HA2 Data Link : Synchronizes session tables and forwarding information
+ between firewalls. 
+
+ Layer 2 Transport : All HA traffic uses Layer 2 connectivity over HSCI
+ interfaces. 
+ You cannot configure HA and NGFW clustering simultaneously on the same
+ firewall. 
+
+ The HSCI interface assignments for HA links follow
+ a specific configuration pattern that ensures proper communication between HA peers.
+ All HSCI traffic is transmitted in cleartext format. HA1 control link and HA2 data
+ link are supported only on layer 2. The primary HA1 control link can only be
+ configured on HSCI-A, while the HA1-backup link is restricted to HSCI-B, providing
+ redundancy for critical control plane communications. Similarly, the HA2 data
+ synchronization link can only be configured on HSCI-A, with the HA2-backup link
+ assigned to HSCI-B for failover protection. While HSCI interfaces handle the primary
+ HA communications, management interfaces can be configured to support heartbeat
+ backup functionality, which provides an additional layer of split-brain prevention
+ by maintaining minimal connectivity between HA peers through the management network
+ when HSCI links become unavailable. 
+
+ ( PA-7500 and PA-5500 series firewalls ) 
+ HA active/passive mode on PA-7500 and PA-5500
+ series firewalls does not support encryption on HA1, HA2, or HA1/HA2
+ backup links. Therefore the HSCI-A and HSCI-B interfaces do not support
+ encryption. 
+
+ HA3 and HA4 interfaces are not supported and cannot be configured. 
+
+ HA2 and HA2 backup interfaces only support Layer 2 (L2) connectivity. 
+
+ MACsec functionality is not supported (unlike the clustering feature). 
+
+ The HA1 and HA2 functions are aggregated on the HSCI-A and
+ HSCI-B interface. The administrator cannot assign the front port
+ interfaces to the HA1 or HA2 role. 
+
+ The HSCI-A and HSCI-B operate exclusively at Layer 2 only and
+ although you have to configure an IP address on these interfaces, they
+ must reside on the same network. 
+
+ IPv6 is not supported for HA1/HA2 interfaces. IPv4 addresses for HA1/HA2 is
+ used exclusively for internal node-to-node communication. Both HA nodes must
+ be configured on the same subnet. 
+
+ PA-7500 and PA-5500 firewalls require trunk
+ mode (tagged traffic) for HSCI port connections when a switch is present in
+ the connection path; access mode (untagged) is not supported in this
+ configuration. If you are using a switch between HSCI connections, you must
+ enable jumbo frames on the firewall and configure the switch ports as tagged
+ ports. You should enable jumbo frames first, which will require a reboot if
+ you're activating jumbo frames for the first time, and only then proceed to
+ enable HA. 
+
+ Panorama web interface may display configuration options that are not
+ actually supported by PA-7500 and PA-5500 
+ series firewalls. Always follow these documented constraints regardless of
+ what appears in the interface. 
+ Data ports cannot be configured for HA1, HA2, or HA1 and HA2 backup
+ interfaces. Panorama may display these as selectable options, but
+ they are not functional. 
+
+ HSCI-A must be used for HA1 and HA2 primary interfaces. Other
+ interface options may appear in Panorama but are not supported. 
+
+ HSCI-B must be used for HA1/HA2 backup interfaces. Other interface
+ options may appear in Panorama but are not supported. 
+
+ The PA-7500 and PA-5500 Series firewalls utilize Condor 3 architecture, which
+ introduces several key changes to the traditional High Availability (HA)
+ active/passive configuration: 
+
+ PA-7500 and PA-5500
+ Series firewalls uses management processor relay for HA communications. When
+ restarting dataplanes on the firewall HA configurations, be aware that individual
+ dataplane restarts will trigger a restart of the entire chassis to maintain HA
+ consistency between peers. 
+
+ ( PA-7500 and
+ PA-5500 series firewalls ) The following additional parameters are
+ required when configuring HA on active/passive mode: 
+ ( Mandatory ) Device ID : A unique identifier (0 or 1) that
+ must be configured differently on each HA peer to ensure proper HSCI port
+ MAC address generation. 
+
+ ( Mandatory ) Group ID : A numeric identifier ranging from 0 to
+ 63 that must match on both HA peers. This ensures the devices recognize each
+ other as part of the same HA pair. If the group IDs don't match, HA
+ formation will fail and may result in split-brain scenarios. 
+
+ ( Optional ) VLAN Configuration : VLAN tags (2-4094) for HSCI
+ traffic, with VLAN 2 used as default for back-to-back connections. 
+
+ ( PA-7500 and
+ PA-5500 series firewalls ) Both the Device ID and Group ID are
+ essential to ensure proper HSCI port MAC address generation. Misconfiguring
+ either parameter will cause HA communication to fail. If there is a Device ID
+ overlap, the devices will enter a split-brain state. If there is a Group ID
+ mismatch, the devices will also enter a split-brain state without transitioning
+ to a 'non-functional' state. 
+
+ PAN-OS & Panorama 
+
+ Strata Cloud Manager 
+
+ Configure Active/Passive HA (PAN-OS) 
+
+ Configure your firewalls in an active/passive high availability (HA) configuration
+ from PAN-OS and Panorama. 
+
+ To configure an active/passive HA pair, first verify that any filtering devices
+ between your HA pair members allow the protocols and ports used by the HA
+ links , then complete the following workflows on the first firewall and
+ repeat the steps on the second firewall. 
+
+ Connect the HA ports to set up a physical connection between the
+ firewalls. 
+
+ For firewalls with dedicated HA ports, use an Ethernet cable to connect
+ the dedicated HA1 ports and the HA2 ports on peers. Use a crossover
+ cable if the peers are directly connected to each other. 
+
+ For firewalls without dedicated HA ports, select two data interfaces for
+ the HA2 link and the backup HA1 link. Then, use an Ethernet cable to
+ connect these in-band HA interfaces across both firewalls. 
+
+ Use the management port for the HA1 link and ensure that the management ports
+ can connect to each other across your network. 
+
+ Enable ping on the management port. 
+
+ Enabling ping allows the management port to exchange heartbeat backup
+ information. 
+
+ Select Device Setup Interfaces Management . 
+
+ Select Ping as a service that is permitted on
+ the interface. 
+
+ If the firewall does not have dedicated HA ports, set up the data ports to
+ function as HA ports. 
+
+ For firewalls with dedicated HA ports continue to the next step. 
+
+ Select Network Interfaces . 
+
+ Confirm that the link is up on the ports that you want to use. 
+
+ Select the interface and set Interface Type to
+ HA . 
+
+ Set the Link Speed and Link
+ Duplex settings, as appropriate. 
+
+ Set the HA mode and group ID. 
+
+ Select Device High Availability General and edit the Setup section. 
+
+ Set a Group ID and optionally a
+ Description for the pair. The Group ID
+ uniquely identifies each HA pair on your network. If you have multiple
+ HA pairs that share the same broadcast domain you must set a unique
+ Group ID for each pair. 
+
+ Set the mode to Active Passive . 
+
+ Set up the control link connection. 
+
+ This example shows an in-band port that is set to interface type HA. 
+
+ For firewalls that use the management port as the control link, the IP
+ address information is automatically pre-populated. 
+
+ In Device High Availability HA Communications , edit Control Link (HA1). 
+
+ Select the Port that you have cabled for use as
+ the HA1 link. 
+
+ Set the IPv4/IPv6 Address and
+ Netmask . 
+
+ If the HA1 interfaces are on separate subnets, enter the IP address
+ of the Gateway . Do not add a gateway address
+ if the firewalls are directly connected or are on the same VLAN. 
+
+ ( Optional ) Enable encryption for the control link connection. 
+
+ This is typically used to secure the link if the two firewalls are not
+ directly connected, that is if the ports are connected to a switch or a
+ router. 
+
+ PA-7500 and
+ PA-5500 Series firewalls use HSCI fabric for HA links that do not support
+ SSH-based HA1 control
+ link encryption. Because of this limitation, FIPS-CC mode and HA
+ Active/Passive cannot be enabled together on these firewalls. 
+ You must choose one: 
+
+ FIPS-CC mode 
+ (where HA Active/Passive will not be available), or 
+
+ HA Active/Passive (where FIPS-CC mode will not be
+ available). 
+
+ Export the HA key from one firewall and import it into the peer
+ firewall. 
+
+ Select Device Certificate Management Certificates . 
+
+ Select Export HA key . Save the HA key
+ to a network location that the peer can access. 
+
+ On the peer firewall, select Device Certificate Management Certificates , and select Import HA
+ key to browse to the location that you saved
+ the key and import it in to the peer. 
+
+ Repeat this process on the second firewall to exchange HA
+ keys on both devices. 
+
+ Select Device High Availability HA Communications , edit the Control Link (HA1) section. 
+
+ Select Encryption Enabled . 
+
+ If you enable encryption, after you finish configuring the HA
+ firewalls, you can Refresh HA1 SSH Keys and Configure Key Options . 
+
+ Set up the backup control link connection. 
+
+ In Device High Availability HA Communications , edit Control Link (HA1 Backup). 
+
+ Select the HA1 backup interface and set the IPv4/IPv6
+ Address and Netmask . 
+
+ PA-3200 Series firewalls don’t support an IPv6 address for the
+ HA1 backup control link; use an IPv4 address. 
+
+ Set up the data link connection (HA2) and the backup HA2 connection between the
+ firewalls. 
+
+ In Device High Availability HA Communications , edit the Data Link (HA2) section. 
+
+ Select the Port to use for the data link
+ connection. 
+
+ Select the Transport method. The default is
+ ethernet , and will work when the HA pair is
+ connected directly or through a switch. If you need to route the data
+ link traffic through the network, select IP or
+ UDP as the transport mode. 
+
+ UDP is the only supported transport mode in
+ Azure environments. UDP is the preferred transport mode for PA-1400
+ Series and PA-3400 Series firewalls. 
+
+ If you use IP or UDP as the transport method, enter the
+ IPv4/IPv6 Address and
+ Netmask . 
+
+ Verify that Enable Session Synchronization is
+ selected. 
+
+ Select HA2 Keep-alive to enable monitoring on
+ the HA2 data link between the HA peers. If a failure occurs based on the
+ threshold that is set (default is 10000 ms), the defined action will
+ occur. For active/passive configuration, a critical system log message
+ is generated when an HA2 keep-alive failure occurs. 
+
+ You can configure the HA2 keep-alive option on both firewalls, or
+ just one firewall in the HA pair. If the option is only enabled
+ on one firewall, only that firewall will send the keep-alive
+ messages. The other firewall will be notified if a failure
+ occurs. 
+
+ Edit the Data Link (HA2 Backup) section, select
+ the interface, and add the IPv4/IPv6 Address and
+ Netmask . 
+
+ Enable heartbeat backup if your control link uses a dedicated HA port or an
+ in-band port. 
+
+ You do not need to enable heartbeat backup if you are using the management
+ port for the control link. 
+
+ In Device High Availability General , edit the Election Settings. 
+
+ Select Heartbeat Backup . 
+
+ To allow the heartbeats to be transmitted between the firewalls, you
+ must verify that the management port across both peers can route to
+ each other. 
+
+ Enabling heartbeat backup also allows you to prevent a
+ split-brain situation. Split brain occurs when the HA1 link goes
+ down causing the firewall to miss heartbeats, although the
+ firewall is still functioning. In such a situation, each peer
+ believes that the other is down and attempts to start services
+ that are running, thereby causing a split brain. When the
+ heartbeat backup link is enabled, split brain is prevented
+ because redundant heartbeats and hello messages are transmitted
+ over the management port. 
+
+ Set the device priority and enable preemption. 
+
+ This setting is only required if you wish to make sure that a specific
+ firewall is the preferred active firewall. For information, see Device
+ Priority and Preemption . 
+
+ In Device High Availability General , edit the Election Settings. 
+
+ Set the numerical value in Device Priority . Make
+ sure to set a lower numerical value on the firewall that you want to
+ assign a higher priority to. 
+
+ If both firewalls have the same device priority value, the
+ firewall with the lowest MAC address on the HA1 control link
+ will become the active firewall. 
+
+ Select Preemptive . 
+
+ You must enable preemptive on both the active firewall and the
+ passive firewall. 
+
+ ( Optional ) Modify the HA Timers . 
+
+ By default, the HA timer profile is set to the
+ Recommended profile and is suited for most HA
+ deployments. 
+
+ In Device High Availability General , edit the Election Settings. 
+
+ Select the Aggressive profile for triggering
+ failover faster; select Advanced to define custom
+ values for triggering failover in your set up. 
+
+ To view the preset value for an individual timer included in a
+ profile, select Advanced and click
+ Load Recommended or Load
+ Aggressive . The preset values for your hardware
+ model will be displayed on screen. 
+
+ ( Optional ) Modify the link status of the HA ports on the passive
+ firewall. 
+
+ The passive link state is shutdown , by default.
+ After you enable HA, the link state for the HA ports on the active
+ firewall will be green and those on the passive firewall will be down
+ and display as red. 
+
+ Setting the link state to Auto allows for reducing the
+ amount of time it takes for the passive firewall to take over when a
+ failover occurs and it allows you to monitor the link state. 
+
+ To enable the link status on the passive firewall to stay up and reflect the
+ cabling status on the physical interface: 
+
+ In Device High Availability General , edit the Active Passive Settings. 
+
+ Set the Passive Link State to
+ Auto . 
+
+ The auto option decreases the amount of time it takes for the passive
+ firewall to take over when a failover occurs. 
+
+ Although the interface displays green (as cabled and up) it
+ continues to discard all traffic until a failover is
+ triggered. 
+
+ When you modify the passive link state, make sure that the adjacent
+ devices do not forward traffic to the passive firewall based only on
+ the link status of the firewall. 
+
+ Enable HA. 
+
+ Select Device High Availability General and edit the Setup section. 
+
+ Select Enable HA . 
+
+ Select Enable Config Sync . This setting enables
+ the synchronization of the configuration settings between the active and
+ the passive firewall. 
+
+ Enter the IP address assigned to the control link of the peer in
+ Peer HA1 IP Address . 
+
+ For firewalls without dedicated HA ports, if the peer uses the
+ management port for the HA1 link, enter the management port IP
+ address of the peer. 
+
+ Enter the Backup HA1 IP Address . 
+
+ ( PA-7500
+ and PA-5500 series
+ firewalls )
+ Configure unique Device ID as 0 or 1 on each HA peer.
+
+ ( Optional ) ( PA-7500
+ and PA-5500 series
+ firewalls )
+ You must specify the VLAN tag for L2 headers to ensure the configuration matches
+ the supported VLAN tags on HSCI switches. Configure
+ HSCI-A
+ VLAN and
+ HSCI-B
+ VLAN . 
+
+ If you do not specify a value, the default VLAN tag of 2 
+ will be applied to both ports. This default setting allows you to skip this
+ configuration when devices are connected back-to-back, keeping your setup
+ minimal. 
+
+ ( Optional ) Enable LACP and LLDP Pre-Negotiation for Active/Passive HA for faster failover if your
+ network uses LACP or LLDP. 
+
+ Enable LACP and LLDP before configuring HA
+ pre-negotiation for the protocol if you want pre-negotiation to function
+ in active mode. 
+
+ Ensure that in Step 12 you set the link state to
+ Auto . 
+
+ Select Network Interfaces Ethernet . 
+
+ To enable LACP active pre-negotiation: 
+
+ Select an AE interface in a Layer 2 or Layer 3
+ deployment. 
+
+ Select the LACP tab. 
+
+ Select Enable in HA Passive State . 
+
+ Click OK . 
+
+ You cannot also select Same System MAC Address
+ for Active-Passive HA because
+ pre-negotiation requires unique interface MAC addresses
+ on the active and passive firewalls. 
+
+ To enable LACP passive pre-negotiation: 
+
+ Select an Ethernet interface in a virtual wire
+ deployment. 
+
+ Select the Advanced tab. 
+
+ Select the LACP tab. 
+
+ Select Enable in HA Passive State . 
+
+ Click OK . 
+
+ To enable LLDP active pre-negotiation: 
+
+ Select an Ethernet interface in a Layer 2, Layer 3, or
+ virtual wire deployment. 
+
+ Select the Advanced tab. 
+
+ Select the LLDP tab. 
+
+ Select Enable in HA Passive State . 
+
+ Click OK . 
+
+ If you want to allow LLDP passive pre-negotiation for a
+ virtual wire deployment, perform Step
+ d but do not enable LLDP itself. 
+
+ Save your configuration changes. 
+
+ Click Commit . 
+
+ After you finish configuring both firewalls, verify that the firewalls are
+ paired in active/passive HA. 
+
+ Access the Dashboard on both firewalls, and view
+ the High Availability widget. 
+
+ On the active firewall, click the Sync to peer 
+ link. 
+
+ Confirm that the firewalls are paired and synced, as shown as
+ follows: 
+
+ On the passive firewall: the state of the local firewall
+ should display passive and the
+ Running Config should show as
+ synchronized . 
+
+ On the active firewall: The state of the local firewall
+ should display active and the Running
+ Config should show as
+ synchronized . 
+
+ Configure Active/Passive HA (SCM) 
+
+ Configure your firewalls in an active/passive high availability (HA) configuration
+ from Strata Cloud Manager . 
+
+ This procedure assumes you already onboarded the firewalls you want to
+ configure in an active/passive HA configuration to Strata Cloud Manager and have
+ added them the same folder. Also verify that any filtering devices between your HA
+ pair members allow the protocols and ports used by the HA links . 
+
+ Log in to Strata Cloud Manager . 
+
+ Configure your HA Ethernet interfaces if you intend to use dedicated interfaces
+ for the HA1 control links and HA2 data links. 
+
+ Select Configuration NGFW and Prisma Access and select the Folder Configuration Scope that the managed
+ firewalls are associated with. 
+
+ Selecting the folder that the managed firewalls are associated with allows
+ you to find and select the managed firewalls you want to configure in an
+ active/passive HA configuration. 
+
+ In the HA Setup section, Create HA . 
+
+ Set the HA Mode of deployment as
+ Active - Passive . 
+
+ Select Enable Config Sync . This setting enables
+ the synchronization of the configuration settings between the HA
+ peers. 
+
+ Set a Group ID and optionally a Description for the pair.
+ The Group ID uniquely identifies each HA pair on your network. If you
+ have multiple HA pairs that share the same broadcast domain you must set
+ a unique Group ID for each pair. 
+
+ Select the SSH HA Profile to apply to the SSH sessions for the HA
+ peers on your network. 
+
+ ( Active-Passive Only ) Active-Passive settings. 
+
+ ( Optional ) Modify the link status of the HA ports on
+ the passive firewall. 
+
+ The
+ passive link state is
+ shutdown , by default. After you
+ enable HA, the link state for the HA ports on the active
+ firewall will be green and those on the passive firewall
+ will be down and display as red. 
+
+ Setting the link
+ state to Auto allows for reducing the
+ amount of time it takes for the passive firewall to take over
+ when a failover occurs and it allows you to monitor the link
+ state. 
+
+ ( Optional ) Set the Monitor Fail Hold Down
+ Time (min), which is the number of minutes after
+ which a down link is retested to see if it is back up; range is
+ 1 to 60; default is 1. 
+
+ ( PA-7500 Firewalls only ) Enable HSCI to configure
+ Device ID and HSCI VLANs. 
+ ( Mandatory ) Configure unique Device ID 
+ as 0 or 1 on each HA peer. 
+
+ ( Optional ) You must specify the VLAN tag for L2
+ headers to ensure the configuration matches the
+ supported VLAN tags on HSCI switches. Configure
+ HSCI-A VLAN and HSCI-B VLAN . 
+ If you
+ do not specify a value, the default VLAN tag of 2
+ will be applied to both ports. This default setting
+ allows you to skip this configuration when devices
+ are connected back-to-back, keeping your setup
+ minimal. 
+
+ Select the managed firewalls to configure in an active/passive HA
+ configuration. 
+
+ Select Primary Device —Select the firewall to act as the primary
+ active HA peer. 
+
+ Select Secondary Device —Select the firewall to act as the
+ secondary passive HA peer. 
+
+ Click Next to continue. 
+
+ Configure Election Settings . 
+
+ Set the numerical value in Device Priority . Make
+ sure to set a lower numerical value on the firewall that you want to
+ assign a higher priority to. 
+
+ If both firewalls have the same device priority value, the
+ firewall with the lowest MAC address on the HA1 control link
+ will become the active firewall. 
+
+ This setting is only required if you wish to make sure that a
+ specific firewall is the preferred active firewall. For information,
+ see Device Priority and Preemption . 
+
+ Enable Preemptive . 
+
+ You must enable preemptive on both the active firewall and the
+ passive firewall. 
+
+ Enable Heartbeat Backup . 
+
+ To allow the heartbeats to be transmitted between the firewalls, you
+ must verify that the management port across both peers can route to
+ each other. 
+
+ Enabling heartbeat backup also allows you to prevent a
+ split-brain situation. Split brain occurs when the HA1 link goes
+ down causing the firewall to miss heartbeats, although the
+ firewall is still functioning. In such a situation, each peer
+ believes that the other is down and attempts to start services
+ that are running, thereby causing a split brain. When the
+ heartbeat backup link is enabled, split brain is prevented
+ because redundant heartbeats and hello messages are transmitted
+ over the management port. 
+
+ ( Optional ) Modify the HA
+ Timers . 
+
+ By default, the HA timer profile is set to the
+ Recommended profile and is suited for
+ most HA deployments. 
+
+ Select the Aggressive profile for triggering
+ failover faster; select Advanced to define
+ custom values for triggering failover in your set up. 
+
+ To view the preset value for an individual timer included in a
+ profile, select Advanced and then
+ Load Recommended or Load
+ Aggressive . The preset values for your hardware
+ model will be displayed on screen. 
+
+ Configure the HA1 Control Link Settings. 
+
+ The HA1 control link is used to exchange hellos, heartbeats, HA state
+ information, and management plane synchronization for routing. This link is
+ also used to synchronize configuration changes with its peer. 
+
+ Configure the HA1 control link settings for the Primary Device. 
+
+ Select the Ethernet Port for the HA1
+ control link on the primary HA peer. 
+
+ Strata Cloud Manager interface may
+ display configuration options that are not actually
+ supported by PA-7500 series firewalls. Always follow these
+ documented constraints regardless of what appears in the
+ interface. 
+ Data ports cannot be configured for HA1, HA2, or HA1
+ and HA2 backup interfaces. Strata Cloud Manager may
+ display these as selectable options, but they are
+ not functional. 
+
+ HSCI-A must be used for HA1 and HA2 primary
+ interfaces. Other interface options may appear in
+ Strata Cloud Manager but are not supported. 
+
+ HSCI-B must be used for HA1 and HA2 backup
+ interfaces. Other interface options may appear in
+ Strata Cloud Manager but are not supported. 
+
+ Configure the IPv4 Address ,
+ Netmask , and
+ Gateway of the HA1 control link
+ for the primary HA peer. 
+
+ ( Optional ) Expand the Advanced
+ Settings and enter the Monitor
+ Hold Time (ms) that the firewall waits
+ before declaring a peer failure due to a control link
+ failure. Range is 1,000 to 60,000; default is 3,000. 
+
+ Configure the HA1 control link settings for the Secondary Device. 
+
+ Select the Ethernet Port for the HA1
+ control link on the secondary HA peer. 
+
+ Configure the IPv4 Address ,
+ Netmask , and
+ Gateway of the HA1 control link
+ for the secondary HA peer. 
+
+ ( Optional ) Configure the HA1 Backup control link for both the
+ Primary Device and Secondary Device. 
+ Configuring the HA1 Backup control link provides redundancy for the
+ HA1 link. Consider the following guidelines when configuring back HA
+ links. 
+
+ The IP addresses of the primary and backup HA links must not
+ overlap each other. 
+
+ HA backup links must be on a different subnet from the
+ primary HA links. 
+
+ HA1-backup and HA2-backup ports must be configured on separate
+ physical ports. The HA1-backup link uses port 28770 and
+ 28260. 
+
+ Click Next . 
+
+ Configure the HA2 Data Link Settings. 
+ The HA2 data link is used to synchronize sessions, forwarding tables, IPSec
+ security associations, and ARP tables. Data flow on the HA2 link is always
+ unidirectional except for the HA2 keep alive. It flows from the
+ active or
+ active-primary HA peer to the
+ secondary or
+ secondary-active HA peer. The HA2 link is a
+ Layer 2 link. 
+
+ Configure the HA2 data link settings for the Primary Device. 
+
+ Select the Ethernet Port for the HA2
+ data link on the primary HA peer. 
+
+ Configure the IPv4 Address ,
+ Netmask , and
+ Gateway of the HA2 data link for
+ the primary HA peer. 
+
+ ( Optional ) Expand the Advanced
+ Settings and verify that Enable
+ Session Synchronization is enabled. 
+
+ Enable session synchronization so that the
+ secondary device has the session in its dataplane, which
+ allows the firewall to match packets to the synchronized
+ session and quickly forward packets. If you don’t enable
+ session synchronization, the firewall must create the
+ session again, which introduces latency and could drop
+ connections. 
+
+ Select the Transport method. 
+
+ Layer2 transport via
+ Ethernet —Use when the firewalls are
+ connected back-to-back or through a switch
+ (EtherType 0x7262). 
+
+ Layer3 transport via IP protocol
+ 99 —Use when Layer 3 transport is
+ required (IP protocol number 99). 
+
+ Layer4 transport via
+ UDP/29281 —Use to take advantage of the
+ fact that the checksum is calculated on the entire
+ packet rather than just the header, as in the IP
+ option (UDP port 29281). The benefit of using UDP
+ mode is the presence of the UDP checksum to verify
+ the integrity of a session sync message. 
+
+ ( Best Practices ) Enable and configure
+ HA2 Keep-alive to monitor the
+ health of the HA2 data link between the HA peers. 
+ Specify the Keep-alive
+ Action as Log
+ Only . 
+ Logs the failure of the HA2
+ interface in the system log as a critical event.
+ Select this option for active/passive deployments
+ because the active peer is the only firewall
+ forwarding traffic. The passive peer is in a
+ backup state and isn’t forwarding traffic;
+ therefore a split datapath isn’t required. If you
+ haven’t configured any HA2 Backup links, state
+ synchronization will be turned off. If the HA2
+ path recovers, an informational log will be
+ generated. 
+
+ Configure the Keep-alive Threshold
+ (ms) to specify the duration in which
+ keep-alive messages have failed before the
+ Keep-alive Action is
+ triggered. Range is
+ 5,000 to
+ 60,000 ; default is
+ 10,000 . 
+
+ Configure the HA2 data link settings for the Secondary Device. 
+
+ Select the Ethernet Port for the HA2
+ data link on the secondary HA peer. 
+
+ Configure the IPv4 Address ,
+ Netmask , and
+ Gateway of the HA2 data link for
+ the secondary HA peer. 
+
+ ( Optional ) Configure the HA2 Backup data link for both the
+ Primary Device and Secondary Device. 
+ When an HA2 backup link is configured, failover to the backup link
+ will occur if there’s a physical link failure. With the HA2 keep-alive
+ option enabled, the failover will also occur if the HA keep-alive
+ messages fail based on the defined threshold. 
+
+ Click Next . 
+
+ Define HA Failover Conditions . 
+
+ Push Config to push your configuration changes. 
+
+ Previous 
+
+ Configuration Guidelines for Active/Passive HA 
+
+ Next 
+
+ Define HA Failover Conditions 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

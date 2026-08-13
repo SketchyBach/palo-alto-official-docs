@@ -1,0 +1,565 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/u-v/custom-app-id-and-threat-signatures/ips-signature-converter-for-panorama/convert-rules-using-the-xml-api
+fetched_at: 2026-08-13T17:16:29Z
+source: palo-alto-main
+---
+
+# Convert Rules Using the Panorama XML API Clear
+
+Convert Rules Using the Panorama XML API 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Convert Rules Using the Panorama XML API 
+
+ Updated on 
+
+ Mar 13, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Advanced Threat Prevention 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Custom Application IDs and Threat Signatures 
+
+ Reference 
+
+ Release Notes 
+
+ Updated on 
+
+ Mar 13, 2026 
+
+ Focus 
+
+ Home 
+
+ Advanced Threat Prevention Powered by Precision AI® 
+
+ IPS Signature Converter Plugin for Panorama 
+
+ Convert Rules Using the Panorama XML API 
+
+ Download PDF 
+
+ Advanced Threat Prevention Powered by Precision AI® 
+
+ Convert Rules Using the Panorama XML API 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Advanced Threat Prevention 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Custom Application IDs and Threat Signatures 
+
+ Reference 
+
+ Release Notes 
+
+ Previous 
+
+ Convert Rules Using the Panorama CLI 
+
+ Next 
+
+ CLI Quick Start 
+
+ Convert Rules Using the Panorama XML API 
+
+ How to use the IPS Signature Plugin XML API to convert
+Snort and Suricata rules to Anti-Spyware or Vulnerability Protection
+profiles. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ NGFW (Managed by Panorama) 
+
+ Advanced Threat Prevention (for enhanced feature
+ support) or Threat Prevention License 
+
+ The Panorama XML API enables you to convert
+Snort and Suricata, open-source intrusion prevention system (IPS)
+rules to custom Palo Alto Networks threat signatures. You can then
+use the XML API to import the custom rules as Vulnerability Protection
+and Anti-Spyware Security profiles. 
+
+ Because the PAN-OS ® XML
+API uses a tree of XML nodes, you must specify the correct type
+and action in your API request along with the XPath Node Selection .
+See Explore the API to learn
+how to construct XML requests. 
+
+ You can not convert
+rule files through the CLI. If you want to convert a file with multiple
+rules in it, use the Panorama web interface . 
+
+ Convert Snort or Suricata policy rules to Base64
+URL encoded format. 
+
+ You can use a free, browser-based tool ( example . 
+
+ This example
+uses the following Snort rule: 
+
+ alert tcp $HOME_NET any ->
+$EXTERNAL_NET any (msg:"ET CHAT Yahoo IM conference message"; flow:
+to_server,established; content:"YMSG"; nocase; depth: 4; content:"|00 1D|";
+offset: 10; depth: 2; reference:url,doc.emergingthreats.net/2001258;
+classtype:policy-violation; sid:2001258; rev:7; metadata:created_at
+2010_07_30, updated_at 2010_07_30;) 
+
+ Make a request to convert the rule to a custom PAN-OS
+threat signature. 
+
+ curl -X POST ’https://
+
+ <firewall> /api/?key=
+
+ key &type=op&cmd=<request><plugins><ips-signature-converter><convert><b64-encode>
+
+ YWxlcnQgdGNwICRIT01FX05FVCBhbnkgLT4gJEVYVEVSTkF
+
+ MX05FVCBhbnkgKG1zZzoiRVQgQ0hBVCBZYWh
+
+ vbyBJTSBjb25mZXJlbmNlIG1lc3NhZ2UiOyBmbG93OiB0b19zZXJ2ZXIs
+
+ ZXN0YWJsaXNoZWQ7IGNvbnRlbnQ6IllNU0ciOyBub2Nhc2U7IGRlcHRoO
+
+ iA0OyBjb250ZW50OiJ8MDAgMUR8Ijsgb2Zmc2V0OiAxMDsgZGVwdGg
+
+ 6IDI7IHJlZmVyZW5jZTp1cmwsZG9jLmVtZXJnaW5ndGhyZWF0cy5uZXQvMjAwM
+
+ TI1ODsgY2xhc3N0eXBlOnBvbGljeS12aW9sYXRpb247IHNpZDoyMDAx
+
+ MjU4OyByZXY6NzsgbWV0YWRhdGE6Y3JlYXRlZF9hdCAyMDEwXzA3XzMwLCB1cGRh
+
+ dGVkX2F0IDIwMTBfMDdfMzA7KQ== </b64-encode></convert></ips-signature-converter></plugins></request>’
+
+ The response contains details about the
+rules (see previous details for more information): 
+
+ <response status="success">
+
+ <result>
+
+ <result>
+
+ <status>pass</status>
+
+ <msg>
+
+ <convert-result>
+
+ <extra-msg></extra-msg>
+
+ <failed-count>0/1</failed-count>
+
+ <failed></failed>
+
+ <duplicated-count>0/1</duplicated-count>
+
+ <duplicated></duplicated>
+
+ <skipped-count>0/1</skipped-count>
+
+ <skipped></skipped>
+
+ <warned-count>1/1</warned-count>
+
+ <warned>
+
+ <entry name="1">
+
+ <type>plain</type>
+
+ <sig_type>vulnerability</sig_type>
+
+ <line>1</line>
+
+ <title>Converted_ET CHAT Yahoo IM conference message_2001258</title>
+
+ <action>alert</action>
+
+ <severity>low</severity>
+
+ <info>
+
+ <entry name="0">
+
+ <msg>[performance_impact] use of tcp-context-free (YMSG)</msg>
+
+ <start_offset>127</start_offset>
+
+ <end_offset>131</end_offset>
+
+ </entry>
+
+ </info>
+
+ </entry>
+
+ </warned>
+
+ <succeed-count>0/1</succeed-count>
+
+ <succeed></succeed>
+
+ </convert-result>
+
+ </msg>
+
+ </result>
+
+ </result>
+
+ </response>
+
+ Set the properties for rules that you converted. 
+
+ Use the line number of a converted rule and set the properties.
+For example: 
+
+ Type set to spyware . 
+
+ Action when detected set to alert . 
+
+ Severity set to low . 
+
+ curl -X POST 'https://
+
+ <firewall> /api/?type=op&key=LUFRPT0&cmd=<request><plugins><ips-signature-converter><set-properties><default-action>alert</default-action><lines>1</lines><severity>low</severity><signature-type>spyware</signature-type></set-properties></ips-signature-converter></plugins></request>'
+
+ The resulting success message: 
+
+ <response status="success">
+
+ <result>
+
+ <result>
+
+ <status>pass</status>
+
+ <msg>
+
+ <set-properties-result>
+
+ <entry name="1">
+
+ <line>1</line>
+
+ <sig_type>spyware</sig_type>
+
+ <action>alert</action>
+
+ <severity>low</severity>
+
+ <status>success</status>
+
+ </entry>
+
+ </set-properties-result>
+
+ </msg>
+
+ </result>
+
+ </result>
+
+ </response>
+
+ ( Optional ) View the results of the converted
+rules. 
+
+ The following request results in output that displays all
+successfully converted rules and the properties associated with
+each. 
+
+ curl-X GET ‘https://
+
+ <firewall> /api/?type=op&key= apikey &cmd=<show><plugins><ips-signature-converter><results></results></ips-signature-converter></plugins></show>
+
+ The resulting success message: 
+
+ <response status="success">
+
+ <result>
+
+ <result>
+
+ <status>pass</status>
+
+ <msg>
+
+ <line>1</line>
+
+ <status>warned</status>
+
+ <rule>alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"ET CHAT Yahoo IM conference message"; flow: to_server,established; content:"YMSG"; nocase; depth: 4; content:"|00 1D|"; offset: 10; depth: 2; reference:url,doc.emergingthreats.net/2001258; classtype:policy-violation; sid:2001258; rev:7; metadata:created_at 2010_07_30, updated_at 2010_07_30;)</rule>
+
+ <type>plain</type>
+
+ <sig_type>spyware</sig_type>
+
+ <title>Converted_ET CHAT Yahoo IM conference message_2001258</title>
+
+ <action>alert</action>
+
+ <severity>low</severity>
+
+ <perf_score>10</perf_score>
+
+ <perf_level>high</perf_level>
+
+ <info>
+
+ <entry name="0">
+
+ <msg>[performance_impact] use of tcp-context-free (YMSG)</msg>
+
+ <start_offset>127</start_offset>
+
+ <end_offset>131</end_offset>
+
+ </entry>
+
+ </info>
+
+ <signatures>
+
+ <entry name="0">
+
+ <context>
+
+ <![CDATA[<entry><signature><standard><entry name="ips_converted_pattern"><and-condition><entry name="And Condition 1"><or-condition><entry name="Or Condition 1"><operator><pattern-match><pattern>YMSG</pattern><context>tcp-context-free</context><negate>no</negate></pattern-match>
+
+ </operator>
+
+ </entry>
+
+ </or-condition>
+
+ </entry><entry name="And Condition 2"><or-condition><entry name="Or Condition 1"><operator><pattern-match><pattern>\x00 1D\x</pattern><context>tcp-context-free</context><negate>no</negate></pattern-match>
+
+ </operator>
+
+ </entry>
+
+ </or-condition>
+
+ </entry>
+
+ </and-condition><order-free>no</order-free><scope>session</scope></entry>
+
+ </standard>
+
+ </signature><default-action><alert/></default-action><reference><member>doc.emergingthreats.net/2001258</member><member>Score: 10</member><member>Impact: high</member><member>Reason: use of tcp-context-free</member></reference><threatname>Converted_ET CHAT Yahoo IM conference message_2001258</threatname><severity>low</severity><direction>client2server</direction><affected-host><server>yes</server></affected-host> 
+
+ Import the Spyware or Vulnerability rule to your device
+groups to use in a custom object. 
+
+ Using the line number of a successfully converted rule,
+send a request that imports the rule to the shared device group. 
+
+ curl-X GET ‘https://
+
+ <firewall> /api/?key=
+
+ key &type=op&cmd=<request><plugins><ips-signature-converter><import-custom-sig><lines>
+
+ 1 </lines></import-custom-sig></ips-signature-converter></plugins></request>
+
+ The resulting success message using line one provides an ID
+number you can use to find the profile in the web interface. 
+
+ <response status="success">
+
+ <result>
+
+ <result>
+
+ <status>pass</status>
+
+ <msg>
+
+ <import-result>
+
+ <entry name="1">
+
+ <line>1</line>
+
+ <sid>42556</sid>
+
+ <status>success</status>
+
+ <msg>command succeeded</msg>
+
+ </entry>
+
+ </import-result>
+
+ </msg>
+
+ </result>
+
+ </result>
+
+ </response>
+
+ Previous 
+
+ Convert Rules Using the Panorama CLI 
+
+ Next 
+
+ CLI Quick Start 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Custom Application IDs and Threat Signatures 
+
+ Custom Signatures 
+
+ Advanced Threat Prevention 
+
+ Threat Prevention 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

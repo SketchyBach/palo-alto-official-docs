@@ -1,0 +1,440 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/10-1/panorama-web-interface/panorama-managed-collectors/log-collector-configuration/communication-settings
+fetched_at: 2026-08-13T16:42:33Z
+source: palo-alto-main
+---
+
+# Communication Settings Clear
+
+Communication Settings 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Communication Settings 
+
+ Updated on 
+
+ Jan 12, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Jan 12, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Panorama Web Interface 
+
+ Panorama > Managed Collectors 
+
+ Log Collector Configuration 
+
+ Communication Settings 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Communication Settings 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Connection Security 
+
+ Next 
+
+ Software Updates for Dedicated Log Collectors 
+
+ Communication Settings 
+
+ Panorama > Managed Collectors
+> Communication 
+
+ To configure custom certificate-based authentication between
+Log Collectors and Panorama, firewalls, and other Log Collectors,
+configure the settings as described in the following table. 
+
+ Communication Settings 
+
+ Description 
+
+ Secure Server Communication—Enabling Secure
+Server Communication validates the identity of client
+devices connecting to the Log Collector. 
+
+ SSL/TLS Service Profile 
+
+ Select a SSL/TLS service profile from the
+drop-down. This profile defines the certificate presented by the
+Log Collector and specifies the range of SSL/TLS versions acceptable
+for communication with the Log Collector. 
+
+ Certificate Profile 
+
+ Select a certificate profile from the drop-down.
+This certificate profile defines certificate revocation checking
+behavior and root CA used to authenticate the certificate chain
+presented by the client. 
+
+ Custom Certificate Only 
+
+ When enabled, the Log Collector only accepts
+custom certificates for authentication with managed firewalls and
+Log Collectors. 
+
+ Authorize Clients Based on Serial Number 
+
+ The Log Collector authorizes client devices
+based on uses a hash of their serial number. 
+
+ Check Authorization List 
+
+ Client devices or device groups connecting
+to this Log Collector are checked against the authorization list. 
+
+ Disconnect Wait Time (min) 
+
+ The amount of time the Log Collector waits
+before breaking the current connection with its managed devices.
+The Log Collector then reestablishes connections with its managed devices
+using the configured secure server communications settings. The
+wait time begins after the secure server communications configuration
+is committed. 
+
+ Authorization List 
+
+ Authorization List —Select
+Add and complete the following fields to set criteria. 
+
+ Identifier —Select Subject or Subject
+Alt. Name as the authorization identifier. 
+
+ Type —If Subject Alt. Name is selected
+as the Identifier, select IP , hostname ,
+or e-mail as the type of the identifier.
+If Subject is selected, common-name is used as the identifier type. 
+
+ Value —Enter the identifier value. 
+
+ Secure Client Communication —Enabling Secure
+Client Communication ensures that the specified client
+certificate is used for authenticating the Log Collector over SSL
+connections with Panorama, firewalls, or other Log Collectors. 
+
+ Certificate Type 
+
+ Select the type of device certificate (None,
+Local, or SCEP) used for securing communication 
+
+ None 
+
+ If None is selected,
+no device certificate is configured and the secure client communication
+is not used. This is the default selection. 
+
+ Local 
+
+ The Log Collector uses a local device certificate
+and the corresponding private key generated on the Log Collector
+or imported from an existing enterprise PKI server. 
+
+ Certificate —Select the local device
+certificate. This certificate can be a unique to the firewall (based
+on a hash of the Log Collector’s serial number) or a common device
+certificate used by all Log Collectors connecting to Panorama. 
+
+ Certificate Profile —Select the Certificate
+Profile from the drop-down. This certificate profile is used for
+defining the server authentication with the Log Collector. 
+
+ SCEP 
+
+ The Log Collector uses a device certificate
+and private key generated Simple Certificate Enrollment Protocol
+(SCEP) server. 
+
+ SCEP Profile —Select a SCEP Profile
+from the drop-down. 
+
+ Certificate Profile — Select the Certificate
+Profile from the drop-down. This certificate profile is used for
+defining the server authentication with the Log Collector. 
+
+ Check Server Identity 
+
+ The client device confirms the server’s
+identity by matching the common name (CN) with server’s IP address
+or FQDN. 
+
+ Previous 
+
+ Connection Security 
+
+ Next 
+
+ Software Updates for Dedicated Log Collectors 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 10.1 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,738 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-upgrade/upgrade-panorama-plugins/upgrade-sd-wan-plugin/upgrade-downgrade-paths-for-sd-wan-plugin
+fetched_at: 2026-08-13T17:03:53Z
+source: palo-alto-main
+---
+
+# Upgrade and Downgrade Paths for SD-WAN Plugin Clear
+
+Upgrade and Downgrade Paths for SD-WAN Plugin 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Upgrade and Downgrade Paths for SD-WAN Plugin 
+
+ Updated on 
+
+ Thu Jul 30 16:29:46 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jul 30 16:29:46 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ SD-WAN 
+
+ Upgrade SD-WAN Plugin with Compatible PAN-OS Release 
+
+ Upgrade and Downgrade Paths for SD-WAN Plugin 
+
+ Download PDF 
+
+ SD-WAN 
+
+ Upgrade and Downgrade Paths for SD-WAN Plugin 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Help 
+
+ Select a Document 
+
+ 3.4 
+
+ 3.3 
+
+ 3.2 
+
+ 3.1 
+
+ 3.0 
+
+ 2.2 
+
+ 2.1 
+
+ 2.0 
+
+ 1.0 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Upgrade your SD-WAN Firewalls 
+
+ Next 
+
+ Upgrade SD-WAN Plugin and Panorama Management Server 
+
+ Upgrade and Downgrade Paths for SD-WAN Plugin 
+
+ Upgrade and downgrade path for your SD-WAN plugin version. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ Advanced SD-WAN for NGFW 
+
+ Before you upgrade or downgrade an SD-WAN plugin, you must know what are
+ the appropriate plugin versions that you can upgrade or downgrade from the currently
+ installed SD-WAN plugin version on your firewall. Therefore, always refer
+ to the valid upgrade and downgrade paths for your currently installed SD-WAN plugin version as a first step in your migration plan. 
+
+ Upgrade and Downgrade Considerations 
+
+ If you need to upgrade your SD-WAN plugin, don't
+ upgrade to a release that we released before your currently
+ installed version. 
+
+ For example , we don't support
+ an upgrade from SD-WAN plugin version 3.0.7 to SD-WAN plugin version 3.2.0 because we released SD-WAN plugin version 3.2.0 before SD-WAN 
+ plugin 3.0.7. 
+
+ However, you can upgrade from any maintenance
+ release to another maintenance release within the same major or minor
+ release version. For example, you can upgrade from any SD-WAN 2.2 to any other SD-WAN 2.2 plugin
+ release. 
+ Refer the upgrade paths and downgrade paths for SD-WAN plugin before
+ upgrading or downgrading your currently installed SD-WAN 
+ plugin version. 
+
+ If you need to downgrade your SD-WAN plugin, don't
+ downgrade to a release that we released after your currently
+ installed version. 
+
+ For example , we don't support a
+ downgrade from SD-WAN plugin version 3.2.0 to SD-WAN plugin version 3.0.7 because we released SD-WAN plugin version 3.0.7 after SD-WAN 
+ plugin 3.2.0. 
+ Refer the upgrade paths and
+ downgrade paths for SD-WAN plugin
+ before upgrading or downgrading your currently installed SD-WAN plugin version. 
+
+ Upgrade Path for SD-WAN Plugin 
+
+ Interpret the information in the upgrade table as follows: 
+ Upgrade From (the Current Installed Version) —The current SD-WAN plugin version before the upgrade. 
+
+ To Allowed SD-WAN Plugin Version —The list of SD-WAN plugin versions you can upgrade to from the current
+ SD-WAN plugin version. 
+
+ To Recommended SD-WAN Plugin Version —The SD-WAN plugin version we recommend you to upgrade to from the
+ current SD-WAN plugin version. 
+
+ For example , you can upgrade from the SD-WAN plugin version
+ 2.2.1 to SD-WAN plugin versions 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6,
+ 2.2.7, and later 2.2 releases.
+ However, out of all the valid SD-WAN plugin versions (2.2.2, 2.2.3,
+ 2.2.4, 2.2.5, 2.2.6,
+ 2.2.7, and later 2.2 releases),
+ our recommended version is
+ 2.2.7 . Note that if you want to
+ upgrade from SD-WAN 2.2.1 to
+ 3.0.8,
+ you can't upgrade it directly. You must first upgrade the SD-WAN 
+ plugin from 2.2.1 to
+ 2.2.7 (the recommended version)
+ and then to
+ 3.0.8. 
+
+ Following are the upgrade paths for the SD-WAN plugin version. When
+ you perform an SD-WAN upgrade, the target plugin version performs the
+ migration process. 
+
+ Before starting the upgrade process on the firewall, you must ensure that the
+ PAN-OS version of that firewall is compatible with the
+ SD-WAN plugin version that you are planning to upgrade to. 
+
+ Upgrade From (the Current Installed Version) To Allowed SD-WAN Plugin Version To Recommended SD-WAN Plugin Version 
+
+ SD-WAN Plugin 2.2
+ Versions 
+
+ 2.2.1 
+
+ 2.2.2 and later 2.2 versions 
+
+ 2.2.6 
+
+ 2.2.2 
+
+ 2.2.3 and later 2.2 versions 
+
+ 2.2.6 
+
+ 2.2.3 
+
+ 2.2.4 and later 2.2 versions 
+
+ 2.2.6 
+
+ 2.2.4 
+
+ 2.2.5 and later 2.2 versions 
+
+ 2.2.6 
+
+ 2.2.5 
+
+ 2.2.6 and later 2.2 versions 
+
+ 2.2.6 
+
+ 2.2.6 
+
+ 2.2.7 and later 2.2 versions. 
+
+ 2.2.7-h2 
+
+ 2.2.7 and 2.2.7-h2 
+
+ 3.0.9 and later 3.0.9 release 
+
+ 3.0.8 and later 3.0 versions 
+
+ 3.2.2 and later 3.2 versions 
+
+ 3.3.3 and later 3.3 versions 
+
+ 3.0.9-h1, 3.0.8-h2, 3.2.4,
+ 3.3.3-h2, , and 3.2.4-h2 
+
+ SD-WAN Plugin 3.0
+ Versions 
+
+ 3.0.0 
+
+ 3.0.9 and 3.0.9-h1 
+
+ 3.0.8 
+
+ — 
+
+ 3.0.1 
+
+ 3.0.9 and 3.0.9-h1 
+
+ 3.0.5 and
+ 3.0.8 
+
+ — 
+
+ 3.0.2 
+
+ 3.0.9 and 3.0.9-h1 
+
+ 3.0.5 and
+ 3.0.8 
+
+ — 
+
+ 3.0.3 
+
+ 3.0.9 and 3.0.9-h1 
+
+ 3.0.5 and
+ 3.0.8 
+
+ — 
+
+ 3.0.4 
+
+ 3.0.9 and 3.0.9-h1 
+
+ 3.0.5 and
+ 3.0.8 
+
+ — 
+
+ 3.0.5 
+
+ 3.0.6 and later 3.0 versions 
+
+ 3.1.0-hf 
+
+ 3.1.2 and later 3.1 versions 
+
+ 3.2.0 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.0.9-h1, 3.0.8-h2, 3.2.4, 3.2.4-h2 , and 3.3.3-h2 
+
+ 3.0.6 
+
+ 3.0.7 and later 3.0 versions 
+
+ 3.1.3 and later 3.1 versions 
+
+ 3.2.0 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.0.9-h1, 3.0.8-h2, 3.2.4, 3.2.4-h2 , and 3.3.3-h2 
+
+ 3.0.7 
+
+ 3.1.3, and later 3.1 versions 
+
+ 3.2.1 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.0.9-h1, 3.0.8-h2, 3.2.4, 3.2.4-h2 , and 3.3.3-h2 
+
+ 3.0.8 and 3.0.8-h2 
+
+ 3.0.9 and later 3.0.9 release 
+
+ 3.1.1 
+
+ 3.1.3 
+
+ 3.2.1 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ SD-WAN plugin 3.0.8
+ version supports the Prisma Access hub. 
+
+ 3.2.4, 3.2.4-h2 , and
+ 3.3.3-h2. 
+
+ 3.0.9 
+
+ 3.1.1 
+
+ 3.1.3 
+
+ 3.2.1 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.0.9-h1 
+
+ 3.2.3-h2, 3.2.4-h2 and
+ 3.3.3-h2 
+
+ SD-WAN Plugin 3.1
+ Versions 
+
+ 3.1.0 
+
+ 3.1.1 
+
+ 3.1.3 and later 3.1 versions 
+
+ 3.2.0 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.1.3, 3.2.4, 3.2.4-h2 , and
+ 3.3.3-h2 
+
+ 3.1.1 
+
+ 3.1.3 and later 3.1 versions 
+
+ 3.2.0 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.1.3, 3.2.4, 3.2.4-h2 , and
+ 3.3.3-h2 
+
+ 3.1.2 
+
+ 3.1.3 and later 3.1 versions 
+
+ 3.2.0 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.1.3, 3.2.4, 3.2.4-h2 , and
+ 3.3.3-h2 
+
+ 3.1.3 
+
+ 3.2.1 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.2.4, 3.2.4-h2 , and
+ 3.3.3-h2 
+
+ SD-WAN Plugin 3.2 Versions 
+
+ 3.2.0 
+
+ 3.2.1 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.2.4, 3.2.4-h2 , and
+ 3.3.3-h2 
+
+ 3.2.1 
+
+ 3.2.2 and later 3.2 versions 
+
+ 3.3.0 and later 3.3 versions 
+
+ 3.2.4, 3.2.4-h2 , and
+ 3.3.3-h2 
+
+ 3.2.2 and 3.2.2-h1 
+
+ 3.2.3 and later 3.2 versions 
+
+ 3.3.1 and later 3.3 versions 
+
+ 3.2.4, 3.2.4-h2 , and
+ 3.3.3-h2 
+
+ 3.2.3 and 3.2.3-h1 
+
+ 3.3.1 and later 3.3 versions 
+
+ 3.3.3-h2 
+
+ 3.2.4 and 3.2.4-h2 
+
+ 3.3.1 and later 3.3 versions 
+
+ 3.3.3-h2 
+
+ SD-WAN Plugin 3.3 Versions 
+
+ 3.3.0 
+
+ 3.3.1 and later 3.3 versions 
+
+ 3.3.3-h2 
+
+ 3.3.1 
+
+ 3.3.2 and later 3.3 versions 
+
+ 3.3.3-h2 
+
+ 3.3.2 
+
+ 3.3.3 and later 3.3 versions 
+
+ 3.3.3-h2 
+
+ 3.3.3 
+
+ 3.3.3-h1, 3.3.3-h2 and later 3.3.3 release 
+
+ 3.3.3-h2 
+
+ Downgrade Path for SD-WAN Plugin 
+
+ Interpret the information in the downgrade table as follows: 
+ Downgrade From (the Current Installed Version) —This is the current
+ SD-WAN plugin version before the downgrade. 
+
+ To Allowed SD-WAN Plugin Version —This is the list of
+ SD-WAN plugin versions you can downgrade to from the
+ current SD-WAN plugin version. 
+
+ Following are the downgrade paths for the SD-WAN plugin version. When
+ you perform an SD-WAN downgrade, the current plugin version performs
+ the migration process. 
+
+ Before starting the downgrade process on the firewall, you must ensure that the
+ PAN-OS version of that firewall is compatible with the
+ SD-WAN plugin version that you are planning to downgrade to. 
+
+ Downgrade From (the Current Installed Version) To Allowed SD-WAN Plugin Version 
+
+ 2.2.2, 2.2.3, 2.2.4, 2.2.5, and 2.2.6 
+
+ 2.2.1 
+
+ 2.2.3, 2.2.4, 2.2.5, and 2.2.6 
+
+ 2.2.2 
+
+ 2.2.4, 2.2.5, and 2.2.6 
+
+ 2.2.3 
+
+ 2.2.5 and 2.2.6 
+
+ 2.2.4 
+
+ 2.2.6 
+
+ 2.2.5 
+
+ 3.0.7, 3.1.3, 3.2.1, and 3.3.0 
+
+ 2.2.6 
+
+ 3.0.5 
+
+ 3.0.0, 3.0.1, 3.0.2, 3.0.3, and 3.0.4 
+
+ 3.0.6, 3.0.7, 3.1.0-hf, 3.1.1, 3.1.3, 3.2.0, 3.2.1, and 3.3.0
+
+ 3.0.5 
+
+ 3.0.7, 3.1.3, 3.2.0, 3.2.1, and 3.3.0 
+
+ 3.0.6 
+
+ 3.1.3, 3.2.1, and 3.3.0 
+
+ 3.0.7 
+
+ 3.0.8 and 3.0.8-h2 
+
+ 2.2.1 and later 2.2 versions, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4,
+ 3.0.5, and 3.0.7. 
+
+ 3.0.9 and 3.0.9-h1 
+
+ 2.2.1 and later 2.2 versions, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4,
+ 3.0.5, and 3.0.7, 3.0.8 and 3.0.8-h2 
+
+ 3.1.1, 3.1.3, 3.2.0, 3.2.1, and 3.3.0 
+
+ 3.1.0 
+
+ 3.1.3, 3.2.0, 3.2.1, and 3.3.0 
+
+ 3.1.1 and 3.1.2 
+
+ 3.2.1 and 3.3.0 
+
+ 3.1.3 and 3.2.0 
+
+ 3.3.1 
+
+ 2.2.6, 3.0.6, 3.0.7, 3.1.3, 3.2.1, and 3.3.0 
+
+ 3.2.2 and 3.2.2-h1 
+
+ 3.0.9, 3.0.9-h1, 2.2.7,
+ 2.2.7-h2, and 3.0.8 
+
+ 3.2.3, 3.2.3-h1, and 3.2.3-h2 
+
+ 3.0.9, 3.0.9-h1, 2.2.7,
+ 2.2.7-h2, and 3.0.8 
+
+ 3.2.4, 3.2.4-h1 , and
+ 3.2.4-h2 
+
+ 3.0.8-h2, 2.2.7-h2 
+
+ 3.3.2 and later version 
+
+ 2.2.7, 2.2.7-h2, 3.0.8, 3.0.8-h2, 3.2.3-h1, and 3.2.3-h2 
+
+ 3.3.3 and later release 
+
+ 2.2.7, 2.2.7-h2, 3.0.9, 3.0.9-h1,
+ 3.0.8, 3.0.8-h2, 3.2.3-h1, and 3.2.3-h2 
+
+ Previous 
+
+ Upgrade your SD-WAN Firewalls 
+
+ Next 
+
+ Upgrade SD-WAN Plugin and Panorama Management Server 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ IoT Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ Activation & Onboarding 
+
+ Next-Generation Firewall 
+
+ SD-WAN 
+
+ English 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

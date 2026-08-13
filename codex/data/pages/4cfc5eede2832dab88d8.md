@@ -1,0 +1,504 @@
+---
+url: https://docs.paloaltonetworks.com/sase/prisma-sase-multitenant-platform/prisma-sase-app-overview/logforwarding-profile
+fetched_at: 2026-08-13T17:34:57Z
+source: palo-alto-main
+---
+
+# Log Forwarding Profile Clear
+
+Log Forwarding Profile 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Strata Multitenant Cloud Manager 
+
+ : 
+ Log Forwarding Profile 
+
+ Updated on 
+
+ Thu Jul 30 23:51:50 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Strata Multitenant Cloud Manager 
+
+ Access the Platform and Products 
+
+ Access Products 
+
+ Activate a Product 
+
+ SASE 
+
+ Firewall and SD-WAN 
+
+ First Time Setup 
+
+ Manage Tenants 
+
+ Use Common Services: Tenant Management 
+
+ Switch Tenants 
+
+ Manage Identity and Access 
+
+ Use Common Services: Identity Management 
+
+ Summary and Insights 
+
+ Security 
+
+ Prisma Access 
+
+ Prisma SD-WAN 
+
+ Prisma Browser 
+
+ Operational 
+
+ Prisma Access 
+
+ Prisma SD-WAN 
+
+ Prisma Browser 
+
+ Business 
+
+ Legacy Dashboard to Summary and Insights Widget Mapping 
+
+ Monitor Incidents 
+
+ Monitor Prisma Access Incidents 
+
+ Monitor Prisma SD-WAN Incidents 
+
+ ASC Support View 
+
+ Monitor Status of Services through the ASC Support View 
+
+ Monitor Performance of Tunnel Status through the ASC Support View 
+
+ Monitor Performance of Auto Scaling through the ASC Support View 
+
+ Monitor Performance of Throughput through the ASC Support View 
+
+ Monitor Performance of the System through the ASC Support View 
+
+ View Licenses through the ASC Partner Portal 
+
+ View Status of Upgrades through the ASC Support View 
+
+ Manage Services and Devices 
+
+ Manage Services 
+
+ Manage Devices 
+
+ Allocate Hardware Devices 
+
+ Return Hardware Devices 
+
+ Re-allocate Hardware Devices 
+
+ Revoke Hardware Devices 
+
+ Allocate Virtual ION Devices 
+
+ Instantiate Virtual ION Devices 
+
+ Revoke Virtual ION Devices 
+
+ Service Provider Interconnects 
+
+ Service Provider Interconnect with Non-IPsec 
+
+ Service Provider Interconnect with IPsec 
+
+ Use Case: High Bandwidth Native IP Branch Site Configuration 
+
+ Manage Service Provider Interconnects 
+
+ Configure the Egress Path 
+
+ Configure Per-Tenant Interconnect 
+
+ Configure Shared Interconnect 
+
+ Service Provider Interconnect Locations 
+
+ View Interconnects 
+
+ Manage VLAN Attachments 
+
+ Add VLAN Attachment 
+
+ View VLAN Attachments 
+
+ View VLAN Pairing Key 
+
+ Manage IP Pools 
+
+ Add IP Pool 
+
+ Update IP Pool 
+
+ Monitor Interconnects 
+
+ Monitor IP Pool Usage 
+
+ Manage Prisma SASE 5G 
+
+ Configure Prisma SASE 5G 
+
+ Monitor Prisma SASE 5G 
+
+ RADIUS Attributes for Prisma SASE 5G Integration 
+
+ Manage Bulk Configurations 
+
+ Assign and Push Bulk Configuration Snippets 
+
+ View Tenant Bulk Config Status 
+
+ View Bulk Config Job Status 
+
+ Remove Configuration Snippet 
+
+ Manage Multitenant Notifications 
+
+ Add a Multitenant Notifications Profile 
+
+ View the Multitenant Notifications Profiles 
+
+ Enable or Disable a Multitenant Notifications Profile 
+
+ Copy or Delete a Multitenant Notifications Profile 
+
+ Read in-App Multitenant Notifications and Mark as Read 
+
+ Manage Multitenant Reports 
+
+ Prisma SASE App for ServiceNow 
+
+ Download and Install the ServiceNow App 
+
+ Setup Prisma SASE App – Single Tenant 
+
+ Setup Prisma SASE App – Multi-Tenant 
+
+ Set Up Integration for Root Tenants 
+
+ Notification Profiles 
+
+ Log Forwarding Profile 
+
+ Workflows 
+
+ Incidents 
+
+ Dashboards 
+
+ Customer Support Tickets 
+
+ Roles and Permissions 
+
+ Related Documentation 
+
+ Read Product Documentation 
+
+ Open a Support Case for a Tenant 
+
+ Release Updates 
+
+ Known Issues 
+
+ What’s New 
+
+ Updated on 
+
+ Thu Jul 30 23:51:50 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Secure Access Service Edge 
+
+ Strata Multitenant Cloud Manager 
+
+ Prisma SASE App for ServiceNow 
+
+ Log Forwarding Profile 
+
+ Download PDF 
+
+ Strata Multitenant Cloud Manager 
+
+ Log Forwarding Profile 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Strata Multitenant Cloud Manager 
+
+ Access the Platform and Products 
+
+ Access Products 
+
+ Activate a Product 
+
+ SASE 
+
+ Firewall and SD-WAN 
+
+ First Time Setup 
+
+ Manage Tenants 
+
+ Use Common Services: Tenant Management 
+
+ Switch Tenants 
+
+ Manage Identity and Access 
+
+ Use Common Services: Identity Management 
+
+ Summary and Insights 
+
+ Security 
+
+ Prisma Access 
+
+ Prisma SD-WAN 
+
+ Prisma Browser 
+
+ Operational 
+
+ Prisma Access 
+
+ Prisma SD-WAN 
+
+ Prisma Browser 
+
+ Business 
+
+ Legacy Dashboard to Summary and Insights Widget Mapping 
+
+ Monitor Incidents 
+
+ Monitor Prisma Access Incidents 
+
+ Monitor Prisma SD-WAN Incidents 
+
+ ASC Support View 
+
+ Monitor Status of Services through the ASC Support View 
+
+ Monitor Performance of Tunnel Status through the ASC Support View 
+
+ Monitor Performance of Auto Scaling through the ASC Support View 
+
+ Monitor Performance of Throughput through the ASC Support View 
+
+ Monitor Performance of the System through the ASC Support View 
+
+ View Licenses through the ASC Partner Portal 
+
+ View Status of Upgrades through the ASC Support View 
+
+ Manage Services and Devices 
+
+ Manage Services 
+
+ Manage Devices 
+
+ Allocate Hardware Devices 
+
+ Return Hardware Devices 
+
+ Re-allocate Hardware Devices 
+
+ Revoke Hardware Devices 
+
+ Allocate Virtual ION Devices 
+
+ Instantiate Virtual ION Devices 
+
+ Revoke Virtual ION Devices 
+
+ Service Provider Interconnects 
+
+ Service Provider Interconnect with Non-IPsec 
+
+ Service Provider Interconnect with IPsec 
+
+ Use Case: High Bandwidth Native IP Branch Site Configuration 
+
+ Manage Service Provider Interconnects 
+
+ Configure the Egress Path 
+
+ Configure Per-Tenant Interconnect 
+
+ Configure Shared Interconnect 
+
+ Service Provider Interconnect Locations 
+
+ View Interconnects 
+
+ Manage VLAN Attachments 
+
+ Add VLAN Attachment 
+
+ View VLAN Attachments 
+
+ View VLAN Pairing Key 
+
+ Manage IP Pools 
+
+ Add IP Pool 
+
+ Update IP Pool 
+
+ Monitor Interconnects 
+
+ Monitor IP Pool Usage 
+
+ Manage Prisma SASE 5G 
+
+ Configure Prisma SASE 5G 
+
+ Monitor Prisma SASE 5G 
+
+ RADIUS Attributes for Prisma SASE 5G Integration 
+
+ Manage Bulk Configurations 
+
+ Assign and Push Bulk Configuration Snippets 
+
+ View Tenant Bulk Config Status 
+
+ View Bulk Config Job Status 
+
+ Remove Configuration Snippet 
+
+ Manage Multitenant Notifications 
+
+ Add a Multitenant Notifications Profile 
+
+ View the Multitenant Notifications Profiles 
+
+ Enable or Disable a Multitenant Notifications Profile 
+
+ Copy or Delete a Multitenant Notifications Profile 
+
+ Read in-App Multitenant Notifications and Mark as Read 
+
+ Manage Multitenant Reports 
+
+ Prisma SASE App for ServiceNow 
+
+ Download and Install the ServiceNow App 
+
+ Setup Prisma SASE App – Single Tenant 
+
+ Setup Prisma SASE App – Multi-Tenant 
+
+ Set Up Integration for Root Tenants 
+
+ Notification Profiles 
+
+ Log Forwarding Profile 
+
+ Workflows 
+
+ Incidents 
+
+ Dashboards 
+
+ Customer Support Tickets 
+
+ Roles and Permissions 
+
+ Related Documentation 
+
+ Read Product Documentation 
+
+ Open a Support Case for a Tenant 
+
+ Release Updates 
+
+ Known Issues 
+
+ What’s New 
+
+ Log Forwarding Profile 
+
+ This section contains the steps to create a log forwarding profile. 
+
+ Log forwarding profiles define how and where security logs are sent for analysis,
+ monitoring, and storage. You can filter specific log types and forward them to
+ different destinations. 
+
+ To create a log forwarding profile, perform the following: 
+
+ Select Prisma SASE App for ServiceNow Incident
+ Settings Log Forwarding
+ Profiles New . 
+
+ Specify a Profile Name . 
+
+ Choose the Log Forwarding Profile Type: HTTPS Profile or
+ Syslog Profile. 
+
+ For HTTPS Profile , specify the
+ URL , select the Authentication
+ Type, and specify the authentication details based on the
+ selected authentication type. 
+
+ For Syslog Profile , specify the Syslog
+ server, Port , and select the Output
+ Format . 
+
+ Select Log Filter Details and configure the log query
+ filter. 
+
+ Select Tenants and select all the tenants to which the
+ log forwarding profile should apply, and Submit . 
+
+ Previous 
+
+ Notification Profiles 
+
+ Next 
+
+ Workflows 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

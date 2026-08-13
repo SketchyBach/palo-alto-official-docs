@@ -1,0 +1,351 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-networking-admin/nat64/path-mtu-discovery
+fetched_at: 2026-08-13T17:06:13Z
+source: palo-alto-main
+---
+
+# DNS64 Server Clear
+
+DNS64 Server 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ DNS64 Server 
+
+ Updated on 
+
+ Tue Aug 04 17:04:37 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Tue Aug 04 17:04:37 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ NAT64 
+
+ DNS64 Server 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ DNS64 Server 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ NAT64 
+
+ Next 
+
+ Path MTU Discovery 
+
+ DNS64 Server 
+
+ Understand the role of a DNS64 server in NAT64 and an IPv4-embedded IPv6 address. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ If you need to use a DNS and you want to perform NAT64
+translation using IPv6-Initiated
+Communication , you must use a third-party DNS64 server or
+other DNS64 solution that is set up with the Well-Known Prefix or
+your NSP. When an IPv6 host attempts to access an IPv4 host or domain on
+the internet, the DNS64 server queries an authoritative DNS server
+for the IPv4 address mapped to that host name. The DNS server returns
+an Address record (A record) to the DNS64 server containing the
+IPv4 address for the host name. 
+
+ The DNS64 server in turn converts the IPv4 address to hexadecimal and encodes it into the
+ appropriate octets of the IPv6 prefix it is set up to use (the Well-Known Prefix or your
+ NSP) based on the prefix length, which results in an IPv4-embedded IPv6 address. The
+ DNS64 server sends an AAAA record to the IPv6 host that maps the IPv4-embedded IPv6
+ address to the IPv4 host name. 
+
+ IPv4-Embedded IPv6 Address 
+
+ NAT64 uses an IPv4-embedded IPv6 address as described in RFC
+ 6052 , IPv6 Addressing of IPv4/IPv6 Translators . An
+ IPv4-embedded IPv6 address is an IPv6 address in which 32 bits have an IPv4 address
+ encoded in them. The IPv6 prefix length (PL in the figure) determines where in the
+ IPv6 address the IPv4 address is encoded, as follows: 
+
+ The firewall supports translation for /32, /40, /48, /56, /64, and /96 subnets using
+ these prefixes. A single firewall supports multiple prefixes; each NAT64 rule uses
+ one prefix. The prefix can be the Well-Known Prefix (64:FF9B::/96) or a
+ Network-Specific Prefix (NSP) that is unique to the organization that controls the
+ address translator (the DNS64 device). An NSP is usually a network within the
+ organization’s IPv6 prefix. The DNS64 device typically sets the u field and suffix
+ to zeros; the firewall ignores those fields. 
+
+ Previous 
+
+ NAT64 
+
+ Next 
+
+ Path MTU Discovery 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Networking 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,384 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/11-1/device/device-certificate-management-certificates/manage-default-trusted-certificate-authorities
+fetched_at: 2026-08-13T16:45:06Z
+source: palo-alto-main
+---
+
+# Manage Default Trusted Certificate Authorities Clear
+
+Manage Default Trusted Certificate Authorities 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Manage Default Trusted Certificate Authorities 
+
+ Updated on 
+
+ Jun 25, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Jun 25, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Device 
+
+ Device > Certificate Management > Certificates 
+
+ Manage Default Trusted Certificate Authorities 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ 한국어 (Korean) 
+
+ Next-Generation Firewall 
+
+ Manage Default Trusted Certificate Authorities 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Other Supported Actions to Manage Certificates 
+
+ Next 
+
+ Device > Certificate Management > Certificate Profile 
+
+ Manage Default Trusted Certificate Authorities 
+
+ Device > Certificate Management
+> Certificates > Default Trusted Certificate Authorities 
+
+ Use this page to view, disable, or export, the pre-included certificate
+authorities (CAs) that the firewall trusts. The pre-installed list
+of CAs includes the most common and trusted certificate providers
+responsible for issuing the certificates the firewall requires to
+secure connections to the internet. For each trusted root CA, the
+name, subject, issuer, expiration date and validity status are displayed. 
+
+ The firewall does not trust intermediate CAs by default because
+intermediate CAs are not a part of the chain of trust between the
+firewall and the trusted root CA. You must manually add any intermediate
+CAs that you want the firewall to trust, along with any additional
+trusted enterprise CAs that your organization requires ( Device Certificate Management Certificates Device Certificates ). 
+
+ Trusted Certificate Authorities
+Settings 
+
+ Description 
+
+ Enable 
+
+ If you disabled a CA, you can re- Enable it. 
+
+ Disable 
+
+ Select the CA and Disable it.
+You might use this option to trust only specific CAs or to disable
+all other CAs and trust only your local CA. 
+
+ Export 
+
+ Select and Export the
+CA certificate. You can import into another system or view the certificate
+offline. 
+
+ Previous 
+
+ Other Supported Actions to Manage Certificates 
+
+ Next 
+
+ Device > Certificate Management > Certificate Profile 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ PAN-OS 
+
+ 11.1 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

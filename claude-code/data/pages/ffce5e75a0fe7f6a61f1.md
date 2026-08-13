@@ -1,0 +1,675 @@
+---
+url: https://docs.paloaltonetworks.com/network-security/decryption/administration/monitoring-decryption/decryption-monitoring-tools
+fetched_at: 2026-08-13T16:38:11Z
+source: palo-alto-main
+---
+
+# Decryption Logs and Other Monitoring Tools Clear
+
+Decryption Logs and Other Monitoring Tools 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Decryption Logs and Other Monitoring Tools 
+
+ Updated on 
+
+ Mar 13, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Updated on 
+
+ Mar 13, 2026 
+
+ Focus 
+
+ Home 
+
+ Network Security 
+
+ Monitor Decryption 
+
+ Decryption Logs and Other Monitoring Tools 
+
+ Download PDF 
+
+ Network Security 
+
+ Decryption Logs and Other Monitoring Tools 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Previous 
+
+ Monitor Decryption 
+
+ Next 
+
+ Configure Decryption Logging 
+
+ Decryption Logs and Other Monitoring Tools 
+
+ Introduction to the tools and tasks that help you monitor decryption activity on your
+ network. 
+
+ You can use decryption logs and other tools to examine decrypted and undecrypted traffic
+ on your network and observe specific metrics, data, patterns, and anomalies,
+ including: 
+
+ Traffic causing decryption failures by Service Name Identification (SNI) and
+ application 
+
+ Traffic using weak protocols and algorithms 
+
+ Successful and unsuccessful decryption activity in your network 
+
+ Decryption statistics and information about adoption, failures, versions,
+ algorithms, and more 
+
+ Number of blocked sessions 
+
+ Next-Generation Firewall ( NGFW ) performance, which helps you
+ understand the impact of decryption on throughput and verify if the NGFW is operating within acceptable norms. If you want to decrypt
+ more traffic than current resources support, scale up your NGFW 
+ deployment. 
+
+ Additionally, these tools help you troubleshoot common decryption issues and improve your decryption deployment
+ and network security. 
+
+ Decryption Logs 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ All NGFW deployments, including those funded
+ by software NGFW
+ credits 
+
+ All Prisma Access deployments 
+
+ No separate license required for decryption when using NGFWs or
+ Prisma Access . 
+
+ Note: The features and capabilities available to you in
+ Strata Cloud Manager depend on your active license(s) . 
+
+ Decryption logs provide comprehensive information about individual sessions that
+ match a decryption policy rule . Details recorded in the logs
+ include source and destination address, TLS version, key exchange algorithm,
+ encryption algorithm, authentication algorithm, and error information . Beginning in PAN-OS 12.1.2,
+ decryption logs differentiate between client-side and server-side session
+ attributes using "Client" and "Server" column headers. This distinction makes it
+ clear what is happening at each stage of the proxied connections. For example,
+ the TLS version negotiated between the client and the firewall appears under the
+ "Client" header, while the TLS version negotiated between the server and the
+ firewall appears under the "Server" header. For a complete list of fields,
+ see Decryption Log Fields . 
+
+ Monitor decryption logs to gain context about decrypted or undecrypted network
+ traffic and diagnose and resolve decryption issues. For example, if a session isn't
+ decrypted as expected, you can review the policy rule name and error message for the
+ session to focus your investigation. You can customize your log view by hiding or
+ rearranging columns and filtering log entries by specific characteristics. 
+
+ By default, the NGFW logs all unsuccessful TLS handshake traffic.
+ Consider logging successful TLS handshakes for increased visibility, if you have
+ sufficient log storage. 
+
+ Next-Generation Firewalls ( NGFW s) don't generate decryption log
+ entries for web traffic blocked during SSL/TLS handshakes . These sessions
+ don’t appear in decryption logs because the NGFW prevents
+ decryption when it resets the SSL/TLS connection. You can view details of the
+ blocked sessions in the URL filtering logs. 
+
+ SSH Proxy traffic isn't captured in decryption logs. In addition, certificate
+ information isn’t available for session resumption logs. 
+
+ PAN-OS supports decryption logs for the following types of traffic: 
+
+ Not all types of traffic support every parameter. Unsupported Parameters by Proxy Type and TLS Version lists unsupported parameters for each proxy type. 
+
+ SSL Forward Proxy—Several fields only display information for Forward Proxy
+ traffic, including root CA (for trusted certificates only) and Server Name
+ Identification (SNI) 
+
+ The data for Forward Proxy traffic is based on whether the TLS handshake is
+ successful or unsuccessful. For unsuccessful TLS handshakes, the NGFW sends error data for the leg of the transaction that
+ caused the error, either client-to- NGFW or NGFW -to-server. For successful TLS handshakes, the data is from the leg that
+ successfully completes first, which is usually client-to- NGFW . 
+
+ SSL Inbound Inspection 
+
+ No Decrypt (traffic excluded from decryption by decryption policy rules) 
+
+ Because the session remains encrypted, the logs display less information.
+ For undecrypted TLSv1.3 traffic, there is no certificate information
+ because TLSv1.3 encrypts certificate information. 
+
+ GlobalProtect™—Covers GlobalProtect gateway, GlobalProtect portal, and
+ GlobalProtect Clientless VPN (client-to- NGFW only) 
+
+ Decryption Mirror 
+
+ The decryption log learns each session’s App-ID from Traffic logs. Enable Traffic
+ logs to see App-IDs in decryption logs. If Traffic logs are disabled, the App-ID
+ shows as incomplete . For example, GlobalProtect often
+ generates intrazone traffic (Untrust zone to Untrust zone), but the default
+ intrazone policy doesn't enable Traffic logs. To see the App-ID for
+ GlobalProtect intrazone traffic, enable Traffic logs for intrazone traffic. 
+
+ Another reason that an App-ID may display as incomplete is
+ that for long sessions, the NGFW may generate a decryption log
+ before the Traffic log is complete (the Traffic log usually generates at session
+ end). In those cases, the App-ID is not available for the decryption session. In
+ addition, when the TLS handshake fails and generates an error log, an App-ID is
+ not available because the session terminates before the NGFW can
+ determine the App-ID. In these cases, the application may display as
+ ssl or as incomplete . 
+
+ When decryption logs are enabled, an NGFW sends HTTP/2 logs as
+ Tunnel Inspection logs (when decryption logs are disabled, HTTP/2 logs are sent
+ as Traffic logs). Check the Tunnel Inspection logs instead of the Traffic logs
+ for HTTP/2 events. 
+
+ Unsupported Parameters by Proxy Type and TLS Version 
+
+ Decryption log fields display decryption session parameters for each
+ decryption proxy type. However, for reasons such as version support, encrypted
+ portions of TLS handshakes, information availability, some parameters are not
+ available for every proxy type or TLS version. The following table shows
+ unsupported decryptions log parameters by proxy type and TLS
+ version. 
+
+ Proxy Type Unsupported Parameter TLS Version 
+
+ Forward Proxy 
+
+ Negotiated EC Curve 
+
+ TLSv1.3 
+
+ Inbound Inspection 
+
+ Server Name Identification 
+
+ Root Common Name 
+
+ All 
+
+ Negotiated EC Curve 
+
+ TLSv1.3 
+
+ No Decrypt ( No Decrypt action in the
+ decryption policy rule) 
+
+ Negotiated EC Curve 
+
+ Server Name Identification 
+
+ TLSv1.2 
+
+ Negotiated EC Curve 
+
+ Server Name Identification 
+
+ Certificate Information (all certificate information fields,
+ for example, Certificate Start Date, Certificate End Date,
+ Certificate Key Type, etc.) 
+
+ TLSv1.3 
+
+ Network Packet Broker 
+
+ Negotiated EC Curve 
+
+ TLSv1.3 
+
+ GlobalProtect Portal 
+
+ Server Name Identification 
+
+ Root Common Name 
+
+ Decryption Policy Name 
+
+ App-ID 
+
+ All 
+
+ GlobalProtect Gateway 
+
+ Server Name Identification 
+
+ Decryption Policy Name 
+
+ App-ID 
+
+ All 
+
+ Clientless SSLVPN 
+
+ Server Name Identification 
+
+ All 
+
+ SSH 
+
+ Decryption Log Not Supported 
+
+ Cleartext 
+
+ Decryption Log Not Supported 
+
+ Decryption Reports 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama) 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ Depending on the products you're using, you need at least one
+ of... 
+
+ For Prisma Access (Managed by Panorama) : 
+
+ A Prisma Access
+ license and Cloud Services
+ plugin for Panorama 
+
+ If you're using a NGFW (Managed by PAN-OS or Panorama) , no other
+ requirements. 
+
+ Create custom reports for decryption events based
+ on decryption log fields and predefined templates that summarize decryption
+ activity. Pinpoint the exact information you want to analyze and then filter by
+ conditions and log filters. You can also include Query Builders to dig deeper into
+ data in reports. Reports generate every night or at the scheduled time. You can
+ export these into PDF, CSV, and XML formats. 
+
+ Local Decryption Exclusion Cache 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ All NGFW deployments, including those funded
+ by software NGFW
+ credits 
+
+ All Prisma Access deployments 
+
+ No separate license required for decryption when using NGFWs or
+ Prisma Access . 
+
+ Note: The features and capabilities available to you in
+ Strata Cloud Manager depend on your active license(s) . 
+
+ The Local Decryption Exclusion Cache automatically adds servers that local users
+ encounter that break decryption for technical reasons and excludes them from
+ decryption, provided that the decryption profile applied to the traffic allows
+ unsupported modes (if unsupported modes are blocked, then the traffic is blocked
+ instead of added to the cache). You can view
+ this to see which servers have automatically been excluded from decryption. This may
+ explain certain behavior you witness. 
+
+ Decryption Application Command Center (ACC) Widgets 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama) 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ Depending on the products you're using, you need at least one
+ of... 
+
+ For Prisma Access (Managed by Panorama) : 
+
+ A Prisma Access
+ license and Cloud Services
+ plugin for Panorama 
+
+ If you're using a NGFW (Managed by PAN-OS or Panorama) , no other
+ requirements. 
+
+ Decryption logs and the SSL Activity Widgets in the Application
+ Command Center (ACC) provide powerful decryption troubleshooting tools that work
+ both independently and together. When you gain an understanding of how to use these
+ tools, you can investigate and address a wide range of decryption issues. The
+ following examples show you how to use the troubleshooting tools to identify,
+ investigate, and address decryption issues. Apply these methods to troubleshoot any
+ issues you encounter in your decryption deployment. 
+
+ The Application Command Center (ACC) widgets for decryption ( ACC SSL Activity ) introduced in PAN-OS 11.1 work with decryption logs to help you
+ diagnose and resolve decryption issues quickly and easily. Use the SSL
+ Activity widget to view and analyze network decryption activity such
+ as the number of decrypted and undecrypted sessions, how much traffic uses different
+ TLS protocol versions, the most common decryption failure reasons, and which
+ applications and Server Name Identifications (SNIs) use weak ciphers and algorithms.
+ Next, use the decryption logs to drill down into sessions and diagnose the exact
+ issue so you can take appropriate action. 
+
+ PAN-OS 11.1 introduced five new decryption widgets. Use the information the widgets
+ provide to identify misconfigured decryption policy rules and profiles and make
+ informed decisions about what traffic to allow and block: 
+
+ Traffic Activity —Shows SSL/TLS activity compared to non-SSL/TLS
+ activity by total number of sessions or amount of traffic in bytes. 
+
+ SSL/TLS Traffic —Shows the amount of decrypted and undecrypted traffic
+ by number of sessions or amount of traffic in bytes. Reasons for traffic not
+ being decrypted include: 
+
+ No decryption policy rule is applied to the traffic. 
+
+ The decryption policy rule intentionally exempted the traffic from
+ decryption (for example, a no-decryption policy rule). 
+
+ The decryption policy rule was misconfigured and the traffic was
+ intended to be decrypted but is not. 
+
+ The site is in the SSL decryption
+ exclusion list ( Device Certificate Management SSL Decryption Exclusion ), which contains sites Palo Alto Networks has
+ identified that break decryption for technical reasons such as
+ pinned certificates or client authentication. For these sites, the
+ NGFW bypasses decryption. 
+
+ The site is in the Local SSL Decryption Exclusion Cache , which contains sites that prevent
+ decryption for technical reasons. 
+
+ The ACC only populates the next three widgets with data from traffic that a
+ decryption policy rule controls. If you don’t apply a decryption policy rule to
+ traffic, that traffic does not populate these widgets. 
+
+ Decryption Failure Reasons —Shows the reasons for decryption failures:
+ protocol, certificate, version, cipher, HSM, resource, resume, or feature
+ issues, by SNI. Use this information to detect problems caused by decryption
+ policy rule or profile misconfigurations or by traffic that uses unsupported
+ weak protocols or algorithms. Click a failure reason to drill down and
+ isolate the number of sessions per SNI that experienced the failure or click
+ an SNI to see all of the decryption failures for that SNI. 
+
+ Successful TLS Version Activity —Shows successful TLS connections by
+ TLS version for applications or SNIs (SNIs are available for Forward Proxy
+ only) so you can evaluate how much risk you are taking on by allowing weaker
+ TLS protocol versions. Identifying applications and SNIs that use weak
+ protocols enables you to evaluate each one and decide whether you need to
+ allow access to it for business reasons. If you don’t need the application
+ for business purposes, you may want to block the traffic instead of allowing
+ it to reduce risk. Click a TLS version to drill down and view the SNIs or
+ applications that used that TLS version. Click an application or an SNI to
+ drill down and see how many of those application or SNI sessions used each
+ TLS version. 
+
+ Successful Key Exchange Activity —Shows successful key exchange
+ activity per algorithm for applications or SNIs (SNIs are available for
+ Forward Proxy only). Click a key exchange algorithm to see the activity for
+ just that algorithm or click an application or SNI to view the key exchange
+ algorithm activity for that application or SNI. 
+
+ The following example of drilling down into ACC data shows you how to examine
+ successful TLS version activity: 
+
+ The Successful TLS Version Activity widget shows that
+ 17 sessions used TLSv1.3 and seven sessions used TLSv1.2. The SNI list shows
+ the destination SNIs and the number of sessions per SNI. 
+
+ To see which SNIs used TLSv1.2, click the green bar labeled TLSv1.2. 
+
+ Now, you can see the seven TLSv1.2 sessions were spread among four
+ servers. 
+
+ Clicking Home returns to the home screen. Now,
+ clicking the www.espn.com SNI shows us which TLS versions it used. We can
+ see that two of the four sessions used TLSv1.3 and two used TLSv1.2. 
+
+ For any decryption widget, click the Jump to Logs icon to jump directly to the
+ decryption logs that correspond to the data in the ACC: 
+
+ In the preceding example, at any point in the investigation you could jump to the
+ decryption logs for the data to drill down more. For example, you could examine the
+ logs for the individual sessions that used TLSv1.2 to find out why they didn’t use
+ TLSv1.3. 
+
+ Decryption ACC widgets show the name of the decrypted application based on the Palo
+ Alto Networks App-ID. For populating the ACC, the NGFW can only
+ identify applications that have a Palo Alto Networks App-ID; the NGFW 
+ can’t populate the ACC with custom applications or applications that do not have an
+ App-ID. Content updates update App-IDs regularly. Other
+ reasons that the application may be shown as incomplete or unknown are: 
+
+ The NGFW dropped the session before it could identify the
+ application. 
+
+ Decryption logs depend on Traffic logs to populate the decryption log
+ application field. However, if the Traffic log isn’t completed in 60 seconds
+ or less, the Traffic log does not populate the application in the decryption
+ log and the application displays as incomplete or unknown. 
+
+ Decryption Port Mirroring 
+
+ Where Can I Use This? What Do I Need? 
+
+ All NGFW deployments, including those funded
+ by software NGFW
+ credits 
+
+ Decryption Port Mirroring
+ license 
+
+ Decryption mirroring creates a copy of decrypted traffic from an NGFW 
+ and sends it to a traffic collection tool such as NetWitness or Solera, which can
+ receive raw packet captures for archiving and analysis. Organizations that require
+ comprehensive data capture for forensic and historical purposes or for data leak
+ prevention can install a free license to enable the feature. 
+
+ After you install the license, connect the traffic collection tool directly to an
+ Ethernet interface on the NGFW and set the Interface
+ Type to Decrypt Mirror . The NGFW simulates a TCP handshake with the collection tool and then sends every data
+ packet through that interface, decrypted (as cleartext). 
+
+ VM-Series firewalls support decryption port mirroring in ESXi and Azure cloud
+ environments. To enable this feature on Azure, you must configure an Azure tap
+ interface. 
+
+ Decryption port mirroring is not available on the VM-Series
+ for Google Cloud Platform and VMware NSX. 
+
+ Keep in mind that certain countries regulate the decryption, storage, inspection, or
+ use of SSL traffic, and user consent may be required to mirror traffic.
+ Additionally, malicious users with administrative access to the NGFW 
+ could potentially harvest usernames, passwords, social security numbers, credit card
+ numbers, or other sensitive information submitted through encrypted channels. Palo
+ Alto Networks recommends that you consult with corporate counsel before activating
+ and using this feature in a production environment. 
+
+ The following graphic shows the process for mirroring decrypted traffic. Configure Decryption
+ Port Mirroring describes how to license and enable this feature. 
+
+ Previous 
+
+ Monitor Decryption 
+
+ Next 
+
+ Configure Decryption Logging 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Decryption 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Decryption 
+
+ English 
+
+ Strata Cloud Manager 
+
+ Logs 
+
+ Decryption Port Mirroring 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

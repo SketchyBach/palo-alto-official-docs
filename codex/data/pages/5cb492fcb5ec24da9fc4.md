@@ -1,0 +1,473 @@
+---
+url: https://docs.paloaltonetworks.com/openconfig/1-1/openconfig-admin/getting-started/pan-os-openconfig-wildcard-support
+fetched_at: 2026-08-13T16:56:35Z
+source: palo-alto-main
+---
+
+# PAN-OS OpenConfig Wildcard Support Clear
+
+PAN-OS OpenConfig Wildcard Support 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ PAN-OS OpenConfig Administrator’s Guide 
+
+ : 
+ PAN-OS OpenConfig Wildcard Support 
+
+ Updated on 
+
+ Tue Feb 11 16:32:01 PST 2025 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Version 
+
+ 1.1 
+
+ 2.0 & Later 
+
+ 1.3 
+
+ 1.2 
+
+ 1.1 
+
+ Expand all | Collapse all 
+
+ Getting Started 
+
+ About PAN-OS OpenConfig Support 
+
+ PAN-OS OpenConfig Model Support 
+
+ Install the OpenConfig Plugin 
+
+ PAN-OS OpenConfig Wildcard Support 
+
+ OpenConfig Models 
+
+ BGP 
+
+ BGP Behavior 
+
+ Manage BGP Routes 
+
+ Firewall Zones 
+
+ Firewall Zones Behavior 
+
+ Manage Firewall Zones 
+
+ High Availabilty 
+
+ High Availability Behavior 
+
+ Manage High Availability 
+
+ Interfaces 
+
+ Interfaces Behavior 
+
+ Manage Interfaces 
+
+ LACP 
+
+ LACP Behavior 
+
+ Manage LACP 
+
+ LLDP 
+
+ LLDP Behavior 
+
+ Manage LLDP 
+
+ Local Routes 
+
+ Local Routes Behavior 
+
+ Manage Local Routes 
+
+ Network Instances 
+
+ Network Instances Behavior 
+
+ Manage Network Instances 
+
+ OSPF Version 2 
+
+ OSPF Version 2 Behavior 
+
+ Manage OSPF Version 2 
+
+ Platform 
+
+ Platform Behavior 
+
+ Manage Platform 
+
+ Routing Policy 
+
+ Routing Policy Behavior 
+
+ Manage Routing Policies 
+
+ System 
+
+ System Behavior 
+
+ Manage System 
+
+ VLAN 
+
+ VLAN Behavior 
+
+ Manage VLANs 
+
+ Telemetry Streaming 
+
+ OpenConfig Telemetry on PAN-OS 
+
+ Updated on 
+
+ Tue Feb 11 16:32:01 PST 2025 
+
+ Focus 
+
+ Home 
+
+ OpenConfig 
+
+ PAN-OS OpenConfig Administrator’s Guide 
+
+ Getting Started 
+
+ PAN-OS OpenConfig Wildcard Support 
+
+ Download PDF 
+
+ PAN-OS OpenConfig Administrator’s Guide 
+
+ PAN-OS OpenConfig Wildcard Support 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 1.1 
+
+ 2.0 & Later 
+
+ 1.3 
+
+ 1.2 
+
+ 1.1 
+
+ Expand all | Collapse all 
+
+ Getting Started 
+
+ About PAN-OS OpenConfig Support 
+
+ PAN-OS OpenConfig Model Support 
+
+ Install the OpenConfig Plugin 
+
+ PAN-OS OpenConfig Wildcard Support 
+
+ OpenConfig Models 
+
+ BGP 
+
+ BGP Behavior 
+
+ Manage BGP Routes 
+
+ Firewall Zones 
+
+ Firewall Zones Behavior 
+
+ Manage Firewall Zones 
+
+ High Availabilty 
+
+ High Availability Behavior 
+
+ Manage High Availability 
+
+ Interfaces 
+
+ Interfaces Behavior 
+
+ Manage Interfaces 
+
+ LACP 
+
+ LACP Behavior 
+
+ Manage LACP 
+
+ LLDP 
+
+ LLDP Behavior 
+
+ Manage LLDP 
+
+ Local Routes 
+
+ Local Routes Behavior 
+
+ Manage Local Routes 
+
+ Network Instances 
+
+ Network Instances Behavior 
+
+ Manage Network Instances 
+
+ OSPF Version 2 
+
+ OSPF Version 2 Behavior 
+
+ Manage OSPF Version 2 
+
+ Platform 
+
+ Platform Behavior 
+
+ Manage Platform 
+
+ Routing Policy 
+
+ Routing Policy Behavior 
+
+ Manage Routing Policies 
+
+ System 
+
+ System Behavior 
+
+ Manage System 
+
+ VLAN 
+
+ VLAN Behavior 
+
+ Manage VLANs 
+
+ Telemetry Streaming 
+
+ OpenConfig Telemetry on PAN-OS 
+
+ PAN-OS OpenConfig Wildcard Support 
+
+ PAN-OS Supports both * and ... wildcard
+operators. 
+
+ * Wildcard 
+
+ The * Wild represents a single
+level wildcard and retrieves all elements for a given subtree described
+in the schema. 
+
+ OpenConfig also supports multiple wildcards. 
+
+ For
+example, this command gets all of the virtual routers: 
+
+ gnmic get --path network-instances/network-instance[name=*]/tables/table[address-family=*][protocol=BGP] 
+
+ The
+client provides the following response: 
+
+ [
+ {
+ "timestamp": 1626468723561748605,
+ "time": "2021-07-16T13:52:03.561748605-07:00",
+ "updates": [
+ {
+ "Path": "network-instances/network-instance[name=demo_vr]/tables/table[address-family=IPV4][protocol=BGP]",
+ "values": {
+ "network-instances/network-instance/tables/table": {
+ "address-family": "openconfig-types:IPV4",
+ "config": {
+ "address-family": "openconfig-types:IPV4",
+ "protocol": "openconfig-policy-types:BGP"
+ },
+ "protocol": "openconfig-policy-types:BGP",
+ "state": {
+ "address-family": "openconfig-types:IPV4",
+ "protocol": "openconfig-policy-types:BGP"
+ }
+ }
+ }
+ },
+ {
+ "Path": "network-instances/network-instance[name=openconfig-test]/tables/table[address-family=IPV4][protocol=BGP]",
+ "values": {
+ "network-instances/network-instance/tables/table": {
+ "address-family": "openconfig-types:IPV4",
+ "config": {
+ "address-family": "openconfig-types:IPV4",
+ "protocol": "openconfig-policy-types:BGP"
+ },
+ "protocol": "openconfig-policy-types:BGP",
+ "state": {
+ "address-family": "openconfig-types:IPV4",
+ "protocol": "openconfig-policy-types:BGP"
+ }
+ }
+ }
+ },
+ {
+ "Path": "network-instances/network-instance[name=openconfig-test2]/tables/table[address-family=IPV4][protocol=BGP]",
+ "values": {
+ "network-instances/network-instance/tables/table": {
+ "address-family": "openconfig-types:IPV4",
+ "config": {
+ "address-family": "openconfig-types:IPV4",
+ "protocol": "openconfig-policy-types:BGP"
+ },
+ "protocol": "openconfig-policy-types:BGP",
+ "state": {
+ "address-family": "openconfig-types:IPV4",
+ "protocol": "openconfig-policy-types:BGP"
+ }
+ }
+ }
+ }
+ ]
+ }
+]
+
+ ... Wildcard 
+
+ The ... Wildcard represents
+a multiple level wildcard and can retrieve multiple levels of elements
+for different subtrees described in the schema. 
+
+ For example,
+you can use this to get the descriptions for all of the nodes under
+the interfaces container. 
+
+ gnmic get --path /interfaces/.../config/description 
+
+ The
+client provides the following response: 
+
+ [
+ {
+ "timestamp": 1626468131823530325,
+ "time": "2021-07-16T13:42:11.823530325-07:00",
+ "updates": [
+ {
+ "Path": "interfaces/interface[name=ae1]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/1]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/10]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/11]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/14]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/15]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/16]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/18]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/2]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/24]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/3]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ },
+ {
+ "Path": "interfaces/interface[name=ethernet1/4]/config/description",
+ "values": {
+ "interfaces/interface/config/description": "test"
+ }
+ }
+ }
+ }
+ ]
+ }
+]
+
+ Previous 
+
+ Install the OpenConfig Plugin 
+
+ Next 
+
+ OpenConfig Models 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

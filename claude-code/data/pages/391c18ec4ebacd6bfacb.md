@@ -1,0 +1,543 @@
+---
+url: https://docs.paloaltonetworks.com/globalprotect/user-guide/6-1/globalprotect-app-for-android/use-the-globalprotect-app-for-android
+fetched_at: 2026-08-13T16:33:24Z
+source: palo-alto-main
+---
+
+# Use the GlobalProtect App for Android Clear
+
+Use the GlobalProtect App for Android 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Use the GlobalProtect App for Android 
+
+ Updated on 
+
+ Mon Nov 03 11:17:18 PST 2025 
+
+ Focus 
+
+ Download PDF 
+
+ English 
+
+ 한국어 (Korean) 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ GlobalProtect Docs 
+
+ Getting Started 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ User Guide 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ New Features 
+
+ Updated on 
+
+ Mon Nov 03 11:17:18 PST 2025 
+
+ Focus 
+
+ Home 
+
+ GlobalProtect 
+
+ GlobalProtect App for Android 
+
+ Use the GlobalProtect App for Android 
+
+ Download PDF 
+
+ English 
+
+ 한국어 (Korean) 
+
+ GlobalProtect 
+
+ Use the GlobalProtect App for Android 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ GlobalProtect Docs 
+
+ Getting Started 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ User Guide 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ New Features 
+
+ Previous 
+
+ Download and Install the GlobalProtect App for Android on Chromebooks 
+
+ Next 
+
+ Report an Issue From the GlobalProtect App for Android 
+
+ Use the GlobalProtect App for Android 
+
+ Where Can I Use This? What Do I Need? 
+
+ Android endpoints only 
+
+ GlobalProtect app version 6.1 or later 
+
+ This topic applies to you only if your setup
+requires you to enter your GlobalProtect login credentials after
+you have logged in to your endpoint (single sign-on is disabled). 
+
+ We
+typically recommend that organizations allow its GlobalProtect users
+to log in transparently following app installation. After you log
+in to an endpoint with transparent GlobalProtect login, the GlobalProtect
+app automatically initiates and connects to the corporate network
+without further user intervention. 
+
+ If your setup requires
+you to enter your GlobalProtect credentials, follow the applicable
+steps below. 
+
+ Connect to the GlobalProtect portal or gateway. 
+
+ Use one of the following workflows to connect to the GlobalProtect
+portal or gateway: 
+
+ First time connection experience: 
+
+ Launch
+the GlobalProtect app. 
+
+ Enter the GlobalProtect portal address. 
+
+ ( Optional ) Depending on the connection mode, tap Connect to
+initiate the connection. 
+
+ ( Optional ) If your endpoint is unable to verify
+the identity of the GlobalProtect portal using the portal server
+certificate, the Cannot Verify Server Identity message appears.
+If you trust the certificate, tap Continue to proceed
+with the connection. 
+
+ ( Optional ) If prompted, enter your Username and Password and
+then SIGN IN . 
+
+ If your administrator
+has allowed you to use biometric (fingerprint) information to sign
+in, you need to first sign-in with a username and password; you
+can then use biometric information to sign in. 
+
+ When the Connection request message
+appears, tap OK to allow GlobalProtect to
+set up a VPN connection on your endpoint. 
+
+ ( Optional ) If you are using multi-factor authentication,
+enter the GlobalProtect verification Code that
+is sent to your endpoint after you sign in, and then tap Continue . 
+
+ ( Optional ) If your administrator configures the
+GlobalProtect app to display a welcome message, the welcome message
+appears upon successful connection. Tap outside of the welcome message
+to proceed to the home screen. 
+
+ ( Optional ) If there are notifications on your app,
+the Notifications dialog appears upon successful connection. Close
+the Notifications dialog to proceed to the home screen. 
+
+ When the home screen appears, verify that your connection
+has established successfully. If the connection is successful, the
+home screen displays the CONNECTED state. 
+
+ ( Optional ) If your administrator has configured
+GlobalProtect with the Always On connect
+method, the connection initiates automatically. The home screen
+displays CONNECTED state. 
+
+ With the Always
+On connect method, the home screen displays CONNECTED state
+with a disconnect message to prevent you from disconnecting when
+you try to tap the Connect icon. 
+
+ ( Optional ) By default, the endpoint automatically connects to the Best
+ Available gateway based on the configuration
+ that the administrator defines and the response times of the
+ available gateways. To connect to a different gateway, tap
+ the gateway drop-down at the bottom of the home screen, and
+ then select a gateway from the list (external gateways
+ only). 
+
+ On-Demand (Remote Access VPN) connection experience: 
+
+ When
+your GlobalProtect administrator configures GlobalProtect with the On-Demand connect
+method, you must launch the GlobalProtect app to initiate the connection
+manually. After the connection initiates, you can TAP
+TO CONNECT to establish the GlobalProtect connection.
+If your administrator enables GlobalProtect to Save User Credentials ,
+the connection establishes without requiring further user interaction.
+If your administrator does not enable GlobalProtect to Save
+User Credentials , you must sign in to establish the connection. 
+
+ Always On connection experience: 
+
+ When your GlobalProtect
+administrator configures GlobalProtect with the Always
+On connect method, the connection initiates automatically.
+Depending on whether your administrator configures the GlobalProtect app
+to Save User Credentials , you can establish
+the GlobalProtect connection without launching the app. If your
+administrator enables GlobalProtect to Save User Credentials ,
+the connection establishes automatically without requiring any user
+interaction. If your administrator does not enable GlobalProtect
+to Save User Credentials , you must sign in
+through the app to establish the connection. 
+
+ View information about your GlobalProtect connection. 
+
+ After you establish the GlobalProtect connection, launch
+the GlobalProtect app. Tap the settings icon to open the settings
+menu. From the settings menu, tap SETTINGS to
+view information about your connection, including the Portal address
+and connection Status . 
+
+ If you want to connect to a different GlobalProtect
+portal, tap the Portal address. When prompted,
+enter a new portal address and then tap CONNECT . 
+
+ If you are connected to an external gateway, tap the connection Status to
+view additional details about your connection (including the network
+SSID and gateway IP address/FQDN). 
+
+ ( Optional ) Change your saved password. 
+
+ If your GlobalProtect administrator configures the GlobalProtect
+portal agent to Save User Credentials , your
+credentials are automatically saved to the GlobalProtect app. When
+your password expires or a RADIUS or AD administrator requires a
+password change at the next login, you can update your password
+on the app. This feature is enabled only when you are authenticated
+with a RADIUS server using the Protected Extensible Authentication
+Protocol Microsoft Challenge Handshake Authentication Protocol version
+2 (PEAP-MSCHAPv2). 
+
+ Launch the GlobalProtect app. 
+
+ From the home screen, TAP TO CONNECT . 
+
+ ( Optional ) If prompted, enter your old Username and Password ,
+and then SIGN IN . 
+
+ When the GlobalProtect app prompts you to Update Password ,
+enter your Current Password followed by your New
+Password . 
+
+ Retype Password to confirm
+your new password. 
+
+ SIGN IN to reconnect to GlobalProtect with
+your new password. 
+
+ ( Optional ) Disconnect from GlobalProtect. 
+
+ If your administrator configures GlobalProtect with the On-Demand connect
+method, you can TAP TO DISCONNECT from the
+home screen. 
+
+ Previous 
+
+ Download and Install the GlobalProtect App for Android on Chromebooks 
+
+ Next 
+
+ Report an Issue From the GlobalProtect App for Android 
+
+ On This Page 
+
+ Activation and Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Panorama 
+
+ Service Provider 
+
+ VM-Series 
+
+ Plugins 
+
+ SASE 
+
+ Prisma Access 
+
+ Prisma SASE Multitenant Platform 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring & Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ AI Access Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ IPSec VPN 
+
+ Security Policy 
+
+ Quantum Security 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Remote Browser Isolation 
+
+ Prisma Access Agent 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ FedRAMP 
+
+ Prisma SASE for FedRAMP 
+
+ Autonomous DEM for FedRAMP 
+
+ Hardware Reference 
+
+ ION 1000 
+
+ ION 1200 
+
+ ION 1200-S 
+
+ ION 2000 
+
+ ION 3000 
+
+ ION 3200 
+
+ ION 5200 
+
+ ION 7000 
+
+ ION 9000 
+
+ ION 9200 
+
+ Hardware Quick Start Guides 
+
+ ION 1200 
+
+ ION 1200 4G 
+
+ ION 1200 5G 
+
+ ION 1200-S 
+
+ ION 1200-S 4G 
+
+ ION 1200-S 5G 
+
+ ION 3200 
+
+ ION 5200 
+
+ ION 9200 
+
+ Virtual ION Deployment 
+
+ Virtual ION on AWS 
+
+ Virtual ION on Azure 
+
+ Virtual ION on GCP 
+
+ Virtual ION on KVM for NFV 
+
+ Virtual ION on OCI 
+
+ Virtual ION on VMware 
+
+ 3rd Party Integrations 
+
+ AWS Cloud-WAN Integration (GRE Connect) 
+
+ AWS Cloud-WAN Integration (Tunnel-less Connect) 
+
+ Checkpoint Integration 
+
+ LiveAction Integration 
+
+ Netskope Integration 
+
+ Symantec Web Security Services Integration 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ User Guide 
+
+ GlobalProtect App User Guide 
+
+ 6.1 
+
+ English 
+
+ SASE 
+
+ GlobalProtect App 
+
+ GlobalProtect User Guide 
+
+ GlobalProtect 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

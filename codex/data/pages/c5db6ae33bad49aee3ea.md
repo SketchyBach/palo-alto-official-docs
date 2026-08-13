@@ -1,0 +1,360 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/app-id/cloud-based-app-id-service/new-app-viewer-policy-optimizer
+fetched_at: 2026-08-13T16:58:34Z
+source: palo-alto-main
+---
+
+# New App Viewer (Policy Optimizer) Clear
+
+New App Viewer (Policy Optimizer) 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ New App Viewer (Policy Optimizer) 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ App-ID 
+
+ App-ID Cloud Engine 
+
+ New App Viewer (Policy Optimizer) 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ New App Viewer (Policy Optimizer) 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ App-ID Cloud Engine Processing and Policy Usage 
+
+ Next 
+
+ Add Apps to an Application Filter with Policy Optimizer 
+
+ New App Viewer (Policy Optimizer) 
+
+ View Security policy rules that match new App-ID Cloud
+Engine (ACE) applications. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access 
+
+ Next-Generation Firewall 
+
+ SaaS Security Inline license (for NGFW) 
+
+ Prisma Access license (ACE is a core feature) 
+
+ The Policy Optimizer New
+App Viewer shows you the Security policy rules that
+match downloaded cloud App-IDs from ACE. Use Policy Optimizer to
+manage the newly identified applications and add them to cloned
+rules or to existing rules. Select Policies Security and then select New
+App Viewer in the Policy Optimizer portion
+of the interface. 
+
+ The upper portion of the screen is similar to Objects Application Filters .
+It works in a similar manner and filters the Security policy rules
+shown in the lower portion of the screen. You can filter the rules
+that allow applications by category, subcategory, etc. The only
+categories and subcategories available for filtering are the ones
+that match the new applications on the rules listed in the lower
+half of the screen, so you don’t waste your time filtering for applications
+that aren’t there. 
+
+ When you filter the rules, only the rules that include the filtered
+applications are shown in the lower portion of the screen. Rules
+that have not seen the apps in the filter are removed from the list.
+(You can see them all again by removing the filter.) 
+
+ Click the number in the Apps Seen column
+to open the Applications & Usage dialog
+to change the way the firewall handles the cloud-based applications
+in Security policy. Add ACE App-IDs to Security policy rules using
+an Application Filter, an Application Group, Policy Optimizer, or
+by directly adding an ACE App-ID to a rule. Until you take one of
+these actions to control cloud-delivered App-IDs, the firewall continues
+to treat the traffic as ssl or web-browsing traffic and uses existing
+ssl or web-browsing Security policy rules to control the applications. 
+
+ Previous 
+
+ App-ID Cloud Engine Processing and Policy Usage 
+
+ Next 
+
+ Add Apps to an Application Filter with Policy Optimizer 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

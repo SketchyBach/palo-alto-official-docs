@@ -1,0 +1,210 @@
+---
+url: https://docs.paloaltonetworks.com/hardware/pa-400-hardware-reference/before-you-begin
+fetched_at: 2026-08-13T16:34:36Z
+source: palo-alto-main
+---
+
+# Before You Begin Clear
+
+Before You Begin 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ PA-400 Series Next-Gen Firewall Hardware Reference 
+
+ : 
+ Before You Begin 
+
+ Updated on 
+
+ Wed Jan 14 10:56:55 PST 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Safety and Compliance 
+
+ Safety Warnings 
+
+ Compliance Statements 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-400 Series Firewall Overview 
+
+ PA-400 Series Front Panel 
+
+ PA-400 Series Back Panel 
+
+ Install the PA-400 Series Firewall 
+
+ Install the PA-400 Series Firewall on a Flat Surface 
+
+ Install the PA-400 Series Firewall on a Wall 
+
+ Install the PA-400 Series Firewall in a 19-inch Equipment Rack 
+
+ Install the PA-400 Series Firewall Using the PAN-PA-400-RACKTRAY 
+
+ Install Antennas on the PA-400 Series 5G Firewall 
+
+ Insert a SIM Card into a PA-400 Series Firewall 
+
+ Set Up a Connection to the Firewall 
+
+ Connect Power to a PA-400 Series Firewall 
+
+ Connect Power to a PA-400 Series Firewall 
+
+ Connect Power to a PA-410 Firewall 
+
+ Service the PA-400 Series Firewall Hardware 
+
+ Interpret the LEDs on a PA-400 Series Firewall 
+
+ Replace a Power Adapter on a PA-400 Series Firewall 
+
+ PA-400 Series Firewall Specifications 
+
+ Physical Specifications 
+
+ Electrical Specifications 
+
+ Environmental Specifications 
+
+ Antenna Specifications 
+
+ Miscellaneous Specifications 
+
+ Updated on 
+
+ Wed Jan 14 10:56:55 PST 2026 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-400 Series Next-Gen Firewall Hardware Reference 
+
+ Before You Begin 
+
+ Download PDF 
+
+ PA-400 Series Next-Gen Firewall Hardware Reference 
+
+ Before You Begin 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Safety and Compliance 
+
+ Safety Warnings 
+
+ Compliance Statements 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-400 Series Firewall Overview 
+
+ PA-400 Series Front Panel 
+
+ PA-400 Series Back Panel 
+
+ Install the PA-400 Series Firewall 
+
+ Install the PA-400 Series Firewall on a Flat Surface 
+
+ Install the PA-400 Series Firewall on a Wall 
+
+ Install the PA-400 Series Firewall in a 19-inch Equipment Rack 
+
+ Install the PA-400 Series Firewall Using the PAN-PA-400-RACKTRAY 
+
+ Install Antennas on the PA-400 Series 5G Firewall 
+
+ Insert a SIM Card into a PA-400 Series Firewall 
+
+ Set Up a Connection to the Firewall 
+
+ Connect Power to a PA-400 Series Firewall 
+
+ Connect Power to a PA-400 Series Firewall 
+
+ Connect Power to a PA-410 Firewall 
+
+ Service the PA-400 Series Firewall Hardware 
+
+ Interpret the LEDs on a PA-400 Series Firewall 
+
+ Replace a Power Adapter on a PA-400 Series Firewall 
+
+ PA-400 Series Firewall Specifications 
+
+ Physical Specifications 
+
+ Electrical Specifications 
+
+ Environmental Specifications 
+
+ Antenna Specifications 
+
+ Miscellaneous Specifications 
+
+ Before You Begin 
+
+ Learn how to check if your new appliance was tampered with during shipping, learn
+ about third-party component support, and read the product safety warnings before installing
+ the appliance. 
+
+ Read the following topics before you install or service the PA-400 Series firewall. 
+
+ Safety and Compliance 
+
+ Parts List and Required Tools 
+
+ Previous 
+
+ Next 
+
+ Safety and Compliance 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

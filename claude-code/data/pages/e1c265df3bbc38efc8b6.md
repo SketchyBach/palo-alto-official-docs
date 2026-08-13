@@ -1,0 +1,380 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-networking-admin/ip-multicast/pim/shortest-path-shared-path-trees
+fetched_at: 2026-08-13T17:11:04Z
+source: palo-alto-main
+---
+
+# Shortest-Path Tree (SPT) and Shared Tree Clear
+
+Shortest-Path Tree (SPT) and Shared Tree 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Shortest-Path Tree (SPT) and Shared Tree 
+
+ Updated on 
+
+ Tue Aug 04 17:04:37 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Tue Aug 04 17:04:37 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ IP Multicast 
+
+ PIM 
+
+ Shortest-Path Tree (SPT) and Shared Tree 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Shortest-Path Tree (SPT) and Shared Tree 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ PIM 
+
+ Next 
+
+ PIM Assert Mechanism 
+
+ Shortest-Path Tree (SPT) and Shared Tree 
+
+ IP Multicast constructs shortest-path tree (SPT) and
+shared tree distribution paths to forward multicast packets to members
+of a group. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ After a receiver joins a multicast group, the routers
+in the multiaccess network build the routing paths necessary to
+send data to each receiver in the group. Each IP datagram sent to
+a multicast group is distributed (forwarded) to all members. The
+routing paths constitute a type of distribution tree for a multicast
+packet. The goal of a multicast distribution tree is for the router
+to duplicate a multicast packet when the packet reaches a divergence
+of paths and the router must send the packet down multiple paths
+to reach all group members, yet the distribution tree must refrain
+from sending packets down a path where no interested receivers exist.
+The distribution tree is one of the following: 
+
+ A source tree —A path from a multicast source (the
+root of the tree) through the network to the receivers in the multicast
+group. The source tree is the shortest path that a multicast packet
+can take from source to receiver, so it is also known as the shortest-path
+tree (SPT) . The sender and receiver are annotated as a source
+and multicast group pair, shortened to (S, G); for example, (192.168.1.1,
+225.9.2.6). The following figure illustrates three shortest-path
+trees from the source to three receivers. 
+
+ A shared tree —A path rooted at the RP, not at the
+multicast source. A shared tree is also known as an RP tree or RPT.
+Routers forward multicast packets from various sources to the RP
+and the RP forwards the packets down the shared tree. A shared tree
+is annotated as (*, G), using a wildcard as the source because all
+sources belonging to the multicast group share the same distribution
+tree from the RP. An example shared tree annotation is (*, 226.3.1.5).
+The following figure illustrates a shared tree from the root at
+the RP to the receivers. 
+
+ Source-Specific
+ Multicast (SSM) uses source tree distribution. When you Configure IP Multicast to use
+ Any Source Multicast (ASM), you can specify which distribution tree the virtual router
+ on your Palo Alto Networks® firewall uses to deliver multicast packets to a group by
+ setting an SPT threshold for the group: 
+
+ By default the virtual router switches multicast routing
+from shared tree to SPT when it receives the first multicast packet
+for a group or prefix (the SPT Threshold is
+set to 0). 
+
+ You can configure the virtual router to switch to SPT when the
+total number of kilobits in packets arriving for the specified multicast
+group or prefix at any interface over any length of time reaches
+a configured number. 
+
+ You can configure the virtual router to never switch to SPT
+for the group or prefix (it continues to use shared tree). 
+
+ SPT requires more memory, so choose your setting based on your
+multicast traffic level to the group. If the virtual router switches
+to SPT, then packets will arrive from the source (rather than the
+RP) and the virtual router sends a Prune message to the RP. The
+source sends subsequent multicast packets for that group down the
+shortest-path tree. 
+
+ Previous 
+
+ PIM 
+
+ Next 
+
+ PIM Assert Mechanism 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Networking 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

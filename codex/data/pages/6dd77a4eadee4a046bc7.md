@@ -1,0 +1,311 @@
+---
+url: https://docs.paloaltonetworks.com/autofocus/autofocus-api/about-the-autofocus-api/autofocus-api-prerequisites
+fetched_at: 2026-08-13T15:24:41Z
+source: palo-alto-main
+---
+
+# AutoFocus API Prerequisites Clear
+
+AutoFocus API Prerequisites 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ AutoFocus® API Reference 
+
+ : 
+ AutoFocus
+API Prerequisites 
+
+ Updated on 
+
+ Thu Aug 31 19:09:44 PDT 2023 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ About the AutoFocus API 
+
+ AutoFocus API Overview 
+
+ AutoFocus API Prerequisites 
+
+ AutoFocus API Rate Limits 
+
+ Rate Limits and Points Allotment 
+
+ How to Track Points 
+
+ Points Usage 
+
+ AutoFocus API Resources 
+
+ Resources for Initiating Searches 
+
+ Resources for Viewing Search Results 
+
+ Resources for Direct Searches 
+
+ AutoFocus API STIX Support 
+
+ STIX Elements and Fields 
+
+ Get Started with the AutoFocus API 
+
+ Get Your API Key 
+
+ Make Your First AutoFocus API Calls 
+
+ Start a Search 
+
+ View Results 
+
+ Perform AutoFocus Searches 
+
+ Search Samples and Sessions 
+
+ Search Field Names 
+
+ General Artifacts 
+
+ Sample Artifacts 
+
+ Session Artifacts 
+
+ Analysis Artifacts 
+
+ Linux Artifacts 
+
+ Windows Artifacts 
+
+ Mac Artifacts 
+
+ Android Artifacts 
+
+ Macro Artifacts 
+
+ Search Parameter Types and Operators 
+
+ Search Countries and Country Codes 
+
+ Search Top Tags, Session Histogram, and Session Aggregate Data 
+
+ Search for Signatures 
+
+ View Search Results 
+
+ Perform Direct Searches 
+
+ Get Session Details 
+
+ Get Sample Analysis 
+
+ Get Tags 
+
+ Get Tag Details 
+
+ Get Threat Indicator Feed 
+
+ Get Custom Threat Indicator Feed 
+
+ Get Threat Intelligence Card Summary 
+
+ Export List 
+
+ Get Anti-spyware, Vulnerability, and File-Format Signature 
+
+ Get Antivirus Signature 
+
+ Get DNS Signature 
+
+ Get Geolocation 
+
+ Get Anti-spyware, Vulnerability, and File-Format Release Info 
+
+ AutoFocus API Error Codes 
+
+ AutoFocus API Error Codes 
+
+ Updated on 
+
+ Thu Aug 31 19:09:44 PDT 2023 
+
+ Focus 
+
+ Home 
+
+ AutoFocus 
+
+ AutoFocus® API Reference 
+
+ About
+the AutoFocus API 
+
+ AutoFocus
+API Prerequisites 
+
+ Download PDF 
+
+ AutoFocus® API Reference 
+
+ AutoFocus
+API Prerequisites 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ About the AutoFocus API 
+
+ AutoFocus API Overview 
+
+ AutoFocus API Prerequisites 
+
+ AutoFocus API Rate Limits 
+
+ Rate Limits and Points Allotment 
+
+ How to Track Points 
+
+ Points Usage 
+
+ AutoFocus API Resources 
+
+ Resources for Initiating Searches 
+
+ Resources for Viewing Search Results 
+
+ Resources for Direct Searches 
+
+ AutoFocus API STIX Support 
+
+ STIX Elements and Fields 
+
+ Get Started with the AutoFocus API 
+
+ Get Your API Key 
+
+ Make Your First AutoFocus API Calls 
+
+ Start a Search 
+
+ View Results 
+
+ Perform AutoFocus Searches 
+
+ Search Samples and Sessions 
+
+ Search Field Names 
+
+ General Artifacts 
+
+ Sample Artifacts 
+
+ Session Artifacts 
+
+ Analysis Artifacts 
+
+ Linux Artifacts 
+
+ Windows Artifacts 
+
+ Mac Artifacts 
+
+ Android Artifacts 
+
+ Macro Artifacts 
+
+ Search Parameter Types and Operators 
+
+ Search Countries and Country Codes 
+
+ Search Top Tags, Session Histogram, and Session Aggregate Data 
+
+ Search for Signatures 
+
+ View Search Results 
+
+ Perform Direct Searches 
+
+ Get Session Details 
+
+ Get Sample Analysis 
+
+ Get Tags 
+
+ Get Tag Details 
+
+ Get Threat Indicator Feed 
+
+ Get Custom Threat Indicator Feed 
+
+ Get Threat Intelligence Card Summary 
+
+ Export List 
+
+ Get Anti-spyware, Vulnerability, and File-Format Signature 
+
+ Get Antivirus Signature 
+
+ Get DNS Signature 
+
+ Get Geolocation 
+
+ Get Anti-spyware, Vulnerability, and File-Format Release Info 
+
+ AutoFocus API Error Codes 
+
+ AutoFocus API Error Codes 
+
+ AutoFocus
+API Prerequisites 
+
+ The following prerequisites will help you fully leverage
+AutoFocus: 
+
+ Register your license. 
+
+ Get Your API Key . 
+
+ (Recommended) Familiarize yourself with the AutoFocus web
+portal. Read AutoFocus™ Administrator’s
+Guide to get a better understanding of the AutoFocus web
+portal. 
+
+ (Recommended) Have a working knowledge of web service APIs,
+HTTP, JSON, and XML. 
+
+ (Recommended) If using the STIX API, familiarize yourself
+with STIX, MAEC, and CybOX . 
+
+ Previous 
+
+ AutoFocus API Overview 
+
+ Next 
+
+ AutoFocus API Rate Limits 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

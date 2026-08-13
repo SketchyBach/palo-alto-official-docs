@@ -1,0 +1,454 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-networking-admin/configure-interfaces/layer-2-interfaces/manage-per-vlan-spanning-tree-pvst-bpdu-rewrite
+fetched_at: 2026-08-13T17:10:47Z
+source: palo-alto-main
+---
+
+# Manage Per-VLAN Spanning Tree (PVST+) BPDU Rewrite Clear
+
+Manage Per-VLAN Spanning Tree (PVST+) BPDU Rewrite 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Manage Per-VLAN Spanning Tree (PVST+) BPDU Rewrite 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Configure Interfaces 
+
+ Layer 2 Interfaces 
+
+ Manage Per-VLAN Spanning Tree (PVST+) BPDU Rewrite 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Manage Per-VLAN Spanning Tree (PVST+) BPDU Rewrite 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configure a Layer 2 Interface, Subinterface, and VLAN 
+
+ Next 
+
+ Layer 2 Switch Interfaces 
+
+ Manage Per-VLAN Spanning Tree (PVST+) BPDU Rewrite 
+
+ In a Layer 2 deployment, the firewall rewrites the inbound
+port VLAN ID in a Cisco per-VLAN spanning tree (PVST+) or Rapid
+PVST+ BPDU. Manage PVST+ BPDUs. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ When an interface on the firewall is configured for a Layer 2 deployment , the firewall rewrites the inbound Port VLAN ID
+ (PVID) number in a Cisco per-VLAN spanning tree (PVST+) or Rapid PVST+ bridge
+ protocol data unit (BPDU) to the proper outbound VLAN ID number and forwards the
+ BPDU out. This default behavior beginning in PAN-OS 7.1 allows the firewall to
+ correctly tag Cisco proprietary PVST+ and Rapid PVST+ frames between Cisco switches
+ in VLANs on either side of the firewall so that spanning tree loop detection using
+ Cisco PVST+ and Rapid PVST+ can function properly. The firewall is not participating
+ in the Spanning Tree Protocol (STP) election process and there is no behavior change
+ for other types of spanning tree. 
+
+ The
+Cisco switch must have the loopguard disabled for the PVST+ or Rapid
+PVST+ BPDU rewrite to function properly on the firewall. 
+
+ This
+feature is supported on Layer 2 Ethernet and Aggregated Ethernet
+(AE) interfaces only. The firewall supports a PVID range of 1 to
+4,094 with a native VLAN ID of 1 to be compatible with the Cisco
+native VLAN implementation. 
+
+ To support the PVST+ BPDU rewrite
+feature, PAN-OS supports the concept of a PVST+ native VLAN. Frames
+sent to and received from a native VLAN are untagged with a PVID
+equal to the native VLAN. All switches and firewalls in the same
+Layer 2 deployment must have the same native VLAN for PVST+ to function
+properly. Although the Cisco native VLAN defaults to vlan1, the
+VLAN ID could be a number other than 1. 
+
+ For example, the firewall
+is configured with a VLAN object (named VLAN_BRIDGE), which describes
+the interfaces and subinterfaces that belong to a switch or broadcast
+domain. In this example, the VLAN includes three subinterfaces: ethernet1/21.100
+tagged with 100, ethernet1/22.1000 tagged with 1000, and ethernet1/23.1500
+tagged with 1500. 
+
+ The subinterfaces belonging to VLAN_BRIDGE
+look like this: 
+
+ The sequence
+in which the firewall automatically rewrites the PVST+ BPDU is shown
+in the following graphic and explanation: 
+
+ The
+Cisco switch port belonging to VLAN 100 sends a PVST+ BPDU—with
+the PVID and 802.1Q VLAN tag set to 100—to the firewall. 
+
+ The firewall interfaces and subinterfaces are configured
+as a Layer 2 interface type. The ingress subinterface on the firewall
+is tagged with VLAN 100, which matches the PVID and VLAN tag of
+the incoming BPDU, so the firewall accepts the BPDU. The firewall
+floods the PVST+ BPDU to all other interfaces belonging to the same
+VLAN object (in this example, ethernet1/22.1000 and ethernet1/23.1500).
+If the VLAN tags did not match, the firewall would instead drop
+the BPDU. 
+
+ When the firewall floods the BPDU out through other interfaces (belonging
+to the same VLAN object), the firewall rewrites the PVID and any 802.1Q
+VLAN tags to match the VLAN tag of the egress interface. In this example,
+the firewall rewrites the BPDU PVID from 100 to 1000 for one subinterface
+and from 100 to 1500 for the second subinterface as the BPDU traverses the
+Layer 2 bridge on the firewall. 
+
+ Each Cisco switch receives the correct PVID and VLAN tag
+on the incoming BPDU and processes the PVST+ packet to detect possible
+loops in the network. 
+
+ The following CLI operational
+commands allow you to manage PVST+ and Rapid PVST+ BPDUs. 
+
+ Globally disable or re-enable the PVST+
+and Rapid PVST+ BPDU rewrite of the PVID (default is enabled). 
+
+ set session rewrite-pvst-pvid <yes|no> 
+
+ Set the native VLAN ID for the firewall (range is 1 to
+4,094; default is 1). 
+
+ If the native VLAN ID on your switch is a value other
+than 1, you must set the native VLAN ID on the firewall to that
+same number; otherwise, the firewall will drop packets with that
+VLAN ID. This applies to trunked and non-trunked interfaces. 
+
+ set session pvst-native-vlan-id < vid > 
+
+ Drop all STP BPDU packets. 
+
+ set session drop-stp-packet <yes|no> 
+
+ Examples of why you might want to drop all STP BPDU packets: 
+
+ If there is only one switch on each side of the firewall
+and no other connections between the switches that can cause a loop,
+then STP is not required and can be disabled on the switch or blocked
+by the firewall. 
+
+ If there is a misbehaving STP switch inappropriately flooding
+BPDUs, you can stop the STP packets at the firewall to stop the
+BPDU flood. 
+
+ Verify whether PVST+BPDU rewrite is enabled, view the
+PVST native VLAN ID, and determine whether the firewall is dropping
+all STP BPDU packets. 
+
+ show vlan all 
+
+ pvst+ tag rewrite: disabled 
+
+ pvst native vlan id:     5 
+
+ drop stp:                disabled 
+
+ total vlans shown:       1 
+
+ name     interface           virtual interface 
+
+ bridge   ethernet1/1 
+
+          ethernet1/2 
+
+          ethernet1/1.1 
+
+          ethernet1/2.1 
+
+ Troubleshoot PVST+ BPDU errors. 
+
+ show counter global 
+
+ Look at the flow_pvid_inconsistent counter,
+which counts the number of times the 802.1Q Tag and PVID fields
+inside a PVST+ BPDU packet don’t match. 
+
+ Previous 
+
+ Configure a Layer 2 Interface, Subinterface, and VLAN 
+
+ Next 
+
+ Layer 2 Switch Interfaces 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Networking 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

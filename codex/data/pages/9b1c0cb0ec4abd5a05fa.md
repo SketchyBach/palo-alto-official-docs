@@ -1,0 +1,479 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/10-1/device/device-high-availability/ha-link-and-path-monitoring
+fetched_at: 2026-08-13T16:41:15Z
+source: palo-alto-main
+---
+
+# HA Link and Path Monitoring Clear
+
+HA Link and Path Monitoring 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ HA Link and Path Monitoring 
+
+ Updated on 
+
+ Mon Jan 12 14:16:08 PST 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Jan 12 14:16:08 PST 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Device 
+
+ Device > High Availability 
+
+ HA Link and Path Monitoring 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ HA Link and Path Monitoring 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ HA Communications 
+
+ Next 
+
+ HA Active/Active Config 
+
+ HA Link and Path Monitoring 
+
+ Define HA failover conditions by configuring link and
+path monitoring. 
+
+ Device > High Availability > Link and Path Monitoring 
+
+ To define HA failover conditions, configure HA
+link and path monitoring; select Device High Availability Link and Path
+Monitoring . 
+
+ Link monitoring and path monitoring are not available for the VM-Series firewall on AWS. 
+
+ Link monitoring is not supported on the VM-Series firewall on VMware ESXi. Use Path
+ Monitoring to verify connectivity to a target IP address or to the next hop IP
+ address. 
+
+ HA Link and Path Monitoring Settings 
+
+ Description 
+
+ Link Monitoring 
+
+ Specify the following: 
+
+ Enabled —Enable
+link monitoring. Link monitoring allows failover to be triggered
+when a physical link or group of physical links fails. 
+
+ Failure Condition —Select whether a
+failover occurs when any or all of the monitored link groups fail. 
+
+ Enable and configure either path monitoring
+or link monitoring to help trigger a failover if a path or link
+goes down. Configure at least one Path Group for
+path monitoring and configure at least one Link Group for
+Link Monitoring. 
+
+ Link Groups 
+
+ Define one or more link groups to monitor
+specific Ethernet links. To add a link group, specify the following
+and click Add : 
+
+ Name —Enter
+a link group name. 
+
+ Enabled —Enable the link group. 
+
+ Failure Condition —Select whether a
+failure occurs when any or all of the selected links fail. 
+
+ Interfaces —Select one or more Ethernet
+interfaces to be monitored. 
+
+ Path Monitoring 
+
+ Specify the following: 
+
+ Enabled —Enable
+path monitoring based on the combined or independent Virtual Wire
+path monitoring, VLAN path monitoring, and Virtual Router* path
+monitoring. Path monitoring enables the firewall to monitor specified
+destination IP addresses by sending ICMP ping messages to make sure
+that they are responsive. Use path monitoring for virtual wire,
+Layer 2, or Layer 3 configurations where monitoring of other network
+devices is required for failover and link monitoring alone is not
+sufficient. 
+
+ Failure Condition : 
+
+ Any —(default)
+Firewall triggers an HA failover when path monitoring for a virtual
+wire or a VLAN or a virtual router* fails. 
+
+ All —Firewall triggers an HA failover
+when path monitoring for a virtual wire and a VLAN and a virtual
+router* fails (whichever of the three are enabled). 
+
+ *
+If you have Advanced Routing enabled, Logical Router replaces Virtual
+Router, and you can enable Logical Router Path Monitoring. 
+
+ Enable and configure either path monitoring
+or link monitoring to help trigger a failover if a path or link
+goes down. Configure at least one Path Group for
+path monitoring and configure at least one Link Group for
+Link Monitoring. 
+
+ Path Group 
+
+ Define one or more path groups to monitor
+specific destination addresses for the interface type. Add
+Virtual Wire Path , and Add VLAN Path ,
+and Add Virtual Router Path . (If you have
+Advanced Routing enabled, you can Add Logical Router Path ). 
+
+ For
+each type of path monitoring that you add, specify the following: 
+
+ Name —Select virtual wire, VLAN, or
+virtual router* to monitor (drop-down choices are based on path
+monitoring type you are adding). 
+
+ Source IP —For virtual wire and VLAN
+interfaces, enter the source IP address to use in the pings sent
+to the next-hop router (Destination IP address). The local router
+must be able to route the address to the firewall. (The source IP
+address for path groups associated with virtual routers* will be
+automatically configured as the interface IP address that is indicated
+in the route table as the egress interface for the specified destination
+IP address.) 
+
+ Enabled —Enable monitoring of virtual
+wire, VLAN, or virtual router*. 
+
+ Failure Condition : 
+
+ Any (default)—Firewall
+determines virtual wire, VLAN, or virtual router* has failed when
+a ping failure in any destination IP group occurs. 
+
+ All —Firewall determines the virtual wire,
+VLAN, or virtual router* has failed when a ping failure in all destination
+IP groups occurs. 
+
+ The actual HA failover is determined
+by the Failure Condition you set for Path Monitoring, which considers
+virtual wire, VLAN, and virtual router* path monitoring (whichever
+you enabled). 
+
+ Ping Interval —Specify the interval
+between pings that are sent to the destination IP address (range
+is 200 to 60,000ms; default is 200ms). 
+
+ Ping Count —Specify the number of failed
+pings before declaring a failure (range is 3 to 10; default is 10). 
+
+ *
+If you have Advanced Routing enabled, Logical Router replaces Virtual
+Router, and you can enable Logical Router Path Monitoring. 
+
+ Destination IP for Path Group 
+
+ Destination IP — Add one
+or more destination IP address groups to monitor for the path group. 
+
+ Destination IP Group —Enter a name for
+the group. 
+
+ Add one or more Destination IP addresses
+to monitor for the group. 
+
+ Enabled —Select to enable the Destination
+IP group. 
+
+ Failure Condition : Select Any (to
+specify that if a ping failure occurs for any IP address in the
+group, the destination group is considered to have failed) or All (to
+specify that if a ping failure occurs for all IP addresses in the
+group, the destination group is considered to have failed). 
+
+ Previous 
+
+ HA Communications 
+
+ Next 
+
+ HA Active/Active Config 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 10.1 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,559 @@
+---
+url: https://docs.paloaltonetworks.com/panorama/administration/manual-deployment-of-master-key
+fetched_at: 2026-08-13T17:18:03Z
+source: palo-alto-main
+---
+
+# Manual Deployment of Master Key Clear
+
+Manual Deployment of Master Key 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Manual Deployment of Master Key 
+
+ Updated on 
+
+ Thu Jul 30 16:22:01 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Panorama Docs 
+
+ Getting Started 
+
+ Administration 
+
+ New Features 
+
+ Updated on 
+
+ Thu Jul 30 16:22:01 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Panorama 
+
+ Manual Deployment of Master Key 
+
+ Download PDF 
+
+ Panorama 
+
+ Manual Deployment of Master Key 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Panorama Docs 
+
+ Getting Started 
+
+ Administration 
+
+ New Features 
+
+ Manual Deployment of Master Key 
+
+ Log in to the Panorama Web
+ Interface . 
+
+ ( Best Practice ) Select Commit and
+ Commit and Push any pending configuration
+ changes. 
+
+ Panorama must re-encrypt data using the new master key. To ensure all
+ configuration elements are encrypted with the new master key, you should
+ commit all pending changes before deploying the new master key. 
+
+ Configure a unique master key for a managed firewall. 
+
+ ( HA only ) Disable Config Sync for managed firewalls. 
+
+ This step is required before deploying a new master key to a firewall
+ HA pair. 
+
+ Log in to the Panorama
+ Web Interface . 
+
+ Select Device High Availability General and select the
+ Template containing the managed
+ firewall HA configuration. 
+
+ Edit the HA Pair Settings Setup . 
+
+ Disable (clear) Enable Config Sync and
+ click OK . 
+
+ Commit and Commit and Push
+ your configuration changes. 
+
+ Ensure there are no pending commits on the target managed firewalls
+ before deploying the master key. 
+
+ A pending commit on the firewall may cause the master key
+ deployment to fail or produce inconsistent results. Commit any
+ pending firewall configuration changes before proceeding. 
+
+ Select Panorama Managed Devices Summary and Deploy Master Key . 
+
+ Select a managed firewall and Change the master
+ key. 
+
+ If you want to deploy a unique master key for a specific set of
+ managed firewalls, you can select those specific managed
+ firewalls as well. 
+
+ Configure the master key in the Master Key 
+ dialog: 
+
+ The dialog is divided into two sections: 
+
+ Set up a new Master Key — configure the master key
+ credentials and validity settings: 
+
+ Enter the Current Master Key 
+ if one is already set on the device. If you are
+ replacing the default master key, the field is
+ pre-populated with a masked value ( * );
+ leave it as-is or clear it before entering the new
+ key. 
+
+ ( Optional ) Enable (check) Stored
+ on HSM if the master key is encrypted
+ on a Hardware Security Module (HSM). 
+
+ Enter the New Master Key and
+ Confirm New Master Key . 
+
+ Configure the Lifetime in
+ Days and
+ Hours (ranges from 1 hour
+ to 18,250 days). 
+
+ Configure the Time for
+ Reminder in
+ Days and
+ Hours (ranges from 1 hour
+ to 365 days). 
+
+ Auto-renewal & Grace Period — this section is
+ informational only. It states: "To simplify management,
+ you can enable auto-renewal and customize the grace
+ period under Master Key and Diagnostics in your template
+ or template stack." Auto-renewal and grace period
+ settings are not configurable in this dialog. Configure them
+ separately under Panorama Templates , navigating to Device Master Key and Diagnostics in the relevant template or template
+ stack. 
+
+ Click OK . 
+
+ The new master key is
+ automatically pushed to your managed firewalls after you click
+ OK . Proceed only if you are certain you
+ are ready to change the master key for your managed
+ firewalls. 
+
+ Verify that the master key was deployed successfully to all selected
+ managed firewalls. 
+
+ A System log generates when you deploy a new master key from
+ Panorama. 
+
+ Before verifying via system logs, check the task status in the
+ task manager to confirm whether the deployment succeeded or
+ failed. 
+
+ ( Optional ) Configure master key renewal options for your
+ managed firewalls. 
+
+ This step configures master key renewal settings (auto-renew
+ interval), not the master key itself. Configure this to
+ automatically renew the master key deployed on the managed firewalls
+ associated with the selected template. Otherwise, the master key
+ expires per the configured lifetime and you must deploy a new
+ one. 
+
+ Select Device Master Key and Diagnostics and select the
+ Template containing the target
+ managed firewalls. 
+
+ Edit the Master Key settings and
+ configure the Auto Renew With Same Master
+ Key setting. 
+
+ Click OK . 
+
+ Commit and Commit and Push
+ All Changes to push to all managed
+ devices. 
+
+ Configure the master key on Panorama. 
+
+ ( HA only ) Disable the HA configuration for Panorama. 
+
+ This step is required to successfully change the master for both
+ Panorama HA peers. You are unable to commit configuration changes on
+ the secondary HA peer when Panorama is in an HA configuration. 
+
+ Log in to the Panorama
+ Web Interface . 
+
+ Select Panorama High Availability General and edit the HA Setup. 
+
+ Disable (uncheck) Enable HA and click
+ OK . 
+
+ Commit and Commit to
+ Panorama . 
+
+ Select Commit Commit to Panorama and Commit your changes to apply
+ the HA configuration change before proceeding. 
+
+ Commit the HA disable change to Panorama before configuring the
+ master key. This ensures Panorama is in a clean state before the
+ master key is applied. 
+
+ Select Panorama Master Key and Diagnostics and configure the master key. 
+
+ If renewing a master key, enter the Current Master
+ Key . If you are replacing the default master
+ key with a new master key, do not specify a
+ Current Master Key . 
+
+ Configure the New Master Key and
+ Confirm Master Key . 
+
+ Configure the master key Lifetime and
+ Time for Reminder . 
+
+ Click OK . 
+
+ The new master key is
+ automatically committed to Panorama after you click
+ OK . Proceed only if you are
+ certain you are ready to change the master key on
+ Panorama. 
+
+ ( Optional ) Configure the Panorama master key to automatically
+ renew. 
+
+ Configure this setting to automatically renew the master key deployed
+ on Panorama. Otherwise, the master key expires per the configured
+ master key lifetime and you must deploy a new master key. 
+
+ Select Panorama Master Key and Diagnostics and edit the Master
+ Key setting. 
+
+ Configure the Auto Renew With Same Master
+ Key setting. 
+
+ Click OK . 
+
+ Select Commit Commit to Panorama and Commit your changes. 
+
+ ( HA only ) Repeat this step to configure an identical master
+ key on the secondary HA peer. 
+
+ You must manually configure an identical master key on the primary
+ and secondary HA peers when Panorama is in an HA configuration. The
+ master key is not synchronized between the primary and secondary HA
+ peers. 
+
+ If the secondary Panorama HA peer is in a passive state, you
+ cannot commit configuration changes directly on it. You must
+ first perform a manual failover to promote the passive peer to
+ active state before configuring the master key. After the
+ failover completes, configure the same master key on this peer
+ to ensure commits and HA synchronization succeed when the peer
+ transitions back to its original role. 
+
+ Deploy the master key to Log Collectors. 
+
+ The master key configured for your Log Collectors must be identical to the
+ master key configured for Panorama. 
+
+ Select Panorama Managed Collectors and Deploy Master Key . 
+
+ Select all devices and Change the master key.
+
+ Configure the master key: 
+
+ If renewing a master key, enter the Current Master
+ Key . If you are replacing the default master
+ key with a new master key, do not specify a
+ Current Master Key . 
+
+ Specify the New Master Key and
+ Confirm Master Key . 
+
+ Configure the master key Lifetime and
+ Time for Reminder . 
+
+ Click OK . 
+
+ The new master key is
+ automatically pushed to your Log Collectors after you click
+ OK . Proceed only if you are
+ certain you are ready to change the master key for your Log
+ Collectors. 
+
+ Verify that the master key was deployed successfully to all selected
+ devices. 
+
+ A System log generates when you deploy a new master key from
+ Panorama. 
+
+ Deploy the master key to managed WildFire appliances. 
+
+ The master key configured your WildFire appliances must be identical to the
+ master key configured for Panorama. 
+
+ Select Panorama Managed WildFire Appliances and Deploy Master Key . 
+
+ Select all devices and Change the master key.
+
+ Configure the master key: 
+
+ If renewing a master key, enter the Current Master
+ Key . If you are replacing the default master
+ key with a new master key, do not specify a
+ Current Master Key . 
+
+ Specify the New Master Key and
+ Confirm Master Key . 
+
+ Configure the master key Lifetime and
+ Time for Reminder . 
+
+ Click OK . 
+
+ The new master key is
+ automatically pushed to your WildFire appliances after you
+ click OK . Proceed only if you are
+ certain you are ready to change the master key for your
+ WildFire appliances. 
+
+ Verify that the master key was deployed successfully to all selected
+ devices. 
+
+ A System log generates when you deploy a new master key from
+ Panorama. 
+
+ ( HA Panorama only ) Reconfigure the Panorama HA configuration. 
+
+ Repeat this step for both the primary and secondary Panorama HA peers. 
+
+ Select Panorama High Availability General and edit the HA Setup. 
+
+ Enable (check) Enable HA and click
+ OK . 
+
+ Commit and Commit to
+ Panorama . 
+
+ ( HA Firewalls only ) Enable config sync for managed firewalls. 
+
+ Select Device High Availability General and select the Template containing
+ the managed firewall HA configuration. 
+
+ Edit the HA Pair Settings Setup . 
+
+ Enable (check) Enable Config Sync and click
+ OK . 
+
+ Commit and Commit and Push
+ your configuration changes. 
+
+ On This Page 
+
+ Activation and Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Panorama 
+
+ Service Provider 
+
+ VM-Series 
+
+ Plugins 
+
+ SASE 
+
+ Prisma Access 
+
+ Prisma SASE Multitenant Platform 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring & Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ AI Access Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ IPSec VPN 
+
+ Security Policy 
+
+ Quantum Security 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Remote Browser Isolation 
+
+ Prisma Access Agent 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ FedRAMP 
+
+ Prisma SASE for FedRAMP 
+
+ Autonomous DEM for FedRAMP 
+
+ Prisma SD-WAN Experts Corner 
+
+ Network Policy 
+
+ QoS Whitepaper 
+
+ Security Architecture Whitepaper 
+
+ External Antennas for ION-C Series 
+
+ Dynamic Path Selection 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Resources 
+
+ All Products A - Z 
+
+ All Release Notes 
+
+ Compatibility Matrix 
+
+ Experts Corner 
+
+ Network Security Platform 
+
+ Security Policy 
+
+ Decryption 
+
+ Device-ID 
+
+ IPSec VPN 
+
+ Quality of Service 
+
+ Quantum Security 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

@@ -1,0 +1,357 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/administration/authentication/pre-logon-followed-by-saml-authentication
+fetched_at: 2026-08-13T16:39:35Z
+source: palo-alto-main
+---
+
+# Pre-Logon for SAML Authentication Clear
+
+Pre-Logon for SAML Authentication 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Pre-Logon for SAML Authentication 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Authentication 
+
+ Pre-Logon for SAML Authentication 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Pre-Logon for SAML Authentication 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configure MFA Between Duo and the Firewall 
+
+ Next 
+
+ Configure SAML Authentication 
+
+ Pre-Logon for SAML Authentication 
+
+ Learn how to configure remote access VPN with pre-logon and set up SAML
+ authentication. 
+
+ Where Can I Use This? What Do I Need? 
+
+ GlobalProtect Subscription 
+
+ GlobalProtect App 5.0 with PAN-OS 8.0 and later releases 
+
+ macOS 10.9 and later releases 
+
+ Windows 7 and 10 
+
+ GlobalProtect endpoints running on Windows and macOS 
+
+ Pre-logon is a connect method that establishes
+ a VPN tunnel before a user logs in. The GlobalProtect app for Windows and Mac endpoints
+ now supports pre-logon followed by SAML authentication for user login. When an endpoint
+ boots up and Internet is readily available, GlobalProtect establishes a pre-logon tunnel
+ using the machine certificate on the endpoint. After the pre-logon tunnel is
+ established, the user can log in to the endpoint and authenticate to GlobalProtect using
+ the configured SAML identity provider (IDP). If SAML authentication is successful on
+ Windows endpoints, the pre-logon tunnel is seamlessly renamed to User tunnel, and the
+ GlobalProtect connection is established. If SAML authentication is successful on Mac
+ endpoints, a new tunnel is created, and the GlobalProtect connection is established. 
+
+ A pre-logon VPN tunnel has no username association because the user has not logged in. In
+ order to grant access to resources, it is necessary to establish security policies that
+ are compatible with the pre-logon user. These policies should permit access to essential
+ services required for system startup, such as DHCP, DNS, specific Active Directory
+ services, antivirus, and operating system update services. After the user authenticates
+ to the gateway, the GlobalProtect app reassigns the VPN tunnel to the authenticated
+ user, resulting in a change in the IP address mapping on the firewall from the pre-logon
+ endpoint to the authenticated user. 
+
+ Use the following steps to configure the GlobalProtect app to use pre-logon followed by
+ SAML authentication for user login: 
+
+ Remote Access VPN with Pre-Logon 
+
+ Set Up SAML Authentication 
+
+ After you configure pre-logon for SAML authentication, you're ready to Configure SAML Authentication . 
+
+ Previous 
+
+ Configure MFA Between Duo and the Firewall 
+
+ Next 
+
+ Configure SAML Authentication 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

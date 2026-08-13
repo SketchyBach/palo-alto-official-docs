@@ -1,0 +1,413 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/pan-os-cli-quick-start/cli-cheat-sheet-device-management
+fetched_at: 2026-08-13T16:55:26Z
+source: palo-alto-main
+---
+
+# CLI Cheat Sheet: Device Management Clear
+
+CLI Cheat Sheet: Device Management 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ CLI Cheat Sheet: Device Management 
+
+ Updated on 
+
+ Aug 28, 2025 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 28, 2025 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ CLI Cheat Sheet: Device Management 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ CLI Cheat Sheet: Device Management 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ CLI Jump Start 
+
+ Next 
+
+ CLI Cheat Sheet: User-ID 
+
+ CLI Cheat Sheet: Device Management 
+
+ Essential CLI commands for PAN-OS device administration including system status, licensing, updates, and basic device operations. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ No prerequisites needed 
+
+ Use the following table to quickly locate commands for
+common device management tasks: 
+
+ If you want to... 
+
+ Use... 
+
+ General Commands 
+
+ Show general system health information. 
+
+ > show system info 
+
+ Show percent usage of disk partitions.
+Include the optional files parameter to show
+information about inodes, which track file storage. 
+
+ > show system disk-space files 
+
+ Show the maximum log file size. 
+
+ > show system logdb-quota 
+
+ Show running processes. 
+
+ > show system software status 
+
+ Show processes running in the management
+plane. 
+
+ > show system resources 
+
+ Show resource utilization in the
+dataplane. 
+
+ > show running resource-monitor 
+
+ Show the licenses installed on the
+device. 
+
+ > request license info 
+
+ Show when commits, downloads, and/or
+upgrades are completed. 
+
+ > show jobs processed 
+
+ Show session information. 
+
+ > show session info 
+
+ Show information about a specific
+session. 
+
+ > show session id <session-id> 
+
+ Show the running security policy. 
+
+ > show running security-policy 
+
+ Show the authentication logs. 
+
+ > less mp-log authd.log 
+
+ Restart the device. 
+
+ > request restart system 
+
+ Show the administrators who are
+currently logged in to the web interface, CLI, or API. 
+
+ > show admins 
+
+ Show the administrators who can
+access the web interface, CLI, or API, regardless of whether those
+administrators are currently logged in. 
+
+ When you run this
+command on the firewall, the output includes local administrators,
+remote administrators, and all administrators pushed from a Panorama template.
+Remote administrators are listed regardless of when they last logged in. 
+
+ > show admins all 
+
+ Configure the management interface
+as a DHCP client. 
+
+ For a successful commit, you must include
+each of the parameters: accept-dhcp-domain , accept-dhcp-hostname , send-client-id , and send-hostname . 
+
+ # set deviceconfig system type dhcp-client accept-dhcp-domain <yes|no> accept-dhcp-hostname <yes|no> send-client-id <yes|no> send-hostname <yes|no> 
+
+ Previous 
+
+ CLI Jump Start 
+
+ Next 
+
+ CLI Cheat Sheet: User-ID 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ CLI 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Quick Start 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

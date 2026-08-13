@@ -1,0 +1,265 @@
+---
+url: https://docs.paloaltonetworks.com/common-services/subscription-and-tenant-management/manage-multitenants/move-internal-tenants
+fetched_at: 2026-08-13T15:31:34Z
+source: palo-alto-main
+---
+
+# Move an Internal Tenant Clear
+
+Move an Internal Tenant 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Move an Internal Tenant 
+
+ Updated on 
+
+ Wed Mar 11 02:36:02 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Cloud Manager Docs 
+
+ Activation & Onboarding 
+
+ Subscription & Tenant Management 
+
+ Getting Started 
+
+ AIOps 
+
+ Release Notes 
+
+ New Features 
+
+ Updated on 
+
+ Wed Mar 11 02:36:02 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Cloud Manager 
+
+ Subscription and Tenant Management 
+
+ Tenant Management 
+
+ Move an Internal Tenant 
+
+ Download PDF 
+
+ Strata Cloud Manager 
+
+ Move an Internal Tenant 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Cloud Manager Docs 
+
+ Activation & Onboarding 
+
+ Subscription & Tenant Management 
+
+ Getting Started 
+
+ AIOps 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Transition from Single Tenant to Multitenant 
+
+ Next 
+
+ Acquire an External Tenant 
+
+ Move an Internal Tenant 
+
+ Learn how to move an internal tenant through Common Services . 
+
+ Where Can I Use This? What Do I Need? 
+
+ Tenant or tenant service group (TSG) 
+
+ Strata Cloud Manager 
+
+ Strata Multitenant Cloud Manager 
+
+ The Activation Console 
+
+ Prisma Access license 
+
+ Superuser or Multitenant Superuser role on the source
+ and target tenants 
+
+ If you're a managed security service provider (MSSP) or distributed enterprise and
+ you create a
+ multitenant hierarchy , you might need to move a tenant that is part of
+ your tenant hierarchy to a different location. You can do this by moving an internal
+ tenant. 
+
+ Any tenant is considered an internal tenant if it's within your tenant hierarchy, and
+ you have Superuser access to the source and target tenants. It's possible to move
+ tenants within the same top-most, root-level, parent tenant or intermediate tenants
+ of your hierarchy. See additional limitations . You
+ would move an internal tenant primarily in the case of testing, demonstrations,
+ reorgs, correcting mistakes, and more. 
+
+ Use one of the various ways to access 
+ Settings . 
+
+ Select Tenants . 
+
+ From the tenant that you want to move, select Move
+ Tenant . 
+
+ In the following example, the source tenant is Child Tenant East. You must
+ have the Superuser role for Child Tenant East to move this tenant to a new
+ location in the hierarchy. 
+
+ You’re prompted with a view of the current tenant hierarchy, so that you can
+ select where to move the tenant. Select a new parent tenant for managing the
+ subtenant and Continue . 
+
+ In the following example, the target tenant is Child Tenant West. You must
+ also have the Superuser role for Child Tenant West to move Child Tenant East
+ to become its subtenant. 
+
+ Inherited roles that would be lost after the move are displayed before the
+ final confirmation. Select Confirm . 
+
+ Inherited custom roles that would be lost after the
+ move are also displayed before the final confirmation. Custom roles that
+ were defined in a parent tenant and assigned in a child tenant would be lost
+ because the role doesn't exist in the new hierarchy. 
+
+ Previous 
+
+ Transition from Single Tenant to Multitenant 
+
+ Next 
+
+ Acquire an External Tenant 
+
+ On This Page 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Endpoints 
+
+ GlobalProtect 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Strata Cloud Manager 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

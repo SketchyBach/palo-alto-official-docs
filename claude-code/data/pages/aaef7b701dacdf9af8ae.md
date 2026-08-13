@@ -1,0 +1,277 @@
+---
+url: https://docs.paloaltonetworks.com/ai-runtime-security/new-features/by-date/prisma-airs/july-2025#f2f183f1a3300358cb9c971bcf9e033a
+fetched_at: 2026-08-13T15:23:53Z
+source: palo-alto-main
+---
+
+# New Features - Prisma AIRS - July 2025 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+New Features - Prisma AIRS - July 2025 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma AIRS Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ AI Model Security 
+
+ AI Red Teaming 
+
+ Release Notes 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ Prisma AIRS 
+
+ New Features - Prisma AIRS - July 2025 
+
+ Automate AI Application Security with Programmatic APIs 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ Prisma AIRS API intercept is a threat detection service that enables you to discover and secure applications by programmatically scanning prompts and models for threats. You can implement a Security-as-Code approach using our REST APIs to protect your AI models, applications, and AI data. 
+
+ These REST APIs seamlessly integrate AI security scanning into your application development and deployment workflows. This methodology enables automated and continuous protection for your AI models, applications, and the data they process, making security an intrinsic part of your development lifecycle. 
+
+ Prisma AIRS
+
+ July 2025
+
+ Centralized Management of AI Firewalls 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ You can now manage and monitor your AI firewalls with Panorama . This integration allows you to leverage a central platform for defining and observing AI security policies and logs. 
+
+ This capability extends to securing VM workloads and Kubernetes clusters, allowing for a unified approach to security across your diverse environments. Centralized management provides a number of key benefits, including unified visibility, streamlined operations, consistent policy enforcement, and accelerated incident response. 
+
+ Prisma AIRS
+
+ July 2025
+
+ Panorama
+
+ Core
+
+ July 2025
+
+ Customize API Security with Centralized Management 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ You can manage Applications, API Keys, and Security Profiles from a centralized dashboard within Strata Cloud Manager. This allows you to create and manage multiple API keys, define and manage applications, and create and manage AI API security profiles and their revisions. This centralized approach enables you to tailor security policy rules precisely to the unique needs of different applications and API integrations. 
+
+ Prisma AIRS
+
+ July 2025
+
+ Strata Cloud Manager
+
+ Management
+
+ July 2025
+
+ Strata Cloud Manager
+
+ Management
+
+ July 2025
+
+ Extend AI Network Security to Google Cloud Platform 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ You can now discover your GCP cloud assets by onboarding your GCP account in Strata Cloud Manager . You can deploy and secure your GCP environment with network intercept. This feature enables onboarding your GCP cloud account to a centralized management platform, enabling the discovery of your cloud assets and providing visibility into your AI workload deployments. 
+
+ This expanded support for GCP provides dedicated protection, enhanced visibility, streamlined deployment, and reduced risk. 
+
+ Prisma AIRS
+
+ July 2025
+
+ Strata Cloud Manager
+
+ Management
+
+ July 2025
+
+ Strata Cloud Manager
+
+ Management
+
+ July 2025
+
+ Gain Visibility into AI Security Threats 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ Gain enhanced visibility into AI-specific threats through an additional AI security report that displays comprehensive AI security threat logs forwarded by Prisma AIRS Network intercept. This gives you enhanced visibility into AI model protection, AI application protection, and AI data protection threats detected based on your AI security profile configurations. You can also filter logs by the `ai-security` threat type when configuring log forwarding profiles or building custom reports, enabling targeted analysis and streamlined security operations for AI-specific threats. 
+
+ Prisma AIRS
+
+ AI Runtime Firewall
+
+ July 2025
+
+ Panorama
+
+ Core
+
+ July 2025
+
+ Malicious Code Extraction from Plain Text 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ Malicious code embedded directly in plain-text fields of API prompts or responses is detected across both synchronous and asynchronous scan services. Even if the code isn’t in a traditional file format, it is identified and analyzed. For testing purposes, send malicious code in plain text within the API “prompt” or “response” fields to confirm detection. 
+
+ As AI applications become more integrated, the risk of malicious code injection through user input or model responses increases. This feature helps safeguard your AI models and applications by providing a layer of defense against such threats, even when the code is embedded in formats other than traditional files. 
+
+ Prisma AIRS
+
+ Core
+
+ July 2025
+
+ Prisma AIRS
+
+ AI Runtime Security API Intercept
+
+ July 2025
+
+ Multi-Region Network Intercept 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ Prisma AIRS AI Runtime: Network intercept now supports deployment across multiple regions, including US, UK, India, Canada, and Singapore. This expansion enables you to deploy the Prisma AIRS AI Runtime: Network intercepts on tenant service groups (TSG) in your preferred regions. 
+
+ Prisma AIRS
+
+ Core
+
+ July 2025
+
+ Prisma AIRS
+
+ AI Runtime Security Network Intercept
+
+ July 2025
+
+ Prisma AIRS
+
+ AI Runtime Firewall
+
+ July 2025
+
+ Strengthen Threat Analysis with User IP Data 
+
+ Release Date: July 2025 
+ | 
+ Last Updated: May 2026 
+
+ You can include the end user's IP address in both synchronous and asynchronous scan requests to enhance threat correlation and incident response capabilities. A new `user_ip` field has been added to the scan request metadata schema, allowing you to incorporate the originating IP address of the end user in both synchronous and asynchronous scan requests. The `user_ip` field provides crucial context for security analysis. Understanding the source IP address of an end user involved in a scan significantly enhances your ability to correlate threats and streamline incident response. 
+
+ Prisma AIRS
+
+ Core
+
+ July 2025
+
+ Prisma AIRS
+
+ AI Runtime Security API Intercept
+
+ July 2025
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ CN-Series 
+
+ Firewalls 
+
+ VM-Series 
+
+ Cloud-Delivered Security Services 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Enterprise DLP 
+
+ Network Security 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

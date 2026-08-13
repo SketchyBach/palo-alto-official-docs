@@ -1,0 +1,293 @@
+---
+url: https://docs.paloaltonetworks.com/saas-security/sspm/onboard-saas-apps-supported-by-sspm/onboard-a-krisp-app-to-sspm
+fetched_at: 2026-08-13T17:34:13Z
+source: palo-alto-main
+---
+
+# Onboard a Krisp App to SSPM Clear
+
+Onboard a Krisp App to SSPM 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Onboard a Krisp App to SSPM 
+
+ Updated on 
+
+ Fri Jul 10 09:31:52 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SaaS Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Data Security 
+
+ SaaS Security Inline 
+
+ SSPM 
+
+ Behavior Threats 
+
+ New Features 
+
+ Updated on 
+
+ Fri Jul 10 09:31:52 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ SaaS Security 
+
+ Onboard SaaS Apps Supported by SSPM 
+
+ Onboard a Krisp App to SSPM 
+
+ Download PDF 
+
+ SaaS Security 
+
+ Onboard a Krisp App to SSPM 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ SaaS Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Data Security 
+
+ SaaS Security Inline 
+
+ SSPM 
+
+ Behavior Threats 
+
+ New Features 
+
+ Previous 
+
+ Onboard a Kanban Tool App to SSPM 
+
+ Next 
+
+ Onboard a Kustomer App to SSPM 
+
+ Onboard a Krisp App to SSPM 
+
+ Learn how you can manually provide SSPM with the configuration values for a Krisp
+ instance. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Strata Cloud Manager 
+
+ SaaS Security Posture Management license 
+
+ Or any of the following licenses that include the Data Security license: 
+
+ CASB-X 
+
+ CASB-PA 
+
+ The onboarding process for Krisp is different from most applications,
+ because SSPM does not support scans for Krisp. During the onboarding process for
+ most applications, SSPM establishes a connection to your application instance by
+ using credentials that you provide, such as a login password or an access token.
+ After SSPM has established this connection, SSPM can scan your application
+ instance's settings by using an API provided by the application or by using data
+ extraction techniques. 
+
+ Although SSPM does not support scans for Krisp, you can still onboard a Krisp
+ application to SSPM. However, when you onboard a Krisp application to SSPM, you
+ don’t supply SSPM with any authentication credentials. SSPM does not establish a
+ connection to your Krisp instance and does not run scans to determine the Krisp
+ settings. Instead, you will manually enter your Krisp instance's settings, which
+ SSPM will compare against its recommended settings. You can think of this process as
+ a virtual onboarding. SSPM creates a tile on the Applications page to represent your
+ Krisp instance, but this tile is isolated to SSPM. SSPM will show rule violations
+ for the Krisp instance, but SSPM determines the violations based entirely on the
+ information that you manually enter. If you change the value of a setting in your
+ application instance, you must also manually update the setting value in SSPM. If
+ you don’t keep the setting values synchronized, the rule violations that SSPM
+ displays will be unreliable. 
+
+ To onboard a Krisp instance, you complete the following steps: 
+
+ Log in to Krisp as an administrator. 
+ Logging in will enable you to view the current values of the configuration
+ settings, and, if necessary, update the settings to our recommended
+ values. 
+
+ Log in to 
+ Strata Cloud Manager . 
+
+ Select Configuration SaaS Security Posture Security Applications Add Application and click the Krisp tile. 
+
+ On the Posture Security tab, Add New instance. 
+
+ SSPM displays the onboarding page, which lists the Krisp configuration
+ settings and our recommended configuration values. 
+
+ From your Krisp instance, identify the configuration values, and provide these
+ configuration values to SSPM. 
+
+ To avoid triggering rule violations in SSPM, you can update the values in
+ Krisp to match our recommended values. 
+
+ You can enter the configuration values in the fields provided, or upload a
+ comma-separated values (CSV) file that contains the configuration values. To
+ simplify the process of creating the CSV file, you can download a CSV
+ template file from SSPM. To upload a CSV file, complete the following
+ steps: 
+
+ Select Upload Security Setting Values and then
+ Download Template . 
+
+ Open the CSV template file in a spreadsheet application such as
+ Microsoft Excel or Google Sheets. 
+
+ Enter the configuration values into the CSV template file, and save
+ your changes. 
+
+ Upload your edited CSV file to SSPM, and Save .
+ You can either drag and drop the file into the File
+ Upload area or you can Browse to
+ locate the file. 
+
+ Connect with Krisp . 
+
+ SSPM adds a tile on the Applications page to represent your Krisp instance.
+ Based on the values that you entered, SSPM will determine if your Krisp
+ instance has any rule violations. 
+
+ Because SSPM is not scanning your Krisp instance, you must ensure that the
+ information that SSPM has about your Krisp instance remains accurate. If you
+ change a setting value in Krisp, manually update that value in SSPM. To do
+ this, complete the following steps: 
+
+ Navigate to the Applications page ( SSPM Applications ). 
+
+ Locate the Krisp instance's tile and View
+ Details . 
+
+ Edit Current Value of the setting. 
+
+ Previous 
+
+ Onboard a Kanban Tool App to SSPM 
+
+ Next 
+
+ Onboard a Kustomer App to SSPM 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Firewalls 
+
+ PAN-OS 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ Prisma Access Monitoring and Visibility 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ SaaS Security Posture Management 
+
+ SaaS Security 
+
+ SSPM 
+
+ Cloud-Delivered Security Services 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

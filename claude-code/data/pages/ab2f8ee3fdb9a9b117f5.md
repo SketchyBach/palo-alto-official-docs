@@ -1,0 +1,183 @@
+---
+url: https://docs.paloaltonetworks.com/ai-access-security/new-features/by-date/ai-access-security/july-2026#baae211c412faceaa4f62c125d849287
+fetched_at: 2026-08-13T15:23:39Z
+source: palo-alto-main
+---
+
+# New Features - AI Access Security - July 2026 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+New Features - AI Access Security - July 2026 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ Strata Copilot
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ AI Access Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Release Notes 
+
+ New Features 
+
+ Focus 
+
+ Home 
+
+ AI Access Security 
+
+ New Features - AI Access Security - July 2026 
+
+ AI Access Security FedRAMP Moderate Support 
+
+ Release Date: July 2026 
+ | 
+ Last Updated: July 2026 
+
+ AI Access Security has achieved FedRAMP Moderate authorization. If you operate under strict compliance requirements and need to manage employee access to GenAI apps, you can now deploy AI Access Security in your environment. 
+
+ You gain the visibility and control you need to manage GenAI app usage across your organization while maintaining your FedRAMP Moderate compliance posture. You can discover which GenAI apps are in use across your network, tag apps as sanctioned, tolerated, or unsanctioned to reflect your organization's policies, and enforce Security policy rules to allow or block access to specific apps. You can also apply risk scores to GenAI apps to prioritize enforcement, prevent exfiltration of sensitive data to those apps, and generate comprehensive reports that document your GenAI app governance posture, all within your FedRAMP Moderate compliance boundary. 
+
+ This authorization makes AI Access Security available to federal agencies and regulated organizations in healthcare, financial services, and defense contracting that must maintain strict data sovereignty. You can build a structured, policy-driven approach to GenAI app governance that satisfies your regulatory requirements without sacrificing security visibility or control. Regardless of your compliance posture, you get the full set of AI Access Security capabilities within your authorized FedRAMP Moderate boundary. 
+
+ AI Access Security
+
+ July 2026
+
+ Enhanced Content Cloud Analysis Transport Support 
+
+ Release Date: July 2026 
+ | 
+ Last Updated: August 2026 
+
+ Palo Alto Networks introduces a redesigned transport architecture for cloud-delivered security services that eliminates performance bottlenecks in the Multi Inline Cloud Analysis (MICA) data forwarding channel. This architecture improves inline cloud analysis for Enterprise DLP , Advanced Threat Prevention , Advanced URL Filtering , Advanced WildFire , Prisma AIRS (AI Runtime Security), and ACE (App-ID Cloud Engine) when used alongside SaaS Security Inline , and AI Access Security . 
+
+ The new architecture removes the fixed-core transport limitation that previously constrained cloud submission throughput regardless of available hardware resources. All data plane cores now natively handle payload forwarding to the cloud through a scalable connection pool. Each connection is established directly from the data plane over TLS, eliminating the intermediate process that previously serialized all cloud submissions through a single core. 
+
+ The redesigned transport reduces latency by replacing protocol translation layers with a direct binary protocol between the data plane and advanced service addresses. Native PAN-OS memory pools replace the previously fixed-size memory allocation, reducing dedicated memory consumption and increasing overall system capacity. The newly introduced Advanced Forwarding discovery service dynamically assigns advanced service addresses based on your NGFW's location and configuration, improving reliability and enabling automatic failover without manual intervention. 
+
+ When Advanced Forwarding is enabled, the NGFW establishes TLS connections directly from the data plane to the cloud. To use the legacy transport instead of Advanced Forwarding, you must manually disable Advanced Forwarding. The NGFW does not automatically fall back to the legacy transport method. 
+
+ Advanced Threat Prevention
+
+ July 2026
+
+ 12.2
+
+ Advanced URL Filtering
+
+ July 2026
+
+ 12.2
+
+ Advanced Wildfire
+
+ July 2026
+
+ 12.2
+
+ AI Access Security
+
+ July 2026
+
+ 12.2
+
+ Enterprise DLP
+
+ Core
+
+ July 2026
+
+ 12.2
+
+ Prisma AIRS
+
+ AI Runtime Firewall
+
+ July 2026
+
+ 12.2
+
+ SaaS Security
+
+ SaaS Security Inline
+
+ July 2026
+
+ 12.2
+
+ PAN-OS
+
+ July 2026
+
+ 12.2
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Strata Logging Service 
+
+ Identity and Access Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Firewalls 
+
+ PAN-OS 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced Threat Prevention 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

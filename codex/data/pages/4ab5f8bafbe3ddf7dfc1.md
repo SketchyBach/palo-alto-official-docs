@@ -1,0 +1,1450 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/firewall-administration/reference-web-interface-administrator-access/web-interface-access-privileges/provide-granular-access-to-the-monitor-tab
+fetched_at: 2026-08-13T16:59:53Z
+source: palo-alto-main
+---
+
+# Provide Granular Access to the Monitor Tab Clear
+
+Provide Granular Access to the Monitor Tab 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Provide Granular Access to the Monitor Tab 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Firewall Administration 
+
+ Reference: Web Interface Administrator Access 
+
+ Web Interface Access Privileges 
+
+ Provide Granular Access to the Monitor Tab 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Provide Granular Access to the Monitor Tab 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Define Access to the Web Interface Tabs 
+
+ Next 
+
+ Provide Granular Access to the Policy Tab 
+
+ Provide Granular Access to the Monitor Tab 
+
+ Configure granular administrator access permissions for Monitor tab features in
+ PAN-OS firewall web interface to control visibility of logs and reports. 
+
+ In some cases you might want to enable the administrator
+to view some but not all areas of the Monitor tab.
+For example, you might want to restrict operations administrators
+to the Config and System logs only, because they do not contain
+sensitive user data. Although this section of the administrator
+role definition specifies what areas of the Monitor tab
+the administrator can see, you can also couple privileges in this
+section with privacy privileges, such as disabling the ability to
+see usernames in logs and reports. One thing to keep in mind, however,
+is that any system-generated reports will still show usernames and
+IP addresses even if you disable that functionality in the role.
+For this reason, if you do not want the administrator to see any
+of the private user information, disable access to the specific
+reports as detailed in the following table. 
+
+ The following table lists the Monitor tab
+access levels and the administrator roles for which they are available. 
+
+ Device Group and Template roles can see log data only for
+the device groups that are within the access domains assigned to
+those roles. 
+
+ Access Level 
+
+ Description 
+
+ Administrator Role Availability 
+
+ Enable 
+
+ Read Only 
+
+ Disable 
+
+ Monitor 
+
+ Enables or disables access to the Monitor tab.
+If disabled, the administrator will not see this tab or any of the associated
+logs or reports. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Logs 
+
+ Enables or disables access to all log files.
+You can also leave this privilege enabled and then disable specific
+logs that you do not want the administrator to see. Keep in mind
+that if you want to protect the privacy of your users while still
+providing access to one or more of the logs, you can disable the Privacy Show Full IP Addresses option
+and/or the Show User Names In Logs And Reports option. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Traffic 
+
+ Specifies whether the administrator can
+see the traffic logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Threat 
+
+ Specifies whether the administrator can
+see the threat logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ URL Filtering 
+
+ Specifies whether the administrator can
+see the URL filtering logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ WildFire Submissions 
+
+ Specifies whether the administrator can
+see the WildFire logs. These logs are only available if you have
+a WildFire subscription. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Data Filtering 
+
+ Specifies whether the administrator can
+see the data filtering logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ HIP Match 
+
+ Specifies whether the administrator can
+see the HIP Match logs. HIP Match logs are available only if you
+have a GlobalProtect license (subscription). 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ GlobalProtect 
+
+ Specifies whether the administrator can
+see the GlobalProtect logs. These logs are available only if you
+have a GlobalProtect license (subscription). 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ User-ID 
+
+ Specifies whether the administrator can
+see the User-ID logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ GTP 
+
+ Specifies whether the mobile network operator
+can see GTP logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Tunnel Inspection 
+
+ Specifies whether the administrator can
+see the Tunnel Inspection logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ SCTP 
+
+ Specifies whether the mobile network operator
+can see Stream Control Transmission Protocol (SCTP) logs. 
+
+ You
+must enable SCTP on Panorama ( Device Setup Management )
+before you can control Administrator access to SCTP logs, custom
+reports, or predefined reports for Panorama and Device Group/Template. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Configuration 
+
+ Specifies whether the administrator can
+see the configuration logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: No 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ System 
+
+ Specifies whether the administrator can
+see the system logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: No 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Alarms 
+
+ Specifies whether the administrator can
+see system-generated alarms. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Authentication 
+
+ Specifies whether the administrator can
+see the Authentication logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: No 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Automated Correlation Engine 
+
+ Enables or disables access to the correlation
+objects and correlated event logs generated on the firewall. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Correlation Objects 
+
+ Specifies whether the administrator can
+view and enable/disable the correlation objects. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Correlated Events 
+
+ Specifies whether the administrator can
+view and enable/disable the correlation events. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Packet Capture 
+
+ Specifies whether the administrator can
+see packet captures (pcaps) from the Monitor tab.
+Keep in mind that packet captures are raw flow data and as such
+may contain user IP addresses. Disabling the Show Full
+IP Addresses privileges will not obfuscate the IP address
+in the pcap and you should therefore disable the Packet Capture
+privilege if you are concerned about user privacy. 
+
+ Firewall: Yes 
+
+ Panorama: No 
+
+ Device Group/Template: No 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ App Scope 
+
+ Specifies whether the administrator can
+see the App Scope visibility and analysis tools. Enabling App Scope enables
+access to all of the App Scope charts. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Session Browser 
+
+ Specifies whether the administrator can
+browse and filter current running sessions on the firewall. Keep
+in mind that the session browser shows raw flow data and as such
+may contain user IP addresses. Disabling the Show Full
+IP Addresses privileges will not obfuscate the IP address
+in the session browser and you should therefore disable the Session Browser privilege
+if you are concerned about user privacy. 
+
+ Firewall: Yes 
+
+ Panorama: No 
+
+ Device Group/Template: No 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Block IP List 
+
+ Specifies whether the administrator can
+view the block list (Enable or Read Only) and delete entries from
+the list (Enable). If you disable the setting, the administrator
+won’t be able to view or delete entries from the block list. 
+
+ Firewall: Yes 
+
+ Panorama: under Context
+Switch UI: Yes 
+
+ Template: Yes 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Botnet 
+
+ Specifies whether the administrator can
+generate and view botnet analysis reports or view botnet reports
+in read-only mode. Disabling the Show Full IP Addresses privileges
+will not obfuscate the IP address in scheduled botnet reports and
+you should therefore disable the Botnet privilege
+if you are concerned about user privacy. 
+
+ Firewall: Yes 
+
+ Panorama: No 
+
+ Device Group/Template: No 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ PDF Reports 
+
+ Enables or disables access to all PDF reports.
+You can also leave this privilege enabled and then disable specific
+PDF reports that you do not want the administrator to see. Keep
+in mind that if you want to protect the privacy of your users while still
+providing access to one or more of the reports, you can disable
+the Privacy Show Full
+IP Addresses option and/or the Show
+User Names In Logs And Reports option. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Manage PDF Summary 
+
+ Specifies whether the administrator can
+view, add or delete PDF summary report definitions. With read-only access,
+the administrator can see PDF summary report definitions, but not
+add or delete them. If you disable this option, the administrator
+can neither view the report definitions nor add/delete them. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ PDF Summary Reports 
+
+ Specifies whether the administrator can
+see the generated PDF Summary reports in Monitor Reports . If you disable this
+option, the PDF Summary Reports category
+will not display in the Reports node. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ User Activity Report 
+
+ Specifies whether the administrator can
+view, add or delete User Activity report definitions and download
+the reports. With read-only access, the administrator can see User Activity
+report definitions, but not add, delete, or download them. If you
+disable this option, the administrator cannot see this category
+of PDF report. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ SaaS Application Usage Report 
+
+ Specifies whether the administrator can
+view, add or delete a SaaS application usage report. With read-only
+access, the administrator can see the SaaS application usage report definitions,
+but cannot add or delete them. If you disable this option, the administrator
+can neither view the report definitions nor add or delete them. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Report Groups 
+
+ Specifies whether the administrator can
+view, add or delete report group definitions. With read-only access,
+the administrator can see report group definitions, but not add
+or delete them. If you disable this option, the administrator cannot see
+this category of PDF report. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Email Scheduler 
+
+ Specifies whether the administrator can
+schedule report groups for email. Because the generated reports
+that get emailed may contain sensitive user data that is not removed
+by disabling the Privacy Show
+Full IP Addresses option and/or the Show
+User Names In Logs And Reports options and because they
+may also show log data to which the administrator does not have
+access, you should disable the Email Scheduler option
+if you have user privacy requirements. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ Yes 
+
+ Yes 
+
+ Manage Custom Reports 
+
+ Enables or disables access to all custom
+report functionality. You can also leave this privilege enabled
+and then disable specific custom report categories that you do not
+want the administrator to be able to access. Keep in mind that if
+you want to protect the privacy of your users while still providing access
+to one or more of the reports, you can disable the Privacy Show Full IP Addresses option
+and/or the Show User Names In Logs And Reports option. 
+
+ Reports that
+are scheduled to run rather than run on demand will show IP address
+and user information. In this case, be sure to restrict access to
+the corresponding report areas. In addition, the custom report feature
+does not restrict the ability to generate reports that contain log
+data contained in logs that are excluded from the administrator role. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Application Statistics 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the application statistics database. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Data Filtering Log 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the Data Filtering logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Threat Log 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the Threat logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Threat Summary 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the Threat Summary database. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Traffic Log 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the Traffic logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Traffic Summary 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the Traffic Summary database. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ URL Log 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the URL Filtering
+logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ URL Summary 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the URL Summary database. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ HIP Match 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the HIP Match logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ GlobalProtect 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the GlobalProtect
+logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ WildFire Log 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the WildFire logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ GTP Log 
+
+ Specifies whether the mobile network operator
+can create a custom report that includes data from GTP logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ GTP Summary 
+
+ Specifies whether the mobile network operator
+can create a custom report that includes data from GTP logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Tunnel Log 
+
+ Specifies whether the administrator can
+create a custom report that includes data from tunnel inspection
+logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Tunnel Summary 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the Tunnel Summary database. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ SCTP Log 
+
+ Specifies whether the mobile network operator
+can create a custom report that includes data from SCTP logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ SCTP Summary 
+
+ Specifies whether the mobile network operator
+can create a custom report that includes data from the SCTP Summary
+database. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ User-ID 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the User-ID logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Authentication 
+
+ Specifies whether the administrator can
+create a custom report that includes data from the Authentication logs. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ View Scheduled Custom Reports 
+
+ Specifies whether the administrator can
+view a custom report that has been scheduled to generate. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ View Predefined Application Reports 
+
+ Specifies whether the administrator can
+view Application Reports. Privacy privileges do not impact reports available
+on the Monitor Reports node
+and you should therefore disable access to the reports if you have
+user privacy requirements. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ View Predefined Threat Reports 
+
+ Specifies whether the administrator can
+view Threat Reports. Privacy privileges do not impact reports available
+on the Monitor Reports node
+and you should therefore disable access to the reports if you have
+user privacy requirements. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ View Predefined URL Filtering Reports 
+
+ Specifies whether the administrator can
+view URL Filtering Reports. Privacy privileges do not impact reports available
+on the Monitor Reports node
+and you should therefore disable access to the reports if you have
+user privacy requirements. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ View Predefined Traffic Reports 
+
+ Specifies whether the administrator
+can view Traffic Reports. Privacy privileges do not impact reports
+available on the Monitor Reports node
+and you should therefore disable access to the reports if you have
+user privacy requirements. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ View Predefined GTP Reports 
+
+ Specifies whether the mobile
+network operator can view GTP Reports. Privacy privileges do not
+impact reports available on the Monitor Reports node and you should
+therefore disable access to the reports if you have user privacy
+requirements. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ View Predefined SCTP Reports 
+
+ Specifies whether the mobile network operator
+can view SCTP Reports. Privacy privileges do not impact reports available
+on the Monitor Reports node
+and you should therefore disable access to the reports if you have
+user privacy requirements. 
+
+ Firewall: Yes 
+
+ Panorama: Yes 
+
+ Device Group/Template: Yes 
+
+ Yes 
+
+ No 
+
+ Yes 
+
+ Previous 
+
+ Define Access to the Web Interface Tabs 
+
+ Next 
+
+ Provide Granular Access to the Policy Tab 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

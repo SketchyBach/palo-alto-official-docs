@@ -1,0 +1,408 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-networking-admin/ecmp/ecmp-load-balancing-algorithms
+fetched_at: 2026-08-13T17:02:42Z
+source: palo-alto-main
+---
+
+# ECMP Load-Balancing Algorithms Clear
+
+ECMP Load-Balancing Algorithms 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ ECMP Load-Balancing Algorithms 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 4, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ ECMP 
+
+ ECMP Load-Balancing Algorithms 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ ECMP Load-Balancing Algorithms 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ ECMP 
+
+ Next 
+
+ Configure ECMP on a Virtual Router 
+
+ ECMP Load-Balancing Algorithms 
+
+ Understand the four ECMP load-balancing algorithms: IP modulo, IP hash, balanced
+ round robin, and weighted round robin. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ Let’s suppose the Routing Information Base (RIB) of
+the firewall has multiple equal-cost paths to a single destination.
+The maximum number of equal-cost paths defaults to 2. ECMP chooses
+the best two equal-cost paths from the RIB to copy to the Forwarding
+Information Base (FIB). ECMP then determines, based on the load-balancing
+method, which of the two paths in the FIB that the firewall will
+use for the destination during this session. 
+
+ ECMP load balancing is done at the session level, not at the
+packet level—the start of a new session is when the firewall (ECMP)
+chooses an equal-cost path. The equal-cost paths to a single destination
+are considered ECMP path members or ECMP group members. ECMP determines
+which one of the multiple paths to a destination in the FIB to use
+for an ECMP flow, based on which load-balancing algorithm you set.
+A virtual router can use only one load-balancing algorithm. 
+
+ Enabling, disabling, or changing ECMP
+on an existing virtual router causes the system to restart the virtual
+router, which might cause existing sessions to be terminated. 
+
+ The four algorithm choices emphasize different priorities, as
+follows: 
+
+ Hash-based algorithms prioritize session stickiness —The IP Modulo and IP
+Hash algorithms use hashes based on information in the packet
+header, such as source and destination address. Because the header
+of each flow in a given session contains the same source and destination
+information, these options prioritize session stickiness .
+If you choose the IP Hash algorithm, the
+hash can be based on the source and destination addresses, or the
+hash can be based on the source address only. Using an IP hash based
+on only the source address causes all sessions belonging to the
+same source IP address to always take the same path from available
+multiple paths. Thus the path is considered sticky and is easier
+to troubleshoot if necessary. You can optionally set a Hash
+Seed value to further randomize load balancing if you
+have a large number of sessions to the same destination and they’re
+not being distributed evenly over the ECMP links. 
+
+ Balanced algorithm prioritizes load balancing —The Balanced
+Round Robin algorithm distributes incoming sessions
+equally across the links, favoring load balancing over session stickiness.
+(Round robin indicates a sequence in which the least recently chosen
+item is chosen.) In addition, if new routes are added or removed
+from an ECMP group (for example if a path in the group goes down),
+the virtual router will re-balance the sessions across links in
+the group. Additionally, if the flows in a session have to switch
+routes due to an outage, when the original route associated with
+the session becomes available again, the flows in the session will
+revert to the original route when the virtual router once again
+re-balances the load. 
+
+ Weighted algorithm prioritizes link capacity and/or speed —As
+an extension to the ECMP protocol standard, the Palo Alto Networks ® implementation
+provides for a Weighted Round Robin load-balancing
+option that takes into account differing link capacities and speeds
+on the egress interfaces of the firewall. With this option, you
+can assign ECMP Weights (range is 1 to 255;
+default is 100) to the interfaces based on link performance using
+factors such as link capacity, speed, and latency to ensure that
+loads are balanced to fully leverage the available links. 
+
+ For
+example, suppose the firewall has redundant links to an ISP: ethernet1/1
+(100 Mbps) and ethernet1/8 (200 Mbps). Although these are equal-cost
+paths, the link via ethernet1/8 provides greater bandwidth and therefore
+can handle a greater load than the ethernet1/1 link. Therefore,
+to ensure that the load-balancing functionality takes into account
+link capacity and speed, you might assign ethernet1/8 a weight of
+200 and ethernet1/1 a weight of 100. The 2:1 weight ratio causes
+the virtual router to send twice as many sessions to ethernet1/8
+as it sends to ethernet1/1. However, because the ECMP protocol is
+inherently session-based, when using the Weighted Round
+Robin algorithm, the firewall will be able to load balance
+across the ECMP links only on a best-effort basis. 
+
+ Keep in
+mind that ECMP weights are assigned to interfaces to determine load
+balancing (to influence which equal-cost path is chosen),
+not for route selection (a route choice from routes that could have
+different costs). 
+
+ Assign lower-speed
+or lower-capacity links with a lower weight. Assign higher-speed
+or higher-capacity links with a higher weight. In this manner, the
+firewall can distribute sessions based on these ratios, rather than
+overdrive a low-capacity link that is one of the equal-cost paths. 
+
+ Previous 
+
+ ECMP 
+
+ Next 
+
+ Configure ECMP on a Virtual Router 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Networking 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

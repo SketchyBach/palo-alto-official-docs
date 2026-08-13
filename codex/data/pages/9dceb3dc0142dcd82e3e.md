@@ -1,0 +1,369 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/authentication/configure-kerberos-server-authentication
+fetched_at: 2026-08-13T17:04:14Z
+source: palo-alto-main
+---
+
+# Configure Kerberos Server Authentication Clear
+
+Configure Kerberos Server Authentication 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Configure Kerberos Server Authentication 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 13:41:44 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Authentication 
+
+ Configure Kerberos Server Authentication 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Configure Kerberos Server Authentication 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Configure Kerberos Single Sign-On 
+
+ Next 
+
+ Configure TACACS+ Authentication 
+
+ Configure Kerberos Server Authentication 
+
+ You can use Kerberos to
+natively authenticate end users and firewall or Panorama administrators
+to an Active Directory domain controller or a Kerberos V5-compliant
+authentication server. This authentication method is interactive,
+requiring users to enter usernames and passwords. 
+
+ To use a Kerberos server for authentication,
+the server must be accessible over an IPv4 address. IPv6 addresses
+are not supported. 
+
+ Add a Kerberos
+server profile. 
+
+ The profile defines how the firewall connects to the Kerberos
+server. 
+
+ Select Device Server Profiles Kerberos or Panorama Server Profiles Kerberos on Panorama™ and Add a
+server profile. 
+
+ Enter a Profile Name to identify
+the server profile. 
+
+ Add each server and specify
+a Name (to identify the server), IPv4 address
+or FQDN of the Kerberos Server , and optional Port number
+for communication with the server (default 88). 
+
+ If you use an FQDN address object to identify the
+server and you subsequently change the address, you must commit
+the change in order for the new server address to take effect. 
+
+ Click OK to save your changes
+to the profile. 
+
+ Assign the server profile to an Configure
+an Authentication Profile and Sequence . 
+
+ The authentication profile defines authentication settings
+that are common to a set of users. 
+
+ Assign the authentication profile to the firewall application
+that requires authentication. 
+
+ Administrative access to the web interface— Configure
+a Firewall Administrator Account and assign the authentication
+profile you configured. 
+
+ End user access to services and applications—Assign the authentication
+profile you configured to an authentication enforcement object and
+assign the object to Authentication policy rules. For the full procedure
+to configure authentication for end users, see Configure
+Authentication Policy . 
+
+ Verify that the firewall can Test
+Authentication Server Connectivity to authenticate users. 
+
+ Previous 
+
+ Configure Kerberos Single Sign-On 
+
+ Next 
+
+ Configure TACACS+ Authentication 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Administration 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

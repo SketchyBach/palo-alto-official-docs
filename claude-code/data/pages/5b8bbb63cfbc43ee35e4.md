@@ -1,0 +1,383 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/10-1/globalprotect/network-globalprotect-portals/globalprotect-portals-agent-configuration-tab
+fetched_at: 2026-08-13T16:41:38Z
+source: palo-alto-main
+---
+
+# GlobalProtect Portals Agent Tab Clear
+
+GlobalProtect Portals Agent Tab 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ GlobalProtect Portals Agent Tab 
+
+ Updated on 
+
+ Jan 12, 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Jan 12, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ GlobalProtect 
+
+ Network > GlobalProtect > Portals 
+
+ GlobalProtect Portals Agent Tab 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ GlobalProtect Portals Agent Tab 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ GlobalProtect Portals Portal Data Collection Tab 
+
+ Next 
+
+ GlobalProtect Portals Agent Authentication Tab 
+
+ GlobalProtect Portals Agent Tab 
+
+ Network GlobalProtect Portals <portal-config> Agent 
+
+ Select the Agent tab to define the agent
+configuration settings. The GlobalProtect portal deploys the configuration
+to the device after the connection is first established. 
+
+ You can also specify that the portal automatically deploy trusted
+root certificate authority (CA) certificates and intermediate certificates.
+If the endpoints do not trust the server certificates that the GlobalProtect
+gateways and GlobalProtect Mobile Security Manager are using, the
+endpoints need these certificates to establish HTTPS connections
+to the gateways or Mobile Security Manager. The portal pushes the
+certificates you specify here to the client along with the client
+configuration. 
+
+ To add a trusted root CA certificate, Add an
+existing certificate or Import a new one.
+To install (transparently) the trusted root CA certificates that
+are required for SSL Forward Proxy decryption in the certificate
+store on the client, select Install in Local Root Certificate
+Store . 
+
+ Specify the trusted root CA certificate
+that the GlobalProtect app uses to verify the identity of the GlobalProtect
+portal and gateways. If the portal or gateway presents a certificate
+that has not been signed or issued by the same certificate authority
+that issued the trusted root CA, the GlobalProtect app cannot establish
+a connection with the portal or gateway. 
+
+ If you have different types of users that require different configurations,
+you can create separate agent configurations to support them. The
+portal subsequently uses the user or group name and OS of the client
+to determine the agent configuration to deploy. As with security
+rule evaluations, the portal looks for a match, starting from the
+top of the list. When the portal finds a match, it delivers the
+corresponding configuration to the app. Therefore, if you have multiple
+agent configurations, it is important to order them so that more specific
+configurations (configurations for specific users or operating systems)
+are above the more generic configurations. Use Move Up and Move Down to
+reorder the configurations. As needed, Add a
+new agent configuration. For detailed information on configuring
+the portal and creating agent configurations, refer to GlobalProtect Portals in
+the GlobalProtect Administrator’s Guide . When
+you Add a new agent configuration or modify
+an existing one, the Configs window opens and displays five
+tabs, which are described in the following tables: 
+
+ GlobalProtect
+Portals Agent Authentication Tab 
+
+ GlobalProtect Portals Agent Config Selection Criteria Tab 
+
+ GlobalProtect
+Portals Agent Internal Tab 
+
+ GlobalProtect
+Portals Agent External Tab 
+
+ GlobalProtect
+Portals Agent App Tab 
+
+ GlobalProtect
+Portals Agent HIP Data Collection Tab 
+
+ Previous 
+
+ GlobalProtect Portals Portal Data Collection Tab 
+
+ Next 
+
+ GlobalProtect Portals Agent Authentication Tab 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 10.1 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

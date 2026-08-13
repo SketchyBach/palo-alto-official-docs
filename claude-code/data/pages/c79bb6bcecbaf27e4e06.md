@@ -1,0 +1,362 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/10-1/policies/policies-policy-based-forwarding
+fetched_at: 2026-08-13T16:42:50Z
+source: palo-alto-main
+---
+
+# Policies > Policy Based Forwarding Clear
+
+Policies > Policy Based Forwarding 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ Policies > Policy Based Forwarding 
+
+ Updated on 
+
+ Mon Jan 12 14:16:08 PST 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Jan 12 14:16:08 PST 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Policies 
+
+ Policies > Policy Based Forwarding 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Policies > Policy Based Forwarding 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Policies > QoS 
+
+ Next 
+
+ Policy Based Forwarding General Tab 
+
+ Policies > Policy Based Forwarding 
+
+ Normally, when traffic enters the firewall, the ingress
+interface virtual router dictates the route that determines the
+outgoing interface and destination security zone based on destination
+IP address. By creating a policy-based forwarding (PBF) rule 
+
+ , you can specify
+other information to determine the outgoing interface, including
+source zone, source address, source user, destination address, destination
+application, and destination service. The initial session on a given
+destination IP address and port that is associated with an application
+will not match an application-specific rule and will be forwarded
+according to subsequent PBF rules (that do not specify an application)
+or the virtual router’s forwarding table. All subsequent sessions on
+that destination IP address and port for the same application will
+match an application-specific rule. To ensure forwarding through
+PBF rules, application-specific rules are not recommended. 
+
+ When necessary, PBF rules can be used to force traffic through
+an additional virtual system using the Forward-to-VSYS forwarding
+action. In this case, it is necessary to define an additional PBF
+rule that will forward the packet from the destination virtual system
+out through a particular egress interface 
+
+ on the firewall. 
+
+ The following tables describe the policy-based forwarding settings: 
+
+ Policy
+Based Forwarding General Tab 
+
+ Policy
+Based Forwarding Source Tab 
+
+ Policy
+Based Forwarding Destination/Application/Service Tab 
+
+ Policy
+Based Forwarding Forwarding Tab 
+
+ ( Panorama only ) Policy Based Forwarding Target Tab 
+
+ Looking for more? 
+
+ Refer to Policy-Based Forwarding 
+
+ Previous 
+
+ Policies > QoS 
+
+ Next 
+
+ Policy Based Forwarding General Tab 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 10.1 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Help 
+
+ Web Interface 
+
+ Panorama 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

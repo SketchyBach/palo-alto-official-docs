@@ -1,0 +1,376 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-2/network/network-interfaces/pa-7000-series-layer-2-subinterface
+fetched_at: 2026-08-13T16:52:05Z
+source: palo-alto-main
+---
+
+# PA-7000 Series Layer 2 Subinterface Clear
+
+PA-7000 Series Layer 2 Subinterface 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ PA-7000 Series Layer 2 Subinterface 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Mon Aug 03 19:43:33 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ PAN-OS Web Interface Help 
+
+ Network 
+
+ Network > Interfaces 
+
+ PA-7000 Series Layer 2 Subinterface 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ PA-7000 Series Layer 2 Subinterface 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ PA-7000 Series Layer 2 Interface 
+
+ Next 
+
+ Layer 2 Switch Interface 
+
+ PA-7000 Series Layer 2 Subinterface 
+
+ Network > Interfaces > Ethernet 
+
+ For each Ethernet port configured as a physical Layer 2 interface,
+you can define an additional logical Layer 2 interface (subinterface)
+for each VLAN tag assigned to the traffic that the port receives.
+To enable switching between Layer 2 subinterfaces, assign the same
+VLAN object to the subinterfaces. 
+
+ To configure a PA-7000
+Series Layer 2 Interface , select the row of that physical
+Interface, click Add Subinterface , and specify the
+following information. 
+
+ Layer 2 Subinterface Settings 
+
+ Description 
+
+ Interface Name 
+
+ The read-only Interface Name displays the
+name of the physical interface you selected. In the adjacent field,
+enter a numeric suffix (1-9,999) to identify the subinterface. 
+
+ Comment 
+
+ Enter an optional description for the subinterface. 
+
+ Tag 
+
+ Enter the VLAN tag (1-4,094) for the subinterface. 
+
+ Netflow Profile 
+
+ If you want to export unidirectional IP
+traffic that traverses an ingress subinterface to a NetFlow server,
+select the server profile or click Netflow Profile to
+define a new profile (see Device
+> Server Profiles > NetFlow ). Select None to
+remove the current NetFlow server assignment from the subinterface. 
+
+ VLAN 
+
+ To enable switching between Layer 2 interfaces
+or to enable routing through a VLAN interface, select a VLAN, or
+click VLAN to define a new VLAN (see Network
+> VLANs ). Select None to remove the
+current VLAN assignment from the subinterface. 
+
+ Virtual System 
+
+ If the firewall supports multiple virtual
+systems and that capability is enabled, select a virtual system
+(vsys) for the subinterface or click Virtual System to
+define a new vsys. 
+
+ Security Zone 
+
+ Select a security zone for the subinterface
+or click Zone to define a new zone. Select None to
+remove the current zone assignment from the subinterface. 
+
+ Previous 
+
+ PA-7000 Series Layer 2 Interface 
+
+ Next 
+
+ Layer 2 Switch Interface 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ 12.2 
+
+ PAN-OS 
+
+ Help 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

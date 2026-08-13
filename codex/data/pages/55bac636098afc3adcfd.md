@@ -1,0 +1,432 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-cli-quick-start/use-the-cli/cli-jump-start
+fetched_at: 2026-08-13T17:02:29Z
+source: palo-alto-main
+---
+
+# CLI Jump Start Clear
+
+CLI Jump Start 
+
+ Home 
+
+ EN
+
+ Location 
+
+ Documentation Home 
+
+ Palo Alto Networks 
+
+ Support 
+
+ Live Community 
+
+ Knowledge Base 
+
+ >
+
+ Strata Copilot
+
+ CLI Jump Start 
+
+ Updated on 
+
+ Aug 28, 2025 
+
+ Focus 
+
+ Download PDF 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Updated on 
+
+ Aug 28, 2025 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Use
+the CLI 
+
+ CLI Jump Start 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ CLI Jump Start 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Use Secure Copy to Import and Export Files 
+
+ Next 
+
+ CLI Cheat Sheet: Device Management 
+
+ CLI Jump Start 
+
+ Use this quick reference to see the most common commands
+you will need to being managing your next-gen firewall using the
+command-line interface (CLI). 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ No prerequisites needed 
+
+ The following table provides quick start information
+for configuring the features of Palo Alto Networks devices from
+the CLI. Where applicable for firewalls with multiple virtual systems
+(vsys), the table also shows the location to configure shared settings
+and vsys-specific settings. 
+
+ To configure... 
+
+ Start here... 
+
+ MGT interface 
+
+ # set deviceconfig system ip-address 
+
+ admin password 
+
+ # set mgt-config users admin password 
+
+ DNS 
+
+ # set deviceconfig system dns-setting servers 
+
+ NTP 
+
+ # set deviceconfig system ntp-servers 
+
+ Interfaces 
+
+ # set network interface 
+
+ System settings 
+
+ # set deviceconfig system 
+
+ Zones 
+
+ # set zone <name> 
+# set vsys <name> zone <name> 
+
+ Security Profiles 
+
+ HIP Objects/Profiles 
+
+ URL
+Filtering Profiles 
+
+ WildFire Analysis Profiles 
+
+ # set profiles 
+# set vsys <name> profiles 
+# set shared profiles 
+
+ Server Profiles 
+
+ # set server-profile 
+# set vsys <name> server-profile 
+# set shared server-profile 
+
+ Authentication Profiles 
+
+ # set authentication-profile 
+# set vsys <name> authentication-profile 
+# set shared authentication-profile 
+
+ Certificate Profiles 
+
+ # set certificate-profile 
+# set vsys <name> certificate-profile 
+# set shared certificate-profile 
+
+ Policy 
+
+ # set rulebase 
+# set vsys vsys1 rulebase 
+
+ Log Quotas 
+
+ # set deviceconfig setting management quota-settings 
+
+ User-ID 
+
+ # set user-id-agent 
+# set vsys <name> user-id-agent 
+# set user-id-collector 
+# set vsys <name> user-id-collector 
+
+ HA 
+
+ # set deviceconfig high-availability 
+
+ AutoFocus Settings 
+
+ # set deviceconfig setting autofocus 
+
+ WildFire Settings 
+
+ # set deviceconfig setting wildfire 
+
+ Panorama 
+
+ # set deviceconfig system panorama-server 
+
+ Restart 
+
+ > request restart system 
+
+ Previous 
+
+ Use Secure Copy to Import and Export Files 
+
+ Next 
+
+ CLI Cheat Sheet: Device Management 
+
+ On This Page 
+
+ Activation & Onboarding 
+
+ Strata Cloud Manager 
+
+ Activate a License or Product 
+
+ Cloud Identity Engine 
+
+ Strata Logging Service 
+
+ Device Associations 
+
+ Hub 
+
+ Identity and Access Management 
+
+ Tenant Management 
+
+ Next-Generation Firewalls 
+
+ AIOps for NGFW 
+
+ Cloud Management for NGFWs 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for Azure 
+
+ CN-Series 
+
+ Firewalls 
+
+ PAN-OS 
+
+ PAN-OS SD-WAN 
+
+ Service Provider 
+
+ VM-Series 
+
+ SASE 
+
+ Prisma Access 
+
+ Strata Multitenant Cloud Manager 
+
+ AI-Powered ADEM 
+
+ Prisma Access Monitoring and Visibility 
+
+ Prisma SD-WAN 
+
+ ION Devices 
+
+ Next-Generation CASB 
+
+ Cloud-Delivered Security Services 
+
+ Advanced WildFire 
+
+ Advanced URL Filtering 
+
+ Advanced Threat Prevention 
+
+ Advanced DNS Security 
+
+ Device Security 
+
+ Enterprise DLP 
+
+ SaaS Security 
+
+ Network Security 
+
+ Shared Policy for NGFWs and Prisma Access 
+
+ Visibility & Monitoring 
+
+ Dashboards 
+
+ Incidents and Alerts 
+
+ Reports 
+
+ Autonomous DEM 
+
+ Best Practices 
+
+ Best Practices Library 
+
+ Experts Corner 
+
+ Solutions Docs from Product Experts 
+
+ CLI 
+
+ Network Security 
+
+ PAN-OS 
+
+ Next-Generation Firewall 
+
+ Quick Start 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved.

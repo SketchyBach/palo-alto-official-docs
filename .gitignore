@@ -4,3 +4,6 @@ __pycache__/
 work/
 data/field-evidence/
 
+
+codex/data/index.sqlite3*
+claude-code/data/index.sqlite3*
