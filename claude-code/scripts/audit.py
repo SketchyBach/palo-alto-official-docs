@@ -19,6 +19,22 @@ report={
 }
 report["passed"]=report["body_records"]==report["fts_records"] and not any(report[k] for k in ("duplicate_urls","bad_hosts","missing_local_files","koi_unavailable")) and report["koi_recovered"]==13
 try:
+ receipts=list((root/"data/idira-browser-imports").glob("receipt-*.json")); receipt_records=[]
+ for receipt in receipts:
+  receipt_records.extend(json.loads(receipt.read_text(encoding="utf-8"))["records"])
+ report["idira_receipts"]=len(receipts); report["idira_receipt_records"]=len(receipt_records)
+ report["idira_receipt_mismatches"]=sum(c.execute("SELECT count(*) FROM pages WHERE url=? AND source='idira-docs' AND content_hash=? AND body<>''",(r["url"],r["sha256"])).fetchone()[0]!=1 for r in receipt_records)
+ report["passed"] = report["passed"] and report["idira_receipts"]>0 and report["idira_receipt_records"]>0 and report["idira_receipt_mismatches"]==0
+except (OSError, KeyError, json.JSONDecodeError):
+ report["idira_receipts"]=report["idira_receipt_records"]=0; report["idira_receipt_mismatches"]=1; report["passed"]=False
+try:
+ report["url_replacements"]=c.execute("SELECT count(*) FROM url_replacements").fetchone()[0]
+ report["bad_url_replacements"]=c.execute("""SELECT count(*) FROM url_replacements r LEFT JOIN pages p ON p.url=r.replacement_url
+  WHERE p.url IS NULL OR p.http_status NOT BETWEEN 200 AND 299 OR p.body='' OR p.content_hash<>r.replacement_content_hash""").fetchone()[0]
+ report["passed"] = report["passed"] and report["bad_url_replacements"]==0
+except sqlite3.OperationalError:
+ report["url_replacements"]=0; report["bad_url_replacements"]=1; report["passed"]=False
+try:
  report["field_messages"]=c.execute("SELECT count(*) FROM field_evidence").fetchone()[0]; report["field_fts_records"]=c.execute("SELECT count(*) FROM field_fts").fetchone()[0]; report["passed"] = report["passed"] and report["field_messages"]==report["field_fts_records"]
 except sqlite3.OperationalError: report["field_messages"]=report["field_fts_records"]=0
 print(json.dumps(report,indent=2)); raise SystemExit(0 if report["passed"] else 1)

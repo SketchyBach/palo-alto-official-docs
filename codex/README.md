@@ -8,7 +8,7 @@ Open the repository root in Codex. `AGENTS.md` routes technical questions, integ
 
 ## Claude Code
 
-The portable Claude Code version is in `palo-alto-docs-claude-code/`. Open that directory in a terminal and run `claude`; its `CLAUDE.md` and `.claude/skills/` provide the corresponding workflows.
+The portable Claude Code version is the sibling `../claude-code/` directory. Open that directory in a terminal and run `claude`; its `CLAUDE.md` and `.claude/skills/` provide the corresponding workflows.
 
 ## Verify the corpus
 
@@ -22,5 +22,7 @@ python scripts/search.py "Cortex XDR broker VM" --mode answer --json
 ```
 
 The generated SQLite index is intentionally not stored in Git because the complete corpus index exceeds GitHub's per-file limit. Run `rebuild_index.py` once after cloning.
+
+The reconstructed corpus contains 24,215 searchable records, including 55 official Idira portal pages protected by SHA-256 capture receipts and 175 verified exact-path replacements for stale PAN-OS links.
 
 Only allowlisted official Palo Alto Networks material, the official Idira portal at `docs.cyberark.com`, and SHA-256-verified KOI records are authoritative. Private field-support correspondence is intentionally excluded from this repository.
