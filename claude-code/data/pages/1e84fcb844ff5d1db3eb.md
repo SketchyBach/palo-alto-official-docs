@@ -1,0 +1,40 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-installation-guides/6.12/cortex-xsoar-installation-guide/single-server-installation/install-cortex-xsoar-with-elasticsearch
+fetched_at: 2026-09-06T10:50:42Z
+source: cortex-platform
+---
+
+# Install Cortex XSOAR with Elasticsearch | 6.12 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Installation Guides 
+
+ 6.12 (EoL) 
+
+ Cortex XSOAR Installation Guide 
+
+ Single Server Installation 
+
+ XSOAR 6.12 Installation EoL 
+
+ Install Cortex XSOAR with Elasticsearch 
+
+ Install Cortex XSOAR 6.12 with Elasticsearch. 
+
+ Elasticsearch Configurations Elasticsearch General Security Guidelines Elasticsearch Installation Elasticsearch Best Practices 
+
+ Previous Installer Flags 
+
+ Next Elasticsearch Configurations 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

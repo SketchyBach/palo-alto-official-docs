@@ -1,0 +1,46 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/graph-search
+fetched_at: 2026-09-06T11:18:28Z
+source: cortex-platform
+---
+
+# What is Graph Search? | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Graph Search 
+
+ Cortex Cloud Runtime 
+
+ What is Graph Search? 
+
+ Learn more about how to use Graph Search to search assets, findings, and their contextual data. 
+
+ Prerequisite 
+
+ Graph Search requires View or View/Edit RBAC permissions for Graph Search under Investigation & Response → Search . 
+
+ Graph Search provides an interactive and visually intuitive way for you to search assets and findings by their relationship types and map them out in real-time. The resulting graphical illustration helps provide a unified and comprehensive view of complex relationships between assets, security findings, and contextual data that tie them together. This information without a clear visual representation in the form of a model can be difficult to understand through the data alone. The graph results can help you better grasp the full stack of your organization's posture and the associated risks it drives, including attack paths and discovering hidden risks. These results can be used to make informed decisions in less time to improve your security posture and operational efficiency. 
+
+ Graph Search queries are created using the built-in query interface embedded in the Query Builder. Every query is structured to use a certain pattern and includes default data objects that you define by selecting the ones you want to query from the data collected in the applicable datasets based on the data sources configured. The resulting graph provides an illustration of your selections, which you can export to a PNG, SVG, or TSV file. In addition, Graph Search contains a Query Library for saving and managing your own queries, queries shared with you, and built-in Graph Search queries provided by Palo Alto Networks. 
+
+ Show me around Graph Search 
+
+ What_is_Graph_Search_July.gif 
+
+ Previous Cortex XQL syntax, parameters, and examples 
+
+ Next Get started with Graph Search queries 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

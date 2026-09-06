@@ -1,0 +1,138 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/8.3-ce/cortex-xdr-agent-for-linux/install-the-cortex-xdr-agent-for-kubernetes-hosts
+fetched_at: 2026-09-06T11:23:42Z
+source: cortex-platform
+---
+
+# Install the Cortex XDR Agent for Kubernetes Hosts | 8.3 CE (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR Agent 
+
+ Cortex XDR Agent Documentation 
+
+ 8.3 CE (EoL) 
+
+ Cortex XDR Agent for Linux 
+
+ Cortex XDR agent 8.3 CE EoL 
+
+ Install the Cortex XDR Agent for Kubernetes Hosts 
+
+ Learn how to install the Cortex XDR agent for a Kubernetes host. 
+
+ You can deploy the Cortex XDR agent for Linux on Kubernetes Clusters as a DaemonSet on any Kubernetes cluster. To deploy the agent, you create a Cortex XDR agent YAML installation package in Cortex XDR which allows you to configure attributes such as namespace default value and nodeselector. Once the Kubernetes agent is running on the endpoint, the agent offers the same protection capabilities and operates as any standard Cortex XDR agent for Linux. 
+
+ Cortex XDR issues a license for every node on which the agent is running, and will revoke the license once the agent is removed or the node is deleted. The Cortex XDR management console displays the Kubernetes Cluster and includes a visual indication on processes that are running within containers, including information about the container itself such as its name, ID, image, etc. 
+
+ Warning 
+
+ Palo Alto Networks supports only Cortex XDR agent deployments carried out with the original YAML installation package generated directly from the Cortex XDR management console and carried out as a DaemonSet. If you attempt to edit the YAML settings after you created the package, the installation could fail or cause the agent to display unexpected behavior. 
+
+ The Helm Installer package may be used for fresh installations and upgrades of agents running on Kubernetes clusters. 
+
+ Danger 
+
+ Prerequisites 
+
+ Requirement/Limitation 
+
+ Description 
+
+ Requirements 
+
+ A Cortex XDR agent 7.9 or later. 
+
+ To enable User Space operation mode you must deploy YAML installer for Cortex XDR agent 7.7 or later. 
+
+ A Cortex XDR Cloud per Host license. 
+
+ A supported Kubernetes deployment according to cloud provider and OS (both docker and containerd). See also Kubernetes platforms supported with Cortex XDR and Cloud platforms supported . 
+
+ For example: 
+
+ GCP: GCOS, Ubuntu. 
+
+ Azure: Ubuntu 18 (Default >= 1.18). 
+
+ AWS: Amazon Linux 2 (Default) , Ubuntu 18/20, RHEL 7/8. 
+
+ Red Hat OpenShift Container Platform (RHCOS): 4.11 ‑ 4.15 
+
+ Limitations 
+
+ You cannot upgrade, uninstall, or change the management server of a Cortex XDR agent running on Kubernetes Clusters directly from the Cortex XDR management console. These actions must be performed from your Kubernetes cluster. 
+
+ If the Kubernetes clusters are based on Google Cloud Container-Optimized OS (COS), on some Google COS milestones, the Cortex XDR agent operates in asynchronous mode, due to kernel configuration limitations. 
+
+ Kernel Mode (KM) is not supported, due to restrictions on loading 3rd party kernel modules. 
+
+ Cortex XDR agent deployment in a COS environment will enforce User Space Mode (overriding the settings in the profile). 
+
+ If the Kubernetes clusters are based on Red Hat OpenShift Container Platform with RHCOS, on some RHCOS versions, the Cortex XDR agent operates in asynchronous mode without its kernel module support due to kernel configuration limitations. 
+
+ Kernel Mode (KM) is not supported, due to restrictions on loading 3rd party kernel modules. 
+
+ Cortex XDR agent deployment in an RHCOS environment will enforce User Space Mode (overriding the settings in the profile). 
+
+ If you are installing Cortex XDR alongside Prisma Cloud Compute, you must disable Runtime protection in Prisma Cloud Compute for as long as the two agents are working together. You can do so by either deleting any Runtime policy that exists in Prisma Cloud Compute, or moving Prisma Cloud Compute policies to Runtime Disabled . 
+
+ From the Prisma Cloud Compute console, go to Defend → Runtime and delete or move all policies to Disable accordingly (Container policy, Host policy, Server policy, App-Embedded policy). 
+
+ Installing Cortex XDR within Kubernetes in Docker (or any other container) is not supported. 
+
+ Installing Cortex XDR on Kubernetes version 1.29 and below requires one of the following actions: 
+
+ Run the 'kubectl apply' command with the flag: --validate = false 
+
+ Remove the following from the deamonset.yaml file: 
+
+ appArmorProfile: type: Unconfined 
+
+ To install the agent on your cluster 
+
+ Download the Cortex XDR agent YAML installation file from Cortex XDR. 
+
+ Copy the YAML file to the Kubernetes cluster you want to deploy it on. 
+
+ Log on to your Kubetnetes cluster. 
+
+ Deploy the Yaml file. Run a standard YAML installation command line. 
+
+ For example, kubectl apply -f cortex-xdr.yaml 
+
+ Verify the agents are running. 
+
+ Run kubectl get pods -A -o wide , and verify the Cortex XDR agent pod is running on your target node(s). 
+
+ Run cat /proc/$(pidof pmd)/maps | grep bpfec , and verify the agent is running in user space mode by checking the operational status. 
+
+ Use the Cortex XDR Agent for Kubernetes. 
+
+ To learn more, refer to Use the Cortex XDR agent for Linux . 
+
+ Upgrade the agent. 
+
+ The agent upgrade method depends on the settings you applied when you generated the YAML Installation file in Cortex XDR and on the Agent Setting Profile associated with the host: 
+
+ When you enable Always deploy with latest agent version , and Agent Auto Upgrade is enabled, then the Cortex XDR agent will upgrade automatically whenever a new version is available. 
+
+ Otherwise, when one or both of these settings are disabled, you must create a new YAML installation file from the Cortex XDR management console and re-install the agent. 
+
+ Uninstall the agent. 
+
+ To uninstall the agent, remove the DaemonSet using the standard command line, for example: kubectl delete -n cortex-xdr daemonset/cortex-agent . 
+
+ Previous Install the Cortex XDR agent for Linux 
+
+ Next Use the Cortex XDR agent for Linux 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

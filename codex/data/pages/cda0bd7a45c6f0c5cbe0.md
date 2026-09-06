@@ -1,0 +1,50 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/investigate-and-respond-to-threats/incidents-and-indicators-investigation/incident-management/export-incidents
+fetched_at: 2026-09-06T10:28:23Z
+source: cortex-platform
+---
+
+# Export incidents | 8.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.13 
+
+ Investigate and Respond to Threats 
+
+ Incidents and indicators investigation 
+
+ Incident management 
+
+ Cortex XSOAR 8.13 On-prem 
+
+ Export incidents 
+
+ Export incidents in Cortex XSOAR 8.13 On-prem. 
+
+ You can do the following: 
+
+ Manually export one or more incidents from the Incidents table to an Excel or CSV file. For more information, see Export incidents from the Incidents table . 
+
+ Export, delete, or export and then delete incidents on a scheduled basis from Cortex XSOAR to external storage. For more information, see Schedule incident export and delete . 
+
+ Export incidents on demand to external cloud storage. For more information, see Export incidents on demand . 
+
+ Incidents cannot be imported back into Cortex XSOAR. 
+
+ Previous Create an incident 
+
+ Next Export incidents from the Incidents table 
+
+ Last updated 6 days ago 
+
+ Was this helpful?

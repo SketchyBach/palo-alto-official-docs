@@ -1,211 +1,12 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/protect-your-endpoints/endpoint-security/install-and-manage-endpoints/harden-endpoint-security/host-inventory
-fetched_at: 2026-08-13T15:13:16Z
+fetched_at: 2026-09-06T09:30:36Z
 source: cortex-platform
 ---
 
 # Host Inventory | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
 
-Host Inventory | Cortex Documentation Portal 
-
- ⌘ Ctrl k 
-
- Blog Support 
- More 
-
- Home 
-
- Products 
-
- Guides 
-
- Release Notes 
-
- API 
-
- Reference 
-
- AI Assistant 
-
- Good afternoon 
- I'm here to help you with the docs. 
-
- What is this page about? What should I read next? Can you give an example? 
-
- ⌘ Ctrl i 
-
- AI Based on your context 
- Send 
-
- Learn about Cortex XSIAM 
-
- Navigate the Cortex XSIAM docs 
-
- Get started with Cortex XSIAM 
-
- Agentic AI in Cortex XSIAM 
-
- Cortex XSIAM product licenses 
-
- In-product support ticket creation 
-
- Supported web browsers 
-
- Use the interface 
-
- Manage API keys 
-
- Onboard Cortex XSIAM 
-
- How to onboard Cortex XSIAM 
-
- Plan and prepare 
-
- Deployment steps 
-
- Post-deployment 
-
- Configure Cortex XSIAM 
-
- Learn how to configure Cortex XSIAM 
-
- Data management 
-
- Cortex XSIAM Data Sources and Connectors 
-
- Marketplace 
-
- Configure the Cortex Agentic Assistant 
-
- Cortex MCP server 
-
- Automations 
-
- Engines 
-
- Remote repository management 
-
- Customize cases and issues 
-
- XQL query management 
-
- Multi-Tenant 
-
- Managed Services configuration in Cortex 
-
- Protect your endpoints 
-
- Endpoint security 
-
- Endpoint protection 
-
- Install and manage endpoints 
-
- Set up endpoint protection 
-
- Define endpoint groups 
-
- Configure global agent settings 
-
- Apply profiles to endpoints 
-
- Create an agent installation package 
-
- Harden endpoint security 
-
- Device control 
-
- Host firewall 
-
- Disk encryption 
-
- Host Inventory 
-
- Vulnerability Assessment 
-
- Set a Cortex XDR agent Critical Environment version 
-
- Manage endpoint protection 
-
- Endpoint DLP 
-
- Detect, Investigate, and respond to threats 
-
- Monitor dashboards and reports 
-
- Investigation and response 
-
- Agentic Assistant chat 
-
- Asset management 
-
- Threat management 
-
- Attack surface management 
-
- Vulnerability management 
-
- Exposure management 
-
- Cortex Advanced Email Security 
-
- Identity Threat Detection and Response (ITDR) 
-
- Cloud Security 
-
- Monitor and track compliance adherence 
-
- Cloud security rules and policies 
-
- Cortex Cloud Data Classification 
-
- Cortex Data Security 
-
- Cloud Identity Security 
-
- Network exposure detection 
-
- Cortex Cloud SaaS Security 
-
- Cortex Cloud AI Security 
-
- Serverless function posture security 
-
- Cortex Cloud Application Security 
-
- Cloud workload policies and rules 
-
- Base image rules 
-
- Web and API Security (WAAS) 
-
- Serverless function runtime security 
-
- Reference and developer docs 
-
- Cortex XSIAM XQL 
-
- Graph Search 
-
- Cortex CLI 
-
- Role-Based Access Control 
-
- API documentation 
-
- Reference 
-
- Migrating to a new Broker VM image 
-
- Learn more about migrating to the latest broker VM image 
-
- Standalone Broker VM 
-
- Broker VM high availability cluster node 
-
- On this page 
-
- For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
 
  Ask 
  On this page 
@@ -224,13 +25,21 @@ Host Inventory | Cortex Documentation Portal
 
  Harden endpoint security 
 
+ Cortex XSIAM 
+
  Host Inventory 
 
- With Host Inventory (Host Insights), you gain full visibility and inventory into the business and IT operational data on all your endpoints. By reviewing the inventory for all your hosts in a single place, you can quickly identify IT and security issues that exist in your network, such as identifying a suspicious service or autorun that was added to an endpoint. 
+ Use Cortex XSIAM Host Inventory to review endpoint hardware, software, services, and security details. 
+
+ Cortex XSIAM Host Inventory, also called Host Insights, provides endpoint asset inventory and operational visibility. Review hardware, software, services, and autoruns across endpoints to identify IT and security issues, such as suspicious services or new autoruns. 
+
+ Host Inventory data collection 
 
  The Cortex XDR agent scans the endpoint every 24 hours for any updates and displays the data found over the last 30 days. Alternatively, you can rescan the endpoint to retrieve the most updated data. It can take Cortex XSIAM up to 6 hours to collect initial data from all endpoints in your network. 
 
- The following are prerequisites to enable Host Inventory for your Cortex XSIAM instance: 
+ Host Inventory prerequisites 
+
+ The following requirements apply when enabling Host Inventory: 
 
  Requirement 
 
@@ -244,7 +53,9 @@ Host Inventory | Cortex Documentation Portal
 
  Ensure Host Inventory Data Collection is enabled for your Cortex XDR agent. 
 
- The Cortex XSIAM Host Inventory includes the following entities and information, according to the operating system running on the endpoint: 
+ Host Inventory entities 
+
+ Cortex XSIAM Host Inventory includes the following endpoint entities by operating system: 
 
  Entity 
 
@@ -514,28 +325,10 @@ Host Inventory | Cortex Documentation Portal
 
  If a local users group includes a domain user (whose credentials are stored on the Domain Controller server and not on the endpoint), Cortex XSIAM includes this user in the user-to-group mapping, but does not include it in the user's insights view. 
 
- Previous Disk encryption Next Vulnerability Assessment 
+ Previous Disk encryption 
 
- Last updated 16 days ago 
+ Next Vulnerability Assessment 
 
- Was this helpful? 
-
- ‍ 
-
- Trust Center 
-
- ‍ 
-
- Privacy 
-
- ‍ 
-
- Terms of Use 
-
- ‍ 
-
- Legal 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved. 
+ Last updated 12 days ago 
 
  Was this helpful?

@@ -1,0 +1,56 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-installation-guides
+fetched_at: 2026-09-06T10:50:27Z
+source: cortex-platform
+---
+
+# Cortex XSOAR Installation Guides | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Installation Guides 
+
+ Installation Guides - Home 
+
+ Cortex XSOAR Installation Guides 
+
+ Start here to choose the right Cortex XSOAR 6 version. 
+
+ Choose the correct Cortex XSOAR 6 Installation documentation set. Use the latest supported version for new deployments. 
+
+ Version 
+
+ Status 
+
+ Documentation 
+
+ 6.14 
+
+ Latest supported version 
+
+ 6.14 Installation Guide 
+
+ 6.13 
+
+ Supported earlier version 
+
+ 6.13 Installation Guide 
+
+ 6.12 
+
+ End-of-life 
+
+ 6.12 Installation Guide 
+
+ Versions 5.5 to 6.11 are end-of-life and not supported. 
+
+ Last updated 26 days ago 
+
+ Was this helpful?

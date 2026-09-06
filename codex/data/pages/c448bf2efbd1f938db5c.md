@@ -1,0 +1,58 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/playbooks/extend-context/extend-context-in-a-playbook-task
+fetched_at: 2026-09-06T10:41:36Z
+source: cortex-platform
+---
+
+# Extend Context in a Playbook Task | 6.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.14 
+
+ Customize Cortex XSOAR 
+
+ Customize and Configure Cortex XSOAR 
+
+ Playbooks 
+
+ Extend Context 
+
+ Cortex XSOAR 6.14 
+
+ Extend Context in a Playbook Task 
+
+ Extend context within a Cortex XSOAR 6.14 playbook task. 
+
+ You can extend context either in a playbook task, or directly from the command line. Whichever method you use, Cortex XSOAR recommends that you first run your command with the raw-response=true flag. This helps you identify the information that you want to add to your extended data. 
+
+ Go to the Advanced tab of the relevant playbook task. 
+
+ In the Extend Context field, enter the name of the field in which you want the information to appear and the value you want to return. 
+
+ The following image shows the result of the !IPReputation ip=20.8.1.5 raw-response=true command, which extends the context of the field name ip with the IP address 20.8.1.5. 
+
+ playbook-extend-context.png 
+
+ To include more than one field, separate the fields with a double colon. For example: attributes=displayName::manager=attributes.manager 
+
+ To output only the values for Extend Context and ignore the standard output for the command, select the Ignore Outputs checkbox. 
+
+ While this will improve performance, only the values that you request in the Extend Context field are returned. You cannot use Field Mapping as there is no output to which to map the fields. 
+
+ Previous Extend Context 
+
+ Next Extend Context using the Command Line 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

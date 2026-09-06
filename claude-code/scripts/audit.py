@@ -28,6 +28,18 @@ try:
 except (OSError, KeyError, json.JSONDecodeError):
  report["idira_receipts"]=report["idira_receipt_records"]=0; report["idira_receipt_mismatches"]=1; report["passed"]=False
 try:
+ koi_receipts=list((root/"data/koi-browser-imports").glob("receipt-*.json")); koi_records=[]
+ # The newest receipt represents current browser-captured content; older receipts
+ # remain on disk as provenance and may legitimately differ after an update.
+ if koi_receipts:
+  newest=max(koi_receipts,key=lambda p:p.stat().st_mtime)
+  koi_records.extend(json.loads(newest.read_text(encoding="utf-8"))["records"])
+ report["koi_browser_receipts"]=len(koi_receipts); report["koi_browser_receipt_records"]=len(koi_records)
+ report["koi_browser_receipt_mismatches"]=sum(c.execute("SELECT count(*) FROM pages WHERE url=? AND source='koi-official-browser' AND content_hash=? AND body<>''",(r["url"],r["sha256"])).fetchone()[0]!=1 for r in koi_records)
+ report["passed"] = report["passed"] and report["koi_browser_receipts"]>0 and report["koi_browser_receipt_records"]>0 and report["koi_browser_receipt_mismatches"]==0
+except (OSError, KeyError, json.JSONDecodeError):
+ report["koi_browser_receipts"]=report["koi_browser_receipt_records"]=0; report["koi_browser_receipt_mismatches"]=1; report["passed"]=False
+try:
  report["url_replacements"]=c.execute("SELECT count(*) FROM url_replacements").fetchone()[0]
  report["bad_url_replacements"]=c.execute("""SELECT count(*) FROM url_replacements r LEFT JOIN pages p ON p.url=r.replacement_url
   WHERE p.url IS NULL OR p.http_status NOT BETWEEN 200 AND 299 OR p.body='' OR p.content_hash<>r.replacement_content_hash""").fetchone()[0]

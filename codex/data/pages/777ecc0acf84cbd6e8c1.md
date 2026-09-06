@@ -1,0 +1,82 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/onboard-cortex-xsoar/deployment-steps/onboarding-checklist
+fetched_at: 2026-09-06T10:23:36Z
+source: cortex-platform
+---
+
+# Onboarding checklist |  8.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.14 
+
+ Onboard Cortex XSOAR 
+
+ Deployment steps 
+
+ Cortex XSOAR 8.14 On-prem 
+
+ Onboarding checklist 
+
+ Use the Cortex XSOAR 8.14 On-prem onboarding checklist to activate, provision, grant access, and configure your deployment. 
+
+ We recommend that you review the following steps to successfully deploy and onboard Cortex XSOAR: 
+
+ Step 
+
+ Details 
+
+ See More 
+
+ Step 1: Install Cortex XSOAR 
+
+ Install Cortex XSOAR by downloading the image file from the Cortex Gateway. 
+
+ See topic 
+
+ Step 2: Set up an engine 
+
+ Use an engine for load balancing and proxies. 
+
+ See topic 
+
+ Step 3. Set up a remote repository 
+
+ Set up a dev/prod environment with a private remote repository. 
+
+ See topic 
+
+ Step 4. Set up users & roles 
+
+ Configure users, roles, and user groups, and set up authentication. 
+
+ See topic 
+
+ Step 5. Install and configure content 
+
+ Install content packs and configure integrations for your use case. 
+
+ See topic 
+
+ Post-deployment 
+
+ Configure user notifications and customize system emails. Configure system settings. 
+
+ See topic 
+
+ Previous Deployment steps 
+
+ Next Step 1. Install Cortex XSOAR 
+
+ Last updated 4 hours ago 
+
+ Was this helpful?

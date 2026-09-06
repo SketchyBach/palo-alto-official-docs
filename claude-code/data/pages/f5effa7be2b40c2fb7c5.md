@@ -1,0 +1,70 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/reference-docs/reference/server-configurations/automation-server-configurations
+fetched_at: 2026-09-06T10:46:15Z
+source: cortex-platform
+---
+
+# Automation Server Configurations | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.13 
+
+ Reference Docs 
+
+ Reference 
+
+ Server Configurations 
+
+ Cortex XSOAR 6.13 
+
+ Automation Server Configurations 
+
+ Review automation server configurations in Cortex XSOAR 6.13. 
+
+ Key 
+
+ Description 
+
+ Default 
+
+ content.item.validate.script 
+
+ Enables you to add an automation, which validates content. Used when creating content. Type the name of the automation. 
+
+ N/a 
+
+ content.item.validate.script.trust_any_Certificate 
+
+ Whether the default automation trusts any certificate. Used when creating content. For more information, see Validation . 
+
+ no 
+
+ content.item.validate.script.use_system_proxy 
+
+ Whether the default automation uses the system proxy. Used when creating content. For more information, see Validation . 
+
+ no 
+
+ script.timeout 
+
+ The timeout, in minutes, to prevent blank pages when running a script. If you generate a report that runs a script and has blank pages you can troubleshoot the script timeout for reports . 
+
+ 3 
+
+ Previous Active Directory Server Configurations 
+
+ Next Dashboard Server Configurations 
+
+ Last updated 3 days ago 
+
+ Was this helpful?

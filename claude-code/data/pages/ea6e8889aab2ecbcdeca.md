@@ -1,0 +1,90 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/configure-cortex-xsoar/dashboards-and-reports/widgets/create-a-widget-from-an-incident
+fetched_at: 2026-09-06T11:27:51Z
+source: cortex-platform
+---
+
+# Create a widget from an incident | 8.5 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.5 (EoL) 
+
+ Configure Cortex XSOAR 
+
+ Dashboards and Reports 
+
+ Widgets 
+
+ Cortex XSOAR 8.5 On-prem EoL 
+
+ Create a widget from an incident 
+
+ Documentation for Cortex XSOAR On-prem 8.5 (EoL). 
+
+ Although there are various out-of-the-box system widgets available, you can create custom widgets from incidents and then add them to a dashboard or report. 
+
+ To create a widget from an incident, you need to run a query from the Incidents page and then save the visual results as a widget. 
+
+ In the Incidents page, from the dropdown list select the date range. 
+
+ In the Query field, type the query criteria as required and run the query. 
+
+ Click . 
+
+ Follow the procedure from Task 2. Define the widget data in Create a widget using the widget builder . 
+
+ Click Save . 
+
+ The widget is added to the Widgets Library . 
+
+ Note 
+
+ By default, the widget inherits the date range that you specify when creating the widget, but you can modify the date range when you create the dashboard or report. If the date range for the report or dashboard does not include the widget date range, the data is blank. To override the dashboard or report’s date range, click Use Widget’s date range . 
+
+ Example 26. Create a widget from an incident example 
+
+ In the following example, create a widget that contains: 
+
+ Incidents created in the last 6 months 
+
+ Status: Every status other than closed 
+
+ Category: All categories other than jobs 
+
+ Use Access Investigation - Generic playbook 
+
+ In the Incidents page, run the following query: 
+
+ query_incidents.png 
+
+ Click . 
+
+ Type the name (Closed Job Incidents (past 6 months)) and save the query results as a widget: 
+
+ quick-chart.png 
+
+ Add/Edit a dashboard and locate the widget: 
+
+ widgets_library.png 
+
+ Add the widget to the dashboard. If no data is returned, click Use widget’s date range . 
+
+ use-widget-date.png 
+
+ Previous Create a custom widget using a script 
+
+ Next Create a widget from an indicator 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

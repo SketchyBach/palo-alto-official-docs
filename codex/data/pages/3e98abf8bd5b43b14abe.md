@@ -1,0 +1,32 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-ios-guide/8.3/configure-cortex-xdr-agent-app-for-ios
+fetched_at: 2026-09-06T10:21:09Z
+source: cortex-platform
+---
+
+# Configure Cortex XDR Agent App for iOS | 8.3 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR Agent 
+
+ Cortex XDR Agent iOS Guides 
+
+ 8.3 
+
+ Configure Cortex XDR Agent App for iOS 
+
+ Configure Phone Call Blocking Configure Message and Call Reporting Configure Network Filtering on Supervised Devices (Administrator Task) Report Spam Messages 
+
+ Previous Configuration for Installation by JAMF (Administrator Task) 
+
+ Next Configure Phone Call Blocking 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,102 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/onboard-cortex-xsoar/elasticsearch/disaster-recovery-for-elasticsearch/create-elasticsearch-snapshots
+fetched_at: 2026-09-06T10:43:27Z
+source: cortex-platform
+---
+
+# Create Elasticsearch Snapshots | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.13 
+
+ Onboard Cortex XSOAR 
+
+ Elasticsearch 
+
+ Disaster Recovery for Elasticsearch 
+
+ Cortex XSOAR 6.13 
+
+ Create Elasticsearch Snapshots 
+
+ Create Elasticsearch snapshots for Cortex XSOAR 6.13 disaster recovery. 
+
+ We recommend scheduling regular automated snapshots of all indices. In addition, you can create a manual snapshot of some or all indices as needed. For example, you might want to create a manual snapshot of all indices before upgrading or making other significant changes. 
+
+ Create Snapshot Repository 
+
+ Before creating snapshots, register a snapshot repository 
+
+ Example: 
+
+ Ask Copy 
+
+ PUT /_snapshot/xsoar_repository 
+ { 
+ "type": "fs", 
+ "settings": { 
+ "location": "xsoar_backup_location" 
+ } 
+ } 
+
+ To enable cloud vendor repositories such as AWS S3 or Google Cloud Storage refer to the Elasticsearch Cloud documentation for snapshot and restore with custom repositories as an example of how to set up cloud vendor repositories. 
+
+ Note 
+
+ If you are using AWS Managed Elasticsearch, every Elasticsearch cluster is created with a default repository configured with a backend S3 bucket. 
+
+ Automated Snapshots 
+
+ Automated snapshots can be scheduled using the Elasticsearch snapshot API to create a SLM (snapshot lifecycle management) policy. For more details about snapshot lifecycle management in Elasticsearch, see the Elasticsearch SLM tutorial . 
+
+ In the following example, an incremental snapshot is created every hour and saved to the backup repository xsoar_repository . Each snapshot has a suffix with the current date timestamp. All active Cortex XSOAR indices are backed up, and 30 days of snapshots are retained. Snapshots older than 30 days are automatically deleted from the backup repository. 
+
+ Ask Copy 
+
+ PUT /_slm/policy/hourly-snapshots 
+ { 
+ "schedule": "0 0 * * * ? ?", 
+ "name": "<xsoar-snap-{now/d}>", 
+ "repository": "xsoar_repository", 
+ "config": { 
+ "indices": ["*dmst-*"] 
+ }, 
+ "retention": { 
+ "expire_after": "30d", 
+ "min_count": 5 
+ } 
+ } 
+
+ Manual Snapshots 
+
+ Using the Elasticsearch snapshot API, you can create a snapshot of your database or specific indices to your selected repository (remote or local). You can specify the specific indices or use wildcards. Snapshots usually take only a few minutes to complete, depending on the number of indices and documents you are backing up. 
+
+ Create a manual snapshot of one or more indices 
+
+ The following example shows how to use the snapshot API to back up all of your 2020 indices. The snapshots are saved in the backup repository xsoar_repository . When creating the snapshot, you can provide a reason that will display in the snapshot metadata. 
+
+ The following example creates a snapshot to back up all of your 2021 incidents. The snapshots are saved in the backup repository xsoar_repository . When creating the snapshot, you can provide a reason that will display in the snapshot metadata. 
+
+ The following example creates a snapshot snapshotname in repository xsoar_repository for all of the Cortex XSOAR data from September 2021. 
+
+ Create a snapshot of the entire database 
+
+ The following example API request creates a new snapshot named snapshotname in the repository xsoar_repository . The snapshot includes all Cortex XSOAR indices including cluster state like aliases, templates, etc. 
+
+ Previous Disaster Recovery for Elasticsearch 
+
+ Next Restore Elasticsearch Snapshots 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

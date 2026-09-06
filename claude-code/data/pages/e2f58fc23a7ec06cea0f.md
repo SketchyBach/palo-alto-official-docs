@@ -1,0 +1,649 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsiam-api/compliance-controls/categories
+fetched_at: 2026-09-06T10:56:04Z
+source: cortex-platform
+---
+
+# Categories | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex XSIAM 
+
+ XSIAM APIs 
+
+ Compliance Controls 
+
+ Categories 
+
+ Operations for retrieving categories and subcategories 
+
+ Get categories and subcategories (v1) 
+
+ post https://api.xdr.us.paloaltonetworks.com /public_api/v1/compliance/get_control_categories_and_subcategories 
+
+ Retrieve available compliance control categories and subcategories. 
+
+ Required license: Cortex Cloud Runtime Security or Cortex Cloud Posture Management 
+
+ Authorizations 
+
+ XDRAuth & XDRAuthToken 
+
+ x-xdr-auth-id string Required 
+
+ API Key ID for authentication 
+
+ Authorization string Required 
+
+ API Key for authentication 
+
+ Body 
+
+ application/json 
+
+ request_data object Optional 
+
+ Responses 
+
+ 200 
+
+ Successfully retrieved categories and subcategories 
+
+ application/json 
+
+ reply object Optional 
+
+ Show properties 
+
+ 500 
+
+ Internal server error 
+
+ application/json 
+
+ post /public_api/v1/compliance/get_control_categories_and_subcategories 
+
+ HTTP 
+
+ Ask Copy 
+
+ POST /public_api/v1/compliance/get_control_categories_and_subcategories HTTP/1.1 
+ Host: api.xdr.us.paloaltonetworks.com 
+ x-xdr-auth-id: YOUR_API_KEY 
+ Authorization: YOUR_API_KEY 
+ Content-Type: application/json 
+ Accept: */* 
+ Content-Length: 19 
+
+ { 
+ "request_data": {} 
+ } 
+
+ 200 
+
+ Successfully retrieved categories and subcategories 
+
+ Ask Copy 
+
+ { 
+ "reply": { 
+ "data": { 
+ "categories": [ 
+ "text" 
+ ], 
+ "subcategories": [ 
+ "text" 
+ ] 
+ } 
+ } 
+ } 
+
+ List categories (v2) 
+
+ get https://api.xdr.us.paloaltonetworks.com /public_api/v2/compliance/categories 
+
+ Returns categories for a standard. Optionally filter by parent_category_id to list only subcategories of a specific parent. Requires platform_compliance_view permission. 
+
+ Required license: Cortex Cloud Runtime Security or Cortex Cloud Posture Management 
+
+ Authorizations 
+
+ XDRAuth & XDRAuthToken 
+
+ x-xdr-auth-id string Required 
+
+ API Key ID for authentication 
+
+ Authorization string Required 
+
+ API Key for authentication 
+
+ Query parameters 
+
+ standard_id string · uuid Required 
+
+ UUID of the standard to list categories for 
+
+ parent_category_id string · uuid · nullable Optional 
+
+ Filter by parent category ID. Pass a UUID to list subcategories of that parent.
+Omit to list all categories (top-level and subcategories). 
+
+ offset integer Optional 
+
+ Pagination offset (0-based) 
+
+ Default: 0 
+
+ limit integer · min: 1 · max: 200 Optional 
+
+ Maximum number of results to return (PAPI). Default 50, max 200. 
+
+ Default: 50 
+
+ Responses 
+
+ 200 
+
+ Paginated list of categories 
+
+ application/json 
+
+ PAPI pagination envelope 
+
+ total_count integer Required 
+
+ Total number of items matching the query 
+
+ Example: 42 
+
+ results object[] Required 
+
+ Array of result items for the current page 
+
+ next_offset integer · nullable Optional 
+
+ Offset for the next page, or null if no more results 
+
+ Example: 50 
+
+ 400 
+
+ Bad request - invalid input parameters 
+
+ application/json 
+
+ get /public_api/v2/compliance/categories 
+
+ HTTP 
+
+ Ask Copy 
+
+ GET /public_api/v2/compliance/categories?standard_id=123e4567-e89b-12d3-a456-426614174000 HTTP/1.1 
+ Host: api.xdr.us.paloaltonetworks.com 
+ x-xdr-auth-id: YOUR_API_KEY 
+ Authorization: YOUR_API_KEY 
+ Accept: */* 
+
+ 200 
+
+ Paginated list of categories 
+
+ Ask Copy 
+
+ { 
+ "total_count": 8, 
+ "results": [ 
+ { 
+ "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d", 
+ "standard_id": "28f76be2-dfc6-4733-b004-27998ed890cb", 
+ "parent_category_id": null, 
+ "name": "Identity and Access Management", 
+ "description": "Controls related to identity management, authentication, and access control in AWS environments.", 
+ "created_at": 1750247438, 
+ "modified_at": 1750247438, 
+ "created_by": "user@example.com", 
+ "modified_by": null 
+ }, 
+ { 
+ "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f80", 
+ "standard_id": "28f76be2-dfc6-4733-b004-27998ed890cb", 
+ "parent_category_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d", 
+ "name": "Multi-factor Authentication", 
+ "description": "Subcategory covering MFA requirements for privileged and standard user accounts.", 
+ "created_at": 1750247438, 
+ "modified_at": 1750247500, 
+ "created_by": "user@example.com", 
+ "modified_by": "user@example.com" 
+ }, 
+ { 
+ "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e", 
+ "standard_id": "28f76be2-dfc6-4733-b004-27998ed890cb", 
+ "parent_category_id": null, 
+ "name": "Logging and Monitoring", 
+ "description": "Controls for ensuring comprehensive logging, monitoring, and alerting across AWS services.", 
+ "created_at": 1750247438, 
+ "modified_at": 1750247438, 
+ "created_by": "user@example.com", 
+ "modified_by": null 
+ } 
+ ], 
+ "next_offset": null 
+ } 
+
+ Create a category or subcategory (v2) 
+
+ post https://api.xdr.us.paloaltonetworks.com /public_api/v2/compliance/categories 
+
+ Creates a new category within a standard. The standard_id must be provided in the request body. To create a subcategory, set parent_category_id to the UUID of an existing top-level category. Max 2 nesting levels (category → subcategory). Requires platform_compliance_edit permission. 
+
+ Returns 400 if the parent standard is official ( is_custom: false ). Out-of-the-box standards and their children are immutable from this API. 
+
+ Returns 400 if parent_category_id references a category belonging to a different standard (single-standard-ownership invariant). 
+
+ Required license: Cortex Cloud Runtime Security or Cortex Cloud Posture Management 
+
+ Authorizations 
+
+ XDRAuth & XDRAuthToken 
+
+ x-xdr-auth-id string Required 
+
+ API Key ID for authentication 
+
+ Authorization string Required 
+
+ API Key for authentication 
+
+ Body 
+
+ application/json 
+
+ PAPI request body for creating a category. 
+
+ standard_id string · uuid Required 
+
+ UUID of the parent standard 
+
+ name string · min: 1 · max: 256 Required 
+
+ Category name 
+
+ description string · max: 2048 · nullable Optional 
+
+ Optional description 
+
+ parent_category_id string · uuid · nullable Optional 
+
+ Set to a top-level category UUID to create a subcategory.
+Set to null or omit to create a top-level category. 
+
+ Responses 
+
+ 201 
+
+ Category created 
+
+ application/json 
+
+ PAPI response model for a compliance category. 
+
+ id string · uuid Required 
+
+ System-generated UUID v4 
+
+ Example: 660e8400-e29b-41d4-a716-446655440001 
+
+ standard_id string · uuid Required 
+
+ UUID of the parent standard 
+
+ Example: 550e8400-e29b-41d4-a716-446655440000 
+
+ parent_category_id string · uuid · nullable Optional 
+
+ UUID of the parent category (null for top-level categories) 
+
+ name string · min: 1 · max: 256 Required 
+
+ Category name 
+
+ Example: Access Control 
+
+ description string · max: 2048 · nullable Optional 
+
+ Optional description 
+
+ Example: Controls related to access management 
+
+ created_at integer Required 
+
+ Creation timestamp (epoch seconds) 
+
+ Example: 1711000000 
+
+ modified_at integer · nullable Optional 
+
+ Last modification timestamp (epoch seconds) 
+
+ Example: 1711000000 
+
+ created_by string Required 
+
+ User who created the resource 
+
+ Example: user@example.com 
+
+ modified_by string · nullable Optional 
+
+ User who last modified the resource 
+
+ Example: user@example.com 
+
+ 400 
+
+ Bad request. In addition to standard validation errors, returns 400 when: 
+
+ The parent standard is official ( is_custom: false ) — see official_standard example. 
+
+ parent_category_id references a category belonging to a different standard
+— see cross_standard_parent example. 
+
+ application/json 
+
+ 404 
+
+ Resource not found 
+
+ application/json 
+
+ 409 
+
+ Conflict - duplicate resource 
+
+ application/json 
+
+ 422 Error 
+
+ post /public_api/v2/compliance/categories 
+
+ HTTP 
+
+ Ask Copy 
+
+ POST /public_api/v2/compliance/categories HTTP/1.1 
+ Host: api.xdr.us.paloaltonetworks.com 
+ x-xdr-auth-id: YOUR_API_KEY 
+ Authorization: YOUR_API_KEY 
+ Content-Type: application/json 
+ Accept: */* 
+ Content-Length: 207 
+
+ { 
+ "standard_id": "28f76be2-dfc6-4733-b004-27998ed890cb", 
+ "name": "Identity and Access Management", 
+ "description": "Controls related to identity management, authentication, and access control in AWS environments." 
+ } 
+
+ Top-level category (e.g., IAM) 
+
+ 201 
+
+ Category created 
+
+ Ask Copy 
+
+ { 
+ "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d", 
+ "standard_id": "28f76be2-dfc6-4733-b004-27998ed890cb", 
+ "parent_category_id": null, 
+ "name": "Identity and Access Management", 
+ "description": "Controls related to identity management, authentication, and access control in AWS environments.", 
+ "created_at": 1750247438, 
+ "modified_at": null, 
+ "created_by": "user@example.com", 
+ "modified_by": null 
+ } 
+
+ Update a category or subcategory (v2) 
+
+ post https://api.xdr.us.paloaltonetworks.com /public_api/v2/compliance/categories/ {category_id} 
+
+ Updates an existing category. Only name and description can be updated; parent_category_id is immutable after creation. Any standard_id in the payload is silently stripped server-side (re-parenting is rejected by the single-standard-ownership invariant). Requires platform_compliance_edit permission. 
+
+ Returns 400 if the parent standard is official ( is_custom: false ). Out-of-the-box standards and their children are immutable from this API. 
+
+ Required license: Cortex Cloud Runtime Security or Cortex Cloud Posture Management 
+
+ Authorizations 
+
+ XDRAuth & XDRAuthToken 
+
+ x-xdr-auth-id string Required 
+
+ API Key ID for authentication 
+
+ Authorization string Required 
+
+ API Key for authentication 
+
+ Path parameters 
+
+ category_id string · uuid Required 
+
+ UUID of the category or subcategory 
+
+ Body 
+
+ application/json 
+
+ PAPI request body for updating a category. Only name and description 
+can be updated; parent_category_id is immutable. 
+
+ name string · min: 1 · max: 256 Optional 
+
+ Updated category name 
+
+ description string · max: 2048 · nullable Optional 
+
+ Updated description 
+
+ Responses 
+
+ 200 
+
+ Category updated 
+
+ application/json 
+
+ PAPI response model for a compliance category. 
+
+ id string · uuid Required 
+
+ System-generated UUID v4 
+
+ Example: 660e8400-e29b-41d4-a716-446655440001 
+
+ standard_id string · uuid Required 
+
+ UUID of the parent standard 
+
+ Example: 550e8400-e29b-41d4-a716-446655440000 
+
+ parent_category_id string · uuid · nullable Optional 
+
+ UUID of the parent category (null for top-level categories) 
+
+ name string · min: 1 · max: 256 Required 
+
+ Category name 
+
+ Example: Access Control 
+
+ description string · max: 2048 · nullable Optional 
+
+ Optional description 
+
+ Example: Controls related to access management 
+
+ created_at integer Required 
+
+ Creation timestamp (epoch seconds) 
+
+ Example: 1711000000 
+
+ modified_at integer · nullable Optional 
+
+ Last modification timestamp (epoch seconds) 
+
+ Example: 1711000000 
+
+ created_by string Required 
+
+ User who created the resource 
+
+ Example: user@example.com 
+
+ modified_by string · nullable Optional 
+
+ User who last modified the resource 
+
+ Example: user@example.com 
+
+ 400 
+
+ Bad request. In addition to standard validation errors, returns 400 when
+the parent standard is official ( is_custom: false ) — see
+ official_standard example. 
+
+ application/json 
+
+ 404 
+
+ Resource not found 
+
+ application/json 
+
+ 409 
+
+ Conflict - duplicate resource 
+
+ application/json 
+
+ post /public_api/v2/compliance/categories/ {category_id} 
+
+ HTTP 
+
+ Ask Copy 
+
+ POST /public_api/v2/compliance/categories/{category_id} HTTP/1.1 
+ Host: api.xdr.us.paloaltonetworks.com 
+ x-xdr-auth-id: YOUR_API_KEY 
+ Authorization: YOUR_API_KEY 
+ Content-Type: application/json 
+ Accept: */* 
+ Content-Length: 152 
+
+ { 
+ "name": "Identity and Access Management (Revised)", 
+ "description": "Updated controls related to identity management, authentication, and access control." 
+ } 
+
+ 200 
+
+ Category updated 
+
+ Ask Copy 
+
+ { 
+ "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d", 
+ "standard_id": "28f76be2-dfc6-4733-b004-27998ed890cb", 
+ "parent_category_id": null, 
+ "name": "Identity and Access Management (Revised)", 
+ "description": "Updated controls related to identity management, authentication, and access control.", 
+ "created_at": 1750247438, 
+ "modified_at": 1750247500, 
+ "created_by": "user@example.com", 
+ "modified_by": "user@example.com" 
+ } 
+
+ Delete a category (v2) 
+
+ delete https://api.xdr.us.paloaltonetworks.com /public_api/v2/compliance/categories/ {category_id} 
+
+ Deletes a category and cascades to its subcategories and all associated controls. Requires platform_compliance_edit permission. 
+
+ Returns 400 if the parent standard is official ( is_custom: false ). Out-of-the-box standards and their children are immutable from this API. 
+
+ Required license: Cortex Cloud Runtime Security or Cortex Cloud Posture Management 
+
+ Authorizations 
+
+ XDRAuth & XDRAuthToken 
+
+ x-xdr-auth-id string Required 
+
+ API Key ID for authentication 
+
+ Authorization string Required 
+
+ API Key for authentication 
+
+ Path parameters 
+
+ category_id string · uuid Required 
+
+ UUID of the category or subcategory 
+
+ Responses 
+
+ 204 
+
+ Category deleted (cascades to subcategories and controls) 
+
+ No content 
+
+ 400 
+
+ Bad request. Returned when the parent standard is official
+( is_custom: false ). 
+
+ application/json 
+
+ 404 
+
+ Resource not found 
+
+ application/json 
+
+ delete /public_api/v2/compliance/categories/ {category_id} 
+
+ HTTP 
+
+ Ask Copy 
+
+ DELETE /public_api/v2/compliance/categories/{category_id} HTTP/1.1 
+ Host: api.xdr.us.paloaltonetworks.com 
+ x-xdr-auth-id: YOUR_API_KEY 
+ Authorization: YOUR_API_KEY 
+ Accept: */* 
+
+ 204 
+
+ Category deleted (cascades to subcategories and controls) 
+
+ No content 
+
+ Previous Assessment Results 
+
+ Next Compliance Assets 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

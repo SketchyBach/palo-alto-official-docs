@@ -1,0 +1,50 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/configure-cortex-xsoar/integrations/manage-credentials/configure-an-external-credentials-vault
+fetched_at: 2026-09-06T10:30:17Z
+source: cortex-platform
+---
+
+# Configure an external credentials vault | 8.12 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.12 
+
+ Configure Cortex XSOAR 
+
+ Integrations 
+
+ Manage credentials 
+
+ Cortex XSOAR 8.12 On-prem 
+
+ Configure an external credentials vault 
+
+ In Cortex XSOAR 8.12 On-prem, configure an external credentials vault. 
+
+ Cortex XSOAR integrates with external credential vaults, which enables you to use them without hard coding or exposing the credentials. The credentials are not stored in Cortex XSOAR, but the integration fetches the credentials from the external vault when called. The credentials are passed to the relevant executed integrations as part of the integration parameters. 
+
+ Sample credentials provider integrations: 
+
+ CyberArk AIM v2 
+
+ HashiCorp Vault 
+
+ After the integration is configured to fetch credentials, you can also use them in scripts and playbooks. To use these credentials in an integration, click **Switch to credentials **in an integration instance, and select the necessary credential from the drop-down menu. 
+
+ Previous Manage credentials 
+
+ Next Add an integration instance 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

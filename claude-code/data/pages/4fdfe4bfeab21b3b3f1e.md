@@ -1,0 +1,48 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/inventory-and-monitoring/dashboards-and-reports/advanced-configuration/create-custom-widgets
+fetched_at: 2026-09-06T10:52:18Z
+source: cortex-platform
+---
+
+# Create custom widgets | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Data Security 
+
+ Cortex Data Security Documentation 
+
+ Inventory & Monitoring 
+
+ Dashboards and reports 
+
+ Advanced configuration 
+
+ Create custom widgets 
+
+ Custom widgets let you personalize the data visualizations rendered across your security dashboards and compliance reports, tailoring information to your specific workflows. 
+
+ You can create custom widgets using the following: 
+
+ Using AI with the Agentic Assistant 
+
+ XQL query 
+
+ Script 
+
+ You can create widgets through the Widget Library during dashboard or report creation. You can also duplicate and edit specific widgets, search the Widget Library and select the Editable widget only option. 
+
+ Once created, you can see all of your widgets and the widgets that you have permission to access in the Widget Library . For more information about access and visibility to Restricted and Public widgets, see Access to widgets . 
+
+ Previous Advanced configuration 
+
+ Next Create widgets using AI 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

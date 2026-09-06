@@ -1,0 +1,120 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/application-security/code-security/application-security-scans-management/manage-scans-through-public-apis
+fetched_at: 2026-09-06T10:13:37Z
+source: cortex-platform
+---
+
+# Manage scans through public APIs | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center shield-alt
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Application Security 
+
+ Code Security 
+
+ Manage Application Security scans 
+
+ Manage scans through public APIs 
+
+ The Cortex Cloud Application Security public APIs provide an orchestration and observability layer that connects scan execution to programmatic governance workflows. This enables security teams to integrate scan orchestration, scan health monitoring, and result analysis into CI/CD pipelines, observability dashboards, and compliance reporting systems. 
+
+ Prerequisites 
+
+ API key : A valid Cortex Cloud API key generated from Settings → API Keys in the tenant 
+
+ API key role : The key must have the AppSec Admin role or a custom role with repository and scan management permissions 
+
+ Base URL : The API base URL must correspond to your Cortex Cloud tenant region 
+
+ Authentication header : All requests require the x-redlock-auth header with a valid JWT token, or the Authorization header containing the API key 
+
+ Content-type : Payload-bearing requests ( PUT and POST ) require the Content-Type: application/json header 
+
+ VCS integration : At least one Version Control System (such as GitHub, GitLab, or Bitbucket) must be integrated and active to populate the required asset identifiers 
+
+ Supported scan API operations 
+
+ The API uses two base paths: /public_api/appsec/v1/scans for query operations and /public_api/appsec/v1/scan for trigger operations. 
+
+ Operation 
+
+ Endpoint 
+
+ Description 
+
+ Get unscanned AppSec scan management repositories 
+
+ GET /public_api/appsec/v1/scans/unscanned-repositories 
+
+ Get a list of Application Security repositories that have not been scanned. You can optionally filter by specifying the number of days past during which the repositories were not scanned 
+
+ Get AppSec branch periodic scans 
+
+ GET /public_api/appsec/v1/scans/periodic 
+
+ Branch periodic scans are automated checks that assess the security posture of applications and infrastructure. Get the details of branch periodic scans 
+
+ Get AppSec Pull Request scans 
+
+ GET /public_api/appsec/v1/scans/pr 
+
+ Pull Request (PR) scans are initiated by events triggered by version control systems such as GitHub, GitLab, Bitbucket and Azure Repos, or via webhooks. These scans are run on default or non-default branches containing open PRs or Merge Requests (MR) from your integrated repositories. Get the details of PR scans 
+
+ Get AppSec CI scans 
+
+ GET /public_api/appsec/v1/scans/ci 
+
+ CI scans detect exposed secrets, misconfigurations in your infrastructure-as-code (IaC) files, vulnerabilities in your software composition analysis (SCA) packages, and license non-compliance in your CI pipelines. Get the details of CI scans 
+
+ List AppSec scan issues 
+
+ GET /public_api/appsec/v1/scans/{scanId}/issues 
+
+ Get a list of the issues discovered in the scan specified by scan ID 
+
+ List AppSec scan findings 
+
+ GET /public_api/appsec/v1/scans/{scanId}/findings 
+
+ Get a list of the findings discovered in the scan specified by scan ID 
+
+ Rerun a repository scan 
+
+ POST /public_api/appsec/v1/scan/repository/{repositoryId} 
+
+ Create a repository scan by specifying the branch name 
+
+ Configure repository scans via API 
+
+ While the scan management API handles the execution and results of your scans, it does not configure the scanners themselves. To programmatically configure how and where scans run, you must use the Repository Public API ( /public_api/appsec/v1/repositories ). 
+
+ Manage scan configuration : Retrieve or update scanners, excluded file paths, PR scanning rules, and tagging bot activity programmatically. SAST scanner configuration is not available through the public API and must be managed via the Cortex Cloud console 
+
+ Manage scanned branches : Retrieve or update the primary branch and selected branches for scanning. Always retrieve the current branch list before updating via a PUT operation, as it replaces the entire branch selection. Any omitted branches will be unintentionally removed from scanning 
+
+ For more information, see Manage repositories via API . 
+
+ Standard API workflow 
+
+ The following sequence illustrates the typical workflow for managing scans through the public API. 
+
+ Authenticate : Generate a JWT token using your API key credentials. 
+
+ Trigger or List : Trigger an on-demand repository scan, or retrieve existing scan results (periodic, PR, CI/CD) to inspect scan health and status. 
+
+ Identify coverage gaps : Query for unscanned repositories and trigger remediation scans for assets missing from the scan cycle. 
+
+ Monitor scan completion : Poll the periodic scans endpoint to monitor the health of triggered scans. 
+
+ Drill into scan results : Retrieve scan-level issues and findings to analyze detections. 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

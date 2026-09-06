@@ -1,0 +1,64 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/users-and-roles/authenticate-users-with-saml-2.0/set-up-microsoft-entra-id-as-the-identity-provider-using-saml-2.0
+fetched_at: 2026-09-06T10:47:35Z
+source: cortex-platform
+---
+
+# Set Up Microsoft Entra ID as the Identity Provider Using SAML 2.0 | 6.12 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.12 (EoL) 
+
+ Onboard Cortex XSOAR 
+
+ Users and Roles 
+
+ Authenticate Users with SAML 2.0 
+
+ Cortex XSOAR 6.12 EoL 
+
+ Set Up Microsoft Entra ID as the Identity Provider Using SAML 2.0 
+
+ Set up Microsoft Entra ID SAML authentication in Cortex XSOAR 6.12. 
+
+ You can authenticate your Cortex XSOAR users using SAML 2.0 authentication and Microsoft Entra ID as the identity provider. To set up Microsoft Entra ID, you need to do the following: 
+
+ Configure Microsoft Entra ID to Authenticate Cortex XSOAR 
+
+ Configure the SAML 2.0 Integration for Microsoft Entra ID 
+
+ Troubleshooting (generic - known errors) 
+
+ The following are known issues when using Single sign on in Microsoft Entra ID: 
+
+ Method Not Allowed : Ensure the endpoint is used for the Service Provider Entity ID and Reply URL for the IdP and Service provider, in the format: https://demisto-dns/saml. 
+
+ "{"id":"errSAMLLogin","status":400,"title":"Failed to login via SAML","detail":"Failed to login via SAML","error":"","encrypted":false,"multires":null}" : Most likely an attribute mapping issue. Ensure that all attributes that appear in Cortex XSOAR SAML 2.0 configuration are reflected in Microsoft Entra ID claims and its associated SAML assertion. Attributes are case sensitive. 
+
+ You may also receive this message, if you select the Don’t map SAML groups to Demisto Roles checkbox and you do not define a role in Default role (for IdP users without groups) in the SAML 2.0 configuration. 
+
+ After connecting through SSO, a user may temporarily see the home screen, but immediately returns to the login page. The user does not have any group assigned, so he cannot login. 
+
+ Check the group mapping and see whether the memberOf attribute is correct. As a workaround, if you did not set the group mapping, you can use the Default role (for IdP users without groups) in the SAML 2.0 configuration. 
+
+ If a user belongs to many groups, the identity provide may return an attribute: https://graph.windows.net/{tenantID}/users/{userID}/getMemberObjects and not the actual roles, causing Cortex XSOAR authentication to fail. 
+
+ In this case, you can configure Microsoft Entra ID to return groups assigned to the application, with source attribute Group ID. Note that this option is not officially supported by Cortex XSOAR. 
+
+ Previous Map Okta Groups to Cortex XSOAR Roles 
+
+ Next Configure Microsoft Entra ID to Authenticate Cortex XSOAR 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

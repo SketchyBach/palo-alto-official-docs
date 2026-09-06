@@ -1,0 +1,154 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.8/configure-cortex-xsoar/integrations/add-an-integration-instance
+fetched_at: 2026-09-06T11:21:30Z
+source: cortex-platform
+---
+
+# Add an integration instance | 8.8 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.8 (EoL) 
+
+ Configure Cortex XSOAR 
+
+ Integrations 
+
+ Cortex XSOAR 8.8 On-prem EoL 
+
+ Add an integration instance 
+
+ Add integration instances in Cortex XSOAR 8.8 On-prem. 
+
+ Configure an integration instance to connect and communicate with other products. 
+
+ When you define an integration instance for your third-party security and incident management vendors events triggered by this integration instance can become incidents in Cortex XSOAR. When incidents are created, you can run playbooks on these incidents to enrich them with information from other products in your system. For indicators, you can run enrich those indicators depending on the integration instance and add to an incident if required. 
+
+ Although you can view the integration documents when adding an instance, the Developer Hub has more detailed information about the integrations including commands, outputs, and recommended permissions. You can also see more information about content packs, playbooks, scripts, and Marketplace documentation. 
+
+ Before you begin 
+
+ From Marketplace, download and install the relevant content pack, which includes your integration. 
+
+ Consider whether you want to add credentials, which enable you to save login information without exposing usernames, passwords, certificates, and SSH keys. For more information, see Manage credentials . 
+
+ Go to Settings & Info → Settings → Integrations → instances and search for the integration. 
+
+ In the integration you want to add, click Add instance . 
+
+ Add the parameters, as required. 
+
+ If you want to fetch incidents, select the Fetches incidents . 
+
+ For more information, see Fetch incidents from an integration instance . 
+
+ (Optional) To check that the integration instance is working correctly, click Test . 
+
+ Save & Exit. 
+
+ Expand the integration to see more details such as the number of pulled incidents/indicators or error messages. 
+
+ integration-details.png 
+
+ You can also enable/disable the integration instance, copy the instance, and view the integration fetch history. 
+
+ If you encounter an error, see Troubleshoot integrations . 
+
+ (Optional) To manage access to specific commands, see Configure integration permissions . 
+
+ (Optional) If you want to set up notifications on an incident fetch error, see Receive notifications on an incident fetch error . 
+
+ After initially ingesting incidents/indicators, you may need to customize incident/indicator types, fields, and layouts. If relevant to your integration, review and customize classifiers and mappers. Classification determines the type of incident/indicator ingested into Cortex XSOAR from a specific integration. You create a classifier and define that classifier in an integration, if applicable, mapping enables you to map the fields from your third-party integration to the fields in your layouts. For more information, see Classification and mapping . 
+
+ Example 3. 
+
+ How to configure the Cortex XDR - Investigation and Response instance integration 
+
+ In this example, set up the Palo Alto Networks Cortex XDR - Investigation and Response integration. If you have not done so, download the Cortex XDR content pack from Marketplace. Most integrations follow a similar configuration. 
+
+ Go to Settings & Info → Settings → Integrations → instances and search for Palo Alto Networks Cortex XDR - Investigation and Response . 
+
+ Click Add Instance . 
+
+ You can see the mandatory fields (with an asterisk) and on the right side, the documentation that contains a link to the full documentation including available commands. See Palo Alto Networks Cortex XDR - Investigation and Response . 
+
+ In the Incident Mirroring field, specify the incident direction. 
+
+ Incoming: Changes made to an incident in Cortex XDR are reflected in the fetched event in Cortex XSOAR. 
+
+ Outgoing: Changes made in Cortex XSOAR for XDR incidents are reflected in the Cortex XDR tenant. 
+
+ Both: Changes made in either platform are to be reflected in either Cortex XDR/XSOAR. 
+
+ Add the Server URL , API Key ID , and the API key that you obtained from Cortex XDR. 
+
+ Add the maximum number of incidents to fetch. By default, there is a maximum number of 10 incidents per minute. 
+
+ Select whether you want only starred incidents from Cortex XDR and the number of days to fetch. By default, fetching is 3 days ago. 
+
+ In the First fetch timestamp field, specify when the first fetch occurs. By default, fetching is 3 days ago. 
+
+ Select the following: 
+
+ Sync incident owners between Cortex XDR and Cortex XSOAR. 
+
+ Whether to trust certificates not signed by a trusted security authority, such as self-signed certificates. 
+
+ Whether to use the system proxy settings. 
+
+ Whether to run on Prevent Only Mode to match the Cortex XDR tenant. 
+
+ The incident status to fetch. 
+
+ Incidents fetch interval. By default, the incidents are fetched every one minute. 
+
+ The engine to run on. 
+
+ When troubleshooting the instances troubleshooting adjust the default setting from off to a higher debugging level. 
+
+ Specify how Cortex XSOAR collects, classifies, and maps data fetched by this instance. In the Collect Settings you can define the following: 
+
+ Field 
+
+ Description 
+
+ Fetches incidents 
+
+ Fetches incidents from Cortex XDR. We recommend only fetching incidents when everything is set up. 
+
+ When enabled, Cortex XSOAR searches for events that occurred within the time frame set for the integration, which is based on the specific integration. The default is 10 incidents per minute. 
+
+ Classifier 
+
+ Determines which type of incident type is created. For more information about classifiers, see Classification and mapping . 
+
+ Incident type 
+
+ If a classifier does not exist, specify an incident type. If a classifier is specified it takes precedence when assigning an incident type to the fetched incident. Incident types determine what playbooks are running on the fetched incident. 
+
+ Mapper (Incoming) 
+
+ Determines how incoming data is mapped to the Cortex XSOAR incident fields. In this integration, we are given a default incoming and outgoing mapper. For more information about mappers, see Classification and mapping . 
+
+ Mapper (Outgoing) 
+
+ Specifies how Cortex XSOAR incident data should be mapped to external integrations (Cortex XDR). This is important when using incident mirroring. 
+
+ Click Test and Save & Exit . 
+
+ Previous Manage credentials 
+
+ Next Fetch incidents from an integration instance 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

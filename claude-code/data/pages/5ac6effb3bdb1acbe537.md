@@ -1,207 +1,12 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/onboard-cortex-xsiam/deployment-steps/set-up-authentication/authenticate-users-using-sso
-fetched_at: 2026-08-13T14:11:52Z
+fetched_at: 2026-09-06T09:19:20Z
 source: cortex-platform
 ---
 
 # Authenticate users using SSO | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
 
-Authenticate users using SSO | Cortex Documentation Portal 
-
- ⌘ Ctrl k 
-
- Blog Support 
- More 
-
- Home 
-
- Products 
-
- Guides 
-
- Release Notes 
-
- API 
-
- Reference 
-
- AI Assistant 
-
- Good afternoon 
- I'm here to help you with the docs. 
-
- What is this page about? What should I read next? Can you give an example? 
-
- ⌘ Ctrl i 
-
- AI Based on your context 
- Send 
-
- Learn about Cortex XSIAM 
-
- Navigate the Cortex XSIAM docs 
-
- Get started with Cortex XSIAM 
-
- Agentic AI in Cortex XSIAM 
-
- Cortex XSIAM product licenses 
-
- In-product support ticket creation 
-
- Supported web browsers 
-
- Use the interface 
-
- Manage API keys 
-
- Onboard Cortex XSIAM 
-
- How to onboard Cortex XSIAM 
-
- Plan and prepare 
-
- Deployment steps 
-
- Cortex XSIAM onboarding checklist 
-
- Activate Cortex XSIAM 
-
- Set up users, groups, and roles 
-
- Set up authentication 
-
- Authenticate users through the Customer Support Portal 
-
- Authenticate users using SSO 
-
- Set up Okta as the Identity Provider Using SAML 2.0 
-
- Set up Microsoft Entra ID as the Identity Provider Using SAML 2.0 
-
- Configure content 
-
- Set up Cloud Identity Engine 
-
- Install Cortex XDR agents 
-
- Cortex XSIAM - Analytics 
-
- FedRAMP overview 
-
- Post-deployment 
-
- Configure Cortex XSIAM 
-
- Learn how to configure Cortex XSIAM 
-
- Data management 
-
- Cortex XSIAM Data Sources and Connectors 
-
- Marketplace 
-
- Configure the Cortex Agentic Assistant 
-
- Cortex MCP server 
-
- Automations 
-
- Engines 
-
- Remote repository management 
-
- Customize cases and issues 
-
- XQL query management 
-
- Multi-Tenant 
-
- Managed Services configuration in Cortex 
-
- Protect your endpoints 
-
- Endpoint security 
-
- Endpoint DLP 
-
- Detect, Investigate, and respond to threats 
-
- Monitor dashboards and reports 
-
- Investigation and response 
-
- Agentic Assistant chat 
-
- Asset management 
-
- Threat management 
-
- Attack surface management 
-
- Vulnerability management 
-
- Exposure management 
-
- Cortex Advanced Email Security 
-
- Identity Threat Detection and Response (ITDR) 
-
- Cloud Security 
-
- Monitor and track compliance adherence 
-
- Cloud security rules and policies 
-
- Cortex Cloud Data Classification 
-
- Cortex Data Security 
-
- Cloud Identity Security 
-
- Network exposure detection 
-
- Cortex Cloud SaaS Security 
-
- Cortex Cloud AI Security 
-
- Serverless function posture security 
-
- Cortex Cloud Application Security 
-
- Cloud workload policies and rules 
-
- Base image rules 
-
- Web and API Security (WAAS) 
-
- Serverless function runtime security 
-
- Reference and developer docs 
-
- Cortex XSIAM XQL 
-
- Graph Search 
-
- Cortex CLI 
-
- Role-Based Access Control 
-
- API documentation 
-
- Reference 
-
- Migrating to a new Broker VM image 
-
- Learn more about migrating to the latest broker VM image 
-
- Standalone Broker VM 
-
- Broker VM high availability cluster node 
-
- On this page 
-
- For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
 
  Ask 
  On this page 
@@ -218,7 +23,11 @@ Authenticate users using SSO | Cortex Documentation Portal
 
  Set up authentication 
 
+ Cortex XSIAM Admin 
+
  Authenticate users using SSO 
+
+ Configure Cortex XSIAM SAML 2.0 single sign-on with identity providers, group mapping, and user provisioning. 
 
  Cortex XSIAM enables you to authenticate system users securely across enterprise-wide applications and websites with one set of credentials using single sign-on (SSO) with SAML 2.0. System users can authenticate using your organization's Identity Provider (IdP), such as Okta or PingOne. You can integrate with any IdP that is supported by SAML 2.0. 
 
@@ -226,11 +35,9 @@ Authenticate users using SSO | Cortex Documentation Portal
 
  Configuring SSO with SAML 2.0 is dependent on your organization’s IdP. Some of the parameter values need to be supplied from your organization’s IdP and some need to be added to your organization’s IdP. You must have sufficient knowledge about IdPs, how to access your organization’s IdP, which values to add to Cortex XSIAM, and which values to add to your IdP fields. 
 
- Note 
-
  To set up SSO authentication in the tenant, you must be assigned an Instance Administrator or Account Admin role. 
 
- SAML 2.0 users must log in to Cortex XSIAM using the FQDN (full URL) of the tenant. To allow login directly from the IdP to , you must set the relay state on the IdP to the FQDN of the tenant. 
+ SAML 2.0 users must log in to Cortex XSIAM using the FQDN (full URL) of the tenant. To allow login directly from the IdP to the tenant, you must set the relay state on the IdP to the FQDN of the tenant. 
 
  If you have multiple tenants, you must set up the SSO configuration separately for each tenant, both in the IdP and in Cortex XSIAM. 
 
@@ -246,9 +53,11 @@ Authenticate users using SSO | Cortex Documentation Portal
 
  Following initial JIT creation, administrators can open the account entry to assign targeted Access Management controls, defining precise Roles and granular data Scopes. You can choose to select an optional global Default Role parameter within the general SSO configuration menu to automatically apply baseline permissions to newly provisioned users. 
 
- To maintain a secure posture, it is critical that this Default Role is configured with the least-privileged permissions possible (such as read-only or a basic viewer role) to ensure users without explicit role or group assignments inherit minimal access by default. For detailed implementation steps and advice on structuring these permissions, see. 
+ To maintain a secure posture, it is critical that this Default Role is configured with the least-privileged permissions possible (such as read-only or a basic viewer role) to ensure users without explicit role or group assignments inherit minimal access by default. 
 
- SECURITY MINIMIZATION BEST PRACTICE : If a Default Role is utilized for JIT automation, it is strongly recommended to restrict this role to the most minimal, low-privilege read-only permissions possible. This ensures that if a platform administrator forgets to manually apply an explicit target role or scope assignment to a newly synced user, that account remains structurally isolated from sensitive security controls or data views. 
+ Security minimization best practice 
+
+ If a Default Role is utilized for JIT automation, it is strongly recommended to restrict this role to the most minimal, low-privilege read-only permissions possible. This ensures that if a platform administrator forgets to manually apply an explicit target role or scope assignment to a newly synced user, that account remains structurally isolated from sensitive security controls or data views. 
 
  Once account objects successfully register via JIT login, administrators can manually pair those known identities directly with local Custom Cortex User Groups within the console. 
 
@@ -271,8 +80,6 @@ Authenticate users using SSO | Cortex Documentation Portal
  If you want to add another SSO connection to enable managing user groups with different roles and different IdPs, click Add SSO Connection . 
 
  Different SSO parameters for an SSO are displayed to configure according to your organization’s additional IdP. 
-
- Note 
 
  The first SSO cannot be deleted; it can only be deactivated by toggling SSO Enabled to off. 
 
@@ -298,9 +105,7 @@ Authenticate users using SSO | Cortex Documentation Portal
 
  If you have enabled more than one SSO provider, an optional email field appears. If the user does not enter an email address or if the email address does not match an existing domain, the user is automatically directed to the default IdP provider (the first in the list of SSO providers in the Authentication Settings). If the user enters an email address and it matches a domain listed in the Domain field in the SSO Integration settings for one of your IdPs, Sign-In with SSO sends the user to the IdP associated with that email domain. 
 
- Important 
-
- PROGRAMMATIC CONTRAINT : 
+ Programmatic constraint : 
 
  There is no public API endpoint available to provision or de-provision users programmatically within Cortex XSIAM. All target accounts must be initialized or explicitly managed using the native interactive Single Sign-On (SSO) or Customer Support Portal (CSP) interface workflows defined in this guide. To review the list of supported programmatic actions and ingestion endpoints, see the Cortex XSIAM API Reference guide. 
 
@@ -426,28 +231,10 @@ Authenticate users using SSO | Cortex Documentation Portal
 
  If you require further troubleshooting, we recommend using your browser's built-in developer tools or additional browser plugins to capture the login request and SAML token. 
 
- Previous Authenticate users through the Customer Support Portal Next Set up Okta as the Identity Provider Using SAML 2.0 
+ Previous Authenticate users through the Customer Support Portal 
 
- Last updated 21 days ago 
+ Next Set up Okta as the Identity Provider Using SAML 2.0 
 
- Was this helpful? 
-
- ‍ 
-
- Trust Center 
-
- ‍ 
-
- Privacy 
-
- ‍ 
-
- Terms of Use 
-
- ‍ 
-
- Legal 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved. 
+ Last updated 10 days ago 
 
  Was this helpful?

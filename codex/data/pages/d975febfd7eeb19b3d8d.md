@@ -1,0 +1,48 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/reference/microsoft-windows-security-auditing-setup/enable-ldap-server-events-logging-1644/validate-log-collection-for-ldap-server-events
+fetched_at: 2026-09-06T09:38:29Z
+source: cortex-platform
+---
+
+# Validate log collection for LDAP Server events | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSIAM 
+
+ Cortex XSIAM Documentation 
+
+ Reference and developer docs 
+
+ Reference 
+
+ Microsoft Windows security auditing setup 
+
+ Enable LDAP server events logging (1644) 
+
+ Cortex XSIAM 
+
+ Validate log collection for LDAP Server events 
+
+ Validate LDAP server Event ID 1644 collection in Windows Event Viewer for Cortex XSIAM. 
+
+ View the LDAP Server Events logs. 
+
+ From the Start menu, open Event Viewer. 
+
+ Go to Application and Services Logs → Directory Service. 
+
+ Filter for Event ID 1644.
+
+ Previous Enable LDAP server events logging using GPO 
+
+ Next XDM fields for mapping authentication events 
+
+ Last updated 13 days ago 
+
+ Was this helpful?

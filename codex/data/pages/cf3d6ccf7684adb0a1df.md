@@ -1,0 +1,400 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.6/onboard-cortex-xsoar/cortex-xsoar-installation/install-cortex-xsoar-from-a-vhd-image
+fetched_at: 2026-09-06T11:23:17Z
+source: cortex-platform
+---
+
+# Install Cortex XSOAR from a VHD image | 8.6 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.6 (EoL) 
+
+ Onboard Cortex XSOAR 
+
+ Cortex XSOAR Installation 
+
+ Cortex XSOAR 8.6 On-prem EoL 
+
+ Install Cortex XSOAR from a VHD image 
+
+ Install Cortex XSOAR On-prem 8.6 (EoL) from a VHD image. 
+
+ To install a Cortex XSOAR 8 tenant, you need to log into Cortex Gateway, which is a portal for downloading the relevant image file and license. If you have multiple or development tenants, you must repeat this task for each tenant. 
+
+ Danger 
+
+ Set up your CSP account. For more information, see How to Create Your CSP User Account .. 
+
+ When you create a CSP account you can set up two-factor authentication (2FA) to log into the CSP, by using an Email, Okta Verfiy, or Google Authenticator (non-FedRAMP accounts). For more information, see How to Enable a Third Party IdP . 
+
+ Have one of the following roles assigned: 
+
+ Role 
+
+ Details 
+
+ CSP role 
+
+ The Super User role is assigned to your CSP account. The user who creates the CSP account is granted the Super User role. 
+
+ Cortex role 
+
+ You must have the Account Admin role. 
+
+ If you are the first user to access Cortex Gateway with the CSP Super User role, you are automatically granted Account Admin permissions for the Cortex Gateway. You can also add Account Admin users as required. 
+
+ To download the Cortex XSOAR 8 images from Cortex Gateway, you need a license (or evaluation license via sales) assigned to your CSP account. 
+
+ Review the System requirements for deploying a Cortex XSOAR tenant. 
+
+ Have a basic understanding of how to deploy VHD file formats. 
+
+ For VMWare ESXi 6.5 and later, you need hardware version 13. 
+
+ Ensure the following DNS records were added to your DNS server to resolve hostnames to the cluster IP address (only static, DHCP is not supported). These DNS records (for a given tenant) should all point to the same cluster IP address to ensure a single entry point. For MSSP, each tenant must have its own set of xsoar.* , api-* , and ext-* FQDNs pointing to the tenant cluster's single entry point. 
+
+ Cluster FQDN - The Cortex XSOAR DNS name for accessing the UI. For example, xsoar.mycompany.com . 
+
+ api-<hostname>.<domain> : The Cortex XSOAR DNS name that is mapped for API access. For example, api-xsoar.mycompany.com . This should be a CNAME entry pointing to the same cluster IP address. 
+
+ ext-<hostname>.<domain> : The Cortex XSOAR DNS name that is mapped to access long running integrations. For example, ext-xsoar.mycompany.com . This should be a CNAME entry pointing to the same cluster IP address. 
+
+ Ensure the IPs of all VMs (nodes) in a cluster as well as the virtual IP must be on the same subnet, they currently cannot be split across subnets. 
+
+ Task 1. Select and download the VHD image and license from Cortex Gateway 
+
+ Tip 
+
+ In Google Chrome, to download the image and license files together, you may need to set the the browser Settings → Privacy and security → Site settings → Additional permissions → Automatic downloads to the default behavior Sites can ask to automatically download multiple files . 
+
+ Log in to Cortex Gateway . For your Cortex XSOAR license, select Download On Prem . 
+
+ By default, the Production-Standalone license is selected. You can also select Dev . 
+
+ Production and development are separate Kubernetes clusters with no dependency between them. For example, you can deploy a three-node cluster for production and a standalone node for development. Or you can support small scale for development and large scale for production. 
+
+ Click Next . 
+
+ Select the VHD image format to download. 
+
+ VHD is supported by Microsoft Hyper-V. 
+
+ Select the checkbox to agree to the terms and conditions of the license and click Download . 
+
+ Two files download: A zipped license file containing one or more JSON license files with instructions, and a zipped image file of the type you selected (.ova, .vhd) 
+
+ Extract (unzip) the license and image files. 
+
+ Task 2. Deploy your virtual machine 
+
+ The following is an example of deploying your VM on Hyper-V from a VHD image. 
+
+ If you set your Cortex XSOAR environment as a standalone (single node), you cannot add nodes to it and switch to a cluster. If you deploy three nodes, you can later add nodes and expand the cluster. For more information, see Manage nodes in a cluster . 
+
+ Important 
+
+ To implement built-in High Availability, deploy a cluster with three nodes (VMs), with each VM on a different hypervisor. This ensures that if one hypervisor fails, the other VMs continue to operate. 
+
+ You then need to: 
+
+ Establish trust between all nodes in the cluster (Task 5). 
+
+ Set the Cluster FQDN to either the virtual IP address or to the reverse proxy/ingress controller IP address (Task 6). The virtual IP or the reverse proxy/ingress controller serves as a single entry point to distribute traffic across the nodes in the cluster. 
+
+ Open the Hyper-V manager. 
+
+ Create a new hard disk. This additional hard drive will contain the application data. 
+
+ In the Hyper-V manager menu select Action → New → Hard disk → next . 
+
+ Select VHD and then fixed size . 
+
+ Name the new drive and set its location to the dedicated hard disk you prepared to contain to the application data. 
+
+ Select Create a new blank virtual hard disk and set its size. For more details, see the System requirements . 
+
+ Click finish . This may take a few minutes to complete. 
+
+ Create a new virtual machine. 
+
+ In the Hyper-V manager menu, select Action → New → Virtual Machine and follow the instructions. 
+
+ Name your machine. 
+
+ Choose Generation 1 . 
+
+ Disable storage DRS for the virtual machine. 
+
+ Set the memory size. For more details, see the System requirements . 
+
+ Important 
+
+ Every virtual machine is provided with a 256 GB hard disk to run the OS. However, you also need to add an extra hard disk for each virtual machine instance you want to deploy to run the application. 
+
+ All virtual machines in a cluster must have the same storage size. 
+
+ To ensure successful deployment, make sure the hard disks meet performance requirements detailed in the System requirements . 
+
+ Choose the relevant virtual network switch. 
+
+ Choose Use an existing virtual Hard Disk and browse to the location of the VHD image. 
+
+ Click finish . 
+
+ Configure the virtual machine. 
+
+ Right click the virtual machine and select Settings . 
+
+ Under Processor , set the number of processors. For more details, see the System requirements . 
+
+ Under IDE controller 0 → Hard drive , click add → virtual hard disk . Choose the hard disk created in Step 2 . 
+
+ Start the virtual machine. 
+
+ Repeat this procedure from Step 2 for each additional virtual machine in the cluster. 
+
+ Log in to each virtual machine console. For first time login, the default user name and password is admin . 
+
+ opp-first-login.png 
+
+ Give the admin a new password as follows. 
+
+ The password must be at least eight characters long and contain at least: 
+
+ One lower case letter 
+
+ One upper case letter 
+
+ One number, or one of the following special characters: !@#% 
+
+ The textual UI menu opens with all the configuration and installation options. 
+
+ Tip 
+
+ To start using the textual UI, click anywhere on the screen. 
+
+ To navigate between the menu items, use the up and down arrow keys. To select a menu item, press the Enter key. 
+
+ To navigate between fields within a menu item, use the Tab key. To save settings, tab to the Save button and press the Enter key. 
+
+ To go back to the menu from a specific menu item field, press the esc key. 
+
+ Task 3. Configure tenant network and IP settings for each node 
+
+ You need to configure network and IP settings in each node in a cluster. For standalone, there is just a single node. 
+
+ Note 
+
+ When choosing the network settings, either use private IPs or a public IP covered by an access policy defined in a security group. 
+
+ In the textual UI menu, select Host Configuration . 
+
+ Configure the following network and IP settings for each node/virtual machine. 
+
+ Network Interface : A list of available interfaces on the node that the textual UI runs on. For example, ens160 
+
+ IP Address : <IP address for this node>/<CIDR subnet mask relevant for your subnet, by default 24>. For example, 10.196.37.10/21 
+
+ After deployment, this field is not editable. 
+
+ Default Gateway : IP address of the default gateway for this interface. For example, 10.196.37.1 
+
+ DNS Server 1 - IP address of the DNS server. For example, 10.196.4.10 
+
+ DNS Server 2 (optional) - IP address of a secondary DNS server. For example, 10.196.4.11 
+
+ NTP Servers : The IP address of NTP server that the node will be synced with. By default, the nodes get an out-of-the-box NTP server, you can override the value. 
+
+ opp-oci-host-config.png 
+
+ Select Save . 
+
+ Task 4. (Optional) Configure proxy settings 
+
+ If you want to use a proxy, define the proxy address and port settings. The proxy can be set at any point, during Cortex XSOAR deployment or at a later stage. 
+
+ From the textual UI menu, select Proxy Configuration . 
+
+ Configure the following settings. 
+
+ Proxy Address 
+
+ Note 
+
+ You can either enter the address as IP:port without a http:// or https:// prefix, or enter the host name. 
+
+ Proxy Port 
+
+ Select Save . 
+
+ Task 5. Establish trust between all nodes in a cluster 
+
+ This task is not relevant for a standalone deployment (single node). 
+
+ For each VM (node) in a cluster, the nodes must have SSH connections between them, where all the nodes trust one another. To establish trusted connections in a cluster, one node is designated as the signing server host, generating a token for secure communication and authentication. Other nodes connect to the host using the token displayed on the host's screen. 
+
+ The IPs of all VMs (nodes) in a cluster as well as the virtual IP must be on the same subnet, they currently cannot be split across subnets. 
+
+ Important 
+
+ To implement built-in High Availability, after establishing trust between all nodes in a cluster, in the cluster installation step (Task 6) you need to set a single entry point to distribute traffic across the nodes in the cluster. Do this by setting the Cluster FQDN to either the virtual IP address or to the reverse proxy/ingress controller IP address. 
+
+ In the textual UI menu for the VM you want to be the host, select Connect Nodes . 
+
+ Select Host . 
+
+ opp-nodes-trust-host-8-7.png 
+
+ A message displays that this action cancels prior trust established with other nodes. Select Yes to continue. 
+
+ This node becomes the host, and a token is generated on the screen. Copy the token, for example: 
+
+ opp-establish-trust-token.png 
+
+ Note 
+
+ Keep this window open (do not select Stop ) until trust is established between all nodes to enable the host to listen for the token from the other nodes. 
+
+ In the textual UI for each additional node (VM) in the cluster: 
+
+ Select Connect Nodes . 
+
+ Select Join . 
+
+ Paste the Token generated for the host. 
+
+ Enter the Host IP Address . 
+
+ Select Submit . 
+
+ opp-nodes-trust-join.png 
+
+ A message displays that this action cancels prior trust established with other nodes. Select Yes to continue. 
+
+ Select OK . 
+
+ After trust is established between all the nodes in the cluster, go back to the host node and select Stop to close the listening window. 
+
+ Task 6. Install Cortex XSOAR 
+
+ You are now ready to install Cortex XSOAR on the VMs deployed on your hypervisor. 
+
+ Prerequisite 
+
+ Ensure the following DNS records were added to your DNS server to resolve hostnames to the cluster IP address (only static, DHCP is not supported). These DNS records (for a given tenant) should all point to the same cluster IP address to ensure a single entry point. 
+
+ xsoar.<hostname>.<domain> : The Cortex XSOAR DNS name for accessing the UI. For example, xsoar.mycompany.com . 
+
+ api-<hostname>.<domain> : The Cortex XSOAR DNS name that is mapped for API access. For example, api-xsoar.mycompany.com . This should be a CNAME entry pointing to the same cluster IP address. 
+
+ ext-<hostname>.<domain> : The Cortex XSOAR DNS name that is mapped to access long running integrations. For example, ext-xsoar.mycompany.com . This should be a CNAME entry pointing to the same cluster IP address. 
+
+ From the textual UI menu, select Cluster Installation . 
+
+ The virtual machine you use to run the installer will deploy Cortex XSOAR on all virtual machines in a cluster. 
+
+ For a single virtual machine (standalone), configure the settings for a single node. 
+
+ Configure the following settings. 
+
+ Important 
+
+ The IPs of all VMs (nodes) in a cluster as well as the virtual IP must be on the same subnet; they currently cannot be split across subnets. 
+
+ You can only change these field values in the textual UI menu before installing. To change these values after installing, you need to redeploy your cluster and then reinstall. Contact support or engineering for assistance. 
+
+ Field 
+
+ Description 
+
+ Cluster Nodes 
+
+ A list of IPs of all virtual machines/nodes in the cluster, separated by a space. For example, 10.196.37.10 10.196.37.11 10.196.37.12 
+
+ Cluster FQDN 
+
+ The Cortex XSOAR environment DNS name. For example, <subdomain>.<domain name>.<top level domain> 
+
+ For a single node: This field value must be registered in your DNS server so the FQDN will be resolved to the IP of the node. 
+
+ For a multi-node cluster: 
+
+ (Hypervisor deployments only) To implement built-in HA using a virtual IP, you need to set this field value to match the IP of the virtual IP, and it must be registered in your DNS server so the FQDN will be resolved to the IP of the virtual IP. 
+
+ (Hypervisor or Cloud deployements) To implement built-in HA using a reverse proxy/ingress controller, you need to register the FQDN to match the IP of the reverse proxy/ingress controller. The reverse proxy/ingress controller checks the health endpoint of the node for any issues. If the node is healthy it can be used to process requests. To use a reverse proxy/ingress controller IP address: 
+
+ Set access to the cluster nodes through port 443. 
+
+ Use HTTP 10254 with the path /healthz as the health endpoint. 
+
+ Do not enter a value for the Virtual IP (optional) field. 
+
+ Note 
+
+ Cortex XSOAR supports only static IP addresses for each virtual machine in the cluster, it does not support a DHCP (dynamic IP) network interface. 
+
+ Virtual IP (optional) 
+
+ (Hypervisor deployments only) The Cortex XSOAR environment virtual IP for the multi-node cluster. It is a virtual interface assigned to one of the nodes to provide a single access point to the cluster. The virtual IP address must be a dedicated, available IP address that is not assigned to any nodes in the cluster. 
+
+ Cluster Region 
+
+ The region the cluster is located in. For example, US. 
+
+ Cortex XSOAR Admin Email , Password , and Confirm Password 
+
+ Credentials for the first user to log in to Cortex XSOAR. 
+
+ Important 
+
+ These fields can only be changed before installation, so it is important to keep this information secure. To change values like username or password after installation, you will need to redeploy your cluster and reinstall. Contact support or engineering for assistance. 
+
+ For the Cortex XSOAR Admin Email , we recommend using a service account rather than a specific user email address since this cannot be changed after installation. 
+
+ Note 
+
+ The password must be at least eight characters long and contain at least: 
+
+ One lower case letter 
+
+ One upper case letter 
+
+ One number, or one of the following special characters: !@#% 
+
+ Select Install . 
+
+ Verify all nodes meet the required hardware and network requirements, and select Install again. 
+
+ opp-oci-cluster-installation-2.png 
+
+ The virtual machine you use to run the installer will deploy Cortex XSOAR on all virtual machines in a cluster. 
+
+ Task 7. Verify you can log in to Cortex XSOAR 
+
+ After the installation tasks run, an Installation completed successfully message displays in the textual UI. However, you need to wait until the installation process fully completes (approximately 30 minutes) and then check that you can log in to Cortex XSOAR. You then need to upload your license to enable all Cortex XSOAR pages. 
+
+ Log in to Cortex XSOAR. 
+
+ When you log in for the first time, use the Admin password and email you set during installation. 
+
+ Upload your license to Cortex XSOAR. 
+
+ For more information, see Add the Cortex XSOAR license . 
+
+ Previous Install Cortex XSOAR from an OVA image 
+
+ Next Post-installation 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

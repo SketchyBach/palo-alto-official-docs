@@ -1,0 +1,46 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/data-management/broker-vm/manage-broker-vm/upgrade-broker-vm
+fetched_at: 2026-09-06T10:51:38Z
+source: cortex-platform
+---
+
+# Upgrade Broker VM | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Data Security 
+
+ Cortex Data Security Documentation 
+
+ Data management 
+
+ Broker VM 
+
+ Manage Broker VM 
+
+ Upgrade Broker VM 
+
+ Learn more about upgrading the Broker VM from the Cortex Data Security management console. 
+
+ If your Broker VM was deployed using an image downloaded before February 22, 2026 (running Ubuntu 20.04 or earlier), you must reinstall the broker with a new image (running Debian 13 or later) before you can upgrade to the latest version. For more information, see Migrating to a New Broker VM Image . 
+
+ Select Settings → Configurations → Data Broker → Broker VMs . 
+
+ In either the Brokers or Clusters tab, locate your Broker VM, right-click, and select Up grade Broker version . Upgrading your Broker VM takes approximately 5 minutes. 
+
+ Important 
+
+ After a Broker VM upgrade, your broker may require a reboot to finish installing important updates. A notification about this will be sent to your Cortex Data Security console Notification Center. 
+
+ Previous Collect Broker VM Logs 
+
+ Next Update Broker VM applets independently 
+
+ Last updated 26 days ago 
+
+ Was this helpful?

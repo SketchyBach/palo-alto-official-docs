@@ -1,0 +1,68 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/onelogin
+fetched_at: 2026-09-06T10:00:31Z
+source: cortex-platform
+---
+
+# OneLogin | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Cortex Cloud Data Sources and Connectors 
+
+ Vendor-specific data sources and connectors 
+
+ OneLogin 
+
+ Configure the OneLogin data source for Cortex XSIAM. 
+
+ You can configure collecting OneLogin logs and data using a Standard Collector or content pack integration (onboarded prior to July 26, 2026): 
+
+ OneLogin vendor 
+
+ Description 
+
+ Standard Collector overview 
+
+ Forward logs and data to Cortex Cloud from OneLogin via the OneLogin REST APIs using the OneLogin data source. 
+
+ Link to Standard Collector instructions 
+
+ The following types of data can be ingested from OneLogin: 
+
+ Log collection 
+
+ Events: User logins, administrative operations, provisioning, and a list of all OneLogin event types 
+
+ Directory 
+
+ Users: Lists of users. 
+
+ Groups: Lists of groups. 
+
+ Apps: Lists of apps. 
+
+ For more information, see Ingest logs and data from OneLogin . 
+
+ Link to content pack/integration details (onboarded prior to July 26, 2026) 
+
+ The OneLogin content pack provides capabilities for simple customer authentication and streamlined workforce identity operations utilizing APIs. It includes one modeling rule for data normalization and the following integration: 
+
+ OneLogin Event Collector : Use this integration to gather simple customer authentication and streamlined workforce identity operations with the onelogin-get-events command. 
+
+ Previous Okta Automation and Collection 
+
+ Next Ingest logs and data from OneLogin 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

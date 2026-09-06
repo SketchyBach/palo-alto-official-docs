@@ -1,0 +1,158 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/docker/configure-python-docker-integrations-to-trust-custom-certificates
+fetched_at: 2026-09-06T10:46:55Z
+source: cortex-platform
+---
+
+# Configure Python Docker Integrations to Trust Custom Certificates | 6.12 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.12 (EoL) 
+
+ Onboard Cortex XSOAR 
+
+ Docker 
+
+ Cortex XSOAR 6.12 EoL 
+
+ Configure Python Docker Integrations to Trust Custom Certificates 
+
+ Configure Python Docker integrations to trust custom certificates in Cortex XSOAR 6.12. 
+
+ Python integrations running in Docker contain a built-in set of CA-signed certificates, to which you can add custom trusted certificates when needed. For example, if you work with a proxy that performs SSL traffic inspection or use a service that has a self-signed certificate. You can also configure the server and integrations to trust custom certificates . 
+
+ Note 
+
+ Only PEM format certificates are supported. 
+
+ This procedure assumes that the Cortex XSOAR lib dir is configured to the default location /var/lib/demisto . 
+
+ Note 
+
+ /var/lib/demisto requires root access. This is relevant for Docker and Podman. 
+
+ If you have moved the lib dir file to a different location , use the new location instead of the default. 
+
+ In addition, if you have configured the certs dir at a different location from the Cortex XSOAR lib dir file, you can configure the dir to search for the file: python-ssl-certs.pem by setting the server configuration: docker.custom_certs.dir . For example if the certs file is located at: /opt/mypath/python-ssl-certs.pem , specify the following server configuration: 
+
+ Key 
+
+ Value 
+
+ docker.custom_certs.dir 
+
+ /opt/mypath 
+
+ Configure the custom certificates. 
+
+ Create a certificate PEM file that includes all of the required custom certificates. 
+
+ To examine the certificate chain used by a specific endpoint, run the following command on the server machine (requires openssl client): 
+
+ openssl s_client -servername <host_name> -host <host_name> -port 443 -showcerts < /dev/null 
+
+ For example, openssl s_client -servername api.github.com -host api.github.com -port 443 -showcerts < /dev/null 
+
+ This prints certificate information including the PEM representation of the certificates. After examining the output, if you see Verification error: unable to get issuer certificate , one or more certificates in the certificate chain is not available and you need to obtain these certificates from your IT administrator. 
+
+ To save the certificates to a certs.pem file run the following command: 
+
+ openssl s_client -servername api.github.com -host api.github.com -port 443 -showcerts < /dev/null 2>/dev/null | sed -n '/^-----BEGIN CERT/,/^-----END CERT/p' > certs.pem 
+
+ To verify that the certs.pem has all needed certificates as part of the certificate chain, run openssl verify -CAfile certs.pem site.pem , where site.pem contains the certificate of a specific site you want to trust. To get the cert of a site, run openssl s_client -servername <site_host> -host <site_host> -port 443 and copy the base content including -----BEGIN CERTIFICATE----- and -----END CERTIFICATE----- . 
+
+ After saving the certs.pem file, add its content to /var/lib/demisto/python-ssl-certs.pem , by running the following command: 
+
+ cat certs.pem >> /var/lib/demisto/python-ssl-certs.pem 
+
+ (RedHat only) Set the required SELinux permissions. 
+
+ By default, when SELinux is in enforcing mode, directories under /var/lib/ cannot be accessed by Docker containers. To allow container access to the /var/lib/demisto/python-ssl-certs.pem file, you need to set the correct SELinux policy type, by typing the following command: 
+
+ chcon -t svirt_sandbox_file_t /var/lib/demisto/python-ssl-certs.pem 
+
+ (Optional) Verify that the file has the container_file_t SELinux type attached by running the following command: 
+
+ ls -d -Z /var/lib/demisto/python-ssl-certs.pem 
+
+ (Optional) If you require the standard set of certificates trusted by browsers, you can append the CA certificates provided by your operating system. For example, on Ubuntu, these certificates are located at the following path: /etc/ssl/certs/ca-certificates.crt . Alternatively, you can download the PEM certificates file provided by the Certifi Project and add your custom certificates to the file that contains the standard set of certificates. 
+
+ This example adds the proxy-ca.pem file (custom certificate) to the cacert.pem file (standard certificates): cat proxy-ca.pem >> cacert.pem 
+
+ Copy the certificates PEM file to the following path. 
+
+ /var/lib/demisto/python-ssl-certs.pem 
+
+ (Multi-tenant) In a multi-tenant deployment, the certificate is copied to the following path on the host machine: /var/lib/demisto/tenants/acc_ TENANT /python-ssl-certs.pem 
+
+ Configure the Cortex XSOAR server settings. 
+
+ Go to Settings → About → Troubleshooting . 
+
+ In the Server Configuration section click Add Server Configuration . 
+
+ Key: python.docker.use_custom_certs 
+
+ Value: true 
+
+ (Multi-tenant) In a multi-tenant deployment, the server configuration must be added to each tenant. 
+
+ Save the server configuration. 
+
+ Restart the Cortex XSOAR server to verify that all existing Docker images are relaunched. 
+
+ (Optional) Add the certificate files to engines. 
+
+ Configure each engine to use the /var/lib/demisto/python-ssl-certs.pem file. 
+
+ Ensure that you have the following directory on the engine host. 
+
+ /var/lib/demisto 
+
+ Set the demisto user as the directory owner with 0700 permissions. 
+
+ Copy the python-ssl-certs.pem file to the /var/lib/demisto directory . 
+
+ Add the following configuration to either the engine configuration file (UI) or to the d1.conf file. 
+
+ "python.docker.use_custom_certs": true 
+
+ Restart the engine. 
+
+ Verify that the configuration was added successfully. 
+
+ If you are using an SSL inspection proxy (MiTM) and want to verify that the certificates are properly set, you can run the following command, which will fetch from www.google.com using HTTPS, and print the headers of the response: !py script="import requests; print(requests.get('https://google.com').headers)" . 
+
+ After you save the server configuration, Docker images that are launched by the Cortex XSOAR server will contain the certificates file mounted in the following path: 
+
+ /etc/custom-python-ssl/certs.pem 
+
+ Additionally, the following environment variables will be set with the value of the certificates file path, which enables standard Python HTTP libraries to automatically trust the certificates (without code modifications): 
+
+ REQUESTS_CA_BUNDLE 
+
+ SSL_CERT_FILE 
+
+ If you are developing your own integration (BYOI) and using non-standard HTTP libraries, you might need to include specific code that will trust the passed certificates file when the environment variable SSL_CERT_FILE is set. In these cases, always use the value in the environment variable as the path for the certificates file, and do not hard code the mounted path specified above. For example: 
+
+ The Python SSL library will check the SSL_CERT_FILE environment variable only when using OpenSSL. If you are using a Docker image that uses LibreSSL , the SSL_CERT_FILE environment variable will be ignored. 
+
+ You can do additional TLS/SSL troubleshooting . 
+
+ Previous Docker Installation 
+
+ Next Docker Images in Cortex XSOAR 
+
+ Last updated 3 days ago 
+
+ Was this helpful?

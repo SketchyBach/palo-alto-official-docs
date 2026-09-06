@@ -1,0 +1,32 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x-rn/
+fetched_at: 2026-09-06T11:18:38Z
+source: cortex-platform
+---
+
+# Release Information | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Release Notes 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x 
+
+ Release Information 
+
+ Cortex XDR 5.x sets a new standard in Extended Detection and Response (XDR) solutions, offering comprehensive protection, detection, and response capabilities. By analyzing data from the Cortex endpoint and various third-party sources, it effectively counters evolving threats in the cybersecurity landscape. Cortex XDR 5.x goes beyond traditional endpoint security, providing full visibility across network, endpoint, cloud, third-party, and identity sources. 
+
+ To view the current operational status of Palo Alto Networks cloud services including Cortex XDR 5.x apps, see https://status.paloaltonetworks.com/ . We recommend that you subscribe to the status page for service-related announcements. 
+
+ If you are upgrading from XDR 3 to XDR 5, review the essential release information outlining the key changes between these major versions. XDR 5 introduces significant updates to the user experience, including updated terminology designed to support a smoother and more effective investigation workflow. 
+
+ Next Features introduced in 2026 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

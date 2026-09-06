@@ -1,0 +1,38 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/configure-cortex-xsoar/dashboards-and-reports
+fetched_at: 2026-09-06T11:21:00Z
+source: cortex-platform
+---
+
+# Dashboards and Reports | 8.5 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.5 (EoL) 
+
+ Configure Cortex XSOAR 
+
+ Cortex XSOAR 8.5 On-prem EoL 
+
+ Dashboards and Reports 
+
+ Documentation for Cortex XSOAR On-prem 8.5 (EoL). 
+
+ Create or modify dashboards and reports, schedule automated reports for recurring needs, and design custom widgets to suit your visualization goals. Leverage fully customizable widgets from different sources and display them in clear formats like graphs, pie charts, and text. 
+
+ Previous Search incidents for Timer/SLAs 
+
+ Next Dashboards 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

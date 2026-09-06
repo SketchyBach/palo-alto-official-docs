@@ -29,4 +29,4 @@ python scripts/search.py "Cortex XDR broker VM" --mode answer --json
 
 Internet access is needed only when refreshing the corpus. Existing local searches and audits work offline.
 
-The reconstructed corpus contains 24,215 searchable records, including 55 official Idira portal pages protected by SHA-256 capture receipts and 175 verified exact-path replacements for stale PAN-OS links.
+The reconstructed corpus contains 44,309 searchable records, including 57 official Idira portal pages and 321 current authenticated KOI pages protected by SHA-256 capture receipts, plus 175 verified exact-path replacements for stale PAN-OS links.

@@ -1,0 +1,78 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/deployment-steps-and-checklist/onboard-the-kubernetes-connector/supported-kubernetes-distributions
+fetched_at: 2026-09-06T09:53:19Z
+source: cortex-platform
+---
+
+# Supported Kubernetes distributions | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Onboard and Configure 
+
+ Deployment steps and checklist 
+
+ Onboard the Kubernetes Connector 
+
+ Cortex Cloud Runtime 
+
+ Supported Kubernetes distributions 
+
+ Check which Kubernetes distributions Cortex Kubernetes Connector supports before deployment. 
+
+ The following are the supported Kubernetes platform versions for the Kubernetes connector (Posture Management). The table shows the latest version that is supported. We support n-3 versions of each supported Kubernetes environment. 
+
+ Kubernetes environment 
+
+ Notes 
+
+ Managed clusters 
+
+ Amazon Elastic Kubernetes Service (EKS) 
+
+ Note: Does not include EKS AutoMode. 
+
+ Microsoft Azure Kubernetes Service (AKS) 
+
+ Google Kubernetes Engine (GKE) 
+
+ Note: Does not include Autopilot. 
+
+ Managed OpenShift 
+
+ Managed OpenShift clusters are supported: 
+
+ Red Hat OpenShift Container Platform (OCP)- Self-hosted: 4.21.8 (Kubernetes 1.34.5) 
+
+ Red Hat OpenShift Container Platform (OCP)- ROSA (AWS): 4.20.15 (Kubernetes 1.33.5) 
+
+ Red Hat OpenShift Container Platform (OCP)- ARO (Azure): 4.20.15 (Kubernetes 1.33.6) 
+
+ Self-Managed 
+
+ We support every CNCF-certified Kubernetes solution. We've tested our solution on: 
+
+ Self-managed vanilla/on-premise Kubernetes clusters. 
+
+ Self-managed OpenShift Kubernetes clusters. 
+
+ Rancher Distributions (RKE and RKE2). 
+
+ Refer to the Kubernetes-platforms-supported page for the latest versions. 
+
+ Previous What's new in Kubernetes Connector? 
+
+ Next FedRAMP overview 
+
+ Last updated 10 days ago 
+
+ Was this helpful?

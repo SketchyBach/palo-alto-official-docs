@@ -1,0 +1,96 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/investigate-and-respond-to-threats/threat-intel-management/indicator-configuration/configure-threat-intelligence-management-playbooks-to-process-indicators
+fetched_at: 2026-09-06T10:34:06Z
+source: cortex-platform
+---
+
+# Configure Threat Intelligence Management playbooks to process indicators | 8.11 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.11 
+
+ Investigate and Respond to Threats 
+
+ Threat Intel Management 
+
+ Indicator configuration 
+
+ Cortex XSOAR 8.11 On-prem 
+
+ Configure Threat Intelligence Management playbooks to process indicators 
+
+ Configure Threat Intel Management playbooks in Cortex XSOAR 8.11 On-prem. 
+
+ TIM (Threat Intelligence Management) playbooks run on an indicator search query and are used for processing large numbers of incoming indicators from feeds. Feed integrations enable you to ingest indicators from external sources into Cortex XSOAR. Once indicators are in Cortex XSOAR, they can be enriched and assigned a verdict. Enriched indicators can be used for incident investigations in Cortex XSOAR and can be pushed to a SIEM or other external system. 
+
+ The TIM playbook performs an indicator query. For example, the query might return indicators using the from-feed tag. The TIM playbook runs using the indicators matching the query as an input. When configuring your TIM Playbook to use an indicator query, we recommend you first run your query on the main Threat Intel page, which enables you to view the indicators returned and verify you have the results you need for your playbook. Copy and paste the query into the playbook or save the query that you ran on the Threat Intel page and access that saved query from the playbook. Queries use a modified Lucene syntax. 
+
+ Note 
+
+ By default, a query run on the Threat Intel page is limited to the last 7 days, unless otherwise specified. This same limit does not apply when you enter the query in Playbook Inputs and Outputs, but you can add your required time filter to the query. 
+
+ If you do not have a TIM license, there are several limitations, such as the number of active feeds and indicators. For more information, see Understand Cortex XSOAR licenses . 
+
+ Large batches of indicators 
+
+ In most cases, the following workflow applies: 
+
+ If more than 1000 indicators are returned, the indicators are processed in batches of 1000. For example, if there are 4000 indicators returned, the playbook runs the first time on the first 1000. Each task receives 1000 indicators as a list, or if the task does not support lists, loops over the 1000 indicators. When the playbook reaches the end, it runs again with the next batch of 1000 indicators and repeats until all indicators have been processed. The playbook loops automatically through batches of indicators, you do not need to configure the playbook to loop. After all indicators have been processed, the playbook automatically closes the incident. You do not need to include a close incident task. 
+
+ Quiet mode 
+
+ TIM playbooks often process thousands of indicators. By default, quiet mode is enabled for TIM Playbooks. In quiet mode, entries are not written to the War Room and inputs and outputs are not presented for Work Plan tasks. For troubleshooting purposes, you can temporarily disable quiet mode during playbook development. Quiet mode can be disabled in the playbook settings or on a per-task basis. 
+
+ We strongly recommend that you have quiet mode enabled for any playbook that is in production, to prevent possible performance issues. 
+
+ Note 
+
+ While quiet mode is disabled, any changes you make to the playbook indicators query will turn quiet mode back on. 
+
+ TIM playbook tasks 
+
+ The Playbook search query returns all of the indicators that match a particular search, including all fields for each indicator. Individual tasks may only require a subset of that data. If you need to run different tasks for different types of indicators, use a conditional task and set the input to check for the indicator type. For example, in the TIM - Indicator Auto Processing playbook, the Are there IP results? conditional task searches for any IP indicators. If it finds any IP indicators, the condition is met. 
+
+ tim_playbook_query_indicator_type.png 
+
+ If no IP indicator types are found, the condition is not met and the playbook proceeds to the else branch. 
+
+ You can also use filters based on indicator attributes. For example, you can limit a task to only run on indicators where the type is IP. 
+
+ Note 
+
+ In the Get field, if you change playbookQuery.indicator_type to playbookQuery.value it returns the indicator values, such as the IP addresses. Using playbookQuery returns all of the indicator attributes, not only the indicator value. 
+
+ Process indicators using a TIM playbook workflow 
+
+ In most cases, the following workflow applies: 
+
+ Indicators are added to Cortex XSOAR through feed ingestion. You can configure your integration to automatically tag all new/updated indicators from a particular instance. For example, you can tag them using the from-feed tag. 
+
+ Customize a TIM playbook to process the indicators. 
+
+ Define a job to run that triggers the playbook when the indicators are fetched. 
+
+ When a feed has been completed and there is a change of content you can add a TIM playbook to process indicators to a job. Create a Job Triggered by Delta in a Feed that runs when the ingestion is completed. The job runs a TIM playbook, which performs an indicator query. For example, the query might return indicators using the from-feed tag, and that were added or modified since the last time the job that triggered the playbook was run. 
+
+ If you want to push the enriched indicators to a SIEM, you can set up a time-triggered job to run a playbook. 
+
+ To see how you can use a job to process indicators, see Create jobs to process indicators example . 
+
+ Previous Exclude indicators from enrichment 
+
+ Next Export indicators 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

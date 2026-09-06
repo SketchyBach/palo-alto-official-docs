@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/onboard-and-activate-cloud-account-in-scm/gcp-onboarding-prereq-and-steps/onboard-gcp-cloud-account-in-scm
-fetched_at: 2026-08-13T14:02:37Z
+fetched_at: 2026-09-06T11:16:54Z
 source: ai-security
 ---
 
 # Onboard GCP Cloud Account in Strata Cloud Manager Clear
 
-Onboard GCP Cloud Account in Strata Cloud Manager 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Onboard GCP Cloud Account in Strata Cloud Manager 
-
- Updated on 
-
- Tue Aug 11 09:28:58 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma AIRS Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- AI Model Security 
-
- AI Red Teaming 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Tue Aug 11 09:28:58 PDT 2026 
+ Aug 11, 2026 
 
  Focus 
 
@@ -96,7 +44,7 @@ Onboard GCP Cloud Account in Strata Cloud Manager
 
  Administration 
 
- AI Model Security 
+ AI Supply Chain Security 
 
  AI Red Teaming 
 
@@ -329,62 +277,4 @@ service_account_email = "panw-discovery-****@PROJECT_ID.iam.gserviceaccount.com"
 
  Next 
 
- Onboard Cloud Account in Azure 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- CN-Series 
-
- Firewalls 
-
- VM-Series 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Enterprise DLP 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Activation & Onboarding 
-
- Google Cloud Platform 
-
- Prisma AIRS 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Onboard Cloud Account in Azure

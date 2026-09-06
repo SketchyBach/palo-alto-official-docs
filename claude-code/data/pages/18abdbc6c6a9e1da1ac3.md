@@ -1,0 +1,34 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x-rn/cortex-xdr-release-information/features-introduced-in-2024-xdr/april-2024
+fetched_at: 2026-09-06T10:53:07Z
+source: cortex-platform
+---
+
+# April 2024 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Release Notes 
+
+ Cortex XDR 
+
+ Cortex XDR 3.x 
+
+ Release Information 
+
+ Features Introduced in 2024 
+
+ April 2024 
+
+ This section describes the new features and updates of the Cortex XDR 3.10 and Cortex XDR Agent 8.4 releases. 
+
+ Previous May 2024 
+
+ Next Release Highlights 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

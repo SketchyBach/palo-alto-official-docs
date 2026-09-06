@@ -1,0 +1,194 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/configure-cortex-xsoar/customize-and-configure-cortex-xsoar/machine-learning/train-a-phishing-classifier-on-non-english-languages
+fetched_at: 2026-09-06T10:48:40Z
+source: cortex-platform
+---
+
+# Train a Phishing Classifier on Non-English Languages | 6.12 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.12 (EoL) 
+
+ Configure Cortex XSOAR 
+
+ Customize and Configure Cortex XSOAR 
+
+ Machine Learning 
+
+ Cortex XSOAR 6.12 EoL 
+
+ Train a Phishing Classifier on Non-English Languages 
+
+ Train phishing classifiers for non-English emails in Cortex XSOAR 6.12. 
+
+ Cortex XSOAR contains out-of-the-box automations and playbooks, which are used to train phishing classifiers. By default, classifiers are configured to support phishing incidents containing English emails only. You can train a phishing classifier using emails in other languages through tokenization methods. 
+
+ Cortex XSOAR supports adjusted tokenization for the following languages: 
+
+ German 
+
+ French 
+
+ Spanish 
+
+ Portuguese 
+
+ Italian 
+
+ Dutch 
+
+ Although you need to train the classifier, you do not need to configure tokenization. For more information on how to configure these languages see Train a Classifier on Languages with Adjusted Tokenization . 
+
+ For all other languages, the language and tokenization method needs to be configured. For more information see Train a Classifier on Other Languages . 
+
+ Train a Classifier on Languages with Adjusted Tokenization 
+
+ Cortex XSOAR allows you to customize automations and playbooks to support phishing classifiers for languages other than English. Cortex XSOAR offers adjusted tokenization for the following languages: 
+
+ German 
+
+ French 
+
+ Spanish 
+
+ Portuguese 
+
+ Italian 
+
+ Dutch 
+
+ You need to configure the following automations and playbooks: 
+
+ DBotPreProcessTextData 
+
+ WordTokenizerNLP 
+
+ DBotPredictPhishingWords 
+
+ DBot Create Phishing Classifier V2 
+
+ Go to Automation . 
+
+ Configure the language for DBotPreProcessTextData . 
+
+ Copy the DBotPreProcessTextData automation, by selecting Duplicate Automation . 
+
+ (Optional) Change the name of the duplicated automation to make it distinguishable. 
+
+ From the Advanced section, in the Docker image name field, type demisto/dl:languages1.0 . 
+
+ In the Arguments section, expand the language argument. 
+
+ In the Initial value field, change the language to train the classifier. 
+
+ Click Save Version . 
+
+ Configure the language for WordTokenizerNLP . 
+
+ Copy the WordTokenizerNLP automation, by selecting the Duplicate Automation . 
+
+ (Optional) Change the name of the duplicated automation to make it distinguishable. 
+
+ From the Advanced section, in the Docker image name field, type demisto/dl:languages1.0 . 
+
+ In the Arguments section, expand the language argument. 
+
+ In the Initial value field, change the language to train the classifier. 
+
+ Click Save Version . 
+
+ Configure the language for DBotPredictPhishingWords . 
+
+ Copy the DBotPredictPhishingWords automation by selecting Duplicate Automation . 
+
+ (Optional) Change the name of the duplicated automation to make it distinguishable. 
+
+ From the Advanced section, in the Docker image name field, type demisto/dl:languages1.0 . 
+
+ In the Arguments section, expand the language argument. 
+
+ In the Initial value field change the language to train the classifier. 
+
+ Click Save Version . 
+
+ Go to Playbooks . 
+
+ Search for DBot Create Phishing Classifier V2 to update the playbook. 
+
+ Copy the playbook, by selecting Duplicate Playbook . 
+
+ Select the Pre-process file task. 
+
+ From the dropdown menu, replace the automation with the duplicated version of DBotPreProcessTextData created in Step 2 . 
+
+ Click OK and Save Version . 
+
+ Train a Classifier on Other Languages 
+
+ To train a classifier on languages other than those referred to in Train a Classifier on Languages with Adjusted Tokenization , you need to configure the language and tokenization method. Tokenization is the method by which the classifier breaks up sentences and words to analyze threats appropriately. When the language for the classifier is configured to Other , the user can configure the method of tokenization by which to train a classifier on to one of the following options: 
+
+ Tokenization - (Default) automatically separate sentences by words 
+
+ Word - separates the text based on spacing 
+
+ Letter - separates the text based on charachters and symbols 
+
+ Follow the steps below to adjust the language and tokenization method by which to train a classifier on for other languages. 
+
+ Go to Automation . 
+
+ Search for DBotPreProcessTextData . 
+
+ Copy the automation by selecting Duplicate Automation . 
+
+ (Optional) Change the name of the duplicated script to make it distinguishable. 
+
+ From the Argument section, expand the tokenizationMethod field, and change the Initial value to the desired tokenization method. For example, byWord . 
+
+ Expand the language field and change the Initial value to Other . 
+
+ Click Save . 
+
+ Search for DBotPredictPhishingWords . 
+
+ Copy the automation, by selecting Duplicate Automation . 
+
+ (Optional) Change the name of the duplicated script to make it distinguishable. 
+
+ From the Argument section, expand the tokenizationMethod field, and change the Initial value to the desired tokenization method. For example, byWord . 
+
+ Expand the language field, and change the value to Other . 
+
+ Click Save . 
+
+ Navigate to Playbooks . 
+
+ Search for the DBot Create Phishing Classifier V2 playbook to update. 
+
+ Copy the playbook by selecting Duplicate Playbook . 
+
+ (Optional) Change the name of the duplicated playbook to make it distinguishable. 
+
+ Select the Pre-process file task. 
+
+ From the dropdown menu replace the automation with the duplicated version of DBotPreProcessTextData created in step 2. 
+
+ Click OK and Save Version . 
+
+ Previous Phishing Classifier Demo 
+
+ Next Additional Machine Learning Scripts 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

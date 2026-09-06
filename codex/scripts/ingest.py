@@ -10,6 +10,21 @@ from urllib.request import Request, urlopen
 from urllib.robotparser import RobotFileParser
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DB=DATA/"index.sqlite3"; PAGES=DATA/"pages"
+_fts_rowids = {}
+
+def replace_fts(c, u, title, body, source):
+    """Avoid a full FTS URL scan on every page in a bulk refresh."""
+    if c not in _fts_rowids:
+        mapping = {}
+        for rowid, url in c.execute("SELECT rowid,url FROM pages_fts"):
+            mapping.setdefault(url, []).append(rowid)
+        _fts_rowids[c] = mapping
+    mapping = _fts_rowids[c]
+    for rowid in mapping.pop(u, []):
+        c.execute("DELETE FROM pages_fts WHERE rowid=?", (rowid,))
+    if body:
+        rowid = c.execute("INSERT INTO pages_fts VALUES(?,?,?,?)", (u,title,body,source)).lastrowid
+        mapping[u] = [rowid]
 
 class PageParser(HTMLParser):
     SKIP={"script","style","svg","noscript","template"}; BLOCK={"p","div","section","article","main","li","tr","h1","h2","h3","h4","pre","br"}
@@ -92,8 +107,8 @@ def save(c,u,source,status,parser,headers,error=None):
     hint=(parser.meta.get("article:modified_time") or parser.meta.get("last-modified") or parser.meta.get("date") or "") if parser else ""
     c.execute("""INSERT INTO pages VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,1) ON CONFLICT(url) DO UPDATE SET source=excluded.source,title=COALESCE(NULLIF(excluded.title,''),pages.title),body=COALESCE(NULLIF(excluded.body,''),pages.body),fetched_at=excluded.fetched_at,checked_at=excluded.checked_at,modified_hint=COALESCE(NULLIF(excluded.modified_hint,''),pages.modified_hint),etag=COALESCE(excluded.etag,pages.etag),last_modified=COALESCE(excluded.last_modified,pages.last_modified),content_hash=COALESCE(excluded.content_hash,pages.content_hash),http_status=excluded.http_status,error=excluded.error,local_path=COALESCE(excluded.local_path,pages.local_path)""",
       (u,source,title,body,stamp if body else (old[0] if old else stamp),stamp,hint,headers.get("ETag") if headers else None,headers.get("Last-Modified") if headers else None,digest,status,error,rel if body else (old[1] if old else None)))
-    c.execute("DELETE FROM pages_fts WHERE url=?",(u,))
-    if body: c.execute("INSERT INTO pages_fts VALUES(?,?,?,?)",(u,title,body,source))
+    if body:
+        replace_fts(c,u,title,body,source)
 def main():
     a=argparse.ArgumentParser(); a.add_argument("--config",default=str(ROOT/"sources.json")); a.add_argument("--source",action="append"); a.add_argument("--url",action="append",help="Refresh only an exact allowlisted URL; repeatable"); a.add_argument("--max-pages",type=int,default=500); a.add_argument("--max-depth",type=int,default=8); x=a.parse_args()
     raw=Path(x.config).read_bytes(); cfg=json.loads(raw); pol=cfg["policy"]; domains=set(pol["allowed_domains"]); selected=[s for s in cfg["sources"] if not x.source or s["name"] in x.source]; prefixes=[p for s in selected for p in s["include_prefixes"]]; queue=[(u,s["name"],0) for s in selected for u in s["seed_urls"]]

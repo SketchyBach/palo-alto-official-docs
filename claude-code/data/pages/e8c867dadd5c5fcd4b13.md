@@ -1,0 +1,98 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.9/configure-cortex-xsoar/engines/manage-engines
+fetched_at: 2026-09-06T10:37:33Z
+source: cortex-platform
+---
+
+# Manage engines | 8.9 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.9 (EoL) 
+
+ Configure Cortex XSOAR 
+
+ Engines 
+
+ Cortex XSOAR 8.9 On-prem EoL 
+
+ Manage engines 
+
+ Manage engines and load-balancing groups in Cortex XSOAR 8.9 On-prem. 
+
+ You can manage your engines and load-balancing groups by going to Settings & Info → Settings → Integrations → Engines . 
+
+ You can view engine names, hosts, status, connection, and other engine information. 
+
+ Note 
+
+ In the Name column, if the service name starts with a d1 prefix, it is a multiple engine. 
+
+ You can do the following: 
+
+ Option 
+
+ Description 
+
+ Load-Balancing Group 
+
+ Separate load-balancing groups have several uses. For example: 
+
+ Use separate load-balancing groups for different integrations and instances. Create Load-Balancing groups for certain tasks, which can help segregate the infrastructure of critical integrations. 
+
+ Managed Security Service Providers may want to split internal engines and SaaS product engines. 
+
+ If you have multiple AWS accounts that are not connected and do not want a single point of failure for AWS integrations that use STS. 
+
+ You can do the following: 
+
+ Add/remove engines to a load-balancing group 
+
+ You can only add the engine to the load-balancing group after you have connected the engine. 
+
+ If you want to remove the last engine from a specific load-balancing group and one or more integration instances use that engine, you will get an error. Before moving the engine, in the integration instance settings, you need to update the Run on field to a different engine or no engine. 
+
+ Create load-balancing groups 
+
+ When selecting Load-Balancing Group → Add to new group , you can create multiple load-balancing groups and decide which engines are part of each group. 
+
+ Users can move an engine from one group to another. A group will be deleted when the last engine is removed from it. 
+
+ Each engine can only belong to one group. 
+
+ Upgrade Engine 
+
+ Relevant for Shell installation only. If you didn't install an engine using the Shell installation you will need to remove the engine and do a fresh installation. For more information, see 
+
+ Get Logs 
+
+ Logs are located in /var/log/demisto . For multiple engines, logs are located in /var/log/demisto/ <name of the engine> . For example, var/log/demisto.d1_e1 . 
+
+ Edit Configuration 
+
+ Relevant for Shell installation only. Enables you to edit the d1.conf file without having to access the file on your remote machine. For more information, see Configure engines . 
+
+ Download Configuration 
+
+ Download the d1.conf file to view the attribute values. Useful when migrating from Cortex XSOAR 6 to Cortex XSOAR 8. 
+
+ Delete Engine 
+
+ Deletes an engine from Cortex XSOAR. To remove the engine from your remote machine, see Remove an engine . 
+
+ Previous Troubleshoot Podman 
+
+ Next Upgrade an engine 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

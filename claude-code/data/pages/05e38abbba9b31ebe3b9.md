@@ -1,0 +1,36 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/troubleshoot-and-reference
+fetched_at: 2026-09-06T11:18:58Z
+source: cortex-platform
+---
+
+# Troubleshoot | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 SaaS Documentation 
+
+ Troubleshoot and Reference 
+
+ Cortex XSOAR 8 (SaaS) 
+
+ Troubleshoot 
+
+ Troubleshoot errors in Cortex XSOAR 8 SaaS. 
+
+ Troubleshoot errors, view integration and management audit logs, set up a Syslog Server, and configure management audit notification forwarding. 
+
+ Previous Manage Threat Intel Reports 
+
+ Next Logs 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

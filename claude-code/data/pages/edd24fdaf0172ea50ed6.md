@@ -1,0 +1,86 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/configure-cortex-xsoar/slas/slas-in-cortex-xsoar
+fetched_at: 2026-09-06T10:25:20Z
+source: cortex-platform
+---
+
+# SLAs in Cortex XSOAR |  8.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.14 
+
+ Configure Cortex XSOAR 
+
+ SLAs 
+
+ Cortex XSOAR 8.14 On-prem 
+
+ SLAs in Cortex XSOAR 
+
+ Learn how SLA fields track investigation deadlines in Cortex XSOAR 8.14 On-prem. 
+
+ SLAs in Cortex XSOAR 
+
+ SLAs are an important aspect of case management in Cortex XSOAR. SLAs enable you to define specific goals and responsibilities and improve quality and availability. Analysts can prioritize incidents and ensure that those incidents are handled efficiently. Managers can see an overview of those incidents, improve reaction time, and measure success. 
+
+ You can do the following: 
+
+ Action 
+
+ Description 
+
+ Define SLAs in incident types and fields 
+
+ Incorporate SLAs into your incidents to set how long an action should take. SLAs are not enforced inherently, but can be configured to be acted upon by the user. You can view how much time is left before the SLA becomes due, as well as configure actions to take if the SLA passes its due date. 
+
+ You can define an SLA in an incident type, which occurs when the incident is created. These global settings apply when the incident opens until closed. Some out-of-the-box incident types have the SLA defined by default. For more information, see Configure an SLA in an incident type . 
+
+ You can also define an SLA in an incident field for more granular control, such as setting the time to assign an incident. For more information, see Configure Timer/SLA fields . 
+
+ When set up, you can see the SLAs for the incident type and incident fields in the incident table and incident layout. 
+
+ Set up Timers 
+
+ Timer incident fields can be started, stopped, or paused in a playbook, script, or manually in the CLI. These fields give you granular control when tracking the response to a given incident. For example, the Time to Assignment incident field tracks the time to assign an incident that can be started, stopped, or paused. 
+
+ Note 
+
+ Timers measure how much time has passed since the event. SLAs measure how much time is left until the event. 
+
+ SLA scripts 
+
+ You can use SLA scripts to act on breaches, such as sending an email when a breach occurs, or specific changes to an incident field, such as a change of incident owner. Cortex XSOAR includes out-of-the-box scripts or you can create your own script. For more information, see Automate changes to incident fields using SLA scripts . 
+
+ Using the CLI 
+
+ If you want to set or change the SLA for an incident type or field you can use the setIncident command in the CLI. For timers, you can use commands such as startTimer , stopTimer , and pauseTimer . For more information, see Use SLA and Timer field commands manually in the CLI . 
+
+ Incident layouts 
+
+ When you configure the Timer/SLA fields, you can add them to your incident layout to view the status of the SLA, if any of the SLAs are overdue, and if so, by how much. You can also view the number of cases that are at risk of passing the SLA or are already late. You can set the risk threshold for each incident field or rely on the default setting, which is 72 hours. You can change the default threshold by adding a server configuration. See Configure the Global Risk Threshold . 
+
+ Dashboards 
+
+ Cortex XSOAR comes out-of-the-box with an SLA dashboard, where you can view SLA information, such as within SLA by type, late SLA by type, mean time to resolution, etc. You can also generate reports such as late incidents, open incidents, etc. 
+
+ Further resources 
+
+ Watch the following video to see how to set up SLA/Timers in your use case: SLAs and Timers . 
+
+ Previous SLAs 
+
+ Next Configure an SLA in an incident type 
+
+ Last updated 4 hours ago 
+
+ Was this helpful?

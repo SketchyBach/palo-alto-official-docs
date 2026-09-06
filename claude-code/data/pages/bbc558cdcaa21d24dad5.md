@@ -1,0 +1,103 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/about-cortex-cli/cortex-cli-for-api-security
+fetched_at: 2026-09-06T09:37:23Z
+source: cortex-platform
+---
+
+# Cortex CLI for API Security | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSIAM 
+
+ Cortex XSIAM Documentation 
+
+ Reference and developer docs 
+
+ About Cortex CLI 
+
+ Cortex XSIAM 
+
+ Cortex CLI for API Security 
+
+ Use Cortex CLI for API Security scans in Cortex XSIAM. 
+
+ API Security testing is implemented in Cortex Cloud through the Cortex CLI. 
+
+ This testing evaluates APIs for vulnerabilities and misconfigurations using fuzzing techniques to ensure secure data transmission, prevent unauthorized access, and to ensure that the API behaves as expected under unexpected or malformed input. 
+
+ Prerequisite 
+
+ Ensure you have the required user permissions. Refer to About Cortex CLI for more information 
+
+ Onboard and install the Cortex CLI. Refer to Connect Cortex CLI for more information 
+
+ Ensure your application exposes APIs and provides a corresponding OpenAPI Specification file 
+
+ Ensure that you have installed Java v 11 and above 
+
+ Authentication 
+
+ The authentication file schema defines the authentication method (such as JWT, Basic) used to authorize connections to your scanned application. The following example provides configurations examples for common methods, including Basic authentication, API Keys and bearer tokens. 
+
+ EXAMPLE: Authentication File Schema Example 
+
+ Ask Copy 
+
+ type: headers 
+ creds: 
+ name: <header name> 
+ value: <header value> 
+ ------------------------------------ 
+ For basic auth 
+ type: basic 
+ creds: 
+ username: {USERNAME} 
+ password: {PASSWORD} 
+ ------------------------------------ 
+ For API Keys 
+ type: headers 
+ creds: 
+ name: x-api-key 
+ value: {API key} 
+ ------------------------------------ 
+ For Bearer tokens 
+ type: headers 
+ creds: 
+ name: Authorization 
+ value: Bearer {BEARER_TOKEN} 
+
+ Run API Security scans 
+
+ To scan API Security, run: 
+
+ Output 
+
+ The API Security scan generates a detailed scan report that includes: 
+
+ Findings : These include vulnerabilities and risks identified in the scanned application's APIs, such as SQL Injection, sensitive data leaks, and other issues 
+
+ Errors : This section lists error responses returned by the scanned application 
+
+ Metadata : Information such as runtime details, scan status (success or failure), scan duration, hostname and scan parameters 
+
+ API Security scan report schema 
+
+ Review the API Security scan report schema for report fields and types. 
+
+ API Security scan output example 
+
+ Review the API Security scan output example to see a complete report. 
+
+ Previous Cloud Workload Protection command line reference 
+
+ Next Cortex CLI API Security command line reference guide 
+
+ Last updated 20 days ago 
+
+ Was this helpful?

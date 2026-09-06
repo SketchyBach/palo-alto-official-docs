@@ -1,0 +1,306 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.6/configure-cortex-xsoar/incident-configuration/incident-customization/create-an-incident-field
+fetched_at: 2026-09-06T11:26:36Z
+source: cortex-platform
+---
+
+# Create an incident field | 8.6 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.6 (EoL) 
+
+ Configure Cortex XSOAR 
+
+ Incident configuration 
+
+ Incident Customization 
+
+ 8.6 On-prem Cortex XSOAR EoL 
+
+ Create an incident field 
+
+ Create incident fields in Cortex XSOAR On-prem 8.6 (EoL). 
+
+ Incident fields are used to accept or populate incident data coming from incidents. These fields are added to incident layouts and are mapped using classification and mapping. 
+
+ Creating incident fields is an ongoing process. You can create fields from information ingested from third-party integrations. As you learn more about your needs and the capabilities of your third-party integrations, you can continually add new fields to capture the most relevant information. 
+
+ When investigating an incident, an analyst can easily add relevant information to the fields in the layout. Incident fields can be populated by incident team members during an investigation at the beginning of the investigation or before closing the investigation. 
+
+ Note 
+
+ In the CLI, you can set and update all system incident fields using the setIncident command, where each field is a command argument. 
+
+ Field types 
+
+ You can create the following field types: 
+
+ Field Type 
+
+ Description 
+
+ Attachments 
+
+ Enables the user to add an attachment, such as .doc, malicious files, reports, and incident images. 
+
+ Boolean 
+
+ Checkbox 
+
+ Date picker 
+
+ Adds the date to the field. 
+
+ Grid (table) 
+
+ Include an interactive, editable grid as a field type for selected incident types or all incident types. To see how to create a grid field and to use a script, see Incident field trigger scripts . 
+
+ When you select Grid (table) you can format the table and determine if the user can add rows. 
+
+ HTML 
+
+ Create and view HTML content, which can be used in any incident type. 
+
+ Note 
+
+ The following HTML tags are not permitted: blockquote , del , dd , div , dl , dt , fieldset , form , h1 , h2 , h3 , h4 , h5 , h6 , hr , iframe , ins , li , math , noscript , ol , pre , p , script , style , table , ul , address , article , aside , canvas , details , dialog , figcaption , figure , footer , header , hgroup , main , nav , output , progress , section , video . 
+
+ The following CSS tags are not permitted: background-color , text-align , font-size , font-family , font-weight , color , line-height , border-style , border , page-break-inside , tablelayout , padding , background-size , display , padding-top , padding-right , padding-bottom , padding-left , text-size-adjust , break-inside , word-break , width , height , -ms-text-size-adjust , -webkit-text-size-adjust . 
+
+ Long text 
+
+ Long text is analyzed and tokenized, and entries are indexed as individual words, enabling you to perform advanced searches and use wildcards. 
+
+ Long text fields can't be sorted and used in graphical dashboard widgets. 
+
+ While editing a long text field, pressing Enter will create a new line (case is insensitive). 
+
+ Add a placeholder, if required. 
+
+ Markdown 
+
+ Add markdown-formatted text as a Template that will be displayed to users in the field after the indicator has been created. Markdown lets you add basic formatting to text to provide a better end-user experience. 
+
+ Multi select / Array 
+
+ Select the following options: 
+
+ Multi-select from a (static) pre-filled list. 
+
+ An empty array field for the user to add one or more values as a comma-separated list. 
+
+ Add a placeholder, if required. 
+
+ Number 
+
+ Can contain any number. Default is 0. 
+
+ Role 
+
+ Role assigned to the incident. Determines which users (by role) can view the incident. 
+
+ Short Text 
+
+ Short text is treated as a single unit of text and is not indexed by word. Advanced search, including wildcards, is not supported. 
+
+ Short text fields are case-sensitive by default, but can be changed to case-insensitive when creating the field. 
+
+ While editing a short text field, pressing Enter will save and close. 
+
+ Maximum length 60,000 characters. 
+
+ Recommended use is one-word entries. Examples: username, email address, etc. 
+
+ Single select 
+
+ Select a value from a list of options. Add comma-separated values. 
+
+ Tags 
+
+ Accepts a single tag or a comma-separated list, not case-sensitive. 
+
+ Add a placeholder, if required. 
+
+ Timer/SLA 
+
+ View how much time is left before an SLA becomes past due, as well as configure actions to take if the SLA does pass. 
+
+ Note 
+
+ Incidents sorted using an SLA/Timer field are sorted by the due date of the SLA field. 
+
+ URL 
+
+ Add a URL when completing the field. 
+
+ User 
+
+ A user in Cortex XSOAR. 
+
+ How to create a field 
+
+ Select Settings & Info → Settings → Object Setup → Incidents → Incident Fields → New Field . 
+
+ To edit an existing incident field, right-click the field name and select Edit . 
+
+ Select the relevant field type. 
+
+ Add the following information: 
+
+ Parameter 
+
+ Description 
+
+ Mandatory 
+
+ If selected, this field is mandatory when used in a form. 
+
+ Field Name 
+
+ A meaningful display name for the field. After you type a name, you will see below the field that the Machine name is automatically populated. The field’s machine name is applicable for searching and the CLI. 
+
+ Note 
+
+ If you try to create a new incident field with a name that already exists in the system, such as Account , you may receive a message like this: 
+
+ [Could not create incidentfield with ID '' and name 'Account'.Field already exists as a builtin field (100709)]. 
+
+ If so, select a different name as the incident field is already reserved for system use. 
+
+ You should not create a custom field named reason as it is a saved keyword in the tenant. 
+
+ Tooltip 
+
+ An optional tooltip for the field. 
+
+ In the Basic Settings tab, define the values according to the selected field type. 
+
+ Parameter 
+
+ Description 
+
+ Placeholder 
+
+ Optional text to display in the field when it is empty. This text will appear in the layout, but not in the created incident. Available for Short text, Long text, Multi-select / Array, and Tags. 
+
+ Values 
+
+ A comma-separated list of values that are valid for the field. 
+
+ If selecting a TImer/SLA field, define the following: 
+
+ Parameter 
+
+ Description 
+
+ SLA 
+
+ Determine the amount of time this item needs to be resolved. If no value is entered, the field serves as a counter. 
+
+ Risk Threshold 
+
+ Determine the point in time at which an item is considered at risk of not meeting the SLA. By default, the threshold is 3 days, which is defined in the global system parameter. 
+
+ Run on SLA Breach 
+
+ In the Run on SLA Breach field, select the script to run when the SLA time has passed. For example, email the supervisor or change the assignee. 
+
+ Note 
+
+ Only scripts to which you have added the SLA tag appear in the list of scripts that you can select. 
+
+ If you are creating a Grid (table) field, in the Grid tab, define the following values. 
+
+ To enable users to add/remove rows in the grid, select the User can add rows field. If selected, the user can add rows but not columns. 
+
+ Manage rows and columns. You can move the columns and add/delete rows and columns (using the + and - signs). How you design the grid determines how it appears to users. 
+
+ Configure each column by clicking the settings button in each column. Add the column name, select whether the column is mandatory, and the field type. If you select Lock , the value for that field is static (not editable). If you do not select the Lock checkbox (default), users can perform inline editing. 
+
+ In the Attributes tab, define the following: 
+
+ Field 
+
+ Description 
+
+ | Script to run when field value changes | 
+
+ The script dynamically changes the field value when script conditions are met. For a script to be available, it must have the field-change-triggered-indicator tag when defining the script. 
+
+ For more information, see Incident field trigger scripts . 
+
+ | | Run the field triggered script after the new field value is saved | 
+
+ When configuring a field trigger script, you have the following options: 
+
+ Unchecked (recommended for incident modification) 
+
+ Leave unchecked for the script to execute before the incident is stored in the database. This enables the script to modify the incident field values using commands like !setIncident or other functions, such as demisto.set. Useful in most cases, including performing validations and starting and stopping Timer/SLA fields. 
+
+ Checked 
+
+ The script executes after the incident is stored in the database. This mode is intended for actions that use the new field value but do not change the incident itself (such as logging data to an external service). 
+
+ Note 
+
+ If you check Run the field triggered script after the new field value is saved : 
+
+ Inability to modify an incident 
+
+ The script cannot modify any incident field, including the field that triggered the script or any other custom field. 
+
+ setIncident 
+
+ Any attempt within the script to use demisto.executeCommand("setIncident" ) (for example, to update a custom field with a new value) does not update the context data. The War Room may incorrectly show an entry suggesting the field value was changed. 
+
+ | | Field display script | Determines which fields display in forms, as well as the values that are available for single-select and multi-select fields. For more information, see Create Dynamic Fields in Incident Forms. | | Add to all incident types | Determines for which incident types this field is available. By default, fields are available to all incident types. To change this, clear the Add to all Incident types checkbox and select the specific incident types to which the field is applicable. For example, you may want to limit the field to Access, Malware, and Network incident types. | | Default display on | Determines at which point the field is available. For more information, see Incident Field Examples. | | Edit Permissions | Determines whether only the owner of the incident can edit this field. | | Indexing Make data available for search | 
+
+ Determines if the values in these fields are available when searching. 
+
+ Note 
+
+ In most cases, Cortex XSOAR recommends selecting this checkbox so that values in the field are available for indexing and querying. However, in some cases, to avoid adverse effects on performance, you should clear this checkbox. For example, if you are ingesting an email to an email body field, we recommend that you not index the field. 
+
+ | 8. Save the field. 
+
+ Ask Copy 
+
+ If you subsequently edit the field, you can select **Don't show in the incidents layout**. If selected, the incident field does not appear in the layout, but the data is displayed in the context data. 
+
+ 9. Add the field to an incident layout. 10. (Optional) In the incident type, map the incident field, so the incident field is automatically updated, without the analyst having to change it. 
+
+ Incident field examples 
+
+ The following section shows several examples of common fields used in real-life incidents. 
+
+ False positive 
+
+ Below is an example of a mandatory False Positive field, which will be completed when the incident is closed. The Field can have a value Yes or No . The Administrator can query or run a report based on this field. After this field is added, all incidents need to complete this field, before an incident can be marked closed. 
+
+ new-incident-field-basic.png 
+
+ new-incident-field-attributes.png 
+
+ SLA fields 
+
+ The following SLA field can be used to trigger a notification when the status affecting the SLA of an incident changes. In this example, if the SLA is breached an email is sent to the owner's supervisor. 
+
+ sla-field.png 
+
+ Previous Create an incident type 
+
+ Next Incident field trigger scripts 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

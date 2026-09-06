@@ -7,7 +7,7 @@ This private repository contains two portable versions of the same verified offi
 
 Both versions include an official-only searchable SQLite index. Private field-support email evidence, caches, and generated ZIP files are intentionally excluded.
 
-The committed corpus currently reconstructs 24,215 searchable records. This includes 55 browser-captured pages from the official Idira portal with SHA-256 receipts. It also includes an audited map for 175 stale Palo Alto URLs whose exact document paths exist in newer live PAN-OS versions. Original failed-fetch evidence is retained in the maintenance workspace; it is not presented as page content.
+The committed corpus currently reconstructs 44,309 searchable records. This includes 57 browser-captured pages from the official Idira portal and 321 current authenticated KOI pages, all protected by SHA-256 receipts. It also includes an audited map for 175 stale Palo Alto URLs whose exact document paths exist in newer live PAN-OS versions. Original failed-fetch evidence is retained in the maintenance workspace; it is not presented as page content.
 
 Run the integrity audit from either directory with Python 3.10 or newer:
 

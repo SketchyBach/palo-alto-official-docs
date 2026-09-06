@@ -1,0 +1,78 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/storage/appsec-gcp-59
+fetched_at: 2026-09-06T11:14:18Z
+source: cortex-platform
+---
+
+# GCP SQL Server instance database flag 'contained database authentication' is enabled misconfiguratio | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Reference 
+
+ Alerts & Rules 
+
+ AppSec Rules 
+
+ IaC Security 
+
+ Storage 
+
+ GCP SQL Server instance database flag 'contained database authentication' is enabled misconfiguratio 
+
+ Rule Details 
+
+ Cortex AppSec Rule ID 
+
+ APPSEC_GCP_59 
+
+ Category - Subcategory 
+
+ Public Exposure - Database Endpoints 
+
+ Provider 
+
+ GCP 
+
+ Severity 
+
+ LOW 
+
+ Framework 
+
+ Terraform, Terraform Plan 
+
+ Mapped CSPM/KSPM Rule 
+
+ 6d3ee4c7-5d06-4987-8bc8-bbf51209d23e 
+
+ Impact 
+
+ A contained database includes all database settings and metadata required to define the database. It has no configuration dependencies on the instance of the Database Engine where the database is installed. Users can connect to the database without authenticating a login at the Database Engine level. Isolating the database from the Database Engine makes it possible to easily move the database to another instance of SQL Server. Contained databases have some unique threats that should be understood and mitigated by SQL Server Database Engine administrators. Most of the threats are related to the USER WITH PASSWORD authentication process, which moves the authentication boundary from the Database Engine level to the database level, We recommend you ensure the contained database authentication database flag for SQL Server database instances is disabled. To achieve this, set the value to Off . 
+
+ How to Fix 
+
+ Resource: google_sql_database_instance 
+
+ Arguments: database_version = "SQLSERVER_* " settings::database_flags: key:"contained database authentication", value: by default set to "on" [source,go] 
+
+ resource "google_sql_database_instance" "default" { name = "master-instance" database_version = "SQLSERVER_2017_STANDARD" region = "us-central1" 
+
+ settings { 
+
+ database_flags { 
+
+ name = "cross db ownership chaining"" 
+
+ value = "off" } } } 
+
+ Previous GCP SQL Server instance database flag 'cross db ownership chaining' is enabled misconfiguration dete 
+
+ Next GCP Storage Bucket does not have Access and Storage Logging enabled misconfiguration detected in cod 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,104 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/configure-cortex-xsoar/dashboards-and-reports/reports/configure-the-timezone-in-a-report
+fetched_at: 2026-09-06T10:36:11Z
+source: cortex-platform
+---
+
+# Configure the timezone in a report | 8.10 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.10 
+
+ Configure Cortex XSOAR 
+
+ Dashboards and Reports 
+
+ Reports 
+
+ Cortex XSOAR 8.10 On-prem 
+
+ Configure the timezone in a report 
+
+ Configure report time zones and time formats in Cortex XSOAR 8.10 On-prem. 
+
+ By default, Cortex XSOAR uses the UTC timezone in all reports. You can set a different timezone in the report. 
+
+ Note 
+
+ For most out-of-the-box reports, timezone and time formats in a widget cannot be changed unless you copy the report. Some out-of-the-box reports, such as Open Incidents , include a title widget which shows the date the report is generated according to the system default timezone. 
+
+ Configure the timezone for a specific report 
+
+ You may want to configure the timezone for a specific report to align event timestamps with the local time zone of the team reviewing the report. This provides context for event timelines and facilitates better analysis and decision making. 
+
+ For example, if your SOC team is based in New York but you need to generate a report for another team in London, configure the time zone to GMT to match the incident timestamps to the local time in London to make it easier for the London team to understand and respond to the events accurately. 
+
+ For a new report, select Dashboards & Reports → Reports → New Report . 
+
+ To edit an existing report, in the Reports page, locate the report you want to edit and click the Edit button. 
+
+ From the Time Zone dropdown list, select the timezone a specific report will display. 
+
+ Click Save or Save Version . 
+
+ Save Version enables you to view a history of the changes made to your report. You can revert to previous versions of the report. 
+
+ Configure the timezone for all reports 
+
+ We recommend keeping the default (UTC) timezone for all reports and configuring the timezone for specific reports only. However, you can change the timezone displayed in all reports by adding a server configuration. 
+
+ Go to Settings & Info → Settings → System → Server Settings → Server Configuration → Add Server Configuration . 
+
+ Add the following key and value: 
+
+ Key 
+
+ Value 
+
+ reports.time.zone 
+
+ The timezone for your report widgets. For example: 
+
+ Australia/Melbourne 
+
+ Canada/Pacific 
+
+ America/Los_Angeles 
+
+ America/New_York 
+
+ Asia/Jerusalem 
+
+ Asia/Kolkata 
+
+ CET 
+
+ EST 
+
+ GMT 
+
+ Europe/Berlin 
+
+ Europe/Brussels 
+
+ UTC (Default) 
+
+ Save the configuration. 
+
+ Previous Manage reports 
+
+ Next Troubleshoot script timeout for reports 
+
+ Last updated 47 minutes ago 
+
+ Was this helpful?

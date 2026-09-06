@@ -1,0 +1,118 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/investigate-and-respond-to-threats/incidents-and-indicators-investigation/investigate-an-incident/incident-tasks
+fetched_at: 2026-09-06T10:36:21Z
+source: cortex-platform
+---
+
+# Incident Tasks | 8.10 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.10 
+
+ Investigate and Respond to Threats 
+
+ Incidents and indicators investigation 
+
+ Investigate an incident 
+
+ Cortex XSOAR 8.10 On-prem 
+
+ Incident Tasks 
+
+ Manage playbook and to-do incident tasks in Cortex XSOAR 8.10 On-prem. 
+
+ Incident tasks are tasks for users to complete as part of an investigation, which is split according to the following: 
+
+ Task 
+
+ Description 
+
+ Playbook task 
+
+ A task that is part of the Work Plan (playbook) for an incident. When a playbook runs you can take action on any tasks that require attention in the Work Plan, such as assigning an owner, setting a due date, and completing the task. These tasks include the following subtypes: 
+
+ Automated tasks 
+
+ Manual tasks 
+
+ Manual conditional tasks 
+
+ Data collection tasks 
+
+ To-Do tasks 
+
+ An ad-hoc item that is not attached to the incident Work Plan. Create tasks for users to complete as part of an investigation. These are like a To-Do list that you keep in an investigation on an ad-hoc basis rather than the Work Plan which follows a pre-defined process. 
+
+ Note 
+
+ You can close an incident even if there are open playbook tasks or open To-Do tasks. 
+
+ You can view outstanding tasks in the INCIDENT TASKS pane, by clicking Side panels → Incident Tasks . 
+
+ Note 
+
+ You can also access the INCIDENT TASKS pane from the Case Info tab, in the WORK PLAN section, or the TO-DO TASKS section if it has been added to the layout. 
+
+ How to create a To-Do task 
+
+ In the incident, click Side panels and then select Incident Tasks . 
+
+ In the INCIDENT TASKS pane, click the To-Do Tasks tab. 
+
+ Note 
+
+ If your Case Info tab in the incident layout includes a TO-DO TASKS section or has a WORK PLAN section you can access the INCIDENT TASKS section directly. 
+
+ Click Add a task . 
+
+ Add the Task Details as required: 
+
+ Parameter 
+
+ Description 
+
+ Task Name 
+
+ A meaningful name for the task (mandatory). 
+
+ Task Description 
+
+ A meaningful description of the task that provides sufficient information for the assignee to complete the task. 
+
+ Assignee 
+
+ The user to assign to the task. You can only assign a single user per task. 
+
+ Set due date 
+
+ The due date for the task. If the task is not completed by this date, it is marked as overdue but is not a roadblock for the investigation. 
+
+ Tag the result with 
+
+ Tags to apply to the to-do task, so you can easily find it in the War Room. 
+
+ Save the task. 
+
+ Tip 
+
+ Use the !MyToDoTasksWidget command in the CLI to see all your assigned tasks in the War Room. You can also use the !Todo command to manage the task, such as add, assign, and complete. 
+
+ When you are added to a task, you receive a notification by email. To turn this on or off, go to <your name → User Preferences → Notifications and select the relevant section. 
+
+ Previous Limit access to investigations using access control 
+
+ Next Use the War Room in an investigation 
+
+ Last updated 35 minutes ago 
+
+ Was this helpful?

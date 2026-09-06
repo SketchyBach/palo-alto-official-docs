@@ -1,0 +1,294 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/onboard-and-configure/csp-onboarding/cloud-service-provider-permissions/alibaba-cloud-provider-permissions
+fetched_at: 2026-09-06T10:51:29Z
+source: cortex-platform
+---
+
+# Alibaba Cloud provider permissions | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Data Security 
+
+ Cortex Data Security Documentation 
+
+ Onboard and configure 
+
+ Cloud service provider (CSP) onboarding 
+
+ Cloud service provider permissions 
+
+ Alibaba Cloud provider permissions 
+
+ List of Alibaba Cloud permissions for use during Cortex Data Security onboarding to enable continuous monitoring in your cloud environment. 
+
+ When onboarding Alibaba Cloud, Cortex Data Security requests only the permissions needed for the security capabilities you enable, following the principle of least privilege. Alibaba Cloud onboarding is performed at the account scope using a single Terraform connector template that provisions a RAM role, a custom RAM policy, a role-policy attachment, and trusts an existing OIDC Identity Provider for Workload Identity Federation (WIF). 
+
+ Permissions fall into the following categories: 
+
+ Required for all onboarding :
+Base and Discovery Engine permission (IAM) capabilities. These provide the asset visibility and identity analysis that all Cortex Data Security features depend on, and cannot be deselected. 
+
+ Conditional upon selected capabilities : Currently not applicable .
+Additional Alibaba Cloud capabilities (Agentless Disk Scanning, Data Security Posture Management, Audit Logs, Registry Scanning, Serverless Scanning, and Automation) are not currently supported for Alibaba Cloud. Permissions for those capabilities will be added in a future release. 
+
+ The following reference tables are organized by capability, role, and then the list of the CSP permissions being requested as well as their purpose: 
+
+ Base (Including Discovery Engine) 
+
+ Base (Including Discovery Engine) 
+
+ Base and Discovery Engine permissions represent the foundational, mandatory role and policy assignments required to successfully onboard your Alibaba Cloud account to Cortex Data Security. They provide read-only inventory of Alibaba Cloud resources (Discovery) and read-only analysis of RAM identities and policies (Base). 
+
+ Important: The Base and Discovery Engine capabilities are mandatory. Cortex Data Security deploys them automatically when you onboard an Alibaba Cloud account. This onboarding includes no other capabilities. 
+
+ Base Cortex Data Security platform role: CortexPlatformRole-{suffix} 
+
+ This custom Alibaba Cloud RAM role contains the read-only permissions needed for Cortex Data Security to inventory Alibaba Cloud resources and analyze RAM users, roles, groups, and policies. The role is assumed by Cortex Data Security through Workload Identity Federation (WIF) with the customer’s existing OIDC Identity Provider. The attached policy grants no create, modify, or delete permissions on customer resources. 
+
+ Property 
+
+ Value 
+
+ Created when 
+
+ Account onboarding only. 
+
+ Assigned to 
+
+ Cortex Data Security (federated principal) via the customer-owned OIDC Identity Provider. 
+
+ Assignment scope 
+
+ Alibaba Cloud account. 
+
+ Used by 
+
+ Cortex Data Security asset discovery to read metadata across the Alibaba Cloud resource types Cortex Data Security scans, and Cortex Data Security permissions to read RAM identities, groups, and policy attachments. 
+
+ Regional scope 
+
+ All supported international regions for resource discovery; Global for RAM (RAM is a global service). 
+
+ Resources created 
+
+ RAM Role, Custom RAM Policy ( CortexPlatformReadOnlyPolicy-{suffix} ), RAM Role-Policy Attachment. 
+
+ CortexPlatformReadOnlyPolicy-{suffix} permissions 
+
+ The Terraform template provisions a custom RAM policy with read-only permissions grouped by Alibaba Cloud service. All permissions are scoped to Resource: "*" within the onboarded account, and every action is read-only ( Describe* , List* , Get* ). 
+
+ Permission 
+
+ Description 
+
+ actiontrail:DescribeTrails 
+
+ Read ActionTrail trail configurations. Cortex Data Security uses this to verify audit-logging coverage and trail destinations as part of security posture assessment. 
+
+ actiontrail:GetTrailStatus 
+
+ Read the operational status of an ActionTrail trail. Cortex Data Security uses this to verify that audit-logging is actively recording events. 
+
+ cen:DescribeCenInterRegionBandwidthLimits 
+
+ Read inter-region bandwidth limits configured on CEN instances. Cortex Data Security uses this for comprehensive asset discovery of network connectivity. 
+
+ cen:DescribeCens 
+
+ Read CEN instances. Cortex Data Security uses this to inventory cross-region/cross-account network connectivity for posture assessment. 
+
+ ecs:DescribeDisks 
+
+ Read ECS disk metadata. Cortex Data Security uses this to inventory block storage resources and identify disk properties and encryption states. 
+
+ ecs:DescribeInstanceRamRole 
+
+ Read the RAM role assigned to an ECS instance. Cortex Data Security uses this to map instance-to-identity relationships for posture assessment. 
+
+ ecs:DescribeInstances 
+
+ Read ECS instance metadata. Cortex Data Security uses this for comprehensive asset discovery and security posture assessment of compute resources across the Alibaba Cloud environment. 
+
+ ecs:DescribeSecurityGroupAttribute 
+
+ Read detailed rules of ECS security groups. Cortex Data Security uses this to evaluate whether security group rules are overly permissive. 
+
+ ecs:DescribeSecurityGroups 
+
+ Read ECS security groups. Cortex Data Security uses this for comprehensive asset discovery and to evaluate network security posture. 
+
+ nas:DescribeFileSystems 
+
+ Read NAS file system metadata. Cortex Data Security uses this to inventory file-storage resources and assess their configuration. 
+
+ oss:GetBucketInfo 
+
+ Read configuration and properties of OSS buckets, including ACLs, and encryption. Cortex Data Security uses this to assess storage security posture. 
+
+ oss:GetBucketLogging 
+
+ Read the logging configuration of OSS buckets. Cortex Data Security uses this to verify audit-logging coverage as part of security posture assessment. 
+
+ oss:GetBucketVersioning 
+
+ Read the versioning configuration of OSS buckets. Cortex Data Security uses this to assess data protection and recoverability. 
+
+ oss:ListBuckets 
+
+ List OSS buckets in the account. Cortex Data Security uses this to inventory object storage resources for asset discovery and security posture (CSPM) assessment. 
+
+ ram:GetLoginProfile 
+
+ Read the console login profile of a RAM user. Cortex Data Security uses this to assess interactive-login posture (for example, password presence and MFA enforcement). 
+
+ ram:GetPasswordPolicy 
+
+ Read the account-level password policy. Cortex Data Security uses this to evaluate password-policy compliance with security best practices. 
+
+ ram:GetPolicy 
+
+ Read RAM policy details. Cortex Data Security uses this to evaluate the contents of attached policies for permissions analysis. 
+
+ ram:GetPolicyVersion 
+
+ Read a specific version of a RAM policy. Cortex Data Security uses this to retrieve the active policy document for permissions analysis. 
+
+ ram:GetUserMFAInfo 
+
+ Read multi-factor authentication configuration for a RAM user. Cortex Data Security uses this to evaluate MFA enforcement as part of identity security posture management. 
+
+ ram:ListAccessKeys 
+
+ List access keys for a RAM user. Cortex Data Security uses this to assess access-key hygiene (existence, status, and age) as part of identity posture management. 
+
+ ram:ListGroups 
+
+ List RAM groups. Cortex Data Security uses this to assess group-based access control configurations. 
+
+ ram:ListPolicies 
+
+ List RAM custom and system policies. Cortex Data Security uses this to inventory authorization policies for permissions analysis. 
+
+ ram:ListPoliciesForGroup 
+
+ List policies attached to a RAM group. Cortex Data Security uses this to assess group-level effective permissions. 
+
+ ram:ListPoliciesForRole 
+
+ List policies attached to a RAM role. Cortex Data Security uses this to assess role-level effective permissions. 
+
+ ram:ListPoliciesForUser 
+
+ List policies attached to a RAM user. Cortex Data Security uses this to assess user-level effective permissions. 
+
+ ram:ListRoles 
+
+ List RAM roles in the account. Cortex Data Security uses this to inventory identities and map cross-account trust relationships. 
+
+ ram:ListUsers 
+
+ List RAM users in the account. Cortex Data Security uses this for cloud infrastructure entitlement management (CIEM) and identity posture assessment. 
+
+ rds:DescribeDBInstanceAttribute 
+
+ Read detailed attributes of an RDS instance. Cortex Data Security uses this to assess instance configurations such as networking and engine settings. 
+
+ rds:DescribeDBInstanceEncryptionKey 
+
+ Read the encryption-key configuration of an RDS instance. Cortex Data Security uses this to assess customer-managed-key usage for data at rest. 
+
+ rds:DescribeDBInstanceIPArrayList 
+
+ Read the IP allowlist (whitelist) of an RDS instance. Cortex Data Security uses this to evaluate database network-exposure posture. 
+
+ rds:DescribeDBInstanceSSL 
+
+ Read the SSL configuration of an RDS instance. Cortex Data Security uses this to verify encryption-in-transit for database connections. 
+
+ rds:DescribeDBInstanceTDE 
+
+ Read the Transparent Data Encryption (TDE) status of an RDS instance. Cortex Data Security uses this to assess database encryption posture. 
+
+ rds:DescribeDBInstances 
+
+ Read RDS database instance metadata. Cortex Data Security uses this for comprehensive asset discovery and database security posture assessment. 
+
+ slb:DescribeCACertificates 
+
+ Read CA certificates registered with SLB. Cortex Data Security uses this to inventory certificates used for mutual TLS. 
+
+ slb:DescribeLoadBalancerAttribute 
+
+ Read detailed attributes of an SLB load balancer, including listeners. Cortex Data Security uses this to assess listener and backend configurations. 
+
+ slb:DescribeLoadBalancerHTTPSListenerAttribute 
+
+ Read HTTPS listener attributes (including TLS version and certificate). Cortex Data Security uses this to assess encryption-in-transit posture for public listeners. 
+
+ slb:DescribeLoadBalancers 
+
+ Read SLB load balancer metadata. Cortex Data Security uses this for comprehensive asset discovery of load-balancing resources. 
+
+ slb:DescribeMasterSlaveServerGroups 
+
+ Read SLB master/slave server groups. Cortex Data Security uses this to map active-passive backend topologies for posture assessment. 
+
+ slb:DescribeVServerGroups 
+
+ Read SLB virtual server groups. Cortex Data Security uses this to map load-balancer backend targets for posture assessment. 
+
+ slb:ListTLSCipherPolicies 
+
+ List TLS cipher policies available to SLB. Cortex Data Security uses this to evaluate TLS configuration strength on HTTPS listeners. 
+
+ vpc:DescribeFlowLogs 
+
+ Read VPC flow-log configuration. Cortex Data Security uses this to verify network-logging coverage as part of security posture assessment. 
+
+ vpc:DescribeSslVpnServers 
+
+ Read SSL-VPN server configurations. Cortex Data Security uses this to assess remote-access posture and exposure. 
+
+ vpc:DescribeVpcs 
+
+ Read VPC metadata. Cortex Data Security uses this for comprehensive network asset discovery and security posture assessment. 
+
+ vpc:DescribeVpnConnection 
+
+ Read detailed configuration of a specific VPN connection. Cortex Data Security uses this to assess IPsec configurations and security posture. 
+
+ vpc:DescribeVpnConnections 
+
+ List VPN connections in the account. Cortex Data Security uses this to inventory hybrid-connectivity resources. 
+
+ Capabilities not currently supported 
+
+ The following Cortex Data Security capabilities are not currently supported for Alibaba Cloud onboarding. No permissions for these capabilities are requested: 
+
+ Agentless Disk Scanning (ADS) 
+
+ Data Security Posture Management (DSPM) 
+
+ Audit Logs (log collection) 
+
+ Registry Scanning 
+
+ Serverless Scanning 
+
+ Automations (auto-remediation) 
+
+ If and when these capabilities become available for Alibaba Cloud, Cortex Data Security will provision and document additional RAM roles and policies in dedicated sections of this page, following the same per-capability structure used for other cloud providers. 
+
+ Previous Oracle Cloud Infrastructure provider permissions 
+
+ Next Post-onboarding 
+
+ Last updated 2 hours ago 
+
+ Was this helpful?

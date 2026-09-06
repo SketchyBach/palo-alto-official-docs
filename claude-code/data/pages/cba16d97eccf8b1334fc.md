@@ -1,0 +1,34 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xdr-5-api/vulnerability-management
+fetched_at: 2026-09-06T11:20:12Z
+source: cortex-platform
+---
+
+# Vulnerability Management Overview | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex XDR 
+
+ XDR 5.x APIs 
+
+ Vulnerability Management 
+
+ Vulnerability Management Overview 
+
+ Managing vulnerabilities effectively is crucial to proactively maintaining the security, integrity, and availability of IT infrastructure. Cortex Cloud provides a comprehensive vulnerability management platform, helping you identify, assess, prioritize, and remediate security vulnerabilities across your entire IT infrastructure including endpoints, code, and cloud. 
+
+ Required license: Requires the Cortex Cloud Posture Management add-on. 
+
+ Previous Additional References 
+
+ Next Vulnerability Management 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,528 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-content-update-releases
+fetched_at: 2026-09-06T10:54:30Z
+source: cortex-platform
+---
+
+# Cortex XDR Content Releases | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Release Notes 
+
+ Content Releases 
+
+ Cortex XDR Content Update Releases 
+
+ Cortex XDR Content Releases 
+
+ 24This table shows the release notes published for each content update. 
+
+ The first four digits WXYZ , (such as 2270) indicate the major version number. 
+
+ See the release notes for the full build number WXYZ-abcdef (such as 2270-36657) 
+
+ You may see multiple builds with varied build numbers for a major version on your tenant. These builds include minor fixes. 
+
+ To view and access information about the On-prem version, visit the Customer Support Portal . 
+
+ Version 
+
+ Release Date 
+
+ Release Notes 
+
+ 2410 
+
+ 1-September-2026 
+
+ Release Notes 
+
+ 2400 
+
+ 25-August-2026 
+
+ Release Notes 
+
+ 2390 
+
+ 18-August-2026 
+
+ Release Notes 
+
+ 2380 
+
+ 12-August-2026 
+
+ Release Notes 
+
+ 2370 
+
+ 4-August-2026 
+
+ Release Notes 
+
+ 2360 
+
+ 28-July-2026 
+
+ Release Notes 
+
+ 2350 
+
+ 22-July-2026 
+
+ Release Notes 
+
+ 2340 
+
+ 14-July-2026 
+
+ Release Notes 
+
+ 2330 
+
+ 7-July-2026 
+
+ Release Notes 
+
+ 2320 
+
+ 30-June-2026 
+
+ Release Notes 
+
+ 2310 
+
+ 24-June-2026 
+
+ Release Notes 
+
+ 2300 
+
+ 16-June-2026 
+
+ Release Notes 
+
+ 2290 
+
+ 10-June-2026 
+
+ Release Notes 
+
+ 2280 
+
+ 3-June-2026 
+
+ Release Notes 
+
+ 2270 
+
+ 27-May-2026 
+
+ Release Notes 
+
+ 2260 
+
+ 19-May-2026 
+
+ Release Notes 
+
+ 2250 
+
+ 13-May-2026 
+
+ Release Notes 
+
+ 2240 
+
+ 10-May-2026 
+
+ Release Notes 
+
+ 2230 
+
+ 4-May-2026 
+
+ Release Notes 
+
+ 2220 
+
+ 14-April-2026 
+
+ Release Notes 
+
+ 2210 
+
+ 5-April-2026 
+
+ Release Notes 
+
+ 2200 
+
+ 26-March-2026 
+
+ Release Notes 
+
+ 2190 
+
+ 18-March-2026 
+
+ Release Notes 
+
+ 2180 
+
+ 10-March-2026 
+
+ Release Notes 
+
+ 2170 
+
+ 3-March-2026 
+
+ Release Notes 
+
+ 2160 
+
+ 24-February-2026 
+
+ Release Notes 
+
+ 2150 
+
+ 18-February-2026 
+
+ Release Notes 
+
+ 2140 
+
+ 11-February-2026 
+
+ Release Notes 
+
+ 2130 
+
+ 3-February-2026 
+
+ Release Notes 
+
+ 2120 
+
+ 27-January-2026 
+
+ Release Notes 
+
+ 2110 
+
+ 20-January-2026 
+
+ Release Notes 
+
+ 2100 
+
+ 14-January-2026 
+
+ Release Notes 
+
+ 2090 
+
+ 6-January-2026 
+
+ Release Notes 
+
+ 2080 
+
+ 16-December-2025 
+
+ Release Notes 
+
+ 2070 
+
+ 9-December-2025 
+
+ Release Notes 
+
+ 2060 
+
+ 2-December-2025 
+
+ Release Notes 
+
+ 2050 
+
+ 25-November-2025 
+
+ Release Notes 
+
+ 2040 
+
+ 18-November-2025 
+
+ Release Notes 
+
+ 2030 
+
+ 11-November-2025 
+
+ Release Notes 
+
+ 2020 
+
+ 4-November-2025 
+
+ Release Notes 
+
+ 2010 
+
+ 28-October-2025 
+
+ Release Notes 
+
+ 2000 
+
+ 21-October-2025 
+
+ Release Notes 
+
+ 1990 
+
+ 15-October-2025 
+
+ Release Notes 
+
+ 1980 
+
+ 8-October-2025 
+
+ Release Notes 
+
+ 1970 
+
+ 29-September-2025 
+
+ Release Notes 
+
+ 1960 
+
+ 16-September-2025 
+
+ Release Notes 
+
+ 1950 
+
+ 9-September-2025 
+
+ Release Notes 
+
+ 1940 
+
+ 2-September-2025 
+
+ Release Notes 
+
+ 1930 
+
+ 26-August-2025 
+
+ Release Notes 
+
+ 1920 
+
+ 19-August-2025 
+
+ Release Notes 
+
+ 1910 
+
+ 12-August-2025 
+
+ Release Notes 
+
+ 1900 
+
+ 5-August-2025 
+
+ Release Notes 
+
+ 1890 
+
+ 29-July-2025 
+
+ Release Notes 
+
+ 1880 
+
+ 22-July-2025 
+
+ Release Notes 
+
+ 1870 
+
+ 15-July-2025 
+
+ Release Notes 
+
+ 1860 
+
+ 9-July-2025 
+
+ Release Notes 
+
+ 1850 
+
+ 1-July-2025 
+
+ Release Notes 
+
+ 1840 
+
+ 25-June-2025 
+
+ Release Notes 
+
+ 1830 
+
+ 17-June-2025 
+
+ Release Notes 
+
+ 1820 
+
+ 10-June-2025 
+
+ Release Notes 
+
+ 1810 
+
+ 4-June-2025 
+
+ Release Notes 
+
+ 1800 
+
+ 27-May-2025 
+
+ Release Notes 
+
+ 1790 
+
+ 19-May-2025 
+
+ Release Notes 
+
+ 1780 
+
+ 13-May-2025 
+
+ Release Notes 
+
+ 1770 
+
+ 6-May-2025 
+
+ Release Notes 
+
+ 1760 
+
+ 29-Apr-2025 
+
+ Release Notes 
+
+ 1750 
+
+ 22-Apr-2025 
+
+ Release Notes 
+
+ 1740 
+
+ 8-April-2025 
+
+ Release Notes 
+
+ 1730 
+
+ 1-Apr-2025 
+
+ Release Notes 
+
+ 1720 
+
+ 25-Mar-2025 
+
+ Release Notes 
+
+ 1710 
+
+ 19-Mar-2025 
+
+ Release Notes 
+
+ 1700 
+
+ 11-Mar-2025 
+
+ Release Notes 
+
+ 1690 
+
+ 4-Mar-2025 
+
+ Release Notes 
+
+ 1680 
+
+ 25-Feb-2025 
+
+ Release Notes 
+
+ 1670 
+
+ 18-Feb-2025 
+
+ Release Notes 
+
+ 1660 
+
+ 11-Feb-2025 
+
+ Release Notes 
+
+ 1650 
+
+ 4-Feb-2025 
+
+ Release Notes 
+
+ 1640 
+
+ 28-Jan-2025 
+
+ Release Notes 
+
+ 1630 
+
+ 21-Jan-2025 
+
+ Release Notes 
+
+ 1620 
+
+ 15-Jan-2025 
+
+ Release Notes 
+
+ 1610 
+
+ 7-Jan-2025 
+
+ Release Notes 
+
+ Next 2410 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

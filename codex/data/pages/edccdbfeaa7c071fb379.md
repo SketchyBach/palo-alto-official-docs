@@ -1,0 +1,48 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/install-cortex-xsoar/install-cortex-xsoar-on-a-vm-deployed-on-aws/task-8.-verify-you-can-log-into-cortex-xsoar
+fetched_at: 2026-09-06T10:23:49Z
+source: cortex-platform
+---
+
+# Task 8. Verify you can log into Cortex XSOAR |  8.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.14 
+
+ Install Cortex XSOAR 
+
+ Install Cortex XSOAR on a VM deployed on AWS 
+
+ Cortex XSOAR 8.14 On-prem 
+
+ Task 8. Verify you can log into Cortex XSOAR 
+
+ Verify access to your Cortex XSOAR 8.14 On-prem deployment. 
+
+ After the installation tasks run, an Installation completed successfully message displays in the textual UI. However, you need to wait until the installation process fully completes (approximately 30 minutes) and then check that you can log in to Cortex XSOAR. You then need to upload your license to enable all Cortex XSOAR pages. 
+
+ Log in to Cortex XSOAR. 
+
+ When you log in for the first time, use the Admin password and email you set during installation. 
+
+ Upload your license to Cortex XSOAR. 
+
+ For more information, see Add the Cortex XSOAR license .
+
+ Previous Task 7. Install Cortex XSOAR on your VM 
+
+ Next Install Cortex XSOAR on a VM deployed on OCI 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

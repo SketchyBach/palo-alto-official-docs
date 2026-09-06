@@ -1,0 +1,68 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-migration-guide/cortex-xsoar-8-saas-migration
+fetched_at: 2026-09-06T11:19:32Z
+source: cortex-platform
+---
+
+# How to migrate from Cortex XSOAR 6 On-prem to Cortex XSOAR 8 SaaS | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR Migration Guide 
+
+ Cortex XSOAR 8 SaaS Migration 
+
+ How to migrate from Cortex XSOAR 6 On-prem to Cortex XSOAR 8 SaaS 
+
+ Learn how to migrate from Cortex XSOAR 6 to Cortex XSOAR 8 SaaS. 
+
+ You can migrate from Cortex XSOAR 6 On-prem to Cortex XSOAR 8 SaaS by doing the following: 
+
+ Self-service migration 
+
+ Work with your Customer Success or Sales Representative to manually migrate to Cortex XSOAR 8 SaaS. You can create a new Cortex XSOAR 8 tenant for up to 60 days by requesting an evaluation license. You can then decommission your Cortex XSOAR 6 server and move your licenses to Cortex XSOAR 8. Your Customer Success or Sales Representative can help you migrate your content, such as scripts, playbooks, and settings. 
+
+ Self-service migration doesn't include migrating incident or indicator data. 
+
+ Note 
+
+ You can keep your Cortex XSOAR 6 On-prem installation and data for audit or compliance requirements. You can still access your Cortex XSOAR 6 instance until EoL or the end of your contract term (whichever comes first). Cortex XSOAR 6 will not support processing production workloads and will only provide 30 days of incident history. 
+
+ Level of effort: Follow the manual steps in Migrate from Cortex XSOAR 6 to Cortex XSOAR 8 SaaS (Self-Service) . 
+
+ Migration using the migration wizard
+
+ Migration consists of the following processes in Cortex XSOAR 8: 
+
+ Migration Process 
+
+ Description 
+
+ Pre-migration wizard 
+
+ The pre-migration wizard sets up the Cortex XSOAR 8 tenant, ensures connectivity, and starts an initial data sync. 
+
+ You can decide whether to migrate incident and indicator data. 
+
+ Migration wizard 
+
+ The migration wizard guides you through the User Acceptance Test (UAT) process, enabling you to test, review, and approve changes such as incidents and indicator data, integrations, jobs, users, and roles. You set the switchover date during this period, and the migration occurs. 
+
+ You have 60 days from the date of the initial data sync in the pre-migration wizard to complete your migration. 
+
+ Level of effort: Follow the steps in Migrate from Cortex XSOAR 6 to Cortex XSOAR 8 SaaS using the pre-migration and migration wizard . 
+
+ Previous Migrate Cortex XSOAR 6 On-prem to Cortex XSOAR 8 SaaS 
+
+ Next Migration FAQs - XSOAR 6 On-Prem to XSOAR 8 SaaS 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

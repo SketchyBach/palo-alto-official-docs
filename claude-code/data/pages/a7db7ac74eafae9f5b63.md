@@ -1,0 +1,74 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/analyze-and-resolve-cases/establish-case-context/assess-case-severity-and-score
+fetched_at: 2026-09-06T09:55:04Z
+source: cortex-platform
+---
+
+# Assess case severity and score | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Cases and issues 
+
+ Analyze and resolve cases 
+
+ Establish case context 
+
+ Cortex Cloud Runtime 
+
+ Assess case severity and score 
+
+ Review and adjust case severity and score during an investigation. 
+
+ You can review the severity and score assigned to the case, and update them if necessary. 
+
+ Review case severity 
+
+ The severity value indicates the urgency of a case. Possible values are Critical , High , Medium , and Low . Click on the assigned severity to change the value. 
+
+ Review the case score 
+
+ The assigned case score is displayed in the cases header. This score indicates the urgency and impact of the case. 
+
+ Click on the case score to see the assigned scoring method. For more information about scoring types and how Cortex Cloud assigns a score, see Case scoring . 
+
+ See a breakdown of the score 
+
+ You can see details about the scoring method and the assigned score. 
+
+ On the Cases page, click on the menu icon to switch to the detailed view. 
+
+ Click on an assigned score. 
+
+ If you are not satisfied with the score, you can change the scoring method or overwrite the score by setting the score manually. If you see a discrepancy with the assigned score, consider the following: 
+
+ For rule-based scores, revise your scoring rules. 
+
+ For SmartScores, help to improve the accuracy of SmartScore. Give feedback by hovering over the displayed score. 
+
+ Change the scoring method or set the score manually 
+
+ You can change the default scoring method. In addition, if Cortex Cloud was unable to assign a score, you can set the score manually. 
+
+ Click on the assigned score. 
+
+ If no score was assigned, in the case investigation pane, click the more options icon and select Manage Score. 
+
+ Select a different scoring method, or click Set score manually and define a new score. 
+
+ Previous AI-generated case summaries 
+
+ Next Update case attributes 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,50 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/palo-alto-networks-integrations/wildfire-cloud
+fetched_at: 2026-09-06T09:41:58Z
+source: cortex-platform
+---
+
+# WildFire Cloud | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Configure Cortex XDR 
+
+ Cortex XDR Data Sources and Connectors 
+
+ Palo Alto Networks integrations 
+
+ WildFire Cloud 
+
+ Configure Palo Alto Networks data integration for Cortex XDR. 
+
+ Important 
+
+ This connector is only available for tenants that onboarded after July 26, 2026. For tenants that onboarded before this date, use Marketplace to access the standalone integration. For more information, see Marketplace . 
+
+ This sub-capability is available with any active Cortex XSIAM, Cortex Cloud, Cortex Cloud Runtime Security, Cortex XDR, or Cortex AgentiX license. 
+
+ Use the Palo Alto Networks WildFire integration to automatically identify unknown threats and stop attackers in their tracks by performing malware dynamic analysis. Submit files, hosted files, and webpages for detonation, and retrieve reports and verdicts for enrichment. 
+
+ This connector includes the following sub-capabilities (Marketplace integrations link to PAN DEV for more information): 
+
+ WildFire-v2 
+
+ To configure this connector, follow the steps outlined in the configuration wizard. 
+
+ Previous SaaS Security (Aperture) 
+
+ Next Log type filtering 
+
+ Last updated 25 days ago 
+
+ Was this helpful?

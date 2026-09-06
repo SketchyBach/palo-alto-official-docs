@@ -81,8 +81,9 @@ def main():
         title = record.get("title") or (title_match.group(1).strip() if title_match else path.stem)
         fetched = record.get("downloaded_at") or manifest.get("generated_at")
         relative = path.relative_to(ROOT).as_posix()
-        connection.execute("INSERT INTO pages VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,1)", (url, "koi-official-export", title, body, fetched, fetched, manifest.get("generated_at", ""), None, None, digest, record.get("http_status") or 200, None, relative))
-        connection.execute("INSERT INTO pages_fts VALUES(?,?,?,?)", (url, title, body, "koi-official-export"))
+        inserted = connection.execute("INSERT OR IGNORE INTO pages VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,1)", (url, "koi-official-export", title, body, fetched, fetched, manifest.get("generated_at", ""), None, None, digest, record.get("http_status") or 200, None, relative)).rowcount
+        if inserted:
+            connection.execute("INSERT INTO pages_fts VALUES(?,?,?,?)", (url, title, body, "koi-official-export"))
         verified_koi += 1
 
     receipt_path = koi / "recovered/recovery-receipt.json"
@@ -102,8 +103,9 @@ def main():
         title_match = re.search(r"(?m)^#\s+(.+?)\s*$", body)
         title = title_match.group(1).strip() if title_match else path.stem
         fetched = manifest.get("generated_at")
-        connection.execute("INSERT INTO pages VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,1)", (url, "koi-official-recovered", title, body, fetched, fetched, "Recovered from verified receipt", None, None, digest, 200, None, record["local_path"],))
-        connection.execute("INSERT INTO pages_fts VALUES(?,?,?,?)", (url, title, body, "koi-official-recovered"))
+        inserted = connection.execute("INSERT OR IGNORE INTO pages VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,1)", (url, "koi-official-recovered", title, body, fetched, fetched, "Recovered from verified receipt", None, None, digest, 200, None, record["local_path"],)).rowcount
+        if inserted:
+            connection.execute("INSERT INTO pages_fts VALUES(?,?,?,?)", (url, title, body, "koi-official-recovered"))
         recovered_koi += 1
 
     expected_failed = sum(record.get("status") != "downloaded" for record in manifest_records.values())

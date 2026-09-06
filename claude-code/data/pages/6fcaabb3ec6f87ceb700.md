@@ -1,0 +1,38 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.8/detect-and-respond-to-threats
+fetched_at: 2026-09-06T11:22:01Z
+source: cortex-platform
+---
+
+# Incidents and indicators investigation | 8.8 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.8 (EoL) 
+
+ Detect and Respond to Threats 
+
+ Cortex XSOAR 8.8 On-prem EoL 
+
+ Incidents and indicators investigation 
+
+ Investigate incidents and indicators that have been ingested into Cortex XSOAR 8.8 On-prem. 
+
+ Cortex XSOAR enables you to centralize and manage every aspect of your investigations. Consolidate evidence, assign and review tasks, and leverage the Workplan to orchestrate your response. Deduplicate incidents and create and close them efficiently. For indicators, create, extract and enrich them, and explore their relationships to gain deeper insights. If you have a TIM license, see the Indicator investigation section for more features, such as creating a Threat Intel Report. 
+
+ Previous Saved By Dbot (ROI) Widget 
+
+ Next Incidents 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

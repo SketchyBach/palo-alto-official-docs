@@ -1,213 +1,12 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/protect-your-endpoints/endpoint-security/install-and-manage-endpoints/set-up-endpoint-protection/set-up-endpoint-profiles-and-exception-rules/set-up-malware-prevention-profiles
-fetched_at: 2026-08-13T15:12:22Z
+fetched_at: 2026-09-06T09:30:27Z
 source: cortex-platform
 ---
 
 # Set up malware prevention profiles | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
 
-Set up malware prevention profiles | Cortex Documentation Portal 
-
- ⌘ Ctrl k 
-
- Blog Support 
- More 
-
- Home 
-
- Products 
-
- Guides 
-
- Release Notes 
-
- API 
-
- Reference 
-
- AI Assistant 
-
- Good afternoon 
- I'm here to help you with the docs. 
-
- What is this page about? What should I read next? Can you give an example? 
-
- ⌘ Ctrl i 
-
- AI Based on your context 
- Send 
-
- Learn about Cortex XSIAM 
-
- Navigate the Cortex XSIAM docs 
-
- Get started with Cortex XSIAM 
-
- Agentic AI in Cortex XSIAM 
-
- Cortex XSIAM product licenses 
-
- In-product support ticket creation 
-
- Supported web browsers 
-
- Use the interface 
-
- Manage API keys 
-
- Onboard Cortex XSIAM 
-
- How to onboard Cortex XSIAM 
-
- Plan and prepare 
-
- Deployment steps 
-
- Post-deployment 
-
- Configure Cortex XSIAM 
-
- Learn how to configure Cortex XSIAM 
-
- Data management 
-
- Cortex XSIAM Data Sources and Connectors 
-
- Marketplace 
-
- Configure the Cortex Agentic Assistant 
-
- Cortex MCP server 
-
- Automations 
-
- Engines 
-
- Remote repository management 
-
- Customize cases and issues 
-
- XQL query management 
-
- Multi-Tenant 
-
- Managed Services configuration in Cortex 
-
- Protect your endpoints 
-
- Endpoint security 
-
- Endpoint protection 
-
- Install and manage endpoints 
-
- Set up endpoint protection 
-
- Set up endpoint profiles and exception rules 
-
- Set up malware prevention profiles 
-
- Set up exploit prevention profiles 
-
- Set up agent settings profiles 
-
- Set up restrictions prevention profiles 
-
- Set up exception profiles and rules 
-
- Set up Identity profiles 
-
- Define endpoint groups 
-
- Configure global agent settings 
-
- Apply profiles to endpoints 
-
- Create an agent installation package 
-
- Harden endpoint security 
-
- Manage endpoint protection 
-
- Endpoint DLP 
-
- Detect, Investigate, and respond to threats 
-
- Monitor dashboards and reports 
-
- Investigation and response 
-
- Agentic Assistant chat 
-
- Asset management 
-
- Threat management 
-
- Attack surface management 
-
- Vulnerability management 
-
- Exposure management 
-
- Cortex Advanced Email Security 
-
- Identity Threat Detection and Response (ITDR) 
-
- Cloud Security 
-
- Monitor and track compliance adherence 
-
- Cloud security rules and policies 
-
- Cortex Cloud Data Classification 
-
- Cortex Data Security 
-
- Cloud Identity Security 
-
- Network exposure detection 
-
- Cortex Cloud SaaS Security 
-
- Cortex Cloud AI Security 
-
- Serverless function posture security 
-
- Cortex Cloud Application Security 
-
- Cloud workload policies and rules 
-
- Base image rules 
-
- Web and API Security (WAAS) 
-
- Serverless function runtime security 
-
- Reference and developer docs 
-
- Cortex XSIAM XQL 
-
- Graph Search 
-
- Cortex CLI 
-
- Role-Based Access Control 
-
- API documentation 
-
- Reference 
-
- Migrating to a new Broker VM image 
-
- Learn more about migrating to the latest broker VM image 
-
- Standalone Broker VM 
-
- Broker VM high availability cluster node 
-
- On this page 
-
- For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
 
  Ask 
  On this page 
@@ -228,15 +27,17 @@ Set up malware prevention profiles | Cortex Documentation Portal
 
  Set up endpoint profiles and exception rules 
 
+ Cortex XSIAM 
+
  Set up malware prevention profiles 
+
+ Configure Cortex XSIAM malware prevention profiles to detect and block malicious files. 
 
  Malware prevention profiles protect against the execution of malware including trojans, viruses, worms, and grayware. Malware prevention profiles serve two main purposes: to define how to treat behavior common with malware, such as ransomware or script-based attacks, and to define how to treat known malware and unknown files. 
 
  You can configure the action that Cortex XDR agents take when known malware, macros, and unknown files try to run on endpoints. By default, the Cortex XDR agent will receive the default profile that contains a pre-defined configuration for each malware protection capability supported by the platform. The default setting for each capability is shown in parentheses in the user interface. To fine-tune your malware prevention policy, you can override the configuration of each capability to block the malicious behavior or file, allow but report it, or disable the module. 
 
  For each setting that you override, clear the Use Default option, and select the setting of your choice. 
-
- Note 
 
  In this profile, the Report options configure the endpoints to report the corresponding suspicious files, actions, processes, or behaviors to Cortex XSIAM, without blocking them. The Disabled options configure the endpoints to neither analyze nor report the corresponding malware or behavior. 
 
@@ -520,7 +321,8 @@ Set up malware prevention profiles | Cortex Documentation Portal
 
  The file types that the Cortex XDR agent analyzes depend on the platform type. WildFire accepts files up to 300 MB in size. 
 
- For On-Write File Examination settings, configure the actions that Cortex XSIAM should take during the on-write process for various file types. 
+ For On-Write File Examination settings, configure the actions that Cortex XSIAM should take during the on-write process for various file types.
+When a file type is enabled, the Cortex XDR agent monitors for malicious files during the on-write process, and if it finds any, it generates issues and quarantines the files. 
 
  Note 
 
@@ -539,8 +341,6 @@ Set up malware prevention profiles | Cortex Documentation Portal
  Enabled 
 
  Disabled 
-
- When a file type is enabled, the Cortex XDR agent monitors for malicious files during the on-write process, and if it finds any, it generates issues and quarantines the files. 
 
  Office files with macros 
 
@@ -567,6 +367,16 @@ Set up malware prevention profiles | Cortex Documentation Portal
  Disabled 
 
  JScript files 
+
+ Enabled 
+
+ Disabled 
+
+ Java files (JSP & JSPX files) 
+
+ Java Application Examination 
+
+ Jakarta Server Pages 
 
  Enabled 
 
@@ -2588,28 +2398,10 @@ Set up malware prevention profiles | Cortex Documentation Portal
 
  To save the profile, click Create . 
 
- Previous Set up endpoint profiles and exception rules Next Set up exploit prevention profiles 
+ Previous Set up endpoint profiles and exception rules 
 
- Last updated 22 days ago 
+ Next Set up exploit prevention profiles 
 
- Was this helpful? 
-
- ‍ 
-
- Trust Center 
-
- ‍ 
-
- Privacy 
-
- ‍ 
-
- Terms of Use 
-
- ‍ 
-
- Legal 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved. 
+ Last updated 10 days ago 
 
  Was this helpful?

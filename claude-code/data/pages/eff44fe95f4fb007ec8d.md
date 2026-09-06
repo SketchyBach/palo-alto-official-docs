@@ -1,0 +1,36 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-ios-guide/9.1/device-user-tasks/view-device-and-app-status-and-information
+fetched_at: 2026-09-06T10:20:44Z
+source: cortex-platform
+---
+
+# View Device and App Status and Information | 9.1 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR Agent 
+
+ Cortex XDR Agent iOS Guides 
+
+ 9.1 
+
+ Device User Tasks 
+
+ Cortex XDR agent iOS 9.1 
+
+ View Device and App Status and Information 
+
+ View Device Information View Connection Using the Cortex XDR iOS Widgets 
+
+ Previous View and Modify Use of Security Modules 
+
+ Next View Device Information 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

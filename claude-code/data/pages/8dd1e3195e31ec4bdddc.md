@@ -1,0 +1,303 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/cortex-data-security-data-sources-and-connectors/vendor-specific-data-sources-and-connectors/salesforce/ingest-and-run-salesforce-automation-and-remediation
+fetched_at: 2026-09-06T10:51:58Z
+source: cortex-platform
+---
+
+# Salesforce connector | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Data Security 
+
+ Cortex Data Security Documentation 
+
+ Cortex Data Security Data Sources and Connectors 
+
+ Vendor-specific data sources and connectors 
+
+ Salesforce 
+
+ Salesforce connector 
+
+ Use Salesforce data in Cortex Data Security. 
+
+ Cortex Data Security provides three primary methods for connecting to your Salesforce instance. Your choice depends on whether you need to ingest security event logs for monitoring, use the guided wizard setup for integrated services, or deploy specific legacy content packs for niche workflows. 
+
+ Product availability and licensing 
+
+ This connector includes the following capabilities and sub-capabilities (if applicable), which are dependent on your licensing: 
+
+ Data Security : Requires the Data Security product license as well as the Cloud Posture Security or Cloud Runtime Security product license to view data risks in Cortex Cloud. 
+
+ Identity Posture : Requires the Data Security product license as well as the Cloud Posture Security or Cloud Runtime Security product license to view identity risks in Cortex Cloud. 
+
+ Cortex Data Security can ingest identity metadata, login history, audit trails, and security monitoring events from Salesforce via capabilities to help you secure user identities, monitor for real-time threats, and automate issue response. To simplify setup, a wizard enables you to select specific capabilities based on your operational needs. The wizard then automatically identifies and provisions the underlying integrations required to support these capabilities. 
+
+ The following table outlines the capabilities currently available in the wizard and the integrations it uses for each. 
+
+ Capability 
+
+ Functionality 
+
+ Use Cases 
+
+ Underlying Integrations Used 
+
+ Data Security 
+
+ Scan and protect Salesforce data including files, attachments, and records. 
+
+ Sensitive data discovery: Identify PII, PCI, or PHI stored in Salesforce objects or Chatter messages to ensure compliance. 
+
+ Malware prevention: Scan file uploads and attachments in real time to prevent malicious content from spreading within the CRM. 
+
+ Exposure monitoring: Detect and alert on data shared with external collaborators or inadvertently made public. 
+
+ N/A 
+
+ Identity Posture 
+
+ Maintain visibility and control over SaaS-based identities, including users, groups, roles, and granular permissions. 
+
+ • Overprivileged account detection: Identify and remediate users with administrative or "View All Data" permissions that exceed their job requirements. 
+
+ • Dormant account cleanup: Surface inactive or stale user accounts to reduce the attack surface and optimize licensing costs. 
+
+ • Local account investigation: Detect accounts created directly in Salesforce rather than through the organization's sanctioned Identity Provider (IdP). 
+
+ • MFA compliance: Monitor for human or non-human identities accessing Salesforce without strong multi-factor authentication. 
+
+ N/A 
+
+ Prerequisite 
+
+ Cortex Data Security 
+
+ RBAC permissions: Requires View/Edit permissions for Log Collections , Data Sources , and Integrations (under Configurations & Data Collections ). 
+
+ Content packs: Ensure the Salesforce and Base content packs are installed or updated to the latest version. 
+
+ Gateway permissions: Requires Account Admin or Instance Administrator permissions for configuring egress settings in the Cortex Gateway to allow communication with your Salesforce Domain URL. 
+
+ How to configure the Salesforce connector 
+
+ Perform the following procedures in the order that they appear, below. 
+
+ Task 1. Configure the Salesforce External Client App 
+
+ Salesforce is deprecating "Connected Apps"; it is recommended to use an External Client App. 
+
+ In Salesforce, on the Setup page, search for App Manager and click New External Client App. 
+
+ Provide a name (such as panw_cortex_integration ), and your email address (used to retrieve the Consumer Key and Consumer Secret). 
+
+ Under API (enable OAuth settings), select Enable OAuth. 
+
+ Enter the following Callback URLs on separate lines (replacing {tenant external URL} with your tenant name): 
+
+ https://login.salesforce.com/services/oauth2/callback 
+
+ https://{tenant external URL}.paloaltonetworks.com/configuration/data-sources 
+
+ Select these OAuth Scopes: 
+
+ Access and manage your Chatter data (chatter_api) 
+
+ Manage user data via APIs (api) 
+
+ Perform requests at any time (refresh_token, offline_access) 
+
+ Enable only these checkboxes after OAuth Scopes: Require Secret for Web Server Flow, Require Secret for Refresh Token Flow, and Enable Client Credentials Flow. For more information, see Salesforce Client Credentials Flow . 
+
+ Click Save, then Continue. 
+
+ Task 2. Retrieve credentials 
+
+ Consumer Key will be used for client_id , and Consumer Secret will be used for client_secret in OAuth 2.0. 
+
+ On the Setup page, search for External Client App Manager. 
+
+ Find your application (the one that you defined for Cortex Data Security), click the arrow button in the last column, and select Edit Settings. 
+
+ In the OAuth Settings area, click Consumer Key and Secret. 
+
+ Go back to the Salesforce Verify Your Identity page, paste the code received via email in the Verification Code box, and click Verify. One of the following will happen: 
+
+ The Consumer Key and Consumer Secret will be sent to the email address that you configured earlier for the Cortex Data Security External Client App. 
+
+ On the Salesforce External Client App Name page, the Consumer Details area will display the Consumer Key and Consumer Secret, and you will be able to copy them from here when required in the following procedures. 
+
+ Task 3. Configure the refresh token expiration policy 
+
+ On the Setup page, search for External Client App Manager. 
+
+ Find your application (the one that you defined for Cortex Data Security), click the arrow button in the last column, and select Edit Policies. 
+
+ In the OAuth Policies area: 
+
+ Under Plugin Policies - Permitted Users, select All users can self-authorize. 
+
+ Set the refresh token policy to Expire refresh token if not used for specific time (recommended). For example, select this option and set it for 7 days. 
+
+ Task 4. Configure OAuth 2.0 
+
+ Configure the OAuth 2.0 application to call the Salesforce.com API with one of the following flows: 
+
+ Client credentials flow: For more information, see Configure an External Client App OAuth 2.0 Client Credentials Flow . 
+
+ Web server flow: For more information, see OAuth 2.0 Web Server Flow . 
+
+ Task 5. Configure egress in Cortex Gateway 
+
+ An Account Admin or Instance Administrator must configure egress settings in the Cortex Gateway to allow communication with your Salesforce Domain URL. For more information, see Egress Configurations . 
+
+ Log in to the Cortex Gateway with Account Admin or Instance Administrator permissions and click Permission Management. 
+
+ From the side menu, select Egress Configurations. 
+
+ In the TENANT dropdown, select the tenant where you are configuring the Salesforce integration. 
+
+ Click +Path to initiate a new path request. 
+
+ In the New Path dialog box, configure the following: 
+
+ Requester: In the dropdown, select the requester from the list of users. 
+
+ Flow: In the dropdown, select the appropriate data service option for a generic webhook/host out (or Salesforce if it is explicitly listed). 
+
+ Path: Enter the domain name or host of your Salesforce instance (for example, your-company.my.salesforce.com). 
+
+ Do not include https:// or trailing slashes. 
+
+ Click Add to create the path. Once the status of the path shows as Approved in the Egress Configuration table, Cortex Data Security can successfully authenticate and execute commands against your Salesforce environment. 
+
+ Task 6. Configure Cortex Data Security 
+
+ In Cortex Data Security, navigate to Settings → Data Sources & Integrations . 
+
+ Click + Add new . 
+
+ In the Add Data Source page, search for Salesforce. 
+
+ Under Recommended , hover over the new Salesforce integration and click Add Instance to launch the Salesforce wizard.
+The new Salesforce connector has the description: Salesforce CRM services for identity management, automation, remediation and SaaS Posture Security. 
+
+ Set up your Salesforce instance by following the wizard steps in the following steps. 
+
+ Capabilities tab 
+
+ Configure the following. 
+
+ Instance name: Enter a unique name for your instance. 
+
+ Select capabilities: Choose the required instance functionality: 
+
+ Data Security: Scan and protect Salesforce data including files, attachments, and records. \ 
+
+ Note 
+
+ To select this capability, you must first select the Identity Posture capability. 
+
+ Identity Posture: Maintain visibility and control over SaaS-based identities, including users, groups, roles, and granular permissions. 
+
+ Click Next. 
+
+ Connection tab 
+
+ Enter credentials to securely authorize the connection. 
+
+ Domain URL : Copy the URL from your browser's address bar while logged into Salesforce and paste it into this field. This must be identical to the domain URL defined in the Cortex Gateway egress configuration in the Path field as explained in Task 5. If you did not configure egress in Cortex Gateway, you will get an error during verification. You can continue with instance configuration without verifying and set up egress at a later point. 
+
+ Click Apply . 
+
+ Important 
+
+ You cannot proceed with the authentication configuration until you provide a domain URL and click Apply .When you click Apply , the instance is connected to a unique URL in Salesforce, and it cannot be changed. To change it, you need to exit the wizard and start over. 
+
+ Select Recommended or Advanced . 
+
+ Recommended applies he suggested authentication method for all capabilities. 
+
+ Advanced enables configuring unique credentials for each capability individually. 
+
+ Authenticate using the OAuth 2.0 Web Server Flow or OAuth 2.0 Client Credentials . 
+
+ For more information about the web server flow, see OAuth 2.0 Web Server Flow . 
+
+ For more information about the client credentials flow, see Configure an External Client App OAuth 2.0 Client Credentials Flow . 
+
+ Click Done for each authentication method. 
+
+ Configuration tab 
+
+ Configure the following. 
+
+ Under Security Posture: 
+
+ Sync Interval : Defines how often the system checks your cloud environment for security risks, misconfigurations, and compliance updates. More frequent syncs may impact API rate limits. The default is every 15 minutes. 
+
+ Application Tag : Assigns a category to your cloud resources based on their operational purpose. This helps you filter security alerts and apply different compliance policies to specific environments. The default is None. 
+
+ Summary tab 
+
+ A confirmation is displayed that your Salesforce instance is successfully connected and a real-time status of the security capabilities activated (if relevant). 
+
+ Once you confirm the summary details, click Create instance . 
+
+ Task 7. (Optional) Edit or test existing Salesforce instance settings 
+
+ You can edit and test an existing instance after a successful initial connection between Salesforce and Cortex Data Security. Do this by clicking Test . 
+
+ Important 
+
+ If a “connected application” for Cortex Data Security data collection already exists, you are not required to migrate to an “External Client App”, but since Connected Applications are deprecated by Salesforce, it is recommended to migrate. 
+
+ Task 8. (Optional) Post verification 
+
+ After onboarding is complete, verify asset discovery and data security findings. 
+
+ 1. Verify discovered assets 
+
+ Go to Inventory > All Assets . 
+
+ Filter the asset list by setting Provider to Salesforce . 
+
+ If applicable, filter by the relevant Category . 
+
+ Verify that Cortex discovers the following supported Salesforce asset types: 
+
+ Salesforce User Storage: Files, including PDFs, images, and documents, uploaded by users across the Salesforce environment. 
+
+ Knowledge Base: Knowledge base articles created within the Salesforce environment. 
+
+ Chatter Messages: Text messages, posts, and comments created in user Chatter feeds and groups. 
+
+ 2. Verify policy findings 
+
+ Select an asset to open the details panel. 
+
+ Click the Overview tab to review general properties and total finding counts. 
+
+ Click Findings to review detected security findings, such as: 
+
+ Social Security numbers (SSNs) 
+
+ API keys or secrets 
+
+ Credit card numbers 
+
+ Other sensitive personally identifiable information (PII) 
+
+ Previous Ingest logs and data from Salesforce 
+
+ Next ServiceNow 
+
+ Last updated 16 days ago 
+
+ Was this helpful?

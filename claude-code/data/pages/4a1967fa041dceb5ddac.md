@@ -1,0 +1,80 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/investigate-and-respond-to-cases/investigate-endpoints/scan-an-endpoint-for-malware
+fetched_at: 2026-09-06T09:44:05Z
+source: cortex-platform
+---
+
+# Scan an endpoint for malware | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Investigate and respond to cases 
+
+ Investigate endpoints 
+
+ Scan an endpoint for malware 
+
+ Scan an endpoint for malware and review the results. 
+
+ In addition to blocking the execution of malware, the Cortex XDR agent can scan your Windows, Mac and Linux endpoints and attached removable drives for dormant malware that is not actively attempting to run. The agent examines the files on the endpoint according to the Malware Security Profile that is in effect on the endpoint (quarantine settings, unknown file upload, etc.) When a malicious file is detected during the scan, the agent reports the malware to Cortex XDR so you can manually take action to remove the malware before it is triggered and attempts to harm the endpoint. 
+
+ You can scan the endpoint in the following ways: 
+
+ System scan: Initiate a full system scan on demand from Endpoints Administration for an endpoint, as explained in the following procedure. 
+
+ Periodic scan: Configure periodic full scans that run on the endpoint as part of the malware security profile. To configure periodic scans, see Set up malware prevention profiles . 
+
+ Custom scan: (Windows, requires agent v7.1 or later) The end user can initiate a scan on demand to examine a specific file or folder. For more information, see the Cortex XDR Agent Administrator's Guide for Windows. 
+
+ Initiate a full system scan 
+
+ You can initiate full scans of one or more endpoints from the All Endpoints table or the Action Center . After initiating a scan, you can monitor the scan progress in the Action Center . Scan time varies depending on the number of endpoints, connectivity to those endpoints, and the number of files for which Cortex XDR needs to obtain verdicts. 
+
+ Select Investigation & Response → Response → Action Center → New Action . 
+
+ Select Malware Scan . 
+
+ Click Next . 
+
+ Select the target endpoints (up to 100) on which you want to scan for malware. 
+
+ Scanning is available on Windows, Mac and Linux endpoints. Cortex XDR automatically filters out any endpoints for which scanning is not supported. Scanning is also not available for inactive endpoints. 
+
+ Click Next . 
+
+ Review the action summary and click Done . Cortex XDR initiates the action at the next heartbeat and sends the request to the agent to initiate a malware scan. 
+
+ To track the status of a scan, return to the Action Center . 
+
+ When the status is Completed Successfully , you can view the scan results. 
+
+ View the scan results. 
+
+ After an agent completes a scan, it reports the results to Cortex XDR. To view the scan results for an endpoint: 
+
+ In the Action Center , right-click the scan action and select Additional data . 
+
+ Cortex XDR displays additional details about the endpoint. 
+
+ Right-click the endpoint for which you want to view the scan results and select View related security events . 
+
+ Cortex XDR displays a filtered list of malware issues for files that were detected on the endpoint during the scan. 
+
+ Previous Retrieve support file password 
+
+ Next Investigate files 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

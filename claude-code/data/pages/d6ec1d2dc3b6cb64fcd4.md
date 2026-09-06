@@ -1,0 +1,292 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsiam-data-model-schema/consts/model-family
+fetched_at: 2026-09-06T10:56:44Z
+source: cortex-platform
+---
+
+# XDM_CONST.MODEL_FAMILY | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Reference 
+
+ Schemas 
+
+ XSIAM Data Model Schema 
+
+ XDM Consts 
+
+ XDM_CONST.MODEL_FAMILY 
+
+ The family of the model 
+
+ Original 
+
+ Mapped 
+
+ ADA 
+
+ XDM_CONST.MODEL_FAMILY_ADA 
+
+ Babbage 
+
+ XDM_CONST.MODEL_FAMILY_BABBAGE 
+
+ BERT 
+
+ XDM_CONST.MODEL_FAMILY_BERT 
+
+ Bison 
+
+ XDM_CONST.MODEL_FAMILY_BISON 
+
+ Blip 
+
+ XDM_CONST.MODEL_FAMILY_BLIP 
+
+ Bloom 
+
+ XDM_CONST.MODEL_FAMILY_BLOOM 
+
+ Claude 
+
+ XDM_CONST.MODEL_FAMILY_CLAUDE 
+
+ CodeBERT 
+
+ XDM_CONST.MODEL_FAMILY_CODEBERT 
+
+ CodeT5 
+
+ XDM_CONST.MODEL_FAMILY_CODET5 
+
+ Cohere 
+
+ XDM_CONST.MODEL_FAMILY_COHERE 
+
+ Computer Use 
+
+ XDM_CONST.MODEL_FAMILY_COMPUTER_USE 
+
+ Curie 
+
+ XDM_CONST.MODEL_FAMILY_CURIE 
+
+ Cushman 
+
+ XDM_CONST.MODEL_FAMILY_CUSHMAN 
+
+ Dalle 
+
+ XDM_CONST.MODEL_FAMILY_DALLE 
+
+ Davinci 
+
+ XDM_CONST.MODEL_FAMILY_DAVINCI 
+
+ DBRX 
+
+ XDM_CONST.MODEL_FAMILY_DBRX 
+
+ DeepSeek 
+
+ XDM_CONST.MODEL_FAMILY_DEEPSEEK 
+
+ DistilBERT 
+
+ XDM_CONST.MODEL_FAMILY_DISTILBERT 
+
+ Falcon 
+
+ XDM_CONST.MODEL_FAMILY_FALCON 
+
+ Flux 
+
+ XDM_CONST.MODEL_FAMILY_FLUX 
+
+ Gecko 
+
+ XDM_CONST.MODEL_FAMILY_GECKO 
+
+ Gemini 
+
+ XDM_CONST.MODEL_FAMILY_GEMINI 
+
+ Gemma 
+
+ XDM_CONST.MODEL_FAMILY_GEMMA 
+
+ GLM 
+
+ XDM_CONST.MODEL_FAMILY_GLM 
+
+ GPT 
+
+ XDM_CONST.MODEL_FAMILY_GPT 
+
+ Gretel 
+
+ XDM_CONST.MODEL_FAMILY_GRETEL 
+
+ Grok 
+
+ XDM_CONST.MODEL_FAMILY_GROK 
+
+ Imagen 
+
+ XDM_CONST.MODEL_FAMILY_IMAGEN 
+
+ Jais 
+
+ XDM_CONST.MODEL_FAMILY_JAIS 
+
+ Jamba 
+
+ XDM_CONST.MODEL_FAMILY_JAMBA 
+
+ Jina AI 
+
+ XDM_CONST.MODEL_FAMILY_JINA 
+
+ Jurassic 
+
+ XDM_CONST.MODEL_FAMILY_JURASSIC 
+
+ Kimi 
+
+ XDM_CONST.MODEL_FAMILY_KIMI 
+
+ Llama 
+
+ XDM_CONST.MODEL_FAMILY_LLAMA 
+
+ Marengo 
+
+ XDM_CONST.MODEL_FAMILY_MARENGO 
+
+ MiniLM 
+
+ XDM_CONST.MODEL_FAMILY_MINILM 
+
+ MiniMax 
+
+ XDM_CONST.MODEL_FAMILY_MINIMAX 
+
+ Mistral 
+
+ XDM_CONST.MODEL_FAMILY_MISTRAL 
+
+ Model Router 
+
+ XDM_CONST.MODEL_FAMILY_MODEL_ROUTER 
+
+ Mpt 
+
+ XDM_CONST.MODEL_FAMILY_MPT 
+
+ Nemotron 
+
+ XDM_CONST.MODEL_FAMILY_NEMOTRON 
+
+ Nixtla 
+
+ XDM_CONST.MODEL_FAMILY_NIXTLA 
+
+ Nova 
+
+ XDM_CONST.MODEL_FAMILY_NOVA 
+
+ o Series 
+
+ XDM_CONST.MODEL_FAMILY_O_SERIES 
+
+ Other 
+
+ XDM_CONST.MODEL_FAMILY_OTHER 
+
+ Palmyra 
+
+ XDM_CONST.MODEL_FAMILY_PALMYRA 
+
+ Pegasus 
+
+ XDM_CONST.MODEL_FAMILY_PEGASUS 
+
+ PHI 
+
+ XDM_CONST.MODEL_FAMILY_PHI 
+
+ Pythia 
+
+ XDM_CONST.MODEL_FAMILY_PYTHIA 
+
+ Qwen 
+
+ XDM_CONST.MODEL_FAMILY_QWEN 
+
+ Ray 
+
+ XDM_CONST.MODEL_FAMILY_RAY 
+
+ Rerank 
+
+ XDM_CONST.MODEL_FAMILY_RERANK 
+
+ Roberta 
+
+ XDM_CONST.MODEL_FAMILY_ROBERTA 
+
+ SD3 
+
+ XDM_CONST.MODEL_FAMILY_SD3 
+
+ Sora 
+
+ XDM_CONST.MODEL_FAMILY_SORA 
+
+ Stable Diffusion 
+
+ XDM_CONST.MODEL_FAMILY_STABLE 
+
+ Text Embedding 
+
+ XDM_CONST.MODEL_FAMILY_TEXT_EMBEDDING 
+
+ Titan 
+
+ XDM_CONST.MODEL_FAMILY_TITAN 
+
+ TTS 
+
+ XDM_CONST.MODEL_FAMILY_TTS 
+
+ Unicorn 
+
+ XDM_CONST.MODEL_FAMILY_UNICORN 
+
+ Veo 
+
+ XDM_CONST.MODEL_FAMILY_VEO 
+
+ Voyage 
+
+ XDM_CONST.MODEL_FAMILY_VOYAGE 
+
+ Whisper 
+
+ XDM_CONST.MODEL_FAMILY_WHISPER 
+
+ YOLO 
+
+ XDM_CONST.MODEL_FAMILY_YOLO 
+
+ Previous XDM_CONST.MODEL_KIND 
+
+ Next XDM_CONST.SCAN_SOURCE 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

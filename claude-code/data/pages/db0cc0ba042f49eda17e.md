@@ -1,0 +1,42 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/linux-kernel-versions/red-hat-enterprise-linux-rhel/x86_64
+fetched_at: 2026-09-06T10:57:35Z
+source: cortex-platform
+---
+
+# Red Hat Enterprise Linux (RHEL) [x86_64] | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Reference 
+
+ Kernels & Matrices 
+
+ Linux Kernel Versions 
+
+ Red Hat Enterprise Linux (RHEL) 
+
+ Red Hat Enterprise Linux (RHEL) [x86_64] 
+
+ Cortex XDR agent supported kernel module versions for Red Hat Enterprise Linux (RHEL) on x86_64, by OS version. 
+
+ Red Hat Enterprise Linux (RHEL) 6 [x86_64] 
+
+ Red Hat Enterprise Linux (RHEL) 7 [x86_64] 
+
+ Red Hat Enterprise Linux (RHEL) 8 [x86_64] 
+
+ Red Hat Enterprise Linux (RHEL) 9 [x86_64] 
+
+ Red Hat Enterprise Linux (RHEL) 10 [x86_64] 
+
+ Previous Red Hat Enterprise Linux (RHEL) 
+
+ Next Red Hat Enterprise Linux (RHEL) 6 [x86_64] 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

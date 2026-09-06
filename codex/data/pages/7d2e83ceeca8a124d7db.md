@@ -1,0 +1,64 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/investigation-and-response/automation/playbooks/accelerate-playbook-development-using-the-automation-engineer-agent-preview/automation-engineer-prompt-examples
+fetched_at: 2026-09-06T10:05:23Z
+source: cortex-platform
+---
+
+# Automation Engineer prompt examples | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Cases and issues 
+
+ Investigation and response 
+
+ Automation 
+
+ Playbooks 
+
+ Accelerate playbook development using the Automation Engineer agent (preview) 
+
+ Cortex Cloud Posture 
+
+ Automation Engineer prompt examples 
+
+ Review prompt examples for the Automation Engineer agent. 
+
+ The following table provides some use case scenarios and the corresponding prompts used to generate automated response playbooks within Cortex Cloud. 
+
+ Use case scenario 
+
+ Prompt 
+
+ Triage IP and notify IT of malware 
+
+ "Create a playbook that triggers on a new network alert containing an IP address. First, run standard IP enrichment and threat intelligence lookups to triage the IP and check for associated malware. Next, add a conditional task to evaluate if the IP is marked as malicious. If it is malicious, use the mail integration to send an email to IT@palo.com containing the IP address, the alert details, and the associated malware context. If it is benign, close the incident." 
+
+ Verify TOR connection and retrieve Machine ID 
+
+ "Create a playbook that triggers on a network alert indicating potential TOR usage. First, extract the source IP, destination IP, and user details from the alert. Verify the connection by checking if the destination IP is a known TOR exit node or if the application signature is explicitly flagged as TOR. Next, add a conditional task: if TOR usage is confirmed, retrieve the endpoint's Machine ID or hostname associated with the user. Finally, use the mail integration to send an email to IT containing the username, the confirmed TOR connection details, and the Machine ID. If it is not TOR, close the incident." 
+
+ Evaluate and block malicious users or domains 
+
+ "Create a playbook that triggers on an alert containing a username and a domain. First, run standard enrichment: check the domain's reputation using threat intelligence, and retrieve the user's risk profile or Active Directory status. Next, add a conditional task to evaluate if blocking is required based on whether the domain is flagged as malicious or the user risk score is critically high. If a block is required, use the mail integration to send an email to IT containing the user details, the suspicious domain, the threat context, and explicit instructions on whether to block the domain, suspend the user, or both. If the activity is benign, close the incident." 
+
+ Advanced Parallel Triage: Suspicious User + Domain Activity 
+
+ "Create a security-response playbook named 'Suspicious User + Domain Activity — Automated Triage'. 1. Trigger: Require 'username' and 'domain' inputs with initial validation. 2. Parallel Enrichment: Concurrently run Task A (Domain Reputation via !domain), Task B (AD Lookup via !ad-get-user), and Task C (User Risk via identity integration). Each must have error handling to assign safe defaults. 3. Logic: Use a conditional task 'Is Blocking Required?' with three branches: YES (Domain score >=70/malicious OR User risk >=80/high/critical), NO (both clean), and REVIEW (ambiguous/defaults used). 4. Actions: For YES, send email to it-security@company.com with labeled sections for User, Domain, Context, and Recommended Action (Block/Suspend/Both), then set severity to High. For NO, close as False Positive. For REVIEW, assign a manual task with a 4-hour SLA. All branches must converge to a single END node." 
+
+ Previous Accelerate playbook development using the Automation Engineer agent (preview) 
+
+ Next Best practices for playbooks 
+
+ Last updated 5 days ago 
+
+ Was this helpful?

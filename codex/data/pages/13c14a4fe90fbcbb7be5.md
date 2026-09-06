@@ -1,0 +1,44 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/application-security/application-security-posture-management-aspm/compliance-for-cortex-cloud-application-security
+fetched_at: 2026-09-06T10:12:06Z
+source: cortex-platform
+---
+
+# Compliance for Cortex Cloud Application Security | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center shield-alt
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Application Security 
+
+ Application Security Posture Management (ASPM) 
+
+ Compliance for Cortex Cloud Application Security 
+
+ Cortex Cloud Application Security integrates compliance controls directly into your development ecosystem, enabling a shift-left approach to regulatory adherence. The framework maps Infrastructure as Code (IaC) misconfigurations and CI/CD security risk findings to supported industry standards. 
+
+ The compliance framework automatically maps IaC misconfiguration rules (such as unencrypted storage or open security groups) and CI/CD security risks (such as insecure runner configurations or lack of branch protection) to supported industry standards. This enables targeted reporting and granular filtering by specific controls, such as CIS Benchmarks or OWASP requirements. 
+
+ By configuring automated policies to alert developers or block builds when violations occur, you ensure that neither vulnerable infrastructure nor insecure delivery pipelines reach production. 
+
+ Monitor and track compliance adherence 
+
+ Monitor and track compliance adherence for your infrastructure code and CI/CD pipeline assets by checking whether your templates and configurations adhere to industry standards or your organization's best practices. 
+
+ To view compliance-related details, navigate to Posture Management → Compliance . 
+
+ For more information about managing compliance in Cortex Cloud, including assessments and reports, refer to Monitor and track compliance adherence . 
+
+ Previous Configure and monitor Cortex Cloud Application Security SLAs 
+
+ Next Monitor and track compliance adherence 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

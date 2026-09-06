@@ -1,0 +1,106 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-ai-security/cortex-cloud-ai-security-concepts
+fetched_at: 2026-09-06T10:06:43Z
+source: cortex-platform
+---
+
+# Cortex Cloud AI Security concepts | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Cortex Cloud AI Security 
+
+ Cortex Cloud Posture 
+
+ Cortex Cloud AI Security concepts 
+
+ Basic concepts of Cortex Cloud AI Security. 
+
+ Introduction to AI applications 
+
+ The AI application ecosystem comprises several critical components that work together to enable the functionality of AI-driven applications. The following explains the main concepts and shows some examples. 
+
+ Model 
+
+ The model is the core component of the AI ecosystem. It is the trained machine learning model that takes input data, processes it, and produces output. In the context of large language models (LLMs), this involves understanding and generating human-like text based on the given input. 
+
+ Example 
+
+ OpenAI GPT-4 model, which can generate coherent and contextually relevant text, answer questions, and perform various other natural language processing tasks. 
+
+ Model endpoint 
+
+ The model endpoint is the interface through which applications interact with the AI model. It acts as an access point for sending inputs to the model and receiving outputs. The endpoint is responsible for managing requests, routing them to the appropriate model instance, and returning the results to the application. 
+
+ Example 
+
+ A Microsoft Azure OpenAII deployment using OpenAI GPT-4 , which you can use to integrate natural language processing capabilities into your applications by sending text prompts and receiving generated text in response. 
+
+ Example 
+
+ Amazon Web Services (AWS) EC2 instances with GPU acceleration running Llama2 by Meta, which supports an application that communicates with the EC2 instance. 
+
+ Plugin 
+
+ A plugin is an auxiliary but highly capable model or tool that acts as a helper to the primary AI model. Plugins extend the functionality of the main model by providing specialized capabilities, such as accessing inference datasets, performing specific computations, or interfacing with other services. This approach, known as retrieval-augmented generation (RAG), enhances the primary model's ability to generate more accurate and contextually relevant outputs. For more information, see Inference datasets and Retrieval-Augmented Generation . 
+
+ Example 
+
+ A weather plugin integrated with an AI chatbot that allows the chatbot to fetch and provide real-time weather updates based on user queries. Another example is a language translation plugin that helps the main model translate text between different languages. 
+
+ Training datasets 
+
+ Training is a fundamental stage in the AI development process where the model learns to perform its tasks by processing large amounts of data. During this phase, the model is exposed to various examples and adjusts its internal parameters to minimize errors in predictions or classifications. The dataset is the integral part of the process, with the insights learned by the model influenced by the training data. 
+
+ Example 
+
+ Training a model like GPT-4 involves using vast text corpora from various sources to help the model understand language patterns, context, and nuances, enabling it to generate coherent and contextually relevant text. 
+
+ Inference datasets 
+
+ Inference datasets are specialized collections of data used during the inference phase of AI models, which is the stage where the model makes predictions or generates outputs based on new input data. Unlike training datasets, which are used to teach the model how to understand and process information, inference datasets help improve the model's performance by providing realistic, real-world data inputs for better contextual answering. 
+
+ Example 
+
+ When building a chatbot for customers to learn more about their spending habits, financial institutions use customer transactions as inference data to provide contextually accurate answers. 
+
+ Fine-tuning 
+
+ Fine-tuning in machine learning refers to the process of adapting a pre-trained model to perform specific tasks or cater to particular use cases. This technique has become essential in deep learning, especially for training foundation models used in generative AI. Fine-tuning leverages data (similarly to training) to adjust the responses of the model to certain inputs, making it more suitable for the intended business case. 
+
+ Retrieval-Augmented Generation 
+
+ Retrieval-Augmented Generation (RAG) enhances large language model (LLM) responses by incorporating information from knowledge bases and other sources. This allows the model to reference up-to-date inference data before generating a response, improving contextual accuracy. This approach is cost-effective and ensures the output remains relevant, accurate, and useful across different contexts. 
+
+ Example scenario: AI-powered customer support chatbot 
+
+ To illustrate how these components work together, consider an AI-powered customer support chatbot: 
+
+ AI_security_concepts_1.png 
+
+ Model endpoint: The chatbot application interacts with the GPT-4 model through the Azure OpenAI Deployment, which serves as the model endpoint. This endpoint handles user queries, processes them, and directs them to the GPT-4 model to generate responses. 
+
+ Model: The GPT-4 model receives the user's query, processes it, and generates a relevant and contextually appropriate response based on the information and nuances provided in the query. 
+
+ Plugin: The chatbot integrates a customer database plugin that allows it to fetch user-specific inference data, such as order status or account details, to provide more personalized and accurate support. The customer database used by the plugin is the Inference Dataset. 
+
+ Training dataset: The chatbot undergoes fine-tuning using a dataset of previous customer interactions and support tickets, making it adept at handling common inquiries and issues in the specific industry. 
+
+ Application: The customer support platform integrates the chatbot with a user-friendly interface. 
+
+ Previous Supported services in Cortex Cloud AI Security 
+
+ Next Cortex Cloud AI Security use cases 
+
+ Last updated 11 days ago 
+
+ Was this helpful?

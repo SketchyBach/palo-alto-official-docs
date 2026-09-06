@@ -1,0 +1,68 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/code-to-cloud/code-to-cloud/execute-remediation-workflows
+fetched_at: 2026-09-06T09:57:25Z
+source: cortex-platform
+---
+
+# Remediation workflows | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ code-to-cloud 
+
+ Code-to Cloud 
+
+ Cortex Cloud Runtime 
+
+ Remediation workflows 
+
+ To accomplish full traceability, close the gaps identified by the visibility surfaces using these workflows: 
+
+ Workflow 1: Close lineage gaps using the dashboard 
+
+ Navigate to Posture Management → Code-to-Cloud Coverage . 
+
+ Identify the SDLC stage whose Untraced color area is the largest (such as Deploy → Build). 
+
+ Review the Insights region for the recommended action (such as Onboard CI/CD instances). 
+
+ Select the action button to navigate to the Data Sources configuration page and complete the onboarding flow. 
+
+ For more information, refer to The Coverage dashboard . 
+
+ Workflow 2: Fix per-asset traceability 
+
+ Navigate to Inventory → All Assets or a dedicated inventory, such as Kubernetes Resources or Software Packages. 
+
+ Select and asset → open the asset side panel → click the Code to Cloud tab. 
+
+ Review the display mode to understand what link is missing. 
+
+ Select the call-to-action button (such as Add Data Source or Onboard Pipeline to execute the fix directly. 
+
+ Workflow 3: Enable infrastructure lineage using YOR tags 
+
+ Without a YOR tag, an IaC resource cannot be traced to its running cloud resource. 
+
+ Locate an IaC resource that lacks a YOR tag (indicated by a prompt in the Code-to-Cloud tab). 
+
+ Select Enable Tagging Bot and complete the setup on the YOR website. 
+
+ Ensure the matching cloud account is onboarded into Cortex Cloud so the deployed asset can be discovered and linked to the tag. 
+
+ Previous Identify and investigate gap 
+
+ Next The Coverage dashboard 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,32 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xdr-5-api/cases-apis/cases-apis-overview
+fetched_at: 2026-09-06T10:55:16Z
+source: cortex-platform
+---
+
+# Cases APIs overview | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex XDR 
+
+ XDR 5.x APIs 
+
+ Cases APIs 
+
+ Cases APIs overview 
+
+ Cases APIs to search and update cases, retrieve case artifacts, manage War Room entries, retrieve timeline records, and add manual timeline records to cases. 
+
+ Previous Additional References 
+
+ Next Cases 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

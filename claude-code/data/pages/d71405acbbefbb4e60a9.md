@@ -1,0 +1,48 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/asset-management/asset-configurations/application-criteria
+fetched_at: 2026-09-06T09:43:22Z
+source: cortex-platform
+---
+
+# Application criteria | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Asset management 
+
+ Asset configurations 
+
+ Cortex XDR 5.x 
+
+ Application criteria 
+
+ Define criteria used to identify application assets. 
+
+ You can define and group assets into applications using two primary methods: 
+
+ New Application: Manually build an application by selecting starting assets from either the code side (VCS repositories) or the run side (cloud providers, Kubernetes clusters, or VPCs). Cortex XDR automatically identifies and adds related assets based on their connections. 
+
+ New Criteria: Automatically create and maintain applications in bulk by defining dynamic rules. You can base these criteria on Cloud tags (such as AWS tags grouping assets within a single provider), or VCS entities (automatically generating applications based on your code hierarchy, such as GitHub organizations or repositories). 
+
+ Go to Inventory → Assets → Configurations → Application Criteria to add a new application or new criteria. 
+
+ For more information, see: Defining Business Applications . 
+
+ Previous Network configurations 
+
+ Next Asset Roles 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

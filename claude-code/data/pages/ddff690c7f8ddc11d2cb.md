@@ -1,0 +1,132 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/users-and-roles/user-management/user-settings-and-preferences
+fetched_at: 2026-09-06T10:47:26Z
+source: cortex-platform
+---
+
+# User Settings and Preferences | 6.12 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.12 (EoL) 
+
+ Onboard Cortex XSOAR 
+
+ Users and Roles 
+
+ User Management 
+
+ Cortex XSOAR 6.12 EoL 
+
+ User Settings and Preferences 
+
+ Manage user settings and preferences in Cortex XSOAR 6.12. 
+
+ You can configure several settings and preferences to customize your work environment. 
+
+ To view or adjust your user settings and preferences, click your user name on the bottom of the left side toolbar. 
+
+ Details 
+
+ Set yourself away, update your personal information, including the email address, phone number, and password. 
+
+ Option Name 
+
+ Action 
+
+ Set yourself as Away/Active 
+
+ Enables you to appear active or away. Other users see you as active or away in dropdown lists, such as when assigning an owner to an incident. You can also type setYourselfAs in the command line to set your status. If you are set as away, when you next login, you are reminded of your status and are prompted to change to Active. 
+
+ Full Name 
+
+ The display name used in Cortex XSOAR. 
+
+ Email 
+
+ The email address to which to receive notifications from Cortex XSOAR. 
+
+ Phone Number 
+
+ The phone number where you can be contacted. 
+
+ Password 
+
+ Your password for Cortex XSOAR. The password must adhere to these minimum requirements: 8 characters, 1 lowercase letter, 1 uppercase letter, and 1 digit or symbol. 
+
+ Retype Password 
+
+ The password you created. 
+
+ Drop any image here (or click to browse) 
+
+ The image to use in Cortex XSOAR. 
+
+ Preferences 
+
+ Enables you to customize your personal experience with Cortex XSOAR. 
+
+ Option Name 
+
+ Action 
+
+ Default Landing Page 
+
+ The page to load by default, when logging in to Cortex XSOAR. Can be Incidents, Dashboard, Playbooks or Automation. 
+
+ Help Snippet 
+
+ Whether to have Help Snippets displayed or not. 
+
+ Enable Shortcuts 
+
+ Whether to have shortcuts available. 
+
+ Choose Theme 
+
+ The preferred theme to be used. 
+
+ Script Editor Style 
+
+ The style of the editor to use in the Automation and BYOI. 
+
+ Date Format 
+
+ Your preferred date format and time display format. 
+
+ Display Timezone 
+
+ The timezone to associate with your account, in Country/City format. 
+
+ Highlight Indicators in Playground 
+
+ Whether to have indicators highlighted in the Playground. 
+
+ Sign me out of all other sessions (this session remains open) 
+
+ When clicked, your account will be automatically signed out of all sessions you are signed in to, except the current session which will remain signed in and open. 
+
+ Sign me out of all sessions 
+
+ When clicked, your account will be automatically signed out of all active sessions you are signed in to, including the current session which will be signed out and closed. 
+
+ Notifications 
+
+ Enables you to select which notifications to receive and the method for receiving the notifications (email or Slack). 
+
+ Previous Configure Users Data Using Server Configurations 
+
+ Next Configure User Settings 
+
+ Last updated 3 days ago 
+
+ Was this helpful?

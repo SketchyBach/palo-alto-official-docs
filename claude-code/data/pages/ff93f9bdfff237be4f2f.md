@@ -1,0 +1,44 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cloud-workload-policies-and-rules/cloud-workload-policies/enable-or-disable-a-cloud-workload-policy
+fetched_at: 2026-09-06T09:36:11Z
+source: cortex-platform
+---
+
+# Enable or disable a cloud workload policy | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSIAM 
+
+ Cortex XSIAM Documentation 
+
+ Cloud Security 
+
+ Cloud workload policies and rules 
+
+ Cloud workload policies 
+
+ Cortex XSIAM 
+
+ Enable or disable a cloud workload policy 
+
+ Enable or disable a Cortex XSIAM cloud workload policy to control its evaluation and enforcement. 
+
+ Navigate to Posture Management → Rules & Policies → Policies → Cloud Workload . 
+
+ In the Cloud Workload Policies page, click on the policy you want to enable or disable. 
+
+ In the Details page, click the toggle button at the top to enable or disable the policy. 
+
+ Previous Cloud Workload Policies page 
+
+ Next Create a cloud workload policy 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

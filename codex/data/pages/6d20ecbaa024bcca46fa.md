@@ -1,0 +1,120 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/playbooks/playbook-development
+fetched_at: 2026-09-06T10:45:00Z
+source: cortex-platform
+---
+
+# Playbook Development | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.13 
+
+ Customize Cortex XSOAR 
+
+ Customize and Configure Cortex XSOAR 
+
+ Playbooks 
+
+ Cortex XSOAR 6.13 
+
+ Playbook Development 
+
+ Develop playbooks in Cortex XSOAR 6.13. 
+
+ Playbooks are at the heart of the Cortex XSOAR system, which enable you to automate many security processes, including handling investigations and managing tickets. You can structure and automate security responses that were previously handled manually. For example, you can use playbook tasks to parse the information in the incident, whether it is an email or a PDF attachment. You can interact with users in your organization using communication tasks, or remediate an incident by interacting with a third-party integration. 
+
+ Playbooks have different task types for each of the actions you want to take. Manual tasks can be used where an analyst needs to confirm information or escalate an incident. Conditional tasks can be used with a loop to check if certain information is present, so that you can proceed with the investigation. Playbook tasks can open tickets in a ticketing system, such as Jira, detonate a file using a sandbox, etc. 
+
+ When building your playbook, keep in mind the following: 
+
+ What actions do you need to take? 
+
+ What conditions apply along the way? Are these conditions manual or automatic? 
+
+ Do you need to include looping? 
+
+ Are there any time-sensitive aspects to the playbook? 
+
+ When is the incident considered remediated? 
+
+ Playbook Tasks 
+
+ Playbook tasks are the building blocks of playbooks. With tasks, you can run automations and sub-playbooks, communicate with end users, set conditions, and store relevant data. Tasks can be reused across playbooks and you can copy, cut, paste, and delete tasks within or between playbooks using keyboard shortcuts . You can also open a sub-playbook task and click Open sub-playbook and the sub-playbook opens in a new tab. 
+
+ Note 
+
+ To open multiple playbooks at the same time, edit the first playbook and then click the + symbol next to the playbook name to create a new tab. You can either create a new playbook, or add an existing one. 
+
+ Cortex XSOAR supports different task types for the different aspects of the playbook. Each task type requires different information and provides different capabilities. You should choose your task type based on what you want to accomplish in the task. For example, for enrichment, you might want to run an enrichment sub-playbook or a command that returns additional information for an indicator. If you are at a fork in your decision tree, you should use a conditional task to help you determine which path to choose. 
+
+ You can use the following task types: 
+
+ Standard tasks (including manual and automated tasks) 
+
+ Conditional tasks 
+
+ Data collection tasks 
+
+ Section headers 
+
+ Inputs and Outputs 
+
+ Depending on the task type that you select, and the script that you are running, your playbook task has inputs and outputs . 
+
+ Inputs are data pieces that are present in the playbook or task. The inputs are often manipulated or enriched and they produce outputs. Outputs are objects whose entries will serve the tasks throughout the playbook, and they can be derived from the result of a task or command. 
+
+ Sub-playbooks 
+
+ Playbooks can be divided into two categories, depending on their use. 
+
+ Parent playbooks are playbooks that run as the main playbook of an incident. For example, Phishing - Generic v3 and Malware Investigation & Response Incident handler . 
+
+ Sub-playbooks are playbooks that are nested under other playbooks. They appear as tasks in the parent playbook flow and have a book icon. A sub-playbook can also be a parent playbook in a different use case. For example, IP Enrichment - Generic v2 and Retrieve File From Endpoint – Generic . These playbooks are usually used as part of a bigger investigation. 
+
+ As sub-playbooks are building blocks that can be used in other playbooks and use cases, you should define generic inputs for them. 
+
+ Inputs can be passed to sub-playbooks from the parent playbook, used and processed in the sub-playbook, and sent as output to the parent playbook. For more information about passing context data between playbooks, see Incident Context Data . 
+
+ Note 
+
+ Any change made to a sub-playbook impacts the parent playbook in the next run of the parent playbook. 
+
+ Field Mapping 
+
+ You can map output from a playbook task directly to an incident field. This means that the value for an output key populates the specified field per incident. This is a good alternative to using a task with a set incident command. 
+
+ Attach and Detach Playbooks 
+
+ When installing a playbook from a content pack, by default the playbook is attached, which means that it is not editable (apart from some input values). 
+
+ To edit the playbook, you need to detach or make a duplicate. While it is detached, the playbook is not updated by the content pack. This may be useful when you want to update the playbook without breaking customization. If you want to update the playbook type through content pack updates, you need to reattach the playbook, but any changes are overridden by the content ack on upgrade. If you open an attached playbook in a tab, it can be detached from within the editor page. 
+
+ If you want to keep the changes, duplicate the playbook before reattaching it. 
+
+ Playbook Content Management 
+
+ In Cortex XSOAR, you can develop and test your playbook content on other machines before using it in a production environment. You can do this by using one of the following options: 
+
+ The remote repository feature in the UI 
+
+ The CI/CD process 
+
+ For more information about content management for Cortex XSOAR, see Remote Repositories . 
+
+ Previous What Are Playbooks? 
+
+ Next Configure IoT Security Playbooks 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

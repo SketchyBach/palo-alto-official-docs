@@ -1,0 +1,50 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/microsoft/microsoft-graph
+fetched_at: 2026-09-06T10:00:25Z
+source: cortex-platform
+---
+
+# Microsoft Graph | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Cortex Cloud Data Sources and Connectors 
+
+ Vendor-specific data sources and connectors 
+
+ Microsoft 
+
+ Microsoft Graph 
+
+ Use Microsoft Graph data with Cortex Cloud. 
+
+ Important 
+
+ This connector is only available for tenants that onboarded after July 26, 2026. For tenants that onboarded before this date, use Marketplace to access the standalone integration. For more information, see Marketplace . 
+
+ Integrate with Microsoft products through the Microsoft Graph API and Microsoft Endpoint Manager (Intune). Use the Microsoft Graph API to interact with Microsoft APIs that do not have dedicated connectors, and use Microsoft Endpoint Manager (Intune) for cloud-based mobile device and operating system management. 
+
+ This connector includes the following sub-capabilities (Marketplace integrations link to PAN DEV for more information): 
+
+ Microsoft Graph API : Use the Microsoft Graph API integration to interact with Microsoft APIs that do not have dedicated integrations in Cortex Cloud, for example, Mail Single-User, etc. This sub-capability is available with any active Cortex XSIAM, Cortex Cloud Posture Security, Cortex Cloud, Cortex Cloud Runtime Security, Cortex XDR, or Cortex AgentiX license. 
+
+ Microsoft Graph Device Management : Microsoft Intune is a Microsoft cloud-based management solution that provides for mobile device and operating system management. This sub-capability is available with any active Cortex XSIAM, Cortex Cloud, Cortex Cloud Runtime Security, Cortex XDR, or Cortex AgentiX license. 
+
+ To configure this connector, follow the steps outlined in the configuration wizard. 
+
+ Previous Microsoft Active Directory 
+
+ Next Microsoft Identity 
+
+ Last updated 25 days ago 
+
+ Was this helpful?

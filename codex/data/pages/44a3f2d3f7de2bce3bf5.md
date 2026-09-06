@@ -1,0 +1,117 @@
+---
+url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/ai-supply-chain-security/model-security-to-secure-your-ai-models/get-started-with-ai-model-security
+fetched_at: 2026-09-06T11:17:58Z
+source: ai-security
+---
+
+# Get Started with AI Model Security Clear
+
+Updated on 
+
+ Thu Aug 27 02:43:16 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma AIRS 
+
+ AI Supply Chain Security 
+
+ Secure Your AI Models with AI Model Security 
+
+ Get Started with AI Model Security 
+
+ Download PDF 
+
+ Prisma AIRS 
+
+ Get Started with AI Model Security 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma AIRS Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ AI Supply Chain Security 
+
+ AI Red Teaming 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Secure Your AI Models with AI Model Security 
+
+ Next 
+
+ Create a Deployment Profile for Prisma AIRS AI Model Security 
+
+ Get Started with AI Model Security 
+
+ Learn about the AI Model Security workflow and the step-by-step procedure to scan AI
+ models. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma AIRS (AI Model Security) 
+
+ Prisma AIRS AI Model Security License 
+
+ AI Model Security Workflow 
+ AI Model Security operates on a two-tier
+ hierarchical structure where each security group encompasses one or more security
+ rules. 
+
+ Source Type Binding : Model Security Groups are initially created and
+ associated with a specific source type (such as, S3 buckets). 
+
+ Rule Configuration : Populate these groups with relevant rules. AI
+ Model Security provides intelligent suggestions and validation based on the
+ selected source type, including default rule collections tailored to each
+ source. 
+
+ For instance, a "Verify Author" rule wouldn't be available for S3-based
+ groups since S3 doesn't maintain author metadata. 
+
+ Rules operate in either blocking or non-blocking modes, streamlining the
+ previous severity-based threshold system from AI Model Security. 
+
+ Scanning Process : During model evaluation, the scan request specifies
+ the applicable model security group to establish context. The system then
+ processes two rule categories: 
+
+ Metadata Rules : Validate model metadata from the source
+ platform 
+
+ Artifact Rules : Conduct comprehensive analysis of model
+ files 
+
+ Result Processing : Each rule produces a binary PASS or FAIL outcome.
+ The final scan verdict aggregates all rule results and determines whether to
+ apply blocking enforcement (for critical issues) or non-Blocking responses
+ (for logging and alerts). 
+
+ The AI Model Security delivers structured flexibility—the same model can
+ undergo evaluation against multiple Model Security Groups (such as separate
+ development and production configurations), each with distinct Source Types
+ and rule sets, enabling context-appropriate security rules. 
+
+ Previous 
+
+ Secure Your AI Models with AI Model Security 
+
+ Next 
+
+ Create a Deployment Profile for Prisma AIRS AI Model Security

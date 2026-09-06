@@ -1,0 +1,56 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/investigation-and-response/build-xql-queries/how-to-build-xql-queries/xql-query-best-practices
+fetched_at: 2026-09-06T09:56:40Z
+source: cortex-platform
+---
+
+# XQL Query best practices | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Cases and issues 
+
+ Investigation and response 
+
+ Build XQL queries 
+
+ How to build XQL queries 
+
+ XQL Query best practices 
+
+ Apply best practices when writing XQL queries. 
+
+ Cortex Cloud includes built-in mechanisms for mitigating long-running queries, such as default limits for the maximum number of allowed issues. The following suggestions can help you to streamline your queries: 
+
+ Add a smaller limit by using a limit stage. 
+
+ The default results for any query is a maximum of 1,000,000 results, when no limit is explicitly stated in the query. Queries based on XQL query entities are limited to 10,000 results. Adding a smaller limit can greatly reduce the response time. 
+
+ Ask Copy 
+
+ datamodel dataset = microsoft_windows_raw 
+ | fields *host* 
+ | limit 100 
+
+ Use a small Timeframe . Select Relative time and define Last 30 Minutes where possible. 
+
+ Use filters that exclude data, along with other applicable filters. 
+
+ Select only the fields required in the results. 
+
+ Previous Useful XQL user interface features 
+
+ Next Expected results when querying fields 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

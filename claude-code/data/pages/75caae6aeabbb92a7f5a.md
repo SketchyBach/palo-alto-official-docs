@@ -1,0 +1,344 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-ios-guide/9.1/administrator-tasks/prepare-for-installation-administrator-task/install-the-cortex-xdr-agent-app-on-ios-using-microsoft-intune
+fetched_at: 2026-09-06T10:20:43Z
+source: cortex-platform
+---
+
+# Install the Cortex XDR agent app on iOS using Microsoft Intune | 9.1 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR Agent 
+
+ Cortex XDR Agent iOS Guides 
+
+ 9.1 
+
+ Administrator Tasks 
+
+ Prepare for Installation (Administrator Task) 
+
+ Cortex XDR agent iOS 9.1 
+
+ Install the Cortex XDR agent app on iOS using Microsoft Intune 
+
+ Install the app using Microsoft Intune 
+
+ Prerequisites 
+
+ Before beginning the deployment, ensure the following requirements are met: 
+
+ Microsoft Intune Environment: Access to the Microsoft Intune admin center. 
+
+ Apple VPP Token: An active connection between your Apple Business Manager account and Intune (Tenant Administration > Apple VPP Tokens). 
+
+ Managed Devices: Devices must be enrolled and managed by Intune. 
+
+ Distribution ID: Your unique Cortex XDR Distribution ID. 
+
+ Target Groups: User or device groups (for example, "Cortex XDR Sales Org Iphones") created in Intune. 
+
+ Cortex XDR agent app for iOS requires iOS 15.0 or later. 
+
+ The notifications payload is only available for supervised devices. 
+
+ The content filter payload is only available for supervised devices running iOS 17.0 or later. 
+
+ Add Cortex XDR app using Apple VPP 
+
+ Instead of adding the Cortex XDR app directly from the store, use the Apple Volume Purchase Program (VPP) to manage licenses and syncing. 
+
+ Verify VPP Integration: 
+
+ Go to Tenant administration + Connector and tokens + Apple VPP tokens . 
+
+ Ensure the status of your token is Active . 
+
+ Add the app in Apple VPP: 
+
+ Log in to your Apple Business Manager (or VPP) portal. 
+
+ Search for and add the Cortex XDR app. 
+
+ Important: When prompted for the quantity, enter a number significantly higher than your current device count (for example, 1000 or 5000) to avoid running out of licenses. If the limit is reached later, you will need to update the quantity and re-sync. 
+
+ Sync with Intune: 
+
+ Return to the Intune Admin Center. 
+
+ Go to Tenant administration + Connector and tokens + Apple VPP tokens . 
+
+ Select your active token. 
+
+ Scroll to the right to find the options menu (three dots button) and select Sync . 
+
+ Wait 5-10 minutes for the synchronization to complete. 
+
+ Verify app presence: 
+
+ Go to Apps + iOS/iPadOS . 
+
+ Confirm that Cortex XDR appears in the list with the App type listed as iOS volume purchase program plan . 
+
+ Note 
+
+ Do not assign the app to groups yet. This will be performed in the final step after all the configurations are ready. 
+
+ For more information, see: Manage VPP apps in Intune 
+
+ Create the app configuration policy 
+
+ This policy pre-configures the app with your Distribution ID (distributionID value) and user details. 
+
+ Go to Apps + Manage Apps + Configuration + Create + Managed devices . 
+
+ Configure the Basics tab: 
+
+ For Name , enter Cortex XDR App Config. 
+
+ For Platform , select iOS/iPadOS. 
+
+ For Targeted app , select the Cortex XDR app (verify it is the VPP version if multiple exist). 
+
+ Click Next . 
+
+ Configure the Settings tab: 
+
+ For Configuration settings format , select Enter XML data . 
+
+ In the XML property list area, paste the following code, and then replace ENTER YOUR DISTRIBUTION ID HERE with your actual Distribution ID. 
+
+ Click Next . 
+
+ On the Assignments tab, select your target group, and click Select to create the policy. 
+
+ Configure notification settings 
+
+ Enforce notification settings to ensure the Cortex XDR agent can alert users. 
+
+ On iOS, the system only allows one global notifications payload for the entire system. Depending on your current configuration, if there is already a profile to allow notifications to other apps, we advise you to edit that same profile and add a new entry for the Cortex XDR app. 
+
+ Note 
+
+ If there are multiple notification profiles assigned to the same device, the first profile to arrive at the device will be installed, and all subsequent ones will fail to install, in line with Apple requirements. 
+
+ If this is the first notification profile, you can import the pre-configured Intune policy supplied here. This profile was created manually in Intune, and then exported to JSON format. You can import this policy directly into iOS configuration profiles, create, import policy, save. 
+
+ You can also create your own profile, manually. 
+
+ Import a policy from JSON 
+
+ If you have a pre-configured JSON file (such as the Cortex XDR Notifications file shown below), you can import it directly to create a new policy without manually selecting settings. 
+
+ Navigate to Devices + iOS/iPadOS + Configuration profiles . 
+
+ In the top menu bar, click Create + Import Policy . 
+
+ An Import policy (preview) pane will open. Be aware that importing creates a new, distinct policy, and original assignments will not be copied. 
+
+ Under Policy file , browse for and upload your JSON configuration file (for example, Cortex XDR Notifications_2024-05-23T19_26_27.648Z.json ). 
+
+ For New name , enter a name for the policy (for example, Cortex XDR Notifications ). 
+
+ For New description , enter a meaningful description for the policy. 
+
+ Click Save to create the policy. 
+
+ Click the name of the policy you just imported (for example, Cortex XDR Notifications ). 
+
+ In the policy overview, scroll down to the Assignments section and click Edit . 
+
+ Under Included groups , click + Add groups . 
+
+ Search for, and select your target group (for example, "Cortex XDR Sales Org Iphones"). 
+
+ Click Select , then click Review + save . 
+
+ Click Save again to confirm. The policy is now applied to the selected devices. 
+
+ Create your own profile 
+
+ Navigate to Devices + iOS/iPadOS + Configuration profiles + Create + New Policy . 
+
+ For Platform , select iOS/iPadOS . 
+
+ For Profile type , select Settings catalog . 
+
+ For Name , enter the profile Cortex XDR Notifications . 
+
+ In the Settings picker, select User Experience + Notifications . 
+
+ Check Notification Settings , configure Bundle Identifier as com.paloaltonetworks.cortex.ios , accept the defaults for all the other fields, and save the policy. 
+
+ On the Assignments tab, click on the name of your policy (for example, Cortex XDR Notifications ). 
+
+ In the policy overview, scroll down to the Assignments section and click Edit . 
+
+ Under Included groups , click + Add groups . 
+
+ Search for, and select your target group (for example, "Cortex XDR Sales Org Iphones"). 
+
+ Click Select , then click Review + save . 
+
+ Click Save again to confirm. The policy is now applied to the selected devices. 
+
+ Configure the network content filter 
+
+ Deploy the custom profile for network protection.This step is required because Intune does not include all the available payload fields in the settings catalog in its user interface. 
+
+ Step 1: Create the .mobileconfig file 
+
+ Using a text editor, copy the XML code below, replace ENTER YOUR DISTRIBUTION ID HERE with your Distribution ID, and save as CortexXDR_NetworkContentFilter.mobileconfig . 
+
+ Step 2: Upload the .mobileconfig file to Intune 
+
+ Navigate to Devices + iOS/iPadOS + Configuration profiles + + Create + New Policy . 
+
+ Under Create a profile , set the following: 
+
+ Platform : iOS/iPadOS 
+
+ Profile type : Templates 
+
+ Template name: Custom 
+
+ Click Create . 
+
+ Name the profile Cortex XDR Network Content Filter . 
+
+ Upload the .mobileconfig file created in Step 1 . 
+
+ Click Next . 
+
+ On the Assignments tab, for Included groups , assign the profile to your target group, and click Next . 
+
+ Click Review + save . 
+
+ Assign and deploy the app 
+
+ Now that the app is synced and all configurations (App Config, Notifications, Network Filter) are in place, you can assign the app to your device users. 
+
+ Navigate to Apps + iOS/iPadOS . 
+
+ Click the Cortex XDR app ( Type : iOS volume purchase program plan). 
+
+ Select Properties + Assignments + Edit . 
+
+ Under the Required section, click + Add group . 
+
+ Select your target group (for example, "Cortex XDR Sales Org Iphones"). 
+
+ Set the Install as removable option to false/no. 
+
+ Review the configuration, and click Save . 
+
+ Verify configuration and app installation 
+
+ Verify that configuration and deployment were successful. 
+
+ On the Intune console 
+
+ Verify configuration profiles (Notifications and Network Filter) 
+
+ For the profiles configured under Configuration profiles (for example, Cortex XDR Notifications or Cortex XDR Network Content Filter): 
+
+ Go to Devices + iOS/iPadOS + Configuration profiles . 
+
+ Click the specific policy name you want to check (for example, Cortex XDR Notifications or Cortex XDR Network Content Filter). 
+
+ On the Overview page, check the statuses on the Device status and User status charts. 
+
+ Ensure that the status bar shows a green indicator for Succeeded . 
+
+ You can also view the Device install status report to see all devices targeted by the policy. 
+
+ The Per setting status report allows you to view the success of each individual setting within the policy. 
+
+ Verify app configuration policy (XML settings) 
+
+ For the policy configured under App configuration policies (where the Distribution ID and user tokens were added): 
+
+ Go to Apps + App configuration policies . 
+
+ Click the policy name (for example, Cortex XDR ). 
+
+ In the Overview section, check the status on the Device Status ring chart. 
+
+ Verify that the Device status shows Succeeded (indicated by a green section in the chart). 
+
+ Verify app installation status 
+
+ To ensure the app itself is installed (which is a prerequisite for the configurations to apply): 
+
+ Go to Apps + iOS/iPadOS + iOS/iPadOS apps , and select Cortex XDR . 
+
+ To check installation status, in the Monitor section, click Device install status . 
+
+ To confirm installation, look for the Installed status in the device list. 
+
+ On the iOS devices 
+
+ After the policies are deployed from Intune, perform the following checks on the managed iOS device, to confirm they have been applied successfully. 
+
+ Check device management profiles 
+
+ Open the Settings app on the iOS device. 
+
+ Go to General + VPN & Device Management . 
+
+ Verify that Content Filter is listed under Restrictions and Proxies . 
+
+ Ensure the status shows Running (Note: It might initially appear as Invalid before the app fully initializes). 
+
+ Tap Content Filter to confirm it is actively managed by Cortex XDR. 
+
+ Verify notification settings 
+
+ In the Settings app, scroll down, and select the Cortex XDR app. 
+
+ Tap Notifications . 
+
+ Confirm that Allow Notifications is toggled ON . 
+
+ Verify that Critical Alerts and Time-Sensitive Notifications are enabled. 
+
+ Ensure all alert styles ( Lock Screen , Notification Center , Banners ) are checked and active. 
+
+ Confirm that Show Previews is set to Always (Default). 
+
+ Validate app installation and protection status 
+
+ Open the Cortex XDR app from the home screen. 
+
+ The app should launch and automatically connect without requiring manual login credentials. 
+
+ Wait for the app to complete its initial checkup. You will see a progress circle indicating Contacting Server , Performing Checkup , and Updating Policies . 
+
+ Confirm the status updates to a green shield icon displaying Checkup performed! or Protected . 
+
+ Tap the Settings tab (bottom right) to view details such as the Distribution ID and Endpoint ID , confirming the policy values were successfully received. 
+
+ Verify module activation 
+
+ Inside the Cortex XDR app, tap the Modules tab (bottom left). 
+
+ Verify that Basic requirements (Notifications & Background app refresh) and Network Shield are marked as Active with a green dot. 
+
+ Test app removal restriction 
+
+ Attempt to remove the Cortex XDR app from the home screen. 
+
+ You should see a system alert stating Uninstall Not Allowed , confirming that the app is managed and required by your organization. 
+
+ Previous Configuration for Installation by MDM (Administrator Task) 
+
+ Next Device User Tasks 
+
+ Last updated 3 days ago 
+
+ Was this helpful?

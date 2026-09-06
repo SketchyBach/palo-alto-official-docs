@@ -1,0 +1,170 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/learn-about-cortex-xdr-5.x
+fetched_at: 2026-09-06T11:18:11Z
+source: cortex-platform
+---
+
+# Navigate the Cortex XDR 5.x docs | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Learn about Cortex XDR 5.x 
+
+ Cortex XDR 5.x 
+
+ Navigate the Cortex XDR 5.x docs 
+
+ Start here for a visual overview of the main Cortex XDR 5.x documentation areas. 
+
+ Cortex XDR 5.x unifies endpoint protection, detection, investigation, and response. 
+
+ Use this page to jump into the right documentation area fast. 
+
+ 1. Learn the product 
+
+ Product overview
+Learn the basics and architecture. 
+
+ What is Cortex XDR ? 
+
+ Agentic AI
+Use the assistant for investigations and automation. 
+
+ Agentic AI in Cortex XDR 
+
+ Licensing
+Review plans, add-ons, and retention. 
+
+ Cortex XDR license plan 
+
+ Interface
+Navigate pages, filters, views, and exports. 
+
+ Use the interface 
+
+ 2. Onboard and configure 
+
+ Onboard
+Deploy, activate, and finish setup. 
+
+ Onboard Cortex XDR 
+
+ Deployment checklist
+Follow the key steps to deploy and onboard. 
+
+ Cortex XDR onboarding checklist 
+
+ Post-deployment steps
+Set up your environment, automation, and access. 
+
+ Post-deployment steps 
+
+ Configure
+Set up analytics, data, integrations, and APIs. 
+
+ Configure Cortex XDR 
+
+ Data management
+Manage datasets, retention, and storage. 
+
+ Dataset management 
+
+ Cases and issues
+Review cases, investigate issues, and track response. 
+
+ Overview of cases 
+
+ 3. Protect your environment 
+
+ Endpoint protection
+Learn protections, modules, and prevention. 
+
+ Endpoint protection 
+
+ Endpoint management
+Deploy agents and manage policies. 
+
+ Install and manage endpoints 
+
+ WAAS
+Protect web apps and APIs. 
+
+ Web and API Security (WAAS) 
+
+ Endpoint DLP
+Prevent sensitive data exfiltration. 
+
+ Endpoint DLP 
+
+ 4. Detect, investigate, and respond 
+
+ Dashboards
+Track operations, trends, and outcomes. 
+
+ Monitor dashboards and reports 
+
+ Assets
+Investigate assets, groups, scores, and risk. 
+
+ Asset management 
+
+ Cases and response
+Triage issues, investigate, and respond. 
+
+ Investigate and respond to cases 
+
+ Assistant chat
+Investigate and query with natural language. 
+
+ Agentic Assistant chat 
+
+ Threats
+Manage rules and analytics. 
+
+ Threat management 
+
+ Exposure
+Assess exposure, compliance, and vulnerabilities. 
+
+ Exposure management 
+
+ 5. Reference and maintenance 
+
+ XQL
+Build and run queries across your data. 
+
+ Cortex XDR XQL 
+
+ Graph Search
+Explore relationships across assets and findings. 
+
+ Graph Search 
+
+ API reference
+Integrate Cortex XDR with external tools. 
+
+ Cortex XDR API Reference 
+
+ Broker VM migration
+Follow the Broker VM migration path. 
+
+ Migrate to a new Broker VM image 
+
+ Use the table of contents when you know the exact page. 
+
+ Use this page when you need a quick overview of the main Cortex XDR 5.x areas. 
+
+ Next What is Cortex XDR ? 
+
+ Last updated 11 days ago 
+
+ Was this helpful?

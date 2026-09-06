@@ -1,0 +1,106 @@
+---
+url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/ai-skill-security/submit-a-skill-for-scanning
+fetched_at: 2026-09-06T11:17:57Z
+source: ai-security
+---
+
+# Submit a Skill for Scanning Clear
+
+Updated on 
+
+ Thu Aug 27 02:43:16 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma AIRS 
+
+ AI Skill Security (Preview) 
+
+ Submit a Skill for Scanning 
+
+ Download PDF 
+
+ Prisma AIRS 
+
+ Submit a Skill for Scanning 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma AIRS Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ AI Supply Chain Security 
+
+ AI Red Teaming 
+
+ Release Notes 
+
+ New Features 
+
+ Submit a Skill for Scanning 
+
+ Upload and submit a skill package to Prisma AIRS AI Skill Security for static
+ analysis and receive an Allowed or Blocked verdict. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma AIRS (AI Skill Security) 
+
+ No License required for preview 
+
+ Organization onboarded to Strata Cloud Manager 
+
+ Active deployment profile for AI Skill Security 
+
+ Submit a skill package as a ZIP archive for AI Skill Security to statically analyze.
+ AI Skill Security evaluates the skill against your configured security rules and
+ produces an Allowed or Blocked verdict. Before uploading, ensure your
+ archive meets the packaging requirements described in Prepare a Skill
+ Package for Upload . 
+
+ If your organization does not yet have an active deployment profile for AI Skill
+ Security, follow the same workflow described in Create a Deployment Profile for Prisma AIRS AI Model
+ Security using the Skills deployment profile available in the Customer
+ Support Portal. 
+
+ Log in to Strata Cloud Manager . 
+
+ Select AI Security AI Supply Chain Security Skill Scans . 
+
+ Select New Analysis . 
+
+ Select Upload your agent codebase and choose a ZIP file from your local machine. 
+
+ For Name your scan , enter a descriptive name to
+ identify this analysis (for example, my-agent-v2.1 or
+ customer-support-bot ). 
+
+ ( Optional ) For Add a Git URL , enter the
+ repository URL for reference tracking. 
+
+ The Git URL is used for metadata tracking
+ only. 
+
+ Select Start Analysis . 
+
+ The scan progresses through the following statuses: 
+
+ Status Description Typical Duration 
+
+ Analyzing The AI analysis engine is scanning your skill. A few seconds; up to 5 minutes maximum. 
+
+ Completed Results are ready to view. NA 
+
+ Failed Something went wrong. See Troubleshoot AI Skill
+ Security . NA

@@ -1,0 +1,162 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/learn-about-cortex-xsoar/get-started-in-cortex-xsoar/how-to-use-markdown
+fetched_at: 2026-09-06T10:43:04Z
+source: cortex-platform
+---
+
+# How to Use Markdown | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.13 
+
+ Learn about Cortex XSOAR 
+
+ Get Started in Cortex XSOAR 
+
+ Cortex XSOAR 6.13 
+
+ How to Use Markdown 
+
+ Use markdown to add basic formatting to text in multiple contexts within Cortex XSOAR 6.13. 
+
+ Markdown is a lightweight markup language that you can use to add basic formatting to text in multiple contexts within Cortex XSOAR. For example, you can highlight key terms in bold, mark text as a header, add links, or add tables. This provides a better end-user experience, which is more aesthetically pleasing and easier to use. 
+
+ You can use Markdown in many places within Cortex XSOAR. Some of the more common places are: 
+
+ Threat intel reports 
+
+ Command line interface (CLI) 
+
+ Automation scripts 
+
+ Playbook tasks 
+
+ Widgets 
+
+ Incident fields 
+
+ Lists 
+
+ In most contexts where Markdown is supported, a GUI Markdown editor is available to help you easily apply styles and then view a preview of how those styles will look. 
+
+ Markdown Syntax 
+
+ Most Markdown syntax elements within Cortex XSOAR are identical to those used in basic and extended Markdown syntax. For a description of markdown syntax, see https://www.markdownguide.org/ . 
+
+ The following Markdown elements used in Cortex XSOAR and exposed in the Markdown editor follow the same syntax as basic/extended Markdown: 
+
+ Bold 
+
+ Italics 
+
+ Strike-through 
+
+ Headings 
+
+ Lists (unordered/ordered) 
+
+ Links 
+
+ Code 
+
+ Note 
+
+ Using the Insert code button in the Markdown editor adds three backtick quotes, which allows inclusion of a literal backtick character within the code snippet. 
+
+ Tables 
+
+ Note 
+
+ You can use the Insert table button in the Markdown editor to easily create a table with up to five rows/columns. 
+
+ Images 
+
+ Blockquote 
+
+ Additional elements not exposed in the Markdown editor can also be applied, such as: letter-spacing , text-shadow , font-weight , font-size . 
+
+ Cortex XSOAR Flavored Markdown 
+
+ Cortex XSOAR supports additional elements not found in basic/extended Markdown that provide useful functionality when working with Cortex XSOAR. For example: 
+
+ Cortex XSOAR Markdown Element 
+
+ Syntax/Description 
+
+ Underline 
+
+ +This text will be underline+ 
+
+ Text alignment 
+
+ <:-->Left Aligned Text<-:->Center Aligned Text<--:>Right Aligned Text 
+
+ ==This text will be highlighted== 
+
+ Text color 
+
+ {{color:#fd0800}}(This text will be in red) OR {{color:red}}(This text will be in red) 
+
+ Note 
+
+ You can use the name of the color, or the color code (hex triplet format) 
+
+ Text background color 
+
+ {{background:#fd0800}}(This text will have red background) OR {{background:red}}(This text will have red background) 
+
+ Note 
+
+ You can use either the name of the color, or the color code (hex triplet format). You can use text color and text background color in parallel. For example (using the editor buttons): {{background:red}}({{color:blue}} (This text will be in blue with red background)). Or, alternatively, if you are manually applying attributes, you can include both types in a single bracket: {{background:red;color:blue}} (This text will be in blue with red background)). For both text color and text background color, you can select Show custom options in the Markdown editor to select or enter a specific color code (hex triplet format). 
+
+ Keyboard input style 
+
+ [[kbd]] 
+
+ Note 
+
+ Denotes textual user input from a keyboard. 
+
+ Linking to other Cortex XSOAR incidents 
+
+ #Incident ID Number 
+
+ Upload a local image 
+
+ You can upload a local image that is not available on the internet to the Markdown editor. Copy/paste or drag a local image into the Markdown editor, which automatically applies the standard image syntax and adds a relative path to the image. 
+
+ Note 
+
+ Within the War Room, when the Markdown editor is open, you will only be able to drag images into the Markdown editor. To drag images into the War Room, first close the Markdown editor. 
+
+ Button 
+
+ %%%{"message": "This is a Button", "action":"Command Name", "params": { "param1": "val1", "param2": "val2"}}%%% 
+
+ Note 
+
+ Buttons are available only in entries of incidents. 
+
+ Note 
+
+ If data between the two sets of %%% is not parsed as a JSON, all of the data is taken as a command to render. For example, ** %%%!Print value='test'%%% **causes the button to run !Print. 
+
+ Some extended Markdown syntax may not be supported in Cortex XSOAR. For example, checkboxes and footnotes. 
+
+ Previous Using the Search Query 
+
+ Next New User FAQ 
+
+ Last updated 3 days ago 
+
+ Was this helpful?

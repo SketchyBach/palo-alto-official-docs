@@ -1,0 +1,68 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/onboard-and-configure/deployment-steps-and-checklist/upgrade-from-prisma-cloud-to-cortex-cloud/copy-content/copy-global-configurations
+fetched_at: 2026-09-06T10:03:05Z
+source: cortex-platform
+---
+
+# Copy Global configurations | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ onboard and configure 
+
+ Deployment steps and checklist 
+
+ Upgrade from Prisma Cloud to Cortex Cloud 
+
+ Copy content 
+
+ Cortex Cloud Posture 
+
+ Copy Global configurations 
+
+ Copy supported global configurations from Prisma Cloud. 
+
+ Roles and user groups 
+
+ When you copy Roles and User Groups in the Upgrade Helper, the Prisma Cloud Custom Permission Groups and Roles are copied to Cortex Cloud as corresponding roles and user groups. 
+
+ Assign roles and user groups 
+
+ Users created through the customer support portal are assigned to the relevant user groups. If your organization uses single sign-on (SSO) for authentication, user roles and groups won't be assigned based on Prisma Cloud mappings. In this case, you will need to handle role assignment by SAML group mapping. Learn more about authenticating users . 
+
+ Verify copied roles and user groups 
+
+ After you follow the steps listed in Copy configurations , navigate to Settings → Configurations → Access Management to view the copied items. 
+
+ Note 
+
+ Keep the following caveats in mind: 
+
+ Scope-Based Access Control (SBAC) configurations, such as resources or account lists are not copied. You can manually assign scope-based access to the relevant users or groups. 
+
+ When migrating permission groups and roles, the total count of items successfully copied may be lower than the initial number selected. This is expected behavior. The discrepancy in counts can occur for the following reasons: 
+
+ Default Entities : System-default items that are already mapped in the Cortex environment are automatically excluded from the operation, as migration is not required. The initial total count shown for processing will reflect this exclusion. 
+
+ Validation Failures : Entities that fail validation checks, such as those with duplicate names, will be skipped and not copied. 
+
+ Empty Mappings : Items that result in an empty configuration after the permission mapping process (e.g., a group that contains no valid permissions in the target system) will be skipped, as no corresponding entity can be created. 
+
+ Reference the migration logs for specific details on any skipped entities. 
+
+ Previous Copy content 
+
+ Next Copy CSPM configurations 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

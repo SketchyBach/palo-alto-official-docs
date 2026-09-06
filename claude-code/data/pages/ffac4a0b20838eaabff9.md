@@ -1,0 +1,102 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/investigate-and-respond-to-cases/investigate-issues/issue-deduplication
+fetched_at: 2026-09-06T09:43:50Z
+source: cortex-platform
+---
+
+# Issue deduplication | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Investigate and respond to cases 
+
+ Investigate issues 
+
+ Cortex XDR 5.x 
+
+ Issue deduplication 
+
+ Learn how Cortex XDR deduplicates related issues. 
+
+ To optimize issue management and reduce noise, Cortex XDR employs a deduplication (dedup) mechanism for specific agent-based issues. 
+
+ What is deduplication? 
+
+ Deduplication is the process of grouping identical security events that occur on the same endpoint within a specific timeframe. Instead of generating a new entry for every recurring instance of a threat, the system consolidates them into a single actionable issue. 
+
+ Scope and conditions 
+
+ Deduplication is strictly applied to issues where the issue_name contains WildFire or Local Analysis . All other issue types are processed individually and will not be deduped. 
+
+ The deduplication key 
+
+ The system generates a unique fingerprint or key for each incoming issue. If the key matches an existing active issue within the timeframe, the new event is deduped. The formula is as follows: 
+
+ {agent_id}_{issue_name}_{hash_id}_{action_status}_{name}_{trigger} 
+
+ Key components are resolved using a specific fallback hierarchy to ensure a match even if some data is missing: 
+
+ Component 
+
+ Resolution Logic (Fallback Order) 
+
+ hash_id 
+
+ action_file_sha256 → action_process_image_sha256 → actor_process_image_sha256 
+
+ name 
+
+ action_file_name → action_process_image_name → actor_process_image_name 
+
+ action_status 
+
+ Appended only if issue_action_status is present (e.g., Blocked, Detected). 
+
+ trigger 
+
+ The prevention trigger value from messageData.trigger (if present). 
+
+ Issues are automatically excluded from deduplication if the agent_id is missing, the hash_id is missing, or the hash_id is an all-zero SHA256 string. 
+
+ Time-to-live (TTL) 
+
+ The deduplication window is 1 hour . This is a sliding window that starts from the ingestion of the first issue. Identical events arriving within this 60-minute buffer are suppressed; events arriving after the window expires will trigger a new issue. 
+
+ How to find deduplicated issues 
+
+ Deduplicated issues are often referred to as "hidden" issues because they do not appear as unique new rows in the issue table. Instead, they are aggregated into the initial "Parent" issue instance. 
+
+ Locating suppressed events 
+
+ To identify if an issue was suppressed by the dedup logic, search for the primary issue using the following criteria within a 1-hour window before the timestamp of the expected issue: 
+
+ Agent ID: Match the specific agent_id of the endpoint. 
+
+ Issue Name: Look for Local Analysis Malware or WildFire Malware . 
+
+ File Identification (Hash): Use the SHA256 hierarchy (Action File → Action Process → Actor Process). 
+
+ File/Process Name: Match the action_file_name or relevant process name. 
+
+ Action Status: Ensure the issue_action_status matches (if it was present on the event). 
+
+ If you find an issue matching these criteria that occurred less than 60 minutes prior, the "missing" issue has been successfully deduped into that existing entry. 
+
+ Previous Use the Work Plan in an investigation 
+
+ Next Causality view 
+
+ Last updated 5 days ago 
+
+ Was this helpful?

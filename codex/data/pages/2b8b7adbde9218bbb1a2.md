@@ -1,0 +1,78 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-threat-intel-management-guides/6.12/configure-indicators/indicator-customization/indicator-types
+fetched_at: 2026-09-06T10:49:52Z
+source: cortex-platform
+---
+
+# Indicator Types | 6.12 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Threat Intel Management Guides 
+
+ 6.12 (EoL) 
+
+ Configure Indicators 
+
+ Indicator Customization 
+
+ XSOAR 6.12 Threat Intel Management EoL 
+
+ Indicator Types 
+
+ Learn how indicator types are determined in Cortex XSOAR 6.12. 
+
+ Indicators are categorized by indicator type, which determines the indicator layout (fields) that are displayed and which scripts are run on indicators of that type. 
+
+ The following is a list of some of the indicator types. 
+
+ IP Address 
+
+ Domain 
+
+ URL 
+
+ File 
+
+ Email 
+
+ Host 
+
+ CIDR 
+
+ Attack Pattern 
+
+ Threat Actor 
+
+ Intrusion Set 
+
+ Malware 
+
+ Campaign 
+
+ Tool 
+
+ Report 
+
+ Course of Action 
+
+ Infrastructure 
+
+ Registry Key 
+
+ CVE CVSS Score 
+
+ Previous Indicator Customization 
+
+ Next File Indicators 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/agent-discovery/protect-agents-using-api-intercept
-fetched_at: 2026-08-13T14:04:39Z
+fetched_at: 2026-09-06T11:17:12Z
 source: ai-security
 ---
 
 # View and Protect Agents Using API Intercept Clear
 
-View and Protect Agents Using API Intercept 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- View and Protect Agents Using API Intercept 
-
- Updated on 
-
- Aug 10, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma AIRS Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- AI Model Security 
-
- AI Red Teaming 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Aug 10, 2026 
+ Mon Aug 24 04:41:52 PDT 2026 
 
  Focus 
 
@@ -94,7 +42,7 @@ View and Protect Agents Using API Intercept
 
  Administration 
 
- AI Model Security 
+ AI Supply Chain Security 
 
  AI Red Teaming 
 
@@ -276,60 +224,4 @@ View and Protect Agents Using API Intercept
 
  Next 
 
- AI Agent Discovery Limitations 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- CN-Series 
-
- Firewalls 
-
- VM-Series 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Enterprise DLP 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Administration 
-
- Prisma AIRS 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ AI Agent Discovery Limitations

@@ -1,0 +1,44 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cloud-posture-management-rn/cortex-cloud-posture-management-release-information/previous-maintenance-releases/broker-vm/broker-vm-29077-major
+fetched_at: 2026-09-06T10:53:56Z
+source: cortex-platform
+---
+
+# Broker VM 29.0.77 (Major) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Release Notes 
+
+ Cortex CLOUD 
+
+ Cortex Cloud Posture Management 
+
+ Cortex Cloud Posture Management Release Information 
+
+ Previous maintenance releases 
+
+ Broker VM 
+
+ Broker VM 29.0.77 (Major) 
+
+ The following table describes the changes integrated on the Broker VM major version 29.0.77 released on November 23, 2025 as part of the Cortex Cloud 1.3 release. This version replaces the previous version released on November 9, 2025 as the major version for the release. The release is divided into three deployments: November 9, 2025, November 16, 2025, and November 23, 2025. 
+
+ ISSUE 
+
+ DESCRIPTION 
+
+ CRTX-208420 
+
+ Implemented an important update for Broker VMs deployed over Amazon Web Services (AWS). 
+
+ Previous Broker VM 30.0.52 (Major) 
+
+ Next Broker VM 29.0.71 (Major) 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

@@ -1,0 +1,90 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/learn-about-cortex-xsoar/get-started-in-cortex-xsoar/new-user-faq
+fetched_at: 2026-09-06T10:43:04Z
+source: cortex-platform
+---
+
+# New User FAQ | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.13 
+
+ Learn about Cortex XSOAR 
+
+ Get Started in Cortex XSOAR 
+
+ Cortex XSOAR 6.13 
+
+ New User FAQ 
+
+ New User FAQ for Cortex XSOAR 6.13. 
+
+ The following are frequently asked questions for new Cortex XSOAR users. 
+
+ How do I import custom content received from a colleague, Customer Success, or another Cortex XSOAR system? 
+
+ If you have a full content bundle (.tar.gz file), navigate to Settings → About → Troubleshooting and scroll to the bottom of the page. Under Custom content , click or drag and drop into the Import box. 
+
+ You can also import specific content types, such as playbooks, by navigating to that section of Cortex XSOAR and then clicking the upload button in the upper right corner of the page. 
+
+ How do I export custom content from Cortex XSOAR? 
+
+ Navigate to Settings → About → Troubleshooting and scroll to the bottom of the page. Under Custom content , click Export to download a compressed file containing all of the custom content from your instance. 
+
+ You can also export individual content items, such as playbooks, by selecting the content item, clicking the triple dot menu in the upper right corner of the page, and clicking the Download button. 
+
+ What is a Cortex XSOAR log bundle, and how do I download one? 
+
+ A log bundle is a set of logs that capture data points about your Cortex XSOAR environment. These logs provide information that is useful for troubleshooting and working with support. To download a log bundle, navigate to Settings → About → Troubleshooting . At the top of the page, click Download logs 
+
+ The command I’m trying to run isn’t working. How do I troubleshoot? 
+
+ Most Cortex XSOAR commands and automations support the hidden argument debug-mode=true , which you can add onto the command line to have Cortex XSOAR generate a debug log for the script execution. See the Troubleshooting Guide for more details. 
+
+ How do I configure my Cortex XSOAR notification settings? 
+
+ Navigate to your profile picture icon at the bottom of the side menu and click on Notifications . By default, all notifications are enabled. Deselect the checkboxes for notifications you don’t want to receive. 
+
+ How do I get notifications through Slack, Teams, or another chat application? 
+
+ Configure an integration instance for that chat application. As long as the integration instance implements the send-notification command, it will appear on the Notifications page. 
+
+ What is the difference between a dashboard and a report? 
+
+ Dashboards show data from a rolling, relative time-frame from a certain time in the past (for example, 7 days ago) through the present and are shown when you log into Cortex XSOAR. Reports allow you to share similar data outside of Cortex XSOAR via email. Reports can be scheduled to run at a specific time to capture data where the start/end time is important. For example, if management requests a report on the incidents that occurred between 08:00 yesterday and 08:00 today. 
+
+ How do I access the playground? 
+
+ The link to the playground appears under the Incidents I own icon in the left sidebar. You can also access the playground at the URL https://<SERVER>/#/WarRoom/playground or by accessing the shortcut menu using CMD–K and selecting Playground . 
+
+ How do I update all installed Cortex XSOAR content packs? 
+
+ Navigate to Marketplace → Installed Content Packs . From the Show dropdown, select Update available . Click the checkbox to select all, then click the Update button. 
+
+ How do I search for incidents, indicators, playbooks, and automations? 
+
+ Cortex XSOAR comes with a powerful search capability that uses the Lucene query syntax. For example, to search playbooks: 
+
+ Search for the playbook with the exact name “Phishing - Generic v3”: name:"Phishing - Generic v3" 
+
+ Search for playbooks where the word “Phishing” appears anywhere in supported system objects: Phishing 
+
+ Search for playbooks where the playbook name contains “Phishing”: name:"Phishing" 
+
+ Previous How to Use Markdown 
+
+ Next Onboarding in Cortex XSOAR 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,217 +1,12 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/cloud-posture-and-runtime-security-data-sources
-fetched_at: 2026-08-13T15:03:26Z
+fetched_at: 2026-09-06T09:28:07Z
 source: cortex-platform
 ---
 
 # Cloud Posture and Runtime Security data sources | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
 
-Cloud Posture and Runtime Security data sources | Cortex Documentation Portal 
-
- ⌘ Ctrl k 
-
- Blog Support 
- More 
-
- Home 
-
- Products 
-
- Guides 
-
- Release Notes 
-
- API 
-
- Reference 
-
- AI Assistant 
-
- Good afternoon 
- I'm here to help you with the docs. 
-
- What is this page about? What should I read next? Can you give an example? 
-
- ⌘ Ctrl i 
-
- AI Based on your context 
- Send 
-
- Learn about Cortex XSIAM 
-
- Navigate the Cortex XSIAM docs 
-
- Get started with Cortex XSIAM 
-
- Agentic AI in Cortex XSIAM 
-
- Cortex XSIAM product licenses 
-
- In-product support ticket creation 
-
- Supported web browsers 
-
- Use the interface 
-
- Manage API keys 
-
- Onboard Cortex XSIAM 
-
- How to onboard Cortex XSIAM 
-
- Plan and prepare 
-
- Deployment steps 
-
- Post-deployment 
-
- Configure Cortex XSIAM 
-
- Learn how to configure Cortex XSIAM 
-
- Data management 
-
- Cortex XSIAM Data Sources and Connectors 
-
- What are Cortex XSIAM data sources and connectors? 
-
- Complete data source and connector catalog 
-
- Vendor-specific data sources and connectors 
-
- Connectors 
-
- Standard data sources 
-
- Cloud service provider (CSP) onboarding 
-
- Generic on-premise data collectors 
-
- Palo Alto Networks integrations 
-
- Cloud Posture and Runtime Security data sources 
-
- How to onboard on-premise assets to Cloud Data Security 
-
- How to onboard Databricks 
-
- How to onboard Microsoft 365 
-
- Ingest logs and data from Okta 
-
- How to onboard Snowflake 
-
- Activate AppSec Transporter 
-
- Container Registries 
-
- External alerts using External Issue Mapping 
-
- Administration and troubleshooting 
-
- Marketplace 
-
- Configure the Cortex Agentic Assistant 
-
- Cortex MCP server 
-
- Automations 
-
- Engines 
-
- Remote repository management 
-
- Customize cases and issues 
-
- XQL query management 
-
- Multi-Tenant 
-
- Managed Services configuration in Cortex 
-
- Protect your endpoints 
-
- Endpoint security 
-
- Endpoint DLP 
-
- Detect, Investigate, and respond to threats 
-
- Monitor dashboards and reports 
-
- Investigation and response 
-
- Agentic Assistant chat 
-
- Asset management 
-
- Threat management 
-
- Attack surface management 
-
- Vulnerability management 
-
- Exposure management 
-
- Cortex Advanced Email Security 
-
- Identity Threat Detection and Response (ITDR) 
-
- Cloud Security 
-
- Monitor and track compliance adherence 
-
- Cloud security rules and policies 
-
- Cortex Cloud Data Classification 
-
- Cortex Data Security 
-
- Cloud Identity Security 
-
- Network exposure detection 
-
- Cortex Cloud SaaS Security 
-
- Cortex Cloud AI Security 
-
- Serverless function posture security 
-
- Cortex Cloud Application Security 
-
- Cloud workload policies and rules 
-
- Base image rules 
-
- Web and API Security (WAAS) 
-
- Serverless function runtime security 
-
- Reference and developer docs 
-
- Cortex XSIAM XQL 
-
- Graph Search 
-
- Cortex CLI 
-
- Role-Based Access Control 
-
- API documentation 
-
- Reference 
-
- Migrating to a new Broker VM image 
-
- Learn more about migrating to the latest broker VM image 
-
- Standalone Broker VM 
-
- Broker VM high availability cluster node 
-
- On this page 
-
- For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
 
  Ask 
  On this page 
@@ -225,6 +20,8 @@ Cloud Posture and Runtime Security data sources | Cortex Documentation Portal
  Configure Cortex XSIAM 
 
  Cortex XSIAM Data Sources and Connectors 
+
+ Cortex XSIAM Data Ingestion 
 
  Cloud Posture and Runtime Security data sources 
 
@@ -246,28 +43,216 @@ Cloud Posture and Runtime Security data sources | Cortex Documentation Portal
 
  Cloud data security (DSPM) : Discovers and classifies sensitive data across managed storage, such as S3 and Cloud SQL, and self-managed databases. 
 
- Previous Detectors connected to URL and File log types Next How to onboard on-premise assets to Cloud Data Security 
+ The following Cloud Posture and Runtime Security data sources and connectors are supported: 
 
- Last updated 15 days ago 
+ AbuseIPDB 
 
- Was this helpful? 
+ Aha! 
 
- ‍ 
+ AIOps 
 
- Trust Center 
+ Anomali 
 
- ‍ 
+ Apollo.io 
 
- Privacy 
+ AppSec Transporter applet 
 
- ‍ 
+ Articulate Global 
 
- Terms of Use 
+ Asana 
 
- ‍ 
+ Atlassian 
 
- Legal 
+ Automox 
 
- © 2026 Palo Alto Networks, Inc. All rights reserved. 
+ Azure Log Analytics 
+
+ Azure Services 
+
+ Box 
+
+ Businessmap 
+
+ Celonis 
+
+ ChatGPT Enterprise 
+
+ Cisco Duo 
+
+ Cisco Meraki 
+
+ Claude 
+
+ ClickUp 
+
+ Contentful 
+
+ Coveo 
+
+ Cribl 
+
+ Cursor 
+
+ CyberArk 
+
+ Databricks 
+
+ DataDog 
+
+ Docker Hub registry 
+
+ Docker V2-compliant registry 
+
+ DSPM Database applet 
+
+ DSPM Fileshare applet 
+
+ ElasticSearch 
+
+ Forcepoint 
+
+ Gainsight 
+
+ Gemini Enterprise 
+
+ Generic MCP 
+
+ Generic SQL 
+
+ GitHub 
+
+ GitLab container registry 
+
+ GitLab 
+
+ Google Workspace connector 
+
+ Google Workspace Automation and Collection 
+
+ Harbor registry 
+
+ Harness 
+
+ IBM QRadar 
+
+ Intercom 
+
+ iZOOlogic 
+
+ Jamf Pro 
+
+ JFrog container registry 
+
+ JumpCloud 
+
+ Koi 
+
+ Kubernetes 
+
+ Kustomer 
+
+ LastPass 
+
+ Mail Utilities 
+
+ Microsoft 365 (new) 
+
+ Microsoft365 (legacy) 
+
+ Microsoft 365 (Posture) 
+
+ Microsoft 365 Copilot 
+
+ Microsoft Active Directory 
+
+ Microsoft Copilot Studio 
+
+ Microsoft Entra ID 
+
+ Microsoft Graph 
+
+ Microsoft Identity 
+
+ Microsoft Security Automation and Collection 
+
+ Microsoft Teams 
+
+ M365 Automation and Collection 
+
+ Monday 
+
+ Monday.com 
+
+ MongoDB Atlas 
+
+ MongoDB Atlas (Posture) 
+
+ MuleSoft 
+
+ Mural 
+
+ Nintex Workflow Cloud 
+
+ Okta 
+
+ Oracle 
+
+ PagerDuty 
+
+ Ping Identity 
+
+ Pipedrive 
+
+ Qualtrics 
+
+ Redis Labs 
+
+ Registry Scanner applet 
+
+ Salesforce 
+
+ SAP Ariba 
+
+ Sentry 
+
+ ServiceNow automation and collection 
+
+ ServiceNow 
+
+ Shopify 
+
+ Slack 
+
+ SMB 
+
+ Snowflake 
+
+ Sonatype Nexus registry 
+
+ Splunk 
+
+ Sumo Logic 
+
+ Terraform 
+
+ VMware 
+
+ Workday Automation and Collection 
+
+ Workday 
+
+ YouTrack 
+
+ Zendesk 
+
+ Zscaler 
+
+ AppSec Transporter 
+
+ Previous Detectors connected to URL and File log types 
+
+ Next Activate AppSec Transporter 
+
+ Last updated 15 minutes ago 
 
  Was this helpful?

@@ -1,0 +1,110 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/monitor-dashboards-and-reports/advanced-configuration/create-custom-widgets/create-xql-widgets
+fetched_at: 2026-09-06T09:43:05Z
+source: cortex-platform
+---
+
+# Create XQL widgets | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Monitor dashboards and reports 
+
+ Advanced configuration 
+
+ Create custom widgets 
+
+ Cortex XDR 5.x 
+
+ Create XQL widgets 
+
+ Build custom widgets with XQL queries. 
+
+ Custom XQL widgets allow you to build charts based on specific Cortex Query Language (XQL) queries. To create an XQL widget, from the Widget Library click Create widget > XQL widget . 
+
+ 1 
+
+ Basic configuration 
+
+ Enter a widget name and description. 
+
+ Select the visibility level ( Public or Restricted ). 
+
+ Restricted (Default): Leave unselected to keep the widget visible only to you. 
+
+ Public: Select this to make the widget visible to all users with Widget Library access. 
+
+ Note: For more information on how widget access works, see Access to widgets . 
+
+ 2 
+
+ Define your query 
+
+ In the query editor, define your XQL query.\ 
+
+ Tip: Select XQL Helper to view commonly used commands with example syntax. For more information, see How to build XQL queries . 
+
+ (Optional) Add parameters to your query to configure filters and drilldowns on your dashboard. For more information see Add parameters to a custom XQL widget . 
+
+ (Optional) Change the default time period using the time picker at the top right of the window. Select from the following options: 
+
+ Standard time frames: Predefined ranges, such as Last 24 hours or Last 30 days . 
+
+ Relative time : Define a custom window (e.g., the last <number> of minutes, hours, or days). 
+
+ Calendar: Create a customized, static date/time period. 
+
+ Note: Changing the query window's time period automatically updates the config timeframe, however it is not visible in the query unless you add it manually. 
+
+ Click Preview to validate your data results. 
+
+ Note: XQL queries generated within the Widget Library do not appear in the Query Center; their results are used exclusively to build the custom widget. 
+
+ 3 
+
+ Define the graph visualization 
+
+ In the Widget tab, select Graph and use the Chart Editor to configure the following fields: 
+
+ Graph type & Subtype: Select your visualization style (e.g., Area, Column, Pie, Single Value, Table). 
+
+ Headers & labels: Define header text and choose whether to display callouts or percentages. 
+
+ Axis Mapping: Map your data fields to the X-axis (string values) and Y-axis (numeric values). 
+
+ Series (Optional): Specify a field (column) to group chart results based on Y-axis values. Note: This option only appears for supported graph types when a single Y-axis value is selected. 
+
+ Group additional values (Optional): Select Group additional values as Others and set the maximum number of values to display. This reduces clutter by limiting the number of data values to display and grouping additional values in an “Others” category. 
+
+ Apply default limit (Optional): Select this to limit the number of returned results for optimal loading times. Alternatively, you can add the limit stage directly to your query. 
+
+ Baseline (Optional): Add a baseline reference value to the graph (available for select graph types). 
+
+ Styling (Optional): Customize colors, fonts, and legend placements as required. 
+
+ 4 
+
+ Finalize and save widget 
+
+ (Optional) Click Add to query to insert your chart preferences directly into the query syntax. 
+
+ Click Save widget to add the widget to your library. 
+
+ Previous Create widgets using AI 
+
+ Next Add parameters to a custom XQL widget 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

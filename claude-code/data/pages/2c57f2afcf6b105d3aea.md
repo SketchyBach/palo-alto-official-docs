@@ -1,0 +1,116 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/post-deployment-steps/set-up-your-environment/data-and-log-forwarding/data-and-log-notification-formats/issue-notification-format
+fetched_at: 2026-09-06T09:53:30Z
+source: cortex-platform
+---
+
+# Issue notification format | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Onboard and Configure 
+
+ Post-deployment steps 
+
+ Set up your environment 
+
+ Data and log forwarding 
+
+ Data and log notification formats 
+
+ Cortex Cloud Runtime 
+
+ Issue notification format 
+
+ Understand the Cortex Cloud issue notification format for external integrations and processing. 
+
+ Supported destinations 
+
+ Issues can be forwarded to the following: 
+
+ Email distribution list 
+
+ Syslog server 
+
+ Slack 
+
+ Splunk, Amazon SQS, Amazon S3, or Webhook 
+
+ Note: For issues with relevant assets, issue notifications sent to Amazon S3, Amazon SQS, Webhook, Splunk, and email provide asset and remediation information including the asset name, cloud resource name, asset tags, account name, region, and evidence. 
+
+ Email notifications 
+
+ Cortex Cloud sends issues to email accounts based on the settings you configure. Email messages also include an issue code snippet of the fields according to the columns in the Issue table. 
+
+ The notification format is as follows: 
+
+ If only one issue exists in the queue, a single-issue email format is sent. 
+
+ If more than one issue was grouped in the time frame, all the issues in the queue are forwarded together in a grouped email format. 
+
+ Single-issue email message 
+
+ Ask Copy 
+
+ Email Subject: Issue: <issue_name> 
+ Email Body: 
+ Issue Name: Suspicious Process Creation 
+ Severity: High 
+ Source: Correlation 
+ Category: Malware 
+ Action: Detected 
+ Host: <host name> 
+ Username:<user name> 
+ Excluded: No 
+ Starred: Yes 
+ Issue: <link to the tenant issue view> 
+ Case: <link to the tenant case view> 
+
+ Single-issue email message with asset 
+
+ Grouped issue email message 
+
+ Email attachment 
+
+ Email attachment with asset 
+
+ Slack, Splunk, Amazon S3, Amazon SQS, and Webhook 
+
+ You can send issue notifications to a single Slack contact or a Slack channel, or to Splunk, Amazon S3, Amazon SQS, or Webhook. Notifications are similar to the email format. 
+
+ Syslog notifications 
+
+ Issue notifications forwarded to a syslog receiver are sent in a CEF format RF 5425. 
+
+ Section 
+
+ Description 
+
+ Syslog header 
+
+ <9>: PRI (considered a priority field)1: version number2020-03-22T07:55:07.964311Z: timestamp of when alert/log was sentcortexxdr: host name 
+
+ CEF header 
+
+ HEADER/Vendor="Palo Alto Networks" (as a constant string)HEADER/Device Product="Cortex XDR" (as a constant string)HEADER/Product Version= Cortex XDR version (2.0/2.1....)HEADER/Severity=(integer/0 - Unknown, 6 - Low, 8 - Medium, 9 - High)HEADER/Device Event Class ID=alert sourceHEADER/name =alert name 
+
+ CEF body 
+
+ end=timestamp shost=endpoint_name deviceFacility=facility cat=category externalId=external_id request=request cs1=initiated_by_process cs1Label=Initiated by (constant string) cs2=initiator_commande cs2Label=Initiator CMD (constant string) cs3=signature cs3Label=Signature (constant string) cs4=cgo_name cs4Label=CGO name (constant string) cs5=cgo_command cs5Label=CGO CMD (constant string) cs6=cgo_signature cs6Label=CGO Signature (constant string) dst=destination_ip dpt=destination_port src=source_ip spt=source_port fileHash=file_hash filePath=file_path targetprocesssignature=target_process_signature tenantname=tenant_name tenantCDLid=tenant_id CSPaccountname=account_name initiatorSha256=initiator_hash initiatorPath=initiator_path osParentName=parent_name osParentCmd=parent_command osParentSha256=parent_hash osParentSignature=parent_signature osParentSigner=parent_signer incident=incident_id act=action suser=actor_effective_username 
+
+ Previous Management audit log messages 
+
+ Next Agent Audit log notification format 
+
+ Last updated 10 days ago 
+
+ Was this helpful?

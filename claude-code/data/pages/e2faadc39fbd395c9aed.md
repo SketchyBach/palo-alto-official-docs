@@ -1,0 +1,106 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/deployment-steps-and-checklist/cloud-service-provider-csp-onboarding/google-cloud-platform-cloud-onboarding/monitor-gcp-resources-inside-service-perimeters
+fetched_at: 2026-09-06T09:52:59Z
+source: cortex-platform
+---
+
+# Monitor GCP resources inside service perimeters | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Onboard and Configure 
+
+ Deployment steps and checklist 
+
+ Cloud service provider (CSP) onboarding 
+
+ Google Cloud Platform cloud onboarding 
+
+ Cortex Cloud Runtime 
+
+ Monitor GCP resources inside service perimeters 
+
+ Learn how to grant authorization to Cortex Cloud to scan within your GCP service perimeter. 
+
+ A service perimeter can provide an additional layer of security for your GCP projects. It serves as a fortified boundary around your Google Cloud resources. While resources inside the perimeter can communicate freely, the perimeter is designed to prevent unauthorized communication to Google Cloud services beyond its confines. 
+
+ To enable Cortex Cloud to scan assets and resources within your GCP perimeter, you must authorize Cortex Cloud's identities to access the perimeter from within GCP. If you have a perimeter set up in your GCP project and you have not authorized Cortex Cloud's identities to scan the perimeter, you will receive the following error: 
+
+ Ask Copy 
+
+ Request is prohibited by organization's policy. vpcServiceControlsUniqueIdentifier: {{<GCP-perimeter-ID>}} 
+
+ Note: Each GCP cloud instance is assigned a scope within GCP. If the scope, whether it be organization, folder, or project, includes any projects with a service perimeter, this procedure must be performed for that cloud instance to authorize Cortex Cloud to scan the resources in the perimeter. 
+
+ Obtain Cortex Cloud identity details 
+
+ In your Cortex Cloud tenant, select Settings → Data Sources & Integrations . 
+
+ Hover over the Google Cloud Platform (GCP) row and select View Details . 
+
+ In the Cloud Instances page, identify the GCP instance with the perimeter, right-click it and select Details . 
+
+ In the details pane, click the more options icon and select Authorization Details . 
+
+ The authorization values that you need to add as approved identities in GCP are listed in the Authorization Details dialog box. 
+
+ Add Cortex Cloud authorization values to GCP perimeter 
+
+ Log into Google Cloud Platform Console . 
+
+ Navigate to VPC Service Controls. 
+
+ In the list of perimeters, select the perimeter to which you want to grant access to Cortex Cloud. 
+
+ In the Service perimeter details screen, click Edit . 
+
+ In the Edit service perimeter screen, select Ingress policy . 
+
+ In the Ingress rules pane, click Add an ingress rule . 
+
+ Enter a Title for the ingress rule. 
+
+ In the From section, under Identities , select Select identities & groups . 
+
+ Click Add identities . In the Add identities pane, under Search identities , paste Cortex discovery role from Cortex Cloud's Authorization Details dialog box. If there are more authorized values, paste each of them under Search identities . Click Add identities . 
+
+ In the To section , under Resources , select Select projects . 
+
+ Click Add projects . In the Add projects pane, select the relevant projects. 
+
+ Under Operations or IAM roles , select All operations . 
+
+ Click Next to add an egress rule. 
+
+ In the Egress rules pane, click Add an egress rule . 
+
+ Enter a Title for the egress rule. 
+
+ In the From section, under Identities , select Select identities & groups . 
+
+ Click Add identities . In the Add identities pane, under Search identities , paste Cortex discovery role from Cortex Cloud's Authorization Details dialog box. If there are more authorized values, paste each of them under Search identities . Click Add identities . 
+
+ In the To section, under Resources , select Select projects . 
+
+ Click Add projects . In the Add projects pane, select the relevant projects. 
+
+ Click Save . Confirm the changes and click Confirm . 
+
+ The Cortex Cloud authorization values have been added as approved identities in GCP. 
+
+ Previous Connect Google Workspace with your GCP cloud instance 
+
+ Next Oracle Cloud Infrastructure cloud onboarding 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

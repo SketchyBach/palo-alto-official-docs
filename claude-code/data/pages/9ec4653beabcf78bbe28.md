@@ -1,0 +1,38 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsiam-api/external-application-management/external-application-management-overview
+fetched_at: 2026-09-06T10:56:07Z
+source: cortex-platform
+---
+
+# External Application Management overview | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex XSIAM 
+
+ XSIAM APIs 
+
+ External Application Management 
+
+ External Application Management overview 
+
+ Manage external application integrations for Cortex XSIAM. With these endpoints, you can create, read, update, and delete external applications including webhook, Splunk, AWS SQS, AWS S3, and Syslog integrations. 
+
+ RBAC permissions: 
+
+ List & read operations: alert_notifications 
+
+ Create, edit, enable/disable, & delete operations: alert_notifications_action 
+
+ Previous Models 
+
+ Next External Applications 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

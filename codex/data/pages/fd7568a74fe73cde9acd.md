@@ -1,0 +1,198 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/configure-cortex-xsoar/playbooks/customize-your-playbook/filter-and-transform-data
+fetched_at: 2026-09-06T10:27:55Z
+source: cortex-platform
+---
+
+# Filter and transform data | 8.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.13 
+
+ Configure Cortex XSOAR 
+
+ Playbooks 
+
+ Customize your playbook 
+
+ Cortex XSOAR 8.13 On-prem 
+
+ Filter and transform data 
+
+ Filter and transform data in Cortex XSOAR 8.13 On-prem. 
+
+ In Cortex XSOAR, data is extracted and collected from various sources, such as playbook tasks, command results, and fetched incidents, and presented in JSON format. The data can be manipulated by using filters and transformers. 
+
+ Filters 
+
+ Filters enable you to extract relevant data which you can use elsewhere in Cortex XSOAR. For example, if an incident has several files with varying file types and extensions, you can filter the files by file extension or file type, and use the filtered files in a detonation playbook. You can filter as many objects as required. Cortex XSOAR automatically calculates the context root to which to filter. You can change the context root as necessary. 
+
+ Caution 
+
+ You can change the context data root to filter, but it is not recommended to select a different root, as it affects the filter results. The drop-down list displays the filter root for backward compatibility. 
+
+ Transformers 
+
+ Transformers modify or format data to make it suitable for further processing or presentation. For example, you can convert a date in non-Unix format to Unix format. Another example is applying the count transformer, which renders the number of elements. When you have more than one transformer, they apply in the order that they appear. You can reorder them using click-and-drag. 
+
+ Add filters and transformers in a playbook task 
+
+ Create or edit a playbook task. 
+
+ In the field you want to add a filter or transformer (for example, inputs or outputs), click the curly brackets and then select Filters and Transformers . 
+
+ In the Get field, type or select data you want to filter or transform. For example, EWS.Items.Name . 
+
+ (Optional) To filter the data, do the following. 
+
+ In the Filter section, click Add filter . 
+
+ When adding a filter, the context root to filter is automatically populated. 
+
+ Select the data you want to filter. 
+
+ Note 
+
+ If you want to filter by a field name that contains a dot (.), you must escape it using a backslash (\ to prevent the system from interpreting it as a nested path. For example, to filter by the field @odata.type , use @odata\.type . 
+
+ Select the filter operators. 
+
+ Add the value. 
+
+ Click the checkbox to save the filter. 
+
+ (Optional) To apply transformers to the field, click Add transformer . 
+
+ Click the transformer and select the relevant transformer. 
+
+ By default, the transformer is set to To upper case(String) . Click it to pick a different transformer, for example to change the date format for when incidents occurred. 
+
+ Select the transformer operators. 
+
+ Click the tick box to save. 
+
+ (Optional) To test the filter or transformation click Test and select the investigation or add it manually. 
+
+ Example: Filter items with an EXE extension 
+
+ In this example, we want to filter all EWS Item names that have the extension exe . 
+
+ playbook-context.png 
+
+ From the Filters & transformers window, in the Get field, type EWS.Items.Name to extract all Item names in EWS. 
+
+ The context root to filter is EWS,Items . 
+
+ filter-name.png 
+
+ In the Filter section, click Add filter . 
+
+ In the left-hand side, add Extension to the filter. 
+
+ Select Equals (String) → ignore case . 
+
+ In the right-hand side add exe . 
+
+ filter-exe.png 
+
+ Click the tick box to save the filter. 
+
+ Click Test . 
+
+ You should see Item names are filtered with the extension exe . 
+
+ Example (advanced): Filter hostname for the last resolved time 
+
+ In this example, we want to see the LastResolved time only from the demisto.com host name. 
+
+ This is part of the data where we want to filter: 
+
+ From the Filters & transformers window, in the Get field, type IP.AutoFocus.Resolutions.LastResolve . 
+
+ playbook-filter-auto.png 
+
+ In the Filter section, click Add filter . 
+
+ Cortex XSOAR automatically calculates that the context root to filter is IP.AutoFocus.Resolutions . 
+
+ playbook-filter-autores.png 
+
+ In the left-hand side, add Hostname to the filter. 
+
+ Select Equals (String) → Ends with 
+
+ In the right-hand side add demisto.com . 
+
+ Click the checkbox to save. 
+
+ playbook-filter-autofilter.png 
+
+ Click Test . 
+
+ playbook-filter-autotest.png 
+
+ Create custom filters and transformers 
+
+ If you require a filter or transformer that is not provided out-of-the-box, you can create your own by creating a script and then adding to the operators window. 
+
+ Select Incident Response → Automation → Scripts → New Automation . 
+
+ Type a meaningful name for the script, and click Save . 
+
+ To create a filter operator script, do the following: 
+
+ In the Tags field, add the filter tag. 
+
+ If you want a custom transformer that operates on an entire array rather than on eachindividual item, you need to add the entirelist tag. 
+
+ In the Arguments section, add the following arguments: 
+
+ Argument 
+
+ Description 
+
+ left 
+
+ Mark as mandatory. This argument defines the left-side value of the transformer operation. In this example, this is the value being checked if it falls within the range specified in the right-side value. 
+
+ right 
+
+ Mark as mandatory. This argument defines the right-side value of the transformer operation. In this example, this is the range to check if the left-side value is in. 
+
+ Add the script syntax and save. 
+
+ To create a transformer operator script, do the following: 
+
+ In the Tags field, add the transformer tag. 
+
+ In the Arguments section, add the following arguments: 
+
+ Argument 
+
+ Description 
+
+ value 
+
+ Mark as mandatory. The value to transform. In this example, this is the UNIX epoch timestamp to convert to ISO format. 
+
+ Add the script syntax and save. 
+
+ Go to the Filters and Transformers window and select the operator. 
+
+ Previous Configure a sub-playbook 
+
+ Next Filter considerations, categories, and built-in filters 
+
+ Last updated 3 hours ago 
+
+ Was this helpful?

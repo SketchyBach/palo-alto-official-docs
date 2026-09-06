@@ -1,0 +1,66 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/deployment-steps-and-checklist/set-up-authentication
+fetched_at: 2026-09-06T09:52:42Z
+source: cortex-platform
+---
+
+# Set up authentication | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Onboard and Configure 
+
+ Deployment steps and checklist 
+
+ Cortex Cloud Runtime 
+
+ Set up authentication 
+
+ Authenticate Cortex Cloud users using SAML 2.0 or Customer Support Portal (CSP). 
+
+ You can create users in the Customer Support Portal or by using SAML Single Sign-On (SSO) in the tenant. Users authenticate by doing the following: 
+
+ Authenticate through the Customer Support Portal 
+
+ When users log into Cortex Gateway or the tenant (provided they are assigned a role) they are prompted to sign into the Customer Support Portal using their username and password or 2FA (if set up). This is the default method of authentication. 
+
+ Use the Customer Support Portal (CSP) if you want to locally manage your users, or if you want them to be able to open support tickets. Conversely, use SAML Single Sign-On (SSO) if you want your organization's external Identity Provider (IdP) to manage user authentication according to your corporate standards. 
+
+ Authenticate using SAML single sign-on in the Cortex Cloud tenant 
+
+ Users can be authenticated using your IdP provider such as Okta, Ping, or Microsoft Entra ID. You can use any IdP that supports SAML 2.0. After you configure the SSO integration you need to map group SAML group membership to user groups in Cortex Cloud. Use SAML Single Sign-On (SSO) configurations when you require Cortex Cloud users to authenticate according to your organization's precise corporate compliance and access standards as implemented inside your enterprise Identity Provider (IdP). This is critical for enforcing corporate Multi-Factor Authentication (MFA) mandates, complex identity validation, handling automatic de-provisioning (for example, when a user leaves the company), or specific conditional network access policies before granting portal admission. 
+
+ SSO authentication provides several administrative advantages: 
+
+ Removes the administrative burden of requiring separate accounts to be configured through the Customer Support Portal. 
+
+ Enforces multi-factor authentication (MFA) and any conditional access policies on the user login at the IdP before granting a user access to Cortex Cloud. 
+
+ Maps SAML group memberships to user groups and roles, allowing you to manage role-based access control. 
+
+ Customer Support Portal authentication, by contrast, is useful if you have users who need the same permissions across multiple tenants. If you use SSO for multiple tenants, you must set up the SSO configuration separately for each tenant, both in the IdP and in Cortex Cloud. 
+
+ To restrict a user to SSO login only, ensure they are not assigned the Cortex User role in the Cortex Gateway. For more information, see Manage users in Cortex Gateway in the Cortex Gateway Administrator Guide. While the CSP login option remains available, the user will be unable to successfully authenticate and must use the SSO login method instead. 
+
+ For more information, see Assign user roles and groups . 
+
+ Tip 
+
+ You should have at least one user in the Customer Support Portal for backup, in case of any authentication issues with your IdP provider. 
+
+ Previous Manage API keys 
+
+ Next Authenticate users through the Customer Support Portal 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

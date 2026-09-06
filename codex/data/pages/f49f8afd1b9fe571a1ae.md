@@ -1,0 +1,81 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/monitor-dashboards-and-reports/advanced-configuration/create-custom-widgets/create-widgets-using-ai
+fetched_at: 2026-09-06T09:43:05Z
+source: cortex-platform
+---
+
+# Create widgets using AI | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Monitor dashboards and reports 
+
+ Advanced configuration 
+
+ Create custom widgets 
+
+ Cortex XDR 5.x 
+
+ Create widgets using AI 
+
+ Use AI to create custom dashboard widgets. 
+
+ Use natural language prompts to request visual insights by instructing the Agentic Assistant to display its findings as charts or graphs. This makes it easy to visualize data for threat hunting, business intelligence, or investigations without writing XQL queries or manually creating data visualization. 
+
+ When you request a visualization, the agent generates an XQL query, executes it, and then presents the results in a graph. Agentic Assistant supports all graph types supported by the Cortex Platform. 
+
+ 1 
+
+ From the Widget Library, select Create widget > Generate with AI. 
+
+ 2 
+
+ Input a natural language prompt describing the security metrics you want to evaluate. 
+
+ For example: "Show me a bar chart of failed user logins sorted by country over the last week" . 
+
+ The Agentic Assistant parses your request and creates a widget visualization. 
+
+ 3 
+
+ (Optional) Provide additional prompts to refine the widget using the Agentic Assistant. 
+
+ 4 
+
+ (Optional) Refine the widget manually in XQL. 
+
+ Click the three dots icon on the widget and Edit in XQL to open the query in the Query Builder . You can edit the query or use the Chart Editor to change the visualization. See Create XQL widgets for instructions. 
+
+ 5 
+
+ Save to the Widget Library. 
+
+ Click the three dots icon on the widget and Save as Widget . You can define the widget name, description, and visibility level (Public or Restricted). 
+
+ Best practices for prompting 
+We recommend using clear specific language to request that the agent create these visualizations. Use terminology such as: 
+
+ Create a pie chart showing the distribution of issue severities over the last 7 days. 
+
+ Visualize the top 10 targeted assets by malware in a bar chart. 
+
+ Generate a line chart tracking the number of failed login attempts per day for the past month. 
+
+ Previous Create custom widgets 
+
+ Next Create XQL widgets 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,36 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/generic-on-premise-data-collectors/xdr-collectors/xdr-collector-audit-logs
+fetched_at: 2026-09-06T10:01:09Z
+source: cortex-platform
+---
+
+# XDR Collector audit logs | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Cortex Cloud Data Sources and Connectors 
+
+ Generic on-premise data collectors 
+
+ XDR Collectors 
+
+ XDR Collector audit logs 
+
+ Cortex Cloud logs entries for events related to the XDR Collector monitored activities. Cortex Cloud stores the logs for 365 days. To view the XDR Collector audit logs, select Settings → XDR Collector Audit Logs. 
+
+ Previous XDR Collectors 
+
+ Next XDR Collector machine requirements and supported operating systems 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

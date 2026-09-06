@@ -1,0 +1,142 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/saas-security/saas-security/onboard-a-supported-saas-application/onboard-sap-ariba
+fetched_at: 2026-09-06T10:07:31Z
+source: cortex-platform
+---
+
+# Onboard SAP Ariba | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ SAAS SECURITY 
+
+ SaaS Security 
+
+ Onboard a Supported SaaS Application 
+
+ Cortex Cloud Posture 
+
+ Onboard SAP Ariba 
+
+ Connect a SAP Ariba instance in Cortex Cloud Posture Management to detect posture risks and compliance violations. 
+
+ SaaS Security connects to your SAP Ariba instance using administrator credentials and your realm name. You can connect directly with credentials or through Microsoft Azure AD (which adds MFA using one-time passcodes). 
+
+ The onboarding process requires the following information: 
+
+ Item 
+
+ Description 
+
+ Username 
+
+ The username or email address of an SAP Ariba administrator account. The format depends on whether SaaS Security logs in directly or through an identity provider. The account must be registered to the SAP Ariba realm you want to scan. 
+
+ Password 
+
+ The password for the SAP Ariba administrator account. 
+
+ Realm 
+
+ The SAP Ariba realm that SaaS Security will scan for misconfigurations. 
+
+ If SaaS Security accesses the administrator account directly, you also need: 
+
+ Item 
+
+ Description 
+
+ FQDN 
+
+ The fully qualified domain name for connecting to your SAP Ariba instance. For example: s1.ariba.com 
+
+ If you use Azure Active Directory as your identity provider, you also need: 
+
+ Item 
+
+ Description 
+
+ Azure 2FA secret 
+
+ A key used to generate one-time passcodes for MFA. 
+
+ Step 1 — Identify the administrator account 
+
+ Identify the SAP Ariba account whose login credentials you will supply during onboarding. 
+
+ Required permissions: The account must have administrator permissions to the SAP Ariba realm you want SaaS Security to scan. 
+
+ Step 2 — Choose a login method 
+
+ Determine whether you want SaaS Security to log in to the administrator account directly, or through Microsoft Azure AD. 
+
+ Using Microsoft Azure AD adds an extra layer of security by requiring MFA with one-time passcodes. If you use Azure AD, SaaS Security requires additional information for MFA. 
+
+ Step 3 — (Azure AD login only) Configure MFA 
+
+ If you are using Microsoft Azure AD as your identity provider: 
+
+ Enable third-party software OATH tokens for the administrator account. 
+
+ Configure the account for MFA and copy the MFA secret key . 
+
+ Step 4 — Identify your realm name and FQDN 
+
+ Log in to your SAP Ariba realm using the administrator account you identified in Step 1. After login, the URL contains a realm query parameter showing your realm name. 
+
+ From the browser address bar, locate the realm parameter in the URL. 
+
+ Make note of the realm name. You will provide this value during onboarding. 
+
+ (Direct login only) Also make note of the fully qualified domain name shown in the browser address bar. During onboarding, you will select the FQDN from a list. Possible values include s1.ariba.com and s3.ariba.com. 
+
+ Step 5 — Connect SaaS Security to SAP Ariba 
+
+ Log in to Cortex . 
+
+ Select Settings > Data Sources and Integrations > Add New and click the SAP Ariba tile. 
+
+ On the Capabilities tab, enter a name for this instance. 
+
+ Under Default Capabilities, confirm Security Posture is selected. 
+
+ Click Next. 
+
+ On the Connections tab, select how SaaS Security will connect: 
+
+ Log in with Credentials — for direct login 
+
+ Log in with Azure — for Azure AD login 
+
+ When prompted, provide the administrator credentials and your realm name. 
+
+ Direct login: Select the FQDN for your SAP Ariba instance. 
+
+ Azure AD login: Provide the Azure 2FA secret for MFA. 
+
+ Click Next . 
+
+ On the Configurations tab: 
+
+ Set the Sync Interval. 
+
+ (Optional) Add a Tag. 
+
+ Click Next to complete onboarding. 
+
+ Previous Onboard Salesforce 
+
+ Next Onboard Sentry 
+
+ Last updated 5 days ago 
+
+ Was this helpful?
