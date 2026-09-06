@@ -1,0 +1,19 @@
+{
+  "source": "official interactive Idira portal",
+  "host": "docs.cyberark.com",
+  "imported_at": "2026-09-06T07:29:27Z",
+  "capture_sha256": "6e31711423f40e904913858bb6e828841d2ebb60709bdf5ea3751e01ae9b30a1",
+  "records": [
+    {
+      "url": "https://docs.cyberark.com/whats-new/latest/en/index.html#posts-new-2026-08-2026-08-27-idira-pam-saas-isp-navigation-md-discover-the-new-privilege-cloud-experience-smarter-navigation-as-part-of-the-identity-security-platform-spaces",
+      "sha256": "ded7516b78235d91f064a31c843762d8a76ede69573c47417a8de60b53e4e9db",
+      "local_path": "data/pages/265bede0affbf77e72b7.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/whats-new/latest/en/index.html#posts-new-2026-08-2026-08-25-unified-risk-management-identities-cloud-web-md-unified-risk-management-for-identities-cloud-entitlements-and-web-applications",
+      "sha256": "6f0d8c8005ae5eaaff69d3f4fa5b9bbd244bba3b103afdfb2ce0c1832c349e97",
+      "local_path": "data/pages/327ff2cf84e45816e437.md"
+    }
+  ],
+  "invalid": 0
+}
