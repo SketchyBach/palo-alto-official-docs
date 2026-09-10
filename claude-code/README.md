@@ -17,6 +17,14 @@ To test retrieval directly:
 python scripts/search.py "Cortex XDR broker VM" --mode answer --json
 ```
 
+On Windows, use the bundled dispatcher when `python` is not available on PATH:
+
+```powershell
+cmd /c pa-docs.cmd verify
+cmd /c pa-docs.cmd freshness
+cmd /c pa-docs.cmd search "Cortex XDR broker VM" --mode answer --json
+```
+
 ## Contents
 
 - `CLAUDE.md` — project instructions for Claude Code.

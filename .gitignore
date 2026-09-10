@@ -1,6 +1,9 @@
 __pycache__/
 *.pyc
 *.zip
+.env
+.env.*
+!.env.example
 work/
 data/field-evidence/
 

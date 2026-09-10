@@ -17,4 +17,15 @@ python scripts/audit.py
 python scripts/search.py "Prisma AIRS AI Runtime Security" --mode answer --json
 ```
 
+On Windows, the preferred equivalent from the repository root is:
+
+```powershell
+cmd /c codex\pa-docs.cmd verify
+cmd /c codex\pa-docs.cmd search "Prisma AIRS AI Runtime Security" --mode answer --json
+cmd /c codex\pa-docs.cmd freshness
+python scripts\check_parity.py
+```
+
+Freshness is reported separately from integrity: an older official capture can remain hash-valid while still needing refresh. The parity check confirms that the Codex and Claude Code public snapshots remain synchronized.
+
 The complete generated SQLite index is larger than GitHub's per-file limit, so it is rebuilt locally from the committed official page files after cloning.
