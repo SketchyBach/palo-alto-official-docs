@@ -1,0 +1,72 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.14/configure-multi-tenant/manage-content/sync-content-to-tenant-accounts
+fetched_at: 2026-09-06T10:50:06Z
+source: cortex-platform
+---
+
+# Sync Content to Tenant Accounts | 6.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Multi-Tenant Guides 
+
+ 6.14 
+
+ Configure Multi-Tenant 
+
+ Manage Content 
+
+ XSOAR 6.14 Multi-Tenant 
+
+ Sync Content to Tenant Accounts 
+
+ Synchronize content with individual or all tenant accounts in Cortex XSOAR 6.14 multi-tenant deployments. 
+
+ The content that you sync from the Main Account to the tenant accounts might add, override, or remove content from the tenant accounts. New content items, which do not currently exist on the tenants, are added. When you sync content to tenant accounts, there can potentially be content items that will be added. 
+
+ Add : New content items, those which do not currently exist on the tenants, will be added. 
+
+ Override : For content items that are being pushed in the sync operation and which already exist on the tenants, the sync operation will override the existing content on the tenant accounts. 
+
+ Remove : For content items that were removed from the main account and which already exist on the tenant accounts, the sync operation will remove the existing content from the tenant accounts. 
+
+ It is important that you review each content item and their dependencies before syncing the content. You have the option to remove items before executing the sync operation for a single tenant. 
+
+ Note 
+
+ If you are using version control and need to revert to an earlier version of a content item and to push this change to tenant accounts, selective propagation must be enabled. 
+
+ Before you begin, ensure that you have the necessary permissions to sync accounts. 
+
+ In the Main Account, go to Settings → Account Management . 
+
+ Select one of the following options to sync content. 
+
+ (Option 1) To review the content you want to sync to a tenant, select the required tenant checkbox and then click Sync . 
+
+ Review all content affected by the sync operation in the ADD , OVERRIDE , REMOVE tabs. 
+
+ If there are playbooks listed in the OVERRIDE tab, select or clear checkbox to Override playbook inputs in the tenant account. 
+
+ If the Run on field has changed in the automation, select or clear the Overwrite automation run-on to override this field in the tenant account. 
+
+ (Option 2) To sync content to tenant accounts without manual review, select two or more tenant accounts and then click Sync . 
+
+ This option automatically updates new, and existing content to the tenant account and removes outdated content. If there are playbooks and automations select or clear the checkbox to override playbook inputs and the Run on automation field in the tenant account. 
+
+ Click Sync . 
+
+ Previous Content Dependencies and Propagation 
+
+ Next Troubleshoot Errors When Syncing All Accounts 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

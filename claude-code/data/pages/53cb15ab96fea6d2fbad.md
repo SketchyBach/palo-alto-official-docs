@@ -1,0 +1,54 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/threat-management/extended-threat-intelligence/using-xti-in-playbooks
+fetched_at: 2026-09-06T09:54:15Z
+source: cortex-platform
+---
+
+# Using XTI in playbooks | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Threat Management 
+
+ Extended Threat Intelligence 
+
+ Cortex Cloud Runtime 
+
+ Using XTI in playbooks 
+
+ Automate XTI indicator triage, enrichment, and response with supported playbook commands. 
+
+ Extended Threat Intelligence (XTI) utilizes existing Threat Intel Management (TIM) to automate triage, enrichment, and response for threat intel use cases. 
+
+ Playbook commands supported by XTI 
+
+ The following built-in commands (also referred to as system commands) can be used with XTI. 
+
+ The supported commands are: 
+
+ createNewIndicator 
+
+ setIndicator 
+
+ Related links 
+
+ For more information on specific built-in commands, see the in-product Script Helper available from Incident Response → Automation → Scripts → Script Helper . 
+
+ For general information about playbooks, see Playbooks . 
+
+ Previous Using XTI with Threat Intel Agent 
+
+ Next Detection rules 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

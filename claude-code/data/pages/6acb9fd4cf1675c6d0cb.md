@@ -1,0 +1,158 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/cortex-agentix-xql/build-xql-queries/overview-of-the-query-center/query-center-reference-information
+fetched_at: 2026-09-06T09:36:51Z
+source: cortex-platform
+---
+
+# Query Center reference information | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSIAM 
+
+ Cortex XSIAM Documentation 
+
+ Reference and developer docs 
+
+ Cortex XSIAM XQL 
+
+ Build XQL queries 
+
+ Overview of the Query Center 
+
+ Cortex XSIAM 
+
+ Query Center reference information 
+
+ Reference Query Center details, fields, and statuses in Cortex XSIAM. 
+
+ The table below lists the common fields in the Query Center, where the options differ for an XQL query versus a Graph Search query. 
+
+ Note 
+
+ Certain fields are exposed and hidden by default. An asterisk (*) is beside every field that is exposed by default. 
+
+ Query Center table 
+
+ Field 
+
+ Description 
+
+ BQL 
+
+ Indicates whether the Cortex Query Language (XQL) query was created by the native search. 
+
+ Native search has been deprecated; this field allows you to view data for XQL queries performed before deprecation. 
+
+ COMPUTE UNIT USAGE 
+
+ For XQL queries, indicates the number of query units that were used to execute the API query and Cold Storage query. 
+
+ ISSUED BY * 
+
+ For XQL queries, indicates the user who ran or scheduled the query. For Graph Search queries, indicates the user who ran the query. 
+
+ DURATION (SEC) 
+
+ Number of seconds it took to execute the XQL query. 
+
+ EXECUTION ID 
+
+ Unique identifier of XQL and Graph Search queries in the tenant. The identifier ID generated for queries executed in Cortex XSIAM and XQL query API. 
+
+ NUM OF RESULTS * 
+
+ Number of results returned by the query. 
+
+ PUBLIC API 
+
+ Whether the source executing the XQL query was an XQL query API. 
+
+ QUERY DESCRIPTION * 
+
+ Query parameters used to run the query. 
+
+ QUERY ID 
+
+ Unique identifier of the query. 
+
+ QUERY NAME * 
+
+ For saved queries, the Query Name identifies the query specified according to a randomly generated number. 
+
+ XQL queries use the format XQL-QUERY-<number> , such as XQL-QUERY-12 . 
+
+ Graph Search queries use the format Graph-Query-<number> , such as Graph-Query-1247 . 
+
+ For scheduled queries, the Query Name identifies the auto-generated name of the parent XQL query. Scheduled queries also display an icon to the left of the name to indicate that the XQL query is recurring. 
+
+ QUERY STATUS * 
+
+ Status of the query, where the options differ based on the query type: 
+
+ XQL queries: 
+
+ Queued : The query is queued and will run when there is an available slot. 
+
+ Running 
+
+ Failed 
+
+ Partially completed : The query was stopped after exceeding the maximum number of permitted results. The default results for a Cortex Data Model (XDM) query or an XQL dataset query is limited to 1000, when no limit is explicitly stated in the query. This applies to basic queries with no stages except the fields stage. This default limit does not apply to widgets, Correlation Rules, public APIs, saved queries, or scheduled queries, where the limit is a maximum of 1,000,000 results. Queries based on legacy templates are limited to 10,000 results. To reduce the number of results returned, you can adjust the query settings and rerun. 
+
+ Stopped : The query was stopped by an administrator. 
+
+ Completed 
+
+ Deleted : The query was pruned. 
+
+ Graph Search queries: 
+
+ Failed 
+
+ Completed 
+
+ QUERY SYNTAX 
+
+ The exact syntax used to write the query. 
+
+ RESULTS SAVED * 
+
+ For XQL queries, you can choose whether to save the query results, so the output of the field is either Yes or No . Yet, for Graph Search queries, the results can't be saved and must be run each time again, so the field is always No . 
+
+ SIMULATED COMPUTE UNITS 
+
+ Number of XQL query units that were used to execute the Hot Storage query. 
+
+ Source 
+
+ Source from which the query was run, for example Playbook, Report, or Investigation. 
+
+ Source ID 
+
+ ID of the source from where the query was run. 
+
+ Source Name 
+
+ Name of the source from where the query was run. 
+
+ TIMESTAMP * 
+
+ Date and time the query was created. 
+
+ XQL 
+
+ Indicates whether the XQL query was created by an XQL search. 
+
+ Previous Edit and run queries in Query Center 
+
+ Next Manage scheduled queries 
+
+ Last updated 10 days ago 
+
+ Was this helpful?

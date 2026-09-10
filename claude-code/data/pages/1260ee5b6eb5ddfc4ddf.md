@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-red-teaming/identify-ai-system-risks-with-ai-red-teaming/get-started-with-prisma-airs-ai-red-teaming/reports/reports-custom-prompt-sets
-fetched_at: 2026-08-13T14:06:38Z
+fetched_at: 2026-09-06T11:17:27Z
 source: ai-security
 ---
 
 # AI Red Teaming using Custom Prompt Sets Report Clear
 
-AI Red Teaming using Custom Prompt Sets Report 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- AI Red Teaming using Custom Prompt Sets Report 
-
- Updated on 
-
- Fri Jul 24 03:07:12 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma AIRS Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- AI Model Security 
-
- AI Red Teaming 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Fri Jul 24 03:07:12 PDT 2026 
+ Thu Aug 27 01:45:16 PDT 2026 
 
  Focus 
 
@@ -98,7 +46,7 @@ AI Red Teaming using Custom Prompt Sets Report
 
  Administration 
 
- AI Model Security 
+ AI Supply Chain Security 
 
  AI Red Teaming 
 
@@ -132,13 +80,40 @@ AI Red Teaming using Custom Prompt Sets Report
  will be shown in this table along with the severity and category. Select
  View Details to have a detailed view of all the attack
  responses, categorized by the outcome: errors encountered, attacks that succeeded,
- and attacks that failed. For multilingual scans, attack prompts and model responses are displayed in the native script of the selected target language. 
+ and attacks that failed. 
+ For multilingual scans, attack
+ prompts and model responses are displayed in the native script of the
+ selected target language. 
 
- For each report, you can access Conversation Details: For multilingual scans, conversation details display attack prompts and target responses in the native script of the selected target language. 
+ To correct an incorrect
+ system-assigned
+ verdict, select the edit icon next to the verdict and
+ update the
+ verdict .
+ The
+ system-assigned
+ verdict is always preserved and can be reverted.
+ After
+ you correct one or more attack verdicts, select
+ Re-Evaluate
+ Score in the report header to recalculate the Risk
+ Score, ASR, category reports, subcategory reports, technique reports,
+ and compliance framework scores based on your corrections. When you
+ download the report, the CSV and
+ PDF
+ exports include the original verdict, the corrected verdict, your user
+ identity, and the timestamp for each
+ correction. 
+
+ For each report, you can access Conversation Details: For multilingual scans, conversation details
+ display attack prompts and target responses in the native script of the selected
+ target language. 
 
  For each report, you can access details about the scan. Select Scan
  Details in the upper right portion of the scan to display additional
- information: The Scan Details panel includes the Scan Language field, which reflects the language selected when the scan was configured. 
+ information: The Scan
+ Details panel includes the Scan Language 
+ field, which reflects the language selected when the scan was configured. 
 
  After viewing (using View
  Report in the Scans page) a successfully
@@ -178,58 +153,4 @@ AI Red Teaming using Custom Prompt Sets Report
  choices, which will include both the traditional CSV format and the new
  executive PDF option. Once a scan report is generated, you can download the PDF
  report directly to your local system for distribution to executive stakeholders
- or inclusion in security briefings and presentations. 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- CN-Series 
-
- Firewalls 
-
- VM-Series 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Enterprise DLP 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Prisma AIRS 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ or inclusion in security briefings and presentations.

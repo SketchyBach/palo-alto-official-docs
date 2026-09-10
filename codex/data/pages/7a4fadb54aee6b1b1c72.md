@@ -1,0 +1,64 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/customize-cortex-xsoar
+fetched_at: 2026-09-06T11:19:35Z
+source: cortex-platform
+---
+
+# Customize and Configure Cortex XSOAR | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.13 
+
+ Customize Cortex XSOAR 
+
+ Cortex XSOAR 6.13 
+
+ Customize and Configure Cortex XSOAR 
+
+ Customize and configure your Cortex XSOAR 6.13 deployment. 
+
+ After you have set up Cortex XSOAR you can customize and configure the following: 
+
+ Incidents : Includes how to automatically de-duplicate incidents, add pre-process and post processing rules, customizing incidents, layouts, access control. For daily tasks, such as investigating incidents, see Incident Management . 
+
+ Playbooks : Includes how to create tasks, debug a playbook, version control, extend context and playbook polling. After creating a playook or automation you may want to edit the incident/indicator layouts. 
+
+ Jobs : You can create a time triggered job from a playbook, or job triggered by delta in a feed from an integration. 
+
+ SLA Set up SLAs for case management. 
+
+ Machine Learning Set up Cortex XSOAR to analyze and predict behavior through incident types and fields through machine learning models. 
+
+ Lists : Store data in any text format, and use them in playbooks, automations or other places where the context button appears (double-curly brackets). 
+
+ Indicators : Includes how to customize indicator types and layouts, extract indicators, configure indicator scripts and timeline, export indicators, etc. For daily tasks, such as extracting indicators in the CLI, export indicators, add to an exclusion list, see Indicator Management . 
+
+ Dashboards : Customize your dashboard and share it with others. 
+
+ Reports :Customize your reports, such as adding widgets, configuring the logo, and timeline. 
+
+ Widgets : Create and edit widget and add it a report or dashboard. 
+
+ Manage Data : If you encounter an error, you can reindex the entire or partial database. Learn how to free up disk space, archive artifacts and migrate data, 
+
+ Logs : Configure the server log, create a log bundle and send the audit trail to an external log service 
+
+ System Settings : Configure the logo to display, customize the login message, system emails and notifications. 
+
+ Previous Troubleshoot Integrations Running on Engines 
+
+ Next Incidents 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

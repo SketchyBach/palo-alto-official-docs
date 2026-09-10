@@ -6,9 +6,10 @@ This is a portable, read-first copy of the verified Palo Alto Networks and KOI d
 
 1. Install Python 3.10 or newer. No third-party Python packages are required.
 2. Open this folder in a terminal.
-3. Run `python scripts/audit.py` to verify integrity.
-4. Start Claude Code from this folder with `claude`.
-5. Ask a Palo Alto Networks or KOI question normally. Claude reads `CLAUDE.md` automatically and uses the local skill instructions.
+3. Run `python scripts/rebuild_index.py` to create the Git-excluded SQLite index.
+4. Run `python scripts/audit.py` to verify integrity.
+5. Start Claude Code from this folder with `claude`.
+6. Ask a Palo Alto Networks or KOI question normally. Claude reads `CLAUDE.md` automatically and uses the local skill instructions.
 
 To test retrieval directly:
 
@@ -16,11 +17,19 @@ To test retrieval directly:
 python scripts/search.py "Cortex XDR broker VM" --mode answer --json
 ```
 
+On Windows, use the bundled dispatcher when `python` is not available on PATH:
+
+```powershell
+cmd /c pa-docs.cmd verify
+cmd /c pa-docs.cmd freshness
+cmd /c pa-docs.cmd search "Cortex XDR broker VM" --mode answer --json
+```
+
 ## Contents
 
 - `CLAUDE.md` — project instructions for Claude Code.
 - `.claude/skills/` — technical-answer, integration-guide, and corpus-maintenance workflows.
-- `data/index.sqlite3` — searchable official-only index.
+- `data/index.sqlite3` — generated searchable official-only index (created by `rebuild_index.py`; excluded from Git because of GitHub's file-size limit).
 - `data/pages/` — locally stored official Palo Alto pages.
 - `data/koi-official/` — verified KOI export and recovery records.
 - `scripts/` — search, audit, status, ingestion, and KOI import tools.
@@ -28,3 +37,4 @@ python scripts/search.py "Cortex XDR broker VM" --mode answer --json
 
 Internet access is needed only when refreshing the corpus. Existing local searches and audits work offline.
 
+The reconstructed corpus contains 44,309 searchable records, including 57 official Idira portal pages and 321 current authenticated KOI pages protected by SHA-256 capture receipts, plus 175 verified exact-path replacements for stale PAN-OS links.

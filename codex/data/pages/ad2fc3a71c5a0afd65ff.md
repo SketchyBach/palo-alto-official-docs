@@ -1,64 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-access-security/activation-and-onboarding/ai-access-security-licenses
-fetched_at: 2026-08-13T14:00:53Z
+fetched_at: 2026-09-06T11:16:44Z
 source: ai-security
 ---
 
 # AI Access Security Licenses Clear
 
-AI Access Security Licenses 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- AI Access Security Licenses 
-
- Updated on 
-
- Fri Jul 24 12:38:02 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- AI Access Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Fri Jul 24 12:38:02 PDT 2026 
+ Aug 11, 2026 
 
  Focus 
 
@@ -389,60 +339,4 @@ AI Access Security Licenses
 
  Next 
 
- AI Access Security Setup Prerequisites 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Strata Logging Service 
-
- Identity and Access Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced Threat Prevention 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Activation & Onboarding 
-
- AI Access Security 
-
- Cloud-Delivered Security Services 
-
- Concept 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ AI Access Security Setup Prerequisites

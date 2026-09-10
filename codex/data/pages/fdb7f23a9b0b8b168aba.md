@@ -1,0 +1,145 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/install-cortex-xsoar/system-requirements/url-requirements
+fetched_at: 2026-09-06T10:29:24Z
+source: cortex-platform
+---
+
+# URL requirements | 8.12 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.12 
+
+ Install Cortex XSOAR 
+
+ System Requirements 
+
+ Cortex XSOAR 
+
+ URL requirements 
+
+ In Cortex XSOAR 8.12 On-prem, allow required URLs for installation and operation. 
+
+ URLs 
+
+ You need to allow the following URLs for Cortex XSOAR to operate properly. 
+
+ Note 
+
+ If you use SSL inspection and experience difficulty connecting to the required URLs or to integration URLs, exclude the required URLs from SSL offloading on the firewall/proxy. 
+
+ Function 
+
+ Service 
+
+ Port 
+
+ Direction 
+
+ Web interface 
+
+ HTTPS 
+
+ 443 
+
+ Inbound 
+
+ Engine connectivity 
+
+ HTTPS 
+
+ 443 (configurable) 
+
+ Inbound 
+
+ Integrations 
+
+ Integration-specific ports 
+
+ Outbound 
+
+ Unit42 Intel Inventory (TIM license) 
+
+ https://unit42intel.xsoar.paloaltonetworks.com 
+
+ 443 
+
+ Outbound 
+
+ Marketplace 
+
+ https://marketplace.xsoar.paloaltonetworks.com/ 
+
+ Download content packs and view the Marketplace (to view content pack images, the domain should also be reachable from the browser). 
+
+ storage.googleapis.com 
+
+ Download content packs and view the Marketplace. This domain stores content pack artifacts (to view content pack images, the domain should also be reachable from the browser). It is possible to further limit the url prefix to: https://storage.googleapis.com/marketplace-dist/ 
+
+ api.demisto.com 
+
+ Download content Packs and view the Marketplace (this file maps the Marketplace URL to the Cortex XSOAR version). 
+
+ Note 
+You must add marketplace.xsoar.paloaltonetworks.com, storage.googleapis.com, and api.demisto.com otherwise you cannot access the Marketplace. 
+
+ xsoar-contrib.pan.dev 
+
+ Contribute content packs. 
+
+ 443 
+
+ Outbound 
+
+ On-prem Gateway 
+
+ onpremgw.crtx.[region].paloaltonetworks.com 
+
+ Cortex XSOAR accesses new versions from and uploads licenses to this repository. 
+
+ 443 
+
+ Outbound 
+
+ Download packages required for installation 
+
+ deb.debian.org 
+
+ security.debian.org 
+
+ 80 
+
+ Outbound 
+
+ Cortex XSOAR DNS records 
+
+ You need to add the following DNS records to your DNS server to resolve hostnames to the cluster IP address (only static;, DHCP is not supported). These DNS records (for a given tenant) should all point to the same cluster IP address to ensure a single entry point. 
+
+ For MSSP, each tenant must have its own set of xsoar.* , api-* , and ext-* FQDNs pointing to the tenant cluster's single entry point. 
+
+ Note 
+
+ Verify the internal DNS correctly resolves these addresses. DNS resolution failure for these FQDNs can cause communication issues, such as with MSSP sync when a proxy is used, or even when bypassing the proxy with No Proxy . 
+
+ xsoar.<hostname>.<domain> : The Cortex XSOAR DNS name for accessing the UI. For example, xsoar.mycompany.com . 
+
+ api-<hostname>.<domain> : The Cortex XSOAR DNS name that is mapped for API access. For example, api-xsoar.mycompany.com . This should be a CNAME entry pointing to the same cluster IP address. 
+
+ ext-<hostname>.<domain> : The Cortex XSOAR DNS name that is mapped to access long running integrations. For example, ext-xsoar.mycompany.com . This should be a CNAME entry pointing to the same cluster IP address. 
+
+ Previous Port requirements for cluster communication 
+
+ Next Bandwidth and NTP requirements 
+
+ Last updated 5 days ago 
+
+ Was this helpful?

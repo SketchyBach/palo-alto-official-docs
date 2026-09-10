@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-red-teaming/identify-ai-system-risks-with-ai-red-teaming/get-started-with-prisma-airs-ai-red-teaming/targets/custom-target-adapters/attach-a-custom-target-adapter-to-a-target
-fetched_at: 2026-08-13T14:06:12Z
+fetched_at: 2026-09-06T11:17:24Z
 source: ai-security
 ---
 
 # Attach a Custom Target Adapter to a Target Clear
 
-Attach a Custom Target Adapter to a Target 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Attach a Custom Target Adapter to a Target 
-
- Updated on 
-
- Fri Jul 24 03:07:12 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma AIRS Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- AI Model Security 
-
- AI Red Teaming 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Fri Jul 24 03:07:12 PDT 2026 
+ Thu Aug 27 01:45:16 PDT 2026 
 
  Focus 
 
@@ -100,21 +48,13 @@ Attach a Custom Target Adapter to a Target
 
  Administration 
 
- AI Model Security 
+ AI Supply Chain Security 
 
  AI Red Teaming 
 
  Release Notes 
 
  New Features 
-
- Previous 
-
- Test and Validate a Custom Target Adapter 
-
- Next 
-
- Troubleshoot a Custom Target Adapter 
 
  Attach a Custom Target Adapter to a Target 
 
@@ -266,66 +206,4 @@ Attach a Custom Target Adapter to a Target
 
  Select Submit . 
 
- The target is now connected through the adapter and is available for scanning . 
-
- Previous 
-
- Test and Validate a Custom Target Adapter 
-
- Next 
-
- Troubleshoot a Custom Target Adapter 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- CN-Series 
-
- Firewalls 
-
- VM-Series 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Enterprise DLP 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- AI Red Teaming 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ The target is now connected through the adapter and is available for scanning .

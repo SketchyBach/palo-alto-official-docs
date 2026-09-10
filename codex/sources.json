@@ -1,7 +1,8 @@
 {
   "policy": {"allowed_domains": ["cortex-docs.paloaltonetworks.com", "docs.paloaltonetworks.com", "docs.cyberark.com"], "language": "en", "user_agent": "PaloAltoOfficialDocsLocal/1.0", "request_delay_seconds": 0.35, "stale_after_days": 14},
   "local_sources": [
-    {"name": "koi-official-export", "domain": "docs.koi.ai", "manifest": "data/koi-official/manifest.json", "stale_after_days": 30}
+    {"name": "koi-official-export", "domain": "docs.koi.ai", "manifest": "data/koi-official/manifest.json", "stale_after_days": 30},
+    {"name": "koi-official-browser", "domain": "docs.koi.ai", "receipt_dir": "data/koi-browser-imports", "stale_after_days": 30}
   ],
   "sources": [
     {"name": "palo-alto-main", "priority": 1, "seed_urls": ["https://docs.paloaltonetworks.com/"], "include_prefixes": ["https://docs.paloaltonetworks.com/"]},

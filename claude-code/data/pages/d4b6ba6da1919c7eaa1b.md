@@ -1,0 +1,66 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/asset-management/asset-configurations/asset-roles/manage-asset-roles-for-users
+fetched_at: 2026-09-06T09:43:22Z
+source: cortex-platform
+---
+
+# Manage Asset Roles for Users | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Asset management 
+
+ Asset configurations 
+
+ Asset Roles 
+
+ Cortex XDR 5.x 
+
+ Manage Asset Roles for Users 
+
+ Assign and manage roles for user assets. 
+
+ Note 
+
+ User Role Management is available only if the Identity Threat Module add-on is enabled. 
+
+ You may want to manually exclude users from certain asset roles if a user's position in the organization changes and you want their Analytics baselines adjusted accordingly 
+
+ To access the management page, navigate to Inventory → Assets → Configurations → Asset Roles , right-click a user asset role, and select Edit Asset Role . Note that some asset roles are nested under parent roles higher in the hierarchy. For example, an Admin User asset role may be a child asset role of the parent asset role Sensitive User . You can hover over the information icon next to a role's name to see its parent rule. 
+
+ When editing an asset role, there are two primary lists: 
+
+ Included Users: Displays all the users Cortex XDR automatically detects as having this asset role, as well as any users you have manually added. 
+
+ Excluded Users: Displays the users that were manually removed from the asset role. 
+
+ User role actions 
+
+ Exclude a User: Right-click a user in the included list and select Exclude User . The user moves to the Excluded list, which overrides future automatic detections and ensures they are not added back to the role. By default, Cortex XDR also removes the user from the parent asset roles. 
+
+ Advanced Exclusion Settings: To remove a user from a child asset role but leave them in any parent asset roles, click Advanced Exclusion Settings and select Don't Exclude next to the name of the parent role. 
+
+ Manually Add Users: Click Add User to manually assign a role. To add users one by one, click Add New and type the usernames using the exact Netbios\samAccount format. To add users in bulk, click Import from File and upload a structured CSV. 
+
+ Delete vs. Exclude: If you right-click and select Delete User on a manually added user, the user is removed from the included list. If the system automatically detects the user acting in that role in the future, they appear in the included list again. To permanently prevent them from being associated with the role, you must use the Exclude action. 
+
+ To change the name of a user, right-click the user name and Edit User . 
+
+ Previous Manage Asset Roles for Endpoints 
+
+ Next Honey user 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

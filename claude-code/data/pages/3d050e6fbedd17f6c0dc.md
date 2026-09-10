@@ -1,0 +1,2764 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xdr-5-api/issues-apis/issues-papi-tables
+fetched_at: 2026-09-06T10:55:24Z
+source: cortex-platform
+---
+
+# Additional References | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex XDR 
+
+ XDR 5.x APIs 
+
+ Issues APIs 
+
+ Additional References 
+
+ Supported Filter Fields & Values 
+
+ Used by the Retrieve Issues based on filters endpoint to define the supported fields, operators, and values for the filters parameter. 
+
+ Field 
+
+ Operator 
+
+ Value Type 
+
+ Example / Allowed Values 
+
+ id 
+
+ in 
+
+ Array of integers 
+
+ [123, 456, 789] 
+
+ external_id 
+
+ in 
+
+ Array of strings 
+
+ ["abc-12345-def", "ext-67890"] 
+
+ detection.method 
+
+ in 
+
+ Array of strings 
+
+ ["XDR Agent", "XDR Analytics", "PAN NGFW", "XDR BIOC", "XDR IOC", "Threat Intelligence", "Correlation", "Prisma Cloud", "Prisma Cloud Compute", "ASM", "IoT Security", "Custom Issue", "Health", "Attack Path", "Posture Policy", "CSPM Scanner", "CAS CVE Scanner", "CAS Drift Scanner", "IaC Scanner", "CAS Secret Scanner", "CI/CD Risks", "CLI Scanner", "CIEM Scanner", "Agentless Disk Scanner", "Kubernetes Scanner", "Compute Policy", "Secrets Scanner", "SAST Scanner", "Data Policy", "Vulnerability Policy", "AI Security Posture", "DLP", "Graph Engine", "API Traffic Monitor", "API Posture Scanner"] 
+
+ issue_domain 
+
+ in 
+
+ Array of strings 
+
+ Default domains: ["Security", "Health", "Hunting", "IT", "Posture"] . Custom domains may also be configured per tenant. 
+
+ severity 
+
+ in 
+
+ Array of strings 
+
+ Allowed: ["INFO", "LOW", "MEDIUM", "HIGH", "CRITICAL"] 
+
+ _insert_time 
+
+ gte , lte 
+
+ Integer (epoch ms) 
+
+ 1700000000000 
+
+ last_modified 
+
+ gte , lte 
+
+ Integer (epoch ms) 
+
+ 1700000000000 
+
+ observation_time 
+
+ gte , lte 
+
+ Integer (epoch ms) 
+
+ 1700000000000 
+
+ status.progress 
+
+ in 
+
+ Array of strings 
+
+ Allowed: ["New", "In Progress", "Resolved"] 
+
+ assigned_to 
+
+ in 
+
+ Array of strings 
+
+ Email addresses, e.g. ["alice@example.com"] 
+
+ assigned_to_pretty 
+
+ in 
+
+ Array of strings 
+
+ Display names, e.g. ["Alice Smith"] 
+
+ Supported fields for issue exception filters 
+
+ Use the values in the Field name column as SEARCH_FIELD when building the rule parameter for the createIssueException operation in the Cortex Cloud platform API. 
+
+ Required licenses: This feature is included with Cortex Cloud Runtime Security or Cortex Cloud Posture Management. 
+
+ Example 
+
+ The rule parameter is a JSON-encoded string. Each filter clause specifies a SEARCH_FIELD (a value from this page), a SEARCH_TYPE (comparison operator), and a SEARCH_VALUE . 
+
+ Core issue fields 
+
+ Top-level fields without an xdm. prefix. Includes identity, status, tagging, and timestamp fields native to the issue record itself. 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Agentic AI response 
+
+ agentic_assistant_id 
+
+ ENUM 
+
+ Agentic AI response status 
+
+ agentic_response_status 
+
+ ENUM 
+
+ Assignee 
+
+ assigned_to_pretty 
+
+ TEXT 
+
+ Assignee Email 
+
+ assigned_to 
+
+ TEXT 
+
+ Category 
+
+ alert_category 
+
+ TEXT 
+
+ Description 
+
+ alert_description 
+
+ RENDER_TEXT 
+
+ Detection Method 
+
+ alert_source 
+
+ ENUM 
+
+ Detection Rule ID 
+
+ matching_service_rule_id 
+
+ TEXT 
+
+ Excepted 
+
+ is_excepted 
+
+ BOOLEAN 
+
+ Excluded 
+
+ is_whitelisted 
+
+ BOOLEAN 
+
+ Extended Description 
+
+ extended_description 
+
+ TEXT 
+
+ External Id 
+
+ external_id 
+
+ TEXT 
+
+ Impact 
+
+ impact 
+
+ TEXT 
+
+ Insert Time 
+
+ local_insert_ts 
+
+ TIMESTAMP 
+
+ Issue Domain 
+
+ alert_domain 
+
+ ENUM 
+
+ Issue Id 
+
+ internal_id 
+
+ TEXT 
+
+ Last Modified 
+
+ last_update_timestamp 
+
+ TIMESTAMP 
+
+ Mitre ATT&CK Tactic 
+
+ mitre_tactic_id_and_name 
+
+ ENUM 
+
+ Mitre ATT&CK Technique 
+
+ mitre_technique_id_and_name 
+
+ ENUM 
+
+ Name 
+
+ alert_name 
+
+ TEXT 
+
+ Observation Time 
+
+ source_insert_ts 
+
+ TIMESTAMP 
+
+ Recommendation 
+
+ recommendation 
+
+ TEXT 
+
+ Remediation 
+
+ remediation 
+
+ TEXT 
+
+ Resolution Comment 
+
+ resolution_comment 
+
+ TEXT 
+
+ Resolution Reason 
+
+ status.resolution_reason 
+
+ ENUM 
+
+ Resolution Status Modified 
+
+ resolution_status_modified_ts 
+
+ TIMESTAMP 
+
+ Severity 
+
+ severity 
+
+ ENUM 
+
+ Starred 
+
+ starred 
+
+ BOOLEAN 
+
+ Status 
+
+ status.progress 
+
+ ENUM 
+
+ Tags 
+
+ tags 
+
+ COMPLEX 
+
+ Type 
+
+ alert_type 
+
+ ENUM 
+
+ Target (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Target Agent Identifier 
+
+ xdm.target.agent.identifier 
+
+ TEXT 
+
+ Target Domain 
+
+ xdm.target.domain 
+
+ TEXT 
+
+ Target File Filename 
+
+ xdm.target.file.filename 
+
+ TEXT 
+
+ Target File Sha256 
+
+ xdm.target.file.sha256 
+
+ TEXT 
+
+ Target Host Fqdn 
+
+ xdm.target.host.fqdn 
+
+ TEXT 
+
+ Target Host Hostname 
+
+ xdm.target.host.hostname 
+
+ TEXT 
+
+ Target Host Ipv4 Addresses 
+
+ xdm.target.host.ipv4_addresses 
+
+ TEXT 
+
+ Target Host Ipv6 Addresses 
+
+ xdm.target.host.ipv6_addresses 
+
+ TEXT 
+
+ Target Identity Username 
+
+ xdm.target.identity.username 
+
+ TEXT 
+
+ Target Ipv4 
+
+ xdm.target.ipv4 
+
+ TEXT 
+
+ Target Ipv6 
+
+ xdm.target.ipv6 
+
+ TEXT 
+
+ Target Location Country 
+
+ xdm.target.location.country 
+
+ TEXT 
+
+ Target Module Filename 
+
+ xdm.target.module.filename 
+
+ TEXT 
+
+ Target Module Sha256 
+
+ xdm.target.module.sha256 
+
+ TEXT 
+
+ Target Port 
+
+ xdm.target.port 
+
+ FLOAT 
+
+ Target Process Command Line 
+
+ xdm.target.process.command_line 
+
+ TEXT 
+
+ Target Process Executable Filename 
+
+ xdm.target.process.executable.filename 
+
+ TEXT 
+
+ Target Process Executable Path 
+
+ xdm.target.process.executable.path 
+
+ TEXT 
+
+ Target Process Executable Sha256 
+
+ xdm.target.process.executable.sha256 
+
+ TEXT 
+
+ Target Process Executable Signature Status 
+
+ xdm.target.process.executable.signature_status 
+
+ ENUM 
+
+ Target Process Executable Signer 
+
+ xdm.target.process.executable.signer 
+
+ TEXT 
+
+ Target Process Name 
+
+ xdm.target.process.name 
+
+ TEXT 
+
+ Target Registry Data 
+
+ xdm.target.registry.data 
+
+ TEXT 
+
+ Target Registry Key 
+
+ xdm.target.registry.key 
+
+ TEXT 
+
+ Target Registry Value 
+
+ xdm.target.registry.value 
+
+ TEXT 
+
+ Target Url 
+
+ xdm.target.url 
+
+ TEXT 
+
+ Source (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Source Agent Content Version 
+
+ xdm.source.agent.content_version 
+
+ TEXT 
+
+ Source Agent Identifier 
+
+ xdm.source.agent.identifier 
+
+ TEXT 
+
+ Source Agent Installation Id 
+
+ xdm.source.agent.installation_id 
+
+ TEXT 
+
+ Source Agent Version 
+
+ xdm.source.agent.version 
+
+ TEXT 
+
+ Source Host Fqdn 
+
+ xdm.source.host.fqdn 
+
+ TEXT 
+
+ Source Host Hostname 
+
+ xdm.source.host.hostname 
+
+ TEXT 
+
+ Source Host Ipv4 Addresses 
+
+ xdm.source.host.ipv4_addresses 
+
+ TEXT 
+
+ Source Host Ipv6 Addresses 
+
+ xdm.source.host.ipv6_addresses 
+
+ TEXT 
+
+ Source Host Os Family 
+
+ xdm.source.host.os_family 
+
+ ENUM 
+
+ Source Identity Identifier 
+
+ xdm.source.identity.identifier 
+
+ TEXT 
+
+ Source Identity Identity Type 
+
+ xdm.source.identity.identity_type 
+
+ ENUM 
+
+ Source Identity User Type 
+
+ xdm.source.identity.user_type 
+
+ ENUM 
+
+ Source Identity Username 
+
+ xdm.source.identity.username 
+
+ TEXT 
+
+ Source Ipv4 
+
+ xdm.source.ipv4 
+
+ TEXT 
+
+ Source Location Country 
+
+ xdm.source.location.country 
+
+ TEXT 
+
+ Source Process Causality Id 
+
+ xdm.source.process.causality_id 
+
+ TEXT 
+
+ Source Process Command Line 
+
+ xdm.source.process.command_line 
+
+ TEXT 
+
+ Source Process Executable Filename 
+
+ xdm.source.process.executable.filename 
+
+ TEXT 
+
+ Source Process Executable Path 
+
+ xdm.source.process.executable.path 
+
+ TEXT 
+
+ Source Process Executable Sha256 
+
+ xdm.source.process.executable.sha256 
+
+ TEXT 
+
+ Source Process Executable Signature Status 
+
+ xdm.source.process.executable.signature_status 
+
+ ENUM 
+
+ Source Process Executable Signer 
+
+ xdm.source.process.executable.signer 
+
+ TEXT 
+
+ Source Process Name 
+
+ xdm.source.process.name 
+
+ TEXT 
+
+ Source User Username 
+
+ xdm.source.user.username 
+
+ TEXT 
+
+ Identity (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Identity Access Keys 
+
+ xdm.identity.access_keys 
+
+ TEXT 
+
+ Identity Access Levels 
+
+ xdm.identity.access_levels 
+
+ ENUM 
+
+ Identity Access Statistics Resources 
+
+ xdm.identity.access_statistics.resources 
+
+ FLOAT 
+
+ Identity Access Statistics Sensitive Data 
+
+ xdm.identity.access_statistics.sensitive_data 
+
+ FLOAT 
+
+ Identity Access Statistics Services 
+
+ xdm.identity.access_statistics.services 
+
+ FLOAT 
+
+ Identity Access To Services 
+
+ xdm.identity.access_to_services 
+
+ TEXT 
+
+ Identity Account Access 
+
+ xdm.identity.account_access 
+
+ ENUM 
+
+ Identity App Registration Owners 
+
+ xdm.identity.app_registration.owners 
+
+ TEXT 
+
+ Identity App Registrations Ids 
+
+ xdm.identity.app_registrations_ids 
+
+ TEXT 
+
+ Identity Badge Id 
+
+ xdm.identity.badge_id 
+
+ TEXT 
+
+ Identity Can Impersonate 
+
+ xdm.identity.can_impersonate 
+
+ BOOLEAN 
+
+ Identity Clean Domain Name 
+
+ xdm.identity.clean_domain_name 
+
+ TEXT 
+
+ Identity Clean Trimmed Domain Name 
+
+ xdm.identity.clean_trimmed_domain_name 
+
+ TEXT 
+
+ Identity Creation Time 
+
+ xdm.identity.creation_time 
+
+ TIMESTAMP 
+
+ Identity Dn 
+
+ xdm.identity.dn 
+
+ TEXT 
+
+ Identity Domain 
+
+ xdm.identity.domain 
+
+ TEXT 
+
+ Identity Email 
+
+ xdm.identity.email 
+
+ TEXT 
+
+ Identity Employee Id 
+
+ xdm.identity.employee_id 
+
+ TEXT 
+
+ Identity First Name 
+
+ xdm.identity.first_name 
+
+ TEXT 
+
+ Identity Full Domain Name 
+
+ xdm.identity.full_domain_name 
+
+ TEXT 
+
+ Identity Group Creation Time 
+
+ xdm.identity.group.creation_time 
+
+ TIMESTAMP 
+
+ Identity Group Dn 
+
+ xdm.identity.group.dn 
+
+ TEXT 
+
+ Identity Group Domain Name 
+
+ xdm.identity.group.domain_name 
+
+ TEXT 
+
+ Identity Group Group Type 
+
+ xdm.identity.group.group_type 
+
+ TEXT 
+
+ Identity Group Guid 
+
+ xdm.identity.group.guid 
+
+ TEXT 
+
+ Identity Group Is Empty 
+
+ xdm.identity.group.is_empty 
+
+ BOOLEAN 
+
+ Identity Group Is Nested 
+
+ xdm.identity.group.is_nested 
+
+ BOOLEAN 
+
+ Identity Group Last Modified Time 
+
+ xdm.identity.group.last_modified_time 
+
+ TIMESTAMP 
+
+ Identity Group Member Of 
+
+ xdm.identity.group.member_of 
+
+ TEXT 
+
+ Identity Group Number Of Groups 
+
+ xdm.identity.group.number_of_groups 
+
+ FLOAT 
+
+ Identity Group Number Of Users 
+
+ xdm.identity.group.number_of_users 
+
+ FLOAT 
+
+ Identity Group Sid 
+
+ xdm.identity.group.sid 
+
+ TEXT 
+
+ Identity Groups 
+
+ xdm.identity.groups 
+
+ TEXT 
+
+ Identity Guid 
+
+ xdm.identity.guid 
+
+ TEXT 
+
+ Identity Has Admin Permissions 
+
+ xdm.identity.has_admin_permissions 
+
+ BOOLEAN 
+
+ Identity Has Mfa 
+
+ xdm.identity.has_mfa 
+
+ BOOLEAN 
+
+ Identity Identifier 
+
+ xdm.identity.identifier 
+
+ TEXT 
+
+ Identity Identity Type 
+
+ xdm.identity.identity_type 
+
+ ENUM 
+
+ Identity Idp Provider 
+
+ xdm.identity.idp.provider 
+
+ ENUM 
+
+ Identity Is Disabled 
+
+ xdm.identity.is_disabled 
+
+ BOOLEAN 
+
+ Identity Is Federated 
+
+ xdm.identity.is_federated 
+
+ BOOLEAN 
+
+ Identity Is Guest 
+
+ xdm.identity.is_guest 
+
+ BOOLEAN 
+
+ Identity Is Password Changeable 
+
+ xdm.identity.is_password_changeable 
+
+ BOOLEAN 
+
+ Identity Is Password Expired 
+
+ xdm.identity.is_password_expired 
+
+ BOOLEAN 
+
+ Identity Is Password Never Expire 
+
+ xdm.identity.is_password_never_expire 
+
+ BOOLEAN 
+
+ Identity Is Password Required 
+
+ xdm.identity.is_password_required 
+
+ BOOLEAN 
+
+ Identity Key Management Created By 
+
+ xdm.identity.key_management.created_by 
+
+ TEXT 
+
+ Identity Key Management Last Modified 
+
+ xdm.identity.key_management.last_modified 
+
+ TIMESTAMP 
+
+ Identity Key Management Last Modified By 
+
+ xdm.identity.key_management.last_modified_by 
+
+ TEXT 
+
+ Identity Last Login 
+
+ xdm.identity.last_login 
+
+ TIMESTAMP 
+
+ Identity Last Managed Time 
+
+ xdm.identity.last_managed_time 
+
+ TIMESTAMP 
+
+ Identity Last Name 
+
+ xdm.identity.last_name 
+
+ TEXT 
+
+ Identity Last Used 
+
+ xdm.identity.last_used 
+
+ TIMESTAMP 
+
+ Identity Managing Identities Count 
+
+ xdm.identity.managing_identities_count 
+
+ FLOAT 
+
+ Identity Middle Name 
+
+ xdm.identity.middle_name 
+
+ TEXT 
+
+ Identity Netbios 
+
+ xdm.identity.netbios 
+
+ TEXT 
+
+ Identity Netbios Domain 
+
+ xdm.identity.netbios_domain 
+
+ TEXT 
+
+ Identity Netbios Sam Account Name 
+
+ xdm.identity.netbios_sam_account_name 
+
+ TEXT 
+
+ Identity Number Of Bounded Identities 
+
+ xdm.identity.number_of_bounded_identities 
+
+ FLOAT 
+
+ Identity Number Of Policies 
+
+ xdm.identity.number_of_policies 
+
+ FLOAT 
+
+ Identity Number Of Roles 
+
+ xdm.identity.number_of_roles 
+
+ FLOAT 
+
+ Identity Os 
+
+ xdm.identity.os 
+
+ TEXT 
+
+ Identity Ou 
+
+ xdm.identity.ou 
+
+ TEXT 
+
+ Identity Password Last Set 
+
+ xdm.identity.password_last_set 
+
+ TIMESTAMP 
+
+ Identity Policy Audit Account Logon Failure 
+
+ xdm.identity.policy.audit_account_logon_failure 
+
+ BOOLEAN 
+
+ Identity Policy Audit Account Logon Success 
+
+ xdm.identity.policy.audit_account_logon_success 
+
+ BOOLEAN 
+
+ Identity Policy Creation Time 
+
+ xdm.identity.policy.creation_time 
+
+ TIMESTAMP 
+
+ Identity Policy Description 
+
+ xdm.identity.policy.description 
+
+ TEXT 
+
+ Identity Policy Guid 
+
+ xdm.identity.policy.guid 
+
+ TEXT 
+
+ Identity Policy Is Empty 
+
+ xdm.identity.policy.is_empty 
+
+ BOOLEAN 
+
+ Identity Policy Is Excessive 
+
+ xdm.identity.policy.is_excessive 
+
+ BOOLEAN 
+
+ Identity Policy Is Lanman Hash Storage Disabled 
+
+ xdm.identity.policy.is_lanman_hash_storage_disabled 
+
+ BOOLEAN 
+
+ Identity Policy Is Ldap Signing Required 
+
+ xdm.identity.policy.is_ldap_signing_required 
+
+ BOOLEAN 
+
+ Identity Policy Is Smb Server Signing Required 
+
+ xdm.identity.policy.is_smb_server_signing_required 
+
+ BOOLEAN 
+
+ Identity Policy Last Changed 
+
+ xdm.identity.policy.last_changed 
+
+ TIMESTAMP 
+
+ Identity Policy Number Of Groups 
+
+ xdm.identity.policy.number_of_groups 
+
+ FLOAT 
+
+ Identity Policy Number Of Users 
+
+ xdm.identity.policy.number_of_users 
+
+ FLOAT 
+
+ Identity Policy Owner 
+
+ xdm.identity.policy.owner 
+
+ TEXT 
+
+ Identity Policy Security Properties Lockout Duration 
+
+ xdm.identity.policy.security_properties.lockout_duration 
+
+ FLOAT 
+
+ Identity Policy Security Properties Lockout Threshold 
+
+ xdm.identity.policy.security_properties.lockout_threshold 
+
+ FLOAT 
+
+ Identity Policy Security Properties Max Password Age 
+
+ xdm.identity.policy.security_properties.max_password_age 
+
+ FLOAT 
+
+ Identity Policy Security Properties Min Password Length 
+
+ xdm.identity.policy.security_properties.min_password_length 
+
+ FLOAT 
+
+ Identity Policy Security Properties Password Complexity Enabled 
+
+ xdm.identity.policy.security_properties.password_complexity_enabled 
+
+ BOOLEAN 
+
+ Identity Roles 
+
+ xdm.identity.roles 
+
+ TEXT 
+
+ Identity Sam Account Name 
+
+ xdm.identity.sam_account_name 
+
+ TEXT 
+
+ Identity Scope 
+
+ xdm.identity.scope 
+
+ ENUM 
+
+ Identity Secret Expiration Time 
+
+ xdm.identity.secret.expiration_time 
+
+ TIMESTAMP 
+
+ Identity Secret Is Expired 
+
+ xdm.identity.secret.is_expired 
+
+ BOOLEAN 
+
+ Identity Secret Is Rotation Enabled 
+
+ xdm.identity.secret.is_rotation_enabled 
+
+ BOOLEAN 
+
+ Identity Secret Is Unrotated 
+
+ xdm.identity.secret.is_unrotated 
+
+ BOOLEAN 
+
+ Identity Secret Kms Key 
+
+ xdm.identity.secret.kms_key 
+
+ TEXT 
+
+ Identity Secret Last Rotation 
+
+ xdm.identity.secret.last_rotation 
+
+ TIMESTAMP 
+
+ Identity Secret Last Used 
+
+ xdm.identity.secret.last_used 
+
+ TIMESTAMP 
+
+ Identity Secret Next Rotation 
+
+ xdm.identity.secret.next_rotation 
+
+ TIMESTAMP 
+
+ Identity Secret Owning Service 
+
+ xdm.identity.secret.owning_service 
+
+ TEXT 
+
+ Identity Secret Replicas Count 
+
+ xdm.identity.secret.replicas_count 
+
+ FLOAT 
+
+ Identity Secret Service Account 
+
+ xdm.identity.secret.service_account 
+
+ TEXT 
+
+ Identity Secret Status 
+
+ xdm.identity.secret.status 
+
+ ENUM 
+
+ Identity Secret Vault 
+
+ xdm.identity.secret.vault 
+
+ TEXT 
+
+ Identity Secret Version 
+
+ xdm.identity.secret.version 
+
+ TEXT 
+
+ Identity Service Principal Names 
+
+ xdm.identity.service_principal_names 
+
+ TEXT 
+
+ Identity Sid 
+
+ xdm.identity.sid 
+
+ TEXT 
+
+ Identity Upn 
+
+ xdm.identity.upn 
+
+ TEXT 
+
+ Identity User Type 
+
+ xdm.identity.user_type 
+
+ ENUM 
+
+ Identity Username 
+
+ xdm.identity.username 
+
+ TEXT 
+
+ Email (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Email Attachment Extension 
+
+ xdm.email.attachment.extension 
+
+ TEXT 
+
+ Email Attachment Filename 
+
+ xdm.email.attachment.filename 
+
+ TEXT 
+
+ Email Attachment Sha256 
+
+ xdm.email.attachment.sha256 
+
+ TEXT 
+
+ Email Bcc 
+
+ xdm.email.bcc 
+
+ TEXT 
+
+ Email Bcc Names 
+
+ xdm.email.bcc_names 
+
+ TEXT 
+
+ Email Cc 
+
+ xdm.email.cc 
+
+ TEXT 
+
+ Email Cc Names 
+
+ xdm.email.cc_names 
+
+ TEXT 
+
+ Email Conversation Id 
+
+ xdm.email.conversation_id 
+
+ TEXT 
+
+ Email Creation Time 
+
+ xdm.email.creation_time 
+
+ TIMESTAMP 
+
+ Email Detection Tags 
+
+ xdm.email.detection_tags 
+
+ TEXT 
+
+ Email From Address 
+
+ xdm.email.from_address 
+
+ TEXT 
+
+ Email From Name 
+
+ xdm.email.from_name 
+
+ TEXT 
+
+ Email Is Draft 
+
+ xdm.email.is_draft 
+
+ BOOLEAN 
+
+ Email Mailbox Owner 
+
+ xdm.email.mailbox_owner 
+
+ TEXT 
+
+ Email Message Id 
+
+ xdm.email.message_id 
+
+ TEXT 
+
+ Email Normalized Urls 
+
+ xdm.email.normalized_urls 
+
+ TEXT 
+
+ Email Recipients 
+
+ xdm.email.recipients 
+
+ TEXT 
+
+ Email Recipients Names 
+
+ xdm.email.recipients_names 
+
+ TEXT 
+
+ Email Return Path 
+
+ xdm.email.return_path 
+
+ TEXT 
+
+ Email Sender 
+
+ xdm.email.sender 
+
+ TEXT 
+
+ Email Sender Name 
+
+ xdm.email.sender_name 
+
+ TEXT 
+
+ Email Subject 
+
+ xdm.email.subject 
+
+ TEXT 
+
+ Email Url Categories 
+
+ xdm.email.url_categories 
+
+ TEXT 
+
+ Certificate (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Certificate Algorithm 
+
+ xdm.certificate.algorithm 
+
+ TEXT 
+
+ Certificate Classifications 
+
+ xdm.certificate.classifications 
+
+ TEXT 
+
+ Certificate Formatted Issuer Org 
+
+ xdm.certificate.formatted_issuer_org 
+
+ TEXT 
+
+ Certificate Id 
+
+ xdm.certificate.id 
+
+ TEXT 
+
+ Certificate Is Expired 
+
+ xdm.certificate.is_expired 
+
+ BOOLEAN 
+
+ Certificate Issuer 
+
+ xdm.certificate.issuer 
+
+ TEXT 
+
+ Certificate Issuer Details Country 
+
+ xdm.certificate.issuer_details.country 
+
+ TEXT 
+
+ Certificate Issuer Details Name 
+
+ xdm.certificate.issuer_details.name 
+
+ TEXT 
+
+ Certificate Issuer Details Org 
+
+ xdm.certificate.issuer_details.org 
+
+ TEXT 
+
+ Certificate Issuer Details Org Unit 
+
+ xdm.certificate.issuer_details.org_unit 
+
+ TEXT 
+
+ Certificate Md5 
+
+ xdm.certificate.md5 
+
+ TEXT 
+
+ Certificate Not After 
+
+ xdm.certificate.not_after 
+
+ TIMESTAMP 
+
+ Certificate Not Before 
+
+ xdm.certificate.not_before 
+
+ TIMESTAMP 
+
+ Certificate Owner Name 
+
+ xdm.certificate.owner_name 
+
+ TEXT 
+
+ Certificate Owner Type 
+
+ xdm.certificate.owner_type 
+
+ TEXT 
+
+ Certificate Public Key Bits 
+
+ xdm.certificate.public_key_bits 
+
+ FLOAT 
+
+ Certificate Serial 
+
+ xdm.certificate.serial 
+
+ TEXT 
+
+ Certificate Sha1 
+
+ xdm.certificate.sha1 
+
+ TEXT 
+
+ Certificate Sha256 
+
+ xdm.certificate.sha256 
+
+ TEXT 
+
+ Certificate Subject 
+
+ xdm.certificate.subject 
+
+ TEXT 
+
+ Certificate Subject Details Alternative Names 
+
+ xdm.certificate.subject_details.alternative_names 
+
+ TEXT 
+
+ Certificate Subject Details Country 
+
+ xdm.certificate.subject_details.country 
+
+ TEXT 
+
+ Certificate Subject Details Org 
+
+ xdm.certificate.subject_details.org 
+
+ TEXT 
+
+ Certificate Subject Details Org Unit 
+
+ xdm.certificate.subject_details.org_unit 
+
+ TEXT 
+
+ Certificate Version 
+
+ xdm.certificate.version 
+
+ TEXT 
+
+ Certificate template (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Certificate Template Cn 
+
+ xdm.certificate_template.cn 
+
+ TEXT 
+
+ Certificate Template Creation Time 
+
+ xdm.certificate_template.creation_time 
+
+ TIMESTAMP 
+
+ Certificate Template Display Name 
+
+ xdm.certificate_template.display_name 
+
+ TEXT 
+
+ Certificate Template Dn 
+
+ xdm.certificate_template.dn 
+
+ TEXT 
+
+ Certificate Template Domain Name 
+
+ xdm.certificate_template.domain_name 
+
+ TEXT 
+
+ Certificate Template Enhanced Key Usage 
+
+ xdm.certificate_template.enhanced_key_usage 
+
+ TEXT 
+
+ Certificate Template Guid 
+
+ xdm.certificate_template.guid 
+
+ TEXT 
+
+ Certificate Template Requester Can Specify Subject 
+
+ xdm.certificate_template.requester_can_specify_subject 
+
+ BOOLEAN 
+
+ Certificate Template Requires Manager Approval 
+
+ xdm.certificate_template.requires_manager_approval 
+
+ BOOLEAN 
+
+ Certificate Template Schema Version 
+
+ xdm.certificate_template.schema_version 
+
+ FLOAT 
+
+ Certificate Template When Changed 
+
+ xdm.certificate_template.when_changed 
+
+ TIMESTAMP 
+
+ File (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ File Filename 
+
+ xdm.file.filename 
+
+ TEXT 
+
+ File Group Id 
+
+ xdm.file.group_id 
+
+ FLOAT 
+
+ File Group Name 
+
+ xdm.file.group_name 
+
+ TEXT 
+
+ File Last Modified 
+
+ xdm.file.last_modified 
+
+ TIMESTAMP 
+
+ File Metadata Change Time 
+
+ xdm.file.metadata_change_time 
+
+ TIMESTAMP 
+
+ File Owner Id 
+
+ xdm.file.owner_id 
+
+ FLOAT 
+
+ File Owner Name 
+
+ xdm.file.owner_name 
+
+ TEXT 
+
+ File Path 
+
+ xdm.file.path 
+
+ TEXT 
+
+ File Permissions Group 
+
+ xdm.file.permissions.group 
+
+ TEXT 
+
+ File Permissions Others 
+
+ xdm.file.permissions.others 
+
+ TEXT 
+
+ File Permissions Owner 
+
+ xdm.file.permissions.owner 
+
+ TEXT 
+
+ File Position End Character 
+
+ xdm.file.position.end.character 
+
+ FLOAT 
+
+ File Position End Line 
+
+ xdm.file.position.end.line 
+
+ FLOAT 
+
+ File Position Start Character 
+
+ xdm.file.position.start.character 
+
+ FLOAT 
+
+ File Position Start Line 
+
+ xdm.file.position.start.line 
+
+ FLOAT 
+
+ File Sha256 
+
+ xdm.file.sha256 
+
+ TEXT 
+
+ File Size 
+
+ xdm.file.size 
+
+ FLOAT 
+
+ File Volume Path 
+
+ xdm.file.volume_path 
+
+ TEXT 
+
+ Cloud (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Cloud Function Id 
+
+ xdm.cloud.function.id 
+
+ TEXT 
+
+ Cloud Function Name 
+
+ xdm.cloud.function.name 
+
+ TEXT 
+
+ Cloud Function Request Id 
+
+ xdm.cloud.function.request_id 
+
+ TEXT 
+
+ Cloud Function Runtime 
+
+ xdm.cloud.function.runtime 
+
+ TEXT 
+
+ Cloud Function Version 
+
+ xdm.cloud.function.version 
+
+ TEXT 
+
+ Cloud Project 
+
+ xdm.cloud.project 
+
+ TEXT 
+
+ Cloud Project Id 
+
+ xdm.cloud.project_id 
+
+ TEXT 
+
+ Cloud Provider 
+
+ xdm.cloud.provider 
+
+ ENUM 
+
+ Cloud Region 
+
+ xdm.cloud.region 
+
+ TEXT 
+
+ Code (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Code Git Branch 
+
+ xdm.code.git.branch 
+
+ TEXT 
+
+ Code Git Commit Author Email 
+
+ xdm.code.git.commit.author.email 
+
+ TEXT 
+
+ Code Git Commit Author Name 
+
+ xdm.code.git.commit.author.name 
+
+ TEXT 
+
+ Code Git Commit Author Pretty Name 
+
+ xdm.code.git.commit.author.pretty_name 
+
+ TEXT 
+
+ Code Git Commit Hash 
+
+ xdm.code.git.commit.hash 
+
+ TEXT 
+
+ Code Git Commit Time 
+
+ xdm.code.git.commit.time 
+
+ TIMESTAMP 
+
+ Code Git Contributors 
+
+ xdm.code.git.contributors 
+
+ TEXT 
+
+ Code Git Provider 
+
+ xdm.code.git.provider 
+
+ TEXT 
+
+ Code Iac Framework 
+
+ xdm.code.iac.framework 
+
+ ENUM 
+
+ Code Scan Source 
+
+ xdm.code.scan_source 
+
+ ENUM 
+
+ HTTP (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Http Method 
+
+ xdm.http.method 
+
+ ENUM 
+
+ Http Path 
+
+ xdm.http.path 
+
+ TEXT 
+
+ Http Request Client Type 
+
+ xdm.http.request.client_type 
+
+ TEXT 
+
+ Http Request Content Types 
+
+ xdm.http.request.content_types 
+
+ TEXT 
+
+ Http Request User Agents 
+
+ xdm.http.request.user_agents 
+
+ TEXT 
+
+ Http Response Content Types 
+
+ xdm.http.response.content_types 
+
+ TEXT 
+
+ Http Response Status Code 
+
+ xdm.http.response.status_code 
+
+ ENUM 
+
+ Http Version 
+
+ xdm.http.version 
+
+ FLOAT 
+
+ Vulnerability (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Vulnerability Cve Id 
+
+ xdm.vulnerability.cve_id 
+
+ TEXT 
+
+ Vulnerability Cve Risk Factors 
+
+ xdm.vulnerability.cve_risk_factors 
+
+ TEXT 
+
+ Vulnerability Cvss Score 
+
+ xdm.vulnerability.cvss_score 
+
+ FLOAT 
+
+ Vulnerability Cvss Vector 
+
+ xdm.vulnerability.cvss_vector 
+
+ TEXT 
+
+ Vulnerability Fix Versions 
+
+ xdm.vulnerability.fix_versions 
+
+ TEXT 
+
+ Vulnerability Severity 
+
+ xdm.vulnerability.severity 
+
+ ENUM 
+
+ Active Directory (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Active Directory Container Canonical Name 
+
+ xdm.active_directory.container.canonical_name 
+
+ TEXT 
+
+ Active Directory Container Creation Time 
+
+ xdm.active_directory.container.creation_time 
+
+ TIMESTAMP 
+
+ Active Directory Container Dn 
+
+ xdm.active_directory.container.dn 
+
+ TEXT 
+
+ Active Directory Container Last Changed 
+
+ xdm.active_directory.container.last_changed 
+
+ TIMESTAMP 
+
+ Active Directory Container Object Guid 
+
+ xdm.active_directory.container.object_guid 
+
+ TEXT 
+
+ Active Directory Trust Attributes 
+
+ xdm.active_directory.trust.attributes 
+
+ FLOAT 
+
+ Active Directory Trust Creation Time 
+
+ xdm.active_directory.trust.creation_time 
+
+ TIMESTAMP 
+
+ Active Directory Trust Direction 
+
+ xdm.active_directory.trust.direction 
+
+ ENUM 
+
+ Active Directory Trust Disallow Transivity 
+
+ xdm.active_directory.trust.disallow_transivity 
+
+ BOOLEAN 
+
+ Active Directory Trust Dn 
+
+ xdm.active_directory.trust.dn 
+
+ TEXT 
+
+ Active Directory Trust Forest Transitive 
+
+ xdm.active_directory.trust.forest_transitive 
+
+ BOOLEAN 
+
+ Active Directory Trust Intra Forest 
+
+ xdm.active_directory.trust.intra_forest 
+
+ BOOLEAN 
+
+ Active Directory Trust Is Sid Filtering Forest Aware 
+
+ xdm.active_directory.trust.is_sid_filtering_forest_aware 
+
+ BOOLEAN 
+
+ Active Directory Trust Is Sid Filtering Quarantined 
+
+ xdm.active_directory.trust.is_sid_filtering_quarantined 
+
+ BOOLEAN 
+
+ Active Directory Trust Last Changed 
+
+ xdm.active_directory.trust.last_changed 
+
+ TIMESTAMP 
+
+ Active Directory Trust Selective Authentication 
+
+ xdm.active_directory.trust.selective_authentication 
+
+ BOOLEAN 
+
+ Active Directory Trust Source Domain 
+
+ xdm.active_directory.trust.source_domain 
+
+ TEXT 
+
+ Active Directory Trust Target Domain 
+
+ xdm.active_directory.trust.target_domain 
+
+ TEXT 
+
+ Active Directory Trust Tgt Delegation 
+
+ xdm.active_directory.trust.tgt_delegation 
+
+ BOOLEAN 
+
+ Active Directory Trust Type 
+
+ xdm.active_directory.trust.type 
+
+ TEXT 
+
+ Kubernetes (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Kubernetes Cluster Name 
+
+ xdm.kubernetes.cluster.name 
+
+ TEXT 
+
+ Kubernetes Namespace Name 
+
+ xdm.kubernetes.namespace.name 
+
+ TEXT 
+
+ Observer (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Observer Name 
+
+ xdm.observer.name 
+
+ TEXT 
+
+ Observer Sub Type 
+
+ xdm.observer.sub_type 
+
+ TEXT 
+
+ Observer Type 
+
+ xdm.observer.type 
+
+ TEXT 
+
+ Observer Unique Identifier 
+
+ xdm.observer.unique_identifier 
+
+ TEXT 
+
+ Secret (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Secret Layer Id 
+
+ xdm.secret.layer_id 
+
+ TEXT 
+
+ Secret Secret Type 
+
+ xdm.secret.secret_type 
+
+ ENUM 
+
+ Secret Snippet 
+
+ xdm.secret.snippet 
+
+ TEXT 
+
+ Secret Unique Identifier 
+
+ xdm.secret.unique_identifier 
+
+ TEXT 
+
+ Secret Validation 
+
+ xdm.secret.validation 
+
+ ENUM 
+
+ Disk (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Disk Is Root 
+
+ xdm.disk.is_root 
+
+ BOOLEAN 
+
+ Disk Name 
+
+ xdm.disk.name 
+
+ TEXT 
+
+ Disk Partition Id 
+
+ xdm.disk.partition.id 
+
+ TEXT 
+
+ Disk Partition Id Type 
+
+ xdm.disk.partition.id_type 
+
+ ENUM 
+
+ DNS (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Dns Dns Question Name 
+
+ xdm.dns.dns_question.name 
+
+ TEXT 
+
+ TLS (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Tls Cipher 
+
+ xdm.tls.cipher 
+
+ TEXT 
+
+ Tls Protocol Version 
+
+ xdm.tls.protocol_version 
+
+ TEXT 
+
+ Malware (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Malware Layer Id 
+
+ xdm.malware.layer_id 
+
+ TEXT 
+
+ Malware Verdict 
+
+ xdm.malware.verdict 
+
+ ENUM 
+
+ Malware Virus Total Link 
+
+ xdm.malware.virus_total_link 
+
+ TEXT 
+
+ Software package (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Software Package Dependency Type 
+
+ xdm.software_package.dependency_type 
+
+ ENUM 
+
+ Software Package Installation Type 
+
+ xdm.software_package.installation_type 
+
+ ENUM 
+
+ Software Package Language 
+
+ xdm.software_package.language 
+
+ ENUM 
+
+ Software Package Layer Id 
+
+ xdm.software_package.layer_id 
+
+ TEXT 
+
+ Software Package Package Manager 
+
+ xdm.software_package.package_manager 
+
+ ENUM 
+
+ Software Package Purl 
+
+ xdm.software_package.purl 
+
+ TEXT 
+
+ Software Package Type 
+
+ xdm.software_package.type 
+
+ ENUM 
+
+ Software Package Version 
+
+ xdm.software_package.version 
+
+ TEXT 
+
+ Application (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Application Bundle Id 
+
+ xdm.application.bundle_id 
+
+ TEXT 
+
+ Application protocol (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Application Protocol 
+
+ xdm.application_protocol 
+
+ TEXT 
+
+ Repository (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Repository Name 
+
+ xdm.repository.name 
+
+ TEXT 
+
+ Repository Organization 
+
+ xdm.repository.organization 
+
+ TEXT 
+
+ Organizational unit (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Organizational Unit Creation Time 
+
+ xdm.organizational_unit.creation_time 
+
+ TIMESTAMP 
+
+ Organizational Unit Dn 
+
+ xdm.organizational_unit.dn 
+
+ TEXT 
+
+ Organizational Unit Guid 
+
+ xdm.organizational_unit.guid 
+
+ TEXT 
+
+ Organizational Unit Last Changed 
+
+ xdm.organizational_unit.last_changed 
+
+ TIMESTAMP 
+
+ Security control (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Security Control Effectiveness 
+
+ xdm.security_control.effectiveness 
+
+ ENUM 
+
+ Event (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Event Type 
+
+ xdm.event.type 
+
+ TEXT 
+
+ Cloud security policy (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Cloudsec Policy Ids 
+
+ xdm.cloudsec_policy.ids 
+
+ TEXT 
+
+ Application security (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Appsec Deployed To Runtime 
+
+ xdm.appsec.deployed_to_runtime 
+
+ BOOLEAN 
+
+ Appsec Impact 
+
+ xdm.appsec.impact 
+
+ ENUM 
+
+ Data (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Data Data Pattern 
+
+ xdm.data.data_pattern 
+
+ TEXT 
+
+ Data Data Profile 
+
+ xdm.data.data_profile 
+
+ TEXT 
+
+ Data Information Protection Label 
+
+ xdm.data.information_protection_label 
+
+ JSON 
+
+ Domain (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Domain 
+
+ xdm.domain 
+
+ TEXT 
+
+ Domain Clean Name 
+
+ xdm.domain.clean_name 
+
+ TEXT 
+
+ Domain Clean Trimmed Name 
+
+ xdm.domain.clean_trimmed_name 
+
+ TEXT 
+
+ Domain Dn 
+
+ xdm.domain.dn 
+
+ TEXT 
+
+ Domain Domain Mode 
+
+ xdm.domain.domain_mode 
+
+ ENUM 
+
+ Domain Forest 
+
+ xdm.domain.forest 
+
+ TEXT 
+
+ Domain Infrastructure Master 
+
+ xdm.domain.infrastructure_master 
+
+ TEXT 
+
+ Domain Name 
+
+ xdm.domain.name 
+
+ TEXT 
+
+ Domain Pdc Emulator 
+
+ xdm.domain.pdc_emulator 
+
+ TEXT 
+
+ Domain Rid Master 
+
+ xdm.domain.rid_master 
+
+ TEXT 
+
+ Domain Security Properties Lockout Duration 
+
+ xdm.domain.security_properties.lockout_duration 
+
+ FLOAT 
+
+ Domain Security Properties Lockout Threshold 
+
+ xdm.domain.security_properties.lockout_threshold 
+
+ FLOAT 
+
+ Domain Security Properties Max Password Age 
+
+ xdm.domain.security_properties.max_password_age 
+
+ FLOAT 
+
+ Domain Security Properties Min Password Length 
+
+ xdm.domain.security_properties.min_password_length 
+
+ FLOAT 
+
+ Domain Security Properties Password Complexity Enabled 
+
+ xdm.domain.security_properties.password_complexity_enabled 
+
+ BOOLEAN 
+
+ Domain Sid 
+
+ xdm.domain.sid 
+
+ TEXT 
+
+ OWASP (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Owasp Category 
+
+ xdm.owasp.category 
+
+ TEXT 
+
+ Authentication methods (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Auth Methods 
+
+ xdm.auth_methods 
+
+ TEXT 
+
+ Backlog status (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Backlog Status 
+
+ xdm.backlog_status 
+
+ ENUM 
+
+ Finding sources (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Finding Sources 
+
+ xdm.finding_sources 
+
+ ENUM 
+
+ Remediation owners (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Remediation Owners 
+
+ xdm.remediation_owners 
+
+ TEXT 
+
+ URL (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Url 
+
+ xdm.url 
+
+ TEXT 
+
+ Resolution SLA (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Resolution SLA 
+
+ xdm.resolution_sla 
+
+ JSON 
+
+ Resolution timer (XDM) 
+
+ Display name 
+
+ Field name 
+
+ Data type 
+
+ Resolution Timer 
+
+ xdm.resolution_timer 
+
+ JSON 
+
+ Previous Models 
+
+ Next Logging and Collection Service Management overview 
+
+ Last updated 22 days ago 
+
+ Was this helpful?

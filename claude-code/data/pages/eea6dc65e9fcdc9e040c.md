@@ -1,221 +1,12 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/investigation-and-response/case-concepts/case-scoring
-fetched_at: 2026-08-13T15:16:42Z
+fetched_at: 2026-09-06T09:31:25Z
 source: cortex-platform
 ---
 
 # Case scoring | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
 
-Case scoring | Cortex Documentation Portal 
-
- ⌘ Ctrl k 
-
- Blog Support 
- More 
-
- Home 
-
- Products 
-
- Guides 
-
- Release Notes 
-
- API 
-
- Reference 
-
- AI Assistant 
-
- Good afternoon 
- I'm here to help you with the docs. 
-
- What is this page about? What should I read next? Can you give an example? 
-
- ⌘ Ctrl i 
-
- AI Based on your context 
- Send 
-
- Learn about Cortex XSIAM 
-
- Navigate the Cortex XSIAM docs 
-
- Get started with Cortex XSIAM 
-
- Agentic AI in Cortex XSIAM 
-
- Cortex XSIAM product licenses 
-
- In-product support ticket creation 
-
- Supported web browsers 
-
- Use the interface 
-
- Manage API keys 
-
- Onboard Cortex XSIAM 
-
- How to onboard Cortex XSIAM 
-
- Plan and prepare 
-
- Deployment steps 
-
- Post-deployment 
-
- Configure Cortex XSIAM 
-
- Learn how to configure Cortex XSIAM 
-
- Data management 
-
- Cortex XSIAM Data Sources and Connectors 
-
- Marketplace 
-
- Configure the Cortex Agentic Assistant 
-
- Cortex MCP server 
-
- Automations 
-
- Engines 
-
- Remote repository management 
-
- Customize cases and issues 
-
- XQL query management 
-
- Multi-Tenant 
-
- Managed Services configuration in Cortex 
-
- Protect your endpoints 
-
- Endpoint security 
-
- Endpoint DLP 
-
- Detect, Investigate, and respond to threats 
-
- Monitor dashboards and reports 
-
- Investigation and response 
-
- Overview of cases 
-
- Case concepts 
-
- Issues, findings, and events 
-
- Case grouping 
-
- Case scoring 
-
- Case starring 
-
- SLAs and tracking 
-
- What is Causality? 
-
- Analyze and resolve cases 
-
- Investigate issues 
-
- Review findings 
-
- Investigate artifacts and assets 
-
- Investigate endpoints 
-
- Investigate files 
-
- Cortex Assistant 
-
- Response actions 
-
- Forensics 
-
- Notebooks 
-
- Build XQL queries 
-
- Research a known threat 
-
- Agentic Assistant chat 
-
- Asset management 
-
- Threat management 
-
- Attack surface management 
-
- Vulnerability management 
-
- Exposure management 
-
- Cortex Advanced Email Security 
-
- Identity Threat Detection and Response (ITDR) 
-
- Cloud Security 
-
- Monitor and track compliance adherence 
-
- Cloud security rules and policies 
-
- Cortex Cloud Data Classification 
-
- Cortex Data Security 
-
- Cloud Identity Security 
-
- Network exposure detection 
-
- Cortex Cloud SaaS Security 
-
- Cortex Cloud AI Security 
-
- Serverless function posture security 
-
- Cortex Cloud Application Security 
-
- Cloud workload policies and rules 
-
- Base image rules 
-
- Web and API Security (WAAS) 
-
- Serverless function runtime security 
-
- Reference and developer docs 
-
- Cortex XSIAM XQL 
-
- Graph Search 
-
- Cortex CLI 
-
- Role-Based Access Control 
-
- API documentation 
-
- Reference 
-
- Migrating to a new Broker VM image 
-
- Learn more about migrating to the latest broker VM image 
-
- Standalone Broker VM 
-
- Broker VM high availability cluster node 
-
- On this page 
-
- For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
 
  Ask 
  On this page 
@@ -232,7 +23,11 @@ Case scoring | Cortex Documentation Portal
 
  Case concepts 
 
+ Cortex XSIAM 
+
  Case scoring 
+
+ Learn how Cortex XSIAM scores cases using rules, SmartScore, and manual input. 
 
  A case score is a numeric value that indicates the urgency of a case. Scoring can help you to streamline the process of prioritizing and investigating your cases, and help you to identify the cases that require immediate attention. 
 
@@ -284,32 +79,10 @@ Case scoring | Cortex Documentation Portal
 
  You can view the assigned score on the Cases page. 
 
- Previous Case grouping Next Case starring 
+ Previous Case grouping 
 
- Last updated 16 days ago 
+ Next Case starring 
 
- Was this helpful? 
-
- ‍ 
-
- Trust Center 
-
- ‍ 
-
- Privacy 
-
- ‍ 
-
- Terms of Use 
-
- ‍ 
-
- Legal 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved. 
-
- Types of scoring 
-
- How Cortex XSIAM assigns the score 
+ Last updated 1 month ago 
 
  Was this helpful?

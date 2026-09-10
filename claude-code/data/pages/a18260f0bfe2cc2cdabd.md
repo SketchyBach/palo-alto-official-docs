@@ -1,0 +1,376 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/onboard-cortex-xsoar/elasticsearch/migration/migrate-objects-to-elasticsearch-for-a-single-server
+fetched_at: 2026-09-06T10:39:48Z
+source: cortex-platform
+---
+
+# Migrate Objects to Elasticsearch for a Single Server | 6.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.14 
+
+ Onboard Cortex XSOAR 
+
+ Elasticsearch 
+
+ Migration 
+
+ Cortex XSOAR 6.14 
+
+ Migrate Objects to Elasticsearch for a Single Server 
+
+ Migrate Cortex XSOAR 6.14 objects and data to Elasticsearch in a single-server deployment. 
+
+ You should migrate Cortex XSOAR objects to Elasticsearch if you plan to ingest a large amount of objects. 
+
+ In the BoltDB, data related to incidents and indicators is stored by month in partitions. To minimize downtime during migration, it is recommended to create a copy of the database and migrate data that is older than three months from the copied database. This enables you to continue to work in your current environment. As soon as the initial migration completes, migrate the remaining months. 
+
+ All commands are run from the Cortex XSOAR server machine. 
+
+ To migrate your data, use the migration tool. You cannot run more than one migration tool process at a time. 
+
+ Note 
+
+ If you are working in an environment with remote repositories, you must run the migration separately on each environment. For example, if both your development and production environments are going to be used with an Elasticsearch database, you must migrate each of those environments, and each environment must use a different index prefix. 
+
+ Always migrate older data before newer data. Migrating partitions out of order can cause duplicate incident IDs. 
+
+ By default, the migration tool skips over objects larger than 100 megabytes. After the migration process runs, you can view the skipped large objects and determine whether to migrate them. For more information, see Validate the Migration to Elasticsearch . 
+
+ Download the migration tool by appending downloadName=elasticsearch_migration_tool_6_x_x to the end of the download link that you received, when installing Cortex XSOAR. Replace X_X with the version number. For example: 
+
+ wget -O elasticMigrate.sh “https://download.demisto.com/download-params?token=X&email=<email-address>&downloadName=elasticsearch_migration_tool_6_10_0&eula=accept&eula=accept” 
+
+ Copy your database and migrate data from the copy database to Elasticsearch. 
+
+ It is recommended to copy your data up to the last 3 months, without any downtime. If you do not want to do this, go to step 3. 
+
+ Copy the Cortex XSOAR database by doing one of the following: 
+
+ Take a snapshot of the database. 
+
+ Manually create a copy of the /var/lib/demisto/data directory. 
+
+ Copy the demisto.conf file. 
+
+ Edit the copy of the demisto.conf file, by adding your Elasticsearch configuration . 
+
+ Ensure that elasticsearch is the top-level object in the demisto.config file (within the main curly brackets). 
+
+ Make the file executable. 
+
+ chmod +x elasticMigrate.sh 
+
+ Using demisto or sudo permissions, run the following command: 
+
+ sudo ./elasticMigrator -config-path`` `` <file path-of-copy-of-demisto.conf> -db-path <path-of-the-copy-of-the-demisto-database> - <flags> 
+
+ For a full list of the flags, see Migration Tool Flags . For example, to exclude the last three partitions from the migration, add the -only-old-partitions and -partitions-back flags. 
+
+ sudo ./elasticMigrator -config-path /usr/local/dev/copy_of_demisto.conf -db-path /usr/local/dev/lib_demisto_copy/data -only-old-partitions -partitions-back 3 
+
+ When you run the migration tool, parameter values specified in the demisto.conf file override values supplied for tool flags and default values. If no value exists in the demisto.conf file, values supplied in the tool flags override default values, but do not write the values to the demisto.config file. 
+
+ Complete steps 1 to 3 in Validate the migration . 
+
+ After the migration of the data is complete and validated, migrate your data from the active database to Elasticsearch. 
+
+ Create a backup copy of the demisto.conf file for your active database. 
+
+ Edit the demisto.conf for your active database to add your Elasticsearch configuration. 
+
+ Stop the Cortex XSOAR server by running one of the following commands: 
+
+ Ubuntu: sudo service demisto stop 
+
+ Using demisto or sudo permissions, run the following command: 
+
+ sudo ./elasticMigrator -config-path`` `` <file path-of-demisto.conf> -db-path <path-of-the-demisto-database> - <flag> 
+
+ If you have any remaining data (such as the last three months' partitions), migrate the remaining months from the active database to Elasticsearch by adding the -partitions-back flag to the elasticMigrator command. 
+
+ For example, sudo ./elasticMigrator -partitions-back 3 migrates the last three partitions, which would include the current month and the previous two months, as well as the main partition. 
+
+ When you run the migration tool, parameter values specified in the demisto.conf file override values supplied for tool flags and default values. If no value exists in the demisto.conf file, values supplied in the tool flags override default values, but do not write the values to the demisto.config file. 
+
+ Validate the migration (all steps). 
+
+ Migration Tool Flags 
+
+ Flag 
+
+ Type 
+
+ Description 
+
+ Required 
+
+ accounts (multi-tenant only) 
+
+ String 
+
+ A comma-separated list of accounts to migrate. If not specified, all accounts are migrated. 
+
+ Optional 
+
+ config-path 
+
+ String 
+
+ The path to the configuration file for the server. Default: /etc/demisto.conf . 
+
+ Optional 
+
+ db-path 
+
+ String 
+
+ The path to the database directory. Default: /var/lib/demisto . 
+
+ Optional 
+
+ elastic-batch-size 
+
+ Integer 
+
+ The number of indicators per batch to write to Elasticsearch indices. Default: 700 . 
+
+ Optional 
+
+ elastic-index-prefix 
+
+ String 
+
+ The index prefix used in Elasticsearch. 
+
+ Optional 
+
+ elastic-key 
+
+ String 
+
+ The API key to connect to Elasticsearch. 
+
+ Required (unless a username and password are used) 
+
+ elastic-password 
+
+ String 
+
+ The password to connect to Elasticsearch. 
+
+ Required (unless API key is used) 
+
+ elastic-url 
+
+ String 
+
+ The URL of your Elasticsearch environment. Default: http://localhost:9200 . 
+
+ Required 
+
+ elastic-username 
+
+ String 
+
+ The username to connect to Elasticsearch. 
+
+ Required (unless API key is used) 
+
+ ignore-ids-path 
+
+ String 
+
+ The path to the file with the IDs to ignore, per object. 
+
+ Optional 
+
+ log-level 
+
+ String 
+
+ The log level to display. Default: info . 
+
+ Optional 
+
+ logfile 
+
+ String 
+
+ The location of the log file. Default: /var/log/demisto/elastic_migration.log 
+
+ Optional 
+
+ log-failed-items 
+
+ Integer 
+
+ Log individual failed items, either in a single meta file, or file per item failure. Values: 
+
+ 0 : Does not log failed items (default). 
+
+ 1 : Logs failed items metadata in a single file. 
+
+ 2 : Logs each failed item in an individual file under the log folder. For more information, see Troubleshoot Elasticsearch 
+
+ Optional 
+
+ migrate-all 
+
+ Boolean 
+
+ By default, the Elasticsearch tool checks existing indices and migrates only the ones that are new. Using this flag, the Elasticsearch tool migrates all indices even if they currently exist. This is useful, for example, if there was an error or invalid data that was fixed. When used, the objects-to-migrate and objects-to-ignore flags are ignored. Values: 
+
+ true (default) 
+
+ false 
+
+ Optional 
+
+ objects-to-ignore 
+
+ String 
+
+ Comma-separated list of objects not to migrate. When the migrate-all flag is used, this flag is ignored. 
+
+ Optional 
+
+ objects-to-migrate 
+
+ String 
+
+ Comma-separated list of objects to migrate. When the migrate-all flag is used, this flag is ignored. 
+
+ Optional 
+
+ partitions 
+
+ String 
+
+ Comma-separated list of partitions to migrate. If no partitions are specified, all partitions are migrated. 
+
+ Optional 
+
+ partitions-to-ignore 
+
+ String 
+
+ Comma-separated list of partitions to exclude. 
+
+ Optional 
+
+ previous-results 
+
+ N/a 
+
+ Show results of the previous migration. 
+
+ Optional 
+
+ skip-existing-indicators 
+
+ Boolean 
+
+ Existing indicators are not modified during the migration. Values: 
+
+ true 
+
+ false (default) 
+
+ Optional 
+
+ object-max-size 
+
+ Integer 
+
+ The maximum size, in megabytes, of objects that will be migrated to Elasticsearch. The default is 100 MB. 
+
+ Optional 
+
+ retry-large-objects 
+
+ Boolean 
+
+ Retry the migration of large objects when rerunning the migration tool. With this flag, the entire bucket that contains the skipped large object is migrated again, which may include data that was previously migrated. If new data has been added in Elasticsearch since the earlier migration, this data will be overwritten. 
+
+ Optional 
+
+ force-main 
+
+ Boolean 
+
+ When the partitions flag is used, the -force-main flag forces the migration of the main partition as well as the specific list of partitions. 
+
+ Note 
+
+ This flag cannot be used in conjunction with the only-old-partitions flag. 
+
+ Optional 
+
+ partitions-back 
+
+ Integer 
+
+ Provides an option to migrate X number of partitions back. For example, migrating three partitions back migrates the current month and the previous two months. If set to 0 or not used, all partitions are migrated. 
+
+ Optional 
+
+ only-old-partitions 
+
+ Boolean 
+
+ Can only be used with the partitions-back flag. Migrates all partitions other than the most recent partitions specified with partitions-back. For example, -partitions-back 3 -only-old-partitions migrates all partitions besides the current month and the two previous months. Should be used within the same calendar month as the previous migration. 
+
+ Note 
+
+ If used, the force-main flag is ignored. 
+
+ strict-mode 
+
+ Boolean 
+
+ Whether errors will result in termination of the migration tool. Default is false . 
+
+ Optional 
+
+ validate 
+
+ Boolean 
+
+ If set to true , after migrating an object, before saving it to elasticsearch, it will compare and return an error if it is not identical. Default is false . 
+
+ Optional 
+
+ version 
+
+ N/a 
+
+ Prints the migration tool version. 
+
+ Optional 
+
+ y 
+
+ N/a 
+
+ Answers yes to all questions, unless there is an error. 
+
+ Optional 
+
+ Previous Elasticsearch Migration Overview 
+
+ Next Migrate Objects to Elasticsearch for Multi-Tenant 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

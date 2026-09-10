@@ -1,0 +1,88 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-api/make-your-first-api-call
+fetched_at: 2026-09-06T10:54:41Z
+source: cortex-platform
+---
+
+# Make your first API call | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex Cloud 
+
+ Cortex Cloud APIs 
+
+ Make your first API call 
+
+ The following examples vary depending on the type of key you select. 
+
+ You can test authentication with Advanced API keys using the provided Python 3 example. With Standard API keys, use either the cURL example or the Python 3 example. Don't forget to replace the example variables with your unique API key, API key ID, and FQDN tenant. After you verify authentication, you can begin making API calls. 
+
+ Ask Copy 
+
+ curl -X POST https://api-{fqdn}/public_api/v1/{name of api}/{name of call}/ 
+ -H "x-xdr-auth-id:{key_id}" 
+ -H "Authorization:{key}" 
+ -H "Content-Type:application/json" 
+ -d '{}' 
+
+ Ask Copy 
+
+ import requests 
+ def test_standard_authentication ( api_key_id , api_key ): 
+ headers = { 
+ " x-xdr-auth-id " : str ( api_key_id ), 
+ " Authorization " : api_key 
+ } 
+ parameters = {} 
+ res = requests . post ( url = " https://api- {fqdn} /public_api/v1/{name of api}/{name of call} " , 
+ headers = headers , 
+ json = parameters ) 
+ return res 
+
+ Ask Copy 
+
+ import requests 
+
+ from datetime import datetime , timezone 
+ import secrets 
+ import string 
+ import hashlib 
+ import requests 
+
+ def test_advanced_authentication ( api_key_id , api_key ): 
+ # Generate a 64 bytes random string 
+ nonce = "" . join ([ secrets . choice ( string . ascii_letters + string . digits ) for _ in range ( 64 )]) 
+ # Get the current timestamp as milliseconds. 
+ timestamp = int ( datetime . now ( timezone . utc ). timestamp ()) * 1000 
+ # Generate the auth key: 
+ auth_key = " %s%s%s " % ( api_key , nonce , timestamp ) 
+ # Convert to bytes object 
+ auth_key = auth_key . encode ( " utf-8 " ) 
+ # Calculate sha256: 
+ api_key_hash = hashlib . sha256 ( auth_key ). hexdigest () 
+ # Generate HTTP call headers 
+ headers = { 
+ " x-xdr-timestamp " : str ( timestamp ), 
+ " x-xdr-nonce " : nonce , 
+ " x-xdr-auth-id " : str ( api_key_id ), 
+ " Authorization " : api_key_hash 
+ } 
+ parameters = {} 
+ res = requests . post ( url = " https://api- {fqdn} /public_api/v1/{name of api}/{name of call} " , 
+ headers = headers , 
+ json = parameters ) 
+ return res 
+
+ Previous Get your FQDN 
+
+ Next Understand Cortex Cloud licenses 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

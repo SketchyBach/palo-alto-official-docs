@@ -1,0 +1,102 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/threat-management/threat-intel-management/indicator-configuration/customize-indicator-fields-and-types/create-an-indicator-type/reputation-commands
+fetched_at: 2026-09-06T09:34:11Z
+source: cortex-platform
+---
+
+# Reputation commands | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSIAM 
+
+ Cortex XSIAM Documentation 
+
+ Detect, Investigate, and respond to threats 
+
+ Threat management 
+
+ Threat Intel Management 
+
+ Indicator configuration 
+
+ Customize indicator fields and types 
+
+ Create an indicator type 
+
+ Cortex XSIAM 
+
+ Reputation commands 
+
+ Configure integration commands that retrieve reputation data for indicators. 
+
+ Reputation commands are built-in or custom commands that use integrations to provide predefined functionalities for obtaining an indicator verdict for specific indicator types. These commands simplify the process of fetching reputation data from external services or threat intelligence feeds without requiring extensive scripting. Reputation commands come with preconfigured parameters and settings for commonly used threat intelligence sources. 
+
+ You can set an indicator type to run reputation commands. The command returns the verdict of the indicator as an entry with entry context and may also return context values that can be mapped to the custom fields of the indicator. 
+
+ Note 
+
+ Running a reputation command directly (such as !ip ) might not apply the result to an indicator, nor does it use the enrichment cache. To ensure an indicator is enriched, and to take advantage of caching, use the enrichIndicators command or the Enrich button in the UI. This runs the appropriate reputation command/script based on the indicator type settings. Note that extracted indicators are enriched in the same way. 
+
+ Out-of-the-box reputation commands 
+
+ You can create a new reputation command, or you can use an out-of-the-box reputation command, for example: 
+
+ ip 
+
+ file 
+
+ url 
+
+ email 
+
+ domain 
+
+ For more details on using out-of-the-box reputation commands or developing new reputation commands, see Generic Reputation Commands . 
+
+ Reputation command input 
+
+ The reputation command uses the indicator value as the input argument. 
+
+ Arguments 
+
+ Description 
+
+ The value of the indicator 
+
+ For example ip , email , url . Inputs are based on different integrations. Basic inputs are common to all reputation commands. For example, the !ip command has the following basic inputs: 
+
+ - name: ip arguments: - name: ip default: true description: List of IPs. isArray: true 
+
+ In this example, the ip script uses ip as the input, with is array unchecked. 
+
+ ip-script-8.png 
+
+ Reputation command output 
+
+ Outputs return a dbotScore . 
+
+ Run a Reputation command in the CLI 
+
+ The following are examples of the syntax for running the ip , domain , and file reputation commands in the CLI. 
+
+ !ip ip=<indicator IP> 
+
+ !domain domain=<indicator domain> 
+
+ !file file=<indicator file hash> 
+
+ !file file=<indicator file hash> using=<a specific integration instance> 
+
+ Previous Reputation scripts 
+
+ Next Map custom indicator fields 
+
+ Last updated 10 days ago 
+
+ Was this helpful?

@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-red-teaming/identify-ai-system-risks-with-ai-red-teaming/get-started-with-prisma-airs-ai-red-teaming/targets/third-party-registration-and-integration
-fetched_at: 2026-08-13T14:06:25Z
+fetched_at: 2026-09-06T11:17:25Z
 source: ai-security
 ---
 
 # Third-party Registration and Integration Clear
 
-Third-party Registration and Integration 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Third-party Registration and Integration 
-
- Updated on 
-
- Fri Jul 24 03:07:12 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma AIRS Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- AI Model Security 
-
- AI Red Teaming 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Fri Jul 24 03:07:12 PDT 2026 
+ Aug 27, 2026 
 
  Focus 
 
@@ -98,7 +46,7 @@ Third-party Registration and Integration
 
  Administration 
 
- AI Model Security 
+ AI Supply Chain Security 
 
  AI Red Teaming 
 
@@ -223,58 +171,4 @@ Third-party Registration and Integration
 
  Next 
 
- Register Application on Microsoft Entra for AI Red Teaming 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- CN-Series 
-
- Firewalls 
-
- VM-Series 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Enterprise DLP 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- AI Red Teaming 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Register Application on Microsoft Entra for AI Red Teaming

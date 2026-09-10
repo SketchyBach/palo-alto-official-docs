@@ -1,62 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-access-security/release-notes/limitations
-fetched_at: 2026-08-13T14:01:57Z
+fetched_at: 2026-09-06T11:16:49Z
 source: ai-security
 ---
 
 # Limitations Clear
 
-Limitations 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Limitations 
-
- Updated on 
-
- Fri May 29 13:54:12 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- AI Access Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Fri May 29 13:54:12 PDT 2026 
 
@@ -180,58 +130,4 @@ Limitations
 
  Previous 
 
- Addressed Issues 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Strata Logging Service 
-
- Identity and Access Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced Threat Prevention 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Release Notes 
-
- AI Access Security 
-
- Cloud-Delivered Security Services 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Addressed Issues

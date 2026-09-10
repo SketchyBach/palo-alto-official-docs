@@ -1,0 +1,66 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cloud-security-rules-and-policies/create-and-manage-cloud-security-policies/use-an-existing-policy-to-create-a-new-one
+fetched_at: 2026-09-06T10:08:02Z
+source: cortex-platform
+---
+
+# Use an existing policy to create a new one | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Cloud Security Rules and Policies 
+
+ Create and manage cloud security policies 
+
+ Cortex Cloud Posture 
+
+ Use an existing policy to create a new one 
+
+ Duplicate Cortex Cloud Posture Management cloud security policies to create tailored policies. 
+
+ You can use an existing custom default cloud security policy to create a new one. To create a new cloud security policy using an existing policy: 
+
+ Navigate to Posture Management → Rules & Policies → Policies → Cloud Security . 
+
+ From the Policies page, there are two ways to access the option: 
+
+ Right-click the entry and then select Save as New. 
+
+ Click on the policy. Next, on the Details page, click the more options icon (⋮) and then select Save as New. 
+
+ Modify the Policy Name, Description, and Labels fields as necessary. 
+
+ Select the Rules that you would like to be alerted on: 
+
+ All Matching Filter Criteria 
+
+ Rules List 
+
+ All Rules 
+
+ Select the Scope that you would like to be alerted on: 
+
+ Cloud Accounts 
+
+ Asset Groups 
+
+ All Cloud Assets 
+
+ Click Done to save the new custom policy. 
+
+ Previous Enable or disable a policy 
+
+ Next Delete a custom cloud security policy 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

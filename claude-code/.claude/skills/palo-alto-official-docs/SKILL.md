@@ -7,10 +7,28 @@ description: Maintain, import, refresh, audit, repair, or inspect the local offi
 
 Preserve all source material and provenance. Never delete corpus data.
 
-- Check integrity with `python scripts/audit.py`.
-- Check coverage with `python scripts/status.py`.
-- Refresh a web source with `python scripts/ingest.py --source <name> --max-pages <n>`.
-- Import a normal KOI export with `python scripts/import_koi.py <directory>`.
-- Import the exact 13-page KOI recovery artifact with `python scripts/import_koi_recovery.py <file>`.
+## Inspect before changing
+
+1. Run `cmd /c pa-docs.cmd status` and `cmd /c pa-docs.cmd freshness`.
+2. Confirm the requested product/source and whether authenticated browser capture is required.
+3. Preserve existing pages, failure receipts, hashes, and timestamps. Updates are additive/upsert operations.
+
+## Maintain the corpus
+
+- Full integrity check: `cmd /c pa-docs.cmd verify`.
+- Refresh one public web source: `cmd /c pa-docs.cmd update --source <name> --max-pages <n>`.
+- Refresh the official multi-source snapshot: `cmd /c pa-docs.cmd refresh-official`.
+- Import a manifest-verified KOI export: `cmd /c pa-docs.cmd import-koi <directory>`.
+- Import an authenticated KOI browser capture: `cmd /c pa-docs.cmd import-koi-browser <capture.jsonl>`.
+- Import only the exact 13-page recovery artifact: `cmd /c pa-docs.cmd recover-koi <file>`.
+- Import Idira browser captures with `python scripts/import_idira_browser.py <capture.jsonl>` after verifying the URL is on `docs.cyberark.com`.
+
+After every import or refresh, rebuild the index, run the integrity audit, check status and freshness, and run focused searches for the changed product. Do not report success until all checks pass.
+
+## Publish safely
+
+Build the public snapshot with `python scripts/build_public_snapshot.py <repository>`. Confirm private field evidence and credentials are excluded. Review `git status` and the exact remote, commit only the intended files, push the current branch, and verify the remote commit. If authentication or network access fails, state explicitly that the update remains local.
 
 Allow only configured official domains. Normal KOI pages require manifest hashes; the 13 recovered pages require exact failed-manifest URL matching and a recovery receipt with bundle and page hashes.
+
+Stop rather than guessing when an official page cannot be verified, a receipt/hash fails, the product scope is ambiguous, or a refresh is incomplete. Confidential field material may guide research but must not be copied into the public repository without official public corroboration.

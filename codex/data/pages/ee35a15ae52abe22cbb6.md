@@ -1,0 +1,32 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xdr-5-api/issues-apis/issues-apis-overview
+fetched_at: 2026-09-06T10:55:23Z
+source: cortex-platform
+---
+
+# Issues APIs overview | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex XDR 
+
+ XDR 5.x APIs 
+
+ Issues APIs 
+
+ Issues APIs overview 
+
+ Issues APIs to retrieve, search, create, and update issues, including their schema, severity, status, exceptions, and resolution metadata. 
+
+ Previous Models 
+
+ Next Issues 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

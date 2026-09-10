@@ -1,0 +1,58 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/generic-on-premise-data-collectors/broker-vm-data-collector-applets/syslog-collector-applet/next-generation-firewall
+fetched_at: 2026-09-06T10:01:02Z
+source: cortex-platform
+---
+
+# Next Generation Firewall | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Cortex Cloud Data Sources and Connectors 
+
+ Generic on-premise data collectors 
+
+ Broker VM data collector applets 
+
+ Syslog Collector applet 
+
+ Next Generation Firewall 
+
+ You can configure collecting Next-Generation Firewall logs and data using an integration configured in Data Sources & Integrations or from Marketplace: 
+
+ Next-Generation Firewall 
+
+ Description 
+
+ Data Source overview 
+
+ You can forward firewall data from your Next-Generation Firewall (NGFW) and Panorama devices to Cortex Cloud. 
+
+ Link to Data Source instructions 
+
+ Ingest data from Next-Generation Firewall 
+
+ Ingest Next-Generation Firewall logs using the Syslog collector 
+
+ Links to content pack/integration details 
+
+ The PAN-OS by Palo Alto Networks content pack manages Palo Alto Networks Firewalls and Panorama via API, allowing users to create, modify, and manage custom security policies, perform configuration commits, manage dynamic lists, perform system upgrades, and query various log types. It contains various playbooks, a classifier (Panorama Classifier) and mapper (Panorama Mapper), issue fields, issue types, and automations/scripts. It also includes the following integration: 
+
+ Palo Alto Networks PAN-OS : Use this integration to manage Palo Alto Networks Firewall and Panorama, including managing Prisma Access through Panorama, creating and managing security policies, and querying logs. This integration includes commands for managing the master key, checking dynamic updates status, downloading and installing various dynamic updates (for example, AntiVirus, WildFire, GlobalProtect Clientless VPN), listing and deleting policy rules (including new types like application-override, authentication, decryption, nat, and pbf), managing addresses and URL categories, retrieving rule hit counts, disabling rules, and performing hygiene checks on various security profiles and configurations. 
+
+ Previous Ingest logs from Fortinet Fortigate firewalls 
+
+ Next Ingest Next-Generation Firewall logs using the Syslog Collector 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

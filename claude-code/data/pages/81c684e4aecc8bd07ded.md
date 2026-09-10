@@ -1,0 +1,64 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-threat-intel-management-guides/6.14/reports/threat-intel-reports/threat-intel-reports-management/create-a-threat-intel-report
+fetched_at: 2026-09-06T10:49:44Z
+source: cortex-platform
+---
+
+# Create a Threat Intel Report | 6.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Threat Intel Management Guides 
+
+ 6.14 
+
+ Reports 
+
+ Threat Intel Reports 
+
+ Threat Intel Reports Management 
+
+ XSOAR 6.14 Threat Intel Management 
+
+ Create a Threat Intel Report 
+
+ Create a threat intelligence report from a type and layout in Cortex XSOAR 6.14. 
+
+ You can create a threat intel report by choosing a type and defining other basic report information. To customize the threat Intel report such as creating new types, layouts, etc., see Threat Intel Reports Customization . 
+
+ Before you create a report, make sure you set up threat intel report types to ensure that your type is defined correctly. The creation process generates a blank report based on the type you choose. Once created, you need to edit the report to populate it with relevant content before you Generate a Threat Intel Report . 
+
+ The core of the report is the Report Body, which is used to enter freeform text. After report creation, you can edit any predefined template text in this section and replace it with your own content. Using the Markdown Editor, you can apply rich formatting options to the body text, including text sizing, coloring, formatting, pictures/icons, and section headers. 
+
+ Go to Threat Intel → Threat Intel Reports 
+
+ Create a New Threat Intel Report from the button at the top right. 
+
+ In the Report Details section, enter a Name and Type , and configure any other relevant fields. 
+
+ In the Permissions section, assign Roles that you want to grant read/write access to the report. 
+
+ Note 
+
+ If you don’t assign any roles to a report, all roles will have read/write access for the report. 
+
+ Create the report. 
+
+ The report is displayed. 
+
+ From the Summary tab, you can edit report fields as needed and add any information pertaining to the specific report. 
+
+ Previous Threat Intel Reports Management 
+
+ Next RBAC for Reports 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

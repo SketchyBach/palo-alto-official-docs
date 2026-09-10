@@ -1,0 +1,166 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/onboard-cortex-xsoar/onboard-and-configure-cortex-xsoar/post-deployment/configure-system-settings
+fetched_at: 2026-09-06T11:21:01Z
+source: cortex-platform
+---
+
+# Configure system settings | 8.5 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.5 (EoL) 
+
+ Onboard Cortex XSOAR 
+
+ Onboard and configure Cortex XSOAR 
+
+ Post deployment 
+
+ Cortex XSOAR 8.5 On-prem EoL 
+
+ Configure system settings 
+
+ Documentation for Cortex XSOAR On-prem 8.5 (EoL). 
+
+ You can configure security settings, such as session expiration, approved domains and IP ranges, and the option to disable inactive users, in the Security Settings page. 
+
+ You can configure server settings, such as a keyboard shortcut for fast navigation, the timezone and the timestamp format, logo, login message, and specific server configurations, from the Server Settings page. You can also import and export custom content. 
+
+ Configure server settings 
+
+ You can create a more personalized user experience by defining your server settings. Go to Settings & Info → Settings → Server Settings . 
+
+ Note 
+
+ By default, the keyboard shortcuts, timezone, and timestamp format options appear on the Preferences table of the User Details page. To instead display these settings in the Server Settings page, add the UI.show.timezone.in.server.settings server config, set to true . Keyboard shortcuts, timezone, and timestamp format are not set universally and only apply to the user who sets them. 
+
+ Server setting 
+
+ Description 
+
+ Keyboard Shortcuts 
+
+ Use a shortcut to search, investigate, and initiate actions. To change the shortcut letter, click the letter in the box, type a letter, and then save. 
+
+ Note 
+
+ The shortcut value must be a keyboard letter (A to Z). 
+
+ Timezone 
+
+ Select the timezone to display your Cortex XSOAR data, which affects the timestamps displayed in Cortex XSOAR, such as auditing logs, and exported files. 
+
+ Timestamp Format 
+
+ The timestamp format is displayed in data tables, auditing logs, and exported files. The setting is configured per user and not per tenant. 
+
+ Appearance 
+
+ By default, the full-size Cortex XSOAR logo displays on the sign-in page, on the navigation bar when expanded, on reports, on the artifact viewer, and on communication task forms and emails. A minimized version of the default Cortex XSOAR logo displays at the top of the navigation bar when it is collapsed. You can replace the default logos with a custom logo to match your organization's branding in the Cortex XSOAR platform. Supported file formats are PNG, JPEG, SVG, and GIF. You can add the following: 
+
+ Full-size logo: Upload your logo (displayed when the navigation bar is not collapsed). 
+
+ Minimized logo: Upload your logo for the top of the navigation bar when it is collapsed (minimized). 
+
+ Note 
+
+ If you define a full-size logo, but not a minimized logo, no logo will display when the navigation bar is collapsed. 
+
+ Telemetry Collection 
+
+ Cortex XSOAR uses telemetry to collect specific usage data, which is analyzed and used to improve Cortex XSOAR and to identify common usage to help drive the product roadmap. 
+
+ You can select the following: 
+
+ All : Includes data that helps improve operational efficiency, optimizes resource allocation, enhances the overall user experience of Cortex XSOAR, and data relevant for debugging. For more information, see Telemetry in Cortex XSOAR . 
+
+ System diagnostics only : Captures data relevant to debug issues only. Cortex XSOAR sends error logs stack traces and infrastructure metrics that could help debug technical issues, CPU, memory, etc. 
+
+ None : No telemetry is transmitted, apart from essential information according to your license, such as usage. 
+
+ Note 
+
+ Only users with Role → Components → Administration → View/Edit permission can change the telemetry scope, such as Administrators. 
+
+ Custom Content 
+
+ You can do the following: 
+
+ Export all custom content: Exports custom content, such as playbooks and scripts as a content bundle, which you can import for use in another Cortex XSOAR tenant. 
+
+ Upload custom content: Imports custom content created from a Cortex XSOAR tenant. 
+
+ Login Message 
+
+ You can display a custom message to users before every login to Cortex XSOAR. For example, you can add a message that includes terms and conditions specific to your organization to help adhere to the National Institute of Standards and Technology (NIST) security standards and reduce cybersecurity risk. The message is by default disabled. 
+
+ Note 
+
+ You must have administration rights to access this feature. The message supports markdown. 
+
+ Server Configuration 
+
+ Customize your Cortex XSOAR environment on the tenant level. You can also use custom server configurations where you experience issues or need to troubleshoot situations in your environment. For a list of server configurations, see Server configurations . 
+
+ Configure security settings 
+
+ You can configure security settings such as how long users can be logged into Cortex XSOAR, and from which domains and IP ranges users can log in. 
+
+ Go to Settings & Info → Settings → System → Security Settings . 
+
+ Settings 
+
+ Options 
+
+ Description 
+
+ Session Expiration 
+
+ User Login Expiration 
+
+ The number of hours (between 1 and 24) after which the user login session expires. You can also choose to automatically log users out after a specified period of inactivity. 
+
+ Dashboard Expiration 
+
+ Whether the Dashboard page expires at the same time as the user login session or after seven days. This is useful when you view a dashboard on a separate screen. 
+
+ For example, if you select seven days for dashboards and eight hours for login expiration and you are currently viewing the Dashboard page, the dashboard expiration takes priority (seven days). This ensures that the Dashboard page continues to display the widgets for an extended period. 
+
+ Allowed Sessions 
+
+ Approved Domains 
+
+ The domains from which you want to allow user access (login) to Cortex XSOAR. You can add or remove domains as necessary. 
+
+ Approved IP Ranges 
+
+ The IP ranges from which you want to allow user access (login) to Cortex XSOAR. You can also choose to limit API access from specific IP addresses. 
+
+ User Expiration 
+
+ Deactivate Inactive User 
+
+ Deactivate an inactive user, and also set the user deactivation trigger period. By default, user expiration is disabled. When enabled, enter the number of days after which inactive users should be deactivated. 
+
+ Allowed Domains 
+
+ Domain Name 
+
+ Enables you to specify one or more domain names that can be used in your distribution list for audit forwarding. 
+
+ Previous User communication 
+
+ Next Cortex XSOAR Installation 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

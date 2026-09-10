@@ -1,0 +1,44 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/vunerability-management
+fetched_at: 2026-09-06T11:18:23Z
+source: cortex-platform
+---
+
+# Vulnerability management in Cortex Cloud | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Vunerability Management 
+
+ Cortex Cloud Runtime 
+
+ Vulnerability management in Cortex Cloud 
+
+ Vulnerability management helps you identify, assess, prioritize, and remediate security vulnerabilities across your entire IT infrastructure, including endpoints, code, and cloud. 
+
+ Managing vulnerabilities effectively is crucial to proactively maintaining the security, integrity, and availability of IT infrastructure. Cortex Cloud provides a comprehensive vulnerability management platform, helping you identify, assess, prioritize, and remediate security vulnerabilities across your entire IT infrastructure, including endpoints, code, and cloud. 
+
+ Cortex Cloud leverages advanced detection techniques, real-time threat intelligence, and automated workflows to streamline the vulnerability management process. This allows your security team to focus on the most critical issues, reduce risk exposure, and ensure compliance with industry standards and regulations. 
+
+ Cortex Cloud helps identify and prevent vulnerabilities across the entire application lifecycle, while prioritizing risk for your cloud-native environments. Integrate vulnerability management into any CI process, while continuously monitoring, identifying, and preventing risks to all the hosts and images in your environment. Cortex Cloud combines vulnerability detection with an always up-to-date threat feed and knowledge about your runtime deployments to prioritize risks specifically for your environment. 
+
+ Note 
+
+ Cortex Cloud vulnerability management provides the ability to identify and assess runtime vulnerabilities in every asset across traditional IT and cloud environments. For vulnerabilities detected in your software development lifecycle through application security scans, refer to the Cortex Cloud Application Security documentation. 
+
+ Previous View Agent Tools 
+
+ Next Cortex Cloud vulnerability concepts 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

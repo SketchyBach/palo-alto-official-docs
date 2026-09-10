@@ -1,0 +1,86 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/marketplace/cortex-marketplace
+fetched_at: 2026-09-06T10:10:30Z
+source: cortex-platform
+---
+
+# Cortex Marketplace | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Marketplace 
+
+ Cortex Cloud Posture 
+
+ Cortex Marketplace 
+
+ Search Cortex Cloud Posture Management Marketplace content by use case, integration, or category. 
+
+ Marketplace is a centralized content portal that enables you to download and manage content in Cortex Cloud. Content is organized into content packs created by different contributors, such as Palo Alto Networks, Partners, and MSSPs, to support specific security orchestration use cases. Each content pack can include a variety of components, such as integrations, playbooks, scripts, and correlation rules. 
+
+ You can view and install Marketplace content packs directly from within Cortex Cloud or browse the full catalog at the Cortex Developer Docs for Marketplace (PAN DEV) site. 
+
+ Marketplace and connectors 
+
+ Cortex Cloud is introducing a unified approach to third-party integrations through connectors. This shift changes how some content is discovered and managed within Marketplace, depending on your tenant onboarding date. 
+
+ Important note for new tenants 
+
+ If your Cortex Cloud tenant was onboarded after July 26, 2026, you may notice that some integrations listed on the Cortex Developer Docs for Marketplace (PAN DEV) site do not appear as standalone items in the Cortex Cloud Marketplace catalog. 
+
+ These integrations have been consolidated into uniquely named connectors. Instead of installing a standalone integration, you should add the vendor's connector from the Data Sources & Integrations page to access these capabilities. The connector wizard will guide you through the configuration of these services, which are now managed as sub-capabilities within the connector. 
+
+ Technical documentation reference 
+
+ While the new connector wizards handle all configuration steps, new tenants should still refer to the Cortex Developer Docs for Marketplace (PAN DEV) site for critical technical information not provided in the wizard, such as: 
+
+ Available commands 
+
+ Required incident fields and data schemas 
+
+ Specific sub-capability technical metadata 
+
+ Existing tenants 
+
+ Tenants onboarded prior to July 26, 2026, will continue to see and use standalone Marketplace integrations for services that have not yet been migrated to the connector framework for their account. These can be installed from Marketplace → Content Packs and configured on the Data Sources & Integrations page. 
+
+ More on content packs 
+
+ Cortex Cloud supports free content packs, which are either Cortex Cloud or partner-supported content packs. You can restrict a user role from managing content packs in Marketplace when defining/editing user roles. 
+
+ In Marketplace, you can browse all content packs (including installed content) or view only installed content packs. 
+
+ You can search for content packs by entering text in the search bar and selecting the relevant content pack from the search results. 
+
+ You can sort content packs by latest update, best match, recommended, number of downloads, and filter according to the following criteria: 
+
+ Use cases: Filter according to high-level use cases. 
+
+ Integrations: Filter according to the integration included in the content pack. 
+
+ Categories: Filter according to content pack categories. 
+
+ Published: Filter according to whether published by Cortex Cloud or by Cortex Cloud technology partners. 
+
+ Content Pack Includes: Filter according to the content of the content pack, such as scripts, integrations, playbooks, and actions. 
+
+ Tags: Filter according to tags, such as Issues, Actions, Network, and Security. 
+
+ When clicking a content pack you can view detailed information including content that it installs (such as scripts, playbooks, and integrations), dependencies (what content packs are required or optional) and version history (including whether you want to roll back to earlier versions). 
+
+ Previous Monitor data ingestion health 
+
+ Next Content Pack Support Types 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

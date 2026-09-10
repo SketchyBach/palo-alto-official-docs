@@ -1,0 +1,142 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/data-management/broker-vm/set-up-and-configure-broker-vm/broker-vm-image-installations/set-up-broker-vm-on-google-cloud-platform-gcp
+fetched_at: 2026-09-06T09:59:06Z
+source: cortex-platform
+---
+
+# Set up Broker VM on Google Cloud Platform (GCP) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Data Management 
+
+ Broker VM 
+
+ Set up and configure Broker VM 
+
+ Broker VM image installations 
+
+ Cortex Cloud Runtime 
+
+ Set up Broker VM on Google Cloud Platform (GCP) 
+
+ Deploy Broker VM on Google Cloud Platform using a supported image. 
+
+ Learn more about how to set up your Cortex Cloud Broker VM on Google Cloud Platform. 
+
+ You can deploy the Broker VM on Google Cloud Platform. The Broker VM allows communication with external services through the installation and setup of applets such as the Syslog collector applet. 
+
+ To set up the Broker VM on the Google Cloud Platform, install the VMDK image provided in Cortex Cloud. 
+
+ Prerequisite 
+
+ Download a Cortex Cloud Broker VM VMDK image. For more information, see the virtual machine compatibility requirements in Set up and configure Broker VM . 
+
+ To complete the set up, you must have G Cloud installed and have an authenticated user account. 
+
+ Perform the following procedures in the order listed below. 
+
+ Create a Google Cloud Storage bucket in G Cloud 
+
+ From G Cloud, create a Google Cloud Storage bucket to store the Broker VM image. 
+
+ Create a project in GCP . Enable Google Cloud Storage, for example, brokers-project . Define a default network. 
+
+ Create a bucket , such as broker-vms . 
+
+ Set up the GCP project 
+
+ Open a command prompt and run the following: 
+
+ Ask Copy 
+
+ gcloud config set project < project-i d > 
+
+ Upload the VMDK image to the Google Cloud Storage bucket 
+
+ Upload the VMDK image to the bucket, run the following: 
+
+ Ask Copy 
+
+ gsutil cp < /path/to/broker.vmd k > gs:// < bucket-nam e > 
+
+ Import the GCP image 
+
+ You can import the GCP image using either G Cloud CLI or Google Cloud console. 
+
+ Note 
+
+ The import tool uses Cloud Build API, which must be enabled in your project. For the import to work, Cloud Build service account must have compute.admin and iam.serviceAccountUser roles. When using the Google Cloud console to import the image, you will be prompted to add these permissions automatically. 
+
+ Danger 
+
+ Before importing a GCP image using the gcloud CLI, ensure that you update the Google Cloud components to version 371.0.0 and above using the following command: 
+
+ The following command uses the minimum required parameters. For more information on permissions and available parameters, refer to the Google Cloud SDK . 
+
+ Open a command prompt and run the following: 
+
+ Create a new instance of the image 
+
+ When the Google Compute completes the image creation, create a new instance. 
+
+ In Google Cloud Platform, select Compute Engine → VM instances . 
+
+ Select Create instance . 
+
+ Under Boot disk , choose Custom images . Select the image you created. 
+
+ Configure the instance for your workload: 
+
+ Use e2-standard-2 for Agent Proxy only. 
+
+ Use e2-standard-4 for multiple applets. 
+
+ Allow the 4443 port in your firewall configuration 
+
+ In the Google Cloud menu, select VPC network → Firewall . Select Create firewall rule . 
+
+ Set the rule parameters: 
+
+ Name: Enter a name for the rule. 
+
+ Network: Select the Broker VM network. 
+
+ Direction of traffic: Select Ingress . 
+
+ Targets: Select All instances in the network . 
+
+ Source IPv4 ranges: Enter the allowed client IP range. Use 0.0.0.0/0 to allow all addresses. 
+
+ TCP: Enter 4443 . 
+
+ Select Create . The rule appears under VPC firewall rules . 
+
+ Verify that the firewall rule is assigned to the Broker VM 
+
+ In the Google Cloud menu, select Compute Engine → VM instances . 
+
+ For the Broker VM, select More actions (⋮) → View network details . 
+
+ Under Firewall and routes details , select Firewalls . 
+
+ Verify that the firewall rule appears. 
+
+ You can now connect to the Broker VM web console using the Broker VM IP address. Connect with https over port 4443 using the format https://<ip address>:4443 . 
+
+ Previous Set up Broker VM on Amazon Web Services 
+
+ Next Set up Broker VM on KVM using Ubuntu 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

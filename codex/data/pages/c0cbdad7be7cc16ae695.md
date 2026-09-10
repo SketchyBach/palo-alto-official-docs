@@ -1,0 +1,70 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/investigate-and-respond-to-threats/day-to-day-tasks-in-cortex-xsoar/incident-management/create-an-incident
+fetched_at: 2026-09-06T10:46:03Z
+source: cortex-platform
+---
+
+# Create an Incident | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.13 
+
+ Investigate and Respond to Threats 
+
+ Day to Day Tasks in Cortex XSOAR 
+
+ Incident Management 
+
+ Cortex XSOAR 6.13 
+
+ Create an Incident 
+
+ Create incidents manually, from feeds, or by importing JSON in Cortex XSOAR 6.13. 
+
+ Cortex XSOAR incidents can be created manually, from a JSON file, from the Cortex XSOAR RESTful API, or from an integration feed. 
+
+ Note 
+
+ The import JSON feature enables you to import event data from third-party software and use it to create new incidents in Cortex XSOAR. These incidents can be used to build and troubleshoot playbooks for integrations that have not yet been installed or configured. 
+
+ Create an incident manually. 
+
+ Go to the Incidents page, click New Incident and enter relevant data, including custom fields if needed. 
+
+ Create an incident from a JSON file. 
+
+ Go to Settings → OBJECTS SETUP → Incidents → Classification & Mapping and click the mapper you want to use. 
+
+ From the Get Data drop-down, choose Upload JSON , click on the paper clip icon, and upload the JSON file. 
+
+ Map the fields . 
+
+ From the menu, select Create Incident from JSON . Select the incident type and Create Incident . 
+
+ Note 
+
+ To export an incident to a JSON file, run the !js script="return ${.}" command in the War Room. You can then import the JSON file, for example, in a development environment for mapping and testing. 
+
+ Create an incident via the API. 
+
+ To view the full REST API documentation, select Settings → INTEGRATIONS → API Keys → View Cortex XSOAR API . To create a single incident via the API, use the /incident route. If you create an incident via the API and do not set createInvestigation to true, the incident will be created but an investigation will not be opened and a playbook will not automatically run. To create multiple incidents, use /incident/batch. The minimum information required to create a single incident via the API is the incident name. 
+
+ Fetch Incidents From an Integration Instance . 
+
+ Previous Incident Management 
+
+ Next Create a Search Query for Incidents 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

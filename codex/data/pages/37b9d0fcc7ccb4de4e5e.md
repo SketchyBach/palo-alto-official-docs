@@ -1,0 +1,88 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/9.3/cortex-xdr-agent-for-macos/troubleshooting-resources-for-mac
+fetched_at: 2026-09-06T10:20:10Z
+source: cortex-platform
+---
+
+# Troubleshooting Resources for Mac | 9.3 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR Agent 
+
+ Cortex XDR Agent Documentation 
+
+ 9.3 
+
+ Cortex XDR Agent for MacOS 
+
+ Cortex XDR agent 9.3 
+
+ Troubleshooting Resources for Mac 
+
+ Refer to the following troubleshooting resources for the Cortex XDR agent for Mac. 
+
+ Resource 
+
+ Description 
+
+ Processes 
+
+ Launch Daemons: 
+
+ /Applications/Cortex XDR.app/Contents/MacOS/Cortex XDR 
+
+ /Library/Application Support/PaloAltoNetworks/Traps/bin/pmd 
+
+ /Library/Application Support/PaloAltoNetworks/Traps/bin/authorized 
+
+ Launch Agents: 
+
+ /Library/Application Support/PaloAltoNetworks/Traps/bin/Cortex XDR Agent.app/Contents/MacOS/Cortex XDR Agent 
+
+ System Extensions: 
+
+ com.paloaltonetworks.traps.securityextension 
+
+ com.paloaltonetworks.traps.networkextension 
+
+ Payload: 
+
+ /Library/Application Support/PaloAltoNetworks/Traps/download/content/cortex-xdr-payload 
+
+ Cortex XDR agent installation log 
+
+ Specifies any errors encountered during the installation of agent components. Use this log file when you need to troubleshoot installation issues. On Mac OS endpoints, the system records installation events in the global install log located at /var/log/install.log . 
+
+ Cortex XDR agent console log 
+
+ Indicates information, warnings, and errors related to the agent console. The Console log is located in the following folder on the endpoint: 
+
+ Mac OS X 10.10 and OSX 10.11— /var/log/traps/agent/ 
+
+ macOS 10.12 and later releases—View logs from the Console application in /Library/Logs/PaloAltoNetworks/Cortex XDR/ . 
+
+ Cortex XDR agent service log 
+
+ Indicates information, warnings, and errors related to Cortex XDR. The Service log is located in the following folder on the endpoint: 
+
+ Mac OS X 10.10 and OSX 10.11— /var/log/traps/ 
+
+ macOS 10.12 and later releases—View logs from the Console application in /Library/Logs/PaloAltoNetworks/Cortex XDR/ . 
+
+ Supervisor Command Line Tool (cytool) 
+
+ Allows you to manage agent features and perform advanced troubleshooting on the local endpoint from a command line interface. For more information, see Cytool for Mac . 
+
+ Previous Manage the Agent Deployment Notifications for Mac 
+
+ Next Cytool for Mac 
+
+ Last updated 2 days ago 
+
+ Was this helpful?

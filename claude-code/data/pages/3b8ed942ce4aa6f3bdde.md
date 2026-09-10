@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/api-intercept-create-configure-security-profile/ai-agent-security-low-no-code
-fetched_at: 2026-08-13T14:04:34Z
+fetched_at: 2026-09-06T11:17:11Z
 source: ai-security
 ---
 
 # AI Agent Security for Low-Code/No-Code Platforms Clear
 
-AI Agent Security for Low-Code/No-Code Platforms 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- AI Agent Security for Low-Code/No-Code Platforms 
-
- Updated on 
-
- Aug 10, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma AIRS Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- AI Model Security 
-
- AI Red Teaming 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Aug 10, 2026 
+ Mon Aug 24 04:41:52 PDT 2026 
 
  Focus 
 
@@ -94,7 +42,7 @@ AI Agent Security for Low-Code/No-Code Platforms
 
  Administration 
 
- AI Model Security 
+ AI Supply Chain Security 
 
  AI Red Teaming 
 
@@ -104,7 +52,7 @@ AI Agent Security for Low-Code/No-Code Platforms
 
  Previous 
 
- Manage Applications, API Keys, Security Profiles, and Custom Topics 
+ Managing Customer Encryption Keys 
 
  Next 
 
@@ -176,64 +124,8 @@ AI Agent Security for Low-Code/No-Code Platforms
 
  Previous 
 
- Manage Applications, API Keys, Security Profiles, and Custom Topics 
+ Managing Customer Encryption Keys 
 
  Next 
 
- Monitor: Threat Logs and AI Security Logs 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- CN-Series 
-
- Firewalls 
-
- VM-Series 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Enterprise DLP 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Administration 
-
- Prisma AIRS 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Monitor: Threat Logs and AI Security Logs

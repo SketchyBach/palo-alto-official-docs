@@ -15,7 +15,7 @@ Use the local corpus only. Never use model memory to fill a documentation gap.
 4. Check `current_eligible`, source, content date, and URL. Apply `references/trust.md`.
 5. If no exact verified result exists, say what is not documented. Do not broaden with `--any` unless discovering alternate terminology; never cite a merely related result as proof.
 
-This share package contains official documentation only. Do not use `--include-field` or infer a workaround from support correspondence that is not present in the corpus.
+For KOI debugging questions, repeat the focused search with `--include-field`. Use field correspondence only to suggest environment-specific checks or known workarounds. Label Maxim's statements as `Palo Alto presales/support-derived guidance`; label Or/Sergey content as customer observation or question. Official documentation remains the authority for product capabilities and supported configuration.
 
 ## Respond
 

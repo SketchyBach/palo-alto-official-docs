@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/detect-and-alert-on-malicious-traffic/detect-and-prevent-ai-network-security-threats
-fetched_at: 2026-08-13T14:03:52Z
+fetched_at: 2026-09-06T11:17:06Z
 source: ai-security
 ---
 
 # Explore OWASP Coverage in Prisma AIRS AI Runtime: Network Intercept Clear
 
-Explore OWASP Coverage in Prisma AIRS AI Runtime: Network Intercept 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Explore OWASP Coverage in Prisma AIRS AI Runtime: Network Intercept 
-
- Updated on 
-
- Mon Aug 10 05:08:54 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma AIRS Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- AI Model Security 
-
- AI Red Teaming 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Mon Aug 10 05:08:54 PDT 2026 
+ Mon Aug 24 04:41:52 PDT 2026 
 
  Focus 
 
@@ -94,7 +42,7 @@ Explore OWASP Coverage in Prisma AIRS AI Runtime: Network Intercept
 
  Administration 
 
- AI Model Security 
+ AI Supply Chain Security 
 
  AI Red Teaming 
 
@@ -192,60 +140,4 @@ Use the Prisma AIRS : Network intercept to detect
 
  Next 
 
- Use Case: Inspect Traffic between User and AI Medical Assistant 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- CN-Series 
-
- Firewalls 
-
- VM-Series 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Enterprise DLP 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Administration 
-
- Prisma AIRS 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Use Case: Inspect Traffic between User and AI Medical Assistant

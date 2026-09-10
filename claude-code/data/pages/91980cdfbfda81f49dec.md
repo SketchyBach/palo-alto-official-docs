@@ -1,0 +1,76 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.9/configure-cortex-xsoar/engines/install-an-engine/docker/install-docker/change-the-docker-installation-folder
+fetched_at: 2026-09-06T10:37:29Z
+source: cortex-platform
+---
+
+# Change the Docker installation folder | 8.9 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.9 (EoL) 
+
+ Configure Cortex XSOAR 
+
+ Engines 
+
+ Install an engine 
+
+ Docker 
+
+ Install Docker 
+
+ Cortex XSOAR 8.9 On-prem EoL 
+
+ Change the Docker installation folder 
+
+ Change the Docker folder in Cortex XSOAR 8.9 On-prem. 
+
+ The /var/lib/docker/ folder is the default Docker folder for Ubuntu, Fedora, and Deblan in a standard engine installation, used to store container images and logs. 
+
+ To change the Docker folder: 
+
+ Stop the Docker daemon. 
+
+ sudo service docker stop 
+
+ Create a file called daemon.json under the /etc/docker directory with the following content: 
+
+ Ask Copy 
+
+ { 
+ "data-root": "<path to your Docker folder>" 
+ } 
+
+ Copy the current data directory to the new one. 
+
+ sudo rsync -aP /var/lib/docker/ <path to your Docker folder> 
+
+ Rename the old docker directory. 
+
+ sudo mv /var/lib/docker /var/lib/docker.bkp 
+
+ After confirming that the change was successful, you can remove the backup file. 
+
+ sudo rm -rf /var/lib/docker.bkp 
+
+ Start the Docker daemon. 
+
+ sudo service docker start 
+
+ Previous Configure Docker pull rate limit 
+
+ Next Configure Docker integrations to trust custom certificates 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

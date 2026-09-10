@@ -1,0 +1,108 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/onboard-cortex-xsoar/users-and-roles/authenticate-users-with-saml-2.0/set-up-adfs-as-the-identity-provider-using-saml-2.0/create-relying-party-trust-in-adfs
+fetched_at: 2026-09-06T10:44:13Z
+source: cortex-platform
+---
+
+# Create Relying Party Trust in ADFS | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.13 
+
+ Onboard Cortex XSOAR 
+
+ Users and Roles 
+
+ Authenticate Users with SAML 2.0 
+
+ Set up ADFS as the Identity Provider Using SAML 2.0 
+
+ Cortex XSOAR 6.13 
+
+ Create Relying Party Trust in ADFS 
+
+ Create a relying party trust in ADFS for Cortex XSOAR 6.13. 
+
+ In ADFS you need to create a Relying Party Trust. The following procedure uses ADFS 3.0 on Windows Server 2016 and shows demistodev.local as the ADFS portal service which will allow a trust connection from the https://demo.demisto.com web server. 
+
+ You must have a valid and trusted server certificate for ADFS to work, not the self-signed certificates that come with Cortex XSOAR. If you do not use a trusted server certificate for ADFS, you will experience TLS connection issues with ADFS and the integration will not work properly. 
+
+ Log in to the ADFS server management console. 
+
+ In the tree in the left panel, right-click Service and select Edit Federation Service Properties . 
+
+ adfs-edit-federation-option.png 
+
+ Click the General tab and confirm that the DNS entries and certificates names are correct. 
+
+ adfs-federation-props.png 
+
+ In the tree in the left panel, right-click Relying Party Trusts and select Add Relying Party Trusts . 
+
+ adfs-add-relying-party-trust.png 
+
+ The Add Relying Party Trust Wizard screen appears. Click Start . 
+
+ adfs-trust-wizard.png 
+
+ In the Select Data Source page, select Enter data about the relying party manually . 
+
+ adfs-wizard-enter-data.png 
+
+ Click Next . 
+
+ In the Specify Display Name page, type a display name for the trust in the Display name field. In this example, the name of the trust is Demisto. 
+
+ adfs-display-name.png 
+
+ Click Next . 
+
+ (Optional) In the Configure Certificate page, you can configure the claims encryption. 
+
+ Click Next . 
+
+ In the Configure URL page, select Enable support for the SAML 2.0 Web SSO protocol , and enter the Cortex XSOAR server URL followed by /SAML. 
+
+ adfs-configure-url.png 
+
+ Click Next . 
+
+ In the Configure Identifiers page, add the Relying party trust identifier. The identifier can be a friendly name, the same as the Display name, or the application URL. This identifier is used to redirect the user back to the Cortex XSOAR web server instead of asking the user to manually choose which service should log in to the ADFS IDP portal. 
+
+ adfs-configure-identifiers.png 
+
+ Click Next . 
+
+ In the Choose Access Control Policy page, select an access control policy for the authentication portal. In this example, we choose . 
+
+ adfs-access-control-policy.png 
+
+ Click Next . 
+
+ In the Ready to Add Trust page, verify that all the setting are correct. 
+
+ adfs-ready-to-add.png 
+
+ Click Next and then click Close . 
+
+ adfs-finish.png 
+
+ Define the Claim Issuance Policy . 
+
+ Previous Set up ADFS as the Identity Provider Using SAML 2.0 
+
+ Next Define the Claim Issuance Policy 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

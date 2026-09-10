@@ -1,0 +1,190 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/administration-and-troubleshooting/about-health-issues
+fetched_at: 2026-09-06T10:02:06Z
+source: cortex-platform
+---
+
+# About health issues | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Cortex Cloud Data Sources and Connectors 
+
+ Administration and troubleshooting 
+
+ About health issues 
+
+ For Cortex Cloud to monitor data ingestion health and create health issues, you must enable the following settings under Configurations: 
+
+ Cortex - Analytics: Go to Configurations → Cortex - Analytics. For more information, see Enable the Analytics Engine and Identity Analytics . 
+
+ Cortex Cloud provides health issues to help you monitor the health and integrity of supported Cortex Cloud resources. Health issues provide insights into health drifts, such as failure events or status changes. The issues help you stay on top of your health related errors and ensure optimal performance in Cortex Cloud. In addition, you can set up notifications on health issues. 
+
+ Health issues are associated with the Health Domain. When setting up notification forwarding or other configurations for health issues, use the filter Issue Domain = Health. 
+
+ To view health issues, go to Settings → Health Issues, or on the Issues page select the Health Domain table view. Click an issue to see more details in the issue card, or right-click to take actions and investigate an issue. For more information, see Investigate and resolve health issues . 
+
+ The Health Issues page displays issues that were triggered after July 2024. To see health issues that were triggered before this date, click Legacy Health Issues. 
+
+ Types of health issues 
+
+ Cortex Cloud provides the following types of OOTB health issues: 
+
+ Ingestion issues : Triggered by interruptions in data ingestion, or deviation from the calculated ingestion baseline 
+
+ Collection issues : Triggered by connectivity errors in your collection integrations, custom collectors, and Marketplace integrations 
+
+ Correlation issues : Triggered by correlation rules that complete with an error status 
+
+ Automation issues : Triggered by system monitoring of metrics and thresholds for potential automation misconfigurations that can cause performance issues. Automation issues are processed daily to provide an aggregated status of multiple threshold crossings. 
+
+ Cortex Cloud enforces the dedup logic to health issues. This logic reduces the likelihood of identical health issues from flooding the issues dataset. 
+
+ Query health issue data 
+
+ Health issues are associated with the Health domain. To query health issue data, use the following XQL: 
+
+ Ask Copy 
+
+ dataset = alerts | filter alert_domain = "DOMAIN_HEALTH" 
+
+ Health issue field descriptions 
+
+ The following table describes the health issue fields. 
+
+ Field 
+
+ Description 
+
+ Issue ID 
+
+ A unique identifier that Cortex Cloud assigns to each issue. 
+
+ Issue Name 
+
+ Name of the issue. 
+
+ Issue Type 
+
+ Type of health issue. 
+
+ Issue Source 
+
+ Source of the issue. 
+
+ Broker VM ID 
+
+ ID of the Broker VM. 
+
+ Broker VM Name 
+
+ Host name of the Broker VM. 
+
+ Broker VM IP 
+
+ IP address of the Broker VM. 
+
+ Collector Name 
+
+ Name of the collector instance. 
+
+ Collector Type 
+
+ Type of the collector. 
+
+ Description 
+
+ Text summary of the event including the issue source, issue name, and severity. 
+
+ Device ID 
+
+ Firewall device ID. 
+
+ Excluded 
+
+ Whether the issue is excluded. 
+
+ External ID 
+
+ Issue ID as recorded in the detector from which this issue was sent. 
+
+ Final Reporting Device IP 
+
+ IP of the device from which the log was extracted. 
+
+ Final Reporting Device Name 
+
+ Hostname of the device from which the log was extracted. 
+
+ Ingestion Failure Duration 
+
+ Amount of time that logs were not received or a drop in log ingestion was detected in minutes. 
+
+ Observation Time 
+
+ Time that the issue was observed in the system. 
+
+ Playbook 
+
+ Playbook that was run. 
+
+ Playbook run status 
+
+ Status of the playbook. 
+
+ Product 
+
+ Product name of the observing data source. 
+
+ Resolution Status 
+
+ Status that was assigned to this issue when it was triggered (or modified). Right-click an issue to change the status. If you set the status to Resolved, select a resolution reason. 
+
+ Reporting Device Name 
+
+ Host name of the device where the log originated. 
+
+ Reporting Device IP 
+
+ IP Address of the device where the log originated. 
+
+ Severity 
+
+ Severity level that was assigned to this issue when it was triggered (or modified). 
+
+ Starred 
+
+ Whether the issue is starred by starring configuration. 
+
+ Vendor 
+
+ Vendor of the observing data source. 
+
+ XDR Collector ID 
+
+ ID of the XDR Collector. 
+
+ XDR Collector IP 
+
+ IP address of the XDR Collector. 
+
+ XDR Collector Name 
+
+ Host name of the XDR Collector. 
+
+ Previous Measuring data freshness 
+
+ Next Investigate and resolve health issues 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,130 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/back-up-and-restore-cortex-xsoar/set-up-access-to-an-external-storage
+fetched_at: 2026-09-06T10:24:11Z
+source: cortex-platform
+---
+
+# Set up access to an external storage |  8.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.14 
+
+ Back up and Restore Cortex XSOAR 
+
+ Cortex XSOAR 8.14 On-prem 
+
+ Set up access to an external storage 
+
+ Configure Cortex XSOAR 8.14 On-prem access to external storage for backups and restores. 
+
+ Cortex XSOAR supports the following external storages: 
+
+ AWS S3 buckets. 
+
+ S3 compatible buckets, such as MinIO 
+
+ NFS 
+
+ How to set up access to external storage from Cortex XSOAR 
+
+ Configure the following for the relevant storage type. 
+
+ Storage Type 
+
+ Prerequisites 
+
+ AWS S3 
+
+ An S3 named bucket ready for use with read and write permissions, with known access and a secret key. 
+
+ Example: AWS S3 configuration example 
+
+ S3-Compatible 
+
+ An S3-compatible bucket (such as MinIO) ready for use with read and write permissions, and an (http or https) URL. 
+
+ Note 
+
+ Custom CA certificates (such as self-signed certificates) are automatically propagated by the installer. For more information, see Manage custom certificates . 
+
+ NFS 
+
+ An installed NFSv4.1 server (with a static IP address). 
+
+ A dedicated disk on the NFS server with the minimum disk space required to store backups. For more information, see Hardware requirements . 
+
+ Access to the NFS server from the Cortex XSOAR cluster via ports 2049 and 111. 
+
+ Authentication for the NFS server: 
+
+ Authentication methods vary depending on the customer, and password authentication is currently not supported. The officially supported set of permissions under the /etc/exports file on the NFS server includes allowing an IP address to access a specific path with specified permissions as follows: 
+
+ /path/to/nfsshare <CIDR format IP>(rw,sync,no_root_squash,no_subtree_check) 
+
+ The set of NFS options and user permissions should allow any client user to connect to the NFS mount point. It is possible to use user mapping as long as it allows read-write permissions to any user from the client. Execution is recommended to be disallowed. Chroot is recommended and supported. 
+
+ A dedicated partition or disk for the NFS mount point. 
+
+ The mount point should be on a dedicated partition or disk in order to separate any critical file system from the NFS operation. It is also recommended to use only one mount point per partition or disk. 
+
+ Navigate to Settings & Info → Settings → System → External Storage . 
+
+ You can create, view, or delete external storages. For each one, you can create and view the connection details, as well as attach a name for future reference. 
+
+ Click New . 
+
+ Define the following for the relevant storage type. 
+
+ Storage Type 
+
+ Storage Details 
+
+ AWS S3 
+
+ Bucket name: the name of the bucket where backups will be stored. 
+
+ Region: The AWS region where the S3 bucket is located. 
+
+ Access key: The access key associated with the AWS account for authentication. 
+
+ Secret key: The secret key corresponding to the access key for secure access. 
+
+ S3-Compatible 
+
+ Bucket name: the name of the bucket where backups will be stored. 
+
+ URL: the URL of the S3-Compatible storage solution for access. 
+
+ Access key: the access key for authentication to the S3-Compatible storage. 
+
+ Secret key: The secret key associated with the access key for secure access. 
+
+ NFS 
+
+ Address: The IP address or hostname of the NFS server. 
+
+ Path: The path to the NFS server where the backups will be stored. 
+
+ Click Test connection . 
+
+ Click Save . 
+
+ The new external storage is added to the External Storage page. 
+
+ Previous How to back up and restore Cortex XSOAR 
+
+ Next Back up data 
+
+ Last updated 4 hours ago 
+
+ Was this helpful?

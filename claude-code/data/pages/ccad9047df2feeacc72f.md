@@ -1,0 +1,170 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/code-to-cloud/code-to-cloud/references/reference-d-recommended-actions-by-view-and-stage
+fetched_at: 2026-09-06T10:06:54Z
+source: cortex-platform
+---
+
+# Reference D: Recommended actions by view and stage | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ code-to-cloud 
+
+ Code-to Cloud 
+
+ References 
+
+ Cortex Cloud Posture 
+
+ Reference D: Recommended actions by view and stage 
+
+ Review recommended actions by Code-to-Cloud view and lifecycle stage. 
+
+ This appendix lists the recommended-action catalog surfaced by the Coverage dashboard's Insights region, by view and stage. 
+
+ Code-2-Cloud artifact 
+
+ Stage 
+
+ Insight title 
+
+ Action label 
+
+ Action button 
+
+ Code → Build 
+
+ VCS Repositories without traces to build 
+
+ Onboarding suggested 
+
+ Onboard CI/CD instances → Data Sources 
+
+ Build → Deploy 
+
+ VCS Repositories without traces to deploy 
+
+ Onboarding suggested 
+
+ Onboard Container Registries → Data Sources 
+
+ Deploy → Runtime 
+
+ VCS Repositories reaching Deploy and not Runtime 
+
+ Onboarding suggested 
+
+ Onboard Cloud Accounts → Data Sources 
+
+ Code-2-Cloud infrastructure 
+
+ Stage 
+
+ Insight title 
+
+ Action label 
+
+ Action button 
+
+ Code → Runtime 
+
+ IaC resources without YOR tag cannot be traced to runtime 
+
+ Tagging Needed 
+
+ No one-click action — apply YOR via the tagging bot 
+
+ Code → Runtime 
+
+ IaC resources with YOR tag not traced to runtime 
+
+ Onboarding suggested 
+
+ Onboard Cloud Accounts → Data Sources 
+
+ Code → Runtime 
+
+ Cloud assets without YOR tag can be tagged manually 
+
+ Tagging Needed 
+
+ No one-click action — apply YOR manually or via the tagging bot 
+
+ Cloud-2-Code artifact 
+
+ Stage 
+
+ Insight title 
+
+ Action label 
+
+ Action button 
+
+ Runtime → Deploy 
+
+ Runtime Container Images not traced to Deploy 
+
+ Onboarding suggested 
+
+ Onboard Container Registries 
+
+ Deploy → Build 
+
+ Runtime Container Images not traced from Deploy to Build 
+
+ Onboarding suggested 
+
+ Onboard CI/CD instances 
+
+ Runtime → Build 
+
+ Runtime VM Instances not traced to Build 
+
+ Onboarding suggested 
+
+ Onboard CI/CD instances 
+
+ Build → Code 
+
+ Runtime Images/VM Instances traced to pipelines but not to repos 
+
+ Onboarding suggested 
+
+ Onboard VCS Organization/repo 
+
+ Cloud-2-Code infrastructure 
+
+ Stage 
+
+ Insight title 
+
+ Action label 
+
+ Action button 
+
+ Runtime → Code 
+
+ Cloud assets without YOR tag cannot be traced to their IaC resource 
+
+ Tagging Needed 
+
+ No one-click action — apply YOR manually or via the tagging bot 
+
+ Note: Recommended actions in this release follow a naive heuristic — the dashboard cannot guarantee that executing a recommendation will improve coverage, only that the recommendation addresses an observed gap. 
+
+ Previous Reference C: Dashboard filters by view 
+
+ Next Reference E: Code-to-Cloud Coverage public API 
+
+ Last updated 5 days ago 
+
+ Was this helpful?

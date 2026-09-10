@@ -1,0 +1,42 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsiam-api/disable-injection-and-prevention-rules
+fetched_at: 2026-09-06T11:20:16Z
+source: cortex-platform
+---
+
+# Disable Injection and Prevention Rules overview | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex XSIAM 
+
+ XSIAM APIs 
+
+ Disable Injection and Prevention Rules 
+
+ Disable Injection and Prevention Rules overview 
+
+ The Disable Injection and Prevention Rules API lets you add and manage rules in Cortex XDR that define process-level exceptions, bypassing prevention modules and injection. These rules can be applied only to endpoints running Cortex XDR agent version 7.9 or later. 
+
+ This API allows you to: 
+
+ Fetch existing Disable Injection and Prevention rules with filtering and pagination. 
+
+ Add new Disable Injection and Prevention rules to generate a temporary exception to bypass a process from prevention modules and injections. 
+
+ Disable existing rules by their IDs. 
+
+ Required license: In Cortex XSIAM Premium, Cortex XSIAM Enterprise, or Cortex XSIAM NG SIEM, requires the Cortex Cloud Posture Management add-on. 
+
+ Previous Models 
+
+ Next Disable Injection and Prevention Rules Public API 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

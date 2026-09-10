@@ -1,0 +1,70 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/configure-and-deploy-cortex-xdr/configure-the-cortex-agentic-assistant/agents-hub/expand-agent-capabilities-with-mcp-integrations
+fetched_at: 2026-09-06T09:39:17Z
+source: cortex-platform
+---
+
+# Expand agent capabilities with MCP integrations | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Configure Cortex XDR 
+
+ Configure and deploy Cortex XDR 
+
+ Configure the Cortex Agentic Assistant 
+
+ Agentic Assistant Hub 
+
+ Cortex XDR 5.x 
+
+ Expand agent capabilities with MCP integrations 
+
+ Extend agent capabilities with Model Context Protocol integrations. 
+
+ Cortex Agentic Assistant supports native interaction with external environments via the Model Context Protocol (MCP). Agentic Assistant agents can use tools from third-party MCP servers to retrieve data and perform tasks in external systems. For example, an agent can open a Jira issue or check GitHub to see if security scans in a workflow are being bypassed.. 
+
+ The Cortex Agentic Assistant connects to external MCP servers using streamable HTTP and supports both OAuth-based and Authless servers. The MCP server must be accessible via a URL. To communicate with third-party MCP servers, you install the relevant content pack from Marketplace and configure an integration instance. The integration connects to the third-party MCP server to discover available tools and automatically generate agentic actions. 
+
+ For agentic actions to be created from tools on an MCP server, the tools must have input and output descriptions on the MCP server. These descriptions are required for Cortex XDR to understand the tools' capabilities and the correct use cases. 
+
+ MCP integrations 
+
+ To find MCP content packs, go to Settings → Marketplace and under Types filter for MCP . Examples of MCP content packs include Cloudflare MCP , GitHub MCP , and Atlassian Cloud MCP . You can also use the Generic MCP content pack to connect to MCP servers that do not have their own specific content pack. Each MCP integration includes instructions for providing the required parameters, such as the URL and authentication details. 
+
+ You can create multiple integration instances for each MCP integration. For example, you might configure one instance of the GitHubMCP integration to connect to a environment with read tools and another instance to connect to an environment with both read and write tools. In addition, the GenericMCP integration can be used to connect to multiple MCP servers, each with a separate integration instance. 
+
+ When you Test the integration instance, Cortex XDR verifies server connectivity. 
+
+ If you are using OAuth-based authentication, the Test button returns an error containing the command to run in the playground in order to test the connection. 
+
+ All configured MCP integration instances can be viewed in the Settings → Data Sources & Integrations page. You can view each integration instance and verify the status of the connection, Test the connection, enable or disable the integration instance, and view the last discovery timestamp. 
+
+ MCP tool actions 
+
+ The integration instance checks hourly for new or changed tools exposed by the third-party MCP server. The same checks are also performed every time an integration instance is saved. All discovered tools are automatically registered as AI actions, with the type MCP Tool . Actions are created once per MCP integration instance. If you have multiple integration instances for the same MCP server, multiple actions are created for the same tools. The server name, the tool name, and the name of the integration instance are all included in the name of the action. Actions created through tool discovery are system actions. The actions cannot be edited, but you can enable and disable them and also select or clear the checkbox to mark the action as a sensitive action that requires manual approval. By default, all actions registered from MCP servers are marked as sensitive. 
+
+ If an MCP tool is removed from the MCP server, the action will be unavailable due to missing content. If the tool is restored on the MCP server, the action is automatically reenabled. 
+
+ If you have a development and a production tenant, you can push actions created from MCP tools from development to production. 
+
+ Agents and permissions 
+
+ To use MCP tool actions, they must be added to custom agents in the Agentic Assistant Hub . By default, all users with access to the custom agent can use all of the available tools. To restrict access to MCP tools, go to Settings → Configurations → Data Collection → Integration Permissions . You can restrict access for MCP integration instance commands to one or more roles. If you restrict access, only users in the permitted roles can use these actions. 
+
+ Previous Manage knowledge sources (preview) 
+
+ Next Agentic Assistant role-based access control 
+
+ Last updated 11 days ago 
+
+ Was this helpful?

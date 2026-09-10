@@ -1,0 +1,100 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsiam-api/cortex-platform/cortex-cli
+fetched_at: 2026-09-06T10:55:33Z
+source: cortex-platform
+---
+
+# Cortex CLI | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex XSIAM 
+
+ XSIAM APIs 
+
+ Cortex Platform 
+
+ Cortex CLI 
+
+ APIs for managing the Cortex CLI 
+
+ Get the latest version of the Cortex CLI. 
+
+ get https://api-yourfqdn /public_api/v1/cli/releases/version 
+
+ Get the latest version for Cortex CLI. 
+
+ Header parameters 
+
+ Authorization string Required 
+
+ {api_key} 
+
+ x-xdr-auth-id string Required 
+
+ {api_key_id} 
+
+ Responses 
+
+ 200 
+
+ Success 
+
+ application/json 
+
+ version string Required 
+
+ Cortex CLI version 
+
+ Example: v1.2.3 
+
+ 400 
+
+ Bad Request. Invalid Input. 
+
+ 401 
+
+ Unauthorized access. User does not have the required license type to run this API. 
+
+ 403 
+
+ Forbidden access. The provided API Key does not have the required RBAC permissions to run this API. 
+
+ 500 
+
+ Service had unexpected internal error 
+
+ get /public_api/v1/cli/releases/version 
+
+ HTTP 
+
+ Ask Copy 
+
+ GET /public_api/v1/cli/releases/version HTTP/1.1 
+ Host: api-yourfqdn 
+ Authorization: text 
+ x-xdr-auth-id: text 
+ Accept: */* 
+
+ 200 
+
+ Success 
+
+ Ask Copy 
+
+ { 
+ "version": "v1.2.3" 
+ } 
+
+ Previous Correlation Rules 
+
+ Next Dashboards 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

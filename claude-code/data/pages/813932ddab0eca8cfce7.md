@@ -1,0 +1,40 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-migration-guide
+fetched_at: 2026-09-06T10:39:15Z
+source: cortex-platform
+---
+
+# Navigate the Cortex XSOAR 8 Migration docs | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR Migration Guide 
+
+ Learn about Cortex XSOAR Migration 
+
+ Navigate the Cortex XSOAR 8 Migration docs 
+
+ Start here for a visual overview of the main Cortex XSOAR documentation areas. 
+
+ Choose the migration path or reference documentation you need. 
+
+ Cortex XSOAR 8 SaaS Migration 
+
+ How to migrate from Cortex XSOAR 6 On-prem to Cortex XSOAR 8 SaaS 
+
+ Cortex XSOAR 8 SaaS Multi-tenant Migration 
+
+ How to migrate your Multi-Tenant Deployment from Cortex XSOAR 6 to Cortex XSOAR 8 SaaS 
+
+ Next Introduction to Cortex XSOAR 8 migration 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

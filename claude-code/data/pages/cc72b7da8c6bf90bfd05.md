@@ -1,0 +1,50 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/dashboards-and-reports/monitor-dashboards-and-reports/access-and-visibility-for-dashboards-and-reports/sharing-icons
+fetched_at: 2026-09-06T09:57:07Z
+source: cortex-platform
+---
+
+# Sharing icons | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Dashboards and reports 
+
+ Monitor dashboards and reports 
+
+ Access and visibility for dashboards and reports 
+
+ Cortex Cloud Runtime 
+
+ Sharing icons 
+
+ Understand sharing icons and their visibility indicators. 
+
+ Icons in the Source column in the Dashboard Manager and Report Templates pages indicate access levels, dashboard origins, and user sharing states: 
+
+ : 
+
+ A Restricted custom dashboard you created (Owner) that is not currently shared with anyone else. 
+
+ A custom dashboard you created that is currently shared with other users or user groups. 
+
+ : A custom dashboard created by another user that has been shared with you (either individually or through a user group). 
+
+ : A standard system dashboard provided by Palo Alto Networks. These are always Public and can't be deleted, or have their ownership transferred. 
+
+ Previous Access to widgets 
+
+ Next Access and sharing cheat sheet 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

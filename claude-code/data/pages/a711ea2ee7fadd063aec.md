@@ -1,0 +1,84 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.13/configure-multi-tenant/remote-repositories-for-multi-tenant-deployments/troubleshoot-a-remote-repository-configuration/troubleshoot-content-issues
+fetched_at: 2026-09-06T10:50:17Z
+source: cortex-platform
+---
+
+# Troubleshoot Content Issues | 6.13  | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Multi-Tenant Guides 
+
+ 6.13 
+
+ Configure Multi-Tenant 
+
+ Remote Repositories for Multi-Tenant Deployments 
+
+ Troubleshoot a Remote Repository Configuration 
+
+ Multi-Tenant 
+
+ Troubleshoot Content Issues 
+
+ In Cortex XSOAR 6.13, troubleshoot remote repository content and restore backups. 
+
+ The following instructions describe how to troubleshoot issues with your content. 
+
+ Missing Content 
+
+ After enabling the remote repository feature or updating content, some content is missing. To resolve this issue, restore the content backup package that was created when you enabled the feature or updated content. 
+
+ Copy the content package from the server to your local machine using the scp command. 
+
+ The backup is located at /var/lib/demisto/backup/content-backup-* 
+
+ In Cortex XSOAR, navigate to Settings → About → Troubleshooting → Custom content → Import and upload the content package. 
+
+ Missing Content History 
+
+ When using characters that are not UTF-8, the version history is not available. 
+
+ Connect to the environment on which you are experiencing the issue using SSH. 
+
+ Run the following git config --global core.quotepath off command. 
+
+ Repository Connection Error 
+
+ When attempting to commit content to the remote repository, the following error appears: 
+
+ Another git process seems to be running in this repository, e.g.an editor opened by 'git commit'. Please make sure all processesare terminated then try again. If it still fails, a git processmay have crashed in this repository earlier:remove the file manually to continue.) 2020-09-15 15:34:15.9433 error VC: failed to add objects files 'automation-GetMLModelEvaluation.yml, automation-DBotMLFetchData.yml, automation-DBotBuildPhishingClassifier.yml, automation-DBotPreProcessTextData.yml, automation-SanePdfReports.yml, automation-CommonServerPowerShell.yml, automation-GetIndicatorsByQuery.yml, automation-GetIncidentsByQuery.yml, automation-SaneDocReports.yml, automation-DBotSuggestClassifierMapping.yml, automation-DBotTrainTextClassifierV2.yml' to index (source: /home/circleci/.go_workspace/src/github.com/demisto/server/util/versioncontrol/versioncontrol.go:1631)(error: exit status 128fatal: Unable to create '/var/lib/demisto/versionControlRepo/.git/index.lock': File exists. 
+
+ This can occur if the server was stopped during Git execution. 
+
+ Delete the index.lock file located in the /var/lib/demisto/versionControlRepo/.git/ directory to solve the issue. 
+
+ Content Installation Error 
+
+ When installing content from the content repo, a message similar to the following appears: 
+
+ Could not create incidenttype with ID 'Phishing' and name 'Phishing'. Version (oldVersionNumber) is not compatible with environment version (versionNumber) [Content Pack: <contentPackName>] (100018)] 
+
+ Note 
+
+ Before implementing the following solution, ensure that the content item from the error message is not detached. If the item is detached, after you re-attach it, the change will show up in the local changes under items and not packs. 
+
+ In your development environment, upgrade the relevant content pack, or re-install the content pack from Marketplace → Installed content packs → Version history . 
+
+ Push the content pack that was updated as well as the relevant items from the Items tab in local changes in the development environment. 
+
+ In your production environment, pull your content. 
+
+ Previous Troubleshoot Editing and Pushing Content 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

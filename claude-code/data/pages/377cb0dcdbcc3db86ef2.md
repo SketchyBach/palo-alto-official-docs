@@ -1,0 +1,40 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/configure-cortex-xsoar/dashboards-and-reports/reports
+fetched_at: 2026-09-06T10:25:25Z
+source: cortex-platform
+---
+
+# Reports |  8.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.14 
+
+ Configure Cortex XSOAR 
+
+ Dashboards and Reports 
+
+ Cortex XSOAR 8.14 On-prem 
+
+ Reports 
+
+ Create, customize, and schedule reports in Cortex XSOAR 8.14 On-prem. 
+
+ Reports contain statistical data in the form of widgets, which enable you to analyze data from inside or outside Cortex XSOAR in different formats such as graphs, pie charts, or text. 
+
+ After generating a report, it also appears in the Reports tab for future reference. 
+
+ Previous Manage dashboards 
+
+ Next Manage reports 
+
+ Was this helpful?

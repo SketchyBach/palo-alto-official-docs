@@ -1,0 +1,76 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/threat-management/analytics/coverage-of-mitre-attack-tactics
+fetched_at: 2026-09-06T09:33:52Z
+source: cortex-platform
+---
+
+# Coverage of MITRE Attack tactics | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSIAM 
+
+ Cortex XSIAM Documentation 
+
+ Detect, Investigate, and respond to threats 
+
+ Threat management 
+
+ Analytics 
+
+ Cortex XSIAM 
+
+ Coverage of MITRE Attack tactics 
+
+ Review Cortex XSIAM Analytics coverage of MITRE ATT&CK tactics to understand detection visibility. 
+
+ Network attacks follow predictable patterns. If you interfere with any portion of this pattern, you can neutralize the attack. The adversarial behaviors making up these patterns are collected in a universally accessible, continuously updated knowledge base called the MITRE ATT&CK™ knowledge base of tactics . 
+
+ The Analytics Engine can generate an issue for any of the following attack tactics as defined in the MITRE Attack database. 
+
+ Tactic 
+
+ Description 
+
+ Execution 
+
+ After attackers gain a foothold in your network, they can use various techniques to execute malicious code on a local or remote endpoint. 
+
+ Cortex XSIAM detects malware and grayware on your network using a combination of network activity, endpoint data from your Cortex XDR agents, and evaluation of suspicious files using the WildFire cloud service. 
+
+ Persistence 
+
+ To carry out a malicious action, an attacker can try techniques that maintain access in a network or on an endpoint. An attacker can initiate configuration changes—such as a system restart or failure—that require the endpoint to restart a remote access tool or open a back door that allows the attacker to regain access on the endpoint. 
+
+ Discovery 
+
+ When an attacker has access to a part of your network, they use discovery techniques to explore and identify subnets, servers and services that are hosted on those endpoints. They aim to identify vulnerabilities within your network. 
+
+ Cortex XSIAM detects these tactics by looking for indicators in your internal network traffic such as changes in connectivity patterns, including increased rates of connections, failed connections, and port scans. 
+
+ Lateral Movement 
+
+ To expand the footprint inside your network, an attacker uses lateral movement techniques to obtain credentials for additional access to more data in the network. 
+
+ The Analytics Engine detects attacks during this phase by examining administrative operations (such as SSH, RDP, and HTTP), file share access, and user credential usage that is beyond the norm for your network. Cortex XSIAM looks for indicators like increased administrative activity, SMB usage, and remote code execution. 
+
+ Command and Control 
+
+ The command and control tactic allows an attacker to remotely issue commands to an endpoint and receive information from it. The Analytics Engine identifies intruders using this tactic by looking for anomalies in outbound connections, DNS lookups, and endpoint processes with bound ports. Cortex XSIAM detects unexplained changes in the periodicity of connections and failed DNS lookups, changes in random DNS lookups, and other indicators that suggest an attacker has gained initial control of a system. 
+
+ Exfiltration 
+
+ Exfiltration tactics are techniques used to retrieve data from a network, such as valuable enterprise data. Cortex XSIAM identifies this type of attack by examining outbound connections with a focus on the volume of data being transferred. Increases in this volume are an important symptom of data exfiltration. 
+
+ Previous Analytics sensors 
+
+ Next Review MITRE ATT&CK framework coverage 
+
+ Last updated 10 days ago 
+
+ Was this helpful?

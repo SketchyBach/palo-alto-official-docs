@@ -1,0 +1,120 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsiam-data-model-schema/fields/network/tls/server-certificate/subject-details
+fetched_at: 2026-09-06T10:57:14Z
+source: cortex-platform
+---
+
+# xdm.network.tls.server_certificate.subject_details | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Reference 
+
+ Schemas 
+
+ XSIAM Data Model Schema 
+
+ XDM Fields 
+
+ xdm.network 
+
+ xdm.network.tls 
+
+ xdm.network.tls.server_certificate 
+
+ xdm.network.tls.server_certificate.subject_details 
+
+ The server certificate. 
+
+ Datatype 
+
+ Compound.SubjectDetails 
+
+ Dataclass 
+
+ Compound 
+
+ Fields 
+
+ xdm.network.tls.server_certificate.subject_details.org 
+
+ Description 
+
+ The organization for the certificate subject. 
+
+ Datatype 
+
+ String 
+
+ Dataclass 
+
+ Scalar 
+
+ Examples 
+
+ ToysRUs (Canada) Ltd., Palo Alto Networks 
+
+ xdm.network.tls.server_certificate.subject_details.org_unit 
+
+ Description 
+
+ The organizational unit for the certificate subject. 
+
+ Datatype 
+
+ String 
+
+ Dataclass 
+
+ Scalar 
+
+ Examples 
+
+ Toys R Us Canada 
+
+ xdm.network.tls.server_certificate.subject_details.country 
+
+ Description 
+
+ The country code associated with the certificate subject. 
+
+ Datatype 
+
+ String 
+
+ Dataclass 
+
+ Scalar 
+
+ Examples 
+
+ CA, US 
+
+ xdm.network.tls.server_certificate.subject_details.alternative_names 
+
+ Description 
+
+ Additional host names for an SSL certificate. 
+
+ Datatype 
+
+ String 
+
+ Dataclass 
+
+ Array 
+
+ Examples 
+
+ azawzebracon01.centralus.cloudapp.azure.com, *.azawzebracon01.centralus.cloudapp.azure.com 
+
+ Previous xdm.network.tls.server_certificate 
+
+ Next xdm.network.tls.server_certificate.issuer_details 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

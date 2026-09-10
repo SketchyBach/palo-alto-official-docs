@@ -1,0 +1,82 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/investigate-and-respond-to-threats/threat-intel-management/indicator-configuration/indicator-extraction/disable-indicator-extraction-for-scripts-or-integrations
+fetched_at: 2026-09-06T10:23:12Z
+source: cortex-platform
+---
+
+# Disable indicator extraction for scripts or integrations | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 SaaS Documentation 
+
+ Investigate and Respond to Threats 
+
+ Threat Intel Management 
+
+ Indicator configuration 
+
+ Indicator extraction 
+
+ Cortex XSOAR 8 (SaaS) 
+
+ Disable indicator extraction for scripts or integrations 
+
+ Disable indicator extraction in Cortex XSOAR 8 SaaS. 
+
+ This procedure describes how to disable indicator extraction for a specific script or an integration. 
+
+ To disable indicator extraction for a script, add the IgnoreAutoExtract entry with the value of true , when returning an entry. 
+
+ For example: 
+
+ Ask Copy 
+
+ entry = { 
+ 'Type': entryTypes['note'], 
+ 'Contents': { 
+ 'Echo' : demisto.args()['echo'] 
+ }, 
+ 'ContentsFormat': formats['json'], 
+ 'ReadableContentsFormat': formats['markdown'], 
+ 'HumanReadable': hr, 
+ 'IgnoreAutoExtract' : True 
+ } 
+
+ To disable indicator extraction for an integration, add the 'IgnoreAutoExtract' entry with the value of true , when returning an entry. 
+
+ For example in the ServiceNow integration: 
+
+ Ask Copy 
+
+ entry = { 
+ 'Type': entryTypes['note'], 
+ 'Contents': result, 
+ 'ContentsFormat': formats['json'], 
+ 'ReadableContentsFormat': formats['markdown'], 
+ 'HumanReadable': tableToMarkdown('ServiceNow ticket', hr, headers=headers, removeNull=True), 
+ 'EntryContext': { 
+ 'Ticket(val.ID===obj.ID)': context, 
+ 'ServiceNow.Ticket(val.ID===obj.ID)': context 
+ }, 
+ 'IgnoreAutoExtract': True 
+ } 
+ entries.append(entry) 
+ return entries 
+
+ For more information about command results in Python, see Python code conventions for CommandResults . 
+
+ Previous Set the indicator extraction mode for a playbook task 
+
+ Next Troubleshoot indicator extraction 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

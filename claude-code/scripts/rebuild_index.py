@@ -39,6 +39,8 @@ def main():
     CREATE TABLE pages(url TEXT PRIMARY KEY,source TEXT NOT NULL,title TEXT,body TEXT,fetched_at TEXT NOT NULL,checked_at TEXT NOT NULL,modified_hint TEXT,etag TEXT,last_modified TEXT,content_hash TEXT,http_status INTEGER,error TEXT,local_path TEXT,authoritative INTEGER NOT NULL DEFAULT 1);
     CREATE VIRTUAL TABLE pages_fts USING fts5(url UNINDEXED,title,body,source UNINDEXED,tokenize='porter unicode61');
     CREATE TABLE runs(id INTEGER PRIMARY KEY,started_at TEXT,finished_at TEXT,pages_ok INTEGER,pages_failed INTEGER,config_hash TEXT);
+    CREATE TABLE browser_imports(id INTEGER PRIMARY KEY,source TEXT,imported_at TEXT,capture_sha256 TEXT,records INTEGER,invalid INTEGER,receipt_path TEXT);
+    CREATE TABLE url_replacements(stale_url TEXT PRIMARY KEY,replacement_url TEXT NOT NULL,method TEXT NOT NULL,verified_at TEXT NOT NULL,stale_http_status INTEGER,replacement_content_hash TEXT NOT NULL,candidate_count INTEGER NOT NULL);
     """)
     imported = 0
     for path in sorted((ROOT / "data/pages").glob("*.md")):
@@ -79,8 +81,9 @@ def main():
         title = record.get("title") or (title_match.group(1).strip() if title_match else path.stem)
         fetched = record.get("downloaded_at") or manifest.get("generated_at")
         relative = path.relative_to(ROOT).as_posix()
-        connection.execute("INSERT INTO pages VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,1)", (url, "koi-official-export", title, body, fetched, fetched, manifest.get("generated_at", ""), None, None, digest, record.get("http_status") or 200, None, relative))
-        connection.execute("INSERT INTO pages_fts VALUES(?,?,?,?)", (url, title, body, "koi-official-export"))
+        inserted = connection.execute("INSERT OR IGNORE INTO pages VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,1)", (url, "koi-official-export", title, body, fetched, fetched, manifest.get("generated_at", ""), None, None, digest, record.get("http_status") or 200, None, relative)).rowcount
+        if inserted:
+            connection.execute("INSERT INTO pages_fts VALUES(?,?,?,?)", (url, title, body, "koi-official-export"))
         verified_koi += 1
 
     receipt_path = koi / "recovered/recovery-receipt.json"
@@ -100,13 +103,42 @@ def main():
         title_match = re.search(r"(?m)^#\s+(.+?)\s*$", body)
         title = title_match.group(1).strip() if title_match else path.stem
         fetched = manifest.get("generated_at")
-        connection.execute("INSERT INTO pages VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,1)", (url, "koi-official-recovered", title, body, fetched, fetched, "Recovered from verified receipt", None, None, digest, 200, None, record["local_path"],))
-        connection.execute("INSERT INTO pages_fts VALUES(?,?,?,?)", (url, title, body, "koi-official-recovered"))
+        inserted = connection.execute("INSERT OR IGNORE INTO pages VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,1)", (url, "koi-official-recovered", title, body, fetched, fetched, "Recovered from verified receipt", None, None, digest, 200, None, record["local_path"],)).rowcount
+        if inserted:
+            connection.execute("INSERT INTO pages_fts VALUES(?,?,?,?)", (url, title, body, "koi-official-recovered"))
         recovered_koi += 1
 
     expected_failed = sum(record.get("status") != "downloaded" for record in manifest_records.values())
     if recovered_koi != expected_failed:
         raise SystemExit(f"KOI recovery count mismatch: recovered {recovered_koi}, expected {expected_failed}")
+
+    for receipt_path in sorted((ROOT / "data/idira-browser-imports").glob("receipt-*.json")):
+        receipt = json.loads(receipt_path.read_bytes())
+        for record in receipt.get("records", []):
+            found = connection.execute(
+                "SELECT content_hash FROM pages WHERE url=? AND source='idira-docs'", (record["url"],)
+            ).fetchone()
+            if not found or found[0] != record["sha256"]:
+                raise SystemExit(f"Idira receipt mismatch: {record['url']}")
+        connection.execute(
+            "INSERT INTO browser_imports(source,imported_at,capture_sha256,records,invalid,receipt_path) VALUES(?,?,?,?,?,?)",
+            ("idira-docs", receipt["imported_at"], receipt["capture_sha256"], len(receipt.get("records", [])),
+             receipt.get("invalid", 0), receipt_path.relative_to(ROOT).as_posix()),
+        )
+
+    replacement_receipts = sorted((ROOT / "data/url-replacements").glob("replacement-map-*.json"))
+    if replacement_receipts:
+        replacement_receipt = json.loads(replacement_receipts[-1].read_bytes())
+        for record in replacement_receipt.get("records", []):
+            found = connection.execute(
+                "SELECT content_hash FROM pages WHERE url=? AND http_status BETWEEN 200 AND 299", (record["replacement_url"],)
+            ).fetchone()
+            if not found or found[0] != record["replacement_content_hash"]:
+                raise SystemExit(f"Replacement receipt mismatch: {record['replacement_url']}")
+            connection.execute(
+                "INSERT INTO url_replacements VALUES(:stale_url,:replacement_url,:method,:verified_at,:stale_http_status,:replacement_content_hash,:candidate_count)",
+                record,
+            )
     connection.commit()
     connection.execute("INSERT INTO runs(started_at,finished_at,pages_ok,pages_failed,config_hash) VALUES(datetime('now'),datetime('now'),?,0,'rebuilt-from-committed-pages')", (imported,))
     connection.commit()

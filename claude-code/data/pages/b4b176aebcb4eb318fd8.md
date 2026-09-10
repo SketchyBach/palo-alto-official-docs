@@ -1,0 +1,112 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/monitor-dashboards-and-reports/advanced-configuration/create-custom-widgets/create-script-based-widgets
+fetched_at: 2026-09-06T09:43:06Z
+source: cortex-platform
+---
+
+# Create script-based widgets | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Monitor dashboards and reports 
+
+ Advanced configuration 
+
+ Create custom widgets 
+
+ Cortex XDR 5.x 
+
+ Create script-based widgets 
+
+ Create dashboard widgets that run scripts. 
+
+ You can use scripts in custom widgets to create dynamic widgets for more complex calculations and to present data from third-party systems. For examples of creating widgets using scripts, see Script-based widget examples . 
+
+ Before creating a script-based widget in the Widgets Library , you need to create or upload the script to the Scripts page. In the Widgets Library , you can change elements of the visual presentation. Because these widgets can contain unique logic or sensitive data queries, they are now managed as individual items with specific access rules. 
+
+ To create a script-based widget, your user role must allow you to create scripts and build dashboards. These permissions are set by your administrator. For more information, see Manage access to custom dashboards . 
+
+ How to create a script-based widget 
+
+ Create the script : Select Investigation & Response → Automation → Scripts . You can upload an existing script or create a new one. Cortex XSIAM supports JavaScript, Python and PowerShell. You can create a script for one of the following chart types: 
+
+ Pie 
+
+ Column 
+
+ Line 
+
+ Single Value 
+
+ Configure for the Widget Library : In the Script Settings , add the widget tag to the script. This tag ensures the script is recognized as a visualization tool and becomes available in the Widget Library . 
+
+ Create the Custom Script Widget : Select Dashboards & Reports → Widget Library , click Create custom widget , and select Script . 
+
+ Define the widget properties : 
+
+ Name and Description : Give your widget a clear name so you can identify it later in the Widget Library . 
+
+ Script : Select the script you created in step 1 from the list. 
+
+ If you have added arguments to the script, these appear when creating a widget. 
+
+ Set visibility : Use the Public widget toggle to determine how the widget appears in the Widget Library . Leave it unselected (default) to keep the widget Restricted (visible only to you) or select it to make the widget Public (visible to all users with Widget Library access). 
+
+ Preview and save : Run a preview to ensure the script executes correctly and displays the data as intended, then click Save . 
+
+ Configure the display (Chart Editor) : Use the Chart Editor to choose the graph type and the subtype, and to enable or disable the graph legend. 
+
+ Available options are Pie , Column , Line , and Single Value . 
+
+ To display the result of the script as a time duration, choose the graph type Single Value and enable Show as Time . You can then select the Time Unit (millisecond, second, minute, or hour) and the Display format . 
+
+ Add to reports or dashboards : Once saved to the Widget Library , you can add this script-based widget to any custom dashboard or include it when building a report template. 
+
+ Script-based widget examples 
+
+ You can use script-based widgets to perform calculations on and visualize third-party data. 
+
+ Add the widget tag in the script settings to make the script available for use in script-based widgets. For more information, see Create a script . 
+
+ The following are sample Python scripts for the graph types Single Value , Pie , Line , and Column . 
+
+ Single value 
+
+ This example shows how to use a script with an API call to return a single value in a widget. Use this example to build your own script that pulls in third-party data to display a single value. 
+
+ If your script returns a time duration, configure the widget with the graph type Single Value and enable Show as Time .. 
+
+ Example: 
+
+ Pie, Line, or Column Chart 
+
+ Example 1 
+
+ The following example script creates random, mock data to simulate a stock price fluctuating over a short period of time. Use this example to build your own script that brings in third-party data and display trends using a pie, line, or column chart. 
+
+ When used in a widget: 
+
+ Example 2 
+
+ The following example script generates simulated data representing the count of security incidents (or other events) broken down by severity level for each day of the week (Monday to Friday). Use this example to build your own script to create a stacked column chart. Configure the widget with graph type Column subtype Stacked . 
+
+ When used in a widget: 
+
+ Previous Add parameters to a custom XQL widget 
+
+ Next Configure global filters 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

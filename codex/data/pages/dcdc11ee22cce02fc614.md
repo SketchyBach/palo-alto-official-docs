@@ -1,0 +1,346 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/endpoint-security/endpoint-protection/endpoint-protection-modules
+fetched_at: 2026-09-06T09:53:43Z
+source: cortex-platform
+---
+
+# Endpoint protection modules | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Endpoint security 
+
+ Endpoint protection 
+
+ Cortex Cloud Runtime 
+
+ Endpoint protection modules 
+
+ Security modules are activated for your endpoints depending on the chosen security profile and the operating system on the endpoint. 
+
+ Each security profile applies multiple security modules to protect your endpoints from a wide range of attack techniques. While the settings for each security module are not configurable, the Cortex XDR agent activates a specific protection module depending on the type of attack, the configuration of your security policy, and the operating system of the endpoint. 
+
+ When a security event occurs, the Cortex XDR agent logs details about the event including the security module employed by the Cortex XDR agent to detect and prevent the attack based on the technique. To help you understand the nature of the attack, the alert identifies the protection module the Cortex XDR agent employed. 
+
+ The following table lists the modules and the platforms on which they are supported. A dash (—) indicates that the module is not supported. 
+
+ Module 
+
+ Windows 
+
+ Mac 
+
+ Linux 
+
+ Anti-Ransomware 
+
+ Targets encryption-based activity associated with ransomware and have the ability to analyze and halt ransomware activity before any data loss occurs. 
+
+ — 
+
+ APC protection 
+
+ Prevents attacks that change the execution order of a process by redirecting an asynchronous procedure call (APC) to point to the malicious shellcode. 
+
+ — 
+
+ — 
+
+ Behavioral threat 
+
+ Prevents sophisticated attacks that leverage built-in OS executables and common administration utilities by continuously monitoring endpoint activity for malicious causality chains. 
+
+ Brute force protection 
+
+ Prevents attackers from hijacking the process control flow by monitoring memory layout enumeration attempts. 
+
+ — 
+
+ — 
+
+ Child process protection 
+
+ Prevents script-based attacks that are used to deliver malware, such as ransomware, by blocking known targeted processes from launching child processes that are commonly used to bypass traditional security approaches. 
+
+ Container escaping protection 
+
+ Prevents container-escaping attempts 
+
+ — 
+
+ — 
+
+ CPL protection 
+
+ Protects against vulnerabilities related to the display routine for Windows Control Panel Library (CPL) shortcut images, which can be used as a malware infection vector. 
+
+ — 
+
+ — 
+
+ Data Execution Prevention (DEP) 
+
+ Prevents areas of memory defined to contain only data from running executable code. 
+
+ — 
+
+ — 
+
+ DLL hijacking 
+
+ Prevents DLL-hijacking attacks where the attacker attempts to load dynamic-link libraries on Windows operating systems from unsecured locations to gain control of a process. 
+
+ — 
+
+ — 
+
+ DLL security 
+
+ Prevents access to crucial DLL metadata from untrusted code locations. 
+
+ — 
+
+ — 
+
+ Dylib hijacking 
+
+ Prevents Dylib-hijacking attacks where the attacker attempts to load dynamic libraries on Mac operating systems from unsecured locations to gain control of a process. 
+
+ — 
+
+ — 
+
+ Exploit kit fingerprint 
+
+ Protects against the fingerprinting technique used by browser exploit kits to identify information: such as the OS or applications which run on an endpoint—that attackers can leverage when launching an attack to evade protection capabilities. 
+
+ — 
+
+ — 
+
+ Font protection 
+
+ Prevents improper font handling, a common target of exploits. 
+
+ — 
+
+ — 
+
+ Gatekeeper enhancement 
+
+ Enhances the macOS gatekeeper functionality that allows apps to run based on their digital signature. This module provides an additional layer of protection by extending gatekeeper functionality to bundles and child processes so you can enforce the signature level of your choice. 
+
+ — 
+
+ — 
+
+ Hash exception 
+
+ Halts execution of files that an administrator identified as malware regardless of the WildFire verdict. 
+
+ Hot patch protection 
+
+ Prevents the use of system functions to bypass DEP and address space layout randomization (ASLR). 
+
+ — 
+
+ — 
+
+ Java deserialization 
+
+ Blocks attempts to execute malicious code during the Java objects deserialization process on Java-based servers. 
+
+ — 
+
+ JIT 
+
+ Prevents an attacker from bypassing the operating system's memory mitigations using just-in-time (JIT) compilation engines. 
+
+ — 
+
+ Kernel Integrity Monitor (KIM) 
+
+ Prevents rootkit and vulnerability exploitation on Linux endpoints. On the first detection of suspicious rootkit behavior, the behavioral threat protection (BTP) module generates a Cortex XDR Agent alert. Cortex Cloud stitches logs about the process that loaded the kernel module with other logs relating to the kernel module to aid in the alert investigation. When the Cortex XDR agent detects subsequent rootkit behavior, it blocks the activity. 
+
+ — 
+
+ — 
+
+ LDAP query protection 
+
+ Analyzes and acts upon suspicious LDAP queries received by the Domain Controller, to detect and block Active Directory reconnaissance attacks. 
+
+ — 
+
+ — 
+
+ Local analysis 
+
+ Examines hundreds of characteristics of an unknown executable file, DLL, or macro to determine if it is likely to be malware. The local analysis module uses a static set of pattern-matching rules that inspect multiple file features and attributes, and a statistical model that was developed using machine learning on WildFire threat intelligence. 
+
+ Local Threat Evaluation Engine (LTEE) 
+
+ Protects against malicious PHP files arriving from the web server. 
+
+ — 
+
+ — 
+
+ Local privilege escalation protection 
+
+ Prevents attackers from performing malicious activities that require privileges that are higher than those assigned to the attacked or malicious process. 
+
+ Malicious device protection 
+
+ Protects your systems from unauthorized hardware attacks and malicious Human Interface Devices (HIDs) such as malicious USB devices. 
+
+ — 
+
+ — 
+
+ Master Boot Record (MBR) Model 
+
+ Protects against malicious Master Boot Record (MBR) manipulations. 
+
+ — 
+
+ — 
+
+ Network packet inspection engine 
+
+ Analyze network packet data to detect malicious behavior already at the network level. The engine leverages both Palo Alto Networks NGFW content rules, and new Cortex XDR content rules created by the Research Team which are updated through the security content. 
+
+ — 
+
+ Null dereference 
+
+ Prevents malicious code from mapping to address zero in the memory space, making null dereference vulnerabilities unexploitable. 
+
+ — 
+
+ — 
+
+ Restricted execution - local path 
+
+ Prevents unauthorized execution from a local path. 
+
+ — 
+
+ — 
+
+ Restricted execution - network location 
+
+ Prevents unauthorized execution from a network path. 
+
+ — 
+
+ — 
+
+ Restricted execution - removable media 
+
+ Prevents unauthorized execution from removable media. 
+
+ — 
+
+ — 
+
+ Reverse shell protection 
+
+ Blocks malicious activity where an attacker redirects standard input and output streams to network sockets. 
+
+ — 
+
+ — 
+
+ ROP 
+
+ Protects against the use of return-oriented programming (ROP) by protecting APIs used in ROP chains. 
+
+ SEH 
+
+ Prevents hijacking of the structured exception handler (SEH), a commonly exploited control structure that can contain multiple SEH blocks that form a linked list chain, which contains a sequence of function records. 
+
+ — 
+
+ — 
+
+ Shellcode protection 
+
+ Reserves and protects certain areas of memory commonly used to house payloads using heap spray techniques. 
+
+ — 
+
+ — 
+
+ ShellLink 
+
+ Prevents shell-link logical vulnerabilities. 
+
+ — 
+
+ — 
+
+ SO hijacking protection 
+
+ Prevents dynamic loading of libraries from unsecured locations to gain control of a process. 
+
+ — 
+
+ — 
+
+ SysExit 
+
+ Prevents using system calls to bypass other protection capabilities. 
+
+ — 
+
+ — 
+
+ UASLR 
+
+ Improves or altogether implements ASLR (address space layout randomization) with greater entropy, robustness, and strict enforcement. 
+
+ — 
+
+ — 
+
+ UEFI BTP 
+
+ Reinforces the malware protection from pre-boot attacks. 
+
+ — 
+
+ — 
+
+ Vulnerable drivers protection 
+
+ Detect attempts to load vulnerable drivers. 
+
+ — 
+
+ — 
+
+ WildFire 
+
+ Leverages WildFire for threat intelligence to determine whether a file is malware. In the case of unknown files, Cortex XDR can forward samples to WildFire for in-depth analysis. 
+
+ WildFire post-detection (malware and grayware) 
+
+ Identifies a file that was previously allowed to run on an endpoint that is now determined to be malware. Post-detection events provide notifications for each endpoint on which the file is executed. 
+
+ Previous Endpoint protection capabilities 
+
+ Next Processes protected by exploit security policy 
+
+ Last updated 10 days ago 
+
+ Was this helpful?

@@ -1,0 +1,126 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsiam-data-model-schema/fields/intermediate/identity/policy/security-properties
+fetched_at: 2026-09-06T10:56:56Z
+source: cortex-platform
+---
+
+# xdm.intermediate.identity.policy.security_properties | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Reference 
+
+ Schemas 
+
+ XSIAM Data Model Schema 
+
+ XDM Fields 
+
+ xdm.intermediate 
+
+ xdm.intermediate.identity 
+
+ xdm.intermediate.identity.policy 
+
+ xdm.intermediate.identity.policy.security_properties 
+
+ The intermediate identity. 
+
+ Datatype 
+
+ Compound.SecurityProperties 
+
+ Dataclass 
+
+ Compound 
+
+ Fields 
+
+ xdm.intermediate.identity.policy.security_properties.min_password_length 
+
+ Description 
+
+ The minimum password length policy. 
+
+ Datatype 
+
+ Number 
+
+ Dataclass 
+
+ Scalar 
+
+ xdm.intermediate.identity.policy.security_properties.max_password_age 
+
+ Description 
+
+ The maximum age of a password (in days). 
+
+ Datatype 
+
+ Number 
+
+ Dataclass 
+
+ Scalar 
+
+ Unit 
+
+ Days 
+
+ xdm.intermediate.identity.policy.security_properties.password_complexity_enabled 
+
+ Description 
+
+ Whether password complexity is enabled. 
+
+ Datatype 
+
+ Boolean 
+
+ Dataclass 
+
+ Scalar 
+
+ xdm.intermediate.identity.policy.security_properties.lockout_threshold 
+
+ Description 
+
+ The number of failed sign-in attempts before an account is locked out. 
+
+ Datatype 
+
+ Number 
+
+ Dataclass 
+
+ Scalar 
+
+ xdm.intermediate.identity.policy.security_properties.lockout_duration 
+
+ Description 
+
+ The duration for which an account is locked out. 
+
+ Datatype 
+
+ Number 
+
+ Dataclass 
+
+ Scalar 
+
+ Unit 
+
+ Minutes 
+
+ Previous xdm.intermediate.identity.policy 
+
+ Next xdm.intermediate.identity.secret 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

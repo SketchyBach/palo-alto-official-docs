@@ -1,0 +1,126 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/analyze-and-resolve-cases/additional-case-actions/assign-a-case-team-and-restrict-access
+fetched_at: 2026-09-06T10:04:51Z
+source: cortex-platform
+---
+
+# Assign a case team and restrict access | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Cases and issues 
+
+ Analyze and resolve cases 
+
+ Additional case actions 
+
+ Cortex Cloud Posture 
+
+ Assign a case team and restrict access 
+
+ Assign a case team and restrict case access. 
+
+ You can assign individual users and entire user groups to specific roles within a case team. For sensitive or high-risk cases, you can also restrict access to a case so that only assigned case team members can see or take action. 
+
+ For more information about the different team roles, see Overview of case teams and roles . 
+
+ To change the scope and access of a case, you must have the Restrict Case Access permission under Cases & Issues . 
+
+ How to assign a case team and restrict access 
+
+ 1 
+
+ Select the main case assignee 
+
+ Click the assignee icon and select a user. 
+
+ This is the primary owner responsible for managing and resolving the case. 
+
+ 2 
+
+ Define the case team 
+
+ Click Manage case team . 
+
+ Add users or user groups, and select their specific roles (Collaborator or Watcher). 
+
+ 3 
+
+ Restrict case access 
+
+ Under General access , select Team Only . 
+
+ Restricting case access limits visibility exclusively to the main case assignee and any users or user groups assigned to the case team as Collaborator or Watcher . 
+
+ 4 
+
+ Save your changes 
+
+ Alternative methods 
+
+ You can also run this process using these alternative methods: 
+
+ Agentic Assistant: Use natural language prompts in the Agentic Assistant to assign a user or user group to roles in the team, and restrict case access. 
+
+ Playbooks: Create a playbook task that assigns team members and changes the default case scope. For more information, see Playbook examples . 
+
+ API: Run the setCase command with the following arguments: 
+
+ setCase arguments 
+
+ For more detailed information about using these arguments, see setCase . 
+
+ case_team_operation 
+
+ Add, replace, or remove team members 
+
+ case_team_ids 
+
+ Specify users (email) or user groups (UUID) 
+
+ case_team_member_types 
+
+ Define the team member type (Individual user or user group) 
+
+ case_team_roles 
+
+ Set the team member role (contributor or watcher) 
+
+ access_mode 
+
+ Set case visibility: 
+
+ CASE_SCOPE : (default) any user whose scope permits can view the case. 
+
+ TEAM_ONLY : restricts access to team members only. 
+
+ You cannot set a case to TEAM_ONLY if no case team has been assigned. 
+
+ Important considerations 
+
+ Before restricting access or assigning teams, keep the following rules in mind: 
+
+ Permissions required: To change the access settings of a case, you must have the Restrict Case Access permission under Cases & Issues . 
+
+ Team management: When case access is restricted to Team Only , only assigned team members have permission to add new team members to the case. For more information see Overview of case teams and roles . 
+
+ Automatic reversion: If a case has no assigned team members, the scope automatically reverts to Case Scope . 
+
+ Audit trail: Any changes made to the case assignee or the case team are permanently recorded in the Case Timeline . 
+
+ Previous Merge a case 
+
+ Next Playbook examples 
+
+ Last updated 5 days ago 
+
+ Was this helpful?

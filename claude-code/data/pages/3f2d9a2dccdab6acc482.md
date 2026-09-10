@@ -1,0 +1,72 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-installation-guides/6.13/cortex-xsoar-installation-guide/readme/multi-tenant-installation-overview
+fetched_at: 2026-09-06T10:50:34Z
+source: cortex-platform
+---
+
+# Multi-Tenant Installation Overview | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Installation Guides 
+
+ 6.13 
+
+ Cortex XSOAR Installation Guide 
+
+ Overview 
+
+ Installation 
+
+ Multi-Tenant Installation Overview 
+
+ Cortex XSOAR 6.13 multi-tenant installation overview with Bolt, Elasticsearch, and high availability options. 
+
+ Cortex XSOAR multi-tenant deployments are designed for MSSPs (managed security service providers) and enterprises that require strict data segregation, but also need the flexibility to share and manage critical security practices across tenant accounts. 
+
+ Multi-tenancy enables you to manage multiple tenants from a single console. From the main account, you have a bird’s-eye view of all incidents and indicators across all tenants. You can create integrations and scripts for use across multiple tenant accounts, run commands across multiple tenant accounts, and switch easily between tenant environments. 
+
+ Cortex XSOAR provides complete data segregation between customers in a multi-tenant deployment, and no incident data is stored on the main account. Each tenant runs as a separate process, and the data separation meets data privacy standards and compliance requirements. 
+
+ In a multi-tenant deployment, content is either created or modified at the main account level and pushed to tenants or is created within individual tenant accounts. Marketplace content packs are always installed on the main account and pushed to tenant accounts. You can define propagation labels per tenant, which allow you to selectively push content to one or more tenants. With a Threat Intel Management license and Elasticsearch, indicators can be shared across tenant accounts, saving investigation time and making it easy to block bad actors across your MSSP or enterprise. 
+
+ For most large enterprises, we recommend Cortex XSOAR Enterprise with RBAC implementation since this deployment can accomplish the majority of data segregation requirements. In some cases, however, a large enterprise with multiple divisions but with one centralized SOC managing those divisions may want to consider a multi-tenant deployment. We encourage you to consult with Cortex XSOAR product managers and the customer success team to discuss your business use case. 
+
+ Multi-tenancy architecture is based on the platform’s ability to run multiple instances (processes and data) of XSOAR on a single server. Each deployment consists of a main server and tenant accounts. All tenant accounts can reside on the same (main) server or you can choose to run tenants on additional hosts. While tenant incidents can be searched from the main account, no incident data is stored on the main account. Multi-tenant can be deployed with the Bolt database or Elasticsearch (which offers the option of High Availability, using multiple app servers). 
+
+ When using Cortex XSOAR multi-tenancy in an enterprise setting there are several limitations: 
+
+ Data is not easily shared between tenants. For example, collaborating on an incident requires extra steps (such as mirroring between tenants). The exception is indicator data which can be shared if you have a Cortex XSOAR Threat Intel Management license and have a multi-tenant deployment with Elasticsearch. 
+
+ Multi-tenancy architecture is more complex than Cortex XSOAR Enterprise server architecture and requires greater IT and computing resources. Also, server maintenance is more complex, since all accounts on a server may be affected when maintenance is performed on the server. 
+
+ Installation with Bolt Database 
+
+ Out of the box, Cortex XSOAR is installed with the app server and Bolt database on the same machine. When deploying Cortex XSOAR with Bolt database, we recommend a limit of 1 million indicators for the development environment and 5-7 million indicators for the production environment. If you will have more indicators, we recommend using Elasticsearch. 
+
+ mt-overview-boltdb.png 
+
+ To install Cortex XSOAR for a multi-tenant deployment with the Bolt database, review the Multi-Tenant System Requirements and then follow the instructions in Install Multi-Tenant with Bolt Database . 
+
+ Installation with Elasticsearch Database 
+
+ Out of the box, Cortex XSOAR is installed with the app server and Bolt database on the same machine. If you will have more than 1 million indicators for the development environment and 5-7 million indicators for the production environment, we recommend using Elasticsearch. 
+
+ mt-overview-elastic.png 
+
+ To install Cortex XSOAR for a multi-tenant deployment with the Elasticsearch database, review the Multi-Tenant System Requirements and Elasticsearch System Requirements and then follow the instructions in Install Multi-Tenant with Elasticsearch . 
+
+ Previous Single Server Installation Overview 
+
+ Next System Requirements 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

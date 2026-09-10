@@ -1,0 +1,116 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/configure-cortex-xsoar/dashboards-and-reports/dashboards
+fetched_at: 2026-09-06T10:28:11Z
+source: cortex-platform
+---
+
+# Dashboards | 8.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.13 
+
+ Configure Cortex XSOAR 
+
+ Dashboards and Reports 
+
+ Cortex XSOAR 8.13 On-prem 
+
+ Dashboards 
+
+ Create and manage dashboards in Cortex XSOAR 8.13 On-prem. 
+
+ Dashboards offer graphical overviews of your tenant's activities, enabling you to effectively monitor incidents and overall activity in your environment. Each dashboard comprises widgets that summarize information about your endpoint in graphical or tabular format. 
+
+ Default dashboards 
+
+ Cortex XSOAR provides several out-of-the-box dashboards, including the following: 
+
+ Note 
+
+ If you install a content pack which contain dashboards, these can be added from the More Dashboards dropdown. To change the order of the dashboards, hover over the six block icon next to a dashboard name. When the cursor turns into a hand, drag and drop the dashboard into the required location. 
+
+ Dashboard 
+
+ Description 
+
+ My Dashboard 
+
+ A personalized dashboard showing your incidents, tasks, etc. 
+
+ My Threat Landscape 
+
+ Information about malicious/suspicious indicators in incidents, top 10 indicators in related incidents, Unit 42 feed (if enabled). 
+
+ SLA 
+
+ Information about your Service Level Agreements. 
+
+ Troubleshooting Playbooks 
+
+ Information about playbook run and execution errors. 
+
+ Incidents 
+
+ Information about incidents, such as severity type, active incidents, unassigned incidents, etc. 
+
+ API Execution Metrics 
+
+ Information about API calls. You can use the API Execution Metrics for Enrichment Command widget for troubleshooting and to make decisions about indicator enrichment. 
+
+ Cost Optimization Playbooks 
+
+ Information about playbooks including task executions, average runtime, etc. 
+
+ Troubleshooting Instances 
+
+ Information about integration instance errors. 
+
+ Threat Intelligence Feeds 
+
+ Information about TIM feeds that are being ingested into Cortex XSOAR. 
+
+ Cost Optimization Instances 
+
+ Information about commands that have been executed in Cortex XSOAR. 
+
+ MITRE ATT&CK 
+
+ Information about MITRE ATT&CK techniques. Part of the MITRE ATT&CK content pack . 
+
+ Note 
+
+ You can add this to your displayed dashboards when clicking More dashboards . 
+
+ Threat Intel Management 
+
+ Information about active indicators by reputation, type, expired indicators, etc. 
+
+ Note 
+
+ You can add this to your displayed dashboards when clicking More dashboards . 
+
+ VirusTotal API Execution Metrics 
+
+ Information about VirusTotal API commands. Part of the VirusTotal content pack . 
+
+ Note 
+
+ You can add this to your displayed dashboards when clicking More dashboards . 
+
+ Previous Dashboards and Reports 
+
+ Next Dashboard actions 
+
+ Last updated 3 hours ago 
+
+ Was this helpful?

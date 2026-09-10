@@ -1,0 +1,39 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xdr-5-api/restore-distributions/models
+fetched_at: 2026-09-06T10:55:26Z
+source: cortex-platform
+---
+
+# Models | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center arrow-counterclockwise
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex XDR 
+
+ XDR 5.x APIs 
+
+ Restore Distributions 
+
+ Models 
+
+ RestoreDistributionRequest 
+ Show properties 
+
+ RestoreDistributionResponse 
+ Show properties 
+
+ ErrorResponse 
+ Show properties 
+
+ Previous Restore Distributions 
+
+ Next Unified Rules overview 
+
+ Last updated 15 days ago 
+
+ Was this helpful?

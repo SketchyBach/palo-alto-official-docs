@@ -1,0 +1,106 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/cortex-xdr-xql/build-xql-queries/manage-scheduled-queries/scheduled-queries-reference-information
+fetched_at: 2026-09-06T09:46:17Z
+source: cortex-platform
+---
+
+# Scheduled Queries reference information | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Reference and developer docs 
+
+ Cortex XDR XQL 
+
+ Build XQL queries 
+
+ Manage scheduled queries 
+
+ Cortex XDR 5.x 
+
+ Scheduled Queries reference information 
+
+ Reference fields and settings for scheduled XQL queries. 
+
+ The table below lists the common fields in the Scheduled Queries page. 
+
+ Note 
+
+ Certain fields are exposed and hidden by default. An asterisk (*) is beside every field that is exposed by default. 
+
+ Scheduled Queries table 
+
+ Field 
+
+ Description 
+
+ BQL 
+
+ Whether the query was created by the native search. 
+
+ Native search has been deprecated, this field allows you to view data for queries performed before deprecation. 
+
+ ISSUED BY 
+
+ User who ran or scheduled the query. 
+
+ MITRE ATT&CK TACTIC 
+
+ MITRE ATT&CK tactics tagged in the scheduled query. 
+
+ MITRE ATT&CK TECHNIQUE 
+
+ MITRE ATT&CK techniques tagged in the scheduled query. 
+
+ NEXT EXECUTION 
+
+ For queries that are scheduled to run at a specific frequency, this displays the next execution time. 
+
+ For queries that were scheduled to run at a specific time and date, this field will show None . 
+
+ PUBLIC API 
+
+ Whether the source executing the query was an XQL query API. 
+
+ QUERY DESCRIPTION 
+
+ Query parameters used to run the query. 
+
+ QUERY ID 
+
+ Unique identifier of the query. 
+
+ QUERY NAME 
+
+ For saved queries, the Query Name identifies the query specified by the administrator. 
+
+ For scheduled queries, the Query Name identifies the auto-generated name of the parent query. Scheduled queries also display an icon to the left of the name to indicate that the query is recurring. 
+
+ QUERY SYNTAX 
+
+ The exact syntax used to write the query. 
+
+ SCHEDULE TIME 
+
+ Frequency or time at which the query was scheduled to run. 
+
+ XQL 
+
+ Whether the query was created by XQL search. 
+
+ Previous Manage scheduled queries 
+
+ Next Manage your personal query library 
+
+ Last updated 5 days ago 
+
+ Was this helpful?

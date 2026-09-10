@@ -1,0 +1,36 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/9.3/cortex-xdr-agent-for-macos
+fetched_at: 2026-09-06T10:20:09Z
+source: cortex-platform
+---
+
+# Cortex XDR Agent for MacOS | 9.3 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR Agent 
+
+ Cortex XDR Agent Documentation 
+
+ 9.3 
+
+ Cortex XDR agent 9.3 
+
+ Cortex XDR Agent for MacOS 
+
+ To install, use, and uninstall the Cortex XDR agent on MacOS endpoints, see the references in this topic. 
+
+ The Cortex XDR agent protects MacOS endpoints by preventing known and unknown malware from running and halting attempts to leverage software exploits and vulnerabilities. The agent enforces your organization’s security policy as defined in Cortex XDR. When a security event occurs on an endpoint, the agent collects forensic information about that event which you can use to analyze the incident further. 
+
+ Previous Cortex XDR Agents Deployed in Advertise Mode 
+
+ Next Cortex XDR Agent for Mac Requirements 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

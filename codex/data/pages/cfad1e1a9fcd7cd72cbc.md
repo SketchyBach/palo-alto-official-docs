@@ -1,0 +1,106 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cloud-inventory-and-environment/asset-classes
+fetched_at: 2026-09-06T10:04:17Z
+source: cortex-platform
+---
+
+# Asset classes | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Cloud inventory and environment 
+
+ Cortex Cloud Posture 
+
+ Asset classes 
+
+ Accelerating remediation: Automated fix suggestions and manual remediation guidance enable developers to resolve code weaknesses directly in the source repository without context-switching to external 
+
+ The asset inventory organizes your organization's resources into a hierarchy: 
+
+ Class: The highest-level grouping based on general purpose or domain, such as compute, network, or data. 
+
+ Category: A detailed grouping within a class based on normalized function, such as virtual machine, container, or bucket). 
+
+ Type: The most specific, provider-level implementation, such as AWS EC2 instance or GCP Compute Engine instance. 
+
+ The following asset classes are available in the inventory: 
+
+ Asset class 
+
+ Description 
+
+ License 
+
+ AI 
+
+ Provides a detailed view of AI-related assets, their attributes, and associated risks. 
+
+ API 
+
+ Provides a comprehensive view of Application Programming Interfaces (APIs) across your cloud platforms. 
+
+ Application 
+
+ Provides a high-level summary and detailed insights into the business applications within your environment. 
+
+ Code 
+
+ Provides an overview of code assets, including all code repositories, Infrastructure as Code (IaC) resources, CI/CD pipelines, and software packages. 
+
+ Notice 
+
+ This feature is included with the AppSec add-on. 
+
+ Compute 
+
+ Provides a detailed overview of compute resources, including CaaS resources, virtual machines, containers, serverless functions, Kubernetes clusters, and general devices. 
+
+ Data 
+
+ Provides an overview of data assets and their associated risks, highlighting sensitive assets and assets marked as open to the world. 
+
+ Device 
+
+ Overview of physical or virtual devices with a Cortex XDR agent installed. 
+
+ External Surface 
+
+ Provides an overview of external-facing assets, including services versus websites, domains versus certificates, and their distribution across providers. 
+
+ Notice 
+
+ This feature is included with the Attack Surface Management (ASM) add-on. 
+
+ Identity 
+
+ Provides an overview of identity-related assets, giving visibility into both user and service-based identities and their associated permissions. 
+
+ Network 
+
+ Provides an overview of network-related assets, including Load Balancers, Network Interfaces, Security Groups, and Subnets. 
+
+ Security Services 
+
+ A complete overview of the security services being actively managed within your environment. 
+
+ All Other Assets 
+
+ All assets that are uncategorized. 
+
+ Previous Asset hierarchy 
+
+ Next AI assets 
+
+ Last updated 6 days ago 
+
+ Was this helpful?

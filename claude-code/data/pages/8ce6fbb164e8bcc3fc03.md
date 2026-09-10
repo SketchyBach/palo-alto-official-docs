@@ -1,0 +1,88 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/role-based-access-control/configuration-permissions/integrations-permissions
+fetched_at: 2026-09-06T09:46:33Z
+source: cortex-platform
+---
+
+# Integrations Permissions | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Reference and developer docs 
+
+ Role-Based Access Control 
+
+ Configuration permissions 
+
+ Cortex XDR 5.x 
+
+ Integrations Permissions 
+
+ Configure permissions for integrations. 
+
+ Controls access to the Integration Permissions page, a command-level access control layer that determines which roles are allowed to execute specific integration commands. This is distinct from the Integrations permission, which controls access to integration instances and their configuration. 
+
+ Integrations Permissions provides fine-grained, per-command role restrictions on top of the broader integration access model. Access the Integration Permissions page by going to Settings → Configurations → Data Collection → Integration Permissions . 
+
+ Permission 
+
+ Description 
+
+ Role Example 
+
+ None 
+
+ Users cannot access the Integration Permissions page and have no visibility into command-level role restrictions. 
+
+ View 
+
+ The user can view the hierarchical table of integrations, instances, and commands along with their assigned role restrictions on the Integration Permissions page, but cannot edit, modify, or use batch edit. 
+
+ SOC 1, 2, and 3 Analysts, and Threat Hunters: Modifying command permissions is an administrative function. 
+
+ View/Edit 
+
+ Read and Write permission on the Integration Permissions page, including edit, assign, or remove roles from commands, use batch edit, and save changes. 
+
+ Security Engineer: Responsible for configuring and maintaining integration command permissions. Needs to assign roles to commands, use batch edit for bulk changes, and manage the command-level access control model. 
+
+ Required and recommended permissions 
+
+ To access the Integration Permissions page, the following permissions are required/recommended: 
+
+ Permission 
+
+ Permission Level 
+
+ Reason 
+
+ Integrations 
+
+ View 
+
+ View: Having the Integrations View ensures the parent navigation section is accessible and provides context for the integration instances whose commands are being restricted. Strongly recommended. 
+
+ View/Edit: Users who manage command-level permissions typically also need to configure integration instances. Recommended. 
+
+ Credentials 
+
+ View 
+
+ Provides context about credential sets used by the integrations whose commands are being managed. No direct dependency, but useful for holistic integration management. 
+
+ Previous Integrations - instance permissions 
+
+ Next Data Management permissions 
+
+ Last updated 5 days ago 
+
+ Was this helpful?

@@ -1,0 +1,102 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/saas-security/saas-security/onboard-a-supported-saas-application/onboard-grammarly
+fetched_at: 2026-09-06T09:58:05Z
+source: cortex-platform
+---
+
+# Onboard Grammarly | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Saas Security 
+
+ SaaS Security 
+
+ Onboard a Supported SaaS Application 
+
+ Cortex Cloud Runtime 
+
+ Onboard Grammarly 
+
+ Connect a Grammarly instance to detect posture risks and compliance violations. 
+
+ For SaaS Security to detect posture risks in your Grammarly instance, you must onboard your Grammarly instance to SaaS Security. Through the onboarding process, SaaS Security logs in to Grammarly using administrator account credentials. SaaS Security uses this account to scan your Grammarly instance for misconfigured settings. If there are misconfigured settings, SaaS Security suggests a remediation action based on best practices. 
+
+ SaaS Security gets access to your Grammarly instance by using Okta SSO credentials that you provide during the onboarding process. For this reason, your organization must be using Okta as an identity provider. The Okta account must be configured for multi-factor authentication (MFA) using one-time passcodes. 
+
+ To onboard your Grammarly instance, complete the following actions: 
+
+ Collect information for accessing your Grammarly instance 
+
+ Connect SaaS Security to your Grammarly instance 
+
+ Step 1: Collect Information for Accessing Your Grammarly Instance 
+
+ To access your Grammarly instance, SaaS Security requires the following information, which you specify during the onboarding process. 
+
+ Item 
+
+ Description 
+
+ User email 
+
+ An email address of an Okta user account. Required Permissions: The user must be a Grammarly administrator. 
+
+ User Password 
+
+ The password for the Okta user account. 
+
+ Okta Subdomain 
+
+ The Okta subdomain for your organization. The subdomain was included in the login URL that Okta assigned to your organization. 
+
+ MFA Secret Key 
+
+ A key that is used to generate one-time passcodes for multi-factor authentication. 
+
+ As you complete the following steps, make note of the values of the items described in the preceding table. You will need to enter these values during onboarding to access your Grammarly instance from SaaS Security. 
+
+ Identify the Okta user account that SaaS Security will use to access your Grammarly instance. The user account must have administrator privileges in Grammarly. SaaS Security needs this administrator access to monitor your Grammarly instance. Note : Remember which account you will use to access your Grammarly instance through Okta SSO authentication from SaaS Security. You will provide the login credentials to SaaS Security during the onboarding process. 
+
+ To access the administrator account using Okta credentials: 
+
+ Identify your Okta subdomain. 
+
+ Generate and copy an MFA secret key. 
+
+ Step 2: Connect SaaS Security to Your Grammarly Instance 
+
+ By adding a Grammarly app in Cortex, you enable SaaS Security to connect to your Grammarly instance. 
+
+ Log in to Cortex. 
+
+ Select Settings > Data Sources and Integrations > Add New . You can use the Search bar to find the app you want to connect to. 
+
+ Click the Grammarly tile. 
+
+ Under Capabilities , Enter a Name for your application. 
+
+ Select Security Posture under Default Capabilities and click Next. 
+
+ Under Connections , enter the user credentials, Okta domain, and MFA secret key for accessing your Grammarly instance. 
+
+ Under Configurations , select a Sync Interval. Choose a meaningful Tag to distinguish between various applications in different environments. 
+
+ Click Nex t to complete the onboarding validation process. 
+
+ Previous Onboard Gainsight PX 
+
+ Next Onboard Harness 
+
+ Last updated 10 days ago 
+
+ Was this helpful?

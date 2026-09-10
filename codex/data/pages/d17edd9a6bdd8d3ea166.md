@@ -1,0 +1,72 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/data-management/broker-vm/set-up-and-configure-broker-vm/broker-vm-image-installations/set-up-broker-vm-on-vmware-esxi-using-vsphere-client
+fetched_at: 2026-09-06T09:59:10Z
+source: cortex-platform
+---
+
+# Set up Broker VM on VMware ESXi using vSphere Client | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Data Management 
+
+ Broker VM 
+
+ Set up and configure Broker VM 
+
+ Broker VM image installations 
+
+ Cortex Cloud Runtime 
+
+ Set up Broker VM on VMware ESXi using vSphere Client 
+
+ Deploy Broker VM on VMware ESXi using the vSphere Client. 
+
+ Learn more about how to set up you Cortex Cloud Broker VM on VMware ESXi. 
+
+ To set up the Broker VM on VMware ESXi, you deploy the OVA image provided in Cortex Cloud. VMware ESXi 6.5 or later is supported. The instructions below provide an example of doing this using vSphere Client 7.0.3.01400. 
+
+ Prerequisite 
+
+ Ensure you have a virtualization platform installed that is compatible with an OVA image, and have an authenticated user account. 
+
+ Download a Cortex Cloud Broker VM OVA image. For more information, see the virtual machine compatibility requirements in Set up and configure Broker VM . 
+
+ 1 
+
+ Deploy the Broker VM OVA image on vSphere Client 
+
+ From vSphere Client, right-click an inventory object for the virtual machine of your broker, and select Deploy OVF Template. 
+
+ In the Select an OVF template page of the wizard, select Local file, click UPLOAD FILES to select the OVA image file that you downloaded, and click NEXT. 
+
+ In the Select a name and folder page, enter a unique name for the virtual machine, select a deployment location, and click NEXT. 
+
+ In the Select a compute resource page, select a resource where to run the deployed VM template, and click NEXT. 
+
+ In the Review details page, verify the OVA template details, and click NEXT. 
+
+ In the Select storage page, define where and how to store the files for the deployed OVA template, and click NEXT. For more information on the options available, see the VMware vSphere documentation . 
+
+ In the Select networks page, select a source network and map it to a destination network, and click NEXT. The Source Network column lists all networks that are defined in the OVA template. 
+
+ In the Ready to complete page, review the details and click FINISH. A new task for creating the virtual machine is displayed in the Recent Tasks pane. When the Status of the task reaches 100%, the task is complete, and the new virtual machine is created on the selected resource. 
+
+ Navigate to the resource where the new virual machine is created, right-click the resource, and select Power → Power On. 
+
+ Previous Set up Broker VM on Nutanix Hypervisor 
+
+ Next Broker VM data collector applets 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

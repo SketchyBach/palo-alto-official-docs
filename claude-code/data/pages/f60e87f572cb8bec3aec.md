@@ -1,0 +1,128 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/configure-cortex-xsoar/jobs/manage-jobs
+fetched_at: 2026-09-06T10:30:51Z
+source: cortex-platform
+---
+
+# Manage jobs | 8.12 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.12 
+
+ Configure Cortex XSOAR 
+
+ Jobs 
+
+ Cortex XSOAR 8.12 On-prem 
+
+ Manage jobs 
+
+ In Cortex XSOAR 8.12 On-prem, manage time-triggered and feed-triggered playbook jobs. 
+
+ A job is an automated playbook task or set of playbook tasks that are scheduled to run at predefined intervals or under specific conditions. Jobs can be used for data enrichment, periodic reporting, threat intelligence gathering, or any repetitive operational tasks that need to be performed regularly without manual intervention. There are two types of jobs: 
+
+ Time triggered jobs that run at specific times: For example, you can schedule a time triggered job that runs nightly and removes expired indicators. 
+
+ Jobs triggered by a delta or change in a feed: For example, you can define an event triggered job to run a playbook when a specified TIM feed finishes a fetch operation for new indicators. 
+
+ On the Jobs page, you can: 
+
+ Action 
+
+ Details 
+
+ Create a new job 
+
+ Click + New Job . 
+
+ Edit an existing job 
+
+ In the table, select a job and click Edit . 
+
+ Perform additional job management 
+
+ In the table, select a job and click one of the following: 
+
+ Run now 
+
+ Disable 
+
+ Enable 
+
+ Pause 
+
+ Resume 
+
+ Abort 
+
+ Delete 
+
+ View job status 
+
+ The chart panel at the top of the Jobs page shows various status buttons. Click one of the following buttons to filter the list of jobs for that status: 
+
+ Running 
+
+ Waiting 
+
+ Error 
+
+ Disabled 
+
+ Time Triggered 
+
+ Event Triggered 
+
+ You can hide this panel by clicking Hide Chart Panel . 
+
+ Search for a specific job 
+
+ Enter a search query in the filter field. You can also save a filter. 
+
+ View job details in the table 
+
+ By default, the displayed table columns are: 
+
+ Name 
+
+ Job Status 
+
+ Last Incident's Status 
+
+ Last Run 
+
+ Next Run 
+
+ Details 
+
+ Click to change the displayed columns. You can also select to show: 
+
+ Owner 
+
+ Playbook 
+
+ SLA 
+
+ Labels 
+
+ Attachments 
+
+ Job Schedule : This column shows a human readable description of a cron schedule for a job. 
+
+ Previous Jobs 
+
+ Next Create a time triggered job 
+
+ Last updated 3 hours ago 
+
+ Was this helpful?

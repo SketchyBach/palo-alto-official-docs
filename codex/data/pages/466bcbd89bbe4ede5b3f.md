@@ -1,0 +1,220 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/broker-vm/set-up-and-configure-broker-vm/broker-vm-data-collector-applets/activate-ftp-collector
+fetched_at: 2026-09-06T09:49:50Z
+source: cortex-platform
+---
+
+# Activate FTP Collector | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 3.x Documentation 
+
+ Cortex XDR 3.x Documentation 
+
+ Data management 
+
+ Broker VM 
+
+ Set up and configure Broker VM 
+
+ Broker VM data collector applets 
+
+ Cortex XDR 3.x 
+
+ Activate FTP Collector 
+
+ Learn more about activating a Broker VM with a FTP Collector applet. 
+
+ Notice 
+
+ Ingesting logs and data from external sources requires a Cortex XDR Pro per GB license. 
+
+ Note 
+
+ This data source is only available in your tenant if the tenant was activated before October 1, 2025 with an active Cortex XDR Pro per GB license. 
+
+ The Broker VM provides a FTP Collector applet that enables you to monitor and collect logs from files and folders via FTP, FTPS, and SFTP directly to your log repository for query and visualization purposes. A maximum file size of 500 MB is supported. After you activate the FTP Collector applet on a Broker VM in your network, you can collect files as datasets ( <Vendor>_<Product>_raw ) by defining the following. 
+
+ FTP, FTPS, or SFTP (default) connection details with the path to the folder containing the files that you want to monitor and upload to Cortex XDR . 
+
+ Settings related to the list of files to monitor and upload to Cortex XDR , where the log format is either Raw (default), JSON, CSV, TSV, PSV, CEF, LEEF, Corelight, or Cisco. Once the files are uploaded to Cortex XDR , you can define whether in the source directory the files are renamed or deleted. 
+
+ Prerequisite 
+
+ Set up and configure Broker VM . 
+
+ Ensure that the user permissions for the FTP, SFTP, or FTPS include the ability to rename and delete files in the folder that you want to configure collection. 
+
+ When setting up an FTPS Collector with a server using a Self-signed certificate, you must upload the certificate first to the Broker VM as a Trusted CA certificate. 
+
+ How to activate the FTP Collector 
+
+ Select Settings → Configurations → Data Broker → Broker VMs . 
+
+ Do one of the following: 
+
+ On the Brokers tab, find the Broker VM, and in the APPS column, left-click Add → FTP Collector . 
+
+ On the Clusters tab, find the Broker VM, and in the APPS column, left-click Add → FTP Collector . 
+
+ Configure the FTP Collector settings. 
+
+ FTP Connection 
+
+ Field 
+
+ Description 
+
+ Type 
+
+ Select the type of FTP connection as FTP , SFTP , or FTPS . 
+
+ Host 
+
+ Enter the hostname, IP address, or FQDN of the FTP server. When configuring a FTPS Collector, you must specify the FQDN. 
+
+ Port 
+
+ Enter the FTP port number. 
+
+ Username 
+
+ Enter the username to login to the FTP server. 
+
+ Password 
+
+ Enter the password to login to the FTP server. 
+
+ SSH Key-Based Authentication 
+
+ This checkbox is only displayed when setting a SFTP Collector, which works with both Username and Password authentication or SSH Key-Based Authentication . You can either leave this checkbox clear and set a Username and Password (default) or select SSH Key-Based Authentication to Browse to a Private Key . When this connection is established with a server using a Self-signed certificate, you must upload it first to the Broker VM as a Trusted CA Certificate. 
+
+ Note 
+
+ When configuring an SFTP connection, Cortex XDR expects the private key to be in the RSA format that is included in the -----BEGIN RSA PRIVATE KEY----- tag. Cortex XDR does not support providing the private key in the OpenSSH format from the -----BEGIN OPENSSH PRIVATE KEY----- tag. 
+
+ When using ssh-keygen using a Mac, you get the OpenSSH format by default. The command for getting the RSA format is: 
+
+ ssh-keygen -t rsa -b 4096 -C <email address> -m PEM 
+
+ Folder Path 
+
+ Specify the path to the folder on the FTP site where the files are located that you want to collect. 
+
+ Recursive 
+
+ Select this checkbox to configure the FTP Collector applet to recursively examine any subfolders for new files as long as the folders are readable. This is not configured by default. 
+
+ Test Connection 
+
+ Select to validate the FTP connection. 
+
+ FTP Settings 
+
+ Field 
+
+ Description 
+
+ Collect Every 
+
+ Specify the execution frequency of collection by designating a number and then selecting the unit as either Minutes , Hours , or Days . 
+
+ After Files Uploaded 
+
+ Select what to do with the files after they are uploaded to the Cortex XDR server. You can either select Rename files with a suffix (default) and then you must specify the Suffix or Delete files . When adding a suffix, the suffix is added at the end of the original file name using the format <file name>.<suffix> , which becomes the new name of the file. 
+
+ Include 
+
+ Specify the files and folders that must match to be monitored by Cortex XDR . Multiple values are allowed with commas separating the values. 
+
+ Allowed wildcard: 
+
+ ? matches a single alphabet character in a specific position. 
+
+ * matches any character or set of characters, including no character. 
+
+ Example 49. null 
+
+ Exclude (Optional) 
+
+ Specify the files and folders that must match to not be monitored by Cortex XDR . Multiple values are allowed with commas separating the values. 
+
+ Allowed wildcard: 
+
+ ? matches a single alphabet character in a specific position. 
+
+ * matches any character or set of characters, including no character. 
+
+ Example 50. null 
+
+ Log Format 
+
+ Select the Log Format from the list as either Raw (default), JSON , CSV , TSV , PSV , CEF , LEEF , Corelight , or Cisco , which indicates to Cortex XDR how to parse the data in the file. This setting defines the parser used to parse all the processed files as defined in the Include and Exclude fields, regardless of the file names and extension. For example, if the Include field is set * and the Log Format is JSON , all files (even those named file.log ) in the specified folder are processed by the FTP Collector as JSON, and any entry that does not comply with the JSON format are dropped. 
+
+ Note 
+
+ When uploading JSON files, Cortex XDR only parses the first level of nesting and only supports single line JSON format, such that every new line means a separate entry. 
+
+ # of Lines to Skip (Optional) 
+
+ Enter the number of lines to skip at the beginning of the file. This is set to 0 by default. 
+
+ Note 
+
+ Use this option only in cases where your files contain some sort of "header" lines, such as a general description, an introduction, a disclaimer, or similar, and you want to skip ingesting them. The Lines to Skip are not part of the file format. For example, in CSV files, there is no need to skip lines. 
+
+ Data Source Mapping 
+
+ Specify the Vendor and Product for the type of data being collected. The vendor and product are used to define the name of your Cortex Query Language (XQL) dataset ( <Vendor>_<Product>_raw ). 
+
+ Note 
+
+ The Vendor and Product defaults to Auto-Detect when the Log Format is set to CEF or LEEF . 
+
+ Preview 
+
+ Select Generate Preview to display up to 10 rows from the first file and Preview the results. The Preview works based on the FTP Collector settings, which means that if all the files that were configured to be monitored were already processed, then the Preview returns no records. 
+
+ (Optional) Click Add Connection to define another FTP connection for collecting logs from files and folders via FTP, FTPS, or SFTP. 
+
+ (Optional) Other available options. 
+
+ As needed, you can return to your FTP Collector settings to manage your connections. Here are the actions available to you: 
+
+ Edit the connection name by hovering over the default Collection name, and selecting the edit icon to edit the text. 
+
+ Disable/Enable a connection by hovering over the top area of the connection section, on the opposite side of the connection name, and selecting the applicable button. 
+
+ Delete a connection by hovering over the top area of the connection section, on the opposite side of the connection name, and selecting the delete icon. You can only delete a connection when you have more than one connection configured. Otherwise, this icon is not displayed. 
+
+ Activate the FTP Collector applet. 
+
+ After a successful activation, the APPS field displays FTP with a green dot indicating a successful connection. 
+
+ (Optional) To view metrics about the FTP Collector, left-click the FTP connection in the APPS field for your Broker VM. 
+
+ Cortex XDR displays Resources , including the amount of CPU , Memory , and Disk space the applet is using. 
+
+ Manage the FTP Collector. 
+
+ After you activate the FTP Collector, you can make additional changes as needed. To modify a configuration, left-click the FTP connection in the APPS column to display the FTP Collector settings, and select: 
+
+ Configure to redefine the FTP Collector configurations. 
+
+ Deactivate to disable the FTP Collector. 
+
+ Previous Activate Files and Folders Collector 
+
+ Next Activate Local Agent Settings 
+
+ Last updated 10 days ago 
+
+ Was this helpful?

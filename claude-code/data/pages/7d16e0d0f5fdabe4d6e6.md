@@ -1,0 +1,130 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/investigate-and-respond-to-cases/analyze-and-resolve-cases/analyze-case-details/case-timeline
+fetched_at: 2026-09-06T09:43:39Z
+source: cortex-platform
+---
+
+# Case timeline | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Investigate and respond to cases 
+
+ Analyze and resolve cases 
+
+ Analyze case details 
+
+ Cortex XDR 5.x 
+
+ Case timeline 
+
+ Review a chronological timeline of case activity. 
+
+ Access the case timeline to see a chronological record of security events and analyst actions. 
+
+ Overview of the timeline 
+
+ The case timeline maps the full lifecycle of a security case by consolidating attack events, analyst activities, and system actions. You can enrich the timeline by adding your own records, including evidence, notes, and relevant information to provide a single source of truth for tracking investigations and auditing actions. 
+
+ Navigate the timeline using the following modes: 
+
+ Journal mode (the default view) offers a chronological, story-like narrative with records displayed as tiles, automatically grouping consecutive activities from the same actor to reduce noise. 
+
+ Table mode serves as a detailed working tool where you can efficiently filter, sort, and analyze records in a spreadsheet format to uncover specific patterns or actionable insights. 
+
+ Access and review the timeline 
+
+ To access the case timeline, click on Overview or Detailed View and select Timeline from the drop-down menu. In the case timeline, switch between Table view or Journal view by clicking on the respective icons . 
+
+ Explore your timeline as follows: 
+
+ Filter and sort records: You can filter by record type, source, tag, and other fields, and sort records by record creation time or by the time the event occurred. 
+
+ Expand clusters: In Journal Mode, records that share the same actor, type and certain subtypes, are clustered together. Expand clusters to see the individual records or click a cluster to open a card showing a summary of the clustered records. 
+
+ Review and create custom timelines: Custom timelines allow you to categorize your investigation records and focus on a particular aspect of the investigation. The default case timeline lists all case records. Click Case timeline to see a list of all defined timelines. 
+
+ Review record details: Click any record or table row to open a record card that expands to display full metadata, context, attachments, and linked queries. 
+
+ You can take the following actions on a record: 
+
+ Mark a record as evidence: Use this to prioritize key observations for formal reporting and investigation workflows. Marking a record pins it to the Evidence area in the case overview, ensuring your most critical observations are organized and immediately accessible. 
+
+ Add or edit tags: Use tags to add descriptive metadata to your records. This allows you to categorize activities for targeted filtering and search, and helps you organize the timeline into custom views based on specific investigation needs. 
+
+ Create a new record 
+
+ You can manually add records to the timeline to document observations or notes. 
+
+ Click Add Record . 
+
+ Select a record Type . 
+
+ The subtype is automatically set to Note added . 
+
+ Specify the Occurred at time . This is the date and time when the event actually occurred. 
+
+ Provide a name and description of the record. The description is displayed in the Journal view list and helps you identify the record. 
+
+ (Optional) Add Tags for categorization. 
+
+ (Optional) Add Query Results . You can refer to a specific query execution ID to attach and render results as a table within the record. 
+
+ (Optional) Attach files such as screenshots, logs, or documents. Supported formats include images (.png, .jpg, .gif) and text-based files (.txt, .csv, .json). Records with attached files are identified by the Attachments label. 
+
+ (Optional) Mark the record as evidence. Use this flag to prioritize key observations. Records marked as evidence are identified by the Evidence label. 
+
+ Register a playbook task as a case timeline record 
+
+ You can configure playbook tasks to register the task results in the case timeline record. When creating or editing a playbook task, in the Advanced tab, enable Register as case timeline record . Enter a Record name for the case timeline. You can add an optional Description and Tags, and you can also Mark as Evidence and provide an evidence comment. 
+
+ Mark a record as evidence 
+
+ You can mark any timeline record as evidence to prioritize key observations for formal reporting and investigation workflows. 
+
+ Once marked, the record appears in the Evidence tab in the Case Overview . This area displays record details and evidence metadata, and identifies who flagged the record as evidence. If the record includes attachments in a renderable format (text, image, or PDF), you can preview them inline within the Evidence tab. In this tab, you can choose the specific evidence that you want to view from the drop-down menu in the top right corner. 
+
+ Take one of the following actions to mark a record as evidence: 
+
+ Right-click a record and select Mark as evidence . 
+
+ When creating a new record or editing an existing one, select Mark as evidence . 
+
+ The system automatically populates the Evidence Title with the record name and sets the Evidence Flag Time to the current time. 
+
+ Note 
+
+ If you unmark a record as evidence, the evidence flag is removed but the underlying timeline record and its attachments are not deleted. 
+
+ Custom timelines 
+
+ Within the case timeline, you can set up additional timelines that act as "quick filters" for sorting and filtering specific records to help you focus on particular aspects of an investigation. 
+
+ You can add a record to one or more timelines. Take the following steps: 
+
+ Right-click the record you want to add and select Add to timeline . 
+
+ In the Add to timeline modal, select one or more timelines from the list. 
+
+ To create a new timeline, type a name for the new timeline and press Enter . 
+
+ Click Add . 
+
+ Previous Compliance standards and controls 
+
+ Next Detailed View 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

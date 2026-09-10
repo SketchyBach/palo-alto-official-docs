@@ -1,0 +1,159 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/data-management/parsing-rules/parsing-rules-file-structure-and-syntax/ingest
+fetched_at: 2026-09-06T09:39:34Z
+source: cortex-platform
+---
+
+# INGEST | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Configure Cortex XDR 
+
+ Data management 
+
+ Parsing Rules 
+
+ Parsing Rules file structure and syntax 
+
+ Cortex XDR 5.x 
+
+ INGEST 
+
+ Use the INGEST command to parse and normalize ingested data. 
+
+ License 
+
+ Requires a Data Collection add-on. 
+
+ Prerequisite 
+
+ Parsing Rules requires View/Edit RBAC permissions for Data Management (under Configurations → Data Management ), which are the same permissions required for Dataset Management, Data Model Rules, and Event Forwarding. 
+
+ An INGEST section is used to define the resulting dataset. The COLLECT , CONST , and RULE sections are only add-ons, used to help organize the INGEST sections, and are optional to configure. Yet, a Parsing Rules file that contains no INGEST sections, generates no Parsing Rules. Therefore, the INGEST section is mandatory to configure. 
+
+ INGEST syntax is derived from Cortex Query Language (XQL) with a few modifications as explained in Parsing Rules file structure and syntax . In addition, INGEST sections contain the following syntax add-ons: 
+
+ INGEST sections can have more than one XQLp statement, separated by a semicolon ( ; ). Each statement creates a different Parsing Rule. 
+
+ The following XQL functions and stages are also supported in the INGEST section: 
+
+ Functions: arrayfilter , arraycreate , arraymerge , object_create , parse_cef , parse_cisco , and parse_json . 
+
+ Stages: iploc and arrayexpand . 
+
+ fields : Using the fields stage in the [INGEST] section of the parsing rule explicitly controls the schema creation of the raw dataset. If you explicitly define only to ingest a few fields, then only these fields will be stored in Cortex XDR and available to query. Defining fields is a good way to only ingest clean data without including any corrupt data. Cortex XDR enforces a 2,000-field limit for every dataset. If a dataset has reached its 2,000-field limit, you can use the fields stage to manage these larger datasets. 
+
+ Another new stage is available called drop . 
+
+ drop takes a condition similar to the XQL filter stage (same syntax), but drops every log entry that passes that condition. One can think of it as a negative filter, so drop <condition> is not equivalent to filter not <condition> . 
+
+ drop can only appear last in a statement. No other XQLp rules can follow. 
+
+ INGEST sections take parameters, and not names as RULE sections use, where some are mandatory and others optional. 
+
+ Ask Copy 
+
+ [ingest:vendor=<vendor>, product=<product>, target_dataset=<dataset>, no_hit=<keep\drop>, ingestnull=<true\false>] 
+ filter raw_log not contains "issue"; 
+
+ The parameter descriptions are explained in the following table: 
+
+ Parameter 
+
+ Description 
+
+ vendor 
+
+ The vendor that the specified Parsing Rules apply to (mandatory). 
+
+ product 
+
+ The product that the specified Parsing Rules apply to (mandatory). 
+
+ target_dataset 
+
+ The name of the dataset to insert every row with the results after applying any of the specified Parsing Rules (mandatory). 
+
+ no_hit 
+
+ No-match strategy to use for the entire specified group of rules (optional). The default is keep . 
+
+ If no_hit = drop , then in a scenario where none of the rules in the group generates output for a given log record, that record is discarded. 
+
+ If no_hit = keep , then in a scenario where none of the rules in the group generates output for a given log record, that record is kept in the _raw_log field. This record is inserted into the group's dataset once, but every column holds NULL except for _raw_log , which holds the original JSON log record. 
+
+ ingestnull 
+
+ Defines whether null value fields are ingested (optional). By default this is set to true , so you only need to set this parameter when you want to overwrite the default definition. 
+
+ Each statement represents a different Parsing Rule in the same group as depicted in the following example: 
+
+ Example 
+
+ This generates 1 group of 2 Parsing Rules for panw/ngfw, where all the ingested data into panw_ngfw_ds dataset. 
+
+ The following represents the syntax for the rules: 
+
+ A few more points to keep in mind when writing INGEST sections: 
+
+ INGEST parameter names are not case-sensitive. Therefore, vendor=PANW and vendor=panw are the same. 
+
+ Since section order is unimportant, you do not have to declare a RULE or a CONST before using it in an INGEST section. 
+
+ You can have multiple INGEST sections with the same vendor , product , dataset , and no_hit values. Yet, this can lead to unexpected results. Consider the following example: 
+
+ Example 
+
+ Let lw be a log row. If lw.raw_log doesn't contain an issue and lw.device_type doesn't contain an agent , then lw is inserted twice into the pan_ngfw_ds dataset as every section is standalone. 
+
+ To eliminate these kind of errors and misunderstandings, it is highly advised to group all rules having the same vendor , product , dataset , and no_hit values in a single INGEST section. 
+
+ Logs that were discarded by a drop stage are considered ingested with a no-match policy. This means they are not kept even if no_hit = keep . 
+
+ Keep in mind that all rules inside a group get evaluated independently. This is in contrast to firewall-like rules, which stop evaluating the first rule that is able to make a decision. Therefore, without proper filtering, it is possible to ingest the same log more than once. 
+
+ You can override the default raw dataset in INGEST sections. For more information, see Parsing Rules Raw Dataset . 
+
+ Cortex XDR supports configuring case sensitivity in Parsing Rules only within the INGEST section using the following configuration stage: 
+
+ You can add a single tag or list of tags to the ingested data as part of the ingestion flow that you can easily query. You can add tags as part of the INGEST section or use both the INGEST and RULE sections. 
+
+ Note 
+
+ You can't add tags to parsing rules using the Next-Generation Firewall (NGFW) datasets that are in the format panw_ngfw_<text>_raw 
+
+ The following are examples of each: 
+
+ INGEST section: 
+
+ Example 
+
+ Adding a single tag: 
+
+ Adding a list of tags: 
+
+ INGEST and RULE sections: 
+
+ Example 
+
+ Adding a single tag: 
+
+ Adding a list of tags: 
+
+ Previous Parsing Rules file structure and syntax 
+
+ Next fields 
+
+ Last updated 5 days ago 
+
+ Was this helpful?

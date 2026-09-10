@@ -7,11 +7,25 @@ This private repository contains two portable versions of the same verified offi
 
 Both versions include an official-only searchable SQLite index. Private field-support email evidence, caches, and generated ZIP files are intentionally excluded.
 
+The committed corpus currently reconstructs 44,309 searchable records. This includes 57 browser-captured pages from the official Idira portal and 321 current authenticated KOI pages, all protected by SHA-256 receipts. It also includes an audited map for 175 stale Palo Alto URLs whose exact document paths exist in newer live PAN-OS versions. Original failed-fetch evidence is retained in the maintenance workspace; it is not presented as page content.
+
 Run the integrity audit from either directory with Python 3.10 or newer:
 
 ```text
 python scripts/rebuild_index.py
 python scripts/audit.py
+python scripts/search.py "Prisma AIRS AI Runtime Security" --mode answer --json
 ```
+
+On Windows, the preferred equivalent from the repository root is:
+
+```powershell
+cmd /c codex\pa-docs.cmd verify
+cmd /c codex\pa-docs.cmd search "Prisma AIRS AI Runtime Security" --mode answer --json
+cmd /c codex\pa-docs.cmd freshness
+python scripts\check_parity.py
+```
+
+Freshness is reported separately from integrity: an older official capture can remain hash-valid while still needing refresh. The parity check confirms that the Codex and Claude Code public snapshots remain synchronized.
 
 The complete generated SQLite index is larger than GitHub's per-file limit, so it is rebuilt locally from the committed official page files after cloning.

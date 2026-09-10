@@ -1,0 +1,78 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/networking/appsec-azure-251
+fetched_at: 2026-09-06T11:13:03Z
+source: cortex-platform
+---
+
+# Azure VM disk configured with public network access misconfiguration detected in code | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Reference 
+
+ Alerts & Rules 
+
+ AppSec Rules 
+
+ IaC Security 
+
+ Networking 
+
+ Azure VM disk configured with public network access misconfiguration detected in code 
+
+ Rule Details 
+
+ Cortex AppSec Rule ID 
+
+ APPSEC_AZURE_251 
+
+ Category 
+
+ Networking 
+
+ Provider 
+
+ AZURE 
+
+ Severity 
+
+ HIGH 
+
+ Framework 
+
+ Terraform, Terraform Plan 
+
+ Mapped CSPM/KSPM Rule 
+
+ 6a3ba52c-1a0e-4359-aba5-e417ca280270 
+
+ Impact 
+
+ Azure Virtual Machine disks configured with public network access pose a significant security risk. Publicly accessible disks expose sensitive data to unauthorized access and potential breaches. 
+
+ Azure Virtual Machine disks are storage resources attached to Virtual Machines. Enabling public network access allows any entity on the internet to access these disks, bypassing security controls. Attackers can exploit this misconfiguration to steal data, deploy malware, or gain unauthorized access to the Virtual Machine itself. 
+
+ The impact of this misconfiguration includes data breaches, unauthorized data modification, and potential system compromise. Restricting access to trusted networks only significantly minimizes these risks. This best practice ensures that only authorized users and services can interact with the disks. 
+
+ To mitigate this risk, disable public network access for all Azure Virtual Machine disks. Utilize Azure Private Link or other secure network configurations to provide controlled access to necessary resources. Regularly review and audit network configurations to identify and remediate any misconfigurations. 
+
+ How to Fix 
+
+ Ensure that the public_network_access_enabled setting is set to false . [source,go] 
+
+ resource "azurerm_managed_disk" "fail1" { ... 
+
+ public_network_access_enabled = true 
+
+ public_network_access_enabled = false } 
+
+ Previous Azure Storage Sync Service configured with overly permissive network access misconfiguration detecte 
+
+ Next GCP Kubernetes Engine Clusters have Network policy disabled misconfiguration detected in code 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,138 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/investigate-and-respond-to-cases/build-xql-queries/legacy-query-builder/create-network-connections-query
+fetched_at: 2026-09-06T09:45:15Z
+source: cortex-platform
+---
+
+# Create network connections query | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Investigate and respond to cases 
+
+ Build XQL queries 
+
+ XQL query entities 
+
+ Create network connections query 
+
+ Query network connection data with XQL. 
+
+ From the Query Builder, you can investigate network events stitched across endpoints and the Palo Alto Networks Next-Generation Firewall logs. 
+
+ Some examples of a network query you can run include: 
+
+ Source and destination of a process. 
+
+ Network connections that included a specific App ID 
+
+ Processes that created network connections. 
+
+ Network connections between specific endpoints. 
+
+ How to build a network connection query 
+
+ From Cortex XDR, select Investigation & Response → Search → Query Templates . 
+
+ Select NETWORK CONNECTIONS . 
+
+ Enter the search criteria for the network events query. 
+
+ Network attributes: Define any additional process attributes for which you want to search. Use a pipe ( | ) to separate multiple values (for example 80|8080 ). By default, Cortex XDR will return the events that match the attribute you specify. To exclude an attribute value, toggle the = option to =! . Options are: 
+
+ APP ID : App ID of the network. 
+
+ PROTOCOL : Network transport protocol over which the traffic was sent. 
+
+ SESSION STATUS 
+
+ FW DEVICE NAME : Firewall device name. 
+
+ FW RULE : Firewall rule. 
+
+ FW SERIAL ID : Firewall serial ID. 
+
+ PRODUCT 
+
+ VENDOR 
+
+ To specify an additional exception (match this value except), click the + to the right of the value and specify the exception value. 
+
+ (Optional) To limit the scope to a specific source, click the + to the right of the value and specify the exception value. 
+
+ Specify one or more attributes for the source. 
+
+ Use a pipe ( | ) to separate multiple values. Use an asterisk ( * ) to match any string of characters. 
+
+ HOST NAME : Name of the source. 
+
+ HOST IP : IP address of the source. 
+
+ HOST OS : Operating system of the source. 
+
+ PROCESS NAME : Name of the process. 
+
+ PROCESS PATH : Path to the process. 
+
+ CMD : Command-line used to initiate the process, including any arguments, up to 128 characters. 
+
+ MD5 : MD5 hash value of the process. 
+
+ SHA256 : SHA256 hash value of the process. 
+
+ PROCESS USER NAME : User who executed the process. 
+
+ SIGNATURE : Signing status of the parent process: Signature Unavailable, Signed, Invalid Signature, Unsigned, Revoked, Signature Fail. 
+
+ PID : Process ID of the parent process. 
+
+ IP : IP address of the process. 
+
+ PORT : Port number of the process. 
+
+ USER ID : ID of the user who executed the process. 
+
+ Run search for both the process and the Causality actor : The causality actor—also referred to as the causality group owner (CGO)—is the parent process in the execution chain that the app identified as being responsible for initiating the process tree. Select this option if you want to apply the same search criteria to the causality actor. If you clear this option, you can then configure different attributes for the causality actor. 
+
+ (Optional) Limit the scope to a destination. 
+
+ Use a pipe ( | ) to separate multiple values. Use an asterisk ( * ) to match any string of characters. 
+
+ Specify one or more of the following attributes: 
+
+ REMOTE IP : IP address of the destination. 
+
+ COUNTRY : Country of the destination. 
+
+ Destination TARGET HOST , NAME , PORT , HOST NAME , PROCESS USER NAME , HOST IP , CMD , HOST OS , MD5 , PROCESS PATH , USER ID , SHA256 , SIGNATURE , or PID 
+
+ Specify the time period for which you want to search for events. 
+
+ Options are Last 24H (hours), Last 7D (days), Last 1M (month), or select a Custom time period. 
+
+ Choose when to run the query. 
+
+ Select the calendar icon to schedule a query to run on or before a specific date or Run to run the query immediately and view the results in the Query Center . 
+
+ While the query is running, you can always navigate away from the page and a notification is sent when the query completes. You can also Cancel the query or run a new query, where you have the option to Run only new query (cancel previous) or Run both queries . 
+
+ When you are ready, view the results of the query. For more information, see Review XQL query results . 
+
+ Previous Create image load query 
+
+ Next Create network query 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

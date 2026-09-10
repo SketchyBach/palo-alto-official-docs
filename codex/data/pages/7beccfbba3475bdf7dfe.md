@@ -1,0 +1,154 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-threat-intel-management-guides/6.14/configure-indicators/indicator-management/exclusion-list
+fetched_at: 2026-09-06T10:49:42Z
+source: cortex-platform
+---
+
+# Exclusion List | 6.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Threat Intel Management Guides 
+
+ 6.14 
+
+ Configure Indicators 
+
+ Indicator Management 
+
+ XSOAR 6.14 Threat Intel Management 
+
+ Exclusion List 
+
+ Add indicators to exclusion lists in Cortex XSOAR 6.14. 
+
+ Indicators added to the exclusion list are disregarded by the system, and are not created or involved in automated flows such as indicator extraction. You can still manually enrich IP addresses and URLs that are on the exclusion list, but the results are not posted to the War Room. 
+
+ There are several methods by which to add indicators to the exclusion list. 
+
+ Delete and Exclude Indicators 
+
+ You can select one or more indicators from the Indicators table and click the Delete and Exclude button. The indicators are deleted from the Indicators table and added to the exclusion list. You can associate these indicators with one or more indicator types. 
+
+ If you delete the indicator it is removed from Cortex XSOAR. This option should be used mainly for correcting errors in ingestion, and not as part of your regular work flow. 
+
+ Manually Add Indicators to the Exclusion List 
+
+ From the Exclusion List page, you can manually add a single indicator or define indicators using a regular expression (regex) or CIDR. 
+
+ Caution 
+
+ Ensure you are using the correct syntax when defining the values for your exclusion lists. 
+
+ Regex 
+
+ A regular expression enables you to identify a sequence of characters in an unknown string. The following example would identify www.demisto.com: [A-Za-z0-9!@#$%\.&]*demisto[A-Za-z0-9!@#$%\.&]* . 
+
+ CIDR 
+
+ Classless inter-domain routing (CIDR) enables you to define a range of IP addresses. For example, the IPv4 block 192.168.100.0/22 represents the 1024 IPv4 addresses from 192.168.100.0 to 192.168.103.255. 
+
+ Exclusion List Examples 
+
+ Exclusion 
+
+ Description 
+
+ Settings 
+
+ Domain, URLs, and subdomains 
+
+ Excludes a specific domain, and all subdomains and URLs associated with the domain. 
+
+ Define two entries to cover all URLs and subdomains associated with a specific domain. 
+
+ Entry one: 
+
+ Value: Subdomains and URLs. Example: .example.com 
+
+ Select Use Regex . 
+
+ Do not select any indicator types. 
+
+ Entry two: 
+
+ Value: The specific domain. Example: example.com 
+
+ Do NOT select Use Regex . 
+
+ Do not select any indicator types. 
+
+ Subdomain (and URLs) specifically 
+
+ Excludes any subdomains and URLs of a domain, but the domain is still extracted. 
+
+ Value: Subdomains and URLs. Example: .example.com 
+
+ Select Use Regex . 
+
+ Do not select any indicator types. 
+
+ Specific domain only 
+
+ Excludes a specific domain. Subdomains and URLs are still extracted. 
+
+ Value: The specific domain. Example: example.com 
+
+ Do NOT select Use Regex . 
+
+ Select indicator type: Domain . 
+
+ URL with wildcards 
+
+ Excludes any indicators of type URL matching the regex. Indicators example.com and examplesub.example.com of type Domain would still be extracted. Start the regex with https?:// to exclude both HTTP and HTTPS URLs. 
+
+ Value: The URL with wildcard added at the end. Example: http://examplesub.example.com 
+
+ Select Use Regex . 
+
+ Select indicator type: URL . 
+
+ Specific URL 
+
+ Excludes a specific URL, but the domain and subdomains are still extracted. 
+
+ Value: The specific URL. Example: http://examplesub.example.com/myexample 
+
+ Do NOT select Use Regex . 
+
+ Select indicator type: URL . 
+
+ URLs, domain, and subdomains, case-insensitive, anchored to start 
+
+ Excludes domain example.com, its subdomains, and its URLs. Case-insensitive. Anchors regex match to the start of the indicator value, so indicators that contain but do not start with a match (e.g., example.net?param=example.com) are not excluded. 
+
+ Value: Domain, subdomains and URLs (http or https), case insensitive and anchored to the start of the indicator. Example: (?i)^(https?://)?(([a-zA-Z0-9-]+.)+)?example.com 
+
+ Select Use Regex . 
+
+ Select indicator types: URL , Domain . 
+
+ All URLs 
+
+ Excludes all URLs for a specific domain that have a path (even an empty path), but the domain and subdomains are still extracted. 
+
+ Value: URLs (http or https) with or without a path. Example: example.com/ 
+
+ Select Use Regex . 
+
+ Do not select any indicator types. 
+
+ Previous Configure the Indicator Timeline 
+
+ Next Export Indicators 
+
+ Last updated 4 days ago 
+
+ Was this helpful?

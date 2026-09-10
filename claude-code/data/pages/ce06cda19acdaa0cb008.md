@@ -1,0 +1,62 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/cortex-xdr-xql/functions/earliest
+fetched_at: 2026-09-06T09:51:38Z
+source: cortex-platform
+---
+
+# earliest | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 3.x Documentation 
+
+ Cortex XDR 3.x Documentation 
+
+ Cortex XDR XQL 
+
+ Functions 
+
+ Cortex XDR 3.x 
+
+ earliest 
+
+ Learn more about the Cortex Query Language earliest aggregate comp function that returns the earliest field value found with the matching criteria. 
+
+ Syntax 
+
+ Ask Copy 
+
+ comp earliest(<field>) [as <alias>] by <field_1>,<field_2> [addrawdata = true|false [as <target field>]] 
+
+ Description 
+
+ The earliest aggregation is a comp function that returns the chronologically earliest value found for a field over a group of rows that has matching values for the fields identified in the by clause. This function is dependent on a time-related field, so for your query to be considered valid, ensure that the dataset running this query contains a time-related field. This function is used in combination with a comp stage. 
+
+ In addition, you can configure whether the raw data events are displayed by setting addrawdata to either true or false (default), which are used to configure the final comp results. When including raw data events in your query, the query runs for up to 50 fields that you define and displays up to 100 events. 
+
+ Examples 
+
+ Return the chronologically earliest timestamp found for any given action_total_download value for all records that have matching values for their actor_process_image_path and actor_process_command_line fields. The query calculates a maximum of 100 xdr_data records and includes a raw_data column listing the raw data events used to display the final comp results. 
+
+ Ask Copy 
+
+ dataset = xdr_data 
+ | fields _time, actor_process_image_path as Process_Path, actor_process_command_line as Process_CMD, action_total_download as Download 
+ | filter Download > 0 
+ | limit 100 
+ | comp earliest(_time) as download_time by Process_Path, Process_CMD addrawdata = true as raw_data 
+
+ Previous divide 
+
+ Next extract_time 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

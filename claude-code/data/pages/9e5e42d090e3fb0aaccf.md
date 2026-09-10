@@ -1,0 +1,176 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/8.6-eol/cortex-xdr-agent-for-windows/install-the-cortex-xdr-agent-with-installer-and-content-update-package
+fetched_at: 2026-09-06T11:23:51Z
+source: cortex-platform
+---
+
+# Install the Cortex XDR Agent with Installer and Content Update Package | 8.6 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR Agent 
+
+ Cortex XDR Agent Documentation 
+
+ 8.6 (EoL) 
+
+ Cortex XDR agent for Windows 
+
+ Cortex XDR agent 8.6 EoL 
+
+ Install the Cortex XDR Agent with Installer and Content Update Package 
+
+ Deploy the Cortex XDR agent on Windows endpoints using the latest content and installer package. 
+
+ To reduce the network load and time typically required for the initial roll-out or major upgrades of the Cortex XDR agent, Cortex XDR offers an agent installation and content update distribution package. The distribution package includes the agent installer and the latest supported content available in Cortex XDR, eliminating the content update download phase which is typically required after agent installation. You can deploy the distribution package using a third party tool such as an SCCM, or manually on the endpoint. 
+
+ To deploy or upgrade agents using the distribution package, you first need to create an agent installation package in Cortex XDR. Then, you can choose to download the distribution package zip along with the latest content zip. The content version included in the package is the latest content available in Cortex XDR at the time of package download. If between the time you created a package and the time you downloaded it a new content version has become available, Cortex XDR will automatically update the content version within the distribution packages available in your tenant. After you download the package, the content version within that zip archive is static and cannot be updated. It is therefore advised to always download a pre-created distribution package only at the time you intend to start the deployment. 
+
+ The following are prerequisites to use this deployment method: 
+
+ Requirement 
+
+ Description 
+
+ General 
+
+ Requires Windows 7 SP1 / Server 2008 R2 SP1 or later. 
+
+ Requires a Cortex XDR agent 7.6 or later. 
+
+ When you deploy using the SCCM system, you must have network credentials in your organization. 
+
+ Install or Update Agents Using Installer and Content Package Manually 
+
+ To deploy the Cortex XDR agent and content manually on the endpoint, first create an agent installation package with the latest content, download and extract it, and then proceed to Install the Cortex XDR Agent for Windows using the CONTENT runtime argument: 
+
+ Create an agent installation package. 
+
+ In Cortex XDR, go to Endpoints → Endpoint Management → Agent Installations page, and Create an agent Installation Package. 
+
+ Download the installation and content distribution package locally. 
+
+ In Agent Installations , right-click the distribution package you created and according to the endpoint architecture, select 64/32 bit installer → Download 64/32 bit installer + latest content update (zip) . 
+
+ installer-and-content-package-download.png 
+
+ The extracted downloaded distribution package zip includes two files: the msi installer and the content zip. 
+
+ installer-and-content-package-download-zip.png 
+
+ Install the agent on the endpoint. 
+
+ Proceed to Install the Cortex XDR Agent for Windows and add the CONTENT runtime argument as explained. For example, CONTENT=\\sccm\share\Traps\Version740\content-181-58641.zip . 
+
+ Install or Update Agents Using Installer and Content Package Using SCCM 
+
+ To deploy the Cortex XDR agent and content on the endpoint using an SCCM, follow these guidelines and fill-in the values as specified. 
+
+ Note 
+
+ This high-level workflow refers only to the specific SCCM configurations that you must set for this type of deployment. For the other optional settings that are not included in this workflow, follow the Microsoft official guidelines and your organization needs. 
+
+ Upload the files to your SCCM network Share folder. 
+
+ Unpack the Cortex XDR agent installation.zip file, and copy both the installation msi and content-XXX-XXXXX.zip files to the Share folder on your SCCM server under a directory of your choice. For example, \\SCCM\Share\MyCortexXDRAgentDeploymentFolder\ . To copy files to the Share folder, you must have network credentials in your organization. 
+
+ Create the SCCM application package. 
+
+ In SCCM Applications, Create Application to launch the Create Application Wizard and specify the following settings for this application: 
+
+ Ensure the Automatically detect information about this application from installation files option is selected to enable SCCM to pull both msi and content-XXX-XXXXX.zip files from the Share folder on the SCCM server. 
+
+ Type — Windows installer (*.msi file) 
+
+ Location —Browse to your Share folder and select the installation file. 
+
+ Click Next to continue. 
+
+ sccm-create-package.png 
+
+ In View imported information , verify that SCCM detected both files in the Share folder, the msi and the content zip files (Number of files:2). Click Next to continue. 
+
+ sccm-create-package-2.png 
+
+ In Specify info about this application , fill-in the following information: 
+
+ Name —Displays the name of your deployment application. 
+
+ Installation program —Enter the Cortex XDR agent installation command line to include the msi and content zip files. For example: 
+
+ It is highly recommended to add the /qn installation flag for a quiet installation. Other installation flags such as creating a log file are optional and can be added as described in Install the Cortex XDR Agent for Windows . 
+
+ Install behavior — Install for system . 
+
+ Proceed to fill-in other fields if you want, and click Next to continue. 
+
+ sccm-general-info.png 
+
+ Review the Summary . To confirm the settings for this application, click Next . Wait for the application package to generate and Close to exit the wizard. 
+
+ sccm-application-complete.png 
+
+ Set the Working Directory. 
+
+ To ensure that SCCM deploys the Cortex XDR agent installation and content files in the correct folders on the endpoint, you must set the application package working directory. 
+
+ From the SCCM applications list, right-click your application package and select Properties . 
+
+ properties.png 
+
+ Go to the Deployment Types tab, select the msi file, and Edit . 
+
+ sccm-working-dir.png 
+
+ Go to the Programs tab. 
+
+ In the Installation starts in field, carefully enter the full path to the Share folder on the SCCM server where the msi and content zip files are and Apply . For example, \\SCCM\Share\MyCortexXDRAgentDeploymentFolder\ 
+
+ sccm-start-path-highlighted.png 
+
+ Distribute the application package content. 
+
+ To launch the Distribute Content Wizard from the SCCM applications list, right-click your application and select Distribute Content . 
+
+ sccm-distribute-content.png 
+
+ When you Review selected content , ensure that the Detect associated content dependencies and add them to this distribution option is selected. This ensures that SCCM pulls both the msi and content zip files from the Share folder. 
+
+ sccm-distribute-content-2.png 
+
+ Continue to configure the other settings in this wizard, and when you are done, Close the wizard to exit. 
+
+ sccm-distribute-content-complete.png 
+
+ Proceed to deploy the application package on your endpoints. 
+
+ To launch the Deploy Software Wizard from the SCCM applications list, right-click your application and select Deploy . 
+
+ sccm-deploy.png 
+
+ When you Specify general information for this deployment , ensure that the Automatic distribute content for dependencies option is selected. This ensures that SCCM pulls both the msi and content zip files from the Share folder. 
+
+ sccm-deploy-device-collection.png 
+
+ In Deployment Settings , ensure that: 
+
+ Action is set to Install . 
+
+ Purpose is set to Required . Otherwise, if set to Available , SCCM will only advertise the new Cortex XDR agent application but will not install it on the endpoint. 
+
+ sccm-deploy-settings.png 
+
+ Continue to configure the other settings in this wizard, and when you are done, Close the wizard to exit. 
+
+ Previous Cortex XDR Agent for Windows Requirements 
+
+ Next Install the Cortex XDR agent for Windows 
+
+ Last updated 3 days ago 
+
+ Was this helpful?

@@ -1,0 +1,36 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/inventory-and-monitoring/asset-management
+fetched_at: 2026-09-06T10:52:04Z
+source: cortex-platform
+---
+
+# Asset management | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Data Security 
+
+ Cortex Data Security Documentation 
+
+ Inventory & Monitoring 
+
+ Asset management 
+
+ Asset management gives you a comprehensive, unified inventory of every asset across your cloud and on-premises environments, ensuring complete visibility, control, and protection. It discovers and classifies assets across multiple classes, such as data, identity, and AI, organizes them by class, category, and type, and consolidates each asset's attributes, relationships, and associated cases, issues, and findings so you can prioritize and respond to risk. 
+
+ For detailed information about the data security inventory, see Data Inventory . 
+
+ For more general information about asset management, see the Cortex Cloud Asset management documentation . 
+
+ Previous Monitor data ingestion health (BETA) 
+
+ Next Data Inventory 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

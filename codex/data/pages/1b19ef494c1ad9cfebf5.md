@@ -1,0 +1,96 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/jobs/add-indicators-to-siem-using-a-time-triggered-job
+fetched_at: 2026-09-06T10:41:45Z
+source: cortex-platform
+---
+
+# Add Indicators to SIEM Using a Time Triggered Job | 6.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.14 
+
+ Customize Cortex XSOAR 
+
+ Customize and Configure Cortex XSOAR 
+
+ Jobs 
+
+ Cortex XSOAR 6.14 
+
+ Add Indicators to SIEM Using a Time Triggered Job 
+
+ Send indicators to a SIEM with a time-triggered Cortex XSOAR 6.14 job. 
+
+ In this example, after you have processed indicators you can push relevant indicators to your SIEM by customizing the TIM-Add All Indicator Types To SIEM playbook. This playbook pushes the indicators (IP, bad hash, domains and URLs) that have been tagged to their respective lists in the SIEM. By default, the playbook is configured to work with ArcSight and QRadar, but you should change this to match the SIEM in your system. After configuration, run a time triggered job to run the playbook 
+
+ Customize the TIM - Add All Indicators Types to SIEM playbook. 
+
+ Go to Playbooks and search for TIM - Add All Indicator Types to SIEM and either detach or duplicate the playbook. 
+
+ Note 
+
+ If you detach the playbook, it does not receive content pack updates, until attached. If you want to receive content pack updates and keep your changes you should duplicate the playbook. 
+
+ Click the Playbook Triggered task at the top of the playbook. 
+
+ Select From indicators and set the query for the indicators to add. For example tags:approved_black, approved_white , etc. 
+
+ The purpose of the playbook is to send to SIEM only indicators that have been processed and tagged accordingly after an automatic or manual review process. The playbook comes out-of-the box with queries, but you can update it if required. 
+
+ Save the playbook. 
+
+ Make sure the playbook includes a task that closes the investigation once it completes. Save the playbook. 
+
+ Define a Job to Push the Indicators to the SIEM. 
+
+ Select Jobs → New Job . 
+
+ Select Time Triggered . 
+
+ (Optional) Select Recurring and determine how often you want the job to run. For example, run daily at midnight. 
+
+ In the Playbook field, select the TIM - Add All Indicator Types To SIEM playbook to run. 
+
+ Create Create New Job . 
+
+ Whenever an indicator is ingested that has a relevant tag such as approved_black , the job pushes that indicator to the SIEM. 
+
+ (Optional) Test the work flow. 
+
+ Open the job that you created, when you processed indicators . 
+
+ You can tag any indicator with the tags that you want to push. It does not necessarily need to be this job. 
+
+ In Work Plan open the Create Process Indicators Manually incident task. 
+
+ In the Outputs tab, copy the incident ID for the incident that was created. 
+
+ Go to Incidents and search for the incident ID that was created. 
+
+ Review the indicators and add update the indicators with tags that you want to push to the SIEM, 
+
+ When finished with the review, in the Work Plan , click the Manually review the incident task, select Yes , and Mark Completed . 
+
+ Select the job you defined in step 2 and click Run now , 
+
+ Go to Indicators and run the query tags:SIEM . 
+
+ This is the tag appended to every indicator that has been processed and pushed to the SIEM. 
+
+ Previous Process Indicators Using a Job Triggered By Delta 
+
+ Next Work with SLAs 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

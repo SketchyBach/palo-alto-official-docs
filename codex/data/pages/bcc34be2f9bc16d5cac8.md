@@ -1,0 +1,30 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas-release-notes/features-introduced-in-previous-releases
+fetched_at: 2026-09-06T10:54:00Z
+source: cortex-platform
+---
+
+# Features introduced in previous releases | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Release Notes 
+
+ Cortex XSOAR 
+
+ Cortex XSOAR 8 SaaS Release Notes 
+
+ Features introduced in previous releases 
+
+ The following topics describe the release highlights and feature enhancements in previous versions. 
+
+ Previous July 2026 
+
+ Next Features Introduced in 2026 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

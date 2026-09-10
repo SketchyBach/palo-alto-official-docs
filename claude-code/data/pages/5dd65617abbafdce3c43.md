@@ -1,0 +1,78 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/configure-cortex-xsoar/integrations/add-an-integration-instance/fetch-incidents-from-an-integration-instance
+fetched_at: 2026-09-06T10:22:06Z
+source: cortex-platform
+---
+
+# Fetch incidents from an integration instance | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 SaaS Documentation 
+
+ Configure Cortex XSOAR 
+
+ Integrations 
+
+ Add an integration instance 
+
+ Cortex XSOAR 8 (SaaS) 
+
+ Fetch incidents from an integration instance 
+
+ Fetch incidents into Cortex XSOAR 8 SaaS from an integration instance. 
+
+ You can poll third-party integration instances for events and turn them into Cortex XSOAR incidents (fetching). Many integrations support fetching, but not all support this feature. You can view each integration in the Developer Hub . 
+
+ When setting up an instance, you can configure the integration instance to fetch events. You can also set the interval for which to fetch new incidents, by configuring the Incidents Fetch Interval field. The fetch interval default is 1 minute. This enables you to control the interval in which an integration instance reaches out to third-party platforms to fetch incidents into Cortex XSOAR. 
+
+ Note 
+
+ In some integrations, the Incidents Fetch interval is called Feed Fetch Interval . 
+
+ If the integration instance does not have the Incidents Fetch Interval field, you need to add this field by editing the integration settings. If the integration is from a content pack, you need to create a copy of the integration. Any future updates to this integration will not be applied to the copy integration. 
+
+ If you turn off fetching for a while and then turn it on or disable the instance and enable it, the instance remembers the last run and pulls all events that occurred while it was off. If you don't want this to happen, verify that the instance is enabled and click Reset the “last run” timestamp when editing the instance. Also, note that "last run" is retained when an instance is renamed. 
+
+ In some cases, such as an unexpected high level of incoming incidents, you may want to temporarily disable the integration instance and drop all incidents waiting in the ingestion queue, for a specific integration instance. Go to Settings & Info → Settings → Integrations → Instances . Under the integration instance, click to Clear all queued items waiting for processing . 
+
+ clear-queued-items.png 
+
+ How to fetch incidents from an integration 
+
+ Select the integration instance you want to fetch incidents by going to Settings & Info → Settings → Integrations → Instances finding the integration and clicking + Add instance . 
+
+ Select Fetches incidents . 
+
+ When enabled, Cortex XSOAR searches for events that occurred within the time frame set for the integration, which is based on the specific integration. The default is 10 minutes prior but can be changed in the integration script. 
+
+ (Optional) In the Incidents Fetch Interval field, set the interval of hours and minutes to fetch incidents (default 1 minute). 
+
+ (Optional) If the Incidents Fetch Interval field does not appear, add it to the integration. 
+
+ Relevant for any incident fetching integration. 
+
+ For integrations installed from a content pack, select the duplicate integration button. 
+
+ If you already duplicated the integration, click the Edit integration’s source button. 
+
+ In the Basic section, select the Fetches incidents checkbox. 
+
+ In the Parameters section, you can see that the IncidentFetchInterval parameter is added. Change the default value if necessary. 
+
+ Save the changes. 
+
+ Previous Add an integration instance 
+
+ Next Receive notifications on an incident fetch error 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

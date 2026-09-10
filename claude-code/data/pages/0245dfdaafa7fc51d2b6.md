@@ -1,0 +1,182 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/asset-management/asset-configurations/network-configuration
+fetched_at: 2026-09-06T09:43:24Z
+source: cortex-platform
+---
+
+# Network configurations | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Asset management 
+
+ Asset configurations 
+
+ Cortex XDR 5.x 
+
+ Network configurations 
+
+ Configure your internal network parameters, trusted networks, and external IP ranges to help Cortex XDR identify and map your network assets. 
+
+ Network asset visibility is an investigative tool for discovering rogue devices and preventing malicious activity within your environment. By defining your network boundaries, you reduce the amount of manual research required to distinguish between managed and unmanaged assets, identify internal assets, and monitor data communications moving in and out of your network. 
+
+ Configure network parameters 
+
+ Navigate to Inventory → Assets → Configurations → Network to define the boundaries of your organization's network. The configuration page allows you to set: 
+
+ Internal IP Address Ranges 
+
+ By default, Cortex XDR automatically populates private network ranges based on industry-approved reserved ranges. To define custom internal ranges, click Add New Range . You can manually enter a name and IP address, range, or CIDR notation, or you can upload a CSV file. 
+
+ Note 
+
+ You can add a new range that is fully contained within an existing range, but you cannot add a new range that partially intersects with another. 
+
+ External IP Address Ranges 
+
+ Notice 
+
+ This feature is included with the Attack Surface Management (ASM) add-on. 
+
+ All external IPv4 and IPv6 address ranges that Cortex XDR has discovered through ASM scans and attributed to your organization are listed here, including details such as the first/last IP address, active responsive IPs count, and ASN handles. 
+
+ Internal Domain Suffixes 
+
+ Internal domain suffixes are DNS domain suffixes that are used within your internal network. Adding your domains here allows Cortex XDR to use them for analytics engine profiling. Click +Add to enter a new domain suffix to your domains list. 
+
+ Trusted Networks 
+
+ You can define networks that are considered safe or authorized within your environment. To add a trusted network, click Add trusted network . You can manually provide a name, optional description, and the CIDR block or you can upload a CSV file to bulk import multiple networks. 
+
+ Configure your network parameters 
+
+ Internal IP address ranges and domain names must be defined in order to track and identify assets in the network. This enables Cortex XDR to analyze, locate, and display your network assets. 
+
+ Define internal IP address ranges 
+
+ In Cortex XDR, select Assets Network Configuration . 
+
+ Define an IP address range. 
+
+ By default, Cortex XDR creates Private Network ranges that specify reserved industry-approved ranges. These ranges can only be renamed. 
+
+ To Add New Range , select either: 
+
+ Create New . 
+
+ In the Create IP Address Range dialog box, enter the IP address Name and IP Address, Range or CIDR values . 
+
+ Note 
+
+ You can add a range that is fully contained in an existing range, however, you cannot add a new range that partially intersects with another range. 
+
+ Click Save . 
+
+ Upload from File 
+
+ In the Upload IP Address Range dialogue box, drag and drop or search for a CSV file listing the IP address ranges. Download example file to view the correct format. 
+
+ Click Add . 
+
+ View external IP address ranges 
+
+ Notice 
+
+ Viewing external IP address ranges requires the Attack Surface Management add-on. 
+
+ An external IP address range is an IPv4 or IPv6 address range that Cortex XDR has discovered through ASM scans and attributed to your organization. The complete list of external IP Address Ranges can be viewed on the External IP Address Ranges page, as explained in the following steps. External IP address range information is also available on asset details pages when an external IP address is used to attribute an asset to your organization. 
+
+ In Cortex XDR, select Assets → Network Configuration → IP Address Ranges → External IP Address Ranges . 
+
+ Review your external IP address ranges, as needed. 
+
+ The IP Address Ranges table displays the following fields: 
+
+ First IP Address: First IP address value of the defined range 
+
+ Last IP Address: Last IP address value of the defined range. 
+
+ IPs Count: Number of IP addresses in the range. 
+
+ Active Responsive IPS count: Number of IP addresses in the range that are currently active and responsive. 
+
+ Business Units: Business units associated with this external IP range. 
+
+ Date Added: The first time that Cortex XDR identified this IP Range. 
+
+ Organization Handles: Unique identifiers for the organizations managing the IP range. 
+
+ Display details about an external IP range by selecting a row in the table. 
+
+ The detailed view is displayed to the right of the table. External IP address range details include registration data, which Cortex XDR pulls from public RIR (Regional Internet Registries) databases. Registration data includes network records and organization records. 
+
+ Define domain names 
+
+ Select Assets → Network Configuration → Internal Domain Suffixes . 
+
+ In the Internal Domain Suffixes section, +Add the domain suffix you want to include as part of your internal network. For example, acme.com . 
+
+ Select to add to the Domains List . 
+
+ IP address ranges fields 
+
+ FIELD 
+
+ DESCRIPTION 
+
+ Range Name 
+
+ Name of the IP address range defined. 
+
+ First IP Address 
+
+ First IP address value of the defined range. 
+
+ Last IP Address 
+
+ Last IP address value of the defined range. 
+
+ Active Assets 
+
+ Number of assets within the defined range that have reported Cortex Agent logs or appeared in your Network Firewall Logs. 
+
+ Active Managed Assets 
+
+ Number of assets within the defined range reported Cortex XDR Agent logs. 
+
+ Modified By 
+
+ Username of the user who last changed the range. 
+
+ Modification Time 
+
+ The timestamp shows when this range was last changed. 
+
+ Define trusted networks 
+
+ Select Assets → Network Configuration → Trusted Networks . 
+
+ Click Add trusted network : 
+
+ To manually add a trusted network, select Create new and enter the name, description, and CIDR. Click Update to add the network. 
+
+ To upload .CSV file, select Upload from file . Every row in the file must contain a value for name and CIDR range. You can download a sample file to view the correct format. Click Upload to add the networks. 
+
+ Previous Asset configurations 
+
+ Next Application criteria 
+
+ Last updated 11 days ago 
+
+ Was this helpful?

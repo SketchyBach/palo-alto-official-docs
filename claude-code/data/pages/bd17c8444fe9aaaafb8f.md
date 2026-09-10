@@ -1,0 +1,62 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/configure-cortex-xsoar/integrations/add-an-integration-instance/troubleshoot-integrations
+fetched_at: 2026-09-06T10:35:36Z
+source: cortex-platform
+---
+
+# Troubleshoot integrations | 8.10 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.10 
+
+ Configure Cortex XSOAR 
+
+ Integrations 
+
+ Add an integration instance 
+
+ Cortex XSOAR 8.10 On-prem 
+
+ Troubleshoot integrations 
+
+ Troubleshoot integrations in Cortex XSOAR 8.10 On-prem. 
+
+ When troubleshooting integrations, do the following: 
+
+ Use the Test button in the integration instance. 
+
+ Verify the integration settings. Check settings such as usernames, URLs, and passwords. 
+
+ Download the debug log file and review its contents. 
+
+ In the following example, you receive a 401 unauthorized error code after testing the integration. 
+
+ integration-error.png 
+
+ Click Run Test & Download Debug log, to download the debug file locally. You can verify what server the URL request is being forwarded to and any other reasons as to why you received this error code. The 401 unauthorized error code usually relates to invalid error credentials, expired tokens, or incorrect API settings. 
+
+ Enable verbose or debug-level logging on the integration. 
+
+ Review the integration logs ( Settings & Info → Settings → Integrations → Integration Logs ). 
+
+ You can sort the logs by things such as source instance, command, and log level. You can also export the file 
+
+ If you are unable to fix the integration, contact Customer Support for further assistance. 
+
+ Previous Configure integration permissions 
+
+ Next Integration commands in the CLI 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,146 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/cortex-xdr-xql/build-xql-queries/overview-of-the-query-center/edit-and-run-queries-in-query-center
+fetched_at: 2026-09-06T09:46:16Z
+source: cortex-platform
+---
+
+# Edit and run queries in Query Center | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Reference and developer docs 
+
+ Cortex XDR XQL 
+
+ Build XQL queries 
+
+ Overview of the Query Center 
+
+ Cortex XDR 5.x 
+
+ Edit and run queries in Query Center 
+
+ Edit, test, and run XQL queries in Query Center. 
+
+ From the Query Center you can take action on the Completed and In Progress queries that are running on your tenant. 
+
+ Right-click a query to see the available options, where some of the options differ depending on the type of query you've selected. The pivot (right-click) options described below are some of the ones that may require further explanation. 
+
+ Note 
+
+ If query limits are applied to your tenant, the number of concurrent running queries is limited per user. If query usage is reaching the defined limit, a system message warns you that a high query load is impacting performance. If you exceed the limit, new queries are blocked until query usage drops. You can view all active queries under Query Center → Active Queries , and cancel queries to reduce the load. 
+
+ View the results of a query 
+
+ You can view the original results of an XQL query when it was originally run in the Query Builder and added to the Query Center. 
+
+ Select Investigation & Response → Search → Query Center → Query History . 
+
+ Identify the XQL query by looking in the Query Name and Query Description columns. 
+
+ The Query Description column displays the parameters that were defined for a query. If necessary, use the filter on the column to reduce the number of queries displayed. 
+
+ Queries that were created from a Query Builder template are prefixed with the template name. 
+
+ Right-click anywhere in the XQL query row and select Show results . 
+
+ You have the option to Show results in new tab or Show results in same tab . 
+
+ (Optional) Export to file to export the results to a tab-separated values (TSV) file. 
+
+ (Optional) Perform additional investigation on the issues. 
+
+ Right-click a value in the results table to see the options for further investigation. 
+
+ Run a query 
+
+ You can run a query for a Graph Search query. 
+
+ Select Investigation & Response → Search → Query Center → Query History . 
+
+ Identify the Graph Search query by looking in the Query Name and Query Description columns. 
+
+ The Query Description column displays the parameters that were defined for a query. If necessary, use the filter on the column to reduce the number of queries displayed. 
+
+ Right-click anywhere in the Graph Search query row and select Run query . 
+
+ You have the option to Run in same tab or Show in new tab . 
+
+ (Optional) The Graph Search results are displayed in a graph format by default. You can toggle to Table to view the results in a table format. In addition, you can always export the graph results using the icon at the top of the page to a PNG, SVG, or TSV file. Table results can only be exported to a TSV file. 
+
+ (Optional) Perform additional investigation on the graph or table results. 
+
+ On the graph results, you can either hover or select different nodes for further investigation. While in the table results, you can select any cell in the table for further investigation. 
+
+ Modify a query 
+
+ After you view the query results of an XQL query or run a Graph Search query as explained in the tasks above, you can change your search parameters to refine the search results or correct a search parameter. 
+
+ For queries created in XQL, type your changes in the XQL query field where the original query is listed and the results are displayed in the Query Results tab. After modifying the query, you can run, schedule, or save the query. 
+
+ For queries created with a Query Builder template, the defined parameters are shown at the top of the Results page. Select Back to edit to modify the query with the template format or Continue in XQL to open the query in XQL. 
+
+ For Graph Search queries, the graph results are displayed. Click anywhere in the Graph Search query interface, where your existing query is defined, to display the complete query, update your query, and rerun the search. 
+
+ Schedule a query to run 
+
+ You can schedule an XQL query to run on or before a specific date. Cortex XDR creates a new query in the Query Center , and when the query completes, it displays a notification in the notification bar. 
+
+ How to schedule a query 
+
+ Select Investigation & Response → Search → Query Center → Query History . 
+
+ Right-click anywhere in the query and then select Schedule . 
+
+ Choose a schedule option and the date and time that the query should run: 
+
+ Run one time query on a specific date 
+
+ Run query by date and time : Schedule a recurring query. 
+
+ Click OK to schedule the query. 
+
+ Cortex XDR creates a new query and schedules it to run on or by the selected date and time. 
+
+ View the status of the scheduled query on the Scheduled Queries page. 
+
+ You can also make changes to the query, edit the frequency, view when the query will next run, or disable the query. For more information, see Manage scheduled queries . 
+
+ Cancel a query 
+
+ Note 
+
+ You can cancel your own queries. To cancel queries run by other users, you must have View/Edit permissions for Configurations → Query Management . By default, Instance administrators have View/Edit permission. 
+
+ On the Active Queries tab you can cancel one or more In Progress queries. You might want to cancel long-running queries, or cancel queries to reduce tenant consumption. If query limits are applied to your tenant and you exceed the defined limit of concurrent running queries, new queries are blocked until the number of active queries falls below the threshold. Canceling active queries allows you to unblock and run new queries. 
+
+ How to cancel a query 
+
+ Select Investigation & Response → Search → Query Center → Active Queries . 
+
+ Select one or more queries and click Cancel Selected Queries . 
+
+ Note 
+
+ Cancelled queries show a Canceled status. You can see details of all canceled queries in the Query History tab. 
+
+ You cannot cancel correlation rule queries. 
+
+ If you cancel a scheduled query, only the current query is cancelled. Future recurrences of the scheduled query are not affected. 
+
+ Previous Overview of the Query Center 
+
+ Next Query Center reference information 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

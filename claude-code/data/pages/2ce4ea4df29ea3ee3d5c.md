@@ -1,0 +1,108 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-xql/build-xql-queries/xql-query-entities/create-image-load-query
+fetched_at: 2026-09-06T10:10:50Z
+source: cortex-platform
+---
+
+# Create image load query | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Cortex Cloud XQL 
+
+ Build XQL queries 
+
+ XQL query entities 
+
+ Cortex Cloud Posture 
+
+ Create image load query 
+
+ Create image load queries in Cortex Cloud Posture Management to investigate loaded images. 
+
+ From the Query Builder, you can investigate connections between image load activity, acting processes, and endpoints. 
+
+ Some examples of image load queries you can run include: 
+
+ Module load into process events by module path or hash. 
+
+ How to build an image load query 
+
+ From Cortex Cloud, select Investigation & Response → Search → Query Templates . 
+
+ Select IMAGE LOAD . 
+
+ Enter the search criteria for the image load activity query. 
+
+ Type of image activity: All , Image Load , or Change Page Protection . 
+
+ Identifying information about the image module: Full Module Path , Module MD5 , or Module SHA256 . 
+
+ By default, Cortex Cloud will return the activity that matches all the criteria you specify. To exclude a value, toggle the = option to =! . 
+
+ (Optional) To limit the scope to a specific source, click the + to the right of the value and specify the exception value. 
+
+ Specify one or more attributes for the source. 
+
+ Use a pipe ( | ) to separate multiple values. Use an asterisk ( * ) to match any string of characters. 
+
+ NAME : Name of the parent process. 
+
+ PATH : Path to the parent process. 
+
+ CMD : Command-line used to initiate the process, including any arguments, up to 128 characters. 
+
+ MD5 : MD5 hash value of the process. 
+
+ SHA256 : SHA256 hash value of the process. 
+
+ USER NAME : User who executed the process. 
+
+ SIGNATURE : Signing status of the parent process: Signature Unavailable, Signed, Invalid Signature, Unsigned, Revoked, Signature Fail. 
+
+ SIGNER : Entity that signed the certificate of the parent process. 
+
+ PID : Process ID of the parent process. 
+
+ Run search for both the process and the Causality actor : The causality actor—also referred to as the causality group owner (CGO)—is the parent process in the execution chain that the app identified as being responsible for initiating the process tree. Select this option if you want to apply the same search criteria to the causality actor. If you clear this option, you can then configure different attributes for the causality actor. 
+
+ ( Optional ) Limit the scope to an endpoint or endpoint attributes: 
+
+ Specify one or more of the following attributes: Use a pipe ( | ) to separate multiple values. 
+
+ Use an asterisk ( * ) to match any string of characters. 
+
+ HOST : HOST NAME , HOST IP address, HOST OS , HOST MAC ADDRESS , or INSTALLATION TYPE . 
+
+ INSTALLATION TYPE can be either Cortex XDR agent or Data Collector. 
+
+ PROCESS : NAME , PATH , CMD , MD5 , SHA256 , USER NAME , SIGNATURE , or PID . 
+
+ Specify the time period for which you want to search for events. 
+
+ Options are Last 24H (hours), Last 7D (days), Last 1M (month), or select a Custom time period. 
+
+ Choose when to run the query. 
+
+ Select the calendar icon to schedule a query to run on or before a specific date or Run to run the query immediately and view the results in the Query Center . 
+
+ While the query is running, you can always navigate away from the page and a notification is sent when the query completes. You can also Cancel the query or run a new query, where you have the option to Run only new query (cancel previous) or Run both queries . 
+
+ When you are ready, view the results of the query. For more information, see Review XQL query results . 
+
+ Previous Create file query 
+
+ Next Create network connections query 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

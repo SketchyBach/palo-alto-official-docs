@@ -1,0 +1,475 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/agentix-api/cortex-agentix/correlation-rules
+fetched_at: 2026-09-06T10:56:26Z
+source: cortex-platform
+---
+
+# Correlation Rules | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ API 
+
+ Cortex AgentiX 
+
+ AgentiX APIs 
+
+ Cortex Agentix 
+
+ Correlation Rules 
+
+ APIs for managing Correlation Rules 
+
+ Get Correlation Rules 
+
+ post https://api-yourfqdn /public_api/v1/correlations/get 
+
+ Return a list of correlation rules. You can return all correlation rules or filter results. You can also return extended results with all details included. 
+
+ The response is concatenated using AND condition (OR is not supported). 
+
+ The maximum result set size is >100. 
+
+ Offset is the zero-based number of incidents from the start of the result set. 
+
+ Requires the granular RBAC permission for this feature. 
+
+ Header parameters 
+
+ Authorization string Required 
+
+ {api_key} 
+
+ x-xdr-auth-id string Required 
+
+ {api_key_id} 
+
+ Body 
+
+ application/json 
+
+ request_data object Required 
+
+ Show properties 
+
+ Responses 
+
+ 200 
+
+ OK 
+
+ application/json 
+
+ objects_count integer Optional 
+
+ objects object[] Optional 
+
+ Show properties 
+
+ objects_type string Optional 
+
+ 400 
+
+ Bad Request. Got invalid JSON. 
+
+ application/json 
+
+ 401 
+
+ Unauthorized access. An issue occurred during authentication. This can indicate an incorrect key, id, or other invalid authentication parameters. 
+
+ application/json 
+
+ 402 
+
+ Unauthorized access. User does not have the required license type to run this API. 
+
+ application/json 
+
+ 403 
+
+ Forbidden access. The provided API Key does not have the required RBAC permissions to run this API. 
+
+ application/json 
+
+ 500 
+
+ Internal server error. A unified status for API communication type errors. 
+
+ application/json 
+
+ post /public_api/v1/correlations/get 
+
+ HTTP 
+
+ Ask Copy 
+
+ POST /public_api/v1/correlations/get HTTP/1.1 
+ Host: api-yourfqdn 
+ Authorization: text 
+ x-xdr-auth-id: text 
+ Content-Type: application/json 
+ Accept: */* 
+ Content-Length: 40 
+
+ { 
+ "request_data": { 
+ "extended_view": false 
+ } 
+ } 
+
+ 200 
+
+ OK 
+
+ Ask Copy 
+
+ { 
+ "objects_count": 2, 
+ "objects": [ 
+ { 
+ "id": 1, 
+ "name": "Test", 
+ "severity": "SEV_040_HIGH", 
+ "xql_query": "dataset = xdr_data | filter event_type = 1", 
+ "is_enabled": "DISABLED", 
+ "description": "", 
+ "alert_name": "Test", 
+ "alert_category": "User Defined", 
+ "alert_description": null, 
+ "alert_fields": { 
+ "agent_hostname": null, 
+ "action_local_ip": null, 
+ "action_remote_ip": null, 
+ "action_remote_port": null, 
+ "agent_device_domain": null, 
+ "actor_effective_username": null, 
+ "actor_process_image_name": null, 
+ "actor_process_image_path": null, 
+ "actor_process_command_line": null, 
+ "actor_process_image_sha256": null 
+ }, 
+ "execution_mode": "SCHEDULED", 
+ "search_window": "10 minutes", 
+ "simple_schedule": "10 minutes", 
+ "timezone": "Asia/Jerusalem", 
+ "crontab": "*/10 * * * *", 
+ "suppression_enabled": false, 
+ "suppression_duration": null, 
+ "suppression_fields": null, 
+ "dataset": "alerts", 
+ "user_defined_severity": null, 
+ "user_defined_category": "event_type", 
+ "mitre_defs": {}, 
+ "investigation_query_link": null, 
+ "drilldown_query_timeframe": "ALERT", 
+ "mapping_strategy": "AUTO" 
+ }, 
+ { 
+ "id": 28, 
+ "name": "AnotherTest", 
+ "severity": "SEV_030_MEDIUM", 
+ "xql_query": "dataset = xdr_data | fields event_type, action_process_username, uuid, action_boot_time | comp values(*) as * by action_process_username\n", 
+ "is_enabled": "ENABLED", 
+ "description": "Some description", 
+ "alert_name": "Test Alert", 
+ "alert_category": "DISCOVERY", 
+ "alert_description": "Test", 
+ "alert_fields": {}, 
+ "execution_mode": "SCHEDULED", 
+ "search_window": "1 hours", 
+ "simple_schedule": "10 minutes", 
+ "timezone": "Asia/Jerusalem", 
+ "crontab": "*/10 * * * *", 
+ "suppression_enabled": true, 
+ "suppression_duration": "1 hours", 
+ "suppression_fields": [ 
+ "event_type" 
+ ], 
+ "dataset": "alerts", 
+ "user_defined_severity": null, 
+ "user_defined_category": null, 
+ "mitre_defs": { 
+ "TA0005 - Defense Evasion": [ 
+ "T1014 - Rootkit" 
+ ] 
+ }, 
+ "investigation_query_link": "dataset = xdr_data | fields event_type, action_process_username, uuid, action_boot_time | comp values(*) as * by action_process_username", 
+ "drilldown_query_timeframe": "ALERT", 
+ "mapping_strategy": "CUSTOM" 
+ } 
+ ], 
+ "objects_type": "correlations" 
+ } 
+
+ Insert or update Correlation Rules 
+
+ post https://api-yourfqdn /public_api/v1/correlations/insert 
+
+ Insert new Correlation Rules or update existing Correlation Rules. 
+
+ Note: The Correlation Rule id is tenant specific and can't be used across tenants. Inserting Correlation Rules with the same id as an existing Correlation Rule on that tenant will overwrite the existing Correlation Rule. 
+
+ Requires the granular RBAC permission for this feature. 
+
+ Header parameters 
+
+ Authorization string Required 
+
+ {api_key} 
+
+ x-xdr-auth-id string Required 
+
+ {api_key_id} 
+
+ Body 
+
+ application/json 
+
+ request_data object[] Required 
+
+ Show properties 
+
+ Responses 
+
+ 200 
+
+ OK 
+
+ application/json 
+
+ added_objects object[] Optional 
+
+ List of Correlation Rule objects added. 
+
+ Show properties 
+
+ updated_objects object[] Optional 
+
+ List of Correlation Rule objects updated. 
+
+ Show properties 
+
+ errors string[] Optional 
+
+ List of error messages, if there are any. 
+
+ 400 
+
+ Bad Request. Got invalid JSON. 
+
+ application/json 
+
+ 401 
+
+ Unauthorized access. An issue occurred during authentication. This can indicate an incorrect key, id, or other invalid authentication parameters. 
+
+ application/json 
+
+ 402 
+
+ Unauthorized access. User does not have the required license type to run this API. 
+
+ application/json 
+
+ 403 
+
+ Forbidden access. The provided API Key does not have the required RBAC permissions to run this API. 
+
+ application/json 
+
+ 500 
+
+ Internal server error. A unified status for API communication type errors. 
+
+ application/json 
+
+ post /public_api/v1/correlations/insert 
+
+ HTTP 
+
+ Ask Copy 
+
+ POST /public_api/v1/correlations/insert HTTP/1.1 
+ Host: api-yourfqdn 
+ Authorization: text 
+ x-xdr-auth-id: text 
+ Content-Type: application/json 
+ Accept: */* 
+ Content-Length: 978 
+
+ { 
+ "request_data": [ 
+ { 
+ "rule_id": 28, 
+ "name": "Test", 
+ "severity": "SEV_030_MEDIUM", 
+ "xql_query": "dataset = xdr_data | fields event_type, action_process_username, uuid, action_boot_time | comp values(*) as * by action_process_username\n", 
+ "is_enabled": "true", 
+ "description": "RTESRTESTestret", 
+ "alert_name": "Test", 
+ "alert_category": "DISCOVERY", 
+ "alert_description": "Test", 
+ "alert_fields": {}, 
+ "execution_mode": "REAL_TIME", 
+ "search_window": "1 hours", 
+ "simple_schedule": "10 minutes", 
+ "timezone": "Asia/Jerusalem", 
+ "crontab": "*/10 * * * *", 
+ "suppression_enabled": true, 
+ "suppression_duration": "1 hours", 
+ "suppression_fields": [ 
+ "event_type" 
+ ], 
+ "dataset": "alerts", 
+ "user_defined_severity": null, 
+ "user_defined_category": null, 
+ "mitre_defs": { 
+ "TA0005 - Defense Evasion": [ 
+ "T1014 - Rootkit" 
+ ] 
+ }, 
+ "investigation_query_link": "dataset = xdr_data | fields event_type, action_process_username, uuid, action_boot_time | comp values(*) as * by action_process_username", 
+ "drilldown_query_timeframe": "ALERT", 
+ "mapping_strategy": "AUTO" 
+ } 
+ ] 
+ } 
+
+ 200 
+
+ OK 
+
+ Ask Copy 
+
+ { 
+ "added_objects": [], 
+ "updated_objects": [ 
+ { 
+ "id": 28 
+ }, 
+ { 
+ "status": "Updated the correlation rule with the ID: 28 successfully" 
+ } 
+ ], 
+ "errors": [] 
+ } 
+
+ Delete Correlation Rules 
+
+ post https://api-yourfqdn /public_api/v1/correlations/delete 
+
+ Delete correlation rules selected by filter. 
+
+ Requires the granular RBAC permission for this feature. 
+
+ Header parameters 
+
+ Authorization string Required 
+
+ {api_key} 
+
+ x-xdr-auth-id string Required 
+
+ {api_key_id} 
+
+ Body 
+
+ application/json 
+
+ request_data object Required 
+
+ Show properties 
+
+ Responses 
+
+ 200 
+
+ OK 
+
+ application/json 
+
+ objects_count integer Optional 
+
+ objects integer[] Optional 
+
+ 400 
+
+ Bad Request. Got invalid JSON. 
+
+ application/json 
+
+ 401 
+
+ Unauthorized access. An issue occurred during authentication. This can indicate an incorrect key, id, or other invalid authentication parameters. 
+
+ application/json 
+
+ 402 
+
+ Unauthorized access. User does not have the required license type to run this API. 
+
+ application/json 
+
+ 403 
+
+ Forbidden access. The provided API Key does not have the required RBAC permissions to run this API. 
+
+ application/json 
+
+ 500 
+
+ Internal server error. A unified status for API communication type errors. 
+
+ application/json 
+
+ post /public_api/v1/correlations/delete 
+
+ HTTP 
+
+ Ask Copy 
+
+ POST /public_api/v1/correlations/delete HTTP/1.1 
+ Host: api-yourfqdn 
+ Authorization: text 
+ x-xdr-auth-id: text 
+ Content-Type: application/json 
+ Accept: */* 
+ Content-Length: 99 
+
+ { 
+ "request_data": { 
+ "extended_view": false, 
+ "filters": [ 
+ { 
+ "field": "rule_id", 
+ "operator": "EQ", 
+ "value": 28 
+ } 
+ ] 
+ } 
+ } 
+
+ 200 
+
+ OK 
+
+ Ask Copy 
+
+ { 
+ "objects_count": 1, 
+ "objects": [ 
+ 28 
+ ] 
+ } 
+
+ Previous Cases 
+
+ Next Dashboards 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Palo Alto Corpus Maintenance"
+  short_description: "Audit, refresh, and repair the verified documentation corpus"
+  default_prompt: "Audit or maintain the local Palo Alto and KOI documentation corpus while preserving provenance and existing data."

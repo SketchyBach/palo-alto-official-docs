@@ -1,0 +1,48 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/kustomer/kustomer
+fetched_at: 2026-09-06T10:09:26Z
+source: cortex-platform
+---
+
+# Kustomer | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Cortex Cloud Data Sources and Connectors 
+
+ Vendor-specific data sources and connectors 
+
+ Kustomer 
+
+ Cortex Cloud Posture 
+
+ Kustomer 
+
+ Use Kustomer data for Cortex Cloud. 
+
+ The capabilities and sub-capabilities listed for this connector are available with any active Cortex XSIAM or Cortex Cloud Posture Security license. 
+
+ This connector includes the following capabilities and sub-capabilities (if applicable): 
+
+ Security posture: Detect, monitor and alert on settings of your SaaS application. 
+
+ saas-posture-config-remediation : Help remediate the misconfigured security settings of your SaaS application. 
+
+ To configure this connector, follow the steps outlined in the configuration wizard. 
+
+ Previous Kustomer 
+
+ Next LastPass 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

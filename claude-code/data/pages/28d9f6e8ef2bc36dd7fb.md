@@ -1,0 +1,66 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-threat-intel-management-guides/6.13/configure-indicators/indicator-management/indicator-relationships/create-indicator-relationships
+fetched_at: 2026-09-06T10:49:49Z
+source: cortex-platform
+---
+
+# Create Indicator Relationships | 6.13 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Threat Intel Management Guides 
+
+ 6.13 
+
+ Configure Indicators 
+
+ Indicator Management 
+
+ Indicator Relationships 
+
+ XSOAR 6.13 Threat Intel Management 
+
+ Create Indicator Relationships 
+
+ Create relationships in Cortex XSOAR 6.13 Threat Intel Management. 
+
+ Indicator relationships are used to enrich investigations with information from indicators that are connected in various ways to other indicators. These relationships can help you pivot from what might be a false positive to a fledged campaign. 
+
+ You can create relationships automatically through specific integration feeds. 
+
+ To enable the automatic creation of relationships, ensure that the Create relationships checkbox is selected in the integration settings. 
+
+ In addition, you can create relationships manually. 
+
+ Navigate to the Threat Intel page. 
+
+ Click on an indicator. 
+
+ Under Relationships , click +Add . 
+
+ A window with all of the indicators in your system appears. 
+
+ Enter a query by which to search for the relevant indicators. You can optionally limit the time range by which you are searching. 
+
+ Select the indicator(s) to which you want to create the relationship. 
+
+ Set the relationship types. By default, the types that are presented are related-to . 
+
+ For example, IP address x.x.x.x is related-to IP address y.y.y.y . 
+
+ Click Save . 
+
+ Previous Indicator Relationships 
+
+ Next Leverage Relationships in the Canvas 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

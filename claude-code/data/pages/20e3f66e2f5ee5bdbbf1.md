@@ -1,0 +1,56 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.12/onboard-multi-tenant/plan-your-multi-tenant-deployment/change-the-port-for-host-to-main-communication
+fetched_at: 2026-09-06T10:50:18Z
+source: cortex-platform
+---
+
+# Change the Port for Host to Main Communication | 6.12 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Multi-Tenant Guides 
+
+ 6.12 (EoL) 
+
+ Onboard Multi-Tenant 
+
+ Plan Your Multi-Tenant Deployment 
+
+ XSOAR 6.12 Multi-Tenant EoL 
+
+ Change the Port for Host to Main Communication 
+
+ Set a custom host-to-main port in Cortex XSOAR 6.12 multi-tenant deployments. 
+
+ In some cases, a host in an external network might not be able to connect to the main account via the default port, due to security restrictions. You can add a server configuration to open a custom port. The server configuration must be added on the main account. 
+
+ In the main account, go to Settings → ABOUT → Troubleshooting . 
+
+ In the Server Configuration section click Add Server Configuration . 
+
+ Key 
+
+ Value 
+
+ host.communication.port 
+
+ port number 
+
+ Restart the server. 
+
+ For a high availability deployment, restart all main servers. 
+
+ Previous Communication in a Multi-Tenant Deployment 
+
+ Next Multi-Tenant Deployment Installation 
+
+ Last updated 3 days ago 
+
+ Was this helpful?

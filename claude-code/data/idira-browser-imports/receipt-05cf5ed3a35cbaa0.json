@@ -1,0 +1,284 @@
+{
+  "source": "official interactive Idira portal",
+  "host": "docs.cyberark.com",
+  "imported_at": "2026-08-16T10:08:50Z",
+  "capture_sha256": "05cf5ed3a35cbaa0b9abd37428f5fef5cba30dce98a3ecd3961416912d4b8a61",
+  "records": [
+    {
+      "url": "https://docs.cyberark.com/ai/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "8c6bdfbcef2219e107519532a181b1da77f61192879053a2ac45c1702c98c1b4",
+      "local_path": "data/pages/b5c93930a420c5e46e65.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/whats-new/latest/en/index.html",
+      "sha256": "498f4f2be926f1ce0690dab371e3b09151694c4bb61cea83e30f67b9fc3f35f1",
+      "local_path": "data/pages/4291d891a81354d05fd0.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/manage/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "f6dbdee1de6de0b470b6c2de1c957c1f4c5a07a56df77b0bedefa57e5f2c2003",
+      "local_path": "data/pages/c710c22df9a7c2f6b48e.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/setup/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "92e0f81f4c7feab879530f08792b38371192ee049a85502e2f2ad8df21a564f4",
+      "local_path": "data/pages/64fc49fd6f48fe43b7d8.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/welcome/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "6c33e274bfb3a449bde20fc4ec94c847c86540ce9d8e0d6642c0bb1555f52538",
+      "local_path": "data/pages/c34217b54cf9117fc35a.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/portal/latest/en/docs.htm",
+      "sha256": "4e1e757da89e12c944f7d6ff1eb38ee6b898dcc00f47803285370d7c8586b754",
+      "local_path": "data/pages/29303a51f4ae9096af14.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/detect-and-respond/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "e2fa02a9d50a90ceac99ec99a0d08c4e8c205ff4c5e46659a8c9bc5e984f6221",
+      "local_path": "data/pages/6deba19b0b15fb4a15e3.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/access/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "eca34be625ac578d4b70f034b89d46108483eb0d83eef702de474f5dd62516e0",
+      "local_path": "data/pages/17891ba37af59636a145.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/audit-and-reports/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "33f4e3442f726bc51cc5ccd5c8f9dd786331ef7800ec7eb592e694bc6ba3cd0f",
+      "local_path": "data/pages/64460300bc75958ac566.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/privilege-cloud-secrets-rotation/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "02b355f7850d58a58cc7a14157f6a27e54c1d7b60718ebc791882fb9899cbb0b",
+      "local_path": "data/pages/679ae2012f54cd788fa2.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/find-sia-docs/latest/en/content/introduction/sia-new-doc-location.htm",
+      "sha256": "0616ddf156c3ae9870141b76894e84a15297dd2ecfcdcaf84dda81e88d7e0520",
+      "local_path": "data/pages/9b3963fa456fd7562769.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/find-identity-administration-docs/latest/en/content/getstarted/identity-new-doc-location.htm",
+      "sha256": "be2ea135645744318f5ded804f44cd6d788088f0c2c5b84b4bf01cff650d2344",
+      "local_path": "data/pages/739c6e3b2b6c72063cfc.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/find-sca-docs/latest/en/content/introduction/sca-new-doc-location.htm",
+      "sha256": "cd3c2b2c39d59536e8cf2e17700bf369fc0c91b963729d96d0cd4b237ae42873",
+      "local_path": "data/pages/b29ca507558f56099d40.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/cloud-visibility/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "97b193e27a51fd0d956cf54785eb5ba2a1fd080e27f33213ea124e0d43b02b76",
+      "local_path": "data/pages/be73d4b8c4207775af42.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/remote-access-standard/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "7a13321e71d416009a04916c64fed008b04e219bf86da5e7ea7394a59b51960e",
+      "local_path": "data/pages/37f90d1ed69ff86fa62f.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/epm/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "fba1e280aa26fd82252cd6d88bf92d73f87172d9b2df84f93b6e38471acdcbf5",
+      "local_path": "data/pages/b16e6de7a07a51bc8bb3.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/iga/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "3d3f53b9d6cd2d0b73f7d4607a90a6f0f4d5335eb104efdc03e4ad532a8573f8",
+      "local_path": "data/pages/9a4f97ff899ad4ae9d7a.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/find-sws-docs/latest/en/content/admin/sws-new-doc-location.htm",
+      "sha256": "66b56bc6ddcc991273c66180e4d1795c082be560829379f126dd6ce48bfd5b6b",
+      "local_path": "data/pages/aa0c1038ec715595a60a.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/identity-flows/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "108a9ac6e5f92b1676467d09e4df9a07f374d06973409baf5c7d77594ad6f020",
+      "local_path": "data/pages/1953fc51077595cfeacc.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/secrets-hub-privilege-cloud/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "2d2eb95f4910ff3c444b2775497f4b3356e76994ad142fde331de27edcbf2721",
+      "local_path": "data/pages/41004eaca48b50a1c9b6.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/find-wpm-docs/latest/en/content/getstarted/find-wpm-documentation.htm",
+      "sha256": "8c03fcdb32085874c36c5063a1f874bb542e5c8ca5db4f0e642903c2c5c799f0",
+      "local_path": "data/pages/4717e1f696187eda7669.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/secrets-manager-saas/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "13f2e4d70ff4ad73c55c3338ef525e7c3fd22baebe8fe29202147724eb9d98f5",
+      "local_path": "data/pages/e108ee619999ae7052c6.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/find-identity-docs/latest/en/content/getstarted/identity-new-doc-location.htm",
+      "sha256": "c10ee2a1756dae3aa206492df7c83d86279c7895e713bbae1646689c3beb83d1",
+      "local_path": "data/pages/d18e483634909594b022.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/find-discovery-context-docs/latest/en/content/disco/disco-new-doc-location.htm",
+      "sha256": "701c2f7d0aa2dfa59375001d3ebe96552b2e7b2c197f150ec4aea76e717cef85",
+      "local_path": "data/pages/e9c658e09da1d64df9aa.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/secure-browser/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "307403ad4ef8d97e33dc20b5ab6cd9adac8b607bf28e81b8f6d48927b4b09f33",
+      "local_path": "data/pages/3abf07c0a8585c3c5f7b.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/pam-self-hosted/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "d553e638fe8c0a1cad643bc41fc44069c051d14c40826959904b3d7d8bdbe163",
+      "local_path": "data/pages/36dfa5ce3b98e1624972.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/credential-providers/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "ca7a98e6ae6ef204a5743982860905d5c78ad879b613e27a5f2177461b6edc8f",
+      "local_path": "data/pages/43dc13afb4d9eb71db0f.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/identity-compliance/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "37de3c7121a206ea6b53ea3172f2be18a60d469769cb3f4c474179ca2154143b",
+      "local_path": "data/pages/c624f9c717eb7b3eb656.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/developer/latest/en/content/developer/developer-home.htm",
+      "sha256": "4863ebf3840f1a960b1ea641bb0d614719bfa634d8a78715a883e9458cc69a09",
+      "local_path": "data/pages/42e348ef283fbbe3f568.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/secrets-manager-sh/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "08e21bb32b34cd8b44d1c16524a9fa28fdb58773985881394504305fdd510340",
+      "local_path": "data/pages/640817bacc6e5a402e7d.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/istp/latest/en/content/istp/what-is%20istp.htm",
+      "sha256": "e541a9b0f838883afa2223fc2cd2cbac9cc8ac611d2de95f77b5b54bacd3dd98",
+      "local_path": "data/pages/fe4c6df86dff624ad98c.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/third-party-notices/latest/en/content/thirdpartynotices.htm",
+      "sha256": "86f2118357e776bdcd3440d44659415b001771f65bad454461852bcd8e64c11d",
+      "local_path": "data/pages/95b1bd60acb380e57bd3.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/end-of-life-policy/latest/en/content/end-of-lifepolicy.htm",
+      "sha256": "2eba0b7094e0a21ef92a19ccdd0ddc16a3bbbfe9b027f419e854407b314cdcbd",
+      "local_path": "data/pages/7c5f098b9e148e60111d.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/whats-new/latest/en/index.html?service=cora-ai",
+      "sha256": "29a9bbf8435e35a683bee302cb3b07c44996043460d4acf2bf05180619ae86c5",
+      "local_path": "data/pages/c5cc65b41adfd66943f0.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/msp-hub/latest/en/content/resources/_topnav/cc_home.htm",
+      "sha256": "b0b8dfeb08cf3306f2fa3b37367f5324d2218bc0dd7a3b00e9e7c3ea3a2df1c4",
+      "local_path": "data/pages/0dec19dd0944586d0421.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/ai/latest/en/content/ai/coraai-introduction.htm",
+      "sha256": "396abdc89518c18850f2fbefb387009dc5d4a92fd259506c31644691497e7116",
+      "local_path": "data/pages/420f9dc2ccadb4529bb8.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/ai/latest/en/content/ai/coraai-chatbot.htm",
+      "sha256": "0a857dc447c76b03c1a0b938bbb6e10adf62f6f512392724a5f35ac43a838474",
+      "local_path": "data/pages/31462e706de0f370d65b.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/secrets-manager-saas/latest/en/content/conjurcloud/ccl-swa-gcp.htm",
+      "sha256": "b2f91a8a1794123f3d70fc45dabbefd73b203a082b57ecd27cc2979047d29b2f",
+      "local_path": "data/pages/e329a244e8fd8a8bc13d.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/detect-and-respond/latest/en/content/itdr/alerts/privilege-alerts/spc-overview.htm",
+      "sha256": "cdcda74c00d0635f13589409a657b56912eb1b1cc9a256f2b78c6eb83d1a68ca",
+      "local_path": "data/pages/fd4e5644e2aa1a9f33e1.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/ai/latest/en/content/ai/coraai-preferences.htm",
+      "sha256": "ea076d152f62a4c6c1fbbdb846b84a40e7c62e963ee7b17d4e9b143a213b637f",
+      "local_path": "data/pages/c4776b12784a43df0ef3.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/remote-access-standard/latest/en/content/webservices/rest_api.htm",
+      "sha256": "e3e443eae039251d4f463b90f631ee9f19d0150ba6c68cf6995a694cf950453d",
+      "local_path": "data/pages/d2f5217be271717360ec.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/iga/latest/en/content/integration/active-directory.htm",
+      "sha256": "70336a957b5d4bcbb12dab22d8ad55f8a241e990632cbbecbd6a2b8fcde8563a",
+      "local_path": "data/pages/dad141ea01bb9a0cc840.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/iga/latest/en/content/admin/enable-provisioning-policies.htm",
+      "sha256": "6de7d8ff228a080fc142401f53720439c44325b6d9b3bfd551f401ab32a2f6af",
+      "local_path": "data/pages/7e1749b9c37fdea72fba.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/iga/latest/en/content/application-owner/configure-user-directory.htm",
+      "sha256": "7ebf27b36b4610baa0b06cdcbef95b1ee0e3c5be7030b40358674ba6137fa1d4",
+      "local_path": "data/pages/10c7e632b8ec844a78b0.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/privilege-cloud-secrets-rotation/latest/en/content/pasimp/windows-local-accounts-with-wmi.htm",
+      "sha256": "721865f121b381f31fd818c3d724741227c4a47a709f7741c9bc91708268658c",
+      "local_path": "data/pages/d9e55c612ca066e29254.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/secrets-hub-privilege-cloud/latest/en/content/secretshubcontent/sh-view-insights.htm",
+      "sha256": "8387faab62d47176a39a5893dd909b0164087ab75c491154b52104f2774f854e",
+      "local_path": "data/pages/245b461555653338d3a2.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/setup/latest/en/content/ispss-deployment/deployment/deploy-outbound-traffic-static.htm",
+      "sha256": "5eaa313a98e8ef0d1225cbd43b004aa6cd96d80ea1e054ae70a11d9daa3b42f8",
+      "local_path": "data/pages/097f433d89d429832c85.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/manage/latest/en/content/secureai/access-policies.htm",
+      "sha256": "03d73e37bb39765a1d7030ec47945b421dc31fe039f28cf64ee9395b70033a1d",
+      "local_path": "data/pages/06559b52f1c2eedbf228.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/pasimp/psm_configure_universal_connector.htm",
+      "sha256": "498a6c42dd821f84949d7b48be343aa1d6386c8eeedea1ec9368c81ba25ce72e",
+      "local_path": "data/pages/21d342f981886edcf50f.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/setup/latest/en/content/setup-space/introduction/setup-marketplace.htm",
+      "sha256": "30383d403e58f3a2e03433f3789b5fa6182f721e3cdfb81fe5643560324eb5ae",
+      "local_path": "data/pages/00cf27ccb3d3f68e3649.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/manage/latest/en/content/discovery/cloud-entitlements.htm",
+      "sha256": "943cbbed2115487da93678f571b6108c8d3517b5e391596e01b410153b9a0391",
+      "local_path": "data/pages/e1611df7460c5f59f5f5.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/iga/latest/en/content/admin/add-urls-to-allowlist.htm",
+      "sha256": "069163ac941e33317cfb81b4b115cc67ce1ec96d8bb3f1c942b68fff9b1b3131",
+      "local_path": "data/pages/f0dc5bd58ef9927f6b3e.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/setup/latest/en/content/identity/endpoints/deploy-mobile-apps-intune.htm",
+      "sha256": "16a917e4a1c5fd959a10dd723a186b65691bd3012d3755781a49d06ac13d74d5",
+      "local_path": "data/pages/9e73fe54fbf2a3dcd7e4.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/secrets-manager-saas/latest/en/content/conjurcloud/edge/ccl-edge-openshift-lp.htm",
+      "sha256": "5006ba3d6c51b2d2b74173ef4e0c3388327c6cccd0dce27a2630e08cec5afd58",
+      "local_path": "data/pages/a5c07b41deb3b7a25978.md"
+    },
+    {
+      "url": "https://docs.cyberark.com/epm/latest/en/content/release%20notes/rn-os-windows.htm",
+      "sha256": "1fd76478c7148a426d0270002c028bfe8a684682575fb7250a2c3d6391ef1183",
+      "local_path": "data/pages/53c4128108122c5768c6.md"
+    }
+  ],
+  "invalid": 0
+}

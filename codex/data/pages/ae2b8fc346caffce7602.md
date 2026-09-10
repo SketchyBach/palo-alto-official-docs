@@ -1,0 +1,60 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/8.6-eol/cortex-xdr-agent-for-macos/install-the-cortex-xdr-agent-for-mac/macos-15-sequoia-system-extensions-configuration-file
+fetched_at: 2026-09-06T11:26:58Z
+source: cortex-platform
+---
+
+# macOS 15 Sequoia system extensions configuration file | 8.6 (EoL) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR Agent 
+
+ Cortex XDR Agent Documentation 
+
+ 8.6 (EoL) 
+
+ Cortex XDR Agent for MacOS 
+
+ Install the Cortex XDR Agent for Mac 
+
+ Cortex XDR agent 8.6 EoL 
+
+ macOS 15 Sequoia system extensions configuration file 
+
+ This flow details how to deploy the Cortex XDR agent on macOS 15 Sequoia endpoints using the Palo Alto Networks system extensions configuration file. 
+
+ When applying the configuration profile on older OS versions, and then upgrading to macOS 15 Sequoia, some fields may not be propagated properly due to known macOS issue. We recommend creating a smart/dynamic group of machines running macOS 15 Sequoia, and applying this profile only to this group. 
+
+ If this has not been done previously, follow the instructions for installing the unified configuration profile to your MDM tool. Install with a unified configuration profile for MDMs 
+
+ Download the signed or unsigned system extensions configuration profile. 
+
+ Download the signed configuration profile (CortexXDR_SystemExtensionsSequoia_V1_SignedPANW.mobileconfig) 
+
+ SHA256: 35796ab146072f9beef9fc0398d567cba23432244ff38268124b16aa000ab148 
+
+ MD5: e354fb7dcf7e17fe21982f3974537e61 
+
+ Download the unsigned configuration profile (CortexXDR_SystemExtensionsSequoia_V1_SignedPANW.mobileconfig) 
+
+ SHA256: f852abf35b525bc4eb25ad05b4590980c72ebfc623eeeda958f4e32cabcf9941 
+
+ MD5: 66aaf5535d5eba67ef8df9f2bf28980a 
+
+ Create a smart/dynamic group of machines running macOS 15 Sequoia in your organization. 
+
+ Upload/install the profile, and add this smart group to the profile’s targets. 
+
+ Previous Install with a unified configuration profile for MDMs 
+
+ Next Install the Cortex XDR Agent Using JAMF 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

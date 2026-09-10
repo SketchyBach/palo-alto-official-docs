@@ -1,0 +1,1580 @@
+{
+  "generated_at": "2026-08-16T10:11:56Z",
+  "records": [
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects/identify-the-oid-for-a-system-statistic-or-trap",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects/identify-the-oid-for-a-system-statistic-or-trap",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "0b94d9275f53541667ff05c8ea95e458b403e370b009595df17791fa2d13c6e7",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "9af5186b7cc7dc5e6e15ba86953190c5f949a54c5abf74c293b716036a9ae987",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture/take-a-custom-application-packet-capture",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture/take-a-custom-application-packet-capture",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e4e502e2ce24a864a93a40dcbc14b54083377334c57352bc8fd704384e10e8d2",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture/take-a-packet-capture-for-unknown-applications",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture/take-a-packet-capture-for-unknown-applications",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "abd7005b78476a7ef77c184d5351def59aae7cb8a6a4f2449782694c2ef4ac8e",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-cli-quick-start/get-started-with-the-cli/give-administrators-access-to-the-cli/set-up-a-panorama-administrative-account-and-assign-cli-privileges",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-cli-quick-start/get-started-with-the-cli/give-administrators-access-to-the-cli/set-up-a-panorama-administrative-account-and-assign-cli-privileges",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "ae1329365d51845471a9d9493cb132449a1ca82fbf6562755e1221d625071ecc",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-panorama-api/get-started-with-the-pan-os-rest-api/create-a-tag-rest-api",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-panorama-api/get-started-with-the-pan-os-rest-api/create-a-tag-rest-api",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "c2a0a7c017ebfcb86bb44876135037a1d07cdfd0c6b6683fc34a0dc61eb8eb2d",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-panorama-api/pan-os-xml-api-request-types/export-files-api",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-panorama-api/pan-os-xml-api-request-types/export-files-api",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "1c45ec153fa121b3200118cef379e5a7303e52e9d57b0b92ffc0242253ecc70c",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/certificate-management/export-a-certificate-and-private-key",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/certificate-management/export-a-certificate-and-private-key",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "980f60807b4b06ac1194718fb2e3ef0f42b5cc853f423f903414943596261e9b",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/certificate-management/set-up-verification-for-certificate-revocation-status",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/certificate-management/set-up-verification-for-certificate-revocation-status",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "318aff4536181f544992c964bda9b2246af0558b4971326a76a53add5b25f613",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/firewall-administration/use-the-web-interface",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/firewall-administration/use-the-web-interface",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "8987be63e5bc871347808acb3d325d43dabf47ed183f9c4c01cf57dc127cbc56",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/firewall-administration/use-the-web-interface/launch-the-web-interface",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/firewall-administration/use-the-web-interface/launch-the-web-interface",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "f8d6000536d0c1043e683bcc17ebb44700bfcd46fb02e69234ce7d5efb4cf2d9",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-floating-ip-addresses",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-floating-ip-addresses",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "aa04f64becb494d24c29bfbce036d12c09dc16c02341e8f142b3b54c8a563611",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/snmp-support",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/snmp-support",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "0c690c3c4bee4464038e16acfe5674608e383a1be19b9b248b2a24c202c64a67",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "03c8e86abc6f06001b9b9b19ceba9b9bcb8c9d9bfe8507f35d904aba96404fe0",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/bfd-std-mib",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/bfd-std-mib",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7424c04aea4e72f285e63bf2221221fb7f8752362942f7b14ba9766c82d23a61",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/entity-mib",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/entity-mib",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "1d0abff25f1497565f37c054af19d96eee1df5295c795c0c8106164fcf586895",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/entity-sensor-mib",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/entity-sensor-mib",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "ac4f9b7eaca972c99f46baad7e64d2e8cafbc660a54780c1f7ae0ae9619b22e0",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/host-resources-mib",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/host-resources-mib",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "ee670e4f3ae7c89684c7aca3a75ab81ed2e0b33eebf3bb085018a26e7e15e956",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/entity-state-mib",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/entity-state-mib",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "1c85411e59e83679e9fedccb6b0ae71ff35c16ec16188ce570b807452235d994",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/ieee-8023-lag-mib",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/ieee-8023-lag-mib",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "3e49ad20af726cf16b04adcbea687225ad2e372a39d5d0c203d2d569bc0cb898",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/if-mib",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/if-mib",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "0a0f54d6431d5d8a54271b4768f4d3d18fa18d48eb2820179d850cd476a3f0b6",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/lldp-v2-mibmy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/lldp-v2-mibmy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "87c890cc06e9f8f0d9cb75042f4fddafa0ef5e169b908b5d6c045300ab55946c",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/mib-ii",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/mib-ii",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "aec523951215f9359dea858e6ad9941322bec9cb861f26090d03a289eb6d354b",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-common-mibmy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-common-mibmy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "79c8156898198e794f54d129a4a3bb84ae68d50d4285be499743d8afd2deb26e",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-entity-ext-mibmy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-entity-ext-mibmy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "aad5df2006b42df97bf3fc4fd0e667dedac9e07f8f6b5064a37686331878d759",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-global-reg-mibmy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-global-reg-mibmy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "43c55549171f47208dbf3dc8895c7d9797678b5bd0bc7fba98c74956d2abf0dd",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-global-tc-mibmy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-global-tc-mibmy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "eb0f1bc2574203cdcc4229707cc9a3ab39f53f77da8bb62af2aa9733f30ed81b",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-product-mibmy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-product-mibmy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e50333b348a7fa39116b1d08c095ebe64861fb23a6eca58ac68b27defcf68d82",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-lc-mibmy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-lc-mibmy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e5b4ed8103ccafaffdb1d63a43c70d023c5530107c31ba6391aef3c945171e57",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-trapsmy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/supported-mibs/pan-trapsmy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "2b024f4726aca801143cf94b8d0cb0174032881e6d19c110ef45ce9792261b14",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7caae3e87cc4de03646ce5fda750cbbe969a3d35f5148b8813447ef11ac70bea",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects/identify-a-mib-containing-a-known-oid",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects/identify-a-mib-containing-a-known-oid",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "753f00ceb659022b414754a035bdd8ec8399bfdc3984be0c6398f2032a349390",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects/walk-a-mib",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects/walk-a-mib",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "8b05898939b7c631cdd86f7da365620ca4d19fb3dad7d38ef756bd2ba8bb9326",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects/identify-the-oid-for-a-system-statistic-or-trap",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/snmp-monitoring-and-traps/use-an-snmp-manager-to-explore-mibs-and-objects/identify-the-oid-for-a-system-statistic-or-trap",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "0b94d9275f53541667ff05c8ea95e458b403e370b009595df17791fa2d13c6e7",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/take-packet-captures",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "16f73a25fe121278d420d8a5dcf17ec500f07267dbf1a26c32a14ee1d83111f7",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/take-packet-captures/take-a-custom-packet-capture",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/take-a-custom-packet-capture",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "64ba799432b3b405331d520532338cdd9a991ae9c5783151e6fe8cad62b34a7a",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/take-packet-captures/disable-hardware-offload",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/disable-hardware-offload",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "199f3f161b6e48ed2fad1c487fed16f2f9f2fbbb6c0a0a814a1cf549f59ca85b",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/take-packet-captures/take-a-packet-capture-on-the-management-interface",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/take-a-packet-capture-on-the-management-interface",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "23e2dd13868340d6cb92de95cb878e7966fd7a56d55acf86e1e6edac67e518e7",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/take-packet-captures/take-a-threat-packet-capture",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/take-a-threat-packet-capture",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "653f30a936c7858f28c133244eec86364aa958bc970bfc4bd474dff442019afe",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "9af5186b7cc7dc5e6e15ba86953190c5f949a54c5abf74c293b716036a9ae987",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture/take-a-custom-application-packet-capture",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture/take-a-custom-application-packet-capture",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e4e502e2ce24a864a93a40dcbc14b54083377334c57352bc8fd704384e10e8d2",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture/take-a-packet-capture-for-unknown-applications",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/take-an-application-packet-capture/take-a-packet-capture-for-unknown-applications",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "abd7005b78476a7ef77c184d5351def59aae7cb8a6a4f2449782694c2ef4ac8e",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/take-packet-captures/types-of-packet-captures",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/take-packet-captures/types-of-packet-captures",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "478dc2c1f475df856b8fc1a87400188fad85f7fa60a4665bdc9708ffb2741d0c",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-syslog-for-monitoring",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-syslog-for-monitoring",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7ea00bc3da75dc3a5f7616b0827944965b0d99416857d0031a5f826b2e283eef",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-external-services-for-monitoring",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-external-services-for-monitoring",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "8aeaed65ceca55ed393c3b83f64e524ab70bb40715e4539592a57f61b1b54747",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-syslog-for-monitoring/configure-syslog-monitoring",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-syslog-for-monitoring/configure-syslog-monitoring",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "98810613e17b6c5ac02f5301e427c7222c6091e766c9d00fb877164606da077b",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "660d68658caa038621363c03d763cf0ade37884a51aa5034fb92ff405d2f99bf",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-the-app-scope-reports/network-monitor-report",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-the-app-scope-reports/network-monitor-report",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "dc1679ac0824fb3bd80b801a2b32644e81263bb61bdb9d6ad7bff4551c27aeff",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-the-app-scope-reports/summary-report",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-the-app-scope-reports/summary-report",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "47e78a530e69ca3eb04d5b3865e5aa85c77fe4c33b688877c2a7a8182c11149f",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-the-app-scope-reports/threat-map-report",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-the-app-scope-reports/threat-map-report",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "fa2f5f35c55ac1b1a4e7c9c8f1484967be34b8e25a2f28bcc6f9fe392152a13a",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-the-app-scope-reports/threat-monitor-report",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-the-app-scope-reports/threat-monitor-report",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "f599d5a6836e1f3c1d2bb44f4c52022d3cbf583ca63ea17fb1f5d18dcfa15249",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-the-app-scope-reports/traffic-map-report",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-the-app-scope-reports/traffic-map-report",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "6a18247c2b940dbfefb49eca3e8ca1d51e319fff795df162bd4adec5365510d5",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-the-automated-correlation-engine/use-the-compromised-hosts-widget-in-the-acc",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-the-automated-correlation-engine/use-the-compromised-hosts-widget-in-the-acc",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "d0973b6675068270b7a31d3c85c5893e44538513faa83b39d6b34a0b82945c13",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/generate-botnet-reports",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/generate-botnet-reports",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "118e2062d9522d097ed8af4c0da42a544503a05f8798b288a02b4e46ee59ae4b",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/generate-botnet-reports/configure-a-botnet-report",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/generate-botnet-reports/configure-a-botnet-report",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "4efe0127c838386945e1f30ffc9f2f2cd9f2e11c0b79d03da0f86c69d02e6b29",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/generate-botnet-reports/interpret-botnet-report-output",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/generate-botnet-reports/interpret-botnet-report-output",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "9b77f53312da936eb3c22499b6b2ec6449ca80cd6aa5db1512bc199c3f1a3474",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/generate-custom-reports",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/generate-custom-reports",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "a18adb4c6cc7aee14cea00b81f32c92e8d58df56f1fe73818348f1b6463ab52f",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/generate-the-saas-application-usage-report",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/generate-the-saas-application-usage-report",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "9a315a3ab86aff7086cb8e07e9c36145a65128bf1d76429b185ff6f8831c39f7",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/generate-usergroup-activity-reports",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/generate-usergroup-activity-reports",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "bb22bff299894ae2bc947573632658991f07716d22fcb2ef6b974a315bd92c88",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/manage-pdf-summary-reports",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/manage-pdf-summary-reports",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "5e54b7af66e17c0945efb3c9ab3290cf5c2e5768b9f60e6d11a19636e29fe1e4",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/manage-report-groups",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/manage-report-groups",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "0419e446807aafe9bc0f5940acb17bd530331a6ed8024974a0bbb187b9b86585",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/report-types",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/report-types",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "04f01669a537e00c72a405d3b9397f7157a060ffbc2162841d8702cb05700f02",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/schedule-reports-for-email-delivery",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/schedule-reports-for-email-delivery",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "78dba03827f7e25ab8986410a4a20133b93ff77cea973cd85354b68d22745276",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-and-manage-reports/view-reports",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-and-manage-reports/view-reports",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "bc8e02360389a72f03f254f77bc9cb04bd113ad13b5cd9eb7db22380cb5f3130",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/view-policy-rule-usage",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/view-policy-rule-usage",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "70a7f03b207405298a31d356793bde2a6733bbe840205f8acec62a019df55a62",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7b554c279b5980fb9f67846174c9ddd0b32b31066b44cabb240dac952186cd67",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/application-override-policy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/application-override-policy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "84c836baac8c841278699a218c6100a288f95f619ebbe6d7fc5879284b30a862",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/cli-commands-for-dynamic-ip-addresses-and-tags",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/cli-commands-for-dynamic-ip-addresses-and-tags",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "1bb886c5fe8b466a474c061055eedcd6eda62afa7edbe478b5a3a9fa2e77385a",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/enforce-policy-rule-description-tag-and-audit-comment",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/enforce-policy-rule-description-tag-and-audit-comment",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "af2a26e95d635c3bc025e6575ca2099dcaa82329fb4841f4e70018cf3bfbe7e0",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/identify-users-connected-through-a-proxy-server",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/identify-users-connected-through-a-proxy-server",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "a48ed07c3b58215b1c62a5484fdbfd2bd6a4a256efa32dd270cd7166e1079a62",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/enumeration-of-rules-within-a-rulebase",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/enumeration-of-rules-within-a-rulebase",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "ac22472ce4b68d893f2e0ca9a639b41ccd38ca2f3ed0b06f309930bfee79b562",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/identify-users-connected-through-a-proxy-server/add-xff-values-to-url-filtering-logs",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/identify-users-connected-through-a-proxy-server/add-xff-values-to-url-filtering-logs",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "5f45afffd9edfdf171b652d54f2349f83b2b5ea499b1534cdfca9a31309ebd18",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/identify-users-connected-through-a-proxy-server/use-xff-values-for-ip-based-security-policy-and-logging",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/identify-users-connected-through-a-proxy-server/use-xff-values-for-ip-based-security-policy-and-logging",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "5e5f63c61a1ad9675b2adad7b1713ffd9a7f5e43b829d28a757a2ba9ab957b3a",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/identify-users-connected-through-a-proxy-server/use-xff-values-for-policies-and-logging-source-users",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/identify-users-connected-through-a-proxy-server/use-xff-values-for-policies-and-logging-source-users",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "b5462b1e93e3c3e8ea34f0883c8ef236f8a2c79e223b862d831c2e91d48cb8e5",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/monitor-changes-in-the-virtual-environment",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/monitor-changes-in-the-virtual-environment",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "f19dcd2e28e85fbbe3c7f4016a80471ca521d4aa359fa9829f5b3a203caddba0",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/monitor-changes-in-the-virtual-environment/attributes-monitored-in-the-aws-and-vmware-environments",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/monitor-changes-in-the-virtual-environment/attributes-monitored-in-the-aws-and-vmware-environments",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "b6dd2abd1db648c12f27dacc43f59cf8a73ffc3b71978e9d2a340bc853712a51",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/monitor-changes-in-the-virtual-environment/use-dynamic-address-groups-in-policy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/monitor-changes-in-the-virtual-environment/use-dynamic-address-groups-in-policy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "8af13d45d0f007e8a63dbb8c6d1b52bb22a7a40fa9cd895774b5e3d9d7b1e6e0",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/monitor-changes-in-the-virtual-environment/enable-vm-monitoring-to-track-changes-on-the-virtual-network",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/monitor-changes-in-the-virtual-environment/enable-vm-monitoring-to-track-changes-on-the-virtual-network",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "edcdebd807b884dcef3c9e1a79b808c2868a3c1fcb28feca9f8cb651dc60ecab",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/move-or-clone-a-policy-rule-or-object-to-a-different-virtual-system",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/move-or-clone-a-policy-rule-or-object-to-a-different-virtual-system",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e9e78dc6bc39a4beef2ccf6d9bd1d396fb613ecbac545bfdb5cfdaed850ea2f8",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/policy-based-forwarding",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-based-forwarding",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7c44040866d2c890dddea34783bc2232caa4fd899b7958e51f6fc5a86a370c56",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/policy-based-forwarding/create-a-policy-based-forwarding-rule",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-based-forwarding/create-a-policy-based-forwarding-rule",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "a1dc67746be148c44687c412cb5398d2a163696fd8890ff5aa3f80209a5d08ce",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/policy-based-forwarding/pbf",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-based-forwarding/pbf",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "9512469a82f0c43ebecfae0cfc71b01be683ce9919a72352d907203c19891423",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/policy-based-forwarding/pbf/egress-path-and-symmetric-return",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-based-forwarding/pbf/egress-path-and-symmetric-return",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "583de2462068d5b2ea38332dacaaa870fefd8002b9e7d3e9974a26bef951e173",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/policy-based-forwarding/pbf/path-monitoring-for-pbf",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-based-forwarding/pbf/path-monitoring-for-pbf",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "2d4b624fd3119ae7514e2cb9c2cb440d09c4c70b8e48846885d2b9c424c92b61",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/policy-based-forwarding/pbf/service-versus-applications-in-pbf",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-based-forwarding/pbf/service-versus-applications-in-pbf",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "67c44ed203faf14fe47f54c767e5cfc5c929bc35b296d928cfabb33932d2392a",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/policy-based-forwarding/use-case-pbf-for-outbound-access-with-dual-isps",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-based-forwarding/use-case-pbf-for-outbound-access-with-dual-isps",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "a86cf4ba7ed258478c13300fb18f7f53092b630a95eb420a0b81f2942356d07c",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/policy-objects",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-objects",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "ffb475c94f0d381d84400a96d8c07790423a66387538c48a5f1ed7f88f6e74b1",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/policy-types",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-types",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "dc97445a781914ace3a64afb6e64797d0297096e6757f296e95ac3923e13bd39",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/register-ip-addresses-and-tags-dynamically",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/register-ip-addresses-and-tags-dynamically",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "0ffb2d3866b7eaf9c0e27e17b8fc7f32a12d636715320a256d2f7f1f2bfa71f4",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-policy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-policy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7f07d4681047585ca6057b45d902942912790904ab09a0023d3c4e630741de27",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-policy/components-of-a-security-policy-rule",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-policy/components-of-a-security-policy-rule",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "bbc20c4b5996cb731d8f781d25a6acc9b9d6afd60fba253f7374f6a5af0008a3",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-policy/create-a-security-policy-rule",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-policy/create-a-security-policy-rule",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "d882b0cf72222e58bb001013d304cb80a82149de372a5d7b83048df23fbdcf1e",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-policy/security-policy-actions",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-policy/security-policy-actions",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "81c165bac5e9250ca7650f0cc007227b26c91f9d2c85f31bde787ac03672f5aa",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-profiles",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-profiles",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "f0cc3deeb1a234be52666d0f7f56b937e7f334f534e82c54ca60a83495597730",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-profiles/create-a-security-profile-group",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-profiles/create-a-security-profile-group",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "32712c8757263b06c2b3b97fb440db46aaa979cefade2c4090151e2d544c7226",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-profiles/set-up-data-filtering",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-profiles/set-up-data-filtering",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "c591dcda53af995959d7476a253a84a0a6fd3c0143e505980b568a3cbde1e2db",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-profiles/set-up-data-filtering/create-a-data-filtering-profile",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-profiles/set-up-data-filtering/create-a-data-filtering-profile",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "b15940452e9dad22c923ca57e1dd5e49d34c4dc565fe5c672f8be9f42b8b5b26",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-profiles/set-up-data-filtering/predefined-data-filtering-patterns",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-profiles/set-up-data-filtering/predefined-data-filtering-patterns",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "d81aa9cf9fb25fc20ad650d3bd10c5c0b6ba613a8283842835ddcc18dc270758",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-profiles/set-up-file-blocking",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-profiles/set-up-file-blocking",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "a10a2591ec76eae5d5ffa47736f8b7d09beb6d22d9b4d0081808f41bce217d42",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/security-profiles/set-up-or-override-a-default-security-profile-group",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-profiles/set-up-or-override-a-default-security-profile-group",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "57049e23f79d39212c7d8f8aa299a12839333899c6c6f142e5827f4a9a3da8e0",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/test-policy-rule-traffic-matches",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/test-policy-rule-traffic-matches",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "52e0b7c2eb607dc8aba7352d2a26305c27880026d322556400f7ceff4a234300",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-address-object-to-represent-ip-addresses",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-address-object-to-represent-ip-addresses",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "2168a687f26ff195fb16065825a606ae7075494ded7a69670ed193e8b1353539",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-address-object-to-represent-ip-addresses/create-an-address-object",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-address-object-to-represent-ip-addresses/create-an-address-object",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "89c3dbf94b474006407e544f597d0bfb17d067f28ea4d800eda0241938483834",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-address-object-to-represent-ip-addresses/address-objects",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-address-object-to-represent-ip-addresses/address-objects",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "782ec8e873e306a13e7d2ef6867f51bd065a81033474d766eb7ff17345d2a100",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "d0ee000aa5755db391edd16e8c75fcc0e62b1494549a1f8feb4eab84205598a9",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/built-in-edls",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/built-in-edls",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "c307dfce9b856ef7c8e2ec7313fb82b46a578129c12dd80fc778e7606c7067ab",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/configure-the-firewall-to-access-an-external-dynamic-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/configure-the-firewall-to-access-an-external-dynamic-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "162c66622976f93324b536f7e31ac18bd4d2070cc200b3e0a23c9c01d188a500",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/configure-the-firewall-to-access-an-external-dynamic-list-from-the-edl-hosting-service",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/configure-the-firewall-to-access-an-external-dynamic-list-from-the-edl-hosting-service",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "c8f5830498f11ef9b05832a18710be770409437dc2a3d6f4e535f7a0695098f5",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/configure-the-firewall-to-access-an-external-dynamic-list-from-the-edl-hosting-service/convert-the-globalsign-root-r1-certificate-to-pem-format",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/configure-the-firewall-to-access-an-external-dynamic-list-from-the-edl-hosting-service/convert-the-globalsign-root-r1-certificate-to-pem-format",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "63417ce94b8e303f74451bb74d171868c2b54842f9a4569f8d247c822e77aa16",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/configure-the-firewall-to-access-an-external-dynamic-list-from-the-edl-hosting-service/create-an-external-dynamic-list-using-the-edl-hosting-service",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/configure-the-firewall-to-access-an-external-dynamic-list-from-the-edl-hosting-service/create-an-external-dynamic-list-using-the-edl-hosting-service",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7e7a961d3020c822a3284553c799e553a68098af267aeaae72772863379354a7",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/disable-authentication-for-an-external-dynamic-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/disable-authentication-for-an-external-dynamic-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "85d7abbbbddcdd757a3f9b1c72e453e33f0ec46e2c9fd9a0994ef22b90b502aa",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/enforce-policy-on-an-external-dynamic-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/enforce-policy-on-an-external-dynamic-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "396c66bf11686b73b22e3888275411b6a745530ebe4c09887c84eaec81e581d3",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/exclude-entries-from-an-external-dynamic-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/exclude-entries-from-an-external-dynamic-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "fc15e6b41e15f1e5630a7b8d8795c22f08da86710d1f83c220ce22f61178a7bb",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/external-dynamic-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/external-dynamic-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "ce8656ca79263cccaae0ad5f905a77e85510870a1ff636c7187dd77388bcdce3",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/find-external-dynamic-lists-that-failed-authentication",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/find-external-dynamic-lists-that-failed-authentication",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "78d170b4b470a79067132ecf5f3f2aaf7493d41c7bc38cb279416261fa0b0dde",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "2e4deccfc2b10caee3a14999df56d7e7497a0c0e91229e6b0495e055f650a349",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list/ip-address-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list/ip-address-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "b1d94ce49ba159a61c993352740e0a44326d7359130446ae9bc18feadd5f0b28",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list/domain-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list/domain-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "03c2192d360f0527ffabd1b5463c6456591e96844ee052492335870a3a5cc173",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list/url-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list/url-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "ce23a6c4cee6c7168012be101b1f6e99c215f670124b741834faff4d2dce6015",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/retrieve-an-external-dynamic-list-from-the-web-server",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/retrieve-an-external-dynamic-list-from-the-web-server",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "82762d886a6d218a448a2247a55f060e88504f7f3739f71ad5e42398ae820a61",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/view-external-dynamic-list-entries",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/view-external-dynamic-list-entries",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "0c62e95bc02dc2b8c9d4c1e74133c1299be168f626526642a94954dbd945526f",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-auto-tagging-to-automate-security-actions",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-auto-tagging-to-automate-security-actions",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "12de248e5091be25105cb8e386aeb2d69135e84368a60afb2c4330d10c8055be",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-dynamic-user-groups-in-policy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-dynamic-user-groups-in-policy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "5c9b8d5dc6c46d42abd08501a74761ba2cd51e310b17e750505835a69d210b30",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "168628b3bf734672e38d757964e4408e478a4948a0493e4dc385f9c12f921b65",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects/create-and-apply-tags",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects/create-and-apply-tags",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "8f0d807d64246bf0ba57e6ea16b3c2b784a1bf280cd1ad42ca7a113b74e9d387",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects/modify-tags",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects/modify-tags",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "6ccaaffd77719d03fdd661ddfe938819712b85c4ac764236ca363fc4785f57ea",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects/tag-browser",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects/tag-browser",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "1747de8e9eaa40df5f8e2553f55dceb80485b8818318a57923390cdd0cdc4c05",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects/view-rules-by-tag-group",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-tags-to-group-and-visually-distinguish-objects/view-rules-by-tag-group",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "78596aea71384d23d045899eee4b98634f670f2ebbb4be77bcb5e09a3d78670d",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-networking-admin/static-routes/static-route-removal-based-on-path-monitoring",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-networking-admin/static-routes/static-route-removal-based-on-path-monitoring",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "81397219a0ba486ff819175e5ea54cd10863603a18ccd23d7838b9c80a68dab9",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/certificate-management/configure-the-master-key",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/certificate-management/configure-the-master-key",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "3278624601a975e831150732cd5c71543b0cd34f6f4876fda147f497cfd96adb",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/certificate-management/set-up-verification-for-certificate-revocation-status/configure-revocation-status-verification-of-certificates",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/certificate-management/set-up-verification-for-certificate-revocation-status/configure-revocation-status-verification-of-certificates",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "b293f9af1baab2864774df2ae6e7a01d7a698143934024a2b611c12dce0967b2",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/getting-started/integrate-the-firewall-into-your-management-network/determine-your-access-strategy-for-business-continuity",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/getting-started/integrate-the-firewall-into-your-management-network/determine-your-access-strategy-for-business-continuity",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "5afd376288bd773824f3bf6c4d84c71cec3670a90e3e27420bf93eb9770b6b7d",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/ha-concepts/session-owner",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/ha-concepts/session-owner",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "a0271cea0adb0a8c2042efc3f43aa2b9351374bb3331158dd0b9a0f2ed1e7479",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-for-arp-load-sharing-with-destination-nat",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-for-arp-load-sharing-with-destination-nat",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "6b30c5cf59127f7e1d5bf74a7494086acf7e1563a6daabb66434adc72ed4f935",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-for-arp-load-sharing-with-destination-nat-in-layer-3",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-for-arp-load-sharing-with-destination-nat-in-layer-3",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "43ca647c69261545c7308b725b0efeb9c267ce83b2ebabab1d6db613f804cbb5",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-arp-load-sharing",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-arp-load-sharing",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e93d39295c68137bbbf54bd5618fb48ebf8ff750b42319ddb8b37345bb940ac9",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-floating-ip-address-bound-to-active-primary-firewall",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-floating-ip-address-bound-to-active-primary-firewall",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "54dc5836c4bc011f56eb07c36b9b5018d58de05e8553a4461d91e37c0ea7e149",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-floating-ip-addresses",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-floating-ip-addresses",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "aa04f64becb494d24c29bfbce036d12c09dc16c02341e8f142b3b54c8a563611",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-source-dipp-nat-using-floating-ip-addresses",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-source-dipp-nat-using-floating-ip-addresses",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7683c3c83967ca2af66d7fbb72fbbd493b7463a3aad7a5e101f8ce70984c85b0",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-route-based-redundancy",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-activeactive-ha-with-route-based-redundancy",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "ada68c6b856ca3646b251969f733d4d7518e2d0b175661ece9ad958a6b448619",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-separate-source-nat-ip-address-pools-for-activeactive-ha-firewalls",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activeactive-ha/determine-your-activeactive-use-case/use-case-configure-separate-source-nat-ip-address-pools-for-activeactive-ha-firewalls",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "6b34af4a7f679b62a65e3ee55d11c6e7f02951acb2d4ae727b81591ed0239f44",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activepassive-ha/configuration-guidelines-for-activepassive-ha",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activepassive-ha/configuration-guidelines-for-activepassive-ha",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "0ceeaebbfe5b65b729cfb5ef498038ba32538a6fbf2d53230a51bb021758cc1c",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activepassive-ha/configure-activepassive-ha",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activepassive-ha/configure-activepassive-ha",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "efb5a4f8c4b25e43624e120ce197f35ef298e89e875f4cf19e4ec9dd0f40b9ad",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "3f2b8128296e2fb8897f8615a53fa5eea69a30978e89688d208c8fadf9e4a7ff",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activepassive-ha/define-ha-failover-conditions",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activepassive-ha/define-ha-failover-conditions",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e0bfed6178b07db54392a67f933d6b4dac5457020527d98cf462609e7077c180",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/high-availability/set-up-activepassive-ha/verify-failover",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/high-availability/set-up-activepassive-ha/verify-failover",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "711cb01a639db00bcccdad8c38426a9e009b80f500a0994855bda2491e9d8f17",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/configure-globalprotect-gateways-for-lsvpn",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/configure-globalprotect-gateways-for-lsvpn",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "5649c48d465df0445233cbddaf2cb979742d035358d3e89a0ad9abc1a23b8daa",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/configure-the-globalprotect-portal-for-lsvpn",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/configure-the-globalprotect-portal-for-lsvpn",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "5649c48d465df0445233cbddaf2cb979742d035358d3e89a0ad9abc1a23b8daa",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/configure-the-globalprotect-portal-for-lsvpn/configure-the-portal",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/configure-the-globalprotect-portal-for-lsvpn/configure-the-portal",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "fc8f19eab83ab1eb2bdb503a784db98949f359aa42d2d86c725035802252ecf6",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/configure-the-globalprotect-portal-for-lsvpn/define-the-satellite-configurations",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/configure-the-globalprotect-portal-for-lsvpn/define-the-satellite-configurations",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "9803e4ba6e57aab4ccb40486cf60c6e8e1aad6571c146936d4cd09e624ccbef1",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/configure-the-globalprotect-portal-for-lsvpn/globalprotect-portal-for-lsvpn-prerequisite-tasks",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/configure-the-globalprotect-portal-for-lsvpn/globalprotect-portal-for-lsvpn-prerequisite-tasks",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "5649c48d465df0445233cbddaf2cb979742d035358d3e89a0ad9abc1a23b8daa",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/configure-the-portal-to-authenticate-satellites",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/configure-the-portal-to-authenticate-satellites",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7e90b213779aaa9a566db4a5d0a4ae4e146f1dd3d80ca95b553e90892862c618",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/create-interfaces-and-zones-for-the-lsvpn",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/create-interfaces-and-zones-for-the-lsvpn",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e172cf64a2e66271a04a2107815489425f0ee0c85f3080f33aa47f3b61caf55f",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/enable-ssl-between-globalprotect-lsvpn-components",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/enable-ssl-between-globalprotect-lsvpn-components",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "1a46dd3a6e690336c8a5da41762fa7a08eac72f703b50708ed347996504053a6",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/enable-ssl-between-globalprotect-lsvpn-components/about-certificate-deployment",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/enable-ssl-between-globalprotect-lsvpn-components/about-certificate-deployment",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "d6acd75c6d3ff33ed82bfbd1a3baef29d2807b848a0900f73ac25022e0f77a3f",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/enable-ssl-between-globalprotect-lsvpn-components/deploy-server-certificates-to-the-globalprotect-lsvpn-components",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/enable-ssl-between-globalprotect-lsvpn-components/deploy-server-certificates-to-the-globalprotect-lsvpn-components",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "1a46dd3a6e690336c8a5da41762fa7a08eac72f703b50708ed347996504053a6",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/enable-ssl-between-globalprotect-lsvpn-components/deploy-client-certificates-to-the-globalprotect-satellites-using-scep",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/enable-ssl-between-globalprotect-lsvpn-components/deploy-client-certificates-to-the-globalprotect-satellites-using-scep",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "a80ebd6d5ee17d2563658820efd1c87f34c92c8f1029e1897dbf43339f960d0b",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-overview",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-overview",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "3f2b8128296e2fb8897f8615a53fa5eea69a30978e89688d208c8fadf9e4a7ff",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-quick-configs/advanced-lsvpn-configuration-with-dynamic-routing",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-quick-configs/advanced-lsvpn-configuration-with-dynamic-routing",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "5b21dfe7e0025627db2ac171b1812a8310f17abab6ed735f34893d0f19c2a413",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-quick-configs/advanced-lsvpn-configuration-with-ibgp",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-quick-configs/advanced-lsvpn-configuration-with-ibgp",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "892ed481b90e85a1fb1eccfa7b42f5d82b1a3139b1eefcc4147f6154dd1c58af",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-quick-configs",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-quick-configs",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "1757e19a6926163696978802aa60f79cac1291e1301a2a954373b8c689010b5d",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/prepare-the-satellite-to-join-the-lsvpn",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/prepare-the-satellite-to-join-the-lsvpn",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "d02c26084daeefcafb7bc03548bb1d71190a6d2a1200a686c1185fee124ff7ce",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-quick-configs/basic-lsvpn-configuration-with-static-routing",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/lsvpn-quick-configs/basic-lsvpn-configuration-with-static-routing",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e75017e62091e3d46e6f64eba7f60d2473591c70a7431c12bab8b4115363cd42",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/large-scale-vpn-lsvpn/verify-the-lsvpn-configuration",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/large-scale-vpn-lsvpn/verify-the-lsvpn-configuration",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "6f896a74922b81e4ee2cf0826def05680630dfd7f581c20eb984c044eab50a14",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/monitor-block-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/monitor-block-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "d3d615a1722cefecd4e758f820253d19d9def9431aa86ff6d1d3269ccc5d4b4e",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/monitor-transceivers",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/monitor-transceivers",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "7394b747d22f4ec3794f10cc2a5890bf47a747de9718e059f4a0c0d050a45007",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions/decryption-log-fields",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions/decryption-log-fields",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "10f106feee51ab34dcacd21dbbb798c04c0773041332f2baa12c820f31f5dd8d",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions/tunnel-inspection-log-fields",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions/tunnel-inspection-log-fields",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "e93f16df59a7850d7543d85712d9bac6c1f4348c18a82c888c2272276e2c4044",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/exclude-entries-from-an-external-dynamic-list",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/exclude-entries-from-an-external-dynamic-list",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "fc15e6b41e15f1e5630a7b8d8795c22f08da86710d1f83c220ce22f61178a7bb",
+      "candidate_count": 1
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-cli-quick-start/use-the-cli/load-configurations/load-a-partial-configuration",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-cli-quick-start/use-the-cli/load-configurations/load-a-partial-configuration",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "a88ba175ff34a9ce1ec13963919e429ac495f26e4095280821b8b98e6ec6daf4",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-networking-admin/configure-interfaces/layer-3-interfaces/manage-ipv6-hosts-using-ndp/enable-ndp-monitoring",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-networking-admin/configure-interfaces/layer-3-interfaces/manage-ipv6-hosts-using-ndp/enable-ndp-monitoring",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "dbd6508b3b033f12cd0aff57b9358685e4b524b69c019f5bd39ccccc6d1e9f9e",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-networking-admin/configure-interfaces/layer-3-interfaces/manage-ipv6-hosts-using-ndp/ndp-monitoring",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-networking-admin/configure-interfaces/layer-3-interfaces/manage-ipv6-hosts-using-ndp/ndp-monitoring",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "dbd6508b3b033f12cd0aff57b9358685e4b524b69c019f5bd39ccccc6d1e9f9e",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-panorama-api/pan-os-xml-api-request-types/retrieve-logs-api",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-panorama-api/pan-os-xml-api-request-types/retrieve-logs-api",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "cd0a7fac38ed5978362dc48207650ca746f95681837fcd35e658164b38e4cb7f",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-panorama-api/pan-os-xml-api-request-types/retrieve-logs-api/api-log-retrieval-parameters",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-panorama-api/pan-os-xml-api-request-types/retrieve-logs-api/api-log-retrieval-parameters",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "cd0a7fac38ed5978362dc48207650ca746f95681837fcd35e658164b38e4cb7f",
+      "candidate_count": 2
+    },
+    {
+      "stale_url": "https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-panorama-api/pan-os-xml-api-request-types/retrieve-logs-api/example-use-the-api-to-retrieve-traffic-logs",
+      "replacement_url": "https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-panorama-api/pan-os-xml-api-request-types/retrieve-logs-api/example-use-the-api-to-retrieve-traffic-logs",
+      "method": "exact-pan-os-path-newest-live-version",
+      "verified_at": "2026-08-16T10:11:56Z",
+      "stale_http_status": 404,
+      "replacement_content_hash": "cd0a7fac38ed5978362dc48207650ca746f95681837fcd35e658164b38e4cb7f",
+      "candidate_count": 2
+    }
+  ]
+}

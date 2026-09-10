@@ -1,811 +1,12 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/microsoft/microsoft-teams
-fetched_at: 2026-08-13T14:42:30Z
+fetched_at: 2026-09-06T09:24:29Z
 source: cortex-platform
 ---
 
 # Microsoft Teams | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
 
-Microsoft Teams | Cortex Documentation Portal 
-
- ⌘ Ctrl k 
-
- Blog Support 
- More 
-
- Home 
-
- Products 
-
- Guides 
-
- Release Notes 
-
- API 
-
- Reference 
-
- AI Assistant 
-
- Good afternoon 
- I'm here to help you with the docs. 
-
- What is this page about? What should I read next? Can you give an example? 
-
- ⌘ Ctrl i 
-
- AI Based on your context 
- Send 
-
- Learn about Cortex XSIAM 
-
- Navigate the Cortex XSIAM docs 
-
- Get started with Cortex XSIAM 
-
- Agentic AI in Cortex XSIAM 
-
- Cortex XSIAM product licenses 
-
- In-product support ticket creation 
-
- Supported web browsers 
-
- Use the interface 
-
- Manage API keys 
-
- Onboard Cortex XSIAM 
-
- How to onboard Cortex XSIAM 
-
- Plan and prepare 
-
- Deployment steps 
-
- Post-deployment 
-
- Configure Cortex XSIAM 
-
- Learn how to configure Cortex XSIAM 
-
- Data management 
-
- Cortex XSIAM Data Sources and Connectors 
-
- What are Cortex XSIAM data sources and connectors? 
-
- Complete data source and connector catalog 
-
- Vendor-specific data sources and connectors 
-
- 1Password 
-
- Abnormal Security 
-
- Absolute 
-
- abuse.ch 
-
- AbuseIPDB 
-
- Accenture 
-
- AdminByRequest 
-
- Aha 
-
- AIOps 
-
- Akamai 
-
- AlgoSec 
-
- Alibaba Cloud 
-
- AlienVault 
-
- Amazon 
-
- Anomali 
-
- Anthropic 
-
- Apache 
-
- API Security 
-
- APIVoid 
-
- Apollo.io 
-
- AppSentinels 
-
- ArcSight 
-
- Arista Networks 
-
- Arkime 
-
- Armis 
-
- Articulate Global 
-
- Asana 
-
- Atlassian 
-
- AttackIQ 
-
- Aurora Endpoint Security 
-
- Automox 
-
- BeyondTrust 
-
- BitSight 
-
- bitwarden 
-
- Blocklist.de 
-
- BloodHound Enterprise 
-
- BlueCat Address Manager 
-
- BMC 
-
- Box 
-
- Broadcom 
-
- BruteForceBlocker 
-
- Businessmap 
-
- C2SEC 
-
- CAPESandbox 
-
- Carbon Black 
-
- Celonis 
-
- Centreon 
-
- ChatGPT Enterprise 
-
- Check Point 
-
- CheckPhish 
-
- CipherTrust 
-
- CIRCL 
-
- CircleCI 
-
- Cisco 
-
- Citrix 
-
- ClickUp 
-
- Cloaken 
-
- CloudConvert 
-
- Cloudflare 
-
- Code42 
-
- Cohesity 
-
- Contentful 
-
- Corelight 
-
- Couchbase 
-
- CounterTack 
-
- Coveo 
-
- Cribl 
-
- CrowdStrike 
-
- CryptoCurrency 
-
- Cuckoo Sandbox 
-
- Cursor 
-
- CybelAngel 
-
- CyberArk 
-
- Cyber Triage 
-
- CYFIRMA 
-
- Darktrace 
-
- Databricks 
-
- DataDog 
-
- DeHashed 
-
- DHS 
-
- digicert 
-
- dnstwist 
-
- DocuSign 
-
- Dropbox 
-
- Druva 
-
- EasyVista 
-
- Email Hippo 
-
- Elastic 
-
- Endgame 
-
- Envoy 
-
- Exabeam 
-
- ExtraHop 
-
- F5 
-
- Fastly 
-
- Fidelis 
-
- Filigran 
-
- Forcepoint 
-
- ForeScout 
-
- Fortinet 
-
- Fortra 
-
- FraudWatch 
-
- Freshworks 
-
- Gainsight 
-
- Gamma.AI 
-
- Gemini Enterprise 
-
- Genetec 
-
- Generic 
-
- Genesys 
-
- Gigamon 
-
- GitHub 
-
- GitGuardian 
-
- GitLab 
-
- Giphy 
-
- Google 
-
- GraphQL 
-
- Grouped Example Connector 
-
- GRR 
-
- Grafana 
-
- Halcyon 
-
- Harness 
-
- HashiCorp 
-
- Have I Been Pwnd 
-
- HCL BigFix 
-
- HPE Aruba 
-
- Hostio Solutions 
-
- HTTP log collector 
-
- IBM 
-
- iManage 
-
- Imperva 
-
- InfoArmor 
-
- Infoblox 
-
- Intellum 
-
- Intercom 
-
- IPInfo.io 
-
- IPstack 
-
- Ironscales 
-
- Ivanti 
-
- iZOOlogic 
-
- Jamf 
-
- Joe Security 
-
- JumpCloud 
-
- JSONWhoIs.com 
-
- Kafka 
-
- Kaspersky 
-
- Keeper Security 
-
- KnowBe4 
-
- Koi 
-
- Koodous 
-
- Kubernetes 
-
- Kustomer 
-
- LastPass 
-
- Lastline 
-
- LevelBlue 
-
- LogRhythm 
-
- LOLBAS 
-
- Lookout 
-
- Lumu 
-
- Mail Utilities 
-
- Majestic 
-
- ManageEngine 
-
- Mattermost 
-
- MaxMind 
-
- Menlo Security 
-
- Meta 
-
- Mimecast 
-
- Microsoft 
-
- Azure DevOps 
-
- Azure Event Hub 
-
- Azure Firewall 
-
- Azure Network Watcher 
-
- Microsoft Azure 
-
- Microsoft Copilot Studio 
-
- Microsoft Defender for Endpoint Events 
-
- Microsoft Entra ID 
-
- Microsoft365 
-
- Microsoft 365 
-
- Microsoft 365 Copilot 
-
- Microsoft Office 365 
-
- Microsoft Office 365 (email) 
-
- Microsoft 365 (Posture) 
-
- Microsoft Teams 
-
- Azure Log Analytics 
-
- Azure Services 
-
- Azure WAF 
-
- Microsoft Active Directory 
-
- Microsoft Graph 
-
- Microsoft Identity 
-
- Microsoft Intune 
-
- Microsoft Security Automation and Collection 
-
- Microsoft Windows Tools 
-
- M365 Automation and Collection 
-
- MISP 
-
- MITRE 
-
- Monday 
-
- MongoDB 
-
- MuleSoft 
-
- Mural 
-
- MxToolBox 
-
- NetBox 
-
- Netcraft 
-
- Netmiko 
-
- NetQuest 
-
- Netskope 
-
- Nintex Workflow Cloud 
-
- NIST 
-
- nmap 
-
- NAVEX 
-
- Nutanix 
-
- Okta 
-
- OneLogin 
-
- OpenAI 
-
- OpenCVE 
-
- OpenLDAP 
-
- OpenPhish 
-
- OpenText 
-
- OPSWAT 
-
- Oracle 
-
- Orca Security 
-
- PacketMail.net 
-
- PacketSled 
-
- PagerDuty 
-
- PAT Helpdesk Advanced 
-
- PhishLabs 
-
- Ping Identity 
-
- Pipedrive 
-
- Pipl 
-
- Plainview 
-
- Proofpoint 
-
- ProtectWise 
-
- Qualtrics 
-
- Qualys 
-
- Quest KACE 
-
- Radware 
-
- Rapid7 
-
- Razor Group 
-
- Recorded Future 
-
- Red Hat 
-
- Redis Labs 
-
- Redmine 
-
- ReliaQuest 
-
- RemoteAccess 
-
- Retarus 
-
- RSA 
-
- RTIR 
-
- runZero 
-
- Salesforce 
-
- SailPoint 
-
- Samhaus 
-
- SANS DShield 
-
- SAP 
-
- Saviynt 
-
- SecurityScorecard 
-
- Securonix 
-
- Sentry 
-
- SentinelOne 
-
- ServiceNow 
-
- Shopify 
-
- Shodan 
-
- Skyhigh Security 
-
- Slack 
-
- SMB 
-
- SMIME Messaging 
-
- Snowflake 
-
- SolarWinds 
-
- Sophos 
-
- Splunk 
-
- Sublime Security 
-
- Sumo Logic 
-
- SysAid 
-
- Syslog Sender 
-
- Tanium 
-
- TAXII 
-
- TeamViewer 
-
- Telegram 
-
- Tenable 
-
- Terraform 
-
- Thales 
-
- TheHive 
-
- Thinkst Canary 
-
- ThreatConnect 
-
- ThreatMiner.org 
-
- ThreatX 
-
- Tidy 
-
- TOPdesk 
-
- Tor Exit Adress 
-
- Trellix 
-
- TrendAI 
-
- Twilio 
-
- Uptycs 
-
- Vectra 
-
- Versa Networks 
-
- VMware 
-
- VulnDB 
-
- WhatsMyBrowser.org 
-
- Whois 
-
- WithSecure 
-
- Workday 
-
- X 
-
- YouTrack 
-
- Zendesk 
-
- Zero Networks 
-
- Zimperium 
-
- Zoom 
-
- Zscaler 
-
- Connectors 
-
- Standard data sources 
-
- Cloud service provider (CSP) onboarding 
-
- Generic on-premise data collectors 
-
- Palo Alto Networks integrations 
-
- Cloud Posture and Runtime Security data sources 
-
- External alerts using External Issue Mapping 
-
- Administration and troubleshooting 
-
- Marketplace 
-
- Configure the Cortex Agentic Assistant 
-
- Cortex MCP server 
-
- Automations 
-
- Engines 
-
- Remote repository management 
-
- Customize cases and issues 
-
- XQL query management 
-
- Multi-Tenant 
-
- Managed Services configuration in Cortex 
-
- Protect your endpoints 
-
- Endpoint security 
-
- Endpoint DLP 
-
- Detect, Investigate, and respond to threats 
-
- Monitor dashboards and reports 
-
- Investigation and response 
-
- Agentic Assistant chat 
-
- Asset management 
-
- Threat management 
-
- Attack surface management 
-
- Vulnerability management 
-
- Exposure management 
-
- Cortex Advanced Email Security 
-
- Identity Threat Detection and Response (ITDR) 
-
- Cloud Security 
-
- Monitor and track compliance adherence 
-
- Cloud security rules and policies 
-
- Cortex Cloud Data Classification 
-
- Cortex Data Security 
-
- Cloud Identity Security 
-
- Network exposure detection 
-
- Cortex Cloud SaaS Security 
-
- Cortex Cloud AI Security 
-
- Serverless function posture security 
-
- Cortex Cloud Application Security 
-
- Cloud workload policies and rules 
-
- Base image rules 
-
- Web and API Security (WAAS) 
-
- Serverless function runtime security 
-
- Reference and developer docs 
-
- Cortex XSIAM XQL 
-
- Graph Search 
-
- Cortex CLI 
-
- Role-Based Access Control 
-
- API documentation 
-
- Reference 
-
- Migrating to a new Broker VM image 
-
- Learn more about migrating to the latest broker VM image 
-
- Standalone Broker VM 
-
- Broker VM high availability cluster node 
-
- On this page 
-
- For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
 
  Ask 
  On this page 
@@ -826,6 +27,8 @@ Microsoft Teams | Cortex Documentation Portal
 
  Microsoft Teams 
 
+ Use Microsoft Teams data with Cortex XSIAM. 
+
  This connector includes the following capabilities and sub-capabilities (if applicable): 
 
  Data Security: Scan and protect Microsoft Teams data across channel messages, chats, and shared files. This capability is available with any active Cortex XSIAM, Cortex Cloud Posture Security, Cortex Cloud Runtime Security, or Cortex Data Security license. 
@@ -834,30 +37,102 @@ Microsoft Teams | Cortex Documentation Portal
 
  saas-posture-config-remediation: Help remediate the misconfigured security settings of your Microsoft Teams application. This sub-capability is available with any active Cortex XSIAM or Cortex Cloud Posture Security license. 
 
- To configure this connector, follow the steps outlined in the configuration wizard. 
+ To configure this connector, follow these steps: 
 
- Previous How to onboard Microsoft 365 Next Azure Log Analytics 
+ Prerequisite 
 
- Last updated 17 days ago 
+ Global Administrator access to the Azure portal 
 
- Was this helpful? 
+ Sign in to the Microsoft Azure portal as a Global Administrator. Use the Create a Microsoft Entra ID page to obtain the following values: 
 
- ‍ 
+ Tenant ID: Directory ID for your Microsoft Teams tenant. 
 
- Trust Center 
+ Client ID: Application ID generated during app registration. 
 
- ‍ 
+ Client Secret: Client secret generated for the registered application. 
 
- Privacy 
+ How to configure the Microsoft Teams connector 
 
- ‍ 
+ Task 1. Select services 
 
- Terms of Use 
+ In Cortex Cloud, navigate to Settings → Data Sources & Integrations . 
 
- ‍ 
+ Click + Add new . 
 
- Legal 
+ On the Add Data Source page, search for Microsoft Teams , hover over it, The new Microsoft Teams connector has the description: Microsoft Teams integration for data security across channel messages, chats, and shared files | Microsoft Teams integration for security posture management. 
 
- © 2026 Palo Alto Networks, Inc. All rights reserved. 
+ Click Add . 
+
+ Capabilities tab 
+
+ Enter a unique name for the new connector instance. 
+
+ Data Security will get auto select to scan and protect Microsoft Teams data across channel messages, chats and shared files. 
+
+ Click Next . 
+
+ Connection tab 
+
+ On the Connection page, enter the Tenant ID and click Apply . 
+
+ After the Tenant ID is validated, enter the Client ID and Client Secret in their respective fields. 
+
+ Click Test to validate the connection settings. 
+
+ If the connection is successful, the wizard displays a green Verified status indicator. 
+
+ Note 
+
+ If validation fails because of incorrect field values, close the wizard and restart the workflow. The current wizard session cannot be reused after a validation failure. 
+
+ 5. Click Next to proceed. 
+
+ Summary tab 
+
+ On the Summary page, verify that each selected capability displays a Connected status. 
+
+ If validation succeeds, the wizard displays a Verification Success message. 
+
+ Click Create Instance to create the Microsoft Teams connector. 
+
+ Task 2. (Optional) Post verification 
+
+ After onboarding is complete, verify asset discovery and data security findings. 
+
+ 1. Verify discovered assets 
+
+ Go to Inventory > All Assets . 
+
+ Filter the asset list by setting Provider to Microsoft Teams . 
+
+ Verify that Cortex discovers the following supported asset types: 
+
+ Microsoft Teams Workspace: Mapped to Active Directory (AAD) Groups containing Public, Private, or Shared Channels. 
+
+ 2. Verify policy findings 
+
+ Select a OneDrive or other supported asset to open the details panel. 
+
+ Review the Overview tab for asset health and other details. 
+
+ Go to Findings to review detected security findings, including: 
+
+ Sensitive Content Detections: Sensitive data matches, such as financial data, health records, credentials, API tokens, credit card numbers, and personally identifiable information (PII), detected in files stored in Microsoft Teams chat messages and conversations. 
+
+ Insecure Sharing and External Exposure: includes sensitive information shared in Microsoft Teams chats or conversations with external users or guest users. 
+
+ Note 
+
+ Any user addition to or removal from a Microsoft Teams group chat may take up to 6 hours to be reflected. 
+
+ ACLs for messages sent before a user is added to or removed from a Microsoft Teams group chat are not updated to reflect the membership change. 
+
+ After onboarding a connector, Cortex Cloud may take 24 hours to 7 days to fully process the data and generate findings. If you attempt to re-onboard the same connector using the same credentials during this transition period, previously generated findings and other data may temporarily reappear. 
+
+ Previous How to onboard Microsoft 365 
+
+ Next Azure Log Analytics 
+
+ Last updated 6 days ago 
 
  Was this helpful?

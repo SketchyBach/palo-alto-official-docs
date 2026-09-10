@@ -1,0 +1,148 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x-rn/release-information/features-introduced-in-2025-xdr-4x/april-2025/feature-enhancements
+fetched_at: 2026-09-06T10:52:55Z
+source: cortex-platform
+---
+
+# Feature Enhancements | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Release Notes 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x 
+
+ Release Information 
+
+ Features Introduced in 2025 
+
+ April 2025 
+
+ Feature Enhancements 
+
+ The Cortex XDR 4.1 release includes the following enhancements: 
+
+ Detection rules 
+
+ FEATURE 
+
+ DESCRIPTION 
+
+ New analytics suites 
+
+ Cortex XDR has introduced the following new advanced Analytics detection suites: 
+
+ Webshell Analytics: Detects webshells being installed and executed. 
+
+ Microsoft SCCM Analytics: Detects unusual or suspicious activity within Microsoft System Center Configuration Manager (SCCM) environments. 
+
+ Active Directory Certificate Services Analytics: Detects anomalous behavior within Active Directory Certificate Services (AD CS). 
+
+ Cloud Data Asset Analytics: Detects anomalous behavior involving data assets as public exposure, exfiltration, protection tampering, configuration, and disaster recovery risks 
+
+ XDR Collectors 
+
+ XDR Collectors 1.5.0 : Windows 1.5.0.1733 and Linux 1.5.0.1695 
+
+ XDR Collectors 1.4.3 : Windows 1.4.3.1686 
+
+ For more information on maintenance releases, see Maintenance releases 
+
+ FEATURE 
+
+ DESCRIPTION 
+
+ XDR Collectors 1.5.0 and 1.4.3 
+
+ This release includes performance improvements and bug fixes. 
+
+ Broker VM 
+
+ Version 27.0.47 (reboot required) 
+
+ For more information on maintenance releases, see Maintenance releases 
+
+ FEATURE 
+
+ DESCRIPTION 
+
+ Broker VM 27.0.47 
+
+ This release includes performance improvements and bug fixes. 
+
+ External Data Ingestion and Management 
+
+ FEATURE 
+
+ DESCRIPTION 
+
+ Granular data ingestion metrics 
+
+ New granular metrics offer improved precision in tracing data collection, support breakdown by data source, and provide insight into the data pipeline. The metrics are available for XQL querying and monitoring with correlation rules. These metrics are saved in the metrics_source dataset and metrics_view preset, and are reflected on the Ingestion dashboard. 
+
+ New RBAC Dataset Views 
+
+ Cortex XDR now supports creating Dataset Views in the Dataset Management page to enhance data efficiency and security. Dataset Views provide a virtual representation of data from one or more datasets, based on the XQL query defined, and provide multiple benefits, such as joining datasets into logical subsets through defined queries, manipulating data without altering underlying datasets, and segregating data for specific user needs or access privileges through the Role-based access control (RBAC) settings. 
+
+ Cortex Query Language (XQL) 
+
+ FEATURE 
+
+ DESCRIPTION 
+
+ Enhanced XQL time picker 
+
+ When building Cortex Query Language (XQL) queries, the time picker now includes: 
+
+ Additional time range options, such as last 5 minutes and last 3 hours. 
+
+ Recent selections from your previous queries. 
+
+ XQL auto-suggestion improvements 
+
+ When creating a Cortex Query Language (XQL) query, you can now: 
+
+ Use the up and down arrow keys to navigate through the auto-suggestion commands and definitions. 
+
+ Select an auto-suggestion command by pressing either the Enter or Tab key. 
+
+ Press Shift+Enter to add a new line, and easily ignore the auto-suggestion output. 
+
+ Close the auto-suggestion output by pressing the Esc key. 
+
+ New datasets for XQL queries 
+
+ New customers can leverage XQL for flexible and adjustable playbook and script tracking. The following datasets are available for querying and dashboards: 
+
+ Playbook tasks (playbook_tasks) 
+
+ Playbook runs (playbook_runs) 
+
+ Scripts and commands metrics (scripts_and_commands_metrics) 
+
+ Dashboards 
+
+ FEATURE 
+
+ DESCRIPTION 
+
+ New XQL series based graph results in Widgets 
+
+ Custom Cortex Query Language (XQL) widget creation now supports the Series parameter in the Chart Editor. This feature allows users to specify a field (column) to group data by and will visualize field value distributions or compare category trends over time. Additionally, the Series parameter is now integrated into the view graph type stage for improved functionality. 
+
+ On-demand widget refresh 
+
+ Refresh individual widgets on demand, while gaining visibility with an improved last updated status. 
+
+ Previous Release Highlights 
+
+ Next Changed Features 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

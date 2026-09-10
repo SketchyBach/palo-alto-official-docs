@@ -1,141 +1,12 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/
-fetched_at: 2026-08-12T14:01:28Z
+fetched_at: 2026-09-06T09:17:47Z
 source: cortex-platform
 ---
 
 # Cortex Cloud Application Security | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center shield-alt shield-alt
 
-Cortex Cloud Application Security | Cortex Documentation Portal 
-
- ⌘ Ctrl k 
-
- Blog Support 
- More 
-
- Home 
-
- Products 
-
- Guides 
-
- Release Notes 
-
- API 
-
- Reference 
-
- AI Assistant 
-
- Good afternoon 
- I'm here to help you with the docs. 
-
- What is this page about? What should I read next? Can you give an example? 
-
- ⌘ Ctrl i 
-
- AI Based on your context 
- Send 
-
- Application Security 
-
- Cortex Cloud Application Security 
-
- Onboard data sources 
-
- Application Security dashboard 
-
- AppSec Objectives with Agentix 
-
- code-to-cloud 
-
- Code-to Cloud 
-
- Application Security Posture Management (ASPM) 
-
- What is Application Security Posture Management (ASPM) 
-
- ASPM Command Center 
-
- Applications 
-
- Repository as an asset 
-
- Coverage 
-
- Urgency 
-
- Backlog baseline 
-
- Service Lead Agreements (SLA) 
-
- Compliance for Cortex Cloud Application Security 
-
- Unified Application Security policies 
-
- Application Security Rules 
-
- Manage code weakness issues 
-
- Software supply chain security 
-
- Software Supply Chain Security 
-
- Supply Chain Attacks 
-
- Visibililty and inventory 
-
- Risk and remediation 
-
- Governance and enforcement 
-
- Code Security 
-
- About Code security 
-
- Code Security assets 
-
- Code Security scanners 
-
- API workflows for Code Security issues 
-
- Application Security scans management 
-
- Application Security Cortex CLI 
-
- IDE 
-
- Developer suppressions 
-
- API endpoints 
-
- About API endpoints 
-
- Data source integrations 
-
- Unified Application Security policies 
-
- Application criteria 
-
- Manage applications 
-
- Repositories and scan configurations 
-
- Business applications 
-
- Scans, issues, and findings 
-
- Terraform workflows 
-
- About Terraform workflows 
-
- Authentication and configuration 
-
- Manage resources 
-
- On this page 
-
- For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
 
  Ask 
  On this page 
@@ -204,34 +75,6 @@ Cortex Cloud Application Security | Cortex Documentation Portal
 
  Next Onboard data sources 
 
- Last updated 2 days ago 
-
- Was this helpful? 
-
- ‍ 
-
- Trust Center 
-
- ‍ 
-
- Privacy 
-
- ‍ 
-
- Terms of Use 
-
- ‍ 
-
- Legal 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved. 
-
- Use cases 
-
- License requirements 
-
- Workflows 
-
- Upgrade from Prisma Cloud to Cortex Cloud 
+ Last updated 26 days ago 
 
  Was this helpful?

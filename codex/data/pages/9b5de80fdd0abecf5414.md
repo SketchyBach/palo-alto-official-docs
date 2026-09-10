@@ -1,0 +1,50 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/investigate-and-respond-to-cases/automation/integrations/use-integration-commands-in-the-cli
+fetched_at: 2026-09-06T09:44:38Z
+source: cortex-platform
+---
+
+# Use integration commands in the CLI | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Investigate and respond to cases 
+
+ Automation 
+
+ Integrations 
+
+ Use integration commands in the CLI 
+
+ Run integration commands from the command-line interface. 
+
+ The command line interface (CLI) enables you to run system commands, integration commands, and scripts in the War Room for a case or issue, or in the Playground. The Playground is a non-production environment where you can safely develop and test scripts and commands. It is an investigation area that is not connected to a live (active) investigation. 
+
+ On the Marketplace page, under each integration, you can view a list of commands. Integration commands are only available when the integration instance is enabled. Some commands depend on a successful connection between Cortex XDR and third-party integrations. 
+
+ The CLI auto-complete feature allows you to find relevant commands, scripts, and arguments. 
+
+ Cortex XDR uses the " ! " such as !ad-create-user username=[name of user] . 
+
+ When running commands from the CLI, the results are returned in the War Room or Playground and also in JSON format in the context data. 
+
+ In the Playground, you can clear the context data, if needed, which deletes everything in the Playground context data, but does not affect the actual issue or case. To clear the context, run !DeleteContext all=yes' from the CLI or click Clear Context Data while viewing the context data. 
+
+ Previous Add an integration instance 
+
+ Next Troubleshoot integations 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,44 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/cortex-xdr-xql/get-started-with-xql/about-examples
+fetched_at: 2026-09-06T09:46:01Z
+source: cortex-platform
+---
+
+# About examples | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Reference and developer docs 
+
+ Cortex XDR XQL 
+
+ Get started with XQL 
+
+ Cortex XDR 5.x 
+
+ About examples 
+
+ Learn more about the Cortex Query Language (XQL) examples provided. 
+
+ The examples included in the topics are intended to illustrate the behavior or usage of a particular stage or function. While these examples can be based on real data that you could use on real-world queries, you may need to tweak these queries to perform investigations or otherwise solve real-world problems. 
+
+ For examples of queries that illustrate useful investigative queries, see the example Query Library that is available from the product user interface: 
+
+ Investigation & Response → Search → Query Builder → XQL → Query Library 
+
+ Previous Datasets and presets 
+
+ Next JSON functions 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

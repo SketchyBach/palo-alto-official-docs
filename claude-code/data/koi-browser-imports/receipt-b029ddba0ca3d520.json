@@ -1,0 +1,2266 @@
+{
+  "source": "authenticated official KOI documentation",
+  "host": "docs.koi.ai",
+  "imported_at": "2026-09-06T10:28:00Z",
+  "capture_sha256": "b029ddba0ca3d52021cac657ccb62cd0251906a673eb4f62c8a41bf4545ab6db",
+  "records": [
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/activate-aes-module-on-the-cortex-agent",
+      "sha256": "36822cb5adbd86bcb2d95668a92b38971da98c2a109c82cac94f893993797394",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/0347fe635ba73a8ada9c.json",
+      "capture_sha256": "38ec5bcced57598474b5fc5dd8feeddfee8f6f52eaa2801b36bce9c1f71d5ffd",
+      "local_path": "data/pages/0347fe635ba73a8ada9c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/product-security-and-legal/data-retention-in-koi",
+      "sha256": "606713e5742072673376c8c2d64ea20e1c8a3422cc884bf676b0342bf29dcde4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/04121a1264b523ce7068.json",
+      "capture_sha256": "2b36c906a1466645a90c30b35f46ab78f402038cb923badddc9c798c296d9629",
+      "local_path": "data/pages/04121a1264b523ce7068.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/code-packages",
+      "sha256": "4c47e94d93ba7ab741cf8bbff88254da6f1bb44321b5b305e717e1b6c547319f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/041e2f3bc6927f4e791a.json",
+      "capture_sha256": "bf60db2ff0d78bea7b4b43f6d8b75181f3fa6169fe463bfb20990b4c169cdfbe",
+      "local_path": "data/pages/041e2f3bc6927f4e791a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/filesystem-read-access",
+      "sha256": "a300ac7c80280763dbaaa95721f3b46f977ba92db3e97649bc902fbd0b74c6c3",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/04823531ff85e37914c5.json",
+      "capture_sha256": "4f19d67864c1269291a50b7bb28e52dbcafd78f61e48aea895ab987674a145f8",
+      "local_path": "data/pages/04823531ff85e37914c5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3",
+      "sha256": "67910703e56bc86fbc43fb43fbafd53f28d325a91af84a44ef0d70de0885a678",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/04bde8d3d47cc86932a9.json",
+      "capture_sha256": "33768c5a83f85bb0324633e79355ac2ae93a06f880706227caf0f822fde26b1b",
+      "local_path": "data/pages/04bde8d3d47cc86932a9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-ai-tools-with-koi/agent-activity",
+      "sha256": "8d4c2b1a52d1023e8ee64f7160c641b0ff757b1a4192e13cc65a07a37316f0a4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/053986dd77c863d50088.json",
+      "capture_sha256": "242fe2f777e2f8a212a120e35ac7eb06f90ef6bb57cfbb3315bb101d04bf68b5",
+      "local_path": "data/pages/053986dd77c863d50088.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/pac-file-integration",
+      "sha256": "36115e5b942763229af9545e96c04922e981b57931c605ad27103f74909ea067",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/0631051542614c45c0db.json",
+      "capture_sha256": "aaa58b76e7b85b298867973bf9b6ada5dc6284805076274ad4c1e6b575515ca5",
+      "local_path": "data/pages/0631051542614c45c0db.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/code-packages/registry-approach/python",
+      "sha256": "c25887e81605c8c605fe6b0bfdee6aa57b9bc95386ff244978c475648632f37e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/080bca8a11ae6ceac243.json",
+      "capture_sha256": "91f2ba8ef7f2760568da750348d7855ea6de0a335f758e2dec0ab8990e51022c",
+      "local_path": "data/pages/080bca8a11ae6ceac243.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/network-read-access",
+      "sha256": "148ce5bcd474ebb81f0759a05f6919ee3b4808ff83ba044ef413488e6ca144fa",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/0aaba6cb9118d0017855.json",
+      "capture_sha256": "da6bfec429ebc966a69f633389a8de4b0358df9632830829c5f758920d4c937b",
+      "local_path": "data/pages/0aaba6cb9118d0017855.md"
+    },
+    {
+      "url": "https://docs.koi.ai/get-started",
+      "sha256": "ba0d6006c31ee4bf85316e62464acf04659fa3da96121edecc6c1f43632780e5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/0adae3db3bb33f6778b3.json",
+      "capture_sha256": "175588516d43049bed66b2c0659563e3143dadda6b56a689f5df1f4685cf40f4",
+      "local_path": "data/pages/0adae3db3bb33f6778b3.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/newly-registered-domain-communication",
+      "sha256": "8fba5212e5c2c9201675f3f7c44673ba5e8b1b4aa5178b740628a5bd33344e88",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/0cc66c9bba3a3105ba10.json",
+      "capture_sha256": "b2344894387259bb3753dc1205cd89a8f70c5473d2ccfd1079c67f90fa8414cc",
+      "local_path": "data/pages/0cc66c9bba3a3105ba10.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-ai-tools-with-koi/agentic-ai-governance-layers",
+      "sha256": "1934cc992bec0f2035132730fa312dce1d0bc2beae4ef312815dc54c0d63dab7",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/0dbabf5fec53bcadaff3.json",
+      "capture_sha256": "17ff393fe30f17fbbdaf2082ab7d5d39052edbac42b82e902ac564427f06ea0d",
+      "local_path": "data/pages/0dbabf5fec53bcadaff3.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/clipboard-access",
+      "sha256": "e70079144e89b19d80876d0bcb0909e0933c1f88180c74cdd71699cfdea318ef",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/0dd9dd26c3144ce3bb14.json",
+      "capture_sha256": "14d00f0cfead09a8ca17866185723093dcd2434a46caf4d2d0791171a707265f",
+      "local_path": "data/pages/0dd9dd26c3144ce3bb14.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/sensitive-data-exfiltration",
+      "sha256": "f26b3f9832c763286b232d4e999a82fd6828da06cdde389ddac5e4dc23241c90",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/0e7014419bb5fbc2fa9f.json",
+      "capture_sha256": "c16db941f9d58d018bac499075dac7537ac2c3058b06264dfea64c03e5913def",
+      "local_path": "data/pages/0e7014419bb5fbc2fa9f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/publisher-email-in-compromised-list",
+      "sha256": "4e286849a4134ca667e8c0a64a73f0ed740b7d6610c8ba539f34fb26ae3552c6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/105b9ec51f66f31d4fbf.json",
+      "capture_sha256": "6d5c5a95a434aac96f8b61bcdd6689fed514cf102ad4157f6de97a11b20d0292",
+      "local_path": "data/pages/105b9ec51f66f31d4fbf.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/end-user-notifications",
+      "sha256": "9701cb4c2b7b6224a3a1a4ef6c7e130ed3495ac5de19cf64586ac885a59e8222",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/10c1ced4ed6e6c5ef904.json",
+      "capture_sha256": "9ae68d31ec69b0fe3ee28bcb920d04ab6159ccee658222edcfc492a44a3af23a",
+      "local_path": "data/pages/10c1ced4ed6e6c5ef904.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/filesystem-write-access",
+      "sha256": "375fd8d135347d3c20b246e3acf86253afbb03b5338daf95387aba057c293e1b",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/10c7d8744a3f85de2e55.json",
+      "capture_sha256": "ff879a9a1e020e43f70094c61ee18af38a28f456bb52551b55c3a25ff294e327",
+      "local_path": "data/pages/10c7d8744a3f85de2e55.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-location-data",
+      "sha256": "4383348d1c2685127a7c0ca1b7cc040d996e570b143586596eac476bb2193559",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/11692bb69c2fcdb674e9.json",
+      "capture_sha256": "ac0a2fadc7f2b332f4c696cf3fdb987b74939d893ceb4eadd2949afd1a9bcb12",
+      "local_path": "data/pages/11692bb69c2fcdb674e9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/koidex",
+      "sha256": "be9e19d369614de5243578692f5fd04277cca19ec04cba17e4108321ac96f793",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/120c68afe1c3e8897215.json",
+      "capture_sha256": "e27de1ebb27229e937d919947cc5d1767587f0d8c9e1f93819665314ede4f55b",
+      "local_path": "data/pages/120c68afe1c3e8897215.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/manipulated-user-reviews",
+      "sha256": "7b95ee7d80c0aa6f94e2381a2b1c553fe1eb586dd87f3e0a3396eaf714c7ee5c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/13bd461944a09d384d0e.json",
+      "capture_sha256": "e9317888e717e164623a9bb4a269083f96cec461caa8c22ec4dff92cb940e813",
+      "local_path": "data/pages/13bd461944a09d384d0e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-ai-tools-with-koi/agent-enforcement",
+      "sha256": "fe81fd6c813a8708ae724e470d28652feeb583ea448fcf893255f313d191f9c1",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/13c36c8e52b6b1ec0342.json",
+      "capture_sha256": "d99f8514c55122cdd64a45989209396a2babd73f0e4d3a00dfb4f849ac4d350c",
+      "local_path": "data/pages/13c36c8e52b6b1ec0342.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/dynamic-context-instruction",
+      "sha256": "a211fccbe924d6104bae92e51ab0eb257d7d19ede2d361d2b9d0a0b1771f3ff3",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/159a8776721fb84eeabb.json",
+      "capture_sha256": "05274ec8293dd402f9c7427efa93aae4c15cebe88448fba0bd75c89626c6ac3e",
+      "local_path": "data/pages/159a8776721fb84eeabb.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/pac-file-integration/deploy-pac-file-using-jamf-pro",
+      "sha256": "597422b863fdb1dfe9c6e12803f96842b199c56969fe6d68347f754f03ffd069",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/164c7afe4e75d9debdf0.json",
+      "capture_sha256": "7b1eac2922ab8b0d3e6624407408fabff495a369f459f823a87ee59e4349c6df",
+      "local_path": "data/pages/164c7afe4e75d9debdf0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/printer-write-access",
+      "sha256": "3acdb449f90d6057494430e6935b2487010f235493c3349f1c97da56ace44994",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/17e1a54f2c5292b4151f.json",
+      "capture_sha256": "e5a6b9ee0535614c7c1631fdc4ec01fc517dace14f8e8d79d4c91506fc6a21bc",
+      "local_path": "data/pages/17e1a54f2c5292b4151f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/removed-from-marketplace",
+      "sha256": "b0c845e30b073431f485aeed85824cb6cd3291271629cb26e97b8eb44913828b",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/1943448a9a35a1b0b2f4.json",
+      "capture_sha256": "336c9452d881d517d08708d47109525714e873ee5d1ac4dac8bce31878f555de",
+      "local_path": "data/pages/1943448a9a35a1b0b2f4.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/publisher-low-install-count",
+      "sha256": "337bbc4246c0a56ebadf29c02693d6f9affcee1fd890aec50b597232fef59588",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/195eea6828f460c96dfe.json",
+      "capture_sha256": "3ba55dc7239550356870147852c34fc6e6bc2e87301400d4f17caf0fec289f43",
+      "local_path": "data/pages/195eea6828f460c96dfe.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/low-install-count",
+      "sha256": "5628edc1dcdc20b7975c9621a821256e81b11443dfd13871169cfd02a20848a5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/19d2254a8e5ece8ac2a9.json",
+      "capture_sha256": "bc7fb5d00d56c76edb376d56dd18a6f52dca00618c1034446f119b3ada62db1b",
+      "local_path": "data/pages/19d2254a8e5ece8ac2a9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/delayed-access",
+      "sha256": "d001e0475abc30a89037702c5f44210dbc277622b5896881797a29049d0fe049",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/1baae14800517e92406d.json",
+      "capture_sha256": "a017cf90f82321faceeb83643b39d78e3c2da2367142b0b469036da528e541c0",
+      "local_path": "data/pages/1baae14800517e92406d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/unpopular-github-repository",
+      "sha256": "3c28ea6389a74324eaefd1eb2a0dcf3b7d8e44a92b4a76cd4d0a8b7901ed3306",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/1d58c865ba1cda18a3f1.json",
+      "capture_sha256": "618305249c25baa6a15d197764f12fa2f5d5b7d9e2d8c862c5a638eb4b692079",
+      "local_path": "data/pages/1d58c865ba1cda18a3f1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/",
+      "sha256": "74af87a2b25b0a26c399b2357bc998927a29d7d3b51a070ecf6754e63858fba5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/1e6789d68c6f5d0ebaad.json",
+      "capture_sha256": "aafeeb3c6878a7bfbdbee0bbd687cb4088159d9767bf2ac5ba820110402728fb",
+      "local_path": "data/pages/1e6789d68c6f5d0ebaad.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/risk-data",
+      "sha256": "94fbfd5ec8cfa805a0e5fb3b3166316d9f1a67c020142408c63ce810cec46f3f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/1f7dcfc5c2e4d05a9138.json",
+      "capture_sha256": "6abc3e8c043cd640744dc8f190f4c4148624e9284ce8990c872ba27134d87245",
+      "local_path": "data/pages/1f7dcfc5c2e4d05a9138.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/access-agent-configuration-instruction",
+      "sha256": "8a7289138016e854b0d9778ad54e25873f1934108f986f4bbc5fa898e76f4d47",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/230bd468c9fc94db42df.json",
+      "capture_sha256": "ff49a6d77b376ed0b0342b3daea396ee6ac49e4a1a5b2f23cf43545a90b5539b",
+      "local_path": "data/pages/230bd468c9fc94db42df.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/pac-file-integration/firewall-exclusions-for-pac-file",
+      "sha256": "1af3e64d2cda6c64e3a1da6b34a3502b672ef7815ab65f8f715119cec70b23a7",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/233998e9ca74af270be0.json",
+      "capture_sha256": "c0c5c449ee9936e64a6e7fa3e67284a3520e9925ce8a1d46c15f4332da705fbf",
+      "local_path": "data/pages/233998e9ca74af270be0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/code-packages/upstream-integration-guide-post-pov/sonatype-nexus-post-pov",
+      "sha256": "963974a854024f9b34d06e7a7a002ebc7d66fb1a332337f333dd9eea5e24241c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/27089b7f70490f696604.json",
+      "capture_sha256": "229dd8868d8c6c629dbd9f68b74bccfcc73adf8bb570a273d354a1aca1bdbe88",
+      "local_path": "data/pages/27089b7f70490f696604.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-applications-with-koi",
+      "sha256": "38c48b52189d566250d310dc978f24eabeae6d01a9e840cea77f46e0c47c3719",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/2796cf843d4df41e17a6.json",
+      "capture_sha256": "bf93cec9514270e2a565316ccfcd6f3d5a1445ed5d7e5d35a746b7bb20e628b4",
+      "local_path": "data/pages/2796cf843d4df41e17a6.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/agent-credential-access-restriction",
+      "sha256": "4bb3d0699708a8aed8950f65c4a0cefa6251373e4e091949decee5a1c488a861",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/27cb85cadbfd22289191.json",
+      "capture_sha256": "ab4bc2e665df1a0aa62ab934d6c84af55e6796dae190434822fd261fce7f4022",
+      "local_path": "data/pages/27cb85cadbfd22289191.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/endpoint-removal-and-soft-delete",
+      "sha256": "41b1a8f74ec599d17dd7fc927d96013022d0376a5c66ce661c17f88819357ace",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/282259a25e5f264534d8.json",
+      "capture_sha256": "dff086f7896732ab956324b81a14667d9d7ed07768dc9da76bf7ad6432427617",
+      "local_path": "data/pages/282259a25e5f264534d8.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/fraudulent-behavior-detected",
+      "sha256": "46763a8f81042fbe1555d6225f30e8eb6080cdac58fa8ea415b74e1b4b586afc",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/299950a2c7692f267f85.json",
+      "capture_sha256": "d1f4641ab1f50478ea9d29ccbec2efeae9929c7f2452ae42a97e55b255e4a271",
+      "local_path": "data/pages/299950a2c7692f267f85.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/reports",
+      "sha256": "6d48f55f6cb4ebc6b4fcad1c6ce3880c0db430258c236aba41627f0e1149e8b8",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/2a6795d3a026a6852dc6.json",
+      "capture_sha256": "c58db71dd7807f582e9065b9a795f59bb895242e1e96a3b39f350918f6954843",
+      "local_path": "data/pages/2a6795d3a026a6852dc6.md"
+    },
+    {
+      "url": "https://docs.koi.ai/product-security-and-legal/proxy-data-flow-security",
+      "sha256": "101abdc7b04859bf5c536d2c63b1dc2158c18a7b3c8ff09628fcc3e690b8b540",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/2b1e415121198ae6d9e7.json",
+      "capture_sha256": "1088122cd38fba40e522802f79ec1926c57d0404f4b62b6701c047b2b426fbd3",
+      "local_path": "data/pages/2b1e415121198ae6d9e7.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/excessive-event-scope",
+      "sha256": "e5cbed5b7a4ff2d1a22502033532c410222342d3eb50703317e68c4167a6cef3",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/2c9a72527ee98caea22e.json",
+      "capture_sha256": "9cbb554420cf0c997e45dcfcb9c1d99ec94f1a7b39e5eae32ed02d0609b2ed5b",
+      "local_path": "data/pages/2c9a72527ee98caea22e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/theme-running-code",
+      "sha256": "0c734f9bc5a661f2f1401e7b88802c453edbf8a2d6e68df6031a6aa1829c012d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/2db6565098cdc120d8eb.json",
+      "capture_sha256": "8770c57a4093338e535338ad8ba0e8f77c1e96dace57a743166e8998a3d1a51e",
+      "local_path": "data/pages/2db6565098cdc120d8eb.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/agentic-runtime-control",
+      "sha256": "84b5a2d70c006a4a3254d24a38796d4d0baf00ecc9f46a7565157a98b74b4abf",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/2e4147a50b56a0b61d28.json",
+      "capture_sha256": "2c7aebe4c6d9b291ae43cbfbd19ca69cfe7591328f2b4d03a9756c2a193b2c92",
+      "local_path": "data/pages/2e4147a50b56a0b61d28.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establishing-trust",
+      "sha256": "e19548b0fa31b30b56ebdef4b37d65046173252ba2f93d92d4448a6d39de78d2",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/2e424e18a3effd6efcd0.json",
+      "capture_sha256": "2ce9ea1bef3a75a7156015dd8cba47358b7356e3316ef7cd00539db66f143eb7",
+      "local_path": "data/pages/2e424e18a3effd6efcd0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/verified-hardcoded-secret",
+      "sha256": "0279169b320c9c36537317e1c927bb3f79580aabd405a906a283ebaa97b0c9dd",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/2fe1ed66ab87a4e96e6a.json",
+      "capture_sha256": "f72fefdfff6bc0ade8611e726c53abbd504b8d0adfc5503929469aac41dd544c",
+      "local_path": "data/pages/2fe1ed66ab87a4e96e6a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/product-security-and-legal/runtime-protection-data-flow-security",
+      "sha256": "813e7ee75c0785a4a2bb436a9e244bcfa421d2e4aef7264db012d9f0ad9c29fb",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3138bce5c1fb94447eb6.json",
+      "capture_sha256": "869622fdc4cf0a1e06dffd8421ac4e107b86485a41d635f9d10fce02a19963bf",
+      "local_path": "data/pages/3138bce5c1fb94447eb6.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/impersonating-low-confidence",
+      "sha256": "9b4c5460bf93bfcde79952f65cf010f531c8cdb09ff0b93b3e440023080c14ab",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/332051f0a063cf97fb4a.json",
+      "capture_sha256": "dddee79abe804328c3c21435360f0307ed914cea04b7a3e70ba2ceb8b0b0bb04",
+      "local_path": "data/pages/332051f0a063cf97fb4a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/edr/crowdstrike-rtr-guide",
+      "sha256": "14c61074856b69ebcab4b7e5132990c0e25f0701a1fc315ed4ce16c62367f5ea",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/335010702f69e97eda31.json",
+      "capture_sha256": "e0233a2401135076b603429ce8b9e37f3427da13b6e827cbf849a4ed91596941",
+      "local_path": "data/pages/335010702f69e97eda31.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/mcp-registry-enforcement",
+      "sha256": "aaa43e5658fe6aa85a78b119a4fb199638ca453f1978eb9cd142a9a70c31d795",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3375cd27f810029da1cd.json",
+      "capture_sha256": "cd1298ab8448a0f6d815a0280f00efdc49aa9215824e176ce2f7310fbe923b41",
+      "local_path": "data/pages/3375cd27f810029da1cd.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-code-packages-with-koi/code-packages-remediation",
+      "sha256": "f6a8a323a369e38f3781e9623302c859a7b2c14425314f152bf9d85871467111",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/33a5deec30e22af26247.json",
+      "capture_sha256": "b06d394ff0d0d620fb18dfb752c2c33bc2e6ffcc04491343010b725eb63a1fcd",
+      "local_path": "data/pages/33a5deec30e22af26247.md"
+    },
+    {
+      "url": "https://docs.koi.ai/get-started/platform-coverage",
+      "sha256": "266bd9f3ef21dfe8df5a9e3791ae51fca3f779911c8e28f3d17f56304527fe6c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/33c6b02178454e71e1e8.json",
+      "capture_sha256": "e6d7cb341784f4a25d3ad878dd3b5ebc671c9ca251c9c6667f5a327d4fb5b0e8",
+      "local_path": "data/pages/33c6b02178454e71e1e8.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/idle-time-read-access",
+      "sha256": "1a19fb8e0ee313f86a7cb26f72d8324bab522c93b42a760f3ee10afa80627a02",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3780b52e31901ef701f1.json",
+      "capture_sha256": "9a532184d1e36979fc1af41f6028399995b1a4fcc0d6a300393523c311752cce",
+      "local_path": "data/pages/3780b52e31901ef701f1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/low-level-network-read-access",
+      "sha256": "1816f137debaf041038e84e3678d72e430f005609294d387f2dbddf1cb3f7190",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/38aecaeb6939743733c3.json",
+      "capture_sha256": "15aea8102e276047b2664bd0dc56a1dc5f9af439891e0bb86f23c8d8fd272acc",
+      "local_path": "data/pages/38aecaeb6939743733c3.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/reporting",
+      "sha256": "9897de57e1a7252a4192b49ced9a154769dc3069ee3c6af61ba72323bb86e1e7",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3916ac7eececd28daaaa.json",
+      "capture_sha256": "ca4254dab320be3a2e21b5f3ea22302de30d299d454e48dda29cb54f1ea1103e",
+      "local_path": "data/pages/3916ac7eececd28daaaa.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration/santa-integration",
+      "sha256": "ce629d2d37137a095562ebdc473000ca50b8d19de9eb2b8f3c864b2bba841f29",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3980b1895d9cf59627f8.json",
+      "capture_sha256": "cf1ed3e454073eebda7ee775a185264e3b9c68174252cd573628555fa99b4e0f",
+      "local_path": "data/pages/3980b1895d9cf59627f8.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1",
+      "sha256": "fc2b054cbe1900b8d40e0337f9f384ab4d4db657da04d5ccb20432398756f8e6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3b42fd164813bcd5c658.json",
+      "capture_sha256": "2f867928754b7a9e866765ad9d748c2d0fae7aaad10abb3d6cc9f62d4ddf4338",
+      "local_path": "data/pages/3b42fd164813bcd5c658.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/remediations",
+      "sha256": "7944d3d0c012cea7772a88ff630f610da9046b616ea6524d367f0b1680012d1e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3b67cfbbfdfbe6bbb31a.json",
+      "capture_sha256": "6f74ab8346fb6b59ad65a79fd01509f6139f840842d4e76270d10834d6b8b16b",
+      "local_path": "data/pages/3b67cfbbfdfbe6bbb31a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/readme/overview-and-evolution",
+      "sha256": "ad2aaf0be0544715b517fdefb28916aad4fc935aea37fc226972afc199302fd5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3d8adec3eb403c3d69b4.json",
+      "capture_sha256": "a9ce33545824eb42f3a2f3c7cdc07cffda941502218c0a8005e5ea18552ba524",
+      "local_path": "data/pages/3d8adec3eb403c3d69b4.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/single-sign-on",
+      "sha256": "12cac51346191eccf2f69f29ded7a25616fb8530e8b8f6cb57f122e6db51a08f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3e6ab364e83e6f512de2.json",
+      "capture_sha256": "790aa8b6be5d0c93b6640d3d945bca634ac8c7f13507d9a46eaeb48728531d0f",
+      "local_path": "data/pages/3e6ab364e83e6f512de2.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/associated-with-malicious-campaign",
+      "sha256": "7d28e81e0d2c4bbbf31b9d5404b3d62e7222251ee6b3a3ae87d992ae7b6391bc",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3f16d4242cd5cf1a7f4b.json",
+      "capture_sha256": "de9f25a368c657402054772d55d7ce05dbf5f6f22d66d1dad9ec5a4578b156b0",
+      "local_path": "data/pages/3f16d4242cd5cf1a7f4b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/hardcoded-code-execution",
+      "sha256": "52c61feda5d6c9d1dad6b807c5b1cdd0fb89af64ad55ac4b3fef3a8f68f15e98",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/3fafb44b004a0a8a62f0.json",
+      "capture_sha256": "21fd99d67562b3d5ab978bc8eae04b4f6a8d0d6558676af26a76d4fe18083e55",
+      "local_path": "data/pages/3fafb44b004a0a8a62f0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/identity-authentication-permissions",
+      "sha256": "847339c0f25812b9179f8f2b00d57b02f7106740e65678be7c1db6a4ce221b88",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4066b1490e0b6b838ee4.json",
+      "capture_sha256": "3fdfd2c532c272036d0cae18b9651a8dfc8a496240db53299cb2929681a87cc1",
+      "local_path": "data/pages/4066b1490e0b6b838ee4.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/access-sensitive-resources-instruction",
+      "sha256": "68eccac2e46226e93de383c539a226ba7f9f0b7c75bfbf0a5da2877d716c13aa",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/41462c949bfa2f01ebbe.json",
+      "capture_sha256": "a694db32689a614ede88bacc5a638351a05c48f19d2cbdd6358e0b93ab1631c2",
+      "local_path": "data/pages/41462c949bfa2f01ebbe.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/notifications-write-access",
+      "sha256": "7fd7ac1413b2407ef25a7ab2cbe59b581bffdce955f332acf72b10e64c4f9d0c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/420166197c6507a363aa.json",
+      "capture_sha256": "915ece8c08f0d7ab1ebee563482d900b2288902e8e23a4d28db003f9b6b346d7",
+      "local_path": "data/pages/420166197c6507a363aa.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/powershell-command-execution",
+      "sha256": "f2e5325784c350268eb7626a43bf3ef135ec31038391cee288275f5a0ecb5d93",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/424c6231a042ac9ed2b1.json",
+      "capture_sha256": "4573302fc9d8a7250c614298237a2383494563a78ac7590bc5d14b425472272d",
+      "local_path": "data/pages/424c6231a042ac9ed2b1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/ai-agents-discovery",
+      "sha256": "0f57b3dcf55a33ef87f1ea1974bb3c52a422034515d7f75b9fc8e6490f69a184",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/42ca7150cf37a6046151.json",
+      "capture_sha256": "3f1cd418100ebbc20e00ffd3ce17452618f268c375676c336a5990c51af95f08",
+      "local_path": "data/pages/42ca7150cf37a6046151.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/policies",
+      "sha256": "79986646618a4bf79b0ef2b2b54ddd836b2404d263db0bec814d00736f3b1c2d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/42e769399e5ce3b84718.json",
+      "capture_sha256": "d33d82ea5ca73da2687cecd309e48dd93ab02ca2949c571af8fe570cbbc4b870",
+      "local_path": "data/pages/42e769399e5ce3b84718.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/request-approval-workflow",
+      "sha256": "47db56e25febb839119984db9c40d1110ba245120b4a759bc74781299268715d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/43433eceea6380dbe3ca.json",
+      "capture_sha256": "097db2dae5918be96326ba497208718a185816c1089f2f632aa5a8a4aae3a76c",
+      "local_path": "data/pages/43433eceea6380dbe3ca.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi",
+      "sha256": "f498726614a1926150c2b3e7d8774170e33b7b119036b2a98c5446fe85d5beda",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4416ab752c3dc8e5c0e6.json",
+      "capture_sha256": "296d9709d2fd5eeb30322090d4bbee80a06a47aacf3ff32322c6fd24ab1f7d49",
+      "local_path": "data/pages/4416ab752c3dc8e5c0e6.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-authentication-information",
+      "sha256": "ef7f61cf6c1c0f83be2f77339799806d5232a732ef4a38afdf546db8a4203edb",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/446f7af60691d8dfd796.json",
+      "capture_sha256": "ac521cd90205c26ed9725f713336cea45558327b7a3ab53afd99404ad2f862d6",
+      "local_path": "data/pages/446f7af60691d8dfd796.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/event-hijacking",
+      "sha256": "c3c9fcd0321b09cba02750b6d57cb528b1aad4ed2d7f27838198246113afd61e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/44765ca9b37623241510.json",
+      "capture_sha256": "2637575d918deb67599b4aaa7f7da6d8399d04247ed8848418045553a1d92b0e",
+      "local_path": "data/pages/44765ca9b37623241510.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/missing-description",
+      "sha256": "66622cecfabd23c4df641c07fc7e6e442c2d3a6adf3c2e720ad1254b0f3e3cb8",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/461a4aaa810d9082c2bb.json",
+      "capture_sha256": "7b1e784da270f05421248216beb66dbcf818efe8c144d27025ecf92aeba0b133",
+      "local_path": "data/pages/461a4aaa810d9082c2bb.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/code-packages/upstream-integration-guide-post-pov",
+      "sha256": "589a8df3805eb15fa143ddf9d7eec396e599da98ba357c38b68e856cf56ac914",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/462f7c29304056072e82.json",
+      "capture_sha256": "516c27d1b3c335f62ac26feadfeb098d8ae785b9efc25256696c7600b5d37fea",
+      "local_path": "data/pages/462f7c29304056072e82.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/contains-unsafe-file",
+      "sha256": "f01afffec71ab494996d9d48a6afc85a3e689c7c253f553939d08e59633394f8",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/47409bf41b813337855f.json",
+      "capture_sha256": "9b524548017e274baf21b3833195419b0f8bd1b96332df05eee999bd00e50bd2",
+      "local_path": "data/pages/47409bf41b813337855f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/sideloading-visibility",
+      "sha256": "cebbf40ef7c9d14a905c2c3b7682099e37aa7e50b0511cf04aec48a456158373",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/47fc441022e53f090916.json",
+      "capture_sha256": "4380317a095ded816114351d32ee8e6ed30723feaa7fcff502dd006bd3280207",
+      "local_path": "data/pages/47fc441022e53f090916.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/bypasses-network-control",
+      "sha256": "3f41e3d94427c3f2c66efeccec3fede690b9b5de63ee1f9692d3c2408419f5b4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/497585e4d7eb2376b587.json",
+      "capture_sha256": "f8891509b7199755048f7e8e03ff50127c31ae7d041eda702156a3d2a3a55ba5",
+      "local_path": "data/pages/497585e4d7eb2376b587.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/keyboard-write-access",
+      "sha256": "1abe1faab486c27e657cd0a0c0f65bf4986a26ac17150e68b00a25d5fe1f57d8",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4ae26d943df82a707a13.json",
+      "capture_sha256": "a9dbec4e9c634d59e0d801bb59f5648b3354085310164ce3c828a1592e26c80e",
+      "local_path": "data/pages/4ae26d943df82a707a13.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/safety-instruction-override",
+      "sha256": "17ad1741cc50c7b0850a6b4fa9329b05461cb8902af8c5159784abf90aea78a7",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4b88e3000ac1ab5d4935.json",
+      "capture_sha256": "698fb4610b88a01123a6903499643d4087853537356e233d2fd17db47186b1e0",
+      "local_path": "data/pages/4b88e3000ac1ab5d4935.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establishing-trust/marketplace-domains",
+      "sha256": "3548ba64d6b29d790d3656f253ede2cb5c59624c403802b55bd42bc72d0f4fb6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4bfac3a77e5639aa82f8.json",
+      "capture_sha256": "1403cf7cb1faba5ee0a02e308d581d8743c10173e73dfb7bf56fb0d1504b1052",
+      "local_path": "data/pages/4bfac3a77e5639aa82f8.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/scan-first-protection",
+      "sha256": "c6dde9881195c31f13b4827b90f9ae9758d1a98c58ba57d63f6854d68bc9c01d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4cf4897aec59919d72ac.json",
+      "capture_sha256": "2297c93b755de9d8e51c97345cbf6bf4eeeccb57f4775a0bd76c6bb53bb99eec",
+      "local_path": "data/pages/4cf4897aec59919d72ac.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/remote-development-environments/sagemaker-preview",
+      "sha256": "357895faf6948a193b6b332f68b520d6e4b22566d236e3ae88218afd02c5df77",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4d8ffdd9dc7ec5ad8be0.json",
+      "capture_sha256": "a54784db7a925dc2eeaadb173f00e29d32a64da7b80077ef11b61e35f62cf88a",
+      "local_path": "data/pages/4d8ffdd9dc7ec5ad8be0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/contains-vulnerability-cvss-high",
+      "sha256": "8be656fe32037a026b7b3f74f1d71d299511e455776b3432a8d9b69810d88ad7",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4dba6d3df571298706e1.json",
+      "capture_sha256": "8cf5d891853fa9a73450f82457314cbd1fef0237450361045877dd54f129b3d9",
+      "local_path": "data/pages/4dba6d3df571298706e1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/undisclosed-privacy-data-collection",
+      "sha256": "94c9fac40ad735f54de22aac8e214173f4cf2a2b0e59cf43e1b760a2c95b914e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4e0df439037de25981c7.json",
+      "capture_sha256": "209ce75237491c410253aaab93a6628594b6c013365abf33f6c372f42904c985",
+      "local_path": "data/pages/4e0df439037de25981c7.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/network-write-access",
+      "sha256": "4950ad51d6b29ee945412921a8d08c50de0310d6a3fa2c44be7c0c839a57a1b6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4ebda402af9f09f6a69b.json",
+      "capture_sha256": "e70445db30bfe8b056962f43f13e5a426dc19761f743a5dc2f7cd1c9e163fca4",
+      "local_path": "data/pages/4ebda402af9f09f6a69b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/agent-activity",
+      "sha256": "eee50184f2f3642fbef0781b48618c0fe396e1dd97e69a1c922f78d242e95e12",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4ee22f062b739f9548bd.json",
+      "capture_sha256": "f9dc8f0d4149adc9f5b505c7497bbff12944f63574a32cbb9871f5f58e69c6a7",
+      "local_path": "data/pages/4ee22f062b739f9548bd.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration",
+      "sha256": "c51489812a215c7827585ea9cb161547fa42f6e0873c7e7a4306c8f599233a1d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4eed99686fa6bac6cdee.json",
+      "capture_sha256": "5db50efa57da82d28c298f1a64ca39413c7f7b16d31a2adac537aaf0b8259edc",
+      "local_path": "data/pages/4eed99686fa6bac6cdee.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/slack-integration",
+      "sha256": "856486dd202487ca18ccff27769fdd9b2e5c2414be3e7e9cf3f888ca92622be1",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/4f967bee5228b1f2ac31.json",
+      "capture_sha256": "0d9094efc4646212f164b7a86dba5febd483f24993e00bd8bc266a613ac0622a",
+      "local_path": "data/pages/4f967bee5228b1f2ac31.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/dynamic-network-destination",
+      "sha256": "3cf62100b542c94bbb10417cbbc60201a24c2ff2bb756d2a0ee277a63fcbc64e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/513a17c8eb61bfc6a215.json",
+      "capture_sha256": "8b178a56c38146148d081d544ca83ed007b45d7f1691de1fa6ef93b4e04a1a6f",
+      "local_path": "data/pages/513a17c8eb61bfc6a215.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-user-activity-1",
+      "sha256": "61538e543fddfed6a363645ce15afb5e7014b0059dda317cb8d6989154de4819",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5228443fa76ff21ccdb9.json",
+      "capture_sha256": "5284e49e9d32b4e31c4a705b65cec16a2220f5aa88560126b9e129075757b8b2",
+      "local_path": "data/pages/5228443fa76ff21ccdb9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery/binaries-inventory",
+      "sha256": "bc907a59ed8ed9470ada61236ef552b20b30a616e6e725d6512af4ee43106a06",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/52803e8022dbc28da74d.json",
+      "capture_sha256": "e25b3ef7397b09000eccfe2abb9dbe5349f8c106b981e2fee2e9611480fa69dd",
+      "local_path": "data/pages/52803e8022dbc28da74d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/index-2",
+      "sha256": "e19548b0fa31b30b56ebdef4b37d65046173252ba2f93d92d4448a6d39de78d2",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/52868387f4c0eb65969e.json",
+      "capture_sha256": "5d72415014dc0be89da3e6657cf7843824f51d02e9292bf6678a01cbe9446f96",
+      "local_path": "data/pages/52868387f4c0eb65969e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm/fleetdm-guide",
+      "sha256": "967ceef8da16817b0da1ee2604e749cb678f8072d371d7ced1482d6191c442c0",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5288c4b9b893f4afe110.json",
+      "capture_sha256": "f955744d97656c2bede19aa5a5d5d16cba326b136057dc829b2f72a9218a1ca1",
+      "local_path": "data/pages/5288c4b9b893f4afe110.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2",
+      "sha256": "8e799b73bcc8eee337363e0b5b5870505e477dc98761f30024d0b8e44b81bec1",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/55b9efe0027f4d2a9e7a.json",
+      "capture_sha256": "479716d2d8c959f3e6a60ec1f13dc3450ddbd9b16c54571b060bb413aac1ce5c",
+      "local_path": "data/pages/55b9efe0027f4d2a9e7a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides",
+      "sha256": "cb39a8abd2afe0507100f26e6eb09db06f4a5e05ce8f054616b9d53a7707bf6e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/56b5047260c6185da492.json",
+      "capture_sha256": "78984a2bb5bad320db4d686ac4d813a6bd1e23e675ebba75a9cd28630b78b5f8",
+      "local_path": "data/pages/56b5047260c6185da492.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/vulnerable-to-prompt-injection",
+      "sha256": "26694f445c93ee8f0d2c1e0b1a1cf336815fa6be51b76c7e361df16e62c4d1c4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/57c967f1b1c4fc553b03.json",
+      "capture_sha256": "b8226445a38a1309414760dde4ba6250c144fb95eaeb761814079a244f248625",
+      "local_path": "data/pages/57c967f1b1c4fc553b03.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/alerts",
+      "sha256": "fc970dbf98eb80d392fede676804e61e6a718d10cb4b01628397bd830f7dfbdc",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/58fc4c0d82bf0d2dd6b5.json",
+      "capture_sha256": "dffc32f9bab4bdc22f4411d5d43dcb0bc0de0ec7856ea49dd606ed2680b67ea4",
+      "local_path": "data/pages/58fc4c0d82bf0d2dd6b5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/zscaler-guide",
+      "sha256": "e3fad4c616bae3a61a50153cdca136fd9285763f51998a7df92c2caac1773c19",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/59211525f9b1cf5e629c.json",
+      "capture_sha256": "a51d81f6fecc1a9878a9d90619d2bd0f462bcc2f5a2d72bf976ac5112b71ee95",
+      "local_path": "data/pages/59211525f9b1cf5e629c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/git-repository-discovery",
+      "sha256": "15b9118bdf742892cc07495dc87018d92658904cd7837f5fb8059453ef66bb96",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5c8cc8019e7ee8c0b00c.json",
+      "capture_sha256": "c61a8771a714153396cf7d322e68ce83c435ee207448ffc990c5a395de51a3ef",
+      "local_path": "data/pages/5c8cc8019e7ee8c0b00c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/repo-doesnt-exist",
+      "sha256": "75b905cbd6c5bb06bfee393a1ff8cb306ad597f449c1102d7929d77359848508",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5c9cb8bc56c5db953caa.json",
+      "capture_sha256": "c3be255a170e3df5a65adc0612bb41b5ecd35f55a41d9bed2a513442dd5dbc78",
+      "local_path": "data/pages/5c9cb8bc56c5db953caa.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/remediation-in-koi",
+      "sha256": "2c85e4b1771d1ed58577fb5ea5e457abc206cde11e7211be0e0e47825bd96fa3",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5ccc217467ccc773516c.json",
+      "capture_sha256": "18bc7271b950feed4cd0f7e078b5b21907f472248368b0f96810239794196b69",
+      "local_path": "data/pages/5ccc217467ccc773516c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration/capabilities-per-os",
+      "sha256": "5f03f318aee0953b8d01eddc934043a3977d10c7a0a376a1ac48f31e532c42ca",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5ce8924ad559fe76f09c.json",
+      "capture_sha256": "6a5d930d6d8bacfae840daad6feea475168afb8434ef1047b878e74214b5b53f",
+      "local_path": "data/pages/5ce8924ad559fe76f09c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/flagged-by-community",
+      "sha256": "fc0a0047188400d877a8652423829bb78a450d051589fcb488fd6a845dd1bfb4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5d9fe3c0bb783bd3aaa4.json",
+      "capture_sha256": "d6ff668f64c1c7f504051f797b066ee783a7ea12a1e2b8b40eb8ef89cc5f8642",
+      "local_path": "data/pages/5d9fe3c0bb783bd3aaa4.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/obfuscated-code",
+      "sha256": "56564a0acfe08bd9709fc854418a9cdf08812c6e82373c7d0cb4587eb4c7e34c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5daa15e77fc133a5402b.json",
+      "capture_sha256": "82eec4641963b42b994be84f9a78637e94d122726edb298826d032f6c6a8a265",
+      "local_path": "data/pages/5daa15e77fc133a5402b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/edr/sentinelone-guide",
+      "sha256": "be84a8994938121d4b4c51520773ee7ce564511666e9e67f7b4f5f5a08c1ccff",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5dd5e0ff5012944dce7d.json",
+      "capture_sha256": "8699d796a2f5cd9f3b10a539d0338a2dda2309062ebe2acbe6df093536f7c49f",
+      "local_path": "data/pages/5dd5e0ff5012944dce7d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/policies-and-supply-chain-gateway/policies",
+      "sha256": "0070fbdc21b854b3a78cfee13dc389e8abd8a79326cc7079c1cbfbb0a39b8717",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5e040e1b03622f809175.json",
+      "capture_sha256": "40c24ae38eda50f886a0e3ee5873b13bff099fd993dd8747401ea557de649f84",
+      "local_path": "data/pages/5e040e1b03622f809175.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/manipulated-user-reviews-1",
+      "sha256": "6438ffcc6dc620ffa3ac55aa443bba4cefff457cfaeb0d3207daf71de0df11d4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5e0fead90c43f6469048.json",
+      "capture_sha256": "b9f81ec8b8317d27be51dc78c24203fef4d31d92b6fc355c5e6d36bec10545a7",
+      "local_path": "data/pages/5e0fead90c43f6469048.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/geolocation-read-access",
+      "sha256": "4895f8ca1945f3f06839bceb45fe4f49d48224c74d0f6bc535da52b3c5ca8bc6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5e1261948ea0f38e18c9.json",
+      "capture_sha256": "62814fb50c29a310c0db382ff33d47c5e912531f66dfa7076f3b2604102251e6",
+      "local_path": "data/pages/5e1261948ea0f38e18c9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-applications-with-koi/binaries-governance",
+      "sha256": "03d13305ed9f46ac54b5e0ca5f9242c510899f53a580d4b95db5183c04d8b818",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5e206473d9db681f116d.json",
+      "capture_sha256": "9102a40ed9e099edbca34467e6259d246dd08a62e1c8b10fd231d320d0a33e07",
+      "local_path": "data/pages/5e206473d9db681f116d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/malicious-activity-detected",
+      "sha256": "d6ced600ffb2d9e65a0606ff2ce3c75e2e3939bc636d35b1d9df974893f84926",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5f6980eea77814877e7c.json",
+      "capture_sha256": "6c8738a6d597029de32c94919ff24488063cf61c012b956f6b185862885c6d67",
+      "local_path": "data/pages/5f6980eea77814877e7c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/private-items-scan",
+      "sha256": "4fb801ae3b96ebc79514a254713cc8171d1dab7b21318bdf920c857a3254c464",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5f7ba30dd1470031f01b.json",
+      "capture_sha256": "fdc0f03bb589f969a7af974ede5f0b55864c28abee0a250437502e98dc05a5c4",
+      "local_path": "data/pages/5f7ba30dd1470031f01b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-ai-tools-with-koi",
+      "sha256": "31a036e4a68a03fdb597e3aa310b546290d86551b9538d31c4bdc6565d55a83d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/5fc85d4fe9fc51020096.json",
+      "capture_sha256": "6d6204a320156a30f31924cffb196c16f1a0881200248b320149d28f2763b536",
+      "local_path": "data/pages/5fc85d4fe9fc51020096.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/integration-overview",
+      "sha256": "cb39a8abd2afe0507100f26e6eb09db06f4a5e05ce8f054616b9d53a7707bf6e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/607b619fa76c2ddfc99b.json",
+      "capture_sha256": "63601c5f9ad49a7768811195b4674ea7ba81a211d10869126106d870cd8f6230",
+      "local_path": "data/pages/607b619fa76c2ddfc99b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/ai-agent-extensions-risk",
+      "sha256": "30ab107145658e1c55f9e77a380f9d80c89f1f62a807334649543fcdda840166",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/61378a1ea7421401298e.json",
+      "capture_sha256": "b70d063a685f16ec97a7d77484ec859a8bf6580487dfd11f2435a8256b142f36",
+      "local_path": "data/pages/61378a1ea7421401298e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/uses-ai",
+      "sha256": "d350ce2e065614711f1af390dd00f07de0ed6f31872d4c3e1597a1bc67e2fbf3",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/620e1b480bb1c9c888af.json",
+      "capture_sha256": "25edf4c012db233f69d6aa014895474592e355990987956aeb72c6eb0fbec9e3",
+      "local_path": "data/pages/620e1b480bb1c9c888af.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/audit-logs",
+      "sha256": "b4379d8a70310b748eb48f1582417899b07d34900735c8f77414deb13c903ee0",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/63d65d67ad5116e60526.json",
+      "capture_sha256": "2c63bb9b706450d6b0ea148e58c3a9e825f1da12af147e6fff1707ebace61435",
+      "local_path": "data/pages/63d65d67ad5116e60526.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/llm-derived-code-execution",
+      "sha256": "f5b13fc6058f6cab609139f172453c5d0c12d3f28a91a5bdf3fa3740340e1542",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/64358ec8aa4414d23502.json",
+      "capture_sha256": "c42bd0841dbdc2172d5b237aaa2f62aa725de450d46f82f67d842657bc1cfcf2",
+      "local_path": "data/pages/64358ec8aa4414d23502.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route",
+      "sha256": "bd7ac8a9672671fd6fcc4bfeff8aa1a1745720e18cbf6e8e4d23e6aff6af2434",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/64663376e4b5e7bdb53d.json",
+      "capture_sha256": "b6d4622ca97683e57f0fbf47d1a0f5523cb5fdc260ba06001a9ffa2b712c38fc",
+      "local_path": "data/pages/64663376e4b5e7bdb53d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/certificate-write-access",
+      "sha256": "7ce6a67afd588deea72cf07524e748899b42876eee6daf36f370c1e264093163",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/6597e42e6dfa089666a3.json",
+      "capture_sha256": "5b8d7fe02a398121d612767aa3e99d5ba4b06a9602e6cf8e8ae91c6bbff1351a",
+      "local_path": "data/pages/6597e42e6dfa089666a3.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/contains-vulnerability-cvss-critical",
+      "sha256": "ad56233e8d20dc63ee0b9f5a5df861db93c6a8a70b92b89edd6ae8f2a898bd41",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/672ec618b14ede7b4429.json",
+      "capture_sha256": "6a596b6bf062cdd48e3aec9aee935c17c0f22f8feafd237265d18c66732c47c3",
+      "local_path": "data/pages/672ec618b14ede7b4429.md"
+    },
+    {
+      "url": "https://docs.koi.ai/product-security-and-legal/product-security-overview",
+      "sha256": "b86e6e2ea328f64e9a4f3dfe5817eef8a9c4224233cd9d78109e87d3e14d6fb4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/67470f92108eac1d7cf5.json",
+      "capture_sha256": "5890dd1a97e047cb2b4fec48c0dbac7aad9fb8fe22dbc0283f90570650420f72",
+      "local_path": "data/pages/67470f92108eac1d7cf5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-personal-communications",
+      "sha256": "0bef206efa127125828a3d01e88dbe420603c1447c53d025bce21545ecd8395f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/67a5558f6915f6ac1793.json",
+      "capture_sha256": "314817ed07999b8f1661389c26f31e8743c0ef9fefa6d1a364bafa5397817e30",
+      "local_path": "data/pages/67a5558f6915f6ac1793.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/brand-new-extension",
+      "sha256": "53389c17fafe914ae12464c26d733fac70b5ec0d8c7de406764bfd783aba7a3f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/69481ad8cd15832f4789.json",
+      "capture_sha256": "9f54b39f849019abfcc4f5a48fe021eb48eccba99459ae6e12c72c64f3c2d362",
+      "local_path": "data/pages/69481ad8cd15832f4789.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/audio-input-access",
+      "sha256": "d882c2525e1a20352d963d674510d2460a66caeaf8be0dc115e09377bf54e332",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/6d70e63a371f70672a9e.json",
+      "capture_sha256": "09256ccbf174df4d6d327c68bd5b134d6cfc88dafc6dc4ee6ea0aa052624fe80",
+      "local_path": "data/pages/6d70e63a371f70672a9e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/data-exfiltration-instruction",
+      "sha256": "31efef0be516a15febd7f01c87056990498dd4759facfa2acd006b6a547951ec",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/6da17ea2010641256a37.json",
+      "capture_sha256": "260a7ff942a46fb1b7a0eb5593dbf03da9a81e6e435a70984c7f031989ed8461",
+      "local_path": "data/pages/6da17ea2010641256a37.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/keyboard-read-access",
+      "sha256": "69db6f346f949e90ceec238cb507ccfe98cdc74dfeee8de9f8ad07ff4bbe2420",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/6e38726e6dfdd4df5f9f.json",
+      "capture_sha256": "707df63eccf410b953ef286c4900fd56500c4dc31e41cc2c06b1351e1e33a41b",
+      "local_path": "data/pages/6e38726e6dfdd4df5f9f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/tool-poisoning",
+      "sha256": "092121a30bdde22dd795103b5836ea24ad24771b063e9967817fbcf204b772c5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/6e632e350832785da21a.json",
+      "capture_sha256": "2fb5b27b64d6e4b1f5cf6a8620f53b9333c1292fe30c2c8bf74d3a3d395abc8c",
+      "local_path": "data/pages/6e632e350832785da21a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-ai-tools-with-koi/mcp-governance",
+      "sha256": "54fa8cdddc09138e04c96eee24ca4d86e7d800c38da52eeab6cccd6de4d61c0a",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/6ed1df9f430370f0d559.json",
+      "capture_sha256": "c1a453d5840a885c52ee91f08e01aa8c664253cfc17ec7b651344efdf9f354db",
+      "local_path": "data/pages/6ed1df9f430370f0d559.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/item-identifiers-per-marketplace",
+      "sha256": "715e0bd790c84e8d9f9e13084e9ef63c5f42997cc61fa64de5749a66b3d7b2c7",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/6edd996dfcbe5adf376c.json",
+      "capture_sha256": "b5d663c473b7f7826f5133abcb04d6eab5a622a36b19f0684f4b441d4e3b4a94",
+      "local_path": "data/pages/6edd996dfcbe5adf376c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/foreign-data-access-risk",
+      "sha256": "5349097ca448c6a9ec781ed9f8f26d32f8b16358e6f5f0f73d39a1ce6a89c9df",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/6f41cc2cc5df6960403a.json",
+      "capture_sha256": "2089151916164b84ea94246c2b2f826b1b20c386e06c76f4c2fbd92261cc0320",
+      "local_path": "data/pages/6f41cc2cc5df6960403a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery",
+      "sha256": "eb9bef680d470dc13e0ae9e7e7bdfd5499b3f47cfa3803ec32e4c5dc63157baa",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/719360b23e750667c391.json",
+      "capture_sha256": "1663c4a465f6c8a0aacf795528c9602e574787b0095d370f74e8e48724f769b8",
+      "local_path": "data/pages/719360b23e750667c391.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-applications-with-koi/software-inventory-preview",
+      "sha256": "e68c152c9cb0a40426baeec587a07157ea3ac2a63920983e81df8c604f6fd8eb",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/725fc2444f92dc1e1988.json",
+      "capture_sha256": "d0ec6b0d553491598ecc40a006dbdf553cd7f535bcbc297e85a98b300d082608",
+      "local_path": "data/pages/725fc2444f92dc1e1988.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence",
+      "sha256": "86cf4168909cfb1088703886beec1deae4b8935e09338ae1abb234d67f4c8a75",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/73f4887aed2072e6d41c.json",
+      "capture_sha256": "709a77e8564c1e13632f2e050524957dbfcf13b9e4ab0d7dfa9baafd57de4856",
+      "local_path": "data/pages/73f4887aed2072e6d41c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/approval-requests",
+      "sha256": "25fb5f238def5830dbeb1208dd04ca41b6df41205c3a05a1cdd23c180f220026",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/744eec21245069771ab3.json",
+      "capture_sha256": "6eda0c92d992276b021b70c18c12d301669be4118a0cbab2c5dd1691089ebedf",
+      "local_path": "data/pages/744eec21245069771ab3.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/agentic-runtime-control/setup-and-deployment",
+      "sha256": "b42a6f922a288bada8f7fb0ec1e860c32c44de43ee226519106571048647637c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/749fcff0428a97baf9e7.json",
+      "capture_sha256": "9539ef6844b516faba6d3d9ccc2710182dcc79a15e305de50966270189e54eb0",
+      "local_path": "data/pages/749fcff0428a97baf9e7.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference",
+      "sha256": "74af87a2b25b0a26c399b2357bc998927a29d7d3b51a070ecf6754e63858fba5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/772ae981c7bf19b13bc0.json",
+      "capture_sha256": "bb7dc1c35321d6a2e59f7108ab871c6902aa2498ebf346bde54d4a96ee7fc944",
+      "local_path": "data/pages/772ae981c7bf19b13bc0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/managed-vs-manual-modes",
+      "sha256": "a4cda42b3ca21d420294af43d61b52c4342ff324612760d11b3980ba95b0e34c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/77501b1ec360ef2e0313.json",
+      "capture_sha256": "a98119a52e00c6419b80f79367775d6da3063d89eefc5163859a4426894dfc8b",
+      "local_path": "data/pages/77501b1ec360ef2e0313.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/agentic-runtime-control/runtime-agent-activity/ai-agent-personal-account-usage",
+      "sha256": "41b26d72bec78e5d20df8aef57ff613ad964b2ba96ea42bebe239ff5edb6f606",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/7783d7f9a2c0de79695b.json",
+      "capture_sha256": "cf85d7eb181217fef36edfd15ebcd72e17f896edb1b2e002df7158787ca47d6b",
+      "local_path": "data/pages/7783d7f9a2c0de79695b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/highly-obfuscated-code",
+      "sha256": "dac5db1a10853ccb39098ca4c9f5fb5cae1f9c9da7b06cf18b447c290983d4e5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/7860f53c9c7e1b49a1aa.json",
+      "capture_sha256": "b4123119f7613d356c9f8011993ad36945e682ddff48a4bec769c95c170e82ca",
+      "local_path": "data/pages/7860f53c9c7e1b49a1aa.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/agentic-runtime-control/runtime-agent-activity",
+      "sha256": "8d15df840a0c9a5f2c9cc5e3525f9c982a95b096e7294ac7b2cb3ae832e1f0ea",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/78b3c8c060f2c6f6448a.json",
+      "capture_sha256": "e14ee397248d432121a6c353b549aa23e76667aa6978f542f0524a4d1a5eaf81",
+      "local_path": "data/pages/78b3c8c060f2c6f6448a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/sensitive-data-exfiltration-instruction",
+      "sha256": "9ed815f689a1e350c1a83d66fb625ea453bca6f8154b878cb8e7f8861004bef8",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/795edc130f2d5a419050.json",
+      "capture_sha256": "d729c260a245e5f1c289753de599234e027ba77273dec0d87cf33654e3ee6ed2",
+      "local_path": "data/pages/795edc130f2d5a419050.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/access-sensitive-resources",
+      "sha256": "d07ecb32614a5df39eda42d846f4115e87d3186446dd3808fd8fb9b2385ab3e5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/7b77641f6e45341ee1c2.json",
+      "capture_sha256": "a4bcb4838172a881578d994da87945bad5570760a5ff75748b0400179a7b50e9",
+      "local_path": "data/pages/7b77641f6e45341ee1c2.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-website-content",
+      "sha256": "4b883535f97f6c34842c9133c2a334ebecfa0873929e5b4b6cb6519789ca4898",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/7c05e182b7c454cfcad5.json",
+      "capture_sha256": "c8d0df41485d93c6f6e628df1d7d22928919d21fff28f1678d7e1276659ed326",
+      "local_path": "data/pages/7c05e182b7c454cfcad5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/individual-publisher",
+      "sha256": "99a66dd136105ba1fb4a910e43ad3ce8e3837c8642c446036ce15be6ccf9e52b",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/7c66635634f965991b8c.json",
+      "capture_sha256": "38c7082881fd86ed8a7b2e7b43ffed4e14ee3e5c3048664d5becfc45b9b9d8a7",
+      "local_path": "data/pages/7c66635634f965991b8c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/unauthenticated-mcp-server",
+      "sha256": "da1895d093220f06fbb0b53fb37d510327b32f8ab04e959b078e0657416652c2",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/7d62abc7078061fc283a.json",
+      "capture_sha256": "0cd29f6e29e2a59fbccfe5625757726bdf08a4bae3bdd23294213f1df515ad90",
+      "local_path": "data/pages/7d62abc7078061fc283a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/device-attributes-read-access",
+      "sha256": "7e17a98e019ce6ccbc597d22bfb9a8b90de379d915c869de7e0be42c4380b47f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/807f22c43b8b91250059.json",
+      "capture_sha256": "95ad22732d866234a3309148380126f4dcfdaa5d3e24dfb2dfec7b51b69b21a7",
+      "local_path": "data/pages/807f22c43b8b91250059.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm/salt",
+      "sha256": "0df9ce4533b8c59bfba091759a2eb35db1ce6f3318b2acef1d745a4593189e87",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/809221fd29079e296096.json",
+      "capture_sha256": "6ebff9d62d6a6a2eec560df41e352b8d493eaf2e688e89893e207db433da60c7",
+      "local_path": "data/pages/809221fd29079e296096.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/serial-port-read-access",
+      "sha256": "c87d2bc2f486e7d5cc376c09f1b85cc2ab5fe5f4ced2c125f01d8666b43f1a21",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/8199abf2499ff88da1eb.json",
+      "capture_sha256": "14135f8b11064ab589ac9c02a1d5561c6a948c64390c4bdbc6785436a1d57a02",
+      "local_path": "data/pages/8199abf2499ff88da1eb.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/code-packages/registry-approach/npm",
+      "sha256": "837b5b595ea14f8abd35bfeb20ee7a3675bc27459f3935ab8e4cb94d4df3551d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/81b3f65c8aa378d9433d.json",
+      "capture_sha256": "9ff6caec780c5734b9cb63e0ebe11da20d4b836e1f663a8562034fcd1d4ae385",
+      "local_path": "data/pages/81b3f65c8aa378d9433d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-financial-and-payment-information",
+      "sha256": "2357cf1da225f43e7ccfbdba06da439176c2a6cb6d62c2212b81dbf53e4e394e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/82f7849941be320e2bad.json",
+      "capture_sha256": "779824afc9df5d912cafdd0594cea6bfc294d8c6e736cafdd8934b912e5010f4",
+      "local_path": "data/pages/82f7849941be320e2bad.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/clipboard-read-access-1",
+      "sha256": "ac071f51b5bf119324e5d7b3063ce45ee93238fbe3b024e0c009e8db76a93df7",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/831dac654c7d99575bc1.json",
+      "capture_sha256": "108249241768819c3de2eb6689ed5810255ad7e7a1f46b21f9688d37af763a76",
+      "local_path": "data/pages/831dac654c7d99575bc1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/ransomware-behavior-detected",
+      "sha256": "ccec45f18ed9394db798c351fef51bbeb231c877a041e4f2101a4a80990592b6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/858e0bb2af40e6fc8a83.json",
+      "capture_sha256": "8bfaa0c34e3e4421b2c7bcb0abc930e609f1f50d7801d3904c92933dd9a53c93",
+      "local_path": "data/pages/858e0bb2af40e6fc8a83.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration/santa-integration/santa-onboarding-for-jamf",
+      "sha256": "e56903f6796f560e56188edccb7e005513b3af6803948fac34f19df8d2124cd6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/85ac93246bd044637aa5.json",
+      "capture_sha256": "7ccd9f561f479d2655ef838b25a83662dbbd580c7ddd94fdd66d476adf738e03",
+      "local_path": "data/pages/85ac93246bd044637aa5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-web-history",
+      "sha256": "7a69713d003ba98dc7aebb3d6381cb23c0f9e9c2a0004f6927be0799c443563a",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/87cfb713e41f4ab99995.json",
+      "capture_sha256": "f2ef003039ef5c7658409a828da7bd76988c3dcb75b7b2491dec9e80b00726aa",
+      "local_path": "data/pages/87cfb713e41f4ab99995.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm",
+      "sha256": "29b507eddf251673cf3b3b4e1d0c1eb6ae0d08cedf27f77c10a4774bc4376342",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/89097c06d34288f5224f.json",
+      "capture_sha256": "9b46915866285cc1c5924039457d6a1af5e7f40699c8aa9606fd46ca7ed81228",
+      "local_path": "data/pages/89097c06d34288f5224f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/no-integrity-validation",
+      "sha256": "200f95ce6babe55bb3e6b4ea51a22b9ff45f66558717a3c5a9768f9fe1176113",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/8985e5eeb5946e6d805a.json",
+      "capture_sha256": "d6cd64695f7ecb6b730145fcd695f25474ad53567fa9e697fa09af5abc93bed5",
+      "local_path": "data/pages/8985e5eeb5946e6d805a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/wings-kois-risk-engine",
+      "sha256": "86cf4168909cfb1088703886beec1deae4b8935e09338ae1abb234d67f4c8a75",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/898d9f0ad5f714b22d1a.json",
+      "capture_sha256": "3fe1988c7b42a14185728d9c2e8da1c96fd41f3aaadf3e84eabb1c78f6644697",
+      "local_path": "data/pages/898d9f0ad5f714b22d1a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-code-packages-with-koi",
+      "sha256": "c51bd9c5fa757406c1ab5085ee72849cf52f81ec18c218918c7eae81c7095d37",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/8af30c1876daf11de53b.json",
+      "capture_sha256": "c26e8470be30ca12adbb1c2a8f4d61a06e61f519c12e948c2dfd464d363757ff",
+      "local_path": "data/pages/8af30c1876daf11de53b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/index-1/policy-library",
+      "sha256": "07d7bc3a7f91ee4f76fcc5bb913e66a7d14b49f67c65e87adfc51c9582701765",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/8ba674a5b184a80997f9.json",
+      "capture_sha256": "6473d8ec4b007232c91876ab1b1e5f71f9ba4ec3119c5b9c2ba73b6c39a9ee43",
+      "local_path": "data/pages/8ba674a5b184a80997f9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/cloudflare-guide",
+      "sha256": "3b76542daf83ebeca1f3d51936f265b7a0aa7476bcdebb6334fd3d9022cc3b70",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/8c995abbfca2d0010fa8.json",
+      "capture_sha256": "da6d195986f022ff59f3f3d81020a044a27d2bde9bd96784b2a81c10ad5182c4",
+      "local_path": "data/pages/8c995abbfca2d0010fa8.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/snippet-running-code",
+      "sha256": "b794d83c26c53e0bb1835ceaee356270d7e933171c8e597714ffba3f1c2a1dc2",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/8ce187843e9c23dfd639.json",
+      "capture_sha256": "58fcdd14597eadc7f057afc1d68b1b19a3f4a0abbcaf7955f7c85d4926b750e9",
+      "local_path": "data/pages/8ce187843e9c23dfd639.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/dynamic-tool-description",
+      "sha256": "d22a9b814b6f7154c8fbee0e724ba8f9cbed7754f307ae2c2ed889976a329f5b",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/8e4244e42d3606d331c0.json",
+      "capture_sha256": "59e21f14fe6b85763da684bd5f378f06ac9f1a0e91a22f7c959e5ea6b3168349",
+      "local_path": "data/pages/8e4244e42d3606d331c0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm/workspace-one-guide",
+      "sha256": "ff945adfe52223ad44fcbdbf405f8e866f42eecaeec3f1fec848be334ef6b600",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/8f3d86f7e2585a236a59.json",
+      "capture_sha256": "448b5b0907ed4090d616a9172c8542ce2feed49d6de0e2f6197d7cec8290733b",
+      "local_path": "data/pages/8f3d86f7e2585a236a59.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/unsafe-code-execution",
+      "sha256": "2371d596c87ac3a44705bb52fafd0fb082a6322e87f6e4d3725b2a67f47e9d76",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/91098a0e8a0b1f384ba3.json",
+      "capture_sha256": "dc88be0d8d0304d4488701bff1c672ca511464d3d74e70a5f52041a6a7bb0be9",
+      "local_path": "data/pages/91098a0e8a0b1f384ba3.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/out-of-scope-component",
+      "sha256": "dec0ef6996cadfa7dee6af94ac540cbdf8d0e36444abf118faac24e6da148b08",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/91313221eaa5eb1d61c9.json",
+      "capture_sha256": "fef97adfc98bfc85d44a81cdcc86a9ffe9fe4d84b2be96e9151843da00dd00ec",
+      "local_path": "data/pages/91313221eaa5eb1d61c9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/access-mcp-configuration",
+      "sha256": "b42cd745e3ba7f2c192495b2798b666227f7ddae054e8864ae530f157ac6d0d8",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/91491bed4eceb21b7c02.json",
+      "capture_sha256": "eff412ac353bd506834d1cdddc33dc83a65577f209f88e0c51de4cb9a9fc6214",
+      "local_path": "data/pages/91491bed4eceb21b7c02.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/file-creation",
+      "sha256": "055b448bc18579d8bd6018d91bc346cdf21b45b8e76a31fdb3cd795d677119eb",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/91a54fe1494bb2811e1f.json",
+      "capture_sha256": "ac62f2b4005f70dafd8d92dc94afac3d0ce2107156a934fbc7e34b1fe4495dfe",
+      "local_path": "data/pages/91a54fe1494bb2811e1f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-code-packages-with-koi/code-package-prevention",
+      "sha256": "4d0df1cfa15b20817a832e5c84fe6f5efe6ce587d09cfb667c9d0817d42260f4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/93ae76c3d578b66d4dc1.json",
+      "capture_sha256": "a022d361988b18543812654db87daacd2b3db0e6290c9f161d91a87ab4e27285",
+      "local_path": "data/pages/93ae76c3d578b66d4dc1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/agentic-runtime-control/agent-enforcement-custom-policies",
+      "sha256": "73ef77300721cc6cd071d31489707b1a371770f8a1c75ccf16733b20e7612ad0",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/93e066453528d0468b45.json",
+      "capture_sha256": "e55c6e1362af5867527b4f87d6a19803d8951f184ca964e5d37941323ab2ad3d",
+      "local_path": "data/pages/93e066453528d0468b45.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/mcp-governance/claude-connectors-governance",
+      "sha256": "187452b5b9a2fe09a6f5ac0c8da19270d78794cbbadb3442bda2ccfbfff76062",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/94fe74c7e3b52fbd5a95.json",
+      "capture_sha256": "41a804f5684db5f87f1ee4c30f582e5dbde23b3a63902912762981640182b2df",
+      "local_path": "data/pages/94fe74c7e3b52fbd5a95.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails",
+      "sha256": "fb21943bd2fb251fefa42331513e883875ab3903789fbfac085f06f6b8751a70",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/95264e3c3cdb1c24bca7.json",
+      "capture_sha256": "d617b091dda6213d8a9c69af83b8ca8d0188dcc27403e7459cad6040c67de889",
+      "local_path": "data/pages/95264e3c3cdb1c24bca7.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/process-execution",
+      "sha256": "892516faf6fac9d336141d4daaa531b5b10be2b90e5a1efd7e16c6fe4ea8234c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/95c344836d5c291cce84.json",
+      "capture_sha256": "21dc55fc3a5761c9e7b9b66e26bf76950de39437169a835fe453dd3e083d3181",
+      "local_path": "data/pages/95c344836d5c291cce84.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/persistence-mechanism-instruction",
+      "sha256": "abbf00cae4c5fef2298b9c5ae55af5f112b76d21f29dbe15a4a6ff6d12b03b49",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/963fc5c239a83e6f0935.json",
+      "capture_sha256": "9eefa2768ffdc80c95d3fdd70e4819bb38af7ba1798f3492e1210025ff3905fa",
+      "local_path": "data/pages/963fc5c239a83e6f0935.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-health-information",
+      "sha256": "6d794bee6b68c4e0f4a49f763717412c46a456b3a72956444aec575ebb6e3e5f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/97c48cdc0021ef6c121a.json",
+      "capture_sha256": "31b92b939b0b27565d65ca3c25814ae1d9f6e45446cd306e93df8ab6d8cdeda6",
+      "local_path": "data/pages/97c48cdc0021ef6c121a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/prisma-access-guide",
+      "sha256": "a634f4bd2cbb9afb8d456d1ad2e4e866e84e75f69acc7969da587b5dd814f942",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9829457b20e23c2baf7f.json",
+      "capture_sha256": "0b5f49b98cfcfe4e0e059b2d3d10596472b694d2a3b21c8e2b1f56e8cb01d4e4",
+      "local_path": "data/pages/9829457b20e23c2baf7f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/installation-velocity-anomaly",
+      "sha256": "28f2e5e2e2c7548b15e2cd18ace362db70713a1eee340b492242779008ac67aa",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9926e8772927797cb020.json",
+      "capture_sha256": "30cb24d03fc6eb5c85fc587ca49eebc6b025dda422caf1b327f4b1d6de1afe4b",
+      "local_path": "data/pages/9926e8772927797cb020.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/governance-best-practices/create-policy",
+      "sha256": "22d4b4e483a682406ca97bfbec7edcd1e8143e4c67421aae16384a072cd08cfe",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/997b0b1b2f2ddbc4c10b.json",
+      "capture_sha256": "c4124e956af6beafb957f12dad4e68553bfd2b5c710818e1981a0fbb9625f962",
+      "local_path": "data/pages/997b0b1b2f2ddbc4c10b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery/binary-executions-preview",
+      "sha256": "784f5e03db47670e5d732278480fb468dc9743f41f7ceb03845efb38bb6b8551",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9a4d6d19144700e03b86.json",
+      "capture_sha256": "3557bf1bcb76b3dbd534e0151c36a636e0af716bc9e7a610a49141b88e0ad163",
+      "local_path": "data/pages/9a4d6d19144700e03b86.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/runtime-protection/setup-and-deployment",
+      "sha256": "b42a6f922a288bada8f7fb0ec1e860c32c44de43ee226519106571048647637c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9a658a71149fbcd3b2dd.json",
+      "capture_sha256": "3c732d0a75517103497a2208d0e719f0254c8b75eff8084812c4bbb98d0aeee9",
+      "local_path": "data/pages/9a658a71149fbcd3b2dd.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/network-interception-permissions",
+      "sha256": "6887a06a740f19235b58b59b48d6e552f6f6a20044513f97a8bd744716efdbb9",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9a8c859bbbb7d90d81cd.json",
+      "capture_sha256": "60a941345870c974903dc7badb66dd877678f008a5b736626aa0f891a0d9109a",
+      "local_path": "data/pages/9a8c859bbbb7d90d81cd.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/dynamic-context",
+      "sha256": "7a4804024304cc7a66e574fe631f81841a2e9836fe9c51880696594cf5a720d9",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9aa244f265f7849a642a.json",
+      "capture_sha256": "7f842399e698b9bfd026591bfef5752ee43157c23b58d732c7d21e6c37360293",
+      "local_path": "data/pages/9aa244f265f7849a642a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/unrestricted-network-access",
+      "sha256": "f7c6cba8dda0b0be351b37df64ec4f35921386d8632b49ef86a51d312f5d6d19",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9abb60cf314c876954bd.json",
+      "capture_sha256": "b1b0e99b6a5acfc817c34f9eecee7b268a2cec157163fca66287b8cb92158979",
+      "local_path": "data/pages/9abb60cf314c876954bd.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/overrides-core-functions",
+      "sha256": "da61751eeed6b59849eb78a6b607846b58e6890dbf0db536bc21bbcec1f77d67",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9b415d01ada6a18c1fbd.json",
+      "capture_sha256": "d22e0d51ca4de9adef00cc018e2f92321343d4b2524623a5c613236ed5799828",
+      "local_path": "data/pages/9b415d01ada6a18c1fbd.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/ai-artifact-shadowing",
+      "sha256": "72a6b9beefecce1e4eccc9badf27fb9c717d3b22aa29578e5b95e317fe9d875c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9ba93c103ba7ec9aac7f.json",
+      "capture_sha256": "86f3870c36956effe1f4baaa7b3c8befc8eb28551c0dcfe47a35c508ed48993c",
+      "local_path": "data/pages/9ba93c103ba7ec9aac7f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/edr/crowdstrike-rtr-guide/add-a-crowdstrike-exclusion-windows",
+      "sha256": "5676629afe33c7721bb6b2c4732c211bdb77c8a4cb5d9065561aa27a453f8b88",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9caf584209bcf71f829f.json",
+      "capture_sha256": "39cc01fd097c89601e9acbec95d240f180c070ce4f9344050c457c704d3cdc90",
+      "local_path": "data/pages/9caf584209bcf71f829f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/bluecoat-guide",
+      "sha256": "d69dc619db399efa9649b48beb0f79a250a2e6565a14c713c93ff65f4e0280bb",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9e01afb8fe8f50248a24.json",
+      "capture_sha256": "b3b4bef2b38046c507ad2c7c2979b220a39b593ab40db218152af8d82c9325c1",
+      "local_path": "data/pages/9e01afb8fe8f50248a24.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/code-execution-instruction",
+      "sha256": "4bf519d8bf3bce06db5efb933c189dcd49b35632f37b1c9ca1102c0c0062d10a",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/9fcb72485885fd260149.json",
+      "capture_sha256": "66f0f00d43b280398a29b8fc6359128c487af711a6cb4e96c703c9a2ff8b2665",
+      "local_path": "data/pages/9fcb72485885fd260149.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/contains-binary-executable",
+      "sha256": "2416bd988bf192a3ef6e9bb4eea5743cccc4dfef728a6865fe394a946890cf76",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a004fce13b37a1244a69.json",
+      "capture_sha256": "524a0d05fc8ed668d4ed81d07bdb4753b293a01ec4afbdc6aaccb46b1426cc19",
+      "local_path": "data/pages/a004fce13b37a1244a69.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5",
+      "sha256": "6a5c5daf7f0cbde32597b5bdc855377436e5f03d2313423bfc572cf422ed77cf",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a0fecc515d9201b09519.json",
+      "capture_sha256": "7c7c5d6bbbe55fee8bfd09db4f87d88f0bed8334d63f79d9ddbb7e412930eb65",
+      "local_path": "data/pages/a0fecc515d9201b09519.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network",
+      "sha256": "8205e8bbf1bb643738fd690a037b09476fc367fd555effd94331e4b6f6b132c5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a115d700643bcb19f402.json",
+      "capture_sha256": "e0060a7ebd5bbc645a87a29195ec324e0eaaa7ca4815fee7787d0c37429563d4",
+      "local_path": "data/pages/a115d700643bcb19f402.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides",
+      "sha256": "53e1b7cb48946f86d2e85fe58971df78c64daee07ec94544130551240a205ff4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a146636df57c5d73145d.json",
+      "capture_sha256": "3ad5e7051fa0c65bfc2c10e8fef038907607dd4702b8222346a9edaaa99c67fc",
+      "local_path": "data/pages/a146636df57c5d73145d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/block-execution-from-risky-paths-preview",
+      "sha256": "265ffc9c1b0809af8fc053cc447f8fc1647f504735e1e59957405e2a426fe9ba",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a1a989b7a6eaa4025196.json",
+      "capture_sha256": "40335fbba94cab5980611aac7b67a29c3e1beb7fa67810f48862e89096eef3c4",
+      "local_path": "data/pages/a1a989b7a6eaa4025196.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/single-sign-on/jit-user-provisioning-for-sso",
+      "sha256": "5ca1718deed2f172f6b8066e2ece29e5c78298d46863ecc146bba04885f1416e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a2eb76d3706bda3f88e2.json",
+      "capture_sha256": "d5e826bf6953d118819178ec8292a4ce9a679e2ffc511e5001d8b5f1fe1683d8",
+      "local_path": "data/pages/a2eb76d3706bda3f88e2.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/umbrella-guide",
+      "sha256": "abf7f7ebcc67c260e4a04c1b6bde5dd55c4c55f583718174b04222244aae205b",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a358bde768ba21ae9b25.json",
+      "capture_sha256": "5096d2cc61bcc450ef6ad68319ea12aa13c10208b5dae7bfbf88514c12546d4f",
+      "local_path": "data/pages/a358bde768ba21ae9b25.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/governance-best-practices",
+      "sha256": "53e1b7cb48946f86d2e85fe58971df78c64daee07ec94544130551240a205ff4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a59a3da8f37d386252ff.json",
+      "capture_sha256": "276c79647ceee310711050da696d2be2d5e9196790cc271c3fc8fffaa0528959",
+      "local_path": "data/pages/a59a3da8f37d386252ff.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/unmaintained-extension",
+      "sha256": "5bc592a1a4bd0e2114b06a0477bf1bcae1de72b7990738cf7e0ec9a237bd360d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a5fcdc04b78b7c22859d.json",
+      "capture_sha256": "084d02477e7570a2b8cc8b336e0edf4389cda9d2c5e2f83b05db196cf7761282",
+      "local_path": "data/pages/a5fcdc04b78b7c22859d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/insecure-installation-process",
+      "sha256": "aa7d6f4a3ca0af0e52c377a275f9f3b03d8848c82b8db0ea34d3cfe6dbef4944",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a6ee8381d1aa889aa9e2.json",
+      "capture_sha256": "f65db08efd23d6b98eb9239e12ff1b85e169372abfe0e375d53b9d37a4da703f",
+      "local_path": "data/pages/a6ee8381d1aa889aa9e2.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-1/deprecated-extension",
+      "sha256": "79e8b61ee029013489d97dd23412974684d31c13e1587298eff1f35315d63ea2",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a7262bd994064d16ac00.json",
+      "capture_sha256": "d0dc131c171c818ee39bd696deb622a85c5da698314c8963c0257b1c9b573a10",
+      "local_path": "data/pages/a7262bd994064d16ac00.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/code-packages/upstream-integration-guide-post-pov/jfrog-artifactory",
+      "sha256": "22dfb7ec010406d7b1820ae5b0e693aef3905003288ea008dd08ea02b836c6f7",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a788c25d2815ca93b9e5.json",
+      "capture_sha256": "434ac3e6692cddbff4abf9ea1813f4fb15b2bc482effd4af5126d7831056a09d",
+      "local_path": "data/pages/a788c25d2815ca93b9e5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/remote-development-environments/coder/deploying-koi-on-coder-workspaces",
+      "sha256": "9d45386508471899271c2493365656bc310ed734c9e21d1781983b8b2cbfe85c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/a8f9b380b7e3dc0604d6.json",
+      "capture_sha256": "42d3be29aaf0c91f4e4ca30997ba77f5b7056dd59dc8f7105c3870dd87ba0fdd",
+      "local_path": "data/pages/a8f9b380b7e3dc0604d6.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/netskope-guide",
+      "sha256": "88d9080b4d4cad39ee9b277a065140ed08f238a9ac0cb54698026f1927f1fd45",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/aa785a4ef32f3de95d1e.json",
+      "capture_sha256": "b664625c3fdb9b5dc8518ae946aa05aaee85e7eca59b25a08e8ca11f8c999b3b",
+      "local_path": "data/pages/aa785a4ef32f3de95d1e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/performs-ip-fingerprinting",
+      "sha256": "358faff1298b6d62c4d73e63414d12e386de7c846f4ff6e1f7599430bc2afebb",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/aaf4b2fe17f8cf95031d.json",
+      "capture_sha256": "cd9186c4c6a78327ee39bb2db988992c131e2554560b93732d3022762b1be7db",
+      "local_path": "data/pages/aaf4b2fe17f8cf95031d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/video-capture-write-access",
+      "sha256": "0a4bbe466950a1836506ec7a28e9e9b33cc8ff57cf53c0f1e7367bbd2038be64",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/abbddd94a5c7d7c7f200.json",
+      "capture_sha256": "34007c5b9a98caa86bb9cac3301e15e9e020b821c8d95f962098f425b81518dd",
+      "local_path": "data/pages/abbddd94a5c7d7c7f200.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/data-export-capability",
+      "sha256": "3d31a0f1abb38b91969ee17a80aa923769180637cb99f67e552b5f2d269cfb10",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/abdbd6489c00239dcfca.json",
+      "capture_sha256": "688c90b852f8ecc33f90098f8d2691af73c15d5fd1e84ce92b68325484395a19",
+      "local_path": "data/pages/abdbd6489c00239dcfca.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/edr/palo-alto-cortex-xdr",
+      "sha256": "3dd05765ca933a2e8b1b0d743fd14aee6dffd31438ab1fdb8dc8f79e3fbbf855",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ac356d571e1b3fea2cf6.json",
+      "capture_sha256": "18756d164aad350e125f3e59315943a9d99aa3e3ad7e4f5d535171a0579783c3",
+      "local_path": "data/pages/ac356d571e1b3fea2cf6.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/governance-best-practices/policy-library",
+      "sha256": "07d7bc3a7f91ee4f76fcc5bb913e66a7d14b49f67c65e87adfc51c9582701765",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ac814c8663e4c6849b55.json",
+      "capture_sha256": "3fd2d05fc6ad82ef39da89371f55a022db8faf8a0478d451f75498f41ee1f2d4",
+      "local_path": "data/pages/ac814c8663e4c6849b55.md"
+    },
+    {
+      "url": "https://docs.koi.ai/product-security-and-legal/data-processing-agreement-dpa",
+      "sha256": "b26c809866a5cf88ea9042aedd632be36638e8762242d3b880a242561ca96a1d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ad13ce456465a99e285b.json",
+      "capture_sha256": "152309d2a578be349cf1365cdc23da599264be734352a54a81cf3b82b5bd105b",
+      "local_path": "data/pages/ad13ce456465a99e285b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery/binary-executions",
+      "sha256": "784f5e03db47670e5d732278480fb468dc9743f41f7ceb03845efb38bb6b8551",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/adf6a3df21f55e444410.json",
+      "capture_sha256": "c633126b83e698f08c83a841ac559d5ba3ae89f1bcfef4e8ba636d1bce710c7d",
+      "local_path": "data/pages/adf6a3df21f55e444410.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery/binaries-inventory-preview",
+      "sha256": "bc907a59ed8ed9470ada61236ef552b20b30a616e6e725d6512af4ee43106a06",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ae96047a155861066696.json",
+      "capture_sha256": "841ebff00413c42d872c2d868caec15318e40288c490537109cdd143e6de8650",
+      "local_path": "data/pages/ae96047a155861066696.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/suspicious-webhook-communication",
+      "sha256": "668fa38905e2506fbc87789f4a9b3a4015d4eac7338349d1a083881018266dba",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/aef672215403579e7755.json",
+      "capture_sha256": "4a4af8e7b45f5b016ebe09a020cdeee65443d3c8724939b56b004f699f6af81d",
+      "local_path": "data/pages/aef672215403579e7755.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm/jamf-guide",
+      "sha256": "54351af714a483f955698cb72590b99881d580cfaed74e4883e403c92884d39e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b0df385b82c5a97c943f.json",
+      "capture_sha256": "2c46fe7496833a7e4bf2864e655dc2c10573f168c7af89b741b37d17e5ef6739",
+      "local_path": "data/pages/b0df385b82c5a97c943f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/agent-sabotage",
+      "sha256": "e22e091fee6f38123b15ce7f70bcf713af69e7fa859adca8b35cbe287f2f89bf",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b1ad40282ead5938897b.json",
+      "capture_sha256": "1e072bbaed7851580b4b7a154e4c10a3f1161f2f271373f8aecdb1bf99e2c3c6",
+      "local_path": "data/pages/b1ad40282ead5938897b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/policies-and-supply-chain-gateway",
+      "sha256": "0070fbdc21b854b3a78cfee13dc389e8abd8a79326cc7079c1cbfbb0a39b8717",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b26e9261ee95c0b6fa6b.json",
+      "capture_sha256": "195c0ad5e9ea269882c9d3928aa30daac96980d502b06cdbdc5dc14d6cfcac5b",
+      "local_path": "data/pages/b26e9261ee95c0b6fa6b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/registry-write-access",
+      "sha256": "bc9dfdc8f706afe7a31238c66ff8ea1a3dcbb81475b2b0c1824fec085eb8a3c9",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b26f4bebef1bcc1770d5.json",
+      "capture_sha256": "194d88ad0f93562b0b4d1744203b7ba25a889f79623040d7029ba66f4146f550",
+      "local_path": "data/pages/b26f4bebef1bcc1770d5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/exfils-cookie-data",
+      "sha256": "18fa571d6c27a769cf77538de536cfa41bd1b17c5b693bfee596a82f47d6be97",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b2b71790bfe9caadfd61.json",
+      "capture_sha256": "2f0b0651e7baec0c2df4e64be7757240ed026865f33069d9215da9e11d163ebd",
+      "local_path": "data/pages/b2b71790bfe9caadfd61.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/overview",
+      "sha256": "fb21943bd2fb251fefa42331513e883875ab3903789fbfac085f06f6b8751a70",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b4066c4a54d16063f517.json",
+      "capture_sha256": "603fc7c852e9e2d7d4795ed971fb7f2de51ae1bc37b93ce829443611aae55a19",
+      "local_path": "data/pages/b4066c4a54d16063f517.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/private-items",
+      "sha256": "44f9dd0c382503976f4584e37785f0232dfbc68cde0a1eda0cc15eb2b5b1b55f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b549d3b1c5127f8bed0b.json",
+      "capture_sha256": "b1a9e8fec4f83787fb9a102b01cec3e510d7149b956156cd652a8a8b66f36bec",
+      "local_path": "data/pages/b549d3b1c5127f8bed0b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/using-the-api",
+      "sha256": "9b52bccd35a8f70a1355c21a37fbe4c7f9adcf808b25a732f636230feef1b8a0",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b60e83b55070b6297734.json",
+      "capture_sha256": "de2294c7a479c3a6091f68ff74c65c7d0b0fcb2036530f27d11e5c82bdda3e6e",
+      "local_path": "data/pages/b60e83b55070b6297734.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/deployment-notes",
+      "sha256": "964376cacf4a2cf73afe70c3f44f152113ebdb1b68ec1c0f21bc98545f14eb15",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b62c38150f0c40dca043.json",
+      "capture_sha256": "66807660e837ab6ebe68e7178be16bd6dd423bb919b03bae5f7eb460332d0daf",
+      "local_path": "data/pages/b62c38150f0c40dca043.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/code-packages/registry-approach/deploying-registry-configuration",
+      "sha256": "04b3a76fcdff57b28659be516888aa6faeccdd1758ff9184fdeaed9a93a109db",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b6eb8b0c2512c55b3fc7.json",
+      "capture_sha256": "77609dcbc76cc36843fcee2d2712dd26b4466a6fe6ec2ad31fb553f58705527b",
+      "local_path": "data/pages/b6eb8b0c2512c55b3fc7.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration/santa-integration/santa-onboarding-for-kandji",
+      "sha256": "ddf86644e53886684a033e564ecc06615d702a991cc2a5502842b559dde2052e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b733252af83bf498cae2.json",
+      "capture_sha256": "b3a4e01c1fbe6fb5b081ccd90a6e27233bb9d493be70b60406ea7d9a7aa1a2fe",
+      "local_path": "data/pages/b733252af83bf498cae2.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/idle-time-read-access-copy",
+      "sha256": "680d7049ee0e8a04a7bda6a9223e6dc9f19709bea47605d270924d9681a3eaf3",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b8e741e5e41dbace6b08.json",
+      "capture_sha256": "8bfe53dbcf1a90d11e84967f262f11fe7b337ae161d62834cfbbf3365a8c7cf8",
+      "local_path": "data/pages/b8e741e5e41dbace6b08.md"
+    },
+    {
+      "url": "https://docs.koi.ai/",
+      "sha256": "ba0d6006c31ee4bf85316e62464acf04659fa3da96121edecc6c1f43632780e5",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b91146f9ee9bf21af7c7.json",
+      "capture_sha256": "e2d9acadc3ecd8d8006ed49e16a579624b1a27050d8552800659e0b6ca3c665a",
+      "local_path": "data/pages/b91146f9ee9bf21af7c7.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/single-sign-on/sso-saml-jit",
+      "sha256": "11ca44c0451a39c6197786766564bddfebff46a7c8884a4646801abf8b4c1408",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/b9ab55203e89bfd15353.json",
+      "capture_sha256": "90f4bcf0c651805cfbcb81ac4ce06fae22e20ae35431783d86b08ad098f6e472",
+      "local_path": "data/pages/b9ab55203e89bfd15353.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/code-execution",
+      "sha256": "57d8830c02e504143ace87048df1824d5fbbd3d0cffd50606fb7321e31e6f985",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ba8f0eb6fe590b0f3d2d.json",
+      "capture_sha256": "2aa1aa9730c9ad63dc445ac2c009210853c39dcfce4b42b0b0784bc242c047ba",
+      "local_path": "data/pages/ba8f0eb6fe590b0f3d2d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/code-packages/registry-approach/deploying-registry-configuration/wsl-setup",
+      "sha256": "f5bed2fd6a615a030b908a9adcfceee22055bc4225c740f79379fde738bdfd08",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/bb22c30b93e3e8a12ed3.json",
+      "capture_sha256": "a78534316bafe2734c1aec4f57da52177903ec6de10d33d8b1b914d066293e82",
+      "local_path": "data/pages/bb22c30b93e3e8a12ed3.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/memory-write-access",
+      "sha256": "1930d0db084f6e27c50f58c928d8ed5f69e41a4a2ba0346ef0f6dc8f09b56bb4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/bbf7785cb718c8b7727b.json",
+      "capture_sha256": "773b21ed73de44861ed4bfd7d37f0f60d741966fbfd70195c518747d4842e5fd",
+      "local_path": "data/pages/bbf7785cb718c8b7727b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/entra-id-integration",
+      "sha256": "f3d095c65b55ac6958aa387f77dbbbc382e7f4b58e12b9a72c3d267aff5d7ef1",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/bc4f55134dcf1ea18dd9.json",
+      "capture_sha256": "3fded5a91c9c9ad660fb32a6f7f103c377d38d6db319efbfc54bd25074707890",
+      "local_path": "data/pages/bc4f55134dcf1ea18dd9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/mcp-servers-discovery",
+      "sha256": "0f92f78d35f553a4f85441058ca2da69f122b91e2b405c8ee601549dfbbd2d8e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/be2a8e31582866c70091.json",
+      "capture_sha256": "3c11694ddcc631b06f089ec57b3a87e318712e889b713e2d18c1a6ce6bca54f3",
+      "local_path": "data/pages/be2a8e31582866c70091.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference",
+      "sha256": "eee50184f2f3642fbef0781b48618c0fe396e1dd97e69a1c922f78d242e95e12",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/be8b5c4aaff2ab2e4275.json",
+      "capture_sha256": "159ac33a6901b9602eb11e032d9fedc1d4f8a436272132f3af2746e414a31124",
+      "local_path": "data/pages/be8b5c4aaff2ab2e4275.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm/hexnode-guide",
+      "sha256": "f42e40bb0be3c81a6f9f899f56be802c8b6049cbee360be3833684b2c21b451b",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/be8ed619cf9023bdf30c.json",
+      "capture_sha256": "d1403bda55f363f17223bd4d550019fe0d5e4cdf3ac54f066e31664a9ead63a1",
+      "local_path": "data/pages/be8ed619cf9023bdf30c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/audit-logs",
+      "sha256": "b03cbec2cc2f9732a139050df71268346b7e1990b0cf4258f4776bd526c98967",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c02b03d20239b34459f1.json",
+      "capture_sha256": "e9e6ce7bed217b847ac170736ccf27387527b15fd9b9f012bb796e1d54ad056c",
+      "local_path": "data/pages/c02b03d20239b34459f1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/product-security-and-legal/monitoring-controls-in-extensiontotal",
+      "sha256": "859d121cccd2a2d79e5d7b0a6e3ebe847bdfd4b935287eb160d4c4e9a6997c59",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c140e6c9f0164e07a4be.json",
+      "capture_sha256": "9df13fe4598cb5ed737d4b0f11b533545e170aed283e259b5d6072c6fa68caaf",
+      "local_path": "data/pages/c140e6c9f0164e07a4be.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/agentic-runtime-control/ai-agent-runtime-policy-templates",
+      "sha256": "524ef2d2b01309ed352136e08d8b2d66d5c0441fa16103a1e873225375dd83cf",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c1d897911f20bff3e37a.json",
+      "capture_sha256": "9f15068f1a37cf8f11a67bc768362dfb543d8b0e3f5852bcfd043a40935bb3ce",
+      "local_path": "data/pages/c1d897911f20bff3e37a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/video-capture-read-access",
+      "sha256": "6389721177966bd7d1d9f139eeae0b35790ecabff7b12db54953c7b6dc5586ee",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c2c6b31478503310262e.json",
+      "capture_sha256": "33c63b40e1149365a25a39791651ef896c2477b9c2cf1bf765806af42a1d1e73",
+      "local_path": "data/pages/c2c6b31478503310262e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/elevated-privileges",
+      "sha256": "abc357cb02396c51fc835ed2df6bb4efa140293f92e52705bb7bc1cf821f91c8",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c2dbc2de6400ed4ba4b5.json",
+      "capture_sha256": "856dc5d6ebe24a7babbf74781eb017a6f9831afa3b45c09b319d870e6aec573b",
+      "local_path": "data/pages/c2dbc2de6400ed4ba4b5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/data-exfiltration",
+      "sha256": "b7efc24276d56fe6c8ae095ba6983c5d60cdcbc05e37c2708d709621cb52a65e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c3b03226a5b04b8b9c18.json",
+      "capture_sha256": "acb0c9b52651d3d084774cf01462c58925285e06a7834f50d6b236be67e6c948",
+      "local_path": "data/pages/c3b03226a5b04b8b9c18.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/users",
+      "sha256": "348e03c09f19f050fddede61fecfbb4a639670b8f0c25e97c707babe3c907a72",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c5a071eed319c2567fe7.json",
+      "capture_sha256": "6f9697916376a49968e65fd69fc9554d902ae8b8c45c083b663d665293563052",
+      "local_path": "data/pages/c5a071eed319c2567fe7.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/risk-level-at-koi",
+      "sha256": "e46d04931038f26a41ddca3d96c703560cac95266f343b84d523b3ad9119e15a",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c663aae09bbb7e60e99f.json",
+      "capture_sha256": "c25afe87c20b6f29ffabbd14627cd338032003c28b9c92ddec39eb58676b8358",
+      "local_path": "data/pages/c663aae09bbb7e60e99f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/governance-best-practices/allowlist-mode-best-practices",
+      "sha256": "735801cb8a754a2c42b83c85256100d0fc609948c3b248e80242e2fb70eac481",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c68b4c6b3796f5ba9cc6.json",
+      "capture_sha256": "5d18f117b174492751f119dd44b82b4c83f83106a014f82b735d2dfafe80a404",
+      "local_path": "data/pages/c68b4c6b3796f5ba9cc6.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/runtime-protection/agent-enforcement-custom-policies",
+      "sha256": "73ef77300721cc6cd071d31489707b1a371770f8a1c75ccf16733b20e7612ad0",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c7232f7666badcd891c0.json",
+      "capture_sha256": "7cc8a7d8568945a8786d84abde177ec4f9179bee916ea1da24aeb64e3be8c0f8",
+      "local_path": "data/pages/c7232f7666badcd891c0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/skills-discovery",
+      "sha256": "350995850a55012131cd404373b8f2add2c20d703996f99f74e4fcdf2343c062",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c7890acc77ad727e23da.json",
+      "capture_sha256": "18d8584b2cdd5fdfb17323249fc08a3016b0446a88f1acb31648e54e64d0c602",
+      "local_path": "data/pages/c7890acc77ad727e23da.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/groups",
+      "sha256": "50d8fbd85f8fbcc98cde8b2f1ae6249b046e6303504ea7e93981826c2f583a36",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c83421229d121e45756f.json",
+      "capture_sha256": "703bc17701ff87f153343fc1ec579f04e40fd326ba9941bd4f2493491cbba5e5",
+      "local_path": "data/pages/c83421229d121e45756f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/serial-port-write-access",
+      "sha256": "c08053c27e3e587005609e5b521245ffb6ad3f317144063a89370d5815ccf708",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c8405f3670039d5d539f.json",
+      "capture_sha256": "33beb9397a1a8f2c7a2485f1c30194ed5559cdf33872bcf618044a56ab0a6d8a",
+      "local_path": "data/pages/c8405f3670039d5d539f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/inventory",
+      "sha256": "0cae1407383c9177af39289696dbee1c198e5e340c7a939193a9ed8541e8ce95",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c8cce73f9d3329a518a8.json",
+      "capture_sha256": "36e29150d1dd450de86cf7ae317a71e897f302ac916c6def561241358040e844",
+      "local_path": "data/pages/c8cce73f9d3329a518a8.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/malicious-dependency",
+      "sha256": "cb479dfd5e05f994795cd24bbf70474c5e88c8720c864ea09ad6fa2de954c725",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c8f15928c97c20ca4db5.json",
+      "capture_sha256": "300d20ef0c3381bba2bfe26ec2f551cf6acf3ef05f85089c1c92546fa3d74bea",
+      "local_path": "data/pages/c8f15928c97c20ca4db5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/accessing-sensitive-files",
+      "sha256": "b17af75e8c9aeb8c9e967dca1f241b8c75f51e628d0cdf6b71ac5ef6375f977f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/c90c49bcc39e28ef8e7b.json",
+      "capture_sha256": "6038269aea89badffd8554d72e4c90cfc4265c0ca17b8bb8d7147afd1d1c280d",
+      "local_path": "data/pages/c90c49bcc39e28ef8e7b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/dynamic-code-execution",
+      "sha256": "449bf931b6c0db9b961bedf60796e12dc46018b1e97050004f227a7cda10698f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ca1d6842987d5d89534c.json",
+      "capture_sha256": "3d501639a974186d8c35ee6307fb79b1cf75fd4182fe93514be00c5222f86d0c",
+      "local_path": "data/pages/ca1d6842987d5d89534c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/get-started/contacting-support",
+      "sha256": "3c90f57f4551ff5b82973302a465722e45e741e63b5dce5dc7720b7de8043af6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/cb3072bd444998ea1aa1.json",
+      "capture_sha256": "29749f52976f7be9aad36754b72838efa8cd84e7fbf23bc9ffb9192acffd7472",
+      "local_path": "data/pages/cb3072bd444998ea1aa1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm/sccm-guide",
+      "sha256": "f4ce8523997b84bf304f8be22f817ef983827bf409c1f57826ad0250bc6190df",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/cb722b408c6561c92d03.json",
+      "capture_sha256": "40ca98b5a2dc4be581a61cd27d458c3aa9e296f907d3c4309cea2c2c47c1d289",
+      "local_path": "data/pages/cb722b408c6561c92d03.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/clipboard-read-access",
+      "sha256": "bbc05af2eab3bdb3e7ecdec6580a39e40aa01ee7c236d1c7e120fb101e969c99",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/cb7680b925a4e8385f10.json",
+      "capture_sha256": "c3b6dedf1cc165f10afe3d724dcd2ef7851cc735f20af8705e29c66543c7f7e9",
+      "local_path": "data/pages/cb7680b925a4e8385f10.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/printer-read-access",
+      "sha256": "331d0e7bf4998778d2ae9c94a044feefbffb49893e521253a0bb444db34a489f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/cbcd3e82f68a926efacf.json",
+      "capture_sha256": "f229abea2d30bfbdb1e1d82288dd7b7e1305696cf6b8bcf5be376aab1799d706",
+      "local_path": "data/pages/cbcd3e82f68a926efacf.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/ossf-high-impact-check-failure",
+      "sha256": "a31abd0641ca09e7ae4c2d80e077df221a6aef61bb38fcd79611317d41866448",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/cbfc8006b5722f49fd26.json",
+      "capture_sha256": "5f228c09f36c5df5e4347c4b3155ea7353a66c13654a17aa7890058949b6fcc1",
+      "local_path": "data/pages/cbfc8006b5722f49fd26.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establishing-trust/deploy-certificate-manually",
+      "sha256": "d7bfe6549e40690e95260b2706815970d11036500a16f10c71a4f3d4dabdab3d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/cc415da1964bf066cf9d.json",
+      "capture_sha256": "2f25debde5b794d3534cfbae115dfed9bf3980a25d95f1b8f6253235b2f3ce8c",
+      "local_path": "data/pages/cc415da1964bf066cf9d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/get-started/whats-new-in-koi",
+      "sha256": "3ee392e47cbb30888289ad9f7e018748af7aa5e4210e09612506ae861744f45f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ce78bde3c517fd9b6efe.json",
+      "capture_sha256": "053b183b582162a40764104e5e116751a8602d490a8030ca55f29e6b981245b8",
+      "local_path": "data/pages/ce78bde3c517fd9b6efe.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/has-auto-execution-script",
+      "sha256": "d3ab5f0b2767e170fbb83e792afc0d0dc011e4cf38e7041231949421e5ca10ac",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/cfe33d46feeec7ed51cf.json",
+      "capture_sha256": "8d1ccad7234dc14061af4573fed7d239c38786e0b91d5f124a0e8b48d6ab4562",
+      "local_path": "data/pages/cfe33d46feeec7ed51cf.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index",
+      "sha256": "277de19ac9e7003ca12699e0028337b6614299813e4b624ed23ed9e34cd1eed3",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d02646912d73c098b822.json",
+      "capture_sha256": "2ac587c90945f2540c69f63a26b473dcefd834ddce0e1ce6d06776f3f7490acd",
+      "local_path": "data/pages/d02646912d73c098b822.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/pac-file-integration/globalprotect-and-pac-guide",
+      "sha256": "3593d7b267d52b42df13594e94139eacea63274edc34b0ff2016f496619a2ada",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d05bce8602f0d57a23de.json",
+      "capture_sha256": "d2c8c521b2d467c1dfb90161c442532498a4aa17e0d5d2020ece30b314cd6059",
+      "local_path": "data/pages/d05bce8602f0d57a23de.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/intercepts-network-traffic",
+      "sha256": "51e0c831ab7c142714de4bd7510d1436d5077489214d31e6b95913f6e27b88e0",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d2ec9f31aee7bf8825b9.json",
+      "capture_sha256": "3dba635011eea0ddfb34ed8394cddc146ebc2d8dda3cecf7b3639276421b588a",
+      "local_path": "data/pages/d2ec9f31aee7bf8825b9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/notifications-splunk-integration",
+      "sha256": "1a75444b595a169c503fd96e59b0082d937a747b327887a7adaf3951cd8a804e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d4619f3f51bf97196ef9.json",
+      "capture_sha256": "ae22c97e6580659a92882aabc98482c99ffa436cb52a0ab28293aad7cd4c94c8",
+      "local_path": "data/pages/d4619f3f51bf97196ef9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/edr",
+      "sha256": "be4b7c2a6a333ff8e568db0ef5c758ad3cba51f375f49a4b7c4ab1a8b4ba5206",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d4ad40953fd523cc0bec.json",
+      "capture_sha256": "c8d812b71f8c842fe62e1851338d4bf6cd3cf57eea4bffc8072e4cc7e1cde9b8",
+      "local_path": "data/pages/d4ad40953fd523cc0bec.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/end-user-experience-settings",
+      "sha256": "061094b3e10bf92e2d5851b79c79f695be06a17e486ae06716e26a5d9563c733",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d4d505daf5d0f707b09e.json",
+      "capture_sha256": "cd41836af34202ae547f51464a7c088f559ded5b07981f88a745f0a3be711b31",
+      "local_path": "data/pages/d4d505daf5d0f707b09e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/notifications-read-access",
+      "sha256": "98a808ec95803f2e142d20eb795192a24417e19b6c6baaf775c5a99b472fe223",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d5241f57d835ac7c49f9.json",
+      "capture_sha256": "a7cda551646974c2c16ed26d22188530e30eed5d2afa7b499bfab2f11b1d5b15",
+      "local_path": "data/pages/d5241f57d835ac7c49f9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/newly-registered-publisher-domain",
+      "sha256": "913b195741064525012461b347e1a5fd7c3e207870d2a23ad4e55450007d462c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d5821e4680f5e76ae366.json",
+      "capture_sha256": "26d83ecec613e27687fde97b38e5dbb484326e2014abfaae911c706c67449cf2",
+      "local_path": "data/pages/d5821e4680f5e76ae366.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establishing-trust/deploy-koi-root-ca-via-jamf-pro",
+      "sha256": "f985f2fba1e31eaca01c62e9742ffaf73ba4023ae7a69ee9682445725feece20",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d60c63d84f9e5de66ce6.json",
+      "capture_sha256": "23cee025bf938881d2981e93fed342df66d892096a430f0d3dbea251df169490",
+      "local_path": "data/pages/d60c63d84f9e5de66ce6.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/github-copycat",
+      "sha256": "498ff00579b5940fdbc2dc43025abb515d9aa948ae41c15126442d50a46c3f20",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d71c17325211150da50d.json",
+      "capture_sha256": "71a73ee990657285622a02eb02e5ae07a919f382bcc9116a243b71b7ce4ebc7f",
+      "local_path": "data/pages/d71c17325211150da50d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/code-packages/registry-approach",
+      "sha256": "db131608000819acac41c7ac3d457070d424906da56600b0a3947e79c987ea58",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d73329529467ac29f933.json",
+      "capture_sha256": "6dc398240fd0e23c42fea5a32422a308c5697265fa9bf8aa1e4089c7f92d42e4",
+      "local_path": "data/pages/d73329529467ac29f933.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/malicious-item-by-threat-signal",
+      "sha256": "a20c462804a0bf35126d579971f78c5b43a38b3dc128763045eacbff2e4951dd",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d75df0e2b912f439335b.json",
+      "capture_sha256": "52f9df68e451184bfbf713ad2daf164deea49d8c0ed8589de34df987d51e08d9",
+      "local_path": "data/pages/d75df0e2b912f439335b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/publisher-has-only-one-item",
+      "sha256": "0ebcd9b6541e63f6f2fcbdedd65253fe6213fc9b0ea08342a7fa111e4d4299c6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d7ffc040530a278bfec0.json",
+      "capture_sha256": "4909b5f9f09090974d71ccb42dbb8389f366db4cce3378ffe182f9bb12ca49c0",
+      "local_path": "data/pages/d7ffc040530a278bfec0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/okta",
+      "sha256": "62d8100a333a43af004d004e40b031bca838123404a6162edf3c4cb7f38d024a",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d830a70f01f07a1ac24d.json",
+      "capture_sha256": "ba22a73a50ce55cfe13b529772d295fda562c5153bcebe1a5e0cac564dea1cc3",
+      "local_path": "data/pages/d830a70f01f07a1ac24d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/preview-prisma-airs-runtime-enforcement",
+      "sha256": "d364120d9b11f8a544427e89f325a4e81bfd843dc707e394f3d1914ee234c108",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/d87a0537ff6a3642aa62.json",
+      "capture_sha256": "990f70fd15d861a002cd1f8fd9967b4d55da26efce4b959097555ecc670a8dd1",
+      "local_path": "data/pages/d87a0537ff6a3642aa62.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/shell-write-access",
+      "sha256": "1cb0078a576c81400722ca67ceb62b9199fcc4c91b193b19f3dddfeba3619721",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/da2563e7bc5e7a44c01b.json",
+      "capture_sha256": "01f4f46a542a1315c7b24aad9895496b1cdbb94b5d945b5d9ab9871caddd21e2",
+      "local_path": "data/pages/da2563e7bc5e7a44c01b.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/shell-read-access",
+      "sha256": "6a78c5619f069d06cc1af65cc2eb554176174993751ad728d890e2f2fed7c307",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/db9b41a200fce83e5a32.json",
+      "capture_sha256": "e7cd7792f67615b3913bd40725d4561041d4c7868745102c53cf987bda2dd99c",
+      "local_path": "data/pages/db9b41a200fce83e5a32.md"
+    },
+    {
+      "url": "https://docs.koi.ai/product-security-and-legal",
+      "sha256": "b86e6e2ea328f64e9a4f3dfe5817eef8a9c4224233cd9d78109e87d3e14d6fb4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/dba4a5df610cb303233c.json",
+      "capture_sha256": "60d4da32943a6ad09b00eb6e55df75bb3543c74cd8c15fde0a5919f9a163b01f",
+      "local_path": "data/pages/dba4a5df610cb303233c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/agent-destructive-command-restriction",
+      "sha256": "98d6d1509041b525211b9faa126bb24d540924b853b06a7b3382904127199cc7",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/dc2ae9474d3810de30e8.json",
+      "capture_sha256": "000d852dbef059d4ac9cb6dab020410d39f9835c203cd028cef6433ad74ffda5",
+      "local_path": "data/pages/dc2ae9474d3810de30e8.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/universal-publish-private-extensions",
+      "sha256": "a79d2aba3d44a7a228512a844235a2142b5b46f6c78364cc861f15c4cacd7947",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/de551328caf108568704.json",
+      "capture_sha256": "cdb6d2e0889ab71fc9936ab2ab60a69dab54b2631f0d5f45e08de30df3ed008f",
+      "local_path": "data/pages/de551328caf108568704.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm/intune-guide/deploy-certificate",
+      "sha256": "d126b7badafd91f470732381bb2d3cce65405fe71633322c483232b856fcffbe",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/de72695f59adb4ee36f1.json",
+      "capture_sha256": "d656a0771daa55618c966b262b3a0c9bf98fd4eaa090699839e87a2e1a286bbe",
+      "local_path": "data/pages/de72695f59adb4ee36f1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/moderate-access-permissions",
+      "sha256": "e0776c0aff8472b7291e4d3be60c4dd65bc1a55f6ae4003acc1ba031883ffc7c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/df1aa7dec32b21568098.json",
+      "capture_sha256": "c7ce17285f805075696944b2d03448e162ecb2b5204179f22a33ebbbcac37a01",
+      "local_path": "data/pages/df1aa7dec32b21568098.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/registry-read-access",
+      "sha256": "c50638cf78f72ff6b2d96e9e0783462a7110bae020975bdc57c2506dce0430cb",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/df63262a82966a9c9c47.json",
+      "capture_sha256": "7c5294d5b4d69c7b20b00ab522e6b5fe1aa12fb7955fce4e5dd0899644e81daf",
+      "local_path": "data/pages/df63262a82966a9c9c47.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/listed-for-sale",
+      "sha256": "25c5fd4d1ecc1286c20eaeb2212afceb180627c7fec3ec6730e23fccd0b1c3b8",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e075dfabac7fd42d75b1.json",
+      "capture_sha256": "894d2f8a8bd0c3b6bab0781d2fa613cd663d0c3d42c666649145dff267936426",
+      "local_path": "data/pages/e075dfabac7fd42d75b1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings",
+      "sha256": "efc3ad7179c34fc7e847906cd2175e7f014c7a3a25e436396a29524065da7496",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e0ad40478d151b54f4f4.json",
+      "capture_sha256": "aaaba1535e9553e83e03b0f7b455987c4c1f3af218a93a1f40ad173762064364",
+      "local_path": "data/pages/e0ad40478d151b54f4f4.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-code-packages-with-koi/code-packages-discovery",
+      "sha256": "dbe1f07b34d3778ffcd48dd50498639bfaf0a927417ac8f7bad1ece8ca475e4e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e102216d37cbccdc930e.json",
+      "capture_sha256": "3edb6ed63a57ce0893c18d541d397b11b6c5774b0b8bb5e118f9cfa51d26726d",
+      "local_path": "data/pages/e102216d37cbccdc930e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/pac-file-integration/deploy-pac-file-manually",
+      "sha256": "8b5de3d1a4e21eada9f2a640a4998bba54cdd1c72ab3aa35ee929e170669974d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e1e0f45593bf769fd03e.json",
+      "capture_sha256": "bc43bff7b914c00aab05e2a8d2de34284c56a72d997ff70472426b13ed717a28",
+      "local_path": "data/pages/e1e0f45593bf769fd03e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/unsafe-code-execution-instruction",
+      "sha256": "d2761ace31ba38a8d39580bf025b7742616db7b6e5482acaf37ed247edbc3f84",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e2319eb6c01dedd31ab7.json",
+      "capture_sha256": "5ff358faca83a812481c3e6ca787e6a311b4f31c750139205e2d1a66a585af11",
+      "local_path": "data/pages/e2319eb6c01dedd31ab7.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/mcp-governance",
+      "sha256": "a79466cb4d7c7d071ffe70a0262d3d1465c38667c938eb4b91b4bca517347bcb",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e345d293f7fee84d373a.json",
+      "capture_sha256": "af3eb41be17a028a456211263da725f7be47fdeb871ca352d165402dedbdd74c",
+      "local_path": "data/pages/e345d293f7fee84d373a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/impersonating-an-item",
+      "sha256": "5b3e35b99445fe56c38b2a860faa949ab4b6257fead6e6fbd6d1cf63f684b41f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e3e675afe215fc207a9f.json",
+      "capture_sha256": "0a24efbefcfcec33fb877d0e7f8e67a7ac85e7c6a3e47478d59ddb55cc844c8f",
+      "local_path": "data/pages/e3e675afe215fc207a9f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/instruction-vulnerable-to-prompt-injection",
+      "sha256": "eed3ca54999c3e412ee6d8b5d95d2e8ee1ef2cbd3949f95fda6421b2a2b5e4ed",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e4a13009533d300d7032.json",
+      "capture_sha256": "a7b901de2b4736cb48e9ab275f988566c514923e8cac6f0b9f12d87c24b0e934",
+      "local_path": "data/pages/e4a13009533d300d7032.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/governance-best-practices/blocklist-mode-best-practices",
+      "sha256": "2a2e9fd7baa6075d3781d9acb6ab9a50685273caab64b8b0724265be527e17f6",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e511d5d9a9d4810a0504.json",
+      "capture_sha256": "b4484b586a1bd605931ffabc931d96a3e86de69b27117ebc71da993361dd3a1d",
+      "local_path": "data/pages/e511d5d9a9d4810a0504.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4",
+      "sha256": "039b4ac34a44b8651d5d6476dda9fefc33129f14f66534f29b2ec52411a7ad7a",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e6ae70053054e20ab39f.json",
+      "capture_sha256": "a7fe0ca3c4be9de4e4b73edb8079e1e659f70e26d438398fc106782a4618504b",
+      "local_path": "data/pages/e6ae70053054e20ab39f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establish-route/fortinet-fortigate-guide",
+      "sha256": "85b407ba0cfb94cda60855a480ff927c0040e3d5b04430c184e6b07337e55f3a",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e741eca537a1d212e388.json",
+      "capture_sha256": "45dfaef883abf5a2a83415c97160548db591e9ca6c7c01d70b90b00acb294969",
+      "local_path": "data/pages/e741eca537a1d212e388.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/exfils-cloud-and-remote-access-secrets",
+      "sha256": "95909aab8693fda110c2cef7ac8c7ad3bb16505fc0d0c6bad51191e815d534ff",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/e9ed38794756e5b20bf2.json",
+      "capture_sha256": "fa6f96106e0616e9641976d0c6151079a03d10a10002da859d2931f04188e36d",
+      "local_path": "data/pages/e9ed38794756e5b20bf2.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/agents-runtime-policies",
+      "sha256": "545f1a9482d81540004b469f2beb5cf63d37cb54c7834e55eff47108cd832354",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ea46065620b55cd190f1.json",
+      "capture_sha256": "410d85e50776069540f9dbf1b9b51cf835ea443caead8f80fc144f50c5270459",
+      "local_path": "data/pages/ea46065620b55cd190f1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/findings",
+      "sha256": "78ba86730ab6fc8781b853bf67b9b4c08ba6046ca11433a875e4ce5e8763f81d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ea718879d40dadc6eb1f.json",
+      "capture_sha256": "272db381865d60f5cd0d3f7392b12f072df4d1a9959ab50c7c70628f228f5d24",
+      "local_path": "data/pages/ea718879d40dadc6eb1f.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints/koi-script-package",
+      "sha256": "9e0f60338846bf04d62901f371e7dda89c73992dd6eb6227b93689c01c0e83b4",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ea93a10d46b8d1402b42.json",
+      "capture_sha256": "6dcc3ce73a525660fdecb841607d8ebbde5e1c08ed30d060ae9d684824d951e1",
+      "local_path": "data/pages/ea93a10d46b8d1402b42.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/remote-development-environments",
+      "sha256": "f61aa353ee66764f6fb2a53e2dfd4299f46717c5cddea087312740e5b5e5d495",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/eacdecee06748f1056c4.json",
+      "capture_sha256": "96668031b95ac3e1d3a02a7691e8234db0cc8a3446dfd7a6d504ea3258b0d3c5",
+      "local_path": "data/pages/eacdecee06748f1056c4.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm/kandji-guide",
+      "sha256": "100064e07fc1612d5d678546f5b018770a3839b5851235b1b849eb5a4a0c38f3",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/eadf0e7e2429fa92d4e1.json",
+      "capture_sha256": "7c7435d0bf0b71efc09919e64dc8c30271877b3cc5020e8ca2a5c232940f2b34",
+      "local_path": "data/pages/eadf0e7e2429fa92d4e1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/malware-protection",
+      "sha256": "f31fb91bfd7799e9ea780021912766e63b98d056745a88138824ef92ac59401b",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/eba61ff3a0aab6fb9b3e.json",
+      "capture_sha256": "f10350f4cd4a5912ce638dfb7f7f54675eee3abc343ff9422295e3fbe914220b",
+      "local_path": "data/pages/eba61ff3a0aab6fb9b3e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration/uninstall-koi",
+      "sha256": "b9b9e14635c25d6231a74069f12858b39ae42963b3877bad206d516cfa1914dd",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ef4583e9333d089d506c.json",
+      "capture_sha256": "08d524f3e51e147c4651e7536d4510668db12ec31fd6546d2d927da5279cb7b6",
+      "local_path": "data/pages/ef4583e9333d089d506c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/remote-development-environments/coder",
+      "sha256": "02f5bf0c0e570e3ef8acca8f8cc07a0e274c1ec31948e55f22f78985a588ecd2",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/efef3e9533dbcfc986d0.json",
+      "capture_sha256": "4c596a5612dfa555775fe51bb1a30ad942e4d2943282525ff2a85778c0fb5ad6",
+      "local_path": "data/pages/efef3e9533dbcfc986d0.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/sensitive-permissions",
+      "sha256": "95330ddae2d5ddbfa5387476625570342e22694416193cd3b50ebce4dfb12279",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/effb82779678b851e5b5.json",
+      "capture_sha256": "5bd7a23b601ee12d99f606fd6260ea69c8f73991a9929dd92f70d8dc223d072f",
+      "local_path": "data/pages/effb82779678b851e5b5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/mdm/intune-guide",
+      "sha256": "40586ae55bef5623c77a76fabcf185b3dbb87019b954ffa951408c66e8f14caa",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f0142062a7832607489c.json",
+      "capture_sha256": "fd25289f724c7b2b8d92b989266c2865b2af95dee6ec8e0ae255ec56d3bbd892",
+      "local_path": "data/pages/f0142062a7832607489c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/network/establishing-trust/generating-ca",
+      "sha256": "28e4d1f95b218c50110a741d3b1e0a7fdb49840e8e03cfba98ca114244819b59",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f046cc6dc4efa6670d1e.json",
+      "capture_sha256": "722dfd7fbeef8140697f2eb07deac967051a2d95830f065c5905d08b826cbd22",
+      "local_path": "data/pages/f046cc6dc4efa6670d1e.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/version-update-cooldown",
+      "sha256": "ee480056ecaec3f6167264ad50706727bf8c99e9f5d0192fb9c55c8742db469f",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f06e08030e7bc850eac4.json",
+      "capture_sha256": "517eb06fe394a3a017fc86a5816aa91961578922c8d8061f796e472cad7b57ec",
+      "local_path": "data/pages/f06e08030e7bc850eac4.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/certificate-read-access",
+      "sha256": "4f9022246804cd40390aebcf908415cefc9520e08c4f6f41de0e46b686d64412",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f1595ed1d722a1f7e518.json",
+      "capture_sha256": "bbbfe8822f51b620cb303f9d71a6f94be24b016bd13175831c88643910da9290",
+      "local_path": "data/pages/f1595ed1d722a1f7e518.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/arbitrary-code-execution",
+      "sha256": "10b881713ba6da33c998e4afbb8861a3ca4ff40f8b0e03394351269d919a6e2a",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f1955bb17034fa3e4ee9.json",
+      "capture_sha256": "6ac498412dd8b3ed6d464b1a5efefcf6710cdc873bbe12dba95d804502c8648d",
+      "local_path": "data/pages/f1955bb17034fa3e4ee9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/windows-manager-write-access",
+      "sha256": "9307e814bd5c1145750bf507b43ac838cb2ceb15374b06f04d6c44b816f32e6b",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f225d93a192a23c98b5d.json",
+      "capture_sha256": "5b5c858e0fd0291c890e2c1b005968839ec6a3f81ba7162461d47f43d08941db",
+      "local_path": "data/pages/f225d93a192a23c98b5d.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/plugins-discovery",
+      "sha256": "17059a31b3aad458c93e7d9599511611ccb17063e9afce1eb19dda717b851626",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f3488a6635896ef5320c.json",
+      "capture_sha256": "a1780039da8e69442f991730d2906588b05b8795b56fb19180478d7bffac1c11",
+      "local_path": "data/pages/f3488a6635896ef5320c.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-2/communication-with-expired-domain",
+      "sha256": "b27916e0063f236ef3f59191957db4841357f461e01386aa6211d686aae1939c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f40fc884b3eafabd09c7.json",
+      "capture_sha256": "d018c50d5cda32eb11e5ee97aa74f83cfbce67de585ed1799cd2a89c2bc5efda",
+      "local_path": "data/pages/f40fc884b3eafabd09c7.md"
+    },
+    {
+      "url": "https://docs.koi.ai/get-started/frequently-asked-questions",
+      "sha256": "489fd8eee7673e4086dc35adc58ba22abf7a76a6d6c9275247bbb54a8f243452",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f5afd4efea1a1f2bf5e5.json",
+      "capture_sha256": "6310cc20820e059788b832e8c3046de34d6ed3fa5455e27b67674f292cdf74c2",
+      "local_path": "data/pages/f5afd4efea1a1f2bf5e5.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/clipboard-write-access",
+      "sha256": "eff462bdb78a72515e742661fb1b5f84fa710b6ecaf3bc8c595104b44a7b5235",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f652487c786562cdd6ed.json",
+      "capture_sha256": "718910227a8f145b9408146dc260085c11613b2510694225c8b8576b54cabd60",
+      "local_path": "data/pages/f652487c786562cdd6ed.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/ossf-low-repo-score",
+      "sha256": "2c8a71d309400a85141be3ff3fc16242ce692179225da25b76b7ed4668912093",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f724cc38929bc0e2dfea.json",
+      "capture_sha256": "45d2ece989852ba8fdb03b9f12fe68546926c67a4a128733afc52409a4b55ab9",
+      "local_path": "data/pages/f724cc38929bc0e2dfea.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/the-agentic-endpoint-ai-components",
+      "sha256": "b1381cd5099e26849820070e52344ff564b68c4d5124749c308ceb1a49be0896",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f77e9871a9c696ad6db1.json",
+      "capture_sha256": "b0aab2465e2bebb99629df0608ff91755d712236f25cc70bd2ba764e5ec08e54",
+      "local_path": "data/pages/f77e9871a9c696ad6db1.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/memory-read-access",
+      "sha256": "396a942020aa5e457b536b55c2b27ec8f0464198debbf4c99e2cb2063b1acf3d",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f95471231ba8d9cb2702.json",
+      "capture_sha256": "f90c87abbb01d241fbad1b93aa639ea097a7958ef7ea3b949b8c8c53c9fcc942",
+      "local_path": "data/pages/f95471231ba8d9cb2702.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-3/exposes-network-port",
+      "sha256": "c35f7b8a83d26c73a5c99d3458ec9276152e1894263a06695b22563c0a8c29fd",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/f9bd207e6dd90ff6584a.json",
+      "capture_sha256": "cf1bed2c2201e66b914a839db940bfa15e8c521514507681d354c300d2461eb9",
+      "local_path": "data/pages/f9bd207e6dd90ff6584a.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guardrails/copy-of-auto-remediate-delisted",
+      "sha256": "c499f5502b0c814307cab595f3f0f324938c8b0199ef6744c72bbc563cfbc042",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/fa1c246b341a181f5c04.json",
+      "capture_sha256": "6922451b67910855c32a1e2b29506ebe37bbe429870f26c81eba035d98479bc9",
+      "local_path": "data/pages/fa1c246b341a181f5c04.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/protect-ai-tools-with-koi/mcp-servers-discovery",
+      "sha256": "1c45ace120f1779ab97d2eff5e3d66560fbe733c7ecbadcdd589bf5e71458720",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/fac4219c70ee2de7e679.json",
+      "capture_sha256": "30a3742f2b78c99d1f3a98b9dbf98a8831e12bbe39f2af9ac49e708477ee98f7",
+      "local_path": "data/pages/fac4219c70ee2de7e679.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/windows-manager-read-access",
+      "sha256": "8e03cf0246c8bce5543ecb849f4439ecaddd01cb928d472347f464051edb601e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/fb0c732538e800fb80d9.json",
+      "capture_sha256": "b247f9d3fa3779e7a26579d03e3d4ec979cb248f9ab6ac16b25968f44d15b0ce",
+      "local_path": "data/pages/fb0c732538e800fb80d9.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-5/low-level-network-write-access",
+      "sha256": "6bace7556b91f00f1c3e405efe26b85acdb980d242f11dfd7f05512a2d0f4e26",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/fb471e5201d69100a729.json",
+      "capture_sha256": "cb2d249a325708951f69ec62b8c7f1ae6cce6147357aa2a4fb1ab034fadb5ff7",
+      "local_path": "data/pages/fb471e5201d69100a729.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index-4/collection-of-personally-identifiable-information",
+      "sha256": "f9c57b1af8933d68372457970e4a8fd13bee4069b62f012ef3c31fd24486fbfb",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/fbb2a338226cc7db4869.json",
+      "capture_sha256": "c78b0d4a42d0f1d33ef8e771e96c1ddd30fcdfe5eae34bddbb587b2d9cd0c2f8",
+      "local_path": "data/pages/fbb2a338226cc7db4869.md"
+    },
+    {
+      "url": "https://docs.koi.ai/risk-and-threat-intelligence/findings/index/mismatch-between-description-and-body",
+      "sha256": "88c55357ebb3c2a173a312742eb33fa4375a8253f61d25d79b18f62e94424e9c",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/fbf9fb1bd7caace4ab94.json",
+      "capture_sha256": "f65c05c20d0d80bc6d3aad613a945348ebae0bc953caa9939a9871fc9c35c86c",
+      "local_path": "data/pages/fbf9fb1bd7caace4ab94.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/endpoint-integration/deploy-koi-to-your-endpoints",
+      "sha256": "449e6ac4e46d366158fa6a7487b06f9c4c959b2b6ad1f739b55c4c2beeef31ae",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/fe598f87961474cac546.json",
+      "capture_sha256": "24408426adfd66b7b8c19f724620ab355d6deabc3cf237e43de6c4cec18bfab2",
+      "local_path": "data/pages/fe598f87961474cac546.md"
+    },
+    {
+      "url": "https://docs.koi.ai/api-reference/reference/devices",
+      "sha256": "9016ca8da13b57a4120077a8f8b29feb58880c4e6d1e21ce93c59e6f7e09951e",
+      "capture_file": "data/koi-browser-refresh-2026-09-06/ff3c2776bbd7bd158eed.json",
+      "capture_sha256": "3c8dd9b3543cab2e06196b39c375467e9b61d8c5f330521e0fc9a3d62db1e779",
+      "local_path": "data/pages/ff3c2776bbd7bd158eed.md"
+    }
+  ],
+  "invalid": 0,
+  "failures": [
+    {
+      "url": "https://docs.koi.ai/security/overview",
+      "error": "Error: No authenticated article content"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/agentic-runtime-control/agent-activity",
+      "error": "Error: No authenticated article content"
+    }
+  ]
+}

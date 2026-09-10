@@ -1,0 +1,44 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x-rn/release-information/previous-maintenance-releases/broker-vm/broker-vm-30063-major
+fetched_at: 2026-09-06T10:52:57Z
+source: cortex-platform
+---
+
+# Broker VM 30.0.63 (Major) | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Release Notes 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x 
+
+ Release Information 
+
+ Previous maintenance releases 
+
+ Broker VM 
+
+ Broker VM 30.0.63 (Major) 
+
+ The following table describes the changes integrated on the Broker VM major version 30.0.63 released on February 22, 2026 as part of the Cortex XDR 5.0 release. This version replaces the previous version released on February 8, 2026 as the major version for the release. The release is divided into three deployments: January 25, 2026, February 8, 2026, and February 22, 2026. 
+
+ ISSUE/FEATURE 
+
+ DESCRIPTION 
+
+ Broker VM upgrade enhancements 
+
+ This update improves the reliability and stability of the Broker VM upgrade process. We’ve addressed several underlying issues to ensure a smoother transition between versions with reduced downtime. 
+
+ Previous Broker VM 31.0.57 (Major) 
+
+ Next Broker VM 30.0.61 (Major) 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

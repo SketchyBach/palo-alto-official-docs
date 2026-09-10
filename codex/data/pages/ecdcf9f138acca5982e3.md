@@ -1,0 +1,52 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/generic/generic-mcp
+fetched_at: 2026-09-06T10:09:10Z
+source: cortex-platform
+---
+
+# Generic MCP | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Cortex Cloud Data Sources and Connectors 
+
+ Vendor-specific data sources and connectors 
+
+ Generic 
+
+ Cortex Cloud Posture 
+
+ Generic MCP 
+
+ Use Generic MCP data for Cortex Cloud. 
+
+ Important 
+
+ This connector is only available for tenants that onboarded after July 26, 2026. For tenants that onboarded before this date, use Marketplace to access the standalone integration. For more information, see Marketplace . 
+
+ This connector is available with any active Cortex XSIAM, Cortex Cloud Posture Security with the Application Security Posture Management (ASPM) module, Cortex Cloud, Cortex Cloud Runtime Security, Cortex XDR, or Cortex AgentiX license with the Attack Surface Management (ASM), Exposure Management, or Threat Intel Management (TIM) add-on. 
+
+ Connect securely with any MCP server and access its tools in real time. This integration automatically discovers the tools available on the connected MCP server. 
+
+ This connector includes the following sub-capabilities (Marketplace integrations link to PAN DEV for more information): 
+
+ Generic MCP : Use this integration to connect to an MCP server and automatically discover its available tools. 
+
+ To configure this connector, follow the steps outlined in the configuration wizard. 
+
+ Previous Generic 
+
+ Next Generic SQL 
+
+ Last updated 5 days ago 
+
+ Was this helpful?

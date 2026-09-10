@@ -1,0 +1,58 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/investigate-and-respond-to-threats/day-to-day-tasks-in-cortex-xsoar/incident-management/link-incidents/link-and-unlink-incidents-in-the-cli
+fetched_at: 2026-09-06T10:42:42Z
+source: cortex-platform
+---
+
+# Link and Unlink incidents in the CLI | 6.14 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 6 
+
+ Cortex XSOAR 6 Administrator Guides 
+
+ 6.14 
+
+ Investigate and Respond to Threats 
+
+ Day to Day Tasks in Cortex XSOAR 
+
+ Incident Management 
+
+ Link Incidents 
+
+ Cortex XSOAR 6.14 
+
+ Link and Unlink incidents in the CLI 
+
+ Link and unlink related Cortex XSOAR 6.14 incidents using the command-line interface. 
+
+ You can link and unlink incidents in the CLI. The linked incidents appear in the Case Info tab. 
+
+ To link an incident, in the CLI, type the following command: 
+
+ !linkIncidents linkedIncidentIDs= <id> `` ``action=link 
+
+ Confirmation of the linked incident appears in the War Room and in the Case Info tab. In this example, we have linked the incident ID#3. 
+
+ linked-incident-war.png 
+
+ linked-incident-3.png 
+
+ To unlink the incident, type the following command: 
+
+ !linkIncidents linkedIncidentIDs= <id> `` ``action=unlink 
+
+ Previous Manage Related Incidents 
+
+ Next Configure Incident Fields for Related Incidents 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,217 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/investigation-and-response/automation/engines/install-an-engine
+fetched_at: 2026-09-06T10:05:40Z
+source: cortex-platform
+---
+
+# Install an engine | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Cases and issues 
+
+ Investigation and response 
+
+ Automation 
+
+ Engines 
+
+ Cortex Cloud Posture 
+
+ Install an engine 
+
+ Install, deploy and configure Cortex Cloud engines. 
+
+ When you install the engine, the d1.conf is installed on the engine machine, which contains engine properties such as proxy, log level, and log files. If Docker/Podman is already installed, the python.engine.docker and powershell.engine.docker keys are set to true . If Docker or Podman is not available when the engine is installed, the key is set to false . If so, you need to set the key to true after installing Docker and Podman. Verify that python.engine.docker and powershell.engine.docker configuration keys are present in the d1.conf file. 
+
+ If you are using DEB, RPM, or Zip installation, install Docker or Podman. 
+
+ Natively running Python or PowerShell integrations/scripts on Windows or Linux is not supported on Cortex Cloud engines. 
+
+ Installation types 
+
+ Cortex Cloud supports the following file types for installation on the engine machine: 
+
+ Shell: For all Linux deployments, including Ubuntu and SUSE. Automatically installs Docker/Podman, downloads Docker/Podman images, enables remote engine upgrade, and allows installation of multiple engines on the same machine. 
+
+ The installation file is selected for you. Shell installation supports the purge flag, which by default is false. To uninstall an engine, run the installer with the purge flag enabled. 
+
+ When upgrading an engine that was installed using the Shell installation, you can use the Upgrade Engine feature in the Engines page. For Amazon Linux 2 type engines, you need to upgrade these engine types using a zip-type engine and not use the Upgrade Engine feature. 
+
+ If you use the shell installer, Docker/Podman is automatically installed. We recommend using Linux and not Windows to be able to use the shell installer, which installs all dependencies. 
+
+ DEB: For Ubuntu operating systems. 
+
+ RPM: RHEL operating systems. 
+
+ Use DEB and RPM installation when the shell installation is not available. You need to manually install [Docker](/spaces/Hpcayc1yGiwVhvGJ7DK1/pages/gf7RqZRpabhizh1VM79U) or [Podman](/spaces/Hpcayc1yGiwVhvGJ7DK1/pages/5CMV7CX7wqaHenpQsPqY) and any dependencies. 
+
+ Zip: Used for Amazon Linux 2 machines. 
+
+ Configuration: Configuration file for download. When you install one of the other options, this configuration file ( d1.conf ) is installed on the engine machine. 
+
+ For DEB/RPM engines, Python (including 3.x) and the containerization platform (Docker/Podman) must be installed and configured. For Docker or Podman to work correctly on an engine, IPv4 forwarding must be enabled. 
+
+ How to install an engine 
+
+ Create an engine. 
+
+ Select Settings → Configurations → Data Broker → Engines → Create New Engine . 
+
+ In the Engine Name field, add a meaningful name for the engine. 
+
+ Select one of the installer types from the list. 
+
+ (Optional) (Shell only) Select the checkbox to enable multiple engines to run on the same machine. 
+
+ If you have an existing engine, and you did not select the checkbox, and now you want to install another engine on the same machine, you need to delete the existing engine. 
+
+ (Optional) Add any required configuration in JSON format. 
+
+ Click OK to create the engine. 
+
+ For shell installation, do the following: 
+
+ Tip 
+
+ For Linux systems, we recommend using the shell installer. If using Amazon Linux 2, use the zip installer (see step 4). 
+
+ Move the .sh file to the engine machine using a tool such as SSH or PuTTY. 
+
+ On the engine machine, grant execution permission by running the following command: 
+
+ chmod +x /<engine-file-path> 
+
+ Install the engine by typing one of the following commands: 
+
+ With tools: sudo`` `` <engine-file-path> 
+
+ Without tools: sudo`` `` <engine-file-path> -- -tools=false 
+
+ Note 
+
+ If you receive a permissions denied error, it is likely that you do not have permission to access the /tmp directory. 
+
+ If the installer fails to start due to a permissions issue, even if running as root, add one of the following two arguments when running the installer: 
+
+ --target <path> - Extracts the installer files into the specified custom path. 
+
+ --keep - Extracts the installer files into the current working directory (without cleaning at the end). 
+
+ If using installer options such as -- -tools=false , the option should come after the --target or --keep arguments. For example: 
+
+ sudo ./d1-installer.sh --target /some/temp/dir -- -tools=false 
+
+ If you set a custom path when you run the installer, you must also set a custom path for upgrading your engine or the upgrade will fail. For more information, see Upgrade an engine . 
+
+ For RPM/DEB installation, do the following: 
+
+ Move the file to the required machine using a tool such as SSH or PuTTY. 
+
+ Type one of the following installation commands: 
+
+ Machine Type 
+
+ Install Command 
+
+ RHEL (RPM) 
+
+ sudo rpm -Uvh d1-2.5_15418-1.x86_64.rpm 
+
+ Ubuntu (DEB) 
+
+ sudo dpkg --install d1_xxx_amd64.deb 
+
+ Start the engine by running one of the following commands: 
+
+ Machine Type 
+
+ Start Command 
+
+ RHEL (RPM) 
+
+ sudo systemctl start d1 
+
+ Ubuntu (DEB) 
+
+ sudo service d1 restart 
+
+ For Zip installation on Amazon Linux 2, run the following commands: 
+
+ Create the engine folder. 
+
+ mkdir /usr/local/demisto 
+
+ Unzip the engine files to the folder created in the previous step. 
+
+ unzip ./d1.zip -d /usr/local/demisto 
+
+ Allow the process to bind to low-numbered ports. 
+
+ setcap CAP_NET_BIND_SERVICE=+eip /usr/local/demisto/d1_linux_amd64 
+
+ Change the owner of /usr/local/demisto to the demisto user. 
+
+ chown -R demisto:demisto /usr/local/demisto 
+
+ In /etc/systemd/system edit the d1.service file as follows (adjust the directory and the name of the binary file if needed). 
+
+ Ask Copy 
+
+ [Unit] 
+ Description=Demisto Engine Service 
+ After=network.target 
+ [Service] 
+ Type=simple 
+ User=demisto 
+ WorkingDirectory=/usr/local/demisto 
+ ExecStart=/usr/local/demisto/d1_linux_amd64 
+ EnvironmentFile=/etc/environment 
+ Restart=always 
+ [Install] 
+ WantedBy=multi-user.target 
+
+ Run the following commands: 
+
+ chown root:root /etc/systemd/system/d1.service 
+
+ chmod 644 /etc/systemd/system/d1.service 
+
+ Run the engine process. 
+
+ systemctl start d1 
+
+ Verify that the engine is running. 
+
+ systemctl status d1 
+
+ Verify that the engine you created is connected. 
+
+ Select Settings → Configurations → Data Broker → Engines . 
+
+ Locate your engine on the Engines page and check that it is connected. 
+
+ When the engine is connected, you can add the engine to a load-balancing group by clicking Load-Balancing Group on the Engines page. 
+
+ If you want to add the engine to a new group, click Add to new group from the list. 
+
+ When the engine is in the load-balancing group, it cannot be used as an individual engine and does not appear when configuring an engine from the list. 
+
+ (Optional) After installing the engine, you may want to set up a proxy, set up Docker hardening, configure the number of workers for the engine, or perform other related engine configurations. For more information, see Configure Engines . You can also configure an integration instance to run on the engine you created. 
+
+ Previous Engine requirements 
+
+ Next Docker 
+
+ Last updated 6 days ago 
+
+ Was this helpful?

@@ -1,0 +1,50 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/attack-surface-management/global-lookup
+fetched_at: 2026-09-06T09:45:44Z
+source: cortex-platform
+---
+
+# Global Lookup | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XDR 
+
+ Cortex XDR 5.x Documentation 
+
+ Detect, investigate, and respond to threats 
+
+ Attack surface management 
+
+ Global Lookup 
+
+ Search global intelligence for indicators and related context. 
+
+ Global Lookup allows you to query global internet scan data for certificate hashes, IP addresses, and domains. This internet data is enriched with registration information, geolocation, related certificates, observed services, ASNs, and passive DNS records. Global Lookup is not limited to your own attack surface, offering clear insights into indicator ownership and accelerating the analysis of potentially malicious indicators. 
+
+ Global Lookup enables you to: 
+
+ View and analyze up to 30 days of data, and select up to a 30-day range to search within the last 6 months. 
+
+ View the services that have been open on a given IP address over the last 6 months. 
+
+ Pivot to Global Lookup directly from IP addresses, domains, and certificates found in attack surface or vulnerability issues. 
+
+ How to use Global Lookup 
+
+ Navigate to Modules → Attack Surface → Global Lookup . 
+
+ Enter an IP address, domain, or certificate hash (MD5, SHA1, and SHA256) in the Search box. 
+
+ Previous Emerging Vulnerabilities 
+
+ Next Monitor and track compliance adherence 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

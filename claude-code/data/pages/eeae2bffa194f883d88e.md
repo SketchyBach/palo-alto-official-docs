@@ -1,0 +1,104 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/engines/docker/docker-faqs
+fetched_at: 2026-09-06T10:17:48Z
+source: cortex-platform
+---
+
+# Docker FAQs | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex AgentiX 
+
+ Cortex AgentiX Documentation 
+
+ Configure Cortex AgentiX 
+
+ Engines 
+
+ Docker 
+
+ Cortex AgentiX 
+
+ Docker FAQs 
+
+ Find answers to common Docker setup and operation questions for Cortex AgentiX engines. 
+
+ Does Cortex AgentiX use COPY or ADD for building images? 
+
+ Cortex AgentiX uses COPY for building images. The COPY instruction copies files from the local host machine to the container file system. Cortex AgentiX does not use the ADD instruction, which could potentially retrieve files from remote URLs and perform operations such as unpacking, introducing potential security vulnerabilities. 
+
+ Should the --restart flag be used? 
+
+ The --restart flag should not be used. Cortex AgentiX manages the lifecycle of Docker images and restarts images as needed. 
+
+ Can we restrict containers from acquiring additional privileges by setting the no-new-privileges option? 
+
+ Cortex AgentiX does not support the no-new-privileges option. Some integrations and scripts may need to change privileges when running as a non-root user (such as Ping). 
+
+ Can we apply a daemon-wide custom seccomp profile? 
+
+ The default seccomp profile from Docker is strongly recommended. The default seccomp profile provides protection as well as wide application compatibility. While you can apply a custom seccomp profile, Cortex AgentiX cannot guarantee that it won't block system calls used by an integration or script. If you apply a custom seccomp profile, you need to verify and test the profile with any integrations or scripts you plan to use. 
+
+ Can we use TLS authentication for docker daemon configuration? 
+
+ TLS authentication is not used, because Cortex AgentiX does not use Docker remote connections. All communication is done via the local Docker IPC socket. 
+
+ How do we set the logging level to info ? 
+
+ Set the log level in the Docker daemon configuration file . 
+
+ Can we restrict Linux kernel capabilities within containers? 
+
+ The default Docker settings (recommended) include 14 kernel capabilities and exclude 23 kernel capabilities. Refer to Docker’s full list of runtime privileges and Linux capabilities . 
+
+ You can further exclude capabilities via advanced configuration, but will first need to verify that you are not using a script that requires the capability. For example, Ping requires NET_RAW capability. 
+
+ Is the Docker health check option implemented at runtime? 
+
+ The Cortex AgentiX tenant monitors the health of the containers and restarts/terminates containers as needed. The Docker health check option is not needed. 
+
+ Can we enable live restore? 
+
+ Live restore is not used. Cortex AgentiX uses ephemeral Docker containers. Every running container is stateless by design. 
+
+ Can we restrict network traffic between containers? 
+
+ Cortex AgentiX does not disable inter-container communication by default, as there are use cases where this might be needed. For example, a script communicating with a long running integration which listens on a port, may require inter-container communication. If inter-container communication is not required, it can be disabled by modifying the Docker daemon configuration. 
+
+ Can we enable user namespace remapping? 
+
+ Cortex AgentiX does not support user namespace remapping. 
+
+ How do we configure auditing for Docker files and directories? 
+
+ Auditing is an operating system configuration, and can be enabled in the operating system settings. Cortex AgentiX does not change the audit settings of the operating system. 
+
+ Can we disable the userland proxy? 
+
+ If the kernel supports hairpin NAT, you can disable docker userland proxy settings by modifying the Docker daemon configuration . 
+
+ Does Cortex AgentiX support the AppArmor profile? 
+
+ Cortex AgentiX supports the default AppArmor profile (only relevant for Ubuntu with AppArmor enabled). 
+
+ Does Cortex AgentiX support the SELinux profile? 
+
+ Cortex AgentiX supports the default SELinux profile (only relevant for RedHat with SELinux enabled). 
+
+ How does Cortex AgentiX handle secrets management? 
+
+ For Docker swarm services, a secret is a blob of data, such as password, SSH private keys, SSL certificates, or other piece of data that should not be transmitted over a network or stored unencrypted in a Docker file or in your application’s source code. Cortex AgentiX manages integration credentials internally. It also supports using an external credentials service such as CyberArk. 
+
+ Previous Docker image security 
+
+ Next Troubleshoot Docker Issues 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

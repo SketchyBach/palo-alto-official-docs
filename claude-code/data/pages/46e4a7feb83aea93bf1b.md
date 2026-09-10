@@ -1,0 +1,70 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-data-source/palo-alto-networks-global-protect
+fetched_at: 2026-09-06T11:10:49Z
+source: cortex-platform
+---
+
+# Palo Alto Networks Global Protect | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Reference 
+
+ Alerts & Rules 
+
+ Analytics Alerts 
+
+ Alerts by data source 
+
+ Palo Alto Networks Global Protect 
+
+ Alerts related to data source "Palo Alto Networks Global Protect". 
+
+ Alert 
+
+ A disabled user attempted to log in to a VPN 
+
+ A Successful VPN connection from TOR 
+
+ A user connected to a VPN from a new country 
+
+ A user logged in at an unusual time via VPN 
+
+ Azure Privilege Escalation Using an Application 
+
+ First VPN access attempt from a country in organization 
+
+ First VPN access from ASN for user 
+
+ First VPN access from ASN in organization 
+
+ Impossible traveler - VPN 
+
+ Possible Insider Threat Activity 
+
+ Possible phishing attack via Microsoft Teams 
+
+ Potential extraction of NAA Account Credentials in Microsoft Configuration Manager 
+
+ VPN access with an abnormal operating system 
+
+ VPN login attempt by a honey user 
+
+ VPN login Brute-Force attempt 
+
+ VPN login by a dormant user 
+
+ VPN login by a service account 
+
+ VPN Login Password Spray 
+
+ VPN login with a machine account 
+
+ Previous Palo Alto Networks Firewall traffic Logs 
+
+ Next Palo Alto Networks Platform Alerts 
+
+ Was this helpful?

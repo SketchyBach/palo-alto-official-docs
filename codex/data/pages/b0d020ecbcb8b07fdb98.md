@@ -1,0 +1,98 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/onboard-and-configure/csp-onboarding/amazon-web-services-cloud-onboarding/grant-cross-account-kms-key-access-for-control-tower-byob-log-collection
+fetched_at: 2026-09-06T10:51:18Z
+source: cortex-platform
+---
+
+# Grant cross-account KMS key access for Control Tower BYOB log collection | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Data Security 
+
+ Cortex Data Security Documentation 
+
+ Onboard and configure 
+
+ Cloud service provider (CSP) onboarding 
+
+ Amazon Web Services cloud onboarding 
+
+ Grant cross-account KMS key access for Control Tower BYOB log collection 
+
+ Learn how to configure cross-account AWS KMS key permissions for Cortex Control Tower BYOB log collection. Step-by-step guide to updating KMS key policies. 
+
+ This procedure is required if you are using custom Control Tower (BYOB) log collection and you choose to encrypt your logs with a KMS key. 
+
+ When a KMS key and the accessing IAM role reside in different AWS accounts, AWS requires a two-way trust handshake to authorize access: 
+
+ IAM side (Automated): The Cortex Data Security CloudFormation template automatically attaches kms:Decrypt permissions for your specified key ARN to the cortex-logs-ingestion-access-* role in the Log Archive account. 
+
+ KMS key policy side (Manual): You must update the KMS key's resource policy to explicitly trust and allow the Cortex Cloud IAM role in the Log Archive account to perform the kms:Decrypt action. 
+
+ Prerequisites 
+
+ Before you begin, retrieve and note the following values: 
+
+ Logging account ID: The 12-digit AWS account ID of your logging account where the Cortex IAM role is deployed. 
+
+ Cortex role name: The exact name of the IAM role created by the Cortex Data Security CloudFormation template in the Log Archive account (e.g., cortex-logs-ingestion-access-* ). You can retrieve this from the Outputs tab of the deployed CloudFormation stack. 
+
+ KMS key ID or ARN: The identifier of the KMS key used to encrypt your Control Tower S3 bucket. 
+
+ Sign in to the AWS Management Console of the Management account where the KMS key resides. 
+
+ Navigate to Key Management Service (KMS) > Customer managed keys . 
+
+ Select the KMS key used to encrypt your Control Tower S3 bucket. 
+
+ Select the Key policy tab, then click Edit . 
+
+ In the JSON editor, locate the closing bracket ( ] ) of the Statement array. 
+
+ Append a comma ( , ) to the statement immediately preceding the closing bracket, then paste the following block: 
+
+ Ask Copy 
+
+ { 
+ " Sid " : " AllowCortexCrossAccountKmsDecrypt " , 
+ " Effect " : " Allow " , 
+ " Principal " : { 
+ " AWS " : " arn:aws:iam::<LOGGING_ACCOUNT_ID>:role/<cortex-logs-ingestion-access-*> " 
+ }, 
+ " Action " : " kms:Decrypt " , 
+ " Resource " : " * " 
+ } 
+
+ Where: 
+
+ <LOGGING_ACCOUNT_ID> is your 12-digit Log Archive account ID. 
+
+ <cortex-logs-ingestion-access-*> is the full name of your Cortex IAM role. 
+
+ Click Save changes . 
+
+ Verify connection 
+
+ Once the key policy is updated, verify that Cortex Cloud can successfully decrypt and ingest the logs: 
+
+ Log in to Cortex Cloud. 
+
+ Navigate to Settings > Data Sources & Integrations > Cloud Accounts . 
+
+ Locate your cloud instance and verify that the Audit Log status indicator is green. 
+
+ Troubleshooting: If the status indicator remains red, verify that both the Log Archive account ID and the Cortex IAM role name in your KMS key policy statement match the values listed in your CloudFormation stack outputs exactly. 
+
+ Previous Post-deployment: Custom (BYOB) and Control Tower audit log collection 
+
+ Next AWS post-deployment verification 
+
+ Last updated 7 days ago 
+
+ Was this helpful?

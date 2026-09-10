@@ -1,0 +1,88 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/onboard-cortex-xsoar/cortex-xsoar-installation/troubleshoot-your-installation/common-installation-limitations-and-fixes
+fetched_at: 2026-09-06T10:34:58Z
+source: cortex-platform
+---
+
+# Common installation limitations and fixes | 8.10 | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSOAR 8 
+
+ Cortex XSOAR 8 On-prem Documentation 
+
+ 8.10 
+
+ Onboard Cortex XSOAR 
+
+ Cortex XSOAR Installation 
+
+ Troubleshoot your installation 
+
+ Cortex XSOAR 8.10 On-prem 
+
+ Common installation limitations and fixes 
+
+ Troubleshoot common Cortex XSOAR 8.10 On-prem installation issues. 
+
+ The following provides guidance on avoiding or resolving common issues encountered at various installation stages Cortex XSOAR On-prem to ensure your system is ready for operation. 
+
+ Cluster Installation fields in the textual UI menu cannot be changed after installation 
+
+ After the installation completes, you cannot change any field values. Any changes need to be made before installing Cortex XSOAR. 
+
+ To change an installation field value after installing, you must redeploy the cluster and reinstall Cortex XSOAR. For more information, see Task 7. Install Cortex XSOAR on your VM under Cortex XSOAR installation . Contact engineering or support for assistance. 
+
+ Unable to access the Cortex XSOAR web page immediately after installation 
+
+ When you install or upgrade in the textual UI, after all the tasks run, a successful installation or upgrade message displays. However, the system may not yet have fully completed the installation process. 
+
+ Wait until the installation process fully completes (approximately 30 minutes) and then check that you can log in to Cortex XSOAR. For more information, see Task 8. Verify you can log in to Cortex XSOAR under Cortex XSOAR installation . 
+
+ Unable to recover lost SSH password 
+
+ When you set the SSH password after deploying your cluster, you need to save it securely. If you lose this password, you cannot recover or change it. 
+
+ If you lose the SSH password, you must redeploy the cluster and reinstall Cortex XSOAR. For more information, see Cortex XSOAR installation . Contact engineering or support for assistance. 
+
+ Unable to communicate between integrations and services and Cortex XSOAR 
+
+ For Cortex XSOAR to successfully communicate with integrations and services and for High Availability to work, the IPs of all VMs (nodes) in a cluster, as well as the virtual IP, must be on the same subnet; they currently cannot be split across subnets. 
+
+ To move the IPs in your cluster to the same subnet, you must redeploy the cluster and reinstall Cortex XSOAR. For more information, see Cortex XSOAR installation . Contact engineering or support for assistance. 
+
+ After reboot, hard shutdown, or taking a snapshot from a hypervisor Cortex XSOAR is not running properly 
+
+ Reboot, hard shutdown, or taking a snapshot in your hypervisor (which performs a hard shutdown) can cause issues in Cortex XSOAR, including: 
+
+ Service failures: Core services or integrations may fail to start due to corrupted files or improper shutdown sequences. 
+
+ Database errors: Incident data, playbooks, or audit logs may become inaccessible due to database corruption, causing errors when loading or querying data. 
+
+ Delayed or failed login: Users may experience delays or failures when trying to log in because authentication or session services were not properly restored. 
+
+ Broken playbooks and scripts: Active or scheduled playbooks and scripts may fail to execute, resulting in incomplete or disrupted workflows. 
+
+ If you experience issues, download a log bundle from the textual UI menu. Contact support or engineering for assistance. Do not reboot or perform a hard shutdown of Cortex XSOAR. For more information, see Shut down Cortex XSOAR . 
+
+ For a hypervisor snapshot, either perform a graceful shutdown for the VM and then take the snapshot, or instead of taking a hypervisor snapshot, use the backup and restore feature. For more information, see Back up and Restore Cortex XSOAR . 
+
+ Cluster installation fails on TASK \[opp-artifacts: Wait for OPP registry to be up\] with a timeout 
+
+ The initial cluster installation fails on TASK [opp-artifacts: Wait for OPP registry to be up] with a timeout. 
+
+ Verify if the HTTP PUT response hop limit is configured appropriately. This value may need to be increased from 1 to 2. 
+
+ Previous Troubleshoot your installation 
+
+ Next Access logs and log bundles 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,260 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/asset-managment/asset-classes/code-and-ci-cd-assets/iac-resources-assets
+fetched_at: 2026-09-06T09:54:42Z
+source: cortex-platform
+---
+
+# IaC resources assets | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Asset Managment 
+
+ Asset classes 
+
+ Code and CI/CD assets 
+
+ Cortex Cloud Runtime 
+
+ IaC resources assets 
+
+ View Infrastructure-as-Code resources and their related configuration risks. 
+
+ Cortex Cloud discovers and inventories every Infrastructure-as-code (IaC) resource defined within your onboarded repositories. Each discovered resource appears in the unified asset inventory as a governed entity, allowing security teams to manage the security posture of cloud infrastructure before it is deployed to production. 
+
+ The IaC asset enables security teams to answer three questions about every cloud template: What is the resource? Where is it defined? What is its security health? 
+
+ Note 
+
+ Scope: The IaC asset represents individual infrastructure resources defined in Terraform, CloudFormation, or Kubernetes manifests. The IaC asset does not represent the physical cloud resource in the runtime environment; those are managed under the Cloud asset class. 
+
+ The IaC asset is a critical component of shift-left security, providing the visibility needed to identify and remediate misconfigurations at the source code level 
+
+ Core achievements and use cases 
+
+ Resource discovery and identity: Every IaC resource defined in supported templates is automatically discovered and registered in the unified asset inventory with a unique asset identifier, resource type, and source file path 
+
+ Configuration enrichment: The IaC asset is enriched with metadata from the source code including resource attributes, provider types, and the specific line ranges where the resource is defined 
+
+ Code-to-cloud lineage: The IaC asset serves as the bridge in the Code-to-Cloud graph, establishing a traceable lineage from the source repository through the IaC definition to the deployed cloud resource 
+
+ Proactive health monitoring: The IaC asset provides a continuous health profile by detecting security misconfigurations against organizational policies before the infrastructure is provisioned 
+
+ Functional responsibilities 
+
+ The IaC asset model facilitates a structured delegation between governance and operations: 
+
+ AppSec managers (Governance): Define the IaC security policies and benchmarks that every resource must meet, and review the inventory to identify high-risk resource types across the organization 
+
+ AppSec practitioners (Operations): Review IaC misconfigurations detected in the asset inventory and apply the provided remediation guidance directly to the source templates to ensure secure deployments 
+
+ Relationship model 
+
+ Cortex Cloud models the following relationships between the IaC asset and other asset categories to provide full supply chain visibility. 
+
+ Related asset category 
+
+ Inherited metadata and description 
+
+ Repository (Parent) 
+
+ The VCS repository that contains the IaC definition, propagating business criticality and application context to the resource 
+
+ Cloud resource (Downstream) 
+
+ The physical cloud infrastructure provisioned from the IaC definition, traced via the Code-to-Cloud graph 
+
+ CI/CD pipeline (Downstream) 
+
+ The pipeline responsible for deploying the IaC template to the cloud environment 
+
+ Supported frameworks and languages 
+
+ The following infrastructure-as-code (IaC) frameworks are supported: 
+
+ Ansible 
+
+ Dockerfile 
+
+ openAPI 
+
+ ARM 
+
+ Helm 
+
+ OpenTofu 
+
+ Bicep 
+
+ Kubernetes 
+
+ Terraform 
+
+ CloudFormation 
+
+ Kustomize 
+
+ Terraform Plan 
+
+ IaC resources assets inventory 
+
+ To view and manage IaC resource assets, you must have at least one Version Control System (GitHub, GitLab, Bitbucket, Azure DevOps) integrated and active and at least one repository with IaC scanning enabled and a completed scan resulting in discovered resources. 
+
+ To access IaC assets, go to Inventory , select All Assets → Code → IaC Resources . 
+
+ The IaC Resources assets page includes a dashboard and an inventory table. 
+
+ IaC resources dashboard 
+
+ The dashboard includes three widgets. To focus the IaC asset inventory on a specific set of resources, select a value in a widget and then choose Filter in, or Filter out to exclude a specific resource from the results. 
+
+ Cloud Providers: Displays the total amount of IaC resources categorized by connected cloud providers such as AWS and GCP and the number of IaC resources found in each provider 
+
+ Frameworks: Displays connected frameworks such as Terraform and Kubernetes and the number of IaC resources found in each framework 
+
+ Drifted Resources: Shows the total number of IaC resources with detected drift, broken down by cloud provider, where each provider displays its own drift count 
+
+ IaC resources table 
+
+ The following table describes the default exposed properties of the IaC Resource asset table. Select Menu Settings to view additional properties. 
+
+ Property 
+
+ Description 
+
+ Name 
+
+ The logical name assigned to the resource within the IaC template code 
+
+ Resource type 
+
+ The specific infrastructure category defined by the provider such as aws_s3_bucket or google_compute_instance 
+
+ Framework 
+
+ The IaC technology used to define the resource such as Terraform , CloudFormation , or Kubernetes 
+
+ Cloud provider 
+
+ The cloud service provider where the resource is intended to be deployed such as Google Cloud , GCP , or Azure 
+
+ Repository 
+
+ The name of the version control repository containing the IaC source file 
+
+ Provider 
+
+ The Version Control System (VCS) platform hosting the repository such as GitHub or GitLab 
+
+ File path 
+
+ The specific directory path to the manifest or template file within the repository 
+
+ Branch 
+
+ The specific branch of the repository where the IaC resource was detected 
+
+ Business application names 
+
+ The business applications associated with the resource, which are automatically mapped based on the application assignment of the parent repository 
+
+ First observed 
+
+ The date and time the IaC resource was initially discovered in the inventory 
+
+ Last observed 
+
+ The date and time of the most recent scan that confirmed the presence of the resource 
+
+ Filter and prioritize IaC resources 
+
+ To effectively reduce the infrastructure risk surface, apply the following high-priority filtering workflows: 
+
+ Target critical infrastructure: Filter by Business Application Names to prioritize misconfigurations in resources that support essential services 
+
+ Investigate drifted resources: Filter by Drifted Resources to identify infrastructure where the runtime configuration has diverged from the IaC template 
+
+ Isolate deployed infrastructure : Filter by C2C Traced Assets (in the More Actions menu next to Filters) to identify IaC templates that are actively running in your cloud environment rather than dormant code 
+
+ Scope by framework: Filter Frameworks to isolate specific technologies such as Kubernetes manifests for container security audits 
+
+ IaC resources assets details 
+
+ The IaC resources inventory provides multiple ways to investigate an infrastructure asset, from quick agentic queries in the main table to deep-dive configuration analysis in the side panel. 
+
+ Select an IaC resource row in the table to open its side panel. This provides a consolidated workspace for investigating infrastructure definitions and remediating misconfigurations without navigating away from the asset inventory 
+
+ Ask the AppSec agentic assistant agent 
+
+ From the IaC assets side panel, click Ask AI and query resource-specific insights (for example, policy compliance, framework-specific risks, or deployment gaps). 
+
+ Asset card tabs 
+
+ Navigate through the following tabs in the side panel to review the infrastructure context and lineage. This helps prioritize remediation efforts based on application criticality and assess the potential production impact of misconfigurations: 
+
+ Overview tab: Displays highlights such as Internet Exposed, Public, Deployed to Runtime, Failed Security Assessment, as well as cases and issues associated with the resource. Additional information includes the severity breakdown of misconfigurations, resource properties (such as framework and provider), and current scan information including the last scan time and health status 
+
+ Applications tab: Displays the business applications associated with the resource including business criticality ratings and risk scores 
+
+ Code tab: Provides a direct view of the IaC template source code where the resource is defined to inspect raw configuration attributes 
+
+ Code to Cloud tab: Displays the relationship graph visualizing the full lineage from the source repository through the IaC resource to the deployed cloud workloads 
+
+ Investigate and remediate issues by category 
+
+ The IaC side panel organizes findings detected within the infrastructure template into dedicated tabs by issue category. Selecting a finding opens the issue side card directly within the resource context 
+
+ Fixes are executed either directly from these dedicated tabs for in-context remediation, or from the main inventory tables for global management: 
+
+ Tab name 
+
+ Scanner type 
+
+ Description and remediation options 
+
+ Configurations 
+
+ IaC 
+
+ Security misconfigurations and policy violations detected in the infrastructure template 
+
+ Fix PR: Click to automatically generate a Pull Request to apply the recommended remediation code directly to the repository 
+
+ Manual fix: Use the presented code snippets to manually update the template in your native VCS environment 
+
+ Secrets 
+
+ Secrets 
+
+ Hardcoded credentials and sensitive tokens detected within the IaC manifest 
+
+ Manual guidance: Secrets issues do not support automated Fix PRs and always require manual remediation using the provided guidance to revoke, rotate, and remove the exposed credentials 
+
+ Execute asset actions 
+
+ After reviewing the resource health, you can perform the following operations depending on your location in the interface: 
+
+ Navigate to repository: Available from either the main table (right-click) or the side panel. Click to open the parent repository side panel, allowing you to investigate the broader codebase context without navigating away from your current view 
+
+ Navigate to provider: Available only from the side panel Actions menu. Click to open the native VCS platform (such as GitHub or GitLab) directly to the specific code where the IaC resource is defined 
+
+ Export: Available from the main table. Click the Export to file icon to generate and download a file containing the filtered inventory data 
+
+ View asset data: Available from either the side panel Actions menu or by right-clicking the resource in the main table. Click View asset data to view raw resource data in JSON (default) or tree view 
+
+ Previous Code and CI/CD assets 
+
+ Next Repository assets 
+
+ Last updated 7 days ago 
+
+ Was this helpful?

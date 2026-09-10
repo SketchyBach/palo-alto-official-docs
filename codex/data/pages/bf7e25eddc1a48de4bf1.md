@@ -1,54 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security
-fetched_at: 2026-08-13T14:00:43Z
+fetched_at: 2026-09-06T11:16:43Z
 source: ai-security
 ---
 
 # Prisma AIRS Clear
 
-Prisma AIRS 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma AIRS Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- AI Model Security 
-
- AI Red Teaming 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Aug 7, 2026 
+ Fri Aug 21 10:55:09 PDT 2026 
 
  Focus 
 
@@ -82,9 +42,19 @@ Prisma AIRS includes features like AI Runtime Firewall , AI Runtime API  ( API 
 
  OpenAI Codex Integration 
 
+ Managing Encryption Keys 
+
  AI Runtime Firewall
 
  AI Discovery with Cortex AISPM 
+
+ Diagnose Multi-Cloud Network Connectivity and Security Policy Issues using Cloud Tracer 
+
+ AI Model Security
+
+ AI Skill Security 
+
+ View Model Security Scan Results in Strata Logging Service 
 
  July 2026 
 
@@ -294,54 +264,4 @@ Prisma AIRS includes features like AI Runtime Firewall , AI Runtime API  ( API 
 
  Detect And Alert On Malicious Traffic 
 
- Prevent Network Security Threats 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- CN-Series 
-
- Firewalls 
-
- VM-Series 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Enterprise DLP 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Prevent Network Security Threats
