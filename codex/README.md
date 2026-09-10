@@ -1,6 +1,6 @@
 # Palo Alto Official Documentation Assistant
 
-Private, verified documentation corpus and retrieval tools for Palo Alto Networks and KOI.
+Public-safe, verified documentation corpus and retrieval tools for Palo Alto Networks and KOI. Private field-support evidence is intentionally excluded.
 
 ## Codex
 

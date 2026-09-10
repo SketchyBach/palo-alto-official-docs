@@ -1,6 +1,21 @@
 # Palo Alto Official Documentation Assistants
 
-This private repository contains two portable versions of the same verified official Palo Alto Networks and KOI documentation corpus:
+This public-safe repository contains two portable versions of the same verified official Palo Alto Networks and KOI documentation corpus.
+
+## New computer quick start
+
+Give Codex or Claude Code this repository URL:
+
+`https://github.com/SketchyBach/palo-alto-official-docs`
+
+Ask it to clone the repository and use the appropriate package as the project root:
+
+- Codex: open `codex/` so it loads `AGENTS.md` and `.codex/skills/`.
+- Claude Code: open `claude-code/` so it loads `CLAUDE.md` and `.claude/skills/`.
+
+Run the package's `scripts/rebuild_index.py` once after cloning. The complete documentation pages, provenance receipts, retrieval tools, and product-specific skills are committed to `main`; only the generated SQLite index is excluded because of GitHub's file-size limit.
+
+The repository contains:
 
 - `codex/` — open this directory in Codex. It uses `AGENTS.md` and `.codex/skills/`.
 - `claude-code/` — open this directory in Claude Code. It uses `CLAUDE.md` and `.claude/skills/`.
