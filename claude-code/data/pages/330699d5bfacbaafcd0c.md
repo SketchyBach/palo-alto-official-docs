@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/public-exposure/appsec-k8s-100
-fetched_at: 2026-09-06T11:13:36Z
+fetched_at: 2026-09-16T09:10:01Z
 source: cortex-platform
 ---
 

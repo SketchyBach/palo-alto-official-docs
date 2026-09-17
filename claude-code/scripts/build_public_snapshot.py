@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ROOT_FILES = ("pa-docs.cmd", "pa-docs.ps1", "requirements.txt", "sources.json")
+ROOT_FILES = ("pa-docs.cmd", "pa-docs.ps1", "requirements.txt", "sources.json", "PRODUCT_COVERAGE.md")
 EXCLUDED_SCRIPTS = {"import_field_emails.py", "inspect_eml.py"}
 DATA_DIRECTORIES = (
     "pages",
@@ -16,6 +16,7 @@ DATA_DIRECTORIES = (
     "koi-browser-imports",
     "idira-browser-imports",
     "url-replacements",
+    "coverage-audits",
 )
 
 
@@ -52,6 +53,8 @@ def main() -> None:
             copy_tree(ROOT / "data" / name, package / "data" / name, counters)
 
     copy_file(ROOT / "AGENTS.md", destination / "codex" / "AGENTS.md", counters)
+    copy_file(ROOT / "CLAUDE.md", destination / "claude-code" / "CLAUDE.md", counters)
+    copy_file(ROOT / "PRODUCT_COVERAGE.md", destination / "PRODUCT_COVERAGE.md", counters)
     copy_tree(ROOT / ".codex" / "skills", destination / "codex" / ".codex" / "skills", counters)
     copy_tree(ROOT / ".codex" / "skills", destination / "claude-code" / ".claude" / "skills", counters)
     print(f"Public snapshot updated: {counters['copied']} copied, {counters['unchanged']} unchanged")

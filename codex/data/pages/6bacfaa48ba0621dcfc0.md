@@ -1,0 +1,211 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/manage-multiple-tenants-in-prisma-access/control-role-based-access-for-tenant-level-administrative-users.html
+fetched_at: 2026-09-16T11:36:36Z
+source: palo-alto-main
+---
+
+# Control Role-Based Access for Tenant-Level Administrative
+Users Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Multi-Tenancy 
+
+ Control Role-Based Access for Tenant-Level Administrative
+Users 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Control Role-Based Access for Tenant-Level Administrative
+Users 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Create a Tenant-Level Administrative User 
+
+ Next 
+
+ Remove Plugin Access for a Tenant-Level Administrative User 
+
+ Control Role-Based Access for Tenant-Level Administrative
+Users 
+
+ Where Can I Use
+This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama) 
+
+ For information about managing multiple tenants in Prisma Access (Managed by Strata Cloud Manager) , see Prisma
+ SASE . 
+
+ Prisma Access 
+ license 
+
+ If you manage a multitenant deployment, you
+can use role-based access control (RBAC) to create tenant-level
+administrative users . 
+
+ To modify RBAC-level access for
+tenant-level administrative users in Panorama, you create a tenant-level
+administrative user , use an Admin Role Profile with
+a Role of Device Group and Template ,
+and Enable , Disable ,
+or give Read Only access to areas of the
+Panorama Web UI . Use this method to manage
+access to all Panorama components for tenant-level users, with the
+exception of access to the Cloud Services plugin where you manage
+ Prisma Access . 
+
+ If you want to restrict a tenant-level user
+from configuring the Prisma Access components in Panorama, you cannot
+use Admin Roles. To disallow users from configuring Prisma Access -specific
+configuration tasks, you must prevent the user from accessing the
+Cloud Services plugin, which also prevents them from viewing it. Using
+this method, you can create an administrative user for a security
+professional who has permissions to make changes to security policies
+and push those changes to Panorama, but cannot view or make any
+changes to Prisma Access configuration. 
+
+ You can either
+enable or disable access to the Cloud Services plugin for a user,
+but you cannot give a user read-only access; if a user has access to
+view the Cloud Services plugin, the user can also make configuration
+changes to its components, including Prisma Access . 
+
+ The
+following table shows sample tenant-level administrative roles and
+the steps you perform to create those roles. 
+
+ Sample Tenant-Level Configuration Configuration Task 
+
+ Create a networking-focused user who: 
+
+ Can
+edit plugin configurations 
+
+ Can commit to Panorama 
+
+ Can push configuration to Prisma Access 
+
+ Create a tenant-level
+administrative user , enabling Save and Commit permissions
+in the Admin Role Profile , and disabling
+or making Read Only any permissions that
+you don’t want the tenant-level administrative user to have. 
+
+ Create a security-focused user who: 
+
+ Can
+view and make changes to security policies 
+
+ Can
+commit to Panorama 
+
+ Cannot view, or make changes to, the Cloud Services plugin 
+
+ Cannot push configuration to Prisma Access (requires the superuser
+to push the configuration) 
+
+ To prevent a tenant-level administrative user
+from viewing or accessing the plugin, remove plugin access for a
+tenant-level administrator. For all other Panorama-related permissions,
+change the Admin Role permissions for the user. 
+
+ Create a hybrid user who: 
+
+ Has read-only access
+to the Cloud Services plugin 
+
+ Has read-write access to the security policy 
+
+ Cannot push the configuration to Prisma Access (requires the
+superuser to push the configuration) 
+
+ This configuration is not possible. You
+cannot make the Cloud Services plugin read-only. You can only provide
+access to admin users to view it and use it to make configuration
+changes, or disallow them from viewing it. 
+
+ Previous 
+
+ Create a Tenant-Level Administrative User 
+
+ Next 
+
+ Remove Plugin Access for a Tenant-Level Administrative User

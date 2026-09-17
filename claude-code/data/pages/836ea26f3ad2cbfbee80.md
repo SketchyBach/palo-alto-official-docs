@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/automations/automation-exclusion-center
-fetched_at: 2026-09-06T09:28:48Z
+fetched_at: 2026-09-16T08:33:58Z
 source: cortex-platform
 ---
 
@@ -57,6 +57,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage automation exclusion policies 
 
- Last updated 13 days ago 
+ Last updated 23 days ago 
 
  Was this helpful?

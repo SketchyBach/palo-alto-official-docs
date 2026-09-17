@@ -1,81 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/best-practices/security-policy-best-practices/security-policy-best-practices/deploy-security-policy-best-practices/security-policy-rulebase-best-practices
-fetched_at: 2026-08-13T15:30:34Z
+fetched_at: 2026-09-15T15:09:06Z
 source: palo-alto-main
 ---
 
 # Security Policy Rulebase Best Practices Clear
 
-Security Policy Rulebase Best Practices 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Security Policy Best Practices 
-
- : 
- Security Policy Rulebase Best Practices 
-
- Updated on 
-
- Apr 4, 2024 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Filter
-
- Expand all | Collapse all 
-
- Security Policy Best Practices 
-
- Plan Security Policy Best Practices 
-
- Deploy Security Policy Best Practices 
-
- Security Policy Rule Best Practices 
-
- Security Policy Rulebase Best Practices 
-
- Policy Optimizer Best Practices 
-
- App-ID Cloud Engine Best Practices 
-
- Policy Recommendation Best Practices 
-
- Maintain Security Policy Best Practices 
-
- Updated on 
-
- Apr 4, 2024 
+ Thu Apr 04 15:55:08 PDT 2024 
 
  Focus 
 
@@ -465,6 +398,4 @@ in the hierarchy so that you don’t have to duplicate rules.
 
  Next 
 
- Policy Optimizer Best Practices 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Policy Optimizer Best Practices

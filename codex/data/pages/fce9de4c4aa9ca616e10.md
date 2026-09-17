@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/release-notes/vulnerability-signatures/vulnerability-signatures-in-2023
-fetched_at: 2026-08-13T16:38:06Z
+fetched_at: 2026-09-15T15:14:46Z
 source: palo-alto-main
 ---
 
 # Vulnerability Signatures in 2023 Clear
 
-Vulnerability Signatures in 2023 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Vulnerability Signatures in 2023 
-
- Updated on 
-
- Jul 28, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Jul 28, 2026 
+ Fri Sep 04 14:28:43 PDT 2026 
 
  Focus 
 
@@ -4792,52 +4736,4 @@ Vulnerability Signatures in 2023
 
  Next 
 
- Plan Your Device Security Deployment Using Best Practices 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Release Notes 
-
- Cloud-Delivered Security Services 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Plan Your Device Security Deployment Using Best Practices

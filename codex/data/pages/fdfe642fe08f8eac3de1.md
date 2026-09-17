@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/cortex-xdr-xql/stages/filter
-fetched_at: 2026-09-06T09:51:15Z
+fetched_at: 2026-09-16T08:44:21Z
 source: cortex-platform
 ---
 
@@ -195,6 +195,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next getrole 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

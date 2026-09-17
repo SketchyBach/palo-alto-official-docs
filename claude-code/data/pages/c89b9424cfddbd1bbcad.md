@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/administration/get-started-with-adem/adem-monitoring-and-tests
-fetched_at: 2026-08-13T15:29:18Z
+fetched_at: 2026-09-15T15:08:44Z
 source: palo-alto-main
 ---
 
 # Monitor Application Experience with Application Tests Clear
 
-Monitor Application Experience with Application Tests 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Monitor Application Experience with Application Tests 
-
- Updated on 
-
- Wed Aug 12 08:13:05 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Aug 12 08:13:05 PDT 2026 
+ Aug 12, 2026 
 
  Focus 
 
@@ -188,60 +132,4 @@ Monitor Application Experience with Application Tests
 
  Next 
 
- Create an Application Test to Monitor Mobile User Experience 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- SASE 
-
- Administration 
-
- Autonomous DEM 
-
- Prisma SASE 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Create an Application Test to Monitor Mobile User Experience

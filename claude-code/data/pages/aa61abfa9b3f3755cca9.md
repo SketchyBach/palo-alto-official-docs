@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam-rn/cortex-xsiam-release-information/compliance-standards-updates/june-2026
-fetched_at: 2026-09-06T10:52:51Z
+fetched_at: 2026-09-16T08:59:25Z
 source: cortex-platform
 ---
 
@@ -109,6 +109,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next April 2026 
 
- Last updated 23 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

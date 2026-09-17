@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/threat-management/threat-intel-management/indicator-configuration/customize-indicator-fields-and-types/create-an-indicator-type/reputation-commands
-fetched_at: 2026-09-06T09:34:11Z
+fetched_at: 2026-09-16T08:36:12Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Map custom indicator fields 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

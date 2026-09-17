@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/graph-search/edit-and-run-queries-in-query-center/query-center-reference-information
-fetched_at: 2026-09-06T10:02:45Z
+fetched_at: 2026-09-16T08:46:41Z
 source: cortex-platform
 ---
 
@@ -149,6 +149,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Supported assets and findings 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

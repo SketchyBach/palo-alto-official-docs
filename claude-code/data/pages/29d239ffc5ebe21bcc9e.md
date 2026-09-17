@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/configure-cortex-xsoar/dashboards-and-reports/widgets/add-a-widget-in-the-war-room
-fetched_at: 2026-09-06T10:28:20Z
+fetched_at: 2026-09-16T08:53:39Z
 source: cortex-platform
 ---
 

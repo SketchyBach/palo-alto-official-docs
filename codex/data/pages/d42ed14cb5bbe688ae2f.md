@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/threat-management/identity-threat-module-itdr
-fetched_at: 2026-09-06T09:54:30Z
+fetched_at: 2026-09-16T08:44:39Z
 source: cortex-platform
 ---
 
@@ -52,6 +52,6 @@ For additional remediation capabilities, see the Idira documentation.
 
  Next Get started with ITDR 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/vm-series/deployment/public-cloud/set-up-the-vm-series-firewall-on-oracle-cloud-infrastructure/oracle-cloud-infrastructure-logging
-fetched_at: 2026-08-13T17:42:19Z
+fetched_at: 2026-09-16T07:52:26Z
 source: palo-alto-main
 ---
 
 # Oracle Cloud Infrastructure Logging Clear
 
-Oracle Cloud Infrastructure Logging 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Oracle Cloud Infrastructure Logging 
-
- Updated on 
-
- Wed Jul 08 11:47:59 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- VM-Series Firewall Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Upgrade 
-
- Deployment 
-
- Select a Document 
-
- Public Cloud 
-
- Private Cloud 
-
- Updated on 
-
- Wed Jul 08 11:47:59 PDT 2026 
+ Mon Aug 10 05:13:13 PDT 2026 
 
  Focus 
 
@@ -312,70 +258,4 @@ set rulebase security rules allow-interzone log-end yes
 
  Next 
 
- Bootstrap the VM-Series Firewall on OCI 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Next-Generation Firewalls 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- VM-Series 
-
- Plugins 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Resources 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- VM-Series 
-
- Administration 
-
- Oracle Cloud Infrastructure 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Bootstrap the VM-Series Firewall on OCI

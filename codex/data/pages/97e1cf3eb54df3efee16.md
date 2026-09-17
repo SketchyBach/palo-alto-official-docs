@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/investigate-and-respond-to-threats/incidents-and-indicators-investigation/investigate-an-incident/incident-tasks
-fetched_at: 2026-09-06T10:31:08Z
+fetched_at: 2026-09-16T08:54:13Z
 source: cortex-platform
 ---
 
@@ -113,6 +113,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Use the War Room in an investigation 
 
- Last updated 3 hours ago 
+ Last updated 9 days ago 
 
  Was this helpful?

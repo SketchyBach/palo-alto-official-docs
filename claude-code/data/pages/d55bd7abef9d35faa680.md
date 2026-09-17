@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x-rn/cortex-xdr-release-information/features-introduced-in-2023-xdr/october-2023/feature-enhancements
-fetched_at: 2026-09-06T10:53:09Z
+fetched_at: 2026-09-16T08:59:53Z
 source: cortex-platform
 ---
 
@@ -171,6 +171,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Changed Features 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

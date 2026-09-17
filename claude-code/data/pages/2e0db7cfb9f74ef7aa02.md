@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/administration/autonomous-dem/types-of-application-experience-monitoring/adem-monitoring-and-tests-for-remote-networks
-fetched_at: 2026-08-13T15:29:07Z
+fetched_at: 2026-09-15T15:08:44Z
 source: palo-alto-main
 ---
 
 # Remote Sites Clear
 
-Remote Sites 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Remote Sites 
-
- Updated on 
-
- Wed Aug 12 08:13:05 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Aug 12 08:13:05 PDT 2026 
+ Aug 12, 2026 
 
  Focus 
 
@@ -170,60 +114,4 @@ below:
 
  When using this path, ADEM monitors SaaS applications directly from the Prisma SD-WAN remote site
  over the internet. This test does not go through the Prisma Access or the
- Secure Fabric path. 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Administration 
-
- Autonomous DEM 
-
- SASE 
-
- Strata Cloud Manager 
-
- Prisma SASE 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Secure Fabric path.

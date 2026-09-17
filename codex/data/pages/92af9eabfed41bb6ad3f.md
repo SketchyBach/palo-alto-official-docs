@@ -1,88 +1,36 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/administration/configure-the-agent/set-up-prisma-access-agent-user-authentication/set-up-ldap-authentication-for-prisma-access-agent/set-up-ldap-authentication-for-prisma-access-agent-scm
-fetched_at: 2026-08-13T17:22:05Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:19Z
+source: strata-and-sase
 ---
 
-# Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
+# Set Up LDAP Authentication for Prisma Agent (Strata Cloud Manager Managed
         Deployments) Clear
 
-Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
- Deployments) 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
- Deployments) 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
+ Thu Aug 27 20:22:38 PDT 2026 
 
  Focus 
 
  Home 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent Administration 
+ Configure the Prisma Agent 
 
- Configure the Prisma Access Agent 
+ Set Up Prisma Agent User Authentication 
 
- Set Up Prisma Access Agent User Authentication 
+ Set Up LDAP Authentication for Prisma Agent 
 
- Set Up LDAP Authentication for Prisma Access Agent 
-
- Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
+ Set Up LDAP Authentication for Prisma Agent (Strata Cloud Manager Managed
  Deployments) 
 
  Download PDF 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
+ Set Up LDAP Authentication for Prisma Agent (Strata Cloud Manager Managed
  Deployments) 
 
  Table of Contents 
@@ -93,7 +41,7 @@ Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
  | 
  Collapse All 
 
- Prisma Access Agent Docs 
+ Prisma Agent Docs 
 
  Administration 
 
@@ -103,14 +51,14 @@ Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
 
  New Features 
 
- Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
+ Set Up LDAP Authentication for Prisma Agent (Strata Cloud Manager Managed
  Deployments) 
 
- Configure LDAP/LDAPS authentication for Prisma Access Agent to enable seamless
+ Configure LDAP/LDAPS authentication for Prisma Agent to enable seamless
  authentication using existing directory services and GlobalProtect Portal
  infrastructure. 
 
- ( Prisma Access Agent 25.3.0.43 ) Before you begin, ensure that you're using a
+ ( Prisma Agent 25.3.0.43 ) Before you begin, ensure that you're using a
  Prisma Access tenant with GlobalProtect configured. If you already configured
  GlobalProtect to use LDAP authentication, you can skip steps 1 -
  3 . 
@@ -219,7 +167,7 @@ Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
 
  Save your user authentication settings and push the configuration . 
 
- Configure Prisma Access Agent to use the GlobalProtect Portal for
+ Configure Prisma Agent to use the GlobalProtect Portal for
  authentication. 
 
  Select Configuration NGFW and Prisma Access Configuration Scope Access Agent Setup Prisma Access Agent . 
@@ -233,13 +181,13 @@ Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
  authentication will be handled by the GlobalProtect Portal. 
 
  Ensure that the certificate used to encrypt and decrypt the
- authentication override cookie is the same across the Prisma Access Agent global app
+ authentication override cookie is the same across the Prisma Agent global app
  settings , GlobalProtect Portal, and GlobalProtect
  gateway. 
 
  Save your user authentication settings. 
 
- Enable the Save user credentials option in the Prisma Access Agent settings to provide seamless authentication across device states
+ Enable the Save user credentials option in the Prisma Agent settings to provide seamless authentication across device states
  like sleep-wake cycles, network changes, and system restarts without repeatedly
  prompting the user for credentials. 
 
@@ -253,7 +201,7 @@ Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
 
  Save your user authentication settings. 
 
- Push the Prisma Access Agent Configuration . 
+ Push the Prisma Agent Configuration . 
 
  Configure the GlobalProtect app settings to generate the cookie for
  authentication override. 
@@ -269,7 +217,7 @@ Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
 
  Don’t select any options in
  the Match Criteria section, such as selecting
- a Certificate Profile , as Prisma Access Agent 
+ a Certificate Profile , as Prisma Agent 
  does not currently support GlobalProtect Portal requests that
  involve configuration criteria. 
 
@@ -290,13 +238,13 @@ Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
 
  Save your settings. 
 
- Push the Prisma Access Agent Configuration . 
+ Push the Prisma Agent Configuration . 
 
  Verify the configuration. 
 
- Test authentication from a client device running Prisma Access Agent . 
+ Test authentication from a client device running Prisma Agent . 
 
- With this configuration, Prisma Access Agent will use the
+ With this configuration, Prisma Agent will use the
  GlobalProtect Portal for LDAP authentication instead of the Cloud
  Identity Engine (CIE). When a user attempts to connect, the agent
  will prompt for credentials if needed, authenticate with the LDAP
@@ -304,12 +252,12 @@ Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
  authentication, receive a session token to secure internet and
  private application traffic. 
 
- When the user clicks Connect on the Prisma Access Agent app, the agent will prompt them to enter their
+ When the user clicks Connect on the Prisma Agent app, the agent will prompt them to enter their
  credentials: 
 
  If the user already entered their LDAP credentials on macOS or the
  Windows login screen, the agent won’t prompt them to enter their
- credentials again in the Prisma Access Agent app (provided that the
+ credentials again in the Prisma Agent app (provided that the
  credentials are already saved). 
 
  Run the pacli epm status command. The
@@ -317,90 +265,4 @@ Set Up LDAP Authentication for Prisma Access Agent (Strata Cloud Manager Managed
  LDAP . 
 
  Check the logs in the Log Viewer for successful authentication
- events. 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Administration 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ events.

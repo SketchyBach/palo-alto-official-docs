@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/threat-management/threat-intel-management/indicator-configuration/indicator-classification-and-mapping
-fetched_at: 2026-09-06T09:34:14Z
+fetched_at: 2026-09-16T08:36:18Z
 source: cortex-platform
 ---
 
@@ -177,6 +177,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Indicator extraction 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/rare-ms-update-server-was-detected
-fetched_at: 2026-09-06T11:06:52Z
+fetched_at: 2026-09-16T09:08:03Z
 source: cortex-platform
 ---
 

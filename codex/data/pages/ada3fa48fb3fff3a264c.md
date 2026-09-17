@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/playbooks/filters-and-transformers/filter-operators/transformers-operators
-fetched_at: 2026-09-06T10:41:38Z
+fetched_at: 2026-09-16T08:56:19Z
 source: cortex-platform
 ---
 
@@ -359,6 +359,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create Custom Filter and Transformer Operators 
 
- Last updated 4 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

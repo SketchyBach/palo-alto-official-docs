@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/configure-cortex-xsoar/users-and-roles-management/user-group-management
-fetched_at: 2026-09-06T11:24:52Z
+fetched_at: 2026-09-16T09:14:11Z
 source: cortex-platform
 ---
 
@@ -107,6 +107,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up authentication 
 
- Last updated 4 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

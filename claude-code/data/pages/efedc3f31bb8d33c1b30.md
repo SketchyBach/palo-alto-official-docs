@@ -1,62 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/security-profiles/set-up-or-override-a-default-security-profile-group
-fetched_at: 2026-08-13T17:09:59Z
+fetched_at: 2026-09-16T07:39:28Z
 source: palo-alto-main
 ---
 
 # Set Up or Override a Default Security Profile Group Clear
 
-Set Up or Override a Default Security Profile Group 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Set Up or Override a Default Security Profile Group 
-
- Updated on 
-
- Mon Aug 11 16:31:23 PDT 2025 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- 한국어 (Korean) 
-
- Filter
-
- Updated on 
-
- Mon Aug 11 16:31:23 PDT 2025 
+ Aug 11, 2025 
 
  Focus 
 
@@ -187,22 +139,4 @@ Profile Type for your policy ( Policies Security Security Policy Rule Actions ).
 
  Next 
 
- Data Filtering 
-
- On This Page 
-
- PAN-OS 
-
- Next-Generation Firewall 
-
- Policy 
-
- 11.1 
-
- Network Security 
-
- 11.1 & Later 
-
- Administration 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Data Filtering

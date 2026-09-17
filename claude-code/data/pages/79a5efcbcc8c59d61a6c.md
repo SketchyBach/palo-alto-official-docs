@@ -1,84 +1,32 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/administration/troubleshoot-prisma-access-agents/resolve-problems-by-running-commands-in-a-remote-shell
-fetched_at: 2026-08-13T17:22:29Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:25Z
+source: strata-and-sase
 ---
 
-# Resolve Prisma Access Agent Problems by Running Commands in a Remote
+# Resolve Prisma Agent Problems by Running Commands in a Remote
         Shell Clear
 
-Resolve Prisma Access Agent Problems by Running Commands in a Remote
- Shell 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Resolve Prisma Access Agent Problems by Running Commands in a Remote
- Shell 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
+ Thu Aug 27 20:22:38 PDT 2026 
 
  Focus 
 
  Home 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent Administration 
+ Troubleshoot Prisma Agents 
 
- Troubleshoot Prisma Access Agents 
-
- Resolve Prisma Access Agent Problems by Running Commands in a Remote
+ Resolve Prisma Agent Problems by Running Commands in a Remote
  Shell 
 
  Download PDF 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Resolve Prisma Access Agent Problems by Running Commands in a Remote
+ Resolve Prisma Agent Problems by Running Commands in a Remote
  Shell 
 
  Table of Contents 
@@ -89,7 +37,7 @@ Resolve Prisma Access Agent Problems by Running Commands in a Remote
  | 
  Collapse All 
 
- Prisma Access Agent Docs 
+ Prisma Agent Docs 
 
  Administration 
 
@@ -101,16 +49,16 @@ Resolve Prisma Access Agent Problems by Running Commands in a Remote
 
  Previous 
 
- Logs Collected by Prisma Access Agent 
+ Logs Collected by Prisma Agent 
 
  Next 
 
- Prisma Access Agent Commands (PACli) 
+ Prisma Agent Commands (PACli) 
 
- Resolve Prisma Access Agent Problems by Running Commands in a Remote
+ Resolve Prisma Agent Problems by Running Commands in a Remote
  Shell 
 
- Learn how to troubleshoot Prisma Access Agent problems by running commands in a
+ Learn how to troubleshoot Prisma Agent problems by running commands in a
  remote shell. 
 
  Where Can I Use This? What Do I Need? 
@@ -124,13 +72,11 @@ Resolve Prisma Access Agent Problems by Running Commands in a Remote
  Check the prerequisites for the deployment you're
  using 
 
- macOS 14 and later or Windows 10 version 2024 and later
- desktop devices 
+ macOS or Windows endpoints 
 
- Contact your Palo Alto Networks account representative to
- activate the Prisma Access Agent feature 
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
 
- To investigate and resolve Prisma Access Agent issues effectively on desktop
+ To investigate and resolve Prisma Agent issues effectively on desktop
  agents, such as an end user's inability to access corporate resources, you’ll likely
  need to physically access the end user's device to collect relevant data, diagnose
  the issue, and fix the issue. However, in today's remote-first work environment,
@@ -139,7 +85,7 @@ Resolve Prisma Access Agent Problems by Running Commands in a Remote
 
  Using the Endpoint Management
  page ( Configuration Endpoint Management ), you can: 
- Conveniently access any end user's device that is running the Prisma Access Agent remotely by starting a terminal session (remote
+ Conveniently access any end user's device that is running the Prisma Agent remotely by starting a terminal session (remote
  shell) on the device, provided that you have permission from the end
  user. 
 
@@ -184,7 +130,7 @@ Resolve Prisma Access Agent Problems by Running Commands in a Remote
 
  Run any shell commands that are needed to diagnose or resolve an issue. 
 
- For example, you can run Prisma Access Agent Commands (PACli) in the remote
+ For example, you can run Prisma Agent Commands (PACli) in the remote
  shell. 
 
  When you have finished with your remote session,
@@ -197,7 +143,7 @@ Resolve Prisma Access Agent Problems by Running Commands in a Remote
  This action exports all the terminal session activity to a log file,
  including any commands that were run and the command output. Any action,
  from the initiation of the shell to the types of commands, is logged in the
- appropriate Prisma Access Agent log or management log, along with the
+ appropriate Prisma Agent log or management log, along with the
  timestamp and administrator identity. 
 
  The log file in .txt format is saved to the download
@@ -205,94 +151,8 @@ Resolve Prisma Access Agent Problems by Running Commands in a Remote
 
  Previous 
 
- Logs Collected by Prisma Access Agent 
+ Logs Collected by Prisma Agent 
 
  Next 
 
- Prisma Access Agent Commands (PACli) 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Administration 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Prisma Agent Commands (PACli)

@@ -1,0 +1,133 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/enterprise-dlp/administration/configure-enterprise-dlp/inspection-of-contextual-secrets-for-chat-applications/contextual-chat-examples.html
+fetched_at: 2026-09-16T13:01:43Z
+source: palo-alto-main
+---
+
+# Contextual Chat Examples Clear
+
+Updated on 
+
+ Thu Sep 10 12:41:05 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Enterprise DLP 
+
+ Administration 
+
+ Configure Enterprise DLP 
+
+ Inspection of Contextual Secrets for Chat Applications 
+
+ Contextual Chat Examples 
+
+ Download PDF 
+
+ Enterprise DLP 
+
+ Contextual Chat Examples 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Enterprise DLP Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features by OS Version 
+
+ New Features by Month 
+
+ Previous 
+
+ About Inspection of Contextual Secrets 
+
+ Next 
+
+ Configure SaaS Security to Inspect for Contextual Secrets 
+
+ Contextual Chat Examples 
+
+ Contextual chat examples that trigger Enterprise Data Loss Prevention (E-DLP) inspection for
+ passwords. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Panorama or Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama or Strata Cloud Manager) 
+
+ Prisma Browser 
+
+ Enterprise Data Loss Prevention (E-DLP) license 
+
+ Review the Supported
+ Platforms for details on the required license
+ for each enforcement point. 
+
+ Or any of the following licenses that include the Enterprise DLP license 
+
+ Prisma Access CASB license 
+
+ Next-Generation
+CASB for Prisma Access and NGFW (CASB-X) license 
+
+ Data Security license 
+
+ The table below shows various examples of combinations of contextual statements formats
+ that would trigger inspection Enterprise Data Loss Prevention (E-DLP) , as well as examples of passwords
+ with varying complexity that would be blocked by Enterprise DLP . 
+
+ Contextual Statement 
+
+ Response 
+
+ @< user > what is the password for the
+ database? 
+
+ password is password123 
+
+ Can you please share Virus DB credentials with Alex? 
+
+ Alex, username is your email address and passwd is pA$$w0rd!23 
+
+ what were the credentials for the Google Cloud accounts? 
+
+ username - <user> and passwd - gQxHD4&% 
+
+ Please share the credntial 
+
+ uname: abc123 and passwd: pA$$w0rd!23 
+
+ Please share the password 
+
+ ComPl3xP@$$w0rd@x1y2z 
+
+ @< user > what is the passwrd for the
+ database? 
+
+ password - password123 
+
+ Previous 
+
+ About Inspection of Contextual Secrets 
+
+ Next 
+
+ Configure SaaS Security to Inspect for Contextual Secrets

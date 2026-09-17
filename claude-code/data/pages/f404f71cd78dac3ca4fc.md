@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xdr-agent-release-notes/9.1/cortex-xdr-agent-release-information/addressed-issues
-fetched_at: 2026-09-06T10:53:17Z
+fetched_at: 2026-09-16T09:00:26Z
 source: cortex-platform
 ---
 
@@ -29,6 +29,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Addressed issues in Cortex XDR agent 9.1.1 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

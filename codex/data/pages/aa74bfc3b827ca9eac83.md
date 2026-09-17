@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cortex-cloud-identity-security/cortex-cloud-identity-security-functionality
-fetched_at: 2026-09-06T09:35:14Z
+fetched_at: 2026-09-16T08:36:40Z
 source: cortex-platform
 ---
 
@@ -173,6 +173,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure Cloud Identity Security 
 
- Last updated 12 days ago 
+ Last updated 22 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x-rn/release-information/features-introduced-in-2025-xdr-4x/april-2025/feature-enhancements
-fetched_at: 2026-09-06T10:52:55Z
+fetched_at: 2026-09-16T08:59:26Z
 source: cortex-platform
 ---
 
@@ -143,6 +143,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Changed Features 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

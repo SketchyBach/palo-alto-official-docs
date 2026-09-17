@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.6/configure-cortex-xsoar/lists/what-is-a-list
-fetched_at: 2026-09-06T11:23:04Z
+fetched_at: 2026-09-16T09:13:45Z
 source: cortex-platform
 ---
 
@@ -51,6 +51,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create a list 
 
- Last updated 9 days ago 
+ Last updated 18 days ago 
 
  Was this helpful?

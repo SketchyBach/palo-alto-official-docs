@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/data-management/broker-vm/broker-vm-high-availability-cluster/manage-broker-vm-clusters
-fetched_at: 2026-09-06T09:39:25Z
+fetched_at: 2026-09-16T08:38:16Z
 source: cortex-platform
 ---
 

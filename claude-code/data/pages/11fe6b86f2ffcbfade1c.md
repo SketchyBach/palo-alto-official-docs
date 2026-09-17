@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/cloud-service-provider-csp-onboarding/pending-cloud-instances
-fetched_at: 2026-09-06T09:27:19Z
+fetched_at: 2026-09-16T08:26:19Z
 source: cortex-platform
 ---
 
@@ -63,6 +63,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Edit your onboarded CSP configuration 
 
- Last updated 2 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

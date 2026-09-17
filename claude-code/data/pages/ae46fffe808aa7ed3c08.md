@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xpanse/users-and-roles/manage-roles/predefined-user-roles
-fetched_at: 2026-09-06T10:52:22Z
+fetched_at: 2026-09-16T08:59:14Z
 source: cortex-platform
 ---
 

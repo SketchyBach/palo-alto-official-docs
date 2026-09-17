@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/ci-cd-security/data-protection/appsec-cicd-19
-fetched_at: 2026-09-06T11:14:33Z
+fetched_at: 2026-09-16T09:10:50Z
 source: cortex-platform
 ---
 

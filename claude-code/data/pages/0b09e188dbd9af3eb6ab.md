@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/code-to-cloud/code-to-cloud/references
-fetched_at: 2026-09-06T09:57:32Z
+fetched_at: 2026-09-16T08:45:12Z
 source: cortex-platform
 ---
 
@@ -29,6 +29,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Reference A: Supported integrations and asset stages 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

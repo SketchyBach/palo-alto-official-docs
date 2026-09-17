@@ -1,0 +1,166 @@
+---
+url: https://docs.paloaltonetworks.com/iot/integration/network-management/integrate-iot-security-with-cisco-prime.html
+fetched_at: 2026-09-16T11:15:08Z
+source: palo-alto-main
+---
+
+# Integrate Device Security with Cisco Prime Clear
+
+Updated on 
+
+ Aug 17, 2026 
+
+ Focus 
+
+ Home 
+
+ Device Security 
+
+ Device Security Integration Guide 
+
+ Network Management 
+
+ Integrate Device Security with Cisco Prime 
+
+ Download PDF 
+
+ Device Security 
+
+ Integrate Device Security with Cisco Prime 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Device Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Enterprise Administration 
+
+ Integrations 
+
+ Release Notes 
+
+ Best Practice 
+
+ New Features 
+
+ Previous 
+
+ Set up Device Security and XSOAR for Cisco Meraki Cloud 
+
+ Next 
+
+ Set up Cisco Prime to Accept Connections from Device Security 
+
+ Integrate Device Security with Cisco Prime 
+
+ Import select device details into Device Security from Cisco
+Prime Infrastructure. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Device Security (Managed by Strata Cloud Manager) 
+
+ (Legacy) IoT Security (Standalone portal) 
+
+ One of the following subscriptions: 
+
+ Device Security subscription
+
+ Precision AI bundle subscription
+
+ Device Security X subscription
+
+ One of the following Cortex XSOAR setups:
+
+ A free, cohosted, limited-featured
+ Cortex XSOAR instance
+
+ AND 
+
+ A free Cortex XSOAR Engine (on-premises integration)
+
+ A full-featured Cortex XSOAR server
+
+ By integrating through Cortex XSOAR with Cisco
+Prime Infrastructure, Device Security imports select information about
+the devices (or endpoints ) it’s monitoring from Cisco Prime.
+A specified on-premises Cortex XSOAR engine fetches the following information
+from Cisco Prime and then sends it through the Cortex XSOAR cloud
+to Device Security to incorporate into the data it has already gathered
+from network traffic and behavior analysis: 
+
+ Connection
+type—wired or wireless 
+
+ If it’s a wired device: 
+
+ Name
+and IP address of the switch with which the device is connected 
+
+ Ethernet port on the switch to which the device is connected 
+
+ If
+it’s a wireless device: 
+
+ Name and IP address of the AP (access point) serving the wireless device 
+
+ SSID through which the device connects to the network 
+
+ ID of the VLAN to which the device is assigned 
+
+ With
+this information, Device Security can provide more granular endpoint
+reports and better detection of misconfigurations and anomalies.
+For example, the following illustrations show information that IoT
+Security learned from Cisco Prime Infrastructure about a PACS station
+named GRADLT900: 
+
+ Connection type: wireless 
+
+ The hostname and IP address of the switch that’s cabled to
+the AP serving GRADLT900 
+
+ The Ethernet port number on the switch to which the AP is cabled 
+
+ The VLAN to which the PACS station is assigned 
+
+ IoT
+Security can integrate with multiple Cisco Prime instances at one
+site or multiple sites, which is sometimes necessary for large deployments
+where a single Prime instance is not enough. In these cases, one
+or more Cortex XSOAR engines integrate with one or more of the Prime instances. 
+
+ Make
+sure each Cortex XSOAR engine can form a network connection on TCP port
+443 to the Prime instance with which it’s coupled. Then follow the
+ instructions below to set up the integration between the two. 
+
+ For a full list of attributes that Device Security can learn through the
+ integration, see
+ Cisco Prime Attribute Reference .
+
+ Integrating with Cisco Prime requires either a
+ full-featured Cortex XSOAR™ server 
+ or the
+ activation of a Device Security 
+ free
+ cohosted Cortex XSOAR instance .
+
+ Previous 
+
+ Set up Device Security and XSOAR for Cisco Meraki Cloud 
+
+ Next 
+
+ Set up Cisco Prime to Accept Connections from Device Security

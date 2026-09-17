@@ -1,0 +1,89 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/advanced-url-filtering.html
+fetched_at: 2026-09-16T13:42:58Z
+source: palo-alto-main
+---
+
+# Advanced URL Filtering Clear
+
+Updated on 
+
+ Nov 4, 2025 
+
+ Focus 
+
+ Home 
+
+ Advanced URL Filtering 
+
+ Advanced URL Filtering 
+
+ Advanced URL Filtering is our comprehensive URL filtering solution that protects your network and users from web-based threats. Combining the capabilities of PAN-DB with a web security engine powered by machine learning, Advanced URL Filtering categorizes and blocks malicious URLs in real-time. With an Advanced URL Filtering license (or legacy URL filtering license), you can restrict access to websites and control user interactions with web content. For example, you can prevent users from accessing websites known to host malware or entering corporate credentials into websites in specific categories.  
+
+ For a high-level summary of how Advanced URL Filtering provides best-in-class web protection for the modern enterprise, review the  Advanced URL Filtering datasheet . 
+
+ Advanced URL Filtering is available on PAN-OS next-generation firewalls, Prisma Access (Cloud Managed), Cloud NGFW for AWS, and Cloud NGFW for Azure.  
+
+ What's New 
+
+ The  Advanced URL Filtering  subscription provides a new, cloud-based ML-powered web security engine that protects you against advanced web-based attacks by performing web traffic inspection in real-time. Prevent known and unknown advanced, file-less web-based attacks including targeted phishing, web-delivered malware and exploits, command-and-control, social engineering, and other types of web attacks. 
+
+ With  URL Filtering inline ML , you can now prevent JavaScript exploits and phishing attacks found in webpages from entering your network in real-time with the power of machine learning. 
+
+ Available with PAN-OS 10.0 and later, and Prisma Access. 
+
+ Looking for more? 
+
+ Here are the URL Filtering features in the latest PAN-OS release. 
+
+ Get Started 
+
+ Activate URL Filtering License 
+
+ Plan Your URL Filtering Deployment 
+
+ Configure a URL Filtering Profile 
+
+ Create Exceptions to URL Category Enforcement 
+
+ Monitor Web Activity 
+
+ Important Resources 
+
+ Advanced URL Filtering Datasheet 
+
+ Test A Site 
+
+ URL Filtering Best Practices 
+
+ Cheat Sheet: URL Filtering on Prisma Access Cloud Management 
+
+ Videos 
+
+ Advanced URL Filtering 
+
+ Protect Against Phishing and Malicious Sites 
+
+ Stop Credential Based Attacks 
+
+ Translated Documents
+
+ 日本語 (Japanese)
+
+ 高度なURLフィルタリングの管理
+
+ 中文 (Chinese Simplified)
+
+ 高级 URL 过滤管理
+
+ 繁體中文 (Chinese Traditional)
+
+ 進階 URL 篩選管理
+
+ Español (Spanish)
+
+ Administración de Advanced URL Filtering
+
+ Français (French)
+
+ Administration du filtrage des URL avancé

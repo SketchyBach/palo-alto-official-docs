@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/administration/detect-iot-device-vulnerabilities/virtual-patching-overview
-fetched_at: 2026-08-13T16:36:16Z
+fetched_at: 2026-09-15T15:14:37Z
 source: palo-alto-main
 ---
 
 # Virtual Patching with Device Security Clear
 
-Virtual Patching with Device Security 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Virtual Patching with Device Security 
-
- Updated on 
-
- Jul 30, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Jul 30, 2026 
+ Aug 6, 2026 
 
  Focus 
 
@@ -230,52 +174,4 @@ Virtual Patching with Device Security
 
  Next 
 
- Apply a Virtual Patch to Risky Assets 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Administration 
-
- Cloud-Delivered Security Services 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Apply a Virtual Patch to Risky Assets

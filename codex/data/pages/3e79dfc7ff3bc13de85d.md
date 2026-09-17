@@ -1,85 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/10-2/user-id-agent-release-notes/user-id-agent-10-2-release-information/system-requirements
-fetched_at: 2026-08-13T17:07:45Z
+fetched_at: 2026-09-16T07:38:08Z
 source: palo-alto-main
 ---
 
 # System Requirements Clear
 
-System Requirements 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- User-ID™ Agent Release Notes 
-
- : 
- System Requirements 
-
- Updated on 
-
- May 3, 2024 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Version 
-
- 10.2 
-
- 11.0 & Later 
-
- 10.2 
-
- 10.1 (EoL) 
-
- 10.0 (EoL) 
-
- 9.1 (EoL) 
-
- Expand all | Collapse all 
-
- User-ID Agent 10.2 Release Information 
-
- Features Introduced in User-ID Agent 10.2 
-
- Changes to Default Behavior 
-
- System Requirements 
-
- Operating System (OS) Compatibility 
-
- Known Issues 
-
- User-ID Agent 10.2 Addressed Issues 
-
- Getting Help 
-
- Related Documentation 
-
- Requesting Support 
-
- Updated on 
-
- May 3, 2024 
+ Fri May 03 14:47:18 PDT 2024 
 
  Focus 
 
@@ -159,6 +88,4 @@ agent 10.2 release has the following minimum requirements:
 
  Next 
 
- Operating System (OS) Compatibility 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Operating System (OS) Compatibility

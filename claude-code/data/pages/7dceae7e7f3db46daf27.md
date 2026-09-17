@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/vunerability-management
-fetched_at: 2026-09-06T11:18:23Z
+fetched_at: 2026-09-16T09:12:36Z
 source: cortex-platform
 ---
 
@@ -39,6 +39,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex Cloud vulnerability concepts 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

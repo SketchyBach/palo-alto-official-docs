@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/administration/detect-iot-device-vulnerabilities/iot-risk-assessment
-fetched_at: 2026-08-13T16:36:17Z
+fetched_at: 2026-09-15T15:14:37Z
 source: palo-alto-main
 ---
 
 # Risk Assessment Clear
 
-Risk Assessment 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Risk Assessment 
-
- Updated on 
-
- Thu Jul 30 16:42:12 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu Jul 30 16:42:12 PDT 2026 
+ Thu Aug 06 11:38:46 PDT 2026 
 
  Focus 
 
@@ -338,52 +282,4 @@ decreased CVSS scores or mitigated risks.
 
  Next 
 
- Customize Risk Scores 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Administration 
-
- Cloud-Delivered Security Services 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Customize Risk Scores

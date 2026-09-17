@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/investigate-and-respond-to-threats/incidents-and-indicators-investigation/incident-management/export-incidents
-fetched_at: 2026-09-06T10:28:23Z
+fetched_at: 2026-09-16T08:53:46Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Export incidents from the Incidents table 
 
- Last updated 6 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

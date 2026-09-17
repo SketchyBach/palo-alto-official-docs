@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/data-ingestion/external-data-ingestion/additional-log-ingestion-methods/ingest-csv-files-as-datasets
-fetched_at: 2026-09-06T09:50:39Z
+fetched_at: 2026-09-16T08:44:17Z
 source: cortex-platform
 ---
 

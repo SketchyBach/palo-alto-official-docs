@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/onboard-cortex-xsiam/post-deployment/data-and-log-forwarding/forward-logs-and-data-from-cortex-xsiam-to-external-services/set-up-email-notifications-for-tenant-updates
-fetched_at: 2026-09-06T09:19:55Z
+fetched_at: 2026-09-16T07:55:57Z
 source: cortex-platform
 ---
 
@@ -225,6 +225,6 @@ Writing a custom subject that includes your tenant name and the event type (for 
 
  Next Monitor administrative activity 
 
- Last updated 2 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

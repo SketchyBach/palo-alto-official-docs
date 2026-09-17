@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security-posture-management-aspm/unified-application-security-policies/references/reference-h-action-availability-by-trigger
-fetched_at: 2026-09-06T10:12:16Z
+fetched_at: 2026-09-16T08:49:13Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/multi-tenant/child-tenant-management/content-management-in-multi-tenant/add-propagation-labels-to-content
-fetched_at: 2026-09-06T10:26:16Z
+fetched_at: 2026-09-16T08:53:18Z
 source: cortex-platform
 ---
 

@@ -1,74 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/cloud-ngfw-aws/administration/firewall-as-code/cloud-formation-registry
-fetched_at: 2026-08-13T15:30:38Z
+fetched_at: 2026-09-15T15:09:08Z
 source: palo-alto-main
 ---
 
 # Provision Cloud NGFW Resources to Your AWS CFT Clear
 
-Provision Cloud NGFW Resources to Your AWS CFT 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Provision Cloud NGFW Resources to Your AWS CFT 
-
- Updated on 
-
- May 19, 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- Français (French) 
-
- Deutsch (German) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Cloud NGFW for AWS Docs 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- May 19, 2026 
+ Aug 19, 2026 
 
  Focus 
 
@@ -1618,78 +1558,4 @@ AmazonAPIGatewayInvokeFullAccess
 
  Next 
 
- Cross-Account Role CFT Permissions for Cloud NGFW 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Cloud NGFW for AWS 
-
- Administration 
-
- AWS 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Cross-Account Role CFT Permissions for Cloud NGFW

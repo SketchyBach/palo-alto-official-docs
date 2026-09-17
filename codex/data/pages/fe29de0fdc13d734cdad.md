@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/9.1/cortex-xdr-agent-for-windows/install-the-cortex-xdr-agent-for-windows
-fetched_at: 2026-09-06T10:20:16Z
+fetched_at: 2026-09-16T08:51:34Z
 source: cortex-platform
 ---
 

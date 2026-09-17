@@ -1,69 +1,13 @@
 ---
 url: https://docs.paloaltonetworks.com/vm-series/deployment/private-cloud/set-up-the-vm-series-firewall-on-openstack/install-the-vm-series-firewall-in-openstack
-fetched_at: 2026-08-13T17:41:42Z
+fetched_at: 2026-09-16T07:52:17Z
 source: palo-alto-main
 ---
 
 # Install the VM-Series Firewall in a
 Basic Gateway Deployment Clear
 
-Install the VM-Series Firewall in a
-Basic Gateway Deployment 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Install the VM-Series Firewall in a
-Basic Gateway Deployment 
-
- Updated on 
-
- Jun 19, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- VM-Series Firewall Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Upgrade 
-
- Deployment 
-
- Select a Document 
-
- Public Cloud 
-
- Private Cloud 
-
- Updated on 
+Updated on 
 
  Jun 19, 2026 
 
@@ -314,68 +258,4 @@ view the SSH session.
 
  Next 
 
- Install the VM-Series Firewall with Service Chaining or Scaling 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Next-Generation Firewalls 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- VM-Series 
-
- Plugins 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Resources 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- VM-Series 
-
- Deployment 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Install the VM-Series Firewall with Service Chaining or Scaling

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/reference-docs/reference/server-configurations/playbook-server-configurations
-fetched_at: 2026-09-06T10:49:33Z
+fetched_at: 2026-09-16T08:57:50Z
 source: cortex-platform
 ---
 
@@ -137,6 +137,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Proxy Server Configurations 
 
- Last updated 3 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

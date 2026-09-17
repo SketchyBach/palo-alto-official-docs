@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/learn-about-cortex-xdr-5.x
-fetched_at: 2026-09-06T11:18:11Z
+fetched_at: 2026-09-16T09:12:26Z
 source: cortex-platform
 ---
 
@@ -165,6 +165,6 @@ Follow the Broker VM migration path.
 
  Next What is Cortex XDR ? 
 
- Last updated 11 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

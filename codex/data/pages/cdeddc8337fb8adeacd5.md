@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/vendor-specific-data-sources/mail-utilities/mail-utilities
-fetched_at: 2026-09-06T09:40:22Z
+fetched_at: 2026-09-16T08:41:34Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Microsoft 
 
- Last updated 25 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

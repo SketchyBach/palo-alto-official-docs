@@ -1,62 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/monitoring/use-syslog-for-monitoring/system-log-reference/medium-system-log-messages
-fetched_at: 2026-08-13T17:09:38Z
+fetched_at: 2026-09-16T07:39:20Z
 source: palo-alto-main
 ---
 
 # Medium System Log Messages Clear
 
-Medium System Log Messages 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Medium System Log Messages 
-
- Updated on 
-
- Aug 11, 2025 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- 한국어 (Korean) 
-
- Filter
-
- Updated on 
-
- Aug 11, 2025 
+ Mon Aug 11 16:31:23 PDT 2025 
 
  Focus 
 
@@ -513,20 +465,4 @@ Serial-Count:<num>)
 
  Next 
 
- High System Log Messages 
-
- On This Page 
-
- 11.1 
-
- Network Security 
-
- 11.1 & Later 
-
- PAN-OS 
-
- Next-Generation Firewall 
-
- Administration 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ High System Log Messages

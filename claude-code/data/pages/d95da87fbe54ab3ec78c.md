@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/graph-search/create-graph-search-query
-fetched_at: 2026-09-06T10:02:44Z
+fetched_at: 2026-09-16T08:46:33Z
 source: cortex-platform
 ---
 

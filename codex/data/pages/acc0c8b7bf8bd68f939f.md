@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.13/learn-about-multi-tenant/readme-1
-fetched_at: 2026-09-06T10:50:08Z
+fetched_at: 2026-09-16T08:58:08Z
 source: cortex-platform
 ---
 
@@ -21,7 +21,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Learn about Multi-Tenant 
 
- XSOAR 6.13 Multi-Tenant 
+ Cortex XSOAR 6.13 Multi-Tenant 
 
  Multi-Tenant Deployments 
 
@@ -33,6 +33,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Multi-Tenant Overview 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

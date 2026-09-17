@@ -1,0 +1,176 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/administration/manage-prisma-agents/endpoint-insights/configure-endpoint-insights
+fetched_at: 2026-09-16T08:21:21Z
+source: palo-alto-main
+---
+
+# Configure Prisma Agent to Collect Endpoint Insights Clear
+
+Updated on 
+
+ Aug 27, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Manage Prisma Agents 
+
+ Endpoint Insights for Prisma Agent 
+
+ Configure Prisma Agent to Collect Endpoint Insights 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ Configure Prisma Agent to Collect Endpoint Insights 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Endpoint Insights for Prisma Agent 
+
+ Next 
+
+ Endpoint Insights Collected by Prisma Agent 
+
+ Configure Prisma Agent to Collect Endpoint Insights 
+
+ Configure
+ Prisma Agent to collect endpoint insights data, including periodic , event-triggered, and on-demand
+ diagnostics, for enhanced troubleshooting. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ NGFW (Managed by Panorama) 
+
+ Check the prerequisites for the deployment you're using 
+
+ Minimum
+ required Prisma Agent version: 25.4 
+
+ macOS 14 and later or Windows 10 version 2024 and later desktop
+ devices 
+
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
+
+ To provide visibility into your Prisma Agent deployments by collecting
+ comprehensive troubleshooting data on endpoints, you configure the agent to collect
+ endpoint insights. This
+ configuration enables event-triggered, periodic, and on-demand diagnostic data
+ collection. 
+
+ Navigate to the Prisma Agent setup page. 
+
+ For Strata Cloud Manager Managed Prisma Access deployments: 
+ Log in to Strata Cloud Manager 
+ as the administrator. 
+
+ Select Configuration NGFW and Prisma Access Configuration Scope Access Agent Setup Prisma Access Agent . 
+
+ For Panorama Managed
+Prisma Access deployments: 
+ From the Cloud Services plugin in Panorama, select Panorama Cloud Services Prisma Access Agent . 
+
+ Click Launch Prisma Access Agent . 
+
+ Select Configuration Prisma Access Agent Settings Prisma Access Agent . 
+
+ For NGFW (Managed by Panorama) deployments: 
+ Log in to Strata Cloud Manager 
+ as the administrator. 
+
+ Select Configuration Prisma Access Agent Settings Prisma Access Agent . 
+
+ Enable Prisma Agent to collect endpoint diagnostics by adding or editing an agent setting. 
+
+ Select the match criteria for the user or user group that will receive
+ this configuration. 
+
+ In the Endpoint Insights section, enable Endpoint
+ Insights . (Default: Disabled) 
+
+ When you enable this
+ setting, Prisma Agent automatically captures diagnostic
+ snapshots when predefined system events occur. It also collects
+ diagnostics periodically and on-demand (through administrator-triggered
+ diagnostic collection or user issue reporting ).
+ (Default: Disabled) 
+
+ ( Prisma Agent 25.7 ) For administrator-triggered
+ diagnostic collection, enable User Consent
+ Required to display a consent dialog to the end user
+ requesting permission to collect diagnostic data. (Default:
+ Disabled) 
+
+ When enabled, the user will see the following dialog on an endpoint.
+ For example, on Windows: 
+
+ If the user approves the request, the diagnostic collection proceeds.
+ If the user denies the consent, the diagnostic collection fails. 
+
+ If you don't enable User Consent
+ Required , the consent dialog will not appear on the
+ endpoint for administrator-triggered diagnostics. Diagnostic data
+ collection will occur without asking the user for consent. 
+
+ ( Prisma Agent 26.3 ) ( Strata Cloud Manager Managed Prisma Access 
+ only ) Enable Self Healing to allow the
+ agent to automatically apply remediation steps when users report
+ connectivity issues. You can enable this setting only if
+ Endpoint Insights is enabled. (Default:
+ Disabled) 
+
+ Configure other agent settings if needed and
+ Save the settings. 
+
+ Configure the diagnostic data retention
+ period in the Global Agent Settings page. 
+ Prisma Agent collects the diagnostic data, stores it securely on the
+ endpoint, and retains it for the number of days specified by the data retention
+ period. Prisma Agent automatically purges any diagnostic data that
+ exceeds the data retention period. 
+
+ Select the Prisma Access Agent tab in the Prisma Agent Setup page. 
+
+ Edit the Global Agent Settings . 
+
+ Enter the number of days for the Data Retention
+ (days) period. The default is 45 days. The range is 7 to
+ 730 days (2 years). 
+
+ Save the global agent settings. 
+
+ Push the Prisma Agent Configuration . 
+
+ Previous 
+
+ Endpoint Insights for Prisma Agent 
+
+ Next 
+
+ Endpoint Insights Collected by Prisma Agent

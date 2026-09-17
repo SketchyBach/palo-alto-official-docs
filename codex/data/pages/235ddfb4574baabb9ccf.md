@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/cortex-data-security-data-sources-and-connectors/administration-and-troubleshooting/manage-instances
-fetched_at: 2026-09-06T10:52:01Z
+fetched_at: 2026-09-16T08:58:58Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Add a new data source or instance 
 
- Last updated 27 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

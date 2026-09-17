@@ -1,82 +1,34 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/release-notes/prisma-access-agent-release-information/prisma-access-agent-known-issues/prisma-access-agent-25-4-known-issues
-fetched_at: 2026-08-13T17:22:32Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:25Z
+source: strata-and-sase
 ---
 
-# Prisma Access Agent 25.4 Known Issues Clear
+# Prisma Agent 25.4 Known Issues Clear
 
-Prisma Access Agent 25.4 Known Issues 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Prisma Access Agent 25.4 Known Issues 
-
- Updated on 
-
- Wed Jul 29 16:38:38 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Jul 29 16:38:38 PDT 2026 
+ Mon Aug 31 00:45:22 PDT 2026 
 
  Focus 
 
  Home 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent Release Notes 
+ Prisma Agent Release Notes 
 
- Prisma Access Agent Release Information 
+ Prisma Agent Release Information 
 
- Prisma Access Agent Known Issues 
+ Prisma Agent Known Issues 
 
- Prisma Access Agent 25.4 Known Issues 
+ Prisma Agent 25.4 Known Issues 
 
  Download PDF 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent 25.4 Known Issues 
+ Prisma Agent 25.4 Known Issues 
 
  Table of Contents 
 
@@ -86,7 +38,7 @@ Prisma Access Agent 25.4 Known Issues
  | 
  Collapse All 
 
- Prisma Access Agent Docs 
+ Prisma Agent Docs 
 
  Administration 
 
@@ -98,25 +50,25 @@ Prisma Access Agent 25.4 Known Issues
 
  Previous 
 
- Prisma Access Agent 25.6 Known Issues 
+ Prisma Agent 25.6 Known Issues 
 
  Next 
 
- Prisma Access Agent 25.3.0 (Mobile) Known Issues 
+ Prisma Agent 25.3.0 (Mobile) Known Issues 
 
- Prisma Access Agent 25.4 Known Issues 
+ Prisma Agent 25.4 Known Issues 
 
- Review the known issues in Prisma Access Agent 25.4. 
+ Review the known issues in Prisma Agent 25.4. 
 
- Prisma Access Agent version 25.4 has the following known issues: 
+ Prisma Agent version 25.4 has the following known issues: 
 
  Issue ID Description 
 
  PANG-8945 
 
- Resolved in Prisma Access Agent 25.7 
+ Resolved in Prisma Agent 25.7 
 
- When you upgrade to the latest Prisma Access Agent Manager (EPM), the
+ When you upgrade to the latest Prisma Agent Manager (EPM), the
  default for Block Non-TCP and Non-UDP based traffic when
  connected to tunnel is disabled. An issue exists
  where the pacli traffic show command output
@@ -139,14 +91,14 @@ Prisma Access Agent 25.4 Known Issues
 
  PANG-8864 
 
- Resolved in Prisma Access Agent 25.6 
+ Resolved in Prisma Agent 25.6 
 
- An issue exists where the Prisma Access Agent might incorrectly
- remain bound to port 0 when switching between Prisma Access Agent 
+ An issue exists where the Prisma Agent might incorrectly
+ remain bound to port 0 when switching between Prisma Agent 
  Manager (EPM) configurations with different proxy settings, causing
  endpoint traffic to Explicit Proxy (EP) to fail. 
 
- When the Prisma Access Agent initially connects to an EPM without
+ When the Prisma Agent initially connects to an EPM without
  agent proxy configured, it binds to port 0 after a system restart on
  the endpoint. If the system subsequently switches to a different EPM
  that has a proxy port configured, the agent might fail to update its
@@ -163,7 +115,7 @@ Prisma Access Agent 25.4 Known Issues
  PANG-8863 
 
  An issue exists where the embedded browser intermittently displays as
- blank or empty after installing Prisma Access Agent version 25.4 on
+ blank or empty after installing Prisma Agent version 25.4 on
  Windows 11 systems. The embedded browser window appears but shows no
  content, preventing users from completing authentication or
  accessing websites through the agent's built-in browser
@@ -175,7 +127,7 @@ Prisma Access Agent 25.4 Known Issues
 
  An issue exists where the reasoning for blocked non-TCP, non-UDP, and
  ICMP traffic is not logged in the PACli logs or network manager
- logs. When Prisma Access Agent forwarding profiles block this type
+ logs. When Prisma Agent forwarding profiles block this type
  of traffic, administrators cannot view the verdict reasoning or
  decision details through either the PACli command-line interface or
  network manager logs, making it difficult to audit and troubleshoot
@@ -183,94 +135,8 @@ Prisma Access Agent 25.4 Known Issues
 
  Previous 
 
- Prisma Access Agent 25.6 Known Issues 
+ Prisma Agent 25.6 Known Issues 
 
  Next 
 
- Prisma Access Agent 25.3.0 (Mobile) Known Issues 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Release Notes 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Prisma Agent 25.3.0 (Mobile) Known Issues

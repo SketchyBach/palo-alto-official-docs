@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-api/vulnerability-intelligence/affected-software
-fetched_at: 2026-09-06T10:56:12Z
+fetched_at: 2026-09-16T09:04:06Z
 source: cortex-platform
 ---
 

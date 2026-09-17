@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-security/application-security-scans-management/manage-scans-through-the-tenant-ui/ci-scans/references/reference-f-ci-scan-sources
-fetched_at: 2026-09-06T10:13:34Z
+fetched_at: 2026-09-16T08:49:30Z
 source: cortex-platform
 ---
 
@@ -57,6 +57,10 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Both sources share one inventory. A repository can produce rows from a pipeline, a Terraform run task, or both. Enable the hidden Provider column to distinguish them. Confirm the source before determining pipeline coverage. 
 
- Last updated 19 days ago 
+ Previous Reference E: Issue category routing 
+
+ Next Reference G: Scanner to issue category mapping 
+
+ Last updated 28 days ago 
 
  Was this helpful?

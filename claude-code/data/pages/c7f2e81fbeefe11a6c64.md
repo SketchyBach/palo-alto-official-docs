@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/administration-and-troubleshooting/manage-instances
-fetched_at: 2026-09-06T09:28:26Z
+fetched_at: 2026-09-16T08:33:40Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Administration and troubleshooting 
 
- Cortex XSIAM Data Ingestion Automations and SOAR 
+ Cortex XSIAM Data Ingestion Automations & SOAR 
 
  Manage instances 
 
@@ -51,6 +51,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Add a new data source or instance 
 
- Last updated 14 days ago 
+ Last updated 23 days ago 
 
  Was this helpful?

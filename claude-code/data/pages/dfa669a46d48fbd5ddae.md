@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/secrets-security/appsec-secret-266
-fetched_at: 2026-09-06T11:15:58Z
+fetched_at: 2026-09-16T09:11:47Z
 source: cortex-platform
 ---
 

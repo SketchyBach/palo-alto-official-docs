@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/users-and-roles/authenticate-users-with-saml-2.0/duo-for-single-sign-on/create-duo-groups-for-cortex-xsoar-users
-fetched_at: 2026-09-06T10:47:39Z
+fetched_at: 2026-09-16T08:57:30Z
 source: cortex-platform
 ---
 

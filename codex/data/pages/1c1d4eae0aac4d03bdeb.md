@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/onboard-and-configure/deployment-steps-and-checklist/set-up-authentication/authenticate-users-using-sso
-fetched_at: 2026-09-06T10:03:10Z
+fetched_at: 2026-09-16T08:46:39Z
 source: cortex-platform
 ---
 
@@ -235,6 +235,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up Okta as the Identity Provider Using SAML 2.0 
 
- Last updated 6 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

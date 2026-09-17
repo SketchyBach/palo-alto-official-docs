@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/linux-kernel-versions/rocky-linux/x86_64/10
-fetched_at: 2026-09-06T10:57:42Z
+fetched_at: 2026-09-16T09:04:46Z
 source: cortex-platform
 ---
 
@@ -473,10 +473,18 @@ For the complete documentation index, see llms.txt . This page is also available
 
  2400-40648 
 
+ 6.12.0-211.50.1.el10_2.x86_64 
+
+ 8.7.1 
+
+ — 
+
+ 2420-41253 
+
  Previous Rocky Linux 9 [x86_64] 
 
  Next Rocky Linux [aarch64] 
 
- Last updated 10 days ago 
+ Last updated 6 days ago 
 
  Was this helpful?

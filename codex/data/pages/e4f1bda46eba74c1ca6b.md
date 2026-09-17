@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/configure-cortex-xsoar/playbooks/develop-your-playbook/task-3.-add-tasks/set-playbook-inputs-and-outputs
-fetched_at: 2026-09-06T11:28:21Z
+fetched_at: 2026-09-16T09:15:11Z
 source: cortex-platform
 ---
 
@@ -143,6 +143,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create a section header 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

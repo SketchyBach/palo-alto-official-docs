@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/data-management/broker-vm/broker-vm-high-availability-cluster/manage-broker-vm-clusters/remove-cluster
-fetched_at: 2026-09-06T10:51:43Z
+fetched_at: 2026-09-16T08:58:53Z
 source: cortex-platform
 ---
 
@@ -47,6 +47,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Broker VM notifications 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

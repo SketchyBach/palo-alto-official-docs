@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/investigation-and-response/investigate-issues/issue-syncing
-fetched_at: 2026-09-06T10:05:01Z
+fetched_at: 2026-09-16T08:47:14Z
 source: cortex-platform
 ---
 
@@ -279,6 +279,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Review findings 
 
- Last updated 20 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

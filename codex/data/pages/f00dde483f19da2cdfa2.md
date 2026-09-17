@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/vendor-specific-data-sources/microsoft/microsoft-office-365-email/ingest-logs-and-data-from-microsoft-365
-fetched_at: 2026-09-06T09:40:28Z
+fetched_at: 2026-09-16T08:41:44Z
 source: cortex-platform
 ---
 
@@ -177,6 +177,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Microsoft Active Directory 
 
- Last updated 29 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

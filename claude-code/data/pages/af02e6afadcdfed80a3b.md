@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/generic-on-premise-data-collectors/xdr-collectors/xdr-collector-audit-logs
-fetched_at: 2026-09-06T09:27:45Z
+fetched_at: 2026-09-16T08:32:51Z
 source: cortex-platform
 ---
 

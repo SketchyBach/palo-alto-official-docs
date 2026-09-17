@@ -1,0 +1,319 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/hardware/pa-1500-hardware-reference/before-you-begin/compliance.html
+fetched_at: 2026-09-16T11:58:22Z
+source: palo-alto-main
+---
+
+# Compliance Clear
+
+Updated on 
+
+ Aug 19, 2026 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-1500 Series Next-Gen Firewall Hardware Reference 
+
+ Before You Begin 
+
+ Compliance 
+
+ Download PDF 
+
+ PA-1500 Series Next-Gen Firewall Hardware Reference 
+
+ Compliance 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Compliance 
+
+ Safety Warnings 
+
+ Safety Warnings (French) 
+
+ Certifications 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-1500 Series Firewall Overview 
+
+ PA-1500 Series Firewall Components 
+
+ PA-1510-POE Components 
+
+ PA-1520-POE Components 
+
+ PA-1530-POE Components 
+
+ PA-1500 Series Firewall Installation 
+
+ Install the PA-1500 Series Firewall in an Equipment Rack 
+
+ Connect AC Power to the PA-1500 Series Firewall 
+
+ Connect DC Power to the PA-1500 Series Firewall 
+
+ Set Up a Connection to the Firewall 
+
+ Connect Cables to the PA-1500 Series Firewall 
+
+ PA-1500 Series Firewall Maintenance 
+
+ PA-1500 Series Firewall LED Definitions 
+
+ Replace a PA-1500 Series Firewall Power Supply 
+
+ PA-1500 Series Firewall Specifications 
+
+ PA-1500 Series Firewall Physical Specifications 
+
+ PA-1500 Series Firewall Electrical Specifications 
+
+ PA-1500 Series Firewall Power Cord Types 
+
+ PA-1500 Series Firewall Environmental Specifications 
+
+ PA-1500 Series Firewall Miscellaneous Specifications 
+
+ Compliance 
+
+ Review safety warnings, certifications, and compliance information for the
+ PA-1500 Series firewall. 
+
+ Safety Warnings 
+
+ Safety Warnings (French) 
+
+ Certifications 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Safety Warnings 
+
+ Review the safety warnings for the PA-1500 Series firewall before installation. 
+
+ To avoid personal injury or death for yourself and others and to avoid
+ damage to your Palo Alto Networks hardware, be sure you understand and prepare for the
+ following warnings before you install or service the hardware. You will also see warning
+ messages throughout the hardware reference where potential hazards exist. 
+
+ All Palo Alto Networks products with laser-based optical
+ interfaces comply with 21 CFR 1040.10 and 1040.11. 
+
+ When installing or servicing a Palo Alto Networks firewall or
+ appliance hardware component that has exposed circuits, ensure that you wear an
+ electrostatic discharge (ESD) strap. Before handling the component, make sure
+ the metal contact on the wrist strap is touching your skin and that the other
+ end of the strap is connected to earth ground. 
+
+ Use grounded and shielded Ethernet cables (when applicable) to
+ ensure agency compliance with electromagnetic compliance (EMC) regulations. 
+
+ Fiber SFP transceivers emit invisible infrared lasers that can
+ cause significant retinal damage if they make contact with your eyes. As a best
+ practice, power off the device when installing or replacing an SFP module. If
+ handling an SFP module while the device is operating, apply dust caps to the end
+ of the transceiver or make sure to keep it pointed away from your eyes. 
+
+ Do not connect a supply voltage that exceeds the input range
+ of the firewall or appliance. For details on the electrical range, refer to
+ electrical specifications in the hardware reference for your firewall or
+ appliance. 
+
+ Caution: Shock hazard 
+
+ Disconnect all power cords (AC or DC) from
+ the power inputs to fully de-energize the hardware. 
+
+ Do not connect or disconnect energized DC wires to the power
+ supply. 
+
+ The DC supply source must be located within the same premises
+ as the firewall. 
+
+ The firewall must be in the same immediate area (such as
+ adjacent cabinets) as any other equipment that has a connection between the
+ earthing conductor of the DC supply circuit and the earthing of the DC
+ system. 
+
+ Install all firewalls that use DC power in restricted access areas only. A
+ restricted access area is where access is granted only to craft (service)
+ personnel using a special tool, lock and key, or other means of security, and
+ that is controlled by the authority responsible for the location. 
+
+ Install the firewall DC ground cable only as described in the
+ power connection procedure for the firewall that you are installing. You must
+ use the American wire gauge (AWG) cable specified and torque all nuts to the
+ torque value specified in the installation procedure for your firewall . 
+
+ Safety Warnings (French) 
+
+ Review the French safety warnings for the PA-1500 Series firewall before
+ installation. 
+
+ French Translation: Lorsque vous installez ou que vous
+ intervenez sur un composant matériel de pare-feu ou de dispositif Palo Alto
+ Networks qui présente des circuits exposés, veillez à porter un bracelet
+ antistatique. Avant de manipuler le composant, vérifiez que le contact
+ métallique du bracelet antistatique est en contact avec votre peau et que
+ l’autre extrémité du bracelet est raccordée à la terre. 
+
+ French Translation: Des câbles Ethernet blindés reliés
+ à la terre doivent être utilisés pour garantir la conformité de l'organisme aux
+ émissions électromagnétiques (CEM). 
+
+ French Translation: Veillez à ce que la tension
+ d’alimentation ne dépasse pas la plage d’entrée du pare-feu ou du dispositif.
+ Pour plus d’informations sur la mesure électrique, consulter la rubrique des
+ caractéristiques électriques dans la documentation de votre matériel de pare-feu
+ ou votre dispositif. 
+
+ French Translation: (Tous les
+ appareils Palo Alto Networks avec au moins deux sources
+ d’alimentation) Débranchez tous les cordons d’alimentation
+ (c.a. ou c.c.) des entrées d’alimentation et mettez le
+ matériel hors tension. 
+
+ Ne raccordez ni débranchez de câbles c.c. sous tension à la
+ source d'alimentation. 
+
+ La source d'alimentation c.c. doit se trouver dans les mêmes
+ locaux que ce pare-feu. 
+
+ Le pare-feu doit se trouver dans la même zone immédiate (des
+ armoires adjacentes par exemple) que tout autre équipement doté d'un
+ raccordement entre le conducteur de mise à la terre du même circuit
+ d'alimentation c.c. et la mise à la terre du système c.c. 
+
+ Tous les pare-feux utilisant une alimentation c.c. sont conçus pour être
+ installés dans des zones à accès limité uniquement. Une zone à accès limité
+ correspond à une zone dans laquelle l'accès n'est autorisé au personnel (de
+ service) qu'à l'aide d'un outil spécial, cadenas ou clé, ou autre dispositif de
+ sécurité, et qui est contrôlée par l'autorité responsable du site. 
+
+ Installez le câble de mise à la terre c.c. du pare-feu comme
+ indiqué dans la procédure de raccordement à l'alimentation pour le pare-feu que
+ vous installez. Utilisez le câble American wire gauge (AWG) indiqué et serrez
+ les écrous au couple indiqué dans la procédure d'installation de votre pare-feu . 
+
+ Certifications 
+
+ Review the certifications for the PA-1500 Series firewall. 
+
+ BSMI EMC Statement —User warning: This is a Class A product. When used in a
+ residential environment it may cause radio interference. In this case, the user
+ will be required to take adequate measures. 
+
+ Manufacturer —Flextronics International. 
+
+ Country of Origin —Made in the USA with parts of domestic and
+ foreign origin. 
+
+ CE (European Union (EU) Electromagnetic Compatibility Directive) —This
+ device is herewith confirmed to comply with the requirements set out in the
+ Council Directive on the Approximation of the Laws of the Member States relating
+ to Electromagnetic Compatibility Directive (2014/30/EU). 
+
+ The above product conforms with Low Voltage Directive 2014/35/EU and complies
+ with the requirements relating to electrical equipment designed for use within
+ certain voltage limits. 
+
+ Federal Communications Commission (FCC) statement for a Class A digital device
+ or peripheral —This equipment has been tested and found to comply with
+ the limits for a Class A digital device, pursuant to Part 15 of the FCC Rules.
+ These limits are designed to provide reasonable protection against harmful
+ interference in a residential installation. This equipment generates, uses, and
+ can radiate radio frequency energy and, if not installed and used in accordance
+ with the instructions, may cause harmful interference to radio communications.
+ However, there is no guarantee that interference will not occur in a particular
+ installation. If this equipment does cause harmful interference to radio or
+ television reception, which can be determined by turning the equipment off and
+ on, the user is encouraged to try to correct the interference by one or more of
+ the following measures: 
+
+ Reorient or relocate the receiving antenna. 
+
+ Increase the separation between the equipment and receiver. 
+
+ Connect the equipment to an outlet on a circuit that is different from
+ the one to which the receiver is connected. 
+
+ Consult the dealer or an experienced radio/TV technician for help. 
+
+ ICES (Canadian Department Compliance Statement) —This Class A digital
+ apparatus complies with Canadian ICES-003. 
+
+ French translation : Cet appareil numérique de la classe A est conforme à
+ la norme NMB-003 du Canada. 
+
+ Korean Communications Commission (KCC) Class A Statement —This
+ equipment is an electromagnetic compatible device for business purposes (Class
+ A). The provider or user should be aware that the equipment is intended for use
+ outside the home. 
+
+ Technischer Überwachungsverein (TUV) 
+
+ Risk of explosion if battery is replaced by an incorrect type. Dispose of
+ used battery according to local regulations. 
+
+ VCCI —This section provides the compliance statement for the Voluntary
+ Control Council for Interference by Information Technology Equipment (VCCI),
+ which governs radio frequency emissions in Japan. 
+
+ The following information is in accordance to VCCI Class A requirements: 
+
+ Translation: This is a Class A product. In a domestic environment this
+ product may cause radio interference, in which case the user may be required to
+ take corrective actions. 
+
+ NCC (Nigerian Communications Commission) 
+
+ Tamper Proof Statement 
+
+ Learn how to check if your new firewall was tampered with during shipping. 
+
+ To ensure that products purchased from Palo Alto Networks were not tampered
+ with during shipping, verify the following upon receipt of each product: 
+
+ The tracking number provided to you electronically when ordering
+ the product matches the tracking number that is physically labeled on the box or
+ crate. 
+
+ The integrity of the tamper-proof tape used to seal the box or
+ crate is not compromised. 
+
+ The integrity of the warranty label on the firewall or appliance
+ is not compromised. 
+
+ Third-Party Component Support 
+
+ Learn about Palo Alto Networks support for third-party components used with the
+ PA-1500 Series firewall. 
+
+ Before you consider installing third-party hardware, read the Palo Alto Networks Third-Party Component Support 
+ statement. 
+
+ Previous 
+
+ Before You Begin 
+
+ Next 
+
+ Safety Warnings

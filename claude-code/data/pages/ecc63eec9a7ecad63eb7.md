@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security/onboard-data-sources/cli-pipeline-code-snippets/jenkins
-fetched_at: 2026-09-06T10:11:27Z
+fetched_at: 2026-09-16T08:49:00Z
 source: cortex-platform
 ---
 

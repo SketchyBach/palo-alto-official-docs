@@ -1,0 +1,92 @@
+---
+url: https://docs.prismacloud.io/content-collections/runtime-security/alerts/xdr
+fetched_at: 2026-09-16T13:35:30Z
+source: prisma-cloud
+---
+
+# Cortex XDR | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Enterprise Edition 
+
+ Content Collections 
+
+ Runtime Security 
+
+ Alerts 
+
+ Cortex XDR 
+
+ Cortex XDR is a detection and response app that natively integrates network, endpoint and cloud data to stop sophisticated attacks. Prisma Cloud can send runtime alerts to XDR when your policies are violated. Prisma Cloud can be configured to send data when an entire policy, or even specific rules, are violated. 
+
+ Prisma Cloud uses webhooks to send the alerts to Cortex XDR. When an event occurs, Prisma Cloud notifies the web service with an HTTP POST request that contains a JSON body. 
+
+ Configuring alert frequency 
+
+ You can configure the rate at which alerts are emitted. This is a global setting that controls the spamminess of the alert service. Alerts received during the specified period are aggregated into a single alert. For each alert profile, an alert is sent as soon as the first matching event is received. All subsequent alerts are sent once per period. 
+
+ Open Console, and go to Manage > Alerts . 
+
+ In General settings , select the default frequency for all alerts. 
+
+ You can specify Second , Minute , Hour , Day . 
+
+ Send alerts to XDR 
+
+ Alert profiles specify which events should trigger the alert machinery, and to which channel alerts are sent. You can send alerts to any combination of channels by creating multiple alert profiles. 
+
+ Alert profiles consist of two parts: 
+
+ (1) Alert settings — Who should get the alerts, and on what channel? Configure Prisma Cloud to integrate with your messaging service and specify the people or places where alerts should be sent. For example, configure the email channel and specify a list of all the email addresses where alerts should be sent. Or for JIRA, configure the project where the issue should be created, along with the type of issue, priority, assignee, and so on. 
+
+ (2) Alert triggers — Which events should trigger an alert to be sent? Specify which of the rules that make up your overall policy should trigger alerts. 
+
+ If you use multi-factor authentication, you must create an exception or app-specific password to allow Console to authenticate to the service. 
+
+ Create a new alert channel 
+
+ In Manage > Alerts , click Add profile . 
+
+ Enter a Profile name . 
+
+ In Provider , select Cortex . 
+
+ In Application , select XDR . 
+
+ Click Next . 
+
+ Configure the triggers 
+
+ In Select triggers , select the events that should trigger an alert to be sent. 
+
+ To specify specific rules that should trigger an alert, deselect All rules , and then select any individual rules. 
+
+ Click Next . 
+
+ Configure the channel 
+
+ Under Settings , in Incoming webhook URL enter the Cortex XDR endpoint where Prisma Cloud should submit the alerts. 
+
+ (Optional) In Credential , specify a basic auth credential if your endpoint requires authentication. 
+
+ (Optional) In CA Certificate , enter a CA cert in PEM format. 
+
+ When using a CA cert to secure communication, only one-way SSL authentication is supported. If two-way SSL authentication is configured, alerts will not be sent. 
+
+ Click Next . 
+
+ Review the Summary and test the configuration by selecting Send test alert . 
+
+ Click Save . 
+
+ Previous JIRA 
+
+ Next Email 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,0 +1,167 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/prisma-access-mobile-users/mobile-users-explicit-proxy/use-explicit-proxy-with-globalprotect-or-a-third-party-vpn.html
+fetched_at: 2026-09-17T06:45:15Z
+source: palo-alto-main
+---
+
+# Use Explicit Proxy with GlobalProtect (or a Third-Party VPN) Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Mobile Users 
+
+ Mobile Users: Explicit Proxy 
+
+ Use Explicit Proxy with GlobalProtect (or a Third-Party VPN) 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Use Explicit Proxy with GlobalProtect (or a Third-Party VPN) 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ SOCKS5 Proxy with Basic Authentication for Explicit Proxy 
+
+ Next 
+
+ Requirements for Using Explicit Proxy with GlobalProtect or a Third-Party VPN 
+
+ Use Explicit Proxy with GlobalProtect (or a Third-Party VPN) 
+
+ See some examples of using GlobalProtect with Explicit
+Proxy in a mobile users deployment. 
+
+ Where Can I Use
+This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Prisma Access license 
+
+ You can combine Explicit Proxy with GlobalProtect or a third-party VPN: 
+
+ Explicit Proxy and GlobalProtect 
+
+ Use GlobalProtect
+in split tunnel mode to provide secure access to private apps only. 
+
+ Use explicit proxy to secure public apps, including internet
+traffic and external SaaS applications. 
+
+ Explicit Proxy and a Third-Party VPN 
+
+ If you
+are using a VPN client for access to data center and private applications,
+you can continue to use that client to secure access to private
+apps while you use Explicit Proxy and a PAC file to secure access
+to public apps. You can deploy Explicit Proxy in a location close
+to your mobile users, which eliminates the need to backhaul traffic
+to your data center for web security. 
+
+ The following figure shows a deployment using a GlobalProtect gateway along with Explicit Proxy.
+ GlobalProtect routes the traffic using the GlobalProtect client to the Palo Alto
+ Networks next-generation firewall. To configure this deployment, you create a split tunnel configuration in GlobalProtect,
+ allowing private apps to be secured with GlobalProtect and public apps to be secured
+ with Explicit Proxy. When configuration is complete, mobile users connect to the private
+ apps in your organization’s data center using GlobalProtect and connect to private
+ internet-based apps using Explicit Proxy. 
+
+ If you have a third-party VPN, you can use it to connect to private
+apps in the data center, while securing public apps using Explicit
+Proxy, as shown in the following figure. 
+
+ Get started: 
+
+ How It Works 
+
+ Explicit Proxy — Guidelines 
+
+ Explicit Proxy and GlobalProtect: Set It Up 
+
+ Explicit Proxy with Third-Party VPNs 
+
+ Previous 
+
+ SOCKS5 Proxy with Basic Authentication for Explicit Proxy 
+
+ Next 
+
+ Requirements for Using Explicit Proxy with GlobalProtect or a Third-Party VPN

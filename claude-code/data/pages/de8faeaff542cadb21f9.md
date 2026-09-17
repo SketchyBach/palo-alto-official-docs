@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/cortex-data-security-data-sources-and-connectors/vendor-specific-data-sources-and-connectors/mongodb/how-to-onboard-mongodb-atlas
-fetched_at: 2026-09-06T10:51:55Z
+fetched_at: 2026-09-16T08:58:55Z
 source: cortex-platform
 ---
 
@@ -93,6 +93,6 @@ Alternatively, you can enter “Mongo” in the Search Sources filter field, and
 
  Next MongoDB Atlas 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

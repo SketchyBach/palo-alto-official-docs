@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/onboard-cortex-xdr/multi-tenant/child-tenant-management
-fetched_at: 2026-09-06T09:39:08Z
+fetched_at: 2026-09-16T08:38:02Z
 source: cortex-platform
 ---
 
@@ -67,6 +67,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Track your tenant management 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

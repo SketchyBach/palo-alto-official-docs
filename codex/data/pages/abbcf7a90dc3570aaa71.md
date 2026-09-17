@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/remote-repository-management/set-up-a-remote-repository/set-up-a-built-in-remote-repository
-fetched_at: 2026-09-06T10:17:20Z
+fetched_at: 2026-09-16T08:50:43Z
 source: cortex-platform
 ---
 
@@ -121,6 +121,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up a Private Remote Repository 
 
- Last updated 11 days ago 
+ Last updated 21 days ago 
 
  Was this helpful?

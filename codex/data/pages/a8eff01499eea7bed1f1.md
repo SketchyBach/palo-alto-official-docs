@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xpanse/onboard-and-configure-cortex-xpanse/step-6-configure-priority-integrations
-fetched_at: 2026-09-06T10:52:20Z
+fetched_at: 2026-09-16T08:59:09Z
 source: cortex-platform
 ---
 

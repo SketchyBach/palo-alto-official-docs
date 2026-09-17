@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xdr-5-api/vulnerability-management
-fetched_at: 2026-09-06T11:20:12Z
+fetched_at: 2026-09-16T09:13:04Z
 source: cortex-platform
 ---
 

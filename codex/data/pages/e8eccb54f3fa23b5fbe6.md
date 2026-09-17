@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/august-2025/prisma-access-agent-certificate-authentication-on-panorama
-fetched_at: 2026-08-13T17:44:20Z
+fetched_at: 2026-09-16T07:53:00Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

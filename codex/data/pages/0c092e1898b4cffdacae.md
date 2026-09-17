@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/9.1/cortex-xdr-agent-for-linux
-fetched_at: 2026-09-06T10:20:19Z
+fetched_at: 2026-09-16T08:51:37Z
 source: cortex-platform
 ---
 
@@ -101,6 +101,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex XDR supported Kernel Module versions by distribution 
 
- Last updated 6 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

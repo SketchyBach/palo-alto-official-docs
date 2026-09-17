@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/vm-series/deployment/public-cloud/set-up-the-vm-series-firewall-on-google-cloud-platform/setup-active-passive-ha-on-gcp/deploy-the-gcp-active-passive-ha
-fetched_at: 2026-08-13T17:42:15Z
+fetched_at: 2026-09-16T07:52:25Z
 source: palo-alto-main
 ---
 
 # Deploy the GCP Active/Passive HA Clear
 
-Deploy the GCP Active/Passive HA 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Deploy the GCP Active/Passive HA 
-
- Updated on 
-
- Wed Jul 08 11:47:59 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- VM-Series Firewall Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Upgrade 
-
- Deployment 
-
- Select a Document 
-
- Public Cloud 
-
- Private Cloud 
-
- Updated on 
-
- Wed Jul 08 11:47:59 PDT 2026 
+ Aug 10, 2026 
 
  Focus 
 
@@ -348,70 +294,4 @@ Wed Mar 12 16:47:24 UTC 2023 -- Online -- Source IP = x.x.x.x
 
  Next 
 
- VM-Series Firewall on Oracle Cloud Infrastructure 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Next-Generation Firewalls 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- VM-Series 
-
- Plugins 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Resources 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- Cloud Infrastructure Protection 
-
- Network Security 
-
- Deployment 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ VM-Series Firewall on Oracle Cloud Infrastructure

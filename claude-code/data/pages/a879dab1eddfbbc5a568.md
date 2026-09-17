@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xdr-5-api/managed-services/models
-fetched_at: 2026-09-06T10:55:25Z
+fetched_at: 2026-09-16T09:03:54Z
 source: cortex-platform
 ---
 

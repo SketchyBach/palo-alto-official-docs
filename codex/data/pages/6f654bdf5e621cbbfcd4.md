@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.9/configure-cortex-xsoar/engines/configure-engines/configure-the-engine-to-call-the-server-without-using-a-proxy/configure-an-engine-to-use-custom-certificates
-fetched_at: 2026-09-06T10:37:34Z
+fetched_at: 2026-09-16T08:55:29Z
 source: cortex-platform
 ---
 
@@ -59,6 +59,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Use an engine in an integration 
 
- Last updated 21 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

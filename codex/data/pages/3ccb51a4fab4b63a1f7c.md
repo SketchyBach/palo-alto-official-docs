@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/unusual-process-accessed-a-web-browser-history-file
-fetched_at: 2026-09-06T11:10:04Z
+fetched_at: 2026-09-16T09:08:51Z
 source: cortex-platform
 ---
 

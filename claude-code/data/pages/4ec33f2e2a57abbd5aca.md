@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/onboard-and-activate-cloud-account-in-scm/aws-onboarding-prereqs-and-steps/onboard-aws-cloud-account-in-scm
-fetched_at: 2026-09-06T11:16:56Z
+fetched_at: 2026-09-16T07:54:36Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Aug 11, 2026 
+ Tue Aug 11 09:28:58 PDT 2026 
 
  Focus 
 

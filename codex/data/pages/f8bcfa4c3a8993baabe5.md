@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/outbound-email-contains-file-sharing-service-link-sent-to-external-recipient
-fetched_at: 2026-09-06T11:05:56Z
+fetched_at: 2026-09-16T09:07:43Z
 source: cortex-platform
 ---
 

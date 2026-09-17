@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cloud-workload-policies-and-rules/cloud-workload-rules/create-a-new-custom-detection-rule
-fetched_at: 2026-09-06T10:08:10Z
+fetched_at: 2026-09-16T08:48:07Z
 source: cortex-platform
 ---
 
@@ -17,7 +17,9 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Cortex CLOUD Posture Management 
 
- Cloud Workload Policies and Rules 
+ Rules and Policies 
+
+ Cloud workload policies and rules 
 
  Cloud workload rules 
 
@@ -241,6 +243,6 @@ You can now use the rule as a check to either create an issue or monitor adheren
 
  Next Use an existing rule to create a new custom detection rule 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

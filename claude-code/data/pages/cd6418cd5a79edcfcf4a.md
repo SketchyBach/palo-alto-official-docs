@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/palo-alto-networks-integrations/prisma-access
-fetched_at: 2026-09-06T10:01:57Z
+fetched_at: 2026-09-16T08:46:22Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Ingest data from Prisma Access 
 
- Last updated 1 month ago 
+ Last updated 2 days ago 
 
  Was this helpful?

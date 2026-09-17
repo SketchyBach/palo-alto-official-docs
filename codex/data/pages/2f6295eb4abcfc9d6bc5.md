@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/cloud-posture-and-runtime-security-data-sources
-fetched_at: 2026-09-06T09:28:07Z
+fetched_at: 2026-09-16T08:33:24Z
 source: cortex-platform
 ---
 
@@ -253,6 +253,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Activate AppSec Transporter 
 
- Last updated 15 minutes ago 
+ Last updated 8 days ago 
 
  Was this helpful?

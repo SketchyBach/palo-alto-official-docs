@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/logs/configure-the-server-log
-fetched_at: 2026-09-06T10:45:58Z
+fetched_at: 2026-09-16T08:57:10Z
 source: cortex-platform
 ---
 
@@ -89,6 +89,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure the Access Log for HTTPS Requests 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.6/configure-cortex-xsoar/integrations/add-an-integration-instance/receive-notifications-on-an-incident-fetch-error
-fetched_at: 2026-09-06T11:25:26Z
+fetched_at: 2026-09-16T09:14:20Z
 source: cortex-platform
 ---
 
@@ -61,6 +61,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure integration permissions 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/investigate-and-respond-to-cases/analyze-and-resolve-cases/additional-case-actions
-fetched_at: 2026-09-06T09:43:44Z
+fetched_at: 2026-09-16T08:42:52Z
 source: cortex-platform
 ---
 
@@ -33,6 +33,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create a case 
 
- Last updated 11 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

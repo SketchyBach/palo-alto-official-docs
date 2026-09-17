@@ -1,0 +1,50 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/rules-and-policies/cloud-security-rules-and-policies/create-and-manage-cloud-security-rules/enable-or-disable-a-rule
+fetched_at: 2026-09-16T09:15:19Z
+source: cortex-platform
+---
+
+# Enable or disable a rule | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSIAM 
+
+ Cortex XSIAM Documentation 
+
+ Cloud Security 
+
+ Rules and Policies 
+
+ Cloud security rules and policies 
+
+ Create and manage cloud security rules 
+
+ Cortex XSIAM 
+
+ Enable or disable a rule 
+
+ Enable or disable cloud security rules in Cortex XSIAM to control when they evaluate assets. 
+
+ If you would like to temporarily suspend a rule, you can disable it. To enable or disable a cloud security rule: 
+
+ Navigate to Posture Management → Rules & Policies → Rules → Cloud Security . 
+
+ From the Rules page, there are two ways to access the option: 
+
+ Right-click the entry and then select Enable or Disable. 
+
+ Click on the rule. Next, on the Details page, click the more options icon (⋮) and then select Enable or Disable. 
+
+ Previous Edit a cloud security rule 
+
+ Next Use an existing rule to create a new one 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/investigation-and-response/investigate-artifacts-and-assets/investigate-a-file-and-process-hash
-fetched_at: 2026-09-06T10:05:02Z
+fetched_at: 2026-09-16T08:47:14Z
 source: cortex-platform
 ---
 

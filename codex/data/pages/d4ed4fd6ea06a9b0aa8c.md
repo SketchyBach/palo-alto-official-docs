@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/enterprise-dlp/administration/configure-enterprise-dlp/enterprise-dlp-end-user-alerting-with-cortex-xsoar/set-up-the-enterprise-dlp-end-user-alerting-with-cortex-xsoar
-fetched_at: 2026-08-13T15:32:17Z
+fetched_at: 2026-09-15T15:10:22Z
 source: palo-alto-main
 ---
 
 # Set Up Enterprise DLP End User Alerting with Cortex XSOAR Clear
 
-Set Up Enterprise DLP End User Alerting with Cortex XSOAR 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Set Up Enterprise DLP End User Alerting with Cortex XSOAR 
-
- Updated on 
-
- Fri Jul 10 12:56:22 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Enterprise DLP Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features by OS Version 
-
- New Features by Month 
-
- Updated on 
-
- Fri Jul 10 12:56:22 PDT 2026 
+ Thu Sep 10 12:41:05 PDT 2026 
 
  Focus 
 
@@ -120,15 +66,6 @@ Set Up Enterprise DLP End User Alerting with Cortex XSOAR
 
  Set up Cortex XSOAR to use Enterprise Data Loss Prevention (E-DLP) End User
  Alerting. 
-
- On May 7, 2025 , Palo Alto Networks is introducing new Evidence Storage and Syslog Forwarding service IP
- addresses to improve performance and expand availability for these services
- globally. 
-
- You must allow these new service IP addresses on your network
- to avoid disruptions for these services. Review the Enterprise DLP 
- Release Notes for more
- information. 
 
  Where Can I Use This? What Do I Need? 
 
@@ -685,7 +622,7 @@ XSOAR .
  Set up Cortex XSOAR to use Enterprise Data Loss Prevention (E-DLP) End User Alerting for
  Email. 
 
- Integrate referred IP address directory service using one of the following
+ Integrate your preferred IP address directory service using one of the following
  procedures. 
 
  Integrate AWS - Identity and Access Management 
@@ -760,11 +697,11 @@ XSOAR .
  Enter a descriptive Credential
  Name . 
 
- For the Username , enter
+ For Username , enter
  the Client ID created in
  the previous step. 
 
- For the Password , enter
+ For Password , enter
  the Client Secret created
  in the previous step. 
 
@@ -778,12 +715,12 @@ XSOAR .
  Select Settings Integrations Instances and search for Enterprise
  DLP . 
 
- Click Add Instance to integrate Enterprise DLP . See Integrate Enterprise DLP
- on XSOAR for more information. 
+ Click Add Instance to integrate Enterprise DLP using the Integrate Enterprise DLP
+ on XSOAR instructions. 
 
  Select a descriptive Name . 
 
- For the Incident Type, verify Data Loss
+ For Incident Type , verify Data Loss
  Prevention is selected. 
  If
  Data Loss Prevention is not
@@ -792,7 +729,7 @@ XSOAR .
  search for and select Data Loss
  Prevention . 
 
- for the Mapper , verify that
+ For Mapper , verify that
  Data Loss Prevention is
  selected. 
 
@@ -828,12 +765,12 @@ XSOAR .
  Select Settings Integrations Instances and search for Enterprise
  DLP . 
 
- Click Add Instance to integrate Enterprise DLP . See Integrate Enterprise DLP
- on XSOAR for more information. 
+ Click Add Instance to integrate Enterprise DLP using the Integrate Enterprise DLP
+ on XSOAR instructions. 
 
  Select a descriptive Name . 
 
- For the Incident Type, verify Data Loss
+ For Incident Type , verify Data Loss
  Prevention is selected. 
  If
  Data Loss Prevention is not
@@ -842,7 +779,7 @@ XSOAR .
  search for and select Data Loss
  Prevention . 
 
- for the Mapper , verify that
+ For Mapper , verify that
  Data Loss Prevention is
  selected. 
 
@@ -859,7 +796,7 @@ XSOAR .
  Check (enable) Long running
  instance . 
 
- ( Optional) Modify the automated
+ ( Optional ) Modify the automated
  Slack Bot Message . 
 
  Test to confirm Cortex XSOAR has successfully integrated with
@@ -869,9 +806,9 @@ XSOAR .
  when Cortex XSOAR successfully integrates
  with Enterprise DLP . 
 
- Configure the DLP Incident Feedback Loop Cortex XSOAR playbook 
+ Configure the DLP Incident Feedback Loop Cortex XSOAR playbook. 
 
- In Dashboard & Reports, select
+ In Dashboard & Reports , select
  Playbooks . 
 
  Select DLP Incident Feedback Loops Playbook Triggered . 
@@ -883,16 +820,15 @@ XSOAR .
  request to the sender's manager. This information is pulled
  from your preferred IP address directory service. 
 
- For the UserMessageApp , verify
+ For UserMessageApp , verify
  Email is displayed. 
 
- For the ApproverMessageApp ,
+ For ApproverMessageApp ,
  enter Email . 
 
- ( Optional ) For the
- DenyMessage , enter a custom
- response when a file extension is denied by the sender's
- manager, 
+ ( Optional ) For DenyMessage ,
+ enter a custom response when a file extension is denied by
+ the sender's manager. 
 
  Save . 
 
@@ -910,7 +846,7 @@ XSOAR .
  Expand the Configuration section to define the
  Exemption Duration for exempted files that prompt the
  End User Alerting with Cortex XSOAR notification. 
- This setting defines how long a specific file is granted an block exemption
+ This setting defines how long a specific file is granted a block exemption
  when your administrator responds to blocked traffic .
  The default is 12 hours. 
 
@@ -920,110 +856,4 @@ XSOAR .
 
  Next 
 
- Respond to Blocked Traffic Using Enterprise DLP End User Alerting with Cortex XSOAR 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Administration 
-
- Cloud-Delivered Security Services 
-
- Data Filtering 
-
- Enterprise DLP 
-
- Task 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Respond to Blocked Traffic Using Enterprise DLP End User Alerting with Cortex XSOAR

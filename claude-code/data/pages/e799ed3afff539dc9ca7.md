@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/9.3/cortex-xdr-agent-for-macos/use-the-cortex-xdr-agent-for-mac
-fetched_at: 2026-09-06T10:20:10Z
+fetched_at: 2026-09-16T08:51:30Z
 source: cortex-platform
 ---
 
@@ -33,7 +33,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Browse to the Traps folder in Finder. 
 
- If you enabled access to the agent console, click the Cortex XDR agent icon in the menu bar, and select Open Console . 
+ If you enabled access to the agent console, select the Cortex XDR agent icon in the menu bar, and select Open Console . 
 
  View status information about the Cortex XDR agent: 
 
@@ -53,7 +53,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  The Cortex XDR agent communicates with the server at a fixed 5-minute heartbeat interval to send status information and retrieve the latest security policy. The agent performs this operation transparently at regular intervals so it is not typically necessary to connect to the server manually. If your Connection status is Not Connected , you can manually retry your connection. This option is available if you do not want to wait for the automated communication interval to begin. 
 
- To initiate a manual check-in with the server: On the home page of the Cortex XDR agent console, click Check In Now . If the agent successfully establishes a connection with the server, the Connection status changes to indicated the service to which the agent is connected. 
+ To initiate a manual check-in with the server: On the home page of the Cortex XDR agent console, select Check In Now . If the agent successfully establishes a connection with the server, the Connection status changes to indicated the service to which the agent is connected. 
 
  Collect Cortex XDR agent logs in a file that can be sent to a support representative for analysis. 
 
@@ -77,6 +77,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Uninstall the Cortex XDR Agent for Mac 
 
- Last updated 1 month ago 
+ Last updated 1 day ago 
 
  Was this helpful?

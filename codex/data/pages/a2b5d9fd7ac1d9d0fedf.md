@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/detect-investigate-and-respond-to-threats/threat-intel-management/get-started-with-threat-intel-management/what-is-threat-intel-management
-fetched_at: 2026-09-06T10:19:33Z
+fetched_at: 2026-09-16T08:51:19Z
 source: cortex-platform
 ---
 

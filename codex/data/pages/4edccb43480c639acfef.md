@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/investigate-and-respond-to-threats/day-to-day-tasks-in-cortex-xsoar/incident-management/link-incidents/link-and-unlink-incidents-in-the-cli
-fetched_at: 2026-09-06T10:42:42Z
+fetched_at: 2026-09-16T08:56:31Z
 source: cortex-platform
 ---
 

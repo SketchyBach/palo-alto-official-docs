@@ -1,74 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/getting-started/prepare-your-firewall-for-iot-security/create-service-routes-for-iot-security
-fetched_at: 2026-08-13T16:36:48Z
+fetched_at: 2026-09-15T15:14:39Z
 source: palo-alto-main
 ---
 
 # Configure Service Routes for Device Security Clear
 
-Configure Service Routes for Device Security 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Configure Service Routes for Device Security 
-
- Updated on 
-
- Thu Jul 23 17:42:23 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 中文 (Chinese Simplified) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu Jul 23 17:42:23 PDT 2026 
+ Jul 30, 2026 
 
  Focus 
 
@@ -120,7 +60,7 @@ Configure Service Routes for Device Security
 
  Previous 
 
- Prepare Your Firewall for Device Security 
+ Prepare Your Firewall for Device Security in a China Tenant 
 
  Next 
 
@@ -258,56 +198,8 @@ Configure Service Routes for Device Security
 
  Previous 
 
- Prepare Your Firewall for Device Security 
+ Prepare Your Firewall for Device Security in a China Tenant 
 
  Next 
 
- Configure Policies for Log Forwarding 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Getting Started 
-
- Cloud-Delivered Security Services 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Configure Policies for Log Forwarding

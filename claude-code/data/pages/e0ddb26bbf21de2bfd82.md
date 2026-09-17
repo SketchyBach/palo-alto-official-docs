@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/linux-kernel-versions/almalinux/x86_64/8
-fetched_at: 2026-09-06T10:57:17Z
+fetched_at: 2026-09-16T09:04:40Z
 source: cortex-platform
 ---
 
@@ -1249,6 +1249,14 @@ For the complete documentation index, see llms.txt . This page is also available
 
  2410-40905 
 
+ 4.18.0-553.159.1.el8_10.x86_64 
+
+ 7.8 
+
+ — 
+
+ 2420-41253 
+
  4.18.0-553.el8_10.x86_64 
 
  7.8 
@@ -1261,6 +1269,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next AlmaLinux 9 [x86_64] 
 
- Last updated 4 days ago 
+ Last updated 6 days ago 
 
  Was this helpful?

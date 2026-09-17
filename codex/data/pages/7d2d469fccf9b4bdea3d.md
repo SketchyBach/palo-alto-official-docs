@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/zscaler
-fetched_at: 2026-09-06T10:10:03Z
+fetched_at: 2026-09-16T08:48:36Z
 source: cortex-platform
 ---
 
@@ -35,6 +35,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Zscaler 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

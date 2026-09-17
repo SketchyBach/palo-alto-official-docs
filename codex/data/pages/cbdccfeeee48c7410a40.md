@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/onboard-cortex-xsoar/cortex-xsoar-installation/post-installation/optimize-performance-and-robustness-from-the-textual-ui
-fetched_at: 2026-09-06T10:32:18Z
+fetched_at: 2026-09-16T08:54:31Z
 source: cortex-platform
 ---
 
@@ -219,6 +219,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage your SSH admin password 
 
- Last updated 7 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

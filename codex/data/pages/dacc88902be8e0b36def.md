@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xpanse/users-and-roles/user-authentication/set-up-okta-as-the-identity-provider-using-saml-2.0
-fetched_at: 2026-09-06T10:52:22Z
+fetched_at: 2026-09-16T08:59:13Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/configure-cortex-xsoar/playbooks/debug-your-playbook/troubleshoot-playbook-performance
-fetched_at: 2026-09-06T10:35:58Z
+fetched_at: 2026-09-16T08:55:08Z
 source: cortex-platform
 ---
 
@@ -47,6 +47,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage playbook content 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

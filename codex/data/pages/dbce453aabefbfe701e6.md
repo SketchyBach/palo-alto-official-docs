@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/remote-browser-isolation/administration/remote-isolated-browsing-experience/in-browser-translation
-fetched_at: 2026-08-13T17:32:14Z
+fetched_at: 2026-09-16T07:49:07Z
 source: palo-alto-main
 ---
 
 # In-Browser Translation Clear
 
-In-Browser Translation 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- In-Browser Translation 
-
- Updated on 
-
- Thu Apr 09 09:06:48 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- Português (Portuguese) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Remote Browser Isolation Docs 
-
- Administration 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Thu Apr 09 09:06:48 PDT 2026 
+ Fri Aug 14 05:16:21 PDT 2026 
 
  Focus 
 
@@ -100,6 +46,8 @@ In-Browser Translation
 
  Administration 
 
+ Integrations 
+
  Release Notes 
 
  New Features 
@@ -110,7 +58,7 @@ In-Browser Translation
 
  Next 
 
- Monitor Remote Browser Isolation 
+ Archive Viewer in Isolation 
 
  In-Browser Translation 
 
@@ -253,34 +201,4 @@ In-Browser Translation
 
  Next 
 
- Monitor Remote Browser Isolation 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Remote Browser Isolation 
-
- Administration 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Archive Viewer in Isolation

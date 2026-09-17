@@ -1,74 +1,20 @@
 ---
 url: https://docs.paloaltonetworks.com/advanced-threat-prevention/custom-signatures/custom-application-and-threat-signatures/create-a-custom-threat-signature
-fetched_at: 2026-08-13T14:30:45Z
+fetched_at: 2026-09-15T15:07:47Z
 source: palo-alto-main
 ---
 
 # Create a Custom Threat Signature Clear
 
-Create a Custom Threat Signature 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Create a Custom Threat Signature 
-
- Updated on 
-
- Fri Mar 13 11:36:53 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Advanced Threat Prevention 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Custom Application IDs and Threat Signatures 
-
- Reference 
-
- Release Notes 
-
- Updated on 
-
- Fri Mar 13 11:36:53 PDT 2026 
+ Thu Sep 03 18:17:31 PDT 2026 
 
  Focus 
 
  Home 
 
  Advanced Threat Prevention Powered by Precision AI® 
-
- Custom Application and Threat Signatures 
 
  Create a Custom Threat Signature 
 
@@ -94,11 +40,9 @@ Create a Custom Threat Signature
 
  Administration 
 
- Custom Application IDs and Threat Signatures 
+ Custom Application IDs and Signatures 
 
  Reference 
-
- Release Notes 
 
  Previous 
 
@@ -285,110 +229,4 @@ Signatures , enter the Threat ID you created, and Enable it.
 
  Next 
 
- Create a Combination Signature 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Custom Application IDs and Threat Signatures 
-
- Custom Signatures 
-
- Advanced Threat Prevention 
-
- Threat Prevention 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Create a Combination Signature

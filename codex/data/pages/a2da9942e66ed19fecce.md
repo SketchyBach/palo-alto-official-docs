@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/get-started/understand-license-plans
-fetched_at: 2026-09-06T09:52:33Z
+fetched_at: 2026-09-16T08:44:25Z
 source: cortex-platform
 ---
 
@@ -233,6 +233,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Data retention 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

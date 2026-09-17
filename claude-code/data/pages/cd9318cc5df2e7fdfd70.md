@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-api/compliance-controls/assessment-profiles
-fetched_at: 2026-09-06T10:54:55Z
+fetched_at: 2026-09-16T09:03:42Z
 source: cortex-platform
 ---
 
@@ -651,6 +651,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Assessment Results 
 
- Last updated 1 month ago 
+ Last updated 5 days ago 
 
  Was this helpful?

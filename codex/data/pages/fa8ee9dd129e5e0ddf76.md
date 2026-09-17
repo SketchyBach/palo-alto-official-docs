@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xql-command-reference-guide/readme/functions/stddev_sample_with_comp_stage
-fetched_at: 2026-09-06T10:58:35Z
+fetched_at: 2026-09-16T09:05:20Z
 source: cortex-platform
 ---
 
@@ -167,6 +167,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next stddev_sample (windowcomp) 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

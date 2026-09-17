@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/cases-and-issues-configuration/create-issue-exceptions/create-an-exception-rule-from-an-issue
-fetched_at: 2026-09-06T10:18:16Z
+fetched_at: 2026-09-16T08:50:57Z
 source: cortex-platform
 ---
 

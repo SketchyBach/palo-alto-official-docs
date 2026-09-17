@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/agentic-assistant-chat/agentic-assistant-chat/chat-with-the-agentic-assistant-from-slack
-fetched_at: 2026-09-06T09:57:01Z
+fetched_at: 2026-09-16T08:45:09Z
 source: cortex-platform
 ---
 
@@ -105,7 +105,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous Chat with an Agentic Assistant agent 
 
- Next Create and run XQL queries with Agentic Assistant chat 
+ Next Streamline troubleshooting and support with the Help Center agent 
 
  Last updated 2 months ago 
 

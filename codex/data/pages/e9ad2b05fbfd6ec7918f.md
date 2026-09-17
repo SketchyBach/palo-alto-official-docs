@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xpanse/onboard-and-configure-cortex-xpanse
-fetched_at: 2026-09-06T10:52:19Z
+fetched_at: 2026-09-16T08:59:05Z
 source: cortex-platform
 ---
 
@@ -25,6 +25,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Onboarding checklist 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

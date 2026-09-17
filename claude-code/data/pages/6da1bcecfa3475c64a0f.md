@@ -1,0 +1,64 @@
+---
+url: https://docs.prismacloud.io/admin-guide/web-application-and-api-security-waas/waas-explorer
+fetched_at: 2026-09-16T13:36:30Z
+source: prisma-cloud
+---
+
+# WAAS explorer | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Compute Edition 
+
+ Admin Guide 
+
+ 34 
+
+ Web-Application and API Security (WAAS) 
+
+ WAAS explorer 
+
+ WAAS explorer provides an overview of web application’s security posture, protection coverage, usage stats and insights. This dashboard is not intended to replace WAAS built in analytics for investigating incidents and request details. 
+
+ To use the WAAS Explorer, your Defenders must be running version 22.01 or later. With earlier versions of Defender, the WAAS Explorer dashboard may have errors due to incomplete or missing data. 
+
+ Web protection coverage 
+
+ Web protection coverage provides an overview of the web application and API currently running in the deployment with the following breakdowns: 
+
+ Protection coverage 
+
+ Vulnerabilities in unprotected web apps 
+
+ Enable WAAS protection on vulnerable web apps to detect threats and mitigate exploitation attempts. 
+
+ Activity overview 
+
+ The Activity overview shows daily counts of requests and protection triggers. Policy changes to WAAS are also noted on the date they occurred. 
+
+ WAAS overview 
+
+ WAAS overview provides more information about the value WAAS provided - the total amount of traffic inspected, the protections currently in use, and the overall count of triggers, according to type and effect. 
+
+ Event traffic sources 
+
+ Using this section, users are able to easily identify attacked images and hosts in their deployment as well as where legitimate traffic and attacks originate from. Users can filter the results based on countries or image names, to obtain a comprehensive overview of attacked images - WAAS events, identified vulnerabilities, and runtime forensics. 
+
+ OWASP top 10 summary 
+
+ WAAS explorer displays event summaries for OWASP Top-10 and OWASP Top-10 API risks. 
+
+ Insights 
+
+ Waas Explorer insights reveal security posture gaps that need to be addressed. 
+
+ Previous WAAS Sanity Tests 
+
+ Next App firewall 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

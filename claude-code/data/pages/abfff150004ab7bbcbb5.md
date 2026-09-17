@@ -1,0 +1,208 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/panorama/administration/troubleshooting/recover-managed-device-connectivity-to-panorama.html
+fetched_at: 2026-09-16T12:45:17Z
+source: palo-alto-main
+---
+
+# Recover Managed Device Connectivity to Panorama Clear
+
+Updated on 
+
+ Aug 7, 2026 
+
+ Focus 
+
+ Home 
+
+ Panorama 
+
+ Troubleshooting 
+
+ Recover Managed Device Connectivity to Panorama 
+
+ Download PDF 
+
+ Panorama 
+
+ Recover Managed Device Connectivity to Panorama 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Panorama Docs 
+
+ Getting Started 
+
+ Administration 
+
+ New Features 
+
+ Previous 
+
+ Generate a Stats Dump File for a Managed Firewall 
+
+ Next 
+
+ Restore an Expired Device Certificate 
+
+ Recover Managed Device Connectivity to Panorama 
+
+ Recover the managed firewall, Dedicated Log Collector,
+or WildFire appliance connection to the Panorama management server. 
+
+ PAN-OS 10.1 introduced the device registration authentication
+key to securely onboard managed firewalls, Dedicated Log
+Collectors, and WildFire appliance to the Panorama™ management server.
+The steps below describe how to recover the managed device connectivity
+to Panorama in the following scenarios: 
+
+ If a managed
+device disconnects from Panorama without reason and is not able to
+reconnect. 
+
+ You experience firewall connectivity issues even after completing an SC3
+ certificate migration when transitioning firewall management from a Panorama
+ running PAN-OS 10.2 or later release to a different Panorama running PAN-OS 10.2
+ or a later release. 
+
+ If you reset Panorama or the managed firewall to factory default settings but the
+managed firewall is unable to connect to Panorama. 
+
+ Recovering the managed device connectivity to Panorama applies only to managed devices that are
+ running PAN-OS 10.1 or later release when onboarded to Panorama. The behavior
+ described does not apply to managed devices running PAN-OS 10.0 and earlier releases
+ or managed devices that were upgraded to PAN-OS 10.1 or later release while already
+ managed by Panorama. 
+
+ The following firewall platforms are not
+impacted by the described connectivity issues to Panorama. 
+
+ Managed
+firewalls onboarded to Panorama using Zero Touch Provisioning (ZTP). 
+
+ CN-Series firewalls. 
+
+ Managed firewalls deployed on VMware NSX. 
+
+ VM-Series firewalls purchases from a public hypervisor marketplace.
+See PAYG firewalls for more
+information. 
+
+ Reset the secure connection state of the managed
+device. 
+
+ Log in to the managed device CLI. 
+
+ Log in to the firewall CLI . 
+
+ Log in to the Dedicated
+ Log Collector CLI . 
+
+ Log in to the WildFire appliance
+CLI . 
+
+ Reset the secure connection state. 
+
+ This command resets the managed device connection
+and is irreversible. 
+
+ admin> request sc3 reset 
+
+ Restart the management server on the managed device. 
+
+ admin> debug software restart process management-server 
+
+ Clear the secure connection state a managed device on
+Panorama and generate a new device registration authentication key. 
+
+ Clearing the secure connection state
+for a managed device on Panorama is irreversible. This means that
+the managed device is disconnect and must be added back to Panorama. 
+
+ Log in to the Panorama
+ CLI . 
+
+ Reset the secure connection state of a managed device
+on Panorama. 
+
+ This command resets the managed device connection
+to Panorama and is irreversible. 
+
+ admin> clear device-status deviceid <device_SN> 
+
+ Where <device_SN> is
+the serial number of the managed device you want to clear the connection
+state for. 
+
+ Create a new device registration authentication key
+on Panorama. 
+
+ admin> request authkey add devtype <fw_or_lc) count <device_count> lifetime <key_lifetime> name <key_name> serial <device_SN> 
+
+ The devtype and serial arguments
+are optional. Omit these two arguments to make a general use device
+registration authentication key that is not specific to a device
+type or device serial number. 
+
+ Verify the device registration authentication key you created are
+ successfully created. 
+
+ admin> request authkey list * 
+
+ Make note of the key Name . The key
+ Name is required to obtain the
+ device registration authentication key required for onboarding. 
+
+ Copy the device registration authentication
+ Key value. 
+
+ admin> request authkey list <key_name> 
+
+ Add the device registration authentication key you created
+to the managed device. 
+
+ Log in to the managed device CLI. 
+
+ Log in to the firewall CLI . 
+
+ Log in to the Dedicated
+ Log Collector CLI. 
+
+ Log in to the WildFire appliance
+CLI . 
+
+ Add the device registration authentication key you
+created in the previous step. 
+
+ admin> request authkey set <auth_key> 
+
+ For <auth_key> ,
+enter the Key value you copied in the
+previous step. 
+
+ Verify the managed device connectivity to Panorama. 
+
+ admin> show panorama-status 
+
+ Verify
+that the Panorama server Connected status
+displays yes . 
+
+ If this procedure
+does not resolve the connectivity issue for your managed device,
+you must contact Palo Alto Networks Customer
+Support for further assistance as a full reset of all managed
+device connections on Panorama may be required. 
+
+ Previous 
+
+ Generate a Stats Dump File for a Managed Firewall 
+
+ Next 
+
+ Restore an Expired Device Certificate

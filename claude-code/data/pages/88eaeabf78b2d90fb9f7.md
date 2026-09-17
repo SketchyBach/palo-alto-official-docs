@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/aws-ssm-send-command-attempt
-fetched_at: 2026-09-06T11:01:05Z
+fetched_at: 2026-09-16T09:06:55Z
 source: cortex-platform
 ---
 

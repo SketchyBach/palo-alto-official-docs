@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/endpoint-security/install-and-manage-endpoints/set-up-endpoint-protection/set-up-endpoint-profiles-and-exception-rules/set-up-exception-profiles-and-rules/add-a-legacy-exception-rule
-fetched_at: 2026-09-06T09:48:16Z
+fetched_at: 2026-09-16T08:44:03Z
 source: cortex-platform
 ---
 

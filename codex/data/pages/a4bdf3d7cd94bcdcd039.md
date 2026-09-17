@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-to-cloud/code-to-cloud/troubleshooting
-fetched_at: 2026-09-06T10:11:48Z
+fetched_at: 2026-09-16T08:49:03Z
 source: cortex-platform
 ---
 

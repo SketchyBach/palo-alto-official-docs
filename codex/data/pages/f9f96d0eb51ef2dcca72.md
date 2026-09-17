@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/playbook-design-guide/playbook-design-guide/playbook-task-fields/communication-tasks/create-an-ask-task/customize-an-ask-task
-fetched_at: 2026-09-06T10:50:49Z
+fetched_at: 2026-09-16T08:58:37Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/dashboards-and-reports/monitor-dashboards-and-reports/manage-dashboards-and-reports/change-ownership-to-dashboards-and-report-templates
-fetched_at: 2026-09-06T09:57:09Z
+fetched_at: 2026-09-16T08:45:03Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/kubernetes-pod-created-with-host-process-id-pid-namespace
-fetched_at: 2026-09-06T11:04:36Z
+fetched_at: 2026-09-16T09:07:18Z
 source: cortex-platform
 ---
 

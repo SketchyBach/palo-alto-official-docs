@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/configure-cortex-xsoar/incident-configuration/pre-process-rules
-fetched_at: 2026-09-06T10:33:07Z
+fetched_at: 2026-09-16T08:54:39Z
 source: cortex-platform
 ---
 
@@ -191,6 +191,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Use post-processing scripts in an incident 
 
- Last updated 1 hour ago 
+ Last updated 9 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xdr-3-api/cortex-xdr-3.x-apis/lookup-datasets
-fetched_at: 2026-09-06T10:55:29Z
+fetched_at: 2026-09-16T09:03:56Z
 source: cortex-platform
 ---
 

@@ -1,0 +1,95 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/fedramp/autonomous-dem.html
+fetched_at: 2026-09-16T09:16:32Z
+source: palo-alto-main
+---
+
+# Autonomous DEM for FedRAMP Clear
+
+Updated on 
+
+ Wed Sep 04 15:52:49 PDT 2024 
+
+ Focus 
+
+ Home 
+
+ FedRAMP 
+
+ Autonomous DEM for FedRAMP 
+
+ Download PDF 
+
+ FedRAMP 
+
+ Autonomous DEM for FedRAMP 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ FedRAMP Docs 
+
+ Reference 
+
+ Autonomous DEM 
+
+ Autonomous DEM for FedRAMP 
+
+ Welcome to Autonomous DEM for FedRAMP. This book describes the version of Palo Alto Networks Autonomous DEM
+ that is certified for use in FedRAMP Moderate and High "In Process" environments.
+
+ If you are using the Strata Cloud Manager user interface, see
+ the AI-Powered ADEM Administrator's Guide . 
+
+ Autonomous Digital Experience Management (ADEM) is a service that provides native, end-to-end
+ visibility and performance metrics for real application traffic in your Secure Access Service
+ Edge (SASE) environment. Autonomous DEM functionality
+ is natively integrated into the GlobalProtect app,
+ Prisma SD-WAN device, and Prisma Access and therefore does not require
+ you to deploy any additional appliances or agents. Because of this
+ native integration, the ADEM service enables synthetic tests for
+ applications you specify, from the endpoint, from the Prisma SD-WAN
+ device, and from deployed Prisma Access locations in your environment.
+
+ ADEM continuously monitors all the segments from the endpoint to
+ the application for GlobalProtect mobile users and monitors all
+ segments on all WAN paths (active and backup) for Prisma SD-WAN
+ remote sites and identifies baseline metrics for each monitored
+ application. In addition, ADEM provides visibility into any deviations
+ or events that degrade the user experience across each segment between the
+ end user and the application, whether it’s the endpoint, WiFi, LAN,
+ ISP, Prisma Access, or the application (SaaS, IaaS, or data center).
+ ADEM continuously monitors every segment in the service delivery
+ path and provides insights that help you quickly isolate the segment
+ which is causing digital experience problems and simplify remediation.
+
+ Products That Use Autonomous DEM 
+
+ ADEM Monitoring and Tests 
+
+ Get Started with Autonomous DEM 
+
+ Enable ADEM for Your Mobile Users 
+
+ Enable ADEM for Your Remote Sites 
+
+ First Look at Autonomous DEM Dashboards 
+
+ Set up an Autonomous DEM Application Test 
+
+ Manage Autonomous DEM Mobile Users 
+
+ Manage Autonomous DEM Remote Sites 
+
+ Manage Autonomous DEM Agent Upgrades 
+
+ ADEM Self-Serve 
+
+ ADEM Data Collection and Agent Processes 
+
+ Release Updates

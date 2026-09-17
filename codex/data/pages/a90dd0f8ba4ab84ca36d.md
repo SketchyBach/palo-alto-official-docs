@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xpanse-api/get-started-with-cortex-xpanse-apis.md
-fetched_at: 2026-09-06T11:20:20Z
+fetched_at: 2026-09-16T09:13:08Z
 source: cortex-platform
 ---
 

@@ -1,74 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/cloud-ngfw-aws/administration/protect/cloud-ngfw-native-policy-management/x-forwarded-for
-fetched_at: 2026-08-13T15:30:52Z
+fetched_at: 2026-09-15T15:09:11Z
 source: palo-alto-main
 ---
 
 # X-Forwarded-For on Cloud NGFW for AWS Clear
 
-X-Forwarded-For on Cloud NGFW for AWS 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- X-Forwarded-For on Cloud NGFW for AWS 
-
- Updated on 
-
- Tue May 19 03:36:42 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- Français (French) 
-
- Deutsch (German) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Cloud NGFW for AWS Docs 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Tue May 19 03:36:42 PDT 2026 
+ Wed Aug 19 05:21:24 PDT 2026 
 
  Focus 
 
@@ -167,78 +107,4 @@ X-Forwarded-For on Cloud NGFW for AWS
 
  Next 
 
- Create a Prefix List on Cloud NGFW for AWS 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Cloud NGFW for AWS 
-
- Administration 
-
- AWS 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Create a Prefix List on Cloud NGFW for AWS

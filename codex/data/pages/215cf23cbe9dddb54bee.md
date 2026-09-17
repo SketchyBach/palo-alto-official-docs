@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/analyze-and-resolve-cases/resolve-the-case/monitor-and-track-resolution-times
-fetched_at: 2026-09-06T10:04:52Z
+fetched_at: 2026-09-16T08:47:11Z
 source: cortex-platform
 ---
 

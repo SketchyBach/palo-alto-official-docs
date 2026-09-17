@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/demisto-sdk-development-guide/demisto-sdk-guide/demisto-sdk-commands
-fetched_at: 2026-09-06T10:39:10Z
+fetched_at: 2026-09-16T08:55:49Z
 source: cortex-platform
 ---
 
@@ -31,6 +31,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next doc-review 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

@@ -1,68 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/administration/zoom-integration/accessing-zoom-experience-data/zoom-performance-analysis/applications-zoom-integ-global-dist-of-imacted-meetings
-fetched_at: 2026-08-13T15:30:39Z
+fetched_at: 2026-09-15T15:08:48Z
 source: palo-alto-main
 ---
 
 # Global Distribution of Impacted Meetings Clear
 
-Global Distribution of Impacted Meetings 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Global Distribution of Impacted Meetings 
-
- Updated on 
-
- Wed Aug 12 08:13:05 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Wed Aug 12 08:13:05 PDT 2026 
 
@@ -153,60 +97,4 @@ Global Distribution of Impacted Meetings
 
  Next 
 
- Zoom Performance Analysis for Mobile Users 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- SASE 
-
- Administration 
-
- Autonomous DEM 
-
- Prisma SASE 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Zoom Performance Analysis for Mobile Users

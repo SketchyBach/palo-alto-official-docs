@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/onboard-and-configure-cortex-xdr/deployment-steps/step-4-configure-and-deploy-cortex-xdr/cortex-xdr-analytics/configure-cortex-xdr-network-parameters
-fetched_at: 2026-09-06T09:47:48Z
+fetched_at: 2026-09-16T08:43:52Z
 source: cortex-platform
 ---
 
@@ -81,6 +81,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Enable the Analytics Engine and Identity Analytics 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

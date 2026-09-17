@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/detect-investigate-and-respond-to-threats/threat-intel-management/indicator-configuration/customize-indicator-fields-and-types/create-an-indicator-type/indicator-type-profile
-fetched_at: 2026-09-06T10:19:35Z
+fetched_at: 2026-09-16T08:51:20Z
 source: cortex-platform
 ---
 
@@ -121,6 +121,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next File indicators 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

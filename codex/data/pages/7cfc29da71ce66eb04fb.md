@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/upgrade-to-cortex-xdr-5/integrated-cloud-posture-capabilities
-fetched_at: 2026-09-06T09:52:27Z
+fetched_at: 2026-09-16T08:44:24Z
 source: cortex-platform
 ---
 

@@ -1,0 +1,216 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/strata-cloud-manager/getting-started/configuration-scm/manage-configuration-ngfw-and-prisma-access/objects/certificate-management/ngts-scm-integration-overview/renew-certificates-scm.html
+fetched_at: 2026-09-16T09:47:41Z
+source: palo-alto-main
+---
+
+# Renew Certificates Using Next-Gen Trust Security Clear
+
+Updated on 
+
+ Sep 6, 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Cloud Manager 
+
+ Strata Cloud Manager Getting Started 
+
+ Configuration: Strata Cloud Manager 
+
+ Configuration:
+ NGFW and Prisma Access 
+
+ Configuration:
+ Objects 
+
+ Certificate Management 
+
+ Strata Cloud Manager Integration with Next-Gen Trust Security 
+
+ Renew Certificates Using Next-Gen Trust Security 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Strata Cloud Manager 
+
+ Renew Certificates Using Next-Gen Trust Security 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Cloud Manager Docs 
+
+ Activation & Onboarding 
+
+ Subscription & Tenant Management 
+
+ Getting Started 
+
+ AIOps 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Manage Certificates in Next-Gen Trust Security 
+
+ Next 
+
+ Cheat Sheet: Certificate Management with Next-Gen Trust Security 
+
+ Renew Certificates Using Next-Gen Trust Security 
+
+ Renew expiring certificates using Next-Gen Trust Security with enterprise-approved
+ certificate authorities. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Strata Cloud Manager 
+
+ Secure-Flex Credits 
+
+ Superuser role for Strata Cloud Manager Shared Services 
+
+ PKI administrator must configure issuing templates in the Next-Gen Trust Security console and link them to the NGFW application - see Configure a Certificate Authority and Get Started with Integrations 
+
+ Certificate must be in Managed status 
+
+ Certificate renewal through Next-Gen Trust Security generates new certificates using enterprise-approved certificate authorities and cryptographic settings. When you initiate renewal from the Network Trust Security page in Strata Cloud Manager, Next-Gen Trust Security creates a new private key and certificate signing request (CSR) based on your issuing template settings, submits the CSR to a certificate authority, and imports the renewed certificate with its private key back into Strata Cloud Manager. Only managed certificates can be renewed through Next-Gen Trust Security. 
+
+ Your PKI administrator must configure issuing templates in the Next-Gen Trust Security console and link them to the NGFW application. Issuing templates are policies that define cryptographic standards for certificate generation, including key algorithm and length, allowed Subject and SANs, certificate validity period, and extended key usage fields. 
+
+ Verify prerequisites. 
+
+ Ensure the certificate you want to renew has Managed status. If not, see Manage Certificates in Next-Gen Trust Security . 
+
+ Verify that your PKI administrator has configured an issuing template linked to the NGFW application in the Next-Gen Trust Security console. 
+
+ Initiate renewal. 
+
+ Navigate to Insights Security Network Trust Security . 
+
+ Locate the certificate you want to renew in the table. 
+
+ Click Renew in the certificate's row. 
+
+ Monitor renewal progress. 
+
+ The renewal process: 
+
+ Next-Gen Trust Security generates a new private key and CSR based on issuing template settings 
+
+ Next-Gen Trust Security encrypts the private key 
+
+ Submits the CSR to a certificate authority 
+
+ Receives the signed certificate from the CA 
+
+ Imports the certificate and its private key to Strata Cloud Manager 
+
+ The renewal status updates in the certificate table. 
+
+ Push configuration to firewalls. 
+
+ After successful renewal: 
+
+ The certificate in your Strata Cloud Manager configuration updates with the new certificate and private key 
+
+ The imported certificate's trust chain may be different than it was for the previous certificate if the issuer changed 
+
+ The expiration date reflects the new certificate's validity period 
+
+ The certificate remains in Managed status 
+
+ You must manually push the updated configuration to your firewalls to complete the certificate update 
+
+ If you renew a managed certificate manually in Strata Cloud Manager (outside of the Next-Gen Trust Security workflow), the certificate becomes unmanaged. You must re-manage it through the Network Trust Security page to continue using Next-Gen Trust Security renewal capabilities. 
+
+ Troubleshooting Renewal Issues 
+
+ If renewal takes longer than expected or fails: 
+
+ Verify issuing template configuration: 
+
+ Log in to the Next-Gen Trust Security console 
+
+ Navigate to Configuration Certificate Policies Issuing Templates 
+
+ Locate your issuing template in the list 
+
+ Click on the issuing template to open its details 
+
+ Verify the issuing template is linked to the NGFW application:
+
+ Look for the NGFW application in the Linked Applications section 
+
+ If not linked, click Link Application and select NGFW from the list 
+
+ Check that cryptographic settings (key algorithm, Subject and SANs, validity period) are valid 
+
+ Verify certificate authority accessibility: 
+
+ In the Next-Gen Trust Security console, navigate to Configuration Certificate Authorities 
+
+ Locate your certificate authority in the list 
+
+ Check the Status column - it should show Active with a green indicator 
+
+ Click on the CA to view detailed status information 
+
+ To test connectivity:
+
+ In the CA details page, look for a Test Connection or Validate button 
+
+ Click to test that Next-Gen Trust Security can reach the CA 
+
+ Verify the test completes successfully 
+
+ If the test fails or status shows errors, check CA logs for rejection or processing errors 
+
+ Review renewal status: 
+
+ Return to the Network Trust Security page in Strata Cloud Manager 
+
+ Check the renewal status column for error messages 
+
+ If the status shows an error, hover over or click for details 
+
+ Contact support: 
+
+ If issues persist after verification, review the Next-Gen Trust Security troubleshooting documentation 
+
+ Contact your PKI administrator to verify the CA and issuing template configuration 
+
+ For complex issues, open a support case with details about the certificate and error messages 
+
+ Previous 
+
+ Manage Certificates in Next-Gen Trust Security 
+
+ Next 
+
+ Cheat Sheet: Certificate Management with Next-Gen Trust Security

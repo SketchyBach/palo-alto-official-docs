@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xpanse/attack-surface-testing/view-attack-surface-tests
-fetched_at: 2026-09-06T10:52:38Z
+fetched_at: 2026-09-16T08:59:40Z
 source: cortex-platform
 ---
 

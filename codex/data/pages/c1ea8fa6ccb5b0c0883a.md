@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/9.1/cortex-xdr-agent-for-linux/cortex-xdr-agent-for-linux-requirements
-fetched_at: 2026-09-06T10:20:19Z
+fetched_at: 2026-09-16T08:51:36Z
 source: cortex-platform
 ---
 
@@ -152,6 +152,6 @@ selinux-policy-targeted
 
  Next Install the Cortex XDR agent for Linux 
 
- Last updated 6 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

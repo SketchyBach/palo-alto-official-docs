@@ -1,102 +1,20 @@
 ---
 url: https://docs.paloaltonetworks.com/ngfw/new-features/by-version/panos/12-2#48981f093fc3259f7502851e59579c37
-fetched_at: 2026-08-13T16:55:10Z
+fetched_at: 2026-09-16T07:33:27Z
 source: palo-alto-main
 ---
 
-# New Features - PAN-OS - 12.2 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+# New Features - PAN-OS - 12.2 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
 
-New Features - PAN-OS - 12.2 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Next-Generation Firewall Docs 
-
- Getting Started 
-
- Administration 
-
- Networking 
-
- Quick Start 
-
- Reference 
-
- Incidents & Alerts 
-
- Release Notes 
-
- Select a Document 
-
- PAN-OS 12.2 
-
- PAN-OS 12.1 
-
- PAN-OS 11.2 
-
- PAN-OS 11.1 
-
- PAN-OS 11.0 (EoL) 
-
- PAN-OS 10.2 
-
- PAN-OS 10.1 (EoL) 
-
- PAN-OS 10.0 (EoL) 
-
- PAN-OS 9.1 (EoL) 
-
- PAN-OS 9.0 (EoL) 
-
- PAN-OS 8.1 (EoL) 
-
- Help 
-
- Select a Document 
-
- PAN-OS 12.2 
-
- PAN-OS 12.1 
-
- PAN-OS 11.2 
-
- PAN-OS 11.1 
-
- PAN-OS 10.2 
-
- PAN-OS 10.1 
-
- New Features 
-
- Focus 
+Focus 
 
  Home 
 
  Next-Generation Firewall 
 
  New Features - PAN-OS - 12.2 
+
+ Download PDF 
 
  Advanced Threat Prevention Local Deep Learning Support for Command Injection 
 
@@ -126,9 +44,9 @@ New Features - PAN-OS - 12.2
 
  Application Metadata Collection for Device Security 
 
- Release Date: July 2026 
+ Release Date: August 2026 
  | 
- Last Updated: July 2026 
+ Last Updated: August 2026 
 
  You can now apply a metadata profile to each zone on your NGFW to filter the log fields forwarded to Device Security . When you specify a metadata profile, PAN-OS only forwards log data based on the cloud services enabled on your NGFW . This helps bandwidth-constrained sites, such as remote facilities or OT environments, as they only forward log data required by the cloud services instead of excess logs. 
 
@@ -145,6 +63,12 @@ New Features - PAN-OS - 12.2
  Core
 
  July 2026
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
 
  Automatic Certificate Renewal for Passive HA Devices 
 
@@ -246,9 +170,9 @@ New Features - PAN-OS - 12.2
 
  Configuration Improvements for Subscriber-ID and Equipment-ID 
 
- Release Date: July 2026 
+ Release Date: August 2026 
  | 
- Last Updated: July 2026 
+ Last Updated: August 2026 
 
  PAN-OS introduces Subscriber and Equipment objects , giving firewall administrators a readable, reusable way to reference mobile network identities in security policy — similar to how address objects work for IP-based networks. 
 
@@ -273,6 +197,14 @@ New Features - PAN-OS - 12.2
  July 2026
 
  12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
 
  DHCP Relay over Cellular Interface 
 
@@ -649,6 +581,194 @@ New Features - PAN-OS - 12.2
 
  July 2026
 
+ PA-1500 Series Next-Generation Firewall 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ The PA-1500 Series is Palo Alto Networks' next-generation firewall platform designed for organizations that require high-performance security, integrated networking, and simplified branch infrastructure. It introduces a modern hardware architecture with built-in Layer 2 switching and Power over Ethernet (PoE), allowing customers to consolidate security and access switching into a single 1RU appliance. 
+
+ The PA-1500 Series consists of three models: PA-1510-POE, PA-1520-POE, and PA-1530-POE — each powered by x86 embedded processors. Each platform provides 32 front-panel Ethernet ports with up to 16 PoE-enabled ports supporting IEEE 802.3af/at/bt devices and delivering up to 90W per port. Available PoE power budgets scale from 485W to 724W, enabling support for wireless access points, IP cameras, digital signage, and point-of-sale devices without requiring a separate PoE switch. 
+
+ Integrated Layer 2 switching capabilities, including VLANs, 802.1X Port-Based Network Access Control (PNAC), and MAC-based authentication, reduce branch infrastructure complexity by eliminating the need for a dedicated access switch in many deployments. Zero Touch Provisioning (ZTP) further streamlines remote deployments, allowing sites to be securely brought online with minimal or no local IT involvement. 
+
+ The series delivers 20 to 35 Gbps of App-ID™ throughput and 9 to 27 Gbps of Threat Prevention throughput, providing ample performance headroom for distributed enterprise branches. The PA-1500 Series is managed through PAN-OS®, Panorama™, and Strata Cloud Manager™, enabling consistent policy management and centralized operations across hybrid environments. 
+
+ Hardware
+
+ PA-Series
+
+ August 2026
+
+ 12.2
+
+ PAN-OS
+
+ Core
+
+ August 2026
+
+ 12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ PA-3500 Series Next-Generation Firewalls 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ The PA-3500 Series represents the fifth generation of ML-powered next-generation firewalls within the Strata™ Cybersecurity Portfolio. The PA-3500 Series consists of the PA-3510, PA-3520, PA-3530, and PA-3540 firewalls, and is designed to address growing performance demands at network perimeters, branch offices, and datacenter locations. You can deploy these platforms to secure both North-South and East-West traffic while achieving up to double the threat prevention performance of previous generation models at similar or slightly higher price points. 
+
+ The PA-3500 Series supports multiple interface types to accommodate diverse network requirements. The PA-3510 and PA-3520 provide eight 1Gbps/2.5Gbps/5Gbps/10Gbps RJ-45 copper ports, eight 1Gbps/10Gbps SFP+ fiber ports, eight 25Gbps SFP28 fiber ports, and two 40/100Gbps QSFP+/QSFP28 ports. The PA-3530 and PA-3540 expand this to include twelve 1Gbps/10Gbps SFP+ ports, eight 25Gbps SFP28 ports, and four 40Gbps/100Gbps QSFP+/QSFP28 ports that support breakout configurations. 
+
+ The platforms deliver firewall throughput ranging from 20Gbps to 50Gbps for App-ID™ HTTP traffic and threat prevention throughput from 12Gbps to 30Gbps HTTP across the model range. Maximum session capacity scales from 2 million to 6 million concurrent sessions depending on the specific model you deploy. These platforms utilize a custom ASIC architecture, which integrates flow engine functionality with hardware acceleration for IPsec, MACsec, QoS, and SSL operations. All models support front-to-back airflow and include redundant hot-swappable power supplies with both AC and DC options. 
+
+ You can configure these firewalls for NGFW Clustering to achieve horizontal scaling and redundancy for up to 2 members, while additional members will be available in a future release. The PA-3510 and PA-3520 use dedicated 100Gbps QSFP28 HSCI ports and the PA-3530 and PA-3540 use 100Gbps QSFP28 HSCI ports for inter-cluster communication, eliminating the need for traditional HA1 links. NGFW Clustering provides session synchronization and failover capabilities while maintaining independent control planes on each cluster member. 
+
+ The PA-3500 Series supports the same PAN-OS® software subscriptions as other next-generation firewall platforms, including Advanced Threat Prevention, Advanced URL Filtering, Advanced WildFire, DNS Security, and Enterprise DLP. You configure and manage these firewalls through the standard web interface, CLI, or Panorama® management platform. 
+
+ Hardware
+
+ PA-Series
+
+ August 2026
+
+ 12.2
+
+ PAN-OS
+
+ Core
+
+ August 2026
+
+ 12.2
+
+ PA-50R Series Next-Generation Firewall 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Industrial facilities, transportation infrastructure, and mobile vehicle deployments require network security in environments that exceed the operating specifications of standard firewall appliances. These environments subject the system to temperature extremes, dust, moisture, constant vibration, and fluctuating power systems. Standard firewall appliances designed for climate-controlled data centers and office environments cannot operate reliably under these conditions, leaving critical industrial control systems, manufacturing networks, and mobile assets without adequate security controls. The PA-50R Series addresses these requirements with ruggedized next-generation firewall appliances across extended temperature ranges. 
+
+ The PA-50R Series consists of the PA-52R-5G, PA-54R-POE, PA-54R-POE-D-5G, and PA-56R-POE-5G. These platforms support PAN-OS® versions 12.2 and onwards. The PA-54R-POE provides twelve 1Gbps RJ45 ports with four of them being power over Ethernet (PoE) ports that support a total PoE budget of 150W, as well astwo fiber 1Gbps SFP ports. The PA-54R-POE-D-5G shares the same ports as the PA-54R-POE and also includes two 5G modems operating in active-active mode with dedicated GPS receivers. The dual modem is well suited for mission critical use cases, such as for maintaining connectivity in financial institutions. The PA-56R-POE-5G offers sixteen RJ-45 ports in a 2 RU form factor with a single 5G modem. Lastly, the PA-52R-5G provides eight RJ-45 ports with a 5G modem. Depending on the model, the PA-50R Series firewalls support installation on a DIN rail, rack, or wall. The hardware is designed from the ground up to be mountable in vehicles, including cars, trucks, trains, and planes. 
+
+ The PA-54R-POE, PA-54R-POE-D-5G, and PA-56R-POE-5G deliver 2Gbps of App-ID™ throughput and 1Gbps of threat prevention throughput with support for 200,000 concurrent sessions. The PA-52R-5G provides 1Gbps App-ID throughput and 500 Mbps threat prevention throughput with 64,000 concurrent sessions. Power inputs accept 12 to 48 volts DC for PA-52R-5G and 48 to 125 volts DC for stationary installations with dual input support and automatic failover. The PA-54R and PA-56R have options for both 12-48 and 48-25 volts DC. 
+
+ The cellular interfaces support standard PAN-OS configuration including APN profiles and dual SIM management with active-standby failover on single modem platforms. Zero Touch Provisioning (ZTP) enables automated onboarding over Ethernet interface 1/1 or the cellular interface. The PA-50R Series firewalls can be managed using PAN-OS, Panorama, or Strata Cloud Manager. 
+
+ Hardware
+
+ PA-Series
+
+ August 2026
+
+ 12.2
+
+ PAN-OS
+
+ Core
+
+ August 2026
+
+ 12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ PA-520-5G Next-Generation Firewall 
+
+ Release Date: September 2026 
+ | 
+ Last Updated: September 2026 
+
+ When your enterprise branch loses its wired WAN connection, operations stop — the PA-520-5G eliminates that risk by embedding a 5G Sub-6 GHz cellular modem directly into the compact PA-520 chassis, so you get a built-in backup or primary internet link without adding separate hardware. 
+
+ The PA-520-5G fits enterprise branch, retail, and managed services environments. It delivers 3.0 Gbps App-ID™ throughput, 1.5 Gbps threat prevention, and 150,000 concurrent sessions while adding integrated 5G connectivity through an embedded Sierra EM9293 modem. Dual nano SIM slots operate in active/standby mode, so you can provision two carriers and enable failover if the primary SIM loses signal. 
+
+ You decide how to deploy the cellular interface: as a primary WAN link when no wired connection is available, as a standby backup that activates when the primary fails, or as a secondary link running in parallel with wired WAN. The firewall applies the same security policy across traffic profiles regardless of which interface carries it. 
+
+ Two SFP ports extend your fiber connectivity options, and a built-in fail-to-wire port pair supports inline bypass deployment. Zero Touch Provisioning (ZTP) works over both the cellular and Ethernet interfaces simultaneously, so the firewall can receive its configuration before a wired WAN link is established. You can also upgrade cellular modem firmware over the air, reducing the operational overhead of managing branch deployments at scale. You can manage this firewall using PAN-OS, Panorama, and Strata Cloud Manager. 
+
+ Hardware
+
+ PA-Series
+
+ August 2026
+
+ 12.2
+
+ PAN-OS
+
+ Core
+
+ August 2026
+
+ 12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ Hardware
+
+ PA-Series
+
+ September 2026
+
+ 12.1
+
+ PA-5510, PA-5520, and PA-5530 Next-Generation Firewalls 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ The PA-5510, PA-5520, and PA-5530 are the latest entries in the Strata™ Cybersecurity Portfolio. These ML-powered devices are designed to secure network perimeters and data center environments as well as protect both North-South and East-West traffic flows. You can use these firewalls to replace existing PA-5400 Series deployments, as they provide approximately two times the threat prevention performance of previous generation models at similar or slightly higher price points. This performance improvement allows you to maintain security effectiveness as your network bandwidth requirements increase without proportional increases in hardware costs. 
+
+ These platforms deliver threat prevention throughput ranging from 40Gbps on the PA-5510 to 60Gbps on the PA-5530, with App-ID™ performance scaling from 80Gbps to 125Gbps respectively. Each model supports between 8 million and 16 million concurrent sessions, enabling you to handle high-volume traffic environments while maintaining comprehensive security inspection. 
+
+ All PA-5500 Series models occupy 2 rack units and include dual redundant power supplies in either AC or DC configurations. The appliances provide extensive network interface options, including eight 1Gbps/2.5Gbps/5Gbps/10Gbps copper ports, twelve 1Gbps/10Gbps fiber ports, eight 25Gbps fiber ports, and six 40Gbps/100Gbps fiber ports. Two of the 100Gbps ports support breakout configurations to 4x10Gbps or 4x25Gbps, giving you flexibility in network connectivity. The platforms also include one management port and one logging interface. 
+
+ You can implement hardware offload capabilities on these platforms to achieve L4 forwarding performance of up to 400Gbps per system. The platforms include hardware acceleration for IPsec VPN with support for up to 100Gbps throughput, MACsec encryption, quality of service functions, and SSL processing. These offload features enable you to deploy encryption and traffic management without significantly impacting overall throughput. 
+
+ The PA-5510, PA-5520, and PA-5530 support both traditional active-passive high availability configurations and NGFW clustering deployments. In clustering mode, you can deploy up to two nodes, while more nodes will be available in a future release. The platforms include two dedicated 100Gbps high-speed chassis interconnect ports that support connections up to 2 kilometers, enabling you to distribute cluster members across multiple data center locations or buildings. 
+
+ The systems support zero-touch provisioning for automated deployment and include AI Ops capabilities for operational monitoring. The PA-5510, PA-5520, and PA-5530 have access to the same subscription services available on previous platforms, including Advanced Threat Prevention, Advanced URL Filtering, Advanced WildFire®, DNS Security, Data Loss Prevention, and Prisma Access. 
+
+ Hardware
+
+ PA-Series
+
+ August 2026
+
+ 12.2
+
+ PAN-OS
+
+ Core
+
+ August 2026
+
+ 12.2
+
  PAN-OS Shield Support for Vulnerability Protection 
 
  Release Date: July 2026 
@@ -681,15 +801,17 @@ New Features - PAN-OS - 12.2
 
  Release Date: July 2026 
  | 
- Last Updated: July 2026 
+ Last Updated: August 2026 
 
- You can now prevent legitimate traffic from being silently dropped when it matches a stale discard session that never ages out. When enabled, the no-refresh-on-discard session setting freezes the timeout for discarded UDP and connectionless protocol sessions, allowing them to expire naturally instead of being perpetually refreshed by incoming traffic. 
+ You can now prevent legitimate traffic from being silently dropped when it matches a stale discard session that never ages out. When enabled, the no-refresh-on-discard session setting stops discarded UDP sessions from being refreshed by incoming traffic, allowing them to expire naturally on their discard timeout. 
 
- Previously, when the firewall placed a UDP session in a DISCARD state, any subsequent packet matching the same 6-tuple would reset the session timeout, preventing the session from expiring. Because connectionless protocols such as UDP, GRE, and ESP do not establish unique tuples for each new connection, legitimate traffic that reused the same source and destination addresses was silently blackholed by the stale discard session. This behavior caused intermittent and difficult-to-diagnose disruptions across multiple protocols and scenarios, including DHCP sessions after tunnel restoration, RADIUS authentication requests, GRE tunnel traffic after security policy changes, and SIP sessions discarded due to resource exhaustion. 
+ Previously, when the firewall placed a UDP session in a DISCARD state, any subsequent packet matching the same 6-tuple would reset the session timeout, preventing the session from expiring. Because UDP is connectionless and reuses the same source and destination ports, a continuously talking source could keep a discarded session alive indefinitely. Legitimate traffic that later reused the same 6-tuple was silently dropped until the discard session was cleared manually. This behavior caused intermittent and difficult-to-diagnose disruptions across multiple scenarios, including DNS sinkholing with repetitive internal server requests, DHCP and SIP sessions after a tunnel or route goes down, RADIUS authentication requests, and GRE tunnel traffic after security policy changes. 
 
- You enable this setting using the CLI command set session no-refresh-on-discard yes . The setting is disabled by default to maintain backward compatibility. When enabled, the firewall freezes the timeout for discard sessions triggered by specific validated scenarios, allowing the session to age out so that subsequent valid traffic can establish a new session and be processed normally. TCP sessions are not affected because TCP's connection-oriented state machine naturally mitigates this issue through connection resets. 
+ You enable this setting using the CLI command set session no-refresh-on-discard yes . This is an operational setting that is not part of the saved configuration; it persists across reboots and must be set on each firewall independently, including both peers in an HA pair. TCP sessions are not affected because a new TCP connection uses a new source port and therefore a new session, so a stale discard session simply times out on its own. 
 
  PAN-OS
+
+ Core
 
  July 2026
 
@@ -767,7 +889,7 @@ New Features - PAN-OS - 12.2
 
  TLSv1.3 Support for Authentication Portal 
 
- Release Date: July 2026 
+ Release Date: August 2026 
  | 
  Last Updated: August 2026 
 
@@ -782,6 +904,14 @@ New Features - PAN-OS - 12.2
  July 2026
 
  12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
 
  Thales Luna HSM Client 10.9.2 Support 
 
@@ -808,99 +938,3 @@ New Features - PAN-OS - 12.2
  July 2026
 
  12.2
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.

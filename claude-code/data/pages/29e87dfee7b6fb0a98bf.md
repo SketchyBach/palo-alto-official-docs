@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/generic-on-premise-data-collectors/broker-vm-data-collector-applets/activate-apache-kafka-collector
-fetched_at: 2026-09-06T10:00:49Z
+fetched_at: 2026-09-16T08:46:11Z
 source: cortex-platform
 ---
 

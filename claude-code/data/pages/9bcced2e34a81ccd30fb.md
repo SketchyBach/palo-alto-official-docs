@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/ldap-traffic-from-non-standard-process
-fetched_at: 2026-09-06T11:04:45Z
+fetched_at: 2026-09-16T09:07:20Z
 source: cortex-platform
 ---
 

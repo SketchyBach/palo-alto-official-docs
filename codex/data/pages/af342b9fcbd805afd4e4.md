@@ -1,73 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/best-practices/zero-trust-best-practices/zero-trust-best-practices/the-five-step-methodology/step-1-asset-discovery-and-prioritization
-fetched_at: 2026-08-13T15:30:35Z
+fetched_at: 2026-09-15T15:09:07Z
 source: palo-alto-main
 ---
 
 # Step 1: Asset Discovery and Prioritization Clear
 
-Step 1: Asset Discovery and Prioritization 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Best Practices Implementing Zero Trust with Palo Alto Networks 
-
- : 
- Step 1: Asset Discovery and Prioritization 
-
- Updated on 
-
- Fri Jan 26 17:49:21 PST 2024 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand all | Collapse all 
-
- Zero Trust Best Practices 
-
- What Is Zero Trust and Why Do I Need It? 
-
- High-Level Zero Trust Best Practice Concepts 
-
- How Do I Start My Zero Trust Implementation? 
-
- The Five Steps to Approaching Zero Trust 
-
- Step 1: Asset Discovery and Prioritization 
-
- Step 2: Map and Verify Transactions 
-
- Step 3: Standards and Designs 
-
- Step 4: Implementation 
-
- Step 5: Report and Maintenance 
-
- Zero Trust Resources 
-
- Updated on 
-
- Fri Jan 26 17:49:21 PST 2024 
+ Jan 26, 2024 
 
  Focus 
 
@@ -220,6 +161,4 @@ load balancers, servers, etc.) automatically.
 
  Next 
 
- Step 2: Map and Verify Transactions 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Step 2: Map and Verify Transactions

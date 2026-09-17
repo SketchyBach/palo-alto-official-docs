@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/broker-vm/set-up-and-configure-broker-vm/broker-vm-image-installations/set-up-broker-vm-on-microsoft-azure
-fetched_at: 2026-09-06T09:49:46Z
+fetched_at: 2026-09-16T08:44:14Z
 source: cortex-platform
 ---
 
@@ -276,6 +276,6 @@ Additional fields are displayed, which you can define as follows:
 
  Next Set up Broker VM on Microsoft Hyper-V 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

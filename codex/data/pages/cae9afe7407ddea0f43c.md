@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/release-notes/ai-powered-adem-release-notes/release-updates-release-notes-doc/known-issues-adem
-fetched_at: 2026-08-13T15:26:56Z
+fetched_at: 2026-09-15T15:08:37Z
 source: palo-alto-main
 ---
 
 # Known Issues— ADEM Agent for Mobile Users  Clear
 
-Known Issues— ADEM Agent for Mobile Users 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Known Issues— ADEM Agent for Mobile Users 
-
- Updated on 
-
- Fri Jul 17 06:27:09 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Fri Jul 17 06:27:09 PDT 2026 
+ Fri Aug 21 00:26:50 PDT 2026 
 
  Focus 
 
@@ -112,7 +56,7 @@ Known Issues— ADEM Agent for Mobile Users
 
  Previous 
 
- What’s New—Autonomous DEM 
+ Release Updates 
 
  Next 
 
@@ -137,6 +81,18 @@ Known Issues— ADEM Agent for Mobile Users
  GlobalProtect or Prisma Access Agent license 
 
  Here are the issues we’re currently working on. 
+
+ Autonomous DEM Agent 6.0 
+
+ Autonomous DEM (ADEM) now supports ARM64-based Windows devices. All monitoring
+ capabilities available on x64 Windows are fully supported on ARM64, including
+ synthetic monitoring, real user monitoring, application performance insights, and
+ End User Coaching. 
+
+ Known Issues 
+
+ There are no known issues for this release. For the list of new features released,
+ see the New Features section. 
 
  Autonomous DEM Agent 5.10 
 
@@ -387,62 +343,8 @@ Known Issues— ADEM Agent for Mobile Users
 
  Previous 
 
- What’s New—Autonomous DEM 
+ Release Updates 
 
  Next 
 
- Known Issues— ADEM Agent for Prisma SD-WAN Remote Sites 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- SASE 
-
- Release Notes 
-
- Autonomous DEM 
-
- Prisma SASE 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Known Issues— ADEM Agent for Prisma SD-WAN Remote Sites

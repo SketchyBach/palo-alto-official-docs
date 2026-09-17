@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-api/aspm-cicd-and-application-security/rules
-fetched_at: 2026-09-06T10:55:59Z
+fetched_at: 2026-09-16T09:04:00Z
 source: cortex-platform
 ---
 
@@ -1223,6 +1223,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next SBOM Management 
 
- Last updated 12 hours ago 
+ Last updated 10 days ago 
 
  Was this helpful?

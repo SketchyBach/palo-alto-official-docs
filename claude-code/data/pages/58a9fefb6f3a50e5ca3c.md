@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/an-aws-eks-cluster-was-created-or-deleted
-fetched_at: 2026-09-06T11:00:01Z
+fetched_at: 2026-09-16T09:06:11Z
 source: cortex-platform
 ---
 

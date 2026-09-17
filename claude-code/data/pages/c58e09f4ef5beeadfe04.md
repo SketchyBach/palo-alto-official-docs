@@ -1,64 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/strata-logging-service/administration/monitoring/troubleshooting-disconnected-firewalls
-fetched_at: 2026-08-13T17:39:52Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:51:33Z
+source: strata-and-sase
 ---
 
 # Troubleshooting Firewall Connectivity Clear
 
-Troubleshooting Firewall Connectivity 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Troubleshooting Firewall Connectivity 
-
- Updated on 
-
- Jul 9, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Strata Logging Service Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Release Notes 
-
- Log Reference 
-
- New Features 
-
- Updated on 
-
- Jul 9, 2026 
+ Aug 19, 2026 
 
  Focus 
 
@@ -332,96 +282,4 @@ but Logging Rate is Zero
 
  Next 
 
- View Logs in Strata Logging Service 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Identity and Access Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Administration 
-
- Strata Logging Service 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ View Logs in Strata Logging Service

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.6/configure-cortex-xsoar/incident-configuration/incident-customization/create-an-incident-field
-fetched_at: 2026-09-06T11:26:36Z
+fetched_at: 2026-09-16T09:14:38Z
 source: cortex-platform
 ---
 
@@ -301,6 +301,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Incident field trigger scripts 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

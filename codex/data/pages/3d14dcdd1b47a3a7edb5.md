@@ -1,0 +1,228 @@
+---
+url: https://docs.paloaltonetworks.com/hardware/pa-500-hardware-reference/pa-500-series-firewall-overview/pa-500-series-firewall-components/pa-501-pa-505-components
+fetched_at: 2026-09-16T08:20:32Z
+source: palo-alto-main
+---
+
+# PA-501 and PA-505 Clear
+
+Updated on 
+
+ Mon Aug 24 11:54:13 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-500 Series Hardware Reference 
+
+ PA-500 Series Firewall Overview 
+
+ PA-500 Series Firewall Components 
+
+ PA-501 and PA-505 
+
+ Download PDF 
+
+ PA-500 Series Hardware Reference 
+
+ PA-501 and PA-505 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Compliance 
+
+ Safety Warnings 
+
+ Safety Warnings (French) 
+
+ Regulatory Statements 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-500 Series Firewall Overview 
+
+ PA-500 Series Firewall Components 
+
+ PA-501 and PA-505 
+
+ PA-510 
+
+ PA-520 and PA-540 
+
+ PA-520-5G 
+
+ PA-550 and PA-560 
+
+ PA-545-POE and PA-555-POE 
+
+ PA-500 Series Firewall Installation 
+
+ Install the PA-500 Series Firewall on a Wall 
+
+ Install the PA-500 Series Firewall in an Equipment Rack 
+
+ PAN-1RU-4POST-RACK-10 
+
+ PAN-1RU-4POST-RACK-11 
+
+ PAN-1RU-4POST-RACK-12 
+
+ PAN-1RU-4POST-RACK-16 
+
+ PAN-2RU-2POST-RACK-17 
+
+ Set Up a Connection to the PA-500 Series Firewall 
+
+ Connect Power to the PA-500 Series Firewall 
+
+ Install Antennas on the PA-520-5G Firewall 
+
+ Insert or Replace a SIM Card in a PA-500 Series 5G Firewall 
+
+ PA-500 Series Firewall Maintenance 
+
+ PA-500 Series Firewall LED Definitions 
+
+ Replace a PA-500 Series Firewall Power Supply 
+
+ Insert or Replace a SIM Card in a PA-500 Series 5G Firewall 
+
+ PA-500 Series Firewall Specifications 
+
+ PA-500 Series Firewall Physical Specifications 
+
+ PA-500 Series Firewall Electrical Specifications 
+
+ PA-500 Series Firewall Environmental Specifications 
+
+ PA-500 Series Firewall Antenna Specifications 
+
+ PA-500 Series Firewall Miscellaneous Specifications 
+
+ PA-501 and PA-505 
+
+ View the front and back panel components of the PA-501 and PA-505
+ firewalls. 
+
+ The following image shows the front panel
+ of the PA-501 and PA-505 , which have the
+ same front panel components ( PA-505 pictured ) . The table describes
+ each front panel component. 
+
+ Item Component Description 
+
+ 1 
+
+ LED Status Indicators 
+
+ Three LEDs that indicate the status of the firewall hardware
+ components (see PA-500 Series Firewall LED Definitions ). 
+
+ 2 
+
+ Console Port 
+
+ Use this port to connect a management computer to the firewall using
+ a 9-pin serial to RJ-45 cable and terminal emulation software. 
+
+ The console connection provides access to firewall boot messages, the
+ Maintenance Recovery Tool (MRT), and the command line interface
+ (CLI). 
+
+ If your management computer does not have a serial port, use a
+ USB-to-serial converter. 
+
+ Use the following settings to configure your terminal emulation
+ software to connect to the console port: 
+
+ Data rate: 9600 
+
+ Data bits: 8 
+
+ Parity: none 
+
+ Stop bits: 1 
+
+ Flow control: None 
+
+ 3 
+
+ USB Ports 
+
+ Two USB ports for debugging and administration only. Use one of the
+ two ports to bootstrap the firewall. 
+
+ Bootstrapping enables you to provision the firewall with a specific
+ PAN-OS configuration and then license it and make it operational on
+ your network. 
+
+ 4 
+
+ RJ-45 Ports 
+
+ Management Port 
+
+ One Ethernet10/100/1000Mbps port (the top-left port) that is used to
+ access the management web interface and perform administrative
+ tasks. The firewall also uses this port for management services,
+ such as retrieving licenses and updating threat and application
+ signatures. 
+
+ Ethernet Ports 
+
+ Seven RJ-4510/100/1000Mbps ports for network traffic.You can set the
+ link speed and duplex mode or choose autonegotiate. 
+
+ The following image shows the back panel of the PA-501 and PA-505 , which have the same
+ back panel components ( PA-505 pictured ) . The table describes each back
+ panel component. 
+
+ Item Component Description 
+
+ 1 
+
+ Power Adapter Input 
+
+ Use the power input to connect power to the firewall. The PA-505
+ ships with one 25W power adapter. 
+
+ 2 
+
+ Ground Stud 
+
+ Use the single post ground stud to connect the firewall to earth
+ ground (ground cable not included). 
+
+ 3 
+
+ Power Cord Retainer 
+
+ Use the power cord retainer to secure the power cord. 
+
+ 4 
+
+ QR Code 
+
+ Scan the QR code to access product and ZTP onboarding
+ information. 
+
+ Previous 
+
+ PA-500 Series Firewall Components 
+
+ Next 
+
+ PA-510

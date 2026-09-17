@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/software-supply-chain-security/visibililty-and-inventory/supply-chain-assets/repository-as-an-asset/manage-repository-assets-through-the-tenant-ui/investigate-repository-assets
-fetched_at: 2026-09-06T10:12:27Z
+fetched_at: 2026-09-16T08:49:11Z
 source: cortex-platform
 ---
 
@@ -127,6 +127,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Reference: Repositories asset attributes 
 
- Last updated 25 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

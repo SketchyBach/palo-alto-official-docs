@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-data-source/aws-audit-log
-fetched_at: 2026-09-06T11:10:41Z
+fetched_at: 2026-09-16T09:08:57Z
 source: cortex-platform
 ---
 

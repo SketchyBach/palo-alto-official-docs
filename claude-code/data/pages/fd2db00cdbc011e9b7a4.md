@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/onboard-and-configure/fedramp-onboarding/cortex-cloud-federal-compliance
-fetched_at: 2026-09-06T10:51:32Z
+fetched_at: 2026-09-16T08:58:44Z
 source: cortex-platform
 ---
 

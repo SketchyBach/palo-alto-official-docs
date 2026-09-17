@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/configure-cortex-xsoar/playbooks/develop-your-playbook/task-3.-add-tasks/create-a-section-header
-fetched_at: 2026-09-06T10:30:36Z
+fetched_at: 2026-09-16T08:54:06Z
 source: cortex-platform
 ---
 
@@ -83,6 +83,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create a standard task 
 
- Last updated 3 hours ago 
+ Last updated 9 days ago 
 
  Was this helpful?

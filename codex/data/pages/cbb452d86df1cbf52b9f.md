@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/investigation-and-response/build-xql-queries/query-builder-templates
-fetched_at: 2026-09-06T09:32:59Z
+fetched_at: 2026-09-16T08:35:50Z
 source: cortex-platform
 ---
 
@@ -47,6 +47,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Get started with Query Builder templates 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

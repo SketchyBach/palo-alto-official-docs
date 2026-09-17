@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam-developer-guide/cortex-xsiam-development-guide/testing
-fetched_at: 2026-09-06T10:58:14Z
+fetched_at: 2026-09-16T09:04:51Z
 source: cortex-platform
 ---
 

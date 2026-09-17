@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security/appsec-objectives-with-agentix
-fetched_at: 2026-09-06T10:11:43Z
+fetched_at: 2026-09-16T08:49:02Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/beyondtrust/beyondtrust-privilege-management-cloud/ingest-logs-from-beyondtrust-privilege-management-cloud
-fetched_at: 2026-09-06T09:22:24Z
+fetched_at: 2026-09-16T07:57:05Z
 source: cortex-platform
 ---
 
@@ -71,6 +71,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next BeyondTrust 
 
- Last updated 25 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cortex-cloud-identity-security/ingest-logs-and-data-from-okta
-fetched_at: 2026-09-06T09:35:18Z
+fetched_at: 2026-09-16T08:36:41Z
 source: cortex-platform
 ---
 
@@ -155,6 +155,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Enable inactive human identity logs on Azure in Cloud Identity Security 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/ipstack/ipstack
-fetched_at: 2026-09-06T09:24:07Z
+fetched_at: 2026-09-16T08:22:16Z
 source: cortex-platform
 ---
 
@@ -47,6 +47,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Ironscales 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

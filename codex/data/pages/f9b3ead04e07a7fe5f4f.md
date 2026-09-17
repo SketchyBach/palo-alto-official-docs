@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/data-management/broker-vm/broker-vm-high-availability-cluster/manage-broker-vm-clusters/add-applet-to-cluster
-fetched_at: 2026-09-06T09:20:34Z
+fetched_at: 2026-09-16T07:56:09Z
 source: cortex-platform
 ---
 
@@ -27,7 +27,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Manage Broker VM clusters 
 
- Cortex XSIAM 
+ Cortex XSIAM Data Ingestion 
 
  Add applet to cluster 
 

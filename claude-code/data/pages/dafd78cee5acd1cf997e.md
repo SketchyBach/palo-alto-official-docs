@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-android-guide/9.0/configure-and-view-settings-for-the-cortex-xdr-agent-app-for-android
-fetched_at: 2026-09-06T10:21:25Z
+fetched_at: 2026-09-16T08:52:06Z
 source: cortex-platform
 ---
 
@@ -65,6 +65,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshooting 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

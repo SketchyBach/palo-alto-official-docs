@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-ai-security/cortex-cloud-ai-security-concepts
-fetched_at: 2026-09-06T10:06:43Z
+fetched_at: 2026-09-16T08:47:38Z
 source: cortex-platform
 ---
 
@@ -101,6 +101,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex Cloud AI Security use cases 
 
- Last updated 11 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

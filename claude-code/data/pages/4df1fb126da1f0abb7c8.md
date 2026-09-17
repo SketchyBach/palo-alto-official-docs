@@ -1,0 +1,396 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/strata-logging-service/log-reference/common-logs/common-system-log/common-system-https-fields
+fetched_at: 2026-09-16T09:37:07Z
+source: palo-alto-main
+---
+
+# System HTTPS Fields Clear
+
+Updated on 
+
+ Fri Sep 11 10:21:34 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Logging Service 
+
+ Strata Logging Service Log Reference 
+
+ Common Logs 
+
+ System 
+
+ System HTTPS Fields 
+
+ Download PDF 
+
+ Strata Logging Service 
+
+ System HTTPS Fields 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Logging Service Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Release Notes 
+
+ Log Reference 
+
+ New Features 
+
+ Previous 
+
+ System EMAIL Fields 
+
+ Next 
+
+ System LEEF Fields 
+
+ System HTTPS Fields 
+
+ The following table identifies the System field names that the Log Forwarding app
+ uses when you forward logs using the HTTPS log format.
+
+ HTTPS Name
+
+ Query Name
+
+ Field Type
+
+ AgentContentVersion
+
+ agent_content_version 
+
+ string
+
+ AgentDataCollectionStatus
+
+ agent_data_collection_status.​value 
+
+ string
+
+ AgentID
+
+ agent_id 
+
+ string
+
+ AgentIsolationStatus
+
+ agent_isolation_status 
+
+ boolean
+
+ AgentStatus
+
+ agent_protection_status 
+
+ long
+
+ AgentVersion
+
+ agent_version 
+
+ string
+
+ ConfigVersion
+
+ config_version.​value 
+
+ string
+
+ TenantID
+
+ customer_id 
+
+ string
+
+ DeviceGroup
+
+ device_group.​value 
+
+ string
+
+ DGHierarchyLevel1
+
+ dg_hier_level_1 
+
+ int
+
+ DGHierarchyLevel2
+
+ dg_hier_level_2 
+
+ int
+
+ DGHierarchyLevel3
+
+ dg_hier_level_3 
+
+ int
+
+ DGHierarchyLevel4
+
+ dg_hier_level_4 
+
+ int
+
+ EndpointCPUArchitecture
+
+ endpoint_cpu_architecture.​value 
+
+ string
+
+ EndpointDeviceDomain
+
+ endpoint_device_domain 
+
+ string
+
+ EndpointDeviceName
+
+ endpoint_device_name 
+
+ string
+
+ EndpointIPaddress
+
+ endpoint_ip.​value 
+
+ ip
+
+ VDIEndpoint
+
+ endpoint_is_vdi 
+
+ boolean
+
+ EndpointOSType
+
+ endpoint_os_type.​value 
+
+ string
+
+ EndpointOSVersion
+
+ endpoint_os_version 
+
+ string
+
+ AgentTimeZoneOffset
+
+ endpoint_tz_offset 
+
+ int
+
+ EndpointUserDomain
+
+ endpoint_user.​domain 
+
+ string
+
+ EndpointUserName
+
+ endpoint_user.​name 
+
+ string
+
+ EndpointUserUUID
+
+ endpoint_user.​uuid 
+
+ long
+
+ EventComponent
+
+ event_component 
+
+ string
+
+ EventDescription
+
+ event_description 
+
+ string
+
+ EventName
+
+ event_name.​value 
+
+ string
+
+ EventTime
+
+ event_time 
+
+ timestamp
+
+ IsDuplicateLog
+
+ is_dup_log 
+
+ boolean
+
+ LogExported
+
+ is_exported 
+
+ boolean
+
+ LogForwarded
+
+ is_forwarded 
+
+ boolean
+
+ IsPrismaNetwork
+
+ is_prisma_branch 
+
+ boolean
+
+ IsPrismaUsers
+
+ is_prisma_mobile 
+
+ boolean
+
+ LogCategory
+
+ log_category.​value 
+
+ string
+
+ LogSource
+
+ log_source 
+
+ string
+
+ LogSourceGroupID
+
+ log_source_group_id 
+
+ string
+
+ LogSourceID
+
+ log_source_id 
+
+ string
+
+ LogSourceName
+
+ log_source_name 
+
+ string
+
+ LogSourceTimeZoneOffset
+
+ log_source_tz_offset 
+
+ int
+
+ LogTime
+
+ log_time 
+
+ timestamp
+
+ LogType
+
+ log_type.​value 
+
+ string
+
+ PanoramaSN
+
+ panorama_serial 
+
+ string
+
+ PlatformType
+
+ platform_type 
+
+ string
+
+ SequenceNo
+
+ sequence_no 
+
+ long
+
+ Severity
+
+ severity 
+
+ enum
+
+ Subtype
+
+ sub_type.​value 
+
+ string
+
+ Template
+
+ template.​value 
+
+ string
+
+ TimeGeneratedHighResolution
+
+ time_generated_high_res 
+
+ timestamp_high_res
+
+ VendorName
+
+ vendor_name 
+
+ string
+
+ VendorSeverity
+
+ vendor_severity.​value 
+
+ string
+
+ VirtualLocation
+
+ vsys 
+
+ string
+
+ VirtualSystemID
+
+ vsys_id 
+
+ int
+
+ VirtualSystemName
+
+ vsys_name 
+
+ string
+
+ Previous 
+
+ System EMAIL Fields 
+
+ Next 
+
+ System LEEF Fields

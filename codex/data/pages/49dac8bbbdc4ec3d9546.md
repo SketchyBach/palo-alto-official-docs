@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/suspicious-secrets-dump-activity
-fetched_at: 2026-09-06T11:08:32Z
+fetched_at: 2026-09-16T09:08:37Z
 source: cortex-platform
 ---
 

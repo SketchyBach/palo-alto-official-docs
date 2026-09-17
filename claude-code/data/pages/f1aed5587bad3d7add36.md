@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/
-fetched_at: 2026-09-06T11:19:56Z
+fetched_at: 2026-09-16T09:12:56Z
 source: cortex-platform
 ---
 
@@ -81,6 +81,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Get Started with Cortex XSOAR 
 
- Last updated 7 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

@@ -1,62 +1,20 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/new-features/by-date/autonomous-dem/february-2026#063b8293c5e37f65c6fbb78b50fae5b1
-fetched_at: 2026-08-13T15:29:56Z
+fetched_at: 2026-09-15T15:08:50Z
 source: palo-alto-main
 ---
 
 # New Features - Autonomous DEM - February 2026 Clear Clear Clear Clear
 
-New Features - Autonomous DEM - February 2026 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Focus 
+Focus 
 
  Home 
 
  Autonomous DEM 
 
  New Features - Autonomous DEM - February 2026 
+
+ Download PDF 
 
  Canary Upgrade of Autonomous DEM Agents 
 
@@ -73,47 +31,3 @@ New Features - Autonomous DEM - February 2026
  Core
 
  February 2026
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.

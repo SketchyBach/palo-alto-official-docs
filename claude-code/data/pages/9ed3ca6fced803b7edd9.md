@@ -1,0 +1,129 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/cloud-ngfw-aws/administration/protect.html
+fetched_at: 2026-09-16T11:47:54Z
+source: palo-alto-main
+---
+
+# Protect Clear
+
+Updated on 
+
+ Aug 19, 2026 
+
+ Focus 
+
+ Home 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW for AWS Administration 
+
+ Protect 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Cloud NGFW for AWS 
+
+ Protect 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Cloud NGFW for AWS Docs 
+
+ Getting Started 
+
+ Deployment 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Deploy in Strata Cloud Manager console 
+
+ Next 
+
+ Cloud-Delivered Security Services (CDSS) 
+
+ Protect 
+
+ Learn how to protect your Cloud NGFW for AWS resource. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Cloud NGFW for AWS 
+
+ Cloud NGFW subscription 
+
+ Palo Alto Networks Customer Support Account (CSP) 
+
+ AWS Marketplace account 
+
+ User role (either tenant or administrator) 
+
+ You can create various types of policy rules to protect your network from
+ threats and disruptions. It helps you optimize network resource allocation and manage
+ your policy rules to prioritize traffic and configure application classifications. 
+
+ Cloud NGFW evaluates rules from top to bottom and when traffic matches against
+ the defined rule criteria, subsequent rules are not evaluated. You should order more
+ specific policy rules above the more generic ones to enforce the best match criteria
+ possible. A log is generated for traffic that matches a policy rule when logging is
+ enabled for the rule. Logging options are configurable for each rule. 
+
+ Best practice policy rules are available for most policy types and help you to
+ get started quickly and securely. While these rules can't be edited to ensure that you
+ always have a minimum level of security readily available, you can clone them if you
+ want to use them as a foundation for customizing your policy. 
+
+ The Cloud NGFW for AWS platform protects your entire business, regardless of
+ size or complexity. With a unified network security architecture and the ability to
+ leverage deep learning in real time, the Cloud NGFW for AWS can help you see and secure
+ everything. This protection extends to the: 
+
+ Branch. Enable Zero Trust Network Security with simplified security for
+ thousands of branch offices. 
+
+ Campus. Integrated capabilities protect your internal assets and the
+ outside world, so your users can connect to data and applications anywhere. 
+
+ Data center. Get deep visibility and consistent, best-in-class security
+ controls across cloud environments. 
+
+ Public cloud. Secure multiple public cloud environments with the same
+ level of protection as on-premises data centers. 
+
+ 5G Security. Leverage a simplified solution to protect all facets of
+ your unique mobile network. 
+
+ With Cloud NGFW for AWS, you won't be managing infrastructure. Deployment is
+ stress free, from rulestack configuration and automated Security Profiles, this Palo
+ Alto Networks Next-Generation Firewall is designed so you can meet network security
+ requirements with ease. 
+
+ Previous 
+
+ Deploy in Strata Cloud Manager console 
+
+ Next 
+
+ Cloud-Delivered Security Services (CDSS)

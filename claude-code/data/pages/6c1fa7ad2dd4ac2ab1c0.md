@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/generic-on-premise-data-collectors/broker-vm-data-collector-applets/activate-cortex-network-scanner
-fetched_at: 2026-09-06T09:41:20Z
+fetched_at: 2026-09-16T08:42:07Z
 source: cortex-platform
 ---
 
@@ -66,6 +66,6 @@ A red dot indicates that an error occurred and the scanner is not connected.
 
  Next Activate CSV Collector 
 
- Last updated 29 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

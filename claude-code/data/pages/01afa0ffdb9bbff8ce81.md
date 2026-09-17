@@ -1,10 +1,10 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security
-fetched_at: 2026-09-06T11:18:11Z
+fetched_at: 2026-09-16T09:12:24Z
 source: cortex-platform
 ---
 
-# Monitor and track compliance adherence | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+# Rules and Policies | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
 
 For the complete documentation index, see llms.txt . This page is also available as Markdown . 
 
@@ -19,44 +19,62 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Cloud Security 
 
- Cortex XSIAM 
+ Rules and Policies 
 
- Monitor and track compliance adherence 
+ Discover how Cortex XSIAM detects security risks across your infrastructure, workloads, and container images, and how policies automate the response. 
 
- Evaluate and track Cortex XSIAM asset compliance against industry standards and organizational policies. 
+ Overview 
 
- Determine asset vulnerabilities and risk by checking whether assets adhere to industry standards or your organization's best practices for compliance. 
+ Cortex XSIAM uses rules and policies to detect security risks and manage responses across your cloud environment. 
 
- You can view all compliance-related details in the tenant under Posture Management → Compliance . 
+ Rules : Define what to check. Each rule contains the detection logic for a single condition (such as a misconfiguration, vulnerability, exposed secret, or compliance gap) and produces a finding when triggered. 
 
- This feature requires Cloud Posture Security, Cloud Runtime Security, or Cortex XSIAM Premium license. 
+ Policies : Define how, where, and when rules apply. A policy binds rules to a target scope (such as accounts, asset groups, namespaces, or labels) and controls severity, grace periods, and response actions. 
 
- Cortex XSIAM compliance flow 
+ Rules identify problems, while policies determine the response. Findings that violate an active policy become actionable issues and alerts, which feed into your overall compliance posture. 
 
- Cortex compliance workflow for evaluating your overall compliance posture for various compliance standards. 
+ How Rules and Policies work together 
 
- The following steps describe the flow for evaluating asset compliance. 
+ Detect : Cortex XSIAM evaluates rules against your cloud assets, workloads, and images to generate findings. 
 
- Step 
+ Evaluate : Findings are matched against active policies and their assigned scopes. 
 
- See more 
+ Respond : Findings that violate a policy (after any applicable grace periods) trigger alerts, create issues, or initiate blocking actions. 
 
- Step 1. Decide which compliance standard to use. 
+ Report : Results aggregate into your overall compliance posture and reports. 
 
- Choose compliance standards from the compliance catalog 
+ Types of Rules and Policies 
 
- Step 2. Create a compliance assessment. 
+ Cortex XSIAM includes both built-in (out-of-the-box) and custom rules and policies. 
 
- Use an assessment profile to run compliance checks on your assets 
+ Type 
 
- Step 3. Review the results. 
+ Focus Area 
 
- View and manage compliance assessments and reports 
+ Key Capabilities & Frameworks 
+
+ Cloud Security 
+
+ Multi-cloud infrastructure posture (AWS, Azure, GCP, OCI) 
+
+ Covers CSPM, DSPM, CIEM, AISPM, and CNS. Findings map to CIS, NIST, PCI-DSS, SOC 2, and HIPAA frameworks. See Cloud security rules and policies . 
+
+ Cloud Workload 
+
+ Compute workloads (VMs, Kubernetes clusters, hosts, container images, running containers) 
+
+ Detects CVEs, malware, hard-coded secrets, and CIS benchmark violations. Policies let you set severity, grace periods, and enforcement actions (such as alerting or blocking noncompliant deployments). See Cloud workload policies and rules . 
+
+ Base Image 
+
+ Container base ("golden") images and image inheritance 
+
+ Identifies base images by repository, digest, name, or tag. Attributes vulnerabilities to specific layers to separate platform or DevOps issues from application-layer issues, and detects drift in running containers. See Base image rules . 
 
  Previous Prevent malicious LDAP queries 
 
- Next Choose compliance standards from the compliance catalog 
+ Next Cloud security rules and policies 
 
- Last updated 10 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

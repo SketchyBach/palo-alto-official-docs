@@ -1,0 +1,201 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/advanced-ip-defense/activation-and-onboarding/advanced-ip-defense-licenses
+fetched_at: 2026-09-16T13:57:11Z
+source: palo-alto-main
+---
+
+# Advanced IP Defense Licenses Clear
+
+Updated on 
+
+ Thu Aug 27 12:48:25 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Advanced IP Defense 
+
+ Advanced IP Defense Licenses 
+
+ Download PDF 
+
+ Advanced IP Defense 
+
+ Advanced IP Defense Licenses 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Advanced IP Defense Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Advanced IP Defense Setup Prerequisites 
+
+ Next 
+
+ Activate the Advanced IP Defense License 
+
+ Advanced IP Defense Licenses 
+
+ Learn about the Advanced IP Defense license options and the steps to activate
+ and onboard the service on your enforcement points. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ NGFW (Managed by Strata Cloud Manager) 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ VM-Series 
+
+ Advanced IP Defense license 
+
+ PAN-OS 12.2.3 and later 
+
+ Palo Alto Networks Advanced IP Defense is a cloud-delivered security service that
+ stops outbound direct-to-IP threats and inbound attacks by providing real-time IP
+ intelligence and direct-to-IP detection. To deploy Advanced IP Defense on your enforcement points,
+ complete the following steps in order: 
+
+ Review the Advanced IP Defense setup
+ prerequisites. 
+
+ Activate the Advanced IP Defense 
+ license. 
+
+ Manage the Advanced IP Defense 
+ connectivity settings. 
+
+ Create an Advanced IP Defense 
+ profile and policy rule . 
+
+ Advanced IP Defense License Types 
+
+ Advanced IP Defense is available through the following license options. To
+ determine the best option for your environment, contact your Palo Alto Networks sales
+ representative. 
+
+ Standalone —A standalone subscription is available in 1-year, 3-year,
+ and 5-year terms with renewal options. The standalone license uses auth-code
+ activation and supports all NGFW form factors running PAN-OS 12.2.3 or later. 
+
+ VM-Series Flex —The VM-Series software
+ firewall deployment profile includes Advanced IP Defense . 
+
+ Precision AI Enterprise Bundle —The Precision AI Enterprise bundle
+ includes Advanced IP Defense alongside all subscriptions in the
+ Precision AI Pro bundle. The Precision AI Enterprise bundle license replaces
+ the previous Precision AI Pro bundle license. 
+
+ Enterprise License Agreement (ELA) —An Enterprise License Agreement
+ provides bundled access to multiple Palo Alto Networks cloud-delivered
+ security services under a single contract. The ELA8 bundle includes Advanced IP Defense along with other cloud-delivered security services.
+ ELA subscriptions are automatically provisioned to your account — no manual
+ activation is required. After provisioning, retrieve the license on the
+ enforcement point and install the latest content update to access Advanced IP Defense configuration options. 
+
+ For FedRAMP Moderate and FedRAMP High environments, Palo Alto Networks offers
+ separate modifier licenses for all Advanced IP Defense license types. Contact your
+ Palo Alto Networks sales representative to obtain the appropriate FedRAMP license. 
+
+ What Is Included with an Advanced IP Defense License? 
+
+ What is included with Advanced IP Defense depends on the PAN-OS 
+ version running on your enforcement point. 
+
+ PAN-OS 12.2.3 and later 
+
+ Enforcement points running PAN-OS 12.2.3 and later have full
+ access to Advanced IP Defense capabilities. 
+
+ Capability Description 
+
+ Real-time cloud lookups On-demand IP attribute queries to Advanced IP Defense . 
+
+ Direct-to-IP detection Identifies outbound connections to IP addresses without a
+ prior DNS resolution, using a per-tenant DNS state table
+ maintained by Advanced IP Defense . 
+
+ Zone-based security profiles Attach profiles to zones for broad coverage across all
+ traffic crossing a zone boundary. Create match rules using
+ IP attribute categories, tags, and boolean logic. 
+
+ Granular enforcement actions Configure alert, block, or deny actions per match rule,
+ with configurable log severity. 
+
+ Local IP attribute cache Cache up to 1 million IP attribute entries locally for
+ low-latency enforcement with configurable cache-miss
+ behavior. 
+
+ Allow list updates Periodic per-tenant allow list downloads from Advanced IP Defense allow list and direct-to-IP allow
+ list) for reduced false positives. 
+
+ Dedicated threat log subtype A dedicated ip-defense threat log
+ subtype with fields for matched category, tag, profile name,
+ rule name, match direction, and DNS-seen status. 
+
+ Content-delivered categories and tags IP attribute categories and tags delivered through the
+ content update package. New categories and tags appear
+ without a PAN-OS upgrade. 
+
+ PAN-OS 11.1 and 12.1 
+
+ Enforcement points running PAN-OS 11.1 through 12.1 receive a
+ subset of Advanced IP Defense intelligence through predefined External
+ Dynamic Lists (EDLs) delivered by the antivirus content package. 
+
+ Capability Description 
+
+ Predefined EDLs Curated IP threat lists delivered automatically through
+ the AV content package, covering C2 infrastructure,
+ malware-hardcoded IPs, commercial VPNs, proxies, scanners
+ and brute-force IPs, and exposed vulnerable
+ services. 
+
+ Security policy rule integration Use predefined EDLs as source or destination address
+ objects in Security policy rules to block or alert on
+ matching traffic. 
+
+ Standard logging EDL hits are logged in threat logs with the EDL name
+ recorded in the source or destination EDL column. 
+
+ PAN-OS 11.1 and 12.1 do not support the following
+ capabilities: 
+
+ Real-time cloud lookups for IP attributes 
+
+ Direct-to-IP (no-DNS) detection 
+
+ Zone-based security profiles with granular match rules 
+
+ Per-category and per-tag enforcement actions 
+
+ Dedicated ip-defense threat log subtype 
+
+ Allow lists maintained by Advanced IP Defense 
+
+ Previous 
+
+ Advanced IP Defense Setup Prerequisites 
+
+ Next 
+
+ Activate the Advanced IP Defense License

@@ -1,60 +1,20 @@
 ---
 url: https://docs.paloaltonetworks.com/saas-security/new-features/by-date/saas-security/august-2025#382990f3f7486bab6c0f26bc82a60f12
-fetched_at: 2026-08-13T17:33:36Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:49:37Z
+source: strata-and-sase
 ---
 
 # New Features - SaaS Security - August 2025 Clear Clear Clear Clear
 
-New Features - SaaS Security - August 2025 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- SaaS Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Data Security 
-
- SaaS Security Inline 
-
- SSPM 
-
- Behavior Threats 
-
- New Features 
-
- Focus 
+Focus 
 
  Home 
 
  SaaS Security 
 
  New Features - SaaS Security - August 2025 
+
+ Download PDF 
 
  Enhanced Identity-Threat Detection in SSPM 
 
@@ -73,65 +33,3 @@ New Features - SaaS Security - August 2025
  Core
 
  August 2025
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Firewalls 
-
- PAN-OS 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Prisma Access Monitoring and Visibility 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.

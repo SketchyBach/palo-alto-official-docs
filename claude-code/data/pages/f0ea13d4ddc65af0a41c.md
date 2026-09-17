@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xpanse/onboard-and-configure-cortex-xpanse/configure-cortex-xpanse
-fetched_at: 2026-09-06T10:52:21Z
+fetched_at: 2026-09-16T08:59:12Z
 source: cortex-platform
 ---
 
@@ -89,6 +89,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Users and roles 
 
- Last updated 20 days ago 
+ Last updated 29 days ago 
 
  Was this helpful?

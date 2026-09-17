@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-ios-guide/8.9-agent-ios-guide/administrator-tasks/prepare-for-installation-administrator-task/configuration-for-installation-by-mdm-administrator-task
-fetched_at: 2026-09-06T10:20:50Z
+fetched_at: 2026-09-16T08:51:50Z
 source: cortex-platform
 ---
 

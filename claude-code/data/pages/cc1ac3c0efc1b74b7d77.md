@@ -1,0 +1,32 @@
+---
+url: https://docs.prismacloud.io/admin-guide/33/continuous-integration
+fetched_at: 2026-09-16T13:38:11Z
+source: prisma-cloud
+---
+
+# Continuous integration | 33 | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Compute Edition 
+
+ Admin Guide 
+
+ 33 
+
+ Continuous integration 
+
+ Continuous integration 
+
+ Prisma Cloud integrates security into your continuous integration workflows so you can find and fix problems before they enter production. Prisma Cloud’s CI plugins surface vulnerability and compliance issues directly in the build tool every time developers build their container images and serverless functions. Security teams can set policies that only allow compliant and fully remediated images to progress down the pipeline. 
+
+ Previous Admission control 
+
+ Next Jenkins plugin 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

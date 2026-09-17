@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/threat-management/extended-threat-intelligence/using-xti-with-threat-intel-agent
-fetched_at: 2026-09-06T09:54:15Z
+fetched_at: 2026-09-16T08:44:37Z
 source: cortex-platform
 ---
 
@@ -69,6 +69,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Using XTI in playbooks 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

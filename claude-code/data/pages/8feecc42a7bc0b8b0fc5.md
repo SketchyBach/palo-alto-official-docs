@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/configure-cortex-xsoar/playbooks/develop-your-playbook/task-6.-manage-playbook-content
-fetched_at: 2026-09-06T10:30:38Z
+fetched_at: 2026-09-16T08:54:07Z
 source: cortex-platform
 ---
 
@@ -37,6 +37,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Customize a playbook for a phishing use case example 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

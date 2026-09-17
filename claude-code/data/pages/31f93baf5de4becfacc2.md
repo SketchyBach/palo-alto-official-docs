@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-threat-intel-management-guides/6.12/configure-indicators/indicator-customization/indicator-fields
-fetched_at: 2026-09-06T10:49:53Z
+fetched_at: 2026-09-16T08:58:03Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Indicator Customization 
 
- XSOAR 6.12 Threat Intel Management EoL 
+ Cortex XSOAR 6.12 Threat Intel Management EoL 
 
  Indicator Fields 
 
@@ -39,6 +39,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create a Custom Indicator Field 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/data-ingestion/external-data-ingestion/additional-log-ingestion-methods/ingest-logs-from-proofpoint-targeted-attack-protection
-fetched_at: 2026-09-06T09:50:43Z
+fetched_at: 2026-09-16T08:44:18Z
 source: cortex-platform
 ---
 

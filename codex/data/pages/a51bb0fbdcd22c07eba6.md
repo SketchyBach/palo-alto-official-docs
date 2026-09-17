@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.12/configure-multi-tenant/manage-content/sync-content-to-tenant-accounts/troubleshoot-errors-when-syncing-all-accounts
-fetched_at: 2026-09-06T10:50:25Z
+fetched_at: 2026-09-16T08:58:33Z
 source: cortex-platform
 ---
 
@@ -25,7 +25,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Sync Content to Tenant Accounts 
 
- XSOAR 6.12 Multi-Tenant EoL 
+ Cortex XSOAR 6.12 Multi-Tenant EoL 
 
  Troubleshoot Errors When Syncing All Accounts 
 
@@ -77,6 +77,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Disable Propagation Labels 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

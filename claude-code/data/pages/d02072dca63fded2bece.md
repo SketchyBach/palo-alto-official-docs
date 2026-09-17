@@ -1,0 +1,264 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/prisma-access-advanced-deployments/ipv6-support-for-private-app-access/enable-ipv6-networking-for-service-connections.html
+fetched_at: 2026-09-16T11:36:44Z
+source: palo-alto-main
+---
+
+# Enable IPv6 Networking for Service Connections Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Advanced Deployments 
+
+ IPv6 Support 
+
+ Enable IPv6 Networking for Service Connections 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Enable IPv6 Networking for Service Connections 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Enable IPv6 Networking for Mobile Users—GlobalProtect Deployment 
+
+ Next 
+
+ Enable IPv6 Networking for Remote Networks 
+
+ Enable IPv6 Networking for Service Connections 
+
+ Enable IPv6 networking for service connections in a Prisma Access
+ deployment. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Prisma Access license version 2.2 Preferred and
+ later 
+
+ Native IPv6 access to public and
+ private apps requires the following minimum releases: 
+ Prisma Access (Managed by Strata Cloud Manager) : June 2024 release 
+
+ Prisma Access (Managed by Panorama) : Prisma Access 5.1.1 for new
+ deployments only. 
+
+ Any other deployments (including existing Prisma Access (Managed by Panorama) deployments) support private app
+ access only. 
+
+ For service connections , you can
+ use IPv6 subnets for static or BGP routing. For BGP routing, you can enter IPv6 peer
+ addresses and specify IPv4 and IPv6 routing options. 
+
+ To configure IPv6 networking for service connections, complete the following
+ task. 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Enable IPv6 Networking for Service Connections ( Strata Cloud Manager ) 
+
+ Learn how to enable IPv6 networking for Prisma Access service
+ connections. 
+
+ Select Configuration NGFW and Prisma Access Configuration Scope Prisma Access Service Connections and Add Service Connection . 
+
+ Add a new service connection or select an existing service connection to edit
+ it. 
+
+ Set up IPv6 routing for the service connection. 
+
+ ( Static Routing Deployments Only ) Enter one or more
+ Corporate Subnets in the Static
+ Routes tab. 
+
+ ( BGP Routing Deployments Only ) Specify the method to exchange
+ IPv4 and IPv6 BGP routes; then, enter an IPv6 Peer
+ Address and Local Address . 
+
+ To use a single IPv4 BGP session to exchange both IPv4 and
+ IPv6 BGP peering information, select Exchange
+ both IPv4 and IPv6 routes over IPv4 peering .
+
+ To use an IPv4 BGP session to exchange IPv4 BGP peering
+ information and an IPv6 session to exchange IPv6 BGP peering
+ information, select Exchange IPv4 routes over
+ IPv4 peering and IPv6 routes over IPv6
+ peering . 
+
+ The status does not change to
+ Established unless the IPv6 BGP Peer setting on the CPE side
+ is set to multihop 2 or higher. 
+
+ To use a single IPv6 BGP session to exchange IPv6 BGP peering
+ information, select Exchange IPv6 routes over
+ IPv6 peering . 
+
+ If your secondary WAN uses a different peer or local address, deselect
+ Same as Primary WAN and enter the IPv6
+ Peer Address and Local
+ Address for the secondary WAN. 
+
+ If you have not yet completed the your service connection setup, complete it
+ now. See Configure a Service Connection in for details. 
+
+ IPv6 internet access for service connections is enabled by an underlay
+ connection, in which IPv6 traffic is passed through an IPv4 tunnel. 
+
+ Push Config to deploy your changes to you network. 
+
+ If you have not yet completed the mobile users configuration, complete it
+ now. 
+
+ Enable IPv6 Networking for Service Connections ( Panorama ) 
+
+ Enable IPv6 networking for service connections in a Prisma Access
+ deployment. 
+
+ Select Panorama Cloud Services Configuration Service Connection . 
+
+ Add a new service connection or select an existing
+ service connection to edit it. 
+
+ Set up IPv6 routing for the service connection. 
+
+ ( Static Routing Deployments Only ) Enter one or more
+ Corporate Subnets in the Static
+ Routes tab. 
+
+ ( BGP Routing Deployments Only ) Specify the method to exchange
+ IPv4 and IPv6 BGP routes; then, enter an IPv6 Peer
+ Address and Local Address . 
+
+ To use a single IPv4 BGP session to exchange both IPv4 and
+ IPv6 BGP peering information, select Exchange
+ both IPv4 and IPv6 routes over IPv4 peering .
+
+ To an IPv4 BGP session to exchange IPv4 BGP peering
+ information and an IPv6 session to exchange IPv6 BGP peering
+ information, select Exchange IPv4 routes over
+ IPv4 peering and IPv6 routes over IPv6
+ peering . 
+
+ To use a single IPv6 BGP session to exchange IPv6 BGP peering
+ information, select Exchange IPv6 routes over
+ IPv6 peering . 
+
+ If your secondary WAN uses a different peer or local address, deselect
+ Same as Primary WAN and enter the IPv6
+ Peer Address and Local
+ Address for the secondary WAN. 
+
+ If you have not yet completed the your service connection setup, complete it
+ now. See Configure a Service Connection in Prisma
+ Access for details. 
+
+ Commit and Push your changes. 
+
+ Select Panorama Cloud Services Status Network Details Service Connection and make a note of the IPv6 User-ID Agent
+ Address and EBGP Router addresses. 
+
+ After you commit your changes, you will have an IPv6 User-ID Agent
+ Address (used for User-ID retrieval and distribution ) and
+ EBGP Router addresses for service
+ connections. 
+
+ Because the IPSec tunnel used for the service connection uses IPv4
+ addressing, the Service Endpoint Address is an IPv4
+ address. 
+
+ IPv6 internet access for service connections is enabled by an underlay
+ connection, in which IPv6 traffic is passed through an IPv4 tunnel. 
+
+ If you have not yet completed the mobile users configuration, complete it
+ now. 
+
+ Previous 
+
+ Enable IPv6 Networking for Mobile Users—GlobalProtect Deployment 
+
+ Next 
+
+ Enable IPv6 Networking for Remote Networks

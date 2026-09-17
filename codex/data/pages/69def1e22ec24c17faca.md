@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/docker/configure-python-docker-integrations-to-trust-custom-certificates
-fetched_at: 2026-09-06T10:46:55Z
+fetched_at: 2026-09-16T08:57:20Z
 source: cortex-platform
 ---
 
@@ -153,6 +153,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Docker Images in Cortex XSOAR 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

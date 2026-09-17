@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.9/onboard-cortex-xsoar/onboard-and-configure-cortex-xsoar/step-2.-set-up-an-engine
-fetched_at: 2026-09-06T10:36:57Z
+fetched_at: 2026-09-16T08:55:23Z
 source: cortex-platform
 ---
 

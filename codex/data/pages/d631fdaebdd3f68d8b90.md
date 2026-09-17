@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-security/ide/jetbrains/how-to-use-the-jetbrains-cortex-cloud-extension
-fetched_at: 2026-09-06T10:13:42Z
+fetched_at: 2026-09-16T08:49:29Z
 source: cortex-platform
 ---
 
@@ -323,6 +323,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Developer suppressions 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

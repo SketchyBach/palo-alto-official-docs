@@ -1,0 +1,147 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/hardware/pa-50r-hardware-reference/pa-50r-series-firewall-installation/install-the-pa-50r-series-firewall-on-a-din-rail/din-rail-pa-54r-poe-and-pa-54r-poe-d-5g.html
+fetched_at: 2026-09-16T11:58:14Z
+source: palo-alto-main
+---
+
+# PA-54R-POE and PA-54R-POE-D-5G Clear
+
+Updated on 
+
+ Wed Aug 19 00:32:40 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-50R Series Hardware Reference 
+
+ PA-50R Series Firewall Installation 
+
+ Install the PA-50R Series Firewall on a DIN Rail 
+
+ PA-54R-POE and PA-54R-POE-D-5G 
+
+ Download PDF 
+
+ PA-50R Series Hardware Reference 
+
+ PA-54R-POE and PA-54R-POE-D-5G 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Compliance 
+
+ Safety Warnings 
+
+ Safety Warnings (French) 
+
+ Certifications 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-50R Series Firewall Overview 
+
+ PA-50R Series Firewall Panel Components 
+
+ PA-52R-5G 
+
+ PA-54R-POE 
+
+ PA-54R-POE-D-5G 
+
+ PA-56R-POE-5G 
+
+ PA-50R Series Firewall Installation 
+
+ Install the PA-50R Series Firewall on a Wall 
+
+ PA-52R-5G 
+
+ PA-54R-POE and PA-54R-POE-D-5G 
+
+ PA-56R-POE-5G 
+
+ Install the PA-50R Series Firewall in an Equipment Rack 
+
+ PA-52R-5G 
+
+ PA-54R-POE and PA-54R-POE-D-5G 
+
+ PA-56R-POE-5G 
+
+ Install the PA-50R Series Firewall on a DIN Rail 
+
+ PA-52R-5G 
+
+ PA-54R-POE and PA-54R-POE-D-5G 
+
+ Install Antennas on the PA-50R Series 5G Firewall 
+
+ Insert a SIM Card into a PA-50R Series 5G Firewall 
+
+ Connect Power to the PA-50R Series Firewall 
+
+ Set Up 5G Connectivity on the PA-50R Series Firewall 
+
+ Set Up a Connection to the Firewall 
+
+ Set Up VIMS 
+
+ PA-50R Series Firewall Maintenance 
+
+ PA-50R Series Firewall LEDs 
+
+ PA-50R Series Firewall Specifications 
+
+ PA-50R Series Firewall Physical Specifications 
+
+ PA-50R Series Firewall Electrical Specifications 
+
+ PA-50R Series Firewall Environmental Specifications 
+
+ PA-50R Series Firewall Antenna Specifications 
+
+ PA-52R-5G 
+
+ PA-54R-POE-D-5G 
+
+ PA-56R-POE-5G 
+
+ PA-50R Series Firewall Miscellaneous Specifications 
+
+ PA-54R-POE and PA-54R-POE-D-5G 
+
+ Learn how to install a DIN clip on the firewall and then mount it on a DIN
+ rail. 
+
+ The PA-54R-POE and PA-54R-POE-D-5G firewalls ship with an attached DIN clip and a
+ 35mm x 7.5mm x 406mm (W x H x L) DIN rail. 
+
+ Using slight downward pressure, attach the firewall onto the DIN rail. 
+
+ Keep the device clean and clear of dust
+ to ensure optimal heat dissipation and maintain proper hardware
+ operation. 
+
+ Ensure that the metal clips are locked securely into place. 
+
+ Previous 
+
+ PA-52R-5G 
+
+ Next 
+
+ Install Antennas on the PA-50R Series 5G Firewall

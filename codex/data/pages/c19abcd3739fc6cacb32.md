@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/customize-cases-and-issues/external-integrations
-fetched_at: 2026-09-06T09:42:12Z
+fetched_at: 2026-09-16T08:42:44Z
 source: cortex-platform
 ---
 
@@ -61,6 +61,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up case scoring 
 
- Last updated 11 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

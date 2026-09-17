@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/vunerability-management/emerging-vulnerabilities
-fetched_at: 2026-09-06T09:58:37Z
+fetched_at: 2026-09-16T08:45:26Z
 source: cortex-platform
 ---
 

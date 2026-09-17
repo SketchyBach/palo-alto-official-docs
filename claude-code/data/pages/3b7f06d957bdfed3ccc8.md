@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/usage-of-homograph-characters-detected-in-an-email-attachment-s-name
-fetched_at: 2026-09-06T11:10:15Z
+fetched_at: 2026-09-16T09:08:54Z
 source: cortex-platform
 ---
 

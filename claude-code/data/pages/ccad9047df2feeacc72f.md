@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/code-to-cloud/code-to-cloud/references/reference-d-recommended-actions-by-view-and-stage
-fetched_at: 2026-09-06T10:06:54Z
+fetched_at: 2026-09-16T08:47:44Z
 source: cortex-platform
 ---
 
@@ -165,6 +165,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Reference E: Code-to-Cloud Coverage public API 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

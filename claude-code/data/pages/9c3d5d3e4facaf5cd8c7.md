@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-browser/integrations/integrate-prisma-access-browser-with-microsoft-information-protection
-fetched_at: 2026-08-13T17:23:46Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:50Z
+source: strata-and-sase
 ---
 
 # Integrate Prisma Access Browser with Microsoft Information Protection Clear
 
-Integrate Prisma Access Browser with Microsoft Information Protection 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Integrate Prisma Access Browser with Microsoft Information Protection 
-
- Updated on 
-
- Jul 28, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Browser Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Integrations 
-
- User Guide 
-
- Updated on 
-
- Jul 28, 2026 
+ Aug 19, 2026 
 
  Focus 
 
@@ -203,48 +151,4 @@ Integrate Prisma Access Browser with Microsoft Information Protection
  Click Enabled , then enter the Tenant
  ID and Client ID . 
 
- Click Save . 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Prisma Browser 
-
- Prisma Access 
-
- Strata Cloud Manager 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Click Save .

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam-rn/cortex-xsiam-release-information/features-introduced-in-2026-xsiam/february-2026/release-highlights
-fetched_at: 2026-09-06T10:52:43Z
+fetched_at: 2026-09-16T08:59:23Z
 source: cortex-platform
 ---
 
@@ -62,6 +62,6 @@ Available with the Advanced Email Security add-on.
 
  Next Feature Enhancements 
 
- Last updated 24 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

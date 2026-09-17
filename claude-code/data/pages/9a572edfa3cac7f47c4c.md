@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-browser/administration/the-prisma-access-browser-extension/prisma-browser-extension-best-practices
-fetched_at: 2026-08-13T17:23:29Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:45Z
+source: strata-and-sase
 ---
 
 # Prisma Browser Extension - Best Practices Clear
 
-Prisma Browser Extension - Best Practices 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Prisma Browser Extension - Best Practices 
-
- Updated on 
-
- Jul 28, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Browser Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Integrations 
-
- User Guide 
-
- Updated on 
-
- Jul 28, 2026 
+ Aug 19, 2026 
 
  Focus 
 
@@ -413,50 +361,4 @@ Prisma Browser Extension - Best Practices
 
  Next 
 
- File Types per Category 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Remote Browser Isolation 
-
- Prisma Browser 
-
- Administration 
-
- Prisma Access 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ File Types per Category

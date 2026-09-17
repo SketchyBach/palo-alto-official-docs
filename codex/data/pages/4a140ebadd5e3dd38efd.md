@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/role-based-access-control/cloud-security-and-posture-management-permissions/compliance-cloud-permissions
-fetched_at: 2026-09-06T09:38:20Z
+fetched_at: 2026-09-16T08:37:47Z
 source: cortex-platform
 ---
 
@@ -135,6 +135,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Data Security permissions 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

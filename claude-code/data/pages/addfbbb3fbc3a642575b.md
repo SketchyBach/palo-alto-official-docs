@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/multi-tenant/indicator-management-on-the-main-tenant
-fetched_at: 2026-09-06T10:34:25Z
+fetched_at: 2026-09-16T08:54:52Z
 source: cortex-platform
 ---
 
@@ -61,6 +61,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous Run a command on multiple tenants 
 
- Last updated 1 hour ago 
+ Last updated 9 days ago 
 
  Was this helpful?

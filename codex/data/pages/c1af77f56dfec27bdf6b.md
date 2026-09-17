@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/administration-and-troubleshooting/integrations/troubleshoot-integrations
-fetched_at: 2026-09-06T10:02:04Z
+fetched_at: 2026-09-16T08:46:23Z
 source: cortex-platform
 ---
 

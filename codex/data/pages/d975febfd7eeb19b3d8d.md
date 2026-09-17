@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/reference/microsoft-windows-security-auditing-setup/enable-ldap-server-events-logging-1644/validate-log-collection-for-ldap-server-events
-fetched_at: 2026-09-06T09:38:29Z
+fetched_at: 2026-09-16T08:37:51Z
 source: cortex-platform
 ---
 
@@ -43,6 +43,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next XDM fields for mapping authentication events 
 
- Last updated 13 days ago 
+ Last updated 23 days ago 
 
  Was this helpful?

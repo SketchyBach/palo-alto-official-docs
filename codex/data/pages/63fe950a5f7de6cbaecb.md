@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xql-command-reference-guide/readme/functions/median_with_windowcomp_stage
-fetched_at: 2026-09-06T10:58:30Z
+fetched_at: 2026-09-16T09:05:33Z
 source: cortex-platform
 ---
 
@@ -227,6 +227,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next min (comp) 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

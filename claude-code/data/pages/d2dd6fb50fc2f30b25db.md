@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/palo-alto-networks-integrations/prisma-access-browser
-fetched_at: 2026-09-06T09:41:51Z
+fetched_at: 2026-09-16T08:42:35Z
 source: cortex-platform
 ---
 
@@ -31,6 +31,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Ingest logs from Prisma Access Browser 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

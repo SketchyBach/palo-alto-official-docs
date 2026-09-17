@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/monitor-and-track-compliance-adherence/choose-compliance-standards-from-the-compliance-catalog/controls-catalog
-fetched_at: 2026-09-06T09:45:45Z
+fetched_at: 2026-09-16T08:42:59Z
 source: cortex-platform
 ---
 

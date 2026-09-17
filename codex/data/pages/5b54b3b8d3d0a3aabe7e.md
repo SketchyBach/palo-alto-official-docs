@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/enterprise-dlp/administration/configure-enterprise-dlp/configure-exact-data-matching/supported-edm-data-set-formats
-fetched_at: 2026-08-13T15:32:11Z
+fetched_at: 2026-09-15T15:10:18Z
 source: palo-alto-main
 ---
 
 # Supported EDM Data Set Formats Clear
 
-Supported EDM Data Set Formats 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Supported EDM Data Set Formats 
-
- Updated on 
-
- Jul 10, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Enterprise DLP Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features by OS Version 
-
- New Features by Month 
-
- Updated on 
-
- Jul 10, 2026 
+ Sep 10, 2026 
 
  Focus 
 
@@ -120,15 +66,6 @@ Supported EDM Data Set Formats
 
  Supported source file and data type formats for encrypted Exact Data Matching (EDM)
  datasets. 
-
- On May 7, 2025 , Palo Alto Networks is introducing new Evidence Storage and Syslog Forwarding service IP
- addresses to improve performance and expand availability for these services
- globally. 
-
- You must allow these new service IP addresses on your network
- to avoid disruptions for these services. Review the Enterprise DLP 
- Release Notes for more
- information. 
 
  Where Can I Use This? What Do I Need? 
 
@@ -200,26 +137,70 @@ CASB for Prisma Access and NGFW (CASB-X) license
  is are Alphabet data types and
  August 02 2020 is a Date data type. 
 
- Enterprise DLP supports English (Latin script) and Hebrew (Hebrew script) in
- EDM datasets. 
+ Enterprise DLP supports English (Latin script) and the following languages
+ in EDM datasets: 
 
- For Hebrew script, the detection engine supports all 22 letters, including the
- five distinct final form (Sofiot) characters ( ך, ם, ן, ף, ץ ) used at the
- end of words. Although you can include Nikud in Hebrew words, Enterprise DLP will ignore these vowel points in both the EDM dataset and the inspected
- network traffic. While Hebrew script is supported, there are some limitations
- for data formats. 
+ Hebrew (Hebrew script): The detection engine supports all 22 letters,
+ including the five distinct final form (Sofiot) characters ( ך, ם, ן, ף,
+ ץ ) used at the end of words. Although you can include Nikud in
+ Hebrew words, Enterprise DLP ignores these vowel points in both the EDM
+ dataset and the inspected network traffic. While Hebrew script is supported,
+ there are some limitations for data formats. 
+ Date Processing: Limited to Gregorian numeric dates (for
+ example, 01/02/2026). Enterprise DLP does not process
+ traditional Hebrew calendar formats or dates where the month is
+ written in Hebrew script (for example, "1 בפברואר 2026"). 
 
- Date Processing: Limited to Gregorian numeric dates (for example,
- 01/02/2026). Enterprise DLP does not process traditional Hebrew
- calendar formats or dates where the month is written in Hebrew script (for
- example, "1 בפברואר 2026"). 
+ Email Addresses: Limited to Latin script. Enterprise DLP 
+ does not process email addresses that contain Hebrew
+ characters. 
 
- Email Addresses: Limited to Latin script. Enterprise DLP does
- not process Email addresses that contain Hebrew characters. 
+ Regional Identifiers: Recognition of certain sensitive
+ identifiers, such as Social Security Numbers and Driver's License
+ IDs, is currently restricted to formats used in the USA. 
 
- Regional Identifiers: Recognition of certain sensitive identifiers,
- such as Social Security Numbers and Driver's License IDs, is currently
- restricted to formats used in the USA. 
+ Chinese: Support for CJK Ideographs (Hanzi) and Bopomofo (Zhuyin
+ Phonetic Script). 
+
+ Japanese: Support for CJK Ideographs (Kanji), Hiragana, and
+ Katakana. 
+
+ Korean: Support for Hangul and CJK Ideographs (Hanja). 
+
+ Thai: Support for Thai script. 
+
+ While Chinese, Japanese, and Korean (CJK) and Thai languages are supported, there
+ are some limitations for data formats. 
+
+ Currency: For the Korean won, only the currency code KRW is
+ supported. The visual currency symbol ₩ is not supported. 
+
+ Date Processing: Dates containing CJK or Thai characters (for
+ example, 2026年3月30日 or 30 มีนาคม
+ 2026 ) and native Thai numerals (for example,
+ ๒๕๖๙ ) are not supported. Only Arabic
+ numeric date formats are supported. 
+
+ ID Cards and Phone Numbers: CJK national ID card numbers and phone
+ numbers are matched as generic numbers only. Exact matching across different
+ formatted variations (for example, hyphenated versus unhyphenated strings
+ like 138-1234-5678 and
+ 13812345678 ) is not supported. 
+
+ Text Conversion and Normalization: 
+ Enterprise DLP does not perform Traditional to Simplified Chinese
+ conversion, Hiragana to Katakana conversion, or Half-width to Full-width
+ Katakana normalization (for example, half-width
+ ｶﾀｶﾅ and full-width
+ カタカナ will not match each other). 
+
+ Unicode Range: Rare characters in CJK Extension B through G (range
+ U+20000 and above) requiring surrogate
+ pairs are not supported. 
+
+ Encodings: Legacy encodings (such as Shift JIS, EUC-JP, GB2312, Big5,
+ and EUC-KR) are not supported. EDM source files must use supported encoding
+ schemes (such as UTF-8 or UTF-16). 
 
  Enterprise DLP supports the following delimiters to separate values in
  scanned files: 
@@ -272,21 +253,35 @@ CASB for Prisma Access and NGFW (CASB-X) license
 
  Format Example 
 
- Latin script: Numbers, uppercase letters, and
- lowercase letters 
+ Latin script: Numbers, uppercase letters, and lowercase
+ letters 
 
  Hebrew script: Numbers and Hebrew alphabet characters
  (including final forms) 
 
- ABCDEFG / abcdefg 
+ Chinese script: Numbers, CJK Ideographs (Hanzi), and
+ Bopomofo (Zhuyin) 
 
- AB123CG / ab123cd 
+ Japanese script: Numbers, CJK Ideographs (Kanji),
+ Hiragana, and Katakana 
 
- אבגדהוז 
+ Korean script: Numbers, Hangul, and CJK Ideographs
+ (Hanja) 
 
- אב123גד 
+ Thai script: Numbers and Thai alphabet characters 
 
- כן / לם 
+ ABCDEFG / abcdefg / AB123CG 
+
+ אבגדהוז / אב123גד / כן 
+
+ 中文 / ㄅㄆㄇㄈ / 123中文 
+
+ 日本語 / ひらがな / カタカナ 
+
+ 한국어 / 韓國 /
+ 123한국어 
+
+ ภาษาไทย / 123ไทย 
 
  Bank Routing Number and Bank Account Number 
 
@@ -333,28 +328,39 @@ CASB for Prisma Access and NGFW (CASB-X) license
 
  Country Name 
 
+ Enterprise DLP supports inspection of country names in official full names,
+ short names, and common abbreviations across English, Hebrew, Chinese, Japanese,
+ Korean, and Thai languages. 
+
  Format Example 
 
- Enterprise DLP requires an exact match for country names
- to render a verdict. 
+ Latin script: Full names, short names, and standard ISO
+ abbreviations 
 
- Full country name 
+ Hebrew script: Hebrew country names 
 
- Country name abbreviation 
+ Chinese script: Simplified and Traditional Chinese
+ country names 
 
- US 
+ Japanese script: Kanji and Katakana country names 
 
- USA 
+ Korean script: Hangul and Hanja country names 
 
- United States 
+ Thai script: Thai country names 
 
- United States of America 
+ United States of America / United States / USA / US 
 
- The United States of America 
+ מדינת ישראל (State of Israel) / ישראל (Israel) 
 
- מדינת ישראל (State of Israel) 
+ 中华人民共和国 (People's Republic of China) / 中国 (China) 
 
- ישראל (Israel) 
+ 日本国 (State of Japan) / 日本 (Japan) 
+
+ 대한국 (Republic of Korea) /
+ 한국 (Korea) / 일본 (Japan) 
+
+ ราชอาณาจักรไทย (Kingdom of Thailand) / ประเทศไทย
+ (Thailand) 
 
  Credit Card 
 
@@ -368,8 +374,9 @@ CASB for Prisma Access and NGFW (CASB-X) license
 
  Currency 
 
- Enterprise DLP supports inspection of the US Dollar (USD, $), the
- Euro (EUR, €), the New Israeli Shekel (ILS/NIS, ₪), and Generic Number
+ Enterprise DLP supports inspection of the US Dollar (USD, $), Euro
+ (EUR, €), New Israeli Shekel (ILS/NIS, ₪), Japanese Yen / Chinese Yuan
+ (JPY/CNY, ¥), Korean Won (KRW), Thai Baht (THB, ฿), and Generic Number
  values. 
 
  All currencies support values from 0 to 1 trillion (1,000,000,000). 
@@ -377,8 +384,8 @@ CASB for Prisma Access and NGFW (CASB-X) license
  All currencies support negative values. Enterprise DLP matches
  negative values against their absolute counterparts. 
 
- Enterprise DLP recognizes currency formats when a currency symbol
- or code is within 5 spaces of the beginning of the number. 
+ Enterprise DLP recognizes currency formats when a currency symbol or
+ code is within 5 spaces of the beginning or end of the number. 
 
  Enterprise DLP treats the following formats as currencies when a
  symbol or code is present. As standalone values, Enterprise DLP 
@@ -388,42 +395,45 @@ CASB for Prisma Access and NGFW (CASB-X) license
 
  No Symbol or Code with Cents 
 
- US/UK/Israel Notation with No Symbol or Code 
+ Standard Decimal Notation with No Symbol or Code 
 
  Format 
 
  Example 
 
- Simple Integer with Symbol 
+ Simple Integer with Symbol $1000, €1000, ₪1000, ¥1000, or ฿1000 
 
- $1000, €1000, or ₪1000 
+ Simple Integer with Code USD1000, EUR1000, ILS1000, NIS1000, JPY1000, CNY1000,
+ KRW1000, or THB1000 
 
- Simple Integer with Code USD1000, EUR1000, ILS1000, or NIS1000 
+ Simple Integer with Symbol and Space $ 1000, € 1000, 1000 ₪, ¥ 1000, or ฿ 1000 
 
- Simple Integer with Symbol and Space $ 1000, € 1000, or 1000 ₪ 
+ Simple Integer with Code and Space USD 1000, EUR 1000, ILS 1000, 1000 NIS, JPY 1000, CNY 1000,
+ KRW 1000, or THB 1000 
 
- Simple Integer with Code and Space USD 1000, EUR 1000, ILS 1000, or 1000 NIS 
+ Symbol or Code with Cents $1000.00, EUR1000.00, ₪1000.00, ¥1000.00, or ฿1000.00 
 
- Symbol or Code with Cents $1000.00, EUR1000.00, or ₪1000.00 
+ Symbol or Code Comma Notation $1,000, EUR1,000, 1,000 ₪, ¥1,000, or or ฿1,000 
 
- Symbol or Code Comma Notation $1,000, EUR1,000, or 1,000 ₪ 
+ Comma Notation Symbol or Code with Cents $1,000.00, EUR1,000.00, 1,000.00 ₪, ¥1,000.00, or or
+ ฿1,000.00 
 
- Comma Notation Symbol or Code with Cents $1,000.00, EUR1,000.00, or 1,000.00 ₪ 
-
- Symbol or Code European Dot-Comma Notation $1.000,00, €1.000,00, or ₪1.000,00 
+ Symbol or Code European Dot-Comma Notation $1.000,00, €1.000,00, ₪1.000,00, ¥1.000,00, or
+ ฿1.000,00 
 
  Simple Integer with No Symbol or Code 1000 
 
  No Symbol or Code with Cents 1000.00 
 
- US/UK/Israel Notation with No Symbol or Code 1,000.00 
+ Standard Decimal Notation with No Symbol or Code 1,000.00 
 
  Date 
 
- While Hebrew
- script is supported for general text, dates must remain in Gregorian numeric
- formats (for example, DD/MM/YYYY). Traditional Hebrew calendar dates (using
- Hebrew month names or years) are not supported. 
+ While Hebrew and
+ Thai scripts are supported for general text, dates must remain in Gregorian
+ numeric formats (for example, DD/MM/YYYY). Traditional Hebrew calendar dates
+ (using Hebrew month names or years) and dates containing Thai script or Thai
+ numerals are not supported. 
 
  Enterprise DLP supports spaces, dashes ( - ), slashes
  ( / ), periods ( . ), and any
@@ -588,10 +598,9 @@ June 2 2012
 
  Email 
 
- While Hebrew
- script is supported for general text, only Latin script is supported for Email
- addresses. Enterprise DLP does not process Email addresses that contain
- Hebrew characters. 
+ While Hebrew script is supported for general text, only
+ Latin script is supported for email addresses. Enterprise DLP does not
+ process email addresses that contain Hebrew characters. 
 
  Format Example 
 
@@ -614,13 +623,26 @@ June 2 2012
  Hebrew script: Standard and final form (Sofiot)
  characters 
 
- Bill / bill 
+ Chinese script: CJK Ideographs (Hanzi) 
 
- Bill Smith’s / bill smith’s 
+ Japanese script: CJK Ideographs (Kanji), Hiragana, and
+ Katakana 
 
- בנימין (Binyamin — ends in final Nun: ן) 
+ Korean script: Hangul and CJK Ideographs (Hanja) 
 
- יצחק (Yitzchak — ends in standard Qof: ק) 
+ Thai script: Thai alphabet characters 
+
+ Bill / bill / Bill Smith / bill smith 
+
+ בנימין / יצחק 
+
+ 张伟 
+
+ 佐藤 / さとう 
+
+ 김유수 
+
+ สมชาย 
 
  IP Address (IPv4 and IPv6) 
 
@@ -706,9 +728,9 @@ June 2 2012
 
  Enterprise DLP supports inspection of vehicle license plates for the
  United States and Israel. Enterprise DLP can detect license plates
- containing dashes (ABC-123), or license plates presented as a continuous
- string of characters (ABC123). However, Enterprise DLP does not
- support license plates containing spaces (ABC 123). 
+ containing dashes (ABC-123), license plates presented as a continuous
+ string of characters (ABC123), and license plates containing spaces (ABC
+ 123). 
 
  United States: Supports various state-issued alphanumeric
  patterns, typically consisting of 6 to 7 characters. 
@@ -720,11 +742,11 @@ June 2 2012
 
  Example 
 
- United States Alphanumeric ABC-1234 
+ United States Alphanumeric ABC-1234, ABC 1234 
 
- Israel 7-Digit Numeric 12-345-67 
+ Israel 7-Digit Numeric 12-345-67, 12 345 67 
 
- Israel 8-Digit Numeric 123-45-678 
+ Israel 8-Digit Numeric 123-45-678, 123 45 678 
 
  USA Driver License 
 
@@ -765,7 +787,7 @@ June 2 2012
 
  Format Example 
 
- RFC4122—32 hexadecimal (base-16) digits. If you’re using
+ RFC4122—32 hexadecimal (base-16) digits. If you are using
  hyphens, the total is 36 digits. 
 
  123e4567e89b12d3a456426614174000 
@@ -778,110 +800,4 @@ June 2 2012
 
  Next 
 
- Set Up the EDM CLI App 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Administration 
-
- Cloud-Delivered Security Services 
-
- Data Filtering 
-
- Enterprise DLP 
-
- Concept 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Set Up the EDM CLI App

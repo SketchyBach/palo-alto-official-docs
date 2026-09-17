@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/deployment-steps-and-checklist/set-up-authentication
-fetched_at: 2026-09-06T09:52:42Z
+fetched_at: 2026-09-16T08:44:26Z
 source: cortex-platform
 ---
 

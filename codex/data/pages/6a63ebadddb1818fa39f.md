@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.12/configure-multi-tenant/configure-the-multi-tenant-deployment/reindex-a-specific-index-for-a-tenant
-fetched_at: 2026-09-06T10:50:21Z
+fetched_at: 2026-09-16T08:58:33Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Configure the Multi-Tenant Deployment 
 
- XSOAR 6.12 Multi-Tenant EoL 
+ Cortex XSOAR 6.12 Multi-Tenant EoL 
 
  Reindex a Specific Index for a Tenant 
 
@@ -65,6 +65,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Restore a Tenant Database 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

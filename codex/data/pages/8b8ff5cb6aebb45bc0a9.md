@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/march-2026/new-data-pattern-support-for-enterprise-dlp-march-2026
-fetched_at: 2026-08-13T17:46:16Z
+fetched_at: 2026-09-16T07:53:36Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

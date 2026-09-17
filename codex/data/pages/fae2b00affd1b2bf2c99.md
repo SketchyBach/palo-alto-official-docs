@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/data-management
-fetched_at: 2026-09-06T11:19:46Z
+fetched_at: 2026-09-16T09:12:54Z
 source: cortex-platform
 ---
 
@@ -29,6 +29,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next What is the Broker VM? 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

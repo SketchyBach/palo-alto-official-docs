@@ -1,105 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/hardware/m-200-m-600-appliances-hardware-reference/before-you-begin/upgradedowngrade-considerations-for-firewalls-and-appliances
-fetched_at: 2026-08-13T16:34:12Z
+fetched_at: 2026-09-15T15:14:22Z
 source: palo-alto-main
 ---
 
 # Upgrade/Downgrade Considerations for Firewalls and Appliances Clear
 
-Upgrade/Downgrade Considerations for Firewalls and Appliances 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- M-200 and M-600 Appliance Hardware Reference 
-
- : 
- Upgrade/Downgrade Considerations for Firewalls and Appliances 
-
- Updated on 
-
- Tue Oct 10 13:30:02 PDT 2023 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand all | Collapse all 
-
- Before You Begin 
-
- Upgrade/Downgrade Considerations for Firewalls and Appliances 
-
- Tamper Proof Statement 
-
- Third-Party Component Support 
-
- Product Safety Warnings 
-
- M-200 and M-600 Appliance Overview 
-
- M-200 Appliance Front Panel 
-
- M-200 Appliance Back Panel 
-
- M-600 Appliance Front Panel 
-
- M-600 Appliance Back Panel 
-
- M-200 and M-600 Appliance Port LEDs 
-
- Install M-200 or M-600 Appliance in an Equipment Rack 
-
- Install the M-200 Appliance in a 19” Equipment Rack 
-
- Install the M-600 Appliance in a 19” Equipment Rack 
-
- Connect Power to an M-200 or M-600 Appliance 
-
- Connect AC Power to an M-200 or M-600 Appliance 
-
- Service an M-200 or M-600 Appliance 
-
- Replace an M-200 or M-600 Drive 
-
- Replace an M-200 or M-600 Appliance System Drive 
-
- Replace an M-200 or M-600 Appliance Log Drive 
-
- Replace an M-200 or M-600 Appliance Power Supply 
-
- M-200 and M-600 Appliance Specifications 
-
- M-200 and M-600 Physical Specifications 
-
- M-200 and M-600 Electrical Specifications 
-
- M-200 and M-600 Environmental Specifications 
-
- M-200 and M-600 Miscellaneous Specifications 
-
- M-200 and M-600 Appliance Hardware Compliance Statements 
-
- M-200 and M-600 Compliance Statements 
-
- Updated on 
+Updated on 
 
  Tue Oct 10 13:30:02 PDT 2023 
 
@@ -226,6 +133,4 @@ is less than 20, then contact support for assistance.
 
  Next 
 
- Tamper Proof Statement 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Tamper Proof Statement

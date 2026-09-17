@@ -1,0 +1,109 @@
+---
+url: https://docs.paloaltonetworks.com/hardware/pa-3500-hardware-reference/before-you-begin
+fetched_at: 2026-09-16T08:20:34Z
+source: palo-alto-main
+---
+
+# Before You Begin Clear
+
+Updated on 
+
+ Wed Aug 19 00:20:13 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-3500 Series Hardware Reference 
+
+ Before You Begin 
+
+ Download PDF 
+
+ PA-3500 Series Hardware Reference 
+
+ Before You Begin 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Safety and Compliance 
+
+ Safety Warnings 
+
+ Compliance Statements 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-3500 Series Firewall Overview 
+
+ PA-3500 Series Firewall Components 
+
+ PA-3510 and PA-3520 
+
+ PA-3530 and PA-3540 
+
+ PA-3500 Series Firewall Installation 
+
+ Install the PA-3500 Series Firewall in an Equipment Rack 
+
+ PA-3510 and PA-3520 
+
+ PA-3530 and PA-3540 
+
+ Connect AC Power to the PA-3500 Series Firewall 
+
+ Connect DC Power to the PA-3500 Series Firewall 
+
+ Set Up a Connection to the Firewall 
+
+ Connect Cables to the PA-3500 Series Firewall 
+
+ PA-3500 Series Firewall Maintenance 
+
+ PA-3500 Series Firewall LED Definitions 
+
+ Replace a PA-3500 Series Firewall Power Supply 
+
+ Replace a PA-3500 Series Firewall Fan Assembly 
+
+ Replace a PA-3500 Series Firewall System Drive 
+
+ PA-3500 Series Firewall Specifications 
+
+ PA-3500 Series Firewall Physical Specifications 
+
+ PA-3500 Series Firewall Electrical Specifications 
+
+ PA-3500 Series Firewall Power Cord Types 
+
+ PA-3500 Series Firewall Environmental Specifications 
+
+ Before You Begin 
+
+ Learn how to check if your new appliance was tampered with during shipping, learn
+ about third-party component support, and read the product safety warnings before installing
+ the appliance. 
+
+ Read the following topics before you install or service the PA-3500 Series firewall. 
+
+ Safety and Compliance 
+
+ Parts List and Required Tools 
+
+ Previous 
+
+ Next 
+
+ Safety and Compliance

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/xdr-collectors/add-an-xdr-collector-profile-for-windows
-fetched_at: 2026-09-06T09:50:11Z
+fetched_at: 2026-09-16T08:44:16Z
 source: cortex-platform
 ---
 
@@ -277,6 +277,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Ingest Logs from Windows DHCP using Elasticsearch Filebeat 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

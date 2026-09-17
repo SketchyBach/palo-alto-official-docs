@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-installation-guides/6.13/cortex-xsoar-installation-guide/single-server-installation/uninstall-the-server
-fetched_at: 2026-09-06T10:50:37Z
+fetched_at: 2026-09-16T08:58:35Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Single Server Installation 
 
- XSOAR 6.13 Installation 
+ Cortex XSOAR 6.13 Installation 
 
  Uninstall the Server 
 
@@ -71,6 +71,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Multi-Tenant Installation 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

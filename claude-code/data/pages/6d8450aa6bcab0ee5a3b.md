@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xdr-agent-release-notes
-fetched_at: 2026-09-06T10:53:15Z
+fetched_at: 2026-09-16T09:00:04Z
 source: cortex-platform
 ---
 

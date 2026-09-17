@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/single-ip-accessed-mail-items-of-multiple-users
-fetched_at: 2026-09-06T11:20:24Z
+fetched_at: 2026-09-16T09:13:16Z
 source: cortex-platform
 ---
 

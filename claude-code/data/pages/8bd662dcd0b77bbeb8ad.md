@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/generic-on-premise-data-collectors/xdr-collectors/xdr-collector-datasets
-fetched_at: 2026-09-06T10:01:26Z
+fetched_at: 2026-09-16T08:46:20Z
 source: cortex-platform
 ---
 

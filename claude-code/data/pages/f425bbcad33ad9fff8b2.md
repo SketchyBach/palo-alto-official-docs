@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/investigation-and-response/investigate-files/manage-quarantined-files
-fetched_at: 2026-09-06T09:55:37Z
+fetched_at: 2026-09-16T08:44:41Z
 source: cortex-platform
 ---
 
@@ -99,6 +99,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Review WildFire analysis details 
 
- Last updated 17 days ago 
+ Last updated 26 days ago 
 
  Was this helpful?

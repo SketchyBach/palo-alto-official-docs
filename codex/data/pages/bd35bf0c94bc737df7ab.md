@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/advanced-threat-prevention/custom-signatures/ips-signature-converter-for-panorama/cli-reference
-fetched_at: 2026-08-13T14:30:58Z
+fetched_at: 2026-09-15T15:07:48Z
 source: palo-alto-main
 ---
 
 # CLI Quick Start Clear
 
-CLI Quick Start 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- CLI Quick Start 
-
- Updated on 
-
- Fri Mar 13 11:36:53 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Advanced Threat Prevention 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Custom Application IDs and Threat Signatures 
-
- Reference 
-
- Release Notes 
-
- Updated on 
-
- Fri Mar 13 11:36:53 PDT 2026 
+ Sep 3, 2026 
 
  Focus 
 
@@ -94,11 +42,9 @@ CLI Quick Start
 
  Administration 
 
- Custom Application IDs and Threat Signatures 
+ Custom Application IDs and Signatures 
 
  Reference 
-
- Release Notes 
 
  Previous 
 
@@ -148,110 +94,4 @@ that you imported to Panorama)
 
  Next 
 
- Troubleshooting the IPS Signature Converter 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Custom Application IDs and Threat Signatures 
-
- Custom Signatures 
-
- Advanced Threat Prevention 
-
- Threat Prevention 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Troubleshooting the IPS Signature Converter

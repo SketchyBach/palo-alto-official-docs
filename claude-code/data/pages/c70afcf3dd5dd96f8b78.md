@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/cortex-advanced-email-security/mailbox-inventory
-fetched_at: 2026-09-06T09:45:59Z
+fetched_at: 2026-09-16T08:43:03Z
 source: cortex-platform
 ---
 

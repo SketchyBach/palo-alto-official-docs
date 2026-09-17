@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/october-2023/cisco-catalyst-sd-wan-integration
-fetched_at: 2026-08-13T17:47:19Z
+fetched_at: 2026-09-16T07:53:56Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

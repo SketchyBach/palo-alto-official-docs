@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-data-model-schema/consts/user-type
-fetched_at: 2026-09-06T10:56:34Z
+fetched_at: 2026-09-16T09:04:13Z
 source: cortex-platform
 ---
 
@@ -51,6 +51,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next XDM_CONST.FORMAT_TYPE 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

@@ -1,0 +1,178 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-admin/firewall-administration/use-the-web-interface/manage-and-monitor-administrative-tasks
+fetched_at: 2026-09-16T12:58:12Z
+source: palo-alto-main
+---
+
+# Manage and Monitor Administrative Tasks Clear
+
+Updated on 
+
+ Mon Aug 31 04:46:16 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Firewall Administration 
+
+ Launch the Web Interface 
+
+ Manage and Monitor Administrative Tasks 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Manage and Monitor Administrative Tasks 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Use the Administrator Login Activity Indicators to Detect Account Misuse 
+
+ Next 
+
+ Configure Response Pages 
+
+ Manage and Monitor Administrative Tasks 
+
+ Manage and monitor administrative tasks in PAN-OS firewall administration using the
+ web interface for system operations and task scheduling. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ No prerequisites needed 
+
+ The Task Manager displays details about all
+the operations that you and other administrators initiated (such
+as manual commits) or that the firewall initiated (such as scheduled
+report generation) since the last firewall reboot. You can use the
+Task Manager to troubleshoot failed operations, investigate warnings
+associated with completed commits, view details about queued commits,
+or cancel pending commits. 
+
+ You can also view System Logs to monitor
+ system events on the firewall or view Config Logs to monitor firewall
+ configuration changes. 
+
+ Click Tasks at the bottom
+of the web interface. 
+
+ Show only Running tasks
+(in progress) or All tasks (default). Optionally,
+filter the tasks by type: 
+
+ Jobs —Administrator-initiated
+commits, firewall-initiated commits, and software or content downloads
+and installations. 
+
+ Reports —Scheduled reports. 
+
+ Log Requests —Log queries that you
+trigger by accessing the Dashboard or a Monitor page. 
+
+ Perform any of the following actions: 
+
+ Display or hide task details —By default,
+the Task Manager displays the Type, Status, Start Time, and Messages
+for each task. To see the End Time and Job ID for a task, you must
+manually configure the display to expose those columns. To display
+or hide a column, open the drop-down in any column header, select Columns ,
+and select or deselect the column names as needed. 
+
+ Investigate warnings or failures —Read the entries
+in the Messages column for task details. If the column says Too
+many messages , click the corresponding entry in the
+Type column to see more information. 
+
+ Display a commit description —If an administrator entered
+a description when configuring a commit, you can click Commit
+Description in the Messages column to display the description. 
+
+ Check the position of a commit in the queue —The Messages
+column indicates the queue position of commits that are in progress. 
+
+ Cancel pending commits —Click Clear Commit
+Queue to cancel all pending commits (available only
+to predefined administrative roles). To cancel an individual commit,
+click x in the Action column for that commit
+(the commit remains in the queue until the firewall dequeues it).
+You cannot cancel commits that are in progress. 
+
+ Previous 
+
+ Use the Administrator Login Activity Indicators to Detect Account Misuse 
+
+ Next 
+
+ Configure Response Pages

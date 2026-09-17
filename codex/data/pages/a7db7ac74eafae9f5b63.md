@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/analyze-and-resolve-cases/establish-case-context/assess-case-severity-and-score
-fetched_at: 2026-09-06T09:55:04Z
+fetched_at: 2026-09-16T08:44:40Z
 source: cortex-platform
 ---
 

@@ -1,68 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/administration/get-started-with-adem/get-started-with-adem-for-mobile-users/real-user-monitoring
-fetched_at: 2026-08-13T15:29:15Z
+fetched_at: 2026-09-15T15:08:44Z
 source: palo-alto-main
 ---
 
 # Browser-Based Real User Monitoring for Real-Time Application Experience Visibility Clear
 
-Browser-Based Real User Monitoring for Real-Time Application Experience Visibility 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Browser-Based Real User Monitoring for Real-Time Application Experience Visibility 
-
- Updated on 
-
- Aug 12, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Aug 12, 2026 
 
@@ -193,60 +137,4 @@ Browser-Based Real User Monitoring for Real-Time Application Experience Visibili
  Verify that ADEM is collecting RUM data. 
 
  In Strata Cloud Manager , select Insights Application Experience and see whether RUM metrics are available on ADEM
- dashboards . 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Administration 
-
- Autonomous DEM 
-
- SASE 
-
- Strata Cloud Manager 
-
- Prisma SASE 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ dashboards .

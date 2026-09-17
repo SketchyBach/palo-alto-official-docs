@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/learn-about-cortex-xsoar/readme.md
-fetched_at: 2026-09-06T11:19:32Z
+fetched_at: 2026-09-16T09:12:47Z
 source: cortex-platform
 ---
 
@@ -10,9 +10,11 @@ source: cortex-platform
 
 # Navigate the Cortex XSOAR 6.14 Administrator Guide
 
+Start here for a visual overview of the main Cortex XSOAR 6.14 documentation areas.
+
 Use this page to jump into the right docs area fast.
 
-<table data-view="cards"><thead><tr><th></th><th data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Learn about Cortex XSOAR</strong><br>Explore core concepts, licenses, and essential product features.</td><td><a href="/spaces/OHlpKeFtqCLUYKuYyccd/pages/lkaTtFywohex34EnL5Om">/spaces/OHlpKeFtqCLUYKuYyccd/pages/lkaTtFywohex34EnL5Om</a></td></tr><tr><td><strong>Onboard Cortex XSOAR</strong><br>Install, configure, and manage your Cortex XSOAR deployment.</td><td><a href="/pages/CGCzAPjXnHPOdCRJccTM">/pages/CGCzAPjXnHPOdCRJccTM</a></td></tr><tr><td><strong>Customize Cortex XSOAR</strong><br>Configure incidents, playbooks, integrations, and system settings.</td><td><a href="/pages/bYzwMwpVH9JVotx3w0Yu">/pages/bYzwMwpVH9JVotx3w0Yu</a></td></tr><tr><td><strong>Investigate and Respond to Threats</strong><br>Manage incidents and indicators during daily security operations.</td><td><a href="/pages/KVLYHdBniP3DA2XNCYlf">/pages/KVLYHdBniP3DA2XNCYlf</a></td></tr><tr><td><strong>Reference Docs</strong><br>Access configuration details, diagnostics, and technical reference material.</td><td><a href="/pages/6oiUzF9ss0hYOvRACCsH">/pages/6oiUzF9ss0hYOvRACCsH</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Learn about Cortex XSOAR</strong><br>Explore core concepts, licenses, and essential product features.</td><td><a href="/xsoar-6-administrator-guide/6.14/learn-about-cortex-xsoar/get-started-in-cortex-xsoar.md">Get Started in Cortex XSOAR</a></td></tr><tr><td><strong>Onboard Cortex XSOAR</strong><br>Install, configure, and manage your Cortex XSOAR deployment.</td><td><a href="/xsoar-6-administrator-guide/6.14/onboard-cortex-xsoar/onboarding-in-cortex-xsoar.md">Onboard Cortex XSOAR</a></td></tr><tr><td><strong>Customize Cortex XSOAR</strong><br>Configure incidents, playbooks, integrations, and system settings.</td><td><a href="/xsoar-6-administrator-guide/6.14/customize-cortex-xsoar/customize-and-configure-cortex-xsoar.md">Customize Cortex XSOAR</a></td></tr><tr><td><strong>Investigate and Respond to Threats</strong><br>Manage incidents and indicators during daily security operations.</td><td><a href="/xsoar-6-administrator-guide/6.14/investigate-and-respond-to-threats/day-to-day-tasks-in-cortex-xsoar.md">Investigate and Respond to Threats</a></td></tr><tr><td><strong>Reference Docs</strong><br>Access configuration details, diagnostics, and technical reference material.</td><td><a href="/xsoar-6-administrator-guide/6.14/reference-docs/reference.md">Reference Docs</a></td></tr></tbody></table>
 
 
 ---

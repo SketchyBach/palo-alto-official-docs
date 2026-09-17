@@ -1,0 +1,72 @@
+---
+url: https://docs.prismacloud.io/content-collections/runtime-security/install/deploy-defender/kubernetes/defender-gcp-marketplace
+fetched_at: 2026-09-16T13:35:13Z
+source: prisma-cloud
+---
+
+# Deploy Prisma Cloud Defender from the GCP Marketplace | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Enterprise Edition 
+
+ Content Collections 
+
+ Runtime Security 
+
+ Install 
+
+ Deploy the Prisma Cloud Defender 
+
+ Deploy Orchestrator Defender 
+
+ Deploy Prisma Cloud Defender from the GCP Marketplace 
+
+ Prerequisites: You need access to a Prisma Cloud SaaS Console. You can sign up for a free trial of Prisma Cloud on the Google Cloud Marketplace. 
+
+ Find Prisma Cloud - Kubernetes Security Defender in the GCP Marketplace. Click Configure. 
+
+ Create Cluster, if you don’t have an existing Kubernetes cluster. Otherwise, continue to the next step. 
+
+ Select an existing namespace to install Defender, or Create a namespace (recommended). The default new namespace is "twistlock". 
+
+ Enter the App instance name for the Defender the installation. This name displays on the Application section of the GKE portal: 
+
+ Specify the following information about your Prisma Cloud SaaS Console (go through steps 6-8 to get these info): 
+
+ To get the URL for your Prisma Cloud Console: 
+
+ Log into your Prisma Cloud portal (e.g., https://app.prismacloud.io/). 
+
+ Navigate to Runtime Security > System . 
+
+ Copy the URL in Path to Console. GCP uses this URL to get all the setup artifacts from your Prisma Cloud Console. In this example, it’s https://us-east1.cloud.twistlock.com/us-1-111573360. 
+
+ To get a token for your Prisma Cloud Compute Console. 
+
+ Go to Runtime Security > Authentication. 
+
+ Copy the API token. and paste it into the GCP Marketplace form. 
+
+ Specify the IP address or domain name of your Prisma Cloud Compute Console. 
+
+ The Defenders that you are deploying will use this IP address to communicate with Prisma Cloud. It’s almost the same as the URL, but remove the protocol (https://) and the path (everything trailing the first "/"). In this example, us-east1.cloud.twistlock.com. 
+
+ When the form is filled out, click Deploy. 
+
+ Go to Prisma Cloud SaaS Console to confirm the deployment is successful. 
+
+ In the GKE console, review the status of your deployment: 
+
+ In Prisma Cloud Console, go to Runtime Security > Defender to review the status of your deployment: 
+
+ Previous Automatically Install Container Defender in a Cluster 
+
+ Next Deploy Defenders as DaemonSets 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

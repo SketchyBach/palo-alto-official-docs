@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/fidelis/fidelis
-fetched_at: 2026-09-06T09:23:46Z
+fetched_at: 2026-09-16T07:58:06Z
 source: cortex-platform
 ---
 
@@ -49,6 +49,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Filigran 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

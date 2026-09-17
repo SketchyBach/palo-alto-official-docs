@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/configure-cortex-xsoar/engines/remove-an-engine
-fetched_at: 2026-09-06T10:21:53Z
+fetched_at: 2026-09-16T08:52:17Z
 source: cortex-platform
 ---
 
@@ -53,6 +53,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure engines 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

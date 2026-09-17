@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-access-security/release-notes/limitations
-fetched_at: 2026-09-06T11:16:49Z
+fetched_at: 2026-09-16T07:54:34Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Fri May 29 13:54:12 PDT 2026 
+ May 29, 2026 
 
  Focus 
 

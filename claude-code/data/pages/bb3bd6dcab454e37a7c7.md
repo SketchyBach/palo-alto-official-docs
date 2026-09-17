@@ -1,58 +1,20 @@
 ---
 url: https://docs.paloaltonetworks.com/strata-cloud-manager/new-features/by-date/strata-cloud-manager/february-2026#e43e69d3c907b84ffdab37c2f2435c86
-fetched_at: 2026-08-13T17:38:33Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:51:08Z
+source: strata-and-sase
 ---
 
 # New Features - Strata Cloud Manager - February 2026 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
 
-New Features - Strata Cloud Manager - February 2026 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Strata Cloud Manager Docs 
-
- Activation & Onboarding 
-
- Subscription & Tenant Management 
-
- Getting Started 
-
- AIOps 
-
- Release Notes 
-
- New Features 
-
- Focus 
+Focus 
 
  Home 
 
  Strata Cloud Manager 
 
  New Features - Strata Cloud Manager - February 2026 
+
+ Download PDF 
 
  Audio Passthrough for Privileged Remote Access RDP Sessions 
 
@@ -415,85 +377,3 @@ New Features - Strata Cloud Manager - February 2026
  Management
 
  February 2026
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.

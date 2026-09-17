@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/attack-surface-management/attack-surface-management-detections
-fetched_at: 2026-09-06T09:45:40Z
+fetched_at: 2026-09-16T08:42:59Z
 source: cortex-platform
 ---
 
@@ -20,6 +20,8 @@ For the complete documentation index, see llms.txt . This page is also available
  Detect, investigate, and respond to threats 
 
  Attack surface management 
+
+ Attack Surface Management 
 
  Attack Surface Management detections 
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/configure-cortex-xsoar/users-and-roles-management/roles-management/manage-roles-in-the-cortex-xsoar-tenant
-fetched_at: 2026-09-06T10:32:44Z
+fetched_at: 2026-09-16T08:54:33Z
 source: cortex-platform
 ---
 

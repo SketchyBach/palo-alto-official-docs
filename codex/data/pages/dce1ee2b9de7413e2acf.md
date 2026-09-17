@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/saas-security/saas-security/setup-saas-security
-fetched_at: 2026-09-06T10:07:15Z
+fetched_at: 2026-09-16T08:47:45Z
 source: cortex-platform
 ---
 
@@ -63,6 +63,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Onboard a Supported SaaS Application 
 
- Last updated 5 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

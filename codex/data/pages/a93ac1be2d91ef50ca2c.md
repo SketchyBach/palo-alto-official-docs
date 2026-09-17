@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/agent-discovery/protect-agents-using-api-intercept
-fetched_at: 2026-09-06T11:17:12Z
+fetched_at: 2026-09-16T07:54:38Z
 source: ai-security
 ---
 

@@ -1,0 +1,169 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/10-0/pan-os-admin/firewall-administration/manage-firewall-administrators/configure-administrative-accounts-and-authentication/configure-a-firewall-administrator-account.html
+fetched_at: 2026-09-16T13:56:02Z
+source: palo-alto-main
+---
+
+# Configure a Firewall Administrator Account Clear
+
+Updated on 
+
+ Tue Jul 22 10:22:57 PDT 2025 
+
+ Focus 
+
+ Home 
+
+ PAN-OS 
+
+ Firewall Administration 
+
+ Manage Firewall Administrators 
+
+ Configure Administrative Accounts and Authentication 
+
+ Configure a Firewall Administrator Account 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Configure a Firewall Administrator Account 
+
+ Table of Contents 
+
+ Filter
+
+ End-of-Life (EoL)
+
+ Previous 
+
+ Configure Administrative Accounts and Authentication 
+
+ Next 
+
+ Configure Local or External Authentication for Firewall Administrators 
+
+ Configure a Firewall Administrator Account 
+
+ Administrative accounts specify roles and
+authentication methods for firewall administrators. The service
+that you use to assign roles and perform authentication determines
+whether you add the accounts on the firewall, on an external server,
+or both (see Administrative
+Authentication ). If the authentication method relies on a
+local firewall database or an external service, you must configure
+an authentication profile before adding an administrative account
+(see Configure
+Administrative Accounts and Authentication ). If you already
+configured the authentication profile or you will use Local
+Authentication without a firewall database, perform the following
+steps to add an administrative account on the firewall. 
+
+ Create a separate administrative account
+for each person who needs access to the administrative or reporting
+functions of the firewall. This enables you to better protect the
+firewall from unauthorized configuration and enables logging of the
+actions of individual administrators. 
+ Make sure you are following
+the Best
+Practices for Securing Administrative Access to ensure that
+you are securing administrative access to your firewalls and other
+security devices in a way that prevents successful attacks. 
+
+ Modify the number of supported administrator accounts. 
+
+ Configure the total number of supported concurrent administrative
+accounts sessions for a firewall in the normal operational mode
+or in FIPS-CC mode .
+You can allow up to four concurrent administrative account sessions
+or configure the firewall to support an unlimited number of concurrent
+administrative account sessions. 
+
+ Select Device Setup Management and
+edit the Authentication Settings. 
+
+ Edit the Max Session Count to
+specify the number of supported concurrent sessions (range is 0 to 4 )
+allowed for all administrator and user accounts. 
+
+ Enter 0 to configure the firewall
+to support an unlimited number of administrative accounts. 
+
+ In
+FIPS-CC mode, the range is 1 to 4 with a default value of 4. 
+
+ In
+PAN-OS 10.0.4 and later releases, firewalls in FIPS-CC mode support
+a value of 0 to allow an unlimited amount
+of concurrent sessions. 
+
+ Edit the Max Session Time in
+minutes for an administrative account. Default is 720 minutes. 
+
+ Click OK . 
+
+ Commit . 
+
+ You can also configure the total number of supported
+concurrent sessions by logging in to the firewall CLI . 
+
+ admin> configure 
+
+ admin# set deviceconfig setting management admin-session max-session-count <0-4> 
+
+ admin# set deviceconfig setting management admin-session max-session-time <0, 60-1499> 
+
+ admin# commit 
+
+ Select Device Administrators and Add an
+account. 
+
+ Enter a user Name . 
+
+ If the firewall uses a local user database to authenticate
+the account, enter the name that you specified for the account in
+the database (see Add
+the user group to the local database. ) 
+
+ Select an Authentication Profile or
+sequence if you configured either for
+the administrator. 
+
+ If the firewall uses Local
+Authentication without a local user database for the account, select None (default)
+and enter a Password . 
+
+ Select the Administrator Type . 
+
+ If you configured a custom role
+for the user, select Role Based and select
+the Admin Role Profile . Otherwise, select Dynamic (default)
+and select a dynamic role. If the dynamic role is virtual
+system administrator , add one or more virtual systems
+that the virtual system administrator is allowed to manage. 
+
+ ( Optional ) Select a Password Profile for
+administrators that the firewall authenticates locally without a
+local user database. For details, see Define
+a Password Profile. 
+
+ Click OK and Commit . 
+
+ Previous 
+
+ Configure Administrative Accounts and Authentication 
+
+ Next 
+
+ Configure Local or External Authentication for Firewall Administrators

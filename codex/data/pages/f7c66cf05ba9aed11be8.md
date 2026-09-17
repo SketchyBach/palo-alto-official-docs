@@ -1,0 +1,156 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/activation-and-onboarding/your-prisma-access-license/all-available-apps-and-services/cheat-sheet-saas-security-with-prisma-access/cheat-sheet-saas-security-with-prisma-access-panorama.html
+fetched_at: 2026-09-16T11:47:10Z
+source: palo-alto-main
+---
+
+# Cheat Sheet: SaaS Security with Prisma Access (Managed by Panorama)
+     Clear
+
+Updated on 
+
+ Tue Apr 14 13:42:43 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Activation and Onboarding 
+
+ Your Prisma Access License 
+
+ All Available Apps and Services 
+
+ Cheat Sheet: SaaS Security with Prisma Access 
+
+ Cheat Sheet: SaaS Security with Prisma Access (Managed by Panorama)
+
+ Download PDF 
+
+ Prisma Access 
+
+ Cheat Sheet: SaaS Security with Prisma Access (Managed by Panorama)
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Cheat Sheet: SaaS Security with Prisma Access (Managed by Panorama) 
+
+ Get up and running with SaaS Security Inline on Prisma Access (Managed by
+ Panorama). 
+
+ Here’s everything you need to
+know to use SaaS Security with Prisma Access (Managed by Panorama) . 
+
+ Get Started 
+
+ Here’s how to get up and running with SaaS
+Security Inline on Prisma Access (Managed by Panorama) : 
+
+ Confirm that the SaaS Security add-on
+license is included with your Prisma Access subscription. 
+
+ Go to Panorama Licenses to check what’s available
+with your license . 
+
+ If you haven’t already, activate the SaaS Security Inline
+ app on the Activation Console. 
+
+ After activation, SaaS Security Inline automatically discovers all SaaS
+ applications and users and analyzes users’ SaaS activity and usage data
+ from your Prisma Access logs that are stored in Strata Logging Service . 
+
+ Manage administrator roles and access. 
+
+ Go to the Activation Console to provide roles -based access to SaaS
+ Security controls in Prisma Access 
+ Cloud Management. 
+
+ To
+comprehensively manage SaaS Security, users must also be an administrator
+for the SaaS Security Inline app. Jump directly from the Prisma
+Access Cloud Management dashboard to the SaaS Security
+ Console to add SaaS Security Inline
+administrators. 
+
+ Explore the SaaS Security dashboard
+in Prisma Access (Managed by Panorama) . 
+
+ Go to Visibility . 
+
+ All dashboard views are supported
+directly in Prisma Access (Managed by Strata Cloud Manager) . Examine these views
+to identify risky SaaS applications
+and users and SaaS Security
+Posture Management . SaaS Security Posture Management (SSPM)
+helps detect and remediate misconfigured settings in sanctioned
+SaaS applications through continuous monitoring. 
+
+ Review and share the SaaS Security report. 
+
+ SaaS Security Inline includes a SaaS Security report that
+provides a snapshot of application usage with advanced aggregated
+data and views. This report serves as a communication tool between
+your SaaS security team and executive management. You can share
+this on-demand PDF report with your SaaS security team for a periodic
+check-in, or email the report to your executives to highlight the
+SaaS applications in use in your organization and the security risks
+they pose. 
+
+ Here’s more on the SaaS
+ Security report 
+
+ Here’s how to generate the
+ SaaS Security report in the SaaS Security Inline app 
+
+ See what else you can do with SaaS Security and Panorama Managed
+Prisma Access .

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.9/configure-cortex-xsoar/playbooks/develop-your-playbook/customize-a-playbook-for-a-phishing-use-case-example
-fetched_at: 2026-09-06T10:38:09Z
+fetched_at: 2026-09-16T08:55:34Z
 source: cortex-platform
 ---
 
@@ -239,6 +239,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Customize your playbook 
 
- Last updated 28 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

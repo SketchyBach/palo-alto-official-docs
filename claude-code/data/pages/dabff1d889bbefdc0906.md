@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-content-update-releases/cortex-xdr-content-releases/2380
-fetched_at: 2026-09-06T10:54:31Z
+fetched_at: 2026-09-16T09:02:37Z
 source: cortex-platform
 ---
 
@@ -200,6 +200,6 @@ CTNG-16636
 
  Next 2370 
 
- Last updated 23 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

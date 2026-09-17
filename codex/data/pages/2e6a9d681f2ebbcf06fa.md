@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/5.0/traps-agent-5.0-for-linux/use-the-traps-agent-for-linux
-fetched_at: 2026-09-06T10:20:34Z
+fetched_at: 2026-09-16T08:51:42Z
 source: cortex-platform
 ---
 
@@ -238,6 +238,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Uninstall the Traps Agent for Linux 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

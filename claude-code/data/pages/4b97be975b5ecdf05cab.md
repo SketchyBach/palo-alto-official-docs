@@ -1,0 +1,335 @@
+---
+url: https://docs.paloaltonetworks.com/strata-logging-service/log-reference/ai-access-logs/ai-access-ai-conversation-log-log/ai-access-ai-conversation-log-leef-fields
+fetched_at: 2026-09-16T13:33:08Z
+source: strata-and-sase
+---
+
+# AI Conversation Log LEEF Fields Clear
+
+Updated on 
+
+ Mon Sep 14 22:55:52 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Logging Service 
+
+ Strata Logging Service Log Reference 
+
+ AI Access Logs 
+
+ AI Conversation Log 
+
+ AI Conversation Log LEEF Fields 
+
+ Download PDF 
+
+ Strata Logging Service 
+
+ AI Conversation Log LEEF Fields 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Logging Service Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Release Notes 
+
+ Log Reference 
+
+ New Features 
+
+ Previous 
+
+ AI Conversation Log HTTPS Fields 
+
+ Next 
+
+ AI Security Logs 
+
+ AI Conversation Log LEEF Fields 
+
+ The following table identifies the AI Conversation Log field names that the Log Forwarding app
+ uses when you forward logs using the LEEF log format.
+
+When you 
+
+create a syslog forwarding profile 
+ ,
+you can optionally create a profile token that the Log
+Forwarding app uses when it sends logs to the syslog server. If you configure a profile token,
+it appears in the log line immediately after the log type information (for example,
+ TRAFFIC , THREAT ,
+ HIPMATCH , and so forth). The token will appear on 
+a parameter called profileToken .
+
+ LEEF Name
+
+ Query Name
+
+ Field Type
+
+ Action
+
+ action.​value 
+
+ Custom
+
+ AppClassification
+
+ app_classification.​value 
+
+ Custom
+
+ AppID
+
+ app_id 
+
+ Custom
+
+ AppName
+
+ app_name 
+
+ Custom
+
+ Channel
+
+ channel.​value 
+
+ Custom
+
+ Content
+
+ content 
+
+ Custom
+
+ ContentExtracted
+
+ content_extracted 
+
+ Custom
+
+ ConversationID
+
+ conversation_id 
+
+ Custom
+
+ CortexDataLakeTenantID
+
+ customer_id 
+
+ Custom
+
+ DataSize
+
+ data_size 
+
+ Custom
+
+ DLPDataProfiles
+
+ dlp_data_profiles 
+
+ Custom
+
+ DLPIncidentID
+
+ dlp_incident_id 
+
+ Custom
+
+ DLPTenantID
+
+ dlp_tenant_id 
+
+ Custom
+
+ FileName
+
+ file_name 
+
+ Custom
+
+ FileType
+
+ file_type 
+
+ Custom
+
+ IsFileBased
+
+ is_file_based 
+
+ Custom
+
+ IsPrompt
+
+ is_prompt 
+
+ Custom
+
+ IsResponse
+
+ is_response 
+
+ Custom
+
+ LogSource
+
+ log_source 
+
+ Custom
+
+ LogSourceGroupID
+
+ log_source_group_id 
+
+ Custom
+
+ DeviceSN
+
+ log_source_id 
+
+ Custom
+
+ DeviceName
+
+ log_source_name 
+
+ Custom
+
+ LogSourceTimeZoneOffset
+
+ log_source_tz_offset 
+
+ Custom
+
+ TimeReceived
+
+ log_time 
+
+ Custom
+
+ cat
+
+ log_type.​value 
+
+ Predefined
+
+ PlatformType
+
+ platform_type 
+
+ Custom
+
+ PromptIntents
+
+ prompt_intents 
+
+ Custom
+
+ PromptTopics
+
+ prompt_topics 
+
+ Custom
+
+ ReportID
+
+ report_id 
+
+ Custom
+
+ ScanRegion
+
+ scan_region 
+
+ Custom
+
+ SessionKey
+
+ session_key 
+
+ Custom
+
+ Snippets
+
+ snippets 
+
+ Custom
+
+ Source
+
+ source.​value 
+
+ Custom
+
+ SubType
+
+ sub_type.​value 
+
+ Custom
+
+ devTime
+
+ time_generated 
+
+ Predefined
+
+ TimeGeneratedHighResolution
+
+ time_generated_high_res 
+
+ Custom
+
+ TSGID
+
+ tsg_id 
+
+ Custom
+
+ URL
+
+ url 
+
+ Custom
+
+ UserID
+
+ user_id 
+
+ Custom
+
+ Vendor
+
+ vendor_name 
+
+ Header
+
+ DLPVerdict
+
+ verdict.​value 
+
+ Custom
+
+ Previous 
+
+ AI Conversation Log HTTPS Fields 
+
+ Next 
+
+ AI Security Logs

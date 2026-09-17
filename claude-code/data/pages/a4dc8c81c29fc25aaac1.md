@@ -1,54 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/strata-cloud-manager
-fetched_at: 2026-08-13T17:37:00Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:50:37Z
+source: strata-and-sase
 ---
 
 # Strata Cloud Manager Clear
 
-Strata Cloud Manager 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Strata Cloud Manager Docs 
-
- Activation & Onboarding 
-
- Subscription & Tenant Management 
-
- Getting Started 
-
- AIOps 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Aug 3, 2026 
+ Aug 28, 2026 
 
  Focus 
 
@@ -175,85 +135,3 @@ Strata Cloud Manager
  Aktivierung und Onboarding von Prisma Access Browser
 
  Prisma Access Browser-Benutzerhandbuch
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.

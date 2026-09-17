@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/vm-series/deployment/public-cloud/set-up-the-vm-series-firewall-on-azure/vm-series-on-azure-service-principal-permissions
-fetched_at: 2026-08-13T17:42:08Z
+fetched_at: 2026-09-16T07:52:24Z
 source: palo-alto-main
 ---
 
 # VM-Series on Azure Service Principal Permissions Clear
 
-VM-Series on Azure Service Principal Permissions 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- VM-Series on Azure Service Principal Permissions 
-
- Updated on 
-
- Jul 8, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- VM-Series Firewall Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Upgrade 
-
- Deployment 
-
- Select a Document 
-
- Public Cloud 
-
- Private Cloud 
-
- Updated on 
-
- Jul 8, 2026 
+ Aug 10, 2026 
 
  Focus 
 
@@ -317,68 +263,4 @@ Principal. Alternatively, you can add the following custom permissions:
 
  Next 
 
- Deploy the VM-Series Firewall from the Azure Marketplace (Solution Template) 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Next-Generation Firewalls 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- VM-Series 
-
- Plugins 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Resources 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- Network Security 
-
- Deployment 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Deploy the VM-Series Firewall from the Azure Marketplace (Solution Template)

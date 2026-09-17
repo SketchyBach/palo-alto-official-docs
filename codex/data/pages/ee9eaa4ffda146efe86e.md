@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/threat-management/threat-intel-management/indicator-investigation/indicator-verdict
-fetched_at: 2026-09-06T09:34:23Z
+fetched_at: 2026-09-16T08:36:23Z
 source: cortex-platform
 ---
 
@@ -149,6 +149,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Extract and enrich an indicator 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

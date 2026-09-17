@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/google-cloud-platform-manual-onboarding/gcp-manual-onboarding/gcp-manual-onboarding-guide-organization-scope/configuration-values-reference
-fetched_at: 2026-09-06T11:16:39Z
+fetched_at: 2026-09-16T09:12:19Z
 source: cortex-platform
 ---
 
@@ -129,6 +129,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous Manage configuration changes 
 
- Last updated 9 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

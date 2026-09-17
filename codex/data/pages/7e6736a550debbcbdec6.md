@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/endpoint-security/install-and-manage-endpoints
-fetched_at: 2026-09-06T09:53:45Z
+fetched_at: 2026-09-16T08:44:33Z
 source: cortex-platform
 ---
 
@@ -35,6 +35,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up endpoint protection 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

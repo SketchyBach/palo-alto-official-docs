@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.12/onboard-multi-tenant/plan-your-multi-tenant-deployment/change-the-port-for-host-to-main-communication
-fetched_at: 2026-09-06T10:50:18Z
+fetched_at: 2026-09-16T08:58:32Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Plan Your Multi-Tenant Deployment 
 
- XSOAR 6.12 Multi-Tenant EoL 
+ Cortex XSOAR 6.12 Multi-Tenant EoL 
 
  Change the Port for Host to Main Communication 
 
@@ -51,6 +51,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Multi-Tenant Deployment Installation 
 
- Last updated 3 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

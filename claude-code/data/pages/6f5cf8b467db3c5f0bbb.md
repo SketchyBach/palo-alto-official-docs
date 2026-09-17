@@ -1,0 +1,116 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/9-1/pan-os-new-features/virtualization-features.html
+fetched_at: 2026-09-16T10:53:17Z
+source: palo-alto-main
+---
+
+# Virtualization Features Clear
+
+Updated on 
+
+ Wed Aug 21 13:48:01 PDT 2024 
+
+ Focus 
+
+ Home 
+
+ PAN-OS 
+
+ PAN-OS® New Features Guide 
+
+ Virtualization Features 
+
+ Download PDF 
+
+ PAN-OS® New Features Guide 
+
+ Virtualization Features 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 9.1 (EoL) 
+
+ 11.0 (EoL) 
+
+ 10.2 
+
+ 10.1 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Upgrade to PAN-OS 9.1 
+
+ Upgrade/Downgrade Considerations 
+
+ Upgrade the Firewall to PAN-OS 9.1 
+
+ Determine the Upgrade Path to PAN-OS 9.1 
+
+ Upgrade Firewalls Using Panorama 
+
+ Upgrade a Standalone Firewall to PAN-OS 9.1 
+
+ Upgrade an HA Firewall Pair to PAN-OS 9.1 
+
+ Downgrade from PAN-OS 9.1 
+
+ Downgrade a Firewall to a Previous Maintenance Release 
+
+ Downgrade a Firewall to a Previous Feature Release 
+
+ Downgrade a Windows Agent from PAN-OS 9.1 
+
+ SD-WAN Features 
+
+ Secure SD-WAN 
+
+ App-ID Features 
+
+ Streamlined Application-Based Policy 
+
+ Simplified Application Dependency Workflow 
+
+ Panorama Features 
+
+ Automatic Panorama Connection Recovery 
+
+ Next-Generation Firewalls for Zero Touch Provisioning 
+
+ User-ID Features 
+
+ Include Username in HTTP Header Insertion Entries 
+
+ Dynamic User Groups 
+
+ GlobalProtect Features 
+
+ Enhanced Logging for GlobalProtect 
+
+ Virtualization Features 
+
+ VM-Series Firewall on VMware NSX-T (East-West) 
+
+ End-of-Life (EoL)
+
+ Virtualization Features 
+
+ Learn about all the exciting changes on the VM-Series
+firewall in PAN-OS 9.1. 
+
+ VM-Series Firewall on VMware NSX-T (East-West) 
+
+ Previous 
+
+ Enhanced Logging for GlobalProtect 
+
+ Next 
+
+ VM-Series Firewall on VMware NSX-T (East-West)

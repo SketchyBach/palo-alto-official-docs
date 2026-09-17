@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/saas-security/saas-security/saas-ai-agent-security/manage-saas-ai-agents/view-datasets
-fetched_at: 2026-09-06T10:07:43Z
+fetched_at: 2026-09-16T08:47:57Z
 source: cortex-platform
 ---
 
@@ -51,6 +51,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next View Agent Tools 
 
- Last updated 6 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

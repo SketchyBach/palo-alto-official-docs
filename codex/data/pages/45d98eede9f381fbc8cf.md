@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/salesforce/ingest-and-run-salesforce-automation-and-remediation
-fetched_at: 2026-09-06T09:25:38Z
+fetched_at: 2026-09-16T08:24:49Z
 source: cortex-platform
 ---
 
@@ -40,11 +40,11 @@ For the complete documentation index, see llms.txt . This page is also available
  Automation and Remediation: Automate identity lifecycle management including user provisioning, updates, and access control. This capability is available with any active Cortex AgentiX, Cortex Cloud Runtime Security, Cortex XSIAM, Cortex XDR, or Cortex Cloud license.
 Requires the following OAuth scopes: 
 
- Access and manage your data (api) Required for all standard operations on Cases, Users, Indicators, and Custom Objects (Fusion). Covers REST API queries and searches. 
+ Access and manage your data ( api ) Required for all standard operations on Cases, Users, Indicators, and Custom Objects (Fusion). Covers REST API queries and searches. 
 
- Access and manage your Chatter data (chatter_api) Required specifically for SOC playbooks that post comments and thread replies to the Salesforce Chatter feed. 
+ Access and manage your Chatter data ( chatter_api ) Required specifically for SOC playbooks that post comments and thread replies to the Salesforce Chatter feed. 
 
- Perform requests on your behalf at any time (refresh_token) Essential for background automation. Allows Cortex XSIAM to rotate expired tokens and stay connected 24/7 without manual login. 
+ Perform requests on your behalf at any time ( refresh_token ) Essential for background automation. Allows Cortex XSIAM to rotate expired tokens and stay connected 24/7 without manual login. 
 
  Data Security: Scan and protect Salesforce data including files, attachments, and records. This capability is available with any active Cortex XSIAM, Cortex Cloud Posture Security, Cortex Cloud Runtime Security, or Cortex Data Security license. 
 
@@ -54,9 +54,11 @@ Requires the following OAuth scopes:
 
  saas-posture-config-remediation: Help remediate the misconfigured security settings of your SaaS application. This sub-capability is available with any active Cortex XSIAM or Cortex Cloud Posture Security license. 
 
- Cortex XSIAM can ingest identity metadata, login history, audit trails, and security monitoring events from Salesforce via capabilities to help you secure user identities, monitor for real-time threats, and automate issue response. To simplify setup, a wizard enables you to select specific capabilities based on your operational needs. The wizard then automatically identifies and provisions the underlying integrations required to support these capabilities. 
+ Supported capabilities and sub-capabilities 
 
- The following table outlines the capabilities currently available in the wizard and the integrations it uses for each. 
+ Cortex XSIAM can ingest identity metadata, login history, audit trails, and security monitoring events from Salesforce via capabilities to help you secure user identities, monitor for real-time threats, and automate issue response. To simplify setup, a wizard enables you to select specific capabilities based on your operational needs. The wizard then automatically identifies and provisions the underlying sub-capabilities required to support these capabilities. 
+
+ The following table outlines the capabilities currently available in the wizard and the sub-capaibilities it uses for each. 
 
  Capability 
 
@@ -64,7 +66,7 @@ Requires the following OAuth scopes:
 
  Use Cases 
 
- Underlying Integrations Used 
+ Underlying Sub-capabilities Used 
 
  Automation and Remediation 
 
@@ -112,21 +114,21 @@ Requires the following OAuth scopes:
 
  Prerequisite 
 
- Cortex XSIAM 
+ Cortex XSIAM tenant 
 
  RBAC permissions: Requires View/Edit permissions for Log Collections, Data Sources, and Integrations (under Configurations & Data Collections). 
 
  Content packs: Ensure the Salesforce and Base content packs are installed or updated to the latest version. 
 
- Store credentials (optional): You can configure vault credentials to securely manage and reuse authentication data across multiple integrations under Settings → Configurations → Integrations → Credentials . 
+ Store credentials (optional): You can configure vault credentials to securely manage and reuse authentication data across multiple sub-capabilities under Settings → Configurations → Integrations → Credentials . 
 
  Gateway permissions: Requires Account Admin or Instance Administrator permissions for configuring egress settings in the Cortex Gateway to allow communication with your Salesforce Domain URL. 
 
- Salesforce 
+ Salesforce environment 
 
  Salesforce requirements depend on the capabilities you use: 
 
- Security Posture prerequisites 
+ Security Posture capability prerequisites 
 
  Requires the following permissions enabled in Salesforce: 
 
@@ -146,7 +148,7 @@ Requires the following OAuth scopes:
 
  (Optional) Ensure the region-specific IP addresses are added to the allowed list on your NGFW or Prisma Access tenant. 
 
- Automation and Remediation prerequisites 
+ Automation and Remediation capability prerequisites 
 
  Requires the Full System Admin permission enabled in Salesforce. 
 
@@ -154,23 +156,27 @@ Requires the following OAuth scopes:
 
  Perform the following procedures in the order that they appear, below. 
 
- Task 1. Configure the Salesforce External Client App 
+ Task 1. Configure the Salesforce external client app 
 
- Salesforce is deprecating "Connected Apps"; it is recommended to use an External Client App. 
+ Salesforce is deprecating "Connected Apps"; it is recommended to use an external client app. 
 
- In Salesforce, on the Setup page, search for App Manager and click New External Client App. 
+ In Salesforce, on the Setup page, search for App Manager and click New External Client App . 
 
- Provide a name (such as panw_cortex_integration ), and your email address (used to retrieve the Consumer Key and Consumer Secret). 
+ Provide a name (such as panw_cortex_integration ), and your email address (used to retrieve the Consumer Key and Consumer Secret ). 
 
- Under API (enable OAuth settings), select Enable OAuth. 
+ Under API (enable OAuth settings), select Enable OAuth . 
 
  Enter the following Callback URLs on separate lines (replacing {tenant external URL} with your tenant name): 
 
- https://login.salesforce.com/services/oauth2/callback 
+ https://{your-salesforce-domain}.my.salesforce.com/services/oauth2/callback 
 
  https://{tenant external URL}.paloaltonetworks.com/configuration/data-sources 
 
- Select these OAuth Scopes: 
+ Note 
+
+ Do not use the generic login.salesforce.com address if your organization uses a custom Salesforce domain or a sandbox. You must replace {your-salesforce-domain} with your specific Salesforce instance name (for example, acme-inc.my.salesforce.com ) to ensure proper authentication redirection. 
+
+ Select these OAuth Scopes : 
 
  Access and manage your Chatter data (chatter_api) 
 
@@ -178,41 +184,41 @@ Requires the following OAuth scopes:
 
  Perform requests at any time (refresh_token, offline_access) 
 
- Enable only these checkboxes after OAuth Scopes: Require Secret for Web Server Flow, Require Secret for Refresh Token Flow, and Enable Client Credentials Flow. For more information, see Salesforce Client Credentials Flow . 
+ Enable only these checkboxes after OAuth Scopes : Require Secret for Web Server Flow , Require Secret for Refresh Token Flow , and Enable Client Credentials Flow . For more information, see Salesforce Client Credentials Flow . 
 
- Click Save, then Continue. 
+ Click Save , then Continue . 
 
- Task 2. Retrieve credentials 
+ Task 2. Retrieve credentials from Salesforce 
 
  Consumer Key will be used for client_id , and Consumer Secret will be used for client_secret in OAuth 2.0. 
 
- On the Setup page, search for External Client App Manager. 
+ On the Setup page, search for External Client App Manager . 
 
- Find your application (the one that you defined for Cortex XSIAM), click the arrow button in the last column, and select Edit Settings. 
+ Find your application (the one that you defined for Cortex XSIAM), click the arrow button in the last column, and select Edit Settings . 
 
- In the OAuth Settings area, click Consumer Key and Secret. 
+ In the OAuth Settings area, click Consumer Key and Secret . 
 
- Go back to the Salesforce Verify Your Identity page, paste the code received via email in the Verification Code box, and click Verify. One of the following will happen: 
+ Go back to the Salesforce Verify Your Identity page, paste the code received via email in the Verification Code box, and click Verify . One of the following will happen: 
 
  The Consumer Key and Consumer Secret will be sent to the email address that you configured earlier for the Cortex XSIAM External Client App. 
 
- On the Salesforce External Client App Name page, the Consumer Details area will display the Consumer Key and Consumer Secret, and you will be able to copy them from here when required in the following procedures. 
+ On the Salesforce External Client App Name page, the Consumer Details area will display the Consumer Key and Consumer Secret , and you will be able to copy them from here when required in the following procedures. 
 
- Task 3. Configure the refresh token expiration policy 
+ Task 3. Configure the refresh token expiration policy in Salesforce 
 
- On the Setup page, search for External Client App Manager. 
+ On the Setup page, search for External Client App Manager . 
 
- Find your application (the one that you defined for Cortex XSIAM), click the arrow button in the last column, and select Edit Policies. 
+ Find your application (the one that you defined for Cortex XSIAM), click the arrow button in the last column, and select Edit Policies . 
 
  In the OAuth Policies area: 
 
- Under Plugin Policies - Permitted Users, select All users can self-authorize. 
+ Under Plugin Policies - Permitted Users , select All users can self-authorize . 
 
  Set the refresh token policy to Expire refresh token if not used for specific time (recommended). For example, select this option and set it for 7 days. 
 
- Task 4. Configure OAuth 2.0 
+ Task 4. Configure OAuth 2.0 authentication for Salesforce 
 
- Configure the OAuth 2.0 application to call the Salesforce.com API with one of the following flows: 
+ Configure the OAuth 2.0 application to call the Salesforce API with one of the following flows: 
 
  Client credentials flow: For more information, see Configure an External Client App OAuth 2.0 Client Credentials Flow . 
 
@@ -222,9 +228,9 @@ Requires the following OAuth scopes:
 
  An Account Admin or Instance Administrator must configure egress settings in the Cortex Gateway to allow communication with your Salesforce Domain URL. For more information, see Egress Configurations . 
 
- Log in to the Cortex Gateway with Account Admin or Instance Administrator permissions and click Permission Management. 
+ Log in to the Cortex Gateway with Account Admin or Instance Administrator permissions and click Permission Management . 
 
- From the side menu, select Egress Configurations. 
+ From the side menu, select Egress Configurations . 
 
  In the TENANT dropdown, select the tenant where you are configuring the Salesforce integration. 
 
@@ -232,11 +238,11 @@ Requires the following OAuth scopes:
 
  In the New Path dialog box, configure the following: 
 
- Requester: In the dropdown, select the requester from the list of users. 
+ Requester : In the dropdown, select the requester from the list of users. 
 
- Flow: In the dropdown, select the appropriate data service option for a generic webhook/host out (or Salesforce if it is explicitly listed). 
+ Flow : In the dropdown, select the appropriate data service option for a generic webhook/host out (or Salesforce if it is explicitly listed). 
 
- Path: Enter the domain name or host of your Salesforce instance (for example, your-company.my.salesforce.com). 
+ Path : Enter the domain name or host of your Salesforce instance (for example, your-company.my.salesforce.com). 
 
  Do not include https:// or trailing slashes. 
 
@@ -259,21 +265,21 @@ The new Salesforce connector has the description: Salesforce CRM services for id
 
  Configure the following. 
 
- Instance name: Enter a unique name for your instance. 
+ Instance name : Enter a unique name for your instance. 
 
- Select capabilities: Choose the required instance functionality: 
+ Select capabilities : Choose the required instance functionality: 
 
- Data Security: Scan and protect Salesforce data including files, attachments, and records. 
+ Data Security : Scan and protect Salesforce data including files, attachments, and records. 
 
  Note 
 
  To select this capability, you must first select the Identity Posture capability. 
 
- Automation and Remediation: Enables executing commands, running automated workflows, managing cases, updating Chatter, or executing access control and CRUD (create, read, update, delete) operations across Salesforce and its IAM services. This capability includes commands for automation and remediation. 
+ Automation and Remediation : Enables executing commands, running automated workflows, managing cases, updating Chatter, or executing access control and CRUD (create, read, update, delete) operations across Salesforce and its IAM services. This capability includes commands for automation and remediation. 
 
- Security Posture: Detect, monitor and alert on settings of your SaaS application. It includes a sub-capability to remediate misconfigured security settings. 
+ Security Posture : Detect, monitor and alert on settings of your SaaS application. It includes a sub-capability to remediate misconfigured security settings. 
 
- Identity Posture: Maintain visibility and control over SaaS-based identities, including users, groups, roles, and granular permissions. 
+ Identity Posture : Maintain visibility and control over SaaS-based identities, including users, groups, roles, and granular permissions. 
 
  Click Next. 
 
@@ -331,7 +337,7 @@ The new Salesforce connector has the description: Salesforce CRM services for id
 
  Once you confirm the summary details, click Save instance . 
 
- Task 6. (Optional) Edit or test existing Salesforce instance settings 
+ Task 7. (Optional) Edit or test existing Salesforce instance settings 
 
  You can edit and test an existing instance after a successful initial connection between Salesforce and Cortex XSIAM. Do this by clicking Test . 
 
@@ -379,6 +385,6 @@ The new Salesforce connector has the description: Salesforce CRM services for id
 
  Next SailPoint 
 
- Last updated 5 days ago 
+ Last updated 3 minutes ago 
 
  Was this helpful?

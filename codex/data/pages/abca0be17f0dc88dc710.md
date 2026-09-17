@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/google/google-workspace/ingest-logs-and-data-from-google-workspace
-fetched_at: 2026-09-06T10:00:05Z
+fetched_at: 2026-09-16T08:46:05Z
 source: cortex-platform
 ---
 
@@ -512,6 +512,6 @@ c. Select the types of data that you want to Collect from Google Workspace.
 
  Next Google Workspace connector 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

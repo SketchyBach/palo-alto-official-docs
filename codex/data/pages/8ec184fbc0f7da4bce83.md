@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/google-cloud-platform-manual-onboarding/gcp-manual-onboarding/gcp-manual-onboarding-guide-folder-scope/configuration-values-reference
-fetched_at: 2026-09-06T11:16:36Z
+fetched_at: 2026-09-16T09:12:18Z
 source: cortex-platform
 ---
 
@@ -135,6 +135,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next GCP Manual Onboarding Guide - Organization Scope 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

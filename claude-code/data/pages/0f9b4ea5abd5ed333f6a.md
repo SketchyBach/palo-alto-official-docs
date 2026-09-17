@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/a-cloud-identity-had-escalated-its-permissions
-fetched_at: 2026-09-06T10:58:43Z
+fetched_at: 2026-09-16T09:06:35Z
 source: cortex-platform
 ---
 

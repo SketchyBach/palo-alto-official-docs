@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/administration-and-troubleshooting/integrations/integration-use-cases
-fetched_at: 2026-09-06T09:28:29Z
+fetched_at: 2026-09-16T08:33:42Z
 source: cortex-platform
 ---
 
@@ -25,7 +25,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Integrations 
 
- Cortex XSIAM Automations and SOAR 
+ Cortex XSIAM Automations & SOAR 
 
  Integration use cases 
 

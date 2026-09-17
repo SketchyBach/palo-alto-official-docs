@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x-rn/cortex-xdr-release-information/known-issues-xdr
-fetched_at: 2026-09-06T10:53:11Z
+fetched_at: 2026-09-16T08:59:55Z
 source: cortex-platform
 ---
 
@@ -83,6 +83,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Previous Maintenance Releases 
 
- Last updated 16 days ago 
+ Last updated 26 days ago 
 
  Was this helpful?

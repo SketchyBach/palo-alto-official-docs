@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam-rn/cortex-xsiam-release-information/previous-maintenance-releases/broker-vm/broker-vm-31057-major
-fetched_at: 2026-09-06T10:52:48Z
+fetched_at: 2026-09-16T08:59:24Z
 source: cortex-platform
 ---
 

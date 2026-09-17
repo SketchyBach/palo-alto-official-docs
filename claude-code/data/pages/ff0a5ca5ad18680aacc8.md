@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/protect-your-endpoints/endpoint-security/install-and-manage-endpoints/set-up-endpoint-protection/set-up-endpoint-profiles-and-exception-rules/set-up-malware-prevention-profiles
-fetched_at: 2026-09-06T09:30:27Z
+fetched_at: 2026-09-16T08:34:56Z
 source: cortex-platform
 ---
 
@@ -2402,6 +2402,6 @@ When a file type is enabled, the Cortex XDR agent monitors for malicious files d
 
  Next Set up exploit prevention profiles 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

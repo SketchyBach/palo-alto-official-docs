@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/elastic
-fetched_at: 2026-09-06T10:09:05Z
+fetched_at: 2026-09-16T08:48:19Z
 source: cortex-platform
 ---
 
@@ -31,10 +31,10 @@ For the complete documentation index, see llms.txt . This page is also available
 
  ElasticSearch 
 
- Previous DataDog 
+ Previous Manage a Docker V2 connector 
 
  Next ElasticSearch 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

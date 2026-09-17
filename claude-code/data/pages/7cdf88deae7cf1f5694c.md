@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-commands-guide/vulnerability-commands
-fetched_at: 2026-09-06T11:16:31Z
+fetched_at: 2026-09-16T09:12:17Z
 source: cortex-platform
 ---
 

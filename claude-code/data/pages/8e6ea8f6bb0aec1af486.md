@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/investigate-and-respond-to-threats/threat-intel-management/get-started-with-threat-intel-management/licenses
-fetched_at: 2026-09-06T11:22:14Z
+fetched_at: 2026-09-16T09:13:33Z
 source: cortex-platform
 ---
 
@@ -161,6 +161,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next What is Threat Intel Management? 
 
- Last updated 4 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

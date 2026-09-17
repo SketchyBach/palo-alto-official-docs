@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x-rn/release-information/features-introduced-in-2026-xdr-5x/february-08-2026
-fetched_at: 2026-09-06T10:52:54Z
+fetched_at: 2026-09-16T08:59:25Z
 source: cortex-platform
 ---
 
@@ -43,6 +43,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next February 2026 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

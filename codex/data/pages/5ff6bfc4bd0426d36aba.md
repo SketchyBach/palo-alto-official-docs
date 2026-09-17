@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-data-classification/cortex-cloud-data-classification
-fetched_at: 2026-09-06T10:06:57Z
+fetched_at: 2026-09-16T08:47:40Z
 source: cortex-platform
 ---
 

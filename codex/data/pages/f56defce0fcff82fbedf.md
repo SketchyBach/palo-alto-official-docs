@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/configure-cortex-xsoar/users-and-roles-management/users-and-roles-in-cortex-xsoar
-fetched_at: 2026-09-06T10:24:32Z
+fetched_at: 2026-09-16T08:53:00Z
 source: cortex-platform
 ---
 

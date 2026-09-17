@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/protect-your-endpoints/endpoint-dlp/cortex-data-loss-prevention-dlp-module-overview
-fetched_at: 2026-09-06T09:30:52Z
+fetched_at: 2026-09-16T08:35:11Z
 source: cortex-platform
 ---
 
@@ -149,6 +149,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Archive file classification 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

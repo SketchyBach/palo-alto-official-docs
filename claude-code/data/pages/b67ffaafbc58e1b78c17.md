@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-xql
-fetched_at: 2026-09-06T11:18:48Z
+fetched_at: 2026-09-16T09:12:35Z
 source: cortex-platform
 ---
 

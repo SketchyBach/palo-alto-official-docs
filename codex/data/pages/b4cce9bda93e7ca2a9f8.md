@@ -1,0 +1,216 @@
+---
+url: https://docs.paloaltonetworks.com/prisma/prisma-access/prisma-access-cloud-managed-admin/secure-mobile-users-with-prisma-access
+fetched_at: 2026-09-16T11:47:53Z
+source: palo-alto-main
+---
+
+# Prisma Access Mobile Users Clear
+
+Updated on 
+
+ Sep 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Mobile Users 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Prisma Access Mobile Users 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ App Security Visibility and Logging 
+
+ Next 
+
+ Mobile Users: GlobalProtect 
+
+ Prisma Access Mobile Users 
+
+ Learn about the different mobile user deployment types in Prisma Access . 
+
+ Where Can I Use
+This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Prisma Access license 
+
+ Prisma Access offers two connection methods to secure mobile users: users can connect to Prisma Access 
+ using the GlobalProtect App or using a Proxy Auto-Configuration (PAC)
+ file . 
+
+ Secure Mobile Users with the GlobalProtect App 
+
+ You can use GlobalProtect in the following modes: 
+
+ Tunnel Mode —The default
+ agent mode for GlobalProtect in Prisma Access . Establishes a tunnel
+ (IPSec or SSL) to Prisma Access to secure mobile users’ access to
+ all applications, ports, and protocols, and to get consistent
+ security whether the user is inside or outside your network. 
+
+ The GlobalProtect app installed on the users' endpoint secures user
+ traffic to the internet, SaaS applications, and your internal and
+ public cloud resources. Deploy the GlobalProtect app to your users
+ (available for smartphones, tablets, or laptops running Microsoft
+ Windows, Apple macOS and iOS, Android, Google Chrome OS, and Linux)
+ so that they can tunnel the traffic to Prisma Access for policy
+ enforcement and threat prevention. The GlobalProtect app also
+ provides host information profile (HIP) reporting so that you can
+ create granular rules based on device state to ensure that endpoints
+ adhere to your security standards—for example, they are equipped
+ with the most up to date patches, encryption, and virus
+ definitions—to access your most sensitive applications. Or, to
+ enable secure access to users on unmanaged devices, you can enable
+ Clientless VPN. Prisma Access dynamically scales in and out per
+ region based on where your users are at the moment. 
+
+ Proxy Mode —This mode
+ enables you to use a third-party VPN agent while still using Prisma Access as a secure web gateway for
+ consistent and superior SaaS security. This connection method is
+ ideal if you're not yet ready to replace your existing private app
+ VPN but want to replace your secure web gateway . For
+ example, you're using a third-party VPN agent for private access,
+ but you want to use only Prisma Access for your internet
+ security. Benefits of this connection method include: 
+
+ Meets compliance or network requirements that
+ require a proxy 
+
+ Reduces the burden of PAC file management and
+ supports proxy-aware apps beyond the browser 
+
+ Improves user experience by avoiding the need to
+ backhaul to an on-premises web proxy 
+
+ Tunnel and Proxy Mode — This
+ mode enables you to secure access to the internet and SaaS applications
+ through proxy mode and to secure access to private apps through tunnel
+ mode. This is especially helpful if you need the fastest, lowest latency
+ access to a private app and your Prisma Access location isn’t in
+ your region. 
+ In this mode, the GlobalProtect app first evaluates the
+ Explicit Proxy forwarding rules you have defined and sends all
+ internet-bound traffic to the Prisma Access explicit proxy. For
+ all other traffic, the app determines which traffic to send through
+ the tunnel to the GlobalProtect gateway, and which traffic to
+ exclude from the tunnel, based on any split tunnel rules you have
+ defined. You can also use the tunnel to secure any application that
+ is not proxy aware. 
+
+ Secure Mobile Users by Using a PAC File 
+ In addition to securing mobile users with
+ GlobalProtect , you can configure an Explicit Proxy using Prisma Access . With Explicit Proxy, an endpoint uses a PAC file that
+ instructs a web browser and proxy-aware apps to forward traffic to the web proxy
+ server instead of the destination server, protecting your web-based internet
+ (HTTP and HTTPS) traffic. 
+
+ If your organization’s existing network already
+ uses explicit proxies and deploys PAC files on your client endpoints and
+ servers, you can smoothly migrate from legacy proxy-based SWG solutions to Prisma Access to secure mobile users’ outbound internet traffic. You can
+ also use an Explicit Proxy if you need to use a proxy for auditing or compliance
+ purposes. 
+
+ Secure Mobile Users with Prisma
+ Browser 
+
+ Prisma Browser simplifies securing mobile users by combining strong
+ access controls with a clear, intuitive interface. It allows users to access
+ private applications securely without relying on VPNs, certificates, or mobile
+ device management (MDM) systems, reducing complexity and easing
+ connectivity. 
+
+ Designed for Bring Your Own Device (BYOD)
+ environments, it ensures secure access to private applications on unmanaged
+ devices, enabling organizations to extend critical resources to their entire
+ workforce. Tablets become versatile desktop alternatives through Prisma Browser , delivering the same level of security and access as
+ traditional endpoints. 
+
+ With Prisma Browser , your
+ organization can streamline access to private apps, enhance tablet-based
+ productivity, and maintain reliable security across diverse mobile
+ platforms. 
+
+ Previous 
+
+ App Security Visibility and Logging 
+
+ Next 
+
+ Mobile Users: GlobalProtect

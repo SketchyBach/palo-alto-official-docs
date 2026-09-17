@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/cortex-agentix-xql/build-xql-queries/how-to-build-xql-queries/graph-query-results
-fetched_at: 2026-09-06T09:36:45Z
+fetched_at: 2026-09-16T08:37:14Z
 source: cortex-platform
 ---
 

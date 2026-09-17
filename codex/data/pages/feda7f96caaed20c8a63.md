@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-installation-guides
-fetched_at: 2026-09-06T10:50:27Z
+fetched_at: 2026-09-16T08:58:33Z
 source: cortex-platform
 ---
 
@@ -51,6 +51,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Versions 5.5 to 6.11 are end-of-life and not supported. 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

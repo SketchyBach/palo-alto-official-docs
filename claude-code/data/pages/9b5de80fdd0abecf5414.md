@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/investigate-and-respond-to-cases/automation/integrations/use-integration-commands-in-the-cli
-fetched_at: 2026-09-06T09:44:38Z
+fetched_at: 2026-09-16T08:42:54Z
 source: cortex-platform
 ---
 

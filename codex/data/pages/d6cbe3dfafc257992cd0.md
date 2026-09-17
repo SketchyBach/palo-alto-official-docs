@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/email-attachment-s-with-potentially-malicious-mime-type
-fetched_at: 2026-09-06T11:02:37Z
+fetched_at: 2026-09-16T09:06:58Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/broker-vm/manage-broker-vm/update-broker-vm-applets-independently
-fetched_at: 2026-09-06T09:49:56Z
+fetched_at: 2026-09-16T08:44:14Z
 source: cortex-platform
 ---
 

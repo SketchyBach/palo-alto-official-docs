@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-api/compliance-controls/compliance-controls-overview
-fetched_at: 2026-09-06T10:56:04Z
+fetched_at: 2026-09-16T09:04:03Z
 source: cortex-platform
 ---
 
@@ -21,37 +21,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Compliance Controls Overview 
 
- API for managing Cortex Cloud compliance standards and their associated categories, subcategories, controls, and rules, and for retrieving compliance assessment results, assets, and reports. 
-
- The API supports the following compliance management operations: 
-
- Standards: Retrieve, create, update, delete, and clone compliance standards. 
-
- Categories and subcategories: Retrieve and manage the hierarchical categories associated with compliance standards. 
-
- Controls: Retrieve, create, update, and delete compliance controls, including bulk creation, update, and deletion of controls. 
-
- Rule associations: Associate rules with controls and manage existing control-to-rule associations. 
-
- Compliance assessments and results: Retrieve assessment profiles, assessment results, failed control and rule results, and compliance assets. 
-
- Reports: Retrieve archived compliance assessment reports. 
-
- Import and export: Import compliance standards from ZIP files and export standards to ZIP files using asynchronous jobs. Import and export operations include job status tracking and, for exports, downloading the generated ZIP file. 
-
- Pagination: v2 list endpoints support pagination using offset and limit query parameters and return results in a standard envelope containing total_count , results , and next_offset . 
-
- Access control 
-
- RBAC permissions control access to compliance APIs: 
-
- platform_compliance_view — required for read operations, including GET endpoints. 
-
- platform_compliance_edit — required for create, update, delete, clone, import, and other modifying operations. 
-
- Standard management 
-
- The v2 APIs distinguish between official (out-of-the-box) standards and custom standards. Official standards and their associated categories, subcategories, and controls are immutable through the v2 management APIs. Custom standards can be created and managed using the available standard, category, and control operations. 
+ API for managing compliance controls, rules and retrieving compliance results. 
 
  Required license: Cortex Cloud Runtime Security or Cortex Cloud Posture Management 
 
@@ -59,6 +29,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Assessment Profiles 
 
- Last updated 1 month ago 
+ Last updated 5 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.7/investigate-and-respond-to-threats/incidents-and-indicators-investigation/incident-management/create-an-incident
-fetched_at: 2026-09-06T11:27:31Z
+fetched_at: 2026-09-16T09:15:01Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Export incidents 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/vendor-specific-data-sources/amazon
-fetched_at: 2026-09-06T09:39:41Z
+fetched_at: 2026-09-16T08:38:20Z
 source: cortex-platform
 ---
 
@@ -39,6 +39,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Amazon S3 
 
- Last updated 5 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

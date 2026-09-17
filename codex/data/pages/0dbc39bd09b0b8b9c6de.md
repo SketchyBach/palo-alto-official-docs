@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/troubleshoot-and-reference/troubleshoot/integration-logs
-fetched_at: 2026-09-06T10:23:16Z
+fetched_at: 2026-09-16T08:52:39Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next View Guard Rails warnings and errors 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

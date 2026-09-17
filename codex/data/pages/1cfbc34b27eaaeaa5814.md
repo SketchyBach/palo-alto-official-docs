@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/databricks/databricks
-fetched_at: 2026-09-06T09:59:52Z
+fetched_at: 2026-09-16T08:45:55Z
 source: cortex-platform
 ---
 

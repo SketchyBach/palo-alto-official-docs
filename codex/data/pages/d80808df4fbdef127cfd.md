@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security/onboard-data-sources/ingest-third-party-data-sources/generic-3rd-party-appsec-collector/tenant-console-workflow
-fetched_at: 2026-09-06T10:11:33Z
+fetched_at: 2026-09-16T08:49:01Z
 source: cortex-platform
 ---
 
@@ -105,6 +105,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Upload findings from CI/CD pipelines 
 
- Last updated 9 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

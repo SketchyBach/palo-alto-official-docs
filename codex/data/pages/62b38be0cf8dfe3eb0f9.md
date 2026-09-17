@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/install-cortex-xsoar/install-cortex-xsoar-on-a-vm-deployed-on-kvm/task-1.-download-the-qcow2-image-and-license-from-cortex-gateway
-fetched_at: 2026-09-06T10:23:58Z
+fetched_at: 2026-09-16T08:52:48Z
 source: cortex-platform
 ---
 
@@ -101,6 +101,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Task 2. Deploy your virtual machine on KVM 
 
- Last updated 4 hours ago 
+ Last updated 9 days ago 
 
  Was this helpful?

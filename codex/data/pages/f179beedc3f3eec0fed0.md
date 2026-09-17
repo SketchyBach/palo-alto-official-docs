@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/data-management/broker-vm/what-is-the-broker-vm
-fetched_at: 2026-09-06T09:20:09Z
+fetched_at: 2026-09-16T07:56:00Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Broker VM 
 
- Cortex XSIAM 
+ Cortex XSIAM Data Ingestion 
 
  What is the Broker VM? 
 

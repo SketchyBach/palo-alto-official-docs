@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/install-cortex-xsoar/install-cortex-xsoar-on-a-vm-deployed-on-aws/task-6.-establish-trust-between-all-nodes-in-a-cluster
-fetched_at: 2026-09-06T10:29:28Z
+fetched_at: 2026-09-16T08:53:54Z
 source: cortex-platform
 ---
 

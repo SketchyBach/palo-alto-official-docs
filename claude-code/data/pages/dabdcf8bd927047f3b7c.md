@@ -1,0 +1,130 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/strata-cloud-manager/getting-started/insights-scm/application-experience/application-experience-experience-score-across-network.html
+fetched_at: 2026-09-16T09:46:24Z
+source: palo-alto-main
+---
+
+# Application Experience Insights: Experience Score Across the Network Clear
+
+Updated on 
+
+ Sun Sep 06 22:14:59 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Cloud Manager 
+
+ Strata Cloud Manager Getting Started 
+
+ Insights: Strata Cloud Manager 
+
+ Insights:
+ Application Experience 
+
+ Application Experience Insights: Experience Score Across the Network 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Strata Cloud Manager 
+
+ Application Experience Insights: Experience Score Across the Network 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Cloud Manager Docs 
+
+ Activation & Onboarding 
+
+ Subscription & Tenant Management 
+
+ Getting Started 
+
+ AIOps 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Application Experience Insights: Experience Score Trends 
+
+ Next 
+
+ Application Experience Insights: Global Distribution of Application Experience Scores 
+
+ Application Experience Insights : Experience Score Across the Network 
+
+ View the network-wide score trend and pinpoint where the digital experience began to
+ degrade. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma Access 
+
+ (with Strata Cloud Manager or Panorama 
+ configuration management) 
+
+ Prisma Access license 
+
+ ADEM Observability license to view the data
+ for Monitored Applications 
+
+ Identify the segment of the network that might be causing issues within your organization
+ from the endpoints (for Mobile Users) or branch (Remote Sites) all the way to the
+ applications. You can see what segment of the network might be causing issues within
+ your organization from the endpoints and Prisma SD-WAN remote sites all the way to the
+ application. You can see which segment—such as an ISP or compute location outage or a
+ SaaS app outage—is impacting digital experience within your organization and also the
+ precise number of users or sites which are impacted by it. The icons are color coded and
+ based on the average of segment health score for all Mobile Users. A green icon stands
+ for Good (score is >=70), yellow stands for Fair (score is 30-70), red stands for Poor
+ (Score<30). 
+
+ Devices - Device Health Metrics (CPU/Memory/Disk Space/Disk Queue/Battery) 
+
+ Wi-Fi - WIFI Metrics (Signal Quality,Tx,Rx,SSID,BSSID,Channel) 
+
+ Local Networks - Network Performance Metrics (Latency/Loss/Jitter) 
+
+ Internet - Network Performance Metrics (Latency/Loss/Jitter) If a device is not
+ connected to GlobalProtect,the Internet segment, the Network Performance Metrics will be
+ the same as the TCP PING test executed for application segment. 
+
+ Prisma Access Locations - Network Performance Metrics (Latency/Loss/Jitter) The
+ test for this segment is not executed if device is not connected to GlobalProtect. 
+
+ Monitored Apps - Network Performance Metrics (Latency/Loss/Jitter) Application
+ Performance Metrics (Availability,DNS Lookup,TCP Connect,SSL Connect,HTTP Latency,Time
+ to First Byte,Time to Last Byte,Data Transfer) 
+
+ Previous 
+
+ Application Experience Insights: Experience Score Trends 
+
+ Next 
+
+ Application Experience Insights: Global Distribution of Application Experience Scores

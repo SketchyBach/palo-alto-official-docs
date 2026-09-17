@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-threat-intel-management-guides/6.14
-fetched_at: 2026-09-06T10:49:36Z
+fetched_at: 2026-09-16T08:57:52Z
 source: cortex-platform
 ---
 
@@ -21,7 +21,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Learn about Threat Intel Management 
 
- XSOAR 6.14 Threat Intel Management 
+ Cortex XSOAR 6.14 Threat Intel Management 
 
  Navigate the Threat Intel Management Guide 
 

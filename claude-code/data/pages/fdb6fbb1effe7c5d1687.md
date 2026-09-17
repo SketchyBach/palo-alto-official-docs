@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/asset-management/asset-classes/data-assets
-fetched_at: 2026-09-06T09:33:29Z
+fetched_at: 2026-09-16T08:36:00Z
 source: cortex-platform
 ---
 

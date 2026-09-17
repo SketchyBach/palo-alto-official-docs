@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/investigation-and-response/automation/engines/install-an-engine/docker/docker-hardening-guide/configure-the-cpu-pids-and-open-the-file-descriptors-limit
-fetched_at: 2026-09-06T09:56:19Z
+fetched_at: 2026-09-16T08:44:51Z
 source: cortex-platform
 ---
 

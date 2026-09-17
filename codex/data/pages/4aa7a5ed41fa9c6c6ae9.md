@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/graph-search/get-started-with-graph-search-queries
-fetched_at: 2026-09-06T10:10:55Z
+fetched_at: 2026-09-16T08:48:49Z
 source: cortex-platform
 ---
 

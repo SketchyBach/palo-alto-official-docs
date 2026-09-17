@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam-rn/cortex-xsiam-release-information/features-introduced-in-2025-xsiam/july-2025/feature-enhancements
-fetched_at: 2026-09-06T10:52:45Z
+fetched_at: 2026-09-16T08:59:24Z
 source: cortex-platform
 ---
 
@@ -327,6 +327,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Changed features 
 
- Last updated 16 days ago 
+ Last updated 27 days ago 
 
  Was this helpful?

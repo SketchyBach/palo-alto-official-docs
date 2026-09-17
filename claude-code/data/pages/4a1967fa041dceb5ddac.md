@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/investigate-and-respond-to-cases/investigate-endpoints/scan-an-endpoint-for-malware
-fetched_at: 2026-09-06T09:44:05Z
+fetched_at: 2026-09-16T08:42:52Z
 source: cortex-platform
 ---
 

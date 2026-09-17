@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/cloud-service-provider-csp-onboarding/microsoft-azure-cloud-onboarding/prerequisites-for-onboarding-azure
-fetched_at: 2026-09-06T09:40:53Z
+fetched_at: 2026-09-16T08:41:55Z
 source: cortex-platform
 ---
 

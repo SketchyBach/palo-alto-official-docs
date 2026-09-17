@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/august-2025/increased-occurence-count-for-enterprise-dl-data-patterns-and-data-dictionaries
-fetched_at: 2026-08-13T17:44:02Z
+fetched_at: 2026-09-16T07:52:58Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

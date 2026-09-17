@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/configure-cortex-xsoar/customize-and-configure-cortex-xsoar/machine-learning/train-a-phishing-classifier-on-non-english-languages
-fetched_at: 2026-09-06T10:48:40Z
+fetched_at: 2026-09-16T08:57:40Z
 source: cortex-platform
 ---
 

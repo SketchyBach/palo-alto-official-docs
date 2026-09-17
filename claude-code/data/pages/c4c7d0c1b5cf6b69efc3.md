@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/koi/koi
-fetched_at: 2026-09-06T10:00:11Z
+fetched_at: 2026-09-16T08:46:03Z
 source: cortex-platform
 ---
 
@@ -43,6 +43,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Kubernetes 
 
- Last updated 25 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

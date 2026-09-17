@@ -1,74 +1,20 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-browser/administration/manage-prisma-access-browser-devices/manage-prisma-access-browser-device-groups
-fetched_at: 2026-08-13T17:23:13Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:41Z
+source: strata-and-sase
 ---
 
 # Manage Prisma Browser Device Groups Clear
 
-Manage Prisma Browser Device Groups 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Manage Prisma Browser Device Groups 
-
- Updated on 
-
- Tue Jul 28 09:38:39 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Browser Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Integrations 
-
- User Guide 
-
- Updated on 
-
- Tue Jul 28 09:38:39 PDT 2026 
+ Thu Sep 10 09:47:19 PDT 2026 
 
  Focus 
 
  Home 
 
  Prisma Browser 
-
- Prisma Access Browser Administration 
 
  Manage Prisma Browser Devices 
 
@@ -122,13 +68,13 @@ Manage Prisma Browser Device Groups
 
  Prisma Access with Prisma Browser bundle license or Prisma Browser standalone license 
 
- Role: Prisma Access Browser
+ Role: Prisma Browser
  Roles 
 
  The Prisma Browser has a Device Group function, where you can create
  different groups for different devices. Groups are dynamic; you can set up groups
  for specific managed devices, specific posture attributes, specific user groups and
- so on. You can perform the following 
+ so on. 
 
  Changes to device groups are saved to a draft
  configuration and do not take effect until you publish the draft. For more
@@ -300,48 +246,4 @@ Manage Prisma Browser Device Groups
 
  Next 
 
- Configure Prisma Browser Device Posture Attributes 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Prisma Browser 
-
- Administration 
-
- Prisma Access 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Configure Prisma Browser Device Posture Attributes

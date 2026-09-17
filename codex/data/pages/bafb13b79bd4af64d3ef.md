@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/data-management/broker-vm/set-up-and-configure-broker-vm/broker-vm-image-installations/set-up-broker-vm-on-kvm-using-ubuntu
-fetched_at: 2026-09-06T10:51:34Z
+fetched_at: 2026-09-16T08:58:43Z
 source: cortex-platform
 ---
 
@@ -69,6 +69,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up Broker VM on Microsoft Azure 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

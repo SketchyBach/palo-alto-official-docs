@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/remote-browser-isolation/administration/activate-a-license-for-remote-browser-isolation
-fetched_at: 2026-08-13T17:32:10Z
+fetched_at: 2026-09-16T07:49:06Z
 source: palo-alto-main
 ---
 
 # Activate a License for Remote Browser Isolation Through Common Services Clear
 
-Activate a License for Remote Browser Isolation Through Common Services 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Activate a License for Remote Browser Isolation Through Common Services 
-
- Updated on 
-
- Apr 9, 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- Português (Portuguese) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Remote Browser Isolation Docs 
-
- Administration 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Apr 9, 2026 
+ Fri Aug 14 05:16:21 PDT 2026 
 
  Focus 
 
@@ -97,6 +43,8 @@ Activate a License for Remote Browser Isolation Through Common Services
  Remote Browser Isolation Docs 
 
  Administration 
+
+ Integrations 
 
  Release Notes 
 
@@ -173,34 +121,4 @@ Activate a License for Remote Browser Isolation Through Common Services
 
  Next 
 
- Remote Browser Isolation in China 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Remote Browser Isolation 
-
- Administration 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Remote Browser Isolation in China

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/role-based-access-control/configuration-permissions/public-api
-fetched_at: 2026-09-06T09:46:34Z
+fetched_at: 2026-09-16T08:43:11Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Threat Intelligence permission - API configuration 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

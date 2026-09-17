@@ -1,80 +1,30 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/administration/prisma-access-agent-administration-overview/agent-lifecycle-management
-fetched_at: 2026-08-13T17:22:24Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:23Z
+source: strata-and-sase
 ---
 
-# Prisma Access Agent Lifecycle Management Clear
+# Prisma Agent Lifecycle Management Clear
 
-Prisma Access Agent Lifecycle Management 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Prisma Access Agent Lifecycle Management 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
+ Thu Aug 27 20:22:38 PDT 2026 
 
  Focus 
 
  Home 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent Administration 
+ Prisma Agent Administration Overview 
 
- Prisma Access Agent Administration Overview 
-
- Prisma Access Agent Lifecycle Management 
+ Prisma Agent Lifecycle Management 
 
  Download PDF 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent Lifecycle Management 
+ Prisma Agent Lifecycle Management 
 
  Table of Contents 
 
@@ -84,7 +34,7 @@ Prisma Access Agent Lifecycle Management
  | 
  Collapse All 
 
- Prisma Access Agent Docs 
+ Prisma Agent Docs 
 
  Administration 
 
@@ -96,15 +46,15 @@ Prisma Access Agent Lifecycle Management
 
  Previous 
 
- Prisma Access Agent Administration Overview 
+ Prisma Agent Administration Overview 
 
  Next 
 
- Automatic Tunnel Restoration in Prisma Access Agents 
+ Automatic Tunnel Restoration in Prisma Agents 
 
- Prisma Access Agent Lifecycle Management 
+ Prisma Agent Lifecycle Management 
 
- After you deploy Prisma Access Agents to mobile user endpoints in your
+ After you deploy Prisma Agents to mobile user endpoints in your
  organization, you can use Strata Cloud Manager to manage the lifecycle of the
  agents. 
 
@@ -119,19 +69,18 @@ Prisma Access Agent Lifecycle Management
  Check the prerequisites for the deployment you're
  using 
 
- Contact your Palo Alto Networks account representative to
- activate the Prisma Access Agent feature 
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
 
- To simplify the day-to-day management of the fleet of Prisma Access Agents that
- have been deployed to mobile users, Prisma Access Agent provides a single point of
+ To simplify the day-to-day management of the fleet of Prisma Agents that
+ have been deployed to mobile users, Prisma Agent provides a single point of
  control to help you maintain the agents in your fleet, troubleshoot agent connectivity
  issues, and gain visibility into the agents as a part of the troubleshooting
  process. 
 
- Installation and Configuration of Prisma Access Agents 
+ Installation and Configuration of Prisma Agents 
 
- To help you easily install Prisma Access Agents on mobile user endpoints
- without user intervention, you can onboard your users to configure the cloud infrastructure and agent settings that will be pushed to Prisma Access or NGFW. Then, you can download the Prisma Access Agent package from the Prisma Access Agent Endpoint Management
+ To help you easily install Prisma Agents on mobile user endpoints
+ without user intervention, you can onboard your users to configure the cloud infrastructure and agent settings that will be pushed to Prisma Access or NGFW. Then, you can download the Prisma Agent package from the Prisma Agent Endpoint Management
  page ( Configuration Endpoint Management ) for deployment to endpoints using third-party mobile device management
  (MDM) software such as Jamf Pro and Microsoft
  Intune.. 
@@ -140,14 +89,19 @@ Prisma Access Agent Lifecycle Management
  agents are automatically launched when your users sign on to their devices, and will
  automatically connect to Prisma Access whenever they access their mobile
  devices. If you configured the agent to run in On Demand 
- mode, the user needs to launch the Prisma Access Agent and manually connect to
+ mode, the user needs to launch the Prisma Agent and manually connect to
  Prisma Access . 
 
- Maintenance of Prisma Access Agents 
+ After a first-time installation, users must log in to the Prisma Agent to complete their initial enrollment, even when Always On mode is configured.
+ The agent does not automatically connect on the first installation. After this
+ first login, Always On mode takes effect and the agent connects automatically on
+ subsequent device logins. 
 
- ( macOS and Windows agents only ) To facilitate the upgrade of the deployed Prisma Access Agents , a
+ Maintenance of Prisma Agents 
+
+ ( macOS and Windows agents only ) To facilitate the upgrade of the deployed Prisma Agents , a
  maintenance routine called a staged rollout is used to easily upgrade
- the Prisma Access Agents on your end users' devices. Using staged rollouts , you can plan the upgrade of the Prisma Access Agent by staggering the upgrade based on user group and device
+ the Prisma Agents on your end users' devices. Using staged rollouts , you can plan the upgrade of the Prisma Agent by staggering the upgrade based on user group and device
  operating system with minimal interruption to your end users. 
 
  You can set up upgrade rings with user or user group
@@ -160,9 +114,9 @@ Prisma Access Agent Lifecycle Management
  When an upgrade is available, you’re notified of the upcoming rollout in the Endpoint Management
  page , and users or devices are upgraded in the order of the upgrade rings. 
 
- Selectively Upgrade or Downgrade Prisma Access Agents 
+ Selectively Upgrade or Downgrade Prisma Agents 
 
- ( macOS and Windows agents only ) To keep your managed devices secure, the Prisma Access Agent software is
+ ( macOS and Windows agents only ) To keep your managed devices secure, the Prisma Agent software is
  upgraded automatically on your endpoints during staged upgrade rollouts. If an
  endpoint was not reachable during a ring upgrade, an attempt will be made to upgrade
  the device during the next agent check-in. 
@@ -184,11 +138,11 @@ Prisma Access Agent Lifecycle Management
 
  Troubleshooting and Remediation 
 
- The Prisma Access Agent provides information that allows administrators to
+ The Prisma Agent provides information that allows administrators to
  analyze, troubleshoot, and remediate agent problems remotely without requiring an
  active tunnel to Prisma Access or NGFW. 
 
- The Prisma Access Agent communicates with Prisma Access or NGFW in the
+ The Prisma Agent communicates with Prisma Access or NGFW in the
  following manner: 
 
  Receives commands from Prisma Access or NGFW to perform specific operations
@@ -207,7 +161,7 @@ Prisma Access Agent Lifecycle Management
  Collects and sends data about the endpoint and agent for troubleshooting and
  remediation 
 
- The Prisma Access Agent provides audit trails in the form of logs regarding the
+ The Prisma Agent provides audit trails in the form of logs regarding the
  status of all operations that it attempts, including successful and unsuccessful
  attempts, such as: 
 
@@ -228,15 +182,15 @@ Prisma Access Agent Lifecycle Management
  host inline with the required posture or integrity 
 
  All agent activity and activity by the administrator using Configuration Endpoint Management are automatically logged and sent to the Strata Logging Service . The logs
- will reside on the Strata Logging Service . You can view Audit Prisma Access Agent Logs and Management Logs using the log viewer or Strata Logging Service . 
+ will reside on the Strata Logging Service . You can view Audit Prisma Agent Logs and Management Logs using the log viewer or Strata Logging Service . 
 
- Visibility into Prisma Access Agents 
+ Visibility into Prisma Agents 
 
  Using data sent from the agent, the Endpoint Management
  page provides complete visibility and management
- capabilities of Prisma Access Agents to IT administrators. 
+ capabilities of Prisma Agents to IT administrators. 
 
- You can view information about all Prisma Access Agents that interacted with Prisma Access or NGFW
+ You can view information about all Prisma Agents that interacted with Prisma Access or NGFW
  (established connectivity within a time range that you specify), including the
  following data: 
 
@@ -288,7 +242,7 @@ Prisma Access Agent Lifecycle Management
  User 
 
  When a user encounters an issue, you can remotely download all agent logs without intervention from the user
- to examine Prisma Access Agent processes and diagnose the issue. You can also
+ to examine Prisma Agent processes and diagnose the issue. You can also
  download the host information profile
  report to review information about the security status of the endpoints
  and which host attributes are monitored for policy enforcement. With permission from
@@ -299,94 +253,8 @@ Prisma Access Agent Lifecycle Management
 
  Previous 
 
- Prisma Access Agent Administration Overview 
+ Prisma Agent Administration Overview 
 
  Next 
 
- Automatic Tunnel Restoration in Prisma Access Agents 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Administration 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Automatic Tunnel Restoration in Prisma Agents

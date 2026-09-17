@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/graph-search/supported-assets-and-findings
-fetched_at: 2026-09-06T10:10:58Z
+fetched_at: 2026-09-16T08:48:49Z
 source: cortex-platform
 ---
 
@@ -191,6 +191,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create detection rules based on graph search 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

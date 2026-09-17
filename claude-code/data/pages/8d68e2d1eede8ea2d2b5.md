@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x-rn/
-fetched_at: 2026-09-06T11:18:38Z
+fetched_at: 2026-09-16T09:12:32Z
 source: cortex-platform
 ---
 

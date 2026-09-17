@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/saas-security/saas-security/onboard-a-supported-saas-application/onboard-jumpcloud
-fetched_at: 2026-09-06T10:07:29Z
+fetched_at: 2026-09-16T08:47:48Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Onboard Kustomer 
 
- Last updated 5 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

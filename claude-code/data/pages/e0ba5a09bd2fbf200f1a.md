@@ -1,63 +1,13 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/user-guide/resolve-problems-by-running-commands-in-a-remote-shell
-fetched_at: 2026-08-13T17:22:56Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:36Z
+source: strata-and-sase
 ---
 
 # Resolve Prisma Access Agent Problems by Running Commands in a Remote
         Shell Clear
 
-Resolve Prisma Access Agent Problems by Running Commands in a Remote
- Shell 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Resolve Prisma Access Agent Problems by Running Commands in a Remote
- Shell 
-
- Updated on 
-
- Wed Jul 01 22:45:41 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Wed Jul 01 22:45:41 PDT 2026 
 
@@ -191,90 +141,4 @@ Resolve Prisma Access Agent Problems by Running Commands in a Remote
  timestamp and administrator identity. 
 
  The log file in .txt format is saved to the download
- location specified by your web browser. 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Administration 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ location specified by your web browser.

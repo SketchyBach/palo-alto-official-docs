@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/amazon/amazon-s3/ingest-generic-logs-from-amazon-s3
-fetched_at: 2026-09-06T09:59:36Z
+fetched_at: 2026-09-16T08:45:48Z
 source: cortex-platform
 ---
 
@@ -297,6 +297,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Ingest network Route 53 logs from Amazon S3 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

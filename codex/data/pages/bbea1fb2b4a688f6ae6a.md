@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/onboard-and-configure/deployment-steps-and-checklist/cloud-service-provider-csp-onboarding/alibaba-cloud-cloud-onboarding/prerequisites-for-onboarding-alibaba-cloud
-fetched_at: 2026-09-06T10:03:31Z
+fetched_at: 2026-09-16T08:46:45Z
 source: cortex-platform
 ---
 
@@ -127,7 +127,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  In Fingerprint , click Auto-add to automatically retrieve and add the signing certificate fingerprint for accounts.google.com . 
 
- (cn-hongkong accounts only) In Fingerprint , click Add and enter the following SHA1 fingerprint: 932bed339aa69212c89375b79304b475490b89a0 . 
+ ( cn-hongkong and eu-central-1 accounts only) In Fingerprint , click Add and enter the following SHA1 fingerprint: 932bed339aa69212c89375b79304b475490b89a0 . 
 
  Click Add Fingerprint . 
 
@@ -137,6 +137,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next How to onboard Alibaba Cloud 
 
- Last updated 6 days ago 
+ Last updated 8 days ago 
 
  Was this helpful?

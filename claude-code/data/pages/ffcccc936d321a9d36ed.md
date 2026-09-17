@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x-rn/release-information/features-introduced-in-2026-xdr-5x/july-2026
-fetched_at: 2026-09-06T10:52:52Z
+fetched_at: 2026-09-16T08:59:25Z
 source: cortex-platform
 ---
 
@@ -25,10 +25,10 @@ For the complete documentation index, see llms.txt . This page is also available
 
  This section describes the new features and updates of the Cortex XDR 5.2 release. 
 
- Previous Features introduced in 2026 
+ Previous September 6, 2026 
 
  Next Release Highlights 
 
- Last updated 16 days ago 
+ Last updated 26 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/multi-tenant/onboard-cortex-xsoar-multi-tenant/step-2.-create-a-child-tenant
-fetched_at: 2026-09-06T10:23:23Z
+fetched_at: 2026-09-16T08:52:41Z
 source: cortex-platform
 ---
 
@@ -89,6 +89,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Step 3. Allocate incident retention licenses 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

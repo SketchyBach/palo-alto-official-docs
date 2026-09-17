@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/data-management/parsing-rules/parsing-rules-file-structure-and-syntax/collect
-fetched_at: 2026-09-06T09:39:33Z
+fetched_at: 2026-09-16T08:38:20Z
 source: cortex-platform
 ---
 
@@ -147,6 +147,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next CONST 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

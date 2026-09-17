@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-migration-guide
-fetched_at: 2026-09-06T10:39:15Z
+fetched_at: 2026-09-16T08:55:51Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-installation-guides/6.13/cortex-xsoar-installation-guide/readme/multi-tenant-installation-overview
-fetched_at: 2026-09-06T10:50:34Z
+fetched_at: 2026-09-16T08:58:34Z
 source: cortex-platform
 ---
 
@@ -67,6 +67,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next System Requirements 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

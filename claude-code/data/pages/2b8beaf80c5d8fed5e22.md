@@ -1,0 +1,60 @@
+---
+url: https://docs.prismacloud.io/admin-guide/33/agentless-scanning/onboard-accounts/configure-oci
+fetched_at: 2026-09-16T13:36:45Z
+source: prisma-cloud
+---
+
+# Configure Agentless Scanning for OCI | 33 | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Compute Edition 
+
+ Admin Guide 
+
+ 33 
+
+ Agentless Scanning 
+
+ Onboard Accounts for Agentless Scanning 
+
+ Configure Agentless Scanning for OCI 
+
+ Click Add account . 
+
+ Under Select cloud provider , pick Oracle . 
+
+ Provide a name for the account. 
+
+ Under Tenancy , paste the value you got from the OCI Configuration File Preview . 
+
+ Under User , paste the value you got from the OCI Configuration File Preview . 
+
+ Under Fingerprint , paste the value you got from the OCI Configuration File Preview . 
+
+ Open the downloaded private key and paste it under Private key . 
+
+ Click Next . 
+
+ Select the public URL that the Prisma Cloud Console uses to connect to OCI. 
+
+ Enter the name of the created OCI compartment. 
+
+ Configure any Advanced settings you need. 
+
+ Any resources like VCN, subnet, or security group you want to use must exist in the compartment you created. Create the resources using the same name in every region you wish to scan. 
+
+ Under Download permission templates , click Download . 
+
+ Click Add account . 
+
+ Previous Onboard OCI Accounts 
+
+ Next Agentless Scanning Results 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

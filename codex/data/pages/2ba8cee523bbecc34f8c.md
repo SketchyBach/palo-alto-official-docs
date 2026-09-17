@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security-posture-management-aspm/manage-code-weakness-issues/navigate-to-sast-code-weakness-issues
-fetched_at: 2026-09-06T10:12:18Z
+fetched_at: 2026-09-16T08:49:10Z
 source: cortex-platform
 ---
 

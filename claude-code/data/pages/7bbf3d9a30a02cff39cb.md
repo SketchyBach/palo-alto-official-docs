@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x-rn/cortex-xdr-release-information/previous-maintenance-releases/broker-vm/broker-vm-2710017
-fetched_at: 2026-09-06T10:53:12Z
+fetched_at: 2026-09-16T08:59:58Z
 source: cortex-platform
 ---
 
@@ -43,6 +43,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Broker VM 27.0.47 (Major) 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

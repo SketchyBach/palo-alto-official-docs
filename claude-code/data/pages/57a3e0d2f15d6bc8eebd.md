@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-8-opp-release-notes/8.11/known-issues
-fetched_at: 2026-09-06T10:54:06Z
+fetched_at: 2026-09-16T09:02:22Z
 source: cortex-platform
 ---
 
@@ -77,6 +77,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous Maintenance Releases in Cortex XSOAR 8.11 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/november-2023/enhanced-saas-tenants-control
-fetched_at: 2026-08-13T17:46:50Z
+fetched_at: 2026-09-16T07:53:47Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

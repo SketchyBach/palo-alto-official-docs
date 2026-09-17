@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/amazon-web-services-manual-onboarding/aws-manual-onboarding-guide/overview-of-the-onboarding-process
-fetched_at: 2026-09-06T11:16:39Z
+fetched_at: 2026-09-16T09:12:19Z
 source: cortex-platform
 ---
 
@@ -35,6 +35,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Prerequisites 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

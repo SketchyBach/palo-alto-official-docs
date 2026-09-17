@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/learn-about-cortex-xsoar/overview
-fetched_at: 2026-09-06T10:46:28Z
+fetched_at: 2026-09-16T08:57:17Z
 source: cortex-platform
 ---
 
@@ -55,6 +55,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Get Started in Cortex XSOAR 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

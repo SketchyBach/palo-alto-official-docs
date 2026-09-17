@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/google-cloud-platform-manual-onboarding/gcp-manual-onboarding/gcp-manual-onboarding-guide-project-scope/phase-3-scanner-service-account
-fetched_at: 2026-09-06T11:16:34Z
+fetched_at: 2026-09-16T09:12:18Z
 source: cortex-platform
 ---
 
@@ -194,6 +194,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Phase 4: Audit Logs 
 
- Last updated 8 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

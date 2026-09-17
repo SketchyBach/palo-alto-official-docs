@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/software-supply-chain-security/governance-and-enforcement/cicd-policies/create-cicd-configuration-policies
-fetched_at: 2026-09-06T10:12:49Z
+fetched_at: 2026-09-16T08:49:18Z
 source: cortex-platform
 ---
 
@@ -105,6 +105,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage CI/CD policies 
 
- Last updated 25 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

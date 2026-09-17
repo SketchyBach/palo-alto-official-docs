@@ -1,0 +1,163 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/activation-and-onboarding/activate-your-prisma-access-license/cloud-managed-prisma-access-and-add-ons-license-activation/activate-a-license-for-cloud-managed-prisma-access-and-add-ons/activate-cloud-managed-prisma-access-and-add-ons-first-time-one-csp.html
+fetched_at: 2026-09-16T11:47:11Z
+source: palo-alto-main
+---
+
+# First Time Prisma Access (Managed by Strata Cloud Manager) and Add-Ons Activation Clear
+
+Updated on 
+
+ Tue Apr 14 13:42:43 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Activation and Onboarding 
+
+ Activate Your Prisma Access License 
+
+ Prisma Access (Managed by Strata Cloud Manager) and Add-Ons License Activation 
+
+ Prisma Access (Managed by Strata Cloud Manager) and Add-Ons Through Common Services 
+
+ First Time Prisma Access (Managed by Strata Cloud Manager) and Add-Ons Activation 
+
+ Download PDF 
+
+ Prisma Access 
+
+ First Time Prisma Access (Managed by Strata Cloud Manager) and Add-Ons Activation 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ First Time Prisma Access (Managed by Strata Cloud Manager) and Add-Ons Activation 
+
+ Learn how to activate your Prisma Access (Managed by Strata Cloud Manager) tenants through
+ Common Services for the first time if you have only one Customer Support Portal
+ account. 
+
+ If you have only one Customer Support Portal account, follow these steps for
+ first-time Prisma Access (Managed by Strata Cloud Manager) and add-ons license activation. 
+
+ Log in with your email address. 
+
+ If you have a Palo Alto Networks Customer Support account, then enter
+ the email address you used when you registered for that account and
+ select Next . 
+
+ If you do not have a Palo Alto Networks Customer Support account, then Create a New Account Password Next . 
+
+ The service uses this email address for the user account assigned to the
+ tenant that you use for this license. This tenant, and any others
+ created by this email address, will have the 
+ Superuser role. 
+
+ Choose Cloud management for your setup and management
+ method. 
+
+ Allocate the subscription to the recipients of your choice. 
+
+ You can allocate your entire license to one recipient or you can share it
+ with multiple recipients in a tenant hierarchy. What is a tenant? 
+
+ If you need just one tenant, use or rename the tenant provided. The
+ name provided matches your Customer Support Portal account for
+ convenience. 
+
+ ( Optional ) This step applies if you are a managed security
+ service provider (MSSP), a distributed enterprise customer, or need
+ multiple tenants. After you create the first tenant, you can
+ Allocate to subtenant and use or rename the
+ tenant provided. 
+
+ A subscription gets allocated on a tenant or a sub-tenant. This step
+ is for choosing a tenant where you want to allocate a license, not
+ for building a complete tenant hierarchy. You can create only a
+ tenant and subtenant here, and you can choose to allocate a license
+ to that subtenant. 
+
+ After activation, you can build out your tenant hierarchy as needed
+ through tenant management . You can
+ create your tenant hierarchy to reflect your existing organizational
+ structure. You can also consider identity and access
+ inheritance when creating the hierarchy, in addition to
+ tenant hierarchy
+ limits . 
+
+ After you create a tenant hierarchy, you can share a
+ license. 
+
+ Select Done . 
+
+ After first time or return visit license activation, continue with the
+ following steps: 
+ Allocate
+ licenses 
+
+ Plan service
+ connections 
+
+ Add additional
+ locations 
+
+ Enable available add-ons 
+
+ Search for subscription
+ details 
+
+ Increase subscription
+ quantity 
+
+ First time setup for Prisma Access multitenancy.

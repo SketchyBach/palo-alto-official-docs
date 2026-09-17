@@ -1,64 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/strata-logging-service/log-reference/network-logs/network-hipmatch-log
-fetched_at: 2026-08-13T17:40:27Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:51:51Z
+source: strata-and-sase
 ---
 
 # HIP Match Clear
 
-HIP Match 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- HIP Match 
-
- Updated on 
-
- Fri Jul 03 02:04:39 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Strata Logging Service Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Release Notes 
-
- Log Reference 
-
- New Features 
-
- Updated on 
-
- Fri Jul 03 02:04:39 PDT 2026 
+ Sep 11, 2026 
 
  Focus 
 
@@ -180,7 +130,7 @@ HIP Match
 
  (DG HIERARCHY LEVEL 1)
 
- A sequence of identification numbers that indicate the device groupâ€™s location within a device group hierarchy.
+ A sequence of identification numbers that indicate the device group's location within a device group hierarchy.
 
  CEF field name: PanOSDGHierarchyLevel1 
 
@@ -194,7 +144,7 @@ HIP Match
 
  (DG HIERARCHY LEVEL 2)
 
- A sequence of identification numbers that indicate the device groupâ€™s location within a device group hierarchy.
+ A sequence of identification numbers that indicate the device group's location within a device group hierarchy.
 
  CEF field name: PanOSDGHierarchyLevel2 
 
@@ -208,7 +158,7 @@ HIP Match
 
  (DG HIERARCHY LEVEL 3)
 
- A sequence of identification numbers that indicate the device groupâ€™s location within a device group hierarchy.
+ A sequence of identification numbers that indicate the device group's location within a device group hierarchy.
 
  CEF field name: PanOSDGHierarchyLevel3 
 
@@ -222,7 +172,7 @@ HIP Match
 
  (DG HIERARCHY LEVEL 4)
 
- A sequence of identification numbers that indicate the device groupâ€™s location within a device group hierarchy.
+ A sequence of identification numbers that indicate the device group's location within a device group hierarchy.
 
  CEF field name: PanOSDGHierarchyLevel4 
 
@@ -236,7 +186,7 @@ HIP Match
 
  (ENDPOINT DEVICE NAME)
 
- Name of the userâ€™s machine.
+ Name of the user's machine.
 
  CEF fields: All of the following: shost , dhost 
 
@@ -250,7 +200,7 @@ HIP Match
 
  (ENDPOINT OS TYPE)
 
- The operating system installed on the userâ€™s machine or device (or on the client system).
+ The operating system installed on the user's machine or device (or on the client system).
 
  CEF field name: cs2 
 
@@ -900,94 +850,4 @@ HIP Match
 
  Next 
 
- HIP Match Syslog Default Field Order 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Identity and Access Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Strata Logging Service 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ HIP Match Syslog Default Field Order

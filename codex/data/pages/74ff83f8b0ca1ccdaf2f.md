@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/configure-cortex-xsoar/customize-and-configure-cortex-xsoar/indicators/indicator-extraction/run-indicator-extraction-in-the-cli
-fetched_at: 2026-09-06T10:48:52Z
+fetched_at: 2026-09-16T08:57:43Z
 source: cortex-platform
 ---
 

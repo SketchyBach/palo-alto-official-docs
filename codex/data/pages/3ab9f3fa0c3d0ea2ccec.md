@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security-posture-management-aspm/unified-application-security-policies/references/reference-d-trigger-and-actions-mapping
-fetched_at: 2026-09-06T10:12:14Z
+fetched_at: 2026-09-16T08:49:11Z
 source: cortex-platform
 ---
 

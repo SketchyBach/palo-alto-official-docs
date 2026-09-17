@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/ci-cd-security/dependency-chains/appsec-cicd-291
-fetched_at: 2026-09-06T11:14:45Z
+fetched_at: 2026-09-16T09:11:03Z
 source: cortex-platform
 ---
 

@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-browser/administration/investigate-prisma-access-browser-events/prisma-browser-event-types/prisma-browser-audit-events
-fetched_at: 2026-08-13T17:23:09Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:40Z
+source: strata-and-sase
 ---
 
 # Audit Events Clear
 
-Audit Events 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Audit Events 
-
- Updated on 
-
- Tue Jul 28 09:38:39 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Browser Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Integrations 
-
- User Guide 
-
- Updated on 
-
- Tue Jul 28 09:38:39 PDT 2026 
+ Aug 19, 2026 
 
  Focus 
 
@@ -546,48 +494,4 @@ Audit Events
 
  Next 
 
- Data Protection Events (DLP) 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Prisma Browser 
-
- Administration 
-
- Prisma Access 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Data Protection Events (DLP)

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.9/configure-cortex-xsoar/lists/transform-a-list-into-an-array
-fetched_at: 2026-09-06T10:38:19Z
+fetched_at: 2026-09-16T08:55:36Z
 source: cortex-platform
 ---
 
@@ -65,6 +65,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Jobs 
 
- Last updated 28 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

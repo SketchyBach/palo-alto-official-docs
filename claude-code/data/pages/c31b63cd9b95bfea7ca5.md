@@ -1,74 +1,20 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-browser/administration/the-prisma-access-browser-extension/prisma-browser-extension-bulk-extension-id-import
-fetched_at: 2026-08-13T17:23:29Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:46Z
+source: strata-and-sase
 ---
 
 # Prisma Browser Extension Bulk Extension ID Import Clear
 
-Prisma Browser Extension Bulk Extension ID Import 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Prisma Browser Extension Bulk Extension ID Import 
-
- Updated on 
-
- Tue Jul 28 09:38:39 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Browser Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Integrations 
-
- User Guide 
-
- Updated on 
-
- Tue Jul 28 09:38:39 PDT 2026 
+ Thu Sep 10 09:47:19 PDT 2026 
 
  Focus 
 
  Home 
 
  Prisma Browser 
-
- Prisma Access Browser Administration 
 
  The Prisma Browser Extension 
 
@@ -217,50 +163,4 @@ Prisma Browser Extension Bulk Extension ID Import
 
  Next 
 
- Prisma Browser Extension - Best Practices 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Remote Browser Isolation 
-
- Prisma Browser 
-
- Administration 
-
- Prisma Access 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Prisma Browser Extension - Best Practices

@@ -1,0 +1,96 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/9-1/pan-os-admin/software-and-content-updates/best-practices-for-app-and-threat-content-updates.html
+fetched_at: 2026-09-16T10:42:22Z
+source: palo-alto-main
+---
+
+# Best Practices for Applications and Threats Content Updates Clear
+
+Updated on 
+
+ Tue Jul 22 10:22:06 PDT 2025 
+
+ Focus 
+
+ Home 
+
+ PAN-OS 
+
+ Software and Content Updates 
+
+ Best Practices for Applications and Threats Content Updates 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Best Practices for Applications and Threats Content Updates 
+
+ Table of Contents 
+
+ Filter
+
+ End-of-Life (EoL)
+
+ Previous 
+
+ Tips for Content Updates 
+
+ Next 
+
+ Best Practices for Content Updates—Mission-Critical 
+
+ Best Practices for Applications and Threats Content Updates 
+
+ Learn the best practices for keeping application and
+threat content signatures up-to-date seamlessly. 
+
+ The best practices to deploy content updates helps to
+ensure seamless policy enforcement as the firewall is continually
+equipped with new and modified application and threat signatures.
+Even though application and threat signatures are delivered together
+in a single content update package (read more about Applications
+and Threats Content Updates ), you have the flexibility to deploy
+them differently based on your network security and availability
+requirements: 
+
+ An organization with a security-first posture prioritizes
+protection using the latest threat signatures over application availability.
+You’re primarily using the firewall for its threat prevention capabilities. 
+
+ A mission-critical network prioritizes application
+availability over protection using the latest threat signatures.
+Your network has zero tolerance for downtime. The firewall is deployed
+inline to enforce security policy and if you’re using App-ID in
+security policy, any change to content that affects App-ID could
+cause downtime. 
+
+ You can take a mission-critical or security-first approach to
+deploying content updates, or you can apply a mix of both approaches
+to meet the needs of the business. Consider your approach as you
+apply the following best practices to most effectively leverage
+new and modified threat and application signatures: 
+
+ Best
+Practices for Content Updates—Mission-Critical 
+
+ Best
+Practices for Content Updates—Security-First 
+
+ Previous 
+
+ Tips for Content Updates 
+
+ Next 
+
+ Best Practices for Content Updates—Mission-Critical

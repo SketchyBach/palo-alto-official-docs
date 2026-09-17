@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/google/google-kubernetes-engine
-fetched_at: 2026-09-06T09:23:58Z
+fetched_at: 2026-09-16T07:58:22Z
 source: cortex-platform
 ---
 
@@ -61,6 +61,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Ingest logs from Google Kubernetes Engine 
 
- Last updated 1 month ago 
+ Last updated 2 days ago 
 
  Was this helpful?

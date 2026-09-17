@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/an-identity-accessed-azure-kubernetes-secrets
-fetched_at: 2026-09-06T11:00:20Z
+fetched_at: 2026-09-16T09:06:16Z
 source: cortex-platform
 ---
 

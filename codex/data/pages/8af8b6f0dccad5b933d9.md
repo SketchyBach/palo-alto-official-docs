@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/onboard-cortex-xsoar/users-and-roles/set-the-default-theme-for-new-users
-fetched_at: 2026-09-06T10:40:42Z
+fetched_at: 2026-09-16T08:56:11Z
 source: cortex-platform
 ---
 
@@ -43,6 +43,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Authenticate Users with Active Directory 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

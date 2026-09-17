@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/unusual-access-to-the-ad-sync-credential-files
-fetched_at: 2026-09-06T11:09:38Z
+fetched_at: 2026-09-16T09:08:47Z
 source: cortex-platform
 ---
 

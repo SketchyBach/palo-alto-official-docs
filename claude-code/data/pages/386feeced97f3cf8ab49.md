@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/asset-managment/asset-classes/code-and-ci-cd-assets/iac-resources-assets
-fetched_at: 2026-09-06T09:54:42Z
+fetched_at: 2026-09-16T08:44:38Z
 source: cortex-platform
 ---
 
@@ -255,6 +255,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Repository assets 
 
- Last updated 7 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

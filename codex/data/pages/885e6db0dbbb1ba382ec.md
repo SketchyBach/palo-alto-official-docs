@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/integration/asset-management/integrate-iot-security-with-nuvolo/set-up-iot-security-and-xsoar-for-nuvolo-integration
-fetched_at: 2026-08-13T16:36:55Z
+fetched_at: 2026-09-15T15:14:39Z
 source: palo-alto-main
 ---
 
 # Set up Device Security and XSOAR for Nuvolo Integration Clear
 
-Set up Device Security and XSOAR for Nuvolo Integration 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Set up Device Security and XSOAR for Nuvolo Integration 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
+ Aug 17, 2026 
 
  Focus 
 
@@ -133,9 +77,9 @@ Nuvolo.
 
  One of the following subscriptions: 
 
- Device Security subscription for an advanced
- Device Security product (Enterprise Plus,
- Industrial OT, or Medical)
+ Device Security subscription
+
+ Precision AI bundle subscription
 
  Device Security X subscription
 
@@ -310,52 +254,4 @@ update will continue running every 15 minutes.
 
  Next 
 
- Send Security Alerts to Nuvolo 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Cloud-Delivered Security Services 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Send Security Alerts to Nuvolo

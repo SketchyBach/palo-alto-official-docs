@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/endpoint-security/endpoint-protection/endpoint-protection-modules
-fetched_at: 2026-09-06T09:53:43Z
+fetched_at: 2026-09-16T08:44:33Z
 source: cortex-platform
 ---
 
@@ -341,6 +341,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Processes protected by exploit security policy 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

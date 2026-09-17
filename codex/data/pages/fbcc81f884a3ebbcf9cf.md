@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/deployment-steps-and-checklist/cloud-service-provider-csp-onboarding/amazon-web-services-cloud-onboarding/aws-security-capabilities-and-deployment-planning
-fetched_at: 2026-09-06T09:52:47Z
+fetched_at: 2026-09-16T08:44:26Z
 source: cortex-platform
 ---
 
@@ -145,6 +145,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next AWS resource inventory 
 
- Last updated 9 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

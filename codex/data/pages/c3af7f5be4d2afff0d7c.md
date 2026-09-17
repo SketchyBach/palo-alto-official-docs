@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/december-2025/customize-security-groups-and-view-enhanced-scan-results
-fetched_at: 2026-08-13T17:44:35Z
+fetched_at: 2026-09-16T07:53:05Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

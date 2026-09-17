@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/configure-cortex-xsoar/marketplace/manage-content-packs
-fetched_at: 2026-09-06T10:32:50Z
+fetched_at: 2026-09-16T08:54:33Z
 source: cortex-platform
 ---
 
@@ -139,6 +139,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up your use case with the Deployment Wizard 
 
- Last updated 7 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

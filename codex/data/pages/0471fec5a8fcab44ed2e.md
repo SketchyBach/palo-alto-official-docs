@@ -1,0 +1,137 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/administration/prerequisites/ca-certificate-requirements
+fetched_at: 2026-09-16T08:21:14Z
+source: palo-alto-main
+---
+
+# CA Certificate Requirements for Endpoint Manager Enrollment Clear
+
+Updated on 
+
+ Aug 27, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Prisma Agent Prerequisites 
+
+ CA Certificate Requirements for Endpoint Manager Enrollment 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ CA Certificate Requirements for Endpoint Manager Enrollment 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Supported Locations for Prisma Agents 
+
+ Next 
+
+ Set Up Cloud Identity Engine for Prisma Agent User Authentication 
+
+ CA Certificate Requirements for Endpoint Manager Enrollment 
+
+ Learn which CA certificates your endpoints must trust before the Prisma Agent can
+ enroll with the Endpoint Manager. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Check the prerequisites for the deployment you're using 
+
+ Windows, macOS, or Linux desktop devices 
+
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
+
+ The Endpoint Manager is the service that manages enrollment, authentication,
+ and communication for Prisma Agent endpoints. For the Prisma Agent to successfully authenticate and enroll with the Endpoint
+ Manager, your endpoints must have the Go Daddy Root Certificate Authority -
+ G2 certificate installed as a trusted root certificate. If this certificate
+ is missing, Endpoint Manager enrollment fails. 
+
+ Most operating systems include this certificate in their default trusted root
+ store. However, you may need to push it manually in the following
+ scenarios: 
+
+ Windows endpoints where automatic root certificate updates are
+ blocked — Windows uses an on-demand mechanism to load root
+ certificates from the Microsoft Certificate Trust List (CTL). This
+ mechanism fails when:
+
+ No internet access — Endpoints in private networks or
+ behind firewall rules that restrict outbound access to Windows
+ Update endpoints cannot retrieve root certificates
+ automatically. 
+
+ Group Policy (GPO) restrictions — Environments where the
+ Turn off Automatic Root Certificates
+ Update policy is enabled require administrators to
+ push certificates manually via domain controller or MDM. 
+
+ Internal update servers (WSUS) — Endpoints pointed to an
+ internal WSUS server cannot fetch root certificates from the public
+ internet unless the WSUS server syncs the Root Certificates
+ category. 
+
+ Linux endpoints — Linux distributions do not always include the Go
+ Daddy Root CA in their default trusted certificate bundle. 
+
+ ESXi and cloud-based virtual machine (VM) endpoints — Cloud and
+ virtualized endpoints are often provisioned with a minimal root certificate
+ store and may not include the Go Daddy Root CA. 
+
+ Install the following certificates on affected endpoints before deploying the Prisma Agent : 
+
+ Go Daddy Root Certificate Authority - G2 (root CA) 
+
+ SHA-256: 45140B3247EB9CC8C5B4F0D7B53091F73292089E6E5A63E2749DD3ACA9198EDA 
+
+ Go Daddy Secure Certificate Authority - G2 (intermediate CA) 
+
+ SHA-256: 973A41276FFD01E027A2AAD49E34C37846D3E976FF6A620B6712E33832041AA6 
+
+ You can download both certificates from the GoDaddy Certificate Repository . For deployment
+ instructions by platform: 
+
+ Windows endpoints managed by Microsoft Intune — see Deploy Prisma Agent
+ to Windows Endpoints Using Microsoft Intune 
+
+ macOS endpoints managed by Jamf Pro — see Deploy Prisma Agent to
+ macOS Endpoints Using Jamf Pro 
+
+ Linux endpoints — see Preinstall Tasks for Prisma Agents on
+ Linux 
+
+ Previous 
+
+ Supported Locations for Prisma Agents 
+
+ Next 
+
+ Set Up Cloud Identity Engine for Prisma Agent User Authentication

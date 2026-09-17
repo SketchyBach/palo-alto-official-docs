@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/multi-tenant/multi-tenant/onboard-cortex-xsoar-multi-tenant/step-5.-install-and-configure-content
-fetched_at: 2026-09-06T10:36:52Z
+fetched_at: 2026-09-16T08:55:20Z
 source: cortex-platform
 ---
 
@@ -83,6 +83,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Child tenant management 
 
- Last updated 29 minutes ago 
+ Last updated 9 days ago 
 
  Was this helpful?

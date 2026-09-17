@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/palo-alto-networks-integrations/wildfire-cloud
-fetched_at: 2026-09-06T09:41:58Z
+fetched_at: 2026-09-16T08:42:35Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Log type filtering 
 
- Last updated 25 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

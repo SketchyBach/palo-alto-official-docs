@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/customize-cases-and-issues
-fetched_at: 2026-09-06T10:06:03Z
+fetched_at: 2026-09-16T08:47:28Z
 source: cortex-platform
 ---
 
@@ -27,7 +27,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  While cases and issues are configured to work OOTB, users with specific requirements can customize them for specific needs or scenarios. 
 
- Set up case scoring Create a starring configuration Create SLAs for case and issue resolution Create issue exceptions Optimize case grouping in correlations 
+ Set up case scoring Create a starring configuration Create SLAs for case and issue resolution Create issue exceptions 
 
  Previous Quick Launcher 
 

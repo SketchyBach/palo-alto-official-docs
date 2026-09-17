@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/onboard-cortex-xdr
-fetched_at: 2026-09-06T11:18:12Z
+fetched_at: 2026-09-16T09:12:23Z
 source: cortex-platform
 ---
 

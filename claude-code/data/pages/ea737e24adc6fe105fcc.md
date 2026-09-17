@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/investigate-and-respond-to-threats/day-to-day-tasks-in-cortex-xsoar/indicator-management/export-indicators
-fetched_at: 2026-09-06T10:46:11Z
+fetched_at: 2026-09-16T08:57:11Z
 source: cortex-platform
 ---
 
@@ -81,6 +81,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Reference 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

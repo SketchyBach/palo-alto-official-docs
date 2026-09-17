@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cortex-cloud-saas-security/connect-a-saas-application/onboard-harness
-fetched_at: 2026-09-06T09:35:33Z
+fetched_at: 2026-09-16T08:36:47Z
 source: cortex-platform
 ---
 
@@ -85,6 +85,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Onboard Intercom 
 
- Last updated 1 month ago 
+ Last updated 2 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/a-microsoft-teams-application-was-installed
-fetched_at: 2026-09-06T10:59:07Z
+fetched_at: 2026-09-16T09:05:44Z
 source: cortex-platform
 ---
 

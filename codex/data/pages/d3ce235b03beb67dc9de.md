@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/cortex-agentix-data-sources-and-connectors/connectors
-fetched_at: 2026-09-06T10:16:57Z
+fetched_at: 2026-09-16T08:50:37Z
 source: cortex-platform
 ---
 
@@ -172,6 +172,6 @@ You can configure and save vault credentials under Settings â†’ Configurations â
 
  Next Standard data sources 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

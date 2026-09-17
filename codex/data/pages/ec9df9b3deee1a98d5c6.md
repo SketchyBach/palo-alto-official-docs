@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-ai-security/cortex-cloud-ai-security-use-cases
-fetched_at: 2026-09-06T09:57:23Z
+fetched_at: 2026-09-16T08:45:09Z
 source: cortex-platform
 ---
 

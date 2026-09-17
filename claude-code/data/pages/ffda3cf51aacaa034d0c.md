@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x-rn/release-information/features-introduced-in-2026-xdr-5x/july-2026/changed-features
-fetched_at: 2026-09-06T10:52:52Z
+fetched_at: 2026-09-16T08:59:25Z
 source: cortex-platform
 ---
 
@@ -57,6 +57,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex Cloud Posture Management and Cortex Cloud Runtime Security 
 
- Last updated 23 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

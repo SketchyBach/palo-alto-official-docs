@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/cortex-agentix-data-sources-and-connectors/vendor-specific-data-sources-and-connectors/rapid7/rapid7
-fetched_at: 2026-09-06T10:16:06Z
+fetched_at: 2026-09-16T08:51:08Z
 source: cortex-platform
 ---
 
@@ -49,6 +49,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Razor Group 
 
- Last updated 2 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

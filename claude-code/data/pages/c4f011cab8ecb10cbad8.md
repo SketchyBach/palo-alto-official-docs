@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/compute/appsec-docker-10
-fetched_at: 2026-09-06T11:11:33Z
+fetched_at: 2026-09-16T09:09:02Z
 source: cortex-platform
 ---
 

@@ -1,97 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/best-practices/10-1/best-practices-for-migrating-to-application-based-policy/best-practices-for-migrating-to-application-based-policy/migrate-to-application-based-policy-using-policy-optimizer/rules-to-begin-converting-after-30-days/convert-rules-with-the-most-traffic
-fetched_at: 2026-08-13T15:32:10Z
+fetched_at: 2026-09-15T15:08:53Z
 source: palo-alto-main
 ---
 
 # Convert Rules with the Most Traffic Clear
 
-Convert Rules with the Most Traffic 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Best Practices for Migrating to Application-Based Policy 
-
- : 
- Convert Rules That See the Most Traffic 
-
- Updated on 
-
- Fri Jan 26 17:43:41 PST 2024 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Filter
-
- Version 
-
- 10.1 
-
- 10.1 
-
- 10.0 (EoL) 
-
- 9.1 (EoL) 
-
- Expand all | Collapse all 
-
- Best Practices for Migrating to Application-Based Policy 
-
- Safely Enable Applications Using a Phased Transition 
-
- Migrate a Port-Based Policy to PAN-OS Using Expedition 
-
- Migrate to Application-Based Policy Using Policy Optimizer 
-
- Convert Simple Rules with Well-Known Apps After One Week 
-
- Rules to Begin Converting After 30 Days 
-
- Remove Unused Rules 
-
- Convert the Most Stable Rules 
-
- Convert Internet Access Rules 
-
- Convert Rules That See the Most Traffic 
-
- Convert Rules with Few Apps Seen Over a Time Period 
-
- Next Steps to Adopt Security Best Practices 
-
- Updated on 
-
- Fri Jan 26 17:43:41 PST 2024 
+ Jan 26, 2024 
 
  Focus 
 
@@ -216,6 +133,4 @@ of applications you want to treat similarly.
 
  Next 
 
- Convert Rules with Few Apps Seen Over a Time Period 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Convert Rules with Few Apps Seen Over a Time Period

@@ -1,77 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/11-0/terminal-services-agent-release-notes/operating-system-compatibility
-fetched_at: 2026-08-13T17:08:19Z
+fetched_at: 2026-09-16T07:38:22Z
 source: palo-alto-main
 ---
 
 # Operating System (OS) Compatibility Clear
 
-Operating System (OS) Compatibility 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Terminal Server (TS) Agent Release Notes 
-
- : 
- Operating System (OS) Compatibility 
-
- Updated on 
-
- Wed Nov 26 14:53:26 PST 2025 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Version 
-
- 11.0 & Later 
-
- 11.0 & Later 
-
- 10.2 
-
- 10.1 (EoL) 
-
- 10.0 (EoL) 
-
- 9.1 (EoL) 
-
- Expand all | Collapse all 
-
- Terminal Server (TS) Agent Release Information 
-
- Terminal Server (TS) Agent 11.1 Release Information 
-
- Terminal Server (TS) Agent 11.0 Release Information 
-
- Operating System (OS) Compatibility 
-
- System Requirements 
-
- Getting Help 
-
- Updated on 
-
- Wed Nov 26 14:53:26 PST 2025 
+ Nov 26, 2025 
 
  Focus 
 
@@ -141,6 +78,4 @@ Matrix .
 
  Next 
 
- System Requirements 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ System Requirements

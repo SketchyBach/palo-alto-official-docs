@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/onboard-cortex-xdr/post-deployment-steps/set-up-your-environment/data-and-log-forwarding/data-and-log-notification-formats/management-audit-log-messages
-fetched_at: 2026-09-06T09:38:57Z
+fetched_at: 2026-09-16T08:37:58Z
 source: cortex-platform
 ---
 

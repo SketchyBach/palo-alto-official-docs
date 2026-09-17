@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/8.7/cortex-xdr-agent-for-windows/troubleshooting-resources-for-windows/cytool-for-windows
-fetched_at: 2026-09-06T10:20:22Z
+fetched_at: 2026-09-16T08:51:37Z
 source: cortex-platform
 ---
 
@@ -353,6 +353,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex XDR Agents Deployed in Advertise Mode 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

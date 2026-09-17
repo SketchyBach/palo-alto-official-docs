@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/customize-cases-and-issues/customize-case-fields-and-layouts/case-layouts
-fetched_at: 2026-09-06T09:29:57Z
+fetched_at: 2026-09-16T08:34:37Z
 source: cortex-platform
 ---
 

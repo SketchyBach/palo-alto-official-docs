@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/elasticsearch/migration/elasticsearch-post-migration-health-check
-fetched_at: 2026-09-06T10:46:52Z
+fetched_at: 2026-09-16T08:57:19Z
 source: cortex-platform
 ---
 

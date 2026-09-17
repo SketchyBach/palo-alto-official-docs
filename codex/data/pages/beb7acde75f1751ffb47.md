@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/managed-ai-runtime-security-for-aws/managed-airs-for-aws-reference/credit-distribution/view-an-audit-trail-in-cloud-management-app
-fetched_at: 2026-09-06T11:17:55Z
+fetched_at: 2026-09-16T07:54:46Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Aug 24, 2026 
 
  Focus 
 

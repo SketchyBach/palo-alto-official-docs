@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/compliance/monitor-and-track-compliance-adherence
-fetched_at: 2026-09-06T10:06:35Z
+fetched_at: 2026-09-16T08:47:36Z
 source: cortex-platform
 ---
 
@@ -55,6 +55,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Choose compliance standards from the compliance catalog 
 
- Last updated 6 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

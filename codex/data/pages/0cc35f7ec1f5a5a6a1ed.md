@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security
-fetched_at: 2026-09-06T11:18:47Z
+fetched_at: 2026-09-16T09:12:35Z
 source: cortex-platform
 ---
 
@@ -75,6 +75,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Onboard data sources 
 
- Last updated 27 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

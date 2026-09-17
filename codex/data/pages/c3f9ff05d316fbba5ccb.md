@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/onboard-cortex-xsoar/cortex-xsoar-installation/system-requirements/url-requirements
-fetched_at: 2026-09-06T10:34:39Z
+fetched_at: 2026-09-16T08:54:54Z
 source: cortex-platform
 ---
 
@@ -143,6 +143,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Bandwidth and NTP requirements 
 
- Last updated 56 minutes ago 
+ Last updated 9 days ago 
 
  Was this helpful?

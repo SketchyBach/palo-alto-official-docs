@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/threat-management/detection-rules/what-are-detection-rules/whats-a-correlation-rule/monitor-correlation-rules
-fetched_at: 2026-09-06T09:54:22Z
+fetched_at: 2026-09-16T08:44:36Z
 source: cortex-platform
 ---
 
@@ -165,6 +165,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshoot server errors in scheduled correlation rules 
 
- Last updated 7 days ago 
+ Last updated 17 days ago 
 
  Was this helpful?

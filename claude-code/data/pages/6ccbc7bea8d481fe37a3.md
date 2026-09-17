@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.8/configure-cortex-xsoar/users-and-roles-management/user-management
-fetched_at: 2026-09-06T11:21:27Z
+fetched_at: 2026-09-16T09:13:23Z
 source: cortex-platform
 ---
 
@@ -211,6 +211,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure a password policy 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

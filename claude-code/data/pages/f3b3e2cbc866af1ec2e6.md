@@ -1,68 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/advanced-wildfire/administration/advanced-wildfire-overview/advanced-wildfire-concepts/advanced-wildfire-inline-ml
-fetched_at: 2026-08-13T15:22:06Z
+fetched_at: 2026-09-15T15:08:12Z
 source: palo-alto-main
 ---
 
 # Advanced WildFire Inline ML Clear
 
-Advanced WildFire Inline ML 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Advanced WildFire Inline ML 
-
- Updated on 
-
- Jul 30, 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Advanced WildFire 
-
- Administration 
-
- Appliance 
-
- Updated on 
+Updated on 
 
  Jul 30, 2026 
 
@@ -166,86 +110,4 @@ or VM50L virtual appliance.
 
  Next 
 
- Verdicts 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Firewalls 
-
- PAN-OS 
-
- Panorama 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Security Policy 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- 11.0 
-
- 10.1 
-
- Network Security 
-
- PAN-OS 
-
- Advanced Wildfire 
-
- 10.2 
-
- Administration 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Verdicts

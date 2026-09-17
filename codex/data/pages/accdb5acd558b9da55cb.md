@@ -1,80 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-browser/activation-and-onboarding/activate-standalone-prisma-access-browser-license
-fetched_at: 2026-08-13T17:23:04Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:38Z
+source: strata-and-sase
 ---
 
 # Activate Standalone Prisma Browser  License Clear
 
-Activate Standalone Prisma Browser License 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Activate Standalone Prisma Browser License 
-
- Updated on 
-
- Aug 2, 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Deutsch (German) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Browser Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Integrations 
-
- User Guide 
-
- Updated on 
-
- Aug 2, 2026 
+ Thu Sep 03 05:04:55 PDT 2026 
 
  Focus 
 
@@ -85,20 +19,6 @@ Activate Standalone Prisma Browser License
  Activate Standalone Prisma Browser License 
 
  Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Deutsch (German) 
 
  Prisma Browser 
 
@@ -126,6 +46,14 @@ Activate Standalone Prisma Browser License
 
  User Guide 
 
+ Previous 
+
+ Activate New Prisma Browser with Prisma Enterprise Bundle License 
+
+ Next 
+
+ Cloud Managed Prisma Browser Bundle License 
+
  Activate Standalone Prisma Browser License 
 
  Learn how to activate your Cloud Managed standalone Prisma Access Secure Enterprise Browser ( Prisma Browser ) with Prisma Access bundle license through Common Services . 
@@ -141,13 +69,10 @@ Activate Standalone Prisma Browser License
 
  Customer Support Portal account 
 
- See the prerequisites before you begin this
- task. 
+ After you receive an email from Palo Alto Networks identifying the license you're
+ activating, use the activation link to begin the activation process. 
 
- After you receive a notification from Palo Alto Networks identifying the license
- you're activating, use the activation link to begin the activation process. 
-
- Log in to the Activate Subscription window. 
+ Log in to the Activate Subscription page. 
 
  If you have a Palo Alto Networks Customer Support account, then enter
  the email address you used when you registered for that account and
@@ -169,14 +94,14 @@ Activate Standalone Prisma Browser License
  Choose the data ingestion Region where you want to
  deploy your product. 
 
- Assign the Prisma Access Secure Enterprise Browser Licenses and Add-ons 
+ Assign the Prisma Browser Licenses and Add-ons 
 
- Select Prisma Access Secure Enterprise Browser . 
+ Select Prisma Browser . 
 
  This is similar to allocating PA Mobile User
  licenses . You will be able to partially allocate and activate
- Prisma Browser licenses across multiple Prisma Access tenants.
- For example: 
+ Prisma Browser licenses across multiple Prisma Access 
+ tenants. For example: 
 
  You can purchase 1,000 units of Standalone Prisma Browser 
 
@@ -195,8 +120,8 @@ Activate Standalone Prisma Browser License
  configuration, telemetry logs, system logs, and stats. You can select an
  existing instance or create a new instance. 
 
- Select Cloud Identity Engine or create a new
- CIE instance to identify and verify all users across your infrastructure. 
+ Select Cloud Identity Engine or create a new CIE instance
+ to identify and verify all users across your infrastructure. 
 
  Agree to the terms and conditions , and
  Activate . 
@@ -204,49 +129,13 @@ Activate Standalone Prisma Browser License
  Go to the Prisma Browser 
  Admin Guide to manage your Prisma Browser . 
 
- ( Optional ) Assign roles so your admins can manage the
+ ( Optional ) Assign Roles so your admins can manage the
  Prisma Browser . 
 
- On This Page 
+ Previous 
 
- Activation & Onboarding 
+ Activate New Prisma Browser with Prisma Enterprise Bundle License 
 
- Strata Cloud Manager 
+ Next 
 
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Prisma Browser 
-
- Activation & Onboarding 
-
- Prisma Access 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Cloud Managed Prisma Browser Bundle License

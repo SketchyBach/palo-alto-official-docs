@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security-posture-management-aspm/repository-as-an-asset
-fetched_at: 2026-09-06T10:11:58Z
+fetched_at: 2026-09-16T08:49:06Z
 source: cortex-platform
 ---
 
@@ -89,6 +89,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage repository assets through the tenant (UI) 
 
- Last updated 27 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

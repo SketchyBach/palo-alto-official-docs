@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.9/configure-cortex-xsoar/jobs/create-jobs-to-process-indicators-example
-fetched_at: 2026-09-06T10:38:21Z
+fetched_at: 2026-09-16T08:55:39Z
 source: cortex-platform
 ---
 
@@ -201,6 +201,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next SLAs 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

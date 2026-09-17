@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/enterprise-dlp/administration/configure-enterprise-dlp/enterprise-dlp-and-ai-apps/create-a-security-policy-rule-for-chatgpt
-fetched_at: 2026-08-13T15:32:17Z
+fetched_at: 2026-09-15T15:10:23Z
 source: palo-alto-main
 ---
 
 # Create a Security Policy Rule for ChatGPT Clear
 
-Create a Security Policy Rule for ChatGPT 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Create a Security Policy Rule for ChatGPT 
-
- Updated on 
-
- Fri Jul 10 12:56:22 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Enterprise DLP Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features by OS Version 
-
- New Features by Month 
-
- Updated on 
-
- Fri Jul 10 12:56:22 PDT 2026 
+ Thu Sep 10 12:41:05 PDT 2026 
 
  Focus 
 
@@ -120,15 +66,6 @@ Create a Security Policy Rule for ChatGPT
 
  Use Enterprise Data Loss Prevention (E-DLP) in a Security policy rule to prevent exfiltration of
  sensitive data to ChatGPT. 
-
- On May 7, 2025 , Palo Alto Networks is introducing new Evidence Storage and Syslog Forwarding service IP
- addresses to improve performance and expand availability for these services
- globally. 
-
- You must allow these new service IP addresses on your network
- to avoid disruptions for these services. Review the Enterprise DLP 
- Release Notes for more
- information. 
 
  Where Can I Use This? What Do I Need? 
 
@@ -361,15 +298,15 @@ CASB for Prisma Access and NGFW (CASB-X) license
  Create a security policy rule to prevent exfiltration of sensitive data to ChatGPT on
  the Panorama® management server . 
 
- Upgrade Panorama , managed firewalls, and the Enterprise DLP 
- plugin to the minimum required versions. 
+ Upgrade Panorama , managed devices, and the Enterprise DLP plugin
+ to the minimum required versions. 
 
- Upgrade to
- PAN-OS 10.2.3 or later release. 
+ Upgrade 
+ Panorama to PAN-OS 10.2.3 or later release. 
 
- Upgrade the plugin to 3.0.2 or later release. 
+ Upgrade the Enterprise DLP plugin to 3.0.2 or later release. 
 
- Upgrade managed firewalls to
+ Upgrade managed devices to
  PAN-OS 10.2.3 or later release. 
 
  Log in to the Panorama web
@@ -460,7 +397,7 @@ CASB for Prisma Access and NGFW (CASB-X) license
 
  Click OK . 
 
- Commit and push the new configuration to your managed firewalls to complete the
+ Commit and push the new configuration to your managed devices to complete the
  Enterprise DLP plugin installation. 
 
  This step is required for Enterprise DLP data filtering profile names to
@@ -469,8 +406,8 @@ CASB for Prisma Access and NGFW (CASB-X) license
  The Commit and Push command isn’t recommended for
  Enterprise DLP configuration changes. Using the
  Commit and Push command requires the
- additional and unnecessary overheard of manually selecting the impacted
- templates and managed firewalls in the Push Scope Selection. 
+ additional and unnecessary overhead of manually selecting the impacted
+ templates and managed devices in the Push Scope Selection. 
 
  Full configuration push from Panorama 
 
@@ -486,58 +423,44 @@ CASB for Prisma Access and NGFW (CASB-X) license
  Click OK . 
 
  Push your configuration changes to
- your managed firewalls that are using Enterprise DLP . 
+ your managed devices that are using Enterprise DLP . 
 
  Partial configuration push from Panorama 
 
  You must always include the temporary
  __dlp administrator when
  performing a partial configuration push. This is required to
- keep Panorama and the DLP cloud service in sync. 
+ keep Panorama and Strata Cloud Manager in sync. 
 
- For example, you have an admin 
- Panorama admin user who is allowed to commit and push
- configuration changes. The admin 
- user made changes to the Enterprise DLP configuration and
- only wants to commit and push these changes to managed
- firewalls. In this case, the admin 
- user is required to also select the
- __dlp user in the partial
- commit and push operations. 
+ For example, if admin is logged in
+ and making changes, they must select both
+ admin and
+ __dlp in the partial commit and
+ push. 
 
  Select Commit Commit to Panorama . 
 
  Select Commit Changes Made By and then
- click the current Panorama admin user to select additional
- admins to include in the partial commit. 
+ click the current Panorama admin user to select
+ additional admins to include in the partial commit. 
 
- In this example, the admin user
- is currently logged in and performing the commit operation.
- The admin user must click
- admin and then select the
- __dlp user. If there are
- additional configuration changes made by other Panorama
- admins they can be selected here as well. 
-
- Click OK to continue. 
+ Select your logged-in admin user, the
+ __dlp user, and any other
+ admins whose changes to include. Click
+ OK to continue. 
 
  Commit . 
 
  Select Commit Push to Devices . 
 
  Select Push Changes Made By and then
- click the current Panorama admin user to select additional
- admins to include in the partial push. 
+ click the current Panorama admin user to select
+ additional admins to include in the partial push. 
 
- In this example, the admin user
- is currently logged in and performing the push operation.
- The admin user must click
- admin and then select the
- __dlp user. If there are
- additional configuration changes made by other Panorama
- admins they can be selected here as well. 
-
- Click OK to continue. 
+ Select your logged-in admin user, the
+ __dlp user, and any other
+ admins whose changes to include. Click
+ OK to continue. 
 
  Select Device Groups and
  Include Device and Network
@@ -546,7 +469,7 @@ CASB for Prisma Access and NGFW (CASB-X) license
  Click OK . 
 
  Push your configuration changes to
- your managed firewalls that are using Enterprise DLP . 
+ your managed devices that are using Enterprise DLP . 
 
  Previous 
 
@@ -554,110 +477,4 @@ CASB for Prisma Access and NGFW (CASB-X) license
 
  Next 
 
- Email DLP 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Administration 
-
- Cloud-Delivered Security Services 
-
- Data Filtering 
-
- Enterprise DLP 
-
- Task 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Email DLP

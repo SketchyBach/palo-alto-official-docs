@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/investigation-and-response/automation/playbooks/build-your-playbook/test-your-playbook
-fetched_at: 2026-09-06T09:55:52Z
+fetched_at: 2026-09-16T08:44:47Z
 source: cortex-platform
 ---
 
@@ -90,6 +90,8 @@ For the complete documentation index, see llms.txt . This page is also available
  You can override task inputs or outputs before or during a playbook run to troubleshoot tasks that fail or to try different input and outputs as part of playbook development. If you override an input or output during a playbook run, the override is applied to the run if the playbook has not yet reached that task. If you edit (permanently change) inputs during a playbook run, the changes only take effect the next time you run the playbook. You cannot use filters or transformers for overrides. 
 
  To override an input or output, open the task and hover over any existing input or output. Click Override Input. 
+
+ debug-override.png 
 
  Enter a new input or output that will be used only in the debugger. For output overrides, you can enter a value, an array of values, or JSON. For input overrides, you can only enter plain text. 
 

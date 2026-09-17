@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/investigation-and-response/investigate-issues/link-or-unlink-issues-from-a-case
-fetched_at: 2026-09-06T10:04:56Z
+fetched_at: 2026-09-16T08:47:14Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Run an automation on an issue 
 
- Last updated 19 days ago 
+ Last updated 29 days ago 
 
  Was this helpful?

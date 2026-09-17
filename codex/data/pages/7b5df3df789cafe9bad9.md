@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-installation-guides/6.14/cortex-xsoar-installation-guide/system-requirements/cloud-deployment-specifications/gcp-compute-engine-deployment-guidelines
-fetched_at: 2026-09-06T10:50:30Z
+fetched_at: 2026-09-16T08:58:34Z
 source: cortex-platform
 ---
 
@@ -103,6 +103,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  You can use GCP Persistent Disk Snapshots to back up your GCP Compute Engine VM Disks. Use snapshots for incremental backups, point-in-time restoration, and to view historical data. 
 
- Last updated 6 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

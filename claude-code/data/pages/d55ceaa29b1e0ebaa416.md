@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/analyze-and-resolve-cases/additional-case-actions/assign-a-case-team-and-restrict-access
-fetched_at: 2026-09-06T10:04:51Z
+fetched_at: 2026-09-16T08:47:08Z
 source: cortex-platform
 ---
 
@@ -31,9 +31,21 @@ For the complete documentation index, see llms.txt . This page is also available
 
  You can assign individual users and entire user groups to specific roles within a case team. For sensitive or high-risk cases, you can also restrict access to a case so that only assigned case team members can see or take action. 
 
- For more information about the different team roles, see Overview of case teams and roles . 
+ For more information about the different team roles and case access and visibility, see Overview of case teams and roles . 
 
- To change the scope and access of a case, you must have the Restrict Case Access permission under Cases & Issues . 
+ Important considerations 
+
+ Before restricting access or assigning teams, keep the following rules in mind: 
+
+ Permissions required: To change the access settings of a case, you must have the Restrict Case Access permission under Cases & Issues . 
+
+ Team management: When case access is restricted to Team Only , only assigned team members have permission to add new team members to the case. 
+
+ Team access: When case access is restricted to Team Only , assigned team members require the relevant RBAC and SBAC roles to view case data and take actions on the case. For more information see Overview of case teams and roles . 
+
+ Automatic reversion: If a case has no assigned team members, the scope automatically reverts to Case Scope . 
+
+ Audit trail: Any changes made to the case assignee or the case team are permanently recorded in the Case Timeline . 
 
  How to assign a case team and restrict access 
 
@@ -105,22 +117,10 @@ For the complete documentation index, see llms.txt . This page is also available
 
  You cannot set a case to TEAM_ONLY if no case team has been assigned. 
 
- Important considerations 
-
- Before restricting access or assigning teams, keep the following rules in mind: 
-
- Permissions required: To change the access settings of a case, you must have the Restrict Case Access permission under Cases & Issues . 
-
- Team management: When case access is restricted to Team Only , only assigned team members have permission to add new team members to the case. For more information see Overview of case teams and roles . 
-
- Automatic reversion: If a case has no assigned team members, the scope automatically reverts to Case Scope . 
-
- Audit trail: Any changes made to the case assignee or the case team are permanently recorded in the Case Timeline . 
-
  Previous Merge a case 
 
  Next Playbook examples 
 
- Last updated 5 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

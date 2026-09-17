@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.6/configure-cortex-xsoar/engines/install-an-engine/docker
-fetched_at: 2026-09-06T11:26:39Z
+fetched_at: 2026-09-16T09:14:39Z
 source: cortex-platform
 ---
 
@@ -49,6 +49,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Install Docker 
 
- Last updated 27 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

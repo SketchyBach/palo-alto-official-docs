@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/broker-vm/set-up-and-configure-broker-vm/broker-vm-data-collector-applets
-fetched_at: 2026-09-06T09:49:49Z
+fetched_at: 2026-09-16T08:44:13Z
 source: cortex-platform
 ---
 
@@ -41,6 +41,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Activate Apache Kafka Collector 
 
- Last updated 20 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

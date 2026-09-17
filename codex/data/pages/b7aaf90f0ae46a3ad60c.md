@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/investigation-and-response/automation/scripts/create-a-script
-fetched_at: 2026-09-06T10:05:27Z
+fetched_at: 2026-09-16T08:47:26Z
 source: cortex-platform
 ---
 
@@ -239,6 +239,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Accelerate script development using the Automation Engineer agent 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

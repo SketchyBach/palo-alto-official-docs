@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/learn-about-cortex-xsoar/cortex-xsoar-use-cases
-fetched_at: 2026-09-06T10:26:22Z
+fetched_at: 2026-09-16T08:53:16Z
 source: cortex-platform
 ---
 

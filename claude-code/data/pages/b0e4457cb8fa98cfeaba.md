@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security/onboard-data-sources/ingest-third-party-data-sources/third-party-integrations-lifecycle-administration-and-automation/reference-a-programmatic-automation-and-key-rotation
-fetched_at: 2026-09-06T10:11:37Z
+fetched_at: 2026-09-16T08:49:00Z
 source: cortex-platform
 ---
 
@@ -253,6 +253,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Reference B: GitOps and infrastructure-as-code (IaC) 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

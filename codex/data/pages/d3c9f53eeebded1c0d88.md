@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/configure-the-cortex-agentic-assistant-1/agents-hub/manage-actions
-fetched_at: 2026-09-06T09:28:41Z
+fetched_at: 2026-09-16T08:33:53Z
 source: cortex-platform
 ---
 

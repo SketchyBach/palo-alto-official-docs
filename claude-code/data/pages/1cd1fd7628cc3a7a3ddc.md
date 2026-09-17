@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-analytics-content-releases/cortex-analytics-content-release-notes/2025-10-22
-fetched_at: 2026-09-06T10:54:21Z
+fetched_at: 2026-09-16T09:02:23Z
 source: cortex-platform
 ---
 

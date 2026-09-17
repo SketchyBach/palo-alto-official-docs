@@ -1,78 +1,28 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/user-guide/prisma-access-agent-for-ios
-fetched_at: 2026-08-13T17:22:53Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:34Z
+source: strata-and-sase
 ---
 
-# Prisma Access Agent for iOS Clear
+# Prisma Agent for iOS Clear
 
-Prisma Access Agent for iOS 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Prisma Access Agent for iOS 
-
- Updated on 
-
- Wed Jul 01 22:45:41 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Jul 01 22:45:41 PDT 2026 
+ Thu Aug 27 01:36:38 PDT 2026 
 
  Focus 
 
  Home 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent User Guide 
-
- Prisma Access Agent for iOS 
+ Prisma Agent for iOS 
 
  Download PDF 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent for iOS 
+ Prisma Agent for iOS 
 
  Table of Contents 
 
@@ -82,7 +32,7 @@ Prisma Access Agent for iOS
  | 
  Collapse All 
 
- Prisma Access Agent Docs 
+ Prisma Agent Docs 
 
  Administration 
 
@@ -94,124 +44,38 @@ Prisma Access Agent for iOS
 
  Previous 
 
- Prisma Access Agent Commands 
+ Prisma Agent Commands 
 
  Next 
 
- Download and Install the Prisma Access Agent for iOS on Unmanaged Devices 
+ Download and Install the Prisma Agent for iOS on Unmanaged Devices 
 
- Prisma Access Agent for iOS 
+ Prisma Agent for iOS 
 
- Learn how to use Prisma Access Agent to secure your mobile devices on
+ Learn how to use Prisma Agent to secure your mobile devices on
  iOS. 
 
  Where Can I Use This? What Do I Need? 
 
- Prisma Access Agent 
+ Prisma Agent 
 
  iOS 16 and later versions 
 
  Internet access 
 
- The Prisma Access Agent is an application that operates on your endpoint device
+ The Prisma Agent is an application that operates on your endpoint device
  (such as a desktop computer, laptop, tablet, or smartphone) to safeguard you by
  enforcing the same security policies that protect the valuable resources within your
  corporate network. 
 
- Your administrators can deploy your corporate account configuration and Prisma Access Agent settings to the compliant endpoints using mobile device management
- platforms and you can also download Prisma Access Agent to your devices as per your
+ Your administrators can deploy your corporate account configuration and Prisma Agent settings to the compliant endpoints using mobile device management
+ platforms and you can also download Prisma Agent to your devices as per your
  corporate guidelines. 
 
  Previous 
 
- Prisma Access Agent Commands 
+ Prisma Agent Commands 
 
  Next 
 
- Download and Install the Prisma Access Agent for iOS on Unmanaged Devices 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- User Guide 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Download and Install the Prisma Agent for iOS on Unmanaged Devices

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security-rn/cortex-cloud-runtime-security-release-information/features-introduced-in-2026-cloud/february-22-2026
-fetched_at: 2026-09-06T10:53:25Z
+fetched_at: 2026-09-16T09:01:14Z
 source: cortex-platform
 ---
 
@@ -43,6 +43,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next February 8, 2026 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

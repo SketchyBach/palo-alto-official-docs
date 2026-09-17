@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/configure-cortex-xsoar/users-and-roles-management/set-up-authentication/set-up-microsoft-entra-id-as-the-identity-provider-using-saml-2.0
-fetched_at: 2026-09-06T10:22:04Z
+fetched_at: 2026-09-16T08:52:21Z
 source: cortex-platform
 ---
 
@@ -173,6 +173,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next User management 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

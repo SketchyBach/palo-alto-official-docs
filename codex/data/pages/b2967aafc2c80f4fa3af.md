@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security-rn/cortex-cloud-runtime-security-release-information/features-introduced-in-2026-cloud/july-2026/release-highlights
-fetched_at: 2026-09-06T10:53:24Z
+fetched_at: 2026-09-16T09:01:08Z
 source: cortex-platform
 ---
 

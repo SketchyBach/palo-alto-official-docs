@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.9/configure-cortex-xsoar/incident-configuration/classification-and-mapping
-fetched_at: 2026-09-06T10:37:58Z
+fetched_at: 2026-09-16T08:55:31Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create an incident classifier 
 
- Last updated 28 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

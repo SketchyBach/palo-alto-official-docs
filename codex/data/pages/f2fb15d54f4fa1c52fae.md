@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.6/troubleshoot-and-reference/troubleshoot/view-guard-rails-warnings-and-errors
-fetched_at: 2026-09-06T11:23:32Z
+fetched_at: 2026-09-16T09:13:55Z
 source: cortex-platform
 ---
 
@@ -61,6 +61,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Access logs and log bundles 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/role-based-access-control/inventory-agent-permissions/host-firewall
-fetched_at: 2026-09-06T09:38:05Z
+fetched_at: 2026-09-16T08:37:40Z
 source: cortex-platform
 ---
 
@@ -107,6 +107,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Device Control 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

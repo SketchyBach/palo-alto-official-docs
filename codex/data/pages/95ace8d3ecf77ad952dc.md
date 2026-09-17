@@ -1,0 +1,73 @@
+---
+url: https://docs.paloaltonetworks.com/globalprotect/new-features/by-version/globalprotect/6-0
+fetched_at: 2026-09-16T12:57:54Z
+source: palo-alto-main
+---
+
+# New Features - GlobalProtect - 6.0 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+Focus 
+
+ Home 
+
+ GlobalProtect 
+
+ New Features - GlobalProtect - 6.0 
+
+ Download PDF 
+
+ GlobalProtect Support for PAN-OS-11.2-DHCP-Based IP Address Assignments 
+
+ Release Date: May 2024 
+ | 
+ Last Updated: May 2026 
+
+ Note: Starting from PAN-OS 11.2.1, the DHCP Based IP Address Assignment feature is supported for both VM-Series virtual firewall and hardware next-generation firewall platforms. 
+
+ DHCP Based IP Address Assignment feature in PAN OS 11.2.0 release is supported for VM-Series Virtual Firewalls only. The feature is not supported for hardware next-generation firewall platforms. 
+
+ You can now configure a DHCP server profile on the GlobalProtect gateway to use DHCP server for managing and assigning IP addresses for the endpoints connected remotely through the GlobalProtect app. Users who are using enterprise DHCP servers can enable this feature for centralized IP management and IP address assignments. When you configure a DHCP server profile on the GlobalProtect gateway and upon successful communication between the gateway and the DHCP server, the gateway obtains DHCP IP addresses from a DHCP member server. The GlobalProtect gateway then assigns the IP addresses as the tunnel IP for the endpoints that are remotely connected through the GlobalProtect app. If the DHCP server fails to respond to the gateway within the set communication timeout and retry times period, the gateway falls back to the private Static IP pool for the allocation of IP addresses for the endpoints. 
+
+ When the GlobalProtect gateway assigns the DHCP IP addresses to the endpoints, you can configure their DHCP server to create Dynamic DNS ( Address and Pointer Record) records for the GlobalProtect connected users. DDNS are useful for endpoint admins to do troubleshooting on the GlobalProtect connected remote user endpoints. The IP addresses get registered to the DDNS server only when you configure IP Address Management (IPAM) on Windows server, DDNS server, or on the Infoblox server. 
+
+ GlobalProtect
+
+ Core
+
+ May 2024
+
+ 6.0
+
+ GlobalProtect: Two-Factor Authentication Using OTPs 
+
+ Release Date: October 2025 
+ | 
+ Last Updated: May 2026 
+
+ Secure your remote access environment against credential theft by implementing robust two-factor authentication (2FA) using One-Time Passwords (OTPs) . This essential security feature requires users requesting access to enter a unique OTP token sent from the authentication service to their RSA device. Implement this 2FA mechanism across your GlobalProtect® portals and gateways to ensure comprehensive protection 
+
+ By default, the app reuses the same credentials used to log in to the portal and gateway. In the case of OTP authentication, this behavior causes the authentication to initially fail on the gateway. The resulting delay in prompting the user for a login often leads to the time-sensitive OTP expiring before it can be entered. To prevent this, you must configure the portals and gateways that prompt for the OTP instead of using the same credentials on a per-app configuration basis. 
+
+ GlobalProtect
+
+ Core
+
+ October 2025
+
+ 6.0
+
+ SAML Authentication for GlobalProtect Portals on Non-Standard Ports 
+
+ Release Date: November 2025 
+ | 
+ Last Updated: May 2026 
+
+ When networks require flexible deployment options that prevent the use of default ports (TCP/443), achieving secure remote access with SAML authentication can be challenging. GlobalProtect® now provides support for SAML authentication when the port is externally accessible on a non-standard port. This new capability enables GlobalProtect to use SAML authentication on custom ports, supporting flexible deployment options in networks that require specific ports for service access. The feature ensures the GlobalProtect portal configuration and the Identity Provider (IdP) settings, specifically the Assertion Consumer Service (ACS) URL, are synchronized for successful non-standard port access. This functionality allows administrators to meet complex network requirements without compromising secure, SAML-based user authentication. 
+
+ GlobalProtect
+
+ Core
+
+ November 2025
+
+ 6.0

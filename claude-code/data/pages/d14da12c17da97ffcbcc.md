@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-threat-intel-management-guides/6.14/learn-about-threat-intel-management/readme-1/indicator-concepts
-fetched_at: 2026-09-06T10:49:38Z
+fetched_at: 2026-09-16T08:57:52Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Threat Intel Management Overview 
 
- XSOAR 6.14 Threat Intel Management 
+ Cortex XSOAR 6.14 Threat Intel Management 
 
  Indicator Concepts 
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/configure-cortex-xsoar/users-and-roles-management/set-up-authentication/set-up-okta-as-the-identity-provider-using-saml-2.0
-fetched_at: 2026-09-06T10:24:34Z
+fetched_at: 2026-09-16T08:52:55Z
 source: cortex-platform
 ---
 
@@ -139,6 +139,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up Microsoft Entra ID as the Identity Provider Using SAML 2.0 
 
- Last updated 4 hours ago 
+ Last updated 10 days ago 
 
  Was this helpful?

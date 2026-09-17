@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/configure-cortex-xsoar/engines/run-a-script-using-an-engine
-fetched_at: 2026-09-06T10:32:40Z
+fetched_at: 2026-09-16T08:54:32Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshoot engines 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

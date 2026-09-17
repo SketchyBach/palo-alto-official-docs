@@ -1,64 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/advanced-ip-defense/getting-started/advanced-ip-defense-ip-attributes-reference
-fetched_at: 2026-08-13T15:23:34Z
+fetched_at: 2026-09-15T15:08:17Z
 source: palo-alto-main
 ---
 
 # Advanced IP Defense IP Attributes and Categories Clear
 
-Advanced IP Defense IP Attributes and Categories 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Advanced IP Defense IP Attributes and Categories 
-
- Updated on 
-
- May 22, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Advanced IP Defense Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- May 22, 2026 
+ Aug 28, 2026 
 
  Focus 
 
@@ -100,7 +50,7 @@ Advanced IP Defense IP Attributes and Categories
 
  Next 
 
- Advanced IP Defense Predefined EDLs (PAN-OS 11.1 and PAN-OS 12.1) 
+ Advanced IP Defense EDL-Based Protection 
 
  Advanced IP Defense IP Attributes and Categories 
 
@@ -114,9 +64,9 @@ Advanced IP Defense IP Attributes and Categories
 
  IP Attribute Overview 
 
- IP attributes are assigned to publicly routable IPv4 addresses based on real-time threat intelligence and behavioral analysis. Each attribute has the following characteristics: 
+ IP attributes are assigned to publicly routable IPv4 addresses based on real-time threat intelligence and behavioral analysis. The available categories and attributes are delivered through dynamic content updates and may change as new threat classifications are added. Each attribute has the following characteristics: 
 
- Attribute ID: A unique identifier for the attribute maintained by the Advanced IP Defense cloud service 
+ Attribute ID: A unique identifier for the attribute maintained by Advanced IP Defense 
 
  Short Name: A human-readable identifier used in policy rules and logs 
 
@@ -128,7 +78,7 @@ Advanced IP Defense IP Attributes and Categories
 
  Block Action Disable: Indicates whether the attribute can be disabled for blocking actions 
 
- Advanced IP Defense only provides attributes for publicly routable IPv4 addresses. Private IP addresses are automatically allowlisted and do not receive IP attributes. 
+ Advanced IP Defense only provides attributes for publicly routable IPv4 addresses. Advanced IP Defense automatically allowlists private IP addresses and doesn't assign them IP attributes. 
 
  Anonymizers & Proxies 
 
@@ -152,13 +102,12 @@ Advanced IP Defense IP Attributes and Categories
  addresses. Mutually exclusive with open proxy and private
  proxy. 
 
- Netblock Owner 
+ Association 
 
  Attributes in this category identify the owner or operator of the IP address netblock. These attributes help distinguish between legitimate cloud and CDN infrastructure and other types of IP addresses. 
 
- These attributes show associations and cannot be used as a category to block. You
- must select at least one attribute when using Netblock
- Owner . 
+ These attributes show associations and you can't use this category for block actions. You
+ must select at least one attribute when using Association . 
 
  Attribute Description 
 
@@ -249,7 +198,7 @@ Advanced IP Defense IP Attributes and Categories
  and identifies any direct-to-IP connections that may indicate
  malware activity or data exfiltration. 
 
- Direct-to-IP detection uses a zero-trust approach to IP-based traffic. The enforcement point maintains a local DNS cache and compares incoming connections against this cache. If a connection is made to an IP address that was not recently resolved through DNS, it is flagged as a direct-to-IP connection. A grace period of 300 seconds is applied to account for transmission delays and clients using slightly-expired cache entries. 
+ Direct-to-IP detection uses a zero-trust approach to IP-based traffic. The enforcement point maintains a local DNS cache and compares incoming connections against this cache. If a connection is made to an IP address that was not recently resolved through DNS, Advanced IP Defense flags it as a direct-to-IP connection. A grace period of 300 seconds is applied to account for transmission delays and clients using slightly expired cache entries. 
 
  Vulnerable Services 
 
@@ -267,11 +216,9 @@ Advanced IP Defense IP Attributes and Categories
 
  Select individual attributes to match specific threat classifications 
 
- Combine multiple attributes using logical operators (AND, OR) to create complex match criteria 
+ Add one or more match conditions using the Matches or Does not Match operator 
 
- Use NOT operators to exclude specific attributes from matching 
-
- Define actions (Block, Allow, Alert) based on attribute matches 
+ Define actions — Allow (Permit), Alert (Permit and Log), Block (Drop & Log), or Deny (Drop) — based on attribute matches 
 
  Set log severity levels to control how matched traffic is logged 
 
@@ -281,11 +228,11 @@ Advanced IP Defense IP Attributes and Categories
 
  Advanced IP Defense caches IP attributes locally on the enforcement point to reduce cloud lookups and improve performance. Each attribute has a cache TTL (time-to-live) that determines how long the attribute is cached before requiring a new cloud lookup. 
 
- When the cache expires, the enforcement point queries the Advanced IP Defense cloud service for updated attribute information. On a cache miss, the firewall allows the initial session to pass (fail-open) and asynchronously queries the Advanced IP Defense cloud service. Once the verdict is returned, the local cache is repopulated and the policy is enforced on subsequent sessions. 
+ When the cache expires, the enforcement point queries Advanced IP Defense for updated attribute information. On a cache miss, the firewall allows the initial session to pass (fail-open) and asynchronously queries Advanced IP Defense . Once the verdict is returned, the local cache is repopulated and the policy is enforced on subsequent sessions. 
 
  IP Attribute Accuracy and False Positives 
 
- Advanced IP Defense is designed to minimize false positives for IP attribution. To achieve high accuracy, the service uses multiple detection methods and sources, including OSINT feeds and custom honeypots. 
+ Advanced IP Defense is designed to minimize false positives for IP attribution. To achieve high accuracy, Advanced IP Defense uses multiple detection methods and sources, including OSINT feeds and custom honeypots. 
 
  Additionally, Advanced IP Defense provides allowlists and exceptions to exclude legitimate traffic from policy enforcement, further reducing false positives and operational overhead. 
 
@@ -295,246 +242,4 @@ Advanced IP Defense IP Attributes and Categories
 
  Next 
 
- Advanced IP Defense Predefined EDLs (PAN-OS 11.1 and PAN-OS 12.1) 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Panorama 
-
- Service Provider 
-
- VM-Series 
-
- Plugins 
-
- SASE 
-
- Prisma Access 
-
- Prisma SASE Multitenant Platform 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring & Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Remote Browser Isolation 
-
- Prisma Access Agent 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- FedRAMP 
-
- Prisma SASE for FedRAMP 
-
- Autonomous DEM for FedRAMP 
-
- Hardware Reference 
-
- ION 1000 
-
- ION 1200 
-
- ION 1200-S 
-
- ION 2000 
-
- ION 3000 
-
- ION 3200 
-
- ION 5200 
-
- ION 7000 
-
- ION 9000 
-
- ION 9200 
-
- Hardware Quick Start Guides 
-
- ION 1200 
-
- ION 1200 4G 
-
- ION 1200 5G 
-
- ION 1200-S 
-
- ION 1200-S 4G 
-
- ION 1200-S 5G 
-
- ION 3200 
-
- ION 5200 
-
- ION 9200 
-
- Virtual ION Deployment 
-
- Virtual ION on AWS 
-
- Virtual ION on Azure 
-
- Virtual ION on GCP 
-
- Virtual ION on Alibaba Cloud 
-
- Virtual ION on KVM for NFV 
-
- Virtual ION on Dell PowerEdge 
-
- Virtual ION on OCI 
-
- Virtual ION on VMware 
-
- Virtual ION on Megaport Virtual Edge 
-
- 3rd Party Integrations 
-
- AWS Cloud-WAN Integration (GRE Connect) 
-
- AWS Cloud-WAN Integration (Tunnel-less Connect) 
-
- Checkpoint Integration 
-
- LiveAction Integration 
-
- Netskope Integration 
-
- Symantec Web Security Services Integration 
-
- Prisma SD-WAN Experts Corner 
-
- Network Policy 
-
- QoS Whitepaper 
-
- Security Architecture Whitepaper 
-
- External Antennas for ION-C Series 
-
- Dynamic Path Selection 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Resources 
-
- All Products A - Z 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- Network Security Platform 
-
- Security Policy 
-
- Decryption 
-
- Device-ID 
-
- IPSec VPN 
-
- Quality of Service 
-
- Quantum Security 
-
- Advanced IP Defense 
-
- Getting Started 
-
- Cloud-Delivered Security Services 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Advanced IP Defense EDL-Based Protection

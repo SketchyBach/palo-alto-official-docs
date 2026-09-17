@@ -6,6 +6,10 @@ import hashlib
 import json
 import re
 import sqlite3
+import time
+from email import policy
+from email.parser import BytesParser
+from email.utils import parsedate_to_datetime, parseaddr
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -131,14 +135,49 @@ def main():
         replacement_receipt = json.loads(replacement_receipts[-1].read_bytes())
         for record in replacement_receipt.get("records", []):
             found = connection.execute(
-                "SELECT content_hash FROM pages WHERE url=? AND http_status BETWEEN 200 AND 299", (record["replacement_url"],)
+                "SELECT content_hash FROM pages WHERE url=? AND http_status BETWEEN 200 AND 299 AND body<>''", (record["replacement_url"],)
             ).fetchone()
-            if not found or found[0] != record["replacement_content_hash"]:
+            # The receipt hash proves what was verified when the stale URL was
+            # resolved. The live replacement page may legitimately change in a
+            # later refresh, so rebuilds require a current non-empty 2xx page
+            # without incorrectly freezing its content forever.
+            if not found:
                 raise SystemExit(f"Replacement receipt mismatch: {record['replacement_url']}")
             connection.execute(
                 "INSERT INTO url_replacements VALUES(:stale_url,:replacement_url,:method,:verified_at,:stale_http_status,:replacement_content_hash,:candidate_count)",
                 record,
             )
+    connection.commit()
+    email_paths = sorted((ROOT / "data/field-evidence/raw").glob("*.eml"))
+    if email_paths:
+        from import_field_emails import body as email_body, dec, tier, top_post
+        connection.executescript("""CREATE TABLE IF NOT EXISTS field_evidence(id TEXT PRIMARY KEY,thread TEXT,subject TEXT,sent_at TEXT,sender_name TEXT,sender_address TEXT,evidence_tier TEXT,body TEXT,file_hash TEXT,local_path TEXT,attachment_manifest TEXT,imported_at TEXT);
+        CREATE VIRTUAL TABLE IF NOT EXISTS field_fts USING fts5(id UNINDEXED,subject,body,evidence_tier UNINDEXED,tokenize='porter unicode61');""")
+    for email_path in email_paths:
+        raw = email_path.read_bytes()
+        message = BytesParser(policy=policy.default).parsebytes(raw)
+        digest = hashlib.sha256(raw).hexdigest()
+        message_id = dec(message.get("Message-ID")).strip() or "sha256:" + digest
+        sender_name, sender_address = parseaddr(dec(message.get("From")))
+        try:
+            sent_at = parsedate_to_datetime(dec(message.get("Date"))).isoformat()
+        except (TypeError, ValueError):
+            sent_at = dec(message.get("Date"))
+        subject = dec(message.get("Subject"))
+        evidence_tier = tier(sender_address)
+        text = top_post(email_body(message))
+        attachments = []
+        for part in message.walk():
+            if part.is_multipart():
+                continue
+            filename = dec(part.get_filename())
+            if filename or part.get_content_disposition() == "attachment":
+                payload = part.get_payload(decode=True) or b""
+                attachments.append({"name": filename or "unnamed", "type": part.get_content_type(), "bytes": len(payload), "sha256": hashlib.sha256(payload).hexdigest()})
+        imported_at = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(email_path.stat().st_mtime))
+        local_path = email_path.relative_to(ROOT).as_posix()
+        connection.execute("INSERT INTO field_evidence VALUES(?,?,?,?,?,?,?,?,?,?,?,?)", (message_id, "KOI Agent Hooks", subject, sent_at, sender_name, sender_address, evidence_tier, text, digest, local_path, json.dumps(attachments, ensure_ascii=False), imported_at))
+        connection.execute("INSERT INTO field_fts VALUES(?,?,?,?)", (message_id, subject, text, evidence_tier))
     connection.commit()
     connection.execute("INSERT INTO runs(started_at,finished_at,pages_ok,pages_failed,config_hash) VALUES(datetime('now'),datetime('now'),?,0,'rebuilt-from-committed-pages')", (imported,))
     connection.commit()

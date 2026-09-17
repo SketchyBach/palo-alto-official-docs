@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/cortex-xdr-xql/build-xql-queries/overview-of-the-query-center/edit-and-run-queries-in-query-center
-fetched_at: 2026-09-06T09:46:16Z
+fetched_at: 2026-09-16T08:43:09Z
 source: cortex-platform
 ---
 

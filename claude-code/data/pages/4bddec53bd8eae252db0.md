@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/protect-your-endpoints/endpoint-security/install-and-manage-endpoints/manage-endpoint-protection/monitor-agent-operational-status
-fetched_at: 2026-09-06T09:30:50Z
+fetched_at: 2026-09-16T08:35:06Z
 source: cortex-platform
 ---
 
@@ -165,6 +165,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Monitor agent activity 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

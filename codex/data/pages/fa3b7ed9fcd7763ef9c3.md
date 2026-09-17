@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/configure-cortex-xsoar/engines/install-an-engine/engine-air-gap-installation
-fetched_at: 2026-09-06T10:24:15Z
+fetched_at: 2026-09-16T08:52:55Z
 source: cortex-platform
 ---
 

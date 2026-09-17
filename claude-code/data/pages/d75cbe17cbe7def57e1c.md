@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/ci-cd-security/pipeline-configuration/appsec-cicd-356
-fetched_at: 2026-09-06T11:14:56Z
+fetched_at: 2026-09-16T09:11:09Z
 source: cortex-platform
 ---
 

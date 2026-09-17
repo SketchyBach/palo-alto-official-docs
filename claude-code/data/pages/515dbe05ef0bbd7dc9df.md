@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cloud-posture-management-rn/cortex-cloud-posture-management-release-information/features-introduced-in-2026-cloud/february-2026/feature-enhancements/broker-vm
-fetched_at: 2026-09-06T10:53:51Z
+fetched_at: 2026-09-16T09:02:05Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cloud ASM 
 
- Last updated 1 day ago 
+ Last updated 12 days ago 
 
  Was this helpful?

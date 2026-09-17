@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/detect-investigate-and-respond-to-threats/investigation-and-response/overview-of-cases/case-scope-and-impact
-fetched_at: 2026-09-06T10:19:10Z
+fetched_at: 2026-09-16T08:51:25Z
 source: cortex-platform
 ---
 

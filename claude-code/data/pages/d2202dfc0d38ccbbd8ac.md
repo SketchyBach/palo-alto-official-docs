@@ -1,95 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/hardware/pa-500-hardware-reference/before-you-begin
-fetched_at: 2026-08-13T16:34:45Z
+fetched_at: 2026-09-15T15:14:25Z
 source: palo-alto-main
 ---
 
 # Before You Begin Clear
 
-Before You Begin 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- PA-500 Series Hardware Reference 
-
- : 
- Before You Begin 
-
- Updated on 
-
- Fri Mar 06 15:58:33 PST 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand all | Collapse all 
-
- Before You Begin 
-
- Safety and Compliance 
-
- Safety Warnings 
-
- Compliance Statements 
-
- Tamper Proof Statement 
-
- Third-Party Component Support 
-
- Parts List and Required Tools 
-
- PA-500 Series Firewall Overview 
-
- PA-500 Series Firewall Front Panel 
-
- PA-500 Series Firewall Back Panel 
-
- PA-500 Series Firewall Installation 
-
- Install the PA-500 Series Firewall in an Equipment Rack 
-
- Set Up a Connection to the PA-500 Series Firewall 
-
- Connect Power to the PA-500 Series Firewall 
-
- PA-500 Series Firewall Maintenance 
-
- PA-500 Series Firewall LED Definitions 
-
- Replace a PA-500 Series Firewall Power Supply 
-
- PA-500 Series Firewall Specifications 
-
- PA-500 Series Firewall Physical Specifications 
-
- PA-500 Series Firewall Electrical Specifications 
-
- PA-500 Series Firewall Environmental Specifications 
-
- PA-500 Series Firewall Miscellaneous Specifications 
-
- Updated on 
-
- Fri Mar 06 15:58:33 PST 2026 
+ Mon Aug 24 11:54:13 PDT 2026 
 
  Focus 
 
@@ -115,11 +34,13 @@ Before You Begin
 
  Before You Begin 
 
- Safety and Compliance 
+ Compliance 
 
  Safety Warnings 
 
- Compliance Statements 
+ Safety Warnings (French) 
+
+ Regulatory Statements 
 
  Tamper Proof Statement 
 
@@ -129,23 +50,51 @@ Before You Begin
 
  PA-500 Series Firewall Overview 
 
- PA-500 Series Firewall Front Panel 
+ PA-500 Series Firewall Components 
 
- PA-500 Series Firewall Back Panel 
+ PA-501 and PA-505 
+
+ PA-510 
+
+ PA-520 and PA-540 
+
+ PA-520-5G 
+
+ PA-550 and PA-560 
+
+ PA-545-POE and PA-555-POE 
 
  PA-500 Series Firewall Installation 
 
+ Install the PA-500 Series Firewall on a Wall 
+
  Install the PA-500 Series Firewall in an Equipment Rack 
+
+ PAN-1RU-4POST-RACK-10 
+
+ PAN-1RU-4POST-RACK-11 
+
+ PAN-1RU-4POST-RACK-12 
+
+ PAN-1RU-4POST-RACK-16 
+
+ PAN-2RU-2POST-RACK-17 
 
  Set Up a Connection to the PA-500 Series Firewall 
 
  Connect Power to the PA-500 Series Firewall 
+
+ Install Antennas on the PA-520-5G Firewall 
+
+ Insert or Replace a SIM Card in a PA-500 Series 5G Firewall 
 
  PA-500 Series Firewall Maintenance 
 
  PA-500 Series Firewall LED Definitions 
 
  Replace a PA-500 Series Firewall Power Supply 
+
+ Insert or Replace a SIM Card in a PA-500 Series 5G Firewall 
 
  PA-500 Series Firewall Specifications 
 
@@ -154,6 +103,8 @@ Before You Begin
  PA-500 Series Firewall Electrical Specifications 
 
  PA-500 Series Firewall Environmental Specifications 
+
+ PA-500 Series Firewall Antenna Specifications 
 
  PA-500 Series Firewall Miscellaneous Specifications 
 
@@ -165,7 +116,7 @@ Before You Begin
 
  Read the following topics before you install or service the PA-500 Series firewall. 
 
- Safety and Compliance 
+ Compliance 
 
  Parts List and Required Tools 
 
@@ -173,6 +124,4 @@ Before You Begin
 
  Next 
 
- Safety and Compliance 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Compliance

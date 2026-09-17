@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/generic-on-premise-data-collectors/xdr-collectors/manage-xdr-collectors/create-an-xdr-collector-installation-package
-fetched_at: 2026-09-06T10:01:13Z
+fetched_at: 2026-09-16T08:46:13Z
 source: cortex-platform
 ---
 

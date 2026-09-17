@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/deployment-steps-and-checklist/cloud-service-provider-csp-onboarding/microsoft-azure-cloud-onboarding/microsoft-azure-offboarding-overview/offboard-terraform-based-azure-deployments-all-scopes
-fetched_at: 2026-09-06T09:52:54Z
+fetched_at: 2026-09-16T08:44:28Z
 source: cortex-platform
 ---
 
@@ -144,6 +144,6 @@ If the script exits with a non-zero code or reports leftover resources in the ve
 
  Next Offboard Azure subscription (ARM) 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

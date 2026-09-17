@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/code-to-cloud/code-to-cloud/references/page-reference-f-call-to-action-routing-by-asset-type1
-fetched_at: 2026-09-06T10:06:55Z
+fetched_at: 2026-09-16T08:47:40Z
 source: cortex-platform
 ---
 
@@ -71,6 +71,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next About Cortex Cloud Data Classification 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

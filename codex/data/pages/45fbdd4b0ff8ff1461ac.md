@@ -1,0 +1,38 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/harbor
+fetched_at: 2026-09-16T09:15:35Z
+source: cortex-platform
+---
+
+# Harbor | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Runtime Security 
+
+ Cortex Cloud Data Sources and Connectors 
+
+ Vendor-specific data sources and connectors 
+
+ Harbor 
+
+ Configure the Harbor data source for Cortex Cloud. 
+
+ Here are the articles in this section: 
+
+ Connect Harbor registry 
+
+ Previous Google Workspace Automation and Collection 
+
+ Next Connect Harbor registry 
+
+ Last updated 1 day ago 
+
+ Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-api/make-your-first-api-call
-fetched_at: 2026-09-06T10:54:41Z
+fetched_at: 2026-09-16T09:03:35Z
 source: cortex-platform
 ---
 

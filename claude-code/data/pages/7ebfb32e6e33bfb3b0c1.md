@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.7/configure-cortex-xsoar/incident-configuration/classification-and-mapping/create-an-incident-mapper
-fetched_at: 2026-09-06T11:27:11Z
+fetched_at: 2026-09-16T09:15:00Z
 source: cortex-platform
 ---
 
@@ -175,6 +175,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up incident mirroring 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

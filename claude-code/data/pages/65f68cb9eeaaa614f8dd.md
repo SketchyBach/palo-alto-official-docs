@@ -1,73 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/best-practices/10-1/user-id-best-practices/user-id-best-practices/get-started-with-user-id-best-practices
-fetched_at: 2026-08-13T15:30:12Z
+fetched_at: 2026-09-15T15:08:58Z
 source: palo-alto-main
 ---
 
 # Get Started with User-ID Best Practices Clear
 
-Get Started with User-ID Best Practices 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- User-ID Best Practices 
-
- : 
- Get Started with User-ID Best Practices 
-
- Updated on 
-
- Jun 3, 2021 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Version 
-
- 10.1 
-
- 10.1 
-
- 10.0 (EoL) 
-
- Expand all | Collapse all 
-
- User-ID Best Practices 
-
- Get Started with User-ID Best Practices 
-
- User-ID Best Practices for GlobalProtect 
-
- User-ID Best Practices for Syslog Monitoring 
-
- User-ID Best Practices for Redistribution 
-
- User-ID Best Practices for Group Mapping 
-
- User-ID Best Practices for Dynamic User Groups 
-
- Updated on 
-
- Jun 3, 2021 
+ Thu Jun 03 14:06:56 PDT 2021 
 
  Focus 
 
@@ -176,6 +117,4 @@ Control (NAC) devices
 
  Next 
 
- User-ID Best Practices for GlobalProtect 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ User-ID Best Practices for GlobalProtect

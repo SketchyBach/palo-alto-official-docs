@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cli/cortex-cli-for-code-security
-fetched_at: 2026-09-06T10:10:36Z
+fetched_at: 2026-09-16T08:48:41Z
 source: cortex-platform
 ---
 
@@ -121,6 +121,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex CLI usage for Cortex Cloud Application Security 
 
- Last updated 11 days ago 
+ Last updated 21 days ago 
 
  Was this helpful?

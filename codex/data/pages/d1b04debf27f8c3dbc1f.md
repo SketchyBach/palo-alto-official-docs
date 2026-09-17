@@ -1,0 +1,92 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-browser/administration/manage-prisma-browser-policy-profiles/configure-prisma-browser-browser-security/configure-browser-session
+fetched_at: 2026-09-16T08:21:54Z
+source: palo-alto-main
+---
+
+# Configure Browser Session Clear
+
+Updated on 
+
+ Thu Sep 10 09:47:19 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Browser 
+
+ Manage Prisma Browser Control Sets 
+
+ Configure Prisma Browser Security Controls 
+
+ Configure Browser Session 
+
+ Download PDF 
+
+ Prisma Browser 
+
+ Configure Browser Session 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Browser Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Deployment 
+
+ Administration 
+
+ Integrations 
+
+ User Guide 
+
+ Previous 
+
+ Configure Prisma Browser Security Controls 
+
+ Next 
+
+ Browser Lock 
+
+ Configure Browser Session 
+
+ Configure browser security controls for Prisma Access Secure Enterprise Browser ( Prisma Browser ). 
+
+ Where Can I Use This? What Do I Need? 
+
+ Strata Cloud Manager 
+
+ Prisma Browser standalone 
+
+ Prisma Access with Prisma Browser bundle
+ license or Prisma Browser standalone license 
+
+ Superuser or Prisma Browser
+ Roles 
+
+ The Browser Session contains the following controls: 
+ Browser Lock 
+
+ Flush Browser Data 
+
+ Concurrent Number of Devices 
+
+ Session Refresh 
+
+ Previous 
+
+ Configure Prisma Browser Security Controls 
+
+ Next 
+
+ Browser Lock

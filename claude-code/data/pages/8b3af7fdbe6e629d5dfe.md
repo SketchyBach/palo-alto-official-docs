@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/threat-management/analytics/coverage-of-mitre-attack-tactics
-fetched_at: 2026-09-06T09:33:52Z
+fetched_at: 2026-09-16T08:36:09Z
 source: cortex-platform
 ---
 
@@ -71,6 +71,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Review MITRE ATT&CK framework coverage 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

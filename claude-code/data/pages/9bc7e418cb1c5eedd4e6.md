@@ -1,0 +1,286 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/clean-pipe/complete-the-clean-pipe-configuration.html
+fetched_at: 2026-09-16T11:37:51Z
+source: palo-alto-main
+---
+
+# Complete the Clean Pipe Configuration Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access for Clean Pipe 
+
+ Complete the Clean Pipe Configuration 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Complete the Clean Pipe Configuration 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Clean Pipe and Partner Interconnect Requirements 
+
+ Next 
+
+ Enable Multitenancy and Create a Tenant 
+
+ Complete the Clean Pipe Configuration 
+
+ Complete the Clean Pipe configuration. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama) 
+
+ Prisma Access 
+ license 
+
+ To complete configuration of Prisma Access 
+for Clean Pipe, you perform configuration in the Partner Interconnect
+and in Panorama. 
+
+ Make sure that you can access and configure
+the CE and cloud routers on the Partner Interconnect (non-Prisma
+access) side of the Partner Interconnect. 
+
+ In the Partner Interconnect side of the configuration, create
+a VLAN attachment, using the Pairing Key that
+you retrieved from Panorama. 
+
+ For more information about creating VLAN attachments with
+Partner Interconnects and configuring customer edge (CE) routers
+to communicate with cloud routers, refer to the Google Cloud documentation
+at https://cloud.google.com/interconnect/docs/ 
+
+ Make
+sure that the location and bandwidth you select matches the Location you
+specified in Panorama. The service provider you use for the Partner
+Interconnect uses the pairing key, along with your requested connection
+location and capacity, to complete the configuration of your VLAN
+attachment. 
+
+ After the connection comes up, return to Panorama, select Panorama Cloud Services Status Network Details Clean Pipe and make a note
+of the MSSP CE and Cloud Router IP addresses. 
+
+ These values populate after you enter the Pairing Key on
+the other side of the VLAN attachment. 
+
+ Log in to the CE router and perform the following configuration. 
+
+ Enter the MSSP CE address as
+the local IP address. 
+
+ Enter the Cloud Router IP address
+as the peer IP address. 
+
+ Enter a BGP ASN that matches the BGP Peer ASN you
+entered when you configured the Clean Pipe in Panorama. 
+
+ Make sure that you enter these values correctly; you cannot
+change them. 
+
+ Check the Clean Pipe status. 
+
+ In Panorama, select Panorama Cloud Services Status ,
+select the Tenant from the drop-down, and
+check the Clean Pipe’s Status . 
+
+ See the list of Prisma Access locationsfor acceptable values. 
+
+ The Deployment
+Status area allows you to view the progress of onboarding
+and deployment jobs before they complete, as well as see more information
+about the status of completed jobs. See Deployment Progress and
+Status for details. 
+
+ Select Panorama Cloud Services Status Clean Pipe , and click the Monitor tab to
+see a map with the status of the deployed Clean Pipes. 
+
+ Click the
+tabs below the map to see additional statistics for the Clean Pipes. 
+
+ Status tab: 
+
+ Compute Region —The compute region
+where your cloud service infrastructure is deployed for the clean
+pipe instance. 
+
+ Name —The name of the clean pipe instance. 
+
+ Allocated Bandwidth (Mbps) —The amount
+of bandwidth you allocated for the clean pipe instance. 
+
+ Config Status —The status of your last
+configuration push to the service. If you have made a change locally,
+and not yet pushed the configuration to the cloud, the status shows Out
+of sync . Hover over the status indicator for more detailed
+information. After committing and pushing the configuration to Prisma
+Access, the Config Status changes to In sync . 
+
+ BGP Status —Displays information about the
+BGP state between the firewall or router at the clean pipe instance
+and Prisma Access . Although you might temporarily see the status
+pass through the various BGP states ( idle , active , open
+send , open pend , open
+confirm , most commonly, the BGP status shows: 
+
+ Connect —The
+router at the clean pipe instance is trying to establish the BGP
+peer relationship with the cloud firewall. 
+
+ Established —The BGP peer relationship has
+been established. 
+
+ This field will also show if the BGP connection
+is in an error state: 
+
+ Warning —There
+has not been a BGP status update in more than eight minutes. This
+may indicate an outage on the firewall. 
+
+ Error —The BGP status is unknown. 
+
+ Status —The operational status of the connection
+between Prisma Access and the clean pipe instance. 
+
+ Statistics tab: 
+
+ Region —The region where your cloud
+service infrastructure is deployed for the clean pipe instance. 
+
+ Name —The name of the clean pipe instance. 
+
+ Allocated Bandwidth (Mbps) —The amount
+of bandwidth you allocated for the remote network location. 
+
+ QoS — Select QoS to
+display a page that contains graphical QoS statistics. 
+
+ Avg Egress Bandwidth 5 Min (Mbps) —The
+average amount of clean pipe egress bandwidth averaged over 5 minutes. 
+
+ Avg Egress Bandwidth 60 Min (Mbps) —The
+average amount of clean pipe egress bandwidth averaged over 60 minutes. 
+
+ Avg Ingress Bandwidth 5 Min (Mbps) —The
+average amount of clean pipe ingress bandwidth averaged over 5 minutes. 
+
+ Avg Ingress Bandwidth 60 Min (Mbps) —The
+average amount of clean pipe ingress bandwidth averaged over 60
+minutes. 
+
+ Egress Peak Bandwidth 1 Hour (Mbps) —The
+amount of peak egress bandwidth for the clean pipe instance for
+the last 1 hour. 
+
+ Egress Peak Bandwidth 24 Hour (Mbps) —The
+amount of peak egress bandwidth for the clean pipe instance for
+the last 24 hours. 
+
+ Egress Peak Bandwidth 7 Days (Mbps) —The
+amount of peak egress bandwidth for the clean pipe instance for
+the last 7 days. 
+
+ Egress Peak Bandwidth 30 Days (Mbps) —The
+amount of peak egress bandwidth for the clean pipe instance for
+the last 30 days. 
+
+ Ingress Peak Bandwidth 1 Hour (Mbps) —The
+amount of peak ingress bandwidth for the clean pipe instance for
+the last 1 hour. 
+
+ Ingress Peak Bandwidth 24 Hour (Mbps) —The
+amount of peak ingress bandwidth for the clean pipe instance for
+the last 24 hours. 
+
+ Ingress Peak Bandwidth 7 Days (Mbps) —The
+amount of peak ingress bandwidth for the clean pipe instance for
+the last 7 days. 
+
+ Ingress Peak Bandwidth 30 Days (Mbps) —The
+amount of peak ingress bandwidth for the clean pipe instance for
+the last 30 days. 
+
+ Previous 
+
+ Clean Pipe and Partner Interconnect Requirements 
+
+ Next 
+
+ Enable Multitenancy and Create a Tenant

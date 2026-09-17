@@ -1,0 +1,176 @@
+---
+url: https://docs.paloaltonetworks.com/hardware/pa-500-hardware-reference/pa-500-series-firewall-specifications/pa-500-series-firewall-antenna-specifications
+fetched_at: 2026-09-16T08:20:33Z
+source: palo-alto-main
+---
+
+# PA-500 Series Firewall Antenna Specifications Clear
+
+Updated on 
+
+ Aug 24, 2026 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-500 Series Hardware Reference 
+
+ PA-500 Series Firewall Specifications 
+
+ PA-500 Series Firewall Antenna Specifications 
+
+ Download PDF 
+
+ PA-500 Series Hardware Reference 
+
+ PA-500 Series Firewall Antenna Specifications 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Compliance 
+
+ Safety Warnings 
+
+ Safety Warnings (French) 
+
+ Regulatory Statements 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-500 Series Firewall Overview 
+
+ PA-500 Series Firewall Components 
+
+ PA-501 and PA-505 
+
+ PA-510 
+
+ PA-520 and PA-540 
+
+ PA-520-5G 
+
+ PA-550 and PA-560 
+
+ PA-545-POE and PA-555-POE 
+
+ PA-500 Series Firewall Installation 
+
+ Install the PA-500 Series Firewall on a Wall 
+
+ Install the PA-500 Series Firewall in an Equipment Rack 
+
+ PAN-1RU-4POST-RACK-10 
+
+ PAN-1RU-4POST-RACK-11 
+
+ PAN-1RU-4POST-RACK-12 
+
+ PAN-1RU-4POST-RACK-16 
+
+ PAN-2RU-2POST-RACK-17 
+
+ Set Up a Connection to the PA-500 Series Firewall 
+
+ Connect Power to the PA-500 Series Firewall 
+
+ Install Antennas on the PA-520-5G Firewall 
+
+ Insert or Replace a SIM Card in a PA-500 Series 5G Firewall 
+
+ PA-500 Series Firewall Maintenance 
+
+ PA-500 Series Firewall LED Definitions 
+
+ Replace a PA-500 Series Firewall Power Supply 
+
+ Insert or Replace a SIM Card in a PA-500 Series 5G Firewall 
+
+ PA-500 Series Firewall Specifications 
+
+ PA-500 Series Firewall Physical Specifications 
+
+ PA-500 Series Firewall Electrical Specifications 
+
+ PA-500 Series Firewall Environmental Specifications 
+
+ PA-500 Series Firewall Antenna Specifications 
+
+ PA-500 Series Firewall Miscellaneous Specifications 
+
+ PA-500 Series Firewall Antenna Specifications 
+
+ Learn about the PA-500 Series firewall antenna's frequency range, peak gain, and
+ more. 
+
+ The following table describes the PA-520-5G firewall included antenna
+ specifications. 
+
+ Specification Value 
+
+ Antenna 
+
+ PAN-PA-5G-ANTENNA 
+
+ Four 5G multi-band antennas (4x4 MIMO, omni-directional) 
+
+ Supported radio frequency (RF) bands 
+
+ FR1 (sub-6GHz): n1, n2, n3, n5, n7, n8, n12, n20, n25, n26,
+ n28, n29, n38, n40, n41, n48, n66, n71, n75, n76, n77, n78, n79,
+ n106 
+
+ FDD LTE: B1, B2, B3, B4, B5, B7, B8, B12, B13, B14, B17, B18,
+ B19, B20, B25, B26, B28, B29, B30, B32, B66, B71, B106 
+
+ TDD LTE: B34, B38, B39, B40, B41, B42, B43, B46, B48 
+
+ 3G FDD (DC-HSPA+): B1, B2, B4, B5, B6, B8, B19 
+
+ Frequency range 
+
+ 615MHz–5925MHz 
+
+ Peak gain 
+
+ 5 dBi 
+
+ Voltage standing wave ratio (VSWR) 
+
+ < 3:1 
+
+ Nominal RF port impedance 
+
+ 50Ω 
+
+ Antenna power handling 
+
+ 1W 
+
+ Antenna ports 
+
+ SMA-F connectors 
+
+ Carrier certification 
+
+ AT&T, Verizon, T-Mobile, NTT DoCoMo, and Telstra 
+
+ Previous 
+
+ PA-500 Series Firewall Environmental Specifications 
+
+ Next 
+
+ PA-500 Series Firewall Miscellaneous Specifications

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/role-based-access-control/configuration-permissions/access-management-permissions
-fetched_at: 2026-09-06T09:46:30Z
+fetched_at: 2026-09-16T08:43:10Z
 source: cortex-platform
 ---
 
@@ -110,6 +110,6 @@ Users with this permission are restricted from granting, modifying, or removing 
 
  Next Data Broker permissions 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

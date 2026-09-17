@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/investigation-and-response/automation/playbooks/build-your-playbook/customize-your-playbook/filter-and-transform-data
-fetched_at: 2026-09-06T09:55:50Z
+fetched_at: 2026-09-16T08:44:42Z
 source: cortex-platform
 ---
 
@@ -133,6 +133,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create custom filter and transformers 
 
- Last updated 7 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

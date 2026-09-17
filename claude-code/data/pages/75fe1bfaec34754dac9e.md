@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/september-2024/globalprotect-delayed-IHD
-fetched_at: 2026-08-13T17:47:48Z
+fetched_at: 2026-09-16T07:54:08Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

@@ -1,66 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/vm-series/getting-started/vm-series-on-aws-models-and-instances/vm-series-on-azure-models-and-vms/vm-series-on-azure-models-and-vms-12-1
-fetched_at: 2026-08-13T17:42:26Z
+fetched_at: 2026-09-16T07:52:28Z
 source: palo-alto-main
 ---
 
 # 12.1 Clear
 
-12.1 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- 12.1 
-
- Updated on 
-
- Mon Jul 06 21:45:23 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- VM-Series Firewall Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Upgrade 
-
- Deployment 
-
- Select a Document 
-
- Public Cloud 
-
- Private Cloud 
-
- Updated on 
+Updated on 
 
  Mon Jul 06 21:45:23 PDT 2026 
 
@@ -248,64 +194,4 @@ source: palo-alto-main
 
  D48s_v6 48 192 24 8 
 
- D64s_v6 64 256 30 8 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Next-Generation Firewalls 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- VM-Series 
-
- Plugins 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Resources 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ D64s_v6 64 256 30 8

@@ -1,0 +1,200 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/network-security/security-policy/administration/objects/authentication.html
+fetched_at: 2026-09-16T09:58:50Z
+source: palo-alto-main
+---
+
+# Policy Object: Authentication Clear
+
+Updated on 
+
+ Fri Aug 07 10:46:39 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Network Security 
+
+ Network Security: Security Policy 
+
+ Policy Objects 
+
+ Policy Object: Authentication 
+
+ Download PDF 
+
+ Network Security 
+
+ Policy Object: Authentication 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Previous 
+
+ Policy Object: Log Forwarding 
+
+ Next 
+
+ Policy Object: Decryption Profile 
+
+ Policy Object: Authentication 
+
+ Specifies the method and service to use for authenticating end users who access your
+ network resources. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (PAN-OS & Panorama Managed) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Check for any license or role requirements for the
+ products you're using. 
+
+ An authentication enforcement object specifies the method and
+service to use for authenticating end users who access your network
+resources. You assign the object to Authentication security rules,
+which invoke the authentication method and service when traffic
+matches a rule. 
+
+ The following are the predefined, read-only authentication enforcement
+objects: 
+
+ default-browser-challenge —The
+user authentication credentials are transparently obtained. If you
+select this action, you must enable Kerberos Single Sign-On (SSO)
+or NT LAN Manager (NTLM) authentication when you configure the Authentication
+Portal. If Kerberos SSO authentication fails, the falls back is
+the NTLM authentication. If you did not configure NTLM, or NTLM
+authentication fails, then the fall back is to the authentication
+method specified in the predefined default-web-form object. 
+
+ default-web-form —To authenticate users,
+the certificate profile or authentication profile you specified
+when configuring the Authentication Portal is used. If you specified
+an authentication profile, any Kerberos SSO settings in the profile
+is used and an Authentication Portal page is presented for the user
+to enter authentication credentials. 
+
+ default-no-captive-portal —Security
+policy is authenticated without authenticating users. 
+
+ Before creating a custom authentication enforcement object: 
+
+ Configure a server profile that
+specifies how to connect to the authentication service. 
+
+ Assign the server profile to an authentication profile that
+specifies authentication settings such as Kerberos single sign-on
+parameters. 
+
+ To configure authentication, go to: 
+ Configuration NGFW and Prisma Access Identity Services Authentication on Cloud Managed deployments. 
+
+ Policies Authentication on PAN-OS and Panorama Managed deployments. 
+
+ A custom authentication enforcement object, consists of the following
+fields: 
+
+ Authentication Enforcement
+Settings 
+
+ Description 
+
+ Name 
+
+ Enter a descriptive name (up to 31 characters)
+to help you identify the object when defining Authentication rules.
+The name is case-sensitive and must be unique. Use only letters,
+numbers, spaces, hyphens, and underscores. 
+
+ Shared ( Panorama only ) 
+
+ Select this option if you want the object
+to be available to: 
+
+ Every virtual system (vsys) on
+a multi-vsys. If you clear this selection, the object will be available
+only to the Virtual System selected in the Objects tab. 
+
+ Every device group on Panorama. If you clear this selection,
+the object will be available only to the Device Group selected
+in the Objects tab. 
+
+ Disable override ( Panorama only ) 
+
+ Select this option to prevent administrators
+from overriding the settings of this authentication enforcement
+object in device groups that inherit the object. This selection
+is cleared by default, which means administrators can override the
+settings for any device group that inherits the object. 
+
+ Authentication Method 
+
+ Select a method: 
+
+ browser-challenge —The
+user authentication credentials is transparently obtained. If you
+select this action, the Authentication Profile you
+select must have Kerberos SSO enabled. 
+
+ web-form —To authenticate users, the
+certificate profile you specified when configuring the Authentication
+portal or the Authentication Profile you
+select in the authentication enforcement object is used. If you
+select an Authentication Profile , any Kerberos
+SSO settings in the profile is ignored and an Authentication Portal
+page for the user to enter authentication credentials is presented. 
+
+ no-captive-portal —The Security policy
+is evaluated without authenticating users. 
+
+ Authentication Profile 
+
+ Select the authentication profile that specifies
+the service to use for validating the identities of users. 
+
+ Message 
+
+ Enter instructions that tell users how to
+respond to the first authentication challenge that they see when
+their traffic triggers the Authentication rule. The message displays
+in the Authentication Portal Comfort Page .
+If you don’t enter a message, the default Authentication
+Portal Comfort Page displays. 
+
+ The Authentication
+Portal Comfort Page is displayed only for the first
+authentication challenge (factor), which you define in the Authentication tab
+of the Authentication profile. For multi-factor authentication (MFA)
+challenges that you define in the Factors tab
+of the profile, the MFA Login Page is displayed. 
+
+ Previous 
+
+ Policy Object: Log Forwarding 
+
+ Next 
+
+ Policy Object: Decryption Profile

@@ -1,62 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/saas-agent-security/administration/respond-to-security-recommendations/risk-recommendations
-fetched_at: 2026-08-13T17:32:36Z
+fetched_at: 2026-09-16T07:49:15Z
 source: palo-alto-main
 ---
 
 # Risk Recommendations Clear
 
-Risk Recommendations 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Risk Recommendations 
-
- Updated on 
-
- Mon Jun 01 16:05:41 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- SaaS Agent Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Mon Jun 01 16:05:41 PDT 2026 
 
@@ -392,76 +342,4 @@ Risk Recommendations
 
  Next 
 
- Risk Severity Calculations 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Administration 
-
- Cloud-Delivered Security Services 
-
- SaaS Agent Security 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Risk Severity Calculations

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/unusual-url-s-sent-by-a-brand-were-observed-in-the-email
-fetched_at: 2026-09-06T11:10:09Z
+fetched_at: 2026-09-16T09:08:53Z
 source: cortex-platform
 ---
 

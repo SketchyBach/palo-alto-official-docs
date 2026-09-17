@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-api/restore-distributions
-fetched_at: 2026-09-06T11:20:05Z
+fetched_at: 2026-09-16T09:13:00Z
 source: cortex-platform
 ---
 
@@ -37,6 +37,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Restore Distributions 
 
- Last updated 16 days ago 
+ Last updated 25 days ago 
 
  Was this helpful?

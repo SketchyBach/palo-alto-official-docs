@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.9/investigate-and-respond-to-threats/threat-intel-management/indicator-configuration/configure-indicator-expiration
-fetched_at: 2026-09-06T10:38:48Z
+fetched_at: 2026-09-16T08:55:45Z
 source: cortex-platform
 ---
 
@@ -89,6 +89,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure Threat Intel feed integrations 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-api/cortex-platform/run-xql-query-apis
-fetched_at: 2026-09-06T10:54:46Z
+fetched_at: 2026-09-16T09:03:37Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Additional References 
 
- Last updated 16 days ago 
+ Last updated 25 days ago 
 
  Was this helpful?

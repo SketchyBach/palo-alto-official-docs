@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14
-fetched_at: 2026-09-06T10:39:27Z
+fetched_at: 2026-09-16T08:55:54Z
 source: cortex-platform
 ---
 
@@ -56,6 +56,6 @@ Access configuration details, diagnostics, and technical reference material.
 
  Next Overview 
 
- Last updated 20 days ago 
+ Last updated 29 days ago 
 
  Was this helpful?

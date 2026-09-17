@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/docker/docker-images-in-cortex-xsoar
-fetched_at: 2026-09-06T10:46:55Z
+fetched_at: 2026-09-16T08:57:20Z
 source: cortex-platform
 ---
 

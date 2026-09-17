@@ -1,64 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/strata-logging-service/log-reference/network-logs/network-application-security-log/network-application-security-email-fields
-fetched_at: 2026-08-13T17:40:17Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:51:45Z
+source: strata-and-sase
 ---
 
 # Application Security EMAIL Fields Clear
 
-Application Security EMAIL Fields 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Application Security EMAIL Fields 
-
- Updated on 
-
- Fri Jul 03 02:04:39 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Strata Logging Service Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Release Notes 
-
- Log Reference 
-
- New Features 
-
- Updated on 
-
- Fri Jul 03 02:04:39 PDT 2026 
+ Fri Sep 11 10:21:34 PDT 2026 
 
  Focus 
 
@@ -117,55 +67,55 @@ Application Security EMAIL Fields
 
  Query Name
 
- TRUE
+ Action
 
  action.​value 
 
- TRUE
+ Application
 
  app 
 
- FALSE
+ CortexDataLakeTenantID
 
  customer_id 
 
- TRUE
+ DestinationAddress
 
  dest_ip.​value 
 
- TRUE
+ DestinationPort
 
  dest_port 
 
- FALSE
+ FQDNApplicationName
 
  fqdn_app_name 
 
- FALSE
+ InternalSourceAddress
 
  internal_source_ip.​value 
 
- FALSE
+ LogSource
 
  log_source 
 
- TRUE
+ LogSourceGroupID
 
  log_source_group_id 
 
- TRUE
+ DeviceSN
 
  log_source_id 
 
- TRUE
+ DeviceName
 
  log_source_name 
 
- FALSE
+ LogSourceTimeZoneOffset
 
  log_source_tz_offset 
 
- TRUE
+ TimeReceived
 
  log_time 
 
@@ -173,67 +123,67 @@ Application Security EMAIL Fields
 
  log_type.​value 
 
- TRUE
+ PlatformType
 
  platform_type 
 
- FALSE
+ ApplicationSecurityPolicyRuleAdditionalDetails
 
  policy_rule_additional_details 
 
- FALSE
+ ApplicationSecurityPolicyRuleName
 
  policy_rule_name 
 
- FALSE
+ ApplicationSecurityPolicyRuleType
 
  policy_rule_type.​value 
 
- FALSE
+ HTTPResponseCode
 
  response_code 
 
- TRUE
+ SessionID
 
  session_id 
 
- TRUE
+ SourceAddress
 
  source_ip.​value 
 
- TRUE
+ SourcePort
 
  source_port 
 
- TRUE
+ SourceUser
 
  source_user 
 
- TRUE
+ Subtype
 
  sub_type.​value 
 
- TRUE
+ TimeGenerated
 
  time_generated 
 
- TRUE
+ TimeGeneratedHighResolution
 
  time_generated_high_res 
 
- FALSE
+ TraceID
 
  trace_id 
 
- FALSE
+ TSGID
 
  tsg_id 
 
- FALSE
+ URL
 
  url 
 
- TRUE
+ VendorName
 
  vendor_name 
 
@@ -243,94 +193,4 @@ Application Security EMAIL Fields
 
  Next 
 
- Application Security HTTPS Fields 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Identity and Access Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Strata Logging Service 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Application Security HTTPS Fields

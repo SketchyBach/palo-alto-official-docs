@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/role-based-access-control/threat-management-permissions/threat-intelligence-permissions
-fetched_at: 2026-09-06T09:47:00Z
+fetched_at: 2026-09-16T08:43:48Z
 source: cortex-platform
 ---
 
@@ -83,6 +83,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Exceptions Configuration permissions 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

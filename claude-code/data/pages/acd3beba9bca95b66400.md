@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/code-to-cloud
-fetched_at: 2026-09-06T11:18:18Z
+fetched_at: 2026-09-16T09:12:27Z
 source: cortex-platform
 ---
 

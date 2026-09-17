@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-docs
-fetched_at: 2026-09-06T09:18:46Z
+fetched_at: 2026-09-16T07:55:29Z
 source: cortex-platform
 ---
 

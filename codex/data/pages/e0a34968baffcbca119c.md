@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/vm-series/deployment/public-cloud/set-up-the-vm-series-firewall-on-google-cloud-platform/deploy-the-vm-series-firewall-on-gcp/enable-session-resiliency-on-vm-series-for-gcp
-fetched_at: 2026-08-13T17:42:11Z
+fetched_at: 2026-09-16T07:52:24Z
 source: palo-alto-main
 ---
 
 # Enable Session Resiliency on VM-Series for GCP Clear
 
-Enable Session Resiliency on VM-Series for GCP 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Enable Session Resiliency on VM-Series for GCP 
-
- Updated on 
-
- Wed Jul 08 11:47:59 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- VM-Series Firewall Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Upgrade 
-
- Deployment 
-
- Select a Document 
-
- Public Cloud 
-
- Private Cloud 
-
- Updated on 
-
- Wed Jul 08 11:47:59 PDT 2026 
+ Mon Aug 10 05:13:13 PDT 2026 
 
  Focus 
 
@@ -295,70 +241,4 @@ redis-certificate=
 
  Next 
 
- Use VM-Series Firewall to Configure NPTv6 Policy for IPv6 Forwarding Rule on Google Cloud Platform (GCP) 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Next-Generation Firewalls 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- VM-Series 
-
- Plugins 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Resources 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- Cloud Infrastructure Protection 
-
- Network Security 
-
- Deployment 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Use VM-Series Firewall to Configure NPTv6 Policy for IPv6 Forwarding Rule on Google Cloud Platform (GCP)

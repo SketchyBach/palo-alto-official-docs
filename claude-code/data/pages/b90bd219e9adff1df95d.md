@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-security/application-security-scans-management/manage-scans-through-the-tenant-ui/pull-request-scans/references/reference-h-pull-request-comment-feedback
-fetched_at: 2026-09-06T10:13:29Z
+fetched_at: 2026-09-16T08:49:25Z
 source: cortex-platform
 ---
 
@@ -59,6 +59,10 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Note: Pull request comments require VCS pull request write access. GitHub requires pull_requests: Write . Azure DevOps requires pull request thread access. 
 
- Last updated 19 days ago 
+ Previous Reference G: Scanner to issue category mapping 
+
+ Next Reference I: Permissions 
+
+ Last updated 28 days ago 
 
  Was this helpful?

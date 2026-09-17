@@ -1,109 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/hardware/pa-400-hardware-reference/install-the-pa-400-firewall/install-antennas-on-the-pa-400-series-5g-firewall
-fetched_at: 2026-08-13T16:34:37Z
+fetched_at: 2026-09-15T15:14:24Z
 source: palo-alto-main
 ---
 
 # Install Antennas on the PA-400 Series 5G Firewall Clear
 
-Install Antennas on the PA-400 Series 5G Firewall 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- PA-400 Series Next-Gen Firewall Hardware Reference 
-
- : 
- Install Antennas on the PA-400 Series 5G Firewall 
-
- Updated on 
-
- Wed Jan 14 10:56:55 PST 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand all | Collapse all 
-
- Before You Begin 
-
- Safety and Compliance 
-
- Safety Warnings 
-
- Compliance Statements 
-
- Tamper Proof Statement 
-
- Third-Party Component Support 
-
- Parts List and Required Tools 
-
- PA-400 Series Firewall Overview 
-
- PA-400 Series Front Panel 
-
- PA-400 Series Back Panel 
-
- Install the PA-400 Series Firewall 
-
- Install the PA-400 Series Firewall on a Flat Surface 
-
- Install the PA-400 Series Firewall on a Wall 
-
- Install the PA-400 Series Firewall in a 19-inch Equipment Rack 
-
- Install the PA-400 Series Firewall Using the PAN-PA-400-RACKTRAY 
-
- Install Antennas on the PA-400 Series 5G Firewall 
-
- Insert a SIM Card into a PA-400 Series Firewall 
-
- Set Up a Connection to the Firewall 
-
- Connect Power to a PA-400 Series Firewall 
-
- Connect Power to a PA-400 Series Firewall 
-
- Connect Power to a PA-410 Firewall 
-
- Service the PA-400 Series Firewall Hardware 
-
- Interpret the LEDs on a PA-400 Series Firewall 
-
- Replace a Power Adapter on a PA-400 Series Firewall 
-
- PA-400 Series Firewall Specifications 
-
- Physical Specifications 
-
- Electrical Specifications 
-
- Environmental Specifications 
-
- Antenna Specifications 
-
- Miscellaneous Specifications 
-
- Updated on 
+Updated on 
 
  Wed Jan 14 10:56:55 PST 2026 
 
@@ -243,6 +146,4 @@ Install Antennas on the PA-400 Series 5G Firewall
 
  Next 
 
- Insert a SIM Card into a PA-400 Series Firewall 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Insert a SIM Card into a PA-400 Series Firewall

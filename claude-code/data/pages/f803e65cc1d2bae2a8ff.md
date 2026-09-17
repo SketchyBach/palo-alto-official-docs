@@ -1,60 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/user-guide/set-up-saml-authentication-with-cie-prisma-access-deployment
-fetched_at: 2026-08-13T17:22:59Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:37Z
+source: strata-and-sase
 ---
 
 # Set Up SAML User Authentication With CIE (Prisma Access Deployment) Clear
 
-Set Up SAML User Authentication With CIE (Prisma Access Deployment) 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Set Up SAML User Authentication With CIE (Prisma Access Deployment) 
-
- Updated on 
-
- Wed Jul 01 22:45:41 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Wed Jul 01 22:45:41 PDT 2026 
 
@@ -376,90 +328,4 @@ Set Up SAML User Authentication With CIE (Prisma Access Deployment)
  Profile . This will require users to pass both
  certificate authentication and SAML authentication. 
 
- Save your user authentication settings. 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Administration 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Save your user authentication settings.

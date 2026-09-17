@@ -1,0 +1,205 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/administration/troubleshoot-prisma-agents/download-prisma-agent-logs
+fetched_at: 2026-09-16T08:21:21Z
+source: palo-alto-main
+---
+
+# Download Prisma Agent Logs Clear
+
+Updated on 
+
+ Thu Aug 27 20:22:38 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Troubleshoot Prisma Agents 
+
+ Download Prisma Agent Logs 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ Download Prisma Agent Logs 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ What HIP Data is Collected by the Prisma Agent 
+
+ Next 
+
+ Logs Collected by Prisma Agent 
+
+ Download Prisma Agent Logs 
+
+ Download all logs to help you troubleshoot Prisma Agent 
+ issues. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ NGFW (Managed by Panorama) 
+
+ Check the prerequisites for the deployment you're
+ using 
+
+ Prisma Agent on Android, ChromeOS, iOS, macOS, or
+ Windows 
+
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
+
+ Prisma Agent 's remote log collection capability enables you to generate and download
+ diagnostic information from devices running the Prisma Agent without
+ requiring end user participation. This capability streamlines your troubleshooting
+ workflow by eliminating the manual process of instructing users to collect and share
+ log files through email or other external methods. 
+
+ In Configuration Endpoint Management , you can initiate a download of agent logs, which sends a request to Prisma Agent to fetch the logs. After the agent receives the request,
+ the agent creates a .zip file containing the agent logs and
+ uploads the .zip file to the Endpoint Manager. The end user
+ does not need to gather the logs and send them to you manually. 
+
+ Prisma Agent collects agent logs that can help you diagnose agent
+ connectivity problems and other network access issues. For macOS and Windows
+ devices, you can collect agent logs regardless of the state of the tunnel, as long
+ as the end user's device has an internet connection. For example, the state of the
+ macOS or Windows agent can be Connected or Disconnected for you to download agent
+ logs. For Android, ChromeOS, and iOS devices, the agent must be in the Connected
+ state for you to be able to download the logs. 
+
+ You can view the types of logs that Prisma Agent
+ collects . 
+
+ Complete the following steps to collect and download Prisma Agent log
+ files from the Endpoint Management
+ page . 
+
+ ( Optional ) For macOS, Windows ,
+ and Linux : Set the Verbosity Level of the logs by running the
+ following commands on the endpoint: 
+
+ On macOS: 
+
+ cd /Applications/Prisma\ Access\ Agent.app/Contents/Helpers
+./pacli loglevel set <trace | debug | info | warn | error | critical | off> 
+
+ On Windows: 
+
+ cd "C:\Program Files\Palo Alto Networks\Prisma Access Agent"
+pacli loglevel set <trace | debug | info | warn | error | critical | off> 
+
+ On Linux: 
+
+ pacli loglevel set <trace | debug | info | warn | error | critical | off> 
+
+ You can ask the user to run the command
+ or use the remote shell to run the
+ command on behalf of the user. 
+
+ The default verbosity level is debug . 
+
+ For example, to change the verbosity level to trace on
+ Windows, issue the following
+ command: 
+ cd "C:\Program Files\Palo Alto Networks\Prisma Access Agent"
+pacli loglevel set trace 
+
+ You can verify the verbosity level using the following
+ command: 
+ pacli loglevel query 
+
+ Generate the Prisma Agent log files from the Endpoint Management
+ page : 
+
+ Select Configuration Endpoint Management . 
+
+ ( Optional ) Set the scope of the agent data you want to show by
+ selecting the Time Range . You can select a preset
+ time range or customize the time range. The default is to show the data
+ within the Past 30 Days . 
+
+ In the Devices table, scroll through the list to
+ find the device or search for a device . 
+
+ Select the check boxes corresponding to the devices that you want to
+ work with. You can select up to 20 devices at a time. 
+
+ Select Actions Generate Agent Logs . 
+
+ For Android, ChromeOS, and iOS devices, you can generate agent
+ logs only if the agent is in the Connected state. 
+
+ If you’re viewing the details for an
+ individual agent , you can also select Actions Generate Agent Logs from the individual details view. 
+
+ The generate agent
+ logs action is not available to administrators with the View Only
+ Administrator role . 
+
+ In the confirmation dialog, click Yes to confirm
+ the generation of the agent logs. For example: 
+
+ The Jobs button appears or changes to indicate
+ that the agent logs generation job has been added to the queue. 
+
+ If you generated the logs from the device details pane, you must
+ close the pane to see the Jobs button in the
+ Devices table. 
+
+ To view the status of the agent logs generation, click
+ Jobs . The status of the job appears in the
+ Remote Jobs window. 
+
+ The status descriptions are as follows: 
+ Requested —The administrator has initiated the
+ request. The Prisma Agent has not yet acknowledged or
+ acted on the request. 
+
+ Pending —The agent has received the request,
+ and is currently processing the request. The agent acknowledges the
+ receipt of the command. 
+
+ Completed —The agent has processed the
+ request. 
+
+ Failed —The agent was unable to complete the
+ request. 
+
+ Upon completion of the job, click the Download 
+ links to access the Prisma Agent logs. The agent logs are
+ saved to the download location on your computer. The download link will
+ expire in approximately 24 hours, after which you’ll have to request a
+ new download link by generating the agent logs again. 
+
+ Previous 
+
+ What HIP Data is Collected by the Prisma Agent 
+
+ Next 
+
+ Logs Collected by Prisma Agent

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/linux-kernel-versions/oracle-linux
-fetched_at: 2026-09-06T10:57:30Z
+fetched_at: 2026-09-16T09:04:44Z
 source: cortex-platform
 ---
 
@@ -29,6 +29,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Oracle Linux [x86_64] 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

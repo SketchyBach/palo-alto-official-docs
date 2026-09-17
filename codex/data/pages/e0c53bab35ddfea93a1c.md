@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/investigate-and-respond-to-cases/investigate-files/manage-quarantined-files
-fetched_at: 2026-09-06T09:44:06Z
+fetched_at: 2026-09-16T08:42:52Z
 source: cortex-platform
 ---
 
@@ -99,6 +99,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Review WildFire analysis details 
 
- Last updated 16 days ago 
+ Last updated 26 days ago 
 
  Was this helpful?

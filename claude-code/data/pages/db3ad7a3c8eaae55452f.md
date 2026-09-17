@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/onboard-cortex-xsoar/deployment-steps
-fetched_at: 2026-09-06T10:26:25Z
+fetched_at: 2026-09-16T08:53:16Z
 source: cortex-platform
 ---
 

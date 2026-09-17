@@ -1,0 +1,69 @@
+---
+url: https://docs.prismacloud.io/content-collections/runtime-security/continuous-integration/run-jenkins-container
+fetched_at: 2026-09-16T13:35:24Z
+source: prisma-cloud
+---
+
+# Run Jenkins in a Container | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Enterprise Edition 
+
+ Content Collections 
+
+ Runtime Security 
+
+ Continuous Integration 
+
+ Run Jenkins in a Container 
+
+ Running Jenkins inside a container is a common setup. This article shows you how to set up Jenkins to run in a container so that it can build and scan Docker images. 
+
+ Setting up and starting a Jenkins container 
+
+ To set up Jenkins to run in a container: 
+
+ Prerequisite: You have already installed Docker on the host machine. 
+
+ Create the following Dockerfile. It uses the base Jenkins image and sets up the required permissions for the jenkins user. 
+
+ Ask Copy 
+
+ FROM jenkins/jenkins:lts 
+
+ USER root 
+ RUN apt-get update \ 
+ && apt-get install -y sudo libltdl7 \ 
+ && rm -rf /var/lib/apt/lists/* 
+ RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers 
+
+ Build the image. 
+
+ Ask Copy 
+
+ $ docker build -t jenkins_docker . 
+
+ Run the Jenkins container, giving it access to the docker socket. 
+
+ Ask Copy 
+
+ $ docker run -d -v /var/run/docker.sock:/var/run/docker.sock \ 
+ -v $(which docker):/usr/bin/docker -p 8080:8080 jenkins_docker 
+
+ Open a browser and navigate to <JENKINS_HOST>:8080. 
+
+ Install the Prisma Cloud plugin. 
+
+ For more information, see Jenkins plugin . 
+
+ Previous Jenkins Pipeline Project 
+
+ Next Jenkins Pipeline on K8S 
+
+ Last updated 3 months ago 
+
+ Was this helpful?

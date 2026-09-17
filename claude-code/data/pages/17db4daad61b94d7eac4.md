@@ -1,0 +1,113 @@
+---
+url: https://docs.paloaltonetworks.com/iot/integration/asset-management/integrate-device-security-with-igel-ums.html
+fetched_at: 2026-09-16T11:15:12Z
+source: palo-alto-main
+---
+
+# Integrate Device Security with IGEL UMS Clear
+
+Updated on 
+
+ Aug 17, 2026 
+
+ Focus 
+
+ Home 
+
+ Device Security 
+
+ Device Security Integration Guide 
+
+ Asset Management 
+
+ Integrate Device Security with IGEL UMS 
+
+ Download PDF 
+
+ Device Security 
+
+ Integrate Device Security with IGEL UMS 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Device Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Enterprise Administration 
+
+ Integrations 
+
+ Release Notes 
+
+ Best Practice 
+
+ New Features 
+
+ Previous 
+
+ Send Work Orders to AIMS 2 
+
+ Next 
+
+ Set up IGEL UMS for Integration 
+
+ Integrate Device Security with IGEL UMS 
+
+ Integrate IGEL UMS with Device Security to centralize asset 
+ management for your endpoints.
+
+ Integrate IGEL Universal Management System ( IGEL UMS ) with 
+ Device Security to centralize asset management for your endpoints. Through this 
+ integration, Device Security learns about distributed devices from your 
+ IGEL database, including detailed device attributes. When 
+ Device Security ingests device data from IGEL , you can use the 
+ Device Security platform for unified monitoring and analysis of your devices.
+
+ When you need to track hardware assets from deployment through retirement, the 
+ integration provides key device identifying data including serial numbers, 
+ in-service dates, and usage metrics that enable effective asset lifecycle 
+ management. Combined with the information and alert capabilities in 
+ Device Security , you can monitor security compliance by tracking firmware 
+ versions, configuration changes, and offline devices that may require attention. 
+ The integration also supports resource optimization by analyzing endpoint use 
+ patterns, helping you identify underutilized hardware and rationalize deployment 
+ costs based on actual usage versus hardware specifications.
+
+ After integrating with IGEL , Device Security retrieves 
+ comprehensive endpoint information including device specifications, network 
+ configurations, firmware data, and profile assignments. In the Device Security 
+ asset inventory, you can query and filter devices based on IGEL 
+ attributes such as network names, sites, and BIOS information. This data appears 
+ in the asset inventory and device details pages, enabling you to perform network 
+ intelligence mapping, implement IT service management integration with business 
+ units, and conduct infrastructure reporting for executive dashboards.
+
+ For a full list of attributes that Device Security can learn through the
+ integration, see
+ IGEL Attribute Reference .
+
+ Integrating with IGEL UMS requires either a 
+ full-featured Cortex XSOAR™ server 
+ or the 
+ activation 
+ of a Device Security free 
+ cohosted Cortex XSOAR instance .
+
+ Previous 
+
+ Send Work Orders to AIMS 2 
+
+ Next 
+
+ Set up IGEL UMS for Integration

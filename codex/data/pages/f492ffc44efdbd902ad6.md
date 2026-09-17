@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam-rn/cortex-xsiam-release-information/features-introduced-in-2026-xsiam/july-2026/changed-features
-fetched_at: 2026-09-06T10:52:42Z
+fetched_at: 2026-09-16T08:59:21Z
 source: cortex-platform
 ---
 
@@ -57,6 +57,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex Cloud Posture Management and Cortex Cloud Runtime Security 
 
- Last updated 24 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-api/disable-injection-and-prevention-rules
-fetched_at: 2026-09-06T11:20:16Z
+fetched_at: 2026-09-16T09:13:07Z
 source: cortex-platform
 ---
 

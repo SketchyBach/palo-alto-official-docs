@@ -1,0 +1,186 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-sd-wan/release-notes/6-5/prisma-sd-wan-ion-device-release-6-5/cli-commands-in-prisma-sd-wan-ion-release-6-5.html
+fetched_at: 2026-09-16T12:30:16Z
+source: palo-alto-main
+---
+
+# CLI Commands in Prisma SD-WAN ION Release 6.5 Clear
+
+Updated on 
+
+ Fri Sep 11 10:21:31 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma SD-WAN 
+
+ Prisma SD-WAN ION Device Release 6.5 
+
+ CLI Commands in Prisma SD-WAN ION Release 6.5 
+
+ Download PDF 
+
+ Prisma SD-WAN 
+
+ CLI Commands in Prisma SD-WAN ION Release 6.5 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ CloudBlades 
+
+ Select a Document 
+
+ CloudBlade Integrations 
+
+ CloudBlades Integration with Prisma Access 
+
+ Deployment 
+
+ Incidents & Alerts 
+
+ Reference 
+
+ Release Notes 
+
+ Select a Document 
+
+ ION 6.8 
+
+ ION 6.6 
+
+ ION 6.5 
+
+ ION 6.4 
+
+ ION 6.3 
+
+ ION 6.1 
+
+ ION 5.6 
+
+ Prisma SD-WAN Controller 
+
+ Prisma SD-WAN On-Premises Controller 
+
+ Prisma SD-WAN CloudBlades 
+
+ Prisma Access CloudBlade Cloud Managed 
+
+ Prisma Access CloudBlade Panorama Managed 
+
+ New Features 
+
+ Previous 
+
+ Upgrade or Downgrade Considerations in Prisma SD-WAN ION Release 6.5 
+
+ Next 
+
+ Addressed Issues in Prisma SD-WAN ION Release 6.5 
+
+ CLI Commands in Prisma SD-WAN ION Release 6.5 
+
+ Learn about the CLI commands in Prisma SD-WAN ION device release
+ 6.5. 
+
+ See the new and updated device CLI commands in Prisma SD-WAN 
+ ION Device Release 6.5. 
+
+ CLI Commands in Prisma SD-WAN ION Release 6.5.2 
+
+ CLI Commands in Prisma SD-WAN ION Release 6.5.1 
+
+ CLI Commands in Prisma SD-WAN ION Release 6.5.2 
+
+ See the updated device CLI commands in Prisma SD-WAN ION
+ Device Release 6.5.2. 
+
+ Commands Description 
+
+ New 
+
+ dump appaccel status Displays the status for app acceleration. 
+
+ dump appaccel keys Displays the keys associated with app acceleration
+ for a site. 
+
+ Updated 
+
+ dump flow stats Displays the statistics for a flow. 
+
+ dump interface config Displays the interface configurations. 
+
+ inspect flow detail Inspects the details of active flows. 
+
+ CLI Commands in Prisma SD-WAN ION Release 6.5.1 
+
+ See the updated device CLI commands in Prisma SD-WAN ION
+ Device Release 6.5.1. 
+
+ Commands Description 
+
+ New 
+
+ dump intra-cluster-tunnel Displays the intra-cluster tunnel configuration and
+ status information. 
+
+ dump routing vpn host tracker status Displays configuration information for host
+ tracking. 
+
+ inspect servicelink connection 
+
+ Inspects the active VPN connections. Information
+ includes the authentication selected, Internet Key Exchange
+ (IKE) protocol details, and Dead Peer Detection (DPD)
+ details. 
+
+ inspect servicelink SA 
+
+ Inspects the security association (SA) of VPN tunnels.
+
+ inspect vpn status 
+
+ Inspects the VPN status and view the Authenticated
+ Encryption with Associated Data (AEAD) algorithm used. 
+
+ Updated 
+
+ dump interface config Displays the interface configurations. 
+
+ dump interface status Displays the interface status. 
+
+ dump routing peer config Displays the configuration of BGP peers. 
+
+ dump site config Displays the details of site-level
+ configuration. 
+
+ dump vpn summary Displays the summary for a virtual private network
+ (VPN) link. 
+
+ inspect fib Inspects the forwarding information base (FIB) table,
+ to display FIB entries, and to debug path selection issues. 
+
+ inspect flow brief Inspects the brief details for active flows for
+ debugging. 
+
+ Previous 
+
+ Upgrade or Downgrade Considerations in Prisma SD-WAN ION Release 6.5 
+
+ Next 
+
+ Addressed Issues in Prisma SD-WAN ION Release 6.5

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-content-update-releases
-fetched_at: 2026-09-06T10:54:30Z
+fetched_at: 2026-09-16T09:02:49Z
 source: cortex-platform
 ---
 
@@ -32,6 +32,12 @@ For the complete documentation index, see llms.txt . This page is also available
  Version 
 
  Release Date 
+
+ Release Notes 
+
+ 2420 
+
+ 8-September-2026 
 
  Release Notes 
 
@@ -521,8 +527,8 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Release Notes 
 
- Next 2410 
+ Next 2420 
 
- Last updated 4 days ago 
+ Last updated 7 days ago 
 
  Was this helpful?

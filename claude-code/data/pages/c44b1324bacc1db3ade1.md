@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.7/onboard-cortex-xsoar/cortex-xsoar-installation/install-cortex-xsoar-on-a-vm-deployed-on-vsphere
-fetched_at: 2026-09-06T11:24:08Z
+fetched_at: 2026-09-16T09:14:05Z
 source: cortex-platform
 ---
 
@@ -409,6 +409,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Post-installation 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

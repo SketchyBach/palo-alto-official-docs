@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/protect-your-endpoints/endpoint-dlp/cortex-data-loss-prevention-dlp-module-overview/true-file-type-detection
-fetched_at: 2026-09-06T09:30:53Z
+fetched_at: 2026-09-16T08:35:09Z
 source: cortex-platform
 ---
 
@@ -43,6 +43,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Personas workflow for DLP 
 
- Last updated 12 days ago 
+ Last updated 22 days ago 
 
  Was this helpful?

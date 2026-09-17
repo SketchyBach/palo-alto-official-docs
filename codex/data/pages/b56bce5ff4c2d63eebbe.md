@@ -1,0 +1,87 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/fedramp/autonomous-dem/get-started-with-adem/enable-adem-for-remote-networks.html
+fetched_at: 2026-09-16T09:59:19Z
+source: palo-alto-main
+---
+
+# Enable ADEM for Your Remote Sites Clear
+
+Updated on 
+
+ Wed Sep 04 15:52:49 PDT 2024 
+
+ Focus 
+
+ Home 
+
+ FedRAMP 
+
+ Get Started with Autonomous DEM 
+
+ Enable ADEM for Your Remote Sites 
+
+ Download PDF 
+
+ FedRAMP 
+
+ Enable ADEM for Your Remote Sites 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ FedRAMP Docs 
+
+ Reference 
+
+ Autonomous DEM 
+
+ Previous 
+
+ Enable ADEM in Cloud Managed Prisma Access for Mobile Users 
+
+ Next 
+
+ Enable ADEM in Panorama Managed Prisma Access for Remote Sites 
+
+ Enable ADEM for Your Remote Sites 
+
+ This is how you enable Autonomous DEM for remote sites. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Prisma Access license 
+
+ Autonomous DEM license 
+
+ To enable ADEM for your Prisma Access Remote Sites,
+you must enable ADEM using the aggregate bandwidth workflow for
+your Prisma Access deployment on Panorama Managed Prisma Access and Cloud Managed Prisma Access . 
+
+ To on-board and register a Prisma SD-WAN remote site on an ADEM
+portal, ADEM remote network bandwidth license should be allocated
+on the compute location. 
+
+ You should have already configured Prisma Access and the
+Prisma SD-WAN device. Aggregate Bandwidth must be configured on
+your Prisma Access. 
+
+ Enable ADEM in Cloud Managed Prisma Access for Remote Sites 
+
+ Enable ADEM in Panorama Managed Prisma Access for Remote Sites 
+
+ Previous 
+
+ Enable ADEM in Cloud Managed Prisma Access for Mobile Users 
+
+ Next 
+
+ Enable ADEM in Panorama Managed Prisma Access for Remote Sites

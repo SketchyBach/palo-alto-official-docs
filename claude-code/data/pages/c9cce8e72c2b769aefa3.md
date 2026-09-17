@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/incidents/incident-customization/incident-fields/incident-field-trigger-scripts
-fetched_at: 2026-09-06T10:41:11Z
+fetched_at: 2026-09-16T08:56:15Z
 source: cortex-platform
 ---
 
@@ -150,6 +150,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshoot Closing Case Incident after Changing Field Type 
 
- Last updated 4 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

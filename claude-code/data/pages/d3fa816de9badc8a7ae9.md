@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/indicators/indicator-customization/indicator-layouts
-fetched_at: 2026-09-06T10:45:36Z
+fetched_at: 2026-09-16T08:57:05Z
 source: cortex-platform
 ---
 

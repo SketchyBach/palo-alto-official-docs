@@ -1,0 +1,94 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/identity/activation-and-onboarding/get-started-with-the-cloud-identity-engine/activate-the-cloud-identity-engine/activate-cie-first-time-one-csp.html
+fetched_at: 2026-09-16T13:53:45Z
+source: palo-alto-main
+---
+
+# First time Cloud Identity Engine Activation - One Customer Support Portal Account Clear
+
+Updated on 
+
+ Thu Mar 12 10:18:33 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Identity 
+
+ Get Started with Cloud Identity Engine 
+
+ Activate the Cloud Identity Engine 
+
+ First time Cloud Identity Engine Activation - One Customer Support Portal Account 
+
+ Download PDF 
+
+ Identity 
+
+ First time Cloud Identity Engine Activation - One Customer Support Portal Account 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Identity Docs 
+
+ Activation & Onboarding 
+
+ Cloud Identity Engine 
+
+ Help 
+
+ Release Notes 
+
+ New Features 
+
+ First time Cloud Identity Engine Activation - One Customer Support Portal Account 
+
+ Learn how to activate your Cloud Identity Engine (CIE) application for the first time if
+ you have only one Customer Support Portal account. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ The Activation Console 
+
+ Commercial deployments 
+
+ Customer Support Portal account 
+
+ If you have only one Customer Support Portal account, follow these steps for first
+ time Cloud Identity Engine (CIE) activation. 
+
+ From the Activation Console , select
+ Activate . 
+
+ Because you have only one Customer Support Portal account associated with your
+ username, the Customer Support Account is
+ prepopulated. 
+
+ Allocate the product to the Recipient of your choice. 
+
+ The name provided matches your Customer Support Portal account for
+ convenience. You can use the name provided or change it. 
+
+ Select a Region where you want to deploy your product.
+
+ Agree to the terms and conditions , and Activate . 
+
+ A single default tenant is autocreated behind the scenes, and the product is
+ activated in the tenant. 
+
+ This tenant, and any others created by this Customer Support Portal
+ account, will have the Superuser role. 
+
+ ( Optional ) Manage your product from Strata Cloud Manager . 
+
+ ( Optional ) Manage identity and access . 
+
+ Get started with CIE .

@@ -1,0 +1,81 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-sd-wan/new-features/by-date/prisma-sd-wan/august-2026#49e5f5fc037c8702ee14411953658e42
+fetched_at: 2026-09-16T08:21:27Z
+source: strata-and-sase
+---
+
+# New Features - Prisma SD-WAN - August 2026 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+Focus 
+
+ Home 
+
+ Prisma SD-WAN 
+
+ New Features - Prisma SD-WAN - August 2026 
+
+ Download PDF 
+
+ Hop Count-Based Forwarding for Branch Gateway Mode 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Branch Gateways (BGWs) now account for hop count when making forwarding decisions in BGW mode, consistent with the existing behavior in DC mode introduced in 6.5.1. 
+
+ In full-mesh BGW deployments a BGW can learn the same prefix from multiple peer BGWs. Without hop count awareness, traffic could be forwarded sub-optimally, bouncing between BGWs before reaching its final destination. With this enhancement, BGWs prefer the lowest hop-count path, ensuring traffic takes the most direct route to its destination. This improvement benefits customers running full-mesh BGW topologies who prefer not to configure explicit prefix-based path policies, or those operating in dynamic environments where prefixes change frequently. 
+
+ Prisma SD-WAN
+
+ Core
+
+ August 2026
+
+ Prisma SD-WAN Fabric Routing and Interface Enhancements 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Prisma® SD-WAN supports configurable fabric default route advertisement toward OSPF LAN peers and offers Layer 3 loopback interfaces with Custom VRFs . These enhancements give network administrators fine-grained control over default route distribution, route preference, and routing architecture flexibility across the WAN fabric. 
+
+ This release applies to ION devices running release 6.8.1 and later. 
+
+ OSPF Default Route Advertisement Toward LAN — Enable or disable the advertisement of the fabric default route into OSPF on the LAN side. You can set a custom metric for the advertised route to control route preference in OSPF topologies. 
+
+ Custom VRF Support for Layer 3 Loopbacks — Associate Layer 3 loopback interfaces with Custom VRFs. LAN-side loopbacks support both Default and Custom VRFs, while WAN-side loopbacks remain supported in the Default VRF only. 
+
+ Expanded Loopback Services — Leverage loopback interfaces for SNMP services, BGP peering as the update source, and OSPF Router-ID assignment. 
+
+ Prisma SD-WAN
+
+ ION Device
+
+ August 2026
+
+ ION 6.8
+
+ Support for Post-Quantum Cryptography 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ You can now protect Standard VPN connections against future quantum computer attacks using Post-Quantum Cryptography (PQC) on ION devices running release 6.8.1 and above. This release addresses "Harvest Now, Decrypt Later" threats where attackers collect encrypted data today to decrypt it when quantum computers become available. 
+
+ This release includes: 
+
+ RFC 8784 support for Post-Quantum Pre-shared Keys (PPK) with Mandatory and Preferred negotiation modes 
+
+ RFC 9370/9242 support for up to seven additional key exchange rounds combining NIST-approved ML-KEM algorithms (ML-KEM-512, ML-KEM-768, ML-KEM-1024) with classical algorithms (ECDH, Diffie-Hellman) 
+
+ TLS 1.3 with quantum-resistant hybrid key exchange groups (X25519MLKEM768, SecP256r1MLKEM768, SecP384r1MLKEM1024) for secure ION-to-controller communication 
+
+ You configure PQC features when creating IPsec profiles for Standard VPN connections. The Prisma SD-WAN fabric tunnels continue to be PQC-compliant as they are based on symmetric key cryptographic ciphers. 
+
+ Prisma SD-WAN
+
+ Core
+
+ August 2026

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/9.3/cortex-xdr-agent-for-windows/troubleshooting-resources-for-windows
-fetched_at: 2026-09-06T10:20:09Z
+fetched_at: 2026-09-16T08:51:30Z
 source: cortex-platform
 ---
 
@@ -111,7 +111,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  The agent stores unknown files to send to Cortex XDR in the C:\ProgramData\Cyvera\Temp folder. After Cortex XDR submits a file to WildFire, the agent deletes the file from the Temp folder. 
 
- In some cases, third-party Antivirus (AV) applications raise an alert for this folder. If this occurs, we recommend that you whitelist this folder in the third-party AV application. 
+ In some cases, third-party Antivirus (AV) applications raise an alert for this folder. If this occurs, we recommend that you add this folder to the allow list in the third-party AV application. 
 
  Cortex XDR Health Helper 
 
@@ -121,6 +121,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cytool for Windows 
 
- Last updated 10 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

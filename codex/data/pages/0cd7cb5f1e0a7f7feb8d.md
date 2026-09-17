@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/managed-ai-runtime-security-for-aws/managed-airs-for-aws-deploy-and-configure/view-registered-managed-airs-for-aws-resources-in-strata-cloud-manager
-fetched_at: 2026-09-06T11:17:52Z
+fetched_at: 2026-09-16T07:54:45Z
 source: ai-security
 ---
 

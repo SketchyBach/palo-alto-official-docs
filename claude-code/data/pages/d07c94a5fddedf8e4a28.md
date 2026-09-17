@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/compressing-data-using-python
-fetched_at: 2026-09-06T11:02:15Z
+fetched_at: 2026-09-16T09:06:46Z
 source: cortex-platform
 ---
 

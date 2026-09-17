@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/parsing-rules/parsing-rules-file-structure-and-syntax/ingest/parse_json
-fetched_at: 2026-09-06T09:50:54Z
+fetched_at: 2026-09-16T08:44:19Z
 source: cortex-platform
 ---
 
@@ -46,6 +46,6 @@ value pairs) is determined by the input parameters.
 
  Next COLLECT 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

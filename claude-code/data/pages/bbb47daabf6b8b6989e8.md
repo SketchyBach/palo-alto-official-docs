@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/kubernetes-security/cloud-workload-policies-and-rules/cloud-workload-rules/cloud-workload-rules-page
-fetched_at: 2026-09-06T10:11:05Z
+fetched_at: 2026-09-16T08:48:53Z
 source: cortex-platform
 ---
 

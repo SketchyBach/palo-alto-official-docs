@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/potential-creation-of-persistent-cloud-credentials
-fetched_at: 2026-09-06T11:06:32Z
+fetched_at: 2026-09-16T09:07:50Z
 source: cortex-platform
 ---
 

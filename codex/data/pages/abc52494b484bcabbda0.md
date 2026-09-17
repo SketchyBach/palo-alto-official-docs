@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-8-opp-release-notes/8.12
-fetched_at: 2026-09-06T10:54:04Z
+fetched_at: 2026-09-16T09:02:21Z
 source: cortex-platform
 ---
 

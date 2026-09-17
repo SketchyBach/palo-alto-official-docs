@@ -1,0 +1,198 @@
+---
+url: https://docs.paloaltonetworks.com/ngfw/help/12-2/use-case-configure-separate-source-nat-ip-address-pools-for-activeactive-ha-firewalls
+fetched_at: 2026-09-16T08:20:53Z
+source: palo-alto-main
+---
+
+# Use Case:
+Configure Separate Source NAT IP Address Pools for Active/Active
+HA Firewalls Clear
+
+Updated on 
+
+ Wed Aug 19 00:09:31 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ PAN-OS Web Interface Help 
+
+ Use Case:
+Configure Separate Source NAT IP Address Pools for Active/Active
+HA Firewalls 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Use Case:
+Configure Separate Source NAT IP Address Pools for Active/Active
+HA Firewalls 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Use Case:
+Configure Separate Source NAT IP Address Pools for Active/Active
+HA Firewalls 
+
+ Learn how to configure separate source NAT IP addess pools for active/active HA
+ firewalls. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Strata Cloud Manager) 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ For Strata Cloud Manager managed NGFWs: 
+
+ Strata Cloud Manager Pro 
+
+ If you want to use IP address pools for source NAT in Active/Active HA , each firewall must have its own
+ pool, which you then bind to a Device ID in a NAT rule. 
+
+ Address objects and NAT rules are synchronized
+(in both active/passive and active/active mode), so they need to
+be configured on only one of the firewalls in the HA pair. 
+
+ This
+example configures an address object named Dyn-IP-Pool-dev0 containing
+the IP address pool 10.1.1.140-10.1.1.150. It also configures an
+address object named Dyn-IP-Pool-dev1 containing the IP address
+pool 10.1.1.160-10.1.1.170. The first address object is bound to
+Device ID 0; the second address object is bound to Device ID 1. 
+
+ On one HA firewall, create address objects. 
+
+ Select Objects Addresses and Add an
+address object Name , in this example, Dyn-IP-Pool-dev0. 
+
+ For Type , select IP
+Range and enter the range 10.1.1.140-10.1.1.150. 
+
+ Click OK . 
+
+ Repeat this step to configure another address object
+named Dyn-IP-Pool-dev1 with the IP Range of
+10.1.1.160-10.1.1.170. 
+
+ Create the source NAT rule for Device ID 0. 
+
+ Select Policies NAT and Add a
+NAT policy rule with a Name , for example,
+Src-NAT-dev0. 
+
+ For Original Packet , for Source
+Zone , select Any . 
+
+ For Destination Zone , select
+the destination zone for which you want to translate the source
+address, such as Untrust. 
+
+ For Translated Packet , for Translation
+Type , select Dynamic IP and Port . 
+
+ For Translated Address , Add the
+address object you created for the pool of addresses belonging to
+Device ID 0: Dyn-IP-Pool-dev0. 
+
+ For Active/Active HA Binding ,
+select 0 to bind the NAT rule to Device ID
+0. 
+
+ Click OK . 
+
+ Create the source NAT rule for Device ID 1. 
+
+ Select Policies NAT and Add a
+NAT policy rule with a Name , for example,
+Src-NAT-dev1. 
+
+ For Original Packet , for Source
+Zone , select Any . 
+
+ For Destination Zone , select
+the destination zone for which you want to translate the source
+address, such as Untrust. 
+
+ For Translated Packet , for Translation
+Type , select Dynamic IP and Port . 
+
+ For Translated Address , Add the
+address object you created for the pool of addresses belonging to
+Device ID 1: Dyn-IP-Pool-dev1. 
+
+ For Active/Active HA Binding ,
+select 1 to bind the NAT rule to Device ID
+1. 
+
+ Click OK . 
+
+ Commit the configuration.

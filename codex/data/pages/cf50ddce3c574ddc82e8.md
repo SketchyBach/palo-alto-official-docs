@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xql-command-reference-guide/readme/functions/format_timestamp
-fetched_at: 2026-09-06T10:58:26Z
+fetched_at: 2026-09-16T09:04:54Z
 source: cortex-platform
 ---
 
@@ -193,6 +193,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next greatest 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

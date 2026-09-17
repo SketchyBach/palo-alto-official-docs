@@ -1,0 +1,148 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/hardware/pa-1500-hardware-reference/pa-1500-series-firewall-specifications/pa-1500-series-firewall-electrical-specifications/pa-1500-series-firewall-power-cord-types.html
+fetched_at: 2026-09-16T11:58:24Z
+source: palo-alto-main
+---
+
+# PA-1500 Series Firewall Power Cord Types Clear
+
+Updated on 
+
+ Wed Aug 19 00:26:09 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-1500 Series Next-Gen Firewall Hardware Reference 
+
+ PA-1500 Series Firewall Specifications 
+
+ PA-1500 Series Firewall Electrical Specifications 
+
+ PA-1500 Series Firewall Power Cord Types 
+
+ Download PDF 
+
+ PA-1500 Series Next-Gen Firewall Hardware Reference 
+
+ PA-1500 Series Firewall Power Cord Types 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Compliance 
+
+ Safety Warnings 
+
+ Safety Warnings (French) 
+
+ Certifications 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-1500 Series Firewall Overview 
+
+ PA-1500 Series Firewall Components 
+
+ PA-1510-POE Components 
+
+ PA-1520-POE Components 
+
+ PA-1530-POE Components 
+
+ PA-1500 Series Firewall Installation 
+
+ Install the PA-1500 Series Firewall in an Equipment Rack 
+
+ Connect AC Power to the PA-1500 Series Firewall 
+
+ Connect DC Power to the PA-1500 Series Firewall 
+
+ Set Up a Connection to the Firewall 
+
+ Connect Cables to the PA-1500 Series Firewall 
+
+ PA-1500 Series Firewall Maintenance 
+
+ PA-1500 Series Firewall LED Definitions 
+
+ Replace a PA-1500 Series Firewall Power Supply 
+
+ PA-1500 Series Firewall Specifications 
+
+ PA-1500 Series Firewall Physical Specifications 
+
+ PA-1500 Series Firewall Electrical Specifications 
+
+ PA-1500 Series Firewall Power Cord Types 
+
+ PA-1500 Series Firewall Environmental Specifications 
+
+ PA-1500 Series Firewall Miscellaneous Specifications 
+
+ PA-1500 Series Firewall Power Cord Types 
+
+ Learn about the power cord types supported by the PA-1500 Series
+ firewall. 
+
+ The following table lists the power cords supported by the PA-1500 Series firewalls. 
+
+ SKU Number 
+
+ Description 
+
+ PAN-PWR-CORD-C15-US 
+
+ AC power cord with IEC-60320 C15 and NEMA 5-15P cord ends, 3m 
+
+ PAN-PWR-CORD-C15-EU 
+
+ AC power cord with IEC-60320 C15 and CEE 7/7 SCHUKO cord ends, 3m 
+
+ PAN-PWR-CORD-C15-UK 
+
+ AC power cord with IEC-60320 C15 and BS 1363 UK13 cord ends, 3m 
+
+ PAN-PWR-CORD-C15-JP 
+
+ AC power cord with IEC-60320 C15 and JISC8303 cord ends, 3m 
+
+ PAN-PWR-CORD-C15-TW 
+
+ AC power cord with IEC-60320 C15 and CNS 10917-3 cord ends, 3m 
+
+ PAN-PWR-CORD-C15-AU 
+
+ AC power cord with IEC-60320 C15 and AS/NZS 4417 cord ends, 3m 
+
+ PAN-PWR-CORD-C15-SUI 
+
+ AC power cord with IEC-60320 C15 and SEV 1011 cord ends, 3m 
+
+ PAN-PWR-CORD-C15-CN 
+
+ AC power cord with IEC-60320 C15 and GB 2099.1 cord ends, 3m 
+
+ PAN-PWR-CORD-C15-BR 
+
+ AC power cord with IEC-60320 C15 and NBR 14136 cord ends, 3m 
+
+ Previous 
+
+ PA-1500 Series Firewall Electrical Specifications 
+
+ Next 
+
+ PA-1500 Series Firewall Environmental Specifications

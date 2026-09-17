@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/automations/scripts/accelerate-script-development-using-the-automation-engineer-agent
-fetched_at: 2026-09-06T10:18:39Z
+fetched_at: 2026-09-16T08:51:06Z
 source: cortex-platform
 ---
 
@@ -184,6 +184,6 @@ For the script generated from the sample prompt above, enter the following modif
 
  Next Change the Docker image 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

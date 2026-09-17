@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security-rn/cortex-cloud-runtime-security-release-information/features-introduced-in-2026-cloud/february-2026/feature-enhancements/aspm
-fetched_at: 2026-09-06T10:53:26Z
+fetched_at: 2026-09-16T09:01:32Z
 source: cortex-platform
 ---
 
@@ -40,6 +40,6 @@ This enhancement provides full lifecycle lineage, enabling you to bridge the gap
 
  Next Broker VM 
 
- Last updated 57 minutes ago 
+ Last updated 9 days ago 
 
  Was this helpful?

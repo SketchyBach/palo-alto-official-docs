@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.14/configure-multi-tenant/configure-the-multi-tenant-deployment/install-engines-on-tenants-in-a-multi-tenant-deployment
-fetched_at: 2026-09-06T10:50:04Z
+fetched_at: 2026-09-16T08:58:05Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Configure the Multi-Tenant Deployment 
 
- XSOAR 6.14 Multi-Tenant 
+ Cortex XSOAR 6.14 Multi-Tenant 
 
  Install Engines on Tenants in a Multi-Tenant Deployment 
 
@@ -71,6 +71,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure User Settings 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

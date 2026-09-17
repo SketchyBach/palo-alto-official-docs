@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/cloud-service-provider-csp-onboarding/cloud-service-provider-permissions/microsoft-azure-provider-permissions
-fetched_at: 2026-09-06T09:41:19Z
+fetched_at: 2026-09-16T08:42:48Z
 source: cortex-platform
 ---
 
@@ -1539,7 +1539,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Microsoft.Storage/storageAccounts/listKeys/action 
 
- List Storage account keys (action). Cortex uses this for security assessment and operational visibility across the Azure environment and it ingests key metadata for CSPM policy evaluation (key rotation, key-based access status), returning storage account access keys. While the keys do grant full read/write access to the storage account data, and transit through the Cortex XDR scanning infrastructure, Cortex evaluates key metadata in-memory and does not persist or use the keys for data-plane access. 
+ List storage account keys. This permission enables Cortex XDR to check key rotation and key-based access status, and to correlate key hashes against secrets discovered elsewhere in your environment (source repositories, CI/CD, workloads, and container images) to flag exposed keys and inform Attack Path analysis. The Azure API returns the key value, but Cortex XDR immediately computes a hash of the key, reads its permission scope, and discards the key value. Only the hash and scope are retained. The key value is never persisted and is never used to access blob, file, queue, or table data. 
 
  Microsoft.Storage/storageAccounts/providers/Microsoft.Insights/diagnosticSettings/read 
 
@@ -2057,7 +2057,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Read the configuration and properties of Azure Container Registry (ACR) instances. Cortex uses this to assess container registry security settings such as export configurations as part of automation workflows. This read-only access does not modify any registry resources. 
 
- Private Registry UAMI Role: azurePrivateRegistryRole-{suffix} 
+ Private Registry Role: azurePrivateRegistryRole-{suffix} 
 
  Custom Azure RBAC role granting permission to approve private endpoint connections to Azure Container Registry. Used to enable Cortex to reach customer registries that have public network access disabled. 
 
@@ -2711,6 +2711,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Google Cloud Platform (GCP) provider permissions 
 
- Last updated 3 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

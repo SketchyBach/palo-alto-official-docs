@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/data-management/broker-vm/monitor-broker-vm-activity
-fetched_at: 2026-09-06T10:08:35Z
+fetched_at: 2026-09-16T08:48:12Z
 source: cortex-platform
 ---
 
@@ -163,6 +163,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshoot Broker VM applet errors 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

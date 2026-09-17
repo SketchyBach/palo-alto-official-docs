@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/suspicious-modification-of-the-adminsdholder-s-acl
-fetched_at: 2026-09-06T11:08:16Z
+fetched_at: 2026-09-16T09:08:31Z
 source: cortex-platform
 ---
 

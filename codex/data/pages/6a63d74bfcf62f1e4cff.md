@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/cortex-agentix-xql/build-xql-queries/xql-macros
-fetched_at: 2026-09-06T09:36:56Z
+fetched_at: 2026-09-16T08:37:18Z
 source: cortex-platform
 ---
 
@@ -331,6 +331,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage your macros 
 
- Last updated 10 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

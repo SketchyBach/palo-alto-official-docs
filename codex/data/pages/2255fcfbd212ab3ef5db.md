@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/investigation-and-response/build-xql-queries/federated-search/manage-external-datasets
-fetched_at: 2026-09-06T09:33:11Z
+fetched_at: 2026-09-16T08:35:55Z
 source: cortex-platform
 ---
 

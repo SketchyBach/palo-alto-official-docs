@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam-rn/cortex-xsiam-release-information/features-introduced-in-2025-xsiam/november-2025/marketplace-content-changes
-fetched_at: 2026-09-06T10:52:45Z
+fetched_at: 2026-09-16T08:59:23Z
 source: cortex-platform
 ---
 
@@ -39,6 +39,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next July 2025 
 
- Last updated 24 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

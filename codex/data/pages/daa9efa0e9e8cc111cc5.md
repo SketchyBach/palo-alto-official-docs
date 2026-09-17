@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/generic-on-premise-data-collectors
-fetched_at: 2026-09-06T09:27:20Z
+fetched_at: 2026-09-16T08:26:22Z
 source: cortex-platform
 ---
 

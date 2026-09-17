@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/integration/attribute-reference/attribute-reference-aruba-clearpass
-fetched_at: 2026-08-13T16:36:58Z
+fetched_at: 2026-09-15T15:14:39Z
 source: palo-alto-main
 ---
 
 # Aruba ClearPass Attribute Reference Clear
 
-Aruba ClearPass Attribute Reference 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Aruba ClearPass Attribute Reference 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
+ Mon Aug 17 11:22:37 PDT 2026 
 
  Focus 
 
@@ -116,7 +60,7 @@ Aruba ClearPass Attribute Reference
 
  Next 
 
- Aruba WLC Attribute Reference 
+ Aruba WLAN Attribute Reference 
 
  Aruba ClearPass Attribute Reference 
 
@@ -137,9 +81,9 @@ Aruba ClearPass Attribute Reference
  For example, micrsoft_defender_xdr.macAddress would appear in the
  Query Builder and in the Assets Inventory table, but under Device Details Attributes Integration Specific Attributes Microsoft Defender , the attribute would appear as macAddress .
 
- Endpoint Attributes 
+ Insight Endpoint Attributes 
 
- Device Security collects endpoint attributes from the Aruba ClearPass Insight endpoint API. Each record describes a network endpoint profiled by ClearPass.
+ Device Security collects insight endpoint attributes from Aruba ClearPass. The following table lists each Aruba ClearPass attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
  Aruba ClearPass Attribute 
 
@@ -149,13 +93,69 @@ Aruba ClearPass Attribute Reference
 
  Description 
 
- roles 
+ user 
 
- aruba_clearpass.roles 
+ aruba_clearpass.user 
 
- — 
+ AD Username 
 
- Roles 
+ User 
+
+ domain 
+
+ aruba_clearpass.domain 
+
+ domain 
+
+ Domain 
+
+ device_name 
+
+ aruba_clearpass.device_name 
+
+ hostname 
+
+ Device name 
+
+ mac 
+
+ aruba_clearpass.mac 
+
+ id; MAC 
+
+ Mac 
+
+ mac 
+
+ aruba_clearpass.mac_address 
+
+ id; MAC 
+
+ Mac 
+
+ ip 
+
+ aruba_clearpass.ip 
+
+ IP Address 
+
+ Ip 
+
+ updated_at 
+
+ aruba_clearpass.updated_at 
+
+ Last Activity 
+
+ Updated at 
+
+ aruba_user_vlan 
+
+ aruba_clearpass.aruba_user_vlan 
+
+ VLAN ID 
+
+ Aruba user vlan 
 
  aruba_user_role 
 
@@ -165,53 +165,13 @@ Aruba ClearPass Attribute Reference
 
  Aruba user role 
 
- device_name 
+ device_category 
 
- aruba_clearpass.device_name 
-
- Hostname 
-
- Device name 
-
- aruba_user_vlan 
-
- aruba_clearpass.aruba_user_vlan 
+ aruba_clearpass.device_category 
 
  — 
 
- Aruba user VLAN 
-
- is_conflict 
-
- aruba_clearpass.is_conflict 
-
- — 
-
- Indicates whether the session has a conflict 
-
- user 
-
- aruba_clearpass.user 
-
- — 
-
- User 
-
- updated_at 
-
- aruba_clearpass.updated_at 
-
- — 
-
- Last updated timestamp 
-
- is_online 
-
- aruba_clearpass.is_online 
-
- — 
-
- Indicates whether the device is online 
+ Device category 
 
  device_family 
 
@@ -221,37 +181,61 @@ Aruba ClearPass Attribute Reference
 
  Device family 
 
- device_category 
+ ipv6 
 
- aruba_clearpass.device_category 
-
- — 
-
- Device category 
-
- ip 
-
- aruba_clearpass.ip 
-
- ipv4_address 
-
- IP address 
-
- mac 
-
- aruba_clearpass.mac 
-
- id; MAC 
-
- MAC address 
-
- domain 
-
- aruba_clearpass.domain 
+ aruba_clearpass.ipv6 
 
  — 
 
- Domain 
+ Ipv6 
+
+ is_conflict 
+
+ aruba_clearpass.is_conflict 
+
+ — 
+
+ Is conflict 
+
+ is_online 
+
+ aruba_clearpass.is_online 
+
+ — 
+
+ Is online 
+
+ other_category 
+
+ aruba_clearpass.other_category 
+
+ — 
+
+ Other category 
+
+ other_family 
+
+ aruba_clearpass.other_family 
+
+ — 
+
+ Other family 
+
+ other_name 
+
+ aruba_clearpass.other_name 
+
+ — 
+
+ Other name 
+
+ roles 
+
+ aruba_clearpass.roles 
+
+ — 
+
+ Roles 
 
  spt 
 
@@ -259,19 +243,11 @@ Aruba ClearPass Attribute Reference
 
  — 
 
- SPT value 
+ Spt 
 
- ipv6 
+ Insight Session Attributes 
 
- aruba_clearpass.ipv6 
-
- — 
-
- IPv6 address 
-
- Wireless Session Attributes 
-
- Device Security collects wireless session attributes from the Aruba ClearPass Insight session API. Each record describes an active or recent wireless authentication session.
+ Device Security collects insight session attributes from Aruba ClearPass. The following table lists each Aruba ClearPass attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
  Aruba ClearPass Attribute 
 
@@ -281,37 +257,21 @@ Aruba ClearPass Attribute Reference
 
  Description 
 
- updated_at 
+ username 
 
- aruba_clearpass.updated_at 
+ aruba_clearpass.username 
 
- — 
+ last_ad_username 
 
- Last updated timestamp 
+ Username associated with the device 
 
  ap_name 
 
  aruba_clearpass.ap_name 
 
- Access Point Name 
+ ap_name 
 
- AP name 
-
- framedipaddress 
-
- aruba_clearpass.framedipaddress 
-
- ipv4_address 
-
- Framed IP address 
-
- ssid 
-
- aruba_clearpass.ssid 
-
- SSID 
-
- SSID 
+ Ap name 
 
  mac_address 
 
@@ -319,7 +279,183 @@ Aruba ClearPass Attribute Reference
 
  id; MAC 
 
- MAC address 
+ Mac address 
+
+ framedipaddress 
+
+ aruba_clearpass.framedipaddress 
+
+ IP Address 
+
+ Framedipaddress 
+
+ ssid 
+
+ aruba_clearpass.ssid 
+
+ SSID 
+
+ Ssid 
+
+ arubauservlan 
+
+ aruba_clearpass.arubauservlan 
+
+ VLAN ID 
+
+ Arubauservlan 
+
+ acct_id 
+
+ aruba_clearpass.acct_id 
+
+ — 
+
+ Acct ID 
+
+ acctinputoctets 
+
+ aruba_clearpass.acctinputoctets 
+
+ — 
+
+ Acctinputoctets 
+
+ acctoutputoctets 
+
+ aruba_clearpass.acctoutputoctets 
+
+ — 
+
+ Acctoutputoctets 
+
+ acctsessionid 
+
+ aruba_clearpass.acctsessionid 
+
+ — 
+
+ Acctsessionid 
+
+ acctsessiontime 
+
+ aruba_clearpass.acctsessiontime 
+
+ — 
+
+ Acctsessiontime 
+
+ acctstarttime 
+
+ aruba_clearpass.acctstarttime 
+
+ — 
+
+ Acctstarttime 
+
+ acctstoptime 
+
+ aruba_clearpass.acctstoptime 
+
+ — 
+
+ Acctstoptime 
+
+ acctterminatecause 
+
+ aruba_clearpass.acctterminatecause 
+
+ — 
+
+ Acctterminatecause 
+
+ arubauserrole 
+
+ aruba_clearpass.arubauserrole 
+
+ — 
+
+ Arubauserrole 
+
+ calledstationid 
+
+ aruba_clearpass.calledstationid 
+
+ — 
+
+ Calledstationid 
+
+ callingstationid 
+
+ aruba_clearpass.callingstationid 
+
+ — 
+
+ Callingstationid 
+
+ cppm_uuid 
+
+ aruba_clearpass.cppm_uuid 
+
+ — 
+
+ Cppm uuid 
+
+ id 
+
+ aruba_clearpass.id 
+
+ — 
+
+ Id 
+
+ nas_name 
+
+ aruba_clearpass.nas_name 
+
+ — 
+
+ Nas name 
+
+ nasipaddress 
+
+ aruba_clearpass.nasipaddress 
+
+ — 
+
+ Nasipaddress 
+
+ nasportid 
+
+ aruba_clearpass.nasportid 
+
+ — 
+
+ Nasportid 
+
+ nasporttype 
+
+ aruba_clearpass.nasporttype 
+
+ — 
+
+ Nasporttype 
+
+ role_name 
+
+ aruba_clearpass.role_name 
+
+ — 
+
+ Role name 
+
+ servicetype 
+
+ aruba_clearpass.servicetype 
+
+ — 
+
+ Servicetype 
 
  state 
 
@@ -329,81 +465,89 @@ Aruba ClearPass Attribute Reference
 
  State 
 
- nas_name 
+ sponsor_email 
 
- aruba_clearpass.nas_name 
-
- — 
-
- NAS name 
-
- nasporttype 
+ aruba_clearpass.sponsor_email 
 
  — 
 
- aruba_clearp__nasporttype 
+ Sponsor email 
 
- NAS port type 
+ sponsor_name 
 
- nasportid 
-
- aruba_clearpass.nasportid 
+ aruba_clearpass.sponsor_name 
 
  — 
 
- NAS port ID 
+ Sponsor name 
 
- calledstationid 
+ sponsor_profile_name 
 
- aruba_clearpass.calledstationid 
-
- — 
-
- Called station ID 
-
- callingstationid 
-
- aruba_clearpass.callingstationid 
+ aruba_clearpass.sponsor_profile_name 
 
  — 
 
- Calling station ID 
+ Sponsor profile name 
 
- arubauservlan 
+ state 
 
- aruba_clearpass.arubauservlan 
-
- VLAN ID 
-
- Aruba user VLAN ID 
-
- arubauserrole 
-
- aruba_clearpass.arubauserrole 
+ aruba_clearpass.state 
 
  — 
 
- Aruba user role 
+ State 
 
- nasipaddress 
+ total_traffic 
 
- aruba_clearpass.nasipaddress 
+ aruba_clearpass.total_traffic 
 
  — 
 
- NAS IP address 
+ Total traffic 
 
- username 
+ updated_at 
 
- aruba_clearpass.username 
+ aruba_clearpass.updated_at 
 
- last_ad_username 
+ — 
 
- Username 
+ Updated at 
 
- Wired Session Attributes 
+ visitor_carrier 
 
- Device Security collects wired session attributes from the Aruba ClearPass Insight wired session API. Each record describes a wired authentication session.
+ aruba_clearpass.visitor_carrier 
+
+ — 
+
+ Visitor carrier 
+
+ visitor_company 
+
+ aruba_clearpass.visitor_company 
+
+ — 
+
+ Visitor company 
+
+ visitor_name 
+
+ aruba_clearpass.visitor_name 
+
+ — 
+
+ Visitor name 
+
+ visitor_phone 
+
+ aruba_clearpass.visitor_phone 
+
+ — 
+
+ Visitor phone 
+
+ Insight Wired Session Attributes 
+
+ Device Security collects insight wired session attributes from Aruba ClearPass. The following table lists each Aruba ClearPass attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
  Aruba ClearPass Attribute 
 
@@ -413,45 +557,361 @@ Aruba ClearPass Attribute Reference
 
  Description 
 
- calledstationid 
+ username 
 
- — 
+ aruba_clearpass.username 
 
- Switch MAC 
+ AD Username 
 
- Called station ID 
-
- nasipaddress 
-
- — 
-
- Switch IP 
-
- NAS IP address 
-
- nas_name 
-
- — 
-
- switch_name 
-
- NAS name 
-
- framedipaddress 
-
- — 
-
- ipv4_address 
-
- Framed IP address 
+ Username associated with the device 
 
  mac_address 
 
- — 
+ aruba_clearpass.mac_address 
 
  id; MAC 
 
- MAC address 
+ Mac address 
+
+ framedipaddress 
+
+ aruba_clearpass.framedipaddress 
+
+ IP Address 
+
+ Framedipaddress 
+
+ nasipaddress 
+
+ aruba_clearpass.nasipaddress 
+
+ Switch IP 
+
+ Nasipaddress 
+
+ calledstationid 
+
+ aruba_clearpass.calledstationid 
+
+ Switch MAC 
+
+ Calledstationid 
+
+ nas_name 
+
+ aruba_clearpass.nas_name 
+
+ switch_name 
+
+ Nas name 
+
+ arubauservlan 
+
+ aruba_clearpass.arubauservlan 
+
+ VLAN ID 
+
+ Arubauservlan 
+
+ acct_id 
+
+ aruba_clearpass.acct_id 
+
+ — 
+
+ Acct ID 
+
+ acctinputoctets 
+
+ aruba_clearpass.acctinputoctets 
+
+ — 
+
+ Acctinputoctets 
+
+ acctoutputoctets 
+
+ aruba_clearpass.acctoutputoctets 
+
+ — 
+
+ Acctoutputoctets 
+
+ acctsessionid 
+
+ aruba_clearpass.acctsessionid 
+
+ — 
+
+ Acctsessionid 
+
+ acctsessiontime 
+
+ aruba_clearpass.acctsessiontime 
+
+ — 
+
+ Acctsessiontime 
+
+ acctstarttime 
+
+ aruba_clearpass.acctstarttime 
+
+ — 
+
+ Acctstarttime 
+
+ acctstoptime 
+
+ aruba_clearpass.acctstoptime 
+
+ — 
+
+ Acctstoptime 
+
+ acctterminatecause 
+
+ aruba_clearpass.acctterminatecause 
+
+ — 
+
+ Acctterminatecause 
+
+ ap_name 
+
+ aruba_clearpass.ap_name 
+
+ — 
+
+ Ap name 
+
+ arubauserrole 
+
+ aruba_clearpass.arubauserrole 
+
+ — 
+
+ Arubauserrole 
+
+ callingstationid 
+
+ aruba_clearpass.callingstationid 
+
+ — 
+
+ Callingstationid 
+
+ cppm_uuid 
+
+ aruba_clearpass.cppm_uuid 
+
+ — 
+
+ Cppm uuid 
+
+ id 
+
+ aruba_clearpass.id 
+
+ — 
+
+ Id 
+
+ nasportid 
+
+ aruba_clearpass.nasportid 
+
+ — 
+
+ Nasportid 
+
+ nasporttype 
+
+ aruba_clearpass.nasporttype 
+
+ — 
+
+ Nasporttype 
+
+ role_name 
+
+ aruba_clearpass.role_name 
+
+ — 
+
+ Role name 
+
+ servicetype 
+
+ aruba_clearpass.servicetype 
+
+ — 
+
+ Servicetype 
+
+ state 
+
+ aruba_clearpass.session.state 
+
+ — 
+
+ State 
+
+ sponsor_email 
+
+ aruba_clearpass.sponsor_email 
+
+ — 
+
+ Sponsor email 
+
+ sponsor_name 
+
+ aruba_clearpass.sponsor_name 
+
+ — 
+
+ Sponsor name 
+
+ sponsor_profile_name 
+
+ aruba_clearpass.sponsor_profile_name 
+
+ — 
+
+ Sponsor profile name 
+
+ ssid 
+
+ aruba_clearpass.ssid 
+
+ — 
+
+ Ssid 
+
+ state 
+
+ aruba_clearpass.state 
+
+ — 
+
+ State 
+
+ total_traffic 
+
+ aruba_clearpass.total_traffic 
+
+ — 
+
+ Total traffic 
+
+ updated_at 
+
+ aruba_clearpass.updated_at 
+
+ — 
+
+ Updated at 
+
+ visitor_carrier 
+
+ aruba_clearpass.visitor_carrier 
+
+ — 
+
+ Visitor carrier 
+
+ visitor_company 
+
+ aruba_clearpass.visitor_company 
+
+ — 
+
+ Visitor company 
+
+ visitor_name 
+
+ aruba_clearpass.visitor_name 
+
+ — 
+
+ Visitor name 
+
+ visitor_phone 
+
+ aruba_clearpass.visitor_phone 
+
+ — 
+
+ Visitor phone 
+
+ Endpoint Attributes 
+
+ Device Security collects endpoint attributes from Aruba ClearPass. The following table lists each Aruba ClearPass attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
+
+ Aruba ClearPass Attribute 
+
+ Device Security Attribute Name 
+
+ Device Security Common Attribute* 
+
+ Description 
+
+ mac_address 
+
+ aruba_clearpass.mac_address 
+
+ MAC; id 
+
+ Mac address 
+
+ added_at 
+
+ aruba_clearpass.added_at 
+
+ — 
+
+ Added at 
+
+ attributes 
+
+ aruba_clearpass.attributes 
+
+ — 
+
+ Attributes 
+
+ id 
+
+ aruba_clearpass.id 
+
+ — 
+
+ Id 
+
+ randomized_mac 
+
+ aruba_clearpass.randomized_mac 
+
+ — 
+
+ MAC address of the randomized 
+
+ status 
+
+ aruba_clearpass.status 
+
+ — 
+
+ Status of the device 
+
+ updated_at 
+
+ aruba_clearpass.updated_at 
+
+ — 
+
+ Updated at 
 
  * Only some attributes map to a Device Security Common Attribute. 
 
@@ -461,54 +921,4 @@ Aruba ClearPass Attribute Reference
 
  Next 
 
- Aruba WLC Attribute Reference 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Reference 
-
- Cloud-Delivered Security Services 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Aruba WLAN Attribute Reference

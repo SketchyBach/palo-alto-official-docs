@@ -1,68 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/administration/netsec-health
-fetched_at: 2026-08-13T15:29:45Z
+fetched_at: 2026-09-15T15:08:46Z
 source: palo-alto-main
 ---
 
 # Monitor User Devices, Sites, and Applications with the NetSec Health Dashboard Clear
 
-Monitor User Devices, Sites, and Applications with the NetSec Health Dashboard 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Monitor User Devices, Sites, and Applications with the NetSec Health Dashboard 
-
- Updated on 
-
- Wed Aug 12 08:13:05 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Wed Aug 12 08:13:05 PDT 2026 
 
@@ -170,50 +114,4 @@ The NetSec Health dashboard provides comprehensive visibility into your
  by AI-Powered ADEM in every Prisma Access location. 
 
  View detailed connectivity from users to PA locations and PA locations to data
- centers and application servers. 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ centers and application servers.

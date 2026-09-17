@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/threat-management/analytics/ai-detection-and-response-in-cortex-cloud/collect-prompt-logs/enable-prompt-log-collection-in-azure/configure-the-azure-event-hub-collection-in-cortex-cloud
-fetched_at: 2026-09-06T09:54:32Z
+fetched_at: 2026-09-16T08:44:37Z
 source: cortex-platform
 ---
 
@@ -39,6 +39,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up prompt logging 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

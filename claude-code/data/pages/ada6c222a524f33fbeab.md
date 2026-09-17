@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/asset-management/all-cloud-assets/asset-hierarchy
-fetched_at: 2026-09-06T09:43:13Z
+fetched_at: 2026-09-16T08:42:51Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-release-notes
-fetched_at: 2026-09-06T10:54:10Z
+fetched_at: 2026-09-16T09:02:22Z
 source: cortex-platform
 ---
 

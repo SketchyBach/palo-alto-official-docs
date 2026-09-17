@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-threat-intel-management-guides/6.13/configure-indicators/threat-intel-feeds/feed-integrations/feed-triggered-jobs
-fetched_at: 2026-09-06T10:49:50Z
+fetched_at: 2026-09-16T08:58:01Z
 source: cortex-platform
 ---
 
@@ -149,6 +149,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set the Source Reliability of Enrichment Integrations 
 
- Last updated 3 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

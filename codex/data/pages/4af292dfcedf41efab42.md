@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/compute/appsec-k8s-79
-fetched_at: 2026-09-06T11:11:48Z
+fetched_at: 2026-09-16T09:09:04Z
 source: cortex-platform
 ---
 

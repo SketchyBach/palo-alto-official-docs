@@ -1,0 +1,99 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/release-notes/prisma-agent-release-information/prisma-agent-known-issues/known-issues-in-prisma-agent-25-3
+fetched_at: 2026-09-16T08:21:24Z
+source: palo-alto-main
+---
+
+# Prisma Agent 25.3 Known Issues Clear
+
+Updated on 
+
+ Mon Aug 31 00:45:22 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Prisma Agent Release Notes 
+
+ Prisma Agent Release Information 
+
+ Prisma Agent Known Issues 
+
+ Prisma Agent 25.3 Known Issues 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ Prisma Agent 25.3 Known Issues 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Prisma Agent 25.3.1 Known Issues 
+
+ Next 
+
+ Prisma Agent 25.1 Known Issues 
+
+ Prisma Agent 25.3 Known Issues 
+
+ Review the known issues in Prisma Agent 25.3. 
+
+ Prisma Agent version 25.3 has the following known issues: 
+
+ Issue ID Description 
+
+ PANG-7865 
+ Resolved in Prisma Agent 25.4 
+
+ An issue exists where the Prisma Agent on Windows does not
+ properly honor updated session timers after a user extends their
+ session through the embedded browser. 
+
+ When a user clicks on the session expiry banner displayed in the
+ Prisma Agent app, the embedded browser opens and enables the
+ user to authenticate, successfully extending the Prisma Agent 
+ Manager (EPM) session with a new expiration time. However, the
+ Prisma Agent continues to use the original session expiration
+ timer instead of adopting the newly extended session duration. 
+
+ As a result, when the original session timer expires, Prisma Agent incorrectly terminates the EPM session despite the successful
+ extension. Additionally, the Prisma Agent icon becomes
+ unresponsive in the system tray after this occurs. 
+
+ PANG-7012 
+ Resolved in Prisma Agent 25.3.1 
+
+ An issue exists where the embedded browser for Prisma Agent 
+ does not reuse the Windows Hello token for reauthentication. As a
+ result, users are required to manually enter their credentials even
+ when Windows Hello is enabled on their devices. 
+
+ Previous 
+
+ Prisma Agent 25.3.1 Known Issues 
+
+ Next 
+
+ Prisma Agent 25.1 Known Issues

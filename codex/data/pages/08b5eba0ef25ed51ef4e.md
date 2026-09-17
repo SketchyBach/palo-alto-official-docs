@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/cortex-advanced-email-security/automate-remediation-for-the-cortex-advanced-email-security-module
-fetched_at: 2026-09-06T09:34:41Z
+fetched_at: 2026-09-16T08:36:27Z
 source: cortex-platform
 ---
 

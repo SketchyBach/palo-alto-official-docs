@@ -1,70 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/cn-series/deployment/cn-deployment/deploy-the-cn-series-firewalls-new/deploy-the-cn-series-firewall-with-rancher-orchestration/setting-up-master-and-worker-node-on-rancher-cluster-
-fetched_at: 2026-08-13T15:31:16Z
+fetched_at: 2026-09-15T15:09:27Z
 source: palo-alto-main
 ---
 
 # Set up Master and Worker Node on Rancher Cluster Clear
 
-Set up Master and Worker Node on Rancher Cluster 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Set up Master and Worker Node on Rancher Cluster 
-
- Updated on 
-
- Dec 2, 2024 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- CN-Series Firewall Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Deployment 
-
- Select a Document 
-
- Deployment Modes 
-
- In-Cloud and On-Prem 
-
- Upgrade 
-
- Troubleshooting 
-
- Release Notes 
-
- Updated on 
+Updated on 
 
  Dec 2, 2024 
 
@@ -156,58 +98,4 @@ nodes, you will see that Rancher cluster is ready as shown below:
 
  Next 
 
- Modify the Rancher Cluster Options YAML File 
-
- On This Page 
-
- Activation & Onboarding 
-
- Activate a License or Product 
-
- Strata Logging Service 
-
- Next-Generation Firewalls 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- VM-Series 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- IoT Security 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Translated Documents 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Deployment 
-
- AWS 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Modify the Rancher Cluster Options YAML File

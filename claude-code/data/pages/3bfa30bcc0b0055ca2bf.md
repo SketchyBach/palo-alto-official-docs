@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/configure-cortex-xsoar/customize-and-configure-cortex-xsoar/playbooks/playbook-task-fields/communication-tasks/add-ad-hoc-tasks-to-a-work-plan
-fetched_at: 2026-09-06T10:48:24Z
+fetched_at: 2026-09-16T08:57:38Z
 source: cortex-platform
 ---
 

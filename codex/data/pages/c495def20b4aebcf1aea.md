@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/configure-cortex-xsoar/playbooks/customize-your-playbook/playbook-polling
-fetched_at: 2026-09-06T10:22:37Z
+fetched_at: 2026-09-16T08:52:28Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xpanse/dashboards-and-reports/widget-library
-fetched_at: 2026-09-06T10:52:26Z
+fetched_at: 2026-09-16T08:59:15Z
 source: cortex-platform
 ---
 

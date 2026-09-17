@@ -1,0 +1,107 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/enterprise-dlp/administration/configure-enterprise-dlp/email-dlp/onboard-gmail.html
+fetched_at: 2026-09-16T13:01:43Z
+source: palo-alto-main
+---
+
+# Onboard Gmail Clear
+
+Updated on 
+
+ Thu Sep 10 12:41:05 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Enterprise DLP 
+
+ Administration 
+
+ Configure Enterprise DLP 
+
+ Email DLP 
+
+ Onboard Gmail 
+
+ Download PDF 
+
+ Enterprise DLP 
+
+ Onboard Gmail 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Enterprise DLP Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features by OS Version 
+
+ New Features by Month 
+
+ Previous 
+
+ Obtain Your Microsoft Exchange Domain and Relay Host 
+
+ Next 
+
+ Connect Gmail and Enterprise DLP 
+
+ Onboard Gmail 
+
+ Onboard Gmail to Enterprise Data Loss Prevention (E-DLP) for inline inspection of
+ emails. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Data Security 
+
+ One of the following licenses that include the Enterprise DLP license 
+
+ Review the Supported
+ Platforms for details on the required license
+ for each enforcement point. 
+
+ Prisma Access CASB license 
+
+ Next-Generation
+CASB for Prisma Access and NGFW (CASB-X) license 
+
+ Data Security license 
+
+ Email DLP license 
+
+ Use the links below to connect and onboard one or more Gmail email domain to Email DLP to
+ prevent sensitive data exfiltration contained in outbound emails using Enterprise Data Loss Prevention (E-DLP) . After you connect your email domains, you must create
+ connectors and transport rules to route traffic based on verdicts rendered by Enterprise DLP . 
+
+ Connect Gmail and Enterprise DLP 
+
+ Set Up the Email DLP Host 
+
+ Set Up a Proofpoint Server for Email Encryption 
+
+ Create Gmail Transport Rules 
+
+ Previous 
+
+ Obtain Your Microsoft Exchange Domain and Relay Host 
+
+ Next 
+
+ Connect Gmail and Enterprise DLP

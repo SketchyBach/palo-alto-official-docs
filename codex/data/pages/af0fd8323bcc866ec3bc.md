@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/generic-on-premise-data-collectors/xdr-collectors/manage-xdr-collectors/xdr-collectors-installation-resource-for-windows-and-linux
-fetched_at: 2026-09-06T09:27:46Z
+fetched_at: 2026-09-16T08:32:53Z
 source: cortex-platform
 ---
 
@@ -113,6 +113,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create an XDR Collector installation package 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

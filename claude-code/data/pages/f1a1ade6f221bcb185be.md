@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/9.3/cortex-xdr-agent-for-macos
-fetched_at: 2026-09-06T10:20:09Z
+fetched_at: 2026-09-16T08:51:30Z
 source: cortex-platform
 ---
 

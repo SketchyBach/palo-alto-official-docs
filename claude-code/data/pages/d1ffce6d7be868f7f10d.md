@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/may-2025/protect-ai-agent-workflows-on-low-code-or-no-code-platforms
-fetched_at: 2026-08-13T17:46:42Z
+fetched_at: 2026-09-16T07:53:44Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

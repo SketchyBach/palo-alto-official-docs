@@ -1,0 +1,246 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/prisma-access-advanced-deployments/ipv6-support-for-private-app-access/enable-ipv6-networking-for-a-mobile-users-globalprotect-deployment.html
+fetched_at: 2026-09-16T11:36:43Z
+source: palo-alto-main
+---
+
+# Enable IPv6 Networking for Mobile Users—GlobalProtect Deployment Clear
+
+Updated on 
+
+ Sep 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Advanced Deployments 
+
+ IPv6 Support 
+
+ Enable IPv6 Networking for Mobile Users—GlobalProtect Deployment 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Enable IPv6 Networking for Mobile Users—GlobalProtect Deployment 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Enable and Configure IPv6 Networking and IP Pools in Your Prisma Access Infrastructure 
+
+ Next 
+
+ Enable IPv6 Networking for Service Connections 
+
+ Enable IPv6 Networking for Mobile Users—GlobalProtect Deployment 
+
+ How to enable IPv6 networking for a Prisma Access Mobile Users—GlobalProtect
+ deployment. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Prisma Access license version 2.2 Preferred and
+ later 
+
+ Native IPv6 access to public and
+ private apps requires the following minimum releases: 
+ Prisma Access (Managed by Strata Cloud Manager) : June 2024 release 
+
+ Prisma Access (Managed by Panorama) : Prisma Access 5.1.1 for new
+ deployments only. 
+
+ Any other deployments (including existing Prisma Access (Managed by Panorama) deployments) support private app
+ access only. 
+
+ In addition to specifying mobile user IP address pools , you
+ must configure IPv6 Availability for your Mobile
+ Users—GlobalProtect deployments. If your network uses IPv6 DNS servers to resolve
+ internal domains, you can also specify IPv6 addresses for primary and secondary DNS
+ servers, as shown in the following section. 
+
+ Strata Cloud Manager 
+
+ Panorama 
+
+ Enable IPv6 Networking for Mobile Users—GlobalProtect Deployment ( Strata Cloud Manager ) 
+
+ In addition to specifying mobile user IP address pools , you
+ must configure IPv6 Availability for your Mobile
+ Users—GlobalProtect deployments. If your network uses IPv6 DNS servers to resolve
+ internal domains, you can also specify IPv6 addresses for primary and secondary DNS
+ servers, as shown in the following section. 
+
+ Plan if you want to deploy IPv6 across your entire Prisma Access deployment, or
+ for only a certain number of compute locations . 
+
+ Configure IPv6 availability for the regions where you want to deploy
+ IPv6. 
+
+ Select Configuration NGFW and Prisma Access Configuration Scope Prisma Access GlobalProtect and select the gear icon to edit the
+ Infrastructure Settings . 
+
+ In the IPv6 Settings select the locations for
+ which you want to enable IPv6 and Enable 
+ it. 
+
+ All locations are associated to a compute location. If locations in a
+ compute location do not have IPv6 enabled, leave that compute
+ location deselected. 
+
+ ( Optional ) If your internal DNS servers use are reachable by IPv6
+ addresses, select Add Region from the Client
+ DNS section, select the check box to Resolve Internal
+ Domains , Add a rule or specify the
+ default rule, and specify Custom DNS Server IPv6
+ addresses for the Primary DNS and Secondary
+ DNS server. 
+
+ If you enter IPv6 addresses for DNS servers, you must also have IPv6
+ addresses in your mobile user IP address pool. 
+
+ You can enter any combination of IPv4 or IPv6 addresses for primary and
+ secondary DNS servers. If you enter an IPv6 address for the primary DNS
+ server and an IPv4 address for the secondary DNS server, and a DNS query is
+ received from a compute location that does not have IPv6
+ Availability enabled, Prisma Access uses the secondary DNS
+ server because it uses an IPv4 address. 
+
+ IPv4 addresses use A records, while IPv6 addresses use AAAA records. Some
+ DNS servers can perform AAAA DNS lookups over IPv4 transport; therefore,
+ you might not need a server with an IPv6 IP address. 
+
+ ( Optional ) If you haven't yet completed the mobile users
+ configuration, complete it now. See Set Up GlobalProtect Mobile Users for details. 
+
+ Push Config to deploy your changes to you network. 
+
+ Enable IPv6 Networking for Mobile Users—GlobalProtect Deployment ( Panorama ) 
+
+ In addition to specifying mobile user IP address pools , you
+ must configure IPv6 Availability for your Mobile
+ Users—GlobalProtect deployments. If your network uses IPv6 DNS servers to resolve
+ internal domains, you can also specify IPv6 addresses for primary and secondary DNS
+ servers, as shown in the following section. 
+
+ Plan if you want to deploy IPv6 across your entire Prisma Access 
+ deployment, or for only a certain number of compute locations . 
+
+ Configure IPv6 availability for the regions where you want to deploy
+ IPv6. 
+
+ In the IPv6 Availability tab, Enable
+ IPv6 for the locations for which you want to enable
+ IPv6. 
+
+ All locations are associated to a compute location. If locations in a
+ compute location do not have IPv6 enabled, leave that compute
+ location deselected. 
+
+ ( Optional ) If your internal DNS servers use are reachable by IPv6
+ addresses, click the Network Services tab,
+ Add a rule or specify the default rule, and specify
+ Custom DNS Server IPv6 addresses for the
+ Primary DNS and Secondary DNS 
+ server. 
+
+ If you enter IPv6 addresses for DNS servers, you must also have IPv6
+ addresses in your mobile user IP address pool. 
+
+ You can enter any combination of IPv4 or IPv6 addresses for primary and
+ secondary DNS servers. If you enter an IPv6 address for the primary DNS
+ server and an IPv4 address for the secondary DNS server, and a DNS query is
+ received from a compute location that does not have IPv6
+ Availability enabled, Prisma Access uses the secondary
+ DNS server because it uses an IPv4 address. 
+
+ IPv4 addresses use A records, while IPv6 addresses use AAAA records. Some
+ DNS servers can perform AAAA DNS lookups over IPv4 transport; therefore,
+ you might not need a server with an IPv6 IP address. 
+
+ ( Optional ) If you have not yet completed the mobile users
+ configuration, complete it now. See Set Up GlobalProtect Mobile Users for details. 
+
+ Commit and Push your changes. 
+
+ Previous 
+
+ Enable and Configure IPv6 Networking and IP Pools in Your Prisma Access Infrastructure 
+
+ Next 
+
+ Enable IPv6 Networking for Service Connections

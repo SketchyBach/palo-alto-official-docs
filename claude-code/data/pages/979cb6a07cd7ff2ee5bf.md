@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/google/google-kubernetes-engine
-fetched_at: 2026-09-06T10:00:04Z
+fetched_at: 2026-09-16T08:46:01Z
 source: cortex-platform
 ---
 
@@ -57,6 +57,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Ingest logs from Google Kubernetes Engine 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

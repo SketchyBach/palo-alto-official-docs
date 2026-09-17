@@ -1,0 +1,142 @@
+---
+url: https://docs.paloaltonetworks.com/hardware/pa-3500-hardware-reference/pa-3500-series-firewall-maintenance/replace-a-pa-3500-series-firewall-system-drive
+fetched_at: 2026-09-16T08:20:36Z
+source: palo-alto-main
+---
+
+# Replace a PA-3500 Series Firewall System Drive Clear
+
+Updated on 
+
+ Wed Aug 19 00:20:13 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-3500 Series Hardware Reference 
+
+ PA-3500 Series Firewall Maintenance 
+
+ Replace a PA-3500 Series Firewall System Drive 
+
+ Download PDF 
+
+ PA-3500 Series Hardware Reference 
+
+ Replace a PA-3500 Series Firewall System Drive 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Safety and Compliance 
+
+ Safety Warnings 
+
+ Compliance Statements 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-3500 Series Firewall Overview 
+
+ PA-3500 Series Firewall Components 
+
+ PA-3510 and PA-3520 
+
+ PA-3530 and PA-3540 
+
+ PA-3500 Series Firewall Installation 
+
+ Install the PA-3500 Series Firewall in an Equipment Rack 
+
+ PA-3510 and PA-3520 
+
+ PA-3530 and PA-3540 
+
+ Connect AC Power to the PA-3500 Series Firewall 
+
+ Connect DC Power to the PA-3500 Series Firewall 
+
+ Set Up a Connection to the Firewall 
+
+ Connect Cables to the PA-3500 Series Firewall 
+
+ PA-3500 Series Firewall Maintenance 
+
+ PA-3500 Series Firewall LED Definitions 
+
+ Replace a PA-3500 Series Firewall Power Supply 
+
+ Replace a PA-3500 Series Firewall Fan Assembly 
+
+ Replace a PA-3500 Series Firewall System Drive 
+
+ PA-3500 Series Firewall Specifications 
+
+ PA-3500 Series Firewall Physical Specifications 
+
+ PA-3500 Series Firewall Electrical Specifications 
+
+ PA-3500 Series Firewall Power Cord Types 
+
+ PA-3500 Series Firewall Environmental Specifications 
+
+ Replace a PA-3500 Series Firewall System Drive 
+
+ Learn how to replace a system drive SSD on the PA-3500 Series Firewall. 
+
+ The PA-3500 Series firewalls uses a single solid-state drive (SSD) to store the
+ PAN-OS system files, system logs, and network traffic logs. The drive is embedded
+ into a module that slides in and out of the front panel of the firewall. 
+
+ The replacement drives ship with a factory default PAN-OS image with the default
+ configuration. After you install the new drive, you will need to obtain a backup configuration that you saved
+ from the failed firewall to restore your configuration. 
+
+ To avoid injury to yourself or damage to your Palo Alto Networks® hardware or the
+ data that resides on the hardware, read the Safety Warnings . 
+
+ The following procedure describes how to replace a failed system drive. 
+
+ Confirm that a drive has failed by issuing the following command: 
+
+ admin@PA-3540> show system disk details 
+
+ Disconnect power from the firewall, then remove the power cords. 
+
+ Unscrew the captive screw on the system drive cover on the front side of the
+ firewall. See PA-3500 Series Firewall Components for help locating the system
+ drive cover. 
+
+ Pull the SSD module out of the firewall. 
+
+ Remove the replacement drive from the packaging, determine the drive model, and
+ place it on an antistatic surface. 
+
+ Slide the replacement SSD module onto the rails and gently push it into the
+ firewall. Re-fasten the captive screw until the module is secure in the
+ appliance. 
+
+ After powering on the firewall, verify that the system drives are functioning
+ properly by running the following command: 
+
+ admin@PA-3540> show system disk details 
+
+ Previous 
+
+ Replace a PA-3500 Series Firewall Fan Assembly 
+
+ Next 
+
+ PA-3500 Series Firewall Specifications

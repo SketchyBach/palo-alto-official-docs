@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-8-api/cortex-xsoar-8.x-apis/xsoar-8-tables
-fetched_at: 2026-09-06T10:56:20Z
+fetched_at: 2026-09-16T09:04:09Z
 source: cortex-platform
 ---
 
@@ -1145,6 +1145,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous Models 
 
- Last updated 21 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

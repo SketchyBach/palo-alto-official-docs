@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/administration/discover-iot-devices-and-take-inventory/devices-with-static-ip-addresses/add-a-static-ip-device-configuration
-fetched_at: 2026-08-13T16:36:22Z
+fetched_at: 2026-09-15T15:14:37Z
 source: palo-alto-main
 ---
 
 # Add a Static IP Device Configuration Clear
 
-Add a Static IP Device Configuration 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Add a Static IP Device Configuration 
-
- Updated on 
-
- Thu Jul 30 16:42:12 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu Jul 30 16:42:12 PDT 2026 
+ Aug 6, 2026 
 
  Focus 
 
@@ -311,52 +255,4 @@ Static IP Devices page to see the updated data.
 
  Next 
 
- Upload a List of Subnets with Only Static IP Addresses 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Administration 
-
- Cloud-Delivered Security Services 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Upload a List of Subnets with Only Static IP Addresses

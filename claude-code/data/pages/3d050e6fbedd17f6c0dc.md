@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xdr-5-api/issues-apis/issues-papi-tables
-fetched_at: 2026-09-06T10:55:24Z
+fetched_at: 2026-09-16T09:03:58Z
 source: cortex-platform
 ---
 
@@ -2759,6 +2759,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Logging and Collection Service Management overview 
 
- Last updated 22 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

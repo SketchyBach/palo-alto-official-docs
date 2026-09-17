@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/windows-cgo-actor-process-and-action-module-with-anomalous-characteristics
-fetched_at: 2026-09-06T11:10:36Z
+fetched_at: 2026-09-16T09:08:56Z
 source: cortex-platform
 ---
 

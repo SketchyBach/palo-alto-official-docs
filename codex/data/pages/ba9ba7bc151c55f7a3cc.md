@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/configure-the-cortex-agentic-assistant-1/agents-hub/manage-agents
-fetched_at: 2026-09-06T09:28:43Z
+fetched_at: 2026-09-16T08:33:55Z
 source: cortex-platform
 ---
 
@@ -71,6 +71,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Build agents 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

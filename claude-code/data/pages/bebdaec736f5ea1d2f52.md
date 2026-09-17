@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/integration/asset-management/integrate-iot-security-with-servicenow/send-security-alerts-to-servicenow
-fetched_at: 2026-08-13T16:36:56Z
+fetched_at: 2026-09-16T07:23:37Z
 source: palo-alto-main
 ---
 
 # Send Security Alerts to ServiceNow Clear
 
-Send Security Alerts to ServiceNow 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Send Security Alerts to ServiceNow 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
+ Mon Aug 17 11:22:37 PDT 2026 
 
  Focus 
 
@@ -133,9 +77,9 @@ Send Security Alerts to ServiceNow
 
  One of the following subscriptions: 
 
- Device Security subscription for an advanced
- Device Security product (Enterprise Plus,
- Industrial OT, or Medical)
+ Device Security subscription
+
+ Precision AI bundle subscription
 
  Device Security X subscription
 
@@ -255,52 +199,4 @@ and from the Alerts section on the Device Details page.
 
  Next 
 
- Send Vulnerabilities to ServiceNow 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Cloud-Delivered Security Services 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Send Vulnerabilities to ServiceNow

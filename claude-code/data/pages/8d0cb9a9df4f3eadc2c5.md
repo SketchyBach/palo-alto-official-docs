@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/data-management/broker-vm/broker-vm-high-availability-cluster/manage-broker-vm-clusters
-fetched_at: 2026-09-06T10:08:36Z
+fetched_at: 2026-09-16T08:48:12Z
 source: cortex-platform
 ---
 

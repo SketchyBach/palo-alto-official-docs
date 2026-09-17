@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/onboard-cortex-xdr/post-deployment-steps/manage-user-roles-and-access-management
-fetched_at: 2026-09-06T09:38:55Z
+fetched_at: 2026-09-16T08:37:58Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage user roles 
 
- Last updated 1 month ago 
+ Last updated 9 days ago 
 
  Was this helpful?

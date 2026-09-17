@@ -1,0 +1,212 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/iot.html
+fetched_at: 2026-09-16T09:17:30Z
+source: palo-alto-main
+---
+
+# Device Security Clear
+
+Updated on 
+
+ Sep 14, 2026 
+
+ Focus 
+
+ Home 
+
+ Device Security 
+
+ Device Security 
+
+ The Device Security solution works with next-generation firewalls and Prisma to dynamically discover and maintain a real-time inventory of all connected assets in your network. Through AI and machine-learning algorithms, Device Security discovers and identifies unmanaged and managed IT and IoT/OT devices with a high level of accuracy. Use Device Security’s proactive monitoring and recommendations to mitigate risks from rapidly evolving threats. With a Device Security subscription, you get: 
+
+ Aggregated visibility  – Discover and identify all assets, including unmanaged, IT, IoT, and OT devices. Device Security uses passive and active traffic monitoring, as well as third-party integrations, to identify over 2,000 attributes. This provides an enriched risk context and gives greater visibility into security hygiene and control gap assessment. 
+
+ Actionable risk insights & prioritization  – View deeper insights into your network’s risks and cyber hygiene. With more information about vulnerabilities (such as CVSS and EPSS, and CISA KEV) and asset criticality assessments, you get more context to understand and act on security recommendations. 
+
+ Proactive risk mitigation  – Secure your environment with better built-in tools and more expansive options. Device Security alerts you to anomaly detections. With Advanced Device-ID, you can create targeted, adaptive device policies, while also taking advantage of virtual patching with NGFW. Unify management of your security controls with pre-built integrations for third-party tools. 
+
+ Compliance & reporting  – Create reports and dashboards to quickly view risk and compliance statuses. Build out customizable dashboards and widgets tailored to what you care about and need to know. A highly flexible query builder helps you drill down to the contexts that you need, while out-of-the-box frameworks provide a convenient way to view compliance with standards such as NIST CSF. 
+
+ Documentation Updates 
+
+ 14 September 2026 
+
+ Added documentation for: 
+
+ [New] Activate Device Security: Activation for Precision AI Network Security Bundle 
+
+ [Updated] Integrate Device Security with Cortex XDR for XQL Support 
+
+ 10 September 2026 
+ Published the August 2026 Device Security Release Notes 
+
+ 01 September 2026 
+
+ Published the Network Discovery Plugin 3.2.1 Release Notes 
+
+ Added documentation for: 
+
+ [New] Activate Device Security: Activation for Device Security China 
+
+ 21 August 2026 
+
+ Added documentation for: 
+
+ [New] Prepare Your Firewall for Device Security in a China Tenant 
+
+ 17 August 2026 
+
+ Added documentation for: 
+
+ [Updated] Integrate Device Security with Cisco Meraki Cloud 
+
+ 13 August 2026 
+
+ Added documentation for: 
+
+ [New] Role-Based Access Control 
+
+ [New] Integrate Device Security with Nozomi CMC 
+
+ [New] Integrate Device Security with Nozomi Vantage 
+
+ 12 August 2026 
+ Published the July 2026 Device Security Release Notes 
+
+ 06 August 2026 
+
+ Added documentation for: 
+
+ [New] Take Automated Actions with Action Center 
+
+ 30 July 2026 
+
+ Added documentation for PAN-OS 12.2.2: 
+
+ [New] Device Context Segments 
+
+ [Updated] Configure Policies for Log Forwarding 
+
+ 28 July 2026 
+ Published the Network Discovery Plugin 3.2.0 Release Notes 
+
+ 23 July 2026 
+ Published the Network Discovery Plugin 2.4.0 Release Notes 
+
+ 08 July 2026 
+ Published the June 2026 Device Security Release Notes 
+
+ 16 June 2026 
+
+ Added documentation for: 
+
+ [New] Process Zones for Network Visualizations 
+
+ [Updated]  Use SNMP Network Discovery to Learn about Devices from Switches 
+
+ 05 June 2026 
+ Published the May 2026 Device Security Release Notes 
+
+ 21 May 2026 
+
+ Added documentation for: 
+
+ Scope-Based Access Control 
+
+ 12 May 2026 
+
+ Added documentation for: 
+
+ Attribute Reference for integrations 
+
+ 06 May 2026 
+ Published the  April 2026 Device Security Release Notes 
+
+ 01 May 2026 
+
+ Added documentation for: 
+
+ [New] Integrate Device Security with Philips Focal Point 
+
+ 08 April 2026 
+ Published the  March 2026 Device Security Release Notes 
+
+ 02 April 2026 
+
+ Published the  Network Discovery Plugin 2.3.3 Release Notes 
+
+ Added documentation for: 
+
+ [Updated] Integrate Device Security with Infoblox IPAM 
+
+ 30 March 2026 
+
+ Added documentation for: 
+
+ [New] Subnet-Site Mapping 
+
+ 18 March 2026 
+ Published the  Network Discovery Plugin 2.3.2 Release Notes 
+
+ 12 March 2026 
+ Published the  Network Discovery Plugin 3.1.0 Release Notes 
+
+ 10 March 2026 
+
+ Added documentation for: 
+
+ [New] Activate Device Security: Activation for Prisma Access add-on 
+
+ 06 March 2026 
+ Published the  February 2026 Device Security Release Notes 
+
+ Getting Started with Device Security 
+
+ Activate Your Device Security License 
+
+ Plan Your Deployment 
+
+ Discover Devices 
+
+ Introducing Device Security 
+
+ Device Security  is the breakthrough evolution of IoT/OT Security that enables customers to discover, assess, and proactively protect any device, whether they're unmanaged, managed, or IoT. Device Security provides aggregated visibility, actionable risks insights and prioritization, and built-in adaptive security to mitigate risks from rapidly evolving threats. 
+
+ You can learn more about Device Security by reading the Solution Brief  and by watching the Device Security Demo . 
+
+ Two Ways to Manage IoT Security 
+
+ IoT Security is moving into Strata Cloud Manager , Palo Alto Networks’ AI-powered, unified solution for network security management and operations. As we make this transition, the current IoT Security portal will be decommissioned in the next 3 to 6 months. In the meantime, existing tenants can continue to access the current IoT Security portal. If you onboard to IoT Security after June 2025, you can only manage IoT Security in Strata Cloud Manager. 
+
+ Review the docs to validate feature support based on the management interface you’re using; each topic covers feature parity and workflows across IoT Security in Strata Cloud Manager and the IoT Security portal. 
+
+ Device Security Release Notes 
+
+ View Now 
+
+ Experts Corner 
+
+ (Legacy) IoT Security Deployment Design Guide 
+
+ Read Now 
+
+ Videos 
+
+ Device Security Demo 
+
+ (Legacy) IoT Onboarding Walkthrough 
+
+ (Legacy) IoT Security Topology Explorer, Part 1 
+
+ Device (IoT) Security Migration into Strata Cloud Manager 
+
+ (Legacy) IoT Security Dashboard 
+
+ (Legacy) IoT Security Topology Explorer, Part 2 
+
+ Translated Documents
+
+ 中文 (Chinese Simplified)
+
+ IoT Security 管理员指南

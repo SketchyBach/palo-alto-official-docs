@@ -1,60 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-address-object-to-represent-ip-addresses/create-an-address-object
-fetched_at: 2026-08-13T17:09:59Z
+fetched_at: 2026-09-16T07:39:28Z
 source: palo-alto-main
 ---
 
 # Create an Address Object Clear
 
-Create an Address Object 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Create an Address Object 
-
- Updated on 
-
- Aug 11, 2025 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- 한국어 (Korean) 
-
- Filter
-
- Updated on 
+Updated on 
 
  Aug 11, 2025 
 
@@ -222,22 +174,4 @@ Create an Address Object
 
  Next 
 
- Use Tags to Group and Visually Distinguish Objects 
-
- On This Page 
-
- PAN-OS 
-
- Next-Generation Firewall 
-
- Policy 
-
- 11.1 
-
- Network Security 
-
- 11.1 & Later 
-
- Administration 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Use Tags to Group and Visually Distinguish Objects

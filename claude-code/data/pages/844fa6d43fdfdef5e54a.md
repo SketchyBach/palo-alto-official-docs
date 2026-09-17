@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix-docs/api-reference-guide
-fetched_at: 2026-09-06T09:18:52Z
+fetched_at: 2026-09-16T07:55:29Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/configure-cortex-xsoar/dashboards-and-reports/widgets/add-a-widget-in-the-war-room
-fetched_at: 2026-09-06T10:22:48Z
+fetched_at: 2026-09-16T08:52:31Z
 source: cortex-platform
 ---
 
@@ -134,6 +134,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Saved By Dbot (ROI) Widget 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

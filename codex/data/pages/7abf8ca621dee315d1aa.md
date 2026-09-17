@@ -1,0 +1,120 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/hardware/pa-800-hardware-reference/service-the-pa-800-series-firewall-hardware.html
+fetched_at: 2026-09-16T12:08:49Z
+source: palo-alto-main
+---
+
+# Service the PA-800 Series Firewall Hardware Clear
+
+Updated on 
+
+ Aug 31, 2023 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-800 Series Next-Gen Firewall Hardware Reference 
+
+ Service the PA-800 Series Firewall Hardware 
+
+ Download PDF 
+
+ English 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ 한국어 (Korean) 
+
+ Русский (Russian) 
+
+ Português (Portuguese) 
+
+ Tiếng Việt (Vietnamese) 
+
+ українська (Ukrainian) 
+
+ مصر (Arabic) 
+
+ ישראל (Hebrew) 
+
+ PA-800 Series Next-Gen Firewall Hardware Reference 
+
+ Service the PA-800 Series Firewall Hardware 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Product Safety Warnings 
+
+ PA-800 Firewall Overview 
+
+ PA-800 Front Panel 
+
+ PA-800 Back-Panel 
+
+ Install the PA-800 Series Firewall 
+
+ Install the PA-800 Series Firewall in a Two-Post 19-inch Equipment Rack 
+
+ Install the PA-800 Series Firewall in a Four-Post 19-inch Equipment Rack 
+
+ Connect Power to a PA-800 Series Firewall Overview 
+
+ Connect Power to a PA-800 Series Firewall 
+
+ Service the PA-800 Series Firewall Hardware 
+
+ Interpret the LEDs on a PA-800 Series Firewall 
+
+ Replace a Power Supply on a PA-850 Firewall 
+
+ PA-800 Series Firewall Specifications 
+
+ PA-800 Series Physical Specifications 
+
+ PA-800 Series Electrical Specifications 
+
+ PA-800 Series Environmental Specifications 
+
+ PA-800 Series Miscellaneous Specifications 
+
+ PA-800 Series Firewall Compliance Statements Overview 
+
+ PA-800 Series Firewall Compliance Statements 
+
+ Service the PA-800 Series Firewall Hardware 
+
+ The following topics describe how to
+interpret the PA-800 Series firewall status LEDs and how to replace
+a PA-850 power supply. The PA-820 firewall does not have serviceable
+components. 
+
+ Interpret the LEDs on a PA-800 Series Firewall 
+
+ Replace a Power Supply on a PA-850 Firewall 
+
+ Previous 
+
+ Connect Power to a PA-800 Series Firewall 
+
+ Next 
+
+ Interpret the LEDs on a PA-800 Series Firewall

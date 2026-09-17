@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/role-based-access-control/configuration-permissions/object-setup-permissions/sync-profile-permissions
-fetched_at: 2026-09-06T09:37:38Z
+fetched_at: 2026-09-16T08:37:31Z
 source: cortex-platform
 ---
 
@@ -121,6 +121,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Marketplace permissions 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

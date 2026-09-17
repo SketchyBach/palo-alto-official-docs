@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/case-concepts/issues-findings-and-events
-fetched_at: 2026-09-06T10:04:38Z
+fetched_at: 2026-09-16T08:47:07Z
 source: cortex-platform
 ---
 

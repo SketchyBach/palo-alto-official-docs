@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/elastic/windows-dhcp-via-elasticsearch-filebeat/ingest-logs-from-windows-dhcp-using-elasticsearch-filebeat
-fetched_at: 2026-09-06T09:23:42Z
+fetched_at: 2026-09-16T07:57:59Z
 source: cortex-platform
 ---
 
@@ -125,6 +125,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next ElasticSearch 
 
- Last updated 1 month ago 
+ Last updated 2 days ago 
 
  Was this helpful?

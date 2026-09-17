@@ -1,0 +1,148 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-sd-wan/administration/prisma-sd-wan-branch-and-data-center-routing/prisma-sd-wan-vrf.html
+fetched_at: 2026-09-16T12:40:44Z
+source: palo-alto-main
+---
+
+# Prisma SD-WAN VRF Clear
+
+Updated on 
+
+ Aug 24, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma SD-WAN 
+
+ Prisma SD-WAN Administrator’s Guide 
+
+ Prisma SD-WAN Branch and Data Center Routing 
+
+ Prisma SD-WAN VRF 
+
+ Download PDF 
+
+ Prisma SD-WAN 
+
+ Prisma SD-WAN VRF 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma SD-WAN Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ CloudBlades 
+
+ Select a Document 
+
+ CloudBlade Integrations 
+
+ CloudBlades Integration with Prisma Access 
+
+ Deployment 
+
+ Incidents & Alerts 
+
+ Reference 
+
+ Release Notes 
+
+ Select a Document 
+
+ ION 6.8 
+
+ ION 6.6 
+
+ ION 6.5 
+
+ ION 6.4 
+
+ ION 6.3 
+
+ ION 6.1 
+
+ ION 5.6 
+
+ Prisma SD-WAN Controller 
+
+ Prisma SD-WAN On-Premises Controller 
+
+ Prisma SD-WAN CloudBlades 
+
+ Prisma Access CloudBlade Cloud Managed 
+
+ Prisma Access CloudBlade Panorama Managed 
+
+ New Features 
+
+ Previous 
+
+ View Routing Statistics 
+
+ Next 
+
+ Configure a VRF Profile in Prisma SD-WAN 
+
+ Prisma SD-WAN VRF 
+
+ VRFs are a tool for segmenting networks and traffic optimization. This approach
+ divides a WAN into smaller and performance for better user experiences and
+ productivity. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma SD-WAN (Managed by Strata Cloud Manager ) 
+
+ Prisma SD-WAN 
+
+ Prisma SD-WAN supports Virtual Routing and Forwarding tables (VRFs) for Network (aka WAN)
+ segmentation of application traffic. Network segmentation is a design strategy that
+ divides a WAN into smaller, isolated networks, or segments. This approach helps to
+ improve network security, optimize network traffic, and ensure high availability of
+ network resources. 
+
+ By segmenting the network, you can isolate different departments, locations, or types of
+ traffic onto separate network segments. It reduces the risk of unauthorized access,
+ limits the impact of security breaches, and provides better control over network
+ resources. 
+
+ WAN Segments are first defined in global VRF profiles. These VRF profiles are then bound
+ to sites. After that, interfaces are configured with the appropriate VRF. When traffic
+ enters the interface, it only considers destinations with the same VRF locally or across
+ the fabric. If the traffic is destined to go across the fabric, it gets automatically
+ encapsulated with a unique identifier specific to that VRF. Once the traffic reaches the
+ remote ION, it can egress onto the VRF that is appropriately configured. 
+
+ Network segmentation will help achieve isolation of application traffic for you who share
+ the same WAN infrastructure by carrying the segment identifier over the WAN overlay.
+ There are many applications and services on the network, each with various levels of
+ security posture. A multi-segment solution is required to maximize control and
+ separation between network segments. 
+
+ Related CLIs 
+
+ inspect system vrf 
+
+ inspect vrf 
+
+ dump vrf 
+
+ Previous 
+
+ View Routing Statistics 
+
+ Next 
+
+ Configure a VRF Profile in Prisma SD-WAN

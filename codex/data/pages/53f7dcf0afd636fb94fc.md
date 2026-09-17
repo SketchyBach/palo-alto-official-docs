@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/onboard-and-configure/deployment-steps-and-checklist/upgrade-from-prisma-cloud-to-cortex-cloud/copy-content/copy-global-configurations
-fetched_at: 2026-09-06T10:03:05Z
+fetched_at: 2026-09-16T08:46:38Z
 source: cortex-platform
 ---
 

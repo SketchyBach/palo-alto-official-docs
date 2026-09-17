@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/microsoft-azure-manual-onboarding/azure-manual-onboarding-guide.md
-fetched_at: 2026-09-06T11:20:26Z
+fetched_at: 2026-09-16T09:13:10Z
 source: cortex-platform
 ---
 

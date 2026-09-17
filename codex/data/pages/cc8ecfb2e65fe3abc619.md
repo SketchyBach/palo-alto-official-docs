@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/generic-on-premise-data-collectors/broker-vm-data-collector-applets/syslog-collector-applet/fortinet-fortigate
-fetched_at: 2026-09-06T09:27:36Z
+fetched_at: 2026-09-16T08:32:45Z
 source: cortex-platform
 ---
 
@@ -61,6 +61,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Ingest logs from Fortinet Fortigate firewalls 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

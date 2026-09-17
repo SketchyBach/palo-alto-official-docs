@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/secrets-security/appsec-secret-274
-fetched_at: 2026-09-06T11:16:00Z
+fetched_at: 2026-09-16T09:11:48Z
 source: cortex-platform
 ---
 

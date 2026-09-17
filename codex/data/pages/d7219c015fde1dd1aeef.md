@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/user-installed-an-application-in-microsoft-teams-via-graph-api
-fetched_at: 2026-09-06T11:10:28Z
+fetched_at: 2026-09-16T09:08:55Z
 source: cortex-platform
 ---
 

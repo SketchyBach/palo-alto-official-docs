@@ -1,0 +1,173 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/administration/deploy-prisma-agents/download-the-prisma-agent-package
+fetched_at: 2026-09-16T08:21:20Z
+source: palo-alto-main
+---
+
+# Download the Prisma Agent Package Clear
+
+Updated on 
+
+ Aug 27, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Deploy the Prisma Agent 
+
+ Download the Prisma Agent Package 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ Download the Prisma Agent Package 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Prisma Agent Processes To Be Allow Listed on EDR Deployments 
+
+ Next 
+
+ Prisma Agent Deployment Configuration 
+
+ Download the Prisma Agent Package 
+
+ Learn how to download the Prisma Agent package for deployment to your
+ endpoints. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ NGFW (Managed by Panorama) 
+
+ Check the prerequisites for the deployment you're
+ using 
+
+ macOS, Windows, or Linux
+ desktop devices 
+
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
+
+ After you set up the infrastructure and configured the agent, download
+ the Prisma Agent package so that you can deploy it to your mobile users' endpoints
+ using third-party mobile device management (MDM) software. 
+
+ In addition, ensure that you download the configuration file. Your
+ agent configurations, along with the Prisma Access tenant ID and the server URL for
+ the service that manages Prisma Agents, are saved to the Prisma Agent configuration
+ file and will be deployed to your endpoints for use during agent installation. 
+
+ Download the Prisma Agent package and configuration file. 
+
+ From Strata Cloud Manager, select Configuration Endpoint Management . 
+
+ Click Download Agent . 
+
+ Download the configuration file and the
+ appropriate agent for your operating system. 
+
+ ( macOS and
+ Windows ) The dialog shows all available Prisma Agent
+ packages. It includes an Endpoint DLP Packages section for
+ packages that bundle Endpoint DLP with the
+ agent. Select from this section if your organization uses Endpoint
+ DLP. A separate Endpoint DLP license is required—DLP capabilities
+ remain inactive until you activate the license. Endpoint DLP
+ packages can only be deployed via MDM. Downloadable filenames for
+ the Endpoint DLP packages:
+ PrismaAccessAgent_x64_ <version> .msi 
+ (Windows) or
+ PrismaAccessAgentInstaller_ <version> .pkg 
+ (macOS). 
+
+ If your organization
+ does not use Endpoint DLP, download from the standard packages
+ section. Downloadable filenames:
+ PrismaAccessAgent_NoDLP_x64_ <version> .msi 
+ (Windows) or
+ PrismaAccessAgentInstaller_NoDLP_ <version> .pkg 
+ (macOS). 
+
+ ( Linux ) Linux
+ Prisma Agents are available in ARM64 and x86_64 architectures. If
+ you are downloading the agent for NixOS, make sure to download both
+ the Linux distribution and NixOS configuration file for your
+ architecture. Each package description describes the package
+ contents. 
+
+ ARM64 Linux distributions — AppImage file
+ for the supported ARM64 Linux
+ distributions. Downloadable package name:
+ PrismaAccessAgent_arm64_ <version> .AppImage 
+
+ ARM64 Linux NixOS configuration file (required for agent
+ installation) — tar.gz file containing the
+ NixOS installer script and Prisma Agent NixOS configuration file
+ for ARM64 Linux distributions. Downloadable package name:
+ paa_nixos_installer_ <version> .tar.gz 
+
+ x86_64 Linux distributions — AppImage file
+ for the supported x86_64 Linux distributions. Downloadable
+ package name:
+ PrismaAccessAgent_x86_64_ <version> .AppImage 
+
+ x86_64 Linux NixOS configuration file (required for agent
+ installation) — tar.gz file containing the
+ NixOS installer script and Prisma Agent NixOS configuration file
+ for x86_64 Linux distributions. Downloadable package name:
+ paa_nixos_installer_ <version> .tar.gz 
+
+ After you download the package, Close the
+ download dialog. The agent package is saved to the download location on
+ your computer. 
+
+ ( Optional ) If needed, modify the Prisma Agent deployment configuration 
+ to update the Prisma Access tenant ID, server URL, or other agent
+ configurations. 
+
+ The changes you make will override the default value for the tenant ID, the
+ configured values for the server URL, and other agent settings. 
+
+ ( macOS and Windows ) Proceed to deploy the Prisma Agent package using
+ MDM software: 
+
+ macOS agents 
+
+ Windows agents 
+
+ For Linux agents,
+ share the Prisma Agent package using alternative distribution methods within
+ your organization. 
+
+ Previous 
+
+ Prisma Agent Processes To Be Allow Listed on EDR Deployments 
+
+ Next 
+
+ Prisma Agent Deployment Configuration

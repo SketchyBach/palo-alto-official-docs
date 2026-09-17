@@ -1,0 +1,271 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/ztna-connector-in-prisma-access.html
+fetched_at: 2026-09-16T09:37:27Z
+source: palo-alto-main
+---
+
+# Prisma Access ZTNA Connector Clear
+
+Updated on 
+
+ Sep 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access ZTNA Connector 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Prisma Access ZTNA Connector 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Dynamic Routing Considerations for Service Connections 
+
+ Next 
+
+ ZTNA Connector Requirements and Guidelines 
+
+ Prisma Access ZTNA Connector 
+
+ Describes what the ZTNA Connector is and how it works in Prisma Access . 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ We require a minimum version of Prisma Access 5.0 to
+ enable ZTNA Connector support. 
+
+ Prisma Access Base (ZTNA or Enterprise) license includes 10
+ Connectors. 
+
+ Private App Access add-on license
+ includes up to 200 Connectors. 
+
+ Zero Trust Network Access (ZTNA) Connector lets you connect Prisma Access to your
+ organization's private applications simply and securely. ZTNA Connector provides mobile
+ users and users at branch locations access to your private apps using an automated
+ secure tunnel. Because the ZTNA Connector sets up the tunnels automatically, you don't
+ have to manually set up IPSec tunnels and routing to the data center or headquarters
+ locations, public cloud locations, and partner networks where your private apps are
+ located. 
+
+ The ZTNA Connector Virtual Machines (VM) you deploy automatically connect to the closest
+ Prisma Access location ensuring the best possible latency, in addition to
+ scaling bandwidth access up to 2 Gbps per Connector. 
+
+ Prisma Access denies all access by default, and an administrator must explicitly
+ allow access to a resource using a policy rule, based on our patented User-ID, App-ID,
+ and Device-ID constructs, helping you to reduce the attack surface and the security
+ risks. Once a connection is allowed, we continuously verify the trust of that
+ connection, continuously inspect for security threats, and continuously inspect for data
+ leakage. In addition, the private IP addresses of your applications are not exposed when
+ you use the Prisma Access ZTNA Connector. 
+
+ ZTNA Connector Components 
+
+ Connectors —Connectors are the virtual machines that build tunnels
+ to Prisma Access . ZTNA Connector automates tunnel management without
+ you having to specify IPSec and IKE settings. You onboard Connectors in
+ VMs, which you onboard in a cloud service (Amazon Web Services (AWS),
+ Google Cloud Platform (GCP), Microsoft Azure, or in a virtual server
+ (VMware ESXi) , or in a
+ Kernel-based Virtual Machine (KVM) . Palo Alto Networks
+ recommends that you deploy the VM in the same subnet as the onboarded
+ application to Prisma Access. You can also provide a different subnet,
+ as long as there is a route to the applications from the Connector. 
+
+ After you deploy the Connector VM, Prisma Access manages the VM,
+ including providing you with options to upgrade the VM version. After
+ installing the ZTNA Connector VM, it discovers the nearest Prisma Access location and initiates a secure IPSec tunnel to Prisma Access . 
+
+ Connector Groups —A Connector Group is a logical grouping of
+ connectors and apps. By adding multiple connectors in a Connector Group,
+ you provide tunnel redundancy and increased bandwidth to the apps within
+ the group. Each Connector Group supports up to 
+ four connectors. 
+
+ If you want to provide access to specific apps using different
+ connectors, place the connectors in separate groups. 
+
+ Targets —The private apps that ZTNA Connector onboards to Prisma
+ Access. You can define specific apps to which you want to provide access
+ using FQDN ( FQDN Targets ), wildcards
+ ( Wildcard Targets ), or IP addresses or
+ subnets where the apps are located . Or, you can have ZTNA
+ Connector automatically discover apps by pulling them from an IdP
+ connected to CIE. 
+
+ Use Cases for ZTNA Connector 
+
+ Use ZTNA Connector in these scenarios: 
+
+ Connect to Private Apps —Use ZTNA Connector for all client-initiated
+ traffic that connects to private apps. 
+
+ Overlapped Private Networks —If you're a network administrator in a
+ large enterprise that has acquired or merged with another organization, two
+ networks might use address ranges that overlap (for example, RFC 1918
+ private network address space). To provide access to apps that are hosted in
+ overlapped networks to your users, routing and NAT configuration can become
+ tedious. ZTNA Connector simplifies app access in overlapped networks by
+ allowing you to connect to apps using FQDNs, and FQDN wildcards, without you
+ having to configure IP routing. 
+
+ ZTNA-Connector Tunnel Terminators (ZTTs) is an internal Prisma Access 
+ component. ZTNA Connector provides your users secure access to the private
+ apps using ZTT. When you activate a ZTNA Connector in a compute region, ZTT
+ nodes are automatically onboarded. ZTNA Connector automatically forms IPSec
+ tunnels with ZTTs. 
+
+ Data Center to Cloud Migration —If your organization is migrating your
+ on-premises apps to the cloud (either migrating your existing on-premises
+ applications using "lift and shift" or developing cloud-native apps), you
+ can host apps in cloud VPCs in AWS, GCP, Azure, or other cloud providers. If
+ you have hundreds or thousands of VPCs, ZTNA Connector can accelerate the
+ process of providing cloud-delivered app access. 
+
+ Access to Applications in Business Partner Networks —Some organizations
+ access apps hosted in their business partner’s networks. Using service
+ connections to connect these apps requires manual routing and NAT configuration.
+ ZTNA Connector allows you to connect to these apps without performing manual IP
+ routing configuration. 
+
+ Supported Use Cases for Service Connections and ZTNA Connector 
+
+ ZTNA Connector isn't a replacement for service connections. It can complement or
+ coexist with service connections, allowing you flexibility in how you secure private
+ apps. If you have already deployed service connections, you can continue to use
+ them, unless you want to move to a different application access model. The following
+ table shows the supported and unsupported use cases for service connections or ZTNA
+ Connector. A check mark indicates that the use case is supported; a dash (—)
+ indicates that it's not supported. 
+
+ Use Case ZTNA Connector Support Service Connection Support 
+
+ Access to applications in overlapped networks √ — 
+
+ Access to all ports and protocols for client-initiated
+ application traffic √ √ 
+
+ Automatic tunnel establishment to Prisma Access √ — 
+
+ Automatic Prisma Access location discovery √ — 
+
+ Access to private apps using IP addresses and subnets √ √ 
+
+ Server-initiated traffic (such as a remote help desk) reaching
+ out to a managed device (GlobalProtect mobile user or remote
+ network). √ √ 
+
+ Applications or services that require a unique client IP
+ address √ √ 
+
+ Access to applications with dynamic ports (such as FTP Active
+ mode or VoIP) — √ 
+
+ Hybrid deployments with on-premises next-generation firewalls
+ where policy rules based on User-ID are applied √ √ 
+
+ ZTNA Connector 2.0 Principles 
+
+ ZTNA Connector lets you connect your private apps to Prisma Access using the
+ following ZTNA Connector 2.0 principles: 
+
+ Device Posture and Risk —Using policy rules based on User-ID in Prisma
+ Access, you can define a posture for users and devices (both mobile user and IoT
+ devices) to prevent unauthorized access to the private apps. You can also create
+ common policy rules between ZTNA Connector and Prisma Access . 
+
+ User Authentication and Least Privilege Access —Using user authentication
+ and policy rules based on user or group, you can implement the principle of
+ least privilege (PoLP) to provide users access to the apps they require, while
+ blocking access to the apps they don't require. 
+
+ Threat and Data Loss Prevention — Prisma Access and ZTNA Connector use
+ advanced security features such as Advanced Threat Prevention, Advanced URL
+ Filtering, SaaS Security, Advanced WildFire, and Enterprise DLP to make sure
+ that your private apps and app data are secure. 
+
+ Previous 
+
+ Dynamic Routing Considerations for Service Connections 
+
+ Next 
+
+ ZTNA Connector Requirements and Guidelines

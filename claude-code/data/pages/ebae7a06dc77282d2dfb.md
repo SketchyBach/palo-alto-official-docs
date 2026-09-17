@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/detect-investigate-and-respond-to-threats/threat-intel-management/get-started-with-threat-intel-management/indicator-lifecycle
-fetched_at: 2026-09-06T10:19:33Z
+fetched_at: 2026-09-16T08:51:19Z
 source: cortex-platform
 ---
 
@@ -83,6 +83,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Indicator configuration 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

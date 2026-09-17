@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-data-model-schema/fields/event
-fetched_at: 2026-09-06T10:56:46Z
+fetched_at: 2026-09-16T09:04:16Z
 source: cortex-platform
 ---
 
@@ -243,6 +243,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next xdm.source 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

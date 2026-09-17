@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.6/onboard-cortex-xsoar/onboard-and-configure-cortex-xsoar/step-1.-install-cortex-xsoar
-fetched_at: 2026-09-06T11:23:21Z
+fetched_at: 2026-09-16T09:13:51Z
 source: cortex-platform
 ---
 
@@ -123,6 +123,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Step 2. Set up an engine 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

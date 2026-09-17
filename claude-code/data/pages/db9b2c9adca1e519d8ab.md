@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/onboard-cortex-xsoar/cortex-xsoar-installation/install-cortex-xsoar-on-a-vm-deployed-on-aws/task-2.-deploy-your-virtual-machine-on-aws
-fetched_at: 2026-09-06T10:32:06Z
+fetched_at: 2026-09-16T08:54:28Z
 source: cortex-platform
 ---
 
@@ -210,6 +210,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Task 3. Validate tenant network and IP settings 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/role-based-access-control/cloud-security-and-posture-management-permissions/application-security-permissions/application-security-3rd-party-tools-permissions
-fetched_at: 2026-09-06T09:47:19Z
+fetched_at: 2026-09-16T08:43:48Z
 source: cortex-platform
 ---
 
@@ -137,6 +137,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configurations - Application Security permissions 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

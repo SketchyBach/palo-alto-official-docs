@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/reference-docs/reference/performance-tuning-for-cortex-xsoar
-fetched_at: 2026-09-06T10:46:27Z
+fetched_at: 2026-09-16T08:57:14Z
 source: cortex-platform
 ---
 
@@ -259,6 +259,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Supported Ciphers 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

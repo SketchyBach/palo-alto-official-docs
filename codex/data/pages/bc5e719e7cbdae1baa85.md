@@ -1,68 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/administration/adem-self-serve
-fetched_at: 2026-08-13T15:29:56Z
+fetched_at: 2026-09-15T15:08:32Z
 source: palo-alto-main
 ---
 
 # ADEM Self-Serve Clear
 
-ADEM Self-Serve 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- ADEM Self-Serve 
-
- Updated on 
-
- Wed Aug 12 08:13:05 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Wed Aug 12 08:13:05 PDT 2026 
 
@@ -193,64 +137,4 @@ User Interface
 
  Next 
 
- Use Cases 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- SASE 
-
- Self Serve 
-
- Administration 
-
- Autonomous DEM 
-
- Prisma SASE 
-
- Autonomous DEM Self-Serve 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Use Cases

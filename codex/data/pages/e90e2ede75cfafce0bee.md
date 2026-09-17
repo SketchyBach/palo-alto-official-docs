@@ -1,0 +1,231 @@
+---
+url: https://docs.paloaltonetworks.com/hardware/pa-1500-hardware-reference/pa-1500-series-firewall-maintenance/pa-1500-series-firewall-led-definitions
+fetched_at: 2026-09-16T08:20:37Z
+source: palo-alto-main
+---
+
+# PA-1500 Series Firewall LED Definitions Clear
+
+Updated on 
+
+ Wed Aug 19 00:26:09 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-1500 Series Next-Gen Firewall Hardware Reference 
+
+ PA-1500 Series Firewall Maintenance 
+
+ PA-1500 Series Firewall LED Definitions 
+
+ Download PDF 
+
+ PA-1500 Series Next-Gen Firewall Hardware Reference 
+
+ PA-1500 Series Firewall LED Definitions 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Compliance 
+
+ Safety Warnings 
+
+ Safety Warnings (French) 
+
+ Certifications 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Parts List and Required Tools 
+
+ PA-1500 Series Firewall Overview 
+
+ PA-1500 Series Firewall Components 
+
+ PA-1510-POE Components 
+
+ PA-1520-POE Components 
+
+ PA-1530-POE Components 
+
+ PA-1500 Series Firewall Installation 
+
+ Install the PA-1500 Series Firewall in an Equipment Rack 
+
+ Connect AC Power to the PA-1500 Series Firewall 
+
+ Connect DC Power to the PA-1500 Series Firewall 
+
+ Set Up a Connection to the Firewall 
+
+ Connect Cables to the PA-1500 Series Firewall 
+
+ PA-1500 Series Firewall Maintenance 
+
+ PA-1500 Series Firewall LED Definitions 
+
+ Replace a PA-1500 Series Firewall Power Supply 
+
+ PA-1500 Series Firewall Specifications 
+
+ PA-1500 Series Firewall Physical Specifications 
+
+ PA-1500 Series Firewall Electrical Specifications 
+
+ PA-1500 Series Firewall Power Cord Types 
+
+ PA-1500 Series Firewall Environmental Specifications 
+
+ PA-1500 Series Firewall Miscellaneous Specifications 
+
+ PA-1500 Series Firewall LED Definitions 
+
+ Learn about the meanings of the LEDs on the PA-1500 Series Firewall. 
+
+ The following table describes how to interpret the status LEDs on a PA-1500 Series
+ firewall. 
+
+ LED Description 
+
+ Front Panel LEDs 
+
+ Service 
+
+ Blue —The firewall is instructed by the CLI or Web
+ Interface to enable this LED. 
+
+ Off —The LED has not been enabled. 
+
+ Power 
+
+ Green —The firewall is powered on. 
+
+ Yellow —One or more power rails are not functioning
+ normally, or the push-button power off was performed. 
+
+ Off —The firewall is not powered on. 
+
+ Status 
+
+ Green —The firewall is operating normally. 
+
+ Yellow —The firewall is booting. 
+
+ Red —The firewall failed to complete a secure boot. 
+
+ High Availability 
+
+ Green —High availability is configured and the firewall
+ is in the active HA state. 
+
+ Yellow —High availability is configured and the firewall
+ is in the standby HA state. 
+
+ Off —High availability is not configured. 
+
+ Temperature 
+
+ Green —The firewall temperature is normal. 
+
+ Yellow —The firewall temperature is outside tolerance
+ levels. 
+
+ See the PA-1500 Series Firewall Environmental Specifications for the operating
+ temperature range. 
+
+ Controller 
+
+ Green —The firewall is connected to Panorama. 
+
+ Blue —The firewall is connected to SCM or a SDWAN
+ controller. 
+
+ Yellow (Blinking) —The firewall is trying to connect to a
+ controller. 
+
+ Yellow (Solid) —The firewall encountered a connectivity
+ error. 
+
+ Off —The firewall is not attempting to connect to a
+ controller. 
+
+ Alarm 
+
+ Red —A hardware failure, such as a power supply failure,
+ a firewall failure that caused an HA failover, a drive failure, a
+ fan failure, or the hardware overheated and exceeded the high
+ temperature threshold. 
+
+ Off —The firewall is operating normally. 
+
+ Power Supplies 
+
+ Green —The power supply is present and supplying correct
+ voltage. 
+
+ Yellow —The power supply is present but supplying
+ incorrect voltage. 
+
+ Off —The power supply is not installed. 
+
+ When facing the back of the
+ firewall, 1 is the left power supply and 2 is the
+ right power supply. 
+
+ Port LEDs 
+
+ RJ-45 
+
+ These ports have two LEDs each. 
+
+ Left LED (Link/Speed) 
+
+ Green —The link speed is 1 Gbps or higher. 
+
+ Yellow —The link speed is 10 or 100 Mbps. 
+
+ Off —No link. 
+
+ Right LED (Activity) 
+
+ Blinking Green —The firewall is processing network
+ activity. 
+
+ Off —No network activity. 
+
+ SFP, SFP+, and SFP28 
+
+ These ports have one LED each. The color indicates the link speed. 
+
+ 1G—Yellow 
+
+ 10G—Green 
+
+ 25G—Light Blue 
+
+ Solid Color —The firewall network link is up. 
+
+ Blinking Color —The firewall is processing network
+ activity. 
+
+ Off —No link. 
+
+ Previous 
+
+ PA-1500 Series Firewall Maintenance 
+
+ Next 
+
+ Replace a PA-1500 Series Firewall Power Supply

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/configure-cortex-xsoar/slas/configure-timersla-fields
-fetched_at: 2026-09-06T10:33:30Z
+fetched_at: 2026-09-16T08:54:41Z
 source: cortex-platform
 ---
 
@@ -93,6 +93,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure a playbook to run Timers/SLAs 
 
- Last updated 1 hour ago 
+ Last updated 9 days ago 
 
  Was this helpful?

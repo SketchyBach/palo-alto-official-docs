@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/investigation-and-response/automation/playbooks/accelerate-playbook-development-using-the-automation-engineer-agent-preview/automation-engineer-prompt-examples
-fetched_at: 2026-09-06T10:05:23Z
+fetched_at: 2026-09-16T08:47:22Z
 source: cortex-platform
 ---
 
@@ -59,6 +59,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Best practices for playbooks 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

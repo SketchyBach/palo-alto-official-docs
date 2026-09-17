@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/cloud-service-provider-csp-onboarding/google-cloud-platform-cloud-onboarding/how-to-onboard-google-cloud-platform
-fetched_at: 2026-09-06T09:40:58Z
+fetched_at: 2026-09-16T08:41:58Z
 source: cortex-platform
 ---
 
@@ -137,6 +137,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Deploy the Terraform authentication template in GCP 
 
- Last updated 7 days ago 
+ Last updated 17 days ago 
 
  Was this helpful?

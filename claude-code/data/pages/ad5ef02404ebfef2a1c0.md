@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/investigation-and-response/investigate-endpoints/retrieve-files-from-an-endpoint
-fetched_at: 2026-09-06T09:32:27Z
+fetched_at: 2026-09-16T08:35:40Z
 source: cortex-platform
 ---
 

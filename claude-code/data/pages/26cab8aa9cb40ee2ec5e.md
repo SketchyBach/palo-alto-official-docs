@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/install-cortex-xsoar/post-installation/optimize-performance-and-robustness-from-the-textual-ui
-fetched_at: 2026-09-06T10:26:56Z
+fetched_at: 2026-09-16T08:53:23Z
 source: cortex-platform
 ---
 
@@ -63,6 +63,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage nodes in a cluster 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

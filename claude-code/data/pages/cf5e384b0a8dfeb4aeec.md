@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/9.1/cortex-xdr-agent-for-windows/troubleshooting-resources-for-windows
-fetched_at: 2026-09-06T10:20:17Z
+fetched_at: 2026-09-16T08:51:36Z
 source: cortex-platform
 ---
 
@@ -119,6 +119,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cytool for Windows 
 
- Last updated 6 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

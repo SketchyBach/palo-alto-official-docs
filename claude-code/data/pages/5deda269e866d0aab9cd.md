@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/cortex-xdr-xql/build-xql-queries/how-to-build-xql-queries
-fetched_at: 2026-09-06T09:51:01Z
+fetched_at: 2026-09-16T08:44:19Z
 source: cortex-platform
 ---
 

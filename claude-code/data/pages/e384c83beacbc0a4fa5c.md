@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/cloud-posture-and-runtime-security-data-sources/container-registry-scanning/how-container-registry-scanning-works
-fetched_at: 2026-09-06T09:28:14Z
+fetched_at: 2026-09-16T08:33:31Z
 source: cortex-platform
 ---
 
@@ -17,32 +17,30 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Cortex XSIAM Documentation 
 
- Configure Cortex XSIAM 
+ Cloud Security 
 
- Cortex XSIAM Data Sources and Connectors 
+ Registry scanning 
 
- Cloud Posture and Runtime Security data sources 
-
- Container Registries 
-
- Cortex XSIAM Data Ingestion 
+ Cortex XSIAM 
 
  How Container Registry Scanning Works 
 
- Learn how Cortex XSIAM scans container registries and evaluates container image risks. 
+ Learn how Cortex XSIAM discovers, scans, and evaluates container images in onboarded registries to identify and continuously monitor security risks. 
 
- The process of container registry scanning consists of three key phases: discovery, scanning, and evaluation. 
+ Container Registry Scanning continuously monitors container images in your onboarded registries for security risks. After you onboard a registry, Cortex XSIAM automatically discovers new and updated images, scans them, and evaluates the results against the latest threat intelligence. 
 
- Discovery : The connector discovers all registries, repositories, and tags within the account. 
+ The process of container registry scanning consists of three key phases: 
 
- Scanning : The connector extracts software bills of materials (SBOMs), malware indicators, and secrets from each image. 
+ Discovery : The connector automatically discovers registries, repositories, and image tags across the onboarded account. 
 
- Evaluation : Scan results are evaluated for vulnerabilities, malware, and secrets, and asset findings are created accordingly. 
+ Scanning : The connector scans newly discovered or updated images and extracts software bills of materials (SBOMs), secrets, and malware indicators. To reduce bandwidth and compute usage, the connector scans immutable container images only once. The connector rescans an image if the scanning engines are updated or if the previous scan failed. 
 
- Previous Registry Components 
+ Evaluation : Extracted artifact metadata is evaluated against current threat intelligence to identify vulnerabilities, secrets, and malware. Findings and risk scores are re-evaluated dynamically whenever new CVE data is published, without needing to re-download or rescan the container image. 
 
- Next Configure registry scanning for cloud accounts 
+ Previous Supported container registry integrations 
 
- Last updated 1 month ago 
+ Next Scan re-evaluation process 
+
+ Last updated 7 days ago 
 
  Was this helpful?

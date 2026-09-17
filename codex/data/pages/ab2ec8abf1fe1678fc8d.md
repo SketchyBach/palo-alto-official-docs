@@ -1,0 +1,278 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-panorama-api/pan-os-xml-api-request-types/configuration-api/set-configuration
+fetched_at: 2026-09-16T13:56:55Z
+source: palo-alto-main
+---
+
+# Set Configuration Clear
+
+Updated on 
+
+ Aug 21, 2024 
+
+ Focus 
+
+ Home 
+
+ PAN-OS 
+
+ PAN-OS® and Panorama™ API Guide 
+
+ PAN-OS
+XML API Request Types 
+
+ Configuration
+(API) 
+
+ Set Configuration 
+
+ Download PDF 
+
+ PAN-OS® and Panorama™ API Guide 
+
+ Set Configuration 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 9.1 (EoL) 
+
+ 11.1 & Later 
+
+ 10.2 
+
+ 10.1 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ About the PAN-OS API 
+
+ PAN-OS XML API Components 
+
+ Structure of a PAN-OS XML API Request 
+
+ API Authentication and Security 
+
+ XML and XPath 
+
+ XPath Node Selection 
+
+ Get Started with the PAN-OS XML API 
+
+ Enable API Access 
+
+ Get Your API Key 
+
+ Make Your First API Call 
+
+ Authenticate Your API Requests 
+
+ Explore the API 
+
+ Use the API Browser 
+
+ Use the CLI to Find XML API Syntax 
+
+ Use the Web Interface to Find XML API Syntax 
+
+ PAN-OS XML API Error Codes 
+
+ PAN-OS XML API Use Cases 
+
+ Upgrade a Firewall to the Latest PAN-OS Version (API) 
+
+ Show and Manage GlobalProtect Users (API) 
+
+ Query a Firewall from Panorama (API) 
+
+ Upgrade PAN-OS on Multiple HA Firewalls through Panorama (API) 
+
+ Automatically Check for and Install Content Updates (API) 
+
+ Enforce Policy using External Dynamic Lists and AutoFocus Artifacts (API) 
+
+ Configure SAML 2.0 Authentication (API) 
+
+ PAN-OS XML API Request Types 
+
+ PAN-OS XML API Request Types and Actions 
+
+ Request Types 
+
+ Configuration Actions 
+
+ Actions for Modifying a Configuration 
+
+ Actions for Reading a Configuration 
+
+ Asynchronous and Synchronous Requests to the PAN-OS XML API 
+
+ Configuration (API) 
+
+ Get Active Configuration 
+
+ Use XPath to Get Active Configuration 
+
+ Use XPath to Get ARP Information 
+
+ Get Candidate Configuration 
+
+ Set Configuration 
+
+ Edit Configuration 
+
+ Delete Configuration 
+
+ Rename Configuration 
+
+ Clone Configuration 
+
+ Move Configuration 
+
+ Override Configuration 
+
+ Multi-Move or Multi-Clone Configuration 
+
+ View Configuration Node Values for XPath 
+
+ Commit Configuration (API) 
+
+ Commit 
+
+ Commit-All 
+
+ Run Operational Mode Commands (API) 
+
+ Get Reports (API) 
+
+ Dynamic Reports 
+
+ Predefined Reports 
+
+ Custom Reports 
+
+ Export Files (API) 
+
+ Export Packet Captures 
+
+ Export Application PCAPS 
+
+ Export Threat, Filter, and Data Filtering PCAPs 
+
+ Export Certificates and Keys 
+
+ Export Technical Support Data 
+
+ Import Files (API) 
+
+ Importing Basics 
+
+ Import Files 
+
+ Retrieve Logs (API) 
+
+ API Log Retrieval Parameters 
+
+ Example: Use the API to Retrieve Traffic Logs 
+
+ Apply User-ID Mapping and Populate Dynamic Groups (API) 
+
+ Get Version Info (API) 
+
+ Get Started with the PAN-OS REST API 
+
+ PAN-OS REST API 
+
+ Access the PAN-OS REST API 
+
+ Resource Methods and Query Parameters (REST API) 
+
+ PAN-OS REST API Request and Response Structure 
+
+ PAN-OS REST API Error Codes 
+
+ Work With Objects (REST API) 
+
+ Create a Security Policy Rule (REST API) 
+
+ Work with Policy Rules on Panorama (REST API) 
+
+ Create a Tag (REST API) 
+
+ Configure a Security Zone (REST API) 
+
+ Configure an SD-WAN Interface (REST API) 
+
+ Create an SD-WAN Policy Pre Rule (REST API) 
+
+ End-of-Life (EoL)
+
+ Set Configuration 
+
+ Use action=set to add or create
+a new object at a specified location in the PAN-OS configuration.
+Use the xpath parameter to specify the location
+of the object in the configuration. For example, if you are adding
+a new rule to the security rulebase, the xpath-value would be: 
+
+ /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security 
+
+ Use the element parameter to specify a
+value for the object you are adding or creating using XML. 
+
+ Configuration Node 
+
+ API Request 
+
+ Create a new rule called rule1 in security policy 
+
+ https://<firewall>/api/?type=config&action=set&
+ xpath=xpath-value&element=element-value 
+
+ where the xpath-value is: 
+
+ /config/devices/entry/vsys/entry/rulebase/security/rules/entry[@name='rule1'] 
+
+ and the element-value is: 
+
+ <source><member>src</member></source><destination><member>dst</member></destination><service><member>service</member></service><application><member>application</member></application><action>action</action><source-user><member>src-user</member></source-user><option><disable-server-response-inspection>yes-or-no</disable-server-response-inspection></option><negate-source>yes-or-no</negate-source><negate-destination>yes-or-no</negate-destination><disabled>yes-or-no</disabled><log-start>yes-or-no</log-start><log-end>yes-or-no</log-end><description>description</description><from><member>src-zone</member></from><to><member>dst-zone</member></to> 
+
+ Add an additional member to an address group
+or list 
+
+ Include the 'list' node in the xpath using
+the member[text()='name'] syntax and include
+the members in the element parameter. For example, to add an additional
+static address object named abc to an address
+group named test , use: 
+
+ curl -X POST 'https://firewall/api?type=config&action=set&xpath=/config/devices/entry/vsys/entry[@name='vsys1']/address-group/entry[@name='test']&element=<static><member>abc</member></static>" 
+
+ Create a new IP address on a specific interface 
+
+ Specify the interface and IP address in
+the request: 
+
+ curl -X GET "https://<firewall>/api?type=config&action=set&xpath=/config/devices/entry[@name='localhost.localdomain']/network/interface/ethernet/entry[@name='ethernet1/1']/layer3/ip&element=<entry name='5.5.5.5/24'/>" 
+
+ Enable or disable a security rule 
+
+ curl -X POST 'https://firewall/api?type=config&action=set&xpath=/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='<vsys1>']/rulebase/security/rules/entry[@name='<rule-name>']&element=<disabled>yes</disabled>" 
+
+ Altenatively, use <disabled>no</disabled> to
+enable a rule. 
+
+ Previous 
+
+ Get Candidate Configuration 
+
+ Next 
+
+ Edit Configuration

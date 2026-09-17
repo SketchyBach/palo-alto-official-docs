@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/july-2024/mobile-support-for-remote-browser-isolation
-fetched_at: 2026-08-13T17:45:39Z
+fetched_at: 2026-09-16T07:53:25Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

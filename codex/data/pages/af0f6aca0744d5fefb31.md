@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-api-overview/
-fetched_at: 2026-09-06T11:18:49Z
+fetched_at: 2026-09-16T09:12:35Z
 source: cortex-platform
 ---
 

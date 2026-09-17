@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-data-sources-and-connectors/cloud-posture-and-runtime-security-data-sources/container-registry-scanning/modify-the-container-registry-scanning-scope
-fetched_at: 2026-09-06T10:10:16Z
+fetched_at: 2026-09-16T08:48:45Z
 source: cortex-platform
 ---
 
@@ -17,11 +17,9 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Cortex CLOUD Posture Management 
 
- Cortex Cloud Data Sources and Connectors 
+ Registry scanning 
 
- Cloud Posture and Runtime Security data sources 
-
- Container Registries 
+ Configure registry scanning for cloud accounts 
 
  Cortex Cloud Posture 
 
@@ -53,7 +51,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous Configure registry scanning for cloud accounts 
 
- Next Scan re-evaluation process 
+ Next Configure registry scanning for third party integrations 
 
  Last updated 1 month ago 
 

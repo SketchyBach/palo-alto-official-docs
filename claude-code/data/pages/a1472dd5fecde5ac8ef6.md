@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/playbook-design-guide/playbook-design-guide/version-control
-fetched_at: 2026-09-06T10:50:46Z
+fetched_at: 2026-09-16T08:58:37Z
 source: cortex-platform
 ---
 
@@ -51,6 +51,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Playbook Task Fields 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

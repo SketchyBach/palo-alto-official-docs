@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/remoteaccess/remoteaccess
-fetched_at: 2026-09-06T09:25:32Z
+fetched_at: 2026-09-16T08:24:44Z
 source: cortex-platform
 ---
 
@@ -47,6 +47,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Retarus 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

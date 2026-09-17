@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/threat-management/extended-threat-intelligence/xti-indicators
-fetched_at: 2026-09-06T09:45:27Z
+fetched_at: 2026-09-16T08:42:56Z
 source: cortex-platform
 ---
 

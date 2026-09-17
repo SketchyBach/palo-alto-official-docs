@@ -1,0 +1,42 @@
+---
+url: https://docs.prismacloud.io/release-notes/prisma-cloud-release-information
+fetched_at: 2026-09-16T13:37:54Z
+source: prisma-cloud
+---
+
+# Prisma Cloud Release Information | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Enterprise Edition 
+
+ Release Notes 
+
+ Prisma Cloud Release Information 
+
+ Prisma Cloud Release Information 
+
+ Review the Prisma Cloud release notes to learn about all the exciting new features. 
+
+ Prisma Cloud is your code to cloud security platform that provides security at all stages of the software delivery process. It provides visibility into your resources deployed across different environments, and checks your adherence to compliance standards and security best practices for your assets at runtime, and the IaC templates, and images even before the resources are deployed. 
+
+ To view the current operational status of Palo Alto Networks cloud services, see https://status.paloaltonetworks.com/ . 
+
+ Before you begin using Prisma Cloud, make sure you review the following information: 
+
+ Features Introduced in 2026 
+
+ Limited GA Features 
+
+ Look Ahead—Planned Updates on Prisma Cloud 
+
+ Known Issues on Prisma Cloud 
+
+ Next Features Introduced in 2026 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

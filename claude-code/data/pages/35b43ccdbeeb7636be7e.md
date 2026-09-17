@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-to-cloud/code-to-cloud/api-endpoints-for-c2c
-fetched_at: 2026-09-06T10:11:47Z
+fetched_at: 2026-09-16T08:49:03Z
 source: cortex-platform
 ---
 
@@ -69,6 +69,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshooting 
 
- Last updated 23 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

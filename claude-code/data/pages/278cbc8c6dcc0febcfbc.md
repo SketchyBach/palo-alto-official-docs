@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/8.3-ce/cortex-xdr-agent-for-linux/troubleshooting-resources-for-linux/cytool-for-linux
-fetched_at: 2026-09-06T11:26:55Z
+fetched_at: 2026-09-16T09:14:56Z
 source: cortex-platform
 ---
 
@@ -263,6 +263,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous Troubleshooting Resources for Linux 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

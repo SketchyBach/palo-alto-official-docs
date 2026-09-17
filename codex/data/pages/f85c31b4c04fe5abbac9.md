@@ -1,56 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/u-v/routing-engine-migration-reference
-fetched_at: 2026-08-13T17:17:23Z
+fetched_at: 2026-09-16T07:41:39Z
 source: palo-alto-main
 ---
 
 # Advanced Routing Engine Migration Reference Clear
 
-Advanced Routing Engine Migration Reference 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Filter
-
- Expand all | Collapse all 
-
- Get Started with Routing Engine Migration 
-
- Plan Your Routing Engine Migration 
-
- Learn the Differences Between Legacy and Advanced Routing Engine 
-
- Routing Protocol Migration Exceptions 
-
- MP-BGP 
-
- OSPF 
-
- OSPFv3 
-
- PIM 
-
- IGMP 
-
- Updated on 
-
- Jan 26, 2026 
+ Mon Jan 26 20:40:12 PST 2026 
 
  Focus 
 
@@ -102,6 +60,4 @@ Advanced Routing Engine Migration Reference
 
  Routing Protocol Migration Exceptions 
 
- Review Exceptions 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Review Exceptions

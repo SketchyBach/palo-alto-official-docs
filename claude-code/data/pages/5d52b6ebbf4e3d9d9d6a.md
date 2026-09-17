@@ -1,67 +1,15 @@
 ---
 url: https://docs.paloaltonetworks.com/saas-agent-security/activation-and-onboarding/activate-casb-x-first-time-single-tenant
-fetched_at: 2026-08-13T17:32:29Z
+fetched_at: 2026-09-16T07:49:12Z
 source: palo-alto-main
 ---
 
 # Activate CASB-X For a Single Customer Support Portal Account
         Tenant Clear
 
-Activate CASB-X For a Single Customer Support Portal Account
- Tenant 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Activate CASB-X For a Single Customer Support Portal Account
- Tenant 
-
- Updated on 
-
- May 15, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- SaaS Agent Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- May 15, 2026 
+ Fri May 15 08:51:00 PDT 2026 
 
  Focus 
 
@@ -138,70 +86,4 @@ CASB for Prisma Access and NGFW (CASB-X) license for the first time for a single
 
  Device Associations 
 
- Next Generation CASB-X 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Next Generation CASB-X

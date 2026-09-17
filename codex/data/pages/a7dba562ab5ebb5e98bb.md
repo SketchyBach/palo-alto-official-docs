@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/data-management/parsing-rules/create-parsing-rules
-fetched_at: 2026-09-06T09:20:58Z
+fetched_at: 2026-09-16T07:56:28Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Parsing Rules 
 
- Cortex XSIAM 
+ Cortex XSIAM Parsing & Mapping 
 
  Create Parsing Rules 
 

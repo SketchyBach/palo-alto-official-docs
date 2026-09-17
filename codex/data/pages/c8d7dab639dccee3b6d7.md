@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/onboard-cortex-xdr/deployment-steps/plan-and-prepare
-fetched_at: 2026-09-06T09:38:35Z
+fetched_at: 2026-09-16T08:37:52Z
 source: cortex-platform
 ---
 

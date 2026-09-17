@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/investigation-and-response/analyze-and-resolve-cases/analyze-case-details
-fetched_at: 2026-09-06T09:31:32Z
+fetched_at: 2026-09-16T08:35:21Z
 source: cortex-platform
 ---
 
@@ -57,6 +57,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Grouping graph 
 
- Last updated 12 days ago 
+ Last updated 22 days ago 
 
  Was this helpful?

@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/enterprise-dlp/administration/configure-enterprise-dlp/endpoint-dlp
-fetched_at: 2026-08-13T15:32:16Z
+fetched_at: 2026-09-15T15:10:22Z
 source: palo-alto-main
 ---
 
 # Endpoint DLP Clear
 
-Endpoint DLP 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Endpoint DLP 
-
- Updated on 
-
- Jul 10, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Enterprise DLP Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features by OS Version 
-
- New Features by Month 
-
- Updated on 
-
- Jul 10, 2026 
+ Thu Sep 10 12:41:05 PDT 2026 
 
  Focus 
 
@@ -119,24 +65,17 @@ Endpoint DLP
  Use Endpoint DLP to prevent data loss over peripheral devices and discover sensitive
  data stored on managed endpoints. 
 
- On May 7, 2025 , Palo Alto Networks is introducing new Evidence Storage and Syslog Forwarding service IP
- addresses to improve performance and expand availability for these services
- globally. 
-
- You must allow these new service IP addresses on your network
- to avoid disruptions for these services. Review the Enterprise DLP 
- Release Notes for more
- information. 
-
  Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Strata Cloud Manager) 
 
  Prisma Access (Managed by Strata Cloud Manager) 
 
  Endpoint DLP license 
 
- Autonomous DEM 5.3.4 or later 
+ Autonomous DEM (6.0.21 or later for End User Coaching) 
 
- Prisma Access Agent 
+ Prisma Agent 
 
  Prisma Access 5.1 (Preferred or Innovation) or later 
 
@@ -147,7 +86,7 @@ Endpoint DLP
  rendering. 
 
  You can also use Endpoint DLP to scan managed endpoint devices for
- sensitive data at rest. Data at rest scanning uses the local detection engine on the Prisma Access Agent to discover sensitive files across Windows and macOS devices
+ sensitive data at rest. Data at rest scanning uses the local detection engine on the Prisma Agent to discover sensitive files across Windows and macOS devices
  using regex-based and OCR-based pattern matching. 
 
  How Does Endpoint DLP Work? 
@@ -166,110 +105,4 @@ Endpoint DLP
 
  Next 
 
- How Does Endpoint DLP Work? 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Administration 
-
- Cloud-Delivered Security Services 
-
- Data Filtering 
-
- Enterprise DLP 
-
- Concept 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ How Does Endpoint DLP Work?

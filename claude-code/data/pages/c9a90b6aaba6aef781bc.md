@@ -1,62 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/dns-security/administration/activate-adnsr-ela
-fetched_at: 2026-08-13T15:31:53Z
+fetched_at: 2026-09-15T15:10:09Z
 source: palo-alto-main
 ---
 
 # ELA Add-on Activation Clear
 
-ELA Add-on Activation 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- ELA Add-on Activation 
-
- Updated on 
-
- Thu Jul 30 19:02:25 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Advanced DNS Security 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Release Notes 
-
- Updated on 
-
- Thu Jul 30 19:02:25 PDT 2026 
+ Fri Jul 31 15:54:52 PDT 2026 
 
  Focus 
 
@@ -87,6 +39,8 @@ ELA Add-on Activation
  Getting Started 
 
  Administration 
+
+ Integrations 
 
  Release Notes 
 
@@ -166,106 +120,4 @@ ELA Add-on Activation
 
  ( Optional ) Manage your product from Strata Cloud Manager . 
 
- ( Optional ) Manage identity and access . 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Advanced DNS Security 
-
- Activation & Onboarding 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ ( Optional ) Manage identity and access .

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/onboard-and-configure/post-deployment-steps/set-up-your-environment/data-and-log-forwarding/forward-logs-and-data-from-cortex-cloud-to-external-services/configure-notification-forwarding
-fetched_at: 2026-09-06T10:03:56Z
+fetched_at: 2026-09-16T08:46:53Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/jobs/add-indicators-to-siem-using-a-time-triggered-job
-fetched_at: 2026-09-06T10:41:45Z
+fetched_at: 2026-09-16T08:56:22Z
 source: cortex-platform
 ---
 
@@ -91,6 +91,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Work with SLAs 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

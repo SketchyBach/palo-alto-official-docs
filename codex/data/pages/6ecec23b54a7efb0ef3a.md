@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/protect-your-endpoints/install-and-manage-endpoints/harden-endpoint-security/host-firewall/host-firewall-for-macos
-fetched_at: 2026-09-06T09:42:35Z
+fetched_at: 2026-09-16T08:42:49Z
 source: cortex-platform
 ---
 
@@ -191,6 +191,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Disk encryption 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

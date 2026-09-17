@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/attack-surface-management/get-started-with-attack-surface-management/geoip-data-collection
-fetched_at: 2026-09-06T09:34:26Z
+fetched_at: 2026-09-16T08:36:23Z
 source: cortex-platform
 ---
 

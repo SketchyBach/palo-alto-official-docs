@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/release-notes/network-discovery-plugin-for-panorama/network-discovery-plugin-3-2-0/features-introduced-in-network-discovery-3-2-0
-fetched_at: 2026-08-13T16:38:00Z
+fetched_at: 2026-09-15T15:14:45Z
 source: palo-alto-main
 ---
 
 # Features Introduced in Network Discovery 3.2 Clear
 
-Features Introduced in Network Discovery 3.2 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Features Introduced in Network Discovery 3.2 
-
- Updated on 
-
- Tue Jul 28 18:47:47 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Tue Jul 28 18:47:47 PDT 2026 
+ Fri Sep 04 14:28:43 PDT 2026 
 
  Focus 
 
@@ -118,7 +62,7 @@ Features Introduced in Network Discovery 3.2
 
  Next 
 
- Network Discovery Plugin 3.1 
+ Known Issues in Network Discovery 3.2 
 
  Features Introduced in Network Discovery 3.2 
 
@@ -137,6 +81,22 @@ Features Introduced in Network Discovery 3.2
  Device Security X subscription
 
  Review the features introduced in the Network Discovery plugin 3.2. 
+
+ What's New in Network Discovery 3.2.1 
+
+ The following new feature is introduced in the Network Discovery 
+ plugin 3.2.1 for PAN-OS 12.1.2 and later.
+
+ New Feature Description 
+
+ PA-1500 Series Firewall Support 
+
+ PAN-OS 12.1.2 and later 
+
+ The Network Discovery plugin now supports
+ PA-1500 series firewalls (PA-1510, PA-1520, and PA-1530),
+ expanding the range of hardware on which you can run network
+ discovery.
 
  What's New in Network Discovery 3.2.0 
 
@@ -183,54 +143,4 @@ Features Introduced in Network Discovery 3.2
 
  Next 
 
- Network Discovery Plugin 3.1 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Release Notes 
-
- Plugins 
-
- Cloud-Delivered Security Services 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Known Issues in Network Discovery 3.2

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cortex-cloud-saas-security/setup-saas-security
-fetched_at: 2026-09-06T09:35:22Z
+fetched_at: 2026-09-16T08:36:44Z
 source: cortex-platform
 ---
 
@@ -63,6 +63,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Connect a SaaS application 
 
- Last updated 10 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

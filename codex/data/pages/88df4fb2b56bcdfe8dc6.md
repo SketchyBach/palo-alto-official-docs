@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/elastic/elasticsearch
-fetched_at: 2026-09-06T09:59:57Z
+fetched_at: 2026-09-16T08:46:00Z
 source: cortex-platform
 ---
 
@@ -46,6 +46,6 @@ Supports version 6 and later. This sub-capability is available with any active C
 
  Next Forcepoint 
 
- Last updated 25 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

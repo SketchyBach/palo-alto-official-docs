@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/configure-cortex-xsoar/integrations/manage-credentials/configure-an-external-credentials-vault
-fetched_at: 2026-09-06T10:30:17Z
+fetched_at: 2026-09-16T08:54:02Z
 source: cortex-platform
 ---
 

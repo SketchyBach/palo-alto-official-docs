@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-api/issues-apis/models
-fetched_at: 2026-09-06T10:55:01Z
+fetched_at: 2026-09-16T09:03:46Z
 source: cortex-platform
 ---
 

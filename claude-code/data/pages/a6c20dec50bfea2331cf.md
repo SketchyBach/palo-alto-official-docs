@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/configure-cortex-xsoar/users-and-roles-management/users-and-roles-in-cortex-xsoar
-fetched_at: 2026-09-06T10:30:05Z
+fetched_at: 2026-09-16T08:54:01Z
 source: cortex-platform
 ---
 
@@ -69,6 +69,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Roles management 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/cortex-data-security-data-sources-and-connectors/vendor-specific-data-sources-and-connectors/salesforce/ingest-and-run-salesforce-automation-and-remediation
-fetched_at: 2026-09-06T10:51:58Z
+fetched_at: 2026-09-16T08:58:57Z
 source: cortex-platform
 ---
 
@@ -298,6 +298,6 @@ The new Salesforce connector has the description: Salesforce CRM services for id
 
  Next ServiceNow 
 
- Last updated 16 days ago 
+ Last updated 25 days ago 
 
  Was this helpful?

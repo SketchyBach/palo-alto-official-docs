@@ -1,0 +1,32 @@
+---
+url: https://docs.prismacloud.io/admin-guide/33/access-control
+fetched_at: 2026-09-16T13:38:10Z
+source: prisma-cloud
+---
+
+# Access control | 33 | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Compute Edition 
+
+ Admin Guide 
+
+ 33 
+
+ Access control 
+
+ Access control 
+
+ Establish and monitor access control measures for cloud workloads and cloud native applications. 
+
+ Previous Others 
+
+ Next Admission control 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

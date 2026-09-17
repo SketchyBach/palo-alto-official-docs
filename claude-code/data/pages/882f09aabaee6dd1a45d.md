@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/graph-search
-fetched_at: 2026-09-06T11:18:28Z
+fetched_at: 2026-09-16T09:12:31Z
 source: cortex-platform
 ---
 

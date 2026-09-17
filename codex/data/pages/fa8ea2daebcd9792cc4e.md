@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.8/detect-and-respond-to-threats/threat-intel-management/indicator-investigation/delete-and-exclude-indicators
-fetched_at: 2026-09-06T11:25:53Z
+fetched_at: 2026-09-16T09:14:31Z
 source: cortex-platform
 ---
 
@@ -159,6 +159,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage Threat Intel Reports 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

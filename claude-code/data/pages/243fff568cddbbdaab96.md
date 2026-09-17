@@ -1,0 +1,340 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/10-0/pan-os-panorama-api/pan-os-xml-api-request-types/retrieve-logs-api/api-log-retrieval-parameters.html
+fetched_at: 2026-09-16T11:04:44Z
+source: palo-alto-main
+---
+
+# API Log Retrieval Parameters Clear
+
+Updated on 
+
+ Sat Jul 23 00:28:20 PDT 2022 
+
+ Focus 
+
+ Home 
+
+ PAN-OS 
+
+ PAN-OS® and Panorama™ API Usage Guide 
+
+ PAN-OS
+XML API Request Types 
+
+ Retrieve
+Logs (API) 
+
+ API Log Retrieval Parameters 
+
+ Download PDF 
+
+ PAN-OS® and Panorama™ API Usage Guide 
+
+ API Log Retrieval Parameters 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 10.0 (EoL) 
+
+ 11.1 & Later 
+
+ 10.2 
+
+ 10.1 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ About the PAN-OS API 
+
+ PAN-OS XML API Components 
+
+ Structure of a PAN-OS XML API Request 
+
+ API Authentication and Security 
+
+ XML and XPath 
+
+ XPath Node Selection 
+
+ Get Started with the PAN-OS XML API 
+
+ Enable API Access 
+
+ Get Your API Key 
+
+ Authenticate Your API Requests 
+
+ Make Your First API Call 
+
+ Explore the API 
+
+ Use the API Browser 
+
+ Use the CLI to Find XML API Syntax 
+
+ Use the Web Interface to Find XML API Syntax 
+
+ PAN-OS XML API Error Codes 
+
+ PAN-OS XML API Use Cases 
+
+ Upgrade a Firewall to the Latest PAN-OS Version (API) 
+
+ Show and Manage GlobalProtect Users (API) 
+
+ Query a Firewall from Panorama (API) 
+
+ Upgrade PAN-OS on Multiple HA Firewalls through Panorama (API) 
+
+ Automatically Check for and Install Content Updates (API) 
+
+ Enforce Policy using External Dynamic Lists and AutoFocus Artifacts (API) 
+
+ Configure SAML 2.0 Authentication (API) 
+
+ Quarantine Compromised Devices (API) 
+
+ Manage Certificates (API) 
+
+ PAN-OS XML API Request Types 
+
+ PAN-OS XML API Request Types and Actions 
+
+ Request Types 
+
+ Configuration Actions 
+
+ Actions for Modifying a Configuration 
+
+ Actions for Reading a Configuration 
+
+ Asynchronous and Synchronous Requests to the PAN-OS XML API 
+
+ Configuration (API) 
+
+ Get Active Configuration 
+
+ Use XPath to Get Active Configuration 
+
+ Use XPath to Get ARP Information 
+
+ Get Candidate Configuration 
+
+ Set Configuration 
+
+ Edit Configuration 
+
+ Delete Configuration 
+
+ Rename Configuration 
+
+ Clone Configuration 
+
+ Move Configuration 
+
+ Override Configuration 
+
+ Multi-Move or Multi-Clone Configuration 
+
+ Multi-config Request (API) 
+
+ View Configuration Node Values for XPath 
+
+ Commit Configuration (API) 
+
+ Commit 
+
+ Commit-All 
+
+ Run Operational Mode Commands (API) 
+
+ Get Reports (API) 
+
+ Dynamic Reports 
+
+ Predefined Reports 
+
+ Custom Reports 
+
+ Export Files (API) 
+
+ Export Packet Captures 
+
+ Export Application PCAPS 
+
+ Export Threat, Filter, and Data Filtering PCAPs 
+
+ Export Certificates and Keys 
+
+ Export Technical Support Data 
+
+ Import Files (API) 
+
+ Importing Basics 
+
+ Import Files 
+
+ Retrieve Logs (API) 
+
+ API Log Retrieval Parameters 
+
+ Example: Use the API to Retrieve Traffic Logs 
+
+ Apply User-ID Mapping and Populate Dynamic Groups (API) 
+
+ Get Version Info (API) 
+
+ Get Started with the PAN-OS REST API 
+
+ PAN-OS REST API 
+
+ Access the PAN-OS REST API 
+
+ Resource Methods and Query Parameters (REST API) 
+
+ PAN-OS REST API Request and Response Structure 
+
+ PAN-OS REST API Error Codes 
+
+ Work With Objects (REST API) 
+
+ Create a Security Policy Rule (REST API) 
+
+ Work with Policy Rules on Panorama (REST API) 
+
+ Create a Tag (REST API) 
+
+ Configure a Security Zone (REST API) 
+
+ Configure an SD-WAN Interface (REST API) 
+
+ Create an SD-WAN Policy Pre Rule (REST API) 
+
+ Configure an Ethernet Interface (REST API) 
+
+ Update a Virtual Router (REST API) 
+
+ Work With Decryption (APIs) 
+
+ End-of-Life (EoL)
+
+ API Log Retrieval Parameters 
+
+ Specify the log type with additional optional parameters
+to retrieve logs from a firewall. 
+
+ Parameter 
+
+ Description 
+
+ log-type 
+
+ The type of logs to retrieve: 
+
+ log-type=traffic —Traffic
+logs 
+
+ log-type=threat —Threat logs 
+
+ log-type=config —Config logs 
+
+ log-type=system —System logs 
+
+ log-type=hipmatch — GlobalProtect Host
+Information Profile (HIP) matching logs 
+
+ log-type=globalprotect — GlobalProtect
+logs 
+
+ log-type=wildfire —WildFire logs 
+
+ log-type=url —URL filtering logs 
+
+ log-type=data —Data filtering logs 
+
+ log-type=corr —Correlated event logs
+as seen in the user interface within Monitor Automated Correlated Engine Correlated
+Events . 
+
+ log-type=corr-detail —Correlated event
+details as seen in the user interface when you select an event within Monitor > Automated Correlated
+Engine > Correlated Events . 
+
+ log-type=corr-categ —Correlated events
+by category, currently compromised hosts seen within ACC Threat Activity Compromised Hosts . 
+
+ log-type=userid —User-ID logs 
+
+ log-type=auth —Authentication logs 
+
+ log-type=gtp —GPRS Tunneling Protocol
+(GTP) logs 
+
+ log-type=external —External logs 
+
+ log-type=iptag —IP tag logs 
+
+ log-type=decryption — Decryption logs 
+
+ query 
+
+ ( Optional ) Specify the match criteria
+for the logs. This is similar to the query provided in the web interface
+under the Monitor tab when viewing the logs. The query must be URL
+encoded. 
+
+ nlogs 
+
+ ( Optional ) Specify the number
+of logs to retrieve. The default is 20 when the parameter is not
+specified. The maximum is 5000. 
+
+ skip 
+
+ ( Optional ) Specify the number
+of logs to skip when doing a log retrieval. The default is 0. This
+is useful when retrieving logs in batches where you can skip the
+previously retrieved logs. 
+
+ dir 
+
+ ( Optional ) Specify whether logs
+are shown oldest first ( forward ) or newest
+first ( backward ). Default is backward . 
+
+ action 
+
+ ( Optional ) Log data sizes can
+be large so the API uses an asynchronous job scheduling approach
+to retrieve log data. The initial query returns a Job ID ( job-id )
+that you can then use for future queries with the action parameter: 
+
+ action=get —Check status of an active
+job or retrieve the log data when the status is FIN (finished).
+This is slightly different than the asynchronous approach to retrieve
+tech support data where a separate status action is available. 
+
+ action=finish —Stop an active job. 
+
+ Not specified —When not specified, such as during an
+initial query, the system creates a new job to retrieve log data. 
+
+ Learn
+more about Asynchronous
+and Synchronous Requests to the PAN-OS XML API . 
+
+ Previous 
+
+ Retrieve Logs (API) 
+
+ Next 
+
+ Example: Use the API to Retrieve Traffic Logs

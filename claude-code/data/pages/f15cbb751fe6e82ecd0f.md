@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-security/application-security-scans-management/manage-scans-through-the-tenant-ui/ci-scans/references/reference-a-ci-scan-concepts
-fetched_at: 2026-09-06T10:13:31Z
+fetched_at: 2026-09-16T08:49:29Z
 source: cortex-platform
 ---
 
@@ -67,6 +67,10 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Prioritize CI scan issues by severity and by the business criticality of the affected repository. Do not read Not Applicable as low risk. For the Urgency model, see Urgency. 
 
- Last updated 19 days ago 
+ Previous References 
+
+ Next Reference B: Inventory columns 
+
+ Last updated 28 days ago 
 
  Was this helpful?

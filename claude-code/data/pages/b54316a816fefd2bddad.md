@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/onboard-and-configure/deployment-steps-and-checklist/cloud-service-provider-csp-onboarding/alibaba-cloud-cloud-onboarding/alibaba-security-capabilities-and-deployment-planning
-fetched_at: 2026-09-06T10:03:29Z
+fetched_at: 2026-09-16T08:46:51Z
 source: cortex-platform
 ---
 
@@ -117,6 +117,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Alibaba Cloud resource inventory 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

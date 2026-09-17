@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/python-development-quick-start-guide/cortex-xsoar-python-development-quick-start-guide/development-tools-and-resources/cortex-xsoar-automation-scripts/close-an-investigation
-fetched_at: 2026-09-06T10:50:54Z
+fetched_at: 2026-09-16T08:58:38Z
 source: cortex-platform
 ---
 
@@ -89,6 +89,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Query the Audit Trail 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

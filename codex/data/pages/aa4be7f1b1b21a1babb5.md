@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/automations/playbooks/build-your-playbook/customize-your-playbook/extract-indicators
-fetched_at: 2026-09-06T10:18:31Z
+fetched_at: 2026-09-16T08:51:02Z
 source: cortex-platform
 ---
 

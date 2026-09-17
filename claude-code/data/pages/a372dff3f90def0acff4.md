@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/integration/attribute-reference/attribute-reference-cisco-dnac
-fetched_at: 2026-08-13T16:37:00Z
+fetched_at: 2026-09-16T07:23:40Z
 source: palo-alto-main
 ---
 
-# Cisco DNA Center Attribute Reference Clear
+# Cisco DNAC Attribute Reference Clear
 
-Cisco DNA Center Attribute Reference 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Cisco DNA Center Attribute Reference 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
+ Mon Aug 17 11:22:37 PDT 2026 
 
  Focus 
 
@@ -76,13 +20,13 @@ Cisco DNA Center Attribute Reference
 
  Attribute Reference 
 
- Cisco DNA Center Attribute Reference 
+ Cisco DNAC Attribute Reference 
 
  Download PDF 
 
  Device Security 
 
- Cisco DNA Center Attribute Reference 
+ Cisco DNAC Attribute Reference 
 
  Table of Contents 
 
@@ -112,15 +56,15 @@ Cisco DNA Center Attribute Reference
 
  Previous 
 
- BlueCat IPAM Attribute Reference 
+ BlueCat Attribute Reference 
 
  Next 
 
  Cisco ISE Attribute Reference 
 
- Cisco DNA Center Attribute Reference 
+ Cisco DNAC Attribute Reference 
 
- This reference lists the attributes that Device Security collects from Cisco DNA Center,
+ This reference lists the attributes that Device Security collects from Cisco DNAC,
  their names as stored in Device Security , and the Device Security fields they map to.
 
  When Device Security integrates with Cisco DNA Center , it retrieves
@@ -138,13 +82,11 @@ Cisco DNA Center Attribute Reference
  For example, micrsoft_defender_xdr.macAddress would appear in the
  Query Builder and in the Assets Inventory table, but under Device Details Attributes Integration Specific Attributes Microsoft Defender , the attribute would appear as macAddress .
 
- Wired Client Attributes 
+ Dna Data Api V1 Wired Clients Attributes 
 
- Device Security collects wired client attributes from the Cisco DNA Center wired clients API. Each record describes a client device connected to the network via a wired interface.
- The following table lists each Cisco DNA Center attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
+ Device Security collects dna data api v1 wired clients attributes from Cisco DNAC. The following table lists each Cisco DNAC attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
- Cisco DNA Center Attribute 
+ Cisco DNAC Attribute 
 
  Device Security Attribute Name 
 
@@ -152,237 +94,13 @@ Cisco DNA Center Attribute Reference
 
  Description 
 
- collectionStatus 
-
- cisco_dnac.collectionStatus 
-
- collection_state 
-
- Collection status 
-
- connectedNetworkDevice.connectedNetworkDeviceId 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceId 
+ username 
 
  — 
 
- Connected network device unique identifier 
+ AD Username; last_ad_username 
 
- connectedNetworkDevice.connectedNetworkDeviceMac 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceMac 
-
- Switch MAC 
-
- Connected network device MAC address 
-
- connectedNetworkDevice.connectedNetworkDeviceManagementIp 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceManagementIp 
-
- Switch IP 
-
- Connected network device management IP address 
-
- connectedNetworkDevice.connectedNetworkDeviceName 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceName 
-
- switch_name 
-
- Connected network device name 
-
- connectedNetworkDevice.connectedNetworkDeviceType 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceType 
-
- — 
-
- Connected network device type 
-
- connectedNetworkDevice.interfaceName 
-
- cisco_dnac.connectedNetworkDevice.interfaceName 
-
- Switch Port 
-
- Interface name 
-
- connection.apEthernetMac 
-
- cisco_dnac.connection.apEthernetMac 
-
- — 
-
- Access point Ethernet MAC address 
-
- connection.apMac 
-
- cisco_dnac.connection.apMac 
-
- — 
-
- Access point MAC address 
-
- connection.apMode 
-
- cisco_dnac.connection.apMode 
-
- — 
-
- Access point mode 
-
- connection.authType 
-
- cisco_dnac.connection.authType 
-
- network_authentication_method 
-
- Authentication type 
-
- connection.band 
-
- cisco_dnac.connection.band 
-
- wifi_frequency 
-
- Wireless band 
-
- connection.channel 
-
- cisco_dnac.connection.channel 
-
- — 
-
- Connection channel 
-
- connection.channelWidth 
-
- cisco_dnac.connection.channelWidth 
-
- — 
-
- Connection channel width 
-
- connection.dataRate 
-
- cisco_dnac.connection.dataRate 
-
- — 
-
- Connection data rate 
-
- connection.isFabricClient 
-
- cisco_dnac.connection.isFabricClient 
-
- — 
-
- Indicates if device is a fabric client 
-
- connection.isIosAnalyticsCapable 
-
- cisco_dnac.connection.isIosAnalyticsCapable 
-
- — 
-
- Indicates if device is capable of iOS analytics 
-
- connection.protocol 
-
- cisco_dnac.connection.protocol 
-
- network_connection_protocol 
-
- Connection protocol 
-
- connection.protocolCapability 
-
- cisco_dnac.connection.protocolCapability 
-
- — 
-
- Protocol capability 
-
- connection.radioId 
-
- cisco_dnac.connection.radioId 
-
- — 
-
- Connection radio identifier 
-
- connection.rssi 
-
- cisco_dnac.connection.rssi 
-
- RSSI 
-
- Received Signal Strength Indicator 
-
- connection.securityGroupTag 
-
- cisco_dnac.connection.securityGroupTag 
-
- — 
-
- Security group tag 
-
- connection.sessionDuration 
-
- cisco_dnac.connection.sessionDuration 
-
- — 
-
- Connection session duration 
-
- connection.snr 
-
- cisco_dnac.connection.snr 
-
- SNR 
-
- Signal-to-Noise Ratio 
-
- connection.ssid 
-
- cisco_dnac.connection.ssid 
-
- SSID 
-
- Service Set Identifier 
-
- connection.vlanId 
-
- cisco_dnac.connection.vlanId 
-
- VLAN ID 
-
- VLAN identifier 
-
- connection.vnId 
-
- cisco_dnac.connection.vnId 
-
- — 
-
- Virtual Network identifier 
-
- connection.wlcId 
-
- cisco_dnac.connection.wlcId 
-
- — 
-
- Wireless LAN Controller identifier 
-
- connection.wlcName 
-
- cisco_dnac.connection.wlcName 
-
- wlc_name 
-
- Wireless LAN Controller name 
+ Username associated with the device 
 
  connectionStatus 
 
@@ -390,79 +108,31 @@ Cisco DNA Center Attribute Reference
 
  connection_state 
 
- Connection status 
+ ConnectionStatus 
 
- deviceType 
+ connectionStatus 
 
- cisco_dnac.deviceType 
+ cisco_dnac.collectionStatus 
 
- — 
+ connection_state 
 
- Device type 
+ ConnectionStatus 
 
- formFactor 
+ name 
 
- cisco_dnac.formFactor 
+ cisco_dnac.name 
 
- — 
+ hostname 
 
- Device form factor 
-
- health.connectedScore 
-
- cisco_dnac.health.connectedScore 
-
- — 
-
- Connected health score 
-
- health.onboardingScore 
-
- cisco_dnac.health.onboardingScore 
-
- — 
-
- Onboarding health score 
-
- health.overallScore 
-
- cisco_dnac.health.overallScore 
-
- — 
-
- Overall health score 
-
- health.rssiThreshold 
-
- cisco_dnac.health.rssiThreshold 
-
- — 
-
- RSSI threshold 
-
- health.snrThreshold 
-
- cisco_dnac.health.snrThreshold 
-
- — 
-
- SNR threshold 
-
- id 
-
- cisco_dnac.id 
-
- — 
-
- Device identifier 
+ Name of the device 
 
  ipv4Address 
 
  cisco_dnac.ipv4Address 
 
- ipv4_address 
+ IP Address 
 
- IPv4 address 
+ Ipv4Address 
 
  ipv6Addresses 
 
@@ -470,7 +140,7 @@ Cisco DNA Center Attribute Reference
 
  ipv6_addresses 
 
- IPv6 addresses 
+ Ipv6Addresses 
 
  lastUpdatedTime 
 
@@ -478,127 +148,7 @@ Cisco DNA Center Attribute Reference
 
  Last Activity 
 
- Last updated time 
-
- macAddress 
-
- cisco_dnac.macAddress 
-
- MAC; id 
-
- MAC address 
-
- name 
-
- cisco_dnac.name 
-
- Hostname 
-
- Device name 
-
- onboarding.aaaFailureReason 
-
- cisco_dnac.onboarding.aaaFailureReason 
-
- — 
-
- AAA failure reason 
-
- onboarding.aaaServerIp 
-
- cisco_dnac.onboarding.aaaServerIp 
-
- — 
-
- AAA server IP address 
-
- onboarding.assocDoneTime 
-
- cisco_dnac.onboarding.assocDoneTime 
-
- — 
-
- Association completion time 
-
- onboarding.assocFailureReason 
-
- cisco_dnac.onboarding.assocFailureReason 
-
- — 
-
- Association failure reason 
-
- onboarding.authDoneTime 
-
- cisco_dnac.onboarding.authDoneTime 
-
- — 
-
- Authentication completion time 
-
- onboarding.dhcpDoneTime 
-
- cisco_dnac.onboarding.dhcpDoneTime 
-
- — 
-
- DHCP completion time 
-
- onboarding.dhcpFailureReason 
-
- cisco_dnac.onboarding.dhcpFailureReason 
-
- — 
-
- DHCP failure reason 
-
- onboarding.dhcpServerIp 
-
- cisco_dnac.onboarding.dhcpServerIp 
-
- — 
-
- DHCP server IP address 
-
- onboarding.onboardingTime 
-
- cisco_dnac.onboarding.onboardingTime 
-
- — 
-
- Onboarding time 
-
- onboarding.otherFailureReason 
-
- cisco_dnac.onboarding.otherFailureReason 
-
- — 
-
- Other failure reason 
-
- onboarding.roamingTime 
-
- cisco_dnac.onboarding.roamingTime 
-
- — 
-
- Roaming time 
-
- osType 
-
- cisco_dnac.osType 
-
- raw_os 
-
- Operating system type 
-
- osVersion 
-
- cisco_dnac.osVersion 
-
- OS Version 
-
- Operating system version 
+ LastUpdatedTime 
 
  siteHierarchy 
 
@@ -606,149 +156,15 @@ Cisco DNA Center Attribute Reference
 
  Location 
 
- Site hierarchy 
+ SiteHierarchy 
 
- siteHierarchyId 
+ macAddress 
 
- cisco_dnac.siteHierarchyId 
+ cisco_dnac.macAddress 
 
- — 
+ MAC; id 
 
- Site hierarchy identifier 
-
- siteId 
-
- cisco_dnac.siteId 
-
- — 
-
- Site identifier 
-
- tracked 
-
- cisco_dnac.tracked 
-
- — 
-
- Tracking status 
-
- type 
-
- — 
-
- Wired - Wireless 
-
- Client connection type 
-
- username 
-
- — 
-
- AD Username; last_ad_username 
-
- Username of the connected client 
-
- vendor 
-
- cisco_dnac.vendor 
-
- Vendor 
-
- Device vendor 
-
- Wireless Client Attributes 
-
- Device Security collects wireless client attributes from the Cisco DNA Center wireless clients API. Each record describes a client device connected to the network via a wireless interface, including the access point it associates with.
- The following table lists each Cisco DNA Center attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
-
- Cisco DNA Center Attribute 
-
- Device Security Attribute Name 
-
- Device Security Common Attribute* 
-
- Description 
-
- collectionStatus 
-
- cisco_dnac.collectionStatus 
-
- collection_state 
-
- Collection status 
-
- connectedNetworkDevice.connectedNetworkDeviceId 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceId 
-
- — 
-
- Connected network device unique identifier 
-
- connectedNetworkDevice.connectedNetworkDeviceMac 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceMac 
-
- ap_mac 
-
- Connected network device MAC address 
-
- connectedNetworkDevice.connectedNetworkDeviceManagementIp 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceManagementIp 
-
- ap_ip 
-
- Connected network device management IP address 
-
- connectedNetworkDevice.connectedNetworkDeviceName 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceName 
-
- Access Point Name 
-
- Connected network device name 
-
- connectedNetworkDevice.connectedNetworkDeviceType 
-
- cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceType 
-
- — 
-
- Connected network device type 
-
- connectedNetworkDevice.interfaceName 
-
- cisco_dnac.connectedNetworkDevice.interfaceName 
-
- — 
-
- Interface name 
-
- connection.apEthernetMac 
-
- cisco_dnac.connection.apEthernetMac 
-
- — 
-
- Access point Ethernet MAC address 
-
- connection.apMac 
-
- cisco_dnac.connection.apMac 
-
- — 
-
- Access point MAC address 
-
- connection.apMode 
-
- cisco_dnac.connection.apMode 
-
- — 
-
- Access point mode 
+ MacAddress 
 
  connection.authType 
 
@@ -756,351 +172,39 @@ Cisco DNA Center Attribute Reference
 
  network_authentication_method 
 
- Authentication type 
-
- connection.band 
-
- cisco_dnac.connection.band 
-
- wifi_frequency 
-
- Wireless band 
-
- connection.channel 
-
- cisco_dnac.connection.channel 
-
- wifi_channel 
-
- Connection channel 
-
- connection.channelWidth 
-
- cisco_dnac.connection.channelWidth 
-
- — 
-
- Connection channel width 
-
- connection.dataRate 
-
- cisco_dnac.connection.dataRate 
-
- — 
-
- Connection data rate 
-
- connection.isFabricClient 
-
- cisco_dnac.connection.isFabricClient 
-
- — 
-
- Indicates if device is a fabric client 
-
- connection.isIosAnalyticsCapable 
-
- cisco_dnac.connection.isIosAnalyticsCapable 
-
- — 
-
- Indicates if device is capable of iOS analytics 
+ AuthType 
 
  connection.protocol 
 
  cisco_dnac.connection.protocol 
 
- Radio; network_connection_protocol 
+ network_connection_protocol 
 
- Connection protocol 
+ Protocol 
 
- connection.protocolCapability 
+ osVersion 
 
- cisco_dnac.connection.protocolCapability 
+ cisco_dnac.osVersion 
 
- — 
+ OS Version 
 
- Protocol capability 
-
- connection.radioId 
-
- cisco_dnac.connection.radioId 
-
- — 
-
- Connection radio identifier 
-
- connection.rssi 
-
- cisco_dnac.connection.rssi 
-
- RSSI 
-
- Received Signal Strength Indicator 
-
- connection.securityGroupTag 
-
- cisco_dnac.connection.securityGroupTag 
-
- — 
-
- Security group tag 
-
- connection.sessionDuration 
-
- cisco_dnac.connection.sessionDuration 
-
- — 
-
- Connection session duration 
-
- connection.snr 
-
- cisco_dnac.connection.snr 
-
- SNR 
-
- Signal-to-Noise Ratio 
-
- connection.ssid 
-
- cisco_dnac.connection.ssid 
-
- SSID 
-
- Service Set Identifier 
-
- connection.vlanId 
-
- cisco_dnac.connection.vlanId 
-
- VLAN ID 
-
- VLAN identifier 
-
- connection.vnId 
-
- cisco_dnac.connection.vnId 
-
- — 
-
- Virtual Network identifier 
-
- connection.wlcId 
-
- cisco_dnac.connection.wlcId 
-
- — 
-
- Wireless LAN Controller identifier 
-
- connection.wlcName 
-
- cisco_dnac.connection.wlcName 
-
- wireles_lan_controller_name; wlc_name 
-
- Wireless LAN Controller name 
-
- connectionStatus 
-
- — 
-
- connection_state 
-
- Connection status 
+ OsVersion 
 
  deviceType 
 
- — 
+ cisco_dnac.type 
 
- — 
+ raw_model 
 
- Device type 
+ DeviceType 
 
- formFactor 
+ deviceType 
 
- cisco_dnac.formFactor 
+ cisco_dnac.deviceType 
 
- — 
+ raw_model 
 
- Device form factor 
-
- health.connectedScore 
-
- cisco_dnac.health.connectedScore 
-
- — 
-
- Connected health score 
-
- health.onboardingScore 
-
- cisco_dnac.health.onboardingScore 
-
- — 
-
- Onboarding health score 
-
- health.overallScore 
-
- cisco_dnac.health.overallScore 
-
- — 
-
- Overall health score 
-
- health.rssiThreshold 
-
- cisco_dnac.health.rssiThreshold 
-
- — 
-
- RSSI threshold 
-
- health.snrThreshold 
-
- cisco_dnac.health.snrThreshold 
-
- — 
-
- SNR threshold 
-
- id 
-
- cisco_dnac.id 
-
- — 
-
- Device identifier 
-
- ipv4Address 
-
- cisco_dnac.ipv4Address 
-
- ipv4_address 
-
- IPv4 address 
-
- ipv6Addresses 
-
- cisco_dnac.ipv6Addresses 
-
- ipv6_addresses 
-
- IPv6 addresses 
-
- lastUpdatedTime 
-
- cisco_dnac.lastUpdatedTime 
-
- Last Activity 
-
- Last updated time 
-
- macAddress 
-
- cisco_dnac.macAddress 
-
- MAC; id 
-
- MAC address 
-
- name 
-
- cisco_dnac.name 
-
- Hostname 
-
- Device name 
-
- onboarding.aaaFailureReason 
-
- cisco_dnac.onboarding.aaaFailureReason 
-
- — 
-
- AAA failure reason 
-
- onboarding.aaaServerIp 
-
- cisco_dnac.onboarding.aaaServerIp 
-
- — 
-
- AAA server IP address 
-
- onboarding.assocDoneTime 
-
- cisco_dnac.onboarding.assocDoneTime 
-
- — 
-
- Association completion time 
-
- onboarding.assocFailureReason 
-
- cisco_dnac.onboarding.assocFailureReason 
-
- — 
-
- Association failure reason 
-
- onboarding.authDoneTime 
-
- cisco_dnac.onboarding.authDoneTime 
-
- — 
-
- Authentication completion time 
-
- onboarding.dhcpDoneTime 
-
- cisco_dnac.onboarding.dhcpDoneTime 
-
- — 
-
- DHCP completion time 
-
- onboarding.dhcpFailureReason 
-
- cisco_dnac.onboarding.dhcpFailureReason 
-
- — 
-
- DHCP failure reason 
-
- onboarding.dhcpServerIp 
-
- cisco_dnac.onboarding.dhcpServerIp 
-
- — 
-
- DHCP server IP address 
-
- onboarding.onboardingTime 
-
- cisco_dnac.onboarding.onboardingTime 
-
- — 
-
- Onboarding time 
-
- onboarding.otherFailureReason 
-
- cisco_dnac.onboarding.otherFailureReason 
-
- — 
-
- Other failure reason 
-
- onboarding.roamingTime 
-
- cisco_dnac.onboarding.roamingTime 
-
- — 
-
- Roaming time 
+ DeviceType 
 
  osType 
 
@@ -1108,47 +212,87 @@ Cisco DNA Center Attribute Reference
 
  raw_os 
 
- Operating system type 
+ OsType 
 
- osVersion 
+ connection.rssi 
 
- cisco_dnac.osVersion 
+ cisco_dnac.connection.rssi 
 
- OS Version 
+ RSSI 
 
- Operating system version 
+ Rssi 
 
- siteHierarchy 
+ connection.snr 
 
- cisco_dnac.siteHierarchy 
+ cisco_dnac.connection.snr 
 
- Location 
+ SNR 
 
- Site hierarchy 
+ Signal-to-noise ratio of the device 
 
- siteHierarchyId 
+ connection.ssid 
 
- cisco_dnac.siteHierarchyId 
+ cisco_dnac.connection.ssid 
 
- — 
+ SSID 
 
- Site hierarchy identifier 
+ Ssid 
 
- siteId 
+ connectedNetworkDevice.connectedNetworkDeviceManagementIp 
 
- cisco_dnac.siteId 
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceManagementIp 
 
- — 
+ Switch IP 
 
- Site identifier 
+ ConnectedNetworkDeviceManagementIp 
 
- tracked 
+ connectedNetworkDevice.connectedNetworkDeviceMac 
 
- cisco_dnac.tracked 
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceMac 
 
- — 
+ Switch MAC 
 
- Tracking status 
+ ConnectedNetworkDeviceMac 
+
+ connectedNetworkDevice.interfaceName 
+
+ cisco_dnac.connectedNetworkDevice.interfaceName 
+
+ Switch Port 
+
+ InterfaceName 
+
+ connectedNetworkDevice.connectedNetworkDeviceName 
+
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceName 
+
+ switch_name 
+
+ ConnectedNetworkDeviceName 
+
+ vendor 
+
+ cisco_dnac.vendor 
+
+ Vendor 
+
+ Device vendor 
+
+ connection.vlanId 
+
+ cisco_dnac.connection.vlanId 
+
+ VLAN ID 
+
+ VlanId 
+
+ connection.band 
+
+ cisco_dnac.connection.band 
+
+ wifi_frequency 
+
+ Band 
 
  type 
 
@@ -1156,275 +300,191 @@ Cisco DNA Center Attribute Reference
 
  Wired - Wireless 
 
- Client connection type 
+ Type 
 
- username 
+ connection.wlcName 
 
- — 
+ cisco_dnac.connection.wlcName 
 
- AD Username; last_ad_username 
+ wlc_name 
 
- Username of the connected client 
+ WlcName 
 
- vendor 
+ connectedNetworkDevice.connectedNetworkDeviceId 
 
- cisco_dnac.vendor 
-
- Vendor 
-
- Device vendor 
-
- Network Device Health Attributes 
-
- Device Security collects health and status attributes from the Cisco DNA Center device health API. Each record describes the operational health of a managed network device.
- The following table lists each Cisco DNA Center attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
-
- Cisco DNA Center Attribute 
-
- Device Security Attribute Name 
-
- Device Security Common Attribute* 
-
- Description 
-
- cpuHealth 
-
- cisco_dnac.cpuHealth 
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceId 
 
  — 
 
- CPU health score 
+ ConnectedNetworkDeviceId 
 
- cpuUtilization 
+ connectedNetworkDevice.connectedNetworkDeviceType 
 
- cisco_dnac.cpuUtilization 
-
- — 
-
- CPU utilization percentage 
-
- deviceFamily 
-
- cisco_dnac.deviceFamily 
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceType 
 
  — 
 
- Device family 
+ ConnectedNetworkDeviceType 
 
- deviceType 
+ connection.apEthernetMac 
 
- cisco_dnac.deviceType 
-
- — 
-
- Device type 
-
- interDeviceLinkAvailHealth 
-
- cisco_dnac.interDeviceLinkAvailHealth 
+ cisco_dnac.connection.apEthernetMac 
 
  — 
 
- Inter-device link availability health score 
+ ApEthernetMac 
 
- ipAddress 
+ connection.apMac 
 
- cisco_dnac.ipAddress 
-
- ipv4_address 
-
- IP address 
-
- location 
-
- cisco_dnac.Location 
-
- Location 
-
- Device location 
-
- macAddress 
-
- cisco_dnac.macAddress 
-
- MAC; id 
-
- MAC address 
-
- memoryUtilization 
-
- cisco_dnac.memoryUtilization 
+ cisco_dnac.connection.apMac 
 
  — 
 
- Memory utilization percentage 
+ ApMac 
 
- memoryUtilizationHealth 
+ connection.apMode 
 
- cisco_dnac.memoryUtilizationHealth 
-
- — 
-
- Memory utilization health score 
-
- model 
-
- cisco_dnac.model 
-
- Model 
-
- Device model 
-
- name 
-
- cisco_dnac.name 
-
- Hostname 
-
- Device name 
-
- osVersion 
-
- cisco_dnac.osVersion 
-
- OS Version 
-
- Operating system version 
-
- overallHealth 
-
- cisco_dnac.overallHealth 
+ cisco_dnac.connection.apMode 
 
  — 
 
- Overall health score 
+ ApMode 
 
- reachabilityHealth 
+ connection.channel 
 
- cisco_dnac.reachabilityHealth 
-
- — 
-
- Reachability health score 
-
- utilizationHealth 
-
- cisco_dnac.utilizationHealth 
+ cisco_dnac.connection.channel 
 
  — 
 
- Utilization health score 
+ Wireless channel 
 
- uuid 
+ connection.channelWidth 
 
- cisco_dnac.uuid 
-
- — 
-
- Universally unique identifier 
-
- Network Device Attributes 
-
- Device Security collects network device inventory attributes from the Cisco DNA Center network device API. Each record describes a network infrastructure device such as a switch, router, or access point managed by DNA Center.
- The following table lists each Cisco DNA Center attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
-
- Cisco DNA Center Attribute 
-
- Device Security Attribute Name 
-
- Device Security Common Attribute* 
-
- Description 
-
- apEthernetMacAddress 
-
- cisco_dnac.apEthernetMacAddress 
-
- ap_mac 
-
- Access point Ethernet MAC address 
-
- apManagerInterfaceIp 
-
- cisco_dnac.apManagerInterfaceIp 
-
- ap_ip 
-
- Access point manager interface IP 
-
- associatedWlcIp 
-
- cisco_dnac.associatedWlcIp 
-
- wireles_lan_controller_name; wlc_ip 
-
- Associated WLC IP address 
-
- bootDateTime 
-
- cisco_dnac.bootDateTime 
+ cisco_dnac.connection.channelWidth 
 
  — 
 
- Boot date and time 
+ ChannelWidth 
 
- collectionStatus 
+ connection.dataRate 
 
- cisco_dnac.collectionStatus 
-
- — 
-
- Collection status 
-
- description 
-
- cisco_dnac.description 
-
- Description 
-
- Device description 
-
- deviceSupportLevel 
-
- cisco_dnac.deviceSupportLevel 
+ cisco_dnac.connection.dataRate 
 
  — 
 
- Device support level 
+ DataRate 
 
- errorCode 
+ connection.isFabricClient 
 
- cisco_dnac.errorCode 
-
- — 
-
- Error code 
-
- errorDescription 
-
- cisco_dnac.errorDescription 
+ cisco_dnac.connection.isFabricClient 
 
  — 
 
- Error description 
+ IsFabricClient 
 
- family 
+ connection.isIosAnalyticsCapable 
 
- cisco_dnac.family 
+ cisco_dnac.connection.isIosAnalyticsCapable 
 
  — 
 
- Device family 
+ IsIosAnalyticsCapable 
 
- hostname 
+ connection.protocolCapability 
 
- cisco_dnac.hostname 
+ cisco_dnac.connection.protocolCapability 
 
- Hostname 
+ — 
 
- Hostname 
+ ProtocolCapability 
+
+ connection.radioId 
+
+ cisco_dnac.connection.radioId 
+
+ — 
+
+ RadioId 
+
+ connection.securityGroupTag 
+
+ cisco_dnac.connection.securityGroupTag 
+
+ — 
+
+ SecurityGroupTag 
+
+ connection.sessionDuration 
+
+ cisco_dnac.connection.sessionDuration 
+
+ — 
+
+ SessionDuration 
+
+ connection.vnId 
+
+ cisco_dnac.connection.vnId 
+
+ — 
+
+ VnId 
+
+ connection.wlcId 
+
+ cisco_dnac.connection.wlcId 
+
+ — 
+
+ WlcId 
+
+ formFactor 
+
+ cisco_dnac.formFactor 
+
+ — 
+
+ FormFactor 
+
+ health.connectedScore 
+
+ cisco_dnac.health.connectedScore 
+
+ — 
+
+ ConnectedScore 
+
+ health.onboardingScore 
+
+ cisco_dnac.health.onboardingScore 
+
+ — 
+
+ OnboardingScore 
+
+ health.overallScore 
+
+ cisco_dnac.health.overallScore 
+
+ — 
+
+ OverallScore 
+
+ health.rssiThreshold 
+
+ cisco_dnac.health.rssiThreshold 
+
+ — 
+
+ RssiThreshold 
+
+ health.snrThreshold 
+
+ cisco_dnac.health.snrThreshold 
+
+ — 
+
+ SnrThreshold 
 
  id 
 
@@ -1432,63 +492,219 @@ Cisco DNA Center Attribute Reference
 
  — 
 
- Device identifier 
+ Id 
 
- instanceTenantId 
+ onboarding.aaaFailureReason 
 
- cisco_dnac.instanceTenantId 
-
- — 
-
- Instance tenant identifier 
-
- instanceUuid 
-
- cisco_dnac.instanceUuid 
+ cisco_dnac.onboarding.aaaFailureReason 
 
  — 
 
- Instance UUID 
+ AaaFailureReason 
 
- interfaceCount 
+ onboarding.aaaServerIp 
 
- cisco_dnac.interfaceCount 
-
- — 
-
- Total number of network interfaces 
-
- inventoryStatusDetail 
-
- cisco_dnac.inventoryStatusDetail 
+ cisco_dnac.onboarding.aaaServerIp 
 
  — 
 
- Inventory status detail 
+ AaaServerIp 
 
- lastUpdated 
+ onboarding.assocDoneTime 
+
+ cisco_dnac.onboarding.assocDoneTime 
 
  — 
+
+ AssocDoneTime 
+
+ onboarding.assocFailureReason 
+
+ cisco_dnac.onboarding.assocFailureReason 
+
+ — 
+
+ AssocFailureReason 
+
+ onboarding.authDoneTime 
+
+ cisco_dnac.onboarding.authDoneTime 
+
+ — 
+
+ AuthDoneTime 
+
+ onboarding.dhcpDoneTime 
+
+ cisco_dnac.onboarding.dhcpDoneTime 
+
+ — 
+
+ DhcpDoneTime 
+
+ onboarding.dhcpFailureReason 
+
+ cisco_dnac.onboarding.dhcpFailureReason 
+
+ — 
+
+ DhcpFailureReason 
+
+ onboarding.dhcpServerIp 
+
+ cisco_dnac.onboarding.dhcpServerIp 
+
+ — 
+
+ DhcpServerIp 
+
+ onboarding.onboardingTime 
+
+ cisco_dnac.onboarding.onboardingTime 
+
+ — 
+
+ OnboardingTime 
+
+ onboarding.otherFailureReason 
+
+ cisco_dnac.onboarding.otherFailureReason 
+
+ — 
+
+ OtherFailureReason 
+
+ onboarding.roamingTime 
+
+ cisco_dnac.onboarding.roamingTime 
+
+ — 
+
+ RoamingTime 
+
+ siteHierarchyId 
+
+ cisco_dnac.siteHierarchyId 
+
+ — 
+
+ SiteHierarchyId 
+
+ siteId 
+
+ cisco_dnac.siteId 
+
+ — 
+
+ SiteId 
+
+ tracked 
+
+ cisco_dnac.tracked 
+
+ — 
+
+ Tracked 
+
+ Dna Data Api V1 Wireless Clients Attributes 
+
+ Device Security collects dna data api v1 wireless clients attributes from Cisco DNAC. The following table lists each Cisco DNAC attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
+
+ Cisco DNAC Attribute 
+
+ Device Security Attribute Name 
+
+ Device Security Common Attribute* 
+
+ Description 
+
+ username 
+
+ — 
+
+ AD Username; last_ad_username 
+
+ Username associated with the device 
+
+ connectedNetworkDevice.connectedNetworkDeviceManagementIp 
+
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceManagementIp 
+
+ ap_ip 
+
+ ConnectedNetworkDeviceManagementIp 
+
+ connectedNetworkDevice.connectedNetworkDeviceMac 
+
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceMac 
+
+ ap_mac 
+
+ ConnectedNetworkDeviceMac 
+
+ connectedNetworkDevice.connectedNetworkDeviceName 
+
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceName 
+
+ ap_name 
+
+ ConnectedNetworkDeviceName 
+
+ connectionStatus 
+
+ cisco_dnac.connectionStatus 
+
+ connection_state 
+
+ ConnectionStatus 
+
+ connectionStatus 
+
+ cisco_dnac.collectionStatus 
+
+ connection_state 
+
+ ConnectionStatus 
+
+ name 
+
+ cisco_dnac.name 
+
+ hostname 
+
+ Name of the device 
+
+ ipv4Address 
+
+ cisco_dnac.ipv4Address 
+
+ IP Address 
+
+ Ipv4Address 
+
+ ipv6Addresses 
+
+ cisco_dnac.ipv6Addresses 
+
+ ipv6_addresses 
+
+ Ipv6Addresses 
+
+ lastUpdatedTime 
+
+ cisco_dnac.lastUpdatedTime 
 
  Last Activity 
 
- Last updated timestamp 
+ LastUpdatedTime 
 
- location 
+ siteHierarchy 
 
- cisco_dnac.Location 
-
- — 
-
- Device location 
-
- locationName 
-
- cisco_dnac.locationName 
+ cisco_dnac.siteHierarchy 
 
  Location 
 
- Location name 
+ SiteHierarchy 
 
  macAddress 
 
@@ -1496,103 +712,63 @@ Cisco DNA Center Attribute Reference
 
  MAC; id 
 
- MAC address 
+ MacAddress 
 
- managementIpAddress 
+ connection.authType 
 
- cisco_dnac.managementIpAddress 
+ cisco_dnac.connection.authType 
 
- ipv4_address 
+ network_authentication_method 
 
- Management IP address 
+ AuthType 
 
- managementState 
+ osVersion 
 
- cisco_dnac.managementState 
+ cisco_dnac.osVersion 
 
- — 
+ OS Version 
 
- Management state 
+ OsVersion 
 
- memorySize 
+ connection.protocol 
 
- cisco_dnac.memorySize 
+ cisco_dnac.connection.protocol 
 
- — 
+ Radio; network_connection_protocol 
 
- Memory size 
+ Protocol 
 
- platformId 
+ osType 
 
- cisco_dnac.platformId 
+ cisco_dnac.osType 
 
- Model 
+ raw_os 
 
- Platform identifier 
+ OsType 
 
- reachabilityStatus 
+ connection.rssi 
 
- cisco_dnac.reachabilityStatus 
+ cisco_dnac.connection.rssi 
 
- — 
+ RSSI 
 
- Reachability status 
+ Rssi 
 
- role 
+ connection.snr 
 
- cisco_dnac.role 
+ cisco_dnac.connection.snr 
 
- — 
+ SNR 
 
- Device role 
+ Signal-to-noise ratio of the device 
 
- serialNumber 
+ connection.ssid 
 
- cisco_dnac.serialNumber 
+ cisco_dnac.connection.ssid 
 
- Serial Number 
+ SSID 
 
- Serial number 
-
- series 
-
- cisco_dnac.series 
-
- — 
-
- Device series 
-
- softwareVersion 
-
- cisco_dnac.softwareVersion 
-
- — 
-
- Software version 
-
- type 
-
- cisco_dnac.type 
-
- — 
-
- Device type 
-
- upTime 
-
- cisco_dnac.upTime 
-
- — 
-
- Device uptime 
-
- uptimeSeconds 
-
- cisco_dnac.uptimeSeconds 
-
- — 
-
- Device uptime in seconds 
+ Ssid 
 
  vendor 
 
@@ -1602,62 +778,796 @@ Cisco DNA Center Attribute Reference
 
  Device vendor 
 
+ connection.vlanId 
+
+ cisco_dnac.connection.vlanId 
+
+ VLAN ID 
+
+ VlanId 
+
+ connection.channel 
+
+ cisco_dnac.connection.channel 
+
+ wifi_channel 
+
+ Wireless channel 
+
+ connection.band 
+
+ cisco_dnac.connection.band 
+
+ wifi_frequency 
+
+ Band 
+
+ type 
+
+ — 
+
+ Wired - Wireless 
+
+ Type 
+
+ connection.wlcName 
+
+ cisco_dnac.connection.wlcName 
+
+ wireles_lan_controller_name; wlc_name 
+
+ WlcName 
+
+ connectedNetworkDevice.connectedNetworkDeviceId 
+
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceId 
+
+ — 
+
+ ConnectedNetworkDeviceId 
+
+ connectedNetworkDevice.connectedNetworkDeviceType 
+
+ cisco_dnac.connectedNetworkDevice.connectedNetworkDeviceType 
+
+ — 
+
+ ConnectedNetworkDeviceType 
+
+ connectedNetworkDevice.interfaceName 
+
+ cisco_dnac.connectedNetworkDevice.interfaceName 
+
+ — 
+
+ InterfaceName 
+
+ connection.apEthernetMac 
+
+ cisco_dnac.connection.apEthernetMac 
+
+ — 
+
+ ApEthernetMac 
+
+ connection.apMac 
+
+ cisco_dnac.connection.apMac 
+
+ — 
+
+ ApMac 
+
+ connection.apMode 
+
+ cisco_dnac.connection.apMode 
+
+ — 
+
+ ApMode 
+
+ connection.channelWidth 
+
+ cisco_dnac.connection.channelWidth 
+
+ — 
+
+ ChannelWidth 
+
+ connection.dataRate 
+
+ cisco_dnac.connection.dataRate 
+
+ — 
+
+ DataRate 
+
+ connection.isFabricClient 
+
+ cisco_dnac.connection.isFabricClient 
+
+ — 
+
+ IsFabricClient 
+
+ connection.isIosAnalyticsCapable 
+
+ cisco_dnac.connection.isIosAnalyticsCapable 
+
+ — 
+
+ IsIosAnalyticsCapable 
+
+ connection.protocolCapability 
+
+ cisco_dnac.connection.protocolCapability 
+
+ — 
+
+ ProtocolCapability 
+
+ connection.radioId 
+
+ cisco_dnac.connection.radioId 
+
+ — 
+
+ RadioId 
+
+ connection.securityGroupTag 
+
+ cisco_dnac.connection.securityGroupTag 
+
+ — 
+
+ SecurityGroupTag 
+
+ connection.sessionDuration 
+
+ cisco_dnac.connection.sessionDuration 
+
+ — 
+
+ SessionDuration 
+
+ connection.vnId 
+
+ cisco_dnac.connection.vnId 
+
+ — 
+
+ VnId 
+
+ connection.wlcId 
+
+ cisco_dnac.connection.wlcId 
+
+ — 
+
+ WlcId 
+
+ deviceType 
+
+ cisco_dnac.deviceType 
+
+ — 
+
+ DeviceType 
+
+ formFactor 
+
+ cisco_dnac.formFactor 
+
+ — 
+
+ FormFactor 
+
+ health.connectedScore 
+
+ cisco_dnac.health.connectedScore 
+
+ — 
+
+ ConnectedScore 
+
+ health.onboardingScore 
+
+ cisco_dnac.health.onboardingScore 
+
+ — 
+
+ OnboardingScore 
+
+ health.overallScore 
+
+ cisco_dnac.health.overallScore 
+
+ — 
+
+ OverallScore 
+
+ health.rssiThreshold 
+
+ cisco_dnac.health.rssiThreshold 
+
+ — 
+
+ RssiThreshold 
+
+ health.snrThreshold 
+
+ cisco_dnac.health.snrThreshold 
+
+ — 
+
+ SnrThreshold 
+
+ id 
+
+ cisco_dnac.id 
+
+ — 
+
+ Id 
+
+ onboarding.aaaFailureReason 
+
+ cisco_dnac.onboarding.aaaFailureReason 
+
+ — 
+
+ AaaFailureReason 
+
+ onboarding.aaaServerIp 
+
+ cisco_dnac.onboarding.aaaServerIp 
+
+ — 
+
+ AaaServerIp 
+
+ onboarding.assocDoneTime 
+
+ cisco_dnac.onboarding.assocDoneTime 
+
+ — 
+
+ AssocDoneTime 
+
+ onboarding.assocFailureReason 
+
+ cisco_dnac.onboarding.assocFailureReason 
+
+ — 
+
+ AssocFailureReason 
+
+ onboarding.authDoneTime 
+
+ cisco_dnac.onboarding.authDoneTime 
+
+ — 
+
+ AuthDoneTime 
+
+ onboarding.dhcpDoneTime 
+
+ cisco_dnac.onboarding.dhcpDoneTime 
+
+ — 
+
+ DhcpDoneTime 
+
+ onboarding.dhcpFailureReason 
+
+ cisco_dnac.onboarding.dhcpFailureReason 
+
+ — 
+
+ DhcpFailureReason 
+
+ onboarding.dhcpServerIp 
+
+ cisco_dnac.onboarding.dhcpServerIp 
+
+ — 
+
+ DhcpServerIp 
+
+ onboarding.onboardingTime 
+
+ cisco_dnac.onboarding.onboardingTime 
+
+ — 
+
+ OnboardingTime 
+
+ onboarding.otherFailureReason 
+
+ cisco_dnac.onboarding.otherFailureReason 
+
+ — 
+
+ OtherFailureReason 
+
+ onboarding.roamingTime 
+
+ cisco_dnac.onboarding.roamingTime 
+
+ — 
+
+ RoamingTime 
+
+ siteHierarchyId 
+
+ cisco_dnac.siteHierarchyId 
+
+ — 
+
+ SiteHierarchyId 
+
+ siteId 
+
+ cisco_dnac.siteId 
+
+ — 
+
+ SiteId 
+
+ tracked 
+
+ cisco_dnac.tracked 
+
+ — 
+
+ Tracked 
+
+ deviceType 
+
+ cisco_dnac.type 
+
+ — 
+
+ DeviceType 
+
+ Dna Intent Api V1 Device Health Attributes 
+
+ Device Security collects dna intent api v1 device health attributes from Cisco DNAC. The following table lists each Cisco DNAC attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
+
+ Cisco DNAC Attribute 
+
+ Device Security Attribute Name 
+
+ Device Security Common Attribute* 
+
+ Description 
+
+ name 
+
+ cisco_dnac.name 
+
+ hostname 
+
+ Name of the device 
+
+ ipAddress 
+
+ cisco_dnac.ipAddress 
+
+ IP Address 
+
+ IpAddress 
+
+ location 
+
+ cisco_dnac.Location 
+
+ Location 
+
+ Location 
+
+ macAddress 
+
+ cisco_dnac.macAddress 
+
+ MAC; id 
+
+ MacAddress 
+
+ model 
+
+ cisco_dnac.model 
+
+ Model 
+
+ Model of the device 
+
+ osVersion 
+
+ cisco_dnac.osVersion 
+
+ OS Version 
+
+ OsVersion 
+
+ deviceType 
+
+ cisco_dnac.deviceType 
+
+ raw_model 
+
+ DeviceType 
+
+ cpuHealth 
+
+ cisco_dnac.cpuHealth 
+
+ — 
+
+ CpuHealth 
+
+ cpuUtilization 
+
+ cisco_dnac.cpuUtilization 
+
+ — 
+
+ CpuUtilization 
+
+ deviceFamily 
+
+ cisco_dnac.deviceFamily 
+
+ — 
+
+ DeviceFamily 
+
+ interDeviceLinkAvailHealth 
+
+ cisco_dnac.interDeviceLinkAvailHealth 
+
+ — 
+
+ InterDeviceLinkAvailHealth 
+
+ memoryUtilization 
+
+ cisco_dnac.memoryUtilization 
+
+ — 
+
+ MemoryUtilization 
+
+ memoryUtilizationHealth 
+
+ cisco_dnac.memoryUtilizationHealth 
+
+ — 
+
+ MemoryUtilizationHealth 
+
+ overallHealth 
+
+ cisco_dnac.overallHealth 
+
+ — 
+
+ OverallHealth 
+
+ reachabilityHealth 
+
+ cisco_dnac.reachabilityHealth 
+
+ — 
+
+ ReachabilityHealth 
+
+ utilizationHealth 
+
+ cisco_dnac.utilizationHealth 
+
+ — 
+
+ UtilizationHealth 
+
+ uuid 
+
+ cisco_dnac.uuid 
+
+ — 
+
+ Uuid 
+
+ Dna Intent Api V1 Network Device Attributes 
+
+ Device Security collects dna intent api v1 network device attributes from Cisco DNAC. The following table lists each Cisco DNAC attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
+
+ Cisco DNAC Attribute 
+
+ Device Security Attribute Name 
+
+ Device Security Common Attribute* 
+
+ Description 
+
+ apManagerInterfaceIp 
+
+ cisco_dnac.apManagerInterfaceIp 
+
+ ap_ip 
+
+ ApManagerInterfaceIp 
+
+ apEthernetMacAddress 
+
+ cisco_dnac.apEthernetMacAddress 
+
+ ap_mac 
+
+ ApEthernetMacAddress 
+
+ description 
+
+ cisco_dnac.description 
+
+ Description 
+
+ Description 
+
+ hostname 
+
+ cisco_dnac.hostname 
+
+ hostname 
+
+ Name of the device 
+
+ managementIpAddress 
+
+ cisco_dnac.managementIpAddress 
+
+ IP Address 
+
+ ManagementIpAddress 
+
+ lastUpdated 
+
+ cisco_dnac.lastUpdated 
+
+ Last Activity 
+
+ LastUpdated 
+
+ lastUpdated 
+
+ cisco_dnac.lastUpdatedTime 
+
+ Last Activity 
+
+ LastUpdated 
+
+ locationName 
+
+ cisco_dnac.locationName 
+
+ Location 
+
+ LocationName 
+
+ macAddress 
+
+ cisco_dnac.macAddress 
+
+ MAC; id 
+
+ MacAddress 
+
+ platformId 
+
+ cisco_dnac.platformId 
+
+ Model 
+
+ PlatformId 
+
+ serialNumber 
+
+ cisco_dnac.serialNumber 
+
+ Serial Number 
+
+ SerialNumber 
+
+ vendor 
+
+ cisco_dnac.vendor 
+
+ Vendor 
+
+ Device vendor 
+
+ associatedWlcIp 
+
+ cisco_dnac.associatedWlcIp 
+
+ wireles_lan_controller_name; wlc_ip 
+
+ AssociatedWlcIp 
+
+ bootDateTime 
+
+ cisco_dnac.bootDateTime 
+
+ — 
+
+ BootDateTime 
+
+ collectionStatus 
+
+ cisco_dnac.collectionStatus 
+
+ — 
+
+ CollectionStatus 
+
+ deviceSupportLevel 
+
+ cisco_dnac.deviceSupportLevel 
+
+ — 
+
+ DeviceSupportLevel 
+
+ errorCode 
+
+ cisco_dnac.errorCode 
+
+ — 
+
+ ErrorCode 
+
+ errorDescription 
+
+ cisco_dnac.errorDescription 
+
+ — 
+
+ ErrorDescription 
+
+ family 
+
+ cisco_dnac.family 
+
+ — 
+
+ Family 
+
+ id 
+
+ cisco_dnac.id 
+
+ — 
+
+ Id 
+
+ instanceTenantId 
+
+ cisco_dnac.instanceTenantId 
+
+ — 
+
+ InstanceTenantId 
+
+ instanceUuid 
+
+ cisco_dnac.instanceUuid 
+
+ — 
+
+ InstanceUuid 
+
+ interfaceCount 
+
+ cisco_dnac.interfaceCount 
+
+ — 
+
+ InterfaceCount 
+
+ inventoryStatusDetail 
+
+ cisco_dnac.inventoryStatusDetail 
+
+ — 
+
+ InventoryStatusDetail 
+
+ location 
+
+ cisco_dnac.Location 
+
+ — 
+
+ Location 
+
+ managementState 
+
+ cisco_dnac.managementState 
+
+ — 
+
+ ManagementState 
+
+ memorySize 
+
+ cisco_dnac.memorySize 
+
+ — 
+
+ MemorySize 
+
+ reachabilityStatus 
+
+ cisco_dnac.reachabilityStatus 
+
+ — 
+
+ ReachabilityStatus 
+
+ role 
+
+ cisco_dnac.role 
+
+ — 
+
+ Role of the device 
+
+ series 
+
+ cisco_dnac.series 
+
+ — 
+
+ Series 
+
+ softwareVersion 
+
+ cisco_dnac.softwareVersion 
+
+ — 
+
+ SoftwareVersion 
+
+ type 
+
+ cisco_dnac.type 
+
+ — 
+
+ Type 
+
+ upTime 
+
+ cisco_dnac.upTime 
+
+ — 
+
+ UpTime 
+
+ uptimeSeconds 
+
+ cisco_dnac.uptimeSeconds 
+
+ — 
+
+ UptimeSeconds 
+
  * Only some attributes map to a Device Security Common Attribute. 
 
  Previous 
 
- BlueCat IPAM Attribute Reference 
+ BlueCat Attribute Reference 
 
  Next 
 
- Cisco ISE Attribute Reference 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Reference 
-
- Cloud-Delivered Security Services 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Cisco ISE Attribute Reference

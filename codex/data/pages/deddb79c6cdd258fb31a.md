@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/data-management/broker-vm/set-up-and-configure-broker-vm/broker-vm-image-installations/set-up-broker-vm-on-vmware-esxi-using-vsphere-client
-fetched_at: 2026-09-06T09:20:17Z
+fetched_at: 2026-09-16T07:56:03Z
 source: cortex-platform
 ---
 
@@ -27,7 +27,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Broker VM image installations 
 
- Cortex XSIAM 
+ Cortex XSIAM Data Ingestion 
 
  Set up Broker VM on VMware ESXi using vSphere Client 
 

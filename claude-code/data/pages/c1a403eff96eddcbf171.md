@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/reference-and-developer-docs/cortex-agentix-xql/build-xql-queries/how-to-build-xql-queries/create-xql-query
-fetched_at: 2026-09-06T10:19:54Z
+fetched_at: 2026-09-16T08:51:27Z
 source: cortex-platform
 ---
 

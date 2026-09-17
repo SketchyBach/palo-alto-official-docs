@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/threat-management/extended-threat-intelligence/using-xti-in-playbooks
-fetched_at: 2026-09-06T09:54:15Z
+fetched_at: 2026-09-16T08:44:35Z
 source: cortex-platform
 ---
 

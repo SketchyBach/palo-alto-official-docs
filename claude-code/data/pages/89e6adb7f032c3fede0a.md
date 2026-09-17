@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/linux-kernel-versions/rocky-linux/aarch64/9
-fetched_at: 2026-09-06T10:57:42Z
+fetched_at: 2026-09-16T09:04:46Z
 source: cortex-platform
 ---
 
@@ -525,6 +525,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next SUSE Linux Enterprise Server 
 
- Last updated 4 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

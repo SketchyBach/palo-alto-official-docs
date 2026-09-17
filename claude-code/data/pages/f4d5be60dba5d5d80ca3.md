@@ -1,0 +1,168 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/10-2/pan-os-panorama-api/get-started-with-the-pan-os-rest-api/methods-supported-rest-api.html
+fetched_at: 2026-09-16T11:15:20Z
+source: palo-alto-main
+---
+
+# Getting Started with the PAN-OS XML API Clear
+
+Updated on 
+
+ Aug 28, 2025 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Getting Started with the PAN-OS XML API 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Getting Started with the PAN-OS XML API 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Generate an API Key Certificate 
+
+ Next 
+
+ Explore the XML API 
+
+ Getting Started with the PAN-OS XML API 
+
+ Learn about getting started with PAN-OS XML API 
+
+ Use the PAN-OS XML API when you want to automate tasks you need to perform, such as: 
+
+ Create, update, and modify firewall and Panorama configurations. 
+
+ Execute operational mode commands, such as restart the system or validate
+ configurations. 
+
+ Retrieve reports. 
+
+ Manage users through User-ID. 
+
+ Update dynamic objects without having to modify or commit new configurations. 
+
+ The PAN-OS XML API offers a number of components to automate access and configuration of
+ Palo Alto Networks firewalls and Panorama. 
+
+ Feature 
+
+ Description 
+
+ Full access to PAN-OS functionality 
+
+ The PAN-OS XML API allows you to access almost all of the
+ functionality normally provided through the firewall web interface
+ and CLI. 
+
+ Secure authentication and access using API key and admin roles 
+
+ Use your administrative username and password to generate an API key
+ to authenticate API calls. Granular roles allow you to grant API
+ access to specific functionality including reports, logs, and
+ operational mode commands. 
+
+ Options to view XML syntax through API browser, CLI and web interface
+ debug mode 
+
+ To explore all various functions of the API, you can use the API
+ browser through the firewall web interface. You can also enable
+ debug mode through the CLI to see the API equivalent of CLI
+ commands. 
+
+ To learn about the PAN-OS REST API, see PAN-OS REST API Use Cases . 
+
+ To learn about changes to the latest version of CLI commands that affect corresponding
+ PAN-OS XML API requests, see the PAN-OS CLI Quick Start . 
+
+ When multiple login or logout events are generated at the same time, make sure to follow
+ these guidelines to ensure optimal firewall performance: 
+
+ Design your application to queue events and perform batch API updates instead
+ of sending single event or mapping updates. 
+
+ Limit the number of concurrent API calls to five. The suggested limit ensures
+ that there is no performance impact to the firewall web interface as the
+ management plane web server handles requests from both the API and the web
+ interface. Limits may vary depending on the type of request. 
+
+ Previous 
+
+ Generate an API Key Certificate 
+
+ Next 
+
+ Explore the XML API

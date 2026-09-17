@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/administration-and-troubleshooting/about-health-issues/investigate-and-resolve-health-issues
-fetched_at: 2026-09-06T09:28:34Z
+fetched_at: 2026-09-16T08:33:45Z
 source: cortex-platform
 ---
 
@@ -25,7 +25,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Health issues in Cortex XSIAM 
 
- Cortex XSIAM Automations and SOAR 
+ Cortex XSIAM Automations & SOAR 
 
  Investigate and resolve health issues 
 
@@ -108,6 +108,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Monitor data ingestion health (BETA) 
 
- Last updated 14 days ago 
+ Last updated 23 days ago 
 
  Was this helpful?

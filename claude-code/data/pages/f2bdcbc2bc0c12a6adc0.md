@@ -1,0 +1,110 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/hardware/wf-500-b-appliance-hardware-reference/before-you-begin/tamper-proof-statement.html
+fetched_at: 2026-09-16T12:09:08Z
+source: palo-alto-main
+---
+
+# Tamper Proof Statement Clear
+
+Updated on 
+
+ Tue Oct 10 13:30:41 PDT 2023 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ WF-500-B Appliance Hardware Reference 
+
+ Before You Begin 
+
+ Tamper Proof Statement 
+
+ Download PDF 
+
+ WF-500-B Appliance Hardware Reference 
+
+ Tamper Proof Statement 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Product Safety Warnings 
+
+ WF-500-B Appliance Overview 
+
+ WF-500-B Front Panel 
+
+ WF-500-B Back Panel 
+
+ Install the WF-500-B Appliance 
+
+ Install the WF-500-B Appliance in a 19" Equipment Rack 
+
+ Install the WF-500-B Appliance in a 4-Post Rack 
+
+ Connect Power to the WF-500-B Appliance 
+
+ Service the WF-500-B Appliance 
+
+ Interpret the WF-500-B LEDs 
+
+ Replace a WF-500-B Log Drive 
+
+ Replace a WF-500-B System Drive 
+
+ Replace a WF-500-B Power Supply 
+
+ WF-500-B Appliance Specifications 
+
+ WF-500-B Physical Specifications 
+
+ WF-500-B Electrical Specifications 
+
+ WF-500-B Environmental Specifications 
+
+ WF-500-B Appliance Hardware Compliance Statements 
+
+ WF-500-B Compliance Statements 
+
+ Tamper Proof Statement 
+
+ Learn how to check if your new firewall was tampered
+with during shipping. 
+
+ To ensure that products purchased from Palo Alto Networks were not tampered
+ with during shipping, verify the following upon receipt of each product: 
+
+ The tracking number provided to you electronically when ordering
+ the product matches the tracking number that is physically labeled on the box or
+ crate. 
+
+ The integrity of the tamper-proof tape used to seal the box or
+ crate is not compromised. 
+
+ The integrity of the warranty label on the firewall or appliance
+ is not compromised. 
+
+ ( PA-7000 Series firewalls only ) PA-7000 Series firewalls are modular systems
+ and therefore do not include a warranty label on the firewall. 
+
+ Previous 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances 
+
+ Next 
+
+ Third-Party Component Support

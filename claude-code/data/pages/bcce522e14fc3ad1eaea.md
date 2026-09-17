@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/cortex-xdr-xql/functions/extract_url_registered_domain
-fetched_at: 2026-09-06T09:51:41Z
+fetched_at: 2026-09-16T08:44:22Z
 source: cortex-platform
 ---
 

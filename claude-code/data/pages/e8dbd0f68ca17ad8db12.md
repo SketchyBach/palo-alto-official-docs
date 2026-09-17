@@ -1,0 +1,163 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/network-security/ipsec-vpn/administration/troubleshooting/verify-ipsec-vpn-tunnel-transmit-traffic.html
+fetched_at: 2026-09-16T10:53:18Z
+source: palo-alto-main
+---
+
+# Verify IPSec VPN Tunnel Transmit Traffic Clear
+
+Updated on 
+
+ Mon Jun 29 22:44:07 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Network Security 
+
+ Troubleshooting 
+
+ Verify IPSec VPN Tunnel Transmit Traffic 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Network Security 
+
+ Verify IPSec VPN Tunnel Transmit Traffic 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Network Security Docs 
+
+ Security Policy 
+
+ IPsec VPN 
+
+ Decryption 
+
+ Device-ID 
+
+ Quantum Security 
+
+ Quality of Service 
+
+ Previous 
+
+ Troubleshoot Site-to-Site VPN Issues Using CLI 
+
+ Next 
+
+ Decryption Basics 
+
+ Verify IPSec VPN Tunnel Transmit Traffic 
+
+ This topic explains the architectural limitation causing transmitted inner packets to
+ be missing from packet captures on IPSec tunnel interfaces along with the
+ workround. 
+
+ Where Can I Use This? What Do I Need? 
+
+ PAN-OS 
+
+ No license required 
+
+ When troubleshooting IPsec VPN traffic using packet capture on a logical tunnel
+ interface (for example, tunnel.1 ), you may observe incoming packets while the
+ outgoing inner traffic remains invisible. 
+
+ In Palo Alto Networks firewalls, the packet capture utility intercepts traffic at four
+ specific dataplane stages: receive (Rx) , firewall , drop , and
+ transmit (Tx) . 
+
+ Stage Capture Point Description 
+
+ Receive Captured as the packet enters the physical interface. 
+
+ Firewall Captured during the security policy and session lookup. 
+
+ Drop Captured if the packet is discarded (for example, threat or
+ policy deny). 
+
+ Transmit Captured as the packet exits; for tunnels, this only shows
+ encrypted data. 
+
+ The reason unencrypted "inner" traffic is missing from transmitted (Tx) captures on a
+ logical tunnel interface is due to the sequence of the firewall’s packet-processing
+ pipeline. 
+
+ When a packet is destined for an IPsec VPN, the firewall encrypts it before it leaves the
+ device. The observation point for a logical tunnel interface is typically positioned at
+ a stage where the data has already been transformed: 
+ Rx (Received): The firewall has already stripped away the encryption,
+ allowing you to see the "clear text" packet as it enters the system. 
+
+ Tx (Transmitted): The firewall performs encryption and encapsulation
+ before the packet reaches the final capture hook. 
+
+ By the time the packet is processed for transmission, the original IP header and payload
+ have been wrapped inside an Encapsulating Security Payload (ESP) header. Because the
+ "inner" packet no longer exists in its raw form at the exit point of the logical
+ interface, the packet capture tool only sees the resulting encrypted traffic or, in many
+ cases, misses the transmission stage entirely because the packet has been handed off to
+ the encryption hardware. 
+
+ Since you cannot rely on a standard packet capture to view the inner Tx traffic on a
+ tunnel interface, you should use the following methods to verify that traffic is
+ successfully leaving the firewall: 
+
+ Rely on Encapsulation Counters —Verify that the firewall is
+ actively encrypting the traffic rather than looking for the packet itself. 
+
+ Run the following CLI command and view the IPSec counters:
+
+ show vpn flow name <tunnel_name> 
+
+ You can also run the following CLI command to check the dataplane
+ counters. 
+
+ show counter global filter packet-filter yes delta yes 
+
+ If the encapsulation counters are incrementing, it proves that the Tx
+ traffic successfully entered the tunnel. 
+
+ Capture Inner Traffic on the Remote IPsec Peer —To confirm the
+ packet was received and to view the actual inner payload, check the remote peer. 
+
+ Run a capture for the same IP pairs on the receiving end (the
+ terminated remote peer) after the traffic has been successfully decrypted. 
+
+ Capture on the Physical Egress Interface and Decrypt —Run the
+ capture on the physical outside interface (for example, ethernet1/1) instead of
+ the logical tunnel interface. 
+
+ This allows you to view the encrypted ESP (Protocol 50) or
+ UDP-encapsulated ESP (Port 4500) packets leaving the firewall, which proves the
+ Tx traffic is actually transmitting. You can then export this ESP packet capture and manually decrypt it
+ offline using a capture tool. 
+
+ Previous 
+
+ Troubleshoot Site-to-Site VPN Issues Using CLI 
+
+ Next 
+
+ Decryption Basics

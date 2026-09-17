@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/investigate-and-respond-to-threats/incidents-and-indicators-investigation/investigate-an-incident
-fetched_at: 2026-09-06T10:33:45Z
+fetched_at: 2026-09-16T08:54:44Z
 source: cortex-platform
 ---
 
@@ -193,6 +193,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Retain incidents 
 
- Last updated 1 hour ago 
+ Last updated 9 days ago 
 
  Was this helpful?

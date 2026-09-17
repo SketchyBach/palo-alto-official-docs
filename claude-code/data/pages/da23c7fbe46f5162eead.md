@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/configure-cortex-xsoar/customize-and-configure-cortex-xsoar/playbooks/playbook-task-fields/communication-tasks
-fetched_at: 2026-09-06T10:48:19Z
+fetched_at: 2026-09-16T08:57:36Z
 source: cortex-platform
 ---
 

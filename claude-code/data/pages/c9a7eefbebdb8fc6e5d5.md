@@ -1,95 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/best-practices/10-1/best-practices-for-migrating-to-application-based-policy/best-practices-for-migrating-to-application-based-policy/migrate-to-application-based-policy-using-policy-optimizer/convert-simple-rules-with-few-well-known-applications
-fetched_at: 2026-08-13T15:30:03Z
+fetched_at: 2026-09-15T15:08:53Z
 source: palo-alto-main
 ---
 
 # Convert Simple Rules with Few Well-Known Applications Clear
 
-Convert Simple Rules with Few Well-Known Applications 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Best Practices for Migrating to Application-Based Policy 
-
- : 
- Convert Simple Rules with Well-Known Apps After One Week 
-
- Updated on 
-
- Jan 26, 2024 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Filter
-
- Version 
-
- 10.1 
-
- 10.1 
-
- 10.0 (EoL) 
-
- 9.1 (EoL) 
-
- Expand all | Collapse all 
-
- Best Practices for Migrating to Application-Based Policy 
-
- Safely Enable Applications Using a Phased Transition 
-
- Migrate a Port-Based Policy to PAN-OS Using Expedition 
-
- Migrate to Application-Based Policy Using Policy Optimizer 
-
- Convert Simple Rules with Well-Known Apps After One Week 
-
- Rules to Begin Converting After 30 Days 
-
- Remove Unused Rules 
-
- Convert the Most Stable Rules 
-
- Convert Internet Access Rules 
-
- Convert Rules That See the Most Traffic 
-
- Convert Rules with Few Apps Seen Over a Time Period 
-
- Next Steps to Adopt Security Best Practices 
-
- Updated on 
+Updated on 
 
  Jan 26, 2024 
 
@@ -321,6 +238,4 @@ that no evasive, malicious applications can use the port.
 
  Next 
 
- Rules to Begin Converting After 30 Days 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Rules to Begin Converting After 30 Days

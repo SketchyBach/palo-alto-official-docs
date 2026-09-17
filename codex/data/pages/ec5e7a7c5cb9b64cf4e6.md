@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/a-tcp-stream-was-created-directly-in-a-shell
-fetched_at: 2026-09-06T10:59:19Z
+fetched_at: 2026-09-16T09:06:12Z
 source: cortex-platform
 ---
 

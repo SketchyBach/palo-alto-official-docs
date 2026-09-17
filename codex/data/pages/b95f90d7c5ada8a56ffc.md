@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/data-management/dataset-management/lookup-datasets/import-a-lookup-dataset
-fetched_at: 2026-09-06T10:18:50Z
+fetched_at: 2026-09-16T08:51:07Z
 source: cortex-platform
 ---
 

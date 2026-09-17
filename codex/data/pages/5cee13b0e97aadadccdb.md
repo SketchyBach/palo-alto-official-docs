@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/onboard-cortex-xsoar/cortex-xsoar-installation/troubleshoot-your-installation/common-installation-limitations-and-fixes
-fetched_at: 2026-09-06T10:34:58Z
+fetched_at: 2026-09-16T08:54:57Z
 source: cortex-platform
 ---
 

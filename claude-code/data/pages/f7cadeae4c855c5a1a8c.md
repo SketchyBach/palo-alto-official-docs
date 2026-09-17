@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/learn-about-cortex-xsoar/get-started-in-cortex-xsoar/new-user-faq
-fetched_at: 2026-09-06T10:43:04Z
+fetched_at: 2026-09-16T08:56:36Z
 source: cortex-platform
 ---
 

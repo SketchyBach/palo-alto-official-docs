@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-to-cloud/code-to-cloud/references/reference-a-supported-integrations-and-asset-stages
-fetched_at: 2026-09-06T10:11:49Z
+fetched_at: 2026-09-16T08:49:10Z
 source: cortex-platform
 ---
 

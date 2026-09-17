@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-threat-intel-management-guides/6.13/configure-indicators/indicator-customization/indicator-types/map-custom-indicator-fields
-fetched_at: 2026-09-06T10:49:47Z
+fetched_at: 2026-09-16T08:57:59Z
 source: cortex-platform
 ---
 

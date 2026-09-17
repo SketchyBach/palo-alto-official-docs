@@ -1,0 +1,46 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/rules-and-policies/cloud-workload-policies-and-rules/cloud-workload-policies/types-of-cloud-workload-policies
+fetched_at: 2026-09-16T09:15:42Z
+source: cortex-platform
+---
+
+# Types of cloud workload policies | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex Cloud 
+
+ Cortex CLOUD Posture Management 
+
+ Rules and Policies 
+
+ Cloud workload policies and rules 
+
+ Cloud workload policies 
+
+ Cortex Cloud Posture 
+
+ Types of cloud workload policies 
+
+ Explore Cortex Cloud Posture Management policy types for misconfigurations, malware, secrets, and trusted images. 
+
+ Misconfiguration policies: Enables you to assess various workloads for misconfigurations against relevant security standards and your organization’s security guidelines. You can include both predefined and custom rules in these policies to either prevent violations or create issues for violations. 
+
+ Malware policies: Enable you to detect and manage malicious files within cloud workloads. These policies analyze files based on predefined parameters such as file name, path, size, and detection method. 
+
+ Secret policies: Enable you to identify and protect sensitive information—such as API keys and credentials—within workloads. 
+
+ Trusted Image policies: Enable you to ensure the authenticity, integrity, and security of container images and VMs deployed into your Kubernetes environments. This includes actions such as limiting allowed image sources, mitigating possible image tampering, and more. 
+
+ Previous Cloud workload policies 
+
+ Next Trusted image cloud workload policies 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

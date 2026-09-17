@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/cortex-xdr-xql/get-started-with-xql/about-examples
-fetched_at: 2026-09-06T09:46:01Z
+fetched_at: 2026-09-16T08:43:04Z
 source: cortex-platform
 ---
 

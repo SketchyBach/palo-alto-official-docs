@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/activate-your-ai-runtime-security-license/activate-your-software-ngfw-credits
-fetched_at: 2026-09-06T11:16:52Z
+fetched_at: 2026-09-16T07:54:34Z
 source: ai-security
 ---
 

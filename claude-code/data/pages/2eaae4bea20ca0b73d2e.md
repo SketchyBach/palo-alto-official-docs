@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/monitor-dashboards-and-reports/dashboard-reference/command-center-reference
-fetched_at: 2026-09-06T09:43:08Z
+fetched_at: 2026-09-16T08:42:50Z
 source: cortex-platform
 ---
 
@@ -53,6 +53,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cloud Detection and Response (CDR) Command Center 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

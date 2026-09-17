@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/deployment-steps-and-checklist/cloud-service-provider-csp-onboarding/outpost-onboarding/working-with-bringing-your-own-azure-app-byoa-outposts/task-1-meet-the-prerequisites-for-azure-byoa-outposts
-fetched_at: 2026-09-06T09:53:08Z
+fetched_at: 2026-09-16T08:44:28Z
 source: cortex-platform
 ---
 
@@ -145,6 +145,6 @@ The optional Application.Read.All admin consent enables Cortex's Entra ID applic
 
  Next Task 2: Create the app registration for the Azure BYOA outpost 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

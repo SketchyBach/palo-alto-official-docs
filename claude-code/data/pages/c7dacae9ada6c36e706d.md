@@ -1,78 +1,28 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/administration/manage-prisma-access-agents/view-details-about-devices
-fetched_at: 2026-08-13T17:22:24Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:23Z
+source: strata-and-sase
 ---
 
 # View Detailed Information About a Device Clear
 
-View Detailed Information About a Device 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- View Detailed Information About a Device 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
+ Thu Aug 27 20:22:38 PDT 2026 
 
  Focus 
 
  Home 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent Administration 
-
- Manage Prisma Access Agents 
+ Manage Prisma Agents 
 
  View Detailed Information About a Device 
 
  Download PDF 
 
- Prisma Access Agent 
+ Prisma Agent 
 
  View Detailed Information About a Device 
 
@@ -84,7 +34,7 @@ View Detailed Information About a Device
  | 
  Collapse All 
 
- Prisma Access Agent Docs 
+ Prisma Agent Docs 
 
  Administration 
 
@@ -100,11 +50,11 @@ View Detailed Information About a Device
 
  Next 
 
- Endpoint Insights for Prisma Access Agent 
+ Endpoint Insights for Prisma Agent 
 
  View Detailed Information About a Device 
 
- Learn how to see detailed information about a device on which the Prisma Access Agent is installed. 
+ Learn how to see detailed information about a device on which the Prisma Agent is installed. 
 
  Where Can I Use This? What Do I Need? 
 
@@ -117,11 +67,10 @@ View Detailed Information About a Device
  Check the prerequisites for the deployment you're
  using 
 
- Contact your Palo Alto Networks account representative to
- activate the Prisma Access Agent feature 
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
 
- While the Devices table shows you at a glance the overall status of the deployed Prisma Access Agents , you can select an individual device to view detailed
- information about the device and how the Prisma Access Agent is performing on
+ While the Devices table shows you at a glance the overall status of the deployed Prisma Agents , you can select an individual device to view detailed
+ information about the device and how the Prisma Agent is performing on
  the device. 
 
  Select Configuration Endpoint Management . 
@@ -150,7 +99,7 @@ View Detailed Information About a Device
  metrics for the selected endpoint across all monitored
  apps if Autonomous DEM (ADEM) has been enabled. The
  experience
- score gives an indication of how the Prisma Access Agent is performing on the end
+ score gives an indication of how the Prisma Agent is performing on the end
  user's device. 
 
  You can select MOBILE USER
@@ -180,22 +129,22 @@ View Detailed Information About a Device
 
  User Information 
 
- User Id The user ID associated with the Prisma Access Agent . 
+ User Id The user ID associated with the Prisma Agent . 
 
  Last Seen The last time a keep-alive was sent to Prisma Access . 
 
  Agent Information 
 
  Agent Status The status of
- the Prisma Access Agent running on the
+ the Prisma Agent running on the
  endpoint 
 
- Agent Version The version of the Prisma Access Agent that’s
+ Agent Version The version of the Prisma Agent that’s
  running on the endpoint 
 
  Ring ( macOS and Windows agents only ) The upgrade ring that the agent belongs to 
 
- Previous Agent Version The previous version of the Prisma Access Agent 
+ Previous Agent Version The previous version of the Prisma Agent 
  that was installed on the endpoint 
 
  ADEM Information ( macOS and Windows agents only ) 
@@ -277,7 +226,7 @@ View Detailed Information About a Device
 
  Download the latest HIP reports 
 
- Generate Prisma Access Agent
+ Generate Prisma Agent
  logs 
 
  These actions are not visible to administrators with the View Only
@@ -289,90 +238,4 @@ View Detailed Information About a Device
 
  Next 
 
- Endpoint Insights for Prisma Access Agent 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Administration 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Endpoint Insights for Prisma Agent

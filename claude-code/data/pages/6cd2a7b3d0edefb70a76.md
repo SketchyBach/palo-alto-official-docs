@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security-rn/cortex-cloud-runtime-security-release-information/previous-maintenance-releases/broker-vm/broker-vm-29071-major
-fetched_at: 2026-09-06T10:53:39Z
+fetched_at: 2026-09-16T09:01:55Z
 source: cortex-platform
 ---
 
@@ -31,6 +31,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Broker VM 28.0.99 (Major) 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

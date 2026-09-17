@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/logs/send-the-audit-trail-to-an-external-log-service
-fetched_at: 2026-09-06T10:46:01Z
+fetched_at: 2026-09-16T08:57:09Z
 source: cortex-platform
 ---
 
@@ -155,6 +155,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next System Settings 
 
- Last updated 3 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

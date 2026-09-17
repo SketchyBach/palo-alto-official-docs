@@ -1,68 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/china-administration/get-started-with-adem/go-to-autonomous-dem-in-prisma-access
-fetched_at: 2026-08-13T15:27:25Z
+fetched_at: 2026-09-15T15:08:39Z
 source: palo-alto-main
 ---
 
 # Go to Autonomous DEM in Prisma Access Clear
 
-Go to Autonomous DEM in Prisma Access 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Go to Autonomous DEM in Prisma Access 
-
- Updated on 
-
- Fri Sep 26 02:00:46 PDT 2025 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Fri Sep 26 02:00:46 PDT 2025 
 
@@ -160,60 +104,4 @@ launch the Prisma Access app on the hub.
  If you have activated your Autonomous DEM license, you
 will be able start monitoring the digital experience of your SASE
 users. If you have not yet activated your license, the ADEM functionality
-will be locked. 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Autonomous DEM 
-
- SASE 
-
- Prisma SASE 
-
- FedRAMP 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+will be locked.

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/learn-about-cortex-xsoar/get-started-in-cortex-xsoar/licenses
-fetched_at: 2026-09-06T10:43:00Z
+fetched_at: 2026-09-16T08:56:35Z
 source: cortex-platform
 ---
 
@@ -101,6 +101,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next FIPS Version 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

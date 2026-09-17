@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/install-cortex-xsoar/system-requirements/url-requirements
-fetched_at: 2026-09-06T10:29:24Z
+fetched_at: 2026-09-16T08:53:52Z
 source: cortex-platform
 ---
 
@@ -140,6 +140,6 @@ You must add marketplace.xsoar.paloaltonetworks.com, storage.googleapis.com, and
 
  Next Bandwidth and NTP requirements 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

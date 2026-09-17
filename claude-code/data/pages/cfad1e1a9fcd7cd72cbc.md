@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cloud-inventory-and-environment/asset-classes
-fetched_at: 2026-09-06T10:04:17Z
+fetched_at: 2026-09-16T08:47:00Z
 source: cortex-platform
 ---
 
@@ -101,6 +101,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next AI assets 
 
- Last updated 6 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

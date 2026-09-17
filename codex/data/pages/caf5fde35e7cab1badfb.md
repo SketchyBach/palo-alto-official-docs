@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/china-administration/first-look-at-adem-in-pa/prisma-access-locations-dashboard/prisma-access-locations-dashboard-pa-location-details-page
-fetched_at: 2026-08-13T15:28:03Z
+fetched_at: 2026-09-15T15:08:40Z
 source: palo-alto-main
 ---
 
 # Prisma Access Location Details Clear
 
-Prisma Access Location Details 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Prisma Access Location Details 
-
- Updated on 
-
- Fri Sep 26 02:00:46 PDT 2025 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Fri Sep 26 02:00:46 PDT 2025 
+ Sep 26, 2025 
 
  Focus 
 
@@ -195,60 +139,4 @@ transferred.
 
  If you selected a time slice in the Cloud Agent Application Experience
  Trend widget by clicking and dragging your mouse pointer, this
- widget displays the network topology and path visualization for that time slice. 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Remote Networks 
-
- Mobile Users 
-
- Autonomous DEM 
-
- SASE 
-
- Prisma SASE 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ widget displays the network topology and path visualization for that time slice.

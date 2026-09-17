@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/automations/autonomous-playbooks/manage-autonomous-automation-rules
-fetched_at: 2026-09-06T09:29:06Z
+fetched_at: 2026-09-16T08:34:12Z
 source: cortex-platform
 ---
 

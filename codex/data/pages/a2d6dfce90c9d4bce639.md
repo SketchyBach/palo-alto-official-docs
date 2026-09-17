@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/investigate-and-respond-to-incidents/investigate-alerts/triage-and-investigate-alerts/query-incident-and-alert-data
-fetched_at: 2026-09-06T09:49:16Z
+fetched_at: 2026-09-16T08:44:11Z
 source: cortex-platform
 ---
 

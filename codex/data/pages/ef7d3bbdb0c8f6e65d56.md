@@ -1,0 +1,68 @@
+---
+url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/protect-your-endpoints/endpoint-dlp-1/personas-workflow-for-dlp
+fetched_at: 2026-09-16T09:15:16Z
+source: cortex-platform
+---
+
+# Personas workflow for DLP | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Guides 
+
+ Cortex XSIAM 
+
+ Cortex XSIAM Documentation 
+
+ Protect your endpoints 
+
+ Endpoint DLP 
+
+ Cortex XSIAM 
+
+ Personas workflow for DLP 
+
+ The data security administrator and data security viewer in Cortex XSIAM are responsible for identifying DLP requirements for creating data-in-motion rules and investigating issues and cases. 
+
+ The workflow outlines the responsibilities of the data security administrator and data security viewer in identifying and assessing data protection requirements, creating data-in-motion rules, investigating DLP-related issues, and protecting the organization's assets and data properties. 
+
+ Data security administrator 
+
+ The data security administrator views and manages all data security information, including objects and data patterns. 
+
+ They are responsible for creating and managing data-in-motion rules and identifying and investigating DLP-type threats and attacks within an organization. 
+
+ Steps : 
+
+ Configuring Endpoint DLP Settings: Configure the settings according to your organization's needs. 
+
+ Configuring sensitive data definitions: Identify and classify sensitive data (Data Profiles and Data Patterns). 
+
+ Configuring policies: Set rules to apply for sensitive data. 
+
+ Investigate: Review and analyze DLP-related issues to gather information to reduce false positives, refine policies, and improve incident response and auditing. 
+
+ Refine policies: Adjust DLP rules to improve accuracy, reduce false positives, and address new risks. 
+
+ Data security viewer 
+
+ The data security viewer reviews and analyzes DLP-related issues to gather information that will help reduce false positives, refine policies, and improve incident response and auditing. 
+
+ Steps : 
+
+ Investigate and remediate: For true incidents, stop the data loss and investigate what happened and why. 
+
+ Document and report: Create a record of the incident for legal and compliance purposes. 
+
+ Communicate and educate: Speak to the user involved and update security training to prevent future issues. 
+
+ Previous True-file type detection 
+
+ Next Best Practices 
+
+ Last updated 20 days ago 
+
+ Was this helpful?

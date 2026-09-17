@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-ios-guide/8.0/cortex-xdr-agent-ios-app/configure-cortex-xdr-agent-app-for-ios/configure-message-and-call-reporting
-fetched_at: 2026-09-06T10:21:17Z
+fetched_at: 2026-09-16T08:52:04Z
 source: cortex-platform
 ---
 

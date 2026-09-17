@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/data-ingestion/external-data-ingestion/ingest-operation-and-system-logs-from-cloud-providers
-fetched_at: 2026-09-06T09:50:32Z
+fetched_at: 2026-09-16T08:44:21Z
 source: cortex-platform
 ---
 

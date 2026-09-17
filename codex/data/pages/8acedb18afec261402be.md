@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/monitor-dashboards-and-reports/create-dashboards
-fetched_at: 2026-09-06T09:31:06Z
+fetched_at: 2026-09-16T08:35:14Z
 source: cortex-platform
 ---
 

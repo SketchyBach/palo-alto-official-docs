@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/agentic-assistant-chat/agentic-assistant-chat
-fetched_at: 2026-09-06T09:56:55Z
+fetched_at: 2026-09-16T08:45:01Z
 source: cortex-platform
 ---
 

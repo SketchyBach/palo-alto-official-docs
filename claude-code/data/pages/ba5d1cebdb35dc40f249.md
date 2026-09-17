@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/microsoft
-fetched_at: 2026-09-06T10:09:28Z
+fetched_at: 2026-09-16T08:48:22Z
 source: cortex-platform
 ---
 
@@ -35,9 +35,9 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Microsoft Entra ID 
 
- Microsoft365 
+ Microsoft365 (legacy) 
 
- Microsoft 365 
+ Microsoft 365 (new) 
 
  Microsoft 365 Copilot 
 
@@ -63,6 +63,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Microsoft Azure 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

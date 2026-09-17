@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/configure-cortex-xsoar/slas/configure-the-global-risk-threshold
-fetched_at: 2026-09-06T10:25:22Z
+fetched_at: 2026-09-16T08:53:06Z
 source: cortex-platform
 ---
 

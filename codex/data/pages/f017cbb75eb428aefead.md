@@ -1,94 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access/release-notes/4-2
-fetched_at: 2026-08-13T17:27:07Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:47:23Z
+source: strata-and-sase
 ---
 
-# Prisma Access Release Information Clear
+# Prisma Access New Features and Release Information Clear
 
-Prisma Access Release Information 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Prisma Access Release Information 
-
- Updated on 
-
- Jun 25, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Docs 
-
- Release Notes 
-
- Select a Document 
-
- 6.2 Preferred and Innovation 
-
- 6.1 Preferred and Innovation 
-
- 6.0 Preferred and Innovation 
-
- 5.2 Preferred and Innovation 
-
- 5.1 Preferred and Innovation 
-
- 5.0 Preferred and Innovation 
-
- 4.2 Preferred 
-
- 4.1 Preferred 
-
- 4.0 Preferred 
-
- 3.2 Preferred and Innovation 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- 4.0 & Later 
-
- Prisma Access China 
-
- Integrations 
-
- Incidents & Alerts 
-
- New Features 
-
- Updated on 
-
- Jun 25, 2026 
+ Thu Aug 06 14:30:44 PDT 2026 
 
  Focus 
 
@@ -98,13 +18,13 @@ Prisma Access Release Information
 
  Prisma Access Release Notes 
 
- Prisma Access Release Information 
+ Prisma Access New Features and Release Information 
 
  Download PDF 
 
  Prisma Access 
 
- Prisma Access Release Information 
+ Prisma Access New Features and Release Information 
 
  Table of Contents 
 
@@ -160,7 +80,7 @@ Prisma Access Release Information
 
  Changes to Default Behavior 
 
- Prisma Access Release Information 
+ Prisma Access New Features and Release Information 
 
  Where Can I Use This? What Do I Need? 
 
@@ -171,6 +91,41 @@ Prisma Access Release Information
  Prisma Access license 
 
  Minimum Required Prisma Access Version 4.2 Preferred 
+
+ New Features in Prisma Access 4.2 
+
+ Here's where you can learn more about the latest updates for the products and services
+ that are included or integrate with Prisma Access : 
+
+ Latest Prisma Access Release Updates Earlier Prisma Access Release Versions Updates for Services and Add-Ons Supported with Prisma Access 
+
+ New Features in Prisma Access
+ 4.2 
+
+ Prisma Access Version
+ 4.1 
+
+ Prisma Access Version
+ 4.0 
+
+ Prisma Access Version 3.2
+ Preferred and Innovation 
+
+ Prisma Access
+ Insights 
+
+ Autonomous DEM 
+
+ SaaS Security 
+
+ Enterprise DLP 
+
+ GlobalProtect 
+
+ Prisma SASE Multitenant Cloud
+ Management Platform 
+
+ Prisma SD-WAN 
 
  About Prisma Access Release Updates 
 
@@ -193,265 +148,6 @@ Prisma Access Release Information
  Any GlobalProtect version that is not End-of-Life (EoL) is supported for use with
  Prisma Access . 
 
- Find the Latest Features for Prisma Access , and for Prisma Access Add-Ons and
- Integrations 
-
- Because Prisma Access 
- includes support for other Palo Alto Networks
- subscriptions (like WildFire, Threat Prevention, and SaaS Security, for
- example) you can also benefit from the latest new features that these subscriptions
- provide. Here's how to check exactly what your Prisma Access subscription
- includes . 
-
- Here's where you can learn more about the latest updates for the products and services
- that are included or integrate with Prisma Access : 
-
- Latest Prisma Access Release Updates Earlier Prisma Access Release Versions Updates for Services and Add-Ons Supported with Prisma Access 
-
- New Features in Prisma Access
- 4.2 
-
- Prisma Access Version
- 4.1 
-
- Prisma Access Version
- 4.0 
-
- Prisma Access Version 3.2
- Preferred and Innovation 
-
- Prisma Access Version 3.1
- Preferred and Innovation 
-
- Prisma Access Version 3.0
- Preferred and Innovation 
-
- Prisma Access Version 2.2
- Preferred 
-
- Prisma Access Releases
- Earlier than 2.2 Preferred 
-
- Prisma Access
- Insights 
-
- Autonomous DEM 
-
- SaaS Security 
-
- Enterprise DLP 
-
- GlobalProtect 
-
- Prisma SASE Multitenant Cloud
- Management Platform 
-
- Prisma SD-WAN 
-
  Next 
 
- Changes to Default Behavior 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Panorama 
-
- Service Provider 
-
- VM-Series 
-
- Plugins 
-
- SASE 
-
- Prisma Access 
-
- Prisma SASE Multitenant Platform 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring & Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Remote Browser Isolation 
-
- Prisma Access Agent 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- FedRAMP 
-
- Prisma SASE for FedRAMP 
-
- Autonomous DEM for FedRAMP 
-
- Hardware Reference 
-
- ION 1000 
-
- ION 1200 
-
- ION 1200-S 
-
- ION 2000 
-
- ION 3000 
-
- ION 3200 
-
- ION 5200 
-
- ION 7000 
-
- ION 9000 
-
- ION 9200 
-
- Hardware Quick Start Guides 
-
- ION 1200 
-
- ION 1200 4G 
-
- ION 1200 5G 
-
- ION 1200-S 
-
- ION 1200-S 4G 
-
- ION 1200-S 5G 
-
- ION 3200 
-
- ION 5200 
-
- ION 9200 
-
- Virtual ION Deployment 
-
- Virtual ION on AWS 
-
- Virtual ION on Azure 
-
- Virtual ION on GCP 
-
- Virtual ION on KVM for NFV 
-
- Virtual ION on OCI 
-
- Virtual ION on VMware 
-
- 3rd Party Integrations 
-
- AWS Cloud-WAN Integration (GRE Connect) 
-
- AWS Cloud-WAN Integration (Tunnel-less Connect) 
-
- Checkpoint Integration 
-
- LiveAction Integration 
-
- Netskope Integration 
-
- Symantec Web Security Services Integration 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- SASE 
-
- Release Notes 
-
- 4.2 Preferred 
-
- Prisma SASE 
-
- Prisma Access 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Changes to Default Behavior

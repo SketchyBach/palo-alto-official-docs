@@ -1,102 +1,20 @@
 ---
 url: https://docs.paloaltonetworks.com/ngfw/new-features/by-version/panos/11-2#9f7f7031e90ad56c5629a513d2a8b44c
-fetched_at: 2026-08-13T16:54:53Z
+fetched_at: 2026-09-16T07:33:25Z
 source: palo-alto-main
 ---
 
 # New Features - PAN-OS - 11.2 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
 
-New Features - PAN-OS - 11.2 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Next-Generation Firewall Docs 
-
- Getting Started 
-
- Administration 
-
- Networking 
-
- Quick Start 
-
- Reference 
-
- Incidents & Alerts 
-
- Release Notes 
-
- Select a Document 
-
- PAN-OS 12.2 
-
- PAN-OS 12.1 
-
- PAN-OS 11.2 
-
- PAN-OS 11.1 
-
- PAN-OS 11.0 (EoL) 
-
- PAN-OS 10.2 
-
- PAN-OS 10.1 (EoL) 
-
- PAN-OS 10.0 (EoL) 
-
- PAN-OS 9.1 (EoL) 
-
- PAN-OS 9.0 (EoL) 
-
- PAN-OS 8.1 (EoL) 
-
- Help 
-
- Select a Document 
-
- PAN-OS 12.2 
-
- PAN-OS 12.1 
-
- PAN-OS 11.2 
-
- PAN-OS 11.1 
-
- PAN-OS 10.2 
-
- PAN-OS 10.1 
-
- New Features 
-
- Focus 
+Focus 
 
  Home 
 
  Next-Generation Firewall 
 
  New Features - PAN-OS - 11.2 
+
+ Download PDF 
 
  Additional Private Link Types for SD-WAN 
 
@@ -889,99 +807,3 @@ New Features - PAN-OS - 11.2
  May 2024
 
  11.2
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.

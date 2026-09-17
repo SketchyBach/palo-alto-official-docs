@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/configure-cortex-xsoar/engines/install-an-engine
-fetched_at: 2026-09-06T10:27:04Z
+fetched_at: 2026-09-16T08:53:24Z
 source: cortex-platform
 ---
 
@@ -216,6 +216,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Engine air gap installation 
 
- Last updated 3 hours ago 
+ Last updated 9 days ago 
 
  Was this helpful?

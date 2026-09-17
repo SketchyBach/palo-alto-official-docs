@@ -1,74 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/cloud-ngfw-aws/administration/monitor-your-cloud-ngfw-resource/publish-and-view-custom-metrics-in-aws-cloudwatch
-fetched_at: 2026-08-13T15:30:45Z
+fetched_at: 2026-09-15T15:09:09Z
 source: palo-alto-main
 ---
 
 # Publish and View Custom Metrics in AWS CloudWatch Clear
 
-Publish and View Custom Metrics in AWS CloudWatch 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Publish and View Custom Metrics in AWS CloudWatch 
-
- Updated on 
-
- Tue May 19 03:36:42 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- Français (French) 
-
- Deutsch (German) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Cloud NGFW for AWS Docs 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Tue May 19 03:36:42 PDT 2026 
+ Aug 19, 2026 
 
  Focus 
 
@@ -273,80 +213,4 @@ Publish and View Custom Metrics in AWS CloudWatch
 
  Next 
 
- Firewall-as-Code 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Cloud NGFW for AWS 
-
- Administration 
-
- Deployment 
-
- AWS 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Firewall-as-Code

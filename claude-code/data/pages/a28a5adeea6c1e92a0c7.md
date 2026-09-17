@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-api/forensics-1/forensics
-fetched_at: 2026-09-06T10:56:13Z
+fetched_at: 2026-09-16T09:04:06Z
 source: cortex-platform
 ---
 

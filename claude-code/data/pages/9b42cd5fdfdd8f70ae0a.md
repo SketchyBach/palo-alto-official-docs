@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cloud-security-rules-and-policies/create-and-manage-cloud-security-rules/create-an-ai-rule
-fetched_at: 2026-09-06T09:35:01Z
+fetched_at: 2026-09-16T08:36:35Z
 source: cortex-platform
 ---
 
@@ -18,6 +18,8 @@ For the complete documentation index, see llms.txt . This page is also available
  Cortex XSIAM Documentation 
 
  Cloud Security 
+
+ Rules and Policies 
 
  Cloud security rules and policies 
 

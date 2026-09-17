@@ -1,80 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-browser/activation-and-onboarding/activate-new-prisma-access-browser-with-prisma-access-enterprise-bundle-license/activate-cloud-managed-prisma-access-browser-bundle-license
-fetched_at: 2026-08-13T17:23:02Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:38Z
+source: strata-and-sase
 ---
 
 # Cloud Managed Prisma Browser Bundle License Clear
 
-Cloud Managed Prisma Browser Bundle License 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Cloud Managed Prisma Browser Bundle License 
-
- Updated on 
-
- Sun Aug 02 02:16:49 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Deutsch (German) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Browser Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Integrations 
-
- User Guide 
-
- Updated on 
-
- Sun Aug 02 02:16:49 PDT 2026 
+ Thu Sep 03 05:04:55 PDT 2026 
 
  Focus 
 
@@ -82,26 +16,11 @@ Cloud Managed Prisma Browser Bundle License
 
  Prisma Browser 
 
- Activate New Prisma Browser with Prisma Access Enterprise Bundle
- License 
+ Activate New Prisma Browser with Prisma Enterprise Bundle License 
 
  Cloud Managed Prisma Browser Bundle License 
 
  Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Deutsch (German) 
 
  Prisma Browser 
 
@@ -129,6 +48,14 @@ Cloud Managed Prisma Browser Bundle License
 
  User Guide 
 
+ Previous 
+
+ Activate Standalone Prisma Browser License 
+
+ Next 
+
+ Onboard the Prisma Browser 
+
  Cloud Managed Prisma Browser Bundle License 
 
  Learn how to activate your Cloud Managed Prisma Access Secure Enterprise Browser ( Prisma Browser )
@@ -143,7 +70,7 @@ Cloud Managed Prisma Browser Bundle License
  allocating a Prisma Access license ,
  and planning service connections . 
 
- Continue to Assign the Prisma Access Secure Enterprise Browser Licenses and Add-ons.
+ Continue to Assign the Prisma Browser Licenses and Add-ons.
  Products or Add-ons are
  enabled by default based on your contract. 
 
@@ -170,48 +97,12 @@ Cloud Managed Prisma Browser Bundle License
  Go to the Prisma Browser 
  Admin Guide to manage your Prisma Browser . 
 
- ( Optional ) Assign roles so your admins can manage the Prisma Browser . 
+ ( Optional ) Assign Roles so your admins can manage the Prisma Browser . 
 
- On This Page 
+ Previous 
 
- Activation & Onboarding 
+ Activate Standalone Prisma Browser License 
 
- Strata Cloud Manager 
+ Next 
 
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Prisma Browser 
-
- Activation & Onboarding 
-
- Prisma Access 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Onboard the Prisma Browser

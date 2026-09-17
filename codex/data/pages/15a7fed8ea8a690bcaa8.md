@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/a-user-logged-on-to-multiple-workstations-via-schannel
-fetched_at: 2026-09-06T10:59:33Z
+fetched_at: 2026-09-16T09:06:04Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/microsoft/microsoft-office-365/ingest-logs-from-microsoft-office-365
-fetched_at: 2026-09-06T09:24:28Z
+fetched_at: 2026-09-16T08:22:45Z
 source: cortex-platform
 ---
 
@@ -419,6 +419,6 @@ The following options are available.
 
  Next Microsoft 365 (new) 
 
- Last updated 1 month ago 
+ Last updated 2 days ago 
 
  Was this helpful?

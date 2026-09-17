@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/configure-cortex-xsoar/slas/slas-in-cortex-xsoar
-fetched_at: 2026-09-06T11:25:13Z
+fetched_at: 2026-09-16T09:14:15Z
 source: cortex-platform
 ---
 
@@ -79,6 +79,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure an SLA in an incident type 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

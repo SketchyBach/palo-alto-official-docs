@@ -1,0 +1,180 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/prisma-access-user-based-policy/retrieve-user-id-information/retrieve-group-mappings-using-a-master-device.html
+fetched_at: 2026-09-16T11:36:42Z
+source: palo-alto-main
+---
+
+# Master Device Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access User-Based Policy 
+
+ Retrieve User-ID Group Mappings for Prisma Access 
+
+ Master Device 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Master Device 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Master Device 
+
+ Use a next-generation or VM-series firewall as a Master
+Device to add group names to security policy rules in a Panorama
+Managed Prisma Access deployment. 
+
+ While configuring Group Mapping in the Cloud Identity Engine 
+ performs username-to-user group mapping, those usernames and user groups do not populate
+ to security policies. To simplify the creation or modification of user- and group-based
+ policies, you can use a Master Device to add the group names to drop-down lists in
+ security policy rules. You need to designate a firewall as a Master Device for each
+ device group. After you add a Master Device, the device group inherits all policies
+ defined on the master device; for this reason, it should be a standalone, dedicated
+ device to be used for that device group. 
+
+ To allow selection of group names in drop-down lists in security
+policies, Palo Alto Networks recommends that you designate a Master Device for
+each device group. You can configure either an on-premises firewall
+or a VM-series firewall as a master device. 
+
+ The following figure shows a User-ID deployment where the administrator
+has configured an on-premises device as a Master Device .
+Callouts in the figure show the process. 
+
+ A next-generation on-premises or VM-series firewall that
+the administrator has configured as a Master Device retrieves the
+latest username-to-user group mapping from the LDAP server and User-ID
+agent in the data center. 
+
+ Panorama gets the username-to-user group mapping from the
+Master Device. 
+
+ Panorama uses this mapping only for the purposes
+of populating the group names in drop-down lists in security policies,
+thus simplifying the creation of policies based on groups. 
+
+ Configure an on-premises or VM-Series Firewall as a Master Device 
+
+ Use the following procedure to configure an on-premises or VM-series firewall as
+ a Master Device. 
+
+ You can only use one Master Device per device group; if you need to configure
+ a Master Device for different device groups, you need to create a separate
+ Master Device for each device group. 
+
+ Make sure that the device you want to use as a Master Device is managed by
+ the same Panorama that manages Prisma Access . 
+
+ You can check your managed devices under Panorama Managed Devices . 
+
+ Add the master device to your Prisma Access mobile user or remote network
+ deployment. 
+
+ For a Mobile Users—GlobalProtect deployment, select Panorama Cloud Services Configuration Mobile Users—GlobalProtect , click the gear icon in the
+ Settings , and select the on-premise
+ firewall you want to specify as a Master
+ Device . 
+
+ If you use the default Device Group Name 
+ ( Mobile_User_Device_Group in this
+ case) and Parent Device Group 
+ ( Shared in this case), any devices
+ that are not associated with another device group display in the
+ drop-down choices. If you have associated the master device with
+ another device group, select the Parent Device
+ Group associated with that device group have it
+ display in the drop-down. 
+
+ For a Mobile Users—Explicit Proxy deployment, select Panorama Cloud Services Configuration Mobile Users—Explicit Proxy , click the gear icon in the
+ Settings , and select the
+ Master Device you created. 
+
+ For remote network deployments, the device group with a remote
+ network connection, select Panorama Cloud Services Configuration Remote Networks , click the gear icon in the
+ Settings , and select the
+ Master Device you created. 
+
+ Prisma Access automatically populates username-to-user group mapping
+ for the device group that is associated with the master device only.
+ For this example, the auto-population would occur only in the
+ Remote_Network_Device_Group device group
+ and would not populate to any other device groups. 
+
+ Click OK .

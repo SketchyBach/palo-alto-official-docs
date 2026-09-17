@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/data-management/archived-data
-fetched_at: 2026-09-06T09:20:44Z
+fetched_at: 2026-09-16T07:56:12Z
 source: cortex-platform
 ---
 
@@ -21,7 +21,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Data management 
 
- Cortex XSIAM 
+ Cortex XSIAM Data Management 
 
  Archived data 
 
@@ -33,6 +33,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Import historical data into cold storage 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

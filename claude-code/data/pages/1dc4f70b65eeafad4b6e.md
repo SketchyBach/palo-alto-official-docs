@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cloud-attack-surface-management/attack-surface-management-detections/attack-surface-rules
-fetched_at: 2026-09-06T10:07:09Z
+fetched_at: 2026-09-16T08:47:47Z
 source: cortex-platform
 ---
 
@@ -157,6 +157,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Externally inferred CVEs 
 
- Last updated 6 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/investigation-and-response/automation/create-an-automation-rule
-fetched_at: 2026-09-06T10:05:24Z
+fetched_at: 2026-09-16T08:47:25Z
 source: cortex-platform
 ---
 

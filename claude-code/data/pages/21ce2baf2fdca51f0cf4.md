@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security/onboard-data-sources/cli-pipeline-code-snippets
-fetched_at: 2026-09-06T10:11:25Z
+fetched_at: 2026-09-16T08:48:57Z
 source: cortex-platform
 ---
 

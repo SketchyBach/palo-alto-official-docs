@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/7.x/7.8-eol/cortex-xdr-agent-7.8-release-information/addressed-issues-in-cortex-xdr-agent-7.8
-fetched_at: 2026-09-06T11:22:26Z
+fetched_at: 2026-09-16T09:13:40Z
 source: cortex-platform
 ---
 

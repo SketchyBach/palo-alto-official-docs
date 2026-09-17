@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/investigation-and-response/automation/context-data/use-context-data-in-a-playbook
-fetched_at: 2026-09-06T09:56:04Z
+fetched_at: 2026-09-16T08:44:43Z
 source: cortex-platform
 ---
 

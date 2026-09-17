@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/attempt-to-execute-a-command-on-a-remote-host-using-psexec-exe
-fetched_at: 2026-09-06T11:00:40Z
+fetched_at: 2026-09-16T09:06:26Z
 source: cortex-platform
 ---
 

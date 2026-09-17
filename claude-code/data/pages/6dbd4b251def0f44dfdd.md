@@ -1,56 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/compatibility-matrix/reference/supported-os-releases-by-model/palo-alto-networks-next-gen-firewalls
-fetched_at: 2026-08-13T15:31:46Z
+fetched_at: 2026-09-15T15:10:05Z
 source: palo-alto-main
 ---
 
 # Palo Alto Networks Next-Generation Firewalls Clear
 
-Palo Alto Networks Next-Generation Firewalls 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Palo Alto Networks Next-Generation Firewalls 
-
- Updated on 
-
- Jul 30, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Compatibility Matrix 
-
- Reference 
-
- Updated on 
-
- Jul 30, 2026 
+ Tue Aug 04 18:03:08 PDT 2026 
 
  Focus 
 
@@ -116,7 +74,71 @@ for each Palo Alto Networks firewall model.
 
  Hardware Firewalls 
 
- PA-220 Firewall 
+ PA-52R-5G 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ √ 
+
+ PA-54R-POE 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ √ 
+
+ PA-54R-POE-D-5G 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ √ 
+
+ PA-56R-POE-5G 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ √ 
+
+ PA-220 
 
  √ 
 
@@ -132,7 +154,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-220R Firewall 
+ PA-220R 
 
  √ 
 
@@ -148,7 +170,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-410 Firewall 
+ PA-410 
 
  √ 
 
@@ -166,7 +188,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-410R Firewall 
+ PA-410R 
 
  — 
 
@@ -184,7 +206,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-410R-5G Firewall 
+ PA-410R-5G 
 
  — 
 
@@ -202,7 +224,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-415-5G Firewall 
+ PA-415-5G 
 
  — 
 
@@ -218,7 +240,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-415 Firewall 
+ PA-415 
 
  — 
 
@@ -234,7 +256,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-445 Firewall 
+ PA-445 
 
  — 
 
@@ -250,7 +272,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-440, PA-450, and PA-460 Firewalls 
+ PA-440, PA-450, and PA-460 
 
  √ 
 
@@ -266,7 +288,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-450R Firewall 
+ PA-450R 
 
  — 
 
@@ -298,7 +320,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-455 Firewall 
+ PA-455 
 
  — 
 
@@ -418,6 +440,24 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
+ PA-520-5G 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ √ 
+
+ 12.1.10 & later 
+
+ √ 
+
  PA-540 
 
  — 
@@ -498,7 +538,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-800 Series Firewalls 
+ PA-800 Series 
 
  √ 
 
@@ -514,7 +554,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-1400 Series Firewalls 
+ PA-1400 Series 
 
  — 
 
@@ -530,7 +570,23 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-3200 Series Firewalls 
+ PA-1500 Series 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ √ 
+
+ PA-3200 Series 
 
  √ 
 
@@ -546,7 +602,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-3400 Series Firewalls 
+ PA-3400 Series 
 
  — 
 
@@ -562,7 +618,23 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-5200 Series Firewalls 
+ PA-3500 Series 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ √ 
+
+ PA-5200 Series 
 
  √ 
 
@@ -578,7 +650,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-5410, PA-5420, and PA-5430 Firewalls 
+ PA-5410, PA-5420, and PA-5430 
 
  — 
 
@@ -594,7 +666,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-5440 Firewall 
+ PA-5440 
 
  — 
 
@@ -610,7 +682,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-5445 Firewall 
+ PA-5445 
 
  — 
 
@@ -626,7 +698,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-5450 Firewall 
+ PA-5450 
 
  √ 
 
@@ -639,6 +711,54 @@ for each Palo Alto Networks firewall model.
  √ 
 
  √ 
+
+ √ 
+
+ PA-5510 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ √ 
+
+ PA-5520 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ √ 
+
+ PA-5530 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
+
+ — 
 
  √ 
 
@@ -722,7 +842,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- PA-7000 Series Firewalls 
+ PA-7000 Series 
  2 
 
  √ 
@@ -739,7 +859,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- PA-7500 Firewall 
+ PA-7500 
 
  — 
 
@@ -794,7 +914,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- VM-50 Firewall 
+ VM-50 
 
  √ 
 
@@ -810,7 +930,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- VM-100 Firewall 
+ VM-100 
 
  √ 
 
@@ -826,7 +946,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- VM-200 Firewall 
+ VM-200 
 
  √ 
 
@@ -842,7 +962,7 @@ for each Palo Alto Networks firewall model.
 
  — 
 
- VM-300 Firewall 
+ VM-300 
 
  √ 
 
@@ -858,7 +978,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- VM-500 Firewall 
+ VM-500 
 
  √ 
 
@@ -874,7 +994,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- VM-700 Firewall 
+ VM-700 
 
  √ 
 
@@ -890,7 +1010,7 @@ for each Palo Alto Networks firewall model.
 
  √ 
 
- VM-1000-HV Firewall 
+ VM-1000-HV 
 
  √ 
 
@@ -988,212 +1108,4 @@ for each Palo Alto Networks firewall model.
 
  Next 
 
- Palo Alto Networks Appliances 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Prisma SASE Multitenant Platform 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- IoT Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- 10.1 
-
- PA-4000 Series 
-
- Device Management 
-
- 10.2 
-
- PA-3060 Firewall 
-
- PA-3020 Firewall 
-
- PA-800 Series 
-
- PA-460 Firewall 
-
- PA-5060 Firewall 
-
- PA-5250 Firewall 
-
- PA-5440 Firewall 
-
- PA-5280 Firewall 
-
- PA-3250 Firewall 
-
- PA-3220 Firewall 
-
- PA-5220 Firewall 
-
- PAN-OS 
-
- PA-1410 Firewall 
-
- PA-5410 Firewall 
-
- PA-5000 Series 
-
- PA-410 Firewall 
-
- PA-220 Firewall 
-
- PA-5450 Firewall 
-
- PA-5400 Series 
-
- PA-3260 Firewall 
-
- PA-2000 Series 
-
- 11.0 
-
- PA-415 Firewall 
-
- PA-1420 Firewall 
-
- PA-1400 Series 
-
- PA-850 Firewall 
-
- 11.1 
-
- 11.2 
-
- Reference 
-
- PA-200 
-
- PA-440 Firewall 
-
- PA-220R Firewall 
-
- PA-5260 Firewall 
-
- PA-3200 Series 
-
- PA-445 Firewall 
-
- PA-3000 Series 
-
- PA-5420 Firewall 
-
- 9.1 
-
- PA-400 Series 
-
- PA-5050 Firewall 
-
- PA-500 Firewall 
-
- Software Updates 
-
- PA-820 Firewall 
-
- PA-7000 Series 
-
- PA-7050 Firewall 
-
- PA-450 Firewall 
-
- PA-5200 Series 
-
- PA-7080 Firewall 
-
- GlobalProtect 
-
- PA-3050 Firewall 
-
- PA-5430 firewall 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Palo Alto Networks Appliances

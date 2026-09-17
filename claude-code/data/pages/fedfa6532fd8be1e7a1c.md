@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/threat-management/threat-intel-management/get-started-with-threat-intel-management/what-is-threat-intel-management
-fetched_at: 2026-09-06T09:34:06Z
+fetched_at: 2026-09-16T08:36:14Z
 source: cortex-platform
 ---
 

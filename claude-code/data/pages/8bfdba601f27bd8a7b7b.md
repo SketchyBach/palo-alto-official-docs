@@ -1,68 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/china-administration/adem-self-serve/it-view-of-end-user-notification-statistics/view-if-self-serve-is-enabled-for-a-user
-fetched_at: 2026-08-13T15:28:34Z
+fetched_at: 2026-09-15T15:08:42Z
 source: palo-alto-main
 ---
 
 # View if Self-Serve is Enabled for a User Clear
 
-View if Self-Serve is Enabled for a User 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- View if Self-Serve is Enabled for a User 
-
- Updated on 
-
- Fri Sep 26 02:00:46 PDT 2025 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
+Updated on 
 
  Fri Sep 26 02:00:46 PDT 2025 
 
@@ -139,60 +83,4 @@ Range .
 you can also view this information in the Self Serve tab
 by scrolling through the Users list in the Select
 Mobile Users or Groups widget. If the name appears in
-the list, then Self-Serve is enabled for that user. 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Remote Networks 
-
- Mobile Users 
-
- Autonomous DEM 
-
- SASE 
-
- Prisma SASE 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+the list, then Self-Serve is enabled for that user.

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cloud-workload-policies-and-rules/cloud-workload-policies/enable-or-disable-a-cloud-workload-policy
-fetched_at: 2026-09-06T09:36:11Z
+fetched_at: 2026-09-16T08:37:02Z
 source: cortex-platform
 ---
 
@@ -18,6 +18,8 @@ For the complete documentation index, see llms.txt . This page is also available
  Cortex XSIAM Documentation 
 
  Cloud Security 
+
+ Rules and Policies 
 
  Cloud workload policies and rules 
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/cortex-xdr-xql/build-xql-queries/xql-query-entities/create-file-query
-fetched_at: 2026-09-06T09:51:07Z
+fetched_at: 2026-09-16T08:44:21Z
 source: cortex-platform
 ---
 

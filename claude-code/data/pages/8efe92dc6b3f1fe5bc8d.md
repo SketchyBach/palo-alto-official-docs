@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/users-and-roles/roles-in-cortex-xsoar/pre-set-query-per-role
-fetched_at: 2026-09-06T10:47:18Z
+fetched_at: 2026-09-16T08:57:24Z
 source: cortex-platform
 ---
 
@@ -89,6 +89,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Define a Role 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

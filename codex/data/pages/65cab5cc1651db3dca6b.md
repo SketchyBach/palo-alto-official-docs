@@ -1,0 +1,84 @@
+---
+url: https://docs.prismacloud.io/admin-guide/continuous-integration/jenkins-pipeline-k8s
+fetched_at: 2026-09-16T13:36:29Z
+source: prisma-cloud
+---
+
+# Jenkins pipeline on K8S | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Compute Edition 
+
+ Admin Guide 
+
+ 34 
+
+ Continuous integration 
+
+ Jenkins pipeline on K8S 
+
+ Jenkins is fundamentally architected as a distributed system, with a master that coordinates the builds and agents that do the work. The Kubernetes plugin enables deploying a distributed Jenkins build system to a Kubernetes cluster. Everything required to deploy Jenkins to a Kubernetes cluster is nicely packaged in the Jenkins Helm chart. This article explains how to integrate the Prisma Cloud scanner into a pipeline build running in a Kubernetes cluster. 
+
+ Key concepts 
+
+ A pipeline is a script that tells Jenkins what to do when your pipeline is run. The Kubernetes Plugin for Jenkins lets you control the creation of the Jenkins slave pod from the pipeline, and add one or more build containers to the slave pod to accommodate build requirements and dependencies. 
+
+ When the Jenkins master schedules the new build, it creates a new slave pod. Each stage of the build is run in a container in the slave pod. By default, each stage runs in the Jenkins slave (jnlp) container, unless other specified. The following diagram shows a slave pod being launched on a worker node using the Java Network Launch Protocol (JNLP) protocol: 
+
+ A slave pod is composed of at least one container, which must be the Jenkins jnlp container. Your pipeline defines a podTemplate, which specifies all the containers that make up the Jenkins slave pod. You’ll want your podTemplate to include any images that provide the tools required to execute the build. For example, if one part of your app consists of a C library, then your podTemplate should include a container that provides the GCC toolchain, and the build stage for the library should execute within the context of the GCC container. 
+
+ The Prisma Cloud Jenkins plugin lets you scan images generated in your pipeline. 
+
+ The Prisma Cloud scanner can run inside the default Jenkins jnlp slave container only. It cannot be run within the context of a different container (i.e. from within the container statement block). 
+
+ Scripted Pipeline 
+
+ This section provides a pipeline script that you can use as a starting point for your own script. 
+
+ You cannot run the Prisma Cloud scanner inside a container. The following example snippet will NOT work. 
+
+ Instead, run the Prisma Cloud scanner in the normal context: 
+
+ Prerequisites: 
+
+ You have set up a Kubernetes cluster. 
+
+ You have installed Jenkins in your cluster. The Jenkins Helm chart is the easiest path for bringing up Jenkins in a Kubernetes cluster. 
+
+ Install the Prisma Cloud Jenkins plugin. 
+
+ Pipeline template 
+
+ The following template can be used as a starting point for your own scripted pipeline. This template is a fully functional pipeline that pulls the nginx:stable-alpine image from Docker Hub, and then scans it with the Prisma Cloud scanner. 
+
+ While this example shows how to scan container images, you can also call prismaCloudScanFunction to scan your severless functions. 
+
+ This template has the following characteristics: 
+
+ 1  — This podTemplate defines two containers: the required jnlp-slave container and a custom alpine container. The custom alpine container extends the official alpine image by adding the curl package. 
+
+ 2  — The docker socket is mounted into all containers in the pod. For more information about the volumes field, see Pod and container template configuration . 
+
+ 3  — By default, the docker socket lets the root user or any member of the docker group read or write to it. The default user in the jnlp container is jenkins The Prisma Cloud plugin functions need access to the docker socket, so you must add the jenkins user to the docker group. The following listing shows the default permissions for the docker socket: 
+
+ 4  — The first stage of the build pulls down the nginx image. We run the curl command inside the alpine container because the alpine container was specifically built to provide curl. Note that the prismaCloudScanImage and prismaCloudPublish functions cannot be run inside the container('<NAME') block . The must be run in the default jnlp container context. 
+
+ 5  — There is a lot of debate about docker-in-docker, especially with respect to CI/CD pipelines. In most cases, docker-in-docker is not required for build pipelines. In this example, we run docker commands using the API exposed by the docker socket. Alternatively, we could use a container with just the Docker client installed . 
+
+ 6  — The second stage runs the Prisma Cloud scanner on the nginx image in the default jnlp container. 
+
+ You can run the Prisma Cloud scanner inside a container using the 'containerized' flag. Scanning from inside a container is only required for special situations. 
+
+ When using the containerized mode, image ID won’t be displayed in the scan results (only image name). 
+
+ Previous Run Jenkins in a container 
+
+ Next Set policy in the CI plugins 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

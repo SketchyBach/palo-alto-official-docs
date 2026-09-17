@@ -1,62 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/policy-based-forwarding/pbf
-fetched_at: 2026-08-13T17:09:55Z
+fetched_at: 2026-09-16T07:39:27Z
 source: palo-alto-main
 ---
 
 # PBF Clear
 
-PBF 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- PBF 
-
- Updated on 
-
- Mon Aug 11 16:31:23 PDT 2025 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- 한국어 (Korean) 
-
- Filter
-
- Updated on 
-
- Mon Aug 11 16:31:23 PDT 2025 
+ Aug 11, 2025 
 
  Focus 
 
@@ -128,22 +80,4 @@ browsing, over the cheaper link.
 
  Next 
 
- Egress Path and Symmetric Return 
-
- On This Page 
-
- PAN-OS 
-
- Next-Generation Firewall 
-
- Policy 
-
- 11.1 
-
- Network Security 
-
- 11.1 & Later 
-
- Administration 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Egress Path and Symmetric Return

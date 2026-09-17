@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/onboard-cortex-xsiam/deployment-steps/activate-cortex-xsiam
-fetched_at: 2026-09-06T09:19:08Z
+fetched_at: 2026-09-16T07:55:31Z
 source: cortex-platform
 ---
 
@@ -131,6 +131,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Bring your own keys 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

@@ -1,60 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/formatting-guidelines-for-an-external-dynamic-list/domain-list
-fetched_at: 2026-08-13T17:10:02Z
+fetched_at: 2026-09-16T07:39:29Z
 source: palo-alto-main
 ---
 
 # Domain List Clear
 
-Domain List 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Domain List 
-
- Updated on 
-
- Aug 11, 2025 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- 한국어 (Korean) 
-
- Filter
-
- Updated on 
+Updated on 
 
  Aug 11, 2025 
 
@@ -191,22 +143,4 @@ paloaltonetworks.com. This entry does not match to any other site.
 
  Next 
 
- URL List 
-
- On This Page 
-
- PAN-OS 
-
- Next-Generation Firewall 
-
- Policy 
-
- 11.1 
-
- Network Security 
-
- 11.1 & Later 
-
- Administration 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ URL List

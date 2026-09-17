@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/integration/vulnerability-scanning/integrate-iot-security-with-tenable/perform-a-vulnerability-scan-using-tenable
-fetched_at: 2026-08-13T16:37:29Z
+fetched_at: 2026-09-15T15:14:40Z
 source: palo-alto-main
 ---
 
 # Perform a Vulnerability Scan Using Tenable Clear
 
-Perform a Vulnerability Scan Using Tenable 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Perform a Vulnerability Scan Using Tenable 
-
- Updated on 
-
- May 14, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- May 14, 2026 
+ Mon Aug 17 11:22:37 PDT 2026 
 
  Focus 
 
@@ -132,9 +76,9 @@ Perform a Vulnerability Scan Using Tenable
 
  One of the following subscriptions: 
 
- Device Security subscription for an advanced
- Device Security product (Enterprise Plus,
- Industrial OT, or Medical)
+ Device Security subscription
+
+ Precision AI bundle subscription
 
  Device Security X subscription
 
@@ -246,52 +190,4 @@ a PDF to your computer where you can open it in a PDF viewer.
 
  Next 
 
- Integrate Device Security with Tenable Security Center 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Cloud-Delivered Security Services 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Integrate Device Security with Tenable Security Center

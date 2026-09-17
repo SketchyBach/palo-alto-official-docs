@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/dashboards-and-reports/monitor-dashboards-and-reports/access-and-visibility-for-dashboards-and-reports/sharing-icons
-fetched_at: 2026-09-06T09:57:07Z
+fetched_at: 2026-09-16T08:45:06Z
 source: cortex-platform
 ---
 

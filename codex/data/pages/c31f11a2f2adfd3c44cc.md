@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/7.x/7.9-eol/cortex-xdr-agent-7.9-release-information/changes-to-default-behavior-in-cortex-xdr-agent-7.9/changes-to-default-behavior-in-cortex-xdr-agent-7.9
-fetched_at: 2026-09-06T11:26:22Z
+fetched_at: 2026-09-16T09:14:34Z
 source: cortex-platform
 ---
 

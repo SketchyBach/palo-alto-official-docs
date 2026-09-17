@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/automations/playbooks/build-your-playbook/add-objects-from-the-task-library/add-manual-tasks-and-blank-tasks/create-a-standard-task
-fetched_at: 2026-09-06T09:28:56Z
+fetched_at: 2026-09-16T08:34:04Z
 source: cortex-platform
 ---
 
@@ -180,6 +180,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create a conditional task 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

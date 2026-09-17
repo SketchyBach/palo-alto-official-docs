@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/configure-cortex-xsoar/integrations/integration-commands-in-the-cli
-fetched_at: 2026-09-06T10:35:37Z
+fetched_at: 2026-09-16T08:55:05Z
 source: cortex-platform
 ---
 
@@ -75,6 +75,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Forward requests to long-running integrations 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

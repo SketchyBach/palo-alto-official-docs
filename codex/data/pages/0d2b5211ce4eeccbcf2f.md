@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/office-process-spawned-with-suspicious-command-line-arguments
-fetched_at: 2026-09-06T11:05:49Z
+fetched_at: 2026-09-16T09:07:37Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/ci-cd-security/identity-access-management/appsec-cicd-185
-fetched_at: 2026-09-06T11:14:52Z
+fetched_at: 2026-09-16T09:11:10Z
 source: cortex-platform
 ---
 

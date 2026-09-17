@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/playbook-design-guide/playbook-design-guide/configure-a-sub-playbook-loop
-fetched_at: 2026-09-06T10:50:51Z
+fetched_at: 2026-09-16T08:58:38Z
 source: cortex-platform
 ---
 
@@ -137,6 +137,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Sub-Playbook Loop Example 
 
- Last updated 6 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/cortex-agentix-data-sources-and-connectors/vendor-specific-data-sources-and-connectors/quest-kace
-fetched_at: 2026-09-06T10:16:08Z
+fetched_at: 2026-09-16T08:50:20Z
 source: cortex-platform
 ---
 
@@ -35,6 +35,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Quest KACE 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

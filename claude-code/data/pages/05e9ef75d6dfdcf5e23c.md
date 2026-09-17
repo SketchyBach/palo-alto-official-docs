@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/investigate-and-respond-to-threats/incidents-and-indicators-investigation/investigate-an-incident/use-the-work-plan-in-an-investigation
-fetched_at: 2026-09-06T10:28:29Z
+fetched_at: 2026-09-16T08:53:41Z
 source: cortex-platform
 ---
 
@@ -207,6 +207,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Investigate an incident using the canvas 
 
- Last updated 3 hours ago 
+ Last updated 9 days ago 
 
  Was this helpful?

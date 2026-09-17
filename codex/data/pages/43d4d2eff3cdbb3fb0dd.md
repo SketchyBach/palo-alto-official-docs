@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/cortex-xdr-xql/build-xql-queries/manage-scheduled-queries/scheduled-queries-reference-information
-fetched_at: 2026-09-06T09:46:17Z
+fetched_at: 2026-09-16T08:43:04Z
 source: cortex-platform
 ---
 
@@ -101,6 +101,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage your personal query library 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

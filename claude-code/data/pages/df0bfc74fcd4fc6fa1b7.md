@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/suspicious-ntlm-authentication-with-machine-account
-fetched_at: 2026-09-06T11:08:18Z
+fetched_at: 2026-09-16T09:08:32Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/8.0-eol/cortex-xdr-agent-for-macos/use-the-cortex-xdr-agent-for-mac
-fetched_at: 2026-09-06T11:28:27Z
+fetched_at: 2026-09-16T09:15:19Z
 source: cortex-platform
 ---
 

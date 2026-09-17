@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/onboard-cortex-xsoar/marketplace/content-pack-contributions
-fetched_at: 2026-09-06T10:40:50Z
+fetched_at: 2026-09-16T08:56:11Z
 source: cortex-platform
 ---
 
@@ -95,6 +95,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Create a Content Pack 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

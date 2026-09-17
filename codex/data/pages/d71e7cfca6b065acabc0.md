@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security-posture-management-aspm/repository-as-an-asset/manage-repositories-via-api
-fetched_at: 2026-09-06T10:12:01Z
+fetched_at: 2026-09-16T08:49:08Z
 source: cortex-platform
 ---
 
@@ -79,6 +79,10 @@ For the complete documentation index, see llms.txt . This page is also available
 
  To automate the compliance generation process within CI/CD pipelines, you can export Software Bill of Materials programmatically using the dedicated SBOM API. 
 
+ Export repository SBOM : Use GET /public_api/appsec/v1/sbom/repository to export the SBOM for a specific repository 
+
+ Export organization SBOMs : Use GET /public_api/appsec/v1/sbom/organization to export SBOM reports for all repositories in the organization as a ZIP archive 
+
  API reference 
 
  For the complete repository API reference guide, including payload examples, schemas, and status code, refer to the Repositories API documentation. 
@@ -87,6 +91,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Coverage 
 
- Last updated 1 month ago 
+ Last updated 1 hour ago 
 
  Was this helpful?

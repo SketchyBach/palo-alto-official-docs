@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/microsoft-azure-manual-onboarding/azure-manual-onboarding-guide/azure-manual-onboarding-management-group-or-tenant-scope/phase-1-create-azure-cloud-instance-in-cortex
-fetched_at: 2026-09-06T11:16:41Z
+fetched_at: 2026-09-16T09:12:20Z
 source: cortex-platform
 ---
 
@@ -135,6 +135,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Phase 2: Platform Identity and Base Role 
 
- Last updated 8 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

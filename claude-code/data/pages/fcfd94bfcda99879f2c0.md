@@ -1,0 +1,93 @@
+---
+url: https://docs.paloaltonetworks.com/globalprotect/6-2/globalprotect-app-release-notes/features-introduced-in-globalprotect-app/features-introduced-in-gp-app
+fetched_at: 2026-09-16T09:58:27Z
+source: palo-alto-main
+---
+
+# New Features - GlobalProtect - 6.2 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+Focus 
+
+ Home 
+
+ GlobalProtect 
+
+ New Features - GlobalProtect - 6.2 
+
+ Download PDF 
+
+ CIE (SAML) Authentication using Embedded Web-view 
+
+ Release Date: May 2024 
+ | 
+ Last Updated: May 2026 
+
+ Enterprises often require strict security compliance controls that necessitate periodic user verification, even when existing SAML tokens remain valid. Previously, users reconnecting the GlobalProtect app with Cloud Identity Engine (CIE) authentication were not prompted to re-enter their credentials, which created potential security gaps and compliance challenges. This enhancement introduces support for CIE (SAML) authentication using an embedded web-view , eliminating the need for complex pre-deployment configuration. Crucially, this feature now supports force authentication. You can now configure the GlobalProtect® app to prompt end users to reauthenticate whenever they reconnect, ensuring stricter access control and helping your organization achieve stringent security compliance goals. This functionality works even if the underlying SAML token has not yet expired. 
+
+ Available in PAN-OS 11.2.0 and later releases. 
+
+ GlobalProtect
+
+ Core
+
+ May 2024
+
+ 6.2
+
+ GlobalProtect
+
+ GlobalProtect App
+
+ May 2024
+
+ 6.2
+
+ CLI Support to Connect to the GlobalProtect App with SAML Authentication 
+
+ Release Date: September 2024 
+ | 
+ Last Updated: June 2026 
+
+ You can now use the command-line interface (CLI) to initiate, manage, and terminate SAML-authenticated sessions on Linux, giving you a command-line workflow for connection management without requiring you to interact with the full desktop application. 
+
+ Previously, establishing a GlobalProtect connection with SAML authentication on Linux required using the GUI application throughout the entire process. There was no way to initiate or control connections from the command line, making it difficult to integrate GlobalProtect into scripted or automated workflows. 
+
+ With this update, you use the GlobalProtect app CLI to start and manage connections. When SAML authentication is required, your default browser opens to complete the authentication step — after which the authenticated session is fully managed through the CLI. This lets you script connection setup and teardown while GlobalProtect handles the browser-based authentication handoff automatically. 
+
+ This functionality is available starting with the GlobalProtect app for Linux version 6.2.1 and is supported on Fedora, Ubuntu, and Red Hat Enterprise Linux. 
+
+ GlobalProtect
+
+ GlobalProtect App
+
+ September 2024
+
+ 6.2
+
+ GlobalProtect
+
+ Management
+
+ September 2024
+
+ 6.2
+
+ Strict Certificate Check for GlobalProtect App Connections 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Without a way to centrally enforce certificate validation, endpoints could potentially connect to portals or gateways presenting untrusted certificates, leaving them exposed to man-in-the-middle attacks. Fixing this required updating settings on each endpoint individually. 
+
+ You can now enforce certificate validation for Windows and macOS endpoints directly from the portal agent configuration. Endpoints that receive this setting will only connect to portals and gateways presenting certificates signed by a trusted CA — no per-device changes required. 
+
+ You can configure this alongside other portal agent settings in Customize the GlobalProtect App . 
+
+ GlobalProtect
+
+ GlobalProtect App
+
+ August 2026
+
+ 6.2

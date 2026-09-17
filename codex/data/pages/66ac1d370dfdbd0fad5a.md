@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-android-guide/8.1
-fetched_at: 2026-09-06T10:21:37Z
+fetched_at: 2026-09-16T08:52:10Z
 source: cortex-platform
 ---
 
@@ -27,6 +27,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Release Notes 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/investigate-and-respond-to-incidents/dashboards
-fetched_at: 2026-09-06T09:49:37Z
+fetched_at: 2026-09-16T08:44:13Z
 source: cortex-platform
 ---
 

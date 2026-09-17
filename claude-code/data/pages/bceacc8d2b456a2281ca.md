@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/iam/appsec-openapi-15
-fetched_at: 2026-09-06T11:12:24Z
+fetched_at: 2026-09-16T09:09:13Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/investigate-and-respond-to-threats/day-to-day-tasks-in-cortex-xsoar/incident-management/incident-tasks
-fetched_at: 2026-09-06T10:49:19Z
+fetched_at: 2026-09-16T08:57:48Z
 source: cortex-platform
 ---
 
@@ -87,6 +87,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Link Incidents 
 
- Last updated 3 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

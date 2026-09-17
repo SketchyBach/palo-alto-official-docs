@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/configure-cortex-xsoar/integrations/configure-integrations
-fetched_at: 2026-09-06T10:35:32Z
+fetched_at: 2026-09-16T08:55:04Z
 source: cortex-platform
 ---
 
@@ -121,6 +121,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Change the Docker image in an integration or script 
 
- Last updated 49 minutes ago 
+ Last updated 9 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/onboard-cortex-xdr/deployment-steps/set-up-authentication/authenticate-users-using-sso
-fetched_at: 2026-09-06T09:38:39Z
+fetched_at: 2026-09-16T08:37:54Z
 source: cortex-platform
 ---
 
@@ -235,6 +235,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Set up okta as the Identity provider using SAML 2.0 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

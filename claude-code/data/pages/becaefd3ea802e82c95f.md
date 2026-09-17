@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-data-sources-and-connectors/generic-on-premise-data-collectors/broker-vm-data-collector-applets/activate-dspm-database
-fetched_at: 2026-09-06T13:39:18Z
+fetched_at: 2026-09-16T09:15:17Z
 source: cortex-platform
 ---
 
@@ -135,6 +135,6 @@ After a successful activation, the APPS field displays DSPM Database with a gree
 
  Next Activate DSPM Fileshare 
 
- Last updated 3 hours ago 
+ Last updated 2 days ago 
 
  Was this helpful?

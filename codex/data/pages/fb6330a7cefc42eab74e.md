@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/graph-search/supported-assets-and-findings
-fetched_at: 2026-09-06T10:02:47Z
+fetched_at: 2026-09-16T08:46:34Z
 source: cortex-platform
 ---
 
@@ -191,6 +191,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next FAQ on Graph Search 
 
- Last updated 7 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

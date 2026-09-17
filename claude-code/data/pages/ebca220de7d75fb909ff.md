@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/cases-and-issues-configuration/create-issue-exceptions/view-issue-exception-rules
-fetched_at: 2026-09-06T10:18:17Z
+fetched_at: 2026-09-16T08:50:58Z
 source: cortex-platform
 ---
 
@@ -151,6 +151,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Disable issue exception rules 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

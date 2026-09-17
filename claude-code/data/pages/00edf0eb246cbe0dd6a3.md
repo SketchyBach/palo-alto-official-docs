@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/multi-tenant/child-tenant-management/content-management-in-multi-tenant/sync-content-to-child-tenants
-fetched_at: 2026-09-06T10:29:08Z
+fetched_at: 2026-09-16T08:53:51Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage content using a remote repository 
 
- Last updated 3 hours ago 
+ Last updated 10 days ago 
 
  Was this helpful?

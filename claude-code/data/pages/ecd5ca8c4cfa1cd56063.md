@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/endpoint-security/endpoint-protection/file-analysis-and-protection-flow
-fetched_at: 2026-09-06T09:53:43Z
+fetched_at: 2026-09-16T08:44:33Z
 source: cortex-platform
 ---
 

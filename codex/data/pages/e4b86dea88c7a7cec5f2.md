@@ -1,0 +1,42 @@
+---
+url: https://docs.prismacloud.io/admin-guide/32/deployment-patterns/migrate-to-saas
+fetched_at: 2026-09-16T13:37:41Z
+source: prisma-cloud
+---
+
+# Migrate to SaaS Console | 32 | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Compute Edition 
+
+ Admin Guide 
+
+ 32 
+
+ Deployment patterns 
+
+ Migrate to SaaS Console 
+
+ If you are interested in moving from Prisma Cloud Compute Edition (self-hosted) to Prisma Cloud Enterprise Edition (SaaS), contact Palo Alto Network Customer Support or your Customer Success Team to discuss the migration process in detail. 
+
+ Points to consider: 
+
+ This is a one-time migration. 
+
+ The direction is Prisma Cloud Compute Edition to Prisma Cloud Enterprise Edition. You cannot migrate from Prisma Cloud Enterprise Edition to Prisma Cloud Compute Edition. 
+
+ If you have projects enabled with Prisma Cloud Compute Edition, you will need to break them apart and pick a single Console to migrate. 
+
+ Your Prisma Cloud Compute Edition Console version must exactly match the Prisma Cloud Enterprise Edition Console, which is always the latest version of Prisma Cloud Compute that is available. 
+
+ Previous Storage limits for audits and reports 
+
+ Next Performance planning 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/install-cortex-xsoar/installation-overview
-fetched_at: 2026-09-06T10:23:41Z
+fetched_at: 2026-09-16T08:52:45Z
 source: cortex-platform
 ---
 
@@ -101,6 +101,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next High Availability for Cortex XSOAR 
 
- Last updated 4 hours ago 
+ Last updated 9 days ago 
 
  Was this helpful?

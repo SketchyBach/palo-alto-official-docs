@@ -1,0 +1,231 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/prisma-access-advanced-deployments/mobile-user-globalprotect-advanced-deployments/identification-and-quarantine-of-compromised-devices-using-prisma-access/use-cases-for-quarantine-list-redistribution.html
+fetched_at: 2026-09-16T11:36:49Z
+source: palo-alto-main
+---
+
+# Use Cases for Quarantine List Redistribution Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Advanced Deployments 
+
+ Prisma Access Mobile Users—GlobalProtect Advanced Deployments 
+
+ Redistribute Quarantine List Information 
+
+ Use Cases for Quarantine List Redistribution 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Use Cases for Quarantine List Redistribution 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Redistribute Quarantine List Information 
+
+ Next 
+
+ Configure Quarantine List Redistribution in Prisma Access 
+
+ Use Cases for Quarantine List Redistribution 
+
+ Learn about the times you can use a quarantine list in
+a Prisma Access GlobalProtect deployment. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama) 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access 
+ license 
+
+ The following section describes some common Prisma Access deployments
+where quarantine list redistribution is useful for consistent policy
+enforcement for compromised devices. 
+
+ Quarantine List Redistribution between Mobile User
+Locations Connected to Same Service Connection —In the following
+example, a GlobalProtect Mobile User who is connected to Mobile
+User Location 1 becomes compromised and is auto-quarantined . Prisma
+Access blocks or restricts the quarantined device per policy. 
+
+ A service
+connection (Service Connection 1 in this example) redistributes
+the quarantine list information between all mobile user locations
+to which it is connected. Since Mobile User Location 2 receives
+the redistributed quarantine list information by way of Service
+Connection 1, the GlobalProtect mobile user attempt to connect to
+Mobile User Location 2 is also blocked. 
+
+ Quarantine List Redistribution between Mobile User Locations
+Connected to Different Service Connections —In the following
+example, there are two mobile user locations, but they connect to
+two different service connections. A GlobalProtect user attempted
+to connect to Mobile User Location 1. Mobile User Location 1 detects
+the GlobalProtect user endpoint as compromised and quarantines it. 
+
+ To redistribute
+the quarantine list information from Mobile User Location 1 to Mobile
+User Location 2, perform the following actions: 
+
+ Redistribute
+the quarantine list information from Service Connection 1 to Panorama. 
+
+ Redistribute the quarantine list information from Panorama
+to Service Connection 2. 
+
+ With this configuration,
+when the GlobalProtect user connects to Mobile User Location 1 and
+is quarantined, then the quarantine list information redistributes
+from Mobile User Location 1 to Mobile User Location 2 and any connection
+attempts to Mobile User Location 2 are blocked. 
+
+ This
+configuration is also valid if the GlobalProtect user connects to
+Mobile User Location 2 and is quarantined; the quarantine list information
+redistributes from Mobile User Location 2 to Mobile User Location
+1. 
+
+ Quarantine List Redistribution Between Prisma Access and
+a Next-Generation Firewall or Gateway —In the following example,
+A GlobalProtect user attempted to connect to Mobile User Location
+1. Mobile User Location 1 detects the GlobalProtect user endpoint
+as compromised and quarantines it. The mobile user then goes to
+the company’s headquarters and attempts to log in again. The headquarters
+is protected with a next-generation firewall configured as a GlobalProtect
+gateway using Internal Host Detection. 
+
+ Mobile User Location 1 redistributes the quarantine list information to Panorama through Service
+ Connection 1, and Panorama redistributes the quarantine list information to the
+ on-premises internal gateway. When the user attempts to log in from the
+ headquarters location, GlobalProtect detects that the on-premises gateway is
+ configured as an internal gateway and connects to the gateway without a
+ tunnel. 
+
+ Since
+the quarantine list information has been redistributed to the on-premises
+gateway, the user is blocked at the gateway based on the configured
+user policies. 
+
+ If you
+use a next-generation firewall or gateway with Prisma Access , you
+should configure Panorama to redistribute quarantine list information
+to the firewall or gateway, all service connections, and Panorama. 
+
+ Administrator Manually Quarantines Mobile User at Panorama —In
+this example, the Prisma Access administrator has manually added
+a mobile user to the quarantine list at the Panorama appliance that
+manages Prisma Access . The administrator has set up redistribution
+between Panorama, the next-generation firewall, and the service
+connections. Panorama redistributes the updated quarantine list
+information to the firewall and the service connections. The service
+connections then redistribute the quarantine list information to
+the mobile user locations. 
+
+ The mobile user was connected to
+Mobile User Location 1. After Mobile User Location 1 receives the
+updated quarantine list information, the user is disconnected. If
+the user attempts to connect to Mobile User Location 2, the connection
+is blocked and the mobile user receives a quarantine notification. 
+
+ Mobile User is Auto or Manually Quarantined at the On-Premises
+Gateway —In this example, there is a next-generation firewall
+that has been configured as an external gateway at the headquarters
+or data center location. The administrator has manually quarantined
+a mobile user at the external gateway. The external gateway redistributes
+the quarantine list information from the external gateway to Panorama. 
+
+ After
+Panorama has received the updated quarantine list information from
+the external gateway, it redistributes that information to Service
+Connections 1 and 2, which then redistributes it to Mobile User
+Locations 1 and 2. If a mobile user attempts to connect to either
+Mobile User Location 1 or 2, Prisma Access blocks the connection
+and the user receives a a quarantine notification. 
+
+ Previous 
+
+ Redistribute Quarantine List Information 
+
+ Next 
+
+ Configure Quarantine List Redistribution in Prisma Access

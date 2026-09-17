@@ -1,0 +1,289 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/ztna-connector-in-prisma-access/ztna-connector-requirements-and-guidelines/ip-address-and-fqdns-to-allow-for-ztna-connector.html
+fetched_at: 2026-09-16T11:25:54Z
+source: palo-alto-main
+---
+
+# Public DNS FQDN Allow List Clear
+
+Updated on 
+
+ Sep 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access ZTNA Connector 
+
+ ZTNA Connector Requirements and Guidelines 
+
+ Public DNS FQDN Allow List 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Public DNS FQDN Allow List 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ ZTNA Connector Requirements and Guidelines 
+
+ Next 
+
+ Enable or Disable ZTNA Connector 
+
+ Public DNS FQDN Allow List 
+
+ To ensure smooth functioning of ZTNA Connector, add the following URLs and IP
+ addresses to your allow lists. 
+
+ To ensure smooth functioning of ZTNA Connector, add the following FQDNs and IP addresses
+ to your allow lists. 
+
+ Service Name Port FQDN IP Addresses 
+
+ ZTNA Connector access to Prisma Access 
+ TCP 443 
+
+ https://controller.cgnx.net 
+
+ Address: 52.8.93.87 
+
+ Address: 52.8.25.40 
+
+ https://locator.cgnx.net (canonical:
+ locator-elcapitan.cgnx.net) 
+
+ https://locator-elcapitan.cgnx.net 
+
+ Address: 18.223.78.55 
+
+ Address: 52.15.45.235 
+
+ https://vmfg.cgnx.net 
+
+ Address: 52.53.122.104 
+
+ Address: 52.53.102.7 
+
+ https://controller.elcapitan.cgnx.net 
+
+ Address: 3.136.181.240 
+
+ Address: 3.23.240.174 
+
+ https://vmfg.ecapitan.cgnx.net 
+
+ Address: 3.132.76.157 
+
+ Address: 3.138.78.166 
+
+ https://controller.hood.cgnx.net 
+
+ https://toolkitsessions.hood.cgnx.net 
+
+ Address: 52.32.167.5 
+
+ Address: 54.70.168.33 
+
+ https://vmfg.hood.cgnx.net 
+
+ Address: 50.112.136.184 
+
+ Address: 34.210.34.87 
+
+ https://controller.sugarloaf.cgnx.net 
+
+ Address: 108.128.176.192 
+
+ Address: 18.200.144.58 
+
+ https://vmfg.sugarloaf.cgnx.net 
+
+ Address: 99.81.179.99 
+
+ Address: 99.80.52.255 
+
+ https://sdwan-stats-hood-us.cgnx.net 
+
+ https://sdwan-stats-elcapitan-us.cgnx.net 
+
+ Address: 34.102.90.252 
+
+ https://sdwan-stats-hood-jp.cgnx.net 
+
+ https://sdwan-stats-elcapitan-jp.cgnx.net 
+
+ Address: 34.146.184.203 
+
+ https://sdwan-stats-hood-sg.cgnx.net 
+
+ https://sdwan-stats-elcapitan-sg.cgnx.net 
+
+ https://sdwan-stats-faber-sg.cgnx.net 
+
+ Address: 35.247.150.62 
+
+ https://sdwan-stats-hood-au.cgnx.net 
+
+ https://sdwan-stats-elcapitan-au.cgnx.net 
+
+ https://sdwan-stats-townsend-au.cgnx.net 
+
+ Address: 35.244.84.243 
+
+ https://sdwan-stats-hood-in.cgnx.net 
+
+ https://sdwan-stats-elcapitan-in.cgnx.net 
+
+ Address: 34.93.153.110 
+
+ https://sdwan-stats-hood-ca.cgnx.net 
+
+ https://sdwan-stats-elcapitan-ca.cgnx.net 
+
+ Address: 34.152.55.166 
+
+ https://sdwan-stats-sugarloaf-eu.cgnx.net 
+
+ Address: 34.91.113.112 
+
+ https://sdwan-stats-sugarloaf-de.cgnx.net 
+
+ Address: 34.141.79.213 
+
+ https://sdwan-stats-sugarloaf-uk.cgnx.net 
+
+ https://sdwan-stats-bowfell-uk.cgnx.net 
+
+ Address: 34.142.76.163 
+
+ https://sdwan-stats-bowfell-il.cgnx.net 
+
+ Address: 34.8.144.141 
+
+ https://controller.bowfell.cgnx.net 
+
+ Address: 18.171.17.23 
+
+ Address: 13.41.243.90 
+
+ https://vmfg.bowfell.cgnx.net 
+
+ Address: 52.56.35.36 
+
+ Address: 52.56.224.242 
+
+ https://controller.faber.cgnx.net 
+
+ Address: 52.74.47.220 
+
+ Address: 13.251.109.27 
+
+ https://vmfg.faber.cgnx.net 
+
+ Address: 18.142.153.59 
+
+ Address: 52.74.58.219 
+
+ https://vmfg.townsend.cgnx.net 
+
+ Address: 52.64.177.240 
+
+ Address: 13.55.164.51 
+
+ NTP UDP 123 
+
+ time.nist.gov 
+
+ 0.cloudgenix.pool.ntp.org 
+
+ 1.cloudgenix.pool.ntp.org 
+
+ 2.cloudgenix.pool.ntp.org 
+
+ 3.cloudgenix.pool.ntp.org 
+
+ Varies by region 
+
+ If you are setting up a ZTNA Connector in the
+ mainland China, add these URLs to your organization's allow
+ lists. 
+
+ Previous 
+
+ ZTNA Connector Requirements and Guidelines 
+
+ Next 
+
+ Enable or Disable ZTNA Connector

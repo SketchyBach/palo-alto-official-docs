@@ -1,0 +1,82 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/9-1/pan-os-admin/subscriptions.html
+fetched_at: 2026-09-16T10:42:20Z
+source: palo-alto-main
+---
+
+# Subscriptions Clear
+
+Updated on 
+
+ Jul 22, 2025 
+
+ Focus 
+
+ Home 
+
+ PAN-OS 
+
+ Subscriptions 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Subscriptions 
+
+ Table of Contents 
+
+ Filter
+
+ End-of-Life (EoL)
+
+ Previous 
+
+ Best Practices for Securing Administrative Access 
+
+ Next 
+
+ Subscriptions You Can Use With the Firewall 
+
+ Subscriptions 
+
+ Learn about and activate subscriptions for certain features
+or cloud-delivered services that work with the firewall. 
+
+ Learn about all the subscriptions and services that
+work with the firewall, and get started by activating subscription
+licenses: 
+
+ Subscriptions You Can Use With the Firewall 
+
+ Activate Subscription Licenses 
+
+ What Happens When Licenses Expire? 
+
+ Enhanced Application Logs for Palo Alto Networks Cloud Services 
+
+ Certain cloud services, like Cortex XDR™,
+do not integrate with the firewall directly, but rely on data stored
+in Cortex Data Lake for visibility into network activity. Enhanced
+application logging is a feature that comes with a Cortex Data Lake
+subscription—it allows the firewall to collect data specifically
+for Cortex XDR to use to detect anomalous network activity. Turning
+on enhanced application logging is a Cortex XDR best practice. 
+
+ Previous 
+
+ Best Practices for Securing Administrative Access 
+
+ Next 
+
+ Subscriptions You Can Use With the Firewall

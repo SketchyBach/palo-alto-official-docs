@@ -1,0 +1,96 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/user-guide/prisma-agent-for-desktop-devices/log-out-of-the-agent
+fetched_at: 2026-09-16T08:21:22Z
+source: palo-alto-main
+---
+
+# Log out of the Prisma Agent Clear
+
+Updated on 
+
+ Thu Aug 27 01:36:38 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Prisma Agent for Desktop Devices 
+
+ Log out of the Prisma Agent 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ Log out of the Prisma Agent 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Use Prisma Agent Anti-Tamper Protection 
+
+ Next 
+
+ Get Help for Prisma Agent Issues 
+
+ Log out of the Prisma Agent 
+
+ You can log out of the Prisma Agent if your administrator permits
+ it. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Agent 
+
+ Minimum Prisma Agent version: 
+
+ 25.1 (macOS and Windows) 
+
+ 25.7 (Linux) 
+
+ macOS, Windows, or Linux
+ desktop devices 
+
+ Check the prerequisites for the
+ supported OS versions 
+
+ Internet access 
+
+ You can log out of the Prisma Agent if your administrator configured the
+ Prisma Agent to allow user sign-out. 
+
+ Open the Prisma Agent app by clicking the Prisma Agent icon 
+
+ from the macOS menu bar, Windows
+ taskbar, or Linux panel . 
+
+ Click the options icon to open the settings window. 
+
+ Select Sign Out from the settings window. 
+
+ Previous 
+
+ Use Prisma Agent Anti-Tamper Protection 
+
+ Next 
+
+ Get Help for Prisma Agent Issues

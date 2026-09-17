@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/onboard-cortex-xsiam/onboard-cortex-xsiam
-fetched_at: 2026-09-06T09:19:02Z
+fetched_at: 2026-09-16T07:55:37Z
 source: cortex-platform
 ---
 

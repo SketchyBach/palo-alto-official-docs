@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/overview-of-cases
-fetched_at: 2026-09-06T10:04:33Z
+fetched_at: 2026-09-16T08:47:04Z
 source: cortex-platform
 ---
 

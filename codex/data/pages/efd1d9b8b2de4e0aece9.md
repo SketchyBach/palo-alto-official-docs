@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/suspicious-icmp-traffic-that-resembles-smurf-attack
-fetched_at: 2026-09-06T11:08:12Z
+fetched_at: 2026-09-16T09:08:29Z
 source: cortex-platform
 ---
 

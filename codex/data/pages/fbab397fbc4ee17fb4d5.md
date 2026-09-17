@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/multiple-discovery-like-commands
-fetched_at: 2026-09-06T11:05:30Z
+fetched_at: 2026-09-16T09:07:32Z
 source: cortex-platform
 ---
 

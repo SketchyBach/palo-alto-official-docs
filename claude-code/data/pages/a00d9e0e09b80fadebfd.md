@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/investigate-and-respond-to-threats/threat-intel-management/customize-threat-intel-reports/create-a-threat-intel-report-layout
-fetched_at: 2026-09-06T10:36:37Z
+fetched_at: 2026-09-16T08:55:21Z
 source: cortex-platform
 ---
 
@@ -210,6 +210,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Indicator management 
 
- Last updated 35 minutes ago 
+ Last updated 9 days ago 
 
  Was this helpful?

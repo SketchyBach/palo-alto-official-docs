@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/investigation-and-response/analyze-and-resolve-cases/resolve-the-case/monitor-and-track-resolution-times
-fetched_at: 2026-09-06T09:31:41Z
+fetched_at: 2026-09-16T08:35:27Z
 source: cortex-platform
 ---
 
@@ -61,6 +61,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex Response and Remediation content pack 
 
- Last updated 12 days ago 
+ Last updated 22 days ago 
 
  Was this helpful?

@@ -1,0 +1,83 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/best-practices/10-1/best-practices-for-managing-firewalls-with-panorama.html
+fetched_at: 2026-09-16T09:59:05Z
+source: palo-alto-main
+---
+
+# Best Practices for Managing Firewalls with Panorama Clear
+
+Updated on 
+
+ Tue Jun 07 17:41:32 PDT 2022 
+
+ Focus 
+
+ Home 
+
+ Best Practices 
+
+ Best Practices for Managing Firewalls with Panorama 
+
+ Download PDF 
+
+ Best Practices for Managing Firewalls with Panorama 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 10.1 
+
+ 10.1 
+
+ 10.0 (EoL) 
+
+ Expand all | Collapse all 
+
+ Best Practices to Add Firewalls to Panorama 
+
+ Use Case - Onboarding New Next-Generation Firewalls to Panorama 
+
+ Use Case - Migrate Your Next-Generation Firewalls to Panorama 
+
+ Best Practices for Firewall Configuration Management on Panorama 
+
+ Manage Your Device Group Configurations on Panorama 
+
+ Manage Your Template and Template Stack Configuration on Panorama 
+
+ Manage the Template and Template Stack Variables on Panorama 
+
+ Best Practices for Configuration Change Management 
+
+ Manage Admin Roles and Access Domains from Panorama 
+
+ Simplify Security Rules Managed by Panorama 
+
+ Configuration Change Management for Large Teams 
+
+ Commit Your Panorama Configuration Changes 
+
+ Push Your Panorama Configuration Changes 
+
+ Best Practices for Monitoring and Visibility on Panorama 
+
+ Design Your Logging Infrastructure 
+
+ Monitoring the Application Command Center (ACC) and Logs on Panorama 
+
+ Generate Standard and Custom Reports on Panorama 
+
+ The Panorama management server ™ is the Palo Alto Networks network security management solution for centralized management and visibility for your next-generation firewalls. Review the best practices for onboarding new firewalls or migrating existing firewalls to Panorama to simplify and streamline this operation.  
+
+ What Do You Want To Do? 
+
+ Add firewalls to Panorama
+
+ Manage your configurations
+
+ Manage your configuration changes
+
+ Monitor your firewalls

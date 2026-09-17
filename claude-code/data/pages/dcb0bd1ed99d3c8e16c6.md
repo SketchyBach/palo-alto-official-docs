@@ -1,74 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/dns-security/administration/configure-dns-security/configure-lookup-timeout
-fetched_at: 2026-08-13T15:31:55Z
+fetched_at: 2026-09-15T15:10:10Z
 source: palo-alto-main
 ---
 
 # Configure Lookup Timeout Clear
 
-Configure Lookup Timeout 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Configure Lookup Timeout 
-
- Updated on 
-
- Thu Jul 30 19:02:25 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 日本語 (Japanese) 
-
- 中文 (Chinese Simplified) 
-
- 繁體中文 (Chinese Traditional) 
-
- Español (Spanish) 
-
- Français (French) 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Advanced DNS Security 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Release Notes 
-
- Updated on 
-
- Thu Jul 30 19:02:25 PDT 2026 
+ Jul 31, 2026 
 
  Focus 
 
@@ -114,6 +54,8 @@ Configure Lookup Timeout
 
  Administration 
 
+ Integrations 
+
  Release Notes 
 
  Previous 
@@ -122,7 +64,7 @@ Configure Lookup Timeout
 
  Next 
 
- Configure No DNS UDP Discard 
+ DNS Signature Lookup Automatic Recovery 
 
  Configure Lookup Timeout 
 
@@ -268,114 +210,4 @@ adns rtt>=450ms: 0
 
  Next 
 
- Configure No DNS UDP Discard 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- 11.0 
-
- 10.1 
-
- 10.2 
-
- Administration 
-
- Prisma Access 
-
- 9.1 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ DNS Signature Lookup Automatic Recovery

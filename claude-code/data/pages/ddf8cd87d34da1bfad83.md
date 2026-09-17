@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/enterprise-dlp/activation-and-onboarding/activate-endpoint-dlp
-fetched_at: 2026-08-13T15:32:06Z
+fetched_at: 2026-09-15T15:10:16Z
 source: palo-alto-main
 ---
 
 # Activate Endpoint DLP Clear
 
-Activate Endpoint DLP 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Activate Endpoint DLP 
-
- Updated on 
-
- Fri Jul 31 14:12:32 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Enterprise DLP Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features by OS Version 
-
- New Features by Month 
-
- Updated on 
-
- Fri Jul 31 14:12:32 PDT 2026 
+ Sep 1, 2026 
 
  Focus 
 
@@ -116,15 +62,6 @@ Activate Endpoint DLP
 
  Activate Endpoint DLP to stop accidental or malicious data lose over peripheral
  devices. 
-
- On May 7, 2025 , Palo Alto Networks is introducing new Evidence Storage and Syslog Forwarding service IP
- addresses to improve performance and expand availability for these services
- globally. 
-
- You must allow these new service IP addresses on your network
- to avoid disruptions for these services. Review the Enterprise DLP 
- Release Notes for more
- information. 
 
  Where Can I Use This? What Do I Need? 
 
@@ -505,110 +442,4 @@ Activate Endpoint DLP
 
  Next 
 
- Enable Optical Character Recognition 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Activation & Onboarding 
-
- Cloud-Delivered Security Services 
-
- Data Filtering 
-
- Enterprise DLP 
-
- Task 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Enable Optical Character Recognition

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/configure-cortex-xsoar/playbooks/develop-your-playbook
-fetched_at: 2026-09-06T10:33:10Z
+fetched_at: 2026-09-16T08:54:37Z
 source: cortex-platform
 ---
 
@@ -81,6 +81,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Task 1. Choose from existing playbooks or create your own 
 
- Last updated 1 hour ago 
+ Last updated 9 days ago 
 
  Was this helpful?

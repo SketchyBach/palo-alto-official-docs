@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/cortex-advanced-email-security/cortex-advanced-email-security-module-overview
-fetched_at: 2026-09-06T09:45:56Z
+fetched_at: 2026-09-16T08:43:04Z
 source: cortex-platform
 ---
 
@@ -107,6 +107,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex Advanced Email Security module architecture and data flow 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

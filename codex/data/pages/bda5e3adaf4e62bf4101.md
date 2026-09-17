@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/onboard-and-activate-cloud-account-in-scm/gcp-onboarding-prereq-and-steps/onboard-gcp-cloud-account-in-scm
-fetched_at: 2026-09-06T11:16:54Z
+fetched_at: 2026-09-16T07:54:37Z
 source: ai-security
 ---
 

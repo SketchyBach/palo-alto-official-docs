@@ -1,0 +1,268 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/strata-logging-service/log-reference/network-logs/network-aifw-log/network-aifw-cef-fields.html
+fetched_at: 2026-09-16T11:04:45Z
+source: palo-alto-main
+---
+
+# AI Security CEF Fields Clear
+
+Updated on 
+
+ Mon Sep 14 22:55:52 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Logging Service 
+
+ Strata Logging Service Log Reference 
+
+ Network Logs 
+
+ AI Security 
+
+ AI Security CEF Fields 
+
+ Download PDF 
+
+ Strata Logging Service 
+
+ AI Security CEF Fields 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Logging Service Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Release Notes 
+
+ Log Reference 
+
+ New Features 
+
+ Previous 
+
+ AI Security 
+
+ Next 
+
+ AI Security EMAIL Fields 
+
+ AI Security CEF Fields 
+
+ The following table identifies the AI Security field names that the Log Forwarding app
+ uses when you forward logs using the CEF log format.
+
+ CEF Name
+
+ Field Details
+
+ act
+
+ Query Name: action 
+
+ Header Type: Predefined 
+
+ PanOSAIIncidentReportID
+
+ Query Name: ai_incident_report_id 
+
+ Header Type: Custom 
+
+ PanOSAIIncidentSubtype
+
+ Query Name: ai_incident_subtype 
+
+ Header Type: Custom 
+
+ PanOSAIIncidentType
+
+ Query Name: ai_incident_type 
+
+ Header Type: Custom 
+
+ PanOSAIModelCSPName
+
+ Query Name: ai_model_csp_name 
+
+ Header Type: Custom 
+
+ PanOSApplicationAppSubcategory
+
+ Query Name: ai_model_csp_region_name 
+
+ Header Type: Custom 
+
+ PanOSApplicationSource
+
+ Query Name: ai_model_name 
+
+ Header Type: Custom 
+
+ PanOSAISecurityProfileName
+
+ Query Name: ai_security_profile_name 
+
+ Header Type: Custom 
+
+ PanOSAISubtypeDetails
+
+ Query Name: ai_subtype_details 
+
+ Header Type: Custom 
+
+ PanOSCortexDataLakeTenantID
+
+ Query Name: customer_id 
+
+ Header Type: Custom 
+
+ dst or c6a3
+
+ Query Name: dest_ip.​value 
+
+ Header Type: Predefined 
+
+ dpt
+
+ Query Name: dest_port 
+
+ Header Type: Predefined 
+
+ PanOSKubernetesClusterID
+
+ Query Name: k8s_cluster_id 
+
+ Header Type: Custom 
+
+ PanOSLatency
+
+ Query Name: latency 
+
+ Header Type: Custom 
+
+ PanOSLogSource
+
+ Query Name: log_source 
+
+ Header Type: Custom 
+
+ deviceExternalID
+
+ Query Name: log_source_id 
+
+ Header Type: Predefined 
+
+ dvchost
+
+ Query Name: log_source_name 
+
+ Header Type: Predefined 
+
+ rt
+
+ Query Name: log_time 
+
+ Header Type: Predefined 
+
+ Device Event Class ID
+
+ Query Name: log_type.​value 
+
+ Header Type: Custom 
+
+ PanOSMaxLatencyHit
+
+ Query Name: max_latency_hit 
+
+ Header Type: Custom 
+
+ PlatformType
+
+ Query Name: platform_type 
+
+ Header Type: Custom 
+
+ proto
+
+ Query Name: protocol.​value 
+
+ Header Type: Predefined 
+
+ PanOSThreatinRequestorResponse
+
+ Query Name: request_response 
+
+ Header Type: Custom 
+
+ cn1
+
+ Query Name: session_id 
+
+ Header Type: Predefined 
+
+ PanOSSessionStartTime
+
+ Query Name: session_start_time 
+
+ Header Type: Custom 
+
+ src or c6a2
+
+ Query Name: source_ip.​value 
+
+ Header Type: Predefined 
+
+ spt
+
+ Query Name: source_port 
+
+ Header Type: Predefined 
+
+ start
+
+ Query Name: time_generated 
+
+ Header Type: Predefined 
+
+ PanOSTimeGeneratedHighResolution
+
+ Query Name: time_generated_high_res 
+
+ Header Type: Custom 
+
+ PanOSTSGID
+
+ Query Name: tsg_id 
+
+ Header Type: Custom 
+
+ Device Vendor
+
+ Query Name: vendor_name 
+
+ Header Type: Custom 
+
+ PanOSVendorSeverity
+
+ Query Name: vendor_severity.​value 
+
+ Header Type: Custom 
+
+ Previous 
+
+ AI Security 
+
+ Next 
+
+ AI Security EMAIL Fields

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/microsoft-windows-security-auditing-setup
-fetched_at: 2026-09-06T09:18:58Z
+fetched_at: 2026-09-16T07:55:27Z
 source: cortex-platform
 ---
 

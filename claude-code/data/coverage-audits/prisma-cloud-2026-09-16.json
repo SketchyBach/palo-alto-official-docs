@@ -1,0 +1,27 @@
+{
+  "fresh_sitemap_urls": 1755,
+  "fresh_missing_database_records": [],
+  "fresh_sitemap_urls_with_indexed_body": 1755,
+  "fresh_sitemap_urls_without_body": [],
+  "latest_receipt_urls": 2026,
+  "latest_fetch_successes": 2012,
+  "latest_fetch_failures": 14,
+  "latest_failure_categories": {
+    "http_404": 14
+  },
+  "total_indexed_bodies": 54630,
+  "fts_records": 54630,
+  "indexed_bodies_by_source": {
+    "ai-security": 509,
+    "cortex-platform": 21477,
+    "idira-and-identity": 218,
+    "idira-docs": 57,
+    "koi-official-browser": 321,
+    "koi-official-export": 279,
+    "koi-official-recovered": 13,
+    "palo-alto-main": 25693,
+    "prisma-cloud": 2012,
+    "strata-and-sase": 4051
+  },
+  "passed": true
+}

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.14/configure-cortex-xsoar/dashboards-and-reports/reports
-fetched_at: 2026-09-06T10:25:25Z
+fetched_at: 2026-09-16T08:53:05Z
 source: cortex-platform
 ---
 

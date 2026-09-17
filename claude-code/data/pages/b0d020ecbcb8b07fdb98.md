@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/onboard-and-configure/csp-onboarding/amazon-web-services-cloud-onboarding/grant-cross-account-kms-key-access-for-control-tower-byob-log-collection
-fetched_at: 2026-09-06T10:51:18Z
+fetched_at: 2026-09-16T08:58:40Z
 source: cortex-platform
 ---
 
@@ -93,6 +93,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next AWS post-deployment verification 
 
- Last updated 7 days ago 
+ Last updated 17 days ago 
 
  Was this helpful?

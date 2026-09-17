@@ -1,0 +1,241 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/administration/deploy-prisma-agents/deploy-prisma-agents-using-jamf-pro/deploy-agents-to-macos-endpoints-using-jamf/deploy-the-agent-using-a-unified-config-profile
+fetched_at: 2026-09-16T08:21:20Z
+source: palo-alto-main
+---
+
+# Deploy the Prisma Agent Using Unified Configuration Profiles (V3) Clear
+
+Updated on 
+
+ Thu Aug 27 20:22:38 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Deploy the Prisma Agent 
+
+ Deploy Prisma Agents Using Jamf Pro 
+
+ Deploy Prisma Agents to macOS Endpoints Using Jamf Pro 
+
+ Deploy the Prisma Agent Using Unified Configuration Profiles (V3) 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ Deploy the Prisma Agent Using Unified Configuration Profiles (V3) 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Deploy Prisma Agents to macOS Endpoints Using Jamf Pro 
+
+ Next 
+
+ Deploy the Prisma Agent Using a Unified Configuration Profile (V2_1) 
+
+ Deploy the Prisma Agent Using Unified Configuration Profiles (V3) 
+
+ Install Prisma Agent using unified configuration profiles (V3) for a
+ seamless installation that does not require end-user interaction. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ NGFW (Managed by Panorama) 
+
+ Check the prerequisites for the deployment you're
+ using 
+
+ macOS 14 and later desktop devices 
+
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
+
+ To set up the Prisma Agent on macOS devices, you will need to deploy an
+ installation package to the target endpoint. During the installation process, macOS
+ will prompt for various system permissions including system extension approval,
+ notification permissions, and Full Disk Access permissions for Prisma Agent processes. 
+
+ For a streamlined deployment that eliminates the need for end-user interaction or
+ manual configuration by you, Palo Alto Networks offers the V3 version of the
+ configuration profiles, which consist of two unified configuration profiles to aid
+ in your deployment of Prisma Agent . One configuration profile contains
+ specifications for Prisma Agent . The other contains specifications for
+ Endpoint DLP . Both profiles contain system extension payloads that macOS requires MDM to
+ pre-authorize before the installer runs. Without pre-authorization, macOS prompts
+ users to manually approve each extension. 
+
+ Deploy the Prisma Agent 
+ configuration profile before installing either package. If you are deploying the Prisma Agent plus Endpoint DLP package
+ ( PrismaAccessAgentInstaller_ <version> .pkg ),
+ also deploy the Endpoint DLP profile before running the installer. The Endpoint DLP
+ profile is not required for the standard Prisma Agent package
+ ( PrismaAccessAgentInstaller_NoDLP_ <version> .pkg ). 
+
+ The Endpoint DLP agent requires a separate license and remains inactive
+ until you activate the license. 
+
+ You can use these profiles with Jamf Pro to deploy the Prisma Agent to
+ your managed macOS endpoints. The V3 configuration profiles are compatible with all
+ versions of Prisma Agent for macOS. 
+
+ If you prefer to create your own configuration profiles directly within Jamf Pro,
+ refer to Manually Create Configuration Profiles (V3) for Prisma Agent . 
+
+ The Prisma Agent configuration profiles include the following
+ payloads: 
+
+ Content Filter 
+ Payload type:
+ com.apple.webcontent-filter 
+
+ Notifications 
+ Payload type:
+ com.apple.notificationsettings 
+
+ Privacy Preferences Policy Control 
+ Payload type:
+ com.apple.TCC.configuration-profile-policy 
+
+ System Extensions 
+ Payload type:
+ com.apple.system-extension-policy 
+
+ VPN 
+ Payload type: com.apple.vpn.managed 
+
+ The macOS System Settings window does not show Full Disk
+ Access permissions granted to the Prisma Agent by the configuration
+ profile. 
+
+ The following procedure shows how to deploy Prisma Agent on macOS
+ endpoints using the unified configuration profile files from Palo Alto Networks.
+ Ensure that you perform the steps consecutively as described below. If you change
+ the order, the configuration profiles might not be available at the time the agent
+ requires them, which could cause unexpected behavior. 
+
+ Download the zipped bundle that
+ contains the two configuration profiles. 
+
+ Uncompress the PrismaAccessAgent_ConfigProfiles_V3.zip 
+ file that you downloaded. 
+
+ This creates the PrismaAccessAgent_ConfigProfiles_V3 
+ folder that contains the two configuration profiles with the following hash
+ values. 
+
+ PrismaAccessAgent_V3.mobileconfig 
+ SHA256:
+ b5925aba052c79bc18b61e6d820d8134fc151fa619a004c278d6aa8b5df30f31 
+
+ MD5:
+ ffa31dabd1ae50050a80ae6fce8d9095 
+
+ PrismaAccessAgentDLP_V3.mobileconfig 
+ SHA256:
+ e6c96b8751ce7da4b58ec21d51c8cc218f19d0f079dfe3c85c00fee634233864 
+
+ MD5:
+ e5f70bcff5358ba2bd076d4df4c496b2 
+
+ Verify that the hash of each downloaded .mobileconfig file
+ matches the hash provided for each file as listed above. If the hash for a
+ configuration profile does not match, download the zipped bundle again. For
+ example: 
+
+ To check the SHA256 hash, run the following
+ command: 
+ openssl sha256 <mobileconfig_filename> 
+
+ To check the md5 hash, run the following
+ command: 
+ md5 <mobileconfig_filename> 
+
+ Upload the configuration profiles to Jamf Pro. The configuration profiles
+ aren't signed. If required, you can sign the configuration profiles using your
+ own signing certificate. 
+
+ Upload the configuration profiles to
+ Jamf Pro . 
+
+ For Prisma Agent plus Endpoint DLP, upload both profiles
+ ( PrismaAccessAgent_V3.mobileconfig and
+ PrismaAccessAgentDLP_V3.mobileconfig ). 
+
+ For Prisma Agent (without Endpoint DLP), upload only the
+ Prisma Agent profile
+ ( PrismaAccessAgent_V3.mobileconfig ). 
+
+ In the Scope tab for each configuration profile
+ in Jamf Pro, add a deployment target by selecting Target Computers All Computers . 
+
+ As a best practice, create a
+ target group for macOS endpoints that are running the version of
+ macOS that Prisma Agent supports. Then, deploy the
+ configuration profile to that group. Prisma Agent 
+ supports macOS 14 and later operating systems. 
+
+ Save the configuration profiles. 
+
+ Upload the Prisma Agent installation package to Jamf Pro. 
+
+ If you have not done so, download the Prisma Agent
+ installation package (.pkg) and configuration file
+ (config.json) . 
+
+ Download the
+ PrismaAccessAgentInstaller_ <version> .pkg 
+ installer if your organization uses Endpoint DLP (requires a
+ separate Endpoint DLP license; deployable via MDM only), or the
+ PrismaAccessAgentInstaller_NoDLP_ <version> .pkg 
+ standard installer if it does not. 
+
+ ( Optional ) Set predeployment
+ options in the config.json file, such as
+ enabling pre-logon support
+ and disabling the GlobalProtect app (if installed on the endpoint)
+ during the installation of the Prisma Agent . 
+
+ Put the .pkg and config.json 
+ files into a folder and give the folder a meaningful name (such as the
+ name of the .pkg ). Zip up the folder by compressing
+ it. 
+
+ Upload the ZIP archive you created to
+ Jamf Pro . 
+
+ Proceed to distribute the Prisma Agent package across your endpoints
+ by creating a Jamf policy for Prisma Agent deployment . 
+
+ Previous 
+
+ Deploy Prisma Agents to macOS Endpoints Using Jamf Pro 
+
+ Next 
+
+ Deploy the Prisma Agent Using a Unified Configuration Profile (V2_1)

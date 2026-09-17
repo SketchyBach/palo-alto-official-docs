@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/reference-and-developer-docs/troubleshoot/about-health-issues/monitor-data-ingestion-health
-fetched_at: 2026-09-06T10:20:07Z
+fetched_at: 2026-09-16T08:51:29Z
 source: cortex-platform
 ---
 

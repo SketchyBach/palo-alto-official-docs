@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/atlassian/atlassian
-fetched_at: 2026-09-06T09:22:14Z
+fetched_at: 2026-09-16T07:57:02Z
 source: cortex-platform
 ---
 
@@ -49,6 +49,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Atlassian Automation and Collection 
 
- Last updated 1 month ago 
+ Last updated 2 days ago 
 
  Was this helpful?

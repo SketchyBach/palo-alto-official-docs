@@ -1,6 +1,6 @@
 ---
 name: palo-alto-integration-guide
-description: Produce vetted, exact, step-by-step guides using the project's official Palo Alto Networks and KOI corpus. Use whenever the user requests a guide, steps, walkthrough, "how do I", setup, configuration, integration, deployment, connection, installation, onboarding, migration, enablement, implementation, or validation for Cortex, Strata, Prisma SASE/Access, Identity/Idira, AI security, KOI, EDR, MDM, SSO, APIs, proxies, certificates, endpoints, or third-party systems.
+description: Produce vetted, exact, step-by-step guides using the project's official Palo Alto Networks and KOI corpus. Use whenever the user requests a guide, steps, walkthrough, "how do I", setup, configuration, integration, deployment, connection, installation, onboarding, migration, enablement, implementation, or validation for Cortex, Strata, Prisma SASE/Access, Prisma Cloud, Identity/Idira, AI security, KOI, EDR, MDM, SSO, APIs, proxies, certificates, endpoints, or third-party systems.
 ---
 
 # Palo Alto Integration Guide
@@ -13,11 +13,12 @@ Identify both sides of the integration, product versions, management plane, depl
 
 ## Build the evidence set
 
-1. Run `python scripts/search.py "<both products + integration name>" --mode integration --json`.
-2. Open the primary integration page and every directly relevant page it references for prerequisites, certificates/trust, networking, permissions, deployment, verification, and removal/rollback.
-3. Run focused searches for gaps, such as `<integration> prerequisites`, `<integration> verify`, `<integration> uninstall`, or an exact UI label.
-4. Require at least one primary official procedure. Corroborate prerequisites and compatibility with a second official page when available.
-5. Apply `references/integration-gate.md`. Stop and disclose the gap if a required step is not documented.
+1. Apply the portfolio and management-plane routing rules in `../palo-alto-technical-answer/references/product-routing.md`.
+2. Run `python scripts/search.py "<both products + integration name>" --mode integration --json`.
+3. Open the primary integration page and every directly relevant page it references for prerequisites, certificates/trust, networking, permissions, deployment, verification, and removal/rollback.
+4. Run focused searches for gaps, such as `<integration> prerequisites`, `<integration> verify`, `<integration> uninstall`, or an exact UI label.
+5. Require at least one primary official procedure. Corroborate prerequisites and compatibility with a second official page when available.
+6. Apply `references/integration-gate.md`. Stop and disclose the gap if a required step is not documented.
 
 If no verified primary procedure exists, do not construct a guide from related pages or memory. Say: `I'm sorry, I don't know. I couldn't verify this in the available official documentation.` Name the missing procedure or scope and stop before presenting steps.
 

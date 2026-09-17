@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/monitor-dashboards-and-reports/manage-dashboards-and-reports/import-and-export-dashboards-and-report-templates
-fetched_at: 2026-09-06T09:43:00Z
+fetched_at: 2026-09-16T08:42:50Z
 source: cortex-platform
 ---
 

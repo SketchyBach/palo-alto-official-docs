@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/integration/attribute-reference/attribute-reference-cisco-meraki
-fetched_at: 2026-08-13T16:37:00Z
+fetched_at: 2026-09-15T15:14:39Z
 source: palo-alto-main
 ---
 
 # Cisco Meraki Attribute Reference Clear
 
-Cisco Meraki Attribute Reference 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Cisco Meraki Attribute Reference 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
+ Mon Aug 17 11:22:37 PDT 2026 
 
  Focus 
 
@@ -152,14 +96,6 @@ Cisco Meraki Attribute Reference
 
  Description 
 
- adaptivePolicyGroup 
-
- cisco_meraki.adaptivePolicyGroup 
-
- — 
-
- Adaptive policy group 
-
  ap_mac 
 
  — 
@@ -175,6 +111,14 @@ Cisco Meraki Attribute Reference
  Access Point Name 
 
  Access point name 
+
+ status 
+
+ cisco_meraki.status 
+
+ connection_state 
+
+ Status 
 
  description 
 
@@ -192,6 +136,102 @@ Cisco Meraki Attribute Reference
 
  First seen 
 
+ ip 
+
+ cisco_meraki.ip 
+
+ ipv4_address 
+
+ IP address 
+
+ lastSeen 
+
+ cisco_meraki.lastSeen 
+
+ Last Activity 
+
+ Last seen 
+
+ mac 
+
+ cisco_meraki.mac 
+
+ MAC; id 
+
+ MAC address 
+
+ os 
+
+ cisco_meraki.os 
+
+ raw_os 
+
+ Operating system 
+
+ ssid 
+
+ — 
+
+ SSID 
+
+ SSID 
+
+ switch_mac 
+
+ — 
+
+ Switch MAC 
+
+ Switch MAC address 
+
+ switchport 
+
+ cisco_meraki.switchport 
+
+ Switch Port 
+
+ Switch port 
+
+ switch_name 
+
+ — 
+
+ switch_name 
+
+ Switch name 
+
+ manufacturer 
+
+ cisco_meraki.manufacturer 
+
+ Vendor 
+
+ Manufacturer 
+
+ vlan 
+
+ cisco_meraki.vlan 
+
+ VLAN ID 
+
+ VLAN 
+
+ recentDeviceConnection 
+
+ cisco_meraki.recentDeviceConnection 
+
+ Wired - Wireless 
+
+ Recent device connection 
+
+ adaptivePolicyGroup 
+
+ cisco_meraki.adaptivePolicyGroup 
+
+ — 
+
+ Adaptive policy group 
+
  groupPolicy8021x 
 
  cisco_meraki.groupPolicy8021x 
@@ -207,14 +247,6 @@ Cisco Meraki Attribute Reference
  — 
 
  Record ID 
-
- ip 
-
- cisco_meraki.ip 
-
- ipv4_address 
-
- IP address 
 
  ip6 
 
@@ -240,30 +272,6 @@ Cisco Meraki Attribute Reference
 
  802.11be capability indicator 
 
- lastSeen 
-
- cisco_meraki.lastSeen 
-
- Last Activity 
-
- Last seen 
-
- mac 
-
- cisco_meraki.mac 
-
- MAC; id 
-
- MAC address 
-
- manufacturer 
-
- cisco_meraki.manufacturer 
-
- Vendor 
-
- Manufacturer 
-
  namedVlan 
 
  cisco_meraki.namedVlan 
@@ -280,14 +288,6 @@ Cisco Meraki Attribute Reference
 
  Notes 
 
- os 
-
- cisco_meraki.os 
-
- raw_os 
-
- Operating system 
-
  pskGroup 
 
  cisco_meraki.pskGroup 
@@ -295,14 +295,6 @@ Cisco Meraki Attribute Reference
  — 
 
  PSK group 
-
- recentDeviceConnection 
-
- cisco_meraki.recentDeviceConnection 
-
- Wired - Wireless 
-
- Recent device connection 
 
  recentDeviceMac 
 
@@ -336,46 +328,6 @@ Cisco Meraki Attribute Reference
 
  SM installed 
 
- ssid 
-
- — 
-
- SSID 
-
- SSID 
-
- status 
-
- cisco_meraki.status 
-
- connection_state 
-
- Status 
-
- switch_mac 
-
- — 
-
- Switch MAC 
-
- Switch MAC address 
-
- switch_name 
-
- — 
-
- switch_name 
-
- Switch name 
-
- switchport 
-
- cisco_meraki.switchport 
-
- Switch Port 
-
- Switch port 
-
  usage 
 
  cisco_meraki.usage 
@@ -391,14 +343,6 @@ Cisco Meraki Attribute Reference
  — 
 
  User 
-
- vlan 
-
- cisco_meraki.vlan 
-
- VLAN ID 
-
- VLAN 
 
  wirelessCapabilities 
 
@@ -421,6 +365,70 @@ Cisco Meraki Attribute Reference
  Device Security Common Attribute* 
 
  Description 
+
+ name 
+
+ cisco_meraki.name 
+
+ Hostname 
+
+ Name 
+
+ mac 
+
+ cisco_meraki.mac 
+
+ id; MAC 
+
+ MAC address 
+
+ lanIp 
+
+ cisco_meraki.lanIp 
+
+ ipv4_address 
+
+ LAN IP address 
+
+ firmware 
+
+ cisco_meraki.firmware 
+
+ latest_firmware_version 
+
+ Firmware version 
+
+ model 
+
+ cisco_meraki.model 
+
+ Model 
+
+ Model 
+
+ details.value 
+
+ — 
+
+ OS Version 
+
+ Value 
+
+ serial 
+
+ — 
+
+ Serial Number 
+
+ Serial number 
+
+ productType 
+
+ cisco_meraki.productType 
+
+ Wired - Wireless 
+
+ Product type 
 
  address 
 
@@ -446,30 +454,6 @@ Cisco Meraki Attribute Reference
 
  Details 
 
- details.[1].value 
-
- — 
-
- OS Version 
-
- Details value 
-
- firmware 
-
- cisco_meraki.firmware 
-
- latest_firmware_version 
-
- Firmware version 
-
- lanIp 
-
- cisco_meraki.lanIp 
-
- ipv4_address 
-
- LAN IP address 
-
  lat 
 
  cisco_meraki.lat 
@@ -486,30 +470,6 @@ Cisco Meraki Attribute Reference
 
  Longitude 
 
- mac 
-
- cisco_meraki.mac 
-
- id; MAC 
-
- MAC address 
-
- model 
-
- cisco_meraki.model 
-
- Model 
-
- Model 
-
- name 
-
- cisco_meraki.name 
-
- Hostname 
-
- Name 
-
  networkId 
 
  cisco_meraki.networkId 
@@ -525,22 +485,6 @@ Cisco Meraki Attribute Reference
  — 
 
  Notes 
-
- productType 
-
- cisco_meraki.productType 
-
- Wired - Wireless 
-
- Product type 
-
- serial 
-
- — 
-
- Serial Number 
-
- Serial number 
 
  tags 
 
@@ -572,6 +516,46 @@ Cisco Meraki Attribute Reference
 
  Description 
 
+ name 
+
+ cisco_meraki.name 
+
+ Hostname 
+
+ Name 
+
+ ip 
+
+ cisco_meraki.ip 
+
+ ipv4_address 
+
+ IP address 
+
+ mac 
+
+ cisco_meraki.is_ip_address_static 
+
+ is_ip_address_static; MAC; id 
+
+ Mac 
+
+ mac 
+
+ cisco_meraki.mac 
+
+ is_ip_address_static; MAC; id 
+
+ Mac 
+
+ vlan_id 
+
+ cisco_meraki.vlan_id 
+
+ VLAN ID 
+
+ VLAN ID 
+
  applianceIp 
 
  cisco_meraki.applianceIp 
@@ -596,29 +580,13 @@ Cisco Meraki Attribute Reference
 
  DNS name servers 
 
- ip 
+ network_name 
 
- cisco_meraki.ip 
-
- ipv4_address 
-
- IP address 
-
- mac 
+ cisco_meraki.network_name 
 
  — 
 
- is_ip_address_static; MAC; id 
-
- MAC address 
-
- name 
-
- cisco_meraki.name 
-
- Hostname 
-
- Name 
+ Network name 
 
  networkId 
 
@@ -628,14 +596,6 @@ Cisco Meraki Attribute Reference
 
  Network ID 
 
- network_name 
-
- cisco_meraki.network_name 
-
- — 
-
- Network name 
-
  subnet 
 
  cisco_meraki.subnet 
@@ -643,14 +603,6 @@ Cisco Meraki Attribute Reference
  — 
 
  Subnet 
-
- vlan_id 
-
- cisco_meraki.vlan_id 
-
- VLAN ID 
-
- VLAN ID 
 
  VLAN Subnet Attributes 
 
@@ -666,14 +618,6 @@ Cisco Meraki Attribute Reference
 
  Description 
 
- id 
-
- — 
-
- VLAN ID 
-
- VLAN ID 
-
  name 
 
  — 
@@ -681,14 +625,6 @@ Cisco Meraki Attribute Reference
  Device Name 
 
  VLAN name 
-
- network_name 
-
- — 
-
- Site 
-
- Network name 
 
  subnet 
 
@@ -698,6 +634,22 @@ Cisco Meraki Attribute Reference
 
  Subnet 
 
+ network_name 
+
+ — 
+
+ Site 
+
+ Network name 
+
+ id 
+
+ — 
+
+ VLAN ID 
+
+ VLAN ID 
+
  * Only some attributes map to a Device Security Common Attribute. 
 
  Previous 
@@ -706,54 +658,4 @@ Cisco Meraki Attribute Reference
 
  Next 
 
- Cisco Prime Attribute Reference 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Reference 
-
- Cloud-Delivered Security Services 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Cisco Prime Attribute Reference

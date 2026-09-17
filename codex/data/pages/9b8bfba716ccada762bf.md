@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.11/investigate-and-respond-to-threats/incidents-and-indicators-investigation/investigate-an-incident/create-an-incident-summary-report
-fetched_at: 2026-09-06T10:33:50Z
+fetched_at: 2026-09-16T08:54:45Z
 source: cortex-platform
 ---
 
@@ -109,6 +109,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage indicators 
 
- Last updated 1 hour ago 
+ Last updated 9 days ago 
 
  Was this helpful?

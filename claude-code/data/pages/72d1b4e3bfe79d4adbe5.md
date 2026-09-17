@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-api/asset-compliance/models
-fetched_at: 2026-09-06T10:54:50Z
+fetched_at: 2026-09-16T09:03:38Z
 source: cortex-platform
 ---
 

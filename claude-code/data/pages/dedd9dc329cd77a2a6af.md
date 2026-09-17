@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/resources/videos/create-a-customized-apn-profile
-fetched_at: 2026-08-13T17:32:24Z
+fetched_at: 2026-09-16T07:49:10Z
 source: palo-alto-main
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/cortex-agentix-xql/build-xql-queries/overview-of-the-query-center/query-center-reference-information
-fetched_at: 2026-09-06T09:36:51Z
+fetched_at: 2026-09-16T08:37:13Z
 source: cortex-platform
 ---
 
@@ -153,6 +153,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage scheduled queries 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

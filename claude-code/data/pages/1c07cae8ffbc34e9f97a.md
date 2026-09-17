@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/onboard-cortex-xsoar/engines/remove-an-engine
-fetched_at: 2026-09-06T10:44:36Z
+fetched_at: 2026-09-16T08:56:52Z
 source: cortex-platform
 ---
 
@@ -57,6 +57,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshoot Cortex XSOAR Engines 
 
- Last updated 3 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

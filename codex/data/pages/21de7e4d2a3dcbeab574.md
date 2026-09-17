@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-api/compliance-controls/assessment-results
-fetched_at: 2026-09-06T10:56:04Z
+fetched_at: 2026-09-16T09:04:02Z
 source: cortex-platform
 ---
 
@@ -202,6 +202,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Categories 
 
- Last updated 1 month ago 
+ Last updated 5 days ago 
 
  Was this helpful?

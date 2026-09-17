@@ -1,0 +1,139 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/advanced-threat-prevention/custom-signatures/custom-application-and-threat-signatures/testing-pattern-performance-impact.html
+fetched_at: 2026-09-16T10:52:46Z
+source: palo-alto-main
+---
+
+# Testing Pattern Performance Impact Clear
+
+Updated on 
+
+ Sep 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Advanced Threat Prevention Powered by Precision AI® 
+
+ Testing Pattern Performance Impact 
+
+ Download PDF 
+
+ Advanced Threat Prevention Powered by Precision AI® 
+
+ Testing Pattern Performance Impact 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Advanced Threat Prevention 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Custom Application IDs and Signatures 
+
+ Reference 
+
+ Previous 
+
+ Test a Custom Signature 
+
+ Next 
+
+ Import a Custom Threat Signature from Snort and Suricata Rules 
+
+ Testing Pattern Performance Impact 
+
+ Test the performance impact of your custom signatures. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama or Strata Cloud Manager) 
+
+ NGFW (Managed by Panorama or Strata Cloud Manager) 
+
+ VM-Series 
+
+ CN-Series 
+
+ Advanced Threat Prevention (for enhanced feature
+ support) or Threat Prevention License 
+
+ Firewalls running PAN-OS 10.0 or later have an enhanced
+pattern-matching engine that loosens pattern requirements and offers
+a richer selection of syntax. Used incorrectly, these features can
+have consequences that range from higher latency to dropped packets.
+To help you avoid performance degradation, the firewall enables
+you to check the performance impact of your signatures before you
+commit them. 
+
+ The firewall scores the performance impact of a signature on
+a scale of 0 to 100%. A score of 0% means the signature severely
+affects firewall performance and a score of 100% means it minimally
+affects performance. 
+
+ Use either of the following two commands to check the performance
+impact of a signature: 
+
+ Command Description 
+
+ test custom-signature-type pattern <pattern> 
+
+ Calculates the performance impact of a signature without
+a context and determines whether the pattern is not valid, is valid
+but in only the new engine (lscan), or is valid in both the old
+and new engine (pscan/AHO). 
+
+ Example: 
+
+ admin@VM-FW-75-252> test custom-signature-type pattern aaaa. 
+
+ *The pattern is lscan pattern
+Performance score: 68% 
+
+ test custom-signature-perf context <context>
+pattern <pattern> 
+
+ Calculates the performance impact of a signature with
+a context and displays a warning if the performance score is below
+55%. 
+
+ Example: 
+
+ admin@VM-FW-75-252> test custom-signature-perf context http-rsp-headers pattern aaaa.* 
+
+ Performance score: 42%
+This signature will have performance impact 
+
+ When you test a custom signature without a context, the score
+is a function of the literal parts of the pattern. The literal parts
+are the characters in the string with fixed values, such as “pan” and
+“net” in pan.{4}net . The greater the number
+and length of the literal parts, the higher the score of the pattern. 
+
+ When you test a pattern with a context, the firewall performs
+the above calculation and adjusts it based on the typical length
+and frequency of the context. The firewall then divides the typical context
+length by the shortest literal part of the pattern and multiplies
+the base score of the pattern by this value. Finally, the firewall
+lowers the score if the context appears frequently and raises the
+score if the context appears infrequently. 
+
+ Previous 
+
+ Test a Custom Signature 
+
+ Next 
+
+ Import a Custom Threat Signature from Snort and Suricata Rules

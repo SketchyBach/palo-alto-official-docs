@@ -1,0 +1,160 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/prisma-access-advanced-deployments/service-connection-advanced-deployments/use-traffic-forwarding-rules-with-service-connections/default-routes-with-traffic-steering-and-dedicated-service-connection-example.html
+fetched_at: 2026-09-16T11:36:47Z
+source: palo-alto-main
+---
+
+# Default Routes with Traffic Steering and Dedicated Service
+Connection Example Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Advanced Deployments 
+
+ Prisma Access Service Connection Advanced Deployments 
+
+ Use Traffic Steering to Forward Internet-Bound Traffic to
+Service Connections 
+
+ Default Routes with Traffic Steering and Dedicated Service
+Connection Example 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Default Routes with Traffic Steering and Dedicated Service
+Connection Example 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Default Routes with Traffic Steering Direct to Internet Example 
+
+ Next 
+
+ Prisma Access Traffic Steering Rule Guidelines 
+
+ Default Routes with Traffic Steering and Dedicated Service
+Connection Example 
+
+ Use traffic steering with default routes and a dedicated
+service connection. 
+
+ Where Can I Use
+This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama) 
+
+ Prisma Access license 
+
+ In this example, in addition to the previous configuration, you
+have a third-party internet security service, and you want to send
+traffic from box.com to be processed by the security service before
+egressing to the internet. You do not want to send any other internet-bound
+traffic to the security service; for this reason, you create a dedicated
+service connection for the box.com traffic. After your configuration
+is complete, Prisma Access sends *.box.com destination traffic to
+the stack. 
+
+ To enable this deployment, you perform the following actions
+in the Traffic Steering tab: 
+
+ Create a Target Service Connection group that assigns
+one or more service connections to the target and select Dedicated
+for Traffic Steering Only , which makes the target service
+connection or connections dedicated. 
+
+ If you create a
+target with more than one service connection, Prisma Access chooses
+the best service connection to forward the internet-bound traffic. 
+
+ Create a traffic steering rule that forwards traffic to the
+URL. The following screenshot shows the traffic destination being
+assigned a custom URL category that contains the URL *.box.com. 
+
+ Create an Action in the traffic steering
+rule of Forward to the target and specify
+the target group name you created ( dedicated in
+this case). 
+
+ Previous 
+
+ Default Routes with Traffic Steering Direct to Internet Example 
+
+ Next 
+
+ Prisma Access Traffic Steering Rule Guidelines

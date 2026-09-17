@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/storage/appsec-gcp-84
-fetched_at: 2026-09-06T11:14:19Z
+fetched_at: 2026-09-16T09:10:38Z
 source: cortex-platform
 ---
 

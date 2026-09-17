@@ -1,52 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/identity
-fetched_at: 2026-08-12T14:03:45Z
+fetched_at: 2026-09-16T07:55:11Z
 source: idira-and-identity
 ---
 
 # Identity Clear
 
-Identity 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Identity Docs 
-
- Activation & Onboarding 
-
- Cloud Identity Engine 
-
- Help 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Aug 05 08:15:30 PDT 2026 
+ Aug 5, 2026 
 
  Focus 
 
@@ -79,107 +41,3 @@ Identity
  Read Now 
 
  Translated Documents
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Panorama 
-
- Service Provider 
-
- VM-Series 
-
- Plugins 
-
- SASE 
-
- Prisma Access 
-
- Prisma SASE Multitenant Platform 
-
- Prisma Access Monitoring & Visibility 
-
- Endpoints 
-
- GlobalProtect 
-
- Remote Browser Isolation 
-
- Prisma Access Agent 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Resources 
-
- All Products A - Z 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- Network Security Platform 
-
- Security Policy 
-
- Decryption 
-
- Device-ID 
-
- IPSec VPN 
-
- Quality of Service 
-
- Quantum Security 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.

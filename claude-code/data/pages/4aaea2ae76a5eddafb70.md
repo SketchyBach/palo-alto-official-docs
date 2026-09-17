@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cortex-cloud-identity-security/unified-human-identities
-fetched_at: 2026-09-06T09:35:15Z
+fetched_at: 2026-09-16T08:36:40Z
 source: cortex-platform
 ---
 
@@ -113,6 +113,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Achieve the principle of least privilege access 
 
- Last updated 12 days ago 
+ Last updated 22 days ago 
 
  Was this helpful?

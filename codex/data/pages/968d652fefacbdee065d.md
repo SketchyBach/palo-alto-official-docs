@@ -1,0 +1,192 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-browser/administration/roaming-profiles-setup
+fetched_at: 2026-09-16T08:21:41Z
+source: palo-alto-main
+---
+
+# Roaming Profiles: Ensuring a Consistent Browser Experience Clear
+
+Updated on 
+
+ Thu Sep 10 09:47:19 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Browser 
+
+ Roaming Profiles: Ensuring a Consistent Browser Experience 
+
+ Download PDF 
+
+ Prisma Browser 
+
+ Roaming Profiles: Ensuring a Consistent Browser Experience 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Browser Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Deployment 
+
+ Administration 
+
+ Integrations 
+
+ User Guide 
+
+ Previous 
+
+ Analyse Account Usage 
+
+ Next 
+
+ Explore Prisma Browser Events 
+
+ Roaming Profiles: Ensuring a Consistent Browser Experience 
+
+ Set up roaming profiles 
+
+ Roaming profiles are a fundamental Windows feature that delivers a consistent
+ and personalized computing environment, allowing a user's browser data to follow them
+ across various domain-joined computers. This mechanism is network-centric, providing
+ data persistence without needing cloud synchronization or active internet access, which
+ is especially beneficial in high-security or air-gapped corporate and educational
+ settings.Profile Components 
+
+ A roaming profile synchronizes essential user-specific browser data, ensuring
+ continuity regardless of the physical machine used: 
+
+ Bookmarks and Favorites: Web links and folder structures are
+ preserved. 
+
+ Browser Settings: Custom configurations, including the default
+ homepage, display options, and security settings, remain consistent. 
+
+ Saved Passwords: Encrypted login credentials are securely
+ synchronized for easy access. 
+
+ Extensions: Installed browser add-ons are maintained to ensure
+ customized functionality. 
+
+ History: Core browsing history is typically included, though
+ caching may be managed separately for optimal performance. 
+
+ The Local Network Synchronization Mechanism 
+
+ The process by which a roaming profile enables user mobility relies on
+ local network server interaction: 
+
+ Login: Upon signing into any Windows domain machine, the
+ system identifies the user's roaming profile path on the central network
+ server. 
+
+ Download: The complete copy of the user's profile data is
+ transferred from the server to the local computer's hard drive. 
+
+ Usage: The user works with and modifies this local copy of
+ the data. 
+
+ Logoff: When the session ends, the operating system copies
+ all changes (e.g., new bookmarks, setting modifications) back to the central
+ network server, ensuring the profile is up-to-date for the next login. 
+
+ Prisma Browser Implementation 
+
+ Enable Roaming Profiles: 
+
+ Set the following registry key on each machine: 
+
+ Registry Path Registry Value Value 
+
+ Software\Policies\Palo Alto
+ Networks\PrismaAccessBrowser RoamingProfileSupportEnabled 1 (DWORD) 
+
+ The Profile Sync control only governs
+ cloud synchronization and has no impact on this policy. 
+
+ Change roaming profile Location (Optional) 
+
+ Each user’s roaming profile is kept in a file named profile.pb. By default,
+ this file is located in %APPDATA%\Palo Alto
+ Networks\PrismaAccessBrowser\User Data\Default\profile.pb , under the
+ Windows Roaming Profile directory. 
+
+ To configure a different location for profile.pb, set the
+ RoamingProfileLocation registry key. You can use any of the supported path variables . 
+
+ If setting the RoamingProfileLocation policy, do not set
+ either the UserDataDir or the DiskCacheDir policy to the same directory. Doing so
+ may cause the local profiles to interfere with roaming profiles and voids the
+ benefits of the feature. 
+
+ You can point RoamingProfileLocation directly to a network
+ share (e.g., \\Server\Profiles\${user_name} ). In this case, Prisma
+ Browser reads/writes profile.pb directly to the network. Windows
+ Roaming User Profiles is not required . 
+
+ To customize the location, set: 
+
+ Registry Path Registry Value 
+
+ Software\Policies\Palo Alto
+ Networks\PrismaAccessBrowser RoamingProfileLocation {roaming_app_data}\PrismaBrowser 
+
+ If you disable the RoamingProfileSupportEnabled policy or don't configure it, this
+ value stored in this policy isn't used. 
+
+ Example Setup 
+
+ What Syncs 
+
+ Syncs Does Not Sync 
+
+ Bookmarks Cookies 
+
+ Saved Passwords Active Sessions 
+
+ Autofill Data Cached Files 
+
+ Browser Settings Downloads 
+
+ Extensions Temporary Data 
+
+ Browsing History 
+
+ Important Limitations 
+
+ Limitation Details 
+
+ No simultaneous sessions Users cannot run Prisma Browser on two machines at the same
+ time. The profile file is locked during use. 
+
+ Mutually exclusive with cloud sync Roaming Profiles and Browser Cloud Sync cannot be used
+ together. You need to choose one. 
+
+ Single profile recommended Multiple browser profiles may not map correctly across the
+ machines. 
+
+ Large profiles slow login Thousands of bookmarks / extensions increase Windows login
+ time 
+
+ Your users cannot run Prisma Browser on two machines at
+ the same time. The profile is locked during use. 
+
+ Previous 
+
+ Analyse Account Usage 
+
+ Next 
+
+ Explore Prisma Browser Events

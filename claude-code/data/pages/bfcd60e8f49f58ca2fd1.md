@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/saas-security/data-security/add-cloud-apps-to-saas-security-api/begin-scanning-a-cisco-webex-teams-app
-fetched_at: 2026-08-13T17:32:51Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:49:19Z
+source: strata-and-sase
 ---
 
 # Begin Scanning a Cisco Webex Teams App Clear
 
-Begin Scanning a Cisco Webex Teams App 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Begin Scanning a Cisco Webex Teams App 
-
- Updated on 
-
- Mon Jul 06 09:36:54 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- SaaS Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Data Security 
-
- SaaS Security Inline 
-
- SSPM 
-
- Behavior Threats 
-
- New Features 
-
- Updated on 
-
- Mon Jul 06 09:36:54 PDT 2026 
+ Tue Aug 11 09:08:46 PDT 2026 
 
  Focus 
 
@@ -353,74 +299,4 @@ to Data Security .
 
  Next 
 
- Begin Scanning a Confluence App 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Firewalls 
-
- PAN-OS 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Prisma Access Monitoring and Visibility 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- SaaS Security 
-
- Cloud-Delivered Security Services 
-
- Data Security 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Begin Scanning a Confluence App

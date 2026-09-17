@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security/onboard-data-sources/ingest-third-party-data-sources/generic-3rd-party-appsec-collector/references/technical-requirements-and-sarif-specifications
-fetched_at: 2026-09-06T10:11:35Z
+fetched_at: 2026-09-16T08:49:04Z
 source: cortex-platform
 ---
 

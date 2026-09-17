@@ -1,0 +1,253 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/9-1/pan-os-cli-quick-start/get-started-with-the-cli/get-help-on-command-syntax/interpret-the-command-help.html
+fetched_at: 2026-09-16T10:21:08Z
+source: palo-alto-main
+---
+
+# Interpret the Command Help Clear
+
+Updated on 
+
+ Wed Aug 21 13:50:29 PDT 2024 
+
+ Focus 
+
+ Home 
+
+ PAN-OS 
+
+ PAN-OS CLI Quick Start 
+
+ Get Started with the CLI 
+
+ Get
+Help on Command Syntax 
+
+ Interpret the Command Help 
+
+ Download PDF 
+
+ PAN-OS CLI Quick Start 
+
+ Interpret the Command Help 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ 9.1 (EoL) 
+
+ 11.1 & Later 
+
+ 10.2 
+
+ 10.1 
+
+ 10.0 (EoL) 
+
+ 9.1 (EoL) 
+
+ Expand all | Collapse all 
+
+ Get Started with the CLI 
+
+ Access the CLI 
+
+ Verify SSH Connection to Firewall 
+
+ Refresh SSH Keys and Configure Key Options for Management Interface Connection 
+
+ Give Administrators Access to the CLI 
+
+ Administrative Privileges 
+
+ Set Up a Firewall Administrative Account and Assign CLI Privileges 
+
+ Set Up a Panorama Administrative Account and Assign CLI Privileges 
+
+ Change CLI Modes 
+
+ Navigate the CLI 
+
+ Find a Command 
+
+ View the Entire Command Hierarchy 
+
+ Find a Specific Command Using a Keyword Search 
+
+ Get Help on Command Syntax 
+
+ Get Help on a Command 
+
+ Interpret the Command Help 
+
+ Customize the CLI 
+
+ Use the CLI 
+
+ View Settings and Statistics 
+
+ Modify the Configuration 
+
+ Commit Configuration Changes 
+
+ Test the Configuration 
+
+ Test the Authentication Configuration 
+
+ Test Policy Matches 
+
+ Load Configurations 
+
+ Load Configuration Settings from a Text File 
+
+ Load a Partial Configuration 
+
+ Xpath Location Formats Determined by Device Configuration 
+
+ Load a Partial Configuration into Another Configuration Using Xpath Values 
+
+ Use Secure Copy to Import and Export Files 
+
+ Export a Saved Configuration from One Firewall and Import it into Another 
+
+ Export and Import a Complete Log Database (logdb) 
+
+ CLI Jump Start 
+
+ CLI Cheat Sheets 
+
+ CLI Cheat Sheet: Device Management 
+
+ CLI Cheat Sheet: User-ID 
+
+ CLI Cheat Sheet: Networking 
+
+ CLI Cheat Sheet: VSYS 
+
+ CLI Cheat Sheet: Panorama 
+
+ CLI Changes in PAN-OS 9.1 
+
+ Set Commands Introduced in PAN-OS 9.1 
+
+ Set Commands Changed in PAN-OS 9.1 
+
+ Set Commands Removed in PAN-OS 9.1 
+
+ Show Commands Introduced in PAN-OS 9.1 
+
+ Show Commands Removed in PAN-OS 9.1 
+
+ End-of-Life (EoL)
+
+ Interpret the Command Help 
+
+ Use the following table to help interpret the command
+options you see when you use the ? to get
+help. 
+
+ Symbol 
+
+ Description 
+
+ * 
+
+ Indicates that the option is required. 
+
+ For
+example, when importing a configuration over secure copy (SCP),
+specifying the from parameter is required,
+as indicated by the * from notation. 
+
+ username@hostname#> scp import configuration ? 
++ remote-port   SSH port number on remote host 
++ source-ip     Set source address to specified interface address 
+* from          Source (username@host:path) 
+
+ > 
+
+ Indicates that there are additional nested
+commands. 
+
+ For example, when configuring DNS settings, there
+are additional nested commands for configuring a DNS proxy object
+and for specifying primary and secondary DNS servers: 
+
+ username@hostname# set deviceconfig system dns-setting ? 
+> dns-proxy-object   Dns proxy object to use for resolving fqdns 
+> servers            Primary and secondary dns servers 
+  <Enter>            Finish input 
+
+ + 
+
+ Indicates that the option has an associated
+value that you must enter. 
+
+ For example, when setting up a
+high availability configuration, notice that the + enabled notation indicates
+that you must supply a value for this option: 
+
+ username@hostname# set deviceconfig high-availability ? 
++ enabled enabled 
+> group HA group configuration 
+> interface HA interface configuration 
+ <Enter> Finish input 
+Getting help for the enabled option shows that you must enter a value of yes or no: 
+admin@PA-3060# set deviceconfig high-availability enabled ? 
+  no    no 
+  yes   yes 
+
+ | 
+
+ Allows you to filter command output. You
+can either specify a match value, which will
+only show command output that matches the value you specify, or
+you can specify an except value, which will
+only show command output except for the value you specify. 
+
+ For
+example, use the | match option to display
+only the app-version in the output of the show system info command: 
+
+ username@hostname> show system info | match app-version 
+app-version: 8087-5126 
+
+ Similarly, to show all users
+in your group lists who are not part of your organization, you should
+show the user group list, but exclude the organizational unit (ou)
+for your organization. Notice that, although there are a total of
+4555 user-to-group mappings, with the | except filter
+you can easily see the small list of users who are part of external
+groups: 
+
+ username@hostname> show user group list | except ou=acme 
+
+cn=sap_globaladmin,cn=users,dc=acme,dc=local 
+cn=dnsupdateproxy,ou=admin groups,ou=administrator accounts,dc=acme,dc=local 
+cn=dhcp administrators,ou=admin groups,ou=administrator accounts,dc=acme,dc=local 
+cn=helpservicesgroup,cn=users,dc=acme,dc=local 
+cn=exchange domain servers,cn=users,dc=acme,dc=local 
+cn=network configuration operators,cn=builtin,dc=acme,dc=local 
+cn=dhcp users,ou=admin groups,ou=administrator accounts,dc=acme,dc=local 
+cn=exchange windows permissions,ou=microsoft exchange security groups,dc=acme,dc=local 
+cn=wins users,cn=users,dc=acme,dc=local 
+cn=enterprise read-only domain controllers,cn=users,dc=acme,dc=local 
+cn=print-server-admins,ou=admin groups,ou=administrator accounts,dc=acme,dc=local 
+cn=telnetclients,cn=users,dc=acme,dc=local 
+cn=servicenowpasswordreset,ou=admin groups,ou=administrator accounts,dc=acme,dc=local 
+cn=delegated setup,ou=microsoft exchange security groups,dc=acme,dc=local 
+Total: 4555 
+* : Custom Group 
+</result></response> 
+username@hostname> 
+
+ Previous 
+
+ Get Help on a Command 
+
+ Next 
+
+ Customize the CLI

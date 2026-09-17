@@ -17,6 +17,9 @@ COMMANDS = {
     "import-koi-browser": "import_koi_browser.py",
     "recover-koi": "import_koi_recovery.py",
     "refresh-official": "refresh_official.py",
+    "coverage": "coverage.py",
+    "smoke-test": "smoke_tests.py",
+    "completeness": "audit_refresh_completeness.py",
 }
 
 VERIFY_SCRIPTS = ("rebuild_index.py", "audit.py", "status.py", "freshness.py")

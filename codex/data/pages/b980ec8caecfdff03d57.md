@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/users-and-roles-management/roles-management/role-permissions-by-component/configuration-permissions/fields-and-types-permissions
-fetched_at: 2026-09-06T10:17:37Z
+fetched_at: 2026-09-16T08:50:49Z
 source: cortex-platform
 ---
 
@@ -115,6 +115,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Layout permissions 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

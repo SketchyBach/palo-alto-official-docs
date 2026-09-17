@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/cortex-agentix-data-sources-and-connectors/administration-and-troubleshooting/overview-of-data-ingestion-metrics/creating-correlation-rules-to-monitor-data-ingestion-health
-fetched_at: 2026-09-06T10:17:14Z
+fetched_at: 2026-09-16T08:50:42Z
 source: cortex-platform
 ---
 
@@ -151,6 +151,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Measuring data freshness 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

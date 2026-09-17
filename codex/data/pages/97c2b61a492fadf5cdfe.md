@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/onboard-cortex-xsoar/elasticsearch/archive-data-with-elasticsearch
-fetched_at: 2026-09-06T10:39:50Z
+fetched_at: 2026-09-16T08:56:00Z
 source: cortex-platform
 ---
 
@@ -106,6 +106,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshoot Elasticsearch 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

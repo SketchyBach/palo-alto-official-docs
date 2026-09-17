@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/monitor-dashboards-and-reports/dashboard-reference/system-dashboards/data-ingestion
-fetched_at: 2026-09-06T09:43:10Z
+fetched_at: 2026-09-16T08:42:50Z
 source: cortex-platform
 ---
 
@@ -130,6 +130,6 @@ Endpoint data collected by the Cortex XDR agent is excluded from the Data Ingest
 
  Next Asset management 
 
- Last updated 6 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/asset-management/asset-classes/application-assets
-fetched_at: 2026-09-06T09:33:22Z
+fetched_at: 2026-09-16T08:36:41Z
 source: cortex-platform
 ---
 
@@ -369,6 +369,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Code and Supply Chain Security assets 
 
- Last updated 6 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

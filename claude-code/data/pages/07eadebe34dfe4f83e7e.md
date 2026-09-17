@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/massive-files-deletion-in-microsoft-sharepoint-or-onedrive
-fetched_at: 2026-09-06T11:05:05Z
+fetched_at: 2026-09-16T09:07:27Z
 source: cortex-platform
 ---
 

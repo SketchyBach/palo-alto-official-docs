@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/onboard-and-configure-cortex-xdr/post-deployment-steps/set-up-your-environment/configure-security-settings
-fetched_at: 2026-09-06T09:47:50Z
+fetched_at: 2026-09-16T08:43:52Z
 source: cortex-platform
 ---
 
@@ -94,6 +94,6 @@ Lax
 
  Next Log forwarding 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

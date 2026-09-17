@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/vendor-specific-data-sources-and-connectors/cisco/cisco-security
-fetched_at: 2026-09-06T09:23:14Z
+fetched_at: 2026-09-16T07:57:25Z
 source: cortex-platform
 ---
 
@@ -81,6 +81,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cisco Umbrella 
 
- Last updated 26 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

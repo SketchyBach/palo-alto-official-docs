@@ -1,82 +1,32 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/administration/troubleshoot-prisma-access-agents/download-host-information-profile-reports-for-the-agent/what-hip-data-is-collected-by-the-agent
-fetched_at: 2026-08-13T17:22:26Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:23Z
+source: strata-and-sase
 ---
 
-# What HIP Data is Collected by the Prisma Access Agent Clear
+# What HIP Data is Collected by the Prisma Agent Clear
 
-What HIP Data is Collected by the Prisma Access Agent 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- What HIP Data is Collected by the Prisma Access Agent 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
+ Aug 27, 2026 
 
  Focus 
 
  Home 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent Administration 
+ Troubleshoot Prisma Agents 
 
- Troubleshoot Prisma Access Agents 
+ Download Host Information Profile Reports for Prisma Agents 
 
- Download Host Information Profile Reports for Prisma Access Agents 
-
- What HIP Data is Collected by the Prisma Access Agent 
+ What HIP Data is Collected by the Prisma Agent 
 
  Download PDF 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- What HIP Data is Collected by the Prisma Access Agent 
+ What HIP Data is Collected by the Prisma Agent 
 
  Table of Contents 
 
@@ -86,7 +36,7 @@ What HIP Data is Collected by the Prisma Access Agent
  | 
  Collapse All 
 
- Prisma Access Agent Docs 
+ Prisma Agent Docs 
 
  Administration 
 
@@ -98,15 +48,15 @@ What HIP Data is Collected by the Prisma Access Agent
 
  Previous 
 
- Download Host Information Profile Reports for Prisma Access Agents 
+ Download Host Information Profile Reports for Prisma Agents 
 
  Next 
 
- Download Prisma Access Agent Logs 
+ Download Prisma Agent Logs 
 
- What HIP Data is Collected by the Prisma Access Agent 
+ What HIP Data is Collected by the Prisma Agent 
 
- Review the types of Host Information Profile data that is collected by the Prisma Access Agent . 
+ Review the types of Host Information Profile data that is collected by the Prisma Agent . 
 
  Where Can I Use This? What Do I Need? 
 
@@ -119,8 +69,7 @@ What HIP Data is Collected by the Prisma Access Agent
  Check the prerequisites for the deployment you're
  using 
 
- Contact your Palo Alto Networks account representative to
- activate the Prisma Access Agent feature 
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
 
  The Host Information Profile (HIP) feature enables you to collect information about the
  security status of your endpoints—such as whether they have the latest security patches
@@ -129,22 +78,22 @@ What HIP Data is Collected by the Prisma Access Agent
  require within your organization—and base the decision as to whether to allow or deny
  access to a specific host based on adherence to the host policies you define. 
 
- The Prisma Access Agent collects information about the host that the agent runs on
+ The Prisma Agent collects information about the host that the agent runs on
  and submits the host information to the gateway upon successful connection. The gateway
  checks the raw host information against any HIP objects and HIP profiles that have been
  defined. If it finds a violation, the corresponding security policy is enforced. For
  example, you can configure endpoints to have a minimum version of anti-malware software
  installed before they are allowed access to corporate resources and applications. 
 
- By default, the Prisma Access Agent collects vendor-specific data about the end
+ By default, the Prisma Agent collects vendor-specific data about the end
  user security packages that are running on the endpoint and reports this data to the
  gateway for policy enforcement. The agent uses OPSWAT technology to assess the security
- posture of endpoints connecting to the network. You can configure HIP data collection settings in the Prisma Access Agent
+ posture of endpoints connecting to the network. You can configure HIP data collection settings in the Prisma Agent
  Settings . 
 
  HIP Retry 
 
- ( Prisma Access Agent 25.7 ) Prisma Access Agent automatically attempts to
+ ( Prisma Agent 25.7 ) Prisma Agent automatically attempts to
  resubmit HIP reports when initial transmission to the gateway fails due to network
  timeouts or connectivity issues. The agent performs up to three retry attempts using
  non-configurable timeout values for HIP check and HIP send requests to the gateway
@@ -152,9 +101,9 @@ What HIP Data is Collected by the Prisma Access Agent
  monitor retry status through the pacli hip status command,
  which provides visibility into retry attempts and their outcomes. 
 
- What Data Does Prisma Access Agent Collect on Desktop Devices? 
+ What Data Does Prisma Agent Collect on Desktop Devices? 
 
- Prisma Access Agent collects the following types of data for desktop devices
+ Prisma Agent collects the following types of data for desktop devices
  (macOS, Windows, and Linux): 
 
  HIP Data Category Description 
@@ -218,10 +167,10 @@ What HIP Data is Collected by the Prisma Access Agent
  only), or operating system processes and user-space application
  processes are present. 
 
- What Data Does Prisma Access Agent Collect on iOS? 
+ What Data Does Prisma Agent Collect on iOS? 
 
- ( Prisma Access Agent 
- 25.7 ) The following table describes the data collected by the Prisma Access Agent app on iOS devices: 
+ ( Prisma Agent 
+ 25.7 ) The following table describes the data collected by the Prisma Agent app on iOS devices: 
 
  HIP Report Attribute Description 
 
@@ -267,12 +216,12 @@ What HIP Data is Collected by the Prisma Access Agent
 
  Host ID 
 
- Unique ID that is assigned by Prisma Access Agent to identify the
+ Unique ID that is assigned by Prisma Agent to identify the
  host. The host ID value is UDID on iOS devices. 
 
  Client Version 
 
- Version number of the currently installed Prisma Access Agent 
+ Version number of the currently installed Prisma Agent 
  app. 
 
  WiFi SSID 
@@ -322,8 +271,8 @@ What HIP Data is Collected by the Prisma Access Agent
 
  MDM Attributes 
 
- When you integrate your Prisma Access Agent deployment with an
- MDM vendor, the Prisma Access Agent app for iOS devices can
+ When you integrate your Prisma Agent deployment with an
+ MDM vendor, the Prisma Agent app for iOS devices can
  obtain the following data attributes and tags from the MDM
  system: 
 
@@ -350,12 +299,12 @@ What HIP Data is Collected by the Prisma Access Agent
  Tag attribute in the HIP
  report. 
 
- What Data Does Prisma Access Agent Collect on Android? 
+ What Data Does Prisma Agent Collect on Android? 
 
- ( Prisma Access Agent 
- 25.7 ) The following table describes the data collected by the Prisma Access Agent app on Android devices: 
+ ( Prisma Agent 
+ 25.7 ) The following table describes the data collected by the Prisma Agent app on Android devices: 
 
- The Prisma Access Agent app for Android on a Chromebook uses the same HIP
+ The Prisma Agent app for Android on a Chromebook uses the same HIP
  report attributes. 
 
  HIP Report Attribute Description 
@@ -393,13 +342,13 @@ What HIP Data is Collected by the Prisma Access Agent
 
  Host ID 
 
- Prisma Access Agent assigned unique alphanumeric string with
+ Prisma Agent assigned unique alphanumeric string with
  length of 16 characters to identify the host. The host ID value
  is Android ID on Android devices. 
 
  Client Version 
 
- Version number of the currently installed Prisma Access Agent 
+ Version number of the currently installed Prisma Agent 
  app. 
 
  WiFi SSID 
@@ -445,8 +394,8 @@ What HIP Data is Collected by the Prisma Access Agent
 
  MDM Attributes 
 
- When you integrate your Prisma Access Agent deployment with an
- MDM vendor, the Prisma Access Agent app for Android devices can
+ When you integrate your Prisma Agent deployment with an
+ MDM vendor, the Prisma Agent app for Android devices can
  obtain the following data attributes and tags from the MDM
  system: 
 
@@ -475,94 +424,8 @@ What HIP Data is Collected by the Prisma Access Agent
 
  Previous 
 
- Download Host Information Profile Reports for Prisma Access Agents 
+ Download Host Information Profile Reports for Prisma Agents 
 
  Next 
 
- Download Prisma Access Agent Logs 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Administration 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Download Prisma Agent Logs

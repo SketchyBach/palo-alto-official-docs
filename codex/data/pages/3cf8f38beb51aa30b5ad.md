@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xdr-5-api/broker-vm-tenant-side/broker-papi-tables
-fetched_at: 2026-09-06T10:55:16Z
+fetched_at: 2026-09-16T09:03:53Z
 source: cortex-platform
 ---
 
@@ -173,6 +173,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cases APIs overview 
 
- Last updated 21 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/an-aws-efs-file-share-was-deleted
-fetched_at: 2026-09-06T10:59:58Z
+fetched_at: 2026-09-16T09:06:09Z
 source: cortex-platform
 ---
 

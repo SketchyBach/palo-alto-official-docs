@@ -1,0 +1,162 @@
+---
+url: https://docs.paloaltonetworks.com/panorama/11-1/panorama-admin/set-up-panorama/set-up-administrative-access-to-panorama/configure-administrative-accounts-and-authentication/configure-a-panorama-administrator-account
+fetched_at: 2026-09-16T09:59:20Z
+source: palo-alto-main
+---
+
+# Configure a Panorama Administrator Account Clear
+
+Updated on 
+
+ Aug 7, 2026 
+
+ Focus 
+
+ Home 
+
+ Panorama 
+
+ Configure Administrative Access to Panorama 
+
+ Configure
+Administrative Accounts and Authentication 
+
+ Configure a Panorama Administrator Account 
+
+ Download PDF 
+
+ Panorama 
+
+ Configure a Panorama Administrator Account 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Panorama Docs 
+
+ Getting Started 
+
+ Administration 
+
+ New Features 
+
+ Previous 
+
+ Configure Administrative Accounts and Authentication 
+
+ Next 
+
+ Configure Local or External Authentication for Panorama Administrators 
+
+ Configure a Panorama Administrator Account 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Panorama) 
+
+ Panorama superuser role 
+
+ Administrative accounts specify Administrative Roles and authentication
+ for Panorama administrators. The service that you use to assign roles and perform
+ authentication determines whether you add the accounts on Panorama, on an external
+ server, or both (see Administrative Authentication ). For an
+ external authentication service, you must configure an authentication profile before
+ adding an administrative account (see Configure
+ Administrative Accounts and Authentication ). If you already configured
+ the authentication profile or you will use the authentication mechanism that is
+ local to Panorama, perform the following steps to add an administrative account on
+ Panorama. 
+
+ Modify the number of supported administrator accounts. 
+
+ Configure the total number of supported concurrent administrative
+accounts sessions for Panorama in the normal operational mode or
+in FIPS-CC mode . You can
+allow up to four concurrent administrative account sessions or configure
+Panorama to support an unlimited number of concurrent administrative
+account sessions. 
+
+ Select Panorama Setup Management and
+edit the Authentication Settings. 
+
+ Edit the Max Session Count to
+specify the number of supported concurrent sessions (range is 0 to 4 )
+allowed for all administrator and user accounts. 
+
+ Enter 0 to configure Panorama to
+support an unlimited number of administrative accounts. 
+
+ Edit the Max Session Time in
+minutes for an administrative account. Default is 720 minutes. 
+
+ Click OK . 
+
+ Commit and Commit
+to Panorama . 
+
+ You can also configure the total number of supported concurrent
+ sessions by logging in to the Panorama CLI. 
+
+ admin> configure 
+
+ admin# set deviceconfig setting management admin-session max-session-count <0-4> 
+
+ admin# set deviceconfig setting management admin-session max-session-time <0, 60-1499> 
+
+ admin# commit 
+
+ Select Panorama Administrators and Add an
+account. 
+
+ Enter a user Name for the administrator. 
+
+ Select an Authentication Profile or sequence if you
+ configured either for the
+ administrator. 
+
+ This is required if Panorama will use Kerberos SSO or an external service for
+ authentication. 
+
+ If Panorama will use local authentication, set the Authentication
+ Profile to None and enter a
+ Password and then Confirm
+ Password . 
+
+ Select the Administrator Type : 
+
+ Dynamic —Select a predefined
+administrator role. 
+
+ Custom Panorama Admin —Select the Admin
+Role Profile you created for this administrator
+(see Configure
+an Admin Role Profile ). 
+
+ Device Group and Template Admin —Map
+access domains to administrative roles as described in the next
+step. 
+
+ ( Device Group and Template Admin only ) In the
+Access Domain to Administrator Role section, click Add ,
+select an Access Domain from the drop-down (see Configure
+an Access Domain ), click the adjacent Admin Role cell, and
+select an Admin Role profile. 
+
+ Click OK to save your changes. 
+
+ Select Commit Commit
+to Panorama and Commit your
+changes. 
+
+ Previous 
+
+ Configure Administrative Accounts and Authentication 
+
+ Next 
+
+ Configure Local or External Authentication for Panorama Administrators

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/onboard-cortex-xsoar/deployment-checklist-best-practices
-fetched_at: 2026-09-06T10:39:32Z
+fetched_at: 2026-09-16T08:55:57Z
 source: cortex-platform
 ---
 
@@ -581,6 +581,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Single Server Deployment 
 
- Last updated 11 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

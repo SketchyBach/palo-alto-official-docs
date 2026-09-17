@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/vendor-specific-data-sources/kubernetes/supported-kubernetes-distributions
-fetched_at: 2026-09-06T09:40:21Z
+fetched_at: 2026-09-16T08:41:33Z
 source: cortex-platform
 ---
 
@@ -27,56 +27,76 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Supported Kubernetes distributions 
 
- Review Kubernetes distributions supported by the Cortex XDR connector. 
+ The following are the Kubernetes platforms that are supported with Cortex XDR agents (Real-time protection). 
 
- The following are the supported Kubernetes platform versions for the Kubernetes connector (Posture Management). The table shows the latest version that is supported. We support n-3 versions of each supported Kubernetes environment. 
+ This table shows the Kubernetes platform versions that have been compatibility tested. The table shows the latest version that has been tested. All versions that are not EOL, up to the latest version, are supported. 
 
- Kubernetes environment 
+ Linux Kubernetes Platform 
 
- Notes 
+ Version 
 
- Managed clusters 
+ Unmanaged Kubernetes (k8s) 
+
+ 1.30 
 
  Amazon Elastic Kubernetes Service (EKS) 
 
- Note 
+ 1.33 
 
- Does not include EKS AutoMode. 
+ BottleRocket OS x86_64 
+
+ User mode agent only 
+
+ BottleRocket OS aarch64 
+
+ User mode agent only 
 
  Microsoft Azure Kubernetes Service (AKS) 
 
+ 1.33 
+
+ CBL-mariner 2 x86_64 
+
  Google Kubernetes Engine (GKE) 
+
+ 1.33 
+
+ Google Container-Optimized OS (COS)^(*) x86_64 
+
+ User mode agent only 
+
+ Google Kubernetes Engine (GKE) Autopilot 
+
+ Oracle Kubernetes Engine (OKE) 
+
+ 1.33 
+
+ Red Hat Openshift Container Platform (OCP) 
+
+ 4.16 
+
+ RHCOS^(*) x86_64 
+
+ User mode agent only 
+
+ SUSE Rancher Kubernetes Engine 2 (RKE2) 
+
+ 1.28 
+
+ Talos 
+
+ 1.8.3 
 
  Note 
 
- Does not include Autopilot. 
+ In Google Container-Optimized OS release 100 and earlier, where the FANOTIFY EXEC flag is not supported, the Kernel configuration may be partial for the user mode agent to properly function. In such cases, the agent will fallback to asynchronous mode. 
 
- Managed OpenShift 
+ In RHCOS version 4.12 and earlier, the Kernel configuration may be partial for the user mode agent to properly function. In such cases, the agent will fallback to asynchronous mode. 
 
- Managed OpenShift clusters are supported: 
-
- Red Hat OpenShift Container Platform (OCP)- Self-hosted: 4.21.8 (Kubernetes 1.34.5) 
-
- Red Hat OpenShift Container Platform (OCP)- ROSA (AWS): 4.20.15 (Kubernetes 1.33.5) 
-
- Red Hat OpenShift Container Platform (OCP)- ARO (Azure): 4.20.15 (Kubernetes 1.33.6) 
-
- Self-Managed 
-
- We support every CNCF-certified Kubernetes solution. We've tested our solution on: 
-
- Self-managed vanilla/on-premise Kubernetes clusters. 
-
- Self-managed OpenShift Kubernetes clusters. 
-
- Rancher Distributions (RKE and RKE2). 
-
- Refer to the Kubernetes platforms supported page for the latest versions. 
-
- Previous What's new in Kubernetes connector 
+ Previous Kubernetes 
 
  Next LOLBAS 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

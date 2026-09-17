@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x-rn/cortex-xdr-release-information/features-introduced-in-2024-xdr/april-2024/feature-enhancements
-fetched_at: 2026-09-06T10:53:09Z
+fetched_at: 2026-09-16T08:59:53Z
 source: cortex-platform
 ---
 
@@ -195,6 +195,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Changed Features 
 
- Last updated 17 days ago 
+ Last updated 26 days ago 
 
  Was this helpful?

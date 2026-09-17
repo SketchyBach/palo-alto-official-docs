@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-ios-guide/9.1/device-user-tasks/view-device-and-app-status-and-information
-fetched_at: 2026-09-06T10:20:44Z
+fetched_at: 2026-09-16T08:51:50Z
 source: cortex-platform
 ---
 
@@ -31,6 +31,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next View Device Information 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

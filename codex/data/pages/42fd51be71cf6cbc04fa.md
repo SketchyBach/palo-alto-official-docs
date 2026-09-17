@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6.x-faqs/cortex-xsoar-6-faqs.md
-fetched_at: 2026-09-06T11:19:45Z
+fetched_at: 2026-09-16T09:12:51Z
 source: cortex-platform
 ---
 
@@ -9,6 +9,8 @@ source: cortex-platform
 > For the complete documentation index, see [llms.txt](https://cortex-docs.paloaltonetworks.com/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6.x-faqs/cortex-xsoar-6-faqs.md).
 
 # Cortex XSOAR 6 FAQs
+
+Frequently asked questions about Cortex XSOAR 6x.
 
 * [Content Feature Requests](/cortex-xsoar-6.x-faqs/cortex-xsoar-6-faqs/content-feature-requests.md)
 * [Customer Support Portal FAQs](/cortex-xsoar-6.x-faqs/cortex-xsoar-6-faqs/customer-support-portal-faqs.md)

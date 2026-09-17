@@ -1,0 +1,821 @@
+---
+url: https://docs.paloaltonetworks.com/strata-cloud-manager/new-features/by-date/strata-cloud-manager/august-2026#e9e22728615e570f5c44243f19103b7f
+fetched_at: 2026-09-16T08:21:38Z
+source: strata-and-sase
+---
+
+# New Features - Strata Cloud Manager - August 2026 Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear Clear
+
+Focus 
+
+ Home 
+
+ Strata Cloud Manager 
+
+ New Features - Strata Cloud Manager - August 2026 
+
+ Download PDF 
+
+ Activate Branch NGFWs Without a Laptop Using the ZTP Installer Web App 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ You can now activate NGFWs at branch locations using the ZTP Installer Web App , a browser-based tool that extends Zero Touch Provisioning (ZTP) to any iOS or Android device. Field installers can complete NGFW onboarding without a laptop, specialized network expertise, or detailed knowledge of the customer's configuration—making it practical to deploy across multiple branch locations in a single visit. 
+
+ On Gen 5 or newer hardware, scan the QR code on the NGFW label using your phone's camera to begin onboarding and activation. The ZTP Installer Web App reads the embedded URL and automatically populates the Serial Number and Claim Key, so you can start activation without typing device details manually. The app gives you access to activation history for the past seven days and lets you monitor firewall provisioning status—the same capabilities available in the desktop ZTP portal, optimized for a smartphone screen. 
+
+ Update: The ZTP Installer Web App now includes two additional features to make branch deployments faster. Before starting activation, you can use your phone's camera to photograph the firewall and confirm the ethernet cable is connected to the correct port. The app also uses your phone's location to surface nearby deployment sites automatically, so you can select the right site without scrolling through a full list. You can still change your location or browse all sites manually if needed. 
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ Advanced Threat Prevention Threat Insights Dashboard 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ The Advanced Threat Prevention Operator Dashboard ( Insights Security Advanced Threat Prevention ) is a subscription-specific dashboard that provides a central view of security metrics with immediate, actionable insights. Widgets surface critical efficacy metrics—such as top malicious verdicts and blocked exploits—offering a clear starting point for drill-down analysis. Using contextual data on users, devices, and policies, security teams can identify and resolve threats faster than ever before. 
+
+ The dashboard covers the following investigative and operational use cases: 
+
+ Exploitation and efficacy —Validate security policy effectiveness against critical threats by tracing exploits to blocked or reset actions, confirming that high-risk attempts are neutralized. Identify whether attackers are utilizing novel techniques such as command injection to bypass defenses. 
+
+ C2 attribution and geo-location —Scope a breach by visualizing the connection between compromised internal hosts and global attacker infrastructure. Geographically attribute campaigns and confirm the targeted nature of an attack by linking victim IPs to external C2 nodes. 
+
+ Known versus unknown threat differentiation —See which vulnerability exploits are detected through ATP signatures versus those requiring ATP cloud analysis, quantifying the value of cloud-based detection for zero-day and evasive threats. 
+
+ Source attribution for policy refinement —Identify recurring source IPs, target hosts, and applications associated with exploit or C2 activity to inform policy adjustments. 
+
+ This dashboard requires Strata Cloud Manager, Strata Logging Service (SLS), and an Advanced Threat Prevention subscription. 
+
+ Advanced Threat Prevention
+
+ August 2026
+
+ Strata Cloud Manager
+
+ Network Visibility
+
+ August 2026
+
+ Advanced URL Filtering Threat Insights Dashboard 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ The Advanced URL Filtering Operator Dashboard ( Insights Security Advanced URL Filtering ) is a subscription-specific dashboard that provides a central view of web threat activity with immediate, actionable insights. Widgets surface critical efficacy metrics—such as day-zero malicious URL detections, daily threat trends, and top risky domains—offering a clear starting point for drill-down analysis. Using contextual data on users, devices, and policies, security teams can identify and resolve web-based threats faster than ever before. 
+
+ The dashboard covers the following investigative and operational use cases: 
+
+ Scope the initial attack vector —Get real-time visibility into the daily threat landscape including day-zero malicious URLs that represent proactive prevention of novel attacks before they enter your network. 
+
+ Identify human and infrastructure hotspots —Pinpoint the users and external domains driving risk to move from general blocking to targeted intervention such as user training or network isolation. 
+
+ Confirm safety and investment value —View total versus malicious traffic and trends over time to demonstrate ROI and confirm protection effectiveness for leadership reporting. 
+
+ This dashboard requires Strata Cloud Manager, Strata Logging Service (SLS), and an Advanced URL Filtering subscription. 
+
+ Advanced URL Filtering
+
+ August 2026
+
+ Strata Cloud Manager
+
+ Network Visibility
+
+ August 2026
+
+ Advanced WildFire Threat Insights Dashboard 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ The Advanced WildFire Operator Dashboard ( Insights Security Advanced WildFire Extended Dashboard ) is a subscription-specific dashboard that provides a central view of malware analysis activity with immediate, actionable insights. Widgets surface critical efficacy metrics—such as inline malware verdicts, top threats by file type, and infected users—offering a clear starting point for drill-down analysis. Using contextual data on users, devices, and policies, security teams can identify and resolve malware threats faster than ever before. 
+
+ The dashboard covers the following investigative and operational use cases: 
+
+ Halt delivery and installation —Confirm that zero-day malware is being blocked inline before execution, reducing the need for manual SOC triage of novel malware variants that signature-based defenses cannot stop. 
+
+ Define the impact radius —Identify the most infected users and hosts along with associated malware names and file types, prioritizing your incident response list. 
+
+ Optimize policy enforcement —Identify malware currently allowed by policy that could be prevented by updating the policy to enforce inline prevention, reducing alert volume and improving security posture. 
+
+ This dashboard requires Strata Cloud Manager, Strata Logging Service (SLS), and a WildFire or Advanced WildFire subscription. 
+
+ Advanced Wildfire
+
+ August 2026
+
+ Strata Cloud Manager
+
+ Network Visibility
+
+ August 2026
+
+ Advanced and Legacy Routing Engine Coexistence in a Single Strata Cloud Manager Tenant 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: September 2026 
+
+ You can manage both Advanced Routing Engine (Logical Router) and Legacy Routing Engine (Virtual Router) configurations within a single Strata Cloud Manager tenant, eliminating the need to maintain separate tenants for mixed-generation firewall deployments. This enables you to migrate heterogeneous firewall fleets from Panorama to a single Strata Cloud Manager tenant without losing any configuration. 
+
+ The Panorama to Strata Cloud Manager migration tool supports migrating both Logical Router and Virtual Router configurations simultaneously within the same Strata Cloud Manager tenant. 
+
+ Note: Contact your account team to enable the Panorama to Strata Cloud Manager Migration feature on your tenant. 
+
+ Note: Do not use the ZTP tool to onboard existing devices with active configuration to Strata Cloud Manager . 
+
+ Onboarding new devices without existing configuration follows the bootstrap process for routing conversion to align with the tenant-level default (Advanced Routing Engine). Contact your account team to change the tenant-level setting. 
+
+ You can migrate your existing NGFW configurations from Panorama to Strata Cloud Manager using the Migrate NGFW Configuration from Panorama workflow. 
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ Application Metadata Collection for Device Security 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ You can now apply a metadata profile to each zone on your NGFW to filter the log fields forwarded to Device Security . When you specify a metadata profile, PAN-OS only forwards log data based on the cloud services enabled on your NGFW . This helps bandwidth-constrained sites, such as remote facilities or OT environments, as they only forward log data required by the cloud services instead of excess logs. 
+
+ Metadata profiles map log fields to the cloud services that need them. You assign a profile to a zone with a single setting, which replaces the multi-step Log Forwarding Profile configuration previously attached to each firewall policy. 
+
+ This gives you a simpler way to send the right metadata to Device Security and reduces the volume of data your firewalls push to the cloud at sites where bandwidth is limited. Existing log forwarding configurations continue to work after upgrade, so you can adopt metadata profiles on a zone-by-zone basis. 
+
+ Device Security
+
+ July 2026
+
+ PAN-OS
+
+ Core
+
+ July 2026
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ Audit Logging for Notification Profiles and Incident Settings 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ When notification profiles or incident settings change unexpectedly, identifying the source of that change can slow incident response and complicate compliance efforts. Strata Cloud Manager now records every create, update, bulk update, and delete action for notification profiles and incident settings, publishing these changes to the Strata Logging Service log viewer as a complete, timestamped audit trail. Each log entry includes the change type, the name of the affected resource, the altered fields with before-and-after values, the performing user, and the timestamp, giving you the full context needed to understand any configuration change. 
+
+ Bulk updates generate individual audit entries for each modified setting, so you can track changes at a granular level even when multiple settings change at once. Failed operations are also logged with standardized failure reasons, helping you identify validation errors or conflicts quickly. You can access the log viewer directly from the Settings and Notification Profiles pages in Strata Cloud Manager, or filter log entries by event category and subcategory to isolate the changes you need. Existing RBAC permissions control access to audit log data, with entries retained under a rolling six-month visibility window. 
+
+ Strata Cloud Manager
+
+ AIOPs
+
+ August 2026
+
+ Cloud NGFW Incidents 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Running a Cloud NGFW resource at or near its configuration limits can cause commit failures and policy gaps without advance warning— six new incidents now alert you before your Cloud NGFW resource reaches capacity for address groups, address objects, security policies, service objects, configuration memory, and EDL entries. Each incident triggers a Warning when usage on the affected resource exceeds 90% of its supported limit (95% for EDLs) for five or more days in a week, and clears automatically once usage drops below the threshold for two consecutive weeks. 
+
+ These incidents give you the lead time needed to consolidate or clean up unused objects, optimize security policies, and plan capacity changes before any operational impact occurs. Because the incidents track each Cloud NGFW resource independently, you can pinpoint exactly which resource is approaching a limit rather than reacting to a broad platform-wide alert. The config memory incident is particularly important: during a commit, the firewall must hold both the active and the incoming configuration in memory simultaneously, so exceeding 50% allocation per configuration causes commit failures. 
+
+ Strata Cloud Manager
+
+ AIOPs
+
+ August 2026
+
+ Configuration Improvements for Subscriber-ID and Equipment-ID 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ PAN-OS introduces Subscriber and Equipment objects , giving firewall administrators a readable, reusable way to reference mobile network identities in security policy — similar to how address objects work for IP-based networks. 
+
+ Subscribers — Define mobile subscribers by IMSI, IMSI Range, or IMSI Prefix. IMSI ranges now support changes from the 4th through 15th digit (previously limited to digits 11–15), and IMSI prefixes can now be any variable length starting from the 4th digit (previously fixed at 6 digits). 
+
+ Subscriber Groups — Group one or more Subscriber objects for use in policy, improving rule readability and reducing repetition. 
+
+ Equipment — Define mobile devices by IMEI, IMEI Range, or IMEI Prefix. IMEI ranges now support 6 to 16 digits, and IMEI prefixes can be any variable length from the 6th digit (previously fixed at 8 digits). 
+
+ Equipment Groups — Group one or more Equipment objects for use in policy. 
+
+ Subscribers, Subscriber Groups, Equipment, and Equipment Groups can all be referenced as match criteria in Security policy rules, allowing administrators to write policies using meaningful names instead of raw IMSI or IMEI values. 
+
+ GTP Security must be enabled through Device Setup Management General Settings to make Subscriber and Equipment objects available. 
+
+ Supported on all Gen 3–5 hardware platforms, VM-Series, and CN-Series. Not supported on Cloud NGFW or Prisma Access. 
+
+ PAN-OS
+
+ Core
+
+ July 2026
+
+ 12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ Consistent Application Names, Metadata, and Sanctioning Across Policies 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: September 2026 
+
+ Inconsistent application names across different policy and configuration pages make it difficult to identify and manage the same application in different contexts. The Unified Application Dictionary (UAD) normalization now extends to all policy and configuration pages, comprehensive metadata is available for every application in the Application Catalog, and a new classification column lets you designate each application as sanctioned, unsanctioned, or tolerated. 
+
+ The Unified Application Dictionary (UAD) now normalizes display names across Security Policy Rules, Application Groups, Application Filters, SDWAN, QoS, Application Override, Policy Based Forwarding, and WildFire® and Antivirus profiles. You can now view comprehensive metadata for each application directly in the Application Catalog, giving you richer context for building and reviewing policies without navigating elsewhere. A new classification column lets you designate each application as sanctioned, unsanctioned, or tolerated, giving you a clear, consistent way to document your organization's position on specific applications and align your security posture accordingly. 
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ Context Menu for Policies and Objects 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Managing rules and objects across large policy sets often requires repetitive navigation—opening each rule individually to update an address, or leaving the list to look up what an address object resolves to. Strata Cloud Manager now lets you apply common actions directly from policy and object list views, so you can make changes faster without drilling down into each item. 
+
+ At the rule level, you can clone, copy, delete, enable or disable, move, or add rules. At the field level, you can edit, paste clipboard values, clear, or filter by the field's value. For a specific object within a field, you can view its resolved value—including variable resolution for address and service objects—edit or remove the object, filter by it, or open Config Search pre-filtered to every configuration reference for that object. Quick actions are available across Security Policy, Decryption, NAT, Policy Based Forwarding, Application Override, QoS, DoS Protection, and SD-WAN policies, as well as Addresses, Services, Interfaces, Zones, IPSec Tunnels, GRE Tunnels, DNS Proxies, GlobalProtect, and Logical Routers. 
+
+ You can learn about supported views, available actions, and how to get started in Context Menu for Policy and Objects . 
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ DNS Security Threat Insights Dashboard 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ The DNS Security Operator Dashboard ( Insights Security DNS Security ) is a subscription-specific dashboard that provides a central view of DNS threat activity with immediate, actionable insights. Widgets surface critical efficacy metrics—such as top malicious domains, C2 domain traffic, and users and devices accessing malicious domains—offering a clear starting point for drill-down analysis. Using contextual data on users, devices, and policies, security teams can identify and resolve DNS-based threats faster than ever before. 
+
+ The dashboard covers the following investigative and operational use cases: 
+
+ Detect covert channels —Identify threats that encode C2 commands directly into DNS queries to bypass standard firewalls, and expose anomalous traffic patterns that signal active attacker communication. 
+
+ Confirm compromise —Cross-reference high-volume malicious DNS traffic with specific users to confirm that a compromised host is communicating with attacker infrastructure. 
+
+ Stop data exfiltration —Block C2 domains and identify DNS hijacking attempts in real-time, neutralizing the threat's ability to receive instructions or exfiltrate data. 
+
+ Demonstrate ROI —Provide high-level summaries of blocked malicious traffic to demonstrate the value of your DNS security investment to leadership. 
+
+ This dashboard requires Strata Cloud Manager, Strata Logging Service (SLS), and a DNS Security or Advanced DNS Security subscription. 
+
+ Advanced DNS Security
+
+ August 2026
+
+ Strata Cloud Manager
+
+ Network Visibility
+
+ August 2026
+
+ Device Attribute Match Criteria for Prisma Agent App Settings for Windows and macOS 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ When you set up app settings rules for Prisma® Agent, you can already filter by OS and user entity—and now you can also filter by device attributes. Device attribute match criteria let you assign different app settings to endpoints based on Windows registry keys, macOS plist entries, and device certificates, giving you fine-grained control over which configuration each endpoint receives. 
+
+ Registry key checks verify whether a specified registry key—or specific value entries under it—exists on the endpoint, with optional negation to match endpoints where the key is absent. Plist checks verify whether a specified plist domain and optional key entries exist on macOS. 
+
+ Certificate checks apply to Windows and macOS endpoints only and search both the user certificate store and the machine certificate store for a valid certificate issued by a specified CA as the direct issuer; certificates where the CA appears elsewhere in the chain do not match. OCSP-based revocation checks are not supported for certificate profile checks. 
+
+ Configure a default rule with no device match criteria to ensure all users have a fallback configuration if no other rule matches. Configure agent settings to set up device attribute match criteria. 
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ Prisma Agent
+
+ August 2026
+
+ Enhanced Jira Onboarding in Data Security via Atlassian Forge 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Following Atlassian’s formal deprecation of the Atlassian Connect framework, Palo Alto Networks has modernized the Jira cloud integration process within Data Security . We have updated our onboarding workflow to utilize Atlassian's next-generation Forge app framework, combined with the Workspace URL and Cloud ID retrieved directly from Atlassian. 
+
+ Key Benefits of the New Onboarding Procedure 
+
+ Elevated Security & Trust: Building on the native Atlassian Forge framework ensures that authorization and data processing adhere to modern cloud governance and strict data isolation boundaries. 
+
+ Streamlined Workspace Identification: Utilizing the Workspace URL and Cloud ID eliminates configuration ambiguities, delivering a more reliable and precise connection during initial setup. 
+
+ Future-Proof Integration: Transitioning away from legacy Connect architecture guarantees long-term compliance with Atlassian’s roadmap, ensuring uninterrupted data security scanning and support. 
+
+ To maintain seamless visibility and protection over your data, transition your existing integrations or onboard new instances using the updated Forge app procedure outlined in the technical documentation . 
+
+ SaaS Security
+
+ SaaS Security API
+
+ August 2026
+
+ Strata Cloud Manager
+
+ August 2026
+
+ Granular Certificate Selection for Prisma Agent in Agent Settings 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Granular certificate selection gives you precise control over which certificates Prisma® Agent uses for authentication, preventing incorrect User-ID mapping that occurs when the agent selects the wrong certificate. This feature is now configurable directly in the Agent Settings , in addition to the existing config.json deployment method. 
+
+ You configure certificate selection through two criteria: certificate store filtering, which determines whether the agent searches the user store, the machine store, or both; and Extended Key Usage (EKU) OID filtering, which restricts authentication to certificates issued for specific purposes, such as client authentication or smart card logon. Together, these criteria ensure the agent consistently selects the correct certificate for accurate user identification and effective security policy enforcement. 
+
+ When you configure these settings in the Agent Settings, they are pushed to endpoints as part of the standard configuration update and take precedence over config.json settings from the second login onwards. The settings persist through reboots, restarts, and agent upgrades. 
+
+ Prisma Agent
+
+ August 2026
+
+ 26.3
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ IP Tag Pruning with Edge Service 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ The Edge Service now supports Tag Pruning , which restricts the IP-Tags forwarded to firewalls to only those referenced in active Strata Cloud Manager (SCM) security policies. Previously, the Cloud IP-Tag Service pushed the full harvested tag set to all firewalls regardless of policy usage — a volume that can exceed two million tags in large enterprise environments, leading to memory exhaustion and firewall instability. 
+
+ With this release of Prisma AIRS, when a security policy is committed, SCM evaluates which IP-Tags are in use across Dynamic Address Groups (DAGs) referenced in that policy. The Edge Service then forwards only that subset to the affected firewalls. No manual tag selection is required. 
+
+ Note: IP Tag Pruning applies to SCM-managed security policies, and is applied per tenant. 
+
+ Prisma AIRS
+
+ AI Runtime Firewall
+
+ August 2026
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ IPv6 Multicast Routing 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Your firewall now supports IPv6 Multicast Routing , enhancing capabilities for your IPv6 networks. This feature introduces Protocol Independent Multicast version 6 (PIMv6) and Multicast Listener Discovery (MLDv1 and MLDv2) to manage and deliver multicast traffic. You can configure PIM Sparse Mode (PIM-SM) and PIM source-specific mode (PIM-SSM), establish static multicast routes, and define static multicast groups. 
+
+ PAN-OS
+
+ Core
+
+ July 2026
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ IoT Device-ID Based Policies for Mobile Users 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Prisma Access extends the use of third-party Device-ID to include mobile users. You can create new Device-ID based Security policies specific to mobile users, or extend existing Device-ID based Security policies for remote networks to include mobile users. Use the Cloud Identity Engine along with Prisma Access to learn about IoT devices from third-party IoT detection sources or from Device Security . You can create Device-ID objects from the information you learn, and apply those Device-ID objects to Security policy rules for access and control for mobile users in the same way you can for remote networks. 
+
+ Prisma Access
+
+ Core
+
+ February 2025
+
+ 5.2 Preferred and Innovation
+
+ Prisma Access
+
+ Core
+
+ August 2026
+
+ 6.2 Preferred and Innovation
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ Jamf MDM Posture Checks for Prisma Agent on macOS 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ If your organization uses Jamf to manage macOS devices, you can now enforce MDM compliance checks for Prisma® Agent tunnel authorization, extending the same compliance-based access control that Microsoft Intune provides for Windows devices to your macOS fleet. 
+
+ You configure the Jamf integration in your MDM integration settings by providing your Jamf instance Host URL, a client ID, and a client secret. The Endpoint Manager polls Jamf at configurable intervals to sync device compliance status and performs real-time queries when a device is not found in its cache or shows as non-compliant. Devices that are not enrolled in Jamf or fail compliance checks are blocked from establishing a tunnel. If Endpoint Manager detects that a device is out of compliance at the time of polling, any active tunnels are torn down and the user is notified. 
+
+ Prisma Agent
+
+ August 2026
+
+ 26.3
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ NGFW Incidents in August 2026 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Here are the NGFW incidents introduced in August 2026. 
+
+ Firewall Traffic Disruption Detected : Raised when throughput degradation or a significant drop in packets received or sent is detected by anomaly detection. The incident clears when all metrics return to the normal baseline range for eight consecutive hours. 
+
+ High Packet Buffer Utilization : Raised when the average packet buffer utilization on one or more dataplanes exceeds 85% for 20 minutes, or when an anomalous surge in packet buffer usage exceeds a lower threshold of 40% utilization. The incident clears when utilization drops and remains below threshold for eight hours. 
+
+ Strata Cloud Manager
+
+ AIOPs
+
+ August 2026
+
+ Native IPv6 Support for Service Connections and Remote Networks in Panorama and Strata Cloud Manager 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Native IPv6 support for Prisma Access service connections extends your WAN connectivity, enabling end-to-end IPv6 communication between your on-premises networks and Prisma Access. This feature allows your organization to deploy IPv6-only environments and meet compliance requirements without requiring IPv4-to-IPv6 transformations for your IPv6 traffic. 
+
+ Prisma Access also offers expanded IPv6 capabilities for remote networks , for both underlay and overlay architectures, ensuring full compliance for public-facing IP addresses. Public-facing IPs can now operate seamlessly in a native IPv6 environment, providing end-to-end peering and tunneling options for modern network deployments. 
+
+ Prisma Access
+
+ Core
+
+ August 2026
+
+ 6.2 Preferred and Innovation
+
+ Strata Cloud Manager
+
+ Network Visibility
+
+ August 2026
+
+ 6.2 Preferred and Innovation
+
+ Panorama
+
+ Core
+
+ August 2026
+
+ 6.2 Preferred and Innovation
+
+ Network Profile Management from a Centralized Page 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ You can now manage all seven network profile types from a single Network Profiles page in Strata Cloud Manager. 
+
+ GlobalProtect IPSec Crypto, IPSec Crypto, IKE Crypto, Monitor, Interface Management, LLDP, and Zone Protection profiles are now centrally managed. 
+
+ When you add or edit a profile, you can reference existing profiles while making configuration changes. Role-based access controls determine who can create, edit, or delete network profiles, giving you control over which users can manage profile configurations in your environment. 
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ PA-1500 Series Next-Generation Firewall 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ The PA-1500 Series is Palo Alto Networks' next-generation firewall platform designed for organizations that require high-performance security, integrated networking, and simplified branch infrastructure. It introduces a modern hardware architecture with built-in Layer 2 switching and Power over Ethernet (PoE), allowing customers to consolidate security and access switching into a single 1RU appliance. 
+
+ The PA-1500 Series consists of three models: PA-1510-POE, PA-1520-POE, and PA-1530-POE — each powered by x86 embedded processors. Each platform provides 32 front-panel Ethernet ports with up to 16 PoE-enabled ports supporting IEEE 802.3af/at/bt devices and delivering up to 90W per port. Available PoE power budgets scale from 485W to 724W, enabling support for wireless access points, IP cameras, digital signage, and point-of-sale devices without requiring a separate PoE switch. 
+
+ Integrated Layer 2 switching capabilities, including VLANs, 802.1X Port-Based Network Access Control (PNAC), and MAC-based authentication, reduce branch infrastructure complexity by eliminating the need for a dedicated access switch in many deployments. Zero Touch Provisioning (ZTP) further streamlines remote deployments, allowing sites to be securely brought online with minimal or no local IT involvement. 
+
+ The series delivers 20 to 35 Gbps of App-ID™ throughput and 9 to 27 Gbps of Threat Prevention throughput, providing ample performance headroom for distributed enterprise branches. The PA-1500 Series is managed through PAN-OS®, Panorama™, and Strata Cloud Manager™, enabling consistent policy management and centralized operations across hybrid environments. 
+
+ Hardware
+
+ PA-Series
+
+ August 2026
+
+ 12.2
+
+ PAN-OS
+
+ Core
+
+ August 2026
+
+ 12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ PA-50R Series Next-Generation Firewall 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Industrial facilities, transportation infrastructure, and mobile vehicle deployments require network security in environments that exceed the operating specifications of standard firewall appliances. These environments subject the system to temperature extremes, dust, moisture, constant vibration, and fluctuating power systems. Standard firewall appliances designed for climate-controlled data centers and office environments cannot operate reliably under these conditions, leaving critical industrial control systems, manufacturing networks, and mobile assets without adequate security controls. The PA-50R Series addresses these requirements with ruggedized next-generation firewall appliances across extended temperature ranges. 
+
+ The PA-50R Series consists of the PA-52R-5G, PA-54R-POE, PA-54R-POE-D-5G, and PA-56R-POE-5G. These platforms support PAN-OS® versions 12.2 and onwards. The PA-54R-POE provides twelve 1Gbps RJ45 ports with four of them being power over Ethernet (PoE) ports that support a total PoE budget of 150W, as well astwo fiber 1Gbps SFP ports. The PA-54R-POE-D-5G shares the same ports as the PA-54R-POE and also includes two 5G modems operating in active-active mode with dedicated GPS receivers. The dual modem is well suited for mission critical use cases, such as for maintaining connectivity in financial institutions. The PA-56R-POE-5G offers sixteen RJ-45 ports in a 2 RU form factor with a single 5G modem. Lastly, the PA-52R-5G provides eight RJ-45 ports with a 5G modem. Depending on the model, the PA-50R Series firewalls support installation on a DIN rail, rack, or wall. The hardware is designed from the ground up to be mountable in vehicles, including cars, trucks, trains, and planes. 
+
+ The PA-54R-POE, PA-54R-POE-D-5G, and PA-56R-POE-5G deliver 2Gbps of App-ID™ throughput and 1Gbps of threat prevention throughput with support for 200,000 concurrent sessions. The PA-52R-5G provides 1Gbps App-ID throughput and 500 Mbps threat prevention throughput with 64,000 concurrent sessions. Power inputs accept 12 to 48 volts DC for PA-52R-5G and 48 to 125 volts DC for stationary installations with dual input support and automatic failover. The PA-54R and PA-56R have options for both 12-48 and 48-25 volts DC. 
+
+ The cellular interfaces support standard PAN-OS configuration including APN profiles and dual SIM management with active-standby failover on single modem platforms. Zero Touch Provisioning (ZTP) enables automated onboarding over Ethernet interface 1/1 or the cellular interface. The PA-50R Series firewalls can be managed using PAN-OS, Panorama, or Strata Cloud Manager. 
+
+ Hardware
+
+ PA-Series
+
+ August 2026
+
+ 12.2
+
+ PAN-OS
+
+ Core
+
+ August 2026
+
+ 12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ PA-520-5G Next-Generation Firewall 
+
+ Release Date: September 2026 
+ | 
+ Last Updated: September 2026 
+
+ When your enterprise branch loses its wired WAN connection, operations stop — the PA-520-5G eliminates that risk by embedding a 5G Sub-6 GHz cellular modem directly into the compact PA-520 chassis, so you get a built-in backup or primary internet link without adding separate hardware. 
+
+ The PA-520-5G fits enterprise branch, retail, and managed services environments. It delivers 3.0 Gbps App-ID™ throughput, 1.5 Gbps threat prevention, and 150,000 concurrent sessions while adding integrated 5G connectivity through an embedded Sierra EM9293 modem. Dual nano SIM slots operate in active/standby mode, so you can provision two carriers and enable failover if the primary SIM loses signal. 
+
+ You decide how to deploy the cellular interface: as a primary WAN link when no wired connection is available, as a standby backup that activates when the primary fails, or as a secondary link running in parallel with wired WAN. The firewall applies the same security policy across traffic profiles regardless of which interface carries it. 
+
+ Two SFP ports extend your fiber connectivity options, and a built-in fail-to-wire port pair supports inline bypass deployment. Zero Touch Provisioning (ZTP) works over both the cellular and Ethernet interfaces simultaneously, so the firewall can receive its configuration before a wired WAN link is established. You can also upgrade cellular modem firmware over the air, reducing the operational overhead of managing branch deployments at scale. You can manage this firewall using PAN-OS, Panorama, and Strata Cloud Manager. 
+
+ Hardware
+
+ PA-Series
+
+ August 2026
+
+ 12.2
+
+ PAN-OS
+
+ Core
+
+ August 2026
+
+ 12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ Hardware
+
+ PA-Series
+
+ September 2026
+
+ 12.1
+
+ Per Security Policy-based Express Forwarding 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ This release provides support for Per Security Policy-based Express Forwarding . This feature is a low latency solution designed for high frequency trading in Financial Technology environments where ultra-low latency is critical for operations. This solution introduces an express forwarding path to select PA-5500 series firewalls, allowing mission-critical traffic (like FIX protocol trading feeds) to bypass deep buffer bottlenecks by significantly reducing latency. Specifically, it provides security performance at low latency required by major financial institutions without sacrificing the next generation firewall visibility required to protect such environments. Security policy-based express forwarding: 
+
+ Achieves latency of sub 10 microseconds for hardware-offloaded packets. 
+
+ Introduces a pathway within the NGFW architecture express pass App-ID overridden packets. 
+
+ Note: This feature is available on PA-5540, PA-5550, PA-5560, PA-5570 and PA-5580. 
+
+ You can configure Per Security Policy-based Express Forwarding using Panorama or through the REST APIs. It requires no device reboots while providing explicit logging and session flags for easy troubleshooting. 
+
+ Panorama
+
+ Core
+
+ July 2026
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ Policy Rule Targeting 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: September 2026 
+
+ When you manage a large fleet of NGFWs through Strata Cloud Manager, some policy rules apply to only a subset of devices, and pushing those rules to every NGFW in a scope creates unnecessary noise and potential risk. Policy rule targeting solves this by letting you specify exactly which NGFWs receive a given rule at push time, so you control precisely where each rule takes effect. 
+
+ You add a list of target NGFWs to any disabled rule at the container scope level, and Strata Cloud Manager delivers that rule only to the NGFWs you named when you push configuration, skipping all others in the scope. This matches the rule-targeting behavior available in Panorama, making it straightforward to maintain the same policy precision after you migrate to Strata Cloud Manager. Panorama configurations that include rules with < target> nodes migrate automatically: the migration service converts the targeting settings to the Strata Cloud Manager format and marks affected rules as disabled so you can review and re-enable them on your schedule. You can configure rule targeting for security, NAT, and other policy rulebases in the Strata Cloud Manager policy editor. 
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ Signed Webhook Deliveries for Notification Profiles 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ When you rely on webhooks to integrate Strata Cloud Manager with downstream systems, you need assurance that incoming payloads are authentic and untampered. Without sender verification, webhook endpoints remain vulnerable to spoofed requests and payload manipulation from unauthorized sources. To address this, Strata Cloud Manager can sign every webhook delivery with an HMAC-SHA256 signature tied to a per-profile signing secret. You can use this secret to verify that each payload originated from your tenant and was not modified in transit. Because the system uses a per-profile design, rotating a secret for one webhook integration does not disrupt other integrations. Rotating your secret is an optional security practice and is not mandatory. If you choose to rotate your secret, the previous secret remains valid for a 72-hour grace period to provide time to update your verifying systems. When you configure webhook notification profiles, you can generate and rotate these signing secrets . 
+
+ Strata Cloud Manager
+
+ AIOPs
+
+ August 2026
+
+ Snippet Management Predefined Snippets 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Note: This feature is currently available only to new Strata Cloud Manager tenants. Support for existing tenants is planned for a future release. 
+
+ You can now manage all your configuration snippets from the Snippet Management page, where snippets are organized by type in a centralized view without navigating between individual snippet scopes. From the Snippets tab, you can browse all snippets in your configuration, review snippet details and version history, and take actions such as creating, cloning, modifying, and deleting snippets. The Snippets tab is available to all tenants and surfaces all snippet types in a single view, making it faster to find and manage the configurations your deployment depends on. 
+
+ If you are a new tenant, the Folder & Snippet Management page also includes a Snippet Library tab. From the Snippet Library tab, you can browse predefined snippets published by Palo Alto Networks® and opt in to the ones that match your deployment requirements. Each snippet includes a description and version history so you can review the included configuration before committing. Opting in adds the snippet to your configuration scope, making it available to associate with folders or devices. When Palo Alto Networks publishes a newer version of an opted-in snippet, you can review the changes and update at your discretion. You can opt out at any time to remove a snippet from your configuration scope. 
+
+ Role-based access controls determine who can manage snippet opt-in decisions in your environment, ensuring that configuration changes align with your organizational policies. 
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ Strata Cloud Manager Expands to Brazil 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Strata Cloud Manager for Configuration Management is a solution that is defined and controlled based on the region where it is deployed. You can deploy Strata Cloud Manager in the locations of your choosing, based on data location preferences and where you have the most users. This selection of locations allows for optimized performance, adherence to data residency requirements, and tailored user experiences based on geographical proximity. For this reason, we are rolling out region-specific support for Strata Cloud Manager as soon as we are able to do so for each region . 
+
+ You can now deploy Strata Cloud Manager in the following additional region for Configuration Management support in the Strata Cloud Manager 2026.R3.0 release: Brazil . 
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ TLSv1.3 Support for Authentication Portal 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Authentication Portal now supports TLSv1.3 to ensure that redirected web traffic complies with modern security standards. TLSv1.3 supports only secure cipher suites and provides faster connection speeds than TLSv1.2. It is also a prerequisite for enabling post-quantum cryptography (PQC) and hybrid-PQC algorithms. 
+
+ You can apply an SSL/TLS service profile that supports TLSv1.3 or PQC-TLSv1.3 to your Authentication Portal configuration. When a user must be authenticated, the firewall prioritizes TLSv1.3 to secure the redirection to the Authentication Portal. ​​Users benefit from a more seamless and secure authentication experience when this service uses TLSv1.3. 
+
+ PAN-OS
+
+ Core
+
+ July 2026
+
+ 12.2
+
+ Strata Cloud Manager
+
+ Management
+
+ August 2026
+
+ 3.0
+
+ Tiered Visibility for Strata Cloud Manager 
+
+ Release Date: August 2026 
+ | 
+ Last Updated: August 2026 
+
+ Strata Cloud Manager delivers comprehensive network and security management capabilities through two specialized licensing tiers: Essentials, designed for core operational oversight, and Pro, built for advanced enterprise-grade intelligence. 
+
+ If you use the Essentials tier, you receive a streamlined set of dashboards optimized for core operational monitoring. The Pro tier provides you with a full suite of advanced analytics, granular filtering, and near-real-time data aggregation for deep security investigations and comprehensive network oversight. 
+
+ When you use the Essentials tier, you access visibility pages such as Command Center, Activity Insights, and Monitor with data refreshed at 15-minute intervals rather than the 5-minute cadence available in the Pro tier. You must manually refresh data to see updates, and your time-range filters are limited to 3-hour and 24-hour windows. The Command Center serves as your default landing page, while the system reserves dashboards like Activity Insights Overview and NetSec Health Dashboard exclusively for the Pro tier. 
+
+ If you require near-real-time data (5 minute), extended historical time ranges, and detailed cross-navigational workflows, you can upgrade to the Pro tier. When you review your Strata Cloud Manager visibility settings, upgrading to Pro unlocks the full set of data columns and filtering dimensions across Applications, Users, Domains, Threats, Rules, and Regions views. 
+
+ Strata Cloud Manager
+
+ AIOPs
+
+ August 2026

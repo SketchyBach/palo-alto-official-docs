@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/configure-cortex-xsoar/integrations/forward-requests-to-long-running-integrations
-fetched_at: 2026-09-06T11:25:02Z
+fetched_at: 2026-09-16T09:14:15Z
 source: cortex-platform
 ---
 
@@ -283,6 +283,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Incident configuration 
 
- Last updated 4 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

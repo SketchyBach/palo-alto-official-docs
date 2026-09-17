@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/detect-investigate-and-respond-to-threats/monitor-dashboards-and-reports/manage-dashboards-and-reports/share-custom-dashboards-and-report-templates
-fetched_at: 2026-09-06T10:18:55Z
+fetched_at: 2026-09-16T08:51:10Z
 source: cortex-platform
 ---
 

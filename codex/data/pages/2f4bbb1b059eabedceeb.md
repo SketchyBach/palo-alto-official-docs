@@ -1,0 +1,107 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/strata-cloud-manager/getting-started/insights-scm/ngfw-sd-wan/ngfw-sdwan-top-worst-links.html
+fetched_at: 2026-09-16T09:47:49Z
+source: palo-alto-main
+---
+
+# SD-WAN Dashboard: Top Worst Links Clear
+
+Updated on 
+
+ Sun Sep 06 22:14:59 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Cloud Manager 
+
+ Strata Cloud Manager Getting Started 
+
+ Insights: Strata Cloud Manager 
+
+ Insights:
+ SD-WAN Dashboard 
+
+ SD-WAN Dashboard: Top Worst Links 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Strata Cloud Manager 
+
+ SD-WAN Dashboard: Top Worst Links 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Cloud Manager Docs 
+
+ Activation & Onboarding 
+
+ Subscription & Tenant Management 
+
+ Getting Started 
+
+ AIOps 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ SD-WAN Dashboard: Link Health 
+
+ Next 
+
+ SD-WAN Dashboard: Poor Links 
+
+ SD-WAN Dashboard: Top Worst Links 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW , including those funded by Software NGFW
+ Credits 
+
+ AIOps for NGFW Premium license (use the Strata Cloud Manager app) or Strata Cloud Manager Pro 
+
+ → The features and capabilities available to you in Strata Cloud Manager depend on which license(s) you are
+ using. 
+
+ For the selected time duration and VPN cluster, Strata Cloud Manager 
+ displays your top 5 worst links based on the computed average of the interface metrics
+ (Tunnel downtime, Latency, Jitter, and Packet Loss). The links are ranked based on the
+ priority of Tunnel downtime, Latency, Packet Loss, and Jitter. A higher computed average
+ indicates the poor quality of the links. 
+
+ You click View More to check all the impacted links. 
+
+ Furthermore, click a link to view its details including charts based on link
+ performance. 
+
+ Previous 
+
+ SD-WAN Dashboard: Link Health 
+
+ Next 
+
+ SD-WAN Dashboard: Poor Links

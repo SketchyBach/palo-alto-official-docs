@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/onboard-cortex-xsoar/engines/configure-engines/configure-an-engine-to-use-custom-certificates
-fetched_at: 2026-09-06T10:44:36Z
+fetched_at: 2026-09-16T08:56:54Z
 source: cortex-platform
 ---
 

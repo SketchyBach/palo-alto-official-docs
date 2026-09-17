@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/an-email-address-was-added-to-aws-ses
-fetched_at: 2026-09-06T11:00:19Z
+fetched_at: 2026-09-16T09:06:16Z
 source: cortex-platform
 ---
 

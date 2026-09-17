@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/saas-security/saas-security/onboard-a-supported-saas-application/onboard-mural
-fetched_at: 2026-09-06T09:58:09Z
+fetched_at: 2026-09-16T08:45:20Z
 source: cortex-platform
 ---
 
@@ -101,6 +101,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Onboard Office 365 
 
- Last updated 10 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

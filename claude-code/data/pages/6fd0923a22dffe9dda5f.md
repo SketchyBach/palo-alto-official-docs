@@ -1,0 +1,88 @@
+---
+url: https://docs.prismacloud.io/content-collections/search-and-investigate/c2c-tracing-vulnerabilities/investigate-vulnerabilities-tracing
+fetched_at: 2026-09-16T13:35:11Z
+source: prisma-cloud
+---
+
+# Use Vulnerabilities Tracing on Investigate | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Enterprise Edition 
+
+ Content Collections 
+
+ Search and Investigate 
+
+ Code to Cloud Tracing for Vulnerabilities 
+
+ Use Vulnerabilities Tracing on Investigate 
+
+ You can benefit from the C2C vulnerability tracing automatically since everytime you select a runtime workload where tracing is available, the Investigate graph will automatically identify the root cause of a vulnerability and it’s content. 
+
+ Use Prisma Cloud Copilot to easily find, understand, and manage vulnerabilities in your cloud environment. 
+
+ The assets can be in one of the following three available states: 
+
+ Not Available— Cannot trace from Runtime to Deploy. 
+
+ Partial— Tracing is possible from Runtime to the Registry Image. 
+
+ Complete— Tracing is possible from Runtime back to the Code Repository. 
+
+ To search for a vulnerability, select an asset and click View C2C Tracing . 
+
+ Remediate a Vulnerability 
+
+ You can take action to remediate a vulnerability by selecting Submit Pull Request or Create Ticket available in the CVE sidecar or directly from the vulnerability graph. 
+
+ When you want to select Submit Pull Request (PR), one of the following three outcomes are possible: 
+
+ C2C PR— Creates a PR for the specific vulnerable packages used to create the selected deployed container image. Once you select the workload in the CBDR graph, the preview card opens and if C2C tracing is possible for the vulnerability under analysis, only then the Submit Pull Request option is available. 
+
+ Global PR— Creates a PR for all vulnerable packages across all repositories. Open the CVE sidecar and click on Submit Pull Request to create a PR for all vulnerable packages. 
+
+ Package PR— Creates a PR for a specific package. Open the CVE sidecar, navigate to the impacted Assets tab, expand the Packages tab, and select the specific package for which you want to create a PR. 
+
+ Limitations 
+
+ Currently, only manual tracing is supported. 
+
+ Tracing vulnerabilities from base images is not supported. 
+
+ Exporting C2C results into a CSV export file and JIRA ticket is not supported. 
+
+ Tracing vulnerabilities for Virtual Machines and Serverless Functions is not supported. 
+
+ Troubleshooting 
+
+ If the C2C tracing is not working, it may be due to an issue of tracing the correct pipelines and repositories. Check if the ID of the image in production is the same as in additional scan stages. 
+
+ Depending on the pipeline build, the ID output needs to be adjusted to fit the CAS regex. Here’s an example of a step that echoes the image digest in a step adjusted to CAS: 
+
+ The example above is for GitHub actions. Additionally, IDs that generate the same tags could generate issues with multiple following runs. 
+
+ In this case the tag is actually the pipeline run ID, which guarantees that each run will have it’s specific tag. 
+
+ Verify Image Digest in Pipeline Logs 
+
+ To check the pipeline logs: 
+
+ Click on latest action and expand the Output image digest step. 
+
+ Go to your repository home page and click Packages . 
+
+ Expand the latest version to verify the digest from the previous step. 
+
+ Connect to your Prisma Cloud tenant and search for Code to Cloud from Runtime Security > Monitor > Vulnerabilities > Images > Deployed , click on the image that was deployed on your Kubernetes cluster and verify the hash from previous step. 
+
+ Previous Code to Cloud Tracing for Vulnerabilities 
+
+ Next Permissions Queries 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

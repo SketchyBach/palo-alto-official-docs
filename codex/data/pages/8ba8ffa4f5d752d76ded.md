@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-security/code-security-scanners/software-composition-analysis-sca-scanners/software-composition-analysis-sca-vulnerability-issues
-fetched_at: 2026-09-06T10:12:56Z
+fetched_at: 2026-09-16T08:49:20Z
 source: cortex-platform
 ---
 

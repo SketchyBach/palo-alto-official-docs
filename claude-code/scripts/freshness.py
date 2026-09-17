@@ -44,10 +44,45 @@ def main() -> None:
     rows = connection.execute(
         "SELECT source, COUNT(*), MAX(COALESCE(checked_at, fetched_at)) FROM pages WHERE body<>'' GROUP BY source ORDER BY source"
     ).fetchall()
+    completed_refreshes = {}
+    incomplete_refreshes = {}
+    for summary_path in (ROOT / "data" / "refresh-runs").glob("*/summary.json"):
+        try:
+            summary = json.loads(summary_path.read_text(encoding="utf-8"))
+            finished = parse_time(summary.get("finished_at"))
+            if not finished:
+                continue
+            for source in summary.get("sources", []):
+                previous = completed_refreshes.get(source)
+                if not previous or finished > previous[0]:
+                    completed_refreshes[source] = (finished, int(summary.get("failed", 0)), summary.get("discovery_errors", []))
+        except (OSError, ValueError, TypeError):
+            continue
+    for discovery_path in (ROOT / "data" / "refresh-runs").glob("*/discovery.json"):
+        folder = discovery_path.parent
+        if (folder / "summary.json").exists() or not (folder / "before.sqlite3").exists():
+            continue
+        try:
+            discovery = json.loads(discovery_path.read_text(encoding="utf-8"))
+            affected = set(discovery.get("urls", {}).values())
+            backup = sqlite3.connect(folder / "before.sqlite3")
+            for affected_source in affected:
+                value = backup.execute(
+                    "SELECT MAX(COALESCE(checked_at,fetched_at)) FROM pages WHERE source=? AND body<>''",
+                    (affected_source,),
+                ).fetchone()[0]
+                prior = parse_time(value)
+                if prior:
+                    incomplete_refreshes[affected_source] = prior
+            backup.close()
+        except (OSError, ValueError, TypeError, sqlite3.Error):
+            continue
     sources = []
     stale_count = 0
     for source, records, newest_value in rows:
-        newest = parse_time(newest_value)
+        database_newest = incomplete_refreshes.get(source) or parse_time(newest_value)
+        refresh = completed_refreshes.get(source)
+        newest = refresh[0] if refresh else database_newest
         age_days = (now - newest).days if newest else None
         threshold = thresholds.get(source, default_days)
         stale = age_days is None or age_days > threshold
@@ -56,6 +91,9 @@ def main() -> None:
             "source": source,
             "records": records,
             "newest_checked_at": newest.isoformat().replace("+00:00", "Z") if newest else None,
+            "freshness_basis": "completed_refresh" if refresh else ("pre_incomplete_refresh" if source in incomplete_refreshes else "newest_record"),
+            "last_refresh_failures": refresh[1] if refresh else None,
+            "last_refresh_discovery_errors": refresh[2] if refresh else None,
             "age_days": age_days,
             "stale_after_days": threshold,
             "stale": stale,

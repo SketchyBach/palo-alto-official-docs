@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xdr-3-api
-fetched_at: 2026-09-06T10:55:28Z
+fetched_at: 2026-09-16T09:03:55Z
 source: cortex-platform
 ---
 

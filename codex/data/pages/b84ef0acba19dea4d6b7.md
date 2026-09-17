@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/onelogin
-fetched_at: 2026-09-06T10:00:31Z
+fetched_at: 2026-09-16T08:46:02Z
 source: cortex-platform
 ---
 

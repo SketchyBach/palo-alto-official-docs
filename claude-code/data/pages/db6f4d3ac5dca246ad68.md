@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/enterprise-dlp/release-notes/known-issues-in-enterprise-dlp-plugin-50/known-issues-in-enterprise-dlp-plugin-508
-fetched_at: 2026-08-13T16:32:21Z
+fetched_at: 2026-09-15T15:10:51Z
 source: palo-alto-main
 ---
 
 # Known Issues in Enterprise DLP Plugin 5.0.8 Clear
 
-Known Issues in Enterprise DLP Plugin 5.0.8 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Known Issues in Enterprise DLP Plugin 5.0.8 
-
- Updated on 
-
- Aug 4, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Enterprise DLP Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features by OS Version 
-
- New Features by Month 
-
- Updated on 
-
- Aug 4, 2026 
+ Aug 18, 2026 
 
  Focus 
 
@@ -108,7 +54,7 @@ Known Issues in Enterprise DLP Plugin 5.0.8
 
  Previous 
 
- Known Issues in Enterprise DLP Plugin 5.0 
+ Known Issues in Enterprise DLP Plugin 5.0.9 
 
  Next 
 
@@ -117,6 +63,43 @@ Known Issues in Enterprise DLP Plugin 5.0.8
  Known Issues in Enterprise DLP Plugin 5.0.8 
 
  Known issues in Enterprise Data Loss Prevention (E-DLP) plugin 5.0.8. 
+
+ PLUG-24286 
+
+ This issue is addressed in Enterprise DLP plugin 5.0.9. 
+
+ The Panorama® management server allows you to delete an application group ( Objects DLP ) referenced by a data profile Object DLP Data Filtering Profile ) and doesn't provide a warning or error. After deletion, the data profile
+ retains a reference to the deleted object, which can cause unexpected behavior when the
+ data profile is evaluated. 
+
+ PLUG-23898 
+
+ This issue is addressed in Enterprise DLP plugin 5.0.9. 
+
+ The Panorama® management server fails to push a data profile ( Object DLP Data Filtering Profile ) to NGFW when the data profile is exclusively attached to
+ an AI Security profile and that AI Security profile ( Objects Security Profiles AI Security ) is not referenced by any Security profile. Enterprise DLP 
+ inspection does not apply to traffic that matches AI security policies. 
+
+ Workaround : Attach the data profile to at least one Security profile in addition
+ to the AI Security profile. This ensures Panorama can successfully push the
+ data profile to managed NGFW . 
+
+ PLUG-23877 
+
+ This issue is addressed in Enterprise DLP plugin 5.0.9. 
+
+ Enterprise Data Loss Prevention (E-DLP) tenant provisioning for Panorama -managed deployments
+ fail due to certificate validation checks for Enterprise DLP do not complete
+ successfully. This causes Enterprise DLP profile operations that depend on
+ certificate chain verification to fail. 
+
+ PLUG-23490 
+
+ This issue is addressed in Enterprise DLP plugin 5.0.9. 
+
+ The Panorama® management server allows you to delete an application filter ( Objects Application Filters ) currently referenced by a data profile ( Object DLP Data Filtering Profile ) and doesn't provide a warning or error. After deletion, the data profile
+ retains a reference to the deleted object, which can cause unexpected behavior when the
+ data profile is evaluated. 
 
  PLUG-21528 
 
@@ -162,114 +145,8 @@ DLP.
 
  Previous 
 
- Known Issues in Enterprise DLP Plugin 5.0 
+ Known Issues in Enterprise DLP Plugin 5.0.9 
 
  Next 
 
- Known Issues in Enterprise DLP Plugin 5.0.7 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Release Notes 
-
- Enterprise DLP Release Notes 
-
- Cloud-Delivered Security Services 
-
- Data Filtering 
-
- Enterprise DLP 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Known Issues in Enterprise DLP Plugin 5.0.7

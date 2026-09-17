@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cortex-cloud-saas-security/connect-a-saas-application/onboard-gainsight-px
-fetched_at: 2026-09-06T09:35:31Z
+fetched_at: 2026-09-16T08:36:47Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Onboard Grammarly 
 
- Last updated 10 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

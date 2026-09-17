@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-data-sources-and-connectors/cloud-service-provider-csp-onboarding
-fetched_at: 2026-09-06T10:10:06Z
+fetched_at: 2026-09-16T08:48:34Z
 source: cortex-platform
 ---
 

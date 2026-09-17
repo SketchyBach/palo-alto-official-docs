@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/compliance/monitor-and-track-compliance-adherence/view-and-manage-compliance-assessments-and-reports
-fetched_at: 2026-09-06T10:06:40Z
+fetched_at: 2026-09-16T08:47:40Z
 source: cortex-platform
 ---
 

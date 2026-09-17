@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/podman
-fetched_at: 2026-09-06T10:47:04Z
+fetched_at: 2026-09-16T08:57:22Z
 source: cortex-platform
 ---
 
@@ -41,6 +41,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Podman Overview 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

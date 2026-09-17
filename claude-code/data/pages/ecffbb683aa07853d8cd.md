@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/investigation-and-response/automation/playbooks/build-your-playbook/test-your-playbook/troubleshoot-playbook-performance
-fetched_at: 2026-09-06T10:05:20Z
+fetched_at: 2026-09-16T08:47:19Z
 source: cortex-platform
 ---
 
@@ -69,6 +69,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage playbook content 
 
- Last updated 6 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/public-exposure/appsec-azure-160
-fetched_at: 2026-09-06T11:13:25Z
+fetched_at: 2026-09-16T09:09:50Z
 source: cortex-platform
 ---
 

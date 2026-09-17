@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/cloud-service-provider-csp-onboarding/outpost-onboarding/outpost-troubleshooting
-fetched_at: 2026-09-06T09:27:14Z
+fetched_at: 2026-09-16T08:26:16Z
 source: cortex-platform
 ---
 
@@ -205,6 +205,6 @@ Recreate the UAMIs in a customer-owned resource group outside of the outpost bou
 
  Next Outpost Cloud Service Provider (CSP) permissions 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

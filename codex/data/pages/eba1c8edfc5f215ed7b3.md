@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/configure-cortex-xsoar/playbooks/develop-your-playbook/task-3.-add-tasks/set-playbook-inputs-and-outputs
-fetched_at: 2026-09-06T10:22:26Z
+fetched_at: 2026-09-16T08:52:25Z
 source: cortex-platform
 ---
 

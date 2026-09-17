@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/8.6-eol/cortex-xdr-agent-for-macos/install-the-cortex-xdr-agent-for-mac/macos-15-sequoia-system-extensions-configuration-file
-fetched_at: 2026-09-06T11:26:58Z
+fetched_at: 2026-09-16T09:14:56Z
 source: cortex-platform
 ---
 
@@ -55,6 +55,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Install the Cortex XDR Agent Using JAMF 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

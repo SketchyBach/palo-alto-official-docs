@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/6.1-eol/associated-software-and-content-versions
-fetched_at: 2026-09-06T10:53:21Z
+fetched_at: 2026-09-16T09:01:07Z
 source: cortex-platform
 ---
 

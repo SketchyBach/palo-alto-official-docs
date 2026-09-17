@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/onboard-cortex-xsiam/deployment-steps/set-up-authentication/set-up-microsoft-entra-id-as-the-identity-provider-using-saml-2.0
-fetched_at: 2026-09-06T09:19:21Z
+fetched_at: 2026-09-16T07:55:37Z
 source: cortex-platform
 ---
 
@@ -181,6 +181,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure content 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

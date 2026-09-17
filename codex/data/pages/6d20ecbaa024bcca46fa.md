@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/playbooks/playbook-development
-fetched_at: 2026-09-06T10:45:00Z
+fetched_at: 2026-09-16T08:56:56Z
 source: cortex-platform
 ---
 
@@ -115,6 +115,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure IoT Security Playbooks 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

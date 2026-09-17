@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/vunerability-management/vulnerability-policies/update-the-ignored-cves-asset-groups-and-assets-policy
-fetched_at: 2026-09-06T09:58:33Z
+fetched_at: 2026-09-16T08:45:28Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Modify a vulnerability policy 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

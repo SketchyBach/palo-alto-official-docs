@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-to-cloud/code-to-cloud/c2c-in-aspm-command-center
-fetched_at: 2026-09-06T10:11:47Z
+fetched_at: 2026-09-16T08:49:06Z
 source: cortex-platform
 ---
 

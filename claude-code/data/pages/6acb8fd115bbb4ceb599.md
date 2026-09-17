@@ -1,0 +1,150 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/prisma-access-setup/set-up-prisma-access/set-up-prisma-access-cloud-management.html
+fetched_at: 2026-09-16T09:37:19Z
+source: palo-alto-main
+---
+
+# Set Up Prisma Access (Strata Cloud Manager) Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Setup 
+
+ Set Up Prisma Access 
+
+ Set Up Prisma Access (Strata Cloud Manager) 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Set Up Prisma Access (Strata Cloud Manager) 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Set Up Prisma Access ( Strata Cloud Manager ) 
+
+ Learn how to set up your cloud service infrastructure for remote sites and mobile
+ users. 
+
+ The following workflow provides you with the summary steps that you take
+ to install and configure Prisma Access . 
+
+ Launch Strata Cloud Manager through the hub. 
+
+ Launch an internet browser and Sign In to the
+ hub . 
+
+ Launch Strata Cloud Manager . 
+
+ Specify trusted IP addresses for Prisma Access (Managed by Strata Cloud Manager) 
+ administrators. 
+
+ Only administrators that log in from these source IP addresses (and also that
+ successfully authenticate) can access Prisma Access (Managed by Strata Cloud Manager) . The IP
+ addresses must be public addresses. By default, there aren’t any trusted
+ addresses enforced (the list is set to any). To get started, find the
+ Settings menu on the left navigation panel and
+ click IP Restrictions . 
+
+ Identify your license requirements ;
+ then Activate and install the Prisma Access
+ components . 
+
+ Enable the service infrastructure and service connections that allows
+ communication between Prisma Access elements. 
+
+ Secure mobile users with GlobalProtect or Explicit Proxy, as required for your
+ deployment. 
+
+ Plan, create, and configure remote network connections. 
+
+ ( Optional ) Change the authentication method from local authentication
+ to your organization’s authentication method. 
+
+ ( Optional ) Forward logs from Strata Logging Service to an external Syslog receiver. 
+
+ ( Optional ) Check the status of Prisma Access . 
+
+ You can retrieve the status of all cloud services, including
+ Prisma Access and Strata Logging Service , and a historical record of the service
+ uptime by accessing the app instance from the hub . 
+
+ You can also sign up for email or text message notifications so that you are
+ notified when infrastructure updates are planned; when updates occur; and
+ when Palo Alto Networks® creates, updates, or resolves an incident. To sign
+ up for email updates, go to the Resources section of the hub home page and then select Service
+ Status . You can then Subscribe to
+ specific updates and incidents for your cloud services.

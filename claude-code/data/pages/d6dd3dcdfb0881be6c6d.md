@@ -1,0 +1,152 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/globalprotect/administration/globalprotect-apps/deploy-the-globalprotect-app-on-mobiles.html
+fetched_at: 2026-09-16T12:57:51Z
+source: palo-alto-main
+---
+
+# Deploy the GlobalProtect App on Mobile Devices Clear
+
+Updated on 
+
+ Aug 11, 2026 
+
+ Focus 
+
+ Home 
+
+ GlobalProtect 
+
+ GlobalProtect Administrator's Guide 
+
+ GlobalProtect Apps 
+
+ Deploy the GlobalProtect App on Mobile Devices 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ GlobalProtect 
+
+ Deploy the GlobalProtect App on Mobile Devices 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ GlobalProtect Docs 
+
+ Getting Started 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ User Guide 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.3 
+
+ 6.2 
+
+ 6.1 
+
+ 6.0 
+
+ New Features 
+
+ Previous 
+
+ Configure GlobalProtect App Log File Count 
+
+ Next 
+
+ Mobile Device Management Overview 
+
+ Deploy the GlobalProtect App on Mobile Devices 
+
+ Deploy the GlobalProtect app to devices using different methods based on the
+ platform, direct download from app store or MDM distribution. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (managed by Panorama or Strata Cloud Manager) 
+
+ Prisma Access (managed by Panorama or Strata Cloud Manager) 
+
+ GlobalProtect Gateway license or Prisma Access license with the
+ Mobile User subscription 
+
+ Mobile endpoints require the GlobalProtect app to connect to GlobalProtect™. Use the
+ GlobalProtect app compatibility matrix to
+ determine what version of the GlobalProtect app you want your users to run on their
+ endpoints. The version that an end user must download and install for successful network
+ connectivity depends on your environment. 
+
+ The app deployment method depends on the type of endpoint as follows: 
+
+ Platform Deployment Options 
+
+ iOS and Android endpoints 
+
+ From a mobile endpoint management system —If you use a
+ mobile management system, such as an MDM or EMM, you can use
+ the system to deploy and configure the GlobalProtect app.
+ See Mobile Device Management Overview .. 
+
+ From an app store —The end user can also download and
+ install the GlobalProtect app directly from the Apple App
+ Store (iOS endpoints) or from Google Play (Android
+ endpoints). For instructions on how to download and test the
+ GlobalProtect app installation, see Download and Install the GlobalProtect
+ Mobile App . 
+
+ Chromebooks 
+
+ From the Google Admin console —The Google Admin console
+ enables you to manage Chromebook settings and apps from a
+ central, web-based location. To deploy the GlobalProtect app
+ for Android on managed Chromebooks using the Google Admin
+ console, see Deploy the GlobalProtect App for Android on Managed Chromebooks Using the Google Admin Console .. 
+
+ The GlobalProtect app for Android is supported only on
+ certain
+ Chromebooks . Chromebooks that do not support
+ Android applications must continue to run the
+ GlobalProtect app for Chrome, which is not supported
+ starting with GlobalProtect app 5.0 and later. 
+
+ From Workspace ONE —You can deploy the GlobalProtect
+ app for Android on managed Chromebooks that are enrolled
+ with Workspace ONE. After you deploy the app, configure and
+ deploy a VPN profile to set up the GlobalProtect app for end
+ users automatically. To deploy the GlobalProtect app for
+ Android on managed Chromebooks using Workspace ONE, see
+ Deploy the GlobalProtect App for Android on Managed Chromebooks Using Workspace ONE .. 
+
+ Previous 
+
+ Configure GlobalProtect App Log File Count 
+
+ Next 
+
+ Mobile Device Management Overview

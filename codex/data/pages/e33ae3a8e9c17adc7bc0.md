@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/base-images-rule/create-a-base-images-rule
-fetched_at: 2026-09-06T09:36:19Z
+fetched_at: 2026-09-16T08:37:08Z
 source: cortex-platform
 ---
 
@@ -19,6 +19,8 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Cloud Security 
 
+ Rules and Policies 
+
  Base image rules 
 
  Create a base image rule 
@@ -33,7 +35,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  You can create a Base Images rule from either Rules & Policies or a Registry Image Asset Card . 
 
- How to create a base images rule from Rules & Policies : 
+ Create a base images rule from Rules & Policies : 
 
  Navigate to Posture Management → Rules & Policies → Rules → Base Images . 
 
@@ -113,6 +115,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Find the base image for an asset 
 
- Last updated 13 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

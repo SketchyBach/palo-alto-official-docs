@@ -1,0 +1,120 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/administration/license-and-activation/ngfw-support-for-prisma-agent
+fetched_at: 2026-09-16T08:21:14Z
+source: palo-alto-main
+---
+
+# NGFW Support for Prisma Agent Clear
+
+Updated on 
+
+ Thu Aug 27 20:22:38 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ License and Activation 
+
+ NGFW Support for Prisma Agent 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ NGFW Support for Prisma Agent 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ License and Activation 
+
+ Next 
+
+ Your Prisma Agent License for NGFW Deployments 
+
+ NGFW Support for Prisma Agent 
+
+ NGFW Support for Prisma Agent enables gradual adoption and management of Prisma Agents for NGFW deployments, enhancing secure access
+ capabilities. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Panorama) 
+
+ Check the prerequisites for the supported PAN-OS versions 
+
+ Prisma Agent license for NGFW deployments 
+
+ NGFW support for Prisma Agent offers a way for you to adopt and use Prisma Agents in your existing NGFW infrastructure. This feature
+ enhances secure access management while maintaining compatibility with existing
+ authentication methods and NGFW setups, offering a smooth transition path to advanced
+ Prisma Agent capabilities. 
+
+ As an administrator, you will work with several key components to implement and manage
+ this feature. The primary management platforms involved are Panorama and Strata Cloud Manager . While you can use Panorama to independently manage gateway
+ configurations, Strata Cloud Manager serves as the central hub for managing Prisma Agent -specific settings, including user authentication, agent
+ configurations, and infrastructure details . Prisma Agent integrates with
+ existing authentication infrastructures. It supports various authentication methods,
+ including Active Directory (AD), client certificate, and Cloud Identity Engine, ensuring
+ compatibility with your current setup. 
+
+ Coexistence Considerations with GlobalProtect 
+
+ NGFW for Prisma Agent supports
+ coexistence with GlobalProtect in the same deployment, enabling a gradual migration
+ strategy. This enables you to maintain your existing NGFW setup while introducing
+ Prisma Agent capabilities to your environment. While this feature supports
+ coexistence with GlobalProtect in the same deployment, having both the agents active
+ on the same endpoint is not a supported use case. 
+
+ The Prisma Agent license entitles you to use the GlobalProtect app
+ and Prisma Agent , and replaces the former GlobalProtect
+ Gateway License . 
+
+ Prisma Agent NGFW Support Requirements 
+
+ Prisma Agent for NGFW deployment requires the following components: 
+
+ Prisma Agent licenses for NGFW deployments 
+
+ Prisma Agent Manager, sometimes called endpoint manager (EPM), a
+ cloud service for centralized agent lifecycle management and visibility 
+
+ Strata Cloud Manager for managing agent configurations 
+
+ Cloud Identity Engine (CIE) for user and user group mapping during
+ authentication 
+
+ ( Optional ) Strata Logging Service (SLS) for log forwarding 
+
+ Understanding the interaction between
+ NGFW gateways and Prisma Agent is essential. The following figure illustrates
+ how the key components work together. 
+
+ Previous 
+
+ License and Activation 
+
+ Next 
+
+ Your Prisma Agent License for NGFW Deployments

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6.12-hosted-service-guide
-fetched_at: 2026-09-06T11:22:14Z
+fetched_at: 2026-09-16T09:13:33Z
 source: cortex-platform
 ---
 
@@ -27,6 +27,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Hosted Service Overview 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

@@ -1,0 +1,106 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/hardware/wf-500-b-appliance-hardware-reference/before-you-begin.html
+fetched_at: 2026-09-16T12:09:08Z
+source: palo-alto-main
+---
+
+# Before You Begin Clear
+
+Updated on 
+
+ Oct 10, 2023 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ WF-500-B Appliance Hardware Reference 
+
+ Before You Begin 
+
+ Download PDF 
+
+ WF-500-B Appliance Hardware Reference 
+
+ Before You Begin 
+
+ Table of Contents 
+
+ Filter
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Product Safety Warnings 
+
+ WF-500-B Appliance Overview 
+
+ WF-500-B Front Panel 
+
+ WF-500-B Back Panel 
+
+ Install the WF-500-B Appliance 
+
+ Install the WF-500-B Appliance in a 19" Equipment Rack 
+
+ Install the WF-500-B Appliance in a 4-Post Rack 
+
+ Connect Power to the WF-500-B Appliance 
+
+ Service the WF-500-B Appliance 
+
+ Interpret the WF-500-B LEDs 
+
+ Replace a WF-500-B Log Drive 
+
+ Replace a WF-500-B System Drive 
+
+ Replace a WF-500-B Power Supply 
+
+ WF-500-B Appliance Specifications 
+
+ WF-500-B Physical Specifications 
+
+ WF-500-B Electrical Specifications 
+
+ WF-500-B Environmental Specifications 
+
+ WF-500-B Appliance Hardware Compliance Statements 
+
+ WF-500-B Compliance Statements 
+
+ Before You Begin 
+
+ Learn how to check if your new appliance was tampered
+with during shipping, learn about third-party component support,
+and read the product safety warnings before installing the appliance. 
+
+ Read the following topics before you install or service a Palo Alto Networks® next-generation
+ firewall or appliance. The following topics apply to all Palo Alto Networks firewalls
+ and appliances except where noted. 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances 
+
+ Tamper
+Proof Statement 
+
+ Third-Party
+Component Support 
+
+ Product
+Safety Warnings 
+
+ Previous 
+
+ Next 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances

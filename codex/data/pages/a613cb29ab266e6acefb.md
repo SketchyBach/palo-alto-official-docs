@@ -1,0 +1,280 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/prisma-access-mobile-users/enable-mobile-users-to-authenticate-to-prisma-access/authentication-support-and-features.html
+fetched_at: 2026-09-17T06:45:13Z
+source: palo-alto-main
+---
+
+# Authentication Support and Features Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Mobile Users 
+
+ Enable Mobile Users to Authenticate to Prisma Access 
+
+ Authentication Support and Features 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Authentication Support and Features 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Enable Mobile Users to Authenticate to Prisma Access 
+
+ Next 
+
+ Set Up Authentication 
+
+ Authentication Support and Features 
+
+ See the services and methods you can use with Prisma
+Access to authenticate users accessing enterprise applications and
+protected resources. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access license 
+
+ Here are the services Prisma Access integrates with
+to provide authentication, and features to consider when you are
+planning your authentication set up. 
+
+ Authentication Support: 
+
+ Cloud Identity Engine 
+
+ SAML 
+
+ TACACS+ 
+
+ RADUIS 
+
+ LDAP 
+
+ Kerberos 
+
+ MFA 
+
+ Local Database
+ Authentication 
+
+ Authentication Feature Highlights: 
+
+ SSO 
+
+ Authentication
+Portal 
+
+ Authentication Sequence 
+
+ Authentication Support 
+
+ Cloud Identity Engine You deploy the Cloud Identity Engine for
+ user authentication by configuring a SAML 2.0-based identity
+ provider (IdP), a client certificate and certificate authority (CA)
+ chain, or both. After specifying how you want to authenticate your
+ users, set up your authentication profile to define your
+ authentication security policy and optionally configure the
+ authentication policy on your firewall or Panorama. 
+
+ SAML 
+ If your users access services and applications
+that are external to your network, you can use SAML to integrate
+ Prisma Access with an identity provider (IdP) that controls access
+to both external and internal services and applications. SAML single
+sign-on (SSO) enables one login to access multiple applications,
+and is helpful in environments where each user accesses many applications
+and authenticating for each one would impede user productivity. In
+this case, SAML single sign-on (SSO) enables one login to access
+multiple applications. Likewise, SAML single logout (SLO) enables
+a user to end sessions for multiple applications by logging out
+of just one session. SSO works for mobile users who access applications
+through the GlobalProtect app or users at remote networks that access
+applications through the Authentication Portal. SLO is available
+to GlobalProtect app users. 
+
+ You cannot use SAML authentication
+profiles in authentication sequences. 
+
+ TACACS+ 
+ Terminal Access Controller Access-Control
+System Plus (TACACS+) is a family of protocols that enable authentication
+and authorization through a centralized server. TACACS+ encrypts
+usernames and passwords, making it more secure than RADIUS, which
+encrypts only passwords. TACACS+ is also more reliable because it
+uses TCP, whereas RADIUS uses UDP. 
+
+ RADIUS 
+ Remote Authentication Dial-In User Service
+(RADIUS) is a broadly supported networking protocol that provides
+centralized authentication and authorization. You can also add a
+RADIUS server to Prisma Access to implement multi-factor authentication. 
+
+ LDAP 
+ Lightweight Directory Access Protocol (LDAP)
+is a standard protocol for accessing information directories. You
+can use LDAP to authenticate users who access applications or services
+through Authentication Portal. 
+
+ Kerberos 
+ Kerberos is an authentication protocol that
+enables a secure exchange of information between parties using unique
+keys (called tickets) to identify the parties. With Kerberos, you
+can authenticate users who access applications through the Authentication
+Portal. With Kerberos SSO enabled, the user needs to log in only
+for initial access to your network (such as logging in to Microsoft
+Windows). After this initial login, the user can access any browser-based
+service in the network without having to log in again until the
+SSO session expires. 
+
+ To use Kerberos, you first need a a Kerberos
+account for Prisma Access that will authenticate users. An account
+is required to create a Kerberos keytab, which is a file that contains
+the principal name and hashed password of the firewall or Panorama.
+The SSO process requires the keytab. 
+
+ Kerberos SSO is available
+only for services and applications that are internal to your Kerberos
+environment. To enable SSO for external services and applications,
+use SAML. 
+
+ MFA 
+ Muti-factor authentication (MFA) gives you
+a way to implement multiple authentication challenges of different
+types (these are called factors ) to protect your most sensitive
+services and applications. For example, you might want stronger
+authentication for key financial documents than for search engines. 
+
+ Prisma Access has a built-in list of supported MFA vendors, that’s automatically updated as new
+ vendors are added. 
+
+ Local Database
+Authentication 
+ Create a database that runs locally on Prisma
+Access and contains user accounts (usernames and passwords or hashed
+passwords) and user groups. This type of authentication is useful
+for creating user accounts that reuse the credentials of existing
+Unix accounts in cases where you know only the hashed passwords,
+not the plaintext passwords. For accounts that use plaintext passwords,
+you can also define password complexity and expiration settings.
+This authentication method is available to users who access services
+and applications through the Authentication Portal or the GlobalProtect app. 
+
+ Authentication Feature Highlights 
+
+ SSO 
+ If you’re using SAML or Kerberos, you can
+implement single sign-on (SSO), which enables users to authenticate
+only once for access to multiple services and applications. SAML
+and Kerberos support SSO. 
+
+ Authentication
+Portal 
+ Redirect web requests that match an authentication
+rule to a Prisma Access login page where they’re prompted to authenticate.
+ Prisma Access uses the information the user submits to this authentication
+portal to create or update IP address to user name mappings. 
+
+ This
+is especially useful for remote networks, so that you continue to
+have monitor and enforce traffic based on a user (or group). When
+a user initiates web traffic (HTTP or HTTPS) that matches an authentication
+rule, Prisma Access prompts the user to authenticate through the
+authentication portal. Prisma Access creates or updates the IP address
+to username mapping based on the information the user submits to
+the portal. This ensures that you know exactly who at a remote network
+site is accessing your most sensitive applications and data. 
+
+ Authentication
+Sequence 
+ If you use multiple types of authentication
+for different purposes, you can set an authentication sequence to
+rank your profiles. Prisma Access checks each profile based on your
+ranking until one successfully authenticates the user. 
+
+ Previous 
+
+ Enable Mobile Users to Authenticate to Prisma Access 
+
+ Next 
+
+ Set Up Authentication

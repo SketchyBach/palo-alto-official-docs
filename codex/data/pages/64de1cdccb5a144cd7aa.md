@@ -1,0 +1,3509 @@
+---
+url: https://docs.paloaltonetworks.com/enterprise-dlp/enterprise-dlp-admin/enterprise-dlp-overview/predefined-data-filtering-profiles
+fetched_at: 2026-09-16T12:58:08Z
+source: palo-alto-main
+---
+
+# Data Patterns, Data Dictionaries, Document Types, and Data Profiles Clear
+
+Updated on 
+
+ Sep 4, 2026 
+
+ Focus 
+
+ Home 
+
+ Enterprise DLP 
+
+ Data Patterns, Data Dictionaries, Document Types, and Data Profiles 
+
+ Download PDF 
+
+ Enterprise DLP 
+
+ Data Patterns, Data Dictionaries, Document Types, and Data Profiles 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Enterprise DLP Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features by OS Version 
+
+ New Features by Month 
+
+ Previous 
+
+ Failover and Resiliency 
+
+ Next 
+
+ Enable Role Based Access 
+
+ Data Patterns, Data Dictionaries, Document Types, and Data Profiles 
+
+ Predefined data patterns, data dictionaries, document types, and data profiles
+ included with Enterprise Data Loss Prevention (E-DLP) . 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Panorama or Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama or Strata Cloud Manager) 
+
+ Prisma Browser 
+
+ Enterprise Data Loss Prevention (E-DLP) license 
+
+ Review the Supported
+ Platforms for details on the required license
+ for each enforcement point. 
+
+ Or any of the following licenses that include the Enterprise DLP license 
+
+ Prisma Access CASB license 
+
+ Next-Generation
+CASB for Prisma Access and NGFW (CASB-X) license 
+
+ Data Security license 
+
+ Review the tabs below for all predefined data patterns, data dictionaries, document
+ types, and data profiles included with Enterprise Data Loss Prevention (E-DLP) . 
+
+ Predefined Data Dictionaries — Data dictionaries are collections of
+ curated keywords and phrases organized by business category that you add as
+ match criteria in data profiles to increase detection accuracy for sensitive
+ data such as medical terms, financial institutions, and professional
+ designations. 
+
+ Predefined Data Patterns —Regular expression (regex) data patterns that use
+ industry-standard data identifiers, keywords, and built-in logic to detect
+ sensitive data such as credit card numbers, national IDs, and tax identifiers.
+ Predefined data patterns use machine learning (ML) or regex-based detection for
+ scanned files. All predefined data patterns include Relevant
+ Geographies tags provided by Palo Alto Networks . These tags
+ provide descriptive information to indicate whether a predefined data pattern
+ applies to a specific geographic region or is globally supported. For example,
+ the predefined Source Code - go data pattern has
+ the Global tag because Go is a programming language used
+ across the globe. Conversely, the predefined ID Card - USA -
+ Driving License data pattern has the
+ USA and North America tags
+ because the match criteria is specific to this geographic region. 
+
+ You can clone predefined data patterns to add, remove, or modify the match
+ criteria. 
+
+ Predefined ML-Based Data Patterns —Data patterns that use machine learning
+ models to detect sensitive data with contextual awareness, reducing false
+ positives compared to regex-only detection. 
+
+ Cloning ML-based data patterns not supported. 
+
+ Predefined Data Profiles —Ready-to-use data profiles that combine predefined
+ data patterns with recommended match criteria configurations for common
+ compliance and data protection use cases. 
+
+ You can clone predefined data profiles to add, remove, or modify the match
+ criteria. 
+
+ Predefined Document Types — Document types are machine learning
+ (ML) based document classifiers that identify sensitive documents by their
+ content and structure, such as tax forms, financial statements, and legal
+ contracts. 
+
+ Supported Data Profile Actions —Actions that you can configure in data
+ profiles to control how Enterprise DLP responds when sensitive data is
+ detected, such as alert, block, or allow. 
+
+ Predefined Data Dictionaries 
+
+ Predefined Data Patterns 
+
+ Predefined ML-Based Data Patterns 
+
+ Predefined Document Types 
+
+ Predefined Data Profiles 
+
+ Supported Data Profile Actions 
+
+ Predefined Data Dictionaries 
+
+ Predefined data dictionaries available with Enterprise Data Loss Prevention (E-DLP) . 
+
+ Education 
+
+ Degrees and Diplomas 
+
+ Degrees and Diplomas (Acronyms) 
+
+ Education Level 
+
+ Finance 
+
+ Bank Names 
+
+ Bank Names - USA 
+
+ International Traffic in Arms Regulations (ITAR) 
+
+ Government 
+
+ US Export Control Items 
+
+ Health Insurance Providers 
+
+ Health Insurance Providers 
+
+ Insurance Providers 
+
+ Auto Insurance Providers 
+
+ Home Insurance Providers 
+
+ Life Insurance Providers 
+
+ Medical 
+
+ Allergy 
+
+ Blood Groups 
+
+ Diseases And Conditions 
+
+ Immunizations 
+
+ Lab Test 
+
+ Medical Services 
+
+ Medications 
+
+ Vital Signs 
+
+ Professional 
+
+ Human Resources 
+
+ Industry 
+
+ Licenses 
+
+ Occupation 
+
+ Trade Union Membership 
+
+ Race 
+
+ Ethnicities 
+
+ Nationality 
+
+ Social 
+
+ Criminal Activities 
+
+ Europe Political Parties 
+
+ Global Political Parties 
+
+ Religious Beliefs 
+
+ US Labor Unions 
+
+ US Political Parties 
+
+ Predefined Data Patterns 
+
+ Predefined regular expression (regex) data patterns available with Enterprise Data Loss Prevention (E-DLP) . 
+
+ Enterprise Data Loss Prevention (E-DLP) provides the following predefined regular expression (regex)
+ data patterns and file property data patterns to all users. Palo Alto Networks also
+ provides usage recommendations based on general business categories for the predefined
+ Enterprise DLP data patterns; Academia, Confidential, Employment, Financial,
+ Government, Healthcare, Legal, Marketing, or Source Code. 
+
+ Pattern matching using regex is prone to false positive detections due to the nature of
+ broad classifications. Palo Alto Networks combines Large Language Model (LLM) powered detections with
+ context aware ML models to improve the detection accuracy of existing
+ predefined regex data patterns to reduce false positive detections. Predefined data
+ patterns enhanced with an additional layer of LLM-powered ML detection capabilities are
+ marked with Augmented with ML . 
+
+ For predefined data patterns marked with
+ Augmented with ML , Enterprise DLP uses AI and advanced machine
+ learning (ML) techniques to improve its detection engine when you report a false
+ positive detection. This enables Enterprise DLP to continuously learn from your
+ feedback to reduce false positive detections and increase detection accuracy for
+ yourself and other Enterprise DLP users. For Enterprise DLP to use AI
+ and ML to learn from your false positive detections and improve its detection
+ engine: 
+
+ Files in inspected traffic must be 19 MB and smaller 
+
+ The number of traffic matches per data pattern in the data profile is 100 matches
+ or less 
+
+ Refer to the Enterprise DLP 
+ Reference Guide for more information about the proximity
+ keywords included in predefined data patterns. 
+
+ Address Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government, Healthcare, Legal, Marketing 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Address - Australia 
+
+ Yes 
+
+ Yes 
+
+ Address - Austria No Yes 
+
+ Address - Belgium No Yes 
+
+ Address - Brazil 
+ Yes 
+ Yes 
+
+ Address - Bulgaria No Yes 
+
+ Address - Canada 
+ Yes 
+ Yes 
+
+ Address - China No Yes 
+
+ Address - Croatia No Yes 
+
+ Address - Cyprus No Yes 
+
+ Address - Czech Republic No Yes 
+
+ Address - Denmark No Yes 
+
+ Address - Estonia No Yes 
+
+ Address - Finland No Yes 
+
+ Address - France No Yes 
+
+ Address - Germany No Yes 
+
+ Address - Greece No Yes 
+
+ Address - Hungary No Yes 
+
+ Address - Iceland No Yes 
+
+ Address - Ireland No Yes 
+
+ Address - Italy No Yes 
+
+ Address - Japan No Yes 
+
+ Address - Latvia No Yes 
+
+ Address - Liechtenstein No Yes 
+
+ Address - Lithuania No Yes 
+
+ Address - Luxembourg No Yes 
+
+ Address - Malta No Yes 
+
+ Address - Netherlands No Yes 
+
+ Address - New Zealand No Yes 
+
+ Address - Norway No Yes 
+
+ Address - Poland No Yes 
+
+ Address - Portugal No Yes 
+
+ Address - Romania No Yes 
+
+ Address - Slovakia No Yes 
+
+ Address - Slovenia No Yes 
+
+ Address - Spain No Yes 
+
+ Address - Sweden No Yes 
+
+ Address - Switzerland No Yes 
+
+ Address - Turkey No Yes 
+
+ Address - UK 
+ Yes 
+ Yes 
+
+ Address - US No Yes 
+
+ API Credentials Client ID Data Patterns 
+
+ Recommended For —Confidential, Financial, Government, Healthcare, Legal, Source Code 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ API Credentials Client ID - Amazon Web Services (AWS) Yes Yes 
+
+ API Credentials Client ID - Bitly No Yes 
+
+ API Credentials Client ID - Facebook No Yes 
+
+ API Credentials Client ID - Flickr No Yes 
+
+ API Credentials Client ID - Foursquare No Yes 
+
+ API Credentials Client ID - Linkedin Yes Yes 
+
+ API Credentials Client ID - Twitter Yes Yes 
+
+ API Credentials Client IDs - All No Yes 
+
+ Archive File Patterns 
+
+ Recommended For —Confidential, Financial, Government, Healthcare, Legal,
+ Source Code 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Archive Scan Threshold Exceeded No No 
+
+ Bank Data Patterns 
+
+ Recommended For —Confidential, Employment, Financial, Government, Healthcare, Legal 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Bank Account Number - Australia Yes Yes 
+
+ Bank Account Number - Canada Yes Yes 
+
+ Bank Account Number - Germany Yes Yes 
+
+ Bank Account Number - France Yes Yes 
+
+ Bank Account Number - Ireland Yes Yes 
+
+ Bank Account Number - Israel Yes Yes 
+
+ Bank Account Number - New Zealand Yes Yes 
+
+ Bank Account Number - United Kingdom Yes Yes 
+
+ Bank Account Number - United States Yes Yes 
+
+ Bank - American Bankers Association Routing Number - ABA 
+ Yes 
+ Yes 
+
+ Bank - Australia No Yes 
+
+ Bank - Canada 
+ Yes 
+ Yes 
+
+ Bank - Committee on Uniform Securities Identification Procedures number No Yes 
+
+ Bank - France No Yes 
+
+ Bank - Germany No Yes 
+
+ Bank - Ireland No Yes 
+
+ Bank - Statements No No 
+
+ Bank - UK 
+ Yes 
+ Yes 
+
+ Bank - USA 
+ Yes 
+ Yes 
+
+ Full bank account number - Australia No Yes 
+
+ Full bank account number - Canada No Yes 
+
+ Full bank account number - China Yes Yes 
+
+ Full bank account number - France No Yes 
+
+ Full bank account number - Germany Yes Yes 
+
+ Full bank account number - Ireland No Yes 
+
+ Full bank account number - Israel No Yes 
+
+ Full bank account number - Japan No Yes 
+
+ Full bank account number - New Zealand Yes Yes 
+
+ Full bank account number - United Kingdom No Yes 
+
+ Full bank account number - United States 
+ Yes 
+ Yes 
+
+ Routing Number - Australia Yes Yes 
+
+ Routing Number - Canada Yes Yes 
+
+ Routing Number - France Yes Yes 
+
+ Routing Number - Germany Yes Yes 
+
+ Routing Number - Ireland Yes Yes 
+
+ Routing Number - Israel No Yes 
+
+ Routing Number - United Kingdom Yes Yes 
+
+ Routing Number - United States Yes Yes 
+
+ Bank - IBAN Data Patterns 
+
+ Recommended For —Confidential, Employment, Financial, Government, Healthcare, Legal 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Bank - IBAN - Albania No Yes 
+
+ Bank - IBAN - Andorra No Yes 
+
+ Bank - IBAN - Austria No Yes 
+
+ Bank - IBAN - Bahrain No Yes 
+
+ Bank - IBAN - Belarus No Yes 
+
+ Bank - IBAN - Belgium No Yes 
+
+ Bank - IBAN - Bosnia and Herzegovina No Yes 
+
+ Bank - IBAN - Bosnia Herzegovina No Yes 
+
+ Bank - IBAN - Brazil No Yes 
+
+ Bank - IBAN - Bulgaria No Yes 
+
+ Bank - IBAN - Costa Rica No Yes 
+
+ Bank - IBAN - Croatia No Yes 
+
+ Bank - IBAN - Crotia No Yes 
+
+ Bank - IBAN - Cyprus No Yes 
+
+ Bank - IBAN - Czech Republic No Yes 
+
+ Bank - IBAN - Denmark No Yes 
+
+ Bank - IBAN - Dominican Republic No Yes 
+
+ Bank - IBAN - Egypt No Yes 
+
+ Bank - IBAN - El Salvador No Yes 
+
+ Bank - IBAN - Estonia No Yes 
+
+ Bank - IBAN - Finland No Yes 
+
+ Bank - IBAN - France No Yes 
+
+ Bank - IBAN - Georgia No Yes 
+
+ Bank - IBAN - Germany No Yes 
+
+ Bank - IBAN - Gibraltar No Yes 
+
+ Bank - IBAN - Greece No Yes 
+
+ Bank - IBAN - Greenland No Yes 
+
+ Bank - IBAN - Guatemala No Yes 
+
+ Bank - IBAN - Hungary No Yes 
+
+ Bank - IBAN - Iceland No Yes 
+
+ Bank - IBAN - Ireland No Yes 
+
+ Bank - IBAN - Israel No Yes 
+
+ Bank - IBAN - Italy No Yes 
+
+ Bank - IBAN - Kazakhstan No Yes 
+
+ Bank - IBAN - Kuwait No Yes 
+
+ Bank - IBAN - Latvia No Yes 
+
+ Bank - IBAN - Lebanon No Yes 
+
+ Bank - IBAN - Liechtenstein No Yes 
+
+ Bank - IBAN - Lithuania No Yes 
+
+ Bank - IBAN - Luxembourg No Yes 
+
+ Bank - IBAN - Macedonia No Yes 
+
+ Bank - IBAN - Malta No Yes 
+
+ Bank - IBAN - Mauritania No Yes 
+
+ Bank - IBAN - Mauritius No Yes 
+
+ Bank - IBAN - Moldova No Yes 
+
+ Bank - IBAN - Monaco No Yes 
+
+ Bank - IBAN - Montenegro No Yes 
+
+ Bank - IBAN - Netherlands No Yes 
+
+ Bank - IBAN - North Macedonia No Yes 
+
+ Bank - IBAN - Norway No Yes 
+
+ Bank - IBAN - Pakistan No Yes 
+
+ Bank - IBAN - Poland No Yes 
+
+ Bank - IBAN - Portugal No Yes 
+
+ Bank - IBAN - Romania No Yes 
+
+ Bank - IBAN - San Marino No Yes 
+
+ Bank - IBAN - Saudi Arabia No Yes 
+
+ Bank - IBAN - Serbia No Yes 
+
+ Bank - IBAN - Slovak Republic No Yes 
+
+ Bank - IBAN - Slovakia No Yes 
+
+ Bank - IBAN - Slovenia No Yes 
+
+ Bank - IBAN - Spain No Yes 
+
+ Bank - IBAN - Sweden No Yes 
+
+ Bank - IBAN - Switzerland No Yes 
+
+ Bank - IBAN - Tunisia No Yes 
+
+ Bank - IBAN - Turkey No Yes 
+
+ Bank - IBAN - Ukraine No Yes 
+
+ Bank - IBAN - United Arab Emirates No Yes 
+
+ Bank - IBAN - United Kingdom No Yes 
+
+ Bank - International Bank Account Number No Yes 
+
+ Company Data Patterns 
+
+ Recommended For —Confidential, Employment, Financial, Government, Legal, Marketing 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Business Number - Australia No Yes 
+
+ Companies - Canada No Yes 
+
+ Companies - China No Yes 
+
+ Companies - Forbes Largest Private Companies (2010) No Yes 
+
+ Companies - Fortune 1000 (2008) No Yes 
+
+ Companies - Fortune 500 No Yes 
+
+ Companies - France 
+ Yes 
+ Yes 
+
+ Companies - Germany 
+ Yes 
+ Yes 
+
+ Companies - Japan 
+ Yes 
+ Yes 
+
+ Companies - Korea No Yes 
+
+ Companies - Law firms in Australia No Yes 
+
+ Companies - Major US 
+ Yes 
+ Yes 
+
+ Companies - Netherlands No Yes 
+
+ Companies - SP500 No Yes 
+
+ Companies - UK 
+ Yes 
+ Yes 
+
+ Company Confidential No Yes 
+
+ Company Number - Australia No Yes 
+
+ Credit Card Data Patterns 
+
+ Recommended For —Confidential, Financial, Healthcare 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ American Express credit card number No Yes 
+
+ China Union Pay credit card number No Yes 
+
+ Credit Card CVV Yes Yes 
+
+ Credit Card Expiry Date Yes Yes 
+
+ Credit Card Number No Yes 
+
+ Date of Birth 
+ Yes 
+ Yes 
+
+ Diners Club credit card number No Yes 
+
+ Discover credit card number No Yes 
+
+ Instapayment credit card number No Yes 
+
+ JCB credit card number No Yes 
+
+ Maestro credit card number No Yes 
+
+ Mastercard credit card number No Yes 
+
+ Visa credit card number No Yes 
+
+ Voyager Credit Card No Yes 
+
+ Driver License Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government, Healthcare, Legal 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Driver License - Australia Yes Yes 
+
+ Driver License - Austria Yes Yes 
+
+ Driver License - Belgium Yes Yes 
+
+ Driver License - Brazil Yes Yes 
+
+ Driver License - Bulgaria Yes Yes 
+
+ Driver License - Canada Yes Yes 
+
+ Driver License - China No Yes 
+
+ Driver License - Croatia Yes Yes 
+
+ Driver License - Cyprus Yes Yes 
+
+ Driver License - Czech Republic Yes Yes 
+
+ Driver License - Denmark Yes Yes 
+
+ Driver License - Estonia Yes Yes 
+
+ Driver License - Finland Yes Yes 
+
+ Driver License - France Yes Yes 
+
+ Driver License - Germany Yes Yes 
+
+ Driver License - Greece Yes Yes 
+
+ Driver License - Hungary Yes Yes 
+
+ Driver License - Iceland Yes Yes 
+
+ Driver License - Ireland Yes Yes 
+
+ Driver License - Italy No Yes 
+
+ Driver License - Japan Yes Yes 
+
+ Driver License - Latvia Yes Yes 
+
+ Driver License - Liechtenstein Yes Yes 
+
+ Driver License - Lithuania Yes Yes 
+
+ Driver License - Luxembourg Yes Yes 
+
+ Driver License - Malta Yes Yes 
+
+ Driver License - Netherlands Yes Yes 
+
+ Driver License - New Zealand Yes Yes 
+
+ Driver License - Norway Yes Yes 
+
+ Driver License - Poland Yes Yes 
+
+ Driver License - Portugal Yes Yes 
+
+ Driver License - Romania Yes Yes 
+
+ Driver License - Slovakia Yes Yes 
+
+ Driver License - Slovenia Yes Yes 
+
+ Driver License - South Africa Yes Yes 
+
+ Driver License - South Korea Yes Yes 
+
+ Driver License - Spain Yes Yes 
+
+ Driver License - Sweden Yes Yes 
+
+ Driver License - Switzerland Yes Yes 
+
+ Driver License - Taiwan Yes Yes 
+
+ Driver License - Turkey Yes Yes 
+
+ Driver License - UK No Yes 
+
+ Driver License - US Yes Yes 
+
+ Driver Licence - Canada - AB Yes Yes 
+
+ Driver Licence - Canada - BC Yes Yes 
+
+ Driver Licence - Canada - MB Yes Yes 
+
+ Driver Licence - Canada - NB Yes Yes 
+
+ Driver Licence - Canada - NL Yes Yes 
+
+ Driver Licence - Canada - NS No Yes 
+
+ Driver Licence - Canada - NT Yes Yes 
+
+ Driver Licence - Canada - NU Yes Yes 
+
+ Driver Licence - Canada - ON Yes Yes 
+
+ Driver Licence - Canada - PE Yes Yes 
+
+ Driver Licence - Canada - QC Yes Yes 
+
+ Driver Licence - Canada - SK Yes Yes 
+
+ Driver Licence - Canada - YT Yes Yes 
+
+ Driver License - US - AK Yes Yes 
+
+ Driver License - US - AL Yes Yes 
+
+ Driver License - US - AR Yes Yes 
+
+ Driver License - US - AZ Yes Yes 
+
+ Driver License - US - CA Yes Yes 
+
+ Driver License - US - CO Yes Yes 
+
+ Driver License - US - CT Yes Yes 
+
+ Driver License - US - DC Yes Yes 
+
+ Driver License - US - DE Yes Yes 
+
+ Driver License - US - FL No Yes 
+
+ Driver License - US - GA Yes Yes 
+
+ Driver License - US - HI Yes Yes 
+
+ Driver License - US - IA Yes Yes 
+
+ Driver License - US - ID Yes Yes 
+
+ Driver License - US - IL No Yes 
+
+ Driver License - US - IN Yes Yes 
+
+ Driver License - US - KS Yes Yes 
+
+ Driver License - US - KY No Yes 
+
+ Driver License - US - LA Yes Yes 
+
+ Driver License - US - MA Yes Yes 
+
+ Driver License - US - MD No Yes 
+
+ Driver License - US - ME Yes Yes 
+
+ Driver License - US - MI No Yes 
+
+ Driver License - US - MN No Yes 
+
+ Driver License - US - MO Yes Yes 
+
+ Driver License - US - MS Yes Yes 
+
+ Driver License - US - MT Yes Yes 
+
+ Driver License - US - NC Yes Yes 
+
+ Driver License - US - ND Yes Yes 
+
+ Driver License - US - NE Yes Yes 
+
+ Driver License - US - NH No Yes 
+
+ Driver License - US - NJ No Yes 
+
+ Driver License - US - NM Yes Yes 
+
+ Driver License - US - NV Yes Yes 
+
+ Driver License - US - NY Yes Yes 
+
+ Driver License - US - OH Yes Yes 
+
+ Driver License - US - OK Yes Yes 
+
+ Driver License - US - OR Yes Yes 
+
+ Driver License - US - PA Yes Yes 
+
+ Driver License - US - RI Yes Yes 
+
+ Driver License - US - SC Yes Yes 
+
+ Driver License - US - SD Yes Yes 
+
+ Driver License - US - TN Yes Yes 
+
+ Driver License - US - TX Yes Yes 
+
+ Driver License - US - UT No Yes 
+
+ Driver License - US - VA Yes Yes 
+
+ Driver License - US - VT Yes Yes 
+
+ Driver License - US - WA Yes Yes 
+
+ Driver License - US - WI No Yes 
+
+ Driver License - US - WV Yes Yes 
+
+ Driver License - US - WY Yes Yes 
+
+ European Health Insurance Card (EHIC) Data Patterns 
+
+ Recommended For —Confidential, Employment, Financial, Government, Healthcare, Legal 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ EHIC - Austria Yes Yes 
+
+ EHIC - Belgium Yes Yes 
+
+ EHIC - Bulgaria Yes Yes 
+
+ EHIC - Croatia Yes Yes 
+
+ EHIC - Cyprus Yes Yes 
+
+ EHIC - Czech Republic Yes Yes 
+
+ EHIC - Denmark Yes Yes 
+
+ EHIC - Estonia Yes Yes 
+
+ EHIC - Finland No Yes 
+
+ EHIC - France No Yes 
+
+ EHIC - Germany No Yes 
+
+ EHIC - Greece Yes Yes 
+
+ EHIC - Hungary Yes Yes 
+
+ EHIC - Iceland Yes Yes 
+
+ EHIC - Ireland No Yes 
+
+ EHIC - Italy Yes Yes 
+
+ EHIC - Japan No Yes 
+
+ EHIC - Latvia Yes Yes 
+
+ EHIC - Liechtenstein No Yes 
+
+ EHIC - Lithuania Yes Yes 
+
+ EHIC - Luxembourg Yes Yes 
+
+ EHIC - Malta No Yes 
+
+ EHIC - Netherlands Yes Yes 
+
+ EHIC - Norway Yes Yes 
+
+ EHIC - Poland Yes Yes 
+
+ EHIC - Portugal No Yes 
+
+ EHIC - Romania Yes Yes 
+
+ EHIC - Slovakia Yes Yes 
+
+ EHIC - Slovenia Yes Yes 
+
+ EHIC - Spain Yes Yes 
+
+ EHIC - Sweden Yes Yes 
+
+ EHIC - UK Yes Yes 
+
+ Ethnicity Data Patterns 
+
+ Recommended For —Academia, Employment, Financial, Government, Healthcare, Legal, Marketing 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Ethnicity - Canada 
+ Yes 
+ Yes 
+
+ Ethnicity - First Nations - Canada No Yes 
+
+ Ethnicity - French Context No Yes 
+
+ Ethnicity - Nation of Origin No Yes 
+
+ Ethnicity - Nation of Origin - French No Yes 
+
+ Ethnicity - Native American No Yes 
+
+ Ethnicity - Race No Yes 
+
+ Ethnicity - UK No Yes 
+
+ Ethnicity - US No Yes 
+
+ File Property Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government, Healthcare, Legal, Marketing, Source Code 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Encoded - Arabic No No 
+
+ Encoded - Chinese No No 
+
+ Encoded - Japanese No No 
+
+ Encoded - Korean No No 
+
+ Encrypted - Standard No No 
+
+ Encrypted - Microsoft AIP No No 
+
+ Nested Zip Files No No 
+
+ Password Protected - file No No 
+
+ Financial Data Patterns 
+
+ Recommended For —Financial 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Financial - Financial Accounting No No 
+
+ Financial - Form_1120 No No 
+
+ Financial - Generic No No 
+
+ Financial - Invoice No No 
+
+ Financial - Paystubs No No 
+
+ Gender Data Patterns 
+
+ Recommended For —Academia, Employment, Government, Healthcare, Legal, Marketing 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Gender 
+ Yes 
+ Yes 
+
+ Gender - Family Relation No Yes 
+
+ Gender - Family Relation - French No Yes 
+
+ Gender - Family Relation - German No Yes 
+
+ Gender - French No Yes 
+
+ Gender - German No Yes 
+
+ Health and Healthcare Data Patterns 
+
+ Recommended For —Employment, Confidential, Government, Healthcare, Legal 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Health - CLIA No Yes 
+
+ Health - DEA No Yes 
+
+ Health - Generic No No 
+
+ Health - ICD10 Yes Yes 
+
+ Health - ICD9 (Deprecated) Yes Yes 
+
+ Health - NPI No Yes 
+
+ Health - Unstructured PHI No No 
+
+ Health ID - Australia No Yes 
+
+ Healthcare ID - Brazil No Yes 
+
+ Healthcare ID - Canada No Yes 
+
+ Healthcare Provider - AK 
+ Yes 
+ Yes 
+
+ Healthcare Provider - AL 
+ Yes 
+ Yes 
+
+ Healthcare Provider - AR Yes Yes 
+
+ Healthcare Provider - AZ 
+ Yes 
+ Yes 
+
+ Healthcare Provider - CA 
+ Yes 
+ Yes 
+
+ Healthcare Provider - CO 
+ Yes 
+ Yes 
+
+ Healthcare Provider - CT Yes Yes 
+
+ Healthcare Provider - DC 
+ Yes 
+ Yes 
+
+ Healthcare Provider - DE Yes Yes 
+
+ Healthcare Provider - FL 
+ Yes 
+ Yes 
+
+ Healthcare Provider - GA Yes Yes 
+
+ Healthcare Provider - HI Yes Yes 
+
+ Healthcare Provider - IA Yes Yes 
+
+ Healthcare Provider - ID 
+ Yes 
+ Yes 
+
+ Healthcare Provider - IL No Yes 
+
+ Healthcare Provider - IN Yes Yes 
+
+ Healthcare Provider - KS 
+ Yes 
+ Yes 
+
+ Healthcare Provider - KY 
+ Yes 
+ Yes 
+
+ Healthcare Provider - LA No Yes 
+
+ Healthcare Provider - MA No Yes 
+
+ Healthcare Provider - MD Yes Yes 
+
+ Healthcare Provider - ME No Yes 
+
+ Healthcare Provider - MI 
+ Yes 
+ Yes 
+
+ Healthcare Provider - MN Yes Yes 
+
+ Healthcare Provider - MO 
+ Yes 
+ Yes 
+
+ Healthcare Provider - MS No Yes 
+
+ Healthcare Provider - MT 
+ Yes 
+ Yes 
+
+ Healthcare Provider - NC 
+ Yes 
+ Yes 
+
+ Healthcare Provider - ND Yes Yes 
+
+ Healthcare Provider - NE 
+ Yes 
+ Yes 
+
+ Healthcare Provider - NH 
+ Yes 
+ Yes 
+
+ Healthcare Provider - NJ Yes Yes 
+
+ Healthcare Provider - NM No Yes 
+
+ Healthcare Provider - NV Yes Yes 
+
+ Healthcare Provider - NY 
+ Yes 
+ Yes 
+
+ Healthcare Provider - OH 
+ Yes 
+ Yes 
+
+ Healthcare Provider - OK Yes Yes 
+
+ Healthcare Provider - OR 
+ Yes 
+ Yes 
+
+ Healthcare Provider - PA Yes Yes 
+
+ Healthcare Provider - PR No Yes 
+
+ Healthcare Provider - RI No Yes 
+
+ Healthcare Provider - SC No Yes 
+
+ Healthcare Provider - SD 
+ Yes 
+ Yes 
+
+ Healthcare Provider - TN 
+ Yes 
+ Yes 
+
+ Healthcare Provider - TX 
+ Yes 
+ Yes 
+
+ Healthcare Provider - UT No Yes 
+
+ Healthcare Provider - VA 
+ Yes 
+ Yes 
+
+ Healthcare Provider - VT 
+ Yes 
+ Yes 
+
+ Healthcare Provider - WA 
+ Yes 
+ Yes 
+
+ Healthcare Provider - WI 
+ Yes 
+ Yes 
+
+ Healthcare Provider - WV 
+ Yes 
+ Yes 
+
+ Healthcare Provider - WY No Yes 
+
+ Healthplan Registration Number Yes Yes 
+
+ Medicare Beneficiary Identifier - MBI No Yes 
+
+ Self Harm - Suicidal No No 
+
+ Hardware ID Data Patterns 
+
+ Recommended For —Confidential, Government, Source Code 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Integrated Circuit Card Identifier (ICCID) No No 
+
+ International Mobile Station Equipment Identity (IMEI) No No 
+
+ International Mobile Station Equipment Identity Software Version No No 
+
+ MAC Address No Yes 
+
+ Magnetic Stripe Information No Yes 
+
+ Mobile Equipment Identifier (MEID) - Hexadecimal Format No No 
+
+ International Mobile Subscriber Identity IMSI No No 
+
+ Public Land Mobile Network (PLMN) Number No No 
+
+ ID Card Data Patterns 
+
+ Recommended For —Government, Compliance 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ ID Card - Argentina - National ID No No 
+
+ ID Card - Austria - Driving License No No 
+
+ ID Card - Belgium - Driving License No No 
+
+ ID Card - Brazil - National ID - CPF No No 
+
+ ID Card - Bulgaria - Driving License No No 
+
+ ID Card - Bulgaria - National ID - Uniform Civil Number No No 
+
+ ID Card - Canada - Driving License No No 
+
+ ID Card - Canada - Social Insurance Number No No 
+
+ ID Card - China - Driving License No No 
+
+ ID Card - Croatia - Driving License No No 
+
+ ID Card - Cyprus - National ID - Identity Card No No 
+
+ ID Card - Czech Republic - Driving License No No 
+
+ ID Card - Czech Republic - Passport No No 
+
+ ID Card - Denmark - Driving License No No 
+
+ ID Card - Denmark - Passport No No 
+
+ ID Card - Estonia - Driving License No No 
+
+ ID Card - Estonia - National ID - Personal Identification Code No No 
+
+ ID Card - Finland - Driving License No No 
+
+ ID Card - France - Driving License No No 
+
+ ID Card - France - National ID - INSEE No No 
+
+ ID Card - France - National ID - Social Security Number No No 
+
+ ID Card - Germany - Driving License No No 
+
+ ID Card - Germany - National ID No No 
+
+ ID Card - Germany - Passport No No 
+
+ ID Card - Greece - Driving License No No 
+
+ ID Card - Greece - National ID No No 
+
+ ID Card - Hungary - Driving License No No 
+
+ ID Card - Hungary - National ID - Personal Identification Number No No 
+
+ ID Card - Hungary - Passport No No 
+
+ ID Card - Iceland - Driving License No No 
+
+ ID Card - Iceland - National ID No No 
+
+ ID Card - India - Aadhar Card No No 
+
+ ID Card - India - Cheque Leaf No No 
+
+ ID Card - India - PAN Card No No 
+
+ ID Card - Ireland - Driving License No No 
+
+ ID Card - Ireland - National ID - Personal Public Service Number PPSN No No 
+
+ ID Card - Italy - Driving License No No 
+
+ ID Card - Italy - National ID - Fiscal Code Card Codice Fiscale No No 
+
+ ID Card - Latvia - Driving License No No 
+
+ ID Card - Latvia - National ID No No 
+
+ ID Card - Liechtenstein - Driving License No No 
+
+ ID Card - Lithuania - Driving License No No 
+
+ ID Card - Lithuania - National ID No No 
+
+ ID Card - Lithuania - Passport No No 
+
+ ID Card - Luxembourg - Driving License No No 
+
+ ID Card - Malta - Driving License No No 
+
+ ID Card - Malta - National ID No No 
+
+ ID Card - Netherlands - Driving License No No 
+
+ ID Card - Netherlands - National ID - Citizen Service Number BSN No No 
+
+ ID Card - New Zealand - Driving License No No 
+
+ ID Card - Norway - Driving License No No 
+
+ ID Card - Norway - Passport No No 
+
+ ID Card - Poland - Driving License No No 
+
+ ID Card - Portugal - Driving License No No 
+
+ ID Card - Portugal - National ID No No 
+
+ ID Card - Romania - Driving License No No 
+
+ ID Card - Romania - Passport No No 
+
+ ID Card - Slovakia - Driving License No No 
+
+ ID Card - Slovakia - National ID No No 
+
+ ID Card - Slovenia - National ID No No 
+
+ ID Card - Slovenia - Passport No No 
+
+ ID Card - South Africa - Driving License No No 
+
+ ID Card - South Korea - Driving License No No 
+
+ ID Card - Spain - Driving License No No 
+
+ ID Card - Spain - National ID - National Identity Document Documento Nacional de Identidad No No 
+
+ ID Card - Spain - National ID - NIE Number No No 
+
+ ID Card - Sweden - Driving License No No 
+
+ ID Card - Sweden - Passport No No 
+
+ ID Card - Switzerland - Driving License No No 
+
+ ID Card - Taiwan - Driving License No No 
+
+ ID Card - Turkey - Driving License No No 
+
+ ID Card - UK - Driving License No No 
+
+ ID Card - UK - National Insurance Number No No 
+
+ ID Card - UK - Passport No No 
+
+ ID Card - US - Passport No No 
+
+ ID Card - USA - Credit Card No No 
+
+ ID Card - USA - Driving License No No 
+
+ ID Card - USA - Social Security Number No No 
+
+ Internet Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government, Healthcare, Legal, Source Code 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Internet - addr_email Yes Yes 
+
+ Internet - addr_email_mailto No Yes 
+
+ Internet - addr_file No Yes 
+
+ Internet - addr_gopher No Yes 
+
+ Internet - addr_host No Yes 
+
+ Internet - addr_https No Yes 
+
+ Internet - addr_news No Yes 
+
+ Internet - ftp address No Yes 
+
+ Internet - Host Domain No Yes 
+
+ Internet - host_ip No Yes 
+
+ Internet - ipv4 No Yes 
+
+ Internet - ipv4mapped No Yes 
+
+ Internet - ipv6 No Yes 
+
+ Internet - Telnet address No Yes 
+
+ Laboratory Data Patterns 
+
+ Recommended For —Academia, Confidential, Government, Healthcare 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Laboratory Registration Number No Yes 
+
+ Legal Data Patterns 
+
+ Recommended For —Legal, Compliance 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Legal - Generic No No 
+
+ License Plate Data Patterns 
+
+ Recommended For —Confidential, Government, Legal 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ License Plate Number - CA - AB Yes Yes 
+
+ License Plate Number - CA - BC Yes Yes 
+
+ License Plate Number - CA - MB Yes Yes 
+
+ License Plate Number - CA - NB Yes Yes 
+
+ License Plate Number - CA - NL Yes Yes 
+
+ License Plate Number - CA - NS Yes Yes 
+
+ License Plate Number - CA - NT No Yes 
+
+ License Plate Number - CA - NU No Yes 
+
+ License Plate Number - CA - ON Yes Yes 
+
+ License Plate Number - CA - PE Yes Yes 
+
+ License Plate Number - CA - QC Yes Yes 
+
+ License Plate Number - CA - SK Yes Yes 
+
+ License Plate Number - CA - YT Yes Yes 
+
+ License Plate Number - Canada Yes Yes 
+
+ License Plate Number - France Yes Yes 
+
+ License Plate Number - Germany Yes Yes 
+
+ License Plate Number - Spain No Yes 
+
+ License Plate Number - UK Yes Yes 
+
+ License Plate Number - US - AK Yes Yes 
+
+ License Plate Number - US - AL Yes Yes 
+
+ License Plate Number - US - AR Yes Yes 
+
+ License Plate Number - US - AZ Yes Yes 
+
+ License Plate Number - US - CA Yes Yes 
+
+ License Plate Number - US - CO Yes Yes 
+
+ License Plate Number - US - CT Yes Yes 
+
+ License Plate Number - US - DC Yes Yes 
+
+ License Plate Number - US - DE Yes Yes 
+
+ License Plate Number - US - FL Yes Yes 
+
+ License Plate Number - US - GA Yes Yes 
+
+ License Plate Number - US - HI Yes Yes 
+
+ License Plate Number - US - IA Yes Yes 
+
+ License Plate Number - US - ID Yes Yes 
+
+ License Plate Number - US - IL Yes Yes 
+
+ License Plate Number - US - IN Yes Yes 
+
+ License Plate Number - US - KS Yes Yes 
+
+ License Plate Number - US - KY Yes Yes 
+
+ License Plate Number - US - LA Yes Yes 
+
+ License Plate Number - US - MA Yes Yes 
+
+ License Plate Number - US - MD Yes Yes 
+
+ License Plate Number - US - ME Yes Yes 
+
+ License Plate Number - US - MI Yes Yes 
+
+ License Plate Number - US - MN Yes Yes 
+
+ License Plate Number - US - MO Yes Yes 
+
+ License Plate Number - US - MS No Yes 
+
+ License Plate Number - US - MT Yes Yes 
+
+ License Plate Number - US - NC Yes Yes 
+
+ License Plate Number - US - ND Yes Yes 
+
+ License Plate Number - US - NE Yes Yes 
+
+ License Plate Number - US - NH Yes Yes 
+
+ License Plate Number - US - NJ Yes Yes 
+
+ License Plate Number - US - NM Yes Yes 
+
+ License Plate Number - US - NV Yes Yes 
+
+ License Plate Number - US - NY Yes Yes 
+
+ License Plate Number - US - OH Yes Yes 
+
+ License Plate Number - US - OK Yes Yes 
+
+ License Plate Number - US - OR Yes Yes 
+
+ License Plate Number - US - PA Yes Yes 
+
+ License Plate Number - US - RI Yes Yes 
+
+ License Plate Number - US - SC Yes Yes 
+
+ License Plate Number - US - SD Yes Yes 
+
+ License Plate Number - US - TN Yes Yes 
+
+ License Plate Number - US - TX Yes Yes 
+
+ License Plate Number - US - UT Yes Yes 
+
+ License Plate Number - US - VA Yes Yes 
+
+ License Plate Number - US - VT Yes Yes 
+
+ License Plate Number - US - WA Yes Yes 
+
+ License Plate Number - US - WI Yes Yes 
+
+ License Plate Number - US - WV Yes Yes 
+
+ License Plate Number - US - WY Yes Yes 
+
+ License Plate Number - USA Yes Yes 
+
+ Measurement Data Patterns 
+
+ Recommended For —Academia, Confidential, Government, Healthcare, Legal, Marketing 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Measurements - Metric 
+ Yes 
+ Yes 
+
+ Measurements - US & UK 
+ Yes 
+ No 
+
+ Medical Data Patterns 
+
+ Recommended For —Academia, Confidential, Healthcare 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Medical - Condition No Yes 
+
+ Medical - Drug No Yes 
+
+ Medical - Terms 
+ Yes 
+ No 
+
+ Medical - UDI Medical Device No Yes 
+
+ Medical Procedure - Speciality No Yes 
+
+ Medical Procedure - Surgical Procedure 
+ Yes 
+ Yes 
+
+ Medical Procedure - Test No Yes 
+
+ Medical Terms - Blood Test No No 
+
+ Medical Terms - Branded Drug No No 
+
+ Medical Terms - Bulgarian No No 
+
+ Medical Terms - Catalan No No 
+
+ Medical Terms - Croatian No No 
+
+ Medical Terms - Czech No No 
+
+ Medical Terms - Danish No No 
+
+ Medical Terms - Disability No No 
+
+ Medical Terms - Disease Yes No 
+
+ Medical Terms - Dutch No No 
+
+ Medical Terms - English No No 
+
+ Medical Terms - Estonian No No 
+
+ Medical Terms - Finnish No No 
+
+ Medical Terms - French No No 
+
+ Medical Terms - Generic Drug No No 
+
+ Medical Terms - German No No 
+
+ Medical Terms - Greek No No 
+
+ Medical Terms - Hungarian No No 
+
+ Medical Terms - Icelandic No No 
+
+ Medical Terms - Irish No No 
+
+ Medical Terms - Italian No No 
+
+ Medical Terms - Lab Test Yes No 
+
+ Medical Terms - Latvian No No 
+
+ Medical Terms - Lifestyle No No 
+
+ Medical Terms - Lithuanian No No 
+
+ Medical Terms - Maltese No No 
+
+ Medical Terms - Medication No No 
+
+ Medical Terms - Norwegian No No 
+
+ Medical Terms - Polish No No 
+
+ Medical Terms - Portuguese No No 
+
+ Medical Terms - Romanian No No 
+
+ Medical Terms - Slovak No No 
+
+ Medical Terms - Slovenian No No 
+
+ Medical Terms - Spanish No No 
+
+ Medical Terms - Specialty No No 
+
+ Medical Terms - Surgical Procedure No No 
+
+ Medical Terms - Swedish No No 
+
+ Name Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government, Healthcare, Legal, Marketing 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Names - Australia First Name No No 
+
+ Names - Australia Full Name No No 
+
+ Names - Australia Last Name No No 
+
+ Names - Austria First Name No No 
+
+ Names - Austria Full Name No No 
+
+ Names - Austria Last Name No No 
+
+ Names - Belgium First Name No No 
+
+ Names - Belgium Full Name No No 
+
+ Names - Belgium Last Name No No 
+
+ Names - Brazil First Name No No 
+
+ Names - Brazil Full Name No No 
+
+ Names - Brazil Last Name No No 
+
+ Names - Bulgaria First Name No No 
+
+ Names - Bulgaria Full Name No No 
+
+ Names - Bulgaria Last Name No No 
+
+ Names - Canada First Name No No 
+
+ Names - Canada Full Name No No 
+
+ Names - Canada Last Name No No 
+
+ Names - Croatia First Name No No 
+
+ Names - Croatia Full Name No No 
+
+ Names - Croatia Last Name No No 
+
+ Names - Cyprus First Name No No 
+
+ Names - Cyprus Full Name No No 
+
+ Names - Cyprus Last Name No No 
+
+ Names - Czech Republic First Name No No 
+
+ Names - Czech Republic Full Name No No 
+
+ Names - Czech Republic Last Name No No 
+
+ Names - Denmark First Name No No 
+
+ Names - Denmark Full Name No No 
+
+ Names - Denmark Last Name No No 
+
+ Names - Estonia First Name No No 
+
+ Names - Estonia Full Name No No 
+
+ Names - Estonia Last Name No No 
+
+ Names - Finland First Name No No 
+
+ Names - Finland Full Name No No 
+
+ Names - Finland Last Name No No 
+
+ Names - France First Name No No 
+
+ Names - France Full Name No No 
+
+ Names - France Last Name No No 
+
+ Names - Germany First Name No No 
+
+ Names - Germany Full Name No No 
+
+ Names - Germany Last Name No No 
+
+ Names - Greece First Name No No 
+
+ Names - Greece Full Name No No 
+
+ Names - Greece Last Name No No 
+
+ Names - Hungary First Name No No 
+
+ Names - Hungary Full Name No No 
+
+ Names - Hungary Last Name No No 
+
+ Names - Iceland First Name No No 
+
+ Names - Iceland Full Name No No 
+
+ Names - Iceland Last Name No No 
+
+ Names - Ireland First Name No No 
+
+ Names - Ireland Full Name No No 
+
+ Names - Ireland Last Name No No 
+
+ Names - Italy First Name No No 
+
+ Names - Italy Full Name No No 
+
+ Names - Italy Last Name No No 
+
+ Names - Japan First Name No No 
+
+ Names - Japan First Name - Kanji No No 
+
+ Names - Japan First Name - Latin No No 
+
+ Names - Japan Full Name No No 
+
+ Names - Japan Full Name - Kanji No No 
+
+ Names - Japan Last Name No No 
+
+ Names - Japan Last Name - Kanji No No 
+
+ Names - Japan Last Name - Latin No No 
+
+ Names - Latvia First Name No No 
+
+ Names - Latvia Full Name No No 
+
+ Names - Latvia Last Name No No 
+
+ Names - Liechtenstein First Name No No 
+
+ Names - Liechtenstein Full Name No No 
+
+ Names - Liechtenstein Last Name No No 
+
+ Names - Lithuania First Name No No 
+
+ Names - Lithuania Full Name No No 
+
+ Names - Lithuania Last Name No No 
+
+ Names - Luxembourg First Name No No 
+
+ Names - Luxembourg Full Name No No 
+
+ Names - Luxembourg Last Name No No 
+
+ Names - Malta First Name No No 
+
+ Names - Malta Full Name No No 
+
+ Names - Malta Last Name No No 
+
+ Names - Netherlands First Name No No 
+
+ Names - Netherlands Full Name No No 
+
+ Names - Netherlands Last Name No No 
+
+ Names - New Zealand First Name No No 
+
+ Names - New Zealand Full Name No No 
+
+ Names - New Zealand Last Name No No 
+
+ Names - Norway First Name No No 
+
+ Names - Norway Full Name No No 
+
+ Names - Norway Last Name No No 
+
+ Names - Poland First Name No No 
+
+ Names - Poland Full Name No No 
+
+ Names - Poland Last Name No No 
+
+ Names - Portugal First Name No No 
+
+ Names - Portugal Full Name No No 
+
+ Names - Portugal Last Name No No 
+
+ Names - Romania First Name No No 
+
+ Names - Romania Full Name No No 
+
+ Names - Romania Last Name No No 
+
+ Names - Slovakia First Name No No 
+
+ Names - Slovakia Full Name No No 
+
+ Names - Slovakia Last Name No No 
+
+ Names - Slovenia First Name No No 
+
+ Names - Slovenia Full Name No No 
+
+ Names - Slovenia Last Name No No 
+
+ Names - Spain First Name No No 
+
+ Names - Spain Full Name No No 
+
+ Names - Spain Last Name No No 
+
+ Names - Sweden First Name No No 
+
+ Names - Sweden Full Name No No 
+
+ Names - Sweden Last Name No No 
+
+ Names - Switzerland First Name No No 
+
+ Names - Switzerland Full Name No No 
+
+ Names - Switzerland Last Name No No 
+
+ Names - Turkey First Name No No 
+
+ Names - Turkey Full Name No No 
+
+ Names - Turkey Last Name No No 
+
+ Names - United Kingdom First Name No No 
+
+ Names - United Kingdom Full Name No No 
+
+ Names - United Kingdom Last Name No No 
+
+ Names - United States First Name No Yes 
+
+ Names - United States Full Name No Yes 
+
+ Names - United States Last Name No Yes 
+
+ Names - US No Yes 
+
+ National ID Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government, Healthcare, Legal 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ National ID - Albania No Yes 
+
+ National Id - Argentina Yes Yes 
+
+ National Id - Argentina ID No Yes 
+
+ National Id - Australia No Yes 
+
+ National Id - Austria - Central Register of Residents Yes Yes 
+
+ National Id - Austria Social Security Card - e-card No Yes 
+
+ National Id - Austria Social Security Card [e-card] Yes No 
+
+ National ID - Bahrain No Yes 
+
+ National Id - Belgium - Citizen Service Number - BSN Yes Yes 
+
+ National Id - Belgium - National Registration Number No Yes 
+
+ National ID - Bosnia and Herzegovina No Yes 
+
+ National ID - Brazil Yes Yes 
+
+ National Id - Brazil - CNPJ Yes Yes 
+
+ National Id - Brazil - CPF Yes Yes 
+
+ National Id - Bulgaria - Uniform Civil Number Yes Yes 
+
+ National Id - Canada - Social Insurance Number - SIN Yes Yes 
+
+ National ID - Chile 
+ Yes 
+ Yes 
+
+ National Id - China No No 
+
+ National Id - China ID No Yes 
+
+ National Id - Colombia Yes No 
+
+ National Id - Colombia National ID No Yes 
+
+ National ID - Costa Rica No Yes 
+
+ National Id - Croatia - Personal Identification Number Yes Yes 
+
+ National ID - Cuba No Yes 
+
+ National Id - Cyprus - Identity Card Yes Yes 
+
+ National Id - Czech - Birth Number Yes Yes 
+
+ National Id - Czech - National eID Card 
+ Yes 
+ Yes 
+
+ National Id - Denmark - CPR Number Yes Yes 
+
+ National ID - Dominican Republic No Yes 
+
+ National ID - Ecuador Yes Yes 
+
+ National ID - Egypt No Yes 
+
+ National Id - Estonia - Personal Identification Code Yes Yes 
+
+ National Id - Finland - Personal Identity Code - HETU 
+ Yes 
+ Yes 
+
+ National Id - France - INSEE Yes Yes 
+
+ National Id - France - Social Security Number - NIR 
+ Yes 
+ Yes 
+
+ National Id - Germany Yes Yes 
+
+ National Id - Greece Yes Yes 
+
+ National Id - Hong Kong No Yes 
+
+ National Id - Hong Kong - HKIC No No 
+
+ National Id - Hong Kong ID No Yes 
+
+ National Id - Hungary - Personal Identification Number Yes Yes 
+
+ National Id - Iceland Yes Yes 
+
+ National ID - India Yes Yes 
+
+ National ID - Indonesia No Yes 
+
+ National ID - Iran No Yes 
+
+ National Id - Ireland - Personal Public Service Number - PPSN Yes Yes 
+
+ National ID - Israel No Yes 
+
+ National Id - Italy - Fiscal Code Card - Codice Fiscale No Yes 
+
+ National Id - Italy - Fiscal Code Card [Codice Fiscale] Yes No 
+
+ National Id - Japan Corporate Number Yes Yes 
+
+ National Id - Japan My Number Yes Yes 
+
+ National ID - Kazakhstan No Yes 
+
+ National ID - Kuwait No Yes 
+
+ National Id - Latvia - Personal Public Service Number - PPSN No Yes 
+
+ National Id - Liechtenstein No Yes 
+
+ National Id - Lithuania Yes Yes 
+
+ National Id - Luxembourg Yes Yes 
+
+ National Id - Malaysia No No 
+
+ National Id - Malaysia National ID No Yes 
+
+ National Id - Malta Yes Yes 
+
+ National ID - Mexico Yes Yes 
+
+ National ID - Moldova Yes Yes 
+
+ National ID - Montenegro No Yes 
+
+ National Id - Netherlands - Citizen Service Number - BSN Yes Yes 
+
+ National ID - North Macedonia No Yes 
+
+ National Id - Norway - Identification Number - Fødselsnummer No Yes 
+
+ National Id - Norway - Identification Number [Fødselsnummer] No No 
+
+ National ID - Pakistan Yes Yes 
+
+ National ID - Paraguay Yes Yes 
+
+ National ID - Peru Yes Yes 
+
+ National ID - Philippines No Yes 
+
+ National Id - Poland Yes Yes 
+
+ National Id - Portugal Yes Yes 
+
+ National Id - Romania - Identity Card - CNP No Yes 
+
+ National ID - Russia Yes Yes 
+
+ National ID - Serbia No Yes 
+
+ National Id - Singapore - NRIC No Yes 
+
+ National Id - Singapore NRIC No Yes 
+
+ National Id - Slovakia Yes Yes 
+
+ National Id - Slovenia No Yes 
+
+ National ID - South Africa No Yes 
+
+ National ID - South Korea No Yes 
+
+ National Id - Spain - National Identity Document - Documento Nacional de Identidad No Yes 
+
+ National Id - Spain - National Identity Document [Documento Nacional de Identidad] Yes No 
+
+ National Id - Spanish NIE Number Yes Yes 
+
+ National ID - Sri Lanka Yes Yes 
+
+ National Id - Sweden - Personal Identity Number Yes Yes 
+
+ National Id - Switzerland No Yes 
+
+ National Id - Taiwan No No 
+
+ National Id - Taiwan ID No Yes 
+
+ National Id - Thailand ID Yes Yes 
+
+ National Id - Turkey No No 
+
+ National Id - Turkey Identification Number No Yes 
+
+ National Id - UAE - Emirates ID No No 
+
+ National Id - UAE Emirates ID No Yes 
+
+ National Id - UK National Insurance Number - NINO 
+ Yes 
+ Yes 
+
+ National ID - Uruguay Yes Yes 
+
+ National Id - US Social Security Number - SSN No Yes 
+
+ National ID - Venezuela Yes Yes 
+
+ Nationality Data Patterns 
+
+ Recommended For —Academia, Confidential, Government, Healthcare, Legal, Marketing 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Nationality - Australia No Yes 
+
+ Nationality - Austria No Yes 
+
+ Nationality - Belgium No Yes 
+
+ Nationality - Brazil No Yes 
+
+ Nationality - Bulgaria No Yes 
+
+ Nationality - Canada 
+ Yes 
+ Yes 
+
+ Nationality - Croatia No Yes 
+
+ Nationality - Cyprus No Yes 
+
+ Nationality - Czech Republic No Yes 
+
+ Nationality - Denmark No Yes 
+
+ Nationality - Estonia No Yes 
+
+ Nationality - Finland No Yes 
+
+ Nationality - France No Yes 
+
+ Nationality - Germany No Yes 
+
+ Nationality - Greece No Yes 
+
+ Nationality - Hungary No Yes 
+
+ Nationality - Iceland No Yes 
+
+ Nationality - Ireland No Yes 
+
+ Nationality - Italy No Yes 
+
+ Nationality - Japan No Yes 
+
+ Nationality - Latvia No Yes 
+
+ Nationality - Liechtenstein No Yes 
+
+ Nationality - Lithuania No Yes 
+
+ Nationality - Luxembourg No Yes 
+
+ Nationality - Malta No Yes 
+
+ Nationality - Netherlands No Yes 
+
+ Nationality - New Zealand No Yes 
+
+ Nationality - Norway No Yes 
+
+ Nationality - Poland No Yes 
+
+ Nationality - Portugal No Yes 
+
+ Nationality - Romania No Yes 
+
+ Nationality - Slovakia No Yes 
+
+ Nationality - Slovenia No Yes 
+
+ Nationality - South Africa No Yes 
+
+ Nationality - Spain No Yes 
+
+ Nationality - Sweden No Yes 
+
+ Nationality - Switzerland No Yes 
+
+ Nationality - Taiwan No Yes 
+
+ Nationality - Turkey No Yes 
+
+ Nationality - United Kingdom No Yes 
+
+ Nationality - United States No Yes 
+
+ Passport Data Patterns 
+
+ Recommended For —Confidential, Government, Legal 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Passport - Australia Yes Yes 
+
+ Passport - Austria Yes Yes 
+
+ Passport - Belgium Yes Yes 
+
+ Passport - Brazil Yes Yes 
+
+ Passport - Bulgaria Yes Yes 
+
+ Passport - Canada Yes Yes 
+
+ Passport - Croatia Yes Yes 
+
+ Passport - Cyprus Yes Yes 
+
+ Passport - Czech Republic Yes Yes 
+
+ Passport - Denmark Yes Yes 
+
+ Passport - Estonia Yes Yes 
+
+ Passport - Finland Yes Yes 
+
+ Passport - France Yes Yes 
+
+ Passport - Germany Yes Yes 
+
+ Passport - Greece Yes Yes 
+
+ Passport - Hungary Yes Yes 
+
+ Passport - Iceland Yes Yes 
+
+ Passport - Ireland Yes Yes 
+
+ Passport - Italy Yes Yes 
+
+ Passport - Latvia Yes Yes 
+
+ Passport - Liechtenstein Yes Yes 
+
+ Passport - Lithuania Yes Yes 
+
+ Passport - Luxembourg Yes Yes 
+
+ Passport - Malta Yes Yes 
+
+ Passport - Netherlands Yes Yes 
+
+ Passport - New Zealand Yes Yes 
+
+ Passport - Norway Yes Yes 
+
+ Passport - Poland Yes Yes 
+
+ Passport - Portugal Yes Yes 
+
+ Passport - Romania Yes Yes 
+
+ Passport - Slovakia Yes Yes 
+
+ Passport - Slovenia Yes Yes 
+
+ Passport - Spain Yes Yes 
+
+ Passport - Sweden Yes Yes 
+
+ Passport - Switzerland Yes Yes 
+
+ Passport - Turkey Yes Yes 
+
+ Passport - UK Yes Yes 
+
+ Passport - US Yes Yes 
+
+ Passport Number - China No Yes 
+
+ Passport Number - Singapore No Yes 
+
+ Passport Number - South Africa Yes Yes 
+
+ Passport Number - South Korea No Yes 
+
+ Passport Number - Taiwan Yes Yes 
+
+ Passport Number Singapore No No 
+
+ Phone Number Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government, Healthcare, Legal, Marketing 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Phone Number - Australia Yes Yes 
+
+ Phone Number - Austria No Yes 
+
+ Phone Number - Belgium No Yes 
+
+ Phone Number - Brazil 
+ Yes 
+ Yes 
+
+ Phone Number - Bulgaria No Yes 
+
+ Phone Number - Canada 
+ Yes 
+ Yes 
+
+ Phone Number - China No Yes 
+
+ Phone Number - Croatia No Yes 
+
+ Phone Number - Cyprus No Yes 
+
+ Phone Number - Czech Republic No Yes 
+
+ Phone Number - Denmark No Yes 
+
+ Phone Number - Estonia No Yes 
+
+ Phone Number - Finland No Yes 
+
+ Phone Number - France No Yes 
+
+ Phone Number - Germany No Yes 
+
+ Phone Number - Greece No Yes 
+
+ Phone Number - Greenland No Yes 
+
+ Phone Number - Hong Kong No Yes 
+
+ Phone Number - Hungary No Yes 
+
+ Phone Number - Iceland No Yes 
+
+ Phone Number - Ireland No Yes 
+
+ Phone Number - Italy No Yes 
+
+ Phone Number - Japan No Yes 
+
+ Phone Number - Latvia No Yes 
+
+ Phone Number - Liechtenstein No Yes 
+
+ Phone Number - Lithuania No Yes 
+
+ Phone Number - Luxembourg No Yes 
+
+ Phone Number - Macao No Yes 
+
+ Phone Number - Malta No Yes 
+
+ Phone Number - Netherlands No Yes 
+
+ Phone Number - New Zealand No Yes 
+
+ Phone Number - Norway No Yes 
+
+ Phone Number - Poland No Yes 
+
+ Phone Number - Portugal No Yes 
+
+ Phone Number - Romania No Yes 
+
+ Phone Number - Slovakia No Yes 
+
+ Phone Number - Slovenia No Yes 
+
+ Phone Number - South Africa No Yes 
+
+ Phone Number - South Korea No Yes 
+
+ Phone Number - Spain No Yes 
+
+ Phone Number - Sweden No Yes 
+
+ Phone Number - Switzerland No Yes 
+
+ Phone Number - Taiwan No Yes 
+
+ Phone Number - Turkey No Yes 
+
+ Phone Number - UK 
+ Yes 
+ Yes 
+
+ Phone Number - USA 
+ Yes 
+ Yes 
+
+ Postal Code Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government, Healthcare, Legal, Marketing 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Postal code - Austria No Yes 
+
+ Postal code - Australia No Yes 
+
+ Postal code - Belgium No Yes 
+
+ Postal code - Bulgaria No Yes 
+
+ Postal code - Brazil 
+ Yes 
+ Yes 
+
+ Postal code - Canada No Yes 
+
+ Postal code - Switzerland No Yes 
+
+ Postal code - Cyprus No Yes 
+
+ Postal code - Czech Republic No Yes 
+
+ Postal code - Germany No Yes 
+
+ Postal code - Denmark No Yes 
+
+ Postal code - Estonia No Yes 
+
+ Postal code - Spain No Yes 
+
+ Postal code - Finland No Yes 
+
+ Postal code - France No Yes 
+
+ Postal code - United Kingdom No Yes 
+
+ Postal code - Greenland No Yes 
+
+ Postal code - Greece No Yes 
+
+ Postal code - Croatia No Yes 
+
+ Postal code - Hungary No Yes 
+
+ Postal code - Ireland No Yes 
+
+ Postal code - Iceland No Yes 
+
+ Postal code - Italy No Yes 
+
+ Postal code - Japan No Yes 
+
+ Postal code - Liechtenstein No Yes 
+
+ Postal code - Lithuania No Yes 
+
+ Postal code - Luxembourg No Yes 
+
+ Postal code - Latvia No Yes 
+
+ Postal code - Malta No Yes 
+
+ Postal code - Netherlands No Yes 
+
+ Postal code - Norway No Yes 
+
+ Postal code - New Zealand No Yes 
+
+ Postal code - Poland No Yes 
+
+ Postal code - Portugal No Yes 
+
+ Postal code - Romania No Yes 
+
+ Postal code - Sweeden No Yes 
+
+ Postal code - Slovenia No Yes 
+
+ Postal code - Slovakia No Yes 
+
+ Postal code - Turkey No Yes 
+
+ Postal code - Taiwan No Yes 
+
+ Postal code - United States 
+ Yes 
+ Yes 
+
+ Postal code - South Africa No Yes 
+
+ Profanity Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government, Healthcare, Legal, Marketing, Source Code 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Profanity - Biological No Yes 
+
+ Profanity - Blasphemous No Yes 
+
+ Profanity - Censored No Yes 
+
+ Profanity - Homophobic No Yes 
+
+ Profanity - Personal No Yes 
+
+ Profanity - Racial No Yes 
+
+ Profanity - Sexual No Yes 
+
+ Secret Key Data Patterns 
+
+ Recommended For —Confidential, Source Code 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ API Access Token No Yes 
+
+ Cloud DB credential No No 
+
+ Private Key No Yes 
+
+ Public Land Mobile Network PLMN Number No Yes 
+
+ Secret Key - All No Yes 
+
+ Secret Key - AWS Access Key ID Yes Yes 
+
+ Secret Key - AWS Secret Access Key Yes Yes 
+
+ Secret Key - Bitly No Yes 
+
+ Secret Key - DSA Key No Yes 
+
+ Secret Key - DSA, RSA & PEM No No 
+
+ Secret Key - Facebook No Yes 
+
+ Secret Key - Flicker Yes Yes 
+
+ Secret Key - Foursquare No Yes 
+
+ Secret Key - Google Cloud Access Key ID No Yes 
+
+ Secret Key - Google Cloud Secret Access Key Yes Yes 
+
+ Secret Key - Linkedin Yes Yes 
+
+ Secret Key - PEM Key No Yes 
+
+ Secret Key - RSA Key No Yes 
+
+ Secret Key - RSA Private Key Yes Yes 
+
+ Secret Key - Twitter No Yes 
+
+ Source Code Data Patterns 
+
+ Recommended For —Confidential, Source Code 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Source Code - Cfamily No No 
+
+ Source Code - Generic No No 
+
+ Source Code - go No No 
+
+ Source Code - html No No 
+
+ Source Code - java No No 
+
+ Source Code - javascript No No 
+
+ Source Code - perl No No 
+
+ Source Code - powershell No No 
+
+ Source Code - python No No 
+
+ Source Code - r No No 
+
+ Source Code - ruby No No 
+
+ Source Code - swift No No 
+
+ Source Code - vbs No No 
+
+ Source Code - verilog No No 
+
+ Source Code - vhdl No No 
+
+ Source Code - x86_assembly No No 
+
+ Source Code - xml No No 
+
+ SWIFT/BIC Code 
+ Yes 
+ Yes 
+
+ Tax ID Data Patterns 
+
+ Recommended For —Confidential, Employment, Financial, Government, Legal 
+
+ Pattern Name Augmented with ML Local Detection 
+
+ Tax File Number - Australia No Yes 
+
+ Tax Id - Australia Yes Yes 
+
+ Tax Id - Austria Yes Yes 
+
+ Tax Id - Belgium Yes Yes 
+
+ Tax Id - Brazil Yes Yes 
+
+ Tax Id - Bulgaria Yes Yes 
+
+ Tax Id - Canada Yes Yes 
+
+ Tax ID - China No Yes 
+
+ Tax ID - Costa Rica Yes Yes 
+
+ Tax Id - Croatia Yes Yes 
+
+ Tax Id - Cyprus No Yes 
+
+ Tax Id - Czech Republic Yes Yes 
+
+ Tax Id - Denmark Yes Yes 
+
+ Tax ID - Dominican Republic Yes Yes 
+
+ Tax Id - Estonia Yes Yes 
+
+ Tax Id - Finland Yes Yes 
+
+ Tax Id - France No Yes 
+
+ Tax Id - Germany Yes Yes 
+
+ Tax Id - Greece Yes Yes 
+
+ Tax Id - Hungary Yes Yes 
+
+ Tax Id - Iceland Yes Yes 
+
+ Tax Id - India - PAN Yes Yes 
+
+ Tax Id - Ireland Yes Yes 
+
+ Tax Id - Italy No Yes 
+
+ Tax Id - Japan Yes Yes 
+
+ Tax Id - Latvia Yes Yes 
+
+ Tax Id - Liechtenstein Yes Yes 
+
+ Tax Id - Lithuania No Yes 
+
+ Tax Id - Luxembourg Yes Yes 
+
+ Tax Id - Malta Yes Yes 
+
+ Tax Id - Netherlands Yes Yes 
+
+ Tax Id - New Zealand Yes Yes 
+
+ Tax Id - Norway Yes Yes 
+
+ Tax Id - Poland Yes Yes 
+
+ Tax Id - Portugal Yes Yes 
+
+ Tax Id - Romania Yes Yes 
+
+ Tax Id - Slovakia Yes Yes 
+
+ Tax Id - Slovenia Yes Yes 
+
+ Tax ID - South Africa Yes Yes 
+
+ Tax ID - South Korea No Yes 
+
+ Tax Id - Spain Yes Yes 
+
+ Tax Id - Sweden Yes Yes 
+
+ Tax Id - Switzerland No Yes 
+
+ Tax ID - Taiwan No Yes 
+
+ Tax Id - Turkey Yes Yes 
+
+ Tax Id - UK - UTR Yes Yes 
+
+ Tax Id - US - TIN Yes Yes 
+
+ Predefined ML-Based Data Patterns 
+
+ The predefined machine learning (ML) based data patterns available with Enterprise Data Loss Prevention (E-DLP) . 
+
+ The following are the predefined data patterns available with Enterprise Data Loss Prevention (E-DLP) 
+ that use machine learning (ML) detection for scanned files. Review the Supported Applications to learn more about the
+ maximum file sizes Enterprise DLP supports. 
+
+ Data patterns with the OCR Required label detect sensitive data in image
+ files only and do not match text content. 
+
+ Bank Data Patterns 
+
+ Recommended For —Confidential, Employment, Financial, Government,
+ Healthcare, Legal 
+
+ ( OCR Required ) ID Card -
+ India - Cheque Leaf 
+
+ Credit Card Data Patterns 
+
+ Recommended For —Confidential, Healthcare, Financial 
+
+ ( OCR Required ) ID Card
+ - USA - Credit Card 
+
+ Driver's License Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government,
+ Healthcare, Legal 
+
+ OCR Required for all data
+ patterns . 
+
+ Driver License - US 
+ All predefined
+ Driver License - US are regex data
+ patterns augmented by ML detection methods. 
+
+ ID Card - Austria - Driving License 
+
+ ID Card - Belgium - Driving License 
+
+ ID Card - Bulgaria - Driving License 
+
+ ID Card - Canada - Driving License 
+
+ ID Card - China - Driving License 
+
+ ID Card - Croatia - Driving License 
+
+ ID Card - Czech Republic - Driving License 
+
+ ID Card - Denmark - Driving License 
+
+ ID Card - Estonia - Driving License 
+
+ ID Card - Finland - Driving License 
+
+ ID Card - France - Driving License 
+
+ ID Card - Germany - Driving License 
+
+ ID Card - Greece - Driving License 
+
+ ID Card - Hungary - Driving License 
+
+ ID Card - Iceland - Driving License 
+
+ ID Card - Ireland - Driving License 
+
+ ID Card - Italy - Driving License 
+
+ ID Card - Latvia - Driving License 
+
+ ID Card - Lithuania - Driving License 
+
+ ID Card - Luxembourg - Driving License 
+
+ ID Card - Malta - Driving License 
+
+ ID Card - Netherlands - Driving License 
+
+ ID Card - Norway - Driving License 
+
+ ID Card - Poland - Driving License 
+
+ ID Card - Portugal - Driving License 
+
+ ID Card - Romania - Driving License 
+
+ ID Card - Slovakia - Driving License 
+
+ ID Card - South Africa - Driving License 
+
+ ID Card - South Korea - Driving License 
+
+ ID Card - Spain - Driving License 
+
+ ID Card - Sweden - Driving License 
+
+ ID Card - Switzerland - Driving License 
+
+ ID Card - Taiwan - Driving License 
+
+ ID Card - Turkey - Driving License 
+
+ ID Card - UK - Driving License 
+
+ ID Card - USA - Driving License 
+
+ Financial Data Patterns 
+
+ Recommended For —Employment, Confidential, Government, Healthcare,
+ Legal 
+
+ Financial - Financial Accounting 
+
+ Financial - Generic 
+
+ Financial - Personal Finance 
+
+ Health and Healthcare Data Patterns 
+
+ Recommended For —Employment, Confidential, Government, Healthcare,
+ Legal 
+
+ Health - Generic 
+
+ Health - Unstructured PHI 
+
+ ( OCR Required ) ID Card
+ - UK - National Insurance Number 
+
+ Legal Data Patterns 
+
+ Recommended For —Employment, Confidential, Government, Healthcare,
+ Legal 
+
+ Legal - Contractual Agreements 
+
+ Legal - Generic 
+
+ National ID Data Patterns 
+
+ Recommended For —Academia, Confidential, Employment, Financial, Government,
+ Healthcare, Legal 
+
+ OCR Required for all data
+ patterns . 
+
+ ID Card - Argentina - National ID 
+
+ ID Card - Brazil - National ID - CPF 
+
+ ID Card - Bulgaria - National ID - Uniform Civil Number 
+
+ ID Card - Canada - Social Insurance Number 
+
+ ID Card - Cyprus - National ID - Identity Card 
+
+ ID Card - Estonia - National ID - Personal Identification Number 
+
+ ID Card - France - National ID - INSEE 
+
+ ID Card - France - National ID - Social Security Number 
+
+ ID Card - Germany - National ID 
+
+ ID Card - Greece - National ID 
+
+ ID Card - Hungary - National ID - Personal Identification Number 
+
+ ID Card - Iceland - National ID 
+
+ ID Card - Ireland - National ID - Personal Public Service Number PPSN 
+
+ ID Card - India - Aadhar Card 
+
+ ID Card - India - PAN Card 
+
+ ID Card - Italy - National ID - Fiscal Code Card Codice Fiscale 
+
+ ID Card - Latvia - National ID 
+
+ ID Card - Lithuania - National ID 
+
+ ID Card - Malta - National ID 
+
+ ID Card - Netherlands - National ID - Citizen Service Number BSN 
+
+ ID Card - Portugal - National ID 
+
+ ID Card - Slovakia - National ID 
+
+ ID Card - Slovenia - National ID 
+
+ ID Card - Spain - National ID - National Identity Document Documento
+ Nacional de Identidad 
+
+ ID Card - Spain - National ID - NIE Number 
+
+ ID Card - USA - Social Security Number 
+
+ Passport Data Patterns 
+
+ Recommended For —Confidential, Government, Legal 
+
+ OCR Required for all data
+ patterns . 
+
+ ID Card - Czech Republic - Passport 
+
+ ID Card - Denmark - Passport 
+
+ ID Card - Germany - Passport 
+
+ ID Card - Hungary - Passport 
+
+ ID Card - Lithuania - Passport 
+
+ ID Card - Norway - Passport 
+
+ ID Card - Romania - Passport 
+
+ ID Card - Slovenia - Passport 
+
+ ID Card - Sweden - Passport 
+
+ ID Card - US - Passport 
+
+ ID Card - UK - Passport 
+
+ Secret Key Data Patterns 
+
+ Recommended For —Confidential 
+
+ Application Credential 
+
+ Source Code Data Patterns 
+
+ Recommended For —Confidential, Source Code 
+
+ Many of the predefined source code data patterns are ML-based data patterns. 
+
+ Source Code - Cfamily 
+
+ Source Code - Generic 
+
+ Source Code - go 
+
+ Source Code - html 
+
+ Source Code - java 
+
+ Source Code - javascript 
+
+ Source Code - perl 
+
+ Source Code - powershell 
+
+ Source Code - python 
+
+ Source Code - r 
+
+ Source Code - ruby 
+
+ Source Code - swift 
+
+ Source Code - vbs 
+
+ Source Code - verilog 
+
+ Source Code - vhdl 
+
+ Source Code - x86_assembly 
+
+ Source Code - xml 
+
+ Predefined Document Types 
+
+ Predefined document types included with Enterprise Data Loss Prevention (E-DLP) . 
+
+ Some predefined document types were originally predefined ML-based data patterns.
+ If you have data profiles using a predefined document type converted from
+ ML-based data patterns: 
+
+ All existing data profile inspection will continue to function as
+ expected. 
+
+ All data profiles referencing the converted predefined ML-based data
+ patterns should be updated to reference the appropriate
+ predefined document types instead of the predefined ML-based
+ data pattern. 
+
+ Bank Document Types 
+
+ Recommended For —Confidential, Employment, Financial, Government,
+ Healthcare, Legal 
+
+ Bank - Bankruptcy Filings 
+
+ Bank - Statements 
+
+ Financial Document Types 
+
+ Recommended For —Employment, Confidential, Government, Healthcare,
+ Legal 
+
+ Financial - Form_1040 
+
+ Financial - Form_1099 
+
+ Financial - Form_1120 
+
+ Financial - Form_w-2 
+
+ Financial - Form_w-9 
+
+ Financial - Invoice 
+
+ Financial - Other Tax Form 
+
+ Financial - Paystubs 
+
+ Legal Document Types 
+
+ Recommended For —Employment, Confidential, Government, Healthcare,
+ Legal 
+
+ Legal - Business Agreements 
+
+ Legal - Lawsuits 
+
+ Legal - Merger and acquisition 
+
+ Legal - Patent Filings 
+
+ Source Code Document Types 
+
+ Recommended For —Confidential, Source Code 
+
+ Many of the predefined source code data patterns are ML-based data patterns . 
+
+ Source Code - batchfile 
+
+ Source Code - clojure 
+
+ Source Code - cmake 
+
+ Source Code - cobol 
+
+ Source Code - coffeescript 
+
+ Source Code - css 
+
+ Source Code - dart 
+
+ Source Code - dm 
+
+ Source Code - dockerfile 
+
+ Source Code - elixir 
+
+ Source Code - erlang 
+
+ Source Code - fortran 
+
+ Source Code - groovy 
+
+ Source Code - haskell 
+
+ Source Code - julia 
+
+ Source Code - kotlin 
+
+ Source Code - lisp 
+
+ Source Code - lua 
+
+ Source Code - makefile 
+
+ Source Code - matlab 
+
+ Source Code - ocaml 
+
+ Source Code - pascal 
+
+ Source Code - php 
+
+ Source Code - prolog 
+
+ Source Code - rust 
+
+ Source Code - scala 
+
+ Source Code - shell 
+
+ Source Code - SQL 
+
+ Source Code - tex 
+
+ Source Code - typescript 
+
+ Predefined Data Profiles 
+
+ Table describing the predefined data profiles provided with Enterprise Data Loss Prevention (E-DLP) . 
+
+ The following table describes the predefined data profiles provided with Enterprise Data Loss Prevention (E-DLP) : 
+
+ Predefined Data Profile Scans For 
+
+ Bulk CCN 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ Credit card numbers or Voyager Credit card
+numbers (more than 100). 
+
+ CCPA 
+ California Consumer Privacy Act compliance. 
+
+ Commonwealth of Australia - The Privacy
+Act of 1988 
+
+ Detects medical conditions or diseases and
+lifestyle keywords that relate to medical conditions when found
+with PII data such as TFN and Passport. 
+
+ Corporate Financial Docs 
+ Financial accounting and generic financial
+information. 
+
+ Financial Information 
+ Bank statements, bank routing numbers, credit
+card numbers (strict checking), bankruptcy filings. 
+
+ GDPR 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ Driver's License numbers, Tax IDs, National
+IDs, Passport numbers. 
+
+ Gramm-Leach-Bliley Act (GLBA) 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ Credit card numbers, Voyager credit card
+numbers, Magnetic stripe information, Tax Id-US (TIN), National
+ID-US, Social Security Number (SSN). 
+
+ Healthcare 
+ Clinical Laboratory Improvement Amendments
+(CLIA) numbers, Drug Enforcement Administration (DEA) numbers, and
+other healthcare documents. 
+
+ HIPAA 
+
+ Scans for National ID - US, Social Security
+Number - SSN, US - Name, Date of Birth, Medical Condition, Address
+- US. 
+
+ Identifies medical conditions or diseases, impairments
+lists under social security for the purposes of disability evaluation, and
+lifestyle keywords that relate to medical conditions. 
+
+ Intellectual Property 
+ Source code, AWS secret keys, access keys,
+company confidential. 
+
+ Intellectual Property - Basic 
+
+ Source code, AWS secret keys, access keys, company confidential. 
+
+ The Intellectual Property - Basic data filtering profile
+ contains a subset of data patterns included in the Intellectual
+ Property data filtering profile. 
+
+ Legal 
+ Legal documents including lawsuits, M&A,
+standard business agreements, patents, bankruptcy filings. 
+
+ Personal Health Information (PHI) 
+ Medical codes; ICD-9, ICD-10, NPI codes,
+Clinical Laboratory Improvement Amendments (CLIA) number, Drug Enforcement Administration
+(DEA) number, and more. 
+
+ PHIPA 
+
+ Identifies medical conditions or diseases
+and lifestyle keywords that relate to medical conditions. Detects
+if Healthcare ID is present with other medical or PII data. 
+
+ PIPEDA 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ Detects highly sensitive information such
+as SIN, Passport, CCN exist with other PII or PCI. 
+
+ Personally-Identifiable Information (PII) - Basic 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ Tax IDs and National IDs. 
+
+ Personally-Identifiable Information (PII) 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ Tax IDs, National IDs, Passport numbers,
+and Driver’s License numbers. 
+
+ POPIA 
+
+ Detects personally identifiable information such as Driver's License,
+ National ID, Passport Number, and Tax ID for South Africa. 
+
+ Profanity 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ Censored, personal, includes/excludes, homophobic,
+sexual. 
+
+ Secrets and Credentials 
+ Cloud database credentials, Application
+credentials, API access tokens, Private keys, miscellaneous secret
+keys. 
+
+ Self Harm 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ Suicidal intentions. 
+
+ Sensitive Content 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ National ID, Bank information, AWS Secret keys
+or access keys, company confidential, CCN. 
+
+ SOX 
+
+ Identifies financial content such as invoice,
+personal finance, financial accounting. 
+
+ U.K. PIOCP 
+
+ Predefined Prisma Browser Data
+ Profile 
+
+ Tax IDs or National IDs. 
+
+ Supported Data Profile Actions 
+
+ Supported Enterprise Data Loss Prevention (E-DLP) data profile actions. 
+
+ Enterprise Data Loss Prevention (E-DLP) supports creating, reading, updating, and deleting data profiles . Review the tables below to
+ understand where a data profile can be created, viewed, updated, and deleted based on
+ the types of data patterns defined in the data profile. 
+
+ Data Profiles Containing Regex Data
+ Patterns 
+
+ Platform 
+
+ Create 
+
+ Read 
+
+ Update 
+
+ Delete 
+
+ Archive/Restore 
+
+ Strata Cloud Manager 
+
+ Supported Supported Supported 
+
+ Not Supported 
+
+ Supported 
+
+ Panorama 
+
+ Supported Supported Supported Supported Not Supported 
+
+ Data Profiles Containing Advanced Detection Methods or
+ Nested Data Profiles 
+
+ Platform 
+
+ Create 
+
+ Read 
+
+ Update 
+
+ Delete 
+
+ Archive/Restore 
+
+ Strata Cloud Manager 
+
+ Supported Supported Supported 
+
+ Not Supported 
+
+ Supported 
+
+ Panorama 
+
+ Not Supported 
+
+ Supported 
+
+ Not Supported 
+
+ Not Supported 
+
+ Not Supported 
+
+ Granular Data Profiles 
+
+ Platform 
+
+ Create 
+
+ Read 
+
+ Update 
+
+ Delete 
+
+ Archive/Restore 
+
+ Strata Cloud Manager 
+
+ Supported Supported Supported 
+
+ Not Supported 
+
+ Supported 
+
+ Panorama 
+
+ Not Supported 
+
+ Supported 
+
+ Not Supported 
+
+ Not Supported 
+
+ Not Supported 
+
+ Previous 
+
+ Failover and Resiliency 
+
+ Next 
+
+ Enable Role Based Access

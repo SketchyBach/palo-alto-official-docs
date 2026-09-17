@@ -1,91 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/hardware/ion-2000-hardware-reference/install-ion-2000/rack-mount-the-ion-2000
-fetched_at: 2026-08-13T16:33:53Z
+fetched_at: 2026-09-15T15:14:21Z
 source: palo-alto-main
 ---
 
 # Rack Mount the ION 2000 Clear
 
-Rack Mount the ION 2000 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- ION 2000 Hardware Reference 
-
- : 
- Rack Mount the ION 2000 
-
- Updated on 
-
- Thu Jun 06 05:09:04 PDT 2024 
-
- Focus 
-
- Download PDF 
-
- English 
-
- 中文 (Chinese Simplified) 
-
- Español (Spanish) 
-
- Filter
-
- Expand all | Collapse all 
-
- Before You Begin 
-
- Tamper Proof Statement 
-
- Third-Party Component Support 
-
- Product Safety Warnings 
-
- ION 2000 Overview 
-
- ION 2000 
-
- ION 2000 Ports 
-
- ION 2000 Front Panel with LEDs 
-
- ION 2000 Specifications 
-
- ION Device Compliance Statement 
-
- ION 2000 Fail-to-Wire Cabling Matrix 
-
- ION 2000 Installation Kit Components 
-
- Power on the ION 2000 
-
- Install ION 2000 
-
- Rack Mount the ION 2000 
-
- Wall Mount the ION 2000 
-
- Set Up the ION 2000 with an Existing Router 
-
- Set Up the ION 2000 by Replacing the Router 
-
- Updated on 
+Updated on 
 
  Thu Jun 06 05:09:04 PDT 2024 
 
@@ -189,6 +110,4 @@ the rack.
 
  Next 
 
- Wall Mount the ION 2000 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Wall Mount the ION 2000

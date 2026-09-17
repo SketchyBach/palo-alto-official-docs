@@ -1,0 +1,99 @@
+---
+url: https://docs.prismacloud.io/admin-guide/32/secrets/secrets-stores/azure-key-vault
+fetched_at: 2026-09-16T13:37:37Z
+source: prisma-cloud
+---
+
+# Azure Key Vault | 32 | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Compute Edition 
+
+ Admin Guide 
+
+ 32 
+
+ Secrets 
+
+ Secrets stores 
+
+ Azure Key Vault 
+
+ You can integrate Prisma Cloud with Azure Key Vault. First configure Prisma Cloud to access your Key Vault, then create rules to inject the relevant secrets into their associated containers. 
+
+ Prerequisites: You have created a secret in Key Vault. 
+
+ Create an Azure servicePrincipal in your Azure AD Tenant 
+
+ Use AZ CLI to create a servicePrincipal and obtain the json credential file. 
+
+ Authenticate to your Azure tenant. 
+
+ Ask Copy 
+
+ $ az login 
+
+ Create a servicePrincipal 
+
+ Ask Copy 
+
+ $ az ad sp create-for-rbac 
+
+ Save the resulting json output.+ 
+
+ Ask Copy 
+
+ { 
+ "appId": "xxxxxxxx-xxxxx-xxxx-xxxxxxxx", 
+ "displayName": "azure-cli-2018-11-01-xx-xx-xx", 
+ "name": "http://azure-cli-2018-11-01-xx-xx-xx", 
+ "password": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", 
+ "tenant": "xxxxxxxxxxxxxxxxxxxxxxxxxxx" 
+ } 
+
+ In the Azure Key Vault, add the servicePrincipal to the Access Policies with the following permissions: 
+
+ Ask Copy 
+
+ secrets/get permission 
+ secrets/list permission 
+
+ In the Prisma Cloud Console, go to Manage > Authentication > Secrets . 
+
+ Click Add store . 
+
+ Enter a name for the vault. This name is used when you create rules to inject secrets into specific containers. 
+
+ For Type , select Azure Key Vault . 
+
+ For Address , enter https://<vault-name>.vault.azure.net . This address can be found in the Azure Key Vault’s properties in the DNS Name element. 
+
+ In Credential , click Add new . 
+
+ If you create a credential in the credentials store ( Manage > Authentication > Credentials store ), your service principal authenticates with a password. 
+
+ Enter a name for the credentials. 
+
+ In Type , select Azure . 
+
+ In Service Key , enter the JSON credentials returned from the az ad sp create-for-rbac command. 
+
+ Click Save . 
+
+ Click Add . 
+
+ After adding the new store, Prisma Cloud tries conecting to your vault. If it is successful, the dialog closes, and an entry is added to the table. Otherwise, any connection errors are displayed directly in the configuration dialog. 
+
+ Next, inject a secret into a container . 
+
+ Previous AWS Systems Manager Parameters Store 
+
+ Next CyberArk Enterprise Password Vault 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

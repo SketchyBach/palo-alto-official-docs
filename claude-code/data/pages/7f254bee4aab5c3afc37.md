@@ -1,0 +1,72 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/strata-logging-service/log-reference/saas-security-logs.html
+fetched_at: 2026-09-16T09:31:14Z
+source: palo-alto-main
+---
+
+# SaaS Security Logs Clear
+
+Updated on 
+
+ Fri Sep 11 10:21:34 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Logging Service 
+
+ Strata Logging Service Log Reference 
+
+ SaaS Security Logs 
+
+ Download PDF 
+
+ Strata Logging Service 
+
+ SaaS Security Logs 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Logging Service Docs 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Release Notes 
+
+ Log Reference 
+
+ New Features 
+
+ Previous 
+
+ SD-WAN Traffic LEEF Fields 
+
+ Next 
+
+ Detection 
+
+ SaaS Security Logs 
+
+ SaaS Security is an integrated Next-Generation CASB (Cloud Access Security Broker)
+ solution. It is designed to provide visibility and protection for both sanctioned and
+ unsanctioned (Shadow IT) applications while maintaining compliance and stopping
+ threats. 
+
+ Detection 
+
+ Previous 
+
+ SD-WAN Traffic LEEF Fields 
+
+ Next 
+
+ Detection

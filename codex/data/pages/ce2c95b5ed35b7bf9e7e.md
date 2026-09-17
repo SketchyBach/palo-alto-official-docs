@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/ci-cd-security/credential-hygiene/appsec-cicd-78
-fetched_at: 2026-09-06T11:14:30Z
+fetched_at: 2026-09-16T09:10:48Z
 source: cortex-platform
 ---
 

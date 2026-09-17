@@ -1,0 +1,108 @@
+---
+url: https://docs.prismacloud.io/content-collections/search-and-investigate
+fetched_at: 2026-09-16T13:37:47Z
+source: prisma-cloud
+---
+
+# Search and Investigate | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Enterprise Edition 
+
+ Content Collections 
+
+ Search and Investigate 
+
+ Search and Investigate 
+
+ Your cloud security teams perform in-depth analysis and investigation of security issues within your cloud applications and infrastructure. Use Investigate to get answers to questions related to security risks and incidents from Code to Cloud with a simple and intuitive point-and-click interface that is powered by Natural Language Processing (NLP). The keyword search provides a curated list of results with rich visualization. You can then drill down the results to explore data, modify and save the query, and create custom policies to receive alerts within minutes of a policy violation. 
+
+ Use Investigate > Search to find the latest security incidents identified in your cloud environment and explore what risk factors could have contributed to the incident, for example: 
+
+ Which are the EC2 instances that have risky ports open to the internet, have overly permissive IAM permissions, and contain critical vulnerabilities? 
+
+ Are there any S3 buckets with encryption disabled? 
+
+ Are there any virtual machines that are directly accessible from the internet? 
+
+ Which cloud resources have exploitable vulnerabilities that need to be patched? 
+
+ Which assets in your cloud environment are impacted by the latest log5j vulnerability? 
+
+ You can use Prisma Cloud Copilot to search and investigate using natural language queries. 
+
+ What do you want to do? 
+
+ Start here 
+
+ Launch your query and search using keywords 
+
+ Launch Your Query 
+
+ Review query types 
+
+ Query Types and Required Permissions 
+
+ Understand Prisma Cloud findings and finding types 
+
+ Prisma Cloud Findings 
+
+ Build and modify your query using simple or advanced modes 
+
+ Build and Modify Queries 
+
+ Explore data and findings in graph and table views and create custom policies 
+
+ Explore Data and Create Custom Attack Path Policies 
+
+ Save your query for future use after exploring data and run background jobs 
+
+ Query Library and Background Jobs 
+
+ Get started with code to cloud tracing for vulnerabilities 
+
+ Code to Cloud Tracing for Vulnerabilities 
+
+ What’s next? 
+
+ Review attributes and examples for the query types using advanced mode 
+
+ Asset 
+
+ Asset Configuration 
+
+ Application Asset 
+
+ Vulnerability 
+
+ Application 
+
+ Permissions 
+
+ Network Configuration 
+
+ Network Flow 
+
+ Audit Event 
+
+ Appendix 
+
+ RQL Operators 
+
+ RQL Examples 
+
+ RQL FAQs 
+
+ Built a query you think would be useful to other customers? Contribute using Edit on Github link provided on each page. 
+
+ Previous Trusted IP Addresses on Prisma Cloud 
+
+ Next Launch Your Query 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

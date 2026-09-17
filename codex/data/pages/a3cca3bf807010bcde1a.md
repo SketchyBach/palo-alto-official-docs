@@ -1,0 +1,182 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/configure-dynamic-privilege-access-settings/use-the-prisma-access-agent-to-access-your-projects/install-the-prisma-access-agent-dpa/install-the-prisma-access-agent-dpa-windows.html
+fetched_at: 2026-09-16T11:26:06Z
+source: palo-alto-main
+---
+
+# Install the Prisma Agent (Windows) Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Configure Dynamic Privilege Access Settings 
+
+ Use the Prisma Agent to Access Your Projects 
+
+ Install the Prisma Agent 
+
+ Install the Prisma Agent (Windows) 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Install the Prisma Agent (Windows) 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Install the Prisma Agent (Windows) 
+
+ Learn how to manually install, upgrade, and uninstall the Prisma
+ Access Agent on your Windows device. 
+
+ To manually install the Prisma Access Agent on your Windows device. 
+
+ Obtain the Prisma Access Agent package that your administrator provided to you.
+ The package name is in the following format: 
+
+ PrismaAccessAgent_x64_ <version> .msi 
+
+ In your Downloads folder (or wherever you placed the installation package),
+ double-click the installation package icon and follow the prompts to install the
+ Prisma Access Agent. 
+
+ When the setup wizard appears, click Next to
+ continue. 
+
+ Review the end-user license agreement, select I accept the
+ terms in the License Agreement , and click
+ Next . 
+
+ Click Install to begin the installation. 
+
+ When prompted to allow this app to make changes to your
+ device , click Yes . 
+
+ When the installation is complete, click
+ Finish . 
+
+ If your administrator configured the agent to install the Access
+ Experience app along with the Prisma Access Agent, click
+ OK so that you won't be prompted again. 
+
+ Uninstall the Prisma Access Agent (Windows) 
+
+ You can uninstall the Prisma Access Agent manually if you no longer need to use
+ it. Keep in mind that by uninstalling the agent, you will no longer have access
+ to your corporate network, and your endpoint won't be protected by your
+ organization's security policies. 
+
+ Before you begin, if the
+ administrator enabled the anti-tamper feature for the Prisma Access Agent, you
+ must obtain the anti-tamper unlock password from the administrator. To uninstall
+ the agent, you must have elevated administrative rights. 
+
+ Complete the following steps to uninstall the Prisma Access Agent: 
+
+ Disable the Prisma Access Agent. 
+
+ Run the following command in a Command Prompt window: 
+
+ C:/Program Files/Palo Alto\ Networks/Prisma Access Agent/PACli.exe" protect disable 
+
+ If prompted
+ for the supervisor password, enter the anti-tamper unlock
+ password. 
+
+ Uninstall the Prisma Access Agent. 
+
+ On Windows 11: 
+ Open the Start menu. 
+
+ Select Settings Apps Installed Apps . 
+
+ Scroll to Prisma Access Agent . 
+
+ Select More Options Uninstall . 
+
+ When prompted to continue with the uninstall, click
+ Yes . 
+
+ On Windows 10: 
+ Open the Start menu. 
+
+ Select Settings Apps Apps & Features . 
+
+ Scroll to Prisma Access Agent . 
+
+ Select More Uninstall . 
+
+ When prompted to continue with the uninstall, click
+ Yes .

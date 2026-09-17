@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/onboarding-in-cortex-xsoar/single-server-deployment/upgrade-the-cortex-xsoar-server
-fetched_at: 2026-09-06T11:20:04Z
+fetched_at: 2026-09-16T09:13:00Z
 source: cortex-platform
 ---
 

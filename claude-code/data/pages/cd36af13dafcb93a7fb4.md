@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/elasticsearch/elasticsearch-security/elasticsearch-security-guidelines-multi-tenant-deployments
-fetched_at: 2026-09-06T10:46:49Z
+fetched_at: 2026-09-16T08:57:18Z
 source: cortex-platform
 ---
 

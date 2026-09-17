@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/protect-your-endpoints/install-and-manage-endpoints/set-up-endpoint-protection/set-up-endpoint-profiles-and-exception-rules/set-up-agent-settings-profiles
-fetched_at: 2026-09-06T09:42:26Z
+fetched_at: 2026-09-16T08:42:49Z
 source: cortex-platform
 ---
 
@@ -1765,6 +1765,6 @@ To restore the default value, select Use Default (Disabled).
 
  Next Set up restrictions prevention profiles 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

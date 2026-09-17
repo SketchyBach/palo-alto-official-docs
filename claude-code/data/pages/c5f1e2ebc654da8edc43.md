@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/izoologic/izoologic
-fetched_at: 2026-09-06T10:00:10Z
+fetched_at: 2026-09-16T08:45:57Z
 source: cortex-platform
 ---
 
@@ -43,8 +43,8 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous iZOOlogic 
 
- Next Koi 
+ Next JFrog 
 
- Last updated 5 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

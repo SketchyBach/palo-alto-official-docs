@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/investigate-and-respond-to-threats
-fetched_at: 2026-09-06T11:19:37Z
+fetched_at: 2026-09-16T09:12:49Z
 source: cortex-platform
 ---
 

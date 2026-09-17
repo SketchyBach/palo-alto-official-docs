@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/configure-cortex-xsoar/integrations/integration-use-cases
-fetched_at: 2026-09-06T11:25:01Z
+fetched_at: 2026-09-16T09:14:13Z
 source: cortex-platform
 ---
 
@@ -231,6 +231,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure integrations 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

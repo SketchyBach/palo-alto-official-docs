@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/integration/network-management/integrate-iot-security-with-cisco-prime/set-up-iot-security-and-xsoar-for-cisco-prime-integration
-fetched_at: 2026-08-13T16:37:22Z
+fetched_at: 2026-09-16T07:23:49Z
 source: palo-alto-main
 ---
 
 # Set up Device Security and XSOAR for Cisco Prime Integration Clear
 
-Set up Device Security and XSOAR for Cisco Prime Integration 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Set up Device Security and XSOAR for Cisco Prime Integration 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
+ Mon Aug 17 11:22:37 PDT 2026 
 
  Focus 
 
@@ -133,9 +77,9 @@ Cisco Prime Infrastructure.
 
  One of the following subscriptions: 
 
- Device Security subscription for an advanced
- Device Security product (Enterprise Plus,
- Industrial OT, or Medical)
+ Device Security subscription
+
+ Precision AI bundle subscription
 
  Device Security X subscription
 
@@ -389,52 +333,4 @@ with all the integration instances you’re using in XSOAR.
 
  Next 
 
- Integrate Device Security with HPE Juniper Networking Mist AI 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Cloud-Delivered Security Services 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Integrate Device Security with HPE Juniper Networking Mist AI

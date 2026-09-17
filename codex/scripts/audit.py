@@ -41,8 +41,19 @@ except (OSError, KeyError, json.JSONDecodeError):
  report["koi_browser_receipts"]=report["koi_browser_receipt_records"]=0; report["koi_browser_receipt_mismatches"]=1; report["passed"]=False
 try:
  report["url_replacements"]=c.execute("SELECT count(*) FROM url_replacements").fetchone()[0]
- report["bad_url_replacements"]=c.execute("""SELECT count(*) FROM url_replacements r LEFT JOIN pages p ON p.url=r.replacement_url
-  WHERE p.url IS NULL OR p.http_status NOT BETWEEN 200 AND 299 OR p.body='' OR p.content_hash<>r.replacement_content_hash""").fetchone()[0]
+ has_revisions = c.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='page_revisions'").fetchone()
+ if has_revisions:
+  report["bad_url_replacements"]=c.execute("""SELECT count(*) FROM url_replacements r LEFT JOIN pages p ON p.url=r.replacement_url
+   WHERE p.url IS NULL OR p.http_status NOT BETWEEN 200 AND 299 OR p.body='' OR (
+     p.content_hash<>r.replacement_content_hash AND NOT EXISTS (
+       SELECT 1 FROM page_revisions pr
+       WHERE pr.url=r.replacement_url
+         AND json_extract(pr.record_json, '$.content_hash')=r.replacement_content_hash
+     )
+   )""").fetchone()[0]
+ else:
+  report["bad_url_replacements"]=c.execute("""SELECT count(*) FROM url_replacements r LEFT JOIN pages p ON p.url=r.replacement_url
+   WHERE p.url IS NULL OR p.http_status NOT BETWEEN 200 AND 299 OR p.body=''""").fetchone()[0]
  report["passed"] = report["passed"] and report["bad_url_replacements"]==0
 except sqlite3.OperationalError:
  report["url_replacements"]=0; report["bad_url_replacements"]=1; report["passed"]=False

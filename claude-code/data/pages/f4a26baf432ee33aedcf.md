@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/vendor-specific-data-sources/google/google-cloud-platform/ingest-logs-and-data-from-a-gcp-pub-sub
-fetched_at: 2026-09-06T09:40:10Z
+fetched_at: 2026-09-16T08:41:30Z
 source: cortex-platform
 ---
 
@@ -36,6 +36,10 @@ For the complete documentation index, see llms.txt . This page is also available
  Requires the Data Collection add-on. 
 
  If you use the Pub/Sub messaging service from Global Cloud Platform (GCP), you can send logs and data from your GCP instance to Cortex XDR. Data from GCP is then searchable in Cortex XDR to provide additional information and context to your investigations using the GCP Cortex Query Language (XQL) dataset, which is dependent on the type of GCP logs collected. For example queries, refer to the in-app XQL Library. You can configure a Google Cloud Platform collector to receive generic, flow, audit, or Google Cloud DNS logs. When configuring generic logs, you can receive logs in a Raw, JSON, CEF, LEEF, Cisco, or Corelight format. 
+
+ Note 
+
+ As per design, Cortex XDR does not support storage notifications for the Pub/Sub integration. 
 
  You can also configure Cortex XDR to normalize different GCP logs as part of the enhanced cloud protection, which you can query with XQL Search using the applicable dataset. Cortex XDR can also generate Cortex XDR issues (Analytics, IOC, BIOC, and Correlation Rules), when relevant, from GCP logs. While Correlation Rules isssues are generated on non-normalized and normalized logs, Analytics, IOC, and BIOC issues are only raised on normalized logs. 
 
@@ -333,6 +337,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Google Kubernetes Engine 
 
- Last updated 5 days ago 
+ Last updated 7 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cases-and-issues/analyze-and-resolve-cases/additional-case-actions/assign-a-case-team-and-restrict-access/playbook-examples
-fetched_at: 2026-09-06T10:04:53Z
+fetched_at: 2026-09-16T08:47:13Z
 source: cortex-platform
 ---
 
@@ -315,6 +315,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Investigation and response 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

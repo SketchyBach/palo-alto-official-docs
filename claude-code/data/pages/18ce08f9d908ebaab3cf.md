@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/onboard-cortex-xsoar/elasticsearch/disaster-recovery-for-elasticsearch/create-elasticsearch-snapshots
-fetched_at: 2026-09-06T10:43:27Z
+fetched_at: 2026-09-16T08:56:41Z
 source: cortex-platform
 ---
 

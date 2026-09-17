@@ -1,0 +1,304 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/prisma-access-advanced-deployments/ipv6-support-for-private-app-access/enable-ipv6-networking-for-remote-networks.html
+fetched_at: 2026-09-16T11:36:45Z
+source: palo-alto-main
+---
+
+# Enable IPv6 Networking for Remote Networks Clear
+
+Updated on 
+
+ Thu Sep 03 12:12:03 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Prisma Access Advanced Deployments 
+
+ IPv6 Support 
+
+ Enable IPv6 Networking for Remote Networks 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Enable IPv6 Networking for Remote Networks 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Enable IPv6 Networking for Service Connections 
+
+ Next 
+
+ Native IPv6 Support for Prisma Access Service Connections 
+
+ Enable IPv6 Networking for Remote Networks 
+
+ Enable IPv6 networking in a Prisma Access remote network deployment. 
+
+ Where Can I Use
+ This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Prisma Access license version 2.2 Preferred and
+ later 
+
+ Native IPv6 access to public and
+ private apps requires the following minimum releases: 
+ Prisma Access (Managed by Strata Cloud Manager) : June 2024 release 
+
+ Prisma Access (Managed by Panorama) : Prisma Access 5.1.1 for new
+ deployments only. 
+
+ Any other deployments (including existing Prisma Access (Managed by Panorama) deployments) support private app
+ access only. 
+
+ For remote network connections , you can use IPv6
+ subnets for static routes. For BGP routing, you can enter IPv6 peer addresses and
+ specify that BGP use IPv6 routing only or both IPv4 and IPv6 routing. 
+
+ To configure IPv6 networking for remote network connections, complete the following
+ task. 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ Enable IPv6 Networking for Remote Networks ( Strata Cloud Manager ) 
+
+ Enable IPv6 networking in a Prisma Access remote network deployment. 
+
+ Select Configuration NGFW and Prisma Access Configuration Scope Prisma Access Remote Networks and Add Remote Networks . 
+
+ Enable IPv6. 
+
+ Add a new remote network connection or select an existing remote network
+ connection to edit it. 
+
+ Set up IPv6 routing for your remote network. 
+
+ ( Static Routing Deployments Only ) Enter one or more
+ Corporate Subnets in the Static
+ Routes tab. 
+
+ ( BGP Routing Deployments Only ) Specify the method to exchange
+ IPv4 and IPv6 BGP routes; then, enter an IPv6 Peer
+ Address and Local Address . 
+
+ To use a single IPv4 BGP session to exchange both IPv4 and
+ IPv6 BGP peering information, select Exchange
+ both IPv4 and IPv6 routes over IPv4 peering .
+
+ To an IPv4 BGP session to exchange IPv4 BGP peering
+ information and an IPv6 session to exchange IPv6 BGP peering
+ information, select Exchange IPv4 routes over
+ IPv4 peering and IPv6 routes over IPv6
+ peering . 
+
+ To use a single IPv6 BGP session to exchange IPv6 BGP peering
+ information, select Exchange IPv6 routes over
+ IPv6 peering . 
+
+ If your secondary WAN uses a different peer or local address, deselect
+ Same as Primary WAN and enter the IPv6
+ Peer Address and Local
+ Address for the secondary WAN. 
+
+ ( Optional ) If your internal DNS servers use are reachable by IPv6
+ addresses, select Configuration NGFW and Prisma Access Configuration Scope Prisma Access Remote Networks Advanced Settings , find DNS Proxy ,
+ Add a rule or specify the default rule, and specify
+ Custom DNS Server IPv6 addresses for the
+ Primary DNS and Secondary DNS 
+ server. 
+
+ Prisma Access allows you to specify DNS servers to
+ resolve both domains that are internal to your organization and external
+ domains. If you do not specify any settings, Prisma Access does not proxy
+ DNS requests for remote networks. You also need to select a
+ Region . 
+
+ You can enter any combination of IPv4 or IPv6 addresses for primary and
+ secondary DNS servers. 
+
+ IPv4 addresses use A records, while IPv6 addresses use AAAA
+ records. Some DNS servers can perform AAAA DNS lookups over IPv4
+ transport; therefore, you might not need a server with an IPv6
+ IP address. 
+
+ If you have not yet completed the remote network connection setup, complete it
+ now. 
+
+ IPv6 internet access for remote network connections is enabled by an
+ underlay connection, in which IPv6 traffic is passed through an IPv4
+ tunnel. 
+
+ Push Config to deploy your changes to you network. 
+
+ Enable IPv6 Networking for Remote Networks ( Panorama ) 
+
+ Enable IPv6 networking in a Prisma Access remote network deployment. 
+
+ ( Optional ) Enter IPv6 addresses to your custom DNS server proxy
+ configuration. 
+
+ Select Panorama Cloud Services Configuration Remote Networks and edit the settings by clicking the gear icon in the
+ Settings area. 
+
+ In the DNS Proxy area, enter IPv6
+ Custom DNS Server addresses for your DNS
+ proxy settings. 
+
+ Select Panorama Cloud Services Configuration Remote Networks . 
+
+ Add a new remote network connection or select an
+ existing remote network connection to edit it. 
+
+ Enable IPv6 . 
+
+ Set up IPv6 routing for your remote network. 
+
+ ( Static Routing Deployments Only ) Enter one or more
+ Corporate Subnets in the Static
+ Routes tab. 
+
+ ( BGP Routing Deployments Only ) Specify the method to exchange
+ IPv4 and IPv6 BGP routes; then, enter an IPv6 Peer
+ Address and Local Address . 
+
+ To use a single IPv4 BGP session to exchange both IPv4 and
+ IPv6 BGP peering information, select Exchange
+ both IPv4 and IPv6 routes over IPv4 peering .
+
+ To an IPv4 BGP session to exchange IPv4 BGP peering
+ information and an IPv6 session to exchange IPv6 BGP peering
+ information, select Exchange IPv4 routes over
+ IPv4 peering and IPv6 routes over IPv6
+ peering . 
+
+ To use a single IPv6 BGP session to exchange IPv6 BGP peering
+ information, select Exchange IPv6 routes over
+ IPv6 peering . 
+
+ If your secondary WAN uses a different peer or local address, deselect
+ Same as Primary WAN and enter the IPv6
+ Peer Address and Local
+ Address for the secondary WAN. 
+
+ ( Optional ) If your internal DNS servers use are reachable by IPv6
+ addresses, select Panorama Cloud Services Configuration Remote Network Settings , click the gear icon to edit the settings, select the
+ DNS Proxy tab, Add a rule or
+ specify the default rule, and specify Custom DNS Server 
+ IPv6 addresses for the Primary DNS and
+ Secondary DNS server. 
+
+ Prisma Access allows you to specify DNS servers to
+ resolve both domains that are internal to your organization and external
+ domains. If you do not specify any settings, Prisma Access does not proxy
+ DNS requests for remote networks. You also need to select a
+ Region . 
+
+ You can enter any combination of IPv4 or IPv6 addresses for primary and
+ secondary DNS servers. 
+
+ IPv4 addresses use A records, while IPv6 addresses use AAAA records. Some
+ DNS servers can perform AAAA DNS lookups over IPv4 transport; therefore,
+ you might not need a server with an IPv6 IP address. 
+
+ If you have not yet completed the remote network connection setup, complete it
+ now. 
+
+ Commit and Push your changes. 
+
+ Select Panorama Cloud Services Status Network Details Remote Networks and make a note of the EBGP Router 
+ addresses. 
+
+ After you commit your changes, you will have an IPv6 EBGP
+ Router addresses for service connections. 
+
+ Because the IPSec tunnel used for the remote network connection uses IPv4
+ addressing, the Service IP Address stays as an IPv4
+ address. 
+
+ IPv6 internet access for remote network connections is enabled by an underlay
+ connection, in which IPv6 traffic is passed through an IPv4 tunnel. 
+
+ Previous 
+
+ Enable IPv6 Networking for Service Connections 
+
+ Next 
+
+ Native IPv6 Support for Prisma Access Service Connections

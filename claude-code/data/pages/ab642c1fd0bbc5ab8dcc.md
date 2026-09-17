@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-api/vulnerability-management/vulnerability-findings
-fetched_at: 2026-09-06T10:55:04Z
+fetched_at: 2026-09-16T09:03:48Z
 source: cortex-platform
 ---
 
@@ -492,6 +492,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Vulnerability Findings Snapshot 
 
- Last updated 16 days ago 
+ Last updated 25 days ago 
 
  Was this helpful?

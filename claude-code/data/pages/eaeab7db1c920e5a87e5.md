@@ -1,0 +1,171 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-browser/administration/manage-prisma-browser-policy-profiles/configure-prisma-browser-browser-customization/configure-upgrade-management
+fetched_at: 2026-09-16T08:22:02Z
+source: palo-alto-main
+---
+
+# Configure Upgrade Management Clear
+
+Updated on 
+
+ Thu Sep 10 09:47:19 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Browser 
+
+ Manage Prisma Browser Control Sets 
+
+ Configure Prisma Browser Customization Controls 
+
+ Configure Upgrade Management 
+
+ Download PDF 
+
+ Prisma Browser 
+
+ Configure Upgrade Management 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Browser Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Deployment 
+
+ Administration 
+
+ Integrations 
+
+ User Guide 
+
+ Previous 
+
+ Custom Messages 
+
+ Next 
+
+ New Tab Page 
+
+ Configure Upgrade Management 
+
+ PAB Browser Customization Upgrade Management 
+
+ Where Can I Use This? What Do I Need? 
+
+ Strata Cloud Manager 
+
+ Prisma Browser standalone 
+
+ Prisma Access with Prisma Browser bundle
+ license or Prisma Browser standalone license 
+
+ Superuser or Prisma Browser 
+ role 
+
+ Deployment Upgrade 
+
+ Prisma Browser Desktop Prisma Browser Extension Prisma Browser for Mobile 
+
+ Full support No support Partial support 
+
+ Mobile Browser - Partial support 
+
+ Linux/IGEL Browser - No support 
+
+ In the ever-changing world of cybersecurity, it is essential that the
+ Prisma Browser be kept up to date, as updates and upgrades are added
+ regularly. Upgrades are released weekly. 
+
+ Some organizations manage their upgrades using
+ offline installers. For more information, please see The Prisma Browser 
+ Offline MSI Installer. 
+
+ When an update is available, a button will be displayed on the browser.
+ A user can click the button or restart the browser to update the Prisma Browser . You can configure a Grace Period to allow end users some
+ time to finish a task before running an upgrade. See below for more
+ information. 
+ You can select the version to be installed by configuring the registry
+ key (Windows). 
+
+ There is no option to downgrade the browser. 
+
+ Customers using offline installers won't be affected by
+ this control. 
+
+ Prisma Browser for Mobile are automatically locked
+ out after 90 days if their browser is not updated. Users receive updated
+ application versions for both Android and iOS through the respective
+ operating systems. The specific timing of these updates is governed by each
+ user's individual app upgrade settings. 
+
+ From Strata Cloud Manager , select Configuration Policy Control Sets Browser Customization 
+
+ Select Upgrade Management . 
+
+ Select one of the following options: 
+
+ Default channel - The browser will be upgraded to
+ the latest version when it is available. This is the default
+ behavior. 
+ Delay options - You can decide to delay the actual
+ deployment for up to 7 days. This is based on the settings
+ for the flag. Contact Support for more information. 
+
+ Long-term Support channel - This channel allows you to keep
+ your users on a major release, but receive weekly security patches
+ without new features. The new features will be available to your
+ users in the next LTS major update. Bug fixes and security updates
+ will be available on a weekly basis. You also have the ability to
+ delay these patches. 
+ Delay options - You can choose to delay the next
+ major version for up to one month. If you select this
+ deployment option, you will not get any bug fixes or
+ security patches that are normally released on a weekly
+ basis. 
+
+ Security and Bug patches - You can choose to delay
+ the deployment of the security and bug patches for up to 3
+ days. In the rare case when there is an
+ exploit-in-the-wild, you can click Expedite critical
+ security updates , and the delay will be ignored.
+
+ Pinned version - The browser will upgrade to the selected
+ version. You can select a pinned version for Windows, and a version
+ for macOS. You decide which versions become the pinned version.
+
+ When the pinned version reaches its
+ end-of-life (usually after one month), the pinned version will
+ be reset to a version released within the past 7 days. 
+
+ No auto-updates - As the administrator, you will
+ be responsible for managing the upgrade deployments manually.
+ There will be no automatic updates. 
+
+ If you select this option, your environment
+ might be exposed to security vulnerabilities and
+ compatibility issues. 
+
+ Update grace period - Allow your users to defer the forced upgrade
+ relaunch by the selected amount of time. 
+
+ Click Set . 
+
+ Previous 
+
+ Custom Messages 
+
+ Next 
+
+ New Tab Page

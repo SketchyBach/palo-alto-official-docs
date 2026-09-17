@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/administration-and-troubleshooting/verify-collector-connectivity
-fetched_at: 2026-09-06T09:42:07Z
+fetched_at: 2026-09-16T08:42:42Z
 source: cortex-platform
 ---
 
@@ -101,6 +101,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Overview of data ingestion metrics 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

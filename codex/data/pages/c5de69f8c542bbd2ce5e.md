@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/multi-tenant/what-is-cortex-xdr-multi-tenant/mssp-multi-tenant
-fetched_at: 2026-09-06T09:52:09Z
+fetched_at: 2026-09-16T08:44:24Z
 source: cortex-platform
 ---
 
@@ -49,6 +49,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Enterprise multi-tenant 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

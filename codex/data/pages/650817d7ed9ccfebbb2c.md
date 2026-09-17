@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/automations/playbooks/build-your-playbook/add-objects-from-the-task-library/create-a-section-header
-fetched_at: 2026-09-06T09:28:59Z
+fetched_at: 2026-09-16T08:34:07Z
 source: cortex-platform
 ---
 
@@ -67,6 +67,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure script error handling in a playbook 
 
- Last updated 13 days ago 
+ Last updated 23 days ago 
 
  Was this helpful?

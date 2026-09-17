@@ -1,0 +1,104 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/identity/cloud-identity-engine/cloud-identity-engine-overview/user-identification-with-cloud-identity-engine.html
+fetched_at: 2026-09-17T06:45:48Z
+source: palo-alto-main
+---
+
+# User Identification with Cloud Identity Engine Clear
+
+Updated on 
+
+ Aug 5, 2026 
+
+ Focus 
+
+ Home 
+
+ Identity 
+
+ Cloud Identity Engine Overview 
+
+ User Identification with Cloud Identity Engine 
+
+ Download PDF 
+
+ Identity 
+
+ User Identification with Cloud Identity Engine 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Identity Docs 
+
+ Activation & Onboarding 
+
+ Cloud Identity Engine 
+
+ Help 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Cloud Identity Engine Topology 
+
+ Next 
+
+ User Authentication with Cloud Identity Engine 
+
+ User Identification with Cloud Identity Engine 
+
+ Learn about how Cloud Identity Engine identifies users. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW 
+
+ Prisma Access 
+
+ The Cloud Identity Engine service is free; however, the enforcement
+ points utilizing directory data may require specific licenses. Click
+ here for more
+ information. 
+
+ User Identification is the process of figuring out exactly who is behind a
+ specific activity on your network. Computers identify each other using numbers called IP
+ addresses, but IP addresses change frequently and don't tell you if the person using the
+ computer is a marketing intern or the CFO. The Cloud Identity Engine bridges this gap by
+ linking those technical IP addresses to actual human names and profiles. 
+
+ This process works through a feature called Directory Sync . The Cloud Identity
+ Engine continuously monitors your company’s employee directories for changes. It
+ collects "attributes," which are just details about a user—such as their name, email
+ address, department, and job title. Because this sync happens in near real-time, your
+ security is always based on current information. For example, if a user is transferred
+ from the "Finance" department to "Sales," the Cloud Identity Engine sees the change in
+ the directory and instantly updates the security devices. The next time that user tries
+ to access a restricted Finance folder, they will be blocked automatically because their
+ digital ID tag has changed. 
+
+ The engine can also group users dynamically. Instead of manually adding users to a
+ "Security Risk" group, you can tell the Cloud Identity Engine to create a group that
+ automatically includes anyone whose account status is tagged as "High Risk" or anyone
+ who is logging in from an unmanaged device. This ensures that your security policies
+ adapt automatically to the user's current situation without an administrator having to
+ constantly update lists manually. 
+
+ To begin configuring directory sources, agents, and mapping IP addresses to users for
+ policy enforcement, refer to the chapter Identify Users and Devices with Cloud Identity Engine . 
+
+ Previous 
+
+ Cloud Identity Engine Topology 
+
+ Next 
+
+ User Authentication with Cloud Identity Engine

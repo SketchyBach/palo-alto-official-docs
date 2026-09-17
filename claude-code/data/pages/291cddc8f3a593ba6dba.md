@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/onboard-cortex-xsoar/elasticsearch/elasticsearch-setup/elasticsearch-data-management
-fetched_at: 2026-09-06T10:43:14Z
+fetched_at: 2026-09-16T08:56:38Z
 source: cortex-platform
 ---
 

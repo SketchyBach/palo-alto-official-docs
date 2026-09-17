@@ -1,74 +1,20 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-browser/administration/manage-prisma-access-browser-devices
-fetched_at: 2026-08-13T17:23:13Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:41Z
+source: strata-and-sase
 ---
 
 # Manage Prisma Browser Devices Clear
 
-Manage Prisma Browser Devices 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Manage Prisma Browser Devices 
-
- Updated on 
-
- Jul 28, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Browser Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Deployment 
-
- Administration 
-
- Integrations 
-
- User Guide 
-
- Updated on 
-
- Jul 28, 2026 
+ Thu Sep 10 09:47:19 PDT 2026 
 
  Focus 
 
  Home 
 
  Prisma Browser 
-
- Prisma Access Browser Administration 
 
  Manage Prisma Browser Devices 
 
@@ -122,8 +68,8 @@ Manage Prisma Browser Devices
  Prisma Access with Prisma Browser bundle license or
  Prisma Browser standalone license 
 
- Superuser or Prisma Browser 
- role 
+ Superuser or Prisma Browser
+ Roles 
 
  The device directory provides a roster of your Prisma Browser devices and device
  groups. 
@@ -135,7 +81,7 @@ Manage Prisma Browser Devices
 
  Manage Devices 
 
- From Strata Cloud Manager , select Configuration Prisma Browser Directory Devices . 
+ From Strata Cloud Manager , select Insights Deployment Devices . 
 
  You can see the total number of Prisma Browser devices displayed at
  the top of the page. By default, the Devices screen displays the first
@@ -274,8 +220,9 @@ Manage Prisma Browser Devices
  for policy rules. For managing mobile device groups, see Create, Edit, and
  Delete Prisma Browser for Mobile Device Groups. 
 
- From Strata Cloud Manager , select Configuration Prisma Browser Directory Devices and then select the Device Groups 
- tab. 
+ From Strata Cloud Manager , select Insights Deployment Devices 
+
+ Select the Device Groups tab. 
 
  You can see the total number of Prisma Browser device groups
  displayed at the top of the page. By default, the Device Groups screen
@@ -353,48 +300,4 @@ Manage Prisma Browser Devices
 
  Next 
 
- Manage Prisma Browser Device Groups 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Prisma Browser 
-
- Administration 
-
- Prisma Access 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Manage Prisma Browser Device Groups

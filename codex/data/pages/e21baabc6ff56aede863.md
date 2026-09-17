@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.12/onboard-multi-tenant/plan-your-multi-tenant-deployment/saml-for-multi-tenant-deployments
-fetched_at: 2026-09-06T10:50:17Z
+fetched_at: 2026-09-16T08:58:32Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Plan Your Multi-Tenant Deployment 
 
- XSOAR 6.12 Multi-Tenant EoL 
+ Cortex XSOAR 6.12 Multi-Tenant EoL 
 
  SAML for Multi-Tenant Deployments 
 
@@ -37,6 +37,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Communication in a Multi-Tenant Deployment 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

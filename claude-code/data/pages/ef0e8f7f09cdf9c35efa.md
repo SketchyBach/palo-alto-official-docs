@@ -1,0 +1,52 @@
+---
+url: https://docs.prismacloud.io/content-collections/administration/setup-sso-integration-on-prisma-cloud/get-started-with-saml-sso
+fetched_at: 2026-09-16T13:35:07Z
+source: prisma-cloud
+---
+
+# Get Started with SAML SSO | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Enterprise Edition 
+
+ Content Collections 
+
+ Administration 
+
+ Set up SSO Integration on Prisma Cloud 
+
+ Get Started with SAML SSO 
+
+ Enable single sign-on (SSO) on Prisma Cloud using an Identity Provider (IdP) that supports Security Assertion Markup Language (SAML), such as Okta, Microsoft Active Directory Federation Services (AD FS), Azure Active Directory (AD), Google, or OneLogin. You can configure only one IdP for all the cloud accounts that Prisma Cloud monitors. 
+
+ To access Prisma Cloud using SSO, every administrative user requires a local account on Prisma Cloud. You can either Add Administrative Users On Prisma Cloud to create the local account in advance of enabling SSO, or use Just-In-Time (JIT) Provisioning on the SSO configuration on Prisma Cloud if you prefer to create the local account automatically. With JIT Provisioning, the first time a user logs in and successfully authenticates with your SSO IdP, the SAML assertions are used to create a local user account on Prisma Cloud. 
+
+ To enable SSO, you must first complete the setup on the IdP. Then, login to Prisma Cloud using an account with System Admin privileges to configure SSO and redirect login requests to the IdP’s login page, so that your Prisma Cloud administrative users can log in using SSO. After you enable SSO, you must access Prisma Cloud from the IdP’s portal. 
+
+ To avoid account lockout while making configuration changes, enable administrative users to log into the console with both local authentication credentials on Prisma Cloud and SSO access by adding them to the SSO bypass list. 
+
+ Decide whether you want to first add Add Administrative Users On Prisma Cloud or you prefer to add users on the fly with JIT Provisioning when you configure SSO on Prisma Cloud. 
+
+ If you want to enable JIT provisioning for users, Create Prisma Cloud Roles before you continue to the next step. When you configure SSO on the IdP, you must attach this role to the user‘s profile so that the user has the appropriate permissions and can monitor the assigned cloud accounts on Prisma Cloud. 
+
+ Copy the Audience URI, for Prisma Cloud, which users need to access from the IdP. 
+
+ Log in to Prisma Cloud and select Settings > Access Control > SSO and click SAML . 
+
+ Copy the Audience URI (SP Entity ID) value. This is a read-only field in the format: https://app.prismacloud.io?customer=<string> to uniquely identify your instance of Prisma Cloud. You require this value when you configure SAML on your IdP. 
+
+ Set up the Identity Provider (Okta, Microsoft ADFS, Azure AD, Google, or OneLogin) for SSO as described in the next section. 
+
+ Use your pre-defined Access URL for login, alternatively use your federated login URL . 
+
+ Previous Get Started with OIDC JIT 
+
+ Next Set up ADFS SSO on Prisma Cloud 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

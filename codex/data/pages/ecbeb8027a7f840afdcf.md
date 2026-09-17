@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.10/learn-about-cortex-xsoar/get-started-with-cortex-xsoar/roles-and-responsibilities
-fetched_at: 2026-09-06T10:34:29Z
+fetched_at: 2026-09-16T08:54:52Z
 source: cortex-platform
 ---
 

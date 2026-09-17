@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/monitor-and-track-compliance-adherence/use-an-assessment-profile-to-run-compliance-checks-on-your-assets
-fetched_at: 2026-09-06T09:34:52Z
+fetched_at: 2026-09-16T08:36:34Z
 source: cortex-platform
 ---
 
@@ -71,6 +71,6 @@ The assessment profile evaluates the compliance posture and generates a report a
 
  Next Configuring assessments for custom compliance standards based on custom cloud security rules 
 
- Last updated 12 days ago 
+ Last updated 22 days ago 
 
  Was this helpful?

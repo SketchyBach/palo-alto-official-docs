@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/enterprise-dlp/administration/configure-enterprise-dlp/email-dlp/review-email-dlp-incidents
-fetched_at: 2026-08-13T15:32:16Z
+fetched_at: 2026-09-15T15:10:21Z
 source: palo-alto-main
 ---
 
 # Review Email DLP Incidents Clear
 
-Review Email DLP Incidents 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Review Email DLP Incidents 
-
- Updated on 
-
- Jul 10, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Enterprise DLP Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Reference 
-
- Release Notes 
-
- New Features by OS Version 
-
- New Features by Month 
-
- Updated on 
-
- Jul 10, 2026 
+ Sep 10, 2026 
 
  Focus 
 
@@ -110,7 +56,7 @@ Review Email DLP Incidents
 
  Previous 
 
- Add an Email DLP Policy Rule 
+ Customize Email DLP Delivery Notifications 
 
  Next 
 
@@ -120,15 +66,6 @@ Review Email DLP Incidents
 
  Review your Enterprise Data Loss Prevention (E-DLP) Email DLP incidents for outbound
  emails. 
-
- On May 7, 2025 , Palo Alto Networks is introducing new Evidence Storage and Syslog Forwarding service IP
- addresses to improve performance and expand availability for these services
- globally. 
-
- You must allow these new service IP addresses on your network
- to avoid disruptions for these services. Review the Enterprise DLP 
- Release Notes for more
- information. 
 
  Where Can I Use This? What Do I Need? 
 
@@ -169,7 +106,7 @@ CASB for Prisma Access and NGFW (CASB-X) license
  Past 90 Days . 
 
  Add Filters —Add the
- Channels filter and select
+ Channels filter and choose
  Email DLP . Add any additional filters to
  narrow down the scope of DLP incidents. 
 
@@ -193,10 +130,10 @@ CASB for Prisma Access and NGFW (CASB-X) license
  details. 
 
  You can also select and assign one or more incidents to a specific data
- security administrator to investigate and resolve as part of y our Enterprise DLP 
+ security administrator to investigate and resolve as part of your Enterprise DLP 
  incident case management process from this list.
 
- Review the Incident Details to review specific incident details. 
+ Review the Incident Details panel. 
 
  Make note of the Report ID for the DLP incident if you
  have not already done so. Use the Report ID to view additional Traffic log
@@ -260,7 +197,7 @@ CASB for Prisma Access and NGFW (CASB-X) license
  rule that generated the DLP incident. 
 
  Displays Not Applicable if the DLP
- incident was not generated because it matched an exceptionr
+ incident was not generated because it matched an exception
  rule. 
 
  Response Management 
@@ -328,7 +265,7 @@ CASB for Prisma Access and NGFW (CASB-X) license
 
  Select Incidents & Alerts Log Viewer . 
 
- From the Firewall drop-down, select File . 
+ From the Firewall drop-down, choose File . 
 
  Filter to view the file log for the DLP incident using the Report
  ID. 
@@ -342,114 +279,8 @@ CASB for Prisma Access and NGFW (CASB-X) license
 
  Previous 
 
- Add an Email DLP Policy Rule 
+ Customize Email DLP Delivery Notifications 
 
  Next 
 
- Why Are Emails Not Being Blocked? 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- SaaS Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Administration 
-
- Cloud-Delivered Security Services 
-
- Data Filtering 
-
- Enterprise DLP 
-
- Task 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Why Are Emails Not Being Blocked?

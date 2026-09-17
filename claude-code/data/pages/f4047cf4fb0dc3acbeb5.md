@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/secrets-security/appsec-secret-170
-fetched_at: 2026-09-06T11:15:41Z
+fetched_at: 2026-09-16T09:13:15Z
 source: cortex-platform
 ---
 

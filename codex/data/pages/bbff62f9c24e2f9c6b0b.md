@@ -1,66 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/strata-cloud-manager/release-notes/changes-to-default-behavior
-fetched_at: 2026-08-13T17:39:33Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:51:28Z
+source: strata-and-sase
 ---
 
 # Changes to Default Behavior in Strata Cloud Manager Clear
 
-Changes to Default Behavior in Strata Cloud Manager 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Changes to Default Behavior in Strata Cloud Manager 
-
- Updated on 
-
- Wed Aug 05 09:15:02 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Strata Cloud Manager Docs 
-
- Activation & Onboarding 
-
- Subscription & Tenant Management 
-
- Getting Started 
-
- AIOps 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Aug 05 09:15:02 PDT 2026 
+ Wed Aug 12 22:35:28 PDT 2026 
 
  Focus 
 
@@ -104,7 +52,7 @@ Changes to Default Behavior in Strata Cloud Manager
 
  Next 
 
- Known Issues 
+ Limitations in Strata Cloud Manager 
 
  Changes to Default Behavior in Strata Cloud Manager 
 
@@ -112,9 +60,34 @@ Changes to Default Behavior in Strata Cloud Manager
 
  The following table details the changes in default behavior in Strata Cloud Manager . 
 
- Feature Change 
+ Feature Release Change 
+
+ Non-recurring schedules 
+
+ Strata Cloud Manager Release 2026.r3.0 
+
+ When you add a time slot to an existing non-recurring schedule in
+ Strata Cloud Manager, each time slot now retains its original start
+ and end times when additional time slots are added. 
+
+ In previous releases, adding a time slot to an existing non-recurring
+ schedule overwrote the start and end times of the previously
+ configured time slot with the current system date and time. 
+
+ Dynamic Address Groups 
+
+ Strata Cloud Manager 2026.r2.2 
+
+ When you create a Dynamic Address Group, Zero Trust Network Access
+ (ZTNA) Connector Tags now populate automatically via the API. 
+
+ In previous releases, ZTNA Connector Tags did not populate when
+ creating a Dynamic Address Group. The API returned a dependency
+ error, and tags had to be entered manually. 
 
  Object Cloning 
+
+ Strata Cloud Manager 2026.r2.0 
 
  In Strata Cloud Manager , configuration objects are organized in a
  folder hierarchy. Objects defined at higher levels are automatically
@@ -145,92 +118,4 @@ Changes to Default Behavior in Strata Cloud Manager
 
  Next 
 
- Known Issues 
-
- On This Page 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Release Notes 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Limitations in Strata Cloud Manager

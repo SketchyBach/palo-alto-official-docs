@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/rare-lolbin-process-execution-by-user
-fetched_at: 2026-09-06T11:06:52Z
+fetched_at: 2026-09-16T09:07:58Z
 source: cortex-platform
 ---
 

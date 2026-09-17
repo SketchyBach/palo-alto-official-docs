@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/data-management/broker-vm/broker-vm-notifications
-fetched_at: 2026-09-06T10:51:44Z
+fetched_at: 2026-09-16T08:58:55Z
 source: cortex-platform
 ---
 
@@ -115,6 +115,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Monitor Broker VM activity 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

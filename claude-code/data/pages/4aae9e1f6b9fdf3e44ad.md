@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/investigation-and-response/automation/playbooks/build-your-playbook/customize-your-playbook/update-issue-fields-with-playbook-tasks
-fetched_at: 2026-09-06T09:55:53Z
+fetched_at: 2026-09-16T08:44:42Z
 source: cortex-platform
 ---
 

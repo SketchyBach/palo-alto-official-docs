@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/users-and-roles/user-management/self-service-read-only-users/create-the-read-only-dashboard
-fetched_at: 2026-09-06T10:47:24Z
+fetched_at: 2026-09-16T08:57:27Z
 source: cortex-platform
 ---
 

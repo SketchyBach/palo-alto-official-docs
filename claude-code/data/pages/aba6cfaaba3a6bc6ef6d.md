@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/onboard-and-configure/csp-onboarding/troubleshoot-errors-on-cloud-instances
-fetched_at: 2026-09-06T10:51:29Z
+fetched_at: 2026-09-16T08:58:41Z
 source: cortex-platform
 ---
 
@@ -84,6 +84,8 @@ For the complete documentation index, see llms.txt . This page is also available
  If the instance shows an Outpost error, go to the All Outposts page and find the outpost account that is being used by this instance. Right click the Outpost account to view the open errors and issues for the account. 
 
  If the account shows Permission errors, use the side panel to check which permissions are missing. You can also Edit the instance to redeploy the cloud setup template, which should normally resolve the error. 
+
+ Applying Terraform updates: When an Update available notification appears for your cloud instance, download the updated Terraform template and run it from your original local deployment folder. Terraform relies on the state file stored in this directory to update existing cloud resources in place instead of creating duplicates. Learn more about Terraform . 
 
  Further investigate errors by running XQL queries on the cloud_health_auditing dataset. 
 
@@ -409,6 +411,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Introduction to Terraform for Cloud service provider (CSP) onboarding 
 
- Last updated 1 month ago 
+ Last updated 9 days ago 
 
  Was this helpful?

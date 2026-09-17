@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/overview/personas-workflow
-fetched_at: 2026-09-06T09:36:30Z
+fetched_at: 2026-09-16T08:37:09Z
 source: cortex-platform
 ---
 

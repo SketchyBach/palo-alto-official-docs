@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/onboard-cortex-xdr/post-deployment-steps/set-up-your-environment/data-and-log-forwarding/data-and-log-notification-formats/agent-audit-log-notification-format
-fetched_at: 2026-09-06T09:38:57Z
+fetched_at: 2026-09-16T08:38:00Z
 source: cortex-platform
 ---
 
@@ -65,6 +65,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Management Audit log notification format 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

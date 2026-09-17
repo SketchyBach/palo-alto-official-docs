@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/reference-docs/reference/server-configurations/active-directory-server-configurations
-fetched_at: 2026-09-06T10:49:23Z
+fetched_at: 2026-09-16T08:57:48Z
 source: cortex-platform
 ---
 
@@ -71,6 +71,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Automation Server Configurations 
 
- Last updated 3 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security-posture-management-aspm/application-security-posture-management-aspm
-fetched_at: 2026-09-06T10:11:51Z
+fetched_at: 2026-09-16T08:49:04Z
 source: cortex-platform
 ---
 

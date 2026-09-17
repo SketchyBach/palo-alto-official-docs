@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/cortex-cloud-saas-security/connect-a-saas-application/onboard-redis-labs
-fetched_at: 2026-09-06T09:35:39Z
+fetched_at: 2026-09-16T08:36:49Z
 source: cortex-platform
 ---
 
@@ -207,6 +207,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Onboard Salesforce 
 
- Last updated 10 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

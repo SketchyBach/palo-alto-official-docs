@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/resources/accio-announcement
-fetched_at: 2026-08-13T17:32:16Z
+fetched_at: 2026-09-16T07:49:08Z
 source: palo-alto-main
 ---
 

@@ -1,82 +1,32 @@
 ---
 url: https://docs.paloaltonetworks.com/prisma-access-agent/administration/troubleshoot-prisma-access-agents/prisma-access-agent-and-agent-manager-logs/audit-prisma-access-agent-configuration-activities
-fetched_at: 2026-08-13T17:22:28Z
-source: palo-alto-main
+fetched_at: 2026-09-16T07:45:24Z
+source: strata-and-sase
 ---
 
-# Audit Prisma Access Agent Configuration Activities Clear
+# Audit Prisma Agent Configuration Activities Clear
 
-Audit Prisma Access Agent Configuration Activities 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Audit Prisma Access Agent Configuration Activities 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Prisma Access Agent Docs 
-
- Administration 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Wed Jul 29 16:23:07 PDT 2026 
+ Thu Aug 27 20:22:38 PDT 2026 
 
  Focus 
 
  Home 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Prisma Access Agent Administration 
+ Troubleshoot Prisma Agents 
 
- Troubleshoot Prisma Access Agents 
+ Audit Prisma Agent Logs and Management Logs 
 
- Audit Prisma Access Agent Logs and Management Logs 
-
- Audit Prisma Access Agent Configuration Activities 
+ Audit Prisma Agent Configuration Activities 
 
  Download PDF 
 
- Prisma Access Agent 
+ Prisma Agent 
 
- Audit Prisma Access Agent Configuration Activities 
+ Audit Prisma Agent Configuration Activities 
 
  Table of Contents 
 
@@ -86,7 +36,7 @@ Audit Prisma Access Agent Configuration Activities
  | 
  Collapse All 
 
- Prisma Access Agent Docs 
+ Prisma Agent Docs 
 
  Administration 
 
@@ -102,9 +52,9 @@ Audit Prisma Access Agent Configuration Activities
 
  Next 
 
- Prisma Access Agent Overview 
+ Prisma Agent Overview 
 
- Audit Prisma Access Agent Configuration Activities 
+ Audit Prisma Agent Configuration Activities 
 
  Where Can I Use This? What Do I Need? 
 
@@ -117,10 +67,9 @@ Audit Prisma Access Agent Configuration Activities
  Check the prerequisites for the deployment you're
  using 
 
- Contact your Palo Alto Networks account representative to
- activate the Prisma Access Agent feature 
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
 
- You can audit any Prisma Access Agent configuration change in the log viewer or
+ You can audit any Prisma Agent configuration change in the log viewer or
  Strata Logging Service . 
 
  For example, you can audit the configuration logs to see the configuration activities
@@ -193,90 +142,4 @@ Audit Prisma Access Agent Configuration Activities
 
  Next 
 
- Prisma Access Agent Overview 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Prisma Access Agent 
-
- Next-Generation Firewall 
-
- Administration 
-
- Prisma Access 
-
- Panorama 
-
- Strata Cloud Manager 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Prisma Agent Overview

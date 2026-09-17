@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/secrets-security/appsec-secret-343
-fetched_at: 2026-09-06T11:31:45Z
+fetched_at: 2026-09-16T09:11:57Z
 source: cortex-platform
 ---
 

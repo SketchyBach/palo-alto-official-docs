@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/deployment-steps-and-checklist/fedramp-overview
-fetched_at: 2026-09-06T09:53:19Z
+fetched_at: 2026-09-16T08:44:30Z
 source: cortex-platform
 ---
 

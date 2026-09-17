@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.14/configure-multi-tenant/share-indicators/ingest-indicators-from-the-shared-indicators-index
-fetched_at: 2026-09-06T10:50:07Z
+fetched_at: 2026-09-16T08:58:07Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Share Indicators 
 
- XSOAR 6.14 Multi-Tenant 
+ Cortex XSOAR 6.14 Multi-Tenant 
 
  Ingest Indicators from the Shared Indicators Index 
 
@@ -107,6 +107,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Remote Repositories for Multi-Tenant Deployments 
 
- Last updated 6 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

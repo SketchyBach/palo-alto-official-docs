@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/vm-series/deployment/public-cloud/set-up-the-vm-series-firewall-on-aws/use-case-secure-the-ec2-instances-in-the-aws-cloud
-fetched_at: 2026-08-13T17:41:55Z
+fetched_at: 2026-09-16T07:52:20Z
 source: palo-alto-main
 ---
 
 # Use Case: Secure the EC2 Instances in the AWS Cloud Clear
 
-Use Case: Secure the EC2 Instances in the AWS Cloud 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Use Case: Secure the EC2 Instances in the AWS Cloud 
-
- Updated on 
-
- Wed Jul 08 11:47:59 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- VM-Series Firewall Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Upgrade 
-
- Deployment 
-
- Select a Document 
-
- Public Cloud 
-
- Private Cloud 
-
- Updated on 
-
- Wed Jul 08 11:47:59 PDT 2026 
+ Aug 10, 2026 
 
  Focus 
 
@@ -698,70 +644,4 @@ have successfully deployed the VM-Series firewall as a cloud gateway!
 
  Next 
 
- Use Case: Use Dynamic Address Groups to Secure New EC2 Instances within the VPC 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Next-Generation Firewalls 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- VM-Series 
-
- Plugins 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Resources 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- Cloud Infrastructure Protection 
-
- Network Security 
-
- Deployment 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Use Case: Use Dynamic Address Groups to Secure New EC2 Instances within the VPC

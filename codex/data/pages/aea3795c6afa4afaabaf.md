@@ -1,0 +1,431 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/administration/deploy-prisma-agents/deploy-prisma-agents-using-jamf-pro/deploy-agents-to-macos-endpoints-using-jamf/create-a-prisma-agent-configuration-profile-in-jamf-pro-v2
+fetched_at: 2026-09-16T08:21:20Z
+source: palo-alto-main
+---
+
+# Manually Create a Configuration Profile (V2_1) for Prisma Agent Clear
+
+Updated on 
+
+ Thu Aug 27 20:22:38 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Deploy the Prisma Agent 
+
+ Deploy Prisma Agents Using Jamf Pro 
+
+ Deploy Prisma Agents to macOS Endpoints Using Jamf Pro 
+
+ Manually Create a Configuration Profile (V2_1) for Prisma Agent 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ Manually Create a Configuration Profile (V2_1) for Prisma Agent 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Manually Create Configuration Profiles (V3) for Prisma Agent 
+
+ Next 
+
+ Create a Jamf Policy for Prisma Agent Deployment 
+
+ Manually Create a Configuration Profile (V2_1) for Prisma Agent 
+
+ Learn how to create and deploy a configuration profile that defines how the Prisma Agent is configured and run on macOS devices. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama) 
+
+ NGFW (Managed by Panorama) 
+
+ Check the prerequisites for the deployment you're
+ using 
+
+ Prisma Agent 25.6 or earlier versions 
+
+ macOS 14 and later desktop devices 
+
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
+
+ Create and deploy a configuration profile for Prisma Agents that defines
+ how the Prisma Agent is configured on managed macOS devices. For
+ example, you can set up the configuration profile to automatically load system
+ extensions to provide a seamless experience for users running the Prisma Agent to access the internet, SaaS applications, and private
+ applications and resources in your organization. 
+
+ ( Recommended ) As an alternative to manually creating a configuration
+ profile, use a unified configuration profile provided by Palo
+ Alto Networks . The most recent unified configuration profiles (V3)
+ are available here . 
+
+ This configuration profile will automatically load the following Prisma Agent extensions on a managed endpoint: 
+ PAA Network Extension (com.paloaltonetworks.pang.networkextension) 
+
+ PAA Security Extension (com.paloaltonetworks.pang.securityextension) 
+
+ After you deploy the agent, you can run the systemextensionsctl
+ list command on an endpoint to verify that the extensions have been
+ loaded. For example: 
+
+ Endpoint DLP Considerations 
+
+ If you plan to use Endpoint DLP with Prisma Agent , complete the following steps: 
+
+ Add the com.paloaltonetworks.pangdlp.enforcer 
+ extension in the System Extensions payload. 
+
+ Add two App
+ access sections for Endpoint DLP in the Privacy
+ Preferences Policy Control payload. 
+
+ If you previously deployed other Palo Alto Networks apps such as GlobalProtect™
+ and Cortex® XDR® to your endpoints, when deploying the system extensions via
+ mobile device management (MDM) software, the configuration profiles for Prisma Agent and the other Palo Alto Networks apps must include the
+ Allowed System Extension and Removable
+ System Extension settings. If only one of the profiles has the
+ removable system extension, the uninstallation of Prisma Agent 
+ won’t complete. 
+
+ The following procedure is based on the Prisma Agent unified
+ configuration profile (V2_1). 
+
+ Create a Jamf Smart Computer Group to
+ target specific managed macOS devices for the installation of the Prisma Agent . 
+
+ Create a configuration profile for the Prisma Agent . 
+
+ In Jamf Pro, select Computers Configuration Profiles New . 
+
+ Specify General settings: 
+
+ Name = Enter a display name for the
+ configuration profile 
+
+ Level = Computer
+ Level 
+
+ Configure a Content Filter payload to push the Prisma Agent content filter to your users' devices and suppress the
+ following prompts on the endpoints: 
+
+ Select Options Content Filter . 
+
+ Enter a Filter Name , such as PAA
+ Content Filter . 
+
+ For the Identifier , enter
+ com.paloaltonetworks.pang . 
+
+ Enable Filter Order and select
+ Firewall . 
+
+ Enable the Socket Filter 
+ and enter the following: 
+
+ Socket Filter Bundle Identifier =
+ com.paloaltonetworks.pang.networkextension 
+
+ Socket Filter Designated Requirement =
+
+ identifier "com.paloaltonetworks.pang.networkextension" and anchor apple generic and certificate leaf[subject.OU] = PXPZ95SK77 
+
+ Save your settings. 
+
+ Create a Notifications payload to configure how Prisma Agent notifications are displayed on the end users'
+ devices. 
+
+ If you saved your settings in the previous step, click
+ Edit . 
+
+ Select Options Notifications Add . 
+
+ Enter the App Name , such as Prisma Access Agent . 
+
+ For Bundle ID , enter
+ com.paloaltonetworks.PrismaAccessAgent . 
+
+ Specify how you want alerts and notifications for the Prisma Agents to appear on the end users' devices. For
+ example, to configure notifications that are not overly intrusive,
+ select: 
+
+ Notifications Enable 
+
+ Banner alert type Persistent 
+
+ Save your settings. 
+
+ Create a Privacy Preferences Policy Control payload to
+ configure access settings for the Prisma Agent . This will provide
+ Full Disk Access permissions for Prisma Agent processes. 
+
+ If you saved your settings in the previous step, click
+ Edit . 
+
+ Select Options Privacy Preferences Policy Control Configure . 
+
+ In the App Access section, specify the values as shown for the
+ following fields: 
+
+ Identifier =
+ com.paloaltonetworks.pang.securityextension 
+
+ Identifier Type = Bundle
+ ID 
+
+ Code Requirement =
+
+ identifier "com.paloaltonetworks.pang.securityextension" and anchor apple generic and certificate leaf[subject.OU] = PXPZ95SK77 
+
+ APP OR SERVICE =
+ SystemPolicyAllFiles 
+
+ ACCESS =
+ Allow 
+
+ ( Optional ) To enable Endpoint DLP during the
+ installation of Prisma Agent , add two App
+ access sections to provide Full Disk Access permissions
+ for Endpoint DLP processes. 
+
+ Click the + sign to add an App access
+ section for
+ com.paloaltonetworks.pangdlp.enforcer . 
+
+ Specify the values as shown for the following fields: 
+ Identifier =
+ com.paloaltonetworks.pangdlp.enforcer 
+
+ Identifier Type =
+ Bundle ID 
+
+ Code Requirement =
+
+ identifier "com.paloaltonetworks.pangdlp.enforcer" and anchor apple generic and certificate leaf[subject.OU] = PXPZ95SK77 
+
+ APP OR SERVICE =
+ SystemPolicyAllFiles 
+
+ ACCESS =
+ Allow 
+
+ Click the + sign to add an App
+ access section for
+ com.paloaltonetworks.pangdlp . 
+
+ Specify the values as shown for the following fields: 
+ Identifier =
+ com.paloaltonetworks.pangdlp 
+
+ Identifier Type =
+ Bundle ID 
+
+ Code Requirement =
+
+ identifier "com.paloaltonetworks.pangdlp" and anchor apple generic and certificate leaf[subject.OU] = PXPZ95SK77 
+
+ APP OR SERVICE =
+ SystemPolicyAllFiles 
+
+ ACCESS =
+ Allow 
+
+ Save your settings. 
+
+ Configure a System Extensions payload to automatically
+ load Prisma Agent system extensions on the end users' devices and
+ suppress notifications such as the following: 
+
+ If you saved your settings in the previous step, click
+ Edit . 
+
+ Select System Extensions Configure . 
+
+ Enter a Display Name such as PAA
+ Allowed System Extensions . 
+
+ Specify the values as shown for the following fields: 
+
+ For System Extension Types , select
+ Allowed system extensions . 
+
+ For Team Identifier , enter
+ PXPZ95SK77 . 
+
+ In Allowed System Extensions , add the
+ following extensions: 
+ com.paloaltonetworks.pang.networkextension 
+ ( Prisma Agent network extension) 
+
+ com.paloaltonetworks.pang.securityextension 
+ ( Prisma Agent security extension) 
+
+ ( Optional )
+ com.paloaltonetworks.pangdlp.enforcer 
+ (if you plan to use Endpoint DLP 
+ with Prisma Agent ) 
+
+ To avoid potential conflict between nonremovable and removable system
+ extensions, configure removable system extensions for Prisma Agent : 
+
+ Click the + sign to add a second
+ Allowed System Extensions and Team
+ IDs section. 
+
+ Enter a Display Name such as
+ PAA Removable System Extensions . 
+
+ For System Extension Types , select
+ Removable system extensions . 
+
+ For Team Identifier , enter
+ PXPZ95SK77 . 
+
+ Add the following Removable System
+ Extensions : 
+ com.paloaltonetworks.pang.networkextension 
+ ( Prisma Agent network extension) 
+
+ com.paloaltonetworks.pang.securityextension 
+ ( Prisma Agent security extension) 
+
+ ( Optional )
+ com.paloaltonetworks.pangdlp.enforcer 
+ (if you plan to use Endpoint DLP 
+ with Prisma Agent ) 
+
+ Save your payload settings. 
+
+ Configure a VPN payload to specify how the device
+ connects to your wireless network via the tunnel. 
+
+ If you saved your settings in the previous step, click
+ Edit . 
+
+ Select Options VPN Configure . 
+
+ Enter a Connection Name , such as PAA
+ Transparent Proxy . 
+
+ For the VPN Type , select
+ VPN . 
+
+ Specify the values as shown for the following fields: 
+
+ Connection Type = Custom
+ SSL 
+
+ Identifier =
+ com.paloaltonetworks.pang . 
+
+ Server = A placeholder IP address such as
+ 8.8.8.8 
+
+ Provider Bundle Identifier =
+ com.paloaltonetworks.pang.networkextension 
+
+ For Custom Data , add the following key and
+ value: 
+
+ Key =
+ ztna-spdo-dyn-uuid 
+
+ Value =
+ 339E19CD-B2EF-4DB4-8E7F-D6E72BDFA7CB 
+
+ Select Provider Type App-proxy . 
+
+ Enable Exclude Local Networks . 
+
+ For Provider Designated Requirement , enter: 
+
+ identifier "com.paloaltonetworks.pang.networkextension" and anchor apple generic and certificate leaf[subject.OU] = PXPZ95SK77 
+
+ Select Enable VPN on Demand and enter the
+ following On Demand Rules Configuration
+ XML : 
+
+ <array>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+</dict>
+</array> 
+
+ Save your settings. 
+
+ Set the scope for the configuration profile. 
+
+ Edit the configuration profile. 
+
+ Select Scope and Add the
+ Smart Computer Group that you created to target the specific managed
+ macOS devices for the installation of the Prisma Agent . You
+ can also select specific computers as deployment targets. For
+ example: 
+
+ Save the scope of the profile. Jamf will target
+ the selected computers and computer groups for the distribution of the
+ configuration profile. 
+
+ To verify the status of the configuration profile installation: 
+
+ In Jamf Pro, select Computers Configuration Profiles . 
+
+ Find the configuration profile that you set up and select
+ View . 
+
+ Select the log that you want to view: 
+
+ To show the configuration profiles that have been installed, select Inventory Profiles . 
+ To show the status of the configuration profiles that are pending or
+ failed the push, select Management and view the
+ Pending Commands or Failed
+ Commands . 
+
+ After the profile has been deployed, verify the status of the profile
+ installation on a macOS endpoint: 
+
+ In System Settings, search for Profiles . 
+
+ Double-click the Prisma Agent profile that you
+ deployed. 
+
+ Review the profile settings to ensure that the correct settings have
+ been deployed. For example: 
+
+ Previous 
+
+ Manually Create Configuration Profiles (V3) for Prisma Agent 
+
+ Next 
+
+ Create a Jamf Policy for Prisma Agent Deployment

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/cortex-mcp-server/install-the-cortex-mcp-server
-fetched_at: 2026-09-06T10:17:16Z
+fetched_at: 2026-09-16T08:50:42Z
 source: cortex-platform
 ---
 
@@ -145,6 +145,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure the MCP client 
 
- Last updated 11 days ago 
+ Last updated 21 days ago 
 
  Was this helpful?

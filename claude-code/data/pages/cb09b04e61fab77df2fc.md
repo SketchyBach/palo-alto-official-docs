@@ -1,58 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/fedramp/prisma-sase/fedramp-moderate-and-high-requirements/fedramp-moderate-and-high-support
-fetched_at: 2026-08-13T16:32:41Z
-source: palo-alto-main
+fetched_at: 2026-09-15T15:13:54Z
+source: strata-and-sase
 ---
 
 # Prisma SASE FedRAMP Moderate and High Support Clear
 
-Prisma SASE FedRAMP Moderate and High Support 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Prisma SASE FedRAMP Moderate and High Support 
-
- Updated on 
-
- May 6, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- FedRAMP Docs 
-
- Reference 
-
- Autonomous DEM 
-
- Updated on 
-
- May 6, 2026 
+ Aug 21, 2026 
 
  Focus 
 
@@ -109,15 +65,26 @@ Prisma SASE FedRAMP Moderate and High Support
  Strata Cloud Manager
  (SCM) ✔ ✔ 
 
+ Prisma Access 
+
  Prisma Access (managed by
  Strata Cloud Manager ) 
 
- ✔ ✔ 
+ ✔ — 
 
  Panorama-managed Prisma
  Access 
 
  ✔ ✔ 
+
+ IP Optimization 
+
+ ✔ — 
+
+ Remote Network—High
+ Performance 
+
+ ✔ — 
 
  Insights (Prisma and Cloud
  Managed) 
@@ -316,62 +283,4 @@ Prisma SASE FedRAMP Moderate and High Support
 
  Next 
 
- Prisma SASE FedRAMP Moderate and High Locations 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Reference 
-
- Prisma SASE 
-
- FedRAMP 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Prisma SASE FedRAMP Moderate and High Locations

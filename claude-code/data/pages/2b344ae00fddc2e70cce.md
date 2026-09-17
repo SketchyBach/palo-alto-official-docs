@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/whats-new/new-features/september-2024/25-000-remote-network-maximum
-fetched_at: 2026-08-13T17:47:46Z
+fetched_at: 2026-09-16T07:54:06Z
 source: palo-alto-main
 ---
 
@@ -37,7 +37,7 @@ Platform Explorer
 
  Try out the filters below to get started. 
 
- Print 
+ Download PDF 
 
  Most recent releases 
 

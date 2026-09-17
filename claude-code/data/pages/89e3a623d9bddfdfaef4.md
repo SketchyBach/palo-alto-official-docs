@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/integration/attribute-reference/attribute-reference-microsoft-windows-server
-fetched_at: 2026-08-13T16:37:02Z
+fetched_at: 2026-09-15T15:14:39Z
 source: palo-alto-main
 ---
 
 # Microsoft Windows Server Attribute Reference Clear
 
-Microsoft Windows Server Attribute Reference 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Microsoft Windows Server Attribute Reference 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
+ Mon Aug 17 11:22:37 PDT 2026 
 
  Focus 
 
@@ -116,13 +60,12 @@ Microsoft Windows Server Attribute Reference
 
  Next 
 
- NetBox Attribute Reference 
+ NetBox Labs Attribute Reference 
 
  Microsoft Windows Server Attribute Reference 
 
- This reference lists the attributes that Device Security collects from Microsoft Windows
- Server, their names as stored in Device Security , and the Device Security fields
- they map to.
+ This reference lists the attributes that Device Security collects from Microsoft Windows Server,
+ their names as stored in Device Security , and the Device Security fields they map to.
 
  Device Security integrates with Microsoft Windows Server to collect network data
  that enriches the device inventory. The attributes in this reference cover DHCP
@@ -139,11 +82,9 @@ Microsoft Windows Server Attribute Reference
  For example, micrsoft_defender_xdr.macAddress would appear in the
  Query Builder and in the Assets Inventory table, but under Device Details Attributes Integration Specific Attributes Microsoft Defender , the attribute would appear as macAddress .
 
- DHCP Lease Attributes 
+ Dhcp Leases Attributes 
 
- Device Security collects DHCP lease attributes from the Microsoft Windows Server DHCP service. Each record describes an active or historical DHCP lease assigned to a device.
- The following table lists each Microsoft Windows Server attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
+ Device Security collects dhcp leases attributes from Microsoft Windows Server. The following table lists each Microsoft Windows Server attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
  Microsoft Windows Server Attribute 
 
@@ -153,277 +94,45 @@ Microsoft Windows Server Attribute Reference
 
  Description 
 
- is_ip_address_static 
-
- microsoft_windows_server.is_ip_address_static 
-
- — 
-
- Indicates whether the IP address is statically assigned 
-
- — 
-
- — 
-
- is_ip_address_static 
-
- Indicates whether the IP address is statically assigned 
-
- LeaseExpiryTime 
-
- — 
-
- dhcp_lease_expiry_time 
-
- Expiration date and time of the DHCP lease 
-
- IPAddress.IsIPv6Multicast 
-
- microsoft_windows_server.IPAddress.IsIPv6Multicast 
-
- — 
-
- Indicates whether the address is an IPv6 multicast address 
-
- IPAddress.IsIPv6SiteLocal 
-
- microsoft_windows_server.IPAddress.IsIPv6SiteLocal 
-
- — 
-
- Indicates whether the address is an IPv6 site-local address 
-
- IPAddress.IsIPv6Teredo 
-
- microsoft_windows_server.IPAddress.IsIPv6Teredo 
-
- — 
-
- Indicates whether the address is an IPv6 Teredo address 
-
- IPAddress.IPAddressToString 
-
- microsoft_windows_server.IPAddress.IPAddressToString 
-
- — 
-
- IP address as a string 
-
- IPAddress.IsIPv6LinkLocal 
-
- microsoft_windows_server.IPAddress.IsIPv6LinkLocal 
-
- — 
-
- Indicates whether the address is an IPv6 link-local address 
-
- IPAddress.IsIPv4MappedToIPv6 
-
- microsoft_windows_server.IPAddress.IsIPv4MappedToIPv6 
-
- — 
-
- Indicates whether the IPv4 address is mapped to IPv6 
-
- IPAddress.ScopeId 
-
- microsoft_windows_server.IPAddress.ScopeId 
-
- — 
-
- Scope ID of the IP address 
-
- IPAddress.AddressFamily 
-
- microsoft_windows_server.IPAddress.AddressFamily 
-
- — 
-
- Address family (IPv4 or IPv6) 
-
- IPAddress.Address 
-
- microsoft_windows_server.IPAddress.Address 
-
- — 
-
- Numeric IP address value 
-
- ScopeId.IsIPv6Multicast 
-
- microsoft_windows_server.ScopeId.IsIPv6Multicast 
-
- — 
-
- Indicates whether the address is an IPv6 multicast address 
-
- ScopeId.IsIPv6LinkLocal 
-
- microsoft_windows_server.ScopeId.IsIPv6LinkLocal 
-
- — 
-
- Indicates whether the address is an IPv6 link-local address 
-
- ScopeId.IsIPv6SiteLocal 
-
- microsoft_windows_server.ScopeId.IsIPv6SiteLocal 
-
- — 
-
- Indicates whether the address is an IPv6 site-local address 
-
- ScopeId.IsIPv6Teredo 
-
- microsoft_windows_server.ScopeId.IsIPv6Teredo 
-
- — 
-
- Indicates whether the address is an IPv6 Teredo address 
-
- ScopeId.IsIPv4MappedToIPv6 
-
- microsoft_windows_server.ScopeId.IsIPv4MappedToIPv6 
-
- — 
-
- Indicates whether the IPv4 address is mapped to IPv6 
-
- ScopeId.IPAddressToString 
-
- microsoft_windows_server.ScopeId.IPAddressToString 
-
- — 
-
- IP address as a string 
-
- ScopeId.ScopeId 
-
- microsoft_windows_server.ScopeId.ScopeId 
-
- — 
-
- Scope ID of the IP address 
-
- ScopeId.AddressFamily 
-
- microsoft_windows_server.ScopeId.AddressFamily 
-
- — 
-
- Address family (IPv4 or IPv6) 
-
- ScopeId.Address 
-
- microsoft_windows_server.ScopeId.Address 
-
- — 
-
- Numeric IP address value 
-
- PSComputerName 
-
- microsoft_windows_server.PSComputerName 
-
- — 
-
- PowerShell computer name (source server) 
-
- ServerIP 
-
- microsoft_windows_server.ServerIP 
-
- — 
-
- IP address of the DHCP server 
-
- ProbationEnds 
-
- microsoft_windows_server.ProbationEnds 
-
- — 
-
- Date and time the NAP probation period ends 
-
- PolicyName 
-
- microsoft_windows_server.PolicyName 
-
- — 
-
- DHCP policy name applied to the lease 
-
- NapStatus 
-
- microsoft_windows_server.NapStatus 
-
- — 
-
- Network Access Protection status of the device 
-
- NapCapable 
-
- microsoft_windows_server.NapCapable 
-
- — 
-
- Indicates whether the device is Network Access Protection capable 
-
  LeaseExpiryTime 
 
  microsoft_windows_server.LeaseExpiryTime 
 
- — 
+ dhcp_lease_expiry_time 
 
- DHCP lease expiry timestamp 
+ LeaseExpiryTime 
 
  HostName 
 
  microsoft_windows_server.HostName 
 
- — 
+ hostname 
 
- Hostname of the device 
+ HostName 
 
- DnsRR 
+ IPAddress.IPAddressToString 
 
- microsoft_windows_server.DnsRR 
+ microsoft_windows_server.IPAddress.IPAddressToString 
 
- — 
+ IP Address 
 
- DNS resource record associated with the lease 
+ IPAddressToString 
 
- DnsRegistration 
+ Type 
 
- microsoft_windows_server.DnsRegistration 
+ microsoft_windows_server.is_ip_address_static 
 
- — 
+ is_ip_address_static 
 
- DNS registration status of the lease 
-
- Description 
-
- microsoft_windows_server.Description 
-
- — 
-
- Description of the DHCP lease 
-
- ClientType 
-
- microsoft_windows_server.ClientType 
-
- — 
-
- DHCP client type (DHCP or static) 
+ Type 
 
  ClientId 
 
  microsoft_windows_server.ClientId 
 
- — 
+ MAC; id 
 
- DHCP client identifier (MAC address) 
+ ClientId 
 
  AddressState 
 
@@ -431,37 +140,227 @@ Microsoft Windows Server Attribute Reference
 
  — 
 
- Address state of the DHCP lease 
+ AddressState 
 
- HostName 
+ ClientType 
 
- — 
-
- Hostname 
-
- Hostname of the device 
+ microsoft_windows_server.ClientType 
 
  — 
 
- — 
+ ClientType 
 
- ipv4_address 
+ Description 
 
- IPv4 address of the device 
-
- ClientId 
+ microsoft_windows_server.Description 
 
  — 
 
- MAC Address 
+ Description 
 
- MAC address of the device 
+ DnsRegistration 
 
- Device Detail Attributes 
+ microsoft_windows_server.DnsRegistration 
 
- Device Security collects device detail attributes from Microsoft Windows Server. Each record provides hardware, operating system, and network configuration details for a managed device.
- The following table lists each Microsoft Windows Server attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
+ — 
+
+ DnsRegistration 
+
+ DnsRR 
+
+ microsoft_windows_server.DnsRR 
+
+ — 
+
+ DnsRR 
+
+ IPAddress.Address 
+
+ microsoft_windows_server.IPAddress.Address 
+
+ — 
+
+ Address 
+
+ IPAddress.AddressFamily 
+
+ microsoft_windows_server.IPAddress.AddressFamily 
+
+ — 
+
+ AddressFamily 
+
+ IPAddress.IsIPv4MappedToIPv6 
+
+ microsoft_windows_server.IPAddress.IsIPv4MappedToIPv6 
+
+ — 
+
+ IsIPv4MappedToIPv6 
+
+ IPAddress.IsIPv6LinkLocal 
+
+ microsoft_windows_server.IPAddress.IsIPv6LinkLocal 
+
+ — 
+
+ IsIPv6LinkLocal 
+
+ IPAddress.IsIPv6Multicast 
+
+ microsoft_windows_server.IPAddress.IsIPv6Multicast 
+
+ — 
+
+ IsIPv6Multicast 
+
+ IPAddress.IsIPv6SiteLocal 
+
+ microsoft_windows_server.IPAddress.IsIPv6SiteLocal 
+
+ — 
+
+ IsIPv6SiteLocal 
+
+ IPAddress.IsIPv6Teredo 
+
+ microsoft_windows_server.IPAddress.IsIPv6Teredo 
+
+ — 
+
+ IsIPv6Teredo 
+
+ IPAddress.ScopeId 
+
+ microsoft_windows_server.IPAddress.ScopeId 
+
+ — 
+
+ ScopeId 
+
+ NapCapable 
+
+ microsoft_windows_server.NapCapable 
+
+ — 
+
+ NapCapable 
+
+ NapStatus 
+
+ microsoft_windows_server.NapStatus 
+
+ — 
+
+ NapStatus 
+
+ PolicyName 
+
+ microsoft_windows_server.PolicyName 
+
+ — 
+
+ PolicyName 
+
+ ProbationEnds 
+
+ microsoft_windows_server.ProbationEnds 
+
+ — 
+
+ ProbationEnds 
+
+ PSComputerName 
+
+ microsoft_windows_server.PSComputerName 
+
+ — 
+
+ PSComputerName 
+
+ ScopeId.Address 
+
+ microsoft_windows_server.ScopeId.Address 
+
+ — 
+
+ Address 
+
+ ScopeId.AddressFamily 
+
+ microsoft_windows_server.ScopeId.AddressFamily 
+
+ — 
+
+ AddressFamily 
+
+ ScopeId.IPAddressToString 
+
+ microsoft_windows_server.ScopeId.IPAddressToString 
+
+ — 
+
+ IPAddressToString 
+
+ ScopeId.IsIPv4MappedToIPv6 
+
+ microsoft_windows_server.ScopeId.IsIPv4MappedToIPv6 
+
+ — 
+
+ IsIPv4MappedToIPv6 
+
+ ScopeId.IsIPv6LinkLocal 
+
+ microsoft_windows_server.ScopeId.IsIPv6LinkLocal 
+
+ — 
+
+ IsIPv6LinkLocal 
+
+ ScopeId.IsIPv6Multicast 
+
+ microsoft_windows_server.ScopeId.IsIPv6Multicast 
+
+ — 
+
+ IsIPv6Multicast 
+
+ ScopeId.IsIPv6SiteLocal 
+
+ microsoft_windows_server.ScopeId.IsIPv6SiteLocal 
+
+ — 
+
+ IsIPv6SiteLocal 
+
+ ScopeId.IsIPv6Teredo 
+
+ microsoft_windows_server.ScopeId.IsIPv6Teredo 
+
+ — 
+
+ IsIPv6Teredo 
+
+ ScopeId.ScopeId 
+
+ microsoft_windows_server.ScopeId.ScopeId 
+
+ — 
+
+ ScopeId 
+
+ ServerIP 
+
+ microsoft_windows_server.ServerIP 
+
+ — 
+
+ ServerIP 
+
+ Details Attributes 
+
+ Device Security collects details attributes from Microsoft Windows Server. The following table lists each Microsoft Windows Server attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
  Microsoft Windows Server Attribute 
 
@@ -471,293 +370,53 @@ Microsoft Windows Server Attribute Reference
 
  Description 
 
- BitlockerStatus.KeyProtector 
-
- microsoft_windows_server.BitlockerStatus.KeyProtector 
-
- — 
-
- List of BitLocker key protectors for the volume 
-
- BitlockerStatus.ProtectionStatus 
-
- microsoft_windows_server.BitlockerStatus.ProtectionStatus 
-
- — 
-
- BitLocker protection status of the volume 
-
- BitlockerStatus.MountPoint 
-
- microsoft_windows_server.BitlockerStatus.MountPoint 
-
- — 
-
- Drive mount point of the BitLocker volume 
-
- BitlockerStatus.MetadataVersion 
-
- microsoft_windows_server.BitlockerStatus.MetadataVersion 
-
- — 
-
- Metadata version of the BitLocker volume 
-
- BitlockerStatus.VolumeStatus 
-
- microsoft_windows_server.BitlockerStatus.VolumeStatus 
-
- — 
-
- Status of the BitLocker volume 
-
- BitlockerStatus.VolumeType 
-
- microsoft_windows_server.BitlockerStatus.VolumeType 
-
- — 
-
- Type of the BitLocker volume 
-
- BitlockerStatus.WipePercentage 
-
- microsoft_windows_server.BitlockerStatus.WipePercentage 
-
- — 
-
- Percentage of the volume that has been wiped 
-
- BitlockerStatus.LockStatus 
-
- microsoft_windows_server.BitlockerStatus.LockStatus 
-
- — 
-
- Lock status of the BitLocker volume 
-
- BitlockerStatus.EncryptionPercentage 
-
- microsoft_windows_server.BitlockerStatus.EncryptionPercentage 
-
- — 
-
- Percentage of the volume that is encrypted 
-
- BitlockerStatus.EncryptionMethodFlags 
-
- microsoft_windows_server.BitlockerStatus.EncryptionMethodFlags 
-
- — 
-
- Flags describing the BitLocker encryption method 
-
- BitlockerStatus.EncryptionMethod 
-
- microsoft_windows_server.BitlockerStatus.EncryptionMethod 
-
- — 
-
- BitLocker encryption method used 
-
- BitlockerStatus.CapacityGB 
-
- microsoft_windows_server.BitlockerStatus.CapacityGB 
-
- — 
-
- Volume capacity in gigabytes 
-
- BitlockerStatus.AutoUnlockKeyStored 
-
- microsoft_windows_server.BitlockerStatus.AutoUnlockKeyStored 
-
- — 
-
- Indicates whether the BitLocker auto-unlock key is stored 
-
- BitlockerStatus.AutoUnlockEnabled 
-
- microsoft_windows_server.BitlockerStatus.AutoUnlockEnabled 
-
- — 
-
- Indicates whether BitLocker auto-unlock is enabled 
-
- BitlockerStatus.ComputerName 
-
- microsoft_windows_server.BitlockerStatus.ComputerName 
-
- — 
-
- Name of the computer 
-
- SystemManufacturer 
-
- microsoft_windows_server.SystemManufacturer 
-
- — 
-
- System manufacturer (hardware vendor) 
-
- ProcessorName 
-
- microsoft_windows_server.ProcessorName 
-
- — 
-
- Processor name and model 
-
- ProcessorManufacturer 
-
- microsoft_windows_server.ProcessorManufacturer 
-
- — 
-
- Processor manufacturer 
-
- ProcessorFamily 
-
- microsoft_windows_server.ProcessorFamily 
-
- — 
-
- Processor family 
-
- PSComputerName 
-
- microsoft_windows_server.PSComputerName 
-
- — 
-
- PowerShell computer name (source server) 
-
- OSVersion 
-
- microsoft_windows_server.OSVersion 
-
- — 
-
- Operating system version 
-
- OSSuiteMask 
-
- microsoft_windows_server.OSSuiteMask 
-
- — 
-
- Bitmask representing the operating system suite 
-
- OSSuite 
-
- microsoft_windows_server.OSSuite 
-
- — 
-
- Operating system suite 
-
- OSSku 
-
- microsoft_windows_server.OSSku 
-
- — 
-
- Operating system SKU 
-
- OSName 
-
- microsoft_windows_server.OSName 
-
- — 
-
- Operating system name 
-
- NumberOfProcessors 
-
- microsoft_windows_server.NumberOfProcessors 
-
- — 
-
- Number of physical processors 
-
  Name 
 
  microsoft_windows_server.Name 
 
- — 
+ hostname 
 
- Device name 
-
- MacAddress 
-
- microsoft_windows_server.MacAddress 
-
- — 
-
- MAC address of the device 
+ Name 
 
  IPAddress 
 
  microsoft_windows_server.IPAddress 
 
- — 
+ IP Address 
 
- IP address of the device 
+ IPAddress 
 
- NumberOfLogicalProcessors 
+ MacAddress 
 
- microsoft_windows_server.NumberOfLogicalProcessors 
+ microsoft_windows_server.MacAddress 
 
- — 
+ MAC; id 
 
- Number of logical processors 
+ MacAddress 
 
- NumberOfCores 
+ OSName 
 
- microsoft_windows_server.NumberOfCores 
+ microsoft_windows_server.OSName 
 
- — 
+ OS Name 
 
- Number of CPU cores 
+ OSName 
 
- Model 
+ OSVersion 
 
- microsoft_windows_server.Model 
+ microsoft_windows_server.OSVersion 
 
- — 
+ OS Version 
 
- Device model 
-
- CollectedDateTime 
-
- microsoft_windows_server.CollectedDateTime 
-
- — 
-
- Date and time the data was collected 
+ OSVersion 
 
  ChassisSerialNumber 
 
  microsoft_windows_server.ChassisSerialNumber 
 
- — 
-
- Chassis serial number of the device 
-
- ChassisSerialNumber 
-
- — 
-
  Serial Number 
 
- Device serial number 
-
- NetworkAdapters 
-
- — 
-
- third_party_learned_network_interfaces 
-
- Network interface data collected from the device 
+ ChassisSerialNumber 
 
  InstalledSoftware 
 
@@ -765,55 +424,239 @@ Microsoft Windows Server Attribute Reference
 
  third_party_learned_installed_software 
 
- Installed software data collected from the device 
+ InstalledSoftware 
 
- OSVersion 
-
- — 
-
- OS Version 
-
- Operating system version 
-
- OSName 
+ NetworkAdapters 
 
  — 
 
- OS Name 
+ third_party_learned_network_interfaces 
 
- Operating system name 
+ NetworkAdapters 
 
  SystemManufacturer 
 
- — 
+ microsoft_windows_server.SystemManufacturer 
 
  Vendor 
 
- System manufacturer (hardware vendor) 
+ SystemManufacturer 
 
- Name 
+ BitlockerStatus.AutoUnlockEnabled 
 
- — 
-
- Hostname 
-
- Hostname of the device 
-
- IPAddress 
+ microsoft_windows_server.BitlockerStatus.AutoUnlockEnabled 
 
  — 
 
- ipv4_address 
+ AutoUnlockEnabled 
 
- IPv4 address of the device 
+ BitlockerStatus.AutoUnlockKeyStored 
 
- MacAddress 
+ microsoft_windows_server.BitlockerStatus.AutoUnlockKeyStored 
 
  — 
 
- MAC Address 
+ AutoUnlockKeyStored 
 
- MAC address of the device 
+ BitlockerStatus.CapacityGB 
+
+ microsoft_windows_server.BitlockerStatus.CapacityGB 
+
+ — 
+
+ CapacityGB 
+
+ BitlockerStatus.ComputerName 
+
+ microsoft_windows_server.BitlockerStatus.ComputerName 
+
+ — 
+
+ ComputerName 
+
+ BitlockerStatus.EncryptionMethod 
+
+ microsoft_windows_server.BitlockerStatus.EncryptionMethod 
+
+ — 
+
+ EncryptionMethod 
+
+ BitlockerStatus.EncryptionMethodFlags 
+
+ microsoft_windows_server.BitlockerStatus.EncryptionMethodFlags 
+
+ — 
+
+ EncryptionMethodFlags 
+
+ BitlockerStatus.EncryptionPercentage 
+
+ microsoft_windows_server.BitlockerStatus.EncryptionPercentage 
+
+ — 
+
+ EncryptionPercentage 
+
+ BitlockerStatus.KeyProtector 
+
+ microsoft_windows_server.BitlockerStatus.KeyProtector 
+
+ — 
+
+ KeyProtector 
+
+ BitlockerStatus.LockStatus 
+
+ microsoft_windows_server.BitlockerStatus.LockStatus 
+
+ — 
+
+ LockStatus 
+
+ BitlockerStatus.MetadataVersion 
+
+ microsoft_windows_server.BitlockerStatus.MetadataVersion 
+
+ — 
+
+ MetadataVersion 
+
+ BitlockerStatus.MountPoint 
+
+ microsoft_windows_server.BitlockerStatus.MountPoint 
+
+ — 
+
+ MountPoint 
+
+ BitlockerStatus.ProtectionStatus 
+
+ microsoft_windows_server.BitlockerStatus.ProtectionStatus 
+
+ — 
+
+ ProtectionStatus 
+
+ BitlockerStatus.VolumeStatus 
+
+ microsoft_windows_server.BitlockerStatus.VolumeStatus 
+
+ — 
+
+ VolumeStatus 
+
+ BitlockerStatus.VolumeType 
+
+ microsoft_windows_server.BitlockerStatus.VolumeType 
+
+ — 
+
+ VolumeType 
+
+ BitlockerStatus.WipePercentage 
+
+ microsoft_windows_server.BitlockerStatus.WipePercentage 
+
+ — 
+
+ WipePercentage 
+
+ CollectedDateTime 
+
+ microsoft_windows_server.CollectedDateTime 
+
+ — 
+
+ CollectedDateTime 
+
+ Model 
+
+ microsoft_windows_server.Model 
+
+ — 
+
+ Model 
+
+ NumberOfCores 
+
+ microsoft_windows_server.NumberOfCores 
+
+ — 
+
+ NumberOfCores 
+
+ NumberOfLogicalProcessors 
+
+ microsoft_windows_server.NumberOfLogicalProcessors 
+
+ — 
+
+ NumberOfLogicalProcessors 
+
+ NumberOfProcessors 
+
+ microsoft_windows_server.NumberOfProcessors 
+
+ — 
+
+ NumberOfProcessors 
+
+ OSSku 
+
+ microsoft_windows_server.OSSku 
+
+ — 
+
+ OSSku 
+
+ OSSuite 
+
+ microsoft_windows_server.OSSuite 
+
+ — 
+
+ OSSuite 
+
+ OSSuiteMask 
+
+ microsoft_windows_server.OSSuiteMask 
+
+ — 
+
+ OSSuiteMask 
+
+ ProcessorFamily 
+
+ microsoft_windows_server.ProcessorFamily 
+
+ — 
+
+ ProcessorFamily 
+
+ ProcessorManufacturer 
+
+ microsoft_windows_server.ProcessorManufacturer 
+
+ — 
+
+ ProcessorManufacturer 
+
+ ProcessorName 
+
+ microsoft_windows_server.ProcessorName 
+
+ — 
+
+ ProcessorName 
+
+ PSComputerName 
+
+ microsoft_windows_server.PSComputerName 
+
+ — 
+
+ PSComputerName 
 
  * Only some attributes map to a Device Security Common Attribute. 
 
@@ -823,54 +666,4 @@ Microsoft Windows Server Attribute Reference
 
  Next 
 
- NetBox Attribute Reference 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Reference 
-
- Cloud-Delivered Security Services 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ NetBox Labs Attribute Reference

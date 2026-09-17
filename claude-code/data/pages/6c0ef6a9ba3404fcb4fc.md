@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/protect-your-endpoints/endpoint-security/install-and-manage-endpoints/define-endpoint-groups
-fetched_at: 2026-09-06T09:30:35Z
+fetched_at: 2026-09-16T08:34:58Z
 source: cortex-platform
 ---
 

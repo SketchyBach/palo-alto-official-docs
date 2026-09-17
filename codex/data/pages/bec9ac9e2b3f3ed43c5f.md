@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/configure-cortex-xsoar/users-and-roles-management/roles-management/role-based-permissions-in-cortex-xsoar
-fetched_at: 2026-09-06T10:21:58Z
+fetched_at: 2026-09-16T08:52:18Z
 source: cortex-platform
 ---
 
@@ -279,6 +279,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage roles in Cortex Gateway 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

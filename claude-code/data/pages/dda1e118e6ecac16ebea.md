@@ -1,0 +1,169 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/strata-cloud-manager/getting-started/insights-scm/monitor-data-centers/monitor-data-centers-ztna-connectors.html
+fetched_at: 2026-09-16T09:46:46Z
+source: palo-alto-main
+---
+
+# Configuration: ZTNA Connectors Clear
+
+Updated on 
+
+ Sep 6, 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Cloud Manager 
+
+ Strata Cloud Manager Getting Started 
+
+ Insights: Strata Cloud Manager 
+
+ Insights:
+ Data Centers 
+
+ Configuration: ZTNA Connectors 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Strata Cloud Manager 
+
+ Configuration: ZTNA Connectors 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Cloud Manager Docs 
+
+ Activation & Onboarding 
+
+ Subscription & Tenant Management 
+
+ Getting Started 
+
+ AIOps 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Configuration: App Acceleration 
+
+ Next 
+
+ Configuration: IP Tag Collection 
+
+ Configuration: ZTNA Connectors 
+
+ View and monitor ZTNA Connectors to see the status and performance of your ZTNA
+ connectors and connector groups. 
+
+ Zero Trust Network Access (ZTNA) Connector simplifies private application access for all
+ your applications. The ZTNA Connector VM in your environment automatically forms tunnels
+ between your private applications and Prisma Access . View a summary of all
+ configured ZTNA connectors, including the Application Targets 
+ associated with the connector, its average and median bandwidth, and the
+ Status (Up, Partially Up, or Down). Select in Strata Cloud Manager to see how your ZTNA connectors and connector
+ groups are performing. 
+
+ Total Connector Groups 
+
+ Select the Total Connector Groups to get the details about the
+ Connector Groups and the associated Connectors. You can filter the information
+ using: 
+ Time Range : Select and available range or use a custom range. 
+
+ PA Location : Select the location as per your requirement. 
+
+ Connector Group : List of available Connector Groups. 
+
+ Status : Select either Up , Down or Partially
+ Up . 
+
+ If all Connectors in a Connector
+ Group are up, the Status is
+ Up (green). 
+
+ If all the Connectors are down, the status is
+ Down (red). 
+
+ If some Connectors are up and some are down, the
+ Status is Partially Up 
+ (orange). 
+
+ Disabled Connectors appear as gray. 
+
+ On the right-side of the screen, you get the details such as Group Name ,
+ Connector Status , Targets for the Connector Group. 
+
+ Select Connector Status and then
+ Action , to get the Device Metrics 
+ (Memory, CPU, Bandwidth, and Connector Availability). 
+
+ Select Target to get the following details such as
+ Target , Status , FQDN/IP Subnet , and Enabled . 
+
+ Total Wildcards 
+
+ Wildcards —For wildcard-based apps, create an FQDN-based Connector Group, and
+ then, specify the wildcard to use (for example, *.example.com) for the app target.
+ When users access sites that match the wildcard, those apps are automatically
+ onboarded for access from ZTNA Connector for your mobile users and remote network
+ users. 
+
+ Total Wildcards summarizes how many Wildcard rules you have onboarded. This is the number of wildcard rules that you
+ created , which is a different total than the number of apps discovered as
+ a result of creating these rules. Select the number next to Total
+ Wildcards to get the following details such as Wildcard ,
+ Connector Group , Targets , and Enabled . 
+
+ Select Action to
+ get the bandwidth. 
+
+ Target 
+
+ FQDNs — Prisma Access resolves the FQDNs of the applications you onboard to
+ ZTNA Connector to the IP addresses in the Application IP address block. 
+
+ IP Subnets —Create an IP subnet-based Connector Group, and then enter the IP
+ subnet to use for the app target. 
+
+ Select the number to view the total number of FQDN s and get
+ the details such as Target , Status , FQDN , Connector
+ Group , and Enabled . 
+
+ Select Action to get the bandwidth. 
+
+ Select the number to view the total number of IP Subnet and
+ get the details such as Target , Status , IP Subnet ,
+ Connector Group , and Enabled . 
+
+ Previous 
+
+ Configuration: App Acceleration 
+
+ Next 
+
+ Configuration: IP Tag Collection

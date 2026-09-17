@@ -1,0 +1,166 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/enterprise-dlp/activation-and-onboarding/enable-edm.html
+fetched_at: 2026-09-16T12:58:11Z
+source: palo-alto-main
+---
+
+# Enable Exact Data Matching (EDM) Clear
+
+Updated on 
+
+ Tue Sep 01 12:56:17 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Enterprise DLP 
+
+ Activation & Onboarding 
+
+ Enable Exact Data Matching (EDM) 
+
+ Download PDF 
+
+ Enterprise DLP 
+
+ Enable Exact Data Matching (EDM) 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Enterprise DLP Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Reference 
+
+ Release Notes 
+
+ New Features by OS Version 
+
+ New Features by Month 
+
+ Previous 
+
+ Enable Optical Character Recognition 
+
+ Next 
+
+ About Enterprise DLP 
+
+ Enable Exact Data Matching (EDM) 
+
+ Enable Exact Data Matching (EDM) on Strata Cloud Manager and the DLP app on the
+ hub. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Panorama or Strata Cloud Manager) 
+
+ Prisma Access (Managed by Panorama or Strata Cloud Manager) 
+
+ Prisma Browser 
+
+ Enterprise Data Loss Prevention (E-DLP) license 
+
+ Review the Supported
+ Platforms for details on the required license
+ for each enforcement point. 
+
+ Or any of the following licenses that include the Enterprise DLP license 
+
+ Prisma Access CASB license 
+
+ Next-Generation
+CASB for Prisma Access and NGFW (CASB-X) license 
+
+ Data Security license 
+
+ Exact Data Matching (EDM) is an advanced detection tool to monitor and protect sensitive data
+ from exfiltration. Use EDM to detect sensitive and personally identifiable
+ information (PII) such as social security numbers, Medical Record Numbers, bank
+ account numbers, and credit card numbers, in a structured data source such as
+ databases, directory servers, or structured data files (CSV and TSV), with high
+ accuracy. You must first enable EDM for Enterprise Data Loss Prevention (E-DLP) to upload hash
+ encrypted EDM data sets to Enterprise DLP to use as match criteria in a data profile . 
+
+ Log in to 
+ Strata Cloud Manager . 
+
+ Select Configuration Data Loss Prevention Detection Methods Exact Data Matching . 
+
+ Enable Exact Data Matching (EDM). 
+
+ Enterprise DLP automatically enables EDM on your tenant. 
+
+ ( Optional ) Edit the EDM settings to define the proximity distance for
+ EDM detections. 
+
+ The proximity distance specifies the maximum character distance allowed
+ between two instances of sensitive data to trigger a DLP incident . In the context of
+ EDM, the data for which Enterprise DLP evaluates the distance are the
+ values within a single row in an EDM dataset. This setting applies to all
+ EDM detections for your Enterprise DLP tenant. 
+
+ The proximity distance is an exclusive value. Matching occurs only when the
+ character distance is strictly less than the configured value. 
+
+ For example, you configure the proximity distance as
+ 500 and you upload an EDM dataset that includes
+ the following row: 
+
+ Bill Smith, 02-03-2026, 123-45-6789 
+
+ In this case, Enterprise DLP generates incidents when it detects
+ Bill Smith ,
+ 02-03-2026 , or
+ 123-45-6789 within 1 and 499 characters of
+ each other in forwarded traffic. 
+
+ Click EDM Settings . 
+
+ Enter the EDM Proximity Distance (between
+ 25 and 5,000 
+ characters). 
+
+ Default is 100 . 
+
+ Save . 
+
+ Set up the EDM CLI app and upload EDM datasets to Enterprise DLP . 
+
+ Review the Supported EDM dataset formats 
+ to understand the data format types Enterprise DLP supports. 
+
+ Set up the EDM CLI app to
+ begin uploading EDM datasets to Enterprise DLP . 
+
+ Configure the EDM CLI app
+ connectivity to enable connectivity between the EDM CLI app
+ and Enterprise DLP . 
+
+ Upload an EDM dataset to Enterprise DLP . 
+
+ Upload an EDM dataset
+ using a configuration file 
+
+ Upload an EDM dataset in
+ Interactive Mode 
+
+ Previous 
+
+ Enable Optical Character Recognition 
+
+ Next 
+
+ About Enterprise DLP

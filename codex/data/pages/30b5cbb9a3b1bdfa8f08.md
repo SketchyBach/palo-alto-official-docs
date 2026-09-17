@@ -1,0 +1,62 @@
+---
+url: https://docs.prismacloud.io/admin-guide/32/how-to-guides/configure-listening-ports
+fetched_at: 2026-09-16T13:37:41Z
+source: prisma-cloud
+---
+
+# Configure Console's listening ports | 32 | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Compute Edition 
+
+ Admin Guide 
+
+ 32 
+
+ How-To Guides 
+
+ Configure Console's listening ports 
+
+ This guide shows you how to configure Prisma Cloud to listen on different ports. Typically this type of configuration is made at the load balancer layer, but it can be done directly with Prisma Cloud. 
+
+ By default Prisma Cloud listens on: 
+
+ 8083 HTTPS management port for access to Console. 
+
+ 8084 WSS port for Defender to Console communication. 
+
+ If you are setting the port below 1024 then Prisma Cloud needs permission to access this privileged port. You must also set RUN_CONSOLE_AS_ROOT=${RUN_CONSOLE_AS_ROOT:-false} to true. 
+
+ Download and unpack the Prisma Cloud software. 
+
+ Go to the directory where you unpacked the bits. 
+
+ Open twistlock.cfg for editing. 
+
+ MANAGEMENT_PORT_HTTP sets the HTTP access port, leaving this blank disables HTTP access. 
+
+ Example: MANAGEMENT_PORT_HTTP=${MANAGEMENT_PORT_HTTP-80} configures Console to listen on port 80 . 
+
+ MANAGEMENT_PORT_HTTPS sets the HTTPS access port. 
+
+ Example: MANAGEMENT_PORT_HTTPS=443 configures Console to to listen on port 443 . 
+
+ COMMUNICATION_PORT sets the WSS port used for Defender to Console communication. 
+
+ Example: COMMUNICATION_PORT=9090 configures Console to listen on port 9090 . 
+
+ Run twistlock.sh to install Prisma Cloud Console with your settings. 
+
+ If you are setting the port below 1024 then Prisma Cloud needs permission to access this privileged port. You must also set RUN_CONSOLE_AS_ROOT=${RUN_CONSOLE_AS_ROOT:-false} to true. 
+
+ Previous Configure an ECS load balancer 
+
+ Next Provision tenant projects OpenShift 
+
+ Last updated 2 months ago 
+
+ Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-data-model-schema/consts/kubernetes-pod-container-type
-fetched_at: 2026-09-06T10:56:34Z
+fetched_at: 2026-09-16T09:04:13Z
 source: cortex-platform
 ---
 
@@ -51,6 +51,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next XDM_CONST.KUBERNETES_DISTRIBUTION 
 
- Last updated 28 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cloud-attack-surface-management/attack-surface-management-detections/externally-inferred-cves
-fetched_at: 2026-09-06T09:57:39Z
+fetched_at: 2026-09-16T08:45:12Z
 source: cortex-platform
 ---
 
@@ -89,6 +89,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Attack surface assets 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

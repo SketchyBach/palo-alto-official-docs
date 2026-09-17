@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/microsoft-windows-security-auditing-setup/enable-ldap-server-events-logging-1644/validate-log-collection-for-ldap-server-events
-fetched_at: 2026-09-06T09:47:30Z
+fetched_at: 2026-09-16T08:43:48Z
 source: cortex-platform
 ---
 

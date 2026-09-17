@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/upgrade-to-cortex-xdr-5/additional-features-and-enhancements
-fetched_at: 2026-09-06T09:52:32Z
+fetched_at: 2026-09-16T08:44:25Z
 source: cortex-platform
 ---
 

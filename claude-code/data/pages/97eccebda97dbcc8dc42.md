@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-xql/build-xql-queries/xql-query-entities/create-authentication-query
-fetched_at: 2026-09-06T10:10:49Z
+fetched_at: 2026-09-16T08:48:46Z
 source: cortex-platform
 ---
 

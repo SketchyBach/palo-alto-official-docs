@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.14/onboard-multi-tenant/multi-tenant-deployment-installation/upgrade-your-multi-tenant-deployment
-fetched_at: 2026-09-06T10:50:00Z
+fetched_at: 2026-09-16T08:58:04Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Multi-Tenant Deployment Installation 
 
- XSOAR 6.14 Multi-Tenant 
+ Cortex XSOAR 6.14 Multi-Tenant 
 
  Upgrade Your Multi-Tenant Deployment 
 

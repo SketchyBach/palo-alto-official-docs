@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cortex-cloud-identity-security/unified-human-identities
-fetched_at: 2026-09-06T10:07:03Z
+fetched_at: 2026-09-16T08:47:42Z
 source: cortex-platform
 ---
 

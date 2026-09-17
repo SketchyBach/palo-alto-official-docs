@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cortex-cloud-data-sources-and-connectors/vendor-specific-data-sources/microsoft/microsoft-365-posture/how-to-onboard-microsoft-365
-fetched_at: 2026-09-06T10:00:21Z
+fetched_at: 2026-09-16T08:46:04Z
 source: cortex-platform
 ---
 
@@ -65,6 +65,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Microsoft Teams 
 
- Last updated 5 days ago 
+ Last updated 2 days ago 
 
  Was this helpful?

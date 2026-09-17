@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/unusual-encrypting-file-system-remote-call-efsrpc-to-domain-controller
-fetched_at: 2026-09-06T11:09:58Z
+fetched_at: 2026-09-16T09:08:50Z
 source: cortex-platform
 ---
 

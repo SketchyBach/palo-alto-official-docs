@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/microsoft-azure-manual-onboarding/azure-manual-onboarding-guide/azure-manual-onboarding-management-group-or-tenant-scope/prerequisites
-fetched_at: 2026-09-06T11:16:42Z
+fetched_at: 2026-09-16T09:12:21Z
 source: cortex-platform
 ---
 
@@ -74,6 +74,6 @@ For tenant root management group onboarding: the tenant ID (same value as <TENAN
 
  Next Phase 1: Create Azure cloud instance in Cortex 
 
- Last updated 8 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

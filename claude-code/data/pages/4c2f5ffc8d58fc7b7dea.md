@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/configure-cortex-xsoar/dashboards-and-reports/widgets/create-a-widget-from-an-indicator
-fetched_at: 2026-09-06T11:27:54Z
+fetched_at: 2026-09-16T09:15:02Z
 source: cortex-platform
 ---
 
@@ -55,6 +55,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Edit a widget 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

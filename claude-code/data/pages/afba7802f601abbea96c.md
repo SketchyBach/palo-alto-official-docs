@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/sudden-spike-in-outbound-email-volume
-fetched_at: 2026-09-06T11:07:45Z
+fetched_at: 2026-09-16T09:08:23Z
 source: cortex-platform
 ---
 

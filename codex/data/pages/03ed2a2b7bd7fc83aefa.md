@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.14/configure-multi-tenant/manage-content/sync-content-to-tenant-accounts
-fetched_at: 2026-09-06T10:50:06Z
+fetched_at: 2026-09-16T08:58:06Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Manage Content 
 
- XSOAR 6.14 Multi-Tenant 
+ Cortex XSOAR 6.14 Multi-Tenant 
 
  Sync Content to Tenant Accounts 
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/detect-threats-and-analyze-data/detection-rules/whats-a-bioc/create-a-bioc-rule
-fetched_at: 2026-09-06T09:48:34Z
+fetched_at: 2026-09-16T08:44:09Z
 source: cortex-platform
 ---
 
@@ -420,6 +420,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage Global BIOC Rules 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

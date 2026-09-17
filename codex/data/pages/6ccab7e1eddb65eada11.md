@@ -1,0 +1,207 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma-access/administration/configure-dynamic-privilege-access-settings/set-up-the-prisma-access-agent-dpa/configure-hip-notifications-for-the-prisma-access-agent-dpa/create-and-manage-hip-profiles-dpa.html
+fetched_at: 2026-09-16T11:26:05Z
+source: palo-alto-main
+---
+
+# Create and Manage HIP Profiles for the Dynamic Privilege Access Prisma Agent Clear
+
+Updated on 
+
+ Sep 3, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Access 
+
+ Prisma Access Administration 
+
+ Configure Dynamic Privilege Access Settings 
+
+ Set Up the Prisma Agent for Dynamic Privilege Access 
+
+ Configure HIP Notifications for the Dynamic Privilege Access Prisma Agent 
+
+ Create and Manage HIP Profiles for the Dynamic Privilege Access Prisma Agent 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Prisma Access 
+
+ Create and Manage HIP Profiles for the Dynamic Privilege Access Prisma Agent 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Access Docs 
+
+ Release Notes 
+
+ Select a Document 
+
+ 6.2 Preferred and Innovation 
+
+ 6.1 Preferred and Innovation 
+
+ 6.0 Preferred and Innovation 
+
+ 5.2 Preferred and Innovation 
+
+ 5.1 Preferred and Innovation 
+
+ 5.0 Preferred and Innovation 
+
+ 4.2 Preferred 
+
+ 4.1 Preferred 
+
+ 4.0 Preferred 
+
+ 3.2 Preferred and Innovation 
+
+ Activation & Onboarding 
+
+ Administration 
+
+ Select a Document 
+
+ 4.0 & Later 
+
+ Prisma Access China 
+
+ Integrations 
+
+ Incidents & Alerts 
+
+ New Features 
+
+ Previous 
+
+ Create and Manage HIP Objects for the Dynamic Privilege Access Prisma Agent 
+
+ Next 
+
+ Configure Windows Hello for Business Authentication for Dynamic Privilege Access Prisma Agents 
+
+ Create and Manage HIP Profiles for the Dynamic Privilege Access Prisma Agent 
+
+ Learn how to create a collection of HIP objects that are evaluated together, either
+ for monitoring or for security policy enforcement. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Prisma Access 5.1 Innovation 
+
+ Prisma Access 
+ license with the Mobile User subscription 
+
+ macOS 14 and later or Windows 10 version 2024 and later desktop devices 
+
+ Role: Superuser 
+
+ A HIP Profile is a collection of host information profile objects that
+ are evaluated together, either for monitoring or for security policy enforcement.
+ When you create your HIP Profiles, you can combine the HIP objects and HIP Profiles
+ you previously created by using Boolean logic, such that when a traffic flow is
+ evaluated against the resulting HIP Profile, it either matches or does not match. If
+ there is a match, the corresponding policy rule is enforced. If there is no match,
+ the flow is evaluated against the next rule, as with any other policy matching
+ criteria. 
+
+ You can configure HIP Profiles from Configuration NGFW and Prisma Access Objects HIP HIP Profiles . 
+
+ Click Add HIP Profile . 
+
+ Enter a Name and Description to
+ identify the profile. 
+
+ Click within the Match field to open the HIP Profile
+ builder. 
+
+ Select the HIP object or profile that you want to use as match criteria
+ from the list. 
+
+ Select a Boolean operator ( And ,
+ And ). If you want the HIP Profile to evaluate
+ the object as a match only when the criteria in the object are not true
+ for a flow, select the Not check box before
+ adding the object. 
+
+ Select another HIP object or profile to evaluate against the first HIP
+ object. 
+
+ Continue adding match criteria for the profile that you're building, making
+ sure to select the appropriate Boolean operator radio button
+ ( And or Or ) between each
+ addition, and using the Not check box when appropriate.
+ The HIP Profile can contain up to 2,048 characters in length. 
+
+ When creating a complex Boolean expression, you must manually add the
+ parenthesis in the proper places in the Match text box to
+ ensure that the HIP Profile is evaluated using the logic you intend. 
+
+ Save and Add your HIP
+ Profile. 
+
+ To manage your HIP Profiles, you can select an existing profile from the HIP
+ Notifications table or click Add in the Edit Global Agent
+ Settings page to open the HIP Notifications window. 
+
+ From there, click Manage HIP Profile to view the list
+ of HIP Profiles that you have configured. You can select a HIP Profile and
+ Delete , Clone , or
+ Move it. You can also Add 
+ a HIP Profile from here. 
+
+ Create HIP-Enabled Security Rules on Your Gateways 
+
+ As a best practice, you should create your security rules and test that they
+ match the expected flows (based on the source and destination criteria) before
+ adding your HIP profiles. By doing this, you can better determine the proper
+ placement of the HIP-enabled rules within the policy. 
+
+ On the firewall that's hosting your gateway, select Policies Security , and then select the rule to which you want to add a HIP
+ profile. 
+
+ On the Source tab, make sure the Source
+ Zone is a zone for which you enabled User-ID. 
+
+ On the Source tab under Source
+ Device , Add the HIP Profiles 
+ used to identify devices (you can add up to 63 HIP profiles to a
+ rule). 
+
+ Click OK to save the rule. 
+
+ Commit the changes. 
+
+ Previous 
+
+ Create and Manage HIP Objects for the Dynamic Privilege Access Prisma Agent 
+
+ Next 
+
+ Configure Windows Hello for Business Authentication for Dynamic Privilege Access Prisma Agents

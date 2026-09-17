@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/onboard-and-configure/post-deployment-steps/set-up-your-environment/data-and-log-forwarding/data-and-log-notification-formats/issue-notification-format
-fetched_at: 2026-09-06T09:53:30Z
+fetched_at: 2026-09-16T08:44:32Z
 source: cortex-platform
 ---
 
@@ -111,6 +111,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Agent Audit log notification format 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

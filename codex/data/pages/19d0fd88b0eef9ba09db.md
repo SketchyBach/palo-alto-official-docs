@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/data-management/dataset-management/monitor-datasets-and-dataset-views-activity
-fetched_at: 2026-09-06T09:20:42Z
+fetched_at: 2026-09-16T07:56:12Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Dataset management 
 
- Cortex XSIAM 
+ Cortex XSIAM Data Management 
 
  Monitor datasets and dataset views activity 
 
@@ -89,6 +89,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Archived data 
 
- Last updated 10 days ago 
+ Last updated 9 days ago 
 
  Was this helpful?

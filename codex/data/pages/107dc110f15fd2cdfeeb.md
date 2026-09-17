@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/mfa-was-disabled-for-a-google-workspace-user
-fetched_at: 2026-09-06T11:05:08Z
+fetched_at: 2026-09-16T09:07:26Z
 source: cortex-platform
 ---
 

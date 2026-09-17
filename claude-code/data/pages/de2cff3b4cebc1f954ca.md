@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.12/onboard-cortex-xsoar/post-deployment/user-communication/customize-system-emails
-fetched_at: 2026-09-06T10:29:20Z
+fetched_at: 2026-09-16T08:53:52Z
 source: cortex-platform
 ---
 
@@ -237,6 +237,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure system settings 
 
- Last updated 3 hours ago 
+ Last updated 10 days ago 
 
  Was this helpful?

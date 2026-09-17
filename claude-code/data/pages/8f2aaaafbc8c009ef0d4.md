@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/data-management/dataset-management/lookup-datasets
-fetched_at: 2026-09-06T10:51:46Z
+fetched_at: 2026-09-16T08:58:54Z
 source: cortex-platform
 ---
 
@@ -67,6 +67,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Import a lookup dataset 
 
- Last updated 4 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

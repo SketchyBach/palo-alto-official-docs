@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/configure-and-deploy-cortex-xdr/configure-the-cortex-agentic-assistant/agents-hub/expand-agent-capabilities-with-mcp-integrations
-fetched_at: 2026-09-06T09:39:17Z
+fetched_at: 2026-09-16T08:38:06Z
 source: cortex-platform
 ---
 
@@ -65,6 +65,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Agentic Assistant role-based access control 
 
- Last updated 11 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

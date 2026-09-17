@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/iot/integration/attribute-reference/attribute-reference-qualys
-fetched_at: 2026-08-13T16:37:06Z
+fetched_at: 2026-09-15T15:14:40Z
 source: palo-alto-main
 ---
 
 # Qualys Attribute Reference Clear
 
-Qualys Attribute Reference 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Qualys Attribute Reference 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Device Security Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Enterprise Administration 
-
- Integrations 
-
- Release Notes 
-
- Best Practice 
-
- New Features 
-
- Updated on 
-
- Thu May 14 09:23:33 PDT 2026 
+ Mon Aug 17 11:22:37 PDT 2026 
 
  Focus 
 
@@ -138,11 +82,9 @@ Qualys Attribute Reference
  For example, micrsoft_defender_xdr.macAddress would appear in the
  Query Builder and in the Assets Inventory table, but under Device Details Attributes Integration Specific Attributes Microsoft Defender , the attribute would appear as macAddress .
 
- Appliance Attributes 
+ Appliance List Attributes 
 
- Device Security collects appliance attributes from the Qualys appliance list API. Each record describes a Qualys scanner appliance deployed in the environment.
- The following table lists each Qualys attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
+ Device Security collects appliance list attributes from Qualys. The following table lists each Qualys attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
  Qualys Attribute 
 
@@ -151,6 +93,22 @@ Qualys Attribute Reference
  Device Security Common Attribute* 
 
  Description 
+
+ INTERFACE_SETTINGS.DNS.DOMAIN 
+
+ — 
+
+ domain 
+
+ DOMAIN 
+
+ INTERFACE_SETTINGS.IP_ADDRESS 
+
+ — 
+
+ IP Address; id 
+
+ IP ADDRESS 
 
  ACTIVATION_CODE 
 
@@ -158,7 +116,7 @@ Qualys Attribute Reference
 
  — 
 
- Activation code for the Qualys scanner appliance 
+ ACTIVATION CODE 
 
  ASSET_GROUP_COUNT 
 
@@ -166,7 +124,7 @@ Qualys Attribute Reference
 
  — 
 
- Number of asset groups associated with the scanner 
+ ASSET GROUP COUNT 
 
  ASSET_GROUP_LIST 
 
@@ -174,7 +132,7 @@ Qualys Attribute Reference
 
  — 
 
- List of asset groups associated with the scanner 
+ ASSET GROUP LIST 
 
  COMMENTS 
 
@@ -182,7 +140,7 @@ Qualys Attribute Reference
 
  — 
 
- Comments or notes for the scanner appliance 
+ COMMENTS 
 
  HEARTBEATS_MISSED 
 
@@ -190,7 +148,7 @@ Qualys Attribute Reference
 
  — 
 
- Number of missed heartbeat signals from the scanner 
+ HEARTBEATS MISSED 
 
  ID 
 
@@ -198,23 +156,7 @@ Qualys Attribute Reference
 
  — 
 
- Unique identifier of the scanner appliance 
-
- INTERFACE_SETTINGS.[0].DNS.DOMAIN 
-
- — 
-
- AD Domain 
-
- DNS domain of the scanner appliance's primary interface 
-
- INTERFACE_SETTINGS.[0].IP_ADDRESS 
-
- — 
-
- ipv4_address; id 
-
- IP address of the scanner appliance's primary interface 
+ ID 
 
  LAST_UPDATED_DATE 
 
@@ -222,7 +164,7 @@ Qualys Attribute Reference
 
  — 
 
- Date the scanner appliance record was last updated 
+ LAST UPDATED DATE 
 
  MAX_CAPACITY_UNITS 
 
@@ -230,7 +172,7 @@ Qualys Attribute Reference
 
  — 
 
- Maximum scan capacity units for the scanner 
+ MAX CAPACITY UNITS 
 
  ML_LATEST 
 
@@ -238,7 +180,7 @@ Qualys Attribute Reference
 
  — 
 
- Latest manifest list version installed on the scanner 
+ ML LATEST 
 
  MODEL_NUMBER 
 
@@ -246,7 +188,7 @@ Qualys Attribute Reference
 
  — 
 
- Model number of the scanner appliance 
+ MODEL NUMBER 
 
  NAME 
 
@@ -254,7 +196,7 @@ Qualys Attribute Reference
 
  — 
 
- Name of the scanner appliance 
+ NAME 
 
  POLLING_INTERVAL 
 
@@ -262,7 +204,7 @@ Qualys Attribute Reference
 
  — 
 
- Polling interval for the scanner appliance 
+ POLLING INTERVAL 
 
  RUNNING_SCAN_COUNT 
 
@@ -270,7 +212,7 @@ Qualys Attribute Reference
 
  — 
 
- Number of scans currently running on the scanner 
+ RUNNING SCAN COUNT 
 
  RUNNING_SLICES_COUNT 
 
@@ -278,7 +220,7 @@ Qualys Attribute Reference
 
  — 
 
- Number of scan slices currently running on the scanner 
+ RUNNING SLICES COUNT 
 
  SERIAL_NUMBER 
 
@@ -286,7 +228,7 @@ Qualys Attribute Reference
 
  — 
 
- Serial number of the scanner appliance 
+ SERIAL NUMBER 
 
  SOFTWARE_VERSION 
 
@@ -294,7 +236,7 @@ Qualys Attribute Reference
 
  — 
 
- Software version installed on the scanner appliance 
+ SOFTWARE VERSION 
 
  SS_CONNECTION 
 
@@ -302,7 +244,7 @@ Qualys Attribute Reference
 
  — 
 
- Scan server connection status of the scanner 
+ SS CONNECTION 
 
  SS_LAST_CONNECTED 
 
@@ -310,7 +252,7 @@ Qualys Attribute Reference
 
  — 
 
- Timestamp of the scanner's last connection to the scan server 
+ SS LAST CONNECTED 
 
  STATUS 
 
@@ -318,7 +260,7 @@ Qualys Attribute Reference
 
  — 
 
- Operational status of the scanner appliance 
+ STATUS 
 
  TYPE 
 
@@ -326,7 +268,7 @@ Qualys Attribute Reference
 
  — 
 
- Type of the scanner appliance 
+ TYPE 
 
  UPDATED 
 
@@ -334,7 +276,7 @@ Qualys Attribute Reference
 
  — 
 
- Indicates whether the scanner appliance was recently updated 
+ UPDATED 
 
  USER_LOGIN 
 
@@ -342,13 +284,11 @@ Qualys Attribute Reference
 
  — 
 
- Login username associated with the scanner appliance 
+ USER LOGIN 
 
- Global Asset View Attributes 
+ Global Asset View Assets Attributes 
 
- Device Security collects asset attributes from the Qualys Global AssetView API. Each record describes a discovered or managed asset in the Qualys inventory.
- The following table lists each Qualys attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
+ Device Security collects global asset view assets attributes from Qualys. The following table lists each Qualys attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
  Qualys Attribute 
 
@@ -358,181 +298,45 @@ Qualys Attribute Reference
 
  Description 
 
+ assetName 
+
+ qualys.assetname 
+
+ hostname 
+
+ AssetName 
+
+ address 
+
+ qualys.address 
+
+ IP Address 
+
+ Address 
+
  MAC 
 
  — 
 
  MAC; id 
 
- MAC address of the asset 
+ MAC 
 
- activity.lastScannedDate 
+ hardware.model 
 
- qualys.activity.lastscanneddate 
+ qualys.hardware.model 
 
- — 
+ Model 
 
- Date the asset was last scanned 
+ Model of the device 
 
- activity.source 
-
- qualys.activity.source 
+ operatingSystem 
 
  — 
 
- Source of the last scan activity 
+ raw_os 
 
- address 
-
- qualys.address 
-
- ipv4_address 
-
- IPv4 address of the asset 
-
- agent.activations 
-
- qualys.agent.activations 
-
- — 
-
- Qualys agent activation modules 
-
- agent.configurationProfile 
-
- qualys.agent.configurationprofile 
-
- — 
-
- Configuration profile assigned to the Qualys agent 
-
- agent.connectedFrom 
-
- qualys.agent.connectedfrom 
-
- — 
-
- IP address from which the Qualys agent last connected 
-
- agent.errorStatus 
-
- qualys.agent.errorstatus 
-
- — 
-
- Error status reported by the Qualys agent 
-
- agent.lastActivity 
-
- qualys.agent.lastactivity 
-
- — 
-
- Timestamp of the agent's last activity 
-
- agent.lastCheckedIn 
-
- qualys.agent.lastcheckedin 
-
- — 
-
- Timestamp of the agent's last check-in 
-
- agent.lastInventory 
-
- qualys.agent.lastinventory 
-
- — 
-
- Timestamp of the agent's last inventory collection 
-
- agent.udcManifestAssigned 
-
- qualys.agent.udcmanifestassigned 
-
- — 
-
- UDC manifest assigned to the Qualys agent 
-
- agent.version 
-
- qualys.agent.version 
-
- — 
-
- Qualys agent version 
-
- agentId 
-
- qualys.agentid 
-
- — 
-
- Qualys agent ID 
-
- asn 
-
- qualys.asn 
-
- — 
-
- Autonomous system number 
-
- assetId 
-
- qualys.assetid 
-
- — 
-
- Asset ID 
-
- assetName 
-
- qualys.assetname 
-
- Hostname 
-
- Asset name 
-
- assetType 
-
- qualys.assettype 
-
- — 
-
- Asset type 
-
- assetUUID 
-
- qualys.assetuuid 
-
- — 
-
- Asset UUID 
-
- assignedLocation 
-
- qualys.assignedlocation 
-
- — 
-
- Assigned location 
-
- biosAssetTag 
-
- qualys.biosassettag 
-
- — 
-
- BIOS asset tag 
-
- biosDescription 
-
- qualys.biosdescription 
-
- — 
-
- BIOS description 
+ OperatingSystem 
 
  biosSerialNumber 
 
@@ -540,7 +344,175 @@ Qualys Attribute Reference
 
  Serial Number 
 
- BIOS serial number 
+ BiosSerialNumber 
+
+ softwareListData 
+
+ — 
+
+ third_party_learned_installed_software 
+
+ SoftwareListData 
+
+ networkInterfaceListData 
+
+ — 
+
+ third_party_learned_network_interfaces 
+
+ NetworkInterfaceListData 
+
+ activity.lastScannedDate 
+
+ qualys.activity.lastscanneddate 
+
+ — 
+
+ LastScannedDate 
+
+ activity.source 
+
+ qualys.activity.source 
+
+ — 
+
+ Source 
+
+ agent.activations 
+
+ qualys.agent.activations 
+
+ — 
+
+ Activations 
+
+ agent.configurationProfile 
+
+ qualys.agent.configurationprofile 
+
+ — 
+
+ ConfigurationProfile 
+
+ agent.connectedFrom 
+
+ qualys.agent.connectedfrom 
+
+ — 
+
+ ConnectedFrom 
+
+ agent.errorStatus 
+
+ qualys.agent.errorstatus 
+
+ — 
+
+ ErrorStatus 
+
+ agent.lastActivity 
+
+ qualys.agent.lastactivity 
+
+ — 
+
+ LastActivity 
+
+ agent.lastCheckedIn 
+
+ qualys.agent.lastcheckedin 
+
+ — 
+
+ LastCheckedIn 
+
+ agent.lastInventory 
+
+ qualys.agent.lastinventory 
+
+ — 
+
+ LastInventory 
+
+ agent.udcManifestAssigned 
+
+ qualys.agent.udcmanifestassigned 
+
+ — 
+
+ UdcManifestAssigned 
+
+ agent.version 
+
+ qualys.agent.version 
+
+ — 
+
+ Version 
+
+ agentId 
+
+ qualys.agentid 
+
+ — 
+
+ AgentId 
+
+ asn 
+
+ qualys.asn 
+
+ — 
+
+ Asn 
+
+ assetId 
+
+ qualys.assetid 
+
+ — 
+
+ AssetId 
+
+ assetType 
+
+ qualys.assettype 
+
+ — 
+
+ AssetType 
+
+ assetUUID 
+
+ qualys.assetuuid 
+
+ — 
+
+ AssetUUID 
+
+ assignedLocation 
+
+ qualys.assignedlocation 
+
+ — 
+
+ AssignedLocation 
+
+ biosAssetTag 
+
+ qualys.biosassettag 
+
+ — 
+
+ BiosAssetTag 
+
+ biosDescription 
+
+ qualys.biosdescription 
+
+ — 
+
+ BiosDescription 
 
  businessAppListData 
 
@@ -548,7 +520,7 @@ Qualys Attribute Reference
 
  — 
 
- Business application list data 
+ BusinessAppListData 
 
  businessInformation 
 
@@ -556,7 +528,7 @@ Qualys Attribute Reference
 
  — 
 
- Business information associated with the asset 
+ BusinessInformation 
 
  cloudProvider 
 
@@ -564,7 +536,7 @@ Qualys Attribute Reference
 
  — 
 
- Cloud provider 
+ CloudProvider 
 
  container.hasSensor 
 
@@ -572,7 +544,7 @@ Qualys Attribute Reference
 
  — 
 
- Indicates whether the container runtime has a sensor 
+ HasSensor 
 
  container.noOfContainers 
 
@@ -580,7 +552,7 @@ Qualys Attribute Reference
 
  — 
 
- Number of containers running on the asset 
+ NoOfContainers 
 
  container.noOfImages 
 
@@ -588,7 +560,7 @@ Qualys Attribute Reference
 
  — 
 
- Number of container images on the asset 
+ NoOfImages 
 
  container.product 
 
@@ -596,7 +568,7 @@ Qualys Attribute Reference
 
  — 
 
- Container runtime product name 
+ Product 
 
  container.version 
 
@@ -604,7 +576,7 @@ Qualys Attribute Reference
 
  — 
 
- Container runtime version 
+ Version 
 
  cpuCount 
 
@@ -612,7 +584,7 @@ Qualys Attribute Reference
 
  — 
 
- CPU count 
+ CpuCount 
 
  createdDate 
 
@@ -620,7 +592,7 @@ Qualys Attribute Reference
 
  — 
 
- Date the asset record was created 
+ CreatedDate 
 
  criticality.default 
 
@@ -628,7 +600,7 @@ Qualys Attribute Reference
 
  — 
 
- Default criticality score for the asset 
+ Default 
 
  criticality.isDefault 
 
@@ -636,7 +608,7 @@ Qualys Attribute Reference
 
  — 
 
- Indicates whether the criticality score is the default value 
+ IsDefault 
 
  criticality.lastUpdated 
 
@@ -644,7 +616,7 @@ Qualys Attribute Reference
 
  — 
 
- Timestamp of the last criticality score update 
+ LastUpdated 
 
  criticality.score 
 
@@ -652,7 +624,7 @@ Qualys Attribute Reference
 
  — 
 
- Criticality score 
+ Score 
 
  customAttributes 
 
@@ -660,7 +632,7 @@ Qualys Attribute Reference
 
  — 
 
- Custom attributes 
+ CustomAttributes 
 
  dnsName 
 
@@ -668,7 +640,7 @@ Qualys Attribute Reference
 
  — 
 
- DNS name 
+ DnsName 
 
  domain 
 
@@ -684,7 +656,7 @@ Qualys Attribute Reference
 
  — 
 
- Domain role 
+ DomainRole 
 
  easmTags 
 
@@ -692,7 +664,7 @@ Qualys Attribute Reference
 
  — 
 
- EASM tags 
+ EasmTags 
 
  hardware.category 
 
@@ -700,7 +672,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware category 
+ Category 
 
  hardware.category1 
 
@@ -708,7 +680,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware category 1 
+ Category1 
 
  hardware.category2 
 
@@ -716,7 +688,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware category 2 
+ Category2 
 
  hardware.fullName 
 
@@ -724,7 +696,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware full name 
+ FullName 
 
  hardware.lifecycle 
 
@@ -732,7 +704,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware lifecycle 
+ Lifecycle 
 
  hardware.manufacturer 
 
@@ -740,15 +712,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware manufacturer 
-
- hardware.model 
-
- qualys.hardware.model 
-
- Model 
-
- Hardware model 
+ Manufacturer of the device 
 
  hardware.productFamily 
 
@@ -756,7 +720,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware product family 
+ ProductFamily 
 
  hardware.productName 
 
@@ -764,7 +728,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware product name 
+ ProductName 
 
  hardware.productUrl 
 
@@ -772,7 +736,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware product URL 
+ ProductUrl 
 
  hardware.taxonomy.category1 
 
@@ -780,7 +744,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware taxonomy category 1 
+ Category1 
 
  hardware.taxonomy.category2 
 
@@ -788,7 +752,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware taxonomy category 2 
+ Category2 
 
  hardware.taxonomy.id 
 
@@ -796,7 +760,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware taxonomy ID 
+ Id 
 
  hardware.taxonomy.name 
 
@@ -804,7 +768,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware taxonomy name 
+ Name of the device 
 
  hostId 
 
@@ -812,7 +776,7 @@ Qualys Attribute Reference
 
  — 
 
- Qualys host ID 
+ HostId 
 
  hostingCategory1 
 
@@ -820,7 +784,7 @@ Qualys Attribute Reference
 
  — 
 
- Hostingcategory1 
+ HostingCategory1 
 
  hwUUID 
 
@@ -828,7 +792,7 @@ Qualys Attribute Reference
 
  — 
 
- Hardware UUID 
+ HwUUID 
 
  inventory 
 
@@ -844,7 +808,7 @@ Qualys Attribute Reference
 
  — 
 
- Date the asset was added to the Qualys inventory 
+ Created 
 
  inventory.lastUpdated 
 
@@ -852,7 +816,7 @@ Qualys Attribute Reference
 
  — 
 
- Date the asset inventory record was last updated 
+ LastUpdated 
 
  inventory.source 
 
@@ -860,7 +824,7 @@ Qualys Attribute Reference
 
  — 
 
- Source that added the asset to the Qualys inventory 
+ Source 
 
  inventoryListData 
 
@@ -868,7 +832,7 @@ Qualys Attribute Reference
 
  — 
 
- Inventory list data 
+ InventoryListData 
 
  isContainerHost 
 
@@ -876,7 +840,7 @@ Qualys Attribute Reference
 
  — 
 
- Indicates whether the asset is a container host 
+ IsContainerHost 
 
  isp 
 
@@ -884,7 +848,7 @@ Qualys Attribute Reference
 
  — 
 
- ISP 
+ Isp 
 
  lastBoot 
 
@@ -892,7 +856,7 @@ Qualys Attribute Reference
 
  — 
 
- Last boot time 
+ LastBoot 
 
  lastLocation 
 
@@ -900,7 +864,7 @@ Qualys Attribute Reference
 
  — 
 
- Last known location 
+ LastLocation 
 
  lastLoggedOnUser 
 
@@ -908,7 +872,7 @@ Qualys Attribute Reference
 
  — 
 
- Last logged-on user 
+ LastLoggedOnUser 
 
  lastModifiedDate 
 
@@ -916,7 +880,7 @@ Qualys Attribute Reference
 
  — 
 
- Date the asset record was last modified 
+ LastModifiedDate 
 
  lparId 
 
@@ -924,7 +888,7 @@ Qualys Attribute Reference
 
  — 
 
- LPAR ID 
+ LparId 
 
  missingSoftware 
 
@@ -932,7 +896,7 @@ Qualys Attribute Reference
 
  — 
 
- Missing software 
+ MissingSoftware 
 
  netbiosName 
 
@@ -940,15 +904,7 @@ Qualys Attribute Reference
 
  — 
 
- NetBIOS name 
-
- networkInterfaceListData 
-
- — 
-
- third_party_learned_network_interfaces 
-
- List of network interfaces discovered on the asset 
+ NetbiosName 
 
  openPortListData 
 
@@ -956,15 +912,7 @@ Qualys Attribute Reference
 
  — 
 
- Open port list data 
-
- operatingSystem 
-
- — 
-
- raw_os 
-
- Operating system name of the asset 
+ OpenPortListData 
 
  operatingSystem.architecture 
 
@@ -972,7 +920,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system architecture 
+ Architecture 
 
  operatingSystem.category 
 
@@ -980,7 +928,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system category 
+ Category 
 
  operatingSystem.category1 
 
@@ -988,7 +936,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system category 1 
+ Category1 
 
  operatingSystem.category2 
 
@@ -996,7 +944,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system category 2 
+ Category2 
 
  operatingSystem.cpe 
 
@@ -1004,7 +952,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system CPE 
+ Cpe 
 
  operatingSystem.cpeId 
 
@@ -1012,7 +960,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system CPE ID 
+ CpeId 
 
  operatingSystem.cpeType 
 
@@ -1020,7 +968,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system CPE type 
+ CpeType 
 
  operatingSystem.edition 
 
@@ -1028,7 +976,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system edition 
+ Edition 
 
  operatingSystem.fullName 
 
@@ -1036,7 +984,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system full name 
+ FullName 
 
  operatingSystem.installDate 
 
@@ -1044,7 +992,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system install date 
+ InstallDate 
 
  operatingSystem.lifecycle 
 
@@ -1052,7 +1000,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system lifecycle 
+ Lifecycle 
 
  operatingSystem.marketVersion 
 
@@ -1060,7 +1008,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system market version 
+ MarketVersion 
 
  operatingSystem.osName 
 
@@ -1068,7 +1016,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system name 
+ OsName 
 
  operatingSystem.productFamily 
 
@@ -1076,7 +1024,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system product family 
+ ProductFamily 
 
  operatingSystem.productName 
 
@@ -1084,7 +1032,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system product name 
+ ProductName 
 
  operatingSystem.productUrl 
 
@@ -1092,7 +1040,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system product URL 
+ ProductUrl 
 
  operatingSystem.publisher 
 
@@ -1100,7 +1048,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system publisher 
+ Publisher 
 
  operatingSystem.release 
 
@@ -1108,7 +1056,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system release 
+ Release 
 
  operatingSystem.taxonomy.category1 
 
@@ -1116,7 +1064,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system taxonomy category 1 
+ Category1 
 
  operatingSystem.taxonomy.category2 
 
@@ -1124,7 +1072,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system taxonomy category 2 
+ Category2 
 
  operatingSystem.taxonomy.id 
 
@@ -1132,7 +1080,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system taxonomy ID 
+ Id 
 
  operatingSystem.taxonomy.name 
 
@@ -1140,7 +1088,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system taxonomy name 
+ Name of the device 
 
  operatingSystem.update 
 
@@ -1148,7 +1096,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system update 
+ Update 
 
  operatingSystem.version 
 
@@ -1156,7 +1104,7 @@ Qualys Attribute Reference
 
  — 
 
- Operating system version 
+ Version 
 
  organizationName 
 
@@ -1164,7 +1112,7 @@ Qualys Attribute Reference
 
  — 
 
- Organization name 
+ OrganizationName 
 
  passiveSensor 
 
@@ -1172,7 +1120,7 @@ Qualys Attribute Reference
 
  — 
 
- Passive sensor 
+ PassiveSensor 
 
  processor.coresPerSocket 
 
@@ -1180,7 +1128,7 @@ Qualys Attribute Reference
 
  — 
 
- Processor cores per socket 
+ CoresPerSocket 
 
  processor.description 
 
@@ -1188,7 +1136,7 @@ Qualys Attribute Reference
 
  — 
 
- Processor description 
+ Description 
 
  processor.multithreadingStatus 
 
@@ -1196,7 +1144,7 @@ Qualys Attribute Reference
 
  — 
 
- Processor multithreading status 
+ MultithreadingStatus 
 
  processor.noOfSocket 
 
@@ -1204,7 +1152,7 @@ Qualys Attribute Reference
 
  — 
 
- Number of processor sockets 
+ NoOfSocket 
 
  processor.numCPUs 
 
@@ -1212,7 +1160,7 @@ Qualys Attribute Reference
 
  — 
 
- Number of processor CPUs 
+ NumCPUs 
 
  processor.speed 
 
@@ -1220,7 +1168,7 @@ Qualys Attribute Reference
 
  — 
 
- Processor speed 
+ Speed of the device connection 
 
  processor.threadsPerCore 
 
@@ -1228,7 +1176,7 @@ Qualys Attribute Reference
 
  — 
 
- Processor threads per core 
+ ThreadsPerCore 
 
  provider 
 
@@ -1244,7 +1192,7 @@ Qualys Attribute Reference
 
  — 
 
- Risk score 
+ RiskScore 
 
  sensor.activatedForModules 
 
@@ -1252,7 +1200,7 @@ Qualys Attribute Reference
 
  — 
 
- Qualys sensor activation modules 
+ ActivatedForModules 
 
  sensor.firstEasmScanDate 
 
@@ -1260,7 +1208,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the sensor's first EASM scan 
+ FirstEasmScanDate 
 
  sensor.lastComplianceScan 
 
@@ -1268,7 +1216,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the sensor's last compliance scan 
+ LastComplianceScan 
 
  sensor.lastEasmScanDate 
 
@@ -1276,7 +1224,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the sensor's last EASM scan 
+ LastEasmScanDate 
 
  sensor.lastFullScan 
 
@@ -1284,7 +1232,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the sensor's last full scan 
+ LastFullScan 
 
  sensor.lastPcScanDateAgent 
 
@@ -1292,7 +1240,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the sensor's last PC scan (agent) 
+ LastPcScanDateAgent 
 
  sensor.lastPcScanDateScanner 
 
@@ -1300,7 +1248,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the sensor's last PC scan (scanner) 
+ LastPcScanDateScanner 
 
  sensor.lastVMScan 
 
@@ -1308,7 +1256,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the sensor's last VM scan 
+ LastVMScan 
 
  sensor.lastVmScanDateAgent 
 
@@ -1316,7 +1264,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the sensor's last VM scan (agent) 
+ LastVmScanDateAgent 
 
  sensor.lastVmScanDateScanner 
 
@@ -1324,7 +1272,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the sensor's last VM scan (scanner) 
+ LastVmScanDateScanner 
 
  sensor.pendingActivationForModules 
 
@@ -1332,7 +1280,7 @@ Qualys Attribute Reference
 
  — 
 
- Qualys sensor modules pending activation 
+ PendingActivationForModules 
 
  sensorLastUpdatedDate 
 
@@ -1340,7 +1288,7 @@ Qualys Attribute Reference
 
  — 
 
- Date the sensor record was last updated 
+ SensorLastUpdatedDate 
 
  serviceList.service 
 
@@ -1348,7 +1296,7 @@ Qualys Attribute Reference
 
  — 
 
- Service list entry 
+ Service 
 
  softwareComponent 
 
@@ -1356,15 +1304,7 @@ Qualys Attribute Reference
 
  — 
 
- Software component 
-
- softwareListData 
-
- — 
-
- third_party_learned_installed_software 
-
- List of software installed on the asset 
+ SoftwareComponent 
 
  subdomain 
 
@@ -1380,7 +1320,7 @@ Qualys Attribute Reference
 
  — 
 
- Tag list entry 
+ Tag 
 
  timeZone 
 
@@ -1388,7 +1328,7 @@ Qualys Attribute Reference
 
  — 
 
- Time zone 
+ TimeZone 
 
  totalMemory 
 
@@ -1396,7 +1336,7 @@ Qualys Attribute Reference
 
  — 
 
- Total memory 
+ TotalMemory 
 
  userAccountListData 
 
@@ -1404,7 +1344,7 @@ Qualys Attribute Reference
 
  — 
 
- User account list data 
+ UserAccountListData 
 
  volumeListData 
 
@@ -1412,7 +1352,7 @@ Qualys Attribute Reference
 
  — 
 
- Volume list data 
+ VolumeListData 
 
  whois 
 
@@ -1420,13 +1360,11 @@ Qualys Attribute Reference
 
  — 
 
- WHOIS information 
+ Whois 
 
- Vulnerability Scan Device Attributes 
+ Rest Analysis Vulndetails Device Attributes 
 
- Device Security collects device attributes from the Qualys vulnerability details REST analysis API. Each record describes a device as seen through the context of vulnerability scan results.
- The following table lists each Qualys attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
+ Device Security collects rest analysis vulndetails device attributes from Qualys. The following table lists each Qualys attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
  Qualys Attribute 
 
@@ -1436,173 +1374,13 @@ Qualys Attribute Reference
 
  Description 
 
- CLOUD_PROVIDER 
-
- qualys.cloud_provider 
-
- — 
-
- Cloud provider 
-
- CLOUD_RESOURCE_ID 
-
- qualys.cloud_resource_id 
-
- — 
-
- Cloud resource ID 
-
- CLOUD_SERVICE 
-
- qualys.cloud_service 
-
- — 
-
- Cloud service 
-
- DNS 
-
- qualys.dns 
-
- — 
-
- DNS 
-
- DNS_DATA.DOMAIN 
-
- qualys.dns_data.domain 
-
- — 
-
- DNS data domain 
-
- DNS_DATA.FQDN 
-
- qualys.dns_data.fqdn 
-
- — 
-
- DNS data FQDN 
-
  DNS_DATA.HOSTNAME 
 
  qualys.dns_data.hostname 
 
- Hostname 
+ hostname 
 
- DNS data hostname 
-
- EC2_INSTANCE_ID 
-
- qualys.ec2_instance_id 
-
- — 
-
- EC2 instance ID 
-
- ID 
-
- qualys.id 
-
- — 
-
- Qualys ID 
-
- IP 
-
- qualys.IP 
-
- ipv4_address 
-
- IPv4 address of the scanned device 
-
- LAST_VM_AUTH_SCANNED_DATE 
-
- qualys.last_vm_auth_scanned_date 
-
- — 
-
- Date of the last authenticated VM scan 
-
- LAST_VM_AUTH_SCANNED_DURATION 
-
- qualys.last_vm_auth_scanned_duration 
-
- — 
-
- Duration of the last authenticated VM scan 
-
- METADATA.EC2.ATTRIBUTE.LAST_ERROR 
-
- qualys.metadata.ec2.attribute.last_error 
-
- — 
-
- Last error from the EC2 metadata attribute 
-
- METADATA.EC2.ATTRIBUTE.LAST_ERROR_DATE 
-
- qualys.metadata.ec2.attribute.last_error_date 
-
- — 
-
- Date of the last EC2 metadata attribute error 
-
- METADATA.EC2.ATTRIBUTE.LAST_STATUS 
-
- qualys.metadata.ec2.attribute.last_status 
-
- — 
-
- Last status of the EC2 metadata attribute 
-
- METADATA.EC2.ATTRIBUTE.LAST_SUCCESS_DATE 
-
- qualys.metadata.ec2.attribute.last_success_date 
-
- — 
-
- Date of the last successful EC2 metadata attribute update 
-
- METADATA.EC2.ATTRIBUTE.NAME 
-
- qualys.metadata.ec2.attribute.name 
-
- — 
-
- Name of the EC2 metadata attribute 
-
- METADATA.EC2.ATTRIBUTE.VALUE 
-
- qualys.metadata.ec2.attribute.value 
-
- — 
-
- Value of the EC2 metadata attribute 
-
- NETBIOS 
-
- qualys.netbios 
-
- — 
-
- NetBIOS name 
-
- OS 
-
- — 
-
- raw_os 
-
- Operating system name of the scanned device 
-
- QG_HOSTID 
-
- qualys.hostid 
-
- — 
-
- Qualys host ID 
+ HOSTNAME 
 
  device_id 
 
@@ -1610,21 +1388,23 @@ Qualys Attribute Reference
 
  id; MAC 
 
- Device identifier used to correlate with the device inventory 
+ Device ID 
 
- Vulnerability Attributes 
+ IP 
 
- Device Security collects vulnerability attributes from the Qualys vulnerability details REST analysis API. Each record describes an individual vulnerability finding on a scanned asset.
- The following table lists each Qualys attribute, its name as stored
- in Device Security , and the Device Security field it maps to (if applicable).
+ qualys.IP 
 
- Qualys Attribute 
+ IP Address 
 
- Device Security Attribute Name 
+ IP 
 
- Device Security Common Attribute* 
+ OS 
 
- Description 
+ — 
+
+ raw_os 
+
+ OS 
 
  CLOUD_PROVIDER 
 
@@ -1632,7 +1412,7 @@ Qualys Attribute Reference
 
  — 
 
- Cloud provider 
+ CLOUD PROVIDER 
 
  CLOUD_RESOURCE_ID 
 
@@ -1640,7 +1420,7 @@ Qualys Attribute Reference
 
  — 
 
- Cloud resource ID 
+ CLOUD RESOURCE ID 
 
  CLOUD_SERVICE 
 
@@ -1648,7 +1428,7 @@ Qualys Attribute Reference
 
  — 
 
- Cloud service 
+ CLOUD SERVICE 
 
  DNS 
 
@@ -1664,7 +1444,7 @@ Qualys Attribute Reference
 
  — 
 
- DNS data domain 
+ DOMAIN 
 
  DNS_DATA.FQDN 
 
@@ -1672,15 +1452,7 @@ Qualys Attribute Reference
 
  — 
 
- DNS data FQDN 
-
- DNS_DATA.HOSTNAME 
-
- qualys.dns_data.hostname 
-
- — 
-
- DNS data hostname 
+ FQDN 
 
  EC2_INSTANCE_ID 
 
@@ -1688,79 +1460,23 @@ Qualys Attribute Reference
 
  — 
 
- EC2 instance ID 
+ EC2 INSTANCE ID 
 
- FIRST_FOUND_DATETIME 
+ QG_HOSTID 
 
- qualys.first_found_datetime 
-
- — 
-
- Date and time the vulnerability was first found 
-
- IP 
+ qualys.hostid 
 
  — 
 
- ipv4_address 
+ QG HOSTID 
 
- IPv4 address of the device with the vulnerability 
+ ID 
 
- IS_DISABLED 
-
- qualys.is_disabled 
+ qualys.id 
 
  — 
 
- Indicates whether the vulnerability finding is disabled 
-
- IS_IGNORED 
-
- qualys.is_ignored 
-
- — 
-
- Indicates whether the vulnerability finding is ignored 
-
- LAST_FOUND_DATETIME 
-
- qualys.last_found_datetime 
-
- detected_time 
-
- Date and time the vulnerability was last found 
-
- LAST_PROCESSED_DATETIME 
-
- qualys.last_processed_datetime 
-
- — 
-
- Date and time the vulnerability was last processed 
-
- LAST_SCAN_DATETIME 
-
- qualys.last_scan_datetime 
-
- — 
-
- Date and time of the last scan for this vulnerability 
-
- LAST_TEST_DATETIME 
-
- qualys.last_test_datetime 
-
- — 
-
- Date and time of the last test for this vulnerability 
-
- LAST_UPDATE_DATETIME 
-
- qualys.last_update_datetime 
-
- — 
-
- Date and time the vulnerability record was last updated 
+ ID 
 
  LAST_VM_AUTH_SCANNED_DATE 
 
@@ -1768,7 +1484,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the last authenticated VM scan 
+ LAST VM AUTH SCANNED DATE 
 
  LAST_VM_AUTH_SCANNED_DURATION 
 
@@ -1776,23 +1492,7 @@ Qualys Attribute Reference
 
  — 
 
- Duration of the last authenticated VM scan 
-
- LAST_VM_SCANNED_DATE 
-
- qualys.last_vm_scanned_date 
-
- — 
-
- Date of the last VM scan 
-
- LAST_VM_SCANNED_DURATION 
-
- qualys.last_vm_scanned_duration 
-
- — 
-
- Duration of the last VM scan 
+ LAST VM AUTH SCANNED DURATION 
 
  METADATA.EC2.ATTRIBUTE.LAST_ERROR 
 
@@ -1800,7 +1500,7 @@ Qualys Attribute Reference
 
  — 
 
- Last error from the EC2 metadata attribute 
+ LAST ERROR 
 
  METADATA.EC2.ATTRIBUTE.LAST_ERROR_DATE 
 
@@ -1808,7 +1508,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the last EC2 metadata attribute error 
+ LAST ERROR DATE 
 
  METADATA.EC2.ATTRIBUTE.LAST_STATUS 
 
@@ -1816,7 +1516,7 @@ Qualys Attribute Reference
 
  — 
 
- Last status of the EC2 metadata attribute 
+ LAST STATUS 
 
  METADATA.EC2.ATTRIBUTE.LAST_SUCCESS_DATE 
 
@@ -1824,7 +1524,7 @@ Qualys Attribute Reference
 
  — 
 
- Date of the last successful EC2 metadata attribute update 
+ LAST SUCCESS DATE 
 
  METADATA.EC2.ATTRIBUTE.NAME 
 
@@ -1832,7 +1532,7 @@ Qualys Attribute Reference
 
  — 
 
- Name of the EC2 metadata attribute 
+ NAME 
 
  METADATA.EC2.ATTRIBUTE.VALUE 
 
@@ -1840,7 +1540,7 @@ Qualys Attribute Reference
 
  — 
 
- Value of the EC2 metadata attribute 
+ VALUE 
 
  NETBIOS 
 
@@ -1848,39 +1548,51 @@ Qualys Attribute Reference
 
  — 
 
- NetBIOS name 
+ NETBIOS 
 
- OS 
+ Rest Analysis Vulndetails Vulnerability Attributes 
 
- qualys.os 
+ Device Security collects rest analysis vulndetails vulnerability attributes from Qualys. The following table lists each Qualys attribute, its name as stored in Device Security , and the Device Security field it maps to (if applicable).
 
- — 
+ Qualys Attribute 
 
- Operating system name 
+ Device Security Attribute Name 
 
- QG_HOSTID 
+ Device Security Common Attribute* 
 
- qualys.qg_hostid 
+ Description 
 
- — 
-
- Qualys host ID 
-
- QID 
+ cveids 
 
  — 
 
- vulnerability_id 
+ cve 
 
- Qualys vulnerability identifier 
+ Cveids 
 
- RESULTS 
+ LAST_FOUND_DATETIME 
 
- qualys.results 
+ qualys.last_found_datetime 
+
+ detected_time 
+
+ LAST FOUND DATETIME 
+
+ device_id 
 
  — 
 
- Scan results for the vulnerability finding 
+ id 
+
+ Device ID 
+
+ IP 
+
+ — 
+
+ IP Address 
+
+ IP 
 
  SEVERITY 
 
@@ -1888,7 +1600,263 @@ Qualys Attribute Reference
 
  risk_level 
 
- Severity level of the vulnerability 
+ SEVERITY 
+
+ severity 
+
+ qualys.severity 
+
+ severity 
+
+ Severity 
+
+ QID 
+
+ — 
+
+ vulnerability_id 
+
+ QID 
+
+ CLOUD_PROVIDER 
+
+ qualys.cloud_provider 
+
+ — 
+
+ CLOUD PROVIDER 
+
+ CLOUD_RESOURCE_ID 
+
+ qualys.cloud_resource_id 
+
+ — 
+
+ CLOUD RESOURCE ID 
+
+ CLOUD_SERVICE 
+
+ qualys.cloud_service 
+
+ — 
+
+ CLOUD SERVICE 
+
+ deviceid 
+
+ qualys.deviceid 
+
+ — 
+
+ Deviceid 
+
+ DNS 
+
+ qualys.dns 
+
+ — 
+
+ DNS 
+
+ DNS_DATA.DOMAIN 
+
+ qualys.dns_data.domain 
+
+ — 
+
+ DOMAIN 
+
+ DNS_DATA.FQDN 
+
+ qualys.dns_data.fqdn 
+
+ — 
+
+ FQDN 
+
+ DNS_DATA.HOSTNAME 
+
+ qualys.dns_data.hostname 
+
+ — 
+
+ HOSTNAME 
+
+ EC2_INSTANCE_ID 
+
+ qualys.ec2_instance_id 
+
+ — 
+
+ EC2 INSTANCE ID 
+
+ FIRST_FOUND_DATETIME 
+
+ qualys.first_found_datetime 
+
+ — 
+
+ FIRST FOUND DATETIME 
+
+ IS_DISABLED 
+
+ qualys.is_disabled 
+
+ — 
+
+ IS DISABLED 
+
+ IS_IGNORED 
+
+ qualys.is_ignored 
+
+ — 
+
+ IS IGNORED 
+
+ LAST_PROCESSED_DATETIME 
+
+ qualys.last_processed_datetime 
+
+ — 
+
+ LAST PROCESSED DATETIME 
+
+ LAST_SCAN_DATETIME 
+
+ qualys.last_scan_datetime 
+
+ — 
+
+ LAST SCAN DATETIME 
+
+ LAST_TEST_DATETIME 
+
+ qualys.last_test_datetime 
+
+ — 
+
+ LAST TEST DATETIME 
+
+ LAST_UPDATE_DATETIME 
+
+ qualys.last_update_datetime 
+
+ — 
+
+ LAST UPDATE DATETIME 
+
+ LAST_VM_AUTH_SCANNED_DATE 
+
+ qualys.last_vm_auth_scanned_date 
+
+ — 
+
+ LAST VM AUTH SCANNED DATE 
+
+ LAST_VM_AUTH_SCANNED_DURATION 
+
+ qualys.last_vm_auth_scanned_duration 
+
+ — 
+
+ LAST VM AUTH SCANNED DURATION 
+
+ LAST_VM_SCANNED_DATE 
+
+ qualys.last_vm_scanned_date 
+
+ — 
+
+ LAST VM SCANNED DATE 
+
+ LAST_VM_SCANNED_DURATION 
+
+ qualys.last_vm_scanned_duration 
+
+ — 
+
+ LAST VM SCANNED DURATION 
+
+ METADATA.EC2.ATTRIBUTE.LAST_ERROR 
+
+ qualys.metadata.ec2.attribute.last_error 
+
+ — 
+
+ LAST ERROR 
+
+ METADATA.EC2.ATTRIBUTE.LAST_ERROR_DATE 
+
+ qualys.metadata.ec2.attribute.last_error_date 
+
+ — 
+
+ LAST ERROR DATE 
+
+ METADATA.EC2.ATTRIBUTE.LAST_STATUS 
+
+ qualys.metadata.ec2.attribute.last_status 
+
+ — 
+
+ LAST STATUS 
+
+ METADATA.EC2.ATTRIBUTE.LAST_SUCCESS_DATE 
+
+ qualys.metadata.ec2.attribute.last_success_date 
+
+ — 
+
+ LAST SUCCESS DATE 
+
+ METADATA.EC2.ATTRIBUTE.NAME 
+
+ qualys.metadata.ec2.attribute.name 
+
+ — 
+
+ NAME 
+
+ METADATA.EC2.ATTRIBUTE.VALUE 
+
+ qualys.metadata.ec2.attribute.value 
+
+ — 
+
+ VALUE 
+
+ NETBIOS 
+
+ qualys.netbios 
+
+ — 
+
+ NETBIOS 
+
+ OS 
+
+ qualys.os 
+
+ — 
+
+ OS 
+
+ QG_HOSTID 
+
+ qualys.qg_hostid 
+
+ — 
+
+ QG HOSTID 
+
+ RESULTS 
+
+ qualys.results 
+
+ — 
+
+ RESULTS 
 
  SSL 
 
@@ -1904,7 +1872,7 @@ Qualys Attribute Reference
 
  — 
 
- Vulnerability finding status 
+ STATUS 
 
  TIMES_FOUND 
 
@@ -1912,7 +1880,7 @@ Qualys Attribute Reference
 
  — 
 
- Number of times the vulnerability was found 
+ TIMES FOUND 
 
  TRACKING_METHOD 
 
@@ -1920,7 +1888,7 @@ Qualys Attribute Reference
 
  — 
 
- Method used to track the scanned host 
+ TRACKING METHOD 
 
  TYPE 
 
@@ -1928,7 +1896,7 @@ Qualys Attribute Reference
 
  — 
 
- Vulnerability detection type 
+ TYPE 
 
  UNIQUE_VULN_ID 
 
@@ -1936,39 +1904,7 @@ Qualys Attribute Reference
 
  — 
 
- Unique vulnerability ID 
-
- cveids 
-
- — 
-
- cve 
-
- CVE identifiers associated with the vulnerability 
-
- device_id 
-
- — 
-
- id 
-
- Device identifier used to correlate the vulnerability with a device 
-
- deviceid 
-
- qualys.deviceid 
-
- — 
-
- Qualys device ID 
-
- severity 
-
- qualys.severity 
-
- Severity 
-
- Severity level of the vulnerability finding 
+ UNIQUE VULN ID 
 
  * Only some attributes map to a Device Security Common Attribute. 
 
@@ -1978,54 +1914,4 @@ Qualys Attribute Reference
 
  Next 
 
- Rapid7 Attribute Reference 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Device Security 
-
- Reference 
-
- Cloud-Delivered Security Services 
-
- Integrations 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Rapid7 Attribute Reference

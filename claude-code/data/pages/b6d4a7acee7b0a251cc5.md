@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/data-management/manage-compute-units/compute-units-usage
-fetched_at: 2026-09-06T10:08:40Z
+fetched_at: 2026-09-16T08:48:08Z
 source: cortex-platform
 ---
 
@@ -111,6 +111,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next What are Cortex Cloud data sources and connectors? 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

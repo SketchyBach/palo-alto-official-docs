@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-ios-guide/9.2/device-user-tasks/configure-message-and-call-reporting
-fetched_at: 2026-09-06T10:20:40Z
+fetched_at: 2026-09-16T08:51:46Z
 source: cortex-platform
 ---
 
@@ -41,6 +41,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Check Links before Clicking or Using Them 
 
- Last updated 15 days ago 
+ Last updated 26 days ago 
 
  Was this helpful?

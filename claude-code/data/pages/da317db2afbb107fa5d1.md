@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/reference-and-developer-docs/role-based-access-control/cortex-agentic-assistant-permissions/cortex-agentic-assistant-agents
-fetched_at: 2026-09-06T09:47:04Z
+fetched_at: 2026-09-16T08:43:48Z
 source: cortex-platform
 ---
 
@@ -189,6 +189,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Agents and endpoint protection 
 
- Last updated 11 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?

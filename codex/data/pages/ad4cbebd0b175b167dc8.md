@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/investigate-and-respond-to-threats/threat-intel-management/indicator-investigation
-fetched_at: 2026-09-06T10:23:12Z
+fetched_at: 2026-09-16T08:52:38Z
 source: cortex-platform
 ---
 
@@ -67,6 +67,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Indicator verdict 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

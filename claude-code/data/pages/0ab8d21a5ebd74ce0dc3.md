@@ -1,68 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/vm-series/activation-and-onboarding/software-ngfw/software-ngfw-licensing-api/create-a-deployment-profile-api
-fetched_at: 2026-08-13T17:41:02Z
+fetched_at: 2026-09-16T07:52:07Z
 source: palo-alto-main
 ---
 
 # Create a Deployment Profile Using the Licensing API Clear
 
-Create a Deployment Profile Using the Licensing API 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Create a Deployment Profile Using the Licensing API 
-
- Updated on 
-
- Fri Jun 19 07:15:14 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- VM-Series Firewall Docs 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Upgrade 
-
- Deployment 
-
- Select a Document 
-
- Public Cloud 
-
- Private Cloud 
-
- Updated on 
-
- Fri Jun 19 07:15:14 PDT 2026 
+ Jun 19, 2026 
 
  Focus 
 
@@ -417,70 +363,4 @@ Create a Deployment Profile Using the Licensing API
 
  Next 
 
- Update a Deployment Profile Using the Licensing API 
-
- On This Page 
-
- Activation and Onboarding 
-
- Strata Cloud Manager 
-
- Next-Generation Firewalls 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- VM-Series 
-
- Plugins 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- AI Access Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- IPSec VPN 
-
- Security Policy 
-
- Quantum Security 
-
- Endpoints 
-
- GlobalProtect 
-
- Resources 
-
- All Release Notes 
-
- Compatibility Matrix 
-
- Experts Corner 
-
- Network Security 
-
- Activation & Onboarding 
-
- Licensing 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Update a Deployment Profile Using the Licensing API

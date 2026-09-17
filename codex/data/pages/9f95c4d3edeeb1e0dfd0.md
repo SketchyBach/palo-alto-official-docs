@@ -1,0 +1,106 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/common-services/subscription-and-tenant-management/manage-multitenants.html
+fetched_at: 2026-09-16T09:16:31Z
+source: palo-alto-main
+---
+
+# Tenant Management Clear
+
+Updated on 
+
+ Wed Mar 11 02:36:02 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Cloud Manager 
+
+ Subscription and Tenant Management 
+
+ Tenant Management 
+
+ Download PDF 
+
+ Strata Cloud Manager 
+
+ Tenant Management 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Cloud Manager Docs 
+
+ Activation & Onboarding 
+
+ Subscription & Tenant Management 
+
+ Getting Started 
+
+ AIOps 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Deactivate a Product 
+
+ Next 
+
+ What is a Tenant? 
+
+ Tenant Management 
+
+ Learn how to add, delete, move, and acquire tenants. 
+
+ You can create and manage a hierarchy of business organizations and units, each of which is a
+ tenant . For each tenant, you specify a name that helps
+ you and others to easily identify it, such as the company name, a division,
+ or a geographic location (along with a business vertical designation, such
+ as retail or wholesale). You will allocate licenses to your tenants so that
+ you can manage and monitor the instances of all your products. For more
+ information about tenants, see What is a Tenant? 
+ or the Common Services 
+ FAQ . 
+
+ Depending on your environment, you will see one of the following menus for
+ managing your tenants: Tenant Management or
+ Tenants . 
+
+ You won't see this menu if you have a single tenant. You will see
+ Products instead. In a single tenant
+ environment, you can manage your products through product management . 
+
+ Prisma SASE Multitenant Portal
+ and FedRAMP Multienant View of the Activation Console Multitenant Strata Cloud Manager 
+
+ From the original support account view of the
+ Activation Console Prisma SASE Platform button Tenants and Services Common Services , you will see Tenant
+ Management . 
+
+ From the tenant view of the Activation Console Common Services button, you will see
+ Tenant Management in a
+ multitenant environment. 
+
+ From the Strata Cloud Manager 
+ System Settings , you will
+ see Tenants in a
+ multitenant environment. 
+
+ In a multitenant environment, you can switch between your tenants and also
+ between the apps or products in the tenant. 
+
+ Previous 
+
+ Deactivate a Product 
+
+ Next 
+
+ What is a Tenant?

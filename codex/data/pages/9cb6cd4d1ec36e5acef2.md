@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.8/onboard-cortex-xsoar/cortex-xsoar-installation/install-cortex-xsoar-on-a-vm-deployed-on-hyper-v
-fetched_at: 2026-09-06T11:21:10Z
+fetched_at: 2026-09-16T09:13:22Z
 source: cortex-platform
 ---
 
@@ -427,6 +427,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Install Cortex XSOAR on a VM deployed on VSphere 
 
- Last updated 4 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

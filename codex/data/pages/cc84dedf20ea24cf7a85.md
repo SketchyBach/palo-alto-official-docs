@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/configure-cortex-xsoar/dashboards-and-reports/reports/configure-the-timezone-in-a-report
-fetched_at: 2026-09-06T10:22:44Z
+fetched_at: 2026-09-16T08:52:30Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshoot script timeout for reports 
 
- Last updated 5 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

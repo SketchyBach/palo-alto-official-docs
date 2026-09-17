@@ -12,6 +12,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen, build_opener, HTTPRedirectHandler
+from urllib.error import HTTPError, URLError
 
 import ingest
 
@@ -106,6 +107,10 @@ def main():
                         help="With --resume, retry URLs whose latest receipt failed")
     parser.add_argument("--max-response-mb", type=int, default=25,
                         help="Maximum page response size; increase for known large catalog pages")
+    parser.add_argument("--retries", type=int, default=4,
+                        help="Retries for transient HTTP 403, 429, and server errors")
+    parser.add_argument("--retry-delay", type=float, default=5.0,
+                        help="Initial delay in seconds before retrying a transient response")
     args = parser.parse_args()
     cfg = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
     selected = [s for s in cfg["sources"] if s["name"] in args.source]
@@ -186,16 +191,32 @@ def main():
             failed = sum(not rec["success"] for rec in latest.values())
 
     def worker(url):
-        try:
-            rp = robots.get(urlparse(url).hostname)
-            if rp and not rp.can_fetch(AGENT, url):
-                raise ValueError("blocked by robots.txt")
-            raw, headers, final = retrieve(url, hosts, args.max_response_mb * 1_000_000)
-            return raw, headers, final, parse_page(raw, headers, final), None
-        except Exception as exc:
-            return None, {}, None, None, f"{type(exc).__name__}: {exc}"
-        finally:
-            time.sleep(max(0.35, cfg["policy"]["request_delay_seconds"]))
+        rp = robots.get(urlparse(url).hostname)
+        if rp and not rp.can_fetch(AGENT, url):
+            return None, {}, None, None, "ValueError: blocked by robots.txt"
+        for attempt in range(args.retries + 1):
+            try:
+                raw, headers, final = retrieve(url, hosts, args.max_response_mb * 1_000_000)
+                original_path = urlparse(url).path.rstrip("/")
+                final_path = urlparse(final).path.rstrip("/")
+                if final_path == "/platform-explorer" and original_path != final_path:
+                    raise ValueError("redirected to generic platform explorer landing page")
+                return raw, headers, final, parse_page(raw, headers, final), None
+            except HTTPError as exc:
+                transient = exc.code in {403, 408, 425, 429, 500, 502, 503, 504}
+                if transient and attempt < args.retries:
+                    retry_after = exc.headers.get("Retry-After") if exc.headers else None
+                    delay = float(retry_after) if retry_after and retry_after.isdigit() else args.retry_delay * (2 ** attempt)
+                    time.sleep(delay)
+                    continue
+                return None, {}, None, None, f"HTTPError: {exc}"
+            except Exception as exc:
+                if attempt < args.retries and isinstance(exc, (TimeoutError, ConnectionError, URLError)):
+                    time.sleep(args.retry_delay * (2 ** attempt))
+                    continue
+                return None, {}, None, None, f"{type(exc).__name__}: {exc}"
+            finally:
+                time.sleep(max(0.35, cfg["policy"]["request_delay_seconds"]))
 
     with (folder / "receipts.jsonl").open("a", encoding="utf-8") as log:
         while pending_urls := [u for u in urls if u not in done]:

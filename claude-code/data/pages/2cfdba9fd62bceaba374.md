@@ -1,0 +1,123 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/administration/license-and-activation/ngfw-support-for-prisma-agent/enable-prisma-agent-for-ngfw-deployments
+fetched_at: 2026-09-16T08:21:15Z
+source: palo-alto-main
+---
+
+# Enable Prisma Agent for NGFW Deployments Clear
+
+Updated on 
+
+ Thu Aug 27 20:22:38 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ License and Activation 
+
+ NGFW Support for Prisma Agent 
+
+ Enable Prisma Agent for NGFW Deployments 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ Enable Prisma Agent for NGFW Deployments 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Your Prisma Agent License for NGFW Deployments 
+
+ Next 
+
+ Configuration Management Overview for NGFW Support for Prisma Agent 
+
+ Enable Prisma Agent for NGFW Deployments 
+
+ Learn how to enable Prisma Agent for your NGFW deployment. 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Panorama) 
+
+ Check the prerequisites for the supported PAN-OS versions 
+
+ Prisma Agent license for NGFW deployments 
+
+ Review the steps to enable Prisma Agent for your NGFW deployment. Follow
+ these procedures to activate and configure the necessary components. 
+
+ You can enable Prisma Agent for a new NGFW deployment, an existing NGFW deployment
+ (with an existing TSGid), or Strata Cloud Manager Pro for NGFW
+ deployment. 
+
+ You can enable Prisma Agent 
+ for a new NGFW deployment or an existing NGFW deployment (with an existing
+ TSGid) 
+
+ Before you begin, contact your Palo Alto Networks representative to purchase the Prisma Agent license for NGFW deployments. 
+
+ ( New NGFW deployment ) Activate Strata Cloud Manager Essentials , which
+ is needed to manage Prisma Agent -specific settings such as user
+ authentication and agent configurations. 
+
+ Navigate to the hub . 
+
+ Go to Common Services Tenant Management . 
+
+ Create a new tenant by selecting All Tenants New Tenant . 
+
+ After successful tenant creation, search for the tenant you created
+ and Activate 
+ Strata Cloud Manager . 
+
+ Complete the activation form. 
+
+ Select the appropriate Customer Support
+ Account . 
+
+ Select the tenant you created in the previous step. 
+
+ Select the Region where you want to
+ deploy Prisma Agents . 
+
+ Select Cloud Identity Engine Create New to create a new Cloud Identity Engine instance for
+ the tenant. Prisma Agent requires Cloud Identity Engine for fetching user groups. 
+
+ Agree to the terms and conditions. 
+
+ Activate the tenant. 
+
+ ( Existing NGFW deployment with existing TSGid ) Search for the tenant
+ and Activate 
+ Strata Cloud Manager . 
+
+ Previous 
+
+ Your Prisma Agent License for NGFW Deployments 
+
+ Next 
+
+ Configuration Management Overview for NGFW Support for Prisma Agent

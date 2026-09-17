@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-mcp-server
-fetched_at: 2026-09-06T09:28:43Z
+fetched_at: 2026-09-16T08:33:52Z
 source: cortex-platform
 ---
 
@@ -19,7 +19,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Configure Cortex XSIAM 
 
- Cortex XSIAM 
+ Cortex XSIAM Configuration 
 
  Cortex MCP server 
 
@@ -57,6 +57,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Install the Cortex MCP server 
 
- Last updated 24 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

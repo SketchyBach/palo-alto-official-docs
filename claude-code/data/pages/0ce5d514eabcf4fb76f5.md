@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-multi-tenant-guides/6.12/configure-multi-tenant/manage-content/disable-propagation-labels
-fetched_at: 2026-09-06T10:50:24Z
+fetched_at: 2026-09-16T08:58:33Z
 source: cortex-platform
 ---
 
@@ -23,7 +23,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Manage Content 
 
- XSOAR 6.12 Multi-Tenant EoL 
+ Cortex XSOAR 6.12 Multi-Tenant EoL 
 
  Disable Propagation Labels 
 
@@ -41,6 +41,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Restrict Actions for Custom Locked Content Items 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

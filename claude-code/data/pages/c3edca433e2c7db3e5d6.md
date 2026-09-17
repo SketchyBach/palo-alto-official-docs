@@ -1,106 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/hardware/pa-3200-hardware-reference/install-pa-3200-series-firewall/install-pa-3200-series-firewall-rack-brackets
-fetched_at: 2026-08-13T16:34:30Z
+fetched_at: 2026-09-15T15:14:24Z
 source: palo-alto-main
 ---
 
 # Install the PA-3200 Series Firewall Using the Rack Mount Br... Clear
 
-Install the PA-3200 Series Firewall Using the Rack Mount Br... 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- PA-3200 Series Next-Gen Firewall Hardware Reference 
-
- : 
- Install the PA-3200 Series Firewall Using the Rack-Mount
-Brackets 
-
- Updated on 
-
- Tue Oct 10 13:55:24 PDT 2023 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand all | Collapse all 
-
- Before You Begin 
-
- Upgrade/Downgrade Considerations for Firewalls and Appliances 
-
- Tamper Proof Statement 
-
- Third-Party Component Support 
-
- Product Safety Warnings 
-
- PA-3200 Series Firewall Overview 
-
- PA-3200 Series Front Panel 
-
- PA-3200 Series Back Panel 
-
- Install the PA-3200 Series Firewall in an Equipment Rack 
-
- Install the PA-3200 Series Firewall Using the Rack-Mount Brackets 
-
- Install the PA-3200 Series Firewall Using the Four-Post Rack Kit 
-
- Connect Power to a PA-3200 Series Firewall 
-
- Connect AC Power to a PA-3200 Series Firewall 
-
- Connect DC Power to a PA-3200 Series Firewall 
-
- Service the PA-3200 Series Firewall 
-
- Interpret the PA-3200 Series Status LEDs 
-
- Replace a PA-3200 Series Fan Tray 
-
- Replace a PA-3200 Series Power Supply 
-
- Replace a PA-3200 Series AC Power Supply 
-
- Replace a PA-3200 Series DC Power Supply 
-
- Replace a PA-3200 Series Drive 
-
- PA-3200 Series Firewall Specifications 
-
- PA-3200 Series Physical Specifications 
-
- PA-3200 Series Electrical Specifications 
-
- PA-3200 Series Environmental Specifications 
-
- PA-3200 Series Miscellaneous Specifications 
-
- PA-3200 Series Firewall Hardware Compliance Statements 
-
- PA-3200 Series Firewall Compliance Statements 
-
- Updated on 
+Updated on 
 
  Tue Oct 10 13:55:24 PDT 2023 
 
@@ -227,6 +133,4 @@ the rack has square holes.
 
  Next 
 
- Install the PA-3200 Series Firewall Using the Four-Post Rack Kit 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Install the PA-3200 Series Firewall Using the Four-Post Rack Kit

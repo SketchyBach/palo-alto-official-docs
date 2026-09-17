@@ -1,110 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin/certificate-management/secure-keys-with-a-hardware-security-module/store-private-keys-on-an-hsm
-fetched_at: 2026-08-13T17:08:45Z
+fetched_at: 2026-09-16T07:38:34Z
 source: palo-alto-main
 ---
 
 # Store Private Keys on an HSM Clear
 
-Store Private Keys on an HSM 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Store Private Keys on an HSM 
-
- Updated on 
-
- Mon Aug 03 13:41:44 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Next-Generation Firewall Docs 
-
- Getting Started 
-
- Administration 
-
- Networking 
-
- Quick Start 
-
- Reference 
-
- Incidents & Alerts 
-
- Release Notes 
-
- Select a Document 
-
- PAN-OS 12.2 
-
- PAN-OS 12.1 
-
- PAN-OS 11.2 
-
- PAN-OS 11.1 
-
- PAN-OS 11.0 (EoL) 
-
- PAN-OS 10.2 
-
- PAN-OS 10.1 (EoL) 
-
- PAN-OS 10.0 (EoL) 
-
- PAN-OS 9.1 (EoL) 
-
- PAN-OS 9.0 (EoL) 
-
- PAN-OS 8.1 (EoL) 
-
- Help 
-
- Select a Document 
-
- PAN-OS 12.2 
-
- PAN-OS 12.1 
-
- PAN-OS 11.2 
-
- PAN-OS 11.1 
-
- PAN-OS 10.2 
-
- PAN-OS 10.1 
-
- New Features 
-
- Updated on 
-
- Mon Aug 03 13:41:44 PDT 2026 
+ Mon Aug 31 04:46:16 PDT 2026 
 
  Focus 
 
@@ -226,11 +130,11 @@ Store Private Keys on an HSM
  TLSv1.3 sessions. SSL Inbound Inspection occurs over TLSv1.2 even if both client
  and server support TLSv1.3. 
 
- ( PAN-OS 11.2 ) PAN-OS supports
- SSL Forward Proxy and SSL Inbound Inspection with HSMs for TLSv1.3 sessions. To
- turn on this support for SSL Inbound Inspection, use the set ssl
- inbound-inspection tls1.3-with-hsm enable yes CLI
- command. 
+ ( PAN-OS 11.2 and later ) PAN-OS
+ supports SSL Forward Proxy and SSL Inbound Inspection with HSMs for TLSv1.3
+ sessions. To turn on this support for SSL Inbound Inspection, use the
+ set ssl inbound-inspection tls1.3-with-hsm enable yes 
+ CLI command. 
 
  On the HSM, import or generate the certificate and private key used in your
  decryption deployment. 
@@ -296,114 +200,4 @@ Store Private Keys on an HSM
 
  Next 
 
- Encrypt and Refresh Master Keys Using an HSM 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Network Security 
-
- PAN-OS 
-
- Next-Generation Firewall 
-
- Administration 
-
- HSM 
-
- Certificate Management 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Encrypt and Refresh Master Keys Using an HSM

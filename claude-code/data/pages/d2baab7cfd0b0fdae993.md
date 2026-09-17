@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-6-installation-guides/6.14/cortex-xsoar-installation-guide/multi-tenant-installation
-fetched_at: 2026-09-06T10:50:31Z
+fetched_at: 2026-09-16T08:58:34Z
 source: cortex-platform
 ---
 
@@ -21,7 +21,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Cortex XSOAR Installation Guide 
 
- XSOAR 6.14 Installation 
+ Cortex XSOAR 6.14 Installation 
 
  Multi-Tenant Installation 
 
@@ -33,6 +33,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Install Multi-Tenant with Bolt Database 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

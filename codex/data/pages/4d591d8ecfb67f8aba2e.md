@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/public-exposure/appsec-azure-145
-fetched_at: 2026-09-06T11:13:24Z
+fetched_at: 2026-09-16T09:09:57Z
 source: cortex-platform
 ---
 

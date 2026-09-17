@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/onboard-cortex-xsoar/users-and-roles/authenticate-users-with-saml-2.0/duo-for-single-sign-on/configure-the-saml-2.0-integration-for-duo
-fetched_at: 2026-09-06T10:40:40Z
+fetched_at: 2026-09-16T08:56:08Z
 source: cortex-platform
 ---
 

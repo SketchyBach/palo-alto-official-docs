@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/azure-vm-extension-abuse-attempt
-fetched_at: 2026-09-06T11:01:41Z
+fetched_at: 2026-09-16T09:06:39Z
 source: cortex-platform
 ---
 

@@ -1,83 +1,12 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/10-2/user-id-agent-release-notes/getting-help/requesting-support
-fetched_at: 2026-08-13T17:07:44Z
+fetched_at: 2026-09-16T07:38:08Z
 source: palo-alto-main
 ---
 
 # Requesting Support Clear
 
-Requesting Support 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- User-ID™ Agent Release Notes 
-
- : 
- Requesting Support 
-
- Updated on 
-
- Fri May 03 14:47:18 PDT 2024 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Version 
-
- 10.2 
-
- 11.0 & Later 
-
- 10.2 
-
- 10.1 (EoL) 
-
- 10.0 (EoL) 
-
- 9.1 (EoL) 
-
- Expand all | Collapse all 
-
- User-ID Agent 10.2 Release Information 
-
- Features Introduced in User-ID Agent 10.2 
-
- Changes to Default Behavior 
-
- System Requirements 
-
- Operating System (OS) Compatibility 
-
- Known Issues 
-
- User-ID Agent 10.2 Addressed Issues 
-
- Getting Help 
-
- Related Documentation 
-
- Requesting Support 
-
- Updated on 
+Updated on 
 
  Fri May 03 14:47:18 PDT 2024 
 
@@ -154,6 +83,4 @@ at: documentation@paloaltonetworks.com .
 
  Previous 
 
- Related Documentation 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Related Documentation

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/configure-cortex-agentix
-fetched_at: 2026-09-06T10:13:56Z
+fetched_at: 2026-09-16T08:49:35Z
 source: cortex-platform
 ---
 
@@ -115,6 +115,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex AgentiX Data Sources and Connectors 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

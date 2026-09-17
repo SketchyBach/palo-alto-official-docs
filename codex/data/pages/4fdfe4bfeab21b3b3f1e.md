@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/inventory-and-monitoring/dashboards-and-reports/advanced-configuration/create-custom-widgets
-fetched_at: 2026-09-06T10:52:18Z
+fetched_at: 2026-09-16T08:59:14Z
 source: cortex-platform
 ---
 

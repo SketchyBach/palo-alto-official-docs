@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/generic-on-premise-data-collectors/broker-vm-data-collector-applets/syslog-collector-applet/ingest-logs-from-a-syslog-receiver
-fetched_at: 2026-09-06T09:27:29Z
+fetched_at: 2026-09-16T08:26:27Z
 source: cortex-platform
 ---
 
@@ -49,6 +49,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Check Point FW1 VPN1 
 
- Last updated 29 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

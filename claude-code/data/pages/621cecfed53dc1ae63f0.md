@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/cloud-service-provider-csp-onboarding/alibaba-cloud-cloud-onboarding/alibaba-security-capabilities-and-deployment-planning
-fetched_at: 2026-09-06T09:41:02Z
+fetched_at: 2026-09-16T08:42:02Z
 source: cortex-platform
 ---
 
@@ -115,6 +115,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Alibaba Cloud resource inventory 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

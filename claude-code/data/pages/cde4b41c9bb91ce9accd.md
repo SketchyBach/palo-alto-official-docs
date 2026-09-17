@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam-rn/cortex-xsiam-release-information/features-introduced-in-2026-xsiam/may-2026/release-highlights
-fetched_at: 2026-09-06T10:52:43Z
+fetched_at: 2026-09-16T08:59:22Z
 source: cortex-platform
 ---
 
@@ -81,6 +81,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Feature Enhancements 
 
- Last updated 23 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

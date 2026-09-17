@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/reference-and-developer-docs/about-cortex-cli/cortex-cli-for-api-security
-fetched_at: 2026-09-06T09:37:23Z
+fetched_at: 2026-09-16T08:37:25Z
 source: cortex-platform
 ---
 
@@ -98,6 +98,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Cortex CLI API Security command line reference guide 
 
- Last updated 20 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

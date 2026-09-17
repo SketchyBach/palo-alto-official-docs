@@ -1,0 +1,289 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent
+fetched_at: 2026-09-16T09:16:32Z
+source: palo-alto-main
+---
+
+# Prisma Agent Clear
+
+Updated on 
+
+ Sep 14, 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Prisma Agent 
+
+ Welcome to the Prism Agent documentation site! The Prisma Agent is a next-generation mobile access agent that enables you to use Prisma Access or Next-Generation Firewall to secure your mobile workforce. The Prisma Agent, built for today's hybrid workforce, delivers secure and convenient access to both enterprise apps and the internet, and also simplifies network, IT, and security operations for your organization. 
+
+ What's New 
+
+ Date 
+ Highlights 
+
+ September 9, 2026 
+ Prisma Agent 26.3.2 includes bug fixes for macOS and Windows endpoints. 
+
+ August 28, 2026 
+
+ Prisma Agent 26.3  introduces the following features (as part of the Strata Cloud Manager R3 release): 
+
+ Granular Certificate Selection for Prisma Agent in Agent Settings 
+
+ Device Attribute Match Criteria for Prisma Agent App Settings ( Windows and macOS) 
+
+ August 27, 2026 
+
+ Prisma Agent 26.3 (iOS) introduces the following features: 
+
+ IPv6 Dual-Stack Support for iOS Agents 
+
+ LDAP Authentication for iOS Agent 
+
+ Default System Browser for SAML Authentication on iOS 
+
+ Log Sharing During Prisma Agent iOS Enrollment 
+
+ August 27, 2026 
+
+ Prisma Agent 26.3 (Linux) introduces the following features: 
+
+ Ubuntu 26.04 Support for Prisma Agent 
+
+ Best Available - Fail Safe for Linux Agents 
+
+ Certificate Authentication for Prisma Agent on Linux 
+
+ Container Traffic Enforcement for Linux in Prisma Agent 
+
+ Dynamic Location-Based Traffic Steering for Linux Agents 
+
+ Simplified Linux Installation for Prisma Agent 
+
+ August 20, 2026 
+
+ Prisma Agent 26.3  (Windows/macOS) introduces the following features: 
+
+ Advanced Internal Host Detection 
+
+ Granular Certifcate Selection in Agent Settings 
+
+ Jamf MDM Posture Checks for Prisma Agent on macOS 
+
+ Multi-Region Redundancy for Prisma Agent 
+
+ Preferred Gateway Selection for Prisma Agent 
+
+ Self-Healing Endpoint Connectivity Issues 
+
+ July 29, 2026 
+
+ Prisma Access Agent 26.2.2 (mobile) introduces the following enhancements: 
+
+ Android 16 design adoption for Prisma Access Agent 
+
+ iOS 26 design adoption for Prisma Access Agent 
+
+ Prisma Access Agent forwarding profiles for mobile devices 
+
+ SAML with always-on support for Prisma Access Agent on iOS 
+
+ July 9, 2026 
+ Prisma Agent 26.2.2 includes bug fixes for macOS and Windows endpoints. 
+
+ June 30, 2026 
+
+ Prisma Agent 26.2.2 introduces the following enhancements: 
+
+ IPv6 Traffic Handling for Prisma Agent on Linux 
+
+ Wildcard Support for Source Apps in Forwarding Profiles for Linux 
+
+ May 22,  2026 
+
+ Prisma Agent 26.2  (as part of Strata Cloud Manager 2026 R2 release) introduces the following features: 
+
+ MDM Posture Checks for Prisma Agent 
+
+ Persistent Pre-Logon Tunnels for Prisma Agent 
+
+ May 13,  2026 
+ Prisma Agent 26.2.1  includes performance improvements and bug fixes. 
+
+ April 28, 2026 
+
+ Prisma Agent 26.2 introduces the following enhancements: 
+
+ Desktop environment-aware installation for Prisma Agent on Linux 
+
+ Dynamic location-based steering in Prisma Agent 
+
+ Event-triggered diagnostics for Prisma Agent 
+
+ Expanded Linux distribution support for Prisma Agent 
+
+ February 20, 2026 
+
+ Prisma Agent 26.1 (mobile) introduces the following enhancements: 
+
+ Android 16 design adoption for Prisma Agent 
+
+ iOS 26 design adoption for Prisma Agent 
+
+ Prisma Agent forwarding profiles for mobile devices 
+
+ SAML with always-on support for Prisma Agent on iOS 
+
+ February 18, 2026 
+
+ Prisma Agent 26.1.1 introduces the following features: 
+
+ Customizable authentication timers for Prisma Agent 
+
+ IPv6 dual-stack support for Prisma Agent 
+
+ February 10, 2026 
+
+ Prisma Agent 26.1 introduces the following features: 
+
+ Prisma Agent for Linux (general availability) 
+
+ Custom HIP checks for Prisma Agent for Linux 
+
+ February 5, 2026 
+
+ Prisma Agent 26.1 introduces the following features: 
+
+ macOS Platform SSO support for Prisma Agent 
+
+ Windows Hello for Business integration with Prisma Agent 
+
+ Prisma Agent third-party coexistence with bypass forwarding rules for Panorama Managed deployments 
+
+ Wildcard support for source apps in forwarding profiles 
+
+ January 6, 2026 
+
+ Prisma Agent 25.7 (mobile) adds support for the following features:  
+
+ Captive portal support for per-app iOS Prisma Agents 
+
+ HIP passcode detection for Prisma Agent on iOS and Android endpoints 
+
+ Internal host detection for Prisma Agent iOS endpoints 
+
+ Remote log collection for Prisma Agents on iOS, Android, and ChromeOS 
+
+ December 18, 2025 
+ Prisma Agent 25.7.1 introduces Debian Linux support. 
+
+ December 8, 2025 
+
+ Prisma Agent 25.7 (macOS and Windows) introduces the following features: 
+
+ Advanced DNS Security Resolver support for Prisma Agent (December 18, 2025) 
+
+ Enhanced anti-tamper protection for Prisma Agents on Panorama Managed deployments 
+
+ Prisma Agent HIP enhancements, including HIP category exclusion, patch exception, and HIP retry 
+
+ Prisma Agent third-party coexistence with bypass forwarding rules 
+
+ Prisma Agent user issue reporting and consent 
+
+ November 25, 2025 
+ Prisma Agent Linux 25.7 adds support for Ubuntu and Fedora distributions on both x86_64 and 64-bit ARM architectures with kernel versions 5.15 and higher 
+
+ October 20, 2025 
+
+ Prisma Agent 25.6.1 introduces the following features:
+
+  Granular certificate selection controls that provide precise certificate selection to maintain accurate User-ID mapping during authentication 
+
+ LDAP support for Prisma Agent in Panorama Managed deployments, which enables you to use your existing GlobalProtect® Portal LDAP authentication infrastructure and eliminates the need to reconfigure authentication methods when migrating to Prisma Agent. 
+
+ Restrict user editing of the server FQDN in the Prisma Agent, helping you to enforce always-on connectivity and prevent users from connecting to unauthorized servers. 
+
+ Support for devices running macOS Tahoe and Windows 11 Version 25H2 
+
+ August 29, 2025 
+
+ Prisma Agent 25.4 intrdouces the following features: 
+
+ Administrator-initiated collection of diagnostics 
+
+ Enhanced anti-tamper protection 
+
+ Traffic enforcement for non-TCP and non-UDP protocols 
+
+ Optimized Prisma Agent MTU for macOS 
+
+ Support for certificate authentication, endpoint OS type, stale configuration management, and session timeout settings in Panorama managed deployments 
+
+ Single icon for accessing Prisma Agent and Access Experience 
+
+ August 26, 2025 
+ Prisma Agent 25.3.0 (mobile) adds mobile support for Android OS, iOS, and iPadOS devices, extending secure network access to your mobile workforce. 
+
+ July 18, 2025 
+ Prisma Agent version 25.3.1 introduces support for Endpoint DLP. When deployed to endpoints with Prisma Agent, Endpoint DLP can help prevent the exfiltration of sensitive data to peripheral devices such as USB devices, printers, and network shares. 
+
+ May 20, 2025 
+
+ Prisma Agent version 25.3  introduces the following features: 
+
+ Endpoint insights for endpoint visibility and troubleshooting 
+
+ LDAP support  
+
+ Pre-logon support 
+
+ Captive portal support  
+
+ Embedded browser for SAML authentication  
+
+ Transparent proxy support 
+
+ April 15,  2025 
+
+ The initial version of the Prisma Agent (25.1) introduces the following features: 
+
+ Forwarding profiles for traffic management 
+
+ Visibility into Prisma Agents 
+
+ Staged rollouts of agent upgrades 
+
+ Troubleshooting and remediation 
+
+ Anti-tampering protection for agents 
+
+ NGFW and Panorama support 
+
+ Co-existence with the GlobalProtect app 
+
+ Important Resources 
+
+ Prisma Agent 
+
+ Prisma Agent Data Sheet 
+
+ Prisma Agent LIVEcommunity 
+
+ Getting Started 
+
+ Configure the Prisma Agent 
+
+ Coexistence with GlobalProtect 
+
+ Deploy Prisma Agents 
+
+ Manage Prisma Agents 
+
+ Troubleshoot Prisma Agents 
+
+ Use the Prisma Agent

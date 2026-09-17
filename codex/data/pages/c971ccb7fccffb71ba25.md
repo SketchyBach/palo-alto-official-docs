@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/marketplace/content-pack-installation/install-a-content-pack/set-up-your-use-case-with-the-deployment-wizard
-fetched_at: 2026-09-06T10:47:46Z
+fetched_at: 2026-09-16T08:57:31Z
 source: cortex-platform
 ---
 
@@ -183,6 +183,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Update a Content Pack 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

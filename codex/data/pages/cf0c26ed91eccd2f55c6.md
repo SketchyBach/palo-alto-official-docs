@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsiam-api/identity-and-access-management-iam/user-groups
-fetched_at: 2026-09-06T10:56:08Z
+fetched_at: 2026-09-16T09:04:05Z
 source: cortex-platform
 ---
 

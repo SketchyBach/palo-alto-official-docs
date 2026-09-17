@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/manage-data/reindex-the-audit-log
-fetched_at: 2026-09-06T10:45:53Z
+fetched_at: 2026-09-16T08:57:21Z
 source: cortex-platform
 ---
 
@@ -67,6 +67,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Free up Disk Space with Data Archiving 
 
- Last updated 6 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

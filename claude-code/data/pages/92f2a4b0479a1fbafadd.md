@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/onboard-cortex-xsiam/deployment-steps/cortex-xsiam-analytics/enable-the-analytics-engine-and-identity-analytics
-fetched_at: 2026-09-06T09:19:33Z
+fetched_at: 2026-09-16T07:55:45Z
 source: cortex-platform
 ---
 

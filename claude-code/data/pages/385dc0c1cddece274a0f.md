@@ -1,0 +1,119 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/10-1/pan-os-panorama-api/pan-os-xml-api-use-cases.html
+fetched_at: 2026-09-16T13:56:46Z
+source: palo-alto-main
+---
+
+# PAN-OS XML API Use Cases Clear
+
+Updated on 
+
+ Aug 28, 2025 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ PAN-OS XML API Use Cases 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ PAN-OS XML API Use Cases 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Retrieve Logs 
+
+ Next 
+
+ Upgrade a Firewall to the Latest PAN-OS Version (API) 
+
+ PAN-OS XML API Use Cases 
+
+ The following use cases highlight the use of the PAN-OS
+XML API, either to reduce repetitive steps or to automate tasks
+normally you perform through the web interface or CLI. 
+
+ Because the PAN-OS XML API uses a tree of XML nodes, in your
+API request you must specify the correct type and action along with
+the XPath Node Selection . See Explore
+the API to learn how to construct XML requests to be successful
+in using the API to meet your automation needs. 
+
+ Previous 
+
+ Retrieve Logs 
+
+ Next 
+
+ Upgrade a Firewall to the Latest PAN-OS Version (API)

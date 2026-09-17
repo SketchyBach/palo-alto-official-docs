@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas-release-notes/
-fetched_at: 2026-09-06T11:18:57Z
+fetched_at: 2026-09-16T09:12:40Z
 source: cortex-platform
 ---
 
@@ -29,6 +29,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Features Introduced in This Release 
 
- Last updated 16 days ago 
+ Last updated 26 days ago 
 
  Was this helpful?

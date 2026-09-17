@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/saas-security
-fetched_at: 2026-09-06T11:18:38Z
+fetched_at: 2026-09-16T09:12:33Z
 source: cortex-platform
 ---
 
@@ -61,6 +61,6 @@ To deliver these outcomes, the platform utilizes the following pillars:
 
  Next Setup SaaS Security 
 
- Last updated 6 days ago 
+ Last updated 1 day ago 
 
  Was this helpful?

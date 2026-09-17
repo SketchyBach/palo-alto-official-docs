@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/8.3-ce/cortex-xdr-agent-for-macos/install-the-cortex-xdr-agent-for-mac
-fetched_at: 2026-09-06T11:23:40Z
+fetched_at: 2026-09-16T09:13:57Z
 source: cortex-platform
 ---
 
@@ -39,6 +39,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Install with a unified configuration profile for MDMs 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

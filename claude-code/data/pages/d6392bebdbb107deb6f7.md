@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas-releases/cortex-xsoar-8-saas-releases.md
-fetched_at: 2026-09-06T11:19:32Z
+fetched_at: 2026-09-16T09:12:47Z
 source: cortex-platform
 ---
 
@@ -9,6 +9,8 @@ source: cortex-platform
 > For the complete documentation index, see [llms.txt](https://cortex-docs.paloaltonetworks.com/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas-releases/cortex-xsoar-8-saas-releases.md).
 
 # Cortex XSOAR 8 SaaS Releases
+
+Major general availability releases for Cortex XSOAR 8 SaaS.
 
 All releases below are general availability releases for Cortex XSOAR 8 SaaS.
 

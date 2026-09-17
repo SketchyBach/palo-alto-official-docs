@@ -1,59 +1,13 @@
 ---
 url: https://docs.paloaltonetworks.com/fedramp/autonomous-dem/get-started-with-adem/enable-adem-for-remote-networks/enable-adem-in-panorama-managed-pa-rn
-fetched_at: 2026-08-13T16:32:36Z
-source: palo-alto-main
+fetched_at: 2026-09-15T15:13:48Z
+source: strata-and-sase
 ---
 
 # Enable ADEM in Panorama Managed Prisma Access for Remote
 Sites Clear
 
-Enable ADEM in Panorama Managed Prisma Access for Remote
-Sites 
-
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Enable ADEM in Panorama Managed Prisma Access for Remote
-Sites 
-
- Updated on 
-
- Wed Sep 04 15:52:49 PDT 2024 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- FedRAMP Docs 
-
- Reference 
-
- Autonomous DEM 
-
- Updated on 
+Updated on 
 
  Wed Sep 04 15:52:49 PDT 2024 
 
@@ -215,66 +169,4 @@ add the address group to the policy.
 
  Next 
 
- Enable ADEM in Cloud Managed Prisma Access for Remote Sites 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Autonomous DEM 
-
- Autonomous DEM 
-
- SASE 
-
- Prisma SASE 
-
- FedRAMP 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Enable ADEM in Cloud Managed Prisma Access for Remote Sites

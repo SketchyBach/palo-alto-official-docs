@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/investigate-and-respond-to-threats/incidents-and-indicators-investigation/investigate-an-incident/link-incidents
-fetched_at: 2026-09-06T10:22:54Z
+fetched_at: 2026-09-16T08:52:33Z
 source: cortex-platform
 ---
 

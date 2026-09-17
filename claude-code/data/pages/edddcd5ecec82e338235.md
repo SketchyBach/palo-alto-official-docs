@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/configure-cortex-xsoar/integrations/integration-commands-in-the-cli
-fetched_at: 2026-09-06T10:22:11Z
+fetched_at: 2026-09-16T08:52:22Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/palo-alto-networks-integrations/next-generation-firewall/ingest-next-generation-firewall-logs-using-the-syslog-collector
-fetched_at: 2026-09-06T09:27:58Z
+fetched_at: 2026-09-16T08:33:12Z
 source: cortex-platform
 ---
 
@@ -105,6 +105,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Panorama 
 
- Last updated 2 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

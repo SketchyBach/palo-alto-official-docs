@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/storage/appsec-aws-221
-fetched_at: 2026-09-06T11:14:00Z
+fetched_at: 2026-09-16T09:10:20Z
 source: cortex-platform
 ---
 

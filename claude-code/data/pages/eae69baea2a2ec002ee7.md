@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xpanse-expander-rn/features-introduced-before-2026/2025-releases
-fetched_at: 2026-09-06T10:54:12Z
+fetched_at: 2026-09-16T09:02:23Z
 source: cortex-platform
 ---
 
@@ -27,6 +27,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Release 2.11 (November 2025) 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

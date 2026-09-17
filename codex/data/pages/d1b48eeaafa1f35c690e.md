@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/code-security/application-security-scans-management/manage-scans-through-public-apis
-fetched_at: 2026-09-06T10:13:37Z
+fetched_at: 2026-09-16T08:49:30Z
 source: cortex-platform
 ---
 
@@ -114,6 +114,10 @@ For the complete documentation index, see llms.txt . This page is also available
  Monitor scan completion : Poll the periodic scans endpoint to monitor the health of triggered scans. 
 
  Drill into scan results : Retrieve scan-level issues and findings to analyze detections. 
+
+ Previous How to view an instance health 
+
+ Next Prerequisites 
 
  Last updated 1 month ago 
 

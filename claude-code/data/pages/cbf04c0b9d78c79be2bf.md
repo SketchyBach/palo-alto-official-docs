@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/5.0/traps-agent-5.0-for-mac/uninstall-the-traps-agent-for-mac
-fetched_at: 2026-09-06T10:20:33Z
+fetched_at: 2026-09-16T08:51:43Z
 source: cortex-platform
 ---
 
@@ -33,6 +33,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshooting Resources for the Traps Agent for Mac 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

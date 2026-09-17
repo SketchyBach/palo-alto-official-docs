@@ -1,0 +1,32 @@
+---
+url: https://docs.prismacloud.io/admin-guide/32/tools/tools
+fetched_at: 2026-09-16T13:37:39Z
+source: prisma-cloud
+---
+
+# Tools | 32 | Prisma Cloud arrow-up-right-and-arrow-down-left-from-center
+
+For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+
+ Ask 
+ On this page 
+
+ Compute Edition 
+
+ Admin Guide 
+
+ 32 
+
+ Tools 
+
+ Tools 
+
+ Prisma Cloud ships a command-line configuration and control tool called twistcli. It lets you deploy Prisma Cloud components, run scans, and more. It is supported on Linux, macOS, and Windows. 
+
+ Previous Review Debug Logs 
+
+ Next twistcli 
+
+ Last updated 1 month ago 
+
+ Was this helpful?

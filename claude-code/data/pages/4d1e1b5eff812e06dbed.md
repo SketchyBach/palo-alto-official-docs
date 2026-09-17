@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/analytics-alerts/alerts-by-name/unusual-process-spawned-by-nginx-in-ingress-nginx-pod
-fetched_at: 2026-09-06T11:10:18Z
+fetched_at: 2026-09-16T09:08:54Z
 source: cortex-platform
 ---
 

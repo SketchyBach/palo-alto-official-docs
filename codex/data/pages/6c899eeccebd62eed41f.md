@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/code-to-cloud/code-to-cloud/execute-remediation-workflows
-fetched_at: 2026-09-06T09:57:25Z
+fetched_at: 2026-09-16T08:45:07Z
 source: cortex-platform
 ---
 

@@ -1,0 +1,163 @@
+---
+url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-admin/device-telemetry/device-telemetry-configure/device-telemetry-enable.html
+fetched_at: 2026-09-16T11:47:51Z
+source: palo-alto-main
+---
+
+# Enable Device Telemetry Clear
+
+Updated on 
+
+ Aug 31, 2026 
+
+ Focus 
+
+ Home 
+
+ Next-Generation Firewall 
+
+ Device Telemetry 
+
+ Manage Device Telemetry 
+
+ Enable Device Telemetry 
+
+ Download PDF 
+
+ Next-Generation Firewall 
+
+ Enable Device Telemetry 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Next-Generation Firewall Docs 
+
+ Getting Started 
+
+ Administration 
+
+ Networking 
+
+ Quick Start 
+
+ Reference 
+
+ Incidents & Alerts 
+
+ Release Notes 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 11.0 (EoL) 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 (EoL) 
+
+ PAN-OS 10.0 (EoL) 
+
+ PAN-OS 9.1 (EoL) 
+
+ PAN-OS 9.0 (EoL) 
+
+ PAN-OS 8.1 (EoL) 
+
+ Help 
+
+ Select a Document 
+
+ PAN-OS 12.2 
+
+ PAN-OS 12.1 
+
+ PAN-OS 11.2 
+
+ PAN-OS 11.1 
+
+ PAN-OS 10.2 
+
+ PAN-OS 10.1 
+
+ New Features 
+
+ Previous 
+
+ Manage Device Telemetry 
+
+ Next 
+
+ Enable Service Routes for Telemetry 
+
+ Enable Device Telemetry 
+
+ You can configure the telemetry data that PAN-OS collects
+and shares with Palo Alto Networks 
+
+ Where Can I Use This? What Do I Need? 
+
+ NGFW (Managed by Strata Cloud Manager) 
+
+ NGFW (Managed by PAN-OS or Panorama) 
+
+ For Strata Cloud Manager managed NGFWs: 
+
+ Strata Cloud Manager Essentials 
+
+ Strata Cloud Manager Pro 
+
+ By default, your device does not share data
+with Palo Alto Networks. If sharing is enabled, you can stop sharing
+all device telemetry by: Device Setup Telemetry ,
+uncheck the Enable Telemetry box, and then
+commit your change. 
+
+ To enable Device Telemetry so that data
+is shared with Palo Alto Networks: 
+
+ Enable Strata Logging Service . 
+
+ If your organization does not have a Strata Logging Service 
+ license, install a device certificate if
+ one is not already installed on your device. 
+
+ If your organization does have a Strata Logging Service 
+ license, make sure it is
+ activated . 
+
+ Make sure that your network is properly
+ configured so that the firewall can send data to Strata Logging Service . 
+
+ Navigate to Device Setup Telemetry 
+
+ Edit the Telemetry widget. 
+
+ In Telemetry Destination , select your region, if it is
+ not automatically selected. If your organization is using Strata Logging Service , you must use the region that your Strata Logging Service is configured to use. 
+
+ Click OK , and then commit your
+changes. 
+
+ _cliuser appears as a logged in
+admin whenever the firewall sends the telemetry file to it’s destination. 
+
+ Previous 
+
+ Manage Device Telemetry 
+
+ Next 
+
+ Enable Service Routes for Telemetry

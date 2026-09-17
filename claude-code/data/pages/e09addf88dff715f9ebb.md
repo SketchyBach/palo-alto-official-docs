@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security/appsec-objectives-with-agentix/references/reference-c-metric-calculations
-fetched_at: 2026-09-06T10:11:44Z
+fetched_at: 2026-09-16T08:49:04Z
 source: cortex-platform
 ---
 

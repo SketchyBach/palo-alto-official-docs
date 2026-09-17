@@ -1,0 +1,127 @@
+---
+url: https://docs.paloaltonetworks.com/prisma-agent/administration/configure-the-agent/set-up-the-prisma-agent-infrastructure/configure-ipv6-sinkhole-for-prisma-agent
+fetched_at: 2026-09-16T08:21:16Z
+source: palo-alto-main
+---
+
+# Configure IPv6 Sinkhole for Prisma Agent Clear
+
+Updated on 
+
+ Thu Aug 27 20:22:38 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Prisma Agent 
+
+ Configure the Prisma Agent 
+
+ Set Up the Infrastructure for Prisma Agents 
+
+ Configure IPv6 Sinkhole for Prisma Agent 
+
+ Download PDF 
+
+ Prisma Agent 
+
+ Configure IPv6 Sinkhole for Prisma Agent 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Prisma Agent Docs 
+
+ Administration 
+
+ User Guide 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Configure IPv6 Dual-Stack Support for Prisma Agent 
+
+ Next 
+
+ IPv6 Traffic Handling for Prisma Agent on Linux 
+
+ Configure IPv6 Sinkhole for Prisma Agent 
+
+ Learn how to configure the IPv6 sinkhole feature for Prisma Agent to enhance
+ security by tunneling and blocking IPv6 traffic. 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Strata Cloud Manager) 
+
+ Check the prerequisites for the deployment you're
+ using 
+
+ Minimum required Prisma Agent version: 25.3.0.43 
+
+ Supported operating systems: macOS and Windows 
+
+ Contact your Palo Alto Networks account representative to activate the Prisma Agent feature 
+
+ In a dual-stack endpoint that can process both IPv4 and IPv6 traffic, the Prisma Agent sends mobile user IPv4 traffic through the tunnel to Prisma Access for
+ protection.
+
+ To reduce the attack surface for IPv6-based threats, you can configure Prisma Agent to sinkhole IPv6 traffic. Because endpoints can automatically fall back to an
+ IPv4 address, sinkholing IPv6 traffic enables a secure and uninterrupted user
+ experience for mobile user traffic to the internet. 
+
+ You can configure Prisma Agent so that it sinkholes all mobile user IPv6
+ traffic by tunneling and blocking IPv6 traffic. When you enable this functionality,
+ Prisma Agent assigns an IPv6 address to the connecting endpoint in addition
+ to an IPv4 address; then, it routes the IPv6 traffic to Prisma Access and discards
+ it using a built-in security policy. 
+
+ While certain edge cases like IPv6 localhost, LAN, link-local, and DHCPv6 are not
+ routed to the gateway, the IPv6 sinkhole feature significantly enhances your ability
+ to manage and secure IPv6 traffic within your Prisma Access environment. 
+
+ Prisma Agent for Linux does not use gateway-side IPv6 sinkholing.
+ Instead, the agent selectively blocks tunnel-routed IPv6 traffic on the
+ endpoint to trigger IPv4 fallback in modern applications. See IPv6 Traffic Handling for
+ Prisma Agent on Linux for details. 
+
+ To sinkhole all mobile user IPv6 traffic in Prisma Agent deployments, complete
+ the following steps: 
+
+ In Strata Cloud Manager, select Configuration NGFW and Prisma Access Configuration Scope Access Agent Setup Infrastructure . 
+
+ Edit the infrastructure settings. 
+
+ If you're on a coexistence tenant (with the GlobalProtect™ app), select Filter By Prisma Access Agent to show only the settings that are related to Prisma Agent . 
+
+ Select Force IPv6 Sinkhole . 
+
+ Default : Deselected 
+
+ Prisma Access uses fc00:0:0:0:0:0:0:0/64 as the sinkhole address. 
+
+ Save your infrastructure settings and push the configuration . 
+
+ Verify that IPv6 traffic has been sinkholed by running the following PACli command on an endpoint: 
+
+ pacli tunnel 
+
+ For example, on the Windows agent, the output will look similar to the
+ following: 
+
+ Previous 
+
+ Configure IPv6 Dual-Stack Support for Prisma Agent 
+
+ Next 
+
+ IPv6 Traffic Handling for Prisma Agent on Linux

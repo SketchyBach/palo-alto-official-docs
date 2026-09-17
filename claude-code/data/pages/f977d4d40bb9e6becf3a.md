@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/amazon-web-services-manual-onboarding/aws-manual-onboarding-guide/phase-3-complete-the-onboarding-wizard-in-cortex
-fetched_at: 2026-09-06T11:16:39Z
+fetched_at: 2026-09-16T09:12:20Z
 source: cortex-platform
 ---
 
@@ -144,6 +144,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage configuration changes 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-content-update-releases/cortex-xdr-content-releases/2090
-fetched_at: 2026-09-06T10:54:33Z
+fetched_at: 2026-09-16T09:03:05Z
 source: cortex-platform
 ---
 

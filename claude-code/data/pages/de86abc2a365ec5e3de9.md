@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/engines/configure-engines/edit-the-engine-configuration/configure-access-to-communication-tasks-through-an-engine
-fetched_at: 2026-09-06T10:48:02Z
+fetched_at: 2026-09-16T08:57:33Z
 source: cortex-platform
 ---
 
@@ -61,6 +61,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure the Number of Workers for the Server 
 
- Last updated 3 days ago 
+ Last updated 13 days ago 
 
  Was this helpful?

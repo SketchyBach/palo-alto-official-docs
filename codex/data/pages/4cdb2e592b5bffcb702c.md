@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/inventory-and-monitoring/dashboards-and-reports/manage-dashboards-and-reports
-fetched_at: 2026-09-06T10:52:11Z
+fetched_at: 2026-09-16T08:59:00Z
 source: cortex-platform
 ---
 

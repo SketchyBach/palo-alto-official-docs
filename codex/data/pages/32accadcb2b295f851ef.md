@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/detect-investigate-and-respond-to-threats/threat-management/detection-rules/what-are-detection-rules/whats-an-ioc
-fetched_at: 2026-09-06T09:33:42Z
+fetched_at: 2026-09-16T08:36:03Z
 source: cortex-platform
 ---
 

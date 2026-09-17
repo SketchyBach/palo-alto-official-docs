@@ -1,0 +1,177 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/strata-cloud-manager/getting-started/insights-scm/wildfire/wildfire-filters.html
+fetched_at: 2026-09-16T13:54:20Z
+source: palo-alto-main
+---
+
+# Advanced WildFire Insights: Filters Clear
+
+Updated on 
+
+ Sun Sep 06 22:14:59 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Strata Cloud Manager 
+
+ Strata Cloud Manager Getting Started 
+
+ Insights: Strata Cloud Manager 
+
+ Insights: Advanced WildFire 
+
+ Advanced WildFire Insights: Filters 
+
+ Download PDF 
+
+ English 
+
+ 日本語 (Japanese) 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ Français (French) 
+
+ Deutsch (German) 
+
+ Strata Cloud Manager 
+
+ Advanced WildFire Insights: Filters 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Strata Cloud Manager Docs 
+
+ Activation & Onboarding 
+
+ Subscription & Tenant Management 
+
+ Getting Started 
+
+ AIOps 
+
+ Release Notes 
+
+ New Features 
+
+ Previous 
+
+ Insights: Advanced WildFire 
+
+ Next 
+
+ Advanced WildFire Insights: Submissions and Verdicts 
+
+ Advanced WildFire Insights: Filters 
+
+ Where Can I Use This? What Do I Need? 
+
+ Prisma Access (Managed by Panorama or Strata Cloud Manager) 
+
+ NGFW , including those funded by Software NGFW
+ Credits 
+
+ Each of these licenses include access to Strata Cloud Manager : 
+
+ Prisma Access 
+
+ Strata Cloud Manager Essentials 
+
+ The other licenses and prerequisites needed for visibility
+ are: 
+ A role that has
+ permission to view the dashboard 
+
+ Advanced WildFire (active subscription attached with NGFW and/or Prisma Access ) 
+
+ Strata Logging Service 
+
+ → The features and capabilities available to you in Strata Cloud Manager depend on which license(s) you are
+ using. 
+
+ Advanced WildFire: Insights provides a variety of filter options to narrow down on
+ specific data from the dashboard. 
+ Time range —Set the time-frame for which you want to display data. Select
+ from the Last 24 hours , Past 7 days , Past 30 days , or
+ custom time range . 
+
+ Tenant Name —View the tenant for which the dashboard data is displayed. 
+
+ Cloud —Filter data based on the available Advanced WildFire cloud
+ regions. 
+
+ Sample Source —Filter data based on the devices that are submitting
+ samples to the Advanced WildFire cloud for analysis. The options include
+ NGFW-All , Prisma Access-All ,
+ and Prisma Access-Mobile . 
+
+ The quantity of WildFire samples submitted from Prisma
+ Access-All that are visible in the dashboard is
+ dependent on the version of Prisma Access . 
+
+ Sample Type —Filter data based on a specific sample type, either
+ File or Link . 
+
+ Total/Unknown —Filter data based on the unknown sample status when
+ initially submitted to the Advanced WildFire cloud for analysis (previously
+ unknown samples). These also include the total number of samples that were
+ submitted or queried through the Advanced WildFire cloud. 
+
+ File Hash (SHA256) —View the data for samples with SHA-256 values for
+ files analyzed by Advanced WildFire. 
+
+ File Name —Filter data based on the File Name with
+ a user-designated search string. 
+
+ Verdict —View samples
+ identified as Benign , Malware , Grayware , C2 ,
+ Phishing , or Pending as a result of Advanced WildFire
+ analysis. 
+
+ File Type —View data based on the file type of the sample analyzed by
+ WildFire. Learn about the supported file types for WildFire
+ analysis. 
+
+ URL —Filter data based on the URL with a
+ user-designated search string. 
+
+ App Name —Filter data based on the samples that are delivered by an
+ application. 
+
+ Attack Origin Region —Filter to view the samples that are sent from a
+ specific location. 
+
+ Attack Target Region —Filter to view the samples that are received in a
+ specific location. 
+
+ User Name —Enter the username to filter data for the user that is targeted
+ to deliver the sample in your network. 
+
+ Prisma Access Location/Branch —Filter samples based on the Prisma Access
+ branch location. 
+
+ FW Device Serial Number —Filter the data for the device that submitted the
+ sample for WildFire analysis. 
+
+ Analysis Type —Filter based on the type of Advanced WildFire Analysis that
+ the sample has undergone. 
+
+ Previous 
+
+ Insights: Advanced WildFire 
+
+ Next 
+
+ Advanced WildFire Insights: Submissions and Verdicts

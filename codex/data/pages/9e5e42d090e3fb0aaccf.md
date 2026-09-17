@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent/8.6-eol/cortex-xdr-agent-for-windows/install-the-cortex-xdr-agent-with-installer-and-content-update-package
-fetched_at: 2026-09-06T11:23:51Z
+fetched_at: 2026-09-16T09:13:59Z
 source: cortex-platform
 ---
 
@@ -171,6 +171,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Install the Cortex XDR agent for Windows 
 
- Last updated 3 days ago 
+ Last updated 14 days ago 
 
  Was this helpful?

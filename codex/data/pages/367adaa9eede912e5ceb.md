@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.13/onboard-cortex-xsoar/engines/configure-engines/configure-the-engine-to-use-a-web-proxy
-fetched_at: 2026-09-06T10:44:33Z
+fetched_at: 2026-09-16T08:56:53Z
 source: cortex-platform
 ---
 

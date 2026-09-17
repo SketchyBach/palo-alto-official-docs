@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/data-security-documentation/get-started-with-cortex-data-security/understand-cortex-data-security-licenses/data-storage-lifecycle
-fetched_at: 2026-09-06T10:51:01Z
+fetched_at: 2026-09-16T08:58:39Z
 source: cortex-platform
 ---
 

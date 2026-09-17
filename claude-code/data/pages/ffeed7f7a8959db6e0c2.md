@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/detect-investigate-and-respond-to-threats/threat-management/detection-rules/whats-a-correlation-rule/manage-correlation-rules
-fetched_at: 2026-09-06T09:45:29Z
+fetched_at: 2026-09-16T08:42:58Z
 source: cortex-platform
 ---
 
@@ -68,6 +68,6 @@ The maximum number of active scheduled correlations is 1200. This limit applies 
 
  Next Monitor correlation rules 
 
- Last updated 25 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

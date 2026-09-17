@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-agent-ios-guide/8.0/cortex-xdr-agent-ios-app/get-started/cortex-xdr-agent-app-for-ios-requirements
-fetched_at: 2026-09-06T10:21:16Z
+fetched_at: 2026-09-16T08:52:03Z
 source: cortex-platform
 ---
 
@@ -77,6 +77,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Release Notes 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

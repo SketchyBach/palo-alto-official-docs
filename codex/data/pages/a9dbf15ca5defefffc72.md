@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-posture-management/cloud-inventory-and-environment/asset-classes/network-assets
-fetched_at: 2026-09-06T10:04:27Z
+fetched_at: 2026-09-16T08:47:05Z
 source: cortex-platform
 ---
 

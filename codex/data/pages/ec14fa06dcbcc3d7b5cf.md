@@ -1,70 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/autonomous-dem/china-administration/adem-self-serve/example-user-view-of-notification/application-experience-user-interface
-fetched_at: 2026-08-13T15:28:20Z
+fetched_at: 2026-09-15T15:08:41Z
 source: palo-alto-main
 ---
 
 # Application Experience User Interface Clear
 
-Application Experience User Interface 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Application Experience User Interface 
-
- Updated on 
-
- Fri Sep 26 02:00:46 PDT 2025 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Autonomous DEM Docs 
-
- Activation & Onboarding 
-
- Administration 
-
- Select a Document 
-
- AI-Powered ADEM 
-
- Autonomous DEM for China 
-
- User Guide 
-
- Release Notes 
-
- New Features 
-
- Updated on 
-
- Fri Sep 26 02:00:46 PDT 2025 
+ Sep 26, 2025 
 
  Focus 
 
@@ -168,60 +112,4 @@ they could differ a bit from the images shown in this guide.
 
  WiFi Disconnected 
 
- Internet Disconnected 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- User Guide 
-
- Autonomous DEM 
-
- Autonomous DEM Self-Serve 
-
- SASE 
-
- Prisma SASE 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Internet Disconnected

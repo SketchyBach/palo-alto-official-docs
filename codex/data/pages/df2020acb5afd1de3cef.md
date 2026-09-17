@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.12/onboard-cortex-xsoar/engines/run-a-script-using-an-engine
-fetched_at: 2026-09-06T10:47:57Z
+fetched_at: 2026-09-16T08:57:32Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Manage Engines 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

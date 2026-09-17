@@ -1,62 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/dns-security/release-notes/device-security-activation-and-onboarding-support-tables
-fetched_at: 2026-08-13T15:32:01Z
+fetched_at: 2026-09-15T15:10:14Z
 source: palo-alto-main
 ---
 
 # Conref - Device Security Activation and Onboarding Support Tables Clear
 
-Conref - Device Security Activation and Onboarding Support Tables 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Conref - Device Security Activation and Onboarding Support Tables 
-
- Updated on 
-
- Thu May 28 12:29:32 PDT 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Advanced DNS Security 
-
- Activation & Onboarding 
-
- Getting Started 
-
- Administration 
-
- Release Notes 
-
- Updated on 
-
- Thu May 28 12:29:32 PDT 2026 
+ May 28, 2026 
 
  Focus 
 
@@ -87,6 +39,8 @@ Conref - Device Security Activation and Onboarding Support Tables
  Getting Started 
 
  Administration 
+
+ Integrations 
 
  Release Notes 
 
@@ -158,101 +112,3 @@ Conref - Device Security Activation and Onboarding Support Tables
  Precision AI bundle subscription
 
  Device Security X subscription
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Endpoints 
-
- GlobalProtect 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.

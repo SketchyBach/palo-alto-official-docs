@@ -1,110 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-admin/user-id/map-ip-addresses-to-users/map-ip-addresses-to-usernames-using-captive-portal/configure-captive-portal
-fetched_at: 2026-08-13T17:01:47Z
+fetched_at: 2026-09-16T07:34:47Z
 source: palo-alto-main
 ---
 
 # Configure Authentication Portal Clear
 
-Configure Authentication Portal 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- >
-
- Strata Copilot
-
- Configure Authentication Portal 
-
- Updated on 
-
- Aug 3, 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand All 
- | 
- Collapse All 
-
- Next-Generation Firewall Docs 
-
- Getting Started 
-
- Administration 
-
- Networking 
-
- Quick Start 
-
- Reference 
-
- Incidents & Alerts 
-
- Release Notes 
-
- Select a Document 
-
- PAN-OS 12.2 
-
- PAN-OS 12.1 
-
- PAN-OS 11.2 
-
- PAN-OS 11.1 
-
- PAN-OS 11.0 (EoL) 
-
- PAN-OS 10.2 
-
- PAN-OS 10.1 (EoL) 
-
- PAN-OS 10.0 (EoL) 
-
- PAN-OS 9.1 (EoL) 
-
- PAN-OS 9.0 (EoL) 
-
- PAN-OS 8.1 (EoL) 
-
- Help 
-
- Select a Document 
-
- PAN-OS 12.2 
-
- PAN-OS 12.1 
-
- PAN-OS 11.2 
-
- PAN-OS 11.1 
-
- PAN-OS 10.2 
-
- PAN-OS 10.1 
-
- New Features 
-
- Updated on 
-
- Aug 3, 2026 
+ Aug 31, 2026 
 
  Focus 
 
@@ -202,46 +106,47 @@ Configure Authentication Portal
 
  Configure Authentication Portal 
 
- The following procedure shows how to set up Authentication Portal authentication
- by configuring the PAN-OS integrated User-ID agent to redirect web requests that
- match an Authentication
- Policy rule to a firewall interface (redirect host). 
+ Configure the Authentication Portal to verify users whose web requests match an authentication policy rule . Authentication
+ Portal ensures that only authorized users access certain resources. If you configure the PAN-OS® integrated User-ID™
+ agent , it redirects the web requests to a firewall interface (redirect
+ host) and creates or updates user mappings based on information collected during
+ authentication. 
+
+ Authentication Portal operates in two modes —redirect and transparent. It
+ supports three authentication methods : web form, Kerberos
+ single sign-on (SSO), and client certificate authentication. 
 
  SSL Inbound Inspection does not support
- Authentication Portal redirect. To use Authentication Portal redirect and
- decryption, you must use SSL Forward Proxy . 
+ the Authentication Portal redirect mode. To use the Authentication Portal in
+ redirect mode and for decryption, you must use SSL Forward Proxy . 
 
- Based on
- their sensitivity, the applications that users access through Authentication Portal
- require different authentication methods and settings. To accommodate all
- authentication requirements, you can use default and custom authentication
- enforcement objects. Each object associates an Authentication rule with an
- authentication profile and an Authentication Portal authentication method. 
+ The applications that users access through Authentication Portal vary in sensitivity
+ and require different authentication methods and settings. To accommodate these
+ requirements, you can use default or custom authentication enforcement objects. Each
+ object associates an authentication policy rule with an authentication profile and
+ authentication method. 
 
- Default authentication enforcement objects —Use the default objects if
- you want to associate multiple Authentication rules with the same global
- authentication profile. You must configure this authentication profile before
- configuring Authentication Portal, and then assign it in the Authentication
- Portal Settings. For Authentication rules that require Multi-Factor Authentication (MFA), you cannot use default
- authentication enforcement objects. 
+ Default authentication enforcement objects —Use the default objects to associate multiple
+ authentication policy rules with the same global authentication profile. You
+ must configure an authentication profile before
+ configuring Authentication Portal, and then assign the profile in the
+ Authentication Portal Settings. For rules that require multifactor
+ authentication (MFA), you cannot use default authentication
+ enforcement objects. 
 
- Custom authentication enforcement objects —Use a custom object for each
- Authentication rule that requires an authentication profile that differs
- from the global profile. Custom objects are mandatory for Authentication
- rules that require MFA. To use custom objects, create authentication
- profiles and assign them to the objects after configuring Authentication
- Portal—when you Configure
- Authentication Policy . 
+ Custom authentication enforcement objects —Use a custom object for each authentication
+ policy rule that requires a different authentication profile than the global
+ profile. Custom objects are mandatory for rules that require MFA. To use
+ custom objects, create authentication profiles and assign them to the custom
+ objects when you configure
+ authentication policy . 
 
- Keep in mind that authentication profiles are necessary only if users
- authenticate through a Authentication Portal Web Form or Kerberos SSO .
- Alternatively, or in addition to these methods, the following procedure also
- describes how to implement Client Certificate
- Authentication . 
+ You need authentication profiles only if users authenticate through an
+ Authentication Portal web form or Kerberos SSO. 
 
- If you use Authentication Portal without the
- other User-ID functions (user mapping and group mapping), you don’t need to
- configure a User-ID agent. 
+ If you use Authentication Portal without the other User-ID functions (user
+ mapping and group mapping), you don’t need to configure a User-ID
+ agent. 
 
  Configure the interfaces that the firewall will use for incoming web requests,
  authenticating users, and communicating with directory servers to map usernames
@@ -347,9 +252,10 @@ Configure Authentication Portal
  (see Import a
  Certificate and Private Key ). 
 
- Generate a
- Certificate to use for Authentication Portal. Be sure to
- configure the following fields: 
+ Generate a certificate to use
+ for Authentication Portal. 
+
+ Be sure to configure the following fields: 
 
  Common Name —Enter the DNS name of the
  intranet host for the Layer 3 interface. 
@@ -364,18 +270,23 @@ Configure Authentication Portal
  the Layer 3 interface to which the firewall will
  redirect requests. 
 
- Configure an SSL/TLS Service
- Profile . Assign the Authentication Portal certificate you
- just created to the profile. 
+ Configure an SSL/TLS Service Profile and
+ assign the Authentication Portal certificate to it. 
 
- If you don’t assign an SSL/TLS Service Profile, the firewall uses
- TLS 1.2 by default. To use a different TLS version, configure an
- SSL/TLS Service Profile for the TLS version you want to use. 
+ You apply this profile to the Authentication Portal settings in a
+ later step. 
+
+ If you do not assign an SSL/TLS Service Profile, the NGFW
+ negotiates the following TLS versions: 
+
+ PAN-OS 12.1 and earlier: TLS 1.2 only 
+
+ PAN-OS 12.2 and later: TLS 1.2 or TLS 1.3 
 
  Configure clients to trust the certificate: 
 
- Export the CA certificate you
- created or imported. 
+ Export the CA
+ certificate you created or imported. 
 
  Import the certificate as a trusted root CA into all client
  browsers, either by manually configuring the browser or by
@@ -423,8 +334,8 @@ Configure Authentication Portal
  Verify you have specified an FQDN for the redirect host (not just an IP
  address). 
 
- Select an SSL/TLS service profile that uses a
- publicly-signed certificate for the specified FQDN. 
+ Select an SSL/TLS Service Profile that
+ uses a publicly-signed certificate for the specified FQDN. 
 
  Enter the following command to adjust the number of requests supported
  for Authentication Portal: set deviceconfig setting ctd
@@ -454,25 +365,23 @@ Configure Authentication Portal
  (default is 60; range is 1 to 1,440). After the
  Timer expires, the firewall removes the
  mapping and any associated Authentication Timestamps used to evaluate the
- Timeout in Authentication policy rules. 
+ Timeout in authentication policy rules. 
 
  When evaluating the Authentication Portal
  Timer and the
- Timeout value in each Authentication
+ Timeout value in each authentication
  policy rule, the firewall prompts the user to re-authenticate
  for whichever setting expires first. Upon re-authenticating, the
  firewall resets the time count for the Authentication Portal
  Timer and records new authentication
  timestamps for the user. Therefore, to enable different
- Timeout periods for different
- Authentication rules, set the Authentication Portal
- Timer to a value the same as or
- higher than any rule
+ Timeout periods for different rules,
+ set the Authentication Portal Timer to a
+ value the same as or higher than any rule
  Timeout . 
 
- Select the SSL/TLS Service Profile you created
- for redirect requests over TLS. See Configure an SSL/TLS Service
- Profile . 
+ Select the SSL/TLS Service Profile you
+ created for redirect requests over TLS. 
 
  Select the Mode (in this example,
  Redirect ). 
@@ -496,20 +405,18 @@ Configure Authentication Portal
  select the Authentication Profile you
  configured. 
 
- To use Authentication policy rule-specific settings for
- interactive or SSO authentication, assign authentication
- profiles to authentication enforcement objects when you
- Configure Authentication
- Policy . 
+ To use authentication policy rule-specific settings for interactive or SSO authentication, assign
+ authentication profiles to authentication enforcement
+ objects when you configure authentication
+ policy . 
 
  Click OK and Commit the
  Authentication Portal configuration. 
 
  Next steps... 
 
- The firewall does not display the Authentication Portal web form to users
- until you Configure
- Authentication Policy rules that trigger authentication when
+ The firewall does not display the Authentication Portal web form to users until you configure
+ authentication policy rules that trigger authentication when
  users request services or applications. 
 
  Previous 
@@ -518,110 +425,4 @@ Configure Authentication Portal
 
  Next 
 
- Configure User Mapping for Terminal Server Users 
-
- On This Page 
-
- Activation & Onboarding 
-
- Strata Cloud Manager 
-
- Activate a License or Product 
-
- Cloud Identity Engine 
-
- Strata Logging Service 
-
- Device Associations 
-
- Hub 
-
- Identity and Access Management 
-
- Tenant Management 
-
- Next-Generation Firewalls 
-
- AIOps for NGFW 
-
- Cloud Management for NGFWs 
-
- Cloud NGFW for AWS 
-
- Cloud NGFW for Azure 
-
- CN-Series 
-
- Firewalls 
-
- PAN-OS 
-
- PAN-OS SD-WAN 
-
- Service Provider 
-
- VM-Series 
-
- SASE 
-
- Prisma Access 
-
- Strata Multitenant Cloud Manager 
-
- AI-Powered ADEM 
-
- Prisma Access Monitoring and Visibility 
-
- Prisma SD-WAN 
-
- ION Devices 
-
- Next-Generation CASB 
-
- Cloud-Delivered Security Services 
-
- Advanced WildFire 
-
- Advanced URL Filtering 
-
- Advanced Threat Prevention 
-
- Advanced DNS Security 
-
- Device Security 
-
- Enterprise DLP 
-
- SaaS Security 
-
- Network Security 
-
- Shared Policy for NGFWs and Prisma Access 
-
- Visibility & Monitoring 
-
- Dashboards 
-
- Incidents and Alerts 
-
- Reports 
-
- Autonomous DEM 
-
- Best Practices 
-
- Best Practices Library 
-
- Experts Corner 
-
- Solutions Docs from Product Experts 
-
- Network Security 
-
- PAN-OS 
-
- Next-Generation Firewall 
-
- Administration 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ Configure User Mapping for Terminal Server Users

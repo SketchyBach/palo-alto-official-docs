@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/investigate-and-respond-to-threats/threat-intel-management/indicator-configuration/customize-indicator-types-fields-and-layouts/create-an-indicator-type
-fetched_at: 2026-09-06T11:26:15Z
+fetched_at: 2026-09-16T09:14:31Z
 source: cortex-platform
 ---
 
@@ -97,6 +97,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Indicator type profile 
 
- Last updated 26 days ago 
+ Last updated 1 month ago 
 
  Was this helpful?

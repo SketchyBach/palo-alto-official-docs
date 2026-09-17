@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/detect-threats-and-analyze-data/analytics/identity-threat-module
-fetched_at: 2026-09-06T09:48:41Z
+fetched_at: 2026-09-16T08:44:09Z
 source: cortex-platform
 ---
 

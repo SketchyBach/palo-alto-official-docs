@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/prisma-airs-overview
-fetched_at: 2026-09-06T11:17:01Z
+fetched_at: 2026-09-16T07:54:48Z
 source: ai-security
 ---
 

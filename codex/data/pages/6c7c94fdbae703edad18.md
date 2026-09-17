@@ -1,0 +1,138 @@
+---
+url: https://docs.paloaltonetworks.com/content/techdocs/en_US/hardware/pa-5200-hardware-reference/pa-5200-series-firewall-specifications.html
+fetched_at: 2026-09-16T12:03:54Z
+source: palo-alto-main
+---
+
+# PA-5200 Series Firewall Specifications Clear
+
+Updated on 
+
+ Wed Jul 03 11:36:53 PDT 2024 
+
+ Focus 
+
+ Home 
+
+ Firewalls & Appliances 
+
+ PA-5200 Series Next-Gen Firewall Hardware Reference 
+
+ PA-5200 Series Firewall Specifications 
+
+ Download PDF 
+
+ English 
+
+ 中文 (Chinese Simplified) 
+
+ 繁體中文 (Chinese Traditional) 
+
+ Español (Spanish) 
+
+ 한국어 (Korean) 
+
+ Português (Portuguese) 
+
+ Tiếng Việt (Vietnamese) 
+
+ українська (Ukrainian) 
+
+ مصر (Arabic) 
+
+ ישראל (Hebrew) 
+
+ PA-5200 Series Next-Gen Firewall Hardware Reference 
+
+ PA-5200 Series Firewall Specifications 
+
+ Table of Contents 
+
+ Filter
+
+ Version 
+
+ End.of.Sale (EoS) 
+
+ End-of-Sale (EoS) 
+
+ Expand all | Collapse all 
+
+ Before You Begin 
+
+ Upgrade/Downgrade Considerations for Firewalls and Appliances 
+
+ Tamper Proof Statement 
+
+ Third-Party Component Support 
+
+ Product Safety Warnings 
+
+ PA-5200 Series Firewall Overview 
+
+ PA-5200 Front Panel 
+
+ PA-5200 Back Panel 
+
+ Install the PA-5200 Series Firewall in an Equipment Rack 
+
+ Install the PA-5200 Series Firewall in a 19-inch Equipment Rack 
+
+ Install the Four-Post Rack Kit on a PA-5200 Series Firewall 
+
+ Connect Power to a PA-5200 Series Firewall 
+
+ Connect AC Power to a PA-5200 Series Firewall 
+
+ Connect DC Power to a PA-5200 Series Firewall 
+
+ Service the PA-5200 Series Firewall 
+
+ Interpret the LEDs on a PA-5200 Series Firewall 
+
+ Replace the Air Intake Filters on a PA-5200 Series Firewall 
+
+ Replace a Fan Tray on a PA-5200 Series Firewall 
+
+ Replace a Power Supply on a PA-5200 Series Firewall 
+
+ Replace a Drive on a PA-5200 Series Firewall 
+
+ PA-5200 Series Firewall Specifications 
+
+ PA-5200 Series Physical Specifications 
+
+ PA-5200 Series Electrical Specifications 
+
+ PA-5200 Series Environmental Specifications 
+
+ PA-5200 Series Miscellaneous Specifications 
+
+ PA-5200 Series Firewall Compliance Statements Overview 
+
+ PA-5200 Series Firewall Compliance Statements 
+
+ PA-5200 Series Firewall Specifications 
+
+ Learn about the PA-5200 Series firewall physical, electrical,
+environmental, and miscellaneous specifications. 
+
+ The following topics describe the PA-5200
+Series firewall hardware specifications. For feature, capacity,
+and performance information, refer to the PA-5200 Series firewall datasheet . 
+
+ PA-5200 Series Physical Specifications 
+
+ PA-5200 Series Electrical Specifications 
+
+ PA-5200 Series Environmental Specifications 
+
+ PA-5200 Series Miscellaneous Specifications 
+
+ Previous 
+
+ Replace a Drive on a PA-5200 Series Firewall 
+
+ Next 
+
+ PA-5200 Series Physical Specifications

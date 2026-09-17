@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/application-security/application-security-posture-management-aspm/compliance-for-cortex-cloud-application-security
-fetched_at: 2026-09-06T10:12:06Z
+fetched_at: 2026-09-16T08:49:07Z
 source: cortex-platform
 ---
 

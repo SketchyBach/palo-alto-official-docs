@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cloud-security-rules-and-policies/create-and-manage-cloud-security-policies/enable-or-disable-a-policy
-fetched_at: 2026-09-06T09:58:49Z
+fetched_at: 2026-09-16T08:45:37Z
 source: cortex-platform
 ---
 
@@ -17,7 +17,9 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Cortex CLOUD Runtime Security 
 
- Cloud Security Rules and Policies 
+ Rules and Policies 
+
+ Cloud security rules and policies 
 
  Create and manage cloud security policies 
 

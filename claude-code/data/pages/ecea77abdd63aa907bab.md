@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-red-teaming/identify-ai-system-risks-with-ai-red-teaming/get-started-with-prisma-airs-ai-red-teaming/targets/third-party-registration-and-integration
-fetched_at: 2026-09-06T11:17:25Z
+fetched_at: 2026-09-16T07:55:00Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Aug 27, 2026 
+ Fri Sep 11 10:21:31 PDT 2026 
 
  Focus 
 
@@ -85,6 +85,11 @@ Updated on
  or self-hosted) with a published workflow and production webhook
  URL 
 
+ ( For Gemini Agent Studio )
+ A GCP project with a Reasoning Engine agent deployed, with
+ permission to create custom roles, service accounts, and manage
+ IAM 
+
  Many AI systems and agents restrict access behind authentication layers. To run security
  scans against these protected targets, AI Red Teaming must authenticate as a trusted
  client before it can send attack payloads. Depending on the target, this means
@@ -117,6 +122,14 @@ Updated on
  credentials ( Basic Auth ) configured on the n8n Webhook
  node. 
 
+ Gemini Agent Studio : Use this when your
+ target is an AI agent built in Gemini Agent Studio (Agent Platform). This
+ scenario requires no OAuth 2.0 registration or identity provider. You create a
+ custom IAM role and service account in your GCP project, then grant AI Red
+ Teaming's connector service account the right to impersonate it. No credentials
+ are downloaded or shared. Authentication uses GCP IAM role grants
+ only. 
+
  Scenario Target Type Auth Mechanism User Interaction Required 
 
  OAuth 2.0 client credentials REST APIs or streaming endpoints protected by Entra ID client_credentials grant None (fully automated) 
@@ -124,6 +137,8 @@ Updated on
  Microsoft Copilot Studio Copilot Studio agents authorization_code grant (one-time) Required once for initial authorization 
 
  n8n n8n workflow agents (Agent target type) Header Auth or Basic Auth on the n8n Webhook node None (fully automated) 
+
+ Gemini Agent Studio Gemini Agent Studio agents (Reasoning Engine deployments) GCP IAM impersonation (Service Account Token Creator) None (fully automated) 
 
  What Registration Enables 
 
@@ -164,6 +179,19 @@ Updated on
  agent as a target, follow the steps in n8n Connection Method . For
  authentication options, response modes, multi-turn behavior, and file attack
  details, see n8n and AI Red Teaming Integration . 
+
+ Gemini Agent Studio Integration 
+
+ Gemini Agent Studio (previously Vertex AI Agent Studio, now also called Agent
+ Platform) lets you build no-code and low-code AI agents that run as Reasoning
+ Engine deployments in your Google Cloud project. AI Red Teaming connects to these
+ agents through the Vertex AI API using GCP service account impersonation — you
+ create a dedicated service account and custom IAM role in your project, then grant
+ AI Red Teaming's connector service account the right to impersonate it. No OAuth
+ 2.0 registration, redirect URIs, or credentials are downloaded or shared. 
+
+ To set up GCP IAM and add a Gemini Agent Studio agent as a target, see Gemini Agent Studio and AI Red Teaming Integration and
+ Gemini Agent Studio Connection Method . 
 
  Previous 
 

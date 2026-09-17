@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-agentix/configure-cortex-agentix/cortex-agentix-data-sources-and-connectors/vendor-specific-data-sources-and-connectors/levelblue/levelblue
-fetched_at: 2026-09-06T10:15:26Z
+fetched_at: 2026-09-16T08:50:05Z
 source: cortex-platform
 ---
 
@@ -47,6 +47,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next LogRhythm 
 
- Last updated 3 days ago 
+ Last updated 12 days ago 
 
  Was this helpful?

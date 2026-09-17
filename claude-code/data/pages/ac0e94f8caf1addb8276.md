@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/appsec-rules/iac-security/storage/appsec-aws-327
-fetched_at: 2026-09-06T11:14:06Z
+fetched_at: 2026-09-16T09:10:25Z
 source: cortex-platform
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem-oss-listings/cortex-xdr-oss-listings.md
-fetched_at: 2026-09-06T11:19:33Z
+fetched_at: 2026-09-16T09:12:47Z
 source: cortex-platform
 ---
 
@@ -9,6 +9,8 @@ source: cortex-platform
 > For the complete documentation index, see [llms.txt](https://cortex-docs.paloaltonetworks.com/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem-oss-listings/cortex-xdr-oss-listings.md).
 
 # Cortex XSOAR On-prem OSS listings
+
+Open-Source Software (OSS) licensing for Cortex XSOAR 8x On-prem.
 
 The following sections list Open-Source Software (OSS) licenses specific to Cortex XSOAR 8 On-prem.
 

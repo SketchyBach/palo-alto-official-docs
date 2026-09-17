@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/asset-managment/asset-classes/external-surface-assets/domain-assets
-fetched_at: 2026-09-06T09:54:51Z
+fetched_at: 2026-09-16T08:44:39Z
 source: cortex-platform
 ---
 

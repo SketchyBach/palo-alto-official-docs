@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cases-and-issues/investigation-and-response/automation/playbooks/best-practices-for-playbooks
-fetched_at: 2026-09-06T09:55:56Z
+fetched_at: 2026-09-16T08:44:46Z
 source: cortex-platform
 ---
 
@@ -211,6 +211,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next AI Prompts 
 
- Last updated 7 days ago 
+ Last updated 16 days ago 
 
  Was this helpful?

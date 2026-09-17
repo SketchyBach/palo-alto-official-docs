@@ -1,0 +1,128 @@
+---
+url: https://docs.paloaltonetworks.com/iot/iot-security-admin/get-started-with-iot-security/firewall-and-pan-os-support-of-iot-security
+fetched_at: 2026-09-16T11:47:45Z
+source: palo-alto-main
+---
+
+# Firewall and PAN-OS Support of Device Security Clear
+
+Updated on 
+
+ Tue Sep 01 14:08:19 PDT 2026 
+
+ Focus 
+
+ Home 
+
+ Device Security 
+
+ Activation & Onboarding 
+
+ Licenses and Activation for Device Security 
+
+ Firewall and PAN-OS Support of Device Security 
+
+ Download PDF 
+
+ Device Security 
+
+ Firewall and PAN-OS Support of Device Security 
+
+ Table of Contents 
+
+ Filter
+
+ Expand All 
+ | 
+ Collapse All 
+
+ Device Security Docs 
+
+ Activation & Onboarding 
+
+ Getting Started 
+
+ Administration 
+
+ Enterprise Administration 
+
+ Integrations 
+
+ Release Notes 
+
+ Best Practice 
+
+ New Features 
+
+ Previous 
+
+ Device Security Prerequisites 
+
+ Next 
+
+ Activate Device Security 
+
+ Firewall and PAN-OS Support of Device Security 
+
+ Device Security support varies by firewall model and PAN-OS version.
+
+ Where Can I Use This? What Do I Need? 
+
+ Device Security (Managed by Strata Cloud Manager) 
+
+ (Legacy) IoT Security (Standalone portal) 
+
+ One of the following subscriptions: 
+
+ Device Security subscription
+
+ Precision AI bundle subscription
+
+ Device Security X subscription
+
+ Device Security China subscription
+
+ For Palo Alto Networks next-generation firewalls, Device Security provides
+ visibility of discovered IoT devices based on the logs it receives from the firewall.
+ Device Security also uses machine learning (ML) to identify vulnerabilities and
+ assess risk in devices based on their network traffic behaviors and dynamically
+ updated threat feeds. Firewalls automate policy enforcement through
+ Device-ID ™. Device-ID identifies
+ devices by attributes such as device type, vendor, model, or operating system, and
+ then applies device-based policy rules to those with matching attributes. 
+ Device Security generates the Security policy rule recommendations.
+
+ All Palo Alto Networks next-generation firewalls fully support Device Security 
+ with the following exceptions.
+
+ IoT device visibility and the manual application of policy recommendations
+ but not Device-ID 
+
+ Multi Virtual System (multi-vsys) firewalls 
+
+ No Device Security support 
+
+ CN-Series firewalls before PAN-OS 11.1 
+
+ VM-50 
+
+ VM-200 
+
+ When choosing firewalls to subscribe to Device Security services,
+ consider the type of Device Security functionality they support. Another
+ factor to consider is when various firewall models will reach the
+ end of sales and service support and
+ when you plan to update them to newer models. However, even if you
+ subscribe a firewall to Device Security and then decide to retire it
+ while its Device Security license still has time remaining, you can
+ transfer the license from
+ that firewall to another one where Device Security will continue to operate
+ for the remainder of its subscription period.
+
+ Previous 
+
+ Device Security Prerequisites 
+
+ Next 
+
+ Activate Device Security

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.5/investigate-and-respond-to-threats
-fetched_at: 2026-09-06T11:22:12Z
+fetched_at: 2026-09-16T09:13:32Z
 source: cortex-platform
 ---
 
@@ -33,6 +33,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Incidents 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

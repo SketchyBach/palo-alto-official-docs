@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-saas/investigate-and-respond-to-threats/threat-intel-management/indicator-configuration/indicator-extraction/disable-indicator-extraction-for-scripts-or-integrations
-fetched_at: 2026-09-06T10:23:12Z
+fetched_at: 2026-09-16T08:52:38Z
 source: cortex-platform
 ---
 
@@ -77,6 +77,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Troubleshoot indicator extraction 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/onboard-cortex-xsoar/high-availability/deploy-engines-in-a-high-availability-environment
-fetched_at: 2026-09-06T10:40:11Z
+fetched_at: 2026-09-16T08:56:02Z
 source: cortex-platform
 ---
 
@@ -62,6 +62,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Use a Signed Certificate 
 
- Last updated 11 days ago 
+ Last updated 21 days ago 
 
  Was this helpful?

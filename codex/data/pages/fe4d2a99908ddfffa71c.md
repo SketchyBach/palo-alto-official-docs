@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/xsoar-6-administrator-guide/6.14/customize-cortex-xsoar/customize-and-configure-cortex-xsoar/incidents/incident-access-control-configuration/limit-access-to-investigations-using-rbac
-fetched_at: 2026-09-06T10:41:18Z
+fetched_at: 2026-09-16T08:56:16Z
 source: cortex-platform
 ---
 

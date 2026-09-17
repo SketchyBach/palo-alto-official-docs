@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xpanse/integrations/ingest-cloud-resources-from-prisma-cloud/prisma-cloud-resource-types
-fetched_at: 2026-09-06T10:52:26Z
+fetched_at: 2026-09-16T08:59:15Z
 source: cortex-platform
 ---
 
@@ -141,6 +141,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Configure Collection Integrations 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

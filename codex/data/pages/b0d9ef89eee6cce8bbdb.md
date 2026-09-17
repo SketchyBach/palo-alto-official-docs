@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/discover-your-cloud-resources/ai-traffic-network-risk-analysis
-fetched_at: 2026-09-06T11:17:02Z
+fetched_at: 2026-09-16T07:54:41Z
 source: ai-security
 ---
 

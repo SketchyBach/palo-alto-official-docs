@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/cloud-service-provider-csp-onboarding/amazon-web-services-cloud-onboarding/cortex-cloud-and-aws-audit-log-collection-architecture
-fetched_at: 2026-09-06T09:40:48Z
+fetched_at: 2026-09-16T08:41:53Z
 source: cortex-platform
 ---
 
@@ -137,6 +137,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Onboard Amazon Web Services 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

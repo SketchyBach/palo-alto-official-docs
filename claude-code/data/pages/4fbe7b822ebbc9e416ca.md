@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/configure-cortex-xdr/cortex-xdr-data-sources/palo-alto-networks-integrations/cloud-next-generation-firewall
-fetched_at: 2026-09-06T09:41:48Z
+fetched_at: 2026-09-16T08:42:20Z
 source: cortex-platform
 ---
 
@@ -45,6 +45,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Ingest data from Cloud Next-Generation Firewall 
 
- Last updated 5 days ago 
+ Last updated 15 days ago 
 
  Was this helpful?

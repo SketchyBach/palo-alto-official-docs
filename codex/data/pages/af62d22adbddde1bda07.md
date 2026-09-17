@@ -1,69 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/pan-os/u-v/routing-engine-migration-reference/routing-protocol-migration-exceptions/ospfv3
-fetched_at: 2026-08-13T17:17:25Z
+fetched_at: 2026-09-16T07:41:40Z
 source: palo-alto-main
 ---
 
 # OSPFv3 Clear
 
-OSPFv3 
+Updated on 
 
- Home 
-
- EN
-
- Location 
-
- Documentation Home 
-
- Palo Alto Networks 
-
- Support 
-
- Live Community 
-
- Knowledge Base 
-
- Strata Copilot
-
- Advanced Routing Engine Migration Reference 
-
- : 
- OSPFv3 
-
- Updated on 
-
- Mon Jan 26 20:40:12 PST 2026 
-
- Focus 
-
- Download PDF 
-
- Filter
-
- Expand all | Collapse all 
-
- Get Started with Routing Engine Migration 
-
- Plan Your Routing Engine Migration 
-
- Learn the Differences Between Legacy and Advanced Routing Engine 
-
- Routing Protocol Migration Exceptions 
-
- MP-BGP 
-
- OSPF 
-
- OSPFv3 
-
- PIM 
-
- IGMP 
-
- Updated on 
-
- Mon Jan 26 20:40:12 PST 2026 
+ Jan 26, 2026 
 
  Focus 
 
@@ -197,6 +142,4 @@ the context of virtual routers.
 
  Next 
 
- PIM 
-
- © 2026 Palo Alto Networks, Inc. All rights reserved.
+ PIM

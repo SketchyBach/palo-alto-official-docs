@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.7/configure-cortex-xsoar/playbooks/develop-your-playbook/task-5.-test-and-debug-the-playbook
-fetched_at: 2026-09-06T11:27:14Z
+fetched_at: 2026-09-16T09:15:00Z
 source: cortex-platform
 ---
 
@@ -39,6 +39,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Task 6. Manage playbook content 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

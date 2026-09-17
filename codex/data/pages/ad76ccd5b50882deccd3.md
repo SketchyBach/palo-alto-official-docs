@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/gateway-guide/roles-management
-fetched_at: 2026-09-06T11:16:25Z
+fetched_at: 2026-09-16T09:12:06Z
 source: cortex-platform
 ---
 
@@ -57,6 +57,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Next steps 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

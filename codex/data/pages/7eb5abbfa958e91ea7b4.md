@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security/cloud-workload-policies-and-rules/cloud-workload-rules/delete-a-custom-detection-rule
-fetched_at: 2026-09-06T09:58:53Z
+fetched_at: 2026-09-16T08:45:38Z
 source: cortex-platform
 ---
 
@@ -17,7 +17,9 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Cortex CLOUD Runtime Security 
 
- Cloud Workload Policies and Rules 
+ Rules and Policies 
+
+ Cloud workload policies and rules 
 
  Cloud workload rules 
 
@@ -37,7 +39,7 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous Edit a custom detection rule 
 
- Next Learn about base image rules 
+ Next Base image rules 
 
  Last updated 1 month ago 
 

@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-3.x/cortex-xdr-3.x-documentation/data-management/data-ingestion/visibility-of-cortex-xdr-audit-and-authentication-logs
-fetched_at: 2026-09-06T09:50:15Z
+fetched_at: 2026-09-16T08:44:16Z
 source: cortex-platform
 ---
 

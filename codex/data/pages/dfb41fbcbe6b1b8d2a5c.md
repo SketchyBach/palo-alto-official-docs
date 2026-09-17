@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsoar-8-on-prem/8.13/investigate-and-respond-to-threats/incidents-and-indicators-investigation/investigate-an-incident/limit-access-to-investigations-using-access-control
-fetched_at: 2026-09-06T10:28:26Z
+fetched_at: 2026-09-16T08:53:40Z
 source: cortex-platform
 ---
 
@@ -121,6 +121,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Incident Tasks 
 
- Last updated 1 month ago 
+ Last updated 2 months ago 
 
  Was this helpful?

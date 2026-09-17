@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/configure-cortex-xsiam/cortex-xsiam-data-sources/generic-on-premise-data-collectors/xdr-collectors/manage-xdr-collectors/set-an-alias-for-an-xdr-collector-machine
-fetched_at: 2026-09-06T09:27:49Z
+fetched_at: 2026-09-16T08:33:05Z
 source: cortex-platform
 ---
 

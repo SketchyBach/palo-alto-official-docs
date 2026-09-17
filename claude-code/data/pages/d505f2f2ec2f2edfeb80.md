@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam-developer-guide/cortex-xsiam-development-guide/integrations-and-scripts/developing/context-standards
-fetched_at: 2026-09-06T10:58:05Z
+fetched_at: 2026-09-16T09:04:48Z
 source: cortex-platform
 ---
 
@@ -147,6 +147,6 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Next Generic commands 
 
- Last updated 10 days ago 
+ Last updated 19 days ago 
 
  Was this helpful?

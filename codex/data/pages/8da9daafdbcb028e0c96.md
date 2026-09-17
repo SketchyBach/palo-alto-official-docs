@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cloud-posture-management-rn/cortex-cloud-posture-management-release-information/features-introduced-in-2026-cloud
-fetched_at: 2026-09-06T10:53:48Z
+fetched_at: 2026-09-16T09:01:57Z
 source: cortex-platform
 ---
 
@@ -25,8 +25,8 @@ For the complete documentation index, see llms.txt . This page is also available
 
  Previous Cortex Cloud Posture Management Release Information 
 
- Next July 2026 
+ Next September 6, 2026 
 
- Last updated 2 months ago 
+ Last updated 3 months ago 
 
  Was this helpful?

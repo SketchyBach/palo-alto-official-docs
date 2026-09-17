@@ -1,6 +1,6 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xsiam/cloud-security/monitor-and-track-compliance-adherence
-fetched_at: 2026-09-06T09:34:47Z
+fetched_at: 2026-09-16T08:36:27Z
 source: cortex-platform
 ---
 
@@ -53,10 +53,10 @@ For the complete documentation index, see llms.txt . This page is also available
 
  View and manage compliance assessments and reports 
 
- Previous Prevent malicious LDAP queries 
+ Previous Find the base image for an asset 
 
  Next Choose compliance standards from the compliance catalog 
 
- Last updated 10 days ago 
+ Last updated 20 days ago 
 
  Was this helpful?
