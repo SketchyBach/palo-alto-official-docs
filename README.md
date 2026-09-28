@@ -4,6 +4,8 @@ This public-safe repository contains two portable versions of the same verified 
 
 See [`PRODUCT_COVERAGE.md`](PRODUCT_COVERAGE.md) for the generated product-family inventory and the latest report under `data/coverage-audits/` for sitemap completeness evidence.
 
+See [KOI / Agentic Endpoint Security update, 28 September 2026](KOI_AES_UPDATE_2026-09-28.md) for the current skill-security product boundary and focused KOI release changes. This live-documentation note does not change the date of the last full authenticated KOI capture.
+
 ## New computer quick start
 
 Give Codex or Claude Code this repository URL:
