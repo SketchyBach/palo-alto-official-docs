@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/ai-agent-discovery-onboard-saas-agents
-fetched_at: 2026-09-16T07:54:35Z
+fetched_at: 2026-10-11T09:52:08Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Aug 11, 2026 
+ Aug 13, 2026 
 
  Focus 
 
@@ -16,7 +16,9 @@ Updated on
 
  Prisma AIRS 
 
- Activation & Onboarding 
+ AI Agent Identity 
+
+ SaaS Agent Security Overview 
 
  Onboard SaaS Agents for AI Agent Discovery 
 
@@ -34,15 +36,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -50,11 +60,11 @@ Updated on
 
  Previous 
 
- AWS Required Permissions 
+ Onboard SaaS Agents 
 
  Next 
 
- Manage Onboarded Cloud Accounts in Strata Cloud Manager 
+ AI Agent Security for Low-Code/No-Code Platforms 
 
  Onboard SaaS Agents for AI Agent Discovery 
 
@@ -69,8 +79,8 @@ Updated on
  Network Intercept Prerequisites and Limitations
 
  This page contains information about onboarding SaaS agents for AI Agent Discovery.
- Refer to the Prisma AIRS licensing page for more
- information. 
+ You must have an active Prisma AIRS license to use this
+ feature. 
 
  When using AI Agent Discovery, a SaaS agent fails to appear in the dashboard if the
  tenant does not have the appropriate license: 
@@ -80,13 +90,12 @@ Updated on
 
  Onboard a SaaS Agent 
 
- If a SaaS license has been associated with a tenant, it appears in the SCM
+ If a SaaS license has been associated with a tenant, it appears in the Strata Cloud Manager
  dashboard; to determine if a SaaS license was configured: 
 
- Log into Strata Cloud Manager (SCM) . 
+ Log into Strata Cloud Manager . 
 
- In SCM, select Insights > AI Agent Security > SaaS
- Agents. 
+ Select Insights AI Agent Security SaaS Agents . 
 
  To onboard the SaaS agent, select the Cloud Account 
  icon: 
@@ -102,16 +111,16 @@ Updated on
  Use the Onboard Public Cloud Account page to
  onbouard your SaaS agent: 
 
- After you have successfully onboarded your SaaS agent you can use the SCM
+ After you have successfully onboarded your SaaS agent you can use the Strata Cloud Manager
  dashboard to configure it. 
 
- In the SaaS Agent Security page, use the Recommendations
- section to configure actions for the agent: 
+ In the SaaS Agent Security page, use the Recommendations 
+ section to configure actions for the agent. 
 
  Previous 
 
- AWS Required Permissions 
+ Onboard SaaS Agents 
 
  Next 
 
- Manage Onboarded Cloud Accounts in Strata Cloud Manager
+ AI Agent Security for Low-Code/No-Code Platforms

@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/managed-ai-runtime-security-for-aws/managed-airs-for-aws-reference/credit-distribution/view-an-audit-trail-in-cloud-management-app
-fetched_at: 2026-09-16T07:54:46Z
+fetched_at: 2026-10-11T09:53:23Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Aug 24, 2026 
+ Thu Oct 01 08:11:56 PDT 2026 
 
  Focus 
 
@@ -16,7 +16,7 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
  Managed AI Runtime Security for AWS 
 
@@ -40,15 +40,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -56,11 +64,11 @@ Updated on
 
  Previous 
 
- Edit Deployment Profiles in Credit Management System (CMS) 
+ Deployment Profile Management in Credit Management System 
 
  Next 
 
- Deploy Prisma AIRS AI Runtime, VM-Series, and CNGFW Firewalls 
+ AI Gateway Overview 
 
  View an Audit Trail in Cloud Management App 
 
@@ -99,8 +107,8 @@ Updated on
 
  Previous 
 
- Edit Deployment Profiles in Credit Management System (CMS) 
+ Deployment Profile Management in Credit Management System 
 
  Next 
 
- Deploy Prisma AIRS AI Runtime, VM-Series, and CNGFW Firewalls
+ AI Gateway Overview

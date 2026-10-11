@@ -4,7 +4,7 @@ This public-safe repository contains two portable versions of the same verified 
 
 See [`PRODUCT_COVERAGE.md`](PRODUCT_COVERAGE.md) for the generated product-family inventory and the latest report under `data/coverage-audits/` for sitemap completeness evidence.
 
-See [KOI / Agentic Endpoint Security update, 28 September 2026](KOI_AES_UPDATE_2026-09-28.md) for the current skill-security product boundary and focused KOI release changes. This live-documentation note does not change the date of the last full authenticated KOI capture.
+See [KOI, Agentic Endpoint Security, and Prisma AIRS update, 11 October 2026](KOI_AES_AIRS_UPDATE_2026-10-11.md) for the latest authenticated KOI changes, AI Gateway refresh, and current product boundary. The [28 September 2026 update](KOI_AES_UPDATE_2026-09-28.md) remains available for its focused AI Skill Security comparison.
 
 ## New computer quick start
 
@@ -26,7 +26,7 @@ The repository contains:
 
 Both versions include the official-only corpus files and tools needed to rebuild the searchable SQLite index locally. Private field-support email evidence, caches, generated indexes, and generated ZIP files are intentionally excluded.
 
-The committed corpus currently reconstructs 44,309 searchable records. This includes 57 browser-captured pages from the official Idira portal and 321 current authenticated KOI pages, all protected by SHA-256 receipts. It also includes an audited map for 175 stale Palo Alto URLs whose exact document paths exist in newer live PAN-OS versions. Original failed-fetch evidence is retained in the maintenance workspace; it is not presented as page content.
+The committed corpus currently reconstructs 55,427 searchable records. This includes 57 browser-captured pages from the official Idira portal and 324 current authenticated KOI pages, all protected by SHA-256 receipts. It also includes an audited map for 175 stale Palo Alto URLs whose exact document paths exist in newer live PAN-OS versions. Original failed-fetch evidence is retained in the maintenance workspace; it is not presented as page content.
 
 Run the integrity audit from either directory with Python 3.10 or newer:
 

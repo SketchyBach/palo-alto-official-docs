@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/model-security-to-secure-your-ai-models/get-started-with-ai-model-security/scanning-models
-fetched_at: 2026-09-16T07:54:54Z
+fetched_at: 2026-10-11T09:52:08Z
 source: ai-security
 ---
 

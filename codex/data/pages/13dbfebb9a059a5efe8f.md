@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/detect-and-alert-on-malicious-traffic/detect-and-prevent-ai-network-security-threats
-fetched_at: 2026-09-16T07:54:41Z
+fetched_at: 2026-10-11T09:52:15Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Aug 24, 2026 
+ Thu Oct 01 08:11:56 PDT 2026 
 
  Focus 
 
@@ -16,9 +16,9 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
- Monitor: Threat Logs and AI Security Logs 
+ AIRS API 
 
  Explore OWASP Coverage in Prisma AIRS AI Runtime: Network Intercept 
 
@@ -36,15 +36,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -52,11 +60,11 @@ Updated on
 
  Previous 
 
- Prisma AIRS API Scan Logs 
+ Integrate Microsoft Foundry 
 
  Next 
 
- Use Case: Inspect Traffic between User and AI Medical Assistant 
+ AIRS VM Firewall 
 
  Explore OWASP Coverage in Prisma AIRS AI Runtime: Network Intercept 
 
@@ -81,12 +89,10 @@ Use the Prisma AIRS : Network intercept to detect
 
  Log in to Strata Cloud Manager . 
 
- Navigate to Manage →
- Configuration → NGFW and Prisma
+ Select Manage Configuration NGFW and Prisma
  Access . 
 
- From the top menu, select Security Services →
- AI Security . 
+ From the top menu, select Security Services AI Security . 
 
  Select Add Profile . 
 
@@ -110,10 +116,7 @@ Use the Prisma AIRS : Network intercept to detect
 
  See Create Model Groups in Strata Cloud Manager for detailed steps. 
 
- Select Manage →
- Configuration → NGFW and Prisma
- Access → Security Services →
- Profile Groups → Add Profile Group and
+ Select Manage Configuration NGFW and Prisma Access Security Services Profile Groups Add Profile Group and
  add the AI security profile to this group. See Security Profile Groups . 
 
  Create a Security Policy Rule 
@@ -123,8 +126,7 @@ Use the Prisma AIRS : Network intercept to detect
  In the Profile Group tab, select and add the
  AI Security profile group that you configured earlier. 
 
- Select Incidents & Alerts → Log
- Viewer . 
+ Select Incidents & Alerts Log Viewer . 
 
  Select Firewall/AI Security . 
 
@@ -136,8 +138,8 @@ Use the Prisma AIRS : Network intercept to detect
 
  Previous 
 
- Prisma AIRS API Scan Logs 
+ Integrate Microsoft Foundry 
 
  Next 
 
- Use Case: Inspect Traffic between User and AI Medical Assistant
+ AIRS VM Firewall

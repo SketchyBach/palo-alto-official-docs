@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/managed-ai-runtime-security-for-aws/managed-airs-for-aws-deploy-and-configure/edit-or-upgrade-a-managed-airs-for-aws-resource
-fetched_at: 2026-09-16T07:54:44Z
+fetched_at: 2026-10-11T09:52:58Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Aug 24, 2026 
+ Oct 1, 2026 
 
  Focus 
 
@@ -16,7 +16,7 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
  Managed AI Runtime Security for AWS 
 
@@ -38,15 +38,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -73,7 +81,7 @@ Updated on
 
  Managed AIRS for AWS supports two capacity tiers—Standard and Premium—that determine
  the memory, throughput, and rule capacities You can start with standard tier and
- upgrade to a higher tier at any time as describrd here. For a full comparison of
+ upgrade to a higher tier at any time as described here. For a full comparison of
  per-tier limits, see Managed AIRS for
  AWS Limits and Quotas . 
 

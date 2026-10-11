@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/managed-ai-runtime-security-for-aws/managed-airs-for-aws-deploy-and-configure/view-registered-managed-airs-for-aws-resources-in-strata-cloud-manager
-fetched_at: 2026-09-16T07:54:45Z
+fetched_at: 2026-10-11T09:52:12Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Thu Oct 01 08:11:56 PDT 2026 
 
  Focus 
 
@@ -16,7 +16,7 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
  Managed AI Runtime Security for AWS 
 
@@ -38,15 +38,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -62,7 +70,7 @@ Updated on
 
  View registered Managed AIRS for AWS Resources in Strata Cloud Manager 
 
- Link your Managed AIRS for AWS resource with Strata Cloud Manager (SCM) for policy
+ Link your Managed AIRS for AWS resource with Strata Cloud Manager for policy
  management. 
 
  Where Can I Use This? What Do I Need? 

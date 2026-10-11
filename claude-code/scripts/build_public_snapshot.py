@@ -9,7 +9,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = ("pa-docs.cmd", "pa-docs.ps1", "requirements.txt", "sources.json", "PRODUCT_COVERAGE.md")
-EXCLUDED_SCRIPTS = {"import_field_emails.py", "inspect_eml.py"}
+PUBLIC_ROOT_FILES = (
+    "KOI_AES_UPDATE_2026-09-28.md",
+    "KOI_AES_AIRS_UPDATE_2026-10-11.md",
+)
+EXCLUDED_SCRIPTS = {"build_final_bom_pdf.py", "import_field_emails.py", "inspect_eml.py"}
 DATA_DIRECTORIES = (
     "pages",
     "koi-official",
@@ -54,6 +58,8 @@ def main() -> None:
 
     copy_file(ROOT / "AGENTS.md", destination / "codex" / "AGENTS.md", counters)
     copy_file(ROOT / "CLAUDE.md", destination / "claude-code" / "CLAUDE.md", counters)
+    for name in PUBLIC_ROOT_FILES:
+        copy_file(ROOT / name, destination / name, counters)
     copy_file(ROOT / "PRODUCT_COVERAGE.md", destination / "PRODUCT_COVERAGE.md", counters)
     copy_tree(ROOT / ".codex" / "skills", destination / "codex" / ".codex" / "skills", counters)
     copy_tree(ROOT / ".codex" / "skills", destination / "claude-code" / ".claude" / "skills", counters)

@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/onboard-and-activate-cloud-account-in-scm/gcp-onboarding-prereq-and-steps/onboard-gcp-cloud-account-in-scm
-fetched_at: 2026-09-16T07:54:37Z
+fetched_at: 2026-10-11T09:53:22Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Aug 11, 2026 
+ Oct 5, 2026 
 
  Focus 
 
@@ -16,11 +16,11 @@ Updated on
 
  Prisma AIRS 
 
- Activation & Onboarding 
+ AI Inventory 
+
+ Cloud Resource Discovery 
 
  Onboard and Activate a Cloud Account in Strata Cloud Manager 
-
- Onboard Cloud Account in GCP 
 
  Onboard GCP Cloud Account in Strata Cloud Manager 
 
@@ -38,15 +38,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -54,11 +62,11 @@ Updated on
 
  Previous 
 
- GCP Cloud Account Onboarding Prerequisites 
+ GCP Cloud Account Onboarding 
 
  Next 
 
- Onboard Cloud Account in Azure 
+ Manage Onboarded Cloud Accounts in Strata Cloud Manager 
 
  Onboard GCP Cloud Account in Strata Cloud Manager 
 
@@ -72,7 +80,7 @@ Updated on
  GCP Cloud Account Onboarding Prerequisites 
 
  Palo Alto Networks is migrating Discovery services to a new
- infrastructure from the SCM environment to the Multi-Cloud Security Fabric (MSF)
+ infrastructure from the Strata Cloud Manager environment to the Multi-Cloud Security Fabric (MSF)
  platform. This change affects existing customers who have onboarded cloud accounts
  and requires action. See the section Migrate from Discovery Services . 
 
@@ -85,9 +93,8 @@ Updated on
 
  Log in to Strata Cloud Manager . 
 
- Navigate to AI Security → AI
- Runtime → AI Runtime Firewall . (If you are
- onboarding for the first time, click Get Started . 
+ Select AI Security AI Runtime AI Runtime Firewall . (If you are onboarding for the first time, click
+ Get Started .) 
 
  If you have previously onboarded a cloud account; from the top right corner,
  click the Cloud Account Manager (cloud) icon. 
@@ -244,8 +251,8 @@ service_account_email = "panw-discovery-****@PROJECT_ID.iam.gserviceaccount.com"
  You can now view and manage the onboarded cloud
  accounts in Strata Cloud Manager . 
 
- To discover your protected and unprotected cloud assets, see the page on discovering your cloud
- resources . 
+ Discover your protected and unprotected cloud
+ assets . 
  Next, protect the network traffic flow by deploying Prisma AIRS AI Runtime: Network in
  GCP or VM-Series firewall. 
 
@@ -273,8 +280,8 @@ service_account_email = "panw-discovery-****@PROJECT_ID.iam.gserviceaccount.com"
 
  Previous 
 
- GCP Cloud Account Onboarding Prerequisites 
+ GCP Cloud Account Onboarding 
 
  Next 
 
- Onboard Cloud Account in Azure
+ Manage Onboarded Cloud Accounts in Strata Cloud Manager

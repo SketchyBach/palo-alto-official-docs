@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/ai-supply-chain-security/model-security-to-secure-your-ai-models/get-started-with-ai-model-security/organize-security-scans-with-custom-labels
-fetched_at: 2026-09-16T07:54:51Z
+fetched_at: 2026-10-11T09:53:46Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Sep 1, 2026 
+ Sep 15, 2026 
 
  Focus 
 
@@ -18,7 +18,9 @@ Updated on
 
  AI Supply Chain Security 
 
- Secure Your AI Models with AI Model Security 
+ AI Supply Chain Security 
+
+ AI Model Security Overview 
 
  Get Started with AI Model Security 
 
@@ -38,15 +40,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -58,7 +68,7 @@ Updated on
 
  Next 
 
- Viewing Scan Results 
+ Model Scan Results 
 
  Organize Security Scans with Custom Labels 
 
@@ -104,9 +114,9 @@ Updated on
 
  Add Scan Labels 
 
- Set Scan Labels 
+ Scan Label Replacement 
 
- Remove Scan Labels 
+ Scan Label Deletion 
 
  Filter and View Labels 
 
@@ -199,7 +209,7 @@ client.add_scan_labels(
  )
 ) 
 
- Set Scan Labels 
+ Scan Label Replacement 
 
  Replace the complete set of existing labels on the scan with the new provided
  labels. 
@@ -244,7 +254,7 @@ client.set_scan_labels(
 
 print(f"Labels set for scan {scan_uuid} (all previous labels removed)")
 
- Remove Scan Labels 
+ Scan Label Deletion 
 
  Remove specific labels from a scan using their keys. Keys that do not exist on the
  scan are ignored. 
@@ -370,4 +380,4 @@ for scan in scans.scans:
 
  Next 
 
- Viewing Scan Results
+ Model Scan Results

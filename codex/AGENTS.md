@@ -13,3 +13,5 @@ For KOI troubleshooting, field-email evidence may supplement official docs only 
 Never delete the corpus. Updates are additive/upsert operations. Preserve failed-fetch records and previous timestamps for auditability.
 
 Before claiming that the corpus covers all current Palo Alto products or Admin Guides, require a fresh official sitemap discovery audit in addition to integrity, freshness, product coverage, and smoke tests. Route Prisma Access, Prisma Browser, Prisma SD-WAN, ADEM, Enterprise DLP, SaaS Security, Common Services, and Strata management questions through the Prisma SASE scope while preserving the exact management plane.
+
+When live tenant data is needed, use the `cortex_debug` MCP server for Cortex XDR and the `koi` MCP server for KOI. Keep live tenant results separate from documentation evidence: use this repository and its official corpus for product behavior and procedures, and use the MCP servers only for tenant-specific inventory, configuration, findings, incidents, and actions. Prefer read-only MCP tools unless the user explicitly requests a change, and require confirmation before consequential write operations.

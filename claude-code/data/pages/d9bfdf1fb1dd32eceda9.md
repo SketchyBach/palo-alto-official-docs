@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/managed-ai-runtime-security-for-aws/monitor-your-managed-airs-for-aws-resource
-fetched_at: 2026-09-16T07:54:47Z
+fetched_at: 2026-10-11T09:53:30Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Oct 1, 2026 
 
  Focus 
 
@@ -16,7 +16,7 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
  Managed AI Runtime Security for AWS 
 
@@ -36,15 +36,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -60,7 +68,7 @@ Updated on
 
  Monitor 
 
- Learn how to monitor your Managed AIRS for AWS resrouce. 
+ Learn about Managed AIRS for AWS resource monitoring. 
 
  Where Can I Use This? What Do I Need? 
 
@@ -79,13 +87,14 @@ Updated on
 
  Traffic and Threat Logs 
 
- Managed AIRS for AWS publishes a variety of logs to help you monitor traffic and
- threats for analysis and compliance. These traffic and threat logs provide detailed
- information about network sessions passing through your Managed AIRS for AWS resource. Analyze
- permitted and denied traffic, inspect source/destination IP addresses, URLs, port
- numbers, and protocols. This data is crucial for understanding traffic patterns,
- identifying potential security threats, and troubleshooting connectivity issues.
- These can be streamed to other AWS services for analysis and alarming. 
+ Managed AIRS for AWS publishes a variety of logs to help you monitor
+ traffic and threats for analysis and compliance. These traffic and threat logs provide detailed
+ information about network sessions passing through your Managed AIRS for AWS
+ resource. Analyze permitted and denied traffic, inspect source/destination IP
+ addresses, URLs, port numbers, and protocols. This data is crucial for understanding
+ traffic patterns, identifying potential security threats, and troubleshooting
+ connectivity issues. These can be streamed to other AWS services for analysis and
+ alarming. 
 
  Destinations: 
 
@@ -118,22 +127,22 @@ Updated on
 
  Destination: Managed AIRS for AWS publishes custom metrics to AWS CloudWatch . 
 
- Monitoring: Managed AIRS for AWS streams these metrics to a CloudWatch
- namespace in your AWS account. You can use these metrics to access
- historical performance data. You can also set alarms that monitor
- specific thresholds and send notifications when these thresholds are
+ Monitoring: Managed AIRS for AWS streams these metrics to a
+ CloudWatch namespace in your AWS account. You can use these metrics to
+ access historical performance data. You can also set alarms that
+ monitor specific thresholds and send notifications when these thresholds are
  reached. 
 
  Audit Logs 
 
  Audit logs track user and API activity
- within your Managed AIRS for AWS tenant. These logs help you audit operations related to
- firewall resources, such as creating, updating, or deleting rules and policies.
- Reviewing these logs helps maintain a historical record of configuration changes and
- ensures compliance with security requirements. 
+ within your Managed AIRS for AWS tenant. These logs help you audit operations
+ related to firewall resources, such as creating, updating, or deleting rules and
+ policies. Reviewing these logs helps maintain a historical record of configuration
+ changes and ensures compliance with security requirements. 
 
- Destination: Managed AIRS for AWS streams audit logs to Amazon
- CloudWatch tracking all tenant activity. 
+ Destination: Managed AIRS for AWS streams audit logs to
+ Amazon CloudWatch tracking all tenant activity. 
 
  Viewing Logs: Use the AWS Cloudwatch console. 
 

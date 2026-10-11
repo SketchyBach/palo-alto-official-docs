@@ -1,0 +1,38 @@
+{
+  "source": "authenticated official KOI documentation",
+  "host": "docs.koi.ai",
+  "imported_at": "2026-10-11T13:58:30Z",
+  "capture_sha256": "6d9188abcd752a66275715eea8ec14fb4a33a4debf4371f6c1b2f31c79bac8bc",
+  "records": [
+    {
+      "url": "https://docs.koi.ai/guardrails/block-execution-from-risky-paths",
+      "sha256": "04baad38e170d4ff83cc41b8870de73c40afeddf25449bc5dac3de746788c11b",
+      "capture_file": "data/koi-browser-refresh-2026-10-11/416b6fc4a2651b8b6f68.json",
+      "capture_sha256": "8386d217fec1f0e3aeed03e6c922a7c866a5d57b3942a880587c16964a6720bc",
+      "local_path": "data/pages/416b6fc4a2651b8b6f68.md"
+    },
+    {
+      "url": "https://docs.koi.ai/guides/koi-mcp-server",
+      "sha256": "5247af71cb086bf7882944d0c98fa7e41314b7363960ce5779d8836dadbc120e",
+      "capture_file": "data/koi-browser-refresh-2026-10-11/5a6020186f06eeaaa407.json",
+      "capture_sha256": "324a8cfc7d86a1dfa725c9923e0a6f2a6340a650deedd60ed2a0d9ab44cc4cf3",
+      "local_path": "data/pages/5a6020186f06eeaaa407.md"
+    },
+    {
+      "url": "https://docs.koi.ai/get-started/whats-new-in-koi",
+      "sha256": "3d76a844f91550bb249a783c861846d4acc81839e786a39f93e9ddc3d6eecbf6",
+      "capture_file": "data/koi-browser-refresh-2026-10-11/ce78bde3c517fd9b6efe.json",
+      "capture_sha256": "c371364520045a29f0bfa48457c1f4c1e549d2b3012307389b1a459fd821e3a3",
+      "local_path": "data/pages/ce78bde3c517fd9b6efe.md"
+    },
+    {
+      "url": "https://docs.koi.ai/integration-guides/prisma-airs-runtime-enforcement",
+      "sha256": "3825a92921fe09cb667ce577e91e8d68cb60c8d270e5ee897b26c0347a51952c",
+      "capture_file": "data/koi-browser-refresh-2026-10-11/e8749fd64ec08978f0d8.json",
+      "capture_sha256": "a0c0b8a5f56d171dc7485fbf2731f11d1c731397b79aeaff2ebcca3fcc3e0918",
+      "local_path": "data/pages/e8749fd64ec08978f0d8.md"
+    }
+  ],
+  "invalid": 0,
+  "failures": []
+}

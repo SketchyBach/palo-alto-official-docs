@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/api-intercept-create-configure-security-profile/ai-agent-security-low-no-code
-fetched_at: 2026-09-16T07:54:39Z
+fetched_at: 2026-10-11T09:52:27Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Aug 13, 2026 
 
  Focus 
 
@@ -16,9 +16,9 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Agent Identity 
 
- Defend: Create and Configure API Security Profile 
+ SaaS Agent Security Overview 
 
  AI Agent Security for Low-Code/No-Code Platforms 
 
@@ -36,15 +36,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -52,15 +60,15 @@ Updated on
 
  Previous 
 
- Managing Customer Encryption Keys 
+ Onboard SaaS Agents for AI Agent Discovery 
 
  Next 
 
- Monitor: Threat Logs and AI Security Logs 
+ Prisma AIRS MCP Server for Centralized AI Agent Security 
 
  AI Agent Security for Low-Code/No-Code Platforms 
 
- Secure your AI agents running on low-code or no-code platforms 
+ Secure AI agents on low-code and no-code platforms against prompt injection and unauthorized actions using Prisma AIRS AI Runtime Security. 
 
  Where Can I Use This? What Do I Need? 
 
@@ -109,9 +117,9 @@ Updated on
 
  Enable AI Agent Protection in your API security profile . 
 
- If you enable AI Agent Protection without configuring an AI Agent
- framework in your application definition, then the AI Agent
- detection service only enables model-based protections and not
+ If you enable AI Agent Protection without configuring
+ an AI Agent framework in your application definition,
+ the AI Agent detection service enables only model-based protections, not
  pattern-based. 
 
  Review the API scan logs for any agent-related
@@ -124,8 +132,8 @@ Updated on
 
  Previous 
 
- Managing Customer Encryption Keys 
+ Onboard SaaS Agents for AI Agent Discovery 
 
  Next 
 
- Monitor: Threat Logs and AI Security Logs
+ Prisma AIRS MCP Server for Centralized AI Agent Security

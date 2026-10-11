@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/managed-ai-runtime-security-for-aws/managed-airs-for-aws-protect/managed-airs-for-aws-secure-ai-traffic
-fetched_at: 2026-09-16T07:54:45Z
+fetched_at: 2026-10-11T09:52:30Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Oct 1, 2026 
 
  Focus 
 
@@ -16,7 +16,7 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
  Managed AI Runtime Security for AWS 
 
@@ -38,15 +38,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 

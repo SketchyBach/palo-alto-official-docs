@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/release-notes/features-introduced/ai-runtime-security-network-intercept
-fetched_at: 2026-09-16T07:55:09Z
+fetched_at: 2026-10-11T09:53:30Z
 source: ai-security
 ---
 

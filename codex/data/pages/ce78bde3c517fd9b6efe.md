@@ -1,483 +1,458 @@
 ---
 url: https://docs.koi.ai/get-started/whats-new-in-koi
-fetched_at: 2026-09-06T09:12:12.973Z
+fetched_at: 2026-10-11T13:54:15.7463594Z
 source: koi-official-browser
 capture_method: authenticated official browser
 ---
 
-# What’s new in Koi
+# What's new in Koi
 
-For the complete documentation index, see llms.txt. This page is also available as Markdown.
-Ask
-DocumentationGet Started
-What’s new in Koi
+> For the complete documentation index, see [llms.txt](https://docs.koi.ai/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.koi.ai/get-started/whats-new-in-koi.md).
+
+# What’s new in Koi
 
 Lists the new features and functionality in Koi
 
-August 2026
+### October 2026
 
-AI Protection:
+**AI Protection:**
 
-Go Packages discovery is now supported, expanding code packages inventory coverage.
+* **Skills discovery & risk for more AI agents \[Preview]** - Koi now discovers skills and assesses their risk for Codex, Antigravity, Claude Cowork, OpenCode, and Kiro, in addition to Cursor and Claude Code. Skills extend what AI agents can do on the endpoint, and your teams are adopting more agents every month. Every skill now appears in the Inventory with its risk level, so you can see what your AI agents are equipped to do, wherever they run. [Learn more](/guides/protect-the-agentic-endpoint-with-koi/skills-discovery.md).
+* **AI Agents Inventory \[Preview]** - See every AI agent in your organization in one place. Recognized agents like Claude Code appear as a single entity, however they were installed; new and unknown agents appear on a Detected tab with the reasoning behind each verdict. [Learn more](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/ai-agents-inventory).
+* **AI agents on every endpoint** - A new Agents tab in the endpoint panel shows every AI agent on that device. The Graph view maps the endpoint to its agents and each agent to the MCP servers, skills and plugins it runs, so you can see at a glance what an agent can reach and which extensions are shared between agents.&#x20;
+* **Agent destructive command guardrail covers 109 commands** - The default blocklist grows from 23 to 109 commands approved by Koi's security team, adding Windows (PowerShell and Command Prompt), cloud infrastructure, database, git repository and audit-log commands. [Learn more](/guardrails/agent-destructive-command-restriction.md).
+* **Kiro runtime control \[Preview]** - Kiro joins the agents covered by Runtime Protection, for both visibility (AIDR) and enforcement with custom policies. It runs on the same hooks infrastructure as every other agent, so if you're already on Runtime Protection there's nothing new to install. [Learn more](https://docs.koi.ai/guides/agentic-runtime-control/setup-and-deployment#kiro-per-user-path).
 
-AI Agent Runtime Policy Templates - out-of-the-box AI runtime policies built by Koi's security research team, enabled straight from the AI runtime policies page. Each template opens in the policy builder with rules, action, and scope already set, mapped to a MITRE ATLAS tactic so it's clear what it protects against and why.
+### September 2026
 
-Deployment & Settings:
+**AI Protection:**
 
-Prevention Scope - you can now switch Koi's endpoint prevention capabilities on and off yourself, from Settings → Prevention Scope.
+* **Command policies can now target specific resources** - add an optional Target to a shell execution rule and it fires only when the command *and* the target both appear in what the agent is about to run (e.g. block `terraform destroy` only when the target matches `prod*`). [Learn more](/guides/agentic-runtime-control/agent-enforcement-custom-policies/runtime-policy-rule-types.md#coming-soon-preview-narrowing-a-command-rule-with-a-target).
+  * :warning: Requires a Koi script package version `1.84.14` or higher, endpoints on an older version won't receive a rule that uses a target at all.
 
-AI agent runtime capabilities (Runtime hooks) - control whether the capability is enabled and which AI agents it covers. Turning it off stops both enforcement and activity reporting for that agent, since both run on the same hooks.
+**Deployment & Settings:**
 
-Homebrew prevention - control whether Koi prevent Homebrew OS packages that violate your policies.
+* **Discovery & Remediation Scope \[Preview]** - Koi now lets you control what it discovers and what can be remediate, per item type and per source, from a new Settings > Discovery & Remediation page.
+  * :warning: Requires a Koi script package version `1.86.0` or higher; endpoints on auto-update get it automatically.
 
-PAC file deployment method - Settings that control how the PAC file reaches your endpoints, under Settings → Advanced Settings → Network integration (Proxy). Your selection decides which distribution method and deployment steps apply to your fleet.
+**API & Integrations:**
 
-Risk:
+* **New inventory and policy APIs** - Koi's API now exposes the same deep item analysis you see in the console, so you can pull it into your own workflows and let automations act on findings without a human in the console. [Learn more](https://docs.koi.ai/api-reference).
+  * **Extension analysis** - permissions, host grants, where the extension phones home, publisher and rating. [Learn more](https://docs.koi.ai/api-reference/reference/inventory#get-api-external-v2-inventory-item_id-analysis).
+  * **MCP server capabilities** - tools, inputs, transport, and auth for local and remote servers. [Learn more](https://docs.koi.ai/api-reference/reference/inventory#get-api-external-v2-inventory-item_id-mcp-components).
+  * **AI model details** - weights format and whether loading the model runs arbitrary code. [Learn more](https://docs.koi.ai/api-reference/reference/inventory#get-api-external-v2-inventory-item_id-model-details).
+  * **Create and update a policy** - playbooks can now block a confirmed-bad item directly through the API. [Learn more](https://docs.koi.ai/api-reference/reference/policies#post-api-external-v2-policies-create).
 
-AI-native risk analysis now supports Plugins and Skills  [Preview], with new detections for AI-specific threats such as agent sabotage, dynamic context, sensitive resource access, and description mismatch. Learn more.
+**Risk:**
 
-Scan privately developed AI Skills - before distribution and automatically correlate them with discovered skills inventory. Learn more.
+* **New Threat Center experience** - Threat Center now delivers timely research and threat intelligence from Koi and Unit 42. The feed includes Koi blog posts, Unit 42 research, security updates, real-time and recent incident updates, and vulnerability updates.
+  * **Organization impact** -Each update shows whether affected items exist in your inventory. Teams can quickly identify impacted devices and begin investigation.
+  * **Compromised filter** -Filter the feed to updates with a direct impact on your organization.
+  * **Inventory and research links** - Open related research directly from inventory items. Threat Center updates also link back to relevant inventory context.
+  * **Reading Mode** - Read linked content within the Koi portal without switching websites.
 
-UX:
+### August 2026
 
-New Cmd+K command palette lets you instantly navigate between workspaces and inventories, helping you find what you need faster.
+**AI Protection:**
 
-July 2026
+* **Go Packages discovery** is now supported, expanding code packages inventory coverage.
+* **AI Agent Runtime Policy Templates** - out-of-the-box AI runtime policies built by Koi's security research team, enabled straight from the AI runtime policies page. Each template opens in the policy builder with rules, action, and scope already set, mapped to a MITRE ATLAS tactic so it's clear what it protects against and why.
+* **Prisma AIRS Runtime Integration \[Preview]** - Koi now extends its protection to the content flowing through AI coding agents by integrating with Prisma AIRS. Koi governs the endpoint - what agents run and what they're allowed to do - while Prisma AIRS inspects the prompts, tool calls, and responses moving through them for prompt injection, sensitive data leakage, malicious output, and credential leakage. Together we provide hermetic AI security across SaaS, cloud, and local endpoints, allowing organizaiton to addopt AI agents securly at scale. [Learn more.](/integration-guides/prisma-airs-runtime-enforcement.md)
 
-AI Protection:
+**Deployment & Settings:**
 
-AI Agent Personal Account Usage - Koi now detects the user account behind AI agent session, turning shadow AI usage into something you can see and act on. Employees often run agents like Claude Code, Cursor, and Codex with personal accounts on corporate endpoints. When corporate data flows through a personal account, it leaves the organization's visibility and control, creating a real data exfiltration risk. Depending on the account's settings the data can even be used to train the LLM model. Personal account activity now surfaces directly in the AIDR - Agent Activity view. Learn more.
+* **Prevention Scope** - you can now switch Koi's endpoint prevention capabilities on and off yourself, from Settings → Prevention Scope.
+  * **AI agent runtime capabilities (Runtime hooks)** - control whether the capability is enabled and which AI agents it covers. Turning it off stops both enforcement and activity reporting for that agent, since both run on the same hooks.
+  * **Homebrew prevention** - control whether Koi prevent Homebrew OS packages that violate your policies.
+* **PAC file deployment method** - Settings that control how the PAC file reaches your endpoints, under Settings → Advanced Settings → Network integration (Proxy). Your selection decides which distribution method and deployment steps apply to your fleet.
 
-Per-session user account detection - the user email account signed in to the agent, captured per session across Claude Code, Cursor, Codex, and Antigravity.
+**Risk:**
 
-Personal account classification - an account is flagged as personal when its email domain doesn't match your organization's domain.
+* **AI-native risk analysis now supports Plugins and Skills \[Preview]**, with new detections for AI-specific threats such as agent sabotage, dynamic context, sensitive resource access, and description mismatch. [Learn more.](/risk-and-threat-intelligence/ai-agent-extensions-risk.md)
+* **Scan privately developed AI Skills -** before distribution and automatically correlate them with discovered skills inventory. [Learn more.](/guides/private-items-scan.md)
 
-Personal user account filter - a new Query Builder filter to instantly find all sessions running under personal accounts.
+**UX:**
 
-Subscription - the account's subscription (for example Free, Pro, Enterprise), shown in the session details drawer -useful for spotting free tiers that may train on your data by default.
+* **New Cmd+K command** palette lets you instantly navigate between workspaces and inventories, helping you find what you need faster.
 
-AIDR Sessions view -  AIDR page is now organized by session (the single continuous conversation between a developer and an agent) instead of a flat event stream. Every shell command, file access, MCP tool call, skill, and network request is grouped into the session that produced it, so you can follow the full arc of an agent's work from start to finish.
+**API & Integrations:**
 
-One row per session: With aggregates for total sessions, distinct endpoints, distinct users, and average session duration.
+* **Koi MCP server** - bring Koi's inventory, risk, and policy data straight into Cursor, Claude Code, Claude Desktop, or any agent of choice - nativley with no custom workflow. Everything the External API v2 does is now available as MCP tools at `https://api.prod.koi.security/api/external/v2/mcp`, using the same Bearer customer API key from Settings → API Access.
 
-Full session timeline: Open any session to see every action in order with its timestamp and the resource it touched (file path, command, MCP tool, skill, or URL/IP); expand an event for detail such as a code diff or a tool's input and output.
+### July 2026
 
-Agent extensions per session: see exactly which MCP servers, skills, and plugins each session used.
+**AI Protection:**
 
-Governance per session: Blocked actions shown in context, with a new "Governed by" column identifying the enforcing policy, filterable in the query builder.
+* **AI Agent Personal Account Usage** - Koi now detects the user account behind AI agent session, turning shadow AI usage into something you can see and act on. Employees often run agents like Claude Code, Cursor, and Codex with personal accounts on corporate endpoints. When corporate data flows through a personal account, it leaves the organization's visibility and control, creating a real data exfiltration risk. Depending on the account's settings the data can even be used to train the LLM model. Personal account activity now surfaces directly in the AIDR - Agent Activity view. [Learn more](https://docs.koi.ai/guides/agentic-runtime-control/runtime-agent-activity/ai-agent-personal-account-usage).
+  * **Per-session user account detection** - the user email account signed in to the agent, captured per session across Claude Code, Cursor, Codex, and Antigravity.
+  * **Personal account classification** - an account is flagged as personal when its email domain doesn't match your organization's domain.
+  * **Personal user account filter** - a new Query Builder filter to instantly find all sessions running under personal accounts.
+  * **Subscription** - the account's subscription (for example Free, Pro, Enterprise), shown in the session details drawer -useful for spotting free tiers that may train on your data by default.
+* **AIDR Sessions view -** AIDR page is now organized by session (the single continuous conversation between a developer and an agent) instead of a flat event stream. Every shell command, file access, MCP tool call, skill, and network request is grouped into the session that produced it, so you can follow the full arc of an agent's work from start to finish.
+  * **One row per session:** With aggregates for total sessions, distinct endpoints, distinct users, and average session duration.
+  * **Full session timeline:** Open any session to see every action in order with its timestamp and the resource it touched (file path, command, MCP tool, skill, or URL/IP); expand an event for detail such as a code diff or a tool's input and output.
+  * **Agent extensions per session:** see exactly which MCP servers, skills, and plugins each session used.
+  * **Governance per session:** Blocked actions shown in context, with a new "Governed by" column identifying the enforcing policy, filterable in the query builder.
+  * **Session-aware search** and saved queries across agent, endpoint, user account, action category, extension, duration, and time range.
+* **Plugin remediation for Claude Code** - Koi now governs the plugins agents install to expand their own capabilities. Admins can remediate a Claude Code plugin on demand from the Inventory or Endpoints table, fully removing it from the device. [Learn more.](/guides/protect-the-agentic-endpoint-with-koi/plugins-discovery.md)
+* **GitHub repository categorization** - GitHub repositories are now automatically categorized, making it easier to organize, filter, and understand the types of repositories discovered in your environment.
+* **Amazon SageMaker support \[preview]** brings AI-native discovery and security analysis to AWS-hosted AI development environments. [Learn more.](/integration-guides/remote-development-environments/sagemaker-preview.md)
 
-Session-aware search and saved queries across agent, endpoint, user account, action category, extension, duration, and time range.
+**Binaries Discovery & Governance**
 
-Plugin remediation for Claude Code - Koi now governs the plugins agents install to expand their own capabilities. Admins can remediate a Claude Code plugin on demand from the Inventory or Endpoints table, fully removing it from the device. Learn more.
+* **Binaries visibility & governance for macOS** - Centralized visibility and control over binary execution across your macOS fleet, powered by Koi's integration with Santa. Every binary launch is captured with full context - who executed it, on which endpoint, the path, and the file's SHA-256 - making Koi the single portal to govern all software running on macOS devices, binaries and non-binaries alike. [Learn more](https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery).
+  * **Binaries Inventory** - full visibility into every binary that ran across your macOS endpoints in the org. [Learn more](https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery/binaries-inventory-preview#binaries-inventory).
+  * **Binary Execution Logs** - the event-level record of what's actually running: every binary launch on a macOS endpoint, captured with full context. [Learn more](https://docs.koi.ai/guides/protect-applications-with-koi/binaries-discovery/binary-executions-preview).
+  * **Allow, Block and Alert policies** - define custom policies to govern which binaries can run across your macOS fleet.
+  * **Impact Check** - before applying a new policy, run an Impact check to see which binaries and endpoints it would affect.
+  * **Request Approval flow** - blocked users aren't left stuck: they get a clear notification and can request approval on the spot, so admins can review and approve the binary from the dashboard.
+  * **New Guardrail: Block execution from risky paths** - blocks execution of binaries from high-risk, user-writable paths such as `/tmp`, `/var/tmp`, and `$TMPDIR`, reducing exposure to untrusted and potentially unsafe content.
 
-GitHub repository categorization - GitHub repositories are now automatically categorized, making it easier to organize, filter, and understand the types of repositories discovered in your environment.
+**Risk**
 
-Amazon SageMaker support [preview] brings AI-native discovery and security analysis to AWS-hosted AI development environments. Learn more.
+* **AI generated risk summaries** – quickly understand an item's security posture with an AI generated summary of its risk findings and evidence. Now available for all risk supported items, including MCPs, Code Packages, AI Models, and OS Packages.
 
-Binaries Discovery & Governance
+### June 2026
 
-Binaries visibility & governance for macOS - Centralized visibility and control over binary execution across your macOS fleet, powered by Koi's integration with Santa. Every binary launch is captured with full context - who executed it, on which endpoint, the path, and the file's SHA-256 - making Koi the single portal to govern all software running on macOS devices, binaries and non-binaries alike. Learn more.
+**AI Protection:**
 
-Binaries Inventory - full visibility into every binary that ran across your macOS endpoints in the org. Learn more.
+* [**AI Agents Discovery**](/guides/protect-the-agentic-endpoint-with-koi/ai-agents-discovery.md) to identify AI agents across all item types, including binaries and non-binaries, so new and emerging agents surface automatically in your inventory.
+* [**Skills Discovery**](/guides/protect-the-agentic-endpoint-with-koi/skills-discovery.md) - Koi now discovers and inventories Agent Skills installed across AI agents on your endpoints - from the **skills.sh** and **ClawHub** registries, as well as self-made and manually installed skills. Each skill is correlated back to its source and surfaced both in a dedicated Skills inventory and as a filterable item type in the Agentic AI Inventory.
+* **Claude Connectors MCP Governance** - Koi extends MCP governance to the Claude Connectors marketplace built into the Claude desktop app. Admins can get visibility on desktop connectors with marketplace metadata, set allow/block lists enforced at install and update time, and remediate connectors already installed on endpoints.
+* **MCP Request Approval support** - Blocked MCP installs can now be routed through an approval workflow instead of a hard block. When a user tries to install a blocked server, Koi replaces the 'Install' button with **Request Approval** - the user submits a request, and the admin approves or denies it from the dashboard. Available for the **Claude Connectors** marketplace and the **GitHub MCP Registry** (VS Code).
+* Once a runtime policy is live, the **side panel** now has two additional tabs:
+  * Policy Hits - Shows every block and ask event the policy fired, grouped by endpoint and agent. Expand any group to see individual events, each showing the matched rule type (File Path, Command, MCP Tool, Skill, or URL) and the matched entity.
+  * Devices Excluded - The devices currently excluded from the policy, including who approved each exclusion and the justification. This gives admins an audit trail of every exception granted against the policy.
 
-Binary Execution Logs - the event-level record of what's actually running: every binary launch on a macOS endpoint, captured with full context. Learn more.
+**UX & Performance**
 
-Allow, Block and Alert policies - define custom policies to govern which binaries can run across your macOS fleet.
+* Workflow-based navigation that makes it easier to find and manage everything in one place - from **inventory** to **policies** and **guardrails**, with dedicated workspaces for **Agentic AI**, **Non-Binaries**, and **App Control**.
 
-Impact Check - before applying a new policy, run an Impact check to see which binaries and endpoints it would affect.
+### May 2026
 
-Request Approval flow - blocked users aren't left stuck: they get a clear notification and can request approval on the spot, so admins can review and approve the binary from the dashboard.
+**AI Protection**
 
-New Guardrail: Block execution from risky paths - blocks execution of binaries from high-risk, user-writable paths such as /tmp, /var/tmp, and $TMPDIR, reducing exposure to untrusted and potentially unsafe content. 
+* **Agent Enforcement Custom Policies \[Preview]** - Define your own runtime rules for what AI coding agents can do - block or ask before they execute. Policies are composed from five rule types: shell commands, file access, MCP tools, skills, and network requests (URLs/IPs). Each policy supports Block (deny outright) or Ask (pause for developer approval) modes, with an estimated impact check showing how many endpoints and actions it would have affected over the last 30 days before you enable it. [Learn more](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/runtime-protection/agent-enforcement-custom-policies).
+* **Agent Runtime Policies API** - New public API endpoints for creating, updating, and managing runtime enforcement policies programmatically. Lets customers automate policy management via CI/CD pipelines or custom tooling, instead of only through the Koi portal. [Learn more](https://docs.koi.ai/api-reference/reference/agents-runtime-policies).
+* **New agents supported for Agents runtime** - Agent Activity, Guardrails, and Agent Runtime Custom Policies now extend beyond Cursor and Claude Code to three additional AI coding agents:
+  * **Codex CLI** - Block-mode enforcement across shell, files, MCP tools, skills, and network.
+  * **GitHub Copilot CLI** - Full coverage including both Block and Ask enforcement modes.
+  * **Gemini CLI** - Block-mode enforcement across all rule types except network controls (Codex and Gemini CLI run web access through hosted infrastructure, so URL/IP rules are best expressed as shell rules on curl/wget). [Learn more](https://docs.koi.ai/guides/protect-the-agentic-endpoint-with-koi/runtime-protection/agent-enforcement-custom-policies#supported-agents).
 
-Risk
+**Remote Developer Environments**
 
-AI generated risk summaries – quickly understand an item's security posture with an AI generated summary of its risk findings and evidence. Now available for all risk supported items, including MCPs, Code Packages, AI Models, and OS Packages.
+* **Coder support** — Coder workspaces now show up in Koi like any other endpoint. The items running inside each workspace are shown in the same inventory, endpoint, and\
+  dashboard views as any other endpoint. [Learn more](/integration-guides/remote-development-environments/coder/deploying-koi-on-coder-workspaces.md)
 
-June 2026
+**Inventory**
 
-AI Protection:
+* **View by item** — Switch the inventory from one row per install to one row per unique item. Instead of scrolling past the same package repeated across hundreds of endpoints, you see each item once — with its versions, footprint across the fleet, and risk grouped under the same row. Expand a row to drill into where it's installed and which versions are out there.
+* **Git Repository Discovery \[Preview]** — Koi now surfaces git repositories cloned across your fleet and adds it to a new Repository Inventory, enriched with publisher, stars, license, and risk signals for public GitHub repos.
 
-AI Agents Discovery to identify AI agents across all item types, including binaries and non-binaries, so new and emerging agents surface automatically in your inventory. 
+**Governance**
 
-Skills Discovery - Koi now discovers and inventories Agent Skills installed across AI agents on your endpoints - from the skills.sh and ClawHub registries, as well as self-made and manually installed skills. Each skill is correlated back to its source and surfaced both in a dedicated Skills inventory and as a filterable item type in the Agentic AI Inventory.
+* **NPM package remediation** **\[Preview]** - Remediate critical-risk NPM packages directly from Koi for fast response to supply chain incidents like Shai Hulud. Learn more in the [Docs](/guides/protect-code-packages-with-koi/code-packages-remediation.md).
+  * Want early access? Please contact the Koi Customer Experience team
+* **New Policies page design** - We've redesigned the Policies page to make managing your supply chain gateway easier and more intuitive. The page is now organized into three focused tabs:
+  * **Marketplace Modes** - Configure which marketplaces are blocked by default and which are allowed friction-free. A new toggle-based layout makes enabling "block by default" clearer and simpler to use.
+  * **Policies** - Create custom policies or apply ready-made ones from the Policy Library. Policies can now be reordered via drag-and-drop, and toggling them on or off is a single click.
+  * **Global Lists** - Manage your globally allowed and blocked items in a dedicated, distraction-free tab.
 
-Claude Connectors MCP Governance - Koi extends MCP governance to the Claude Connectors marketplace built into the Claude desktop app. Admins can get visibility on desktop connectors with marketplace metadata, set allow/block lists enforced at install and update time, and remediate connectors already installed on endpoints.
+**End user experience**
 
-MCP Request Approval support - Blocked MCP installs can now be routed through an approval workflow instead of a hard block. When a user tries to install a blocked server, Koi replaces the 'Install' button with Request Approval - the user submits a request, and the admin approves or denies it from the dashboard. Available for the Claude Connectors marketplace and the GitHub MCP Registry (VS Code).
+* **End-User Experience settings** - A new centralized settings page to control how end users experience your security policies - customize block messages for IDE extensions and code packages, configure Slack/Email notifications for policy events, and choose whether blocked items are hidden or shown in IDE marketplaces. Learn more in the [Docs](/guides/end-user-experience-settings.md).
+* **Email Notifications** - Koi now supports end-user email notifications, giving you another way to inform users on policy violations. This feature requires an [Okta](/integration-guides/okta.md) or [Entra ID](/integration-guides/entra-id-integration.md) integration.
 
-Once a runtime policy is live, the side panel now has two additional tabs:
+**UX & Performance**
 
-Policy Hits - Shows every block and ask event the policy fired, grouped by endpoint and agent. Expand any group to see individual events, each showing the matched rule type (File Path, Command, MCP Tool, Skill, or URL) and the matched entity. 
+* Refreshed UI color theme aligned with the **Cortex Palo Alto Networks** brand with a **dark mode**.
+* New **Deployment Portal** brings endpoint deployment and network routing into one place, each with a wizard that walks your team through every option for their stack.
 
-Devices Excluded - The devices currently excluded from the policy, including who approved each exclusion and the justification. This gives admins an audit trail of every exception granted against the policy.
+### April 2026
 
-UX & Performance
+**AI Protection**
 
-Workflow-based navigation that makes it easier to find and manage everything in one place - from inventory to policies and guardrails, with dedicated workspaces for Agentic AI, Non-Binaries, and App Control.
+* **Agentic AI Inventory:** Full visibility into every AI component installed on your endpoint fleet: Plugins, Skills, MCP Servers, platforms, agents, AI extensions, and AI models. Filter by type, risk level, findings, and more to stay on top of what's used across your org.
+* **Ollama model discovery:** Koi now discovers Ollama models installed on endpoints, giving you visibility into locally deployed AI models alongside the rest of your software inventory.
 
-May 2026
-
-AI Protection
-
-Agent Enforcement Custom Policies [Preview] - Define your own runtime rules for what AI coding agents can do - block or ask before they execute. Policies are composed from five rule types: shell commands, file access, MCP tools, skills, and network requests (URLs/IPs). Each policy supports Block (deny outright) or Ask (pause for developer approval) modes, with an estimated impact check showing how many endpoints and actions it would have affected over the last 30 days before you enable it. Learn more.
-
-Agent Runtime Policies API - New public API endpoints for creating, updating, and managing runtime enforcement policies programmatically. Lets customers automate policy management via CI/CD pipelines or custom tooling, instead of only through the Koi portal. Learn more.
-
-New agents supported for Agents runtime - Agent Activity, Guardrails, and Agent Runtime Custom Policies now extend beyond Cursor and Claude Code to three additional AI coding agents:
-
-Codex CLI - Block-mode enforcement across shell, files, MCP tools, skills, and network.
-
-GitHub Copilot CLI - Full coverage including both Block and Ask enforcement modes.
-
-Gemini CLI - Block-mode enforcement across all rule types except network controls (Codex and Gemini CLI run web access through hosted infrastructure, so URL/IP rules are best expressed as shell rules on curl/wget). Learn more.
-
-Remote Developer Environments
-
-Coder support — Coder workspaces now show up in Koi like any other endpoint. The items running inside each workspace are shown in the same inventory, endpoint, and
-dashboard views as any other endpoint. Learn more
-
-Inventory
-
-View by item — Switch the inventory from one row per install to one row per unique item. Instead of scrolling past the same package repeated across hundreds of endpoints, you see each item once — with its versions, footprint across the fleet, and risk grouped under the same row. Expand a row to drill into where it's installed and which versions are out there.
-
-Git Repository Discovery [Preview] — Koi now surfaces git repositories cloned across your fleet and adds it to a new Repository Inventory, enriched with publisher, stars, license, and risk signals for public GitHub repos. 
-
-Governance
-
-NPM package remediation [Preview] - Remediate critical-risk NPM packages directly from Koi for fast response to supply chain incidents like Shai Hulud. Learn more in the Docs.
-
-Want early access? Please contact the Koi Customer Experience team
-
-New Policies page design - We've redesigned the Policies page to make managing your supply chain gateway easier and more intuitive. The page is now organized into three focused tabs:
-
-Marketplace Modes - Configure which marketplaces are blocked by default and which are allowed friction-free. A new toggle-based layout makes enabling "block by default" clearer and simpler to use.
-
-Policies - Create custom policies or apply ready-made ones from the Policy Library. Policies can now be reordered via drag-and-drop, and toggling them on or off is a single click.
-
-Global Lists - Manage your globally allowed and blocked items in a dedicated, distraction-free tab.
-
-End user experience
-
-End-User Experience settings - A new centralized settings page to control how end users experience your security policies - customize block messages for IDE extensions and code packages, configure Slack/Email notifications for policy events, and choose whether blocked items are hidden or shown in IDE marketplaces. Learn more in the Docs.
-
-Email Notifications - Koi now supports end-user email notifications, giving you another way to inform users on policy violations. This feature requires an Okta or Entra ID integration.
-
-UX & Performance
-
-Refreshed UI color theme aligned with the Cortex Palo Alto Networks brand with a dark mode.
-
-New Deployment Portal brings endpoint deployment and network routing into one place, each with a wizard that walks your team through every option for their stack.
-
-April 2026
-
-AI Protection
-
-Agentic AI Inventory: Full visibility into every AI component installed on your endpoint fleet: Plugins, Skills, MCP Servers, platforms, agents, AI extensions, and AI models. Filter by type, risk level, findings, and more to stay on top of what's used across your org.
-
-Ollama model discovery: Koi now discovers Ollama models installed on endpoints, giving you visibility into locally deployed AI models alongside the rest of your software inventory.
-
-Code Package Risk
+**Code Package Risk**
 
 Koi now goes deeper on code package risk - with enhanced malicious intent detection and out of the box prevention policies.
 
-Enhanced detections: Deeper behavioral and structural signals covering obfuscated code, API abuse, data exfiltration, shell execution, persistence, registry access, privilege escalation, and more.
+* **Enhanced detections:** Deeper behavioral and structural signals covering obfuscated code, API abuse, data exfiltration, shell execution, persistence, registry access, privilege escalation, and more.
+* **Expanded policy library:** New and updated built-in policies for code packages covering obfuscated code, malicious dependencies, RCE, prompt injection, and publisher-level signals — strong defaults, zero custom config needed.
 
-Expanded policy library: New and updated built-in policies for code packages covering obfuscated code, malicious dependencies, RCE, prompt injection, and publisher-level signals — strong defaults, zero custom config needed.
+### March 2026
 
-March 2026
+**Code Package Governance**
 
-Code Package Governance
+* **More powerful Code Package policies** - Block and allow policies for code packages now support a significantly broader set of conditions, including all Wings deep risk analysis findings and vulnerability data, giving you more powerful and granular control over what enters your environment.
 
-More powerful Code Package policies - Block and allow policies for code packages now support a significantly broader set of conditions, including all Wings deep risk analysis findings and vulnerability data, giving you more powerful and granular control over what enters your environment.
+**AI Protection**
 
-AI Protection
+* **Claude Code MCP** discovery and remediation - Koi now provides visibility and control over MCP servers used by Claude Code across local, project, and global scopes, including MCPs introduced via plugins.
+* **Hugging Face** search in Koidex - Koidex now includes search for Hugging Face items, enabling to discover models and datasets observed across environments and accelerate investigation and research workflows.
 
-Claude Code MCP discovery and remediation - Koi now provides visibility and control over MCP servers used by Claude Code across local, project, and global scopes, including MCPs introduced via plugins.
+**Binaries Governance**
 
-Hugging Face search in Koidex - Koidex now includes search for Hugging Face items, enabling to discover models and datasets observed across environments and accelerate investigation and research workflows.
+* **Custom block policies for Binaries** - Create binary block policies on macOS devices with granular scoping by organizational profiles.
+* **Productivity Impact Check** - Evaluate the expected productivity impact of binary block policies before enforcement to reduce disruption to business workflows.
+* **End-user notifications and approval workflow for blocked binaries** - When execution is blocked, end users receive a notification and can request administrator approval through a built-in approval flow.
+* **New Guardrail: Block execution from risky paths** - Block execution of binaries from high-risk, user-writable paths such as /tmp, /var/tmp, $TMPDIR, and /Users/Shared/ to reduce exposure to untrusted or potentially unsafe content.
+* **Policy Library templates for Binaries** - Ready-to-use templates help teams quickly block untrusted publishers or applications and adapt enforcement to organizational needs.
 
-Binaries Governance
+**Binaries Discovery**
 
-Custom block policies for Binaries - Create binary block policies on macOS devices with granular scoping by organizational profiles.
+* [Santa integration](https://docs.koi.ai/integration-guides/endpoint-integration/santa-integration) on macOS provides centralized visibility into binary execution on endpoints covered by Koi and synced to Koi Santa sync server.
+* **Binaries Inventory** - A new inventory view that provides visibility into binaries observed across macOS endpoints, including file name, SHA-256, signing context, first seen, last seen, last used, path, and more.
 
-Productivity Impact Check - Evaluate the expected productivity impact of binary block policies before enforcement to reduce disruption to business workflows.
+**API & Integrations**
 
-End-user notifications and approval workflow for blocked binaries - When execution is blocked, end users receive a notification and can request administrator approval through a built-in approval flow.
+* [Reports API](https://docs.koi.ai/api-reference/reference/reports) **-** Export Koi inventory reports for installed items via `POST /api/external/v2/reports`, then poll `GET /api/external/v2/reports/{report_id}` for a `download_url` (presigned, 12-hour expiry).
+* **Search inventory** **API -** Build queries with AND/OR logic and advanced filters through the [Search inventory API](https://docs.koi.ai/api-reference/reference/inventory#post-api-external-v2-inventory-search), enabling precise, automated inventory investigations.
+* **Validate Webhook Integration** with a Test Webhook capability that sends a live sample payload to your configured endpoint using your existing headers.
+* **Establish Network route via PAC file** - distribute by a click Koi PAC configuration on ALL devices running the Koi script via the deployment portal.
 
-New Guardrail: Block execution from risky paths - Block execution of binaries from high-risk, user-writable paths such as /tmp, /var/tmp, $TMPDIR, and /Users/Shared/ to reduce exposure to untrusted or potentially unsafe content.
+**UX & Performance**
 
-Policy Library templates for Binaries - Ready-to-use templates help teams quickly block untrusted publishers or applications and adapt enforcement to organizational needs.
+* Consolidated view of key metrics on the **Dashboard** page with Risk distribution (Critical / High / Medium / Low) over different item types and Risk overtime view.
+* New **Audit & Koidex pages** with a cleaner, easier-to-navigate and filter layout.
+* New **item** and **endpoint** **drawers** - A redesigned drawer experience across items and endpoints, providing a faster, more consistent, and structured way to explore details, investigate risk, and understand context directly within Koi.
 
-Binaries Discovery
+**Audit**
 
-Santa integration on macOS provides centralized visibility into binary execution on endpoints covered by Koi and synced to Koi Santa sync server.
+* **Enhanced audit logs** - Audit logs have been significantly improved to provide more complete, structured, and actionable visibility into both user and system activity, making it easier to investigate changes and track actions across Koi.
 
-Binaries Inventory - A new inventory view that provides visibility into binaries observed across macOS endpoints, including file name, SHA-256, signing context, first seen, last seen, last used, path, and more.
+***
 
-API & Integrations
+### February 2026
 
-Reports API - Export Koi inventory reports for installed items via POST /api/external/v2/reports, then poll GET /api/external/v2/reports/{report_id} for a download_url (presigned, 12-hour expiry).
+**AI Protection**
 
-Search inventory API - Build queries with AND/OR logic and advanced filters through the Search inventory API, enabling precise, automated inventory investigations.
+* **OpenAI Codex MCP Discovery -** Koi's MCP inventory now includes visibility into MCP servers configured with OpenAI's Codex platform. Codex connects to MCP servers to access external tools and services as part of its automated workflows - extending consistent MCP visibility across your organization. The Codex application and Codex CLI are also discoverable in the relevant inventories.
+* **New MCP Security Findings -** Five new finding types now surface risk in MCP tool configurations: **Tool Poisonin**g, **Tool Shadowing**, **Vulnerable to Prompt Injection**, **Data Export Capability**, and **Arbitrary Code Execution**. These findings help security teams identify risky MCP tool behaviors before they cause damage.
+* **OpenClaw (previously Clawdbot/Moltbot) Discovery & Blocking -** Koi discovers OpenClaw (Clawdbot/Moltbot) across npm, Homebrew, and macOS app installations. A ready-to-use "Block ClawdBot" policy is available in the Policy Library under AI, enabling immediate blocking or alerting across your environment.
 
-Validate Webhook Integration with a Test Webhook capability that sends a live sample payload to your configured endpoint using your existing headers.
+**Applications Inventory & Discovery**
 
-Establish Network route via PAC file - distribute by a click Koi PAC configuration on ALL devices running the Koi script via the deployment portal.
+* **Richer Application details**, adding usage and signing context so teams can understand what is actually running, and make better governance decisions.
+  * **Last used** shows the most recent time the application was used in the organization. Use it to find apps that have not been used in the last 30, 60, or 90 days, identify cleanup candidates, and reduce exposure to outdated or unnecessary software.
+  * **Signing identity** adds **Team ID** and **Signing ID** to reliably attribute macOS applications to the signing developer and group all versions of the same app under the same identity.
+  * **Signature and certificate context** is now available directly in the application view, giving teams better certificate hygiene insights and making it easier to review certificates across the organization.
+    * Including data such as Is Signed, Certificate Expiration Status, Certificate Expiration Date, Certificate Issuer, Key Size, Certificate Signature Algorithm, and Signing Certificate Hash.
+    * You can quickly spot potentially less secure certificates, such as certificates that are expired, expiring soon (60 days or less), using short key sizes (below 2048 bits), or signed with weak algorithms (SHA-1, MD5).
+  * **SHA256** is shown for precise identification of the specific binary version observed.
 
-UX & Performance
+**Applications Governance**
 
-Consolidated view of key metrics on the Dashboard page with Risk distribution (Critical / High / Medium / Low) over different item types and Risk overtime view.
+* Added **alert policies for Applications** to surfaces installed applications that matches your risk conditions.
 
-New Audit & Koidex pages with a cleaner, easier-to-navigate and filter layout.
+**Governance**
 
-New item and endpoint drawers - A redesigned drawer experience across items and endpoints, providing a faster, more consistent, and structured way to explore details, investigate risk, and understand context directly within Koi.
+* **New guardrails support for Code packages:**
+  * The ***Delayed Access*** guardrail now supports npm and PyPI packages, blocking installation of newly published packages for a configurable period to protect against zero-day supply chain attacks.
+  * ***Version update cooldown*** is now also supported for PyPi packages, allowing you to configure a set period of time before a new version of a PyPi package can be pulled.
 
-Audit
+***
 
-Enhanced audit logs - Audit logs have been significantly improved to provide more complete, structured, and actionable visibility into both user and system activity, making it easier to investigate changes and track actions across Koi.
+### January 2026
 
-February 2026
+**AI Inventory & Risk Analysis**
 
-AI Protection
+* **Enhanced MCP risk context**, giving teams visibility into *how* MCP servers introduce risk, not just where they exist.
+  * View **tools exposed by MCP servers**, whether local or remote.
+  * Understand **tool capabilities**, including code execution, OS commands, data writes, and data export.
+  * See **MCP** **authentication methods** (no auth, API keys, OAuth).
+* **Agent Activity** provides deep, investigation-ready visibility into what agents actually do across your environment. This feature is in early access starting with **Cursor** and **Claude Code**.
+  * **Tool Activity view** shows which MCPs and tools agents invoke and how executions resolve.
+  * **All Activity view** offers a unified, filterable feed of agent events across endpoints, agents, tools, and models for audits and investigations.
 
-OpenAI Codex MCP Discovery - Koi's MCP inventory now includes visibility into MCP servers configured with OpenAI's Codex platform. Codex connects to MCP servers to access external tools and services as part of its automated workflows - extending consistent MCP visibility across your organization. The Codex application and Codex CLI are also discoverable in the relevant inventories.
+**Inventory & Discovery**
 
-New MCP Security Findings - Five new finding types now surface risk in MCP tool configurations: Tool Poisoning, Tool Shadowing, Vulnerable to Prompt Injection, Data Export Capability, and Arbitrary Code Execution. These findings help security teams identify risky MCP tool behaviors before they cause damage.
+* **\[Gradual rollout] Chocolatey package discovery** extends software visibility to Windows OS packages installed via Chocolatey.
 
-OpenClaw (previously Clawdbot/Moltbot) Discovery & Blocking - Koi discovers OpenClaw (Clawdbot/Moltbot) across npm, Homebrew, and macOS app installations. A ready-to-use "Block ClawdBot" policy is available in the Policy Library under AI, enabling immediate blocking or alerting across your environment.
+**Remediation**
 
-Applications Inventory & Discovery
+* **Item-level force remediation**, allowing force enforcement to be applied **per item** instead of relying on a global setting.
+  * Clear **Pending remediation status**, showing exactly what’s blocking completion.
+  * Full transparency into **what processes or dependencies will be force-closed** before enforcement.
+  * Eliminates stalled remediations while ensuring force actions are applied only when truly required.
 
-Richer Application details, adding usage and signing context so teams can understand what is actually running, and make better governance decisions.
+**Threat Intelligence & Malware Context**
 
-Last used shows the most recent time the application was used in the organization. Use it to find apps that have not been used in the last 30, 60, or 90 days, identify cleanup candidates, and reduce exposure to outdated or unnecessary software.
+* **Expanded malicious version visibility** in item reports.
+  * View **all known malicious versions** of an item, not just the currently selected one.
 
-Signing identity adds Team ID and Signing ID to reliably attribute macOS applications to the signing developer and group all versions of the same app under the same identity.
+**Documentation & Access**
 
-Signature and certificate context is now available directly in the application view, giving teams better certificate hygiene insights and making it easier to review certificates across the organization.
+* **New Koi documentation platform** is now live.
+  * Access docs at **docs.koi.ai** using your existing Koi platform credentials for simpler, unified access.
 
-Including data such as Is Signed, Certificate Expiration Status, Certificate Expiration Date, Certificate Issuer, Key Size, Certificate Signature Algorithm, and Signing Certificate Hash.
+***
 
-You can quickly spot potentially less secure certificates, such as certificates that are expired, expiring soon (60 days or less), using short key sizes (below 2048 bits), or signed with weak algorithms (SHA-1, MD5).
+### December 2025
 
-SHA256 is shown for precise identification of the specific binary version observed.
+**API & Integrations**
 
-Applications Governance
+* Introduced **Koi API v2**, delivering a modern RESTful design with resource-based URLs, consistent schemas, and improved reliability for large-scale integrations.
+  * Fully **OCSF-aligned Alerts API**, making it easier to normalize, correlate, and ingest Koi alerts into SIEM and SOAR platforms.
+  * **Transaction-based batch operations**, ensuring atomic, all-or-nothing processing to prevent partial or inconsistent updates.
+  * Expanded and refined **API documentation**, including clearer examples, full response schemas, and explicit error handling guidance.
+  * Announced **API v1 deprecation timeline** (January 31, 2026), with a supported transition period to help teams migrate safely to v2.
 
-Added alert policies for Applications to surfaces installed applications that matches your risk conditions.
+**UX & Performance**
 
-Governance
+* Major performance improvements to **Inventory views**.
+* A new **Endpoints page** with a cleaner, easier-to-navigate and filter layout.
+* The **Items Report** now includes **campaign-level context** for risky items, directly showing when an item is associated with a known malicious campaign.
 
-New guardrails support for Code packages:
+**Governance**
 
-The Delayed Access guardrail now supports npm and PyPI packages, blocking installation of newly published packages for a configurable period to protect against zero-day supply chain attacks.
+* **Impact checks** now show a full list of installed items that match the guardrail conditions, along with affected endpoints and endpoint groups including the name, devices, publisher, platform, and marketplace for each impacted item.
 
-Version update cooldown is now also supported for PyPi packages, allowing you to configure a set period of time before a new version of a PyPi package can be pulled.
+**MCP Governance**
 
-January 2026
+* Added **alert policies for MCP** to surfaces installed MCP servers that matches your risk conditions.
 
-AI Inventory & Risk Analysis
+**Remediation**
 
-Enhanced MCP risk context, giving teams visibility into how MCP servers introduce risk, not just where they exist.
+* **Force remediation for Windows** ensures extensions are fully removed when enforcement is required even if the hosting application is still open. Force remediation can now be enabled in Settings → Advanced to enforce extensions removal across browsers, IDEs, and Notepad++.
 
-View tools exposed by MCP servers, whether local or remote.
+***
 
-Understand tool capabilities, including code execution, OS commands, data writes, and data export.
+### November 2025
 
-See MCP authentication methods (no auth, API keys, OAuth).
+**Endpoint Lifecycle Management**
 
-Agent Activity provides deep, investigation-ready visibility into what agents actually do across your environment. This feature is in early access starting with Cursor and Claude Code.
+* **Manually or automatically archive inactive endpoints**, ensuring dashboards and remediation views reflect only relevant, active assets.
 
-Tool Activity view shows which MCPs and tools agents invoke and how executions resolve.
+**Governance**
 
-All Activity view offers a unified, filterable feed of agent events across endpoints, agents, tools, and models for audits and investigations.
+* **Metadata-based policies for PyPI packages**, enabling governance based on package and publisher metadata, similar to existing npm controls.
 
-Inventory & Discovery
+**Audit**
 
-[Gradual rollout] Chocolatey package discovery extends software visibility to Windows OS packages installed via Chocolatey.
+* Enhanced **remediation audit logs** with richer context, such as who initiated remediation and why.
 
-Remediation
+**UX & Performance**
 
-Item-level force remediation, allowing force enforcement to be applied per item instead of relying on a global setting.
+* New **policy creation wizard** to simplify governance workflows.
+* Refreshed navigation bar, an improved remediation page, and **faster inventory performance** for smoother day-to-day operations.
+* New export options, including **Inventory by instance** (endpoint-level detail) and a **Risk report PDF** for easier sharing and audits.
 
-Clear Pending remediation status, showing exactly what’s blocking completion.
+**MCP Governance**
 
-Full transparency into what processes or dependencies will be force-closed before enforcement.
+* **MCP governance capabilities**, including prevention and remediation:
+  * **Control what can be used** - Define which MCP servers are **allowed or blocked across your org**.
+  * Match enforcement to your risk approach - Start with monitor-only visibility, apply targeted **block policies**, or go strict with full **allowlist mode**.
+  * **New Guardrail: MCP Registry Monitoring** - Ensure MCP servers can only be installed from the official MCP registry on supported platforms.
+  * **Remediate safely from one place** - Continuously surface violating MCPs and remove them with one click, without disrupting end-user workflows.
 
-Eliminates stalled remediations while ensuring force actions are applied only when truly required.
+***
 
-Threat Intelligence & Malware Context
+### October 2025
 
-Expanded malicious version visibility in item reports.
+**API & Integrations**
 
-View all known malicious versions of an item, not just the currently selected one.
+* New **Inventory APIs** that provide programmatic access to installed items, with rich filtering and endpoint-level context.
 
-Documentation & Access
+**Coverage Expansion**
 
-New Koi documentation platform is now live.
+* Expanded visibility and governance to include the **GitHub MCP registry**, **Kiro IDE**, and **ChatGPT Atlas**, extending protection to emerging platforms.
 
-Access docs at docs.koi.ai using your existing Koi platform credentials for simpler, unified access.
+**Governance**
 
-December 2025
+* **Granular version update cooldown controls**, allowing per-marketplace and per-item configuration.
+* **Custom Hugging Face policies** based on marketplace metadata.
 
-API & Integrations
+**UX & Performance**
 
-Introduced Koi API v2, delivering a modern RESTful design with resource-based URLs, consistent schemas, and improved reliability for large-scale integrations.
+* **Activation status filtering** to help teams prioritize items that are actively enabled in their environment.
 
-Fully OCSF-aligned Alerts API, making it easier to normalize, correlate, and ingest Koi alerts into SIEM and SOAR platforms.
+***
 
-Transaction-based batch operations, ensuring atomic, all-or-nothing processing to prevent partial or inconsistent updates.
+### September 2025
 
-Expanded and refined API documentation, including clearer examples, full response schemas, and explicit error handling guidance.
+**Remediation**
 
-Announced API v1 deprecation timeline (January 31, 2026), with a supported transition period to help teams migrate safely to v2.
+* Support for **item- and version-specific remediation directly from the inventory**, without requiring a global block policy.
+* Remediation for**Hugging Face models and data sets**.
 
-UX & Performance
+**Governance**
 
-Major performance improvements to Inventory views.
+* **Marketplace-level configuration** for Allowlist and Blocklist modes, with clearer, more consistent governance controls per marketplace.
 
-A new Endpoints page with a cleaner, easier-to-navigate and filter layout.
+**Notifications**
 
-The Items Report now includes campaign-level context for risky items, directly showing when an item is associated with a known malicious campaign.
+* **Customizable Slack notifications** for end users, allowing admins to tailor messaging, tone, and included details.
 
-Governance
+**API & Integrations**
 
-Impact checks now show a full list of installed items that match the guardrail conditions, along with affected endpoints and endpoint groups including the name, devices, publisher, platform, and marketplace for each impacted item.
+* Enhanced the **Audit Log API** with improved querying, structured responses, and higher fetch limits.
 
-MCP Governance
+**Inventory & Discovery**
 
-Added alert policies for MCP to surfaces installed MCP servers that matches your risk conditions.
+* **Installation method visibility** (Marketplace, Manual, Built-in, Sideloaded) available in inventories to improve traceability and items risk assessment.
 
-Remediation
+***
 
-Force remediation for Windows ensures extensions are fully removed when enforcement is required even if the hosting application is still open. Force remediation can now be enabled in Settings → Advanced to enforce extensions removal across browsers, IDEs, and Notepad++.
+### August 2025
 
-November 2025
+**Inventory & Discovery**
 
-Endpoint Lifecycle Management
+* Expanded inventory to provide **complete asset visibility**, including items installed via sideloading or private sources.
+* **PyPI package discovery**- enabling monitoring of Python packages across endpoints.
+* Introduced the **MCP Servers Inventory (preview)**, providing real-time visibility into local and remote MCP servers across IDEs and AI tools.
 
-Manually or automatically archive inactive endpoints, ensuring dashboards and remediation views reflect only relevant, active assets.
+**Governance**
 
-Governance
+* **Policy scopes by item type** (Extensions, OS packages, Code packages) for more precise governance.
+* **npm package prevention** (available for SWG-integrated customers).
+* **PyPI prevention** via global blocklists.
+* Added **impact checks** to preview the effect of guardrails before enforcement.
 
-Metadata-based policies for PyPI packages, enabling governance based on package and publisher metadata, similar to existing npm controls.
+**Notifications**
 
-Audit
+* Enabled **end-user notifications** for **alert policies** to support progressive enforcement.
 
-Enhanced remediation audit logs with richer context, such as who initiated remediation and why.
+***
 
-UX & Performance
+### July 2025
 
-New policy creation wizard to simplify governance workflows.
+**Governance**
 
-Refreshed navigation bar, an improved remediation page, and faster inventory performance for smoother day-to-day operations.
+* **Granular guardrail configuration by endpoint group**, enabling targeted enforcement across different environments.
+* **Alert-only mode** for applicable guardrails, allowing teams to detect risk without immediately blocking or remediating.
+* Enhanced **global allowlist and blocklist management** with **CSV export**, improved auditing, and clearer conflict handling.
+  * Added visibility into **who added each item** and how many **endpoints are affected**, improving traceability.
+  * Enabled notes and renaming for non-marketplace items to improve collaboration and clarity.
 
-New export options, including Inventory by instance (endpoint-level detail) and a Risk report PDF for easier sharing and audits.
+**UX & Performance**
 
-MCP Governance
+* **Customizable inventory and endpoint views**, allowing teams to tailor visible columns to their workflows.
 
-MCP governance capabilities, including prevention and remediation:
+***
 
-Control what can be used - Define which MCP servers are allowed or blocked across your org.
+*Want early access to upcoming features? Contact your Koi point of contact.*
 
-Match enforcement to your risk approach - Start with monitor-only visibility, apply targeted block policies, or go strict with full allowlist mode.
 
-New Guardrail: MCP Registry Monitoring - Ensure MCP servers can only be installed from the official MCP registry on supported platforms.
+---
 
-Remediate safely from one place - Continuously surface violating MCPs and remove them with one click, without disrupting end-user workflows.
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
 
-October 2025
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation by asking a question.
 
-API & Integrations
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
 
-New Inventory APIs that provide programmatic access to installed items, with rich filtering and endpoint-level context.
+```
+GET https://docs.koi.ai/get-started/whats-new-in-koi.md?ask=<question>&goal=<user_goal>
+```
 
-Coverage Expansion
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
 
-Expanded visibility and governance to include the GitHub MCP registry, Kiro IDE, and ChatGPT Atlas, extending protection to emerging platforms.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
 
-Governance
-
-Granular version update cooldown controls, allowing per-marketplace and per-item configuration.
-
-Custom Hugging Face policies based on marketplace metadata.
-
-UX & Performance
-
-Activation status filtering to help teams prioritize items that are actively enabled in their environment.
-
-September 2025
-
-Remediation
-
-Support for item- and version-specific remediation directly from the inventory, without requiring a global block policy.
-
-Remediation forHugging Face models and data sets.
-
-Governance
-
-Marketplace-level configuration for Allowlist and Blocklist modes, with clearer, more consistent governance controls per marketplace.
-
-Notifications
-
-Customizable Slack notifications for end users, allowing admins to tailor messaging, tone, and included details.
-
-API & Integrations
-
-Enhanced the Audit Log API with improved querying, structured responses, and higher fetch limits.
-
-Inventory & Discovery
-
-Installation method visibility (Marketplace, Manual, Built-in, Sideloaded) available in inventories to improve traceability and items risk assessment.
-
-August 2025
-
-Inventory & Discovery
-
-Expanded inventory to provide complete asset visibility, including items installed via sideloading or private sources.
-
-PyPI package discovery- enabling monitoring of Python packages across endpoints.
-
-Introduced the MCP Servers Inventory (preview), providing real-time visibility into local and remote MCP servers across IDEs and AI tools.
-
-Governance
-
-Policy scopes by item type (Extensions, OS packages, Code packages) for more precise governance.
-
-npm package prevention (available for SWG-integrated customers).
-
-PyPI prevention via global blocklists.
-
-Added impact checks to preview the effect of guardrails before enforcement.
-
-Notifications
-
-Enabled end-user notifications for alert policies to support progressive enforcement.
-
-July 2025
-
-Governance
-
-Granular guardrail configuration by endpoint group, enabling targeted enforcement across different environments.
-
-Alert-only mode for applicable guardrails, allowing teams to detect risk without immediately blocking or remediating.
-
-Enhanced global allowlist and blocklist management with CSV export, improved auditing, and clearer conflict handling.
-
-Added visibility into who added each item and how many endpoints are affected, improving traceability.
-
-Enabled notes and renaming for non-marketplace items to improve collaboration and clarity.
-
-UX & Performance
-
-Customizable inventory and endpoint views, allowing teams to tailor visible columns to their workflows.
-
-Want early access to upcoming features? Contact your Koi point of contact.
-
-Previous
-Capabilities coverage
-Next
-Contacting Support
-
-Last updated 3 days ago
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

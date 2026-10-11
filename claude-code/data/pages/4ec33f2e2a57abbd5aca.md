@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/onboard-and-activate-cloud-account-in-scm/aws-onboarding-prereqs-and-steps/onboard-aws-cloud-account-in-scm
-fetched_at: 2026-09-16T07:54:36Z
+fetched_at: 2026-10-11T09:52:34Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Tue Aug 11 09:28:58 PDT 2026 
+ Oct 5, 2026 
 
  Focus 
 
@@ -16,11 +16,11 @@ Updated on
 
  Prisma AIRS 
 
- Activation & Onboarding 
+ AI Inventory 
+
+ Cloud Resource Discovery 
 
  Onboard and Activate a Cloud Account in Strata Cloud Manager 
-
- Onboard Cloud Account in AWS 
 
  Onboard AWS Cloud Account in Strata Cloud Manager 
 
@@ -38,15 +38,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -54,11 +62,11 @@ Updated on
 
  Previous 
 
- AWS Cloud Account Onboarding Prerequisites 
+ AWS Cloud Account Onboarding 
 
  Next 
 
- AWS Required Permissions 
+ Azure Cloud Account Onboarding Prerequisites 
 
  Onboard AWS Cloud Account in Strata Cloud Manager 
 
@@ -86,12 +94,11 @@ Updated on
 
  Log in to Strata Cloud Manager . 
 
- Select AI Security → AI
- Runtime → AI Runtime Firewall . (If you are
- onboarding for the first time, click Get Started . 
+ Select AI Security AI Runtime AI Runtime Firewall . (If you are
+ onboarding for the first time, click Get Started .) 
 
  If you have previously onboarded a cloud account; from the top right corner,
- click the Cloud Account Manager (cloud) icon. 
+ click Cloud Account Manager (cloud icon). 
 
  Select Cloud Service Provider as AWS and select
  Next . 
@@ -250,8 +257,7 @@ cross_account_role_arn = "arn:aws:iam::10xxxx684868:role/airs-prod-role-2"
  Alternatively, you can also fetch the role ARN in
  the AWS Management Console. Navigate to IAM > Access Management >
  Roles , select the role name you entered in step 6 and copy the ARN
- from the summary page. If the IAM role is specific for the Cloud IP Tag
- Service, do not copy the suffix of _ip_tag . 
+ from the summary page. 
 
  Select Done . 
 
@@ -260,10 +266,10 @@ cross_account_role_arn = "arn:aws:iam::10xxxx684868:role/airs-prod-role-2"
 
  Sign in to the Amazon EKS Console. 
 
- Navigate to the EKS Console and click on your EKS cluster. 
+ Open the EKS Console and click on your EKS cluster. 
 
  In the Access tab, select the IAM access entries section.
- Click the Create access entry button. 
+ Click Create access entry . 
 
  Find the IAM principal ARN role that was created as part of the
  onboarding process when you executed the onboarding Terraform. 
@@ -275,8 +281,8 @@ cross_account_role_arn = "arn:aws:iam::10xxxx684868:role/airs-prod-role-2"
  You can now view and manage the onboarded cloud
  accounts in Strata Cloud Manager. 
 
- To discover your protected and unprotected cloud assets, see the page on discovering your cloud
- resources . 
+ Discover your protected and unprotected cloud
+ assets . 
  This validates the successful creation of a service account in AWS. 
 
  Initial data should populate on Strata Cloud Manager 
@@ -296,14 +302,13 @@ cross_account_role_arn = "arn:aws:iam::10xxxx684868:role/airs-prod-role-2"
 
  When you onboard an AWS cloud account, consider the following: 
 
- For new accounts, you'll need to onboard a cloud account if one is not
+ For new accounts, onboard a cloud account if one is not
  present in the tenant. 
 
  For existing accounts in an enabled state, you need to re-apply the
  Terraform to provide AI Agent Discovery access for existing onboarded
  accounts. This process updates the inline discovery permissions. To re-apply
- the onboarding Terraform, refer to Step 12 (Download
- Terraform) above: 
+ the onboarding Terraform, see step 12 (Download Terraform) above: 
 
  For existing accounts in a disabled state (that is, cloud accounts
  that are disabled), attempts to re-enable the account results in failed
@@ -312,8 +317,8 @@ cross_account_role_arn = "arn:aws:iam::10xxxx684868:role/airs-prod-role-2"
 
  Previous 
 
- AWS Cloud Account Onboarding Prerequisites 
+ AWS Cloud Account Onboarding 
 
  Next 
 
- AWS Required Permissions
+ Azure Cloud Account Onboarding Prerequisites

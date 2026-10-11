@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/activate-your-ai-runtime-security-license/activate-your-software-ngfw-credits
-fetched_at: 2026-09-16T07:54:34Z
+fetched_at: 2026-10-11T09:52:32Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Aug 11, 2026 
+ Sep 9, 2026 
 
  Focus 
 
@@ -16,9 +16,7 @@ Updated on
 
  Prisma AIRS 
 
- Activation & Onboarding 
-
- Prisma AIRS Licenses 
+ Activation and Onboarding 
 
  Activate Your Software NGFW Credits 
 
@@ -36,15 +34,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -52,37 +58,31 @@ Updated on
 
  Previous 
 
- Prisma AIRS Licenses 
+ Token Based Licensing for AIRS Runtime API 
 
  Next 
 
- Activate Strata Logging Service 
+ Renew Your Software NGFW Credits 
 
  Activate Your Software NGFW Credits 
 
  Complete this process to activate your Software NGFW Credits. 
 
- This section covers the steps to activate your software NGFW credits to use Prisma AIRS intercepts. 
-
  Where Can I Use This? What Do I Need? 
 
- Prisma AIRS AI Runtime: Network
- intercept 
+ Prisma AIRS 
 
- Prisma AIRS AI Runtime: API
- intercept 
+ Palo Alto Networks Customer Support Portal 
 
- Prisma AIRS Licenses
- (BYOL) 
+ Prisma AIRS license (BYOL) 
 
  Access to the Customer Support Portal 
 
  Credit Administrator privileges 
 
- To use Prisma AIRS AI Runtime: Network
- intercept or Prisma AIRS AI Runtime: API intercept, you must
- activate your Software NGFW Credits using the Palo Alto Networks Customer Support
- Portal. These credits enable your deployments and are tied to your BYOL Prisma AIRS license. 
+ To use any Prisma AIRS capability, you must activate your Software NGFW Credits
+ using the Palo Alto Networks Customer Support Portal. These credits enable your
+ deployments and are tied to your BYOL Prisma AIRS license. 
 
  In the email, click Start Activation to view your available credit
  pools. 
@@ -92,15 +92,15 @@ Updated on
  they will be automatically selected by default. Check marks indicate which pools
  are eligible for activation and onboarding. 
 
- When proceeding, you'll be prompted to sign in or authenticate. 
+ When proceeding, you will be prompted to sign in or authenticate. 
 
  If you deselect a credit pool, a reminder appears letting you know that
- you’ll need to return to activate it later. 
+ you will need to return to activate it later. 
 
- If you're an existing superuser or admin, the Credit Admin role is
+ If you are an existing superuser or admin, the Credit Admin role is
  automatically added to your profile. 
 
- If you're new to the Customer Support Portal, an account is created for you
+ If you are new to the Customer Support Portal, an account is created for you
  with the Credit Admin role assigned. 
 
  Select Start Activation . 
@@ -128,8 +128,8 @@ Updated on
 
  Previous 
 
- Prisma AIRS Licenses 
+ Token Based Licensing for AIRS Runtime API 
 
  Next 
 
- Activate Strata Logging Service
+ Renew Your Software NGFW Credits

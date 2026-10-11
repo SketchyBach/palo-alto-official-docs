@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/ai-supply-chain-security/model-security-to-secure-your-ai-models/get-started-with-ai-model-security/install-ai-model-security
-fetched_at: 2026-09-16T07:54:51Z
+fetched_at: 2026-10-11T09:52:12Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Sep 1, 2026 
+ Tue Sep 15 00:43:53 PDT 2026 
 
  Focus 
 
@@ -18,7 +18,9 @@ Updated on
 
  AI Supply Chain Security 
 
- Secure Your AI Models with AI Model Security 
+ AI Supply Chain Security 
+
+ AI Model Security Overview 
 
  Get Started with AI Model Security 
 
@@ -38,15 +40,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -71,11 +81,11 @@ Updated on
 
  Prisma AIRS AI Model Security License 
 
- SCM IAM Service Account with appropriate permissions 
+ Strata Cloud Manager IAM Service Account with appropriate permissions 
 
- Pre-requisites 
+ Prerequisites 
 
- This section outlines the pre-requisites for
+ This section outlines the prerequisites for
  implementing AI Model Security with Palo Alto Networks SASE
  integration. 
  Network Configurations 
@@ -249,9 +259,9 @@ export MODEL_SECURITY_API_ENDPOINT="https://api.sase.paloaltonetworks.com/aims"
 
  Environmental Variable Description 
 
- MODEL_SECURITY_CLIENT_ID Client ID of the SCM service account. 
+ MODEL_SECURITY_CLIENT_ID Client ID of the Strata Cloud Manager service account. 
 
- MODEL_SECURITY_CLIENT_SECRET Client secret of the SCM service account. 
+ MODEL_SECURITY_CLIENT_SECRET Client secret of the Strata Cloud Manager service account. 
 
  TSG_ID TSG ID of your tenant service group. 
 

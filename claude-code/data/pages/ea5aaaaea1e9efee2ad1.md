@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/hyperscale-security-fabric/cluster-configuration
-fetched_at: 2026-09-16T07:54:42Z
+fetched_at: 2026-10-11T09:53:36Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Thu Oct 01 08:11:56 PDT 2026 
 
  Focus 
 
@@ -16,9 +16,9 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
- Prisma AIRS as a Firewall - Hyperscale Security Fabric 
+ AIRS VM Firewall 
 
  Cluster Configuration 
 
@@ -36,15 +36,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -52,11 +60,11 @@ Updated on
 
  Previous 
 
- Cluster Management 
+ HSF Deployment with Software Firewall Orchestration Plugin 
 
  Next 
 
- Cluster Monitoring & Visibility in Panorama 
+ Cluster Management 
 
  Cluster Configuration 
 
@@ -119,8 +127,8 @@ Updated on
 
  Previous 
 
- Cluster Management 
+ HSF Deployment with Software Firewall Orchestration Plugin 
 
  Next 
 
- Cluster Monitoring & Visibility in Panorama
+ Cluster Management

@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/ai-supply-chain-security/model-security-to-secure-your-ai-models/get-started-with-ai-model-security/scanning-models
-fetched_at: 2026-09-16T07:54:51Z
+fetched_at: 2026-10-11T09:52:40Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Sep 1, 2026 
+ Tue Sep 15 00:43:53 PDT 2026 
 
  Focus 
 
@@ -18,7 +18,9 @@ Updated on
 
  AI Supply Chain Security 
 
- Secure Your AI Models with AI Model Security 
+ AI Supply Chain Security 
+
+ AI Model Security Overview 
 
  Get Started with AI Model Security 
 
@@ -38,15 +40,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -92,15 +102,15 @@ Updated on
 
  You cannot delete a scan. 
 
- Scan a Hugging Face Model 
+ Hugging Face Model Scans 
 
- Scan a Local Model 
+ Local Model Scans 
 
- Scan a Model from Object Storage 
+ Model Scans from Object Storage 
 
  Customize Model Scans 
 
- Scan a Hugging Face Model 
+ Hugging Face Model Scans 
 
  Scan a model hosted on Hugging Face. 
 
@@ -204,7 +214,7 @@ result = client.scan (
  ignore_patterns=["*.md", "*.txt"]
 )
 
- Scan a Local Model 
+ Local Model Scans 
 
  Scan a model that is stored locally. 
 
@@ -257,7 +267,7 @@ result = client.scan (
  labels={ "env": "production" }
 ) 
 
- Scan a Model from Object Storage 
+ Model Scans from Object Storage 
 
  Scan a model from object storages like Amazon S3, Google Cloud Storage, Azure Blob
  Storage, JFrog Artifactory, and Gitlab Model Registry. 

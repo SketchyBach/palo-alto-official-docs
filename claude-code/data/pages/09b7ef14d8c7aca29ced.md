@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/ai-skill-security/submit-a-skill-for-scanning
-fetched_at: 2026-09-16T07:54:49Z
+fetched_at: 2026-10-11T09:52:10Z
 source: ai-security
 ---
 

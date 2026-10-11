@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-red-teaming/identify-ai-system-risks-with-ai-red-teaming/get-started-with-prisma-airs-ai-red-teaming/targets/custom-target-adapters/attach-a-custom-target-adapter-to-a-target
-fetched_at: 2026-09-16T07:54:59Z
+fetched_at: 2026-10-11T09:52:39Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Fri Sep 11 10:21:31 PDT 2026 
+ Thu Oct 08 01:37:28 PDT 2026 
 
  Focus 
 
@@ -42,15 +42,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -105,6 +113,17 @@ Updated on
  After specifying Target Details , set the
  Connection Method to Custom
  Adapter . 
+
+ ( Mandatory ) In the Supported Target Modality 
+ section, select the modalities supported by the target. 
+
+ You must select at least one modality. The available options are: 
+
+ Text —Select to deliver text-based attacks to the
+ target. 
+
+ Audio —Select to enable audio-based attacks for
+ voice-enabled targets. 
 
  Configure Endpoint Accessibility . This field indicates
  if your endpoint is Public or
@@ -203,6 +222,9 @@ Updated on
  target endpoint with the right prompts. All information gathered through
  this exercise is presented as the Target's profile and is used
  downstream in AI Red Teaming Scans using the Agent. 
+
+ Agentic Profiling is disabled for audio-only
+ targets. 
 
  Select Submit . 
 

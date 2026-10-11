@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security
-fetched_at: 2026-09-16T07:54:34Z
+fetched_at: 2026-10-11T09:52:08Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Fri Sep 11 09:58:38 PDT 2026 
+ Thu Oct 08 02:00:58 PDT 2026 
 
  Focus 
 
@@ -18,250 +18,50 @@ Updated on
 
  Prisma AIRS 
 
- Palo Alto Networks  Prisma AIRS™  is a purpose-built, centralized, comprehensive security platform. 
+ Adopt AI with confidence. Protect it at scale. 
 
-It protects the entire AI ecosystem, including AI application, AI model, AI data protection, and AI Agent protection.  
+ Secure AI at Every Stage 
 
-Prisma AIRS includes features like AI Runtime Firewall , AI Runtime API  ( API reference docs ),  AI Model Security  ( learn more ),  AI Red Teaming  ( learn more ), and  posture management . 
+ Prisma® AIRS™  is Palo Alto Networks' comprehensive AI security platform. It protects AI applications, models, agents, and infrastructure at every stage of the AI lifecycle, from development and deployment to runtime operations and continuous governance. 
 
- AI Runtime Firewall  protects your organization’s cloud network architecture from AI-specific and conventional network attacks by leveraging real-time, AI-powered security. It secures your next-generation AI applications, AI models, and AI datasets from network threats such as prompt injections, sensitive data leakage, insecure output (for example, malware and URLs), and model DoS attacks. 
+ As organizations rapidly adopt AI, traditional security approaches fall short. New risks emerge: prompt injection and model manipulation, AI supply chain vulnerabilities, unsafe agent behavior, data exposure in AI traffic, and blind spots in enterprise AI inventory. Prisma AIRS brings together best-in-class capabilities to detect, prevent, validate, and govern AI risk at scale. 
 
- AI Runtime API  secures your AI applications, AI data, and AI agents by embedding Security-as-Code directly into your source code. The APIs allow you to scan prompts and model responses to identify potential threats programmatically, and provide actionable recommendations. 
+ Unlike point solutions, Prisma AIRS is the only unified platform that covers the entire AI attack surface: model supply chains, runtime operations, agent behavior, and enterprise discovery. 
 
- AI Model Security  is a comprehensive solution designed to ensure that only secure and vulnerability-free AI/ML models are deployed and used in production environments . It protects against critical risks such as arbitrary code execution during model loading or inference, deserialization threats, neural backdoors, and runtime threats . This is achieved by scanning model versions against defined security rules to identify vulnerabilities and enforce consistent security standards prior to deployment. 
+ Choose Prisma AIRS, for: 
 
- AI Red Teaming is an automated solution designed to assess AI systems, including Large Language Models (LLMs) and LLM-powered applications, for safety and security vulnerabilities . It simulates real-world threats by sending crafted attack prompts to a target AI system and evaluating its responses for compromised content . The service then generates comprehensive reports with a risk score, enabling organizations to proactively identify and mitigate vulnerabilities during AI development. 
+ Unified platform —Eliminates tool sprawl with one integrated solution for the entire AI security lifecycle 
 
- What's New 
+ Enterprise-ready —Deploy with confidence across cloud, hybrid, and on-premise environments 
 
- August 2026 
+ Full AI lifecycle coverage —From development and artifact scanning through runtime protection and ongoing governance 
 
- AI Runtime API
+ Explore capabilities 
 
- Integrate Anthropic Inference Hooks 
-
- OpenAI Codex Integration 
-
- Managing Encryption Keys 
-
- AI Runtime Firewall
-
- AI Discovery with Cortex AISPM 
-
- Diagnose Multi-Cloud Network Connectivity and Security Policy Issues using Cloud Tracer 
-
- AI Model Security
-
- AI Skill Security 
-
- View Model Security Scan Results in Strata Logging Service 
-
- July 2026 
-
- AI Red Teaming
-
- Custom Target Adapter 
-
- Tool Chaining Attack Capability in Agent Scans 
-
- AI Runtime Firewall
+ Capability 
+ What it does 
 
  AI Gateway 
+ Centralizes policy, access controls, and observability for LLM and AI service traffic 
 
- Migrate from Discovery Services to New Infrastructure 
+ AI Runtime Security 
+ Detects and blocks AI threats in real time at the network or code layer 
 
- Multi-Account Onboarding for Azure Tenants 
+ AI Agent Identity 
+ Secures AI agents and MCP-based workflows with zero-trust identity governance 
 
- Security Lifecycle Review (SLR) Support for Azure 
+ Activation and Onboarding 
+ Simplifies setup with guided licensing, deployment profiles, and cloud integration 
 
- Updated vCPU Support 
-
- June 2026 
-
- AI Red Teaming
-
- Privilege Misue Detection for AI Agents 
-
- Configurable Target Profiling 
-
- Multilingual Scanning Support 
-
- AI Runtime API
-
- API Rate Limit Request Process 
-
- AI Runtime Firewall
-
- Migrate VM-Series to AI Runtime Firewall 
-
- May 2026 
-
- AI Model Security
-
- Manage Unified AI Model Identities Across Prisma AIRS 
-
- AI Runtime API
-
- Transaction IDs 
-
- Added Support for Japan and Netherlands Regions 
-
- April 2026 
-
- AI Runtime API
-
- Rate Limiting 
-
- AI Red Teaming
-
- Dedicated Trace Header in Outbound AI Red Teaming Requests 
-
- WebSocket Connection Method Support for AI Target Scanning 
-
- Network Channels Client Version and Upgrade Management 
-
- Microsoft Copilot Studio Native Support 
-
- March 2026 
-
- AI Runtime Firewall
-
- Custom Error Response 
-
- Autoscaling 
-
- Microperimeter 
-
- Single Image for VM-Series and Prisma AIRS 
-
- HSF Cluster Deployment on KVM 
-
- AI Model Security
-
- Enhanced Scan Results and Remediation Guidance 
-
- OpenAPI-Generated AI Model Security Python SDK 
-
- AI Red Teaming
-
- OAuth2.0 Token Refresh for Target Authentication 
-
- February 2026 
-
- AI Runtime Firewall
-
- Threat Snippets in AI Runtime Reporting 
-
- Include Session URL in API Logs 
-
- AI Runtime API
-
- Microsoft Foundry Integration 
-
- API Violations View 
-
- Token-based Licensing 
-
- Multi-category Reporting for Toxicity Content 
-
- AI Red Teaming
-
- Multi-turn Attack Support 
-
- Agentic Target Profiling 
-
- Enhanced AI Red Teaming for AI Agents and Multi-agent Systems 
-
- January 2026 
-
- AI Model Security
-
- Model Security New Model Sources 
-
- Custom Labels for AI Model Security Scan 
-
- Local Scan AI Models Directly from Cloud Storages 
-
- AI Red Teaming
-
- Secure AI Red Teaming with Network Channels 
-
- Remediation Recommendations for AI Red Teaming Risk Assessments 
-
- AI Red Teaming Executive Reports 
-
- AI Summary for AI Red Teaming Scans 
-
- Enhanced AI Red Teaming with Brand Reputation Risk 
-
- December 2025 
-
- AI Model Security
-
- Customized Security Groups and View Enhanced Scan Results 
-
- AI Runtime Firewall
-
- Decommission Auto-Execute Deployed Firewalls 
-
- November 2025 
-
- AI Runtime Firewall
-
- Multi-Cloud Security Fabric 
-
- Secure Private Clusters 
-
- Discovery Data Deletion 
-
- AI Agent Security 
-
- October 2025 
-
- AI Model Security 
+ AI Supply Chain Security 
+ Scans models and AI artifacts for vulnerabilities and malicious content before deployment 
 
  AI Red Teaming 
 
- AI Runtime API
+ Simulates real-world adversarial attacks to probe and harden AI resilience 
 
- AI Sessions and Applications View 
+ AI Inventory 
 
- Command Prompt Injection Detection 
+ Maps AI workloads, resources, and traffic to eliminate blind spots across the enterprise 
 
- September 2025 
-
- AI Runtime API
-
- Secure AI Agents with a Standalone MCP Server 
-
- MCP Threat Detection 
-
- Multiple Applications per Deployment Profile 
-
- On This Page 
-
- On This Page 
-
- Getting Started 
-
- Prisma AIRS Overview 
-
- AI Runtime Security Deployment Profile in CSP 
-
- Onboard and Activate Cloud Account in SCM 
-
- Deploy AI Runtime Security Instance in Public Clouds 
-
- Create an AI Security Profile 
-
- Important Resources 
-
- Activate Your Prisma AIRS License 
-
- Discover Your Cloud Resources 
-
- Deploy AI Runtime Security Instance 
-
- Detect And Alert On Malicious Traffic 
-
- Prevent Network Security Threats
+ Prisma AIRS gives security and development teams a unified platform to see, secure, and govern AI across the enterprise. Whether you're protecting model supply chains, enforcing runtime policies, testing resilience, or mapping AI inventory, Prisma AIRS provides the visibility and controls needed to adopt AI safely.

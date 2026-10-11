@@ -1,0 +1,17 @@
+{
+  "source": "authenticated official KOI documentation",
+  "host": "docs.koi.ai",
+  "imported_at": "2026-10-11T13:54:16Z",
+  "capture_sha256": "2f1860a6980c8c170450bedc027a5bc193b33578f0f0c1485a3fc80f590d7d11",
+  "records": [
+    {
+      "url": "https://docs.koi.ai/get-started/whats-new-in-koi",
+      "sha256": "3d76a844f91550bb249a783c861846d4acc81839e786a39f93e9ddc3d6eecbf6",
+      "capture_file": "data/koi-browser-refresh-2026-10-11/ce78bde3c517fd9b6efe.json",
+      "capture_sha256": "c371364520045a29f0bfa48457c1f4c1e549d2b3012307389b1a459fd821e3a3",
+      "local_path": "data/pages/ce78bde3c517fd9b6efe.md"
+    }
+  ],
+  "invalid": 0,
+  "failures": []
+}

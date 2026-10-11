@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/managed-ai-runtime-security-for-aws/managed-airs-for-aws-protect/managed-airs-secure-amazon-eks-traffic
-fetched_at: 2026-09-16T07:54:45Z
+fetched_at: 2026-10-11T09:53:46Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Thu Oct 01 08:11:56 PDT 2026 
 
  Focus 
 
@@ -16,7 +16,7 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
  Managed AI Runtime Security for AWS 
 
@@ -38,15 +38,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -65,37 +73,11 @@ Updated on
  Secure AI container traffic in your Amazon EKS environment by deploying Managed AIRS
  for AWS. 
 
- Where Can I Use This? What Do I Need? 
-
- Managed AIRS for AWS 
-
- Access to Strata Cloud Manager (SCM) 
-
- Secure AI container traffic in your Amazon EKS environment by deploying Managed AIRS
- for AWS as a network intercept for your container workloads. 
-
- Complete Deploy Managed AIRS for AWS in
- Strata Cloud Manager . 
-
- Complete Create Endpoints for Managed AIRS for
- AWS . 
-
- View Registered Managed AIRS for AWS
- Resources in Strata Cloud Manager . 
-
- Ensure EKS POD-to-POD traffic is redirected to Managed AIRS for AWS
- resource. 
-
- Author and Enforce Managed AIRS for
- AWS Policies in Strata Cloud Manager . 
-
- Redirect Amazon EKS traffic to Managed AIRS resource 
-
  The following are the steps below to extract, configure, deploy, validate, and
  activate the PAN CNI Helm chart on your EKS cluster. 
 
- Download the Helm charts from the Resource page
- under the Managed AIRS section. 
+ Download the Helm charts from the Resource page under
+ the Managed AIRS section. 
 
  Extract the helm chart. 
 
@@ -106,20 +88,20 @@ ls helm-chart/
 
  Chart.yaml crds plugin-serviceaccount.yaml templates values.yaml 
 
- Locate and open the values.yaml file within the
- downloaded Helm folder structure. 
+ Locate and open the values.yaml file within the downloaded
+ Helm folder structure. 
 
  Edit the values.yaml file to match your firewall
  deployment. 
 
  vi helm-chart/values.yaml 
 
- In values.yaml , populate the
- endpoints field as a list — one entry per
- Availability Zone where your EKS cluster has active nodes. Each entry
- requires two fields: address (the private IP of the
- GWLBE ENI in that Availability Zone) and zone (the
- exact Availability Zone name matching where your nodes run). 
+ In values.yaml , populate the endpoints 
+ field as a list — one entry per Availability Zone where your EKS cluster has
+ active nodes. Each entry requires two fields: address (the
+ private IP of the GWLBE ENI in that Availability Zone) and
+ zone (the exact Availability Zone name matching where
+ your nodes run). 
 
  Single Availability Zone deployment: 
 
@@ -127,8 +109,7 @@ ls helm-chart/
  - address: 10.2.23.80
  zone: us-west-2b 
 
- Multi-Availability Zone deployment (one GWLBE ENI per Availability
- Zone): 
+ Multi-Availability Zone deployment (one GWLBE ENI per Availability Zone): 
 
  endpoints:
  - address: 10.2.23.80
@@ -204,10 +185,10 @@ The output confirms PAN CNI is chained as the last plugin in the AWS CNI conflis
 
  Annotate the application namespace. 
 
- Annotate the namespace so that PAN CNI intercepts all pod traffic within
- it and redirects it to the firewall for inspection. The annotation value
- pa n-fw must match the firewall field
- in the pan-cni-config ConfigMap. 
+ Annotate the namespace so that PAN CNI intercepts all pod traffic within it
+ and redirects it to the firewall for inspection. The annotation value pa
+ n-fw must match the firewall field in
+ the pan-cni-config ConfigMap. 
 
  # Annotate namespace so PAN CNI intercepts all pod traffic in it
 kubectl annotate namespace cngfw-traffic \
@@ -223,8 +204,8 @@ kubectl describe namespace cngfw-traffic | grep paloaltonetworks
  Restart application pods. 
 
  Pods that were running before the annotation was applied retain their
- original routing and will not be intercepted by PAN CNI. Restarting the
- pods ensures all traffic is redirected through the firewall. 
+ original routing and will not be intercepted by PAN CNI. Restarting the pods
+ ensures all traffic is redirected through the firewall. 
 
  # Pods running before annotation must be restarted
 kubectl rollout restart deployment -n cngfw-traffic

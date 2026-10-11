@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/activate-your-ai-runtime-security-license/activate-strata-logging-service
-fetched_at: 2026-09-16T07:54:35Z
+fetched_at: 2026-10-11T09:53:09Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Tue Aug 11 09:28:58 PDT 2026 
+ Sep 9, 2026 
 
  Focus 
 
@@ -16,9 +16,7 @@ Updated on
 
  Prisma AIRS 
 
- Activation & Onboarding 
-
- Prisma AIRS Licenses 
+ Activation and Onboarding 
 
  Activate Strata Logging Service 
 
@@ -36,15 +34,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -52,11 +58,11 @@ Updated on
 
  Previous 
 
- Activate Your Software NGFW Credits 
+ Transfer Credits 
 
  Next 
 
- Generate a Device Certificate for Prisma AIRS AI Runtime Firewall 
+ Manage a Deployment Profile 
 
  Activate Strata Logging Service 
 
@@ -64,19 +70,21 @@ Updated on
 
  Where Can I Use This? What Do I Need? 
 
- Prisma AIRS AI Runtime security 
+ Prisma AIRS (API Intercept) 
+
+ Strata Cloud Manager 
 
  Strata Logging Service
- License license 
+ license 
 
  Access to the purchase confirmation email 
 
  Palo Alto Networks Customer Support Portal credentials 
 
- When your Strata Logging Service subscription expires, you’ll have a 30-day
+ When your Strata Logging Service subscription expires, you will have a 30-day
  grace period to renew your license before log data is deleted. 
 
- Click on the link in your purchase confirmation email. 
+ Click the link in your purchase confirmation email. 
 
  Select your Strata Logging Service subscription and click
  Activate Subscription . 
@@ -90,7 +98,7 @@ Updated on
  Create a new tenant service group (TSG) or select
  an existing TSG. 
 
- If you're activating the Strata Logging Service instance in a new
+ If you are activating the Strata Logging Service instance in a new
  TSG, select Create New from the Tenant drop-down
  list and then enter a tenant name. 
 
@@ -114,8 +122,8 @@ Updated on
 
  Previous 
 
- Activate Your Software NGFW Credits 
+ Transfer Credits 
 
  Next 
 
- Generate a Device Certificate for Prisma AIRS AI Runtime Firewall
+ Manage a Deployment Profile

@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/managed-ai-runtime-security-for-aws/managed-airs-for-aws-deploy-and-configure
-fetched_at: 2026-09-16T07:54:45Z
+fetched_at: 2026-10-11T09:53:31Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Thu Oct 01 08:11:56 PDT 2026 
 
  Focus 
 
@@ -16,7 +16,7 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
  Managed AI Runtime Security for AWS 
 
@@ -36,15 +36,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -56,7 +64,7 @@ Updated on
 
  Next 
 
- Deploy Managed AIRS for AWS in Strata Cloud Manager 
+ Deploy Managed AIRS for AWS in Strata Cloud Manage 
 
  Deploy 
 
@@ -67,28 +75,33 @@ Updated on
 
  Managed AIRS for AWS 
 
- Access to Strata Cloud Manager (SCM) 
+ Managed AIRS for AWS subscription 
 
- Managed AIRS for AWS offers a streamlined Try & Buy workflow in Strata
- Cloud Manager (SCM) that lets you deploy AWS resources, configure policies, and
- handle all administrative tasks instantly. You can explore the platform immediately
- without any complex IAM setups , account onboarding, or upfront
- billing commitments. 
+ Palo Alto Networks Customer Support Account (CSP) 
 
- Start a free trial by deploying Managed AIRS for AWS resources directly
- from the SCM console. You then create endpoints in your AWS VPCs and redirect traffic to
- this Managed AIRS for AWS resource. 
+ AWS Marketplace account 
 
- You can monitor the resource health on the same console. You can also monitor
- your Managed AIRS for AWS’s logs in the Strata Cloud Manager’s Log Viewer 
- page. 
+ User role (either tenant or administrator) 
 
- Easily stream your logs to an S3 bucket by establishing cross-account access using resource-based
- policies . Optionally, you can onboard AWS account(s) into SCM to stream logs
- and metrics to Cloudwatch. 
+ You have a streamlined onboarding and management experience for Managed AIRS for AWS and
+ can handle all administrative tasks directly from Strata Cloud Manager. This Try and Buy
+ workflow lets you deploy Managed AIRS for AWS resources and configure policies without
+ establishing cross-account IAM roles or committing to billing immediately. You can
+ generate a billing code to complete your AWS Marketplace subscription, link billing, and
+ then optionally purchase long-term contract credits at private pricing — all without
+ disrupting your existing Managed AIRS for AWS resources. 
+
+ Start a free trial by deploying Managed AIRS for AWS resources directly from the Strata
+ Cloud Manager console. You then create endpoints in your AWS VPCs and redirect traffic
+ to the Managed AIRS for AWS resource. You can monitor resource health and logs from the
+ same console, including the Log Viewer page. 
+
+ You can also stream logs to an S3 bucket using resource-based policies for cross-account
+ access, or optionally onboard AWS accounts into Strata Cloud Manager to stream logs and
+ metrics to CloudWatch. 
 
  This trial allows you to explore the full features during a trial period before
- buying the product. For more information, see Deploy Managed AIRS for AWS in Strata Cloud Manager . 
+ buying the product. 
 
  Previous 
 
@@ -96,4 +109,4 @@ Updated on
 
  Next 
 
- Deploy Managed AIRS for AWS in Strata Cloud Manager
+ Deploy Managed AIRS for AWS in Strata Cloud Manage

@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/release-notes
-fetched_at: 2026-09-16T07:55:09Z
+fetched_at: 2026-10-11T09:53:45Z
 source: ai-security
 ---
 

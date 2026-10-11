@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/agent-discovery/protect-agents-using-api-intercept
-fetched_at: 2026-09-16T07:54:38Z
+fetched_at: 2026-10-11T09:53:13Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Oct 1, 2026 
 
  Focus 
 
@@ -16,9 +16,9 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Runtime Security 
 
- Agent Discovery 
+ AIRS API 
 
  View and Protect Agents Using API Intercept 
 
@@ -36,15 +36,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -52,11 +60,11 @@ Updated on
 
  Previous 
 
- Setup AI Agent Discovery 
+ Prisma AIRS API Scan Logs 
 
  Next 
 
- AI Agent Discovery Limitations 
+ Display Insights Using API Violations View 
 
  View and Protect Agents Using API Intercept 
 
@@ -79,7 +87,7 @@ Updated on
  and private models with model-agnostic functionality. Its model-agnostic design
  ensures seamless integration with any AI model, regardless of its architecture or
  framework. This enables consistent security across diverse AI models without any
- model-specific customization. For more information, see the API Intercept Overview page . 
+ model-specific customization; see the API Intercept Overview for deployment details. 
 
  Before using Strata Cloud Manager to view and configure enterprise agents for AI
  Agent Discovery you need to Onboard and activate Prisma AIRS AI
@@ -89,17 +97,18 @@ Updated on
 
  This process allows you to
  activate an AUTH key to retrieve an API key and the sample code template you can
- embed in your application to detect threats. Once you've onboarded and activated
+ embed in your application to detect threats. Once you have onboarded and activated
  API Intercept you can enforce security policy rules. After onboarding you can
+
  use AI Agent Discovery for your enterprise AI agents. 
 
  Use Strata Cloud Manager to View and Configure Enterprise Agents 
 
  To view and configure Enterprise Agents using Strata Cloud Manager: 
 
- Log into Strata Cloud Manager (SCM) . 
+ Log into Strata Cloud Manager . 
 
- In SCM, select AI Security > AI Agent Security > Enterprise
+ In Strata Cloud Manager, select AI Security > AI Agent Security > Enterprise
  Agents . 
 
  The All Agents page appears. You can use
@@ -135,8 +144,7 @@ Updated on
  button next to the profile, then click Next : 
 
  After you activate the deployment profile, you
- can create a security profile if one hasn't been configured. Refer to
- this page for more information.
+ can create a security profile if one hasn't been configured (see Create and Configure API Security Profile ).
 
  In the Create Security Profile page: 
 
@@ -183,8 +191,7 @@ Updated on
  Click the Generate API key. 
 
  After you generate the API key you
- can integrate the AIRS API into your application. Refer to the API reference documentation 
- for more information. 
+ can integrate the AIRS API into your application using the API reference documentation . 
 
  When AI agents exist in the unprotected state they are displayed in
  the All Agents dashboard: 
@@ -204,7 +211,7 @@ Updated on
 
  In addition to using Strata Cloud Manager to configure elements of AI Agent
  Discovery, you can also leverage the Prisma AIRS AI Runtime API to help discover
- and protect applications using REST APIs. Refer to the API reference documentation for more
+ and protect applications using REST APIs via the API reference documentation for more
  information. 
 
  There are a few important things to consider when using APIs for Agent
@@ -213,6 +220,7 @@ Updated on
  account. 
 
  There are agent metadata requirements for: 
+
  AWS: all 3 agent metadata fields are required. 
 
  Azure: only the agent_id field is
@@ -220,8 +228,8 @@ Updated on
 
  Previous 
 
- Setup AI Agent Discovery 
+ Prisma AIRS API Scan Logs 
 
  Next 
 
- AI Agent Discovery Limitations
+ Display Insights Using API Violations View

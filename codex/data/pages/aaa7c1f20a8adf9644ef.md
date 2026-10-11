@@ -1,14 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/ai-supply-chain-security/model-security-to-secure-your-ai-models/get-started-with-ai-model-security/scanning-models/scanning-models-hugging-face-model
-fetched_at: 2026-09-16T07:54:52Z
+fetched_at: 2026-10-11T09:53:14Z
 source: ai-security
 ---
 
-# Scan a Hugging Face Model Clear
+# Hugging Face Model Scans Clear
 
 Updated on 
 
- Tue Sep 01 00:57:11 PDT 2026 
+ Tue Sep 15 00:43:53 PDT 2026 
 
  Focus 
 
@@ -18,19 +18,21 @@ Updated on
 
  AI Supply Chain Security 
 
- Secure Your AI Models with AI Model Security 
+ AI Supply Chain Security 
+
+ AI Model Security Overview 
 
  Get Started with AI Model Security 
 
  Scanning Models 
 
- Scan a Hugging Face Model 
+ Hugging Face Model Scans 
 
  Download PDF 
 
  Prisma AIRS 
 
- Scan a Hugging Face Model 
+ Hugging Face Model Scans 
 
  Table of Contents 
 
@@ -40,21 +42,29 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
  New Features 
 
- Scan a Hugging Face Model 
+ Hugging Face Model Scans 
 
  Scan a model hosted on Hugging Face. 
 

@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/administration/discover-your-cloud-resources/ai-traffic-network-risk-analysis
-fetched_at: 2026-09-16T07:54:41Z
+fetched_at: 2026-10-11T09:53:16Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Mon Aug 24 04:41:52 PDT 2026 
+ Oct 5, 2026 
 
  Focus 
 
@@ -16,9 +16,9 @@ Updated on
 
  Prisma AIRS 
 
- Administration 
+ AI Inventory 
 
- Discover Your Cloud Resources 
+ AI Traffic and Application Visibility 
 
  Analyze Risk in Network Traffic 
 
@@ -36,15 +36,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -52,11 +60,11 @@ Updated on
 
  Previous 
 
- Discover Your Cloud Resources 
+ AI Traffic and Application Visibility 
 
  Next 
 
- View You VPCs, VNets, and Applications with the Cloud Asset Map 
+ AI Sessions and API Application Views 
 
  Analyze Risk in Network Traffic 
 
@@ -88,7 +96,7 @@ Updated on
 
  Log in to Strata Cloud Manager . 
 
- Navigate to AI Security AI Runtime Firewall . 
+ Select AI Security AI Runtime Firewall . 
 
  Select the Operational view to analyze the bidirectional communication
  flows between users to applications, applications to the AI model, applications
@@ -153,7 +161,7 @@ Updated on
 
  Select Add Protection ("+" icon) and place Prisma AIRS firewall between AI models and
  applications. 
- Refer to Deploy Prisma AIRS AI Runtime, VM-Series, and CNGFW Firewalls for your cloud
+ See AI Runtime Firewall, VM-Series, and CNGFW Deployment in Public Clouds for your cloud
  provider's workflow. 
 
  Internet View 
@@ -187,7 +195,7 @@ Updated on
 
  Select Add Protection ("+" icon) and place Prisma AIRS firewall or VM-Series 
  between the internet and applications. 
- Refer to Deploy Prisma AIRS AI Runtime, VM-Series, and CNGFW Firewalls for your cloud
+ See AI Runtime Firewall, VM-Series, and CNGFW Deployment in Public Clouds for your cloud
  provider's workflow. 
 
  Users View 
@@ -213,7 +221,7 @@ Updated on
 
  Select Add Protection ("+" icon) and place Prisma AIRS firewall between users and
  applications. 
- Refer to Deploy Prisma AIRS AI Runtime, VM-Series, and CNGFW Firewalls for your cloud
+ See AI Runtime Firewall, VM-Series, and CNGFW Deployment in Public Clouds for your cloud
  provider's workflow. 
 
  Application Threats Breakdown 
@@ -283,8 +291,8 @@ Updated on
 
  Previous 
 
- Discover Your Cloud Resources 
+ AI Traffic and Application Visibility 
 
  Next 
 
- View You VPCs, VNets, and Applications with the Cloud Asset Map
+ AI Sessions and API Application Views

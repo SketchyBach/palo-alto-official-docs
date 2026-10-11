@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/new-features/by-date/prisma-airs/july-2026#1ea5c4d652b18a5372909e5bc240f2ff
-fetched_at: 2026-09-16T07:55:05Z
+fetched_at: 2026-10-11T09:52:42Z
 source: ai-security
 ---
 

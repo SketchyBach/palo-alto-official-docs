@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/new-features/by-date/prisma-airs/august-2026#6f4c2d695578bd054b9be5dd637f545f
-fetched_at: 2026-09-16T07:55:02Z
+fetched_at: 2026-10-11T09:53:24Z
 source: ai-security
 ---
 
@@ -20,7 +20,7 @@ Focus
 
  Release Date: August 2026 
  | 
- Last Updated: August 2026 
+ Last Updated: September 2026 
 
  The AI Discovery with Cortex AISPM feature gives you complete visibility into your organization's AI assets and their security posture from within Prisma AIRS powered by Cortex Cloud. By connecting to Cortex Cloud's AI Security Posture Management (AI-SPM), Prisma AIRS can now: 
 

@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/ai-skill-security/review-skill-scan-results
-fetched_at: 2026-09-16T07:54:49Z
+fetched_at: 2026-10-11T09:52:34Z
 source: ai-security
 ---
 

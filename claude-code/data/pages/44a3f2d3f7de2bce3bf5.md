@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/ai-supply-chain-security/model-security-to-secure-your-ai-models/get-started-with-ai-model-security
-fetched_at: 2026-09-16T07:54:50Z
+fetched_at: 2026-10-11T09:52:29Z
 source: ai-security
 ---
 
@@ -8,7 +8,7 @@ source: ai-security
 
 Updated on 
 
- Tue Sep 01 00:57:11 PDT 2026 
+ Sep 15, 2026 
 
  Focus 
 
@@ -18,7 +18,9 @@ Updated on
 
  AI Supply Chain Security 
 
- Secure Your AI Models with AI Model Security 
+ AI Supply Chain Security 
+
+ AI Model Security Overview 
 
  Get Started with AI Model Security 
 
@@ -36,15 +38,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -52,7 +62,7 @@ Updated on
 
  Previous 
 
- Secure Your AI Models with AI Model Security 
+ AI Model Security Overview 
 
  Next 
 
@@ -110,7 +120,7 @@ Updated on
 
  Previous 
 
- Secure Your AI Models with AI Model Security 
+ AI Model Security Overview 
 
  Next 
 

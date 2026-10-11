@@ -1,14 +1,14 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/ai-runtime-security-api-intercept-overview/configure-openai-codex-integration
-fetched_at: 2026-09-16T07:54:35Z
+fetched_at: 2026-10-11T09:52:53Z
 source: ai-security
 ---
 
-# Configure OpenAI Codex Integration Clear
+# Prisma AIRS AI Runtime: API Intercept Overview Clear
 
 Updated on 
 
- Tue Aug 11 09:28:58 PDT 2026 
+ Thu Oct 01 08:11:56 PDT 2026 
 
  Focus 
 
@@ -16,17 +16,17 @@ Updated on
 
  Prisma AIRS 
 
- Activation & Onboarding 
+ AI Runtime Security 
+
+ AIRS API 
 
  Prisma AIRS AI Runtime: API Intercept Overview 
-
- Configure OpenAI Codex Integration 
 
  Download PDF 
 
  Prisma AIRS 
 
- Configure OpenAI Codex Integration 
+ Prisma AIRS AI Runtime: API Intercept Overview 
 
  Table of Contents 
 
@@ -36,15 +36,23 @@ Updated on
  | 
  Collapse All 
 
- Prisma AIRS Docs 
+ Prisma AIRS 
+
+ Getting Started 
 
  Activation & Onboarding 
 
- Administration 
+ AI Inventory 
+
+ AI Red Teaming 
 
  AI Supply Chain Security 
 
- AI Red Teaming 
+ AI Runtime Security 
+
+ AI Gateway 
+
+ AI Agent Identity 
 
  Release Notes 
 
@@ -52,145 +60,95 @@ Updated on
 
  Previous 
 
- Integrate Anthropic Inference Hooks 
+ AIRS API 
 
  Next 
 
- Prisma AIRS MCP Server for Centralized AI Agent Security 
+ Prisma AIRS Integration with Cortex AES for AI Coding Agent Security 
 
- Configure OpenAI Codex Integration 
+ Prisma AIRS AI Runtime: API Intercept Overview 
 
- Learn about Prisma AIRS integration with OpenAI Codex. 
+ Use Prisma AIRS AI Runtime: API intercept to embed Prisma AIRS
+ Security-as-Code in your applications. 
 
  Where Can I Use This? What Do I Need? 
 
- Prisma AIRS AI Runtime Security in
- AWS 
+ Security-in-Code with Prisma AIRS AI
+ Runtime: API intercept 
 
- Prisma AIRS AI Runtime Firewall Prerequisites and Limitations 
+ Prisma AIRS Licenses 
 
- Prisma AIRS Runtime API integrates natively with OpenAI Codex Enterprise to
- enforce real-time threat prevention and Data Loss Prevention (DLP) across every
- developer prompt in your organization. Inspection happens at the platform level;
- developers experience no workflow changes, plugin installs, or latency. 
+ Prisma AIRS AI Runtime: API intercept is a threat
+ detection service designed to secure AI applications. It helps discover and protect
+ applications using REST APIs by embedding Security-as-Code directly into source
+ code. 
 
- When Prisma AIRS detects a threat, it sends a block verdict to OpenAI Codex
- before the prompt reaches the destination model or any connected MCP server. 
+ The Scan API service scans prompts and models responses to identify
+ potential threats and provides actionable recommendations. 
 
- Prerequisites 
+ The APIs protect your AI models, applications, and datasets by programmatically scanning
+ prompts and models for threats, enabling robust protection across public and private
+ models with model-agnostic functionality. Its model-agnostic design ensures seamless
+ integration with any AI model, regardless of its architecture or framework. This enables
+ consistent security across diverse AI models without any model-specific
+ customization. 
 
- OpenAI Codex Enterprise account with admin access 
+ You can use this API in your application to send prompts or model responses and
+ receive a threat assessment, along with the recommended actions based on your API
+ security profile. 
 
- Prisma AIRS management (via Strata Cloud Manager) access with
- permission to generate API credentials 
+ For information on using the APIs, see the Prisma
+ AIRS API reference documentation. 
 
- To configure OpenAI Codex integration: 
+ Key Features : 
 
- Retrieve your Prisma AIRS credentials: 
+ Simple integration: Secure AI application models and datasets from insecure model
+ outputs, prompt injections, and sensitive data loss. 
 
- Log into Strata Cloud Manager
- (SCM) . 
+ Comprehensive threat detection: Provides extensive app, model, and data threat
+ detection while maintaining ease of use. 
 
- Click AI Security > AI Runtime > API Applications : 
+ Exceptional flexibility and defense: Integrates API-based threat detection to
+ deliver unmatched adaptability and layered protection. 
 
- Click Manage in the upper right portion of
- the AI Applications page: 
+ Activation and Onboarding Workflow 
 
- Select API Keys . 
+ Use Cases 
 
- In the Manage API Keys screen, click
- Add New Application/API Key . 
+ Secure AI models in production : Validate prompt requests and
+ responses to protect deployed AI models. 
 
- Follow the onboarding work flow to generate a new API Key and endpoint
- URL. Copy both values; you'll use this information to configure the
- OpenAI Codex. 
+ Detect data poisoning : Identify contaminated training data
+ before fine-tuning. 
 
- Configure the OpenAI Codex: 
+ Protect adversarial input : Safeguard AI agents from malicious
+ inputs and outputs while maintaining workflow flexibility. 
 
- Sign in to the OpenAI Codex Enterprise admin dashboard. 
+ Prevent sensitive data leakage : Use API-based threat detection
+ to block sensitive data leaks during AI interactions. 
 
- Locate the security or API integration settings. 
+ Limitations 
 
- Paste the Prisma AIRS API key and endpoint URL into the designated
- fields. 
+ One API key per deployment profile - Each deployment profile in the
+ Customer Support Portal allows a
+ single API key. 
 
- Save the configuration. 
+ Each API key created in a specific region can only be used within that region.
+ Cross-region use of API keys isn’t supported. A region can have multiple API keys
+ associated with it. 
 
- Activate org-wide scanning in the OpenAI Codex Enterprise admin dashboard. 
+ 2 MB maximum payload size per synchronous scan request - Limited to a maximum of 100
+ URLs per request. 
 
- Once saved, all users in Codes across your OpenAI organization are
- automatically routed through the Prisma AIRS Runtime API for real-time
- inspection. No additional action is required. 
+ 5 MB maximum payload size per asynchronous scan request - Limited to a maximum of
+ 100 URLs per request. 
 
- What Gets Inspected 
- Prisma AIRS scans every developer prompt before
- it reaches the model, covering two threat vectors: 
-
- Data Loss
- Prevention 
-
- Data Loss Prevention (DLP) Examples 
-
- Secrets and credentials API keys, passwords, tokens, private keys 
-
- PII and financial data Personal identifiers, regulated data patterns 
-
- Proprietary code and IP Internal architecture, trade secrets, custom pattern
- rules 
-
- Threat and Malicious Code Detection 
-
- Threat Type Description 
-
- Malicious code patterns Obfuscated scripts, dangerous command executions, known
- exploit patterns 
-
- Malicious URLs Phishing domains or unverified links embedded in
- prompts 
-
- Prompt manipulation attacks Adversarial inputs designed to bypass controls or alter
- model behavior 
-
- How it Works 
-
- Prisma AIRS operates as an inline security
- layer between the developer and the destination model: 
-
- The developer submits a prompt in OpenAI Codex. 
-
- The prompt is routed to the Prisma AIRS Runtime API for
- inspection. 
-
- If clean — the prompt is forwarded to the model as
- normal. 
-
- If a threat is detected — a block verdict is returned and
- the prompt is stopped before reaching the model or any MCP
- server. 
-
- Developers see no difference in their normal
- workflow. Security teams receive centralized logs and policy enforcement
- across the entire engineering organization. 
-
- Audit &
- Visibility 
-
- Because inspection occurs at the administrative API
- layer, security teams gain: 
-
- Centralized policy enforcement — consistent rules applied
- across all users and sessions 
-
- Audit-ready logging — full visibility into blocked and
- allowed traffic 
-
- No per-developer configuration — governance is org-wide
- from a single control point 
+ Asynchronous requests are limited to a maximum of 25 batched requests. 
 
  Previous 
 
- Integrate Anthropic Inference Hooks 
+ AIRS API 
 
  Next 
 
- Prisma AIRS MCP Server for Centralized AI Agent Security
+ Prisma AIRS Integration with Cortex AES for AI Coding Agent Security

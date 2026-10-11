@@ -1,12 +1,182 @@
 ---
 url: https://cortex-docs.paloaltonetworks.com/cortex-xdr-5.x/protect-your-endpoints/install-and-manage-endpoints/set-up-endpoint-protection/set-up-endpoint-profiles-and-exception-rules/set-up-agent-settings-profiles
-fetched_at: 2026-09-16T08:42:49Z
+fetched_at: 2026-10-11T10:02:29Z
 source: cortex-platform
 ---
 
 # Set up agent settings profiles | Cortex Documentation Portal arrow-up-right-and-arrow-down-left-from-center
 
-For the complete documentation index, see llms.txt . This page is also available as Markdown . 
+Set up agent settings profiles | Cortex Documentation Portal 
+
+ ⌘ Ctrl k 
+
+ Blog Support 
+ More 
+
+ Home 
+
+ Products 
+
+ Guides 
+
+ Release Notes 
+
+ API 
+
+ Reference 
+
+ AI Assistant 
+
+ I'm here to help you with the docs. 
+
+ Start with a task for Cortex AgentiX 
+
+ ⌘ Ctrl i 
+
+ AI Based on your context 
+ Send 
+
+ Learn about Cortex XDR 5.x 
+
+ Navigate the Cortex XDR 5.x docs 
+
+ What is Cortex XDR ? 
+
+ Agentic AI in Cortex XDR 
+
+ What is Cortex Gateway? 
+
+ Fair Usage policy for Cortex XDR 
+
+ Cortex XDR license plan 
+
+ Security Operations Center roles and responsibilities 
+
+ In-product support ticket creation 
+
+ Use the interface 
+
+ Supported web browsers 
+
+ Upgrade to Cortex XDR 5.x 
+
+ Extend Cortex XDR 5.x with Cortex Cloud Runtime Security 
+
+ Onboard Cortex XDR 
+
+ Deployment steps 
+
+ Post-deployment steps 
+
+ Multi-Tenant 
+
+ Configure Cortex XDR 
+
+ Configure and deploy Cortex XDR 
+
+ Data management 
+
+ Cortex XDR Data Sources and Connectors 
+
+ Marketplace 
+
+ Manage API keys 
+
+ XQL query management 
+
+ Customize cases and issues 
+
+ Managed Services configuration 
+
+ Protect your endpoints 
+
+ Endpoint protection 
+
+ Install and manage endpoints 
+
+ Set up endpoint protection 
+
+ Set up endpoint profiles and exception rules 
+
+ Set up malware prevention profiles 
+
+ Set up exploit prevention profiles 
+
+ Set up agent settings profiles 
+
+ Set up restrictions prevention profiles 
+
+ Set up exception profiles and rules 
+
+ Set up Identity profiles 
+
+ Define endpoint groups 
+
+ Configure global agent settings 
+
+ Apply profiles to endpoints 
+
+ Create an agent installation package 
+
+ Manage an agent installation package 
+
+ Harden endpoint security 
+
+ Manage endpoint protection 
+
+ Web and API Security (WAAS) 
+
+ Endpoint DLP 
+
+ Detect, investigate, and respond to threats 
+
+ Monitor dashboards and reports 
+
+ Asset management 
+
+ Investigate and respond to cases 
+
+ Agentic Assistant chat 
+
+ Threat management 
+
+ Attack surface management 
+
+ Monitor and track compliance adherence 
+
+ Exposure management 
+
+ Vulnerability management 
+
+ Cortex Advanced Email Security 
+
+ Identity Threat Detection and Response (ITDR) 
+
+ Reference and developer docs 
+
+ Cortex XDR XQL 
+
+ Graph Search 
+
+ Cortex XDR API Reference 
+
+ Role-Based Access Control 
+
+ Cortex secure deployment practices 
+
+ Microsoft Windows security auditing setup 
+
+ Migrate to a new Broker VM image 
+
+ Learn more about migrating to the latest Broker VM image 
+
+ Standalone Broker VM 
+
+ Broker VM high availability cluster node 
+
+ On this page 
+
+ For the complete documentation index, see llms.txt . This page is also available as Markdown . 
 
  Ask 
  On this page 
@@ -1765,6 +1935,26 @@ To restore the default value, select Use Default (Disabled).
 
  Next Set up restrictions prevention profiles 
 
- Last updated 15 days ago 
+ Last updated 1 month ago 
+
+ Was this helpful? 
+
+ ‍ 
+
+ Trust Center 
+
+ ‍ 
+
+ Privacy 
+
+ ‍ 
+
+ Terms of Use 
+
+ ‍ 
+
+ Legal 
+
+ © 2026 Palo Alto Networks, Inc. All rights reserved. 
 
  Was this helpful?

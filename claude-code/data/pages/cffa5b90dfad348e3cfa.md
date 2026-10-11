@@ -1,6 +1,6 @@
 ---
 url: https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/model-security-to-secure-your-ai-models/manage-ai-model-versions-using-content-based-fingerprinting
-fetched_at: 2026-09-16T07:54:55Z
+fetched_at: 2026-10-11T09:53:28Z
 source: ai-security
 ---
 
